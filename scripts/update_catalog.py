@@ -52,7 +52,7 @@ def fetch(url):
 
 
 def normalize_key(value):
-    return re.sub(r"\\s+", " ", str(value or "")).strip().casefold()
+    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
 
 
 def parse_m3u(text, source_id, priority):
@@ -61,7 +61,7 @@ def parse_m3u(text, source_id, priority):
         line = raw.strip()
         if line.startswith("#EXTINF:"):
             name = line.rsplit(",", 1)[-1].strip()
-            attrs = {k: v for k, v in re.findall(r'([\\w-]+)="([^"]*)"', line)}
+            attrs = {k: v for k, v in re.findall(r'([\w-]+)="([^"]*)"', line)}
         elif line and not line.startswith("#") and name:
             channel_name = (attrs.get("tvg-name") or name).strip()
             if safe_https_url(line) and channel_name:
