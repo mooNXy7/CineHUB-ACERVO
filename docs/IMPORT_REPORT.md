@@ -14,6 +14,19 @@ Data da importação: 2026-10-15
 
 A lista de origem contém grande volume de URLs HTTP sem TLS, endereços IP diretos, URLs com segmentos que aparentam credenciais de acesso e proxies/relays. Não é seguro tratá-las como fontes públicas estáveis apenas porque aparecem em um repositório. Antes de ativá-las, precisamos verificar autorização de redistribuição, ausência de credenciais privadas, estabilidade e compatibilidade.
 
+## Fontes públicas oficiais adicionadas
+
+Foi criada uma lista curada em `sources/m3u/public-brazil.m3u` com endpoints HTTPS publicados nos domínios oficiais da EBC e da Câmara dos Deputados:
+
+- TV Brasil
+- Canal Gov
+- Canal Educação
+- Canal Libras
+- TV Câmara
+- TV Câmara 2
+
+Os seis endpoints foram adicionados ao catálogo como `pending_validation`: isso significa que foram identificados como URLs oficiais HTTPS, mas ainda precisam de verificação automatizada de disponibilidade e teste real de reprodução nos aplicativos. A rotina diária poderá atualizar as fontes sem apagar metadados existentes. A lista não inclui canais pagos de terceiros nem streams com credenciais.
+
 ## Próximas ações
 
 1. Revisar fontes de canais e selecionar streams públicos e autorizados.
