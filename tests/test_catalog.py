@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
+from import_reference_catalog import merge_record, parse_search_index, safe_candidate
 
 
 class CatalogShapeTests(unittest.TestCase):
@@ -56,6 +57,46 @@ class SourceSafetyTests(unittest.TestCase):
         ):
             with self.subTest(url=url):
                 self.assertFalse(safe_https_url(url))
+
+    def test_reference_import_filters_credentials_but_keeps_public_http_sources(self):
+        self.assertTrue(safe_candidate("http://cdn.example.org/channel.m3u8"))
+        self.assertFalse(safe_candidate("https://user:pass@example.org/live"))
+        self.assertFalse(safe_candidate("https://example.org/live.m3u8?token=abc"))
+        self.assertFalse(safe_candidate("http://example.org/movie/user/pass/123.mp4"))
+
+    def test_reference_search_index_parses_movies_and_series(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "busca.txt"
+            path.write_text("Filme Exemplo (2020)\\tf\\tF\\nSérie Exemplo\\ts\\tS\\t2022\\n", encoding="utf-8")
+            movies, series = parse_search_index(path)
+        self.assertEqual(len(movies), 1)
+        self.assertEqual(len(series), 1)
+        self.assertEqual(next(iter(movies.values()))["year"], "2020")
+        self.assertEqual(next(iter(series.values()))["year"], "2022")
+
+    def test_merge_record_preserves_old_sources_and_episode_sources(self):
+        old = {
+            "id": "series-exemplo", "title": "Série Exemplo", "sources": [
+                {"url": "https://cdn.example.org/old.m3u8", "priority": 5}
+            ], "provider_refs": [], "seasons": [
+                {"season": 1, "episodes": [{"episode": 1, "audio": "dub", "sources": [
+                    {"url": "https://cdn.example.org/ep1.m3u8"}
+                ], "provider_refs": []}]}
+            ]
+        }
+        incoming = {
+            "id": "series-exemplo", "title": "Série Exemplo", "sources": [
+                {"url": "https://cdn.example.org/new.m3u8", "priority": 1}
+            ], "provider_refs": [], "seasons": [
+                {"season": 1, "episodes": [{"episode": 1, "audio": "dub", "sources": [
+                    {"url": "https://cdn.example.org/ep1-new.m3u8"}
+                ], "provider_refs": []}]}
+            ]
+        }
+        merged = merge_record(old, incoming)
+        self.assertEqual(len(merged["sources"]), 2)
+        self.assertEqual(len(merged["seasons"][0]["episodes"][0]["sources"]), 2)
 
     def test_m3u_parser_keeps_only_safe_https_streams(self):
         text = """#EXTM3U
