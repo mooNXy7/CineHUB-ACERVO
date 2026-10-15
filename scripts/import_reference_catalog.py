@@ -425,7 +425,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                     "filme", "movie", "série", "serie", "series", "anime", "dorama",
                     "novela", "temporada", "episodio", "episode", "vod"
                 ))
-                is_episode_title = bool(re.search(r"\\bS\\d{1,2}\\s*E\\d{1,3}\\b", channel_name, re.I))
+                is_episode_title = bool(re.search(r"\bS\d{1,2}\s*E\d{1,3}\b", channel_name, re.I))
                 if not channel_name or is_vod_group or is_episode_title:
                     name, attrs = None, {}
                     continue
