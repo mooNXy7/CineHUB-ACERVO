@@ -406,6 +406,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
             vod_names.add(norm(re.sub(r"\s*\((?:19|20)\d{2}\)\s*$", "", title)))
             vod_names.add(norm(re.sub(r"\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\b", "", title, flags=re.I)))
     channels = current.get("channels", [])
+    before_channels = json.dumps(channels, ensure_ascii=False, sort_keys=True)
     by_name = {norm(c.get("name", "")): c for c in channels if c.get("name")}
     by_id = {c.get("id"): c for c in channels if c.get("id")}
     for path in (reference / "1.m3u", reference / "3.m3u"):
@@ -432,7 +433,8 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                 group_name = str(attrs.get("group-title") or "").casefold()
                 is_vod_group = any(word in group_name for word in (
                     "filme", "movie", "série", "serie", "series", "anime", "dorama",
-                    "novela", "temporada", "episodio", "episode", "vod"
+                    "novela", "temporada", "episodio", "episode", "vod",
+                    "adulto", "adult", "xxx", "18+"
                 ))
                 is_episode_title = bool(re.search(r"\bS\d{1,2}\s*E\d{1,3}\b", channel_name, re.I))
                 if not channel_name or is_vod_group or is_episode_title:
@@ -475,7 +477,8 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                     target["epg_id"] = attrs["tvg-id"]
                 name, attrs = None, {}
     current["channels"] = channels
-    current["generated_at"] = datetime.now(timezone.utc).isoformat()
+    if json.dumps(channels, ensure_ascii=False, sort_keys=True) != before_channels:
+        current["generated_at"] = datetime.now(timezone.utc).isoformat()
     return current
 
 
@@ -535,13 +538,19 @@ def main() -> None:
         }
 
     index = {
-        "schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
+        "schema_version": 1,
         "source_id": SOURCE_ID,
         "movies": [index_entry(x, "movie") for x in movie_list],
         "series": [index_entry(x, "series") for x in series_list],
         "anime": [index_entry(x, "anime") for x in anime_list],
         "doramas": [index_entry(x, "dorama") for x in dorama_list],
     }
+    previous_index = load_json(VOD_INDEX, {})
+    previous_comparable = {k: v for k, v in previous_index.items() if k != "generated_at"}
+    if previous_comparable == index:
+        index["generated_at"] = previous_index.get("generated_at")
+    else:
+        index["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(VOD_INDEX, index)
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
@@ -570,7 +579,8 @@ def main() -> None:
         radios.setdefault("radios", []).append(radio)
         known_radio[key] = radio
         imported_radio_count += 1
-    radios["generated_at"] = datetime.now(timezone.utc).isoformat()
+    if imported_radio_count or not radios.get("generated_at"):
+        radios["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(RADIOS_FILE, radios)
 
     counters["movies"] = len(movie_list)
@@ -582,8 +592,7 @@ def main() -> None:
     counters["radio_records_total"] = len(radios.get("radios", []))
     counters["fichas_matched"] = sum(bool(x.get("tmdb_id")) for x in movie_list + series_list)
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    write_json(REPORT, {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+    report_data = {
         "reference": "authorized-public-reference",
         "counts": dict(counters),
         "notes": [
@@ -592,7 +601,13 @@ def main() -> None:
             "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
             "A importação não testa reprodução durante a montagem do catálogo."
         ]
-    })
+    }
+    previous_report = load_json(REPORT, {})
+    if any(previous_report.get(k) != v for k, v in report_data.items()) or not previous_report.get("generated_at"):
+        report_data["generated_at"] = datetime.now(timezone.utc).isoformat()
+        write_json(REPORT, report_data)
+    else:
+        report_data["generated_at"] = previous_report["generated_at"]
     print("Importação CineHUB concluída: " + json.dumps(dict(counters), ensure_ascii=False))
 
 
