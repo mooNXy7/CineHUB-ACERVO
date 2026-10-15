@@ -99,7 +99,8 @@ def read_lines(path: Path):
         yield from stream
 
 
-def split_sources(text: str, audio: str = "dub") -> tuple[list[dict], list[dict], int]:
+def split_sources(text: str, audio: str = "dub", source_id: str = SOURCE_ID,
+                  priority: int = 50) -> tuple[list[dict], list[dict], int]:
     urls, refs, skipped = [], [], 0
     for token in (text or "").split(","):
         token = token.strip()
@@ -108,24 +109,36 @@ def split_sources(text: str, audio: str = "dub") -> tuple[list[dict], list[dict]
         if token.lower().startswith(("http://", "https://")):
             clean = token.rstrip(".,;")
             if safe_candidate(clean):
-                urls.append({"url": clean, "audio": audio, "priority": 50, "source_id": SOURCE_ID})
+                host = (urlsplit(clean).hostname or "").lower()
+                source_type = "embed" if host in {"mgeb.top"} else "direct"
+                urls.append({
+                    "url": clean, "audio": audio, "priority": priority,
+                    "source_id": source_id, "source_type": source_type
+                })
             else:
                 skipped += 1
-        elif re.match(r"^\d+:[A-Za-z0-9._/-]+$", token):
+        elif re.match(r"^\d+:[A-Za-z0-9._/?=&%+-]+$", token):
             provider, ident = token.split(":", 1)
-            refs.append({"provider": provider, "ref": ident, "audio": audio, "source_id": SOURCE_ID})
+            refs.append({"provider": provider, "ref": ident, "audio": audio, "source_id": source_id})
     return urls, refs, skipped
 
 
 def merge_sources(target: list[dict], incoming: list[dict]) -> int:
-    known = {s.get("url") for s in target if isinstance(s, dict)}
+    by_url = {s.get("url"): s for s in target if isinstance(s, dict) and s.get("url")}
     added = 0
     for source in incoming:
         url = source.get("url")
-        if url and url not in known:
+        if not url:
+            continue
+        if url not in by_url:
             target.append(source)
-            known.add(url)
+            by_url[url] = source
             added += 1
+        else:
+            existing = by_url[url]
+            for field, value in source.items():
+                if field not in existing and value is not None:
+                    existing[field] = value
     return added
 
 
@@ -247,6 +260,56 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
     return movies
 
 
+
+def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, counters: dict) -> dict:
+    vod = reference / "vod"
+    source_files = (
+        (vod / "redeflix" / "links-filmes.txt", "reference-redeflix"),
+        (vod / "mgeb" / "links-filmes.txt", "reference-mgeb"),
+    )
+    by_tmdb = {str(item.get("tmdb_id")): item for item in movies.values() if item.get("tmdb_id")}
+    for path, source_id in source_files:
+        for raw in read_lines(path) or ():
+            line = raw.rstrip("\n")
+            if not line or line.startswith("#") or "\t" not in line:
+                continue
+            fields = line.split("\t")
+            title = fields[0].strip()
+            if not title:
+                continue
+            tmdb_id = next((field.split("=", 1)[1].strip() for field in fields[1:]
+                            if field.startswith("tmdb=") and field.split("=", 1)[1].strip().isdigit()), None)
+            item = by_tmdb.get(tmdb_id) if tmdb_id else None
+            item = item or movies.get(norm(title))
+            if item is None:
+                year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
+                item = {
+                    "id": "movie-" + slug(title), "title": title, "type": "movie",
+                    "year": year_match.group(1) if year_match else None,
+                    "poster_url": None, "genres": [], "tmdb_id": tmdb_id,
+                    "sources": [], "provider_refs": [], "source_candidates_skipped": 0,
+                }
+                movies[norm(title)] = item
+            if tmdb_id:
+                item["tmdb_id"] = item.get("tmdb_id") or tmdb_id
+                by_tmdb[tmdb_id] = item
+            meta = fichas.get(("f", norm(item["title"])), {})
+            item["poster_url"] = item.get("poster_url") or meta.get("poster_path")
+            item["genres"] = item.get("genres") or meta.get("genres", [])
+            for field in fields[1:]:
+                if "=" not in field:
+                    continue
+                audio, value = field.split("=", 1)
+                if audio not in {"dub", "leg"}:
+                    continue
+                urls, refs, skipped = split_sources(value, audio, source_id=source_id, priority=20)
+                counters["skipped_urls"] += skipped
+                item["source_candidates_skipped"] = int(item.get("source_candidates_skipped", 0)) + skipped
+                counters["sources_added"] += merge_sources(item.setdefault("sources", []), urls)
+                counters["provider_refs_added"] += merge_provider_refs(item.setdefault("provider_refs", []), refs)
+    return movies
+
+
 def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured_anime: set,
                  featured_doramas: set, counters: dict, series=None) -> dict:
     series = series or {}
@@ -290,14 +353,16 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
                 season["episodes"].append(existing)
             counters["sources_added"] += merge_sources(existing["sources"], urls)
             counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+    parse_extra_series_sources(vod, series, fichas, counters)
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
         item["tmdb_id"] = meta.get("tmdb_id")
         item["poster_url"] = meta.get("poster_path") or featured_posters.get(("s", title_key))
         item["genres"] = meta.get("genres", [])
-        item["subtype"] = "anime" if title_key in featured_anime or any("animação" in g.casefold() or "animation" in g.casefold() for g in item["genres"]) else (
-            "dorama" if title_key in featured_doramas or "dorama" in title_key or "k-drama" in title_key else "series"
-        )
+        if item.get("subtype") not in {"anime", "dorama"}:
+            item["subtype"] = "anime" if title_key in featured_anime or any("animação" in g.casefold() or "animation" in g.casefold() for g in item["genres"]) else (
+                "dorama" if title_key in featured_doramas or "dorama" in title_key or "k-drama" in title_key else "series"
+            )
         item["seasons"] = [item["seasons"][k] for k in sorted(item["seasons"], key=lambda x: int(x))]
         for season in item["seasons"]:
             season["episodes"].sort(key=lambda e: (e["episode"], e["audio"]))
@@ -305,10 +370,90 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
 
 
 
+
+def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: dict) -> None:
+    files = (
+        (vod / "mgeb" / "links-series.txt", "reference-mgeb", None),
+        (vod / "redeflix" / "links-series.txt", "reference-redeflix", None),
+        (vod / "redeflix" / "links-animes.txt", "reference-redeflix", "anime"),
+        (vod / "redeflix" / "links-doramas.txt", "reference-redeflix", "dorama"),
+    )
+    by_tmdb = {}
+    by_name = {}
+    for item in series.values():
+        meta = fichas.get(("s", norm(item.get("title", ""))), {})
+        tmdb = item.get("tmdb_id") or meta.get("tmdb_id")
+        if tmdb:
+            by_tmdb[str(tmdb)] = item
+        by_name.setdefault(norm(item.get("title", "")), []).append(item)
+
+    for path, source_id, subtype in files:
+        current = None
+        for raw in read_lines(path) or ():
+            line = raw.rstrip("\n")
+            if not line:
+                continue
+            if line.startswith("@"):
+                fields = line[1:].split("\t")
+                title = fields[0].strip()
+                year = fields[1].strip() if len(fields) > 1 and fields[1].strip().isdigit() else None
+                tmdb_id = fields[2].strip() if len(fields) > 2 and fields[2].strip().isdigit() else None
+                if not title:
+                    current = None
+                    continue
+                key = (norm(title), year or "")
+                current = by_tmdb.get(tmdb_id) if tmdb_id else None
+                current = current or series.get(key)
+                if current is None:
+                    candidates = by_name.get(norm(title), [])
+                    current = next((item for item in candidates if not year or item.get("year") in (None, year)), None)
+                if current is None:
+                    current = {
+                        "id": "series-" + slug(title) + ("-" + year if year else ""),
+                        "title": title, "type": "series", "year": year, "tmdb_id": tmdb_id,
+                        "poster_url": None, "genres": [], "subtype": subtype or "series",
+                        "seasons": {}, "sources": [], "provider_refs": [],
+                        "source_candidates_skipped": 0,
+                    }
+                    series[key] = current
+                    by_name.setdefault(norm(title), []).append(current)
+                if year and not current.get("year"):
+                    current["year"] = year
+                if tmdb_id:
+                    current["tmdb_id"] = current.get("tmdb_id") or tmdb_id
+                    by_tmdb[tmdb_id] = current
+                if subtype in {"anime", "dorama"}:
+                    current["subtype"] = subtype
+                continue
+
+            if current is None:
+                continue
+            fields = line.split("\t")
+            if len(fields) < 4 or not fields[0].isdigit() or not fields[1].isdigit():
+                continue
+            season_no, episode_no, audio = int(fields[0]), int(fields[1]), fields[2].strip().lower()
+            urls, refs, skipped = split_sources(fields[3], audio, source_id=source_id, priority=20)
+            counters["skipped_urls"] += skipped
+            current["source_candidates_skipped"] = int(current.get("source_candidates_skipped", 0)) + skipped
+            season = current.setdefault("seasons", {}).setdefault(
+                str(season_no), {"season": season_no, "episodes": []}
+            )
+            episode_key = (episode_no, audio)
+            existing = next((ep for ep in season["episodes"]
+                             if (ep["episode"], ep["audio"]) == episode_key), None)
+            if existing is None:
+                existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
+                season["episodes"].append(existing)
+            counters["sources_added"] += merge_sources(existing["sources"], urls)
+            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+
+
 def merge_record(target: dict, incoming: dict) -> dict:
     """Merge metadata, source candidates and episodic structure without deleting old data."""
     for field in ("title", "type", "year", "tmdb_id", "poster_url", "subtype"):
-        if not target.get(field) and incoming.get(field):
+        if field == "subtype" and incoming.get(field) in {"anime", "dorama"} and target.get(field) not in {"anime", "dorama"}:
+            target[field] = incoming[field]
+        elif not target.get(field) and incoming.get(field):
             target[field] = incoming[field]
     if not target.get("genres") and incoming.get("genres"):
         target["genres"] = list(incoming["genres"])
@@ -507,6 +652,7 @@ def main() -> None:
     featured_posters, featured_anime, featured_doramas = parse_featured(reference / "vod" / "destaques.txt")
     search_movies, search_series = parse_search_index(reference / "vod" / "busca.txt")
     movies = parse_movies(reference, fichas, featured_posters, counters, search_movies)
+    movies = parse_extra_movie_sources(reference, movies, fichas, counters)
     series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters, search_series)
 
     # Títulos sem URL direta continuam no índice, e dados antigos nunca são removidos.

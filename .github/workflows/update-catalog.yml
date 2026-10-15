@@ -40,6 +40,8 @@ jobs:
             '/vod/busca.txt' \
             '/vod/destaques.txt' \
             '/vod/radios.txt' \
+            '/vod/mgeb/links-*.txt' \
+            '/vod/redeflix/links-*.txt' \
             '/1.m3u' \
             '/3.m3u'
       - name: Merge new channel, VOD, and radio content
