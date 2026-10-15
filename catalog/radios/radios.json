@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:04:27.327Z",
+  "generated_at": "2026-10-15T17:32:52.639716+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -6025,6 +6025,2463 @@
       "logo_url": "https://images.zeno.fm/F19RKDqzPlicPWJRFtHsKsoDnxxlCIlPPZGOe78MIJc/rs:fit:170:170/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURBdGZhcy1nb01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURRdW9pQjVnZ01vZ0VFZW1WdWJ3L2ltYWdlLw.webp?u=Mon%20Jan%2001%2022:54:51%20UTC+0000%202024",
       "genre": null,
       "source_id": "upstream-import"
+    },
+    {
+      "id": "radio-https-9881-brasilstream-com-br-stream",
+      "name": "https://9881.brasilstream.com.br/stream",
+      "stream_url": "https://www.012news.com.br/wp-content/uploads/2022/07/novo-logo1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-exodo-ddns-seg-br-20011",
+      "name": "https://exodo.ddns.seg.br:20011/;",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio17286_1549481915.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-livespanel-com-8990-stream",
+      "name": "https://streaming.livespanel.com:8990/stream",
+      "stream_url": "https://gcmais.com.br/wp-content/webp-express/webp-images/uploads/2022/05/89.png.webp",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-89aradiorockgo",
+      "name": "https://ice.fabricahost.com.br/89aradiorockgo",
+      "stream_url": "https://89goiania.com.br/wp-content/uploads/2024/07/icone_89.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-sws-onradio-biz-8126-stream",
+      "name": "https://sws.onradio.biz/8126/stream",
+      "stream_url": "https://cdn.onlineradiobox.com/img/l/6/152526.v2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s17-hstbr-net-8040-live",
+      "name": "https://s17.hstbr.net:8040/live",
+      "stream_url": "https://94fmnatal.com.br/radio/logo.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cidadedosolaac-jmvstream-com-stream",
+      "name": "https://cidadedosolaac.jmvstream.com/stream",
+      "stream_url": "https://94fmnatal.com.br/radio/logo.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-94fm64aac-jmvstream-com-stream",
+      "name": "https://94fm64aac.jmvstream.com/stream",
+      "stream_url": "https://ugc.production.linktr.ee/2QIV7DDhSoeAW2nYRLi2_ZPDNoICIM617u2RP?io=true&size=avatar-v3_0",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast4-hoost-com-br-20079-stream",
+      "name": "https://cast4.hoost.com.br:20079/stream",
+      "stream_url": "http://96fmarapiraca.com.br.dream.website/wp-content/uploads/2022/04/logo_site-colorido-1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-ei3-com-br-radio-8000-mp3",
+      "name": "https://streaming.ei3.com.br/radio/8000/mp3",
+      "stream_url": "https://96fmbauru.com.br/wp-content/uploads/2020/06/logo96.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8185-brasilstream-com-br-stream",
+      "name": "https://8185.brasilstream.com.br/stream",
+      "stream_url": "https://i.iheart.com/v3/re/assets.brands/604a56cb27a1c403c522c6bc?ops=gravity(%22center%22),contain(300,300)&quality=80",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm41-stmsrv-com-16614-stream",
+      "name": "https://stm41.stmsrv.com:16614/stream",
+      "stream_url": "https://cdn.stmsrv.com/multi/16614/logo_r1dbkqc.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-liverd102fm-rbsdirect-com-br-primary-ita-poa-sdp-chunklist-0ac85862-caaa-446f-93bf-3e12816c36a0-m3u8",
+      "name": "https://liverd102fm.rbsdirect.com.br/primary/ita_poa.sdp/chunklist_0ac85862-caaa-446f-93bf-3e12816c36a0.m3u8",
+      "stream_url": "https://vk.com/images/icons/pwa/favicon_32.png?12",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radios-braviahost-com-br-8000-radio-mp3",
+      "name": "https://radios.braviahost.com.br:8000/radio.mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio42_1439400388.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-wz7-servidoresbrasil-com-8070-stream",
+      "name": "https://wz7.servidoresbrasil.com:8070/stream",
+      "stream_url": "https://c105fm.cmedias.ca/wp-content/uploads/sites/11/2023/04/Cmedias_logo_horizontal_couleur_HRes-1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-107fm",
+      "name": "https://ice.fabricahost.com.br/107fm",
+      "stream_url": "https://static.wixstatic.com/media/37804f_ed9032a0826e40efa33fefcbf9fb882b~mv2.png/v1/fill/w_141,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-server01-ouvir-radio-br-8018-stream",
+      "name": "https://server01.ouvir.radio.br:8018/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio151308_1593879965.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8247-brasilstream-com-br-stream",
+      "name": "https://8247.brasilstream.com.br/stream",
+      "stream_url": "https://play-lh.googleusercontent.com/IM2SRSSvwJFUFxfwfdIys1lxmtRKXzk-NDslvtMTh88eUFECR665sVyZVD9FLF-iS7pc",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-radio-alphafm-adp-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALPHAFM_ADP.aac",
+      "stream_url": "https://goiania.alphafm.com.br/assets/site/v2/images/logo/logo_novo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-alphampbaac-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/ALPHAMPBAAC.aac",
+      "stream_url": "https://react.alphafm.com.br/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-radio-alvorada-mp3",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALVORADA.mp3",
+      "stream_url": "https://i.postimg.cc/Bnyrs1H3/04008017950.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-antenaone-crossradio-com-br-stream-2",
+      "name": "https://antenaone.crossradio.com.br/stream/2;",
+      "stream_url": "https://cdn-radiotime-logos.tunein.com/s87639g.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-casthttps-suaradionanet-net-10524-stream",
+      "name": "https://casthttps.suaradionanet.net/10524/stream",
+      "stream_url": "https://manager.suaradionanet.net/storage/radios/radioatlantica/site_basic/SHy14G1c8OR37ctUMdZYQZREE6DWMwwesRVg9oXp.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-livespanel-com-21057-stream",
+      "name": "https://streaming.livespanel.com:21057/stream",
+      "stream_url": "https://gcmais.com.br/wp-content/uploads/2022/05/atlantico-sul.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-1852747t-ha-azioncdn-net-primary-atl-poa-sdp-playlist-m3u8",
+      "name": "https://1852747t.ha.azioncdn.net/primary/atl_poa.sdp/playlist.m3u8",
+      "stream_url": "https://atlantidafm.com.uy/assets/images/bg.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s-bul-tec-br-8020-128",
+      "name": "https://s.bul.tec.br:8020/128",
+      "stream_url": "http://atosfm.com.br/wp-content/uploads/daftplug-progressify/pwa-icons/icon-maskable-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-bandnewsfm-spaac-sc",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC_SC",
+      "stream_url": "https://static.mytuner.mobi/media/tvos_radios/YjB73sNAHd.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-bandnewsfm-bhaac-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_BHAAC.aac",
+      "stream_url": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-server23-srvsh-com-br-7918-live-mp3",
+      "name": "https://server23.srvsh.com.br:7918/live.mp3",
+      "stream_url": "https://img.band.com.br/image/2026/06/25/logo-bandnews-fm-10043.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-br-lucasmultimedia-com-stream-ogg",
+      "name": "https://br.lucasmultimedia.com/stream.ogg",
+      "stream_url": "https://classicalradio.world/static/assets/img/apple-icon-120x120.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm24-xcast-com-br-9910-stream",
+      "name": "https://stm24.xcast.com.br:9910/stream",
+      "stream_url": "https://afrobeatsfm.com/logo.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-best-viaflux-com-listen-bestradio-brasil-public-1",
+      "name": "https://best.viaflux.com/listen/bestradio_brasil_public/1",
+      "stream_url": "https://bestradiobrasil.com/logo_bola.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s07-maxcast-com-br-8074-live",
+      "name": "https://s07.maxcast.com.br:8074/live",
+      "stream_url": "https://www.meionorte.com/assets/portalmn/boafm-thumb.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-centova5-transmissaodigital-com-20104-live",
+      "name": "https://centova5.transmissaodigital.com:20104/live",
+      "stream_url": "https://bossajazzbrasil.com/wp-content/uploads/2020/12/cropped-bjs-app-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-nbq1aq62gd0uv",
+      "name": "https://stream.zeno.fm/nbq1aq62gd0uv",
+      "stream_url": "https://cdn.onlineradiobox.com/img/l/5/94775.v6.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-paineldj-com-br-20196-stream",
+      "name": "https://paineldj.com.br:20196/stream",
+      "stream_url": "https://ub.canarinhofm.com/admin/assets/img/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8758-brasilstream-com-br-stream",
+      "name": "https://8758.brasilstream.com.br/stream",
+      "stream_url": "https://www.facebook.com/photo/?fbid=609917337351676&set=a.609917284018348&__tn__=%3C",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor30-brlogic-com-8538-live",
+      "name": "https://servidor30.brlogic.com:8538/live",
+      "stream_url": "https://static.wixstatic.com/media/d40b03_656cb6d99e804905ba4eb747dc6f0282~mv2.png/v1/fill/w_296,h_164,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Sem%20Título-1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8214-brasilstream-com-br-stream",
+      "name": "https://8214.brasilstream.com.br/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio11233_1573682868.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast2-hoost-com-br-8248-stream",
+      "name": "https://cast2.hoost.com.br:8248/stream",
+      "stream_url": "https://static.wixstatic.com/media/2ab735_60b1c515fa95412bac405bfba4bedb2f%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/2ab735_60b1c515fa95412bac405bfba4bedb2f%7emv2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-rtk4pzcome3vv",
+      "name": "https://stream.zeno.fm/rtk4pzcome3vv",
+      "stream_url": "https://s.jpimg.com.br/wp-content/themes/jovempan/assets/src/images/classic-pan/Classic-Pan-Logo-Branco-RGB.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8374-brasilstream-com-br-stream",
+      "name": "https://8374.brasilstream.com.br/stream",
+      "stream_url": "https://jpimg.com.br/uploads/2025/04/classic_bh.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor37-2-brlogic-com-8066-live",
+      "name": "https://servidor37-2.brlogic.com:8066/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/23914/cover/3c5997fe2d907398b689858e9686ac0d.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8157-brasilstream-com-br-stream",
+      "name": "https://8157.brasilstream.com.br/stream",
+      "stream_url": "https://painel.clube.fm/wp-content/uploads/2022/05/Logo-Clube-105_5-min.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-paineldj-com-br-20184-stream",
+      "name": "https://paineldj.com.br:20184/stream",
+      "stream_url": "https://fmconecta.com.br/icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-player-culturafm-stream-uol-com-br-live-culturafm-m3u8",
+      "name": "https://player-culturafm.stream.uol.com.br/live/culturafm.m3u8",
+      "stream_url": "https://cultura.uol.com.br/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8571-brasilstream-com-br-stream",
+      "name": "https://8571.brasilstream.com.br/stream",
+      "stream_url": "https://i.postimg.cc/8C5KGB9c/04030140262.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor32-3-brlogic-com-8130-live",
+      "name": "https://servidor32-3.brlogic.com:8130/live",
+      "stream_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/424701254_122126282714189962_642740306202194388_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qcOal0Au8NQAX-NgrEK&_nc_ht=scontent-ord5-1.xx&oh=00_AfDeY7ASCKAr2lqE4YjpvluDGAf-s4NbcAHskg_urTZyiA&oe=65C1807D",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8058-brasilstream-com-br-stream",
+      "name": "https://8058.brasilstream.com.br/stream",
+      "stream_url": "https://glomes.com.br/digitalalagoinhasfm/wp-content/uploads/sites/7/2022/03/cropped-digital-104fm-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-saopaulo01-com-br-9370-stream",
+      "name": "https://radio.saopaulo01.com.br/9370/stream",
+      "stream_url": "https://static.tudoradio.com/ins/w:120/plain/https://tudoradio.com/img/uploads/radios/64d05128d92c3.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm10-srvstm-com-34794-stream",
+      "name": "https://stm10.srvstm.com:34794/stream",
+      "stream_url": "http://eldopopfm.com/admin/assets/img/favicon.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast4-audiostream-com-br-2652-mp3",
+      "name": "https://cast4.audiostream.com.br:2652/mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13051_1439401448.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cloud1-cdnseguro-com-20492-stream",
+      "name": "https://cloud1.cdnseguro.com:20492/stream",
+      "stream_url": "https://estilo.fm.br/wp-content/uploads/2023/12/ESTILO-FM-SP-300x300.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-wz7-servidoresbrasil-com-8274-stream",
+      "name": "https://wz7.servidoresbrasil.com:8274/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio229211_1706128532.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-radiogfm",
+      "name": "https://ice.fabricahost.com.br/radiogfm",
+      "stream_url": "https://gfm.radiosredebahia.com.br/wp-content/uploads/sites/4/2020/09/gfm.svg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm21-srvaudio-com-br-9634-stream",
+      "name": "https://stm21.srvaudio.com.br:9634/stream",
+      "stream_url": "https://grandepicos.com.br/favicon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm1-srvif-com-13938-stream",
+      "name": "https://stm1.srvif.com:13938/stream",
+      "stream_url": "https://www.harmoniamercosul.com.br/logoharmonia.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-9772-brasilstream-com-br-stream",
+      "name": "https://9772.brasilstream.com.br/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio8760_1565178044.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-str1-streamhostpg-com-br-8002-stream",
+      "name": "https://str1.streamhostpg.com.br:8002/stream",
+      "stream_url": "https://ilhadomelfm.com.br/wp-content/uploads/2023/05/cropped-icon-ilhadomel-32x32.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-3mydb487f0hvv",
+      "name": "https://stream.zeno.fm/3mydb487f0hvv",
+      "stream_url": "http://kodishteam.space/images/favicons/apple-touch-icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast4-hoost-com-br-20010-stream",
+      "name": "https://cast4.hoost.com.br:20010/stream",
+      "stream_url": "https://www.jambeirofm.com.br/files/2025/02/CARNAVAL-SITE-LOGO.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-vlcraijc6yiuv",
+      "name": "https://stream.zeno.fm/vlcraijc6yiuv",
+      "stream_url": "https://cdn.onlineradiobox.com/img/l/0/133430.v8.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-str01-str-srv-br-7006-stream",
+      "name": "https://str01.str.srv.br:7006/stream",
+      "stream_url": "https://liberalfm.com.br/wp-content/uploads/elementor/thumbs/liberal512b-qamer3x5x5zid4zcx79iiyj897bo7osmrza4v4hpok.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8231-brasilstream-com-br-stream",
+      "name": "https://8231.brasilstream.com.br/stream",
+      "stream_url": "https://lightfm1039.com.br/wp-content/uploads/2022/09/cropped-favicon-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm37-stmsrv-com-30976-stream",
+      "name": "https://stm37.stmsrv.com:30976/stream",
+      "stream_url": "https://radiolitoral.fm.br/img/icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ssl1-transmissaodigital-com-20440-stream",
+      "name": "https://ssl1.transmissaodigital.com:20440/stream",
+      "stream_url": "https://www.radiomanchester.com.br/fm/wp-content/uploads/2019/10/cropped-logo_radiomanchester-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-04-painelstreaming-com-br-27124",
+      "name": "https://04.painelstreaming.com.br:27124/;",
+      "stream_url": "https://maragogifm.com.br/images/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-rrdns-megasistema-webnow-com-br-mega-aac",
+      "name": "https://rrdns-megasistema.webnow.com.br/mega.aac",
+      "stream_url": "https://www.megafm.com.br/_nuxt/icons/icon_64x64.520daf.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-player-ssl-painelstream-net-8174-live",
+      "name": "https://player-ssl.painelstream.net:8174/live",
+      "stream_url": "https://i0.wp.com/melphis.fm/wp-content/uploads/2022/12/cropped-ico-1.png?fit=180%2c180&#038;ssl=1",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-hts01-brascast-com-9194-live",
+      "name": "https://hts01.brascast.com:9194/live",
+      "stream_url": "https://spaceks.net/sites/metalheads.com.br/images/logo/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-metropolitanampb",
+      "name": "https://ice.fabricahost.com.br/metropolitanampb",
+      "stream_url": "https://metropolitanafm.com.br/assets/imgs/mpb-nova.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-metrospsertanejo",
+      "name": "https://ice.fabricahost.com.br/metrospsertanejo",
+      "stream_url": "https://metropolitanafm.com.br/assets/imgs/sertanejo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s25-maxcast-com-br-8108-live",
+      "name": "https://s25.maxcast.com.br:8108/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio62729_1627756599.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-azura-mundialmusic-net-radio-8010-radio-mp3",
+      "name": "https://azura.mundialmusic.net/radio/8010/radio.mp3",
+      "stream_url": "http://img.sedoparking.com/templates/logos/sedo_logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-musirama",
+      "name": "https://ice.fabricahost.com.br/musirama",
+      "stream_url": "https://i.postimg.cc/MHW7KnTn/04008009698.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor34-1-brlogic-com-8014-live",
+      "name": "https://servidor34-1.brlogic.com:8014/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/1949/logo/36cb5c29d6db9db77f6e496c3966ed8e.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-zg3ps1ckoeiuv",
+      "name": "https://stream.zeno.fm/zg3ps1ckoeiuv",
+      "stream_url": "https://stream.zeno.fm/zg3ps1ckoeiuv",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-webradio-amsolution-com-br-radio-8000-omega",
+      "name": "https://webradio.amsolution.com.br/radio/8000/omega",
+      "stream_url": "https://i.imgur.com/7MUl9Kt.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-tgaurl-com-br-playmixfm",
+      "name": "https://tgaurl.com.br/playmixfm",
+      "stream_url": "https://i.postimg.cc/d3x5xqy2/PLAY-MIX-FM-fundo-transparente.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-159-zeno-fm-33vspum02t9vv",
+      "name": "https://stream-159.zeno.fm/33vspum02t9vv",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio26768_1729224001.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-webradio-amsolution-com-br-radio-8030-sobral",
+      "name": "https://webradio.amsolution.com.br/radio/8030/sobral",
+      "stream_url": "https://plusfm.com.br/wp-content/uploads/2022/04/cropped-faviconplus-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-sv10-hdradios-net-6674",
+      "name": "https://sv10.hdradios.net:6674/;",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio170330_1608747125.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cc4-streammaximum-com-20017-stream",
+      "name": "https://cc4.streammaximum.com:20017/stream",
+      "stream_url": "https://www.progsky.com/wp-content/uploads/2024/08/LOGOBALANCE.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-punkfm-com-br-listen-punkfmbrasil-punkfmbrasil-mp3",
+      "name": "https://radio.punkfm.com.br/listen/punkfmbrasil/punkfmbrasil.mp3",
+      "stream_url": "https://punkfm.com.br/wp-content/uploads/PFM-logo-icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-1057anapolis",
+      "name": "https://ice.fabricahost.com.br/1057anapolis",
+      "stream_url": "https://fbradio.ec/wp-content/uploads/thegem-logos/logo_0335860a0b7f69ccdc4ff35cd20eb201_1x.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast2-youngtech-radio-br-radio-8290-radio",
+      "name": "https://cast2.youngtech.radio.br/radio/8290/radio",
+      "stream_url": "https://rtvmaastricht.nl/rtvmaastricht_nl/images/logo-xs.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor40-5-brlogic-com-8086-live",
+      "name": "https://servidor40-5.brlogic.com:8086/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/3701/logo/cb85946c363e933e2136276bf03efb42.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radioamc-com-br-stream-amc",
+      "name": "https://radioamc.com.br/stream/amc",
+      "stream_url": "https://radioamc.com.br/shared/amclogo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radioamc-com-br-stream-amcplus",
+      "name": "https://radioamc.com.br/stream/amcplus",
+      "stream_url": "https://radioamc.com.br/shared/amcpluslogo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm4-voxhd-com-br-7086",
+      "name": "https://stm4.voxhd.com.br:7086/;",
+      "stream_url": "https://www.wix.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ssl-voxhd-com-br-7086",
+      "name": "https://ssl.voxhd.com.br:7086/;",
+      "stream_url": "https://www.wix.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm25-srvaudio-com-br-11358",
+      "name": "https://stm25.srvaudio.com.br:11358/;",
+      "stream_url": "https://www.wix.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm10-voxhd-com-br-7846",
+      "name": "https://stm10.voxhd.com.br:7846/;",
+      "stream_url": "https://www.wix.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-aparecida-jmvstream-com-stream",
+      "name": "https://aparecida.jmvstream.com/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio9571_1726148606.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-ice-fabricahost-com-br-bandabctb",
+      "name": "https://ice.fabricahost.com.br/bandabctb",
+      "stream_url": "https://www.bandab.com.br/wp-content/themes/bandab/assets/img/icons/apple-touch-icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-radiobandeirantesaac-m3u8",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RadioBandeirantesAAC.m3u8",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio10412_1630622638.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-casthttps-suaradionanet-net-13633-stream",
+      "name": "https://casthttps.suaradionanet.net/13633/stream",
+      "stream_url": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2022/11/cropped-favcon-band-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-audio-edge-es6pf-mia-g-radiomast-io-ec065d59-f358-48c9-a288-4efc797e5860",
+      "name": "https://audio-edge-es6pf.mia.g.radiomast.io/ec065d59-f358-48c9-a288-4efc797e5860",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio8826_1580130163.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s24-maxcast-com-br-8636-live",
+      "name": "https://s24.maxcast.com.br:8636/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio43819_1519927670.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s09-hstbr-net-8238-live",
+      "name": "https://s09.hstbr.net:8238/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio63689_1524753430.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-hts03-brascast-com-8430-live",
+      "name": "https://hts03.brascast.com:8430/live",
+      "stream_url": "https://spaceks.net/sites/webradiobrazilimperial.com.br/images/logo/logo_1681801929.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7578-stream",
+      "name": "https://stm5.painelcast.com:7578/stream",
+      "stream_url": "https://www.capital.it/wp-content/themes/network-capital/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm6-xcast-com-br-9328",
+      "name": "https://stm6.xcast.com.br:9328/;",
+      "stream_url": "https://www.radiocafeviola.com.br/images/radio-cafe-viola_spv0wft8.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s01-transmissaodigital-com-7096-stream",
+      "name": "https://s01.transmissaodigital.com:7096/stream",
+      "stream_url": "https://www.radiocalhambeque.com/Calhambeque-logo-novo--60.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor34-3-brlogic-com-8164-live",
+      "name": "https://servidor34-3.brlogic.com:8164/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/1952/favicon/bb8a3d7a6f6907b67bfd0b31ab9f1ff0.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor34-5-brlogic-com-7240-live",
+      "name": "https://servidor34-5.brlogic.com:7240/live",
+      "stream_url": "https://cdn-radiotime-logos.tunein.com/s21779q.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-catarinensefm-streams-com-br-stream",
+      "name": "https://catarinensefm.streams.com.br/stream",
+      "stream_url": "https://www.radiocatarinense.com.br/wp-content/uploads/2020/07/cropped-Untitled-3-192x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-sv10-hdradios-net-6864-stream",
+      "name": "https://sv10.hdradios.net:6864/stream",
+      "stream_url": null,
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "pending_review"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-classicrock-s01aac-64-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASSICROCK_S01AAC_64.aac",
+      "stream_url": "https://radiocidade.fm/player/img/classic-rock.svg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-stereozero-s01aac-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/STEREOZERO_S01AAC.aac",
+      "stream_url": "https://radiocidade.fm/player/img/stereo-zero.svg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast-youngtech-radio-br-8550-radio",
+      "name": "https://cast.youngtech.radio.br:8550/radio",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13214_1552052858.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm11-painelcast-com-7530-stream",
+      "name": "https://stm11.painelcast.com:7530/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/radioclassica.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-m3ytuubv0uhvv",
+      "name": "https://stream.zeno.fm/m3ytuubv0uhvv",
+      "stream_url": "https://zeno.fm/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm13-voxhd-com-br-7148",
+      "name": "https://stm13.voxhd.com.br:7148/;",
+      "stream_url": "https://radiocnn.com.br/admin/assets/img/logo.png?February192025646am12",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm7-painelcast-com-7590-stream",
+      "name": "https://stm7.painelcast.com:7590/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/cordeiro1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s18-hstbr-net-8010-live",
+      "name": "https://s18.hstbr.net:8010/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio24914_1439401618.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor40-brlogic-com-8004-live",
+      "name": "https://servidor40.brlogic.com:8004/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/3671/logo/ddefcfbb544edceaee90270f85726f48.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-casthttps-suaradionanet-net-10402-stream",
+      "name": "https://casthttps.suaradionanet.net/10402/stream",
+      "stream_url": "https://manager.suaradionanet.net/storage/radios/culturaam/site_basic/64f0b1dde9a5c3.82638254.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-player-painelvox-com-player-ssl-8052",
+      "name": "https://player.painelvox.com/player-ssl/8052/;/;",
+      "stream_url": "https://ps-str.srvsite.com/arquivos/2664/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm2-voxhd-com-br-8204-stream",
+      "name": "https://stm2.voxhd.com.br:8204/stream",
+      "stream_url": "https://difusoramossoro.com.br/",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-disney-bra-sp-adp-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP_ADP.aac",
+      "stream_url": "https://images.app.goo.gl/fNFY7gv7C3w9dwtWA",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-joao-tec-br-8443-radio",
+      "name": "https://radio.joao.tec.br:8443/radio",
+      "stream_url": "https://joao.tec.br/radio/favicon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-5a57bda70564a-streamlock-net-educadoraonline-educadoraonline-stream-playlist-m3u8",
+      "name": "https://5a57bda70564a.streamlock.net/educadoraonline/educadoraonline.stream/playlist.m3u8",
+      "stream_url": "https://www.educadoraonline.com.br/site/wp-content/uploads/2023/06/cropped-ico-2-180x180.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-hts02-brascast-com-9758-live",
+      "name": "https://hts02.brascast.com:9758/live",
+      "stream_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Fd7dbb3_3c4bfda2ece24c1184ba8a66513dc5c0~mv2.png%2Fv1%2Ffit%2Fw_2500%2Ch_1330%2Cal_c%2Fd7dbb3_3c4bfda2ece24c1184ba8a66513dc5c0~mv2.png&f=1&nofb=1&ipt=e5c7fc03fb15b1fe86ceac9763448993167cb599bc96f646fab409d8a22f7601",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s10-maxcast-com-br-8304-live",
+      "name": "https://s10.maxcast.com.br:8304/live",
+      "stream_url": "https://ejn.minharadio.fm/",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor26-brlogic-com-8040-live",
+      "name": "https://servidor26.brlogic.com:8040/live",
+      "stream_url": "https://hpanel.hostinger.com/favicons/hostinger.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s05-w3bserver-com-20025",
+      "name": "https://s05.w3bserver.com:20025/;",
+      "stream_url": "https://radioenergiadance.com/wp-content/uploads/2023/02/cropped-iconipar4d-180x180.webp",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s46-hstbr-net-8026-live",
+      "name": "https://s46.hstbr.net:8026/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio29801_1439401712.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7556-stream",
+      "name": "https://stm5.painelcast.com:7556/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/estadio1.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-9981-brasilstream-com-br-stream",
+      "name": "https://9981.brasilstream.com.br/stream",
+      "stream_url": "https://www.estradarealfm.com.br/img-sys/icons/favicon-pause-192x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-saopaulo01-com-br-8276-stream",
+      "name": "https://radio.saopaulo01.com.br/8276/stream",
+      "stream_url": "http://facopp.unoeste.br/facopp/wp-content/uploads/2021/08/logos_LABS-20-1-275x300.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor24-1-brlogic-com-7516-live",
+      "name": "https://servidor24-1.brlogic.com:7516/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/111279/mobileicon/d5b82a5ec287583c0d89eaa8726c323fx192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm14-xcast-com-br-9116-stream",
+      "name": "https://stm14.xcast.com.br:9116/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio89770_1736166164.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-galegovski-com-live",
+      "name": "https://radio.galegovski.com/live",
+      "stream_url": "https://galegovski.com/radiologo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-1132747t-ha-azioncdn-net-primary-gaucha-rbs-sdp-playlist-m3u8",
+      "name": "https://1132747t.ha.azioncdn.net/primary/gaucha_rbs.sdp/playlist.m3u8",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13176_1628168105.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s41-maxcast-com-br-8258-live",
+      "name": "https://s41.maxcast.com.br:8258/live",
+      "stream_url": "https://radiogauderiadasmissoes.com/imagens/thumbs/06e22116c1e42e6a0f5390cc19b7536d.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s18-maxcast-com-br-8983-live",
+      "name": "https://s18.maxcast.com.br:8983/live",
+      "stream_url": "https://static1.s123-cdn-static-a.com/uploads/3327316/400_5eadbec66cd8d.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-radio-globo-rjaac-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac",
+      "stream_url": "https://radioglobo.it/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm3-xcast-com-br-11480-stream",
+      "name": "https://stm3.xcast.com.br:11480/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio42444_1589543490.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-152-zeno-fm-qxabz8qwfzzuv",
+      "name": "https://stream-152.zeno.fm/qxabz8qwfzzuv",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio204427_1661165152.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor30-brlogic-com-8262-live",
+      "name": "https://servidor30.brlogic.com:8262/live",
+      "stream_url": "https://radiograviola.com/wp-content/themes/radio-graviola/dist/assets/img/favicon/apple-touch-icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-grenal-audiostream-com-br-20000-aac",
+      "name": "https://grenal.audiostream.com.br:20000/aac",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio14075_1506599378.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-grenal-audiostream-com-br-20000-mp3",
+      "name": "https://grenal.audiostream.com.br:20000/mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio14075_1506599378.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-shit-is-merda-stream-laut-fm-shit-is-merda",
+      "name": "https://shit-is-merda.stream.laut.fm/shit-is-merda",
+      "stream_url": "https://uploaddeimagens.com.br/images/004/753/770/thumb/apple-touch-icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor26-3-brlogic-com-8004-live",
+      "name": "https://servidor26-3.brlogic.com:8004/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/2608/featured/1a481265b4ffbdbf7104c77e82365e5f.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s19-maxcast-com-br-8746-live",
+      "name": "https://s19.maxcast.com.br:8746/live",
+      "stream_url": "https://radioimpactoweb.com.br/imagens/feaab285c027d58febc6d3178f652580.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm1-streamproarte-com-br-7530-stream",
+      "name": "https://stm1.streamproarte.com.br:7530/stream",
+      "stream_url": "https://radioitay.com.br/wp-content/uploads/2023/07/image-removebg-preview-14.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-listen-radiojhero-com-radio-mp3",
+      "name": "https://listen.radiojhero.com/radio.mp3",
+      "stream_url": "https://radiojhero.com/assets/playlist.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s03-transmissaodigital-com-6772-stream",
+      "name": "https://s03.transmissaodigital.com:6772/stream",
+      "stream_url": "https://a.favicon.im/www.radiojamaicabrasileira.com",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-3hgez706e3quv",
+      "name": "https://stream.zeno.fm/3hgez706e3quv",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio111501_1560523801.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-163-zeno-fm-mrutsyhkc3quv",
+      "name": "https://stream-163.zeno.fm/mrutsyhkc3quv",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio112934_1562066435.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-centova4-transmissaodigital-com-20066",
+      "name": "https://centova4.transmissaodigital.com:20066/;",
+      "stream_url": "https://jmonline.com.br/",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-server01-ouvir-radio-br-8036-stream",
+      "name": "https://server01.ouvir.radio.br:8036/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13550_1698435410.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream1-svrdedicado-org-8028-stream",
+      "name": "https://stream1.svrdedicado.org/8028/stream",
+      "stream_url": "https://static.wixstatic.com/media/a50a7a_81465ac4da92440e8e9dbca4534a3a02~mv2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7580-stream",
+      "name": "https://stm5.painelcast.com:7580/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/lembranca1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s09-maxcast-com-br-8098-live",
+      "name": "https://s09.maxcast.com.br:8098/live",
+      "stream_url": "https://www.radioleve.com.br/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm12-pluscast-com-br-7222-stream-mp3",
+      "name": "https://stm12.pluscast.com.br:7222//;stream.mp3",
+      "stream_url": "https://radiolibertadora.com.br/wp-content/themes/main/assets/img/radiolibertadora-instagram.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-srv1-braudio-com-br-7308-stream",
+      "name": "https://srv1.braudio.com.br:7308/;stream",
+      "stream_url": "https://www.radio-ao-vivo.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-server19-srvsh-com-br-8934-stream",
+      "name": "https://server19.srvsh.com.br:8934/stream",
+      "stream_url": "http://radiolivresom.com.br/admin/assets/img/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s19-maxcast-com-br-8966-live",
+      "name": "https://s19.maxcast.com.br:8966/live",
+      "stream_url": "https://drive.google.com/file/d/1vJBm39Y18sZmMro8hVT4Trd5hue9ud0P/view?usp=drive_link",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor34-4-brlogic-com-7032-live",
+      "name": "https://servidor34-4.brlogic.com:7032/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/250473/logo-horizontal/c7e02d123f09b28da3b0a8f93621d23b.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-saopaulo01-com-br-8024-stream",
+      "name": "https://radio.saopaulo01.com.br/8024/stream",
+      "stream_url": "https://radiomanancialiguassu.com.br/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor29-2-brlogic-com-8578-live",
+      "name": "https://servidor29-2.brlogic.com:8578/live",
+      "stream_url": "https://public-rf-assets.minhawebradio.net/img/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-livespanel-com-21023-maranofm",
+      "name": "https://streaming.livespanel.com:21023/maranofm",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13806_1509363062.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm19-srvstm-com-7080-stream",
+      "name": "https://stm19.srvstm.com:7080/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio269259_1752093044.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream03-dghost-com-br-radio-8210-stream",
+      "name": "https://stream03.dghost.com.br/radio/8210/stream",
+      "stream_url": "https://www.maxima.fm.br/images/logoicon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radiomec-stream-ebc-com-br-ebc-radiomec-playlist-m3u8",
+      "name": "https://radiomec-stream.ebc.com.br/ebc/radiomec/playlist.m3u8",
+      "stream_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F1%2Fradio-mec-logo-png_seeklogo-494149.png&f=1&nofb=1&ipt=27ab00eb7c162df6795eb22aa64d4ce46646ba94477f562bb2907be4ba990d63",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radiomecfm-stream-ebc-com-br-ebc-radiomecfm-mec-fm-mp4a-277200-eng-20000-m3u8",
+      "name": "https://radiomecfm-stream.ebc.com.br/ebc/radiomecfm/MEC_FM-mp4a_277200_eng=20000.m3u8",
+      "stream_url": "https://public.ebc.com.br/templates/logos/v3/logo-ebc.svg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm01-virtualcast-com-br-8312-megasananduva",
+      "name": "https://stm01.virtualcast.com.br:8312/megasananduva",
+      "stream_url": "https://www.megafmrs.com.br/assets/imagens/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-26573-live-streamtheworld-com-melodiafmaac-aac",
+      "name": "https://26573.live.streamtheworld.com/MELODIAFMAAC.aac",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio13848_1439401456.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-www-radioking-com-play-radio-metropole",
+      "name": "https://www.radioking.com/play/radio-metropole",
+      "stream_url": "https://www.metro1.com.br/apple-icon-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-2rsloyfvsy9tv",
+      "name": "https://stream.zeno.fm/2rsloyfvsy9tv",
+      "stream_url": "http://stream.zeno.fm/v28p802ufxhvv",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor39-3-brlogic-com-8238-live",
+      "name": "https://servidor39-3.brlogic.com:8238/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/2394/favicon/cf142ec34caac98a91eee2060a98afcf.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm8-voxhd-com-br-7996-stream-22",
+      "name": "https://stm8.voxhd.com.br:7996/stream%22",
+      "stream_url": "https://www.radionikkeyweb.com.br/public/18419-2023-12-27.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-centova3-transmissaodigital-com-20018-stream",
+      "name": "https://centova3.transmissaodigital.com:20018/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio275898_1761741443.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-virtues-live-8138-stream",
+      "name": "https://virtues.live:8138/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio32447_1722586805.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-radioempresabrasil-com-br-proxy-novainstrumental-stream",
+      "name": "https://streaming.radioempresabrasil.com.br/proxy/novainstrumental/stream",
+      "stream_url": null,
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "pending_review"
+    },
+    {
+      "id": "radio-https-servidor31-4-brlogic-com-8332-live",
+      "name": "https://servidor31-4.brlogic.com:8332/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/14233/favicon/19fe14d0fbfdb5cbad966097808a6d04.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-virtues-live-8076-stream",
+      "name": "https://virtues.live:8076/stream",
+      "stream_url": "http://www.novaonda.com.br/linhares/radio/images/img0002li.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor22-brlogic-com-7050-live",
+      "name": "https://servidor22.brlogic.com:7050/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/249787/editor/097c156d65e83ec9c1d9c039c0eec480.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast4-audiostream-com-br-2653-mp3",
+      "name": "https://cast4.audiostream.com.br:2653/mp3",
+      "stream_url": "https://www.radiopampa.com.br/wp-content/uploads/2021/10/radiopamap-300x300.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-sonicpanel-oficialserver-com-8210-stream",
+      "name": "https://sonicpanel.oficialserver.com/8210/stream",
+      "stream_url": "https://ps-str.srvsite.com/arquivos/6144/cabecalho-6144-20200109144336.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-r15-ciclano-io-proxy-radiopr2-stream",
+      "name": "https://r15.ciclano.io/proxy/radiopr2/stream",
+      "stream_url": "https://radiopratafm.com.br/wp-content/uploads/2022/03/header21.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm14-xcast-com-br-10110",
+      "name": "https://stm14.xcast.com.br:10110/;",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio36252_1586963115.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s39-maxcast-com-br-8072-live",
+      "name": "https://s39.maxcast.com.br:8072/live",
+      "stream_url": "https://radioptuj.svet24.si/images/RadioPtuj_logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s30-maxcast-com-br-8046-live",
+      "name": "https://s30.maxcast.com.br:8046/live",
+      "stream_url": "https://querenciaonline.com/assets/images/logoquerencia2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm2-srvif-com-8328-stream",
+      "name": "https://stm2.srvif.com:8328/stream",
+      "stream_url": "https://radioquintanares.art.br/images/logos/logo-quintanares-site.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm35-srvstm-com-6806",
+      "name": "https://stm35.srvstm.com:6806/;",
+      "stream_url": "https://www.rapadurarockweb.com.br/admin/assets/img/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-rbndigital-com-live",
+      "name": "https://radio.rbndigital.com/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio46251_1493923294.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm1-colossocastpro-com-br-7064-stream",
+      "name": "https://stm1.colossocastpro.com.br:7064/stream",
+      "stream_url": "https://i.imgur.com/PaHtAY2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm10-voxhd-com-br-9702-stream",
+      "name": "https://stm10.voxhd.com.br:9702/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio14193_1680012587.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-casthttps-suaradionanet-net-13805-stream",
+      "name": "https://casthttps.suaradionanet.net/13805/stream",
+      "stream_url": "https://manager.suaradionanet.net/storage/radios/reggaebrasil/site_basic/63f193d9235468.08684969.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor26-2-brlogic-com-8280-live",
+      "name": "https://servidor26-2.brlogic.com:8280/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/10288/program/145d508260633fedc793f542d1ae7fc6.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm23-srvaudio-com-br-10974-stream",
+      "name": "https://stm23.srvaudio.com.br:10974/stream",
+      "stream_url": "https://static.wixstatic.com/media/443c81_68aa6bf99de4402e97e503f571bf5cf7%7Emv2.png/v1/fit/w_2500,h_1330,al_c/443c81_68aa6bf99de4402e97e503f571bf5cf7%7Emv2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-159-zeno-fm-bd9p0p44puquv",
+      "name": "https://stream-159.zeno.fm/bd9p0p44puquv",
+      "stream_url": "https://pbs.twimg.com/media/ElF46QUXgAEtJk9?format=png&name=small",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-live9-livemus-com-br-27802-stream",
+      "name": "https://live9.livemus.com.br:27802/stream",
+      "stream_url": "https://www.radios.com.br/aovivo/radio-rural-de-natal-919-fm/78700",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-www12-senado-leg-br-radiosenado-fmaac-chunklist-w490874864-m3u8",
+      "name": "https://www12.senado.leg.br/radiosenado/fmaac/chunklist_w490874864.m3u8",
+      "stream_url": "https://www12.senado.leg.br/radio/++plone++senado_radio/img/touch_icon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream03-dghost-com-br-8260-stream",
+      "name": "https://stream03.dghost.com.br:8260/stream",
+      "stream_url": "https://www.radioserranamix.com.br/public/24456-2024-06-25.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7584-stream",
+      "name": "https://stm5.painelcast.com:7584/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/sertaneja.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radiosertanejatop-stream-laut-fm-radiosertanejatop",
+      "name": "https://radiosertanejatop.stream.laut.fm/radiosertanejatop",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio25503_1725610340.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-player-voxpainel-com-br-proxy-7076",
+      "name": "https://player.voxpainel.com.br/proxy/7076",
+      "stream_url": "https://img.radios.com.br/radio/md/radio15612_1701426271.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7588-stream",
+      "name": "https://stm5.painelcast.com:7588/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/sombrega1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor22-3-brlogic-com-9670-live",
+      "name": "https://servidor22-3.brlogic.com:9670/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/108515/favicon/9eb7b5e02983c9e20ed0990db2e90f86.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-163-zeno-fm-6gv76f1xruquv",
+      "name": "https://stream-163.zeno.fm/6gv76f1xruquv",
+      "stream_url": "https://pbs.twimg.com/media/GE7jNgZWQAEcxNb?format=png&name=240x240",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-centova5-transmissaodigital-com-20001",
+      "name": "https://centova5.transmissaodigital.com:20001/;",
+      "stream_url": "https://i.ibb.co/d0rps2bk/279586968-2291494730988635-8074650480271811715-n.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm5-painelcast-com-7582-stream",
+      "name": "https://stm5.painelcast.com:7582/stream",
+      "stream_url": "https://cordeiroplasticos.com.br/sucesso1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast2-hoost-com-br-20158-live",
+      "name": "https://cast2.hoost.com.br:20158/live",
+      "stream_url": "https://www.radiosud.be/favicon/android-icon-192x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor32-2-brlogic-com-8200-live",
+      "name": "https://servidor32-2.brlogic.com:8200/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/3477/favicon/d65de0370c9deb1e7ae28fb3a721cb52.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-6gnr5yq68nhvv",
+      "name": "https://stream.zeno.fm/6gnr5yq68nhvv",
+      "stream_url": "https://i.ibb.co/zhyZZTxB/image.webp",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast2-hoost-com-br-20088-stream",
+      "name": "https://cast2.hoost.com.br:20088/stream",
+      "stream_url": "https://radiotok.com.br/wp-content/uploads/2024/06/26232737237.webp",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm2-aovivodigital-com-br-10642-stream",
+      "name": "https://stm2.aovivodigital.com.br:10642/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio275580_1761048505.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor17-1-brlogic-com-7126-live",
+      "name": "https://servidor17-1.brlogic.com:7126/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/249876/logo/1a5a8ea6dccf097ac45790fd89678ca7.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-video-midiaserverbr-com-3975-live-rtmbrlive-m3u8",
+      "name": "https://video.midiaserverbr.com:3975/live/rtmbrlive.m3u8",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio18759_1456511123.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-hts02-brascast-com-8382-live",
+      "name": "https://hts02.brascast.com:8382/live",
+      "stream_url": "https://spaceks.net/sites/transvalefm.com.br/images/icone/user_633977004.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-shout25-crossradio-com-br-18014-stream",
+      "name": "https://shout25.crossradio.com.br:18014/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio14495_1508409250.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor18-2-brlogic-com-7544-live",
+      "name": "https://servidor18-2.brlogic.com:7544/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/167299/cover/0525548e624d96ad59fd36bb73ca4d1a.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor21-brlogic-com-7712-live",
+      "name": "https://servidor21.brlogic.com:7712/live",
+      "stream_url": "https://www.radio.ufrj.br/images/favicon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm24-xcast-com-br-9142-stream",
+      "name": "https://stm24.xcast.com.br:9142/stream",
+      "stream_url": "https://radiouniversovirtual.az.net.br/public/72739-2026-01-18.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor38-2-brlogic-com-8134-live",
+      "name": "https://servidor38-2.brlogic.com:8134/live",
+      "stream_url": "https://www.upf.br/_uploads/de96ed99-0829-412c-b2ca-7d214255ef6b.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-flow-emm-usp-br-8008-radiousp-128-mp3",
+      "name": "https://flow.emm.usp.br:8008/radiousp-128.mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio14248_1676304953.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-flow-emm-usp-br-8008-radiousp-rp-128-mp3",
+      "name": "https://flow.emm.usp.br:8008/radiousp-rp-128.mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio18857_1676304399.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-cast-mgtradio-net-radio-8020-radio-aac",
+      "name": "https://cast.mgtradio.net/radio/8020/radio.aac",
+      "stream_url": "https://d1di2lzuh97fh2.cloudfront.net/files/1j/1j3/1j3767.ico?ph=7abd60dc78",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor24-1-brlogic-com-7096-live",
+      "name": "https://servidor24-1.brlogic.com:7096/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/244925/mobileicon/b7bd804a12ac4ca5abbca6c78f220b92x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm8-painelcast-com-7454-stream",
+      "name": "https://stm8.painelcast.com:7454/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio38149_1520594394.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-painel-streamcasthost-com-listen-radio-web-coopnews-radio",
+      "name": "https://painel.streamcasthost.com/listen/radio_web_coopnews/radio",
+      "stream_url": "https://radiowebcoopnews.com.br/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s37-maxcast-com-br-8042-live",
+      "name": "https://s37.maxcast.com.br:8042/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio24351_1439401613.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-bd0hmtmb2d0uv",
+      "name": "https://stream.zeno.fm/bd0hmtmb2d0uv",
+      "stream_url": "https://images.zeno.fm/F19RKDqzPlicPWJRFtHsKsoDnxxlCIlPPZGOe78MIJc/rs:fit:170:170/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURBdGZhcy1nb01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURRdW9pQjVnZ01vZ0VFZW1WdWJ3L2ltYWdlLw.webp?u=Mon%20Jan%2001%2022:54:51%20UTC+0000%202024",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor21-brlogic-com-7976-live",
+      "name": "https://servidor21.brlogic.com:7976/live",
+      "stream_url": "https://www.cxradio.com.br/img/Radio/Logo/70513e19e133ed1f3c2195559f7b8807.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-riosulradio-com",
+      "name": "https://stream.riosulradio.com/",
+      "stream_url": "https://riosulradio.com/assets/img/logo.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s19-maxcast-com-br-8182-live",
+      "name": "https://s19.maxcast.com.br:8182/live",
+      "stream_url": "https://static.wixstatic.com/media/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor37-1-brlogic-com-8100-live",
+      "name": "https://servidor37-1.brlogic.com:8100/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/113/fbplayer/7eb6b35b003a5c561f99df3588822931.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-radiotransmundialaac-sc",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOTRANSMUNDIALAAC_SC",
+      "stream_url": "https://static2.mytuner.mobi/media/tvos_radios/sM6aed4N56.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor36-4-brlogic-com-8474-live",
+      "name": "https://servidor36-4.brlogic.com:8474/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/39758/mobileicon/636ee3ceb43dc23b3c32ad3f1a83cb34x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-saudade-fmaac-aac",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio8_1626274312.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm28-xcast-com-br-7314-stream",
+      "name": "https://stm28.xcast.com.br:7314/stream",
+      "stream_url": "https://smartradio.s3.amazonaws.com/uploads/station/vertical_logo/164/iTunesConnect.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-sv10-hdradios-net-8226-stream",
+      "name": "https://sv10.hdradios.net:8226/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio31977_1607423966.jpeg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-streaming-livespanel-com-20107-setecolinas",
+      "name": "https://streaming.livespanel.com:20107/setecolinas",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio69_1715670180.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-8300-brasilstream-com-br-stream",
+      "name": "https://8300.brasilstream.com.br/stream",
+      "stream_url": "https://www.setecolinas.com.br/wa_images/logos-sete-colinas-fm-500x500.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm3-voxhd-com-br-8154-stream",
+      "name": "https://stm3.voxhd.com.br:8154/stream",
+      "stream_url": "https://radiosintoniaesportiva.com.br/wp-content/uploads/2021/01/cropped-logo-sintonia-esportiva-1-180x180.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-xt4tf9zsxeruv",
+      "name": "https://stream.zeno.fm/xt4tf9zsxeruv",
+      "stream_url": "https://static.wixstatic.com/media/af7c44_c3f09027f809407ea5af0ff4e7acdc03~mv2.png/v1/fill/w_197,h_201,al_c,usm_0.66_1.00_0.01/1569425153841.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio4-vip-radios-fm-18060-stream-128kmp3-smoothjazzlounge",
+      "name": "https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge",
+      "stream_url": "https://www.vip-radios.fm/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-dypkmcyizhktv",
+      "name": "https://stream.zeno.fm/dypkmcyizhktv",
+      "stream_url": "https://stream.zeno.fm/dypkmcyizhktv",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-soulone-com-br-listen-soulone-externo",
+      "name": "https://stream.soulone.com.br/listen/soulone/externo",
+      "stream_url": "https://br.radio.net/300/soul-one.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor24-brlogic-com-7134-live",
+      "name": "https://servidor24.brlogic.com:7134/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/220246/mobileicon/10d0f66b1d0576ddfe366c6c13cdcb45x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-paineldj-com-br-20055-stream",
+      "name": "https://paineldj.com.br:20055/stream",
+      "stream_url": "https://www.studiofm.com.br/images/xfavicon.png.pagespeed.ic.86jcpCDNzh.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm7-conectastreaming-com-19876-stream",
+      "name": "https://stm7.conectastreaming.com:19876/stream",
+      "stream_url": "https://www.sucessofm.com/wp-content/uploads/2020/05/cropped-favicon-192x192.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor39-2-brlogic-com-7006-live",
+      "name": "https://servidor39-2.brlogic.com:7006/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/247571/logo/678415afe6081abf2f5c881f6ad9cd2d.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-9000-brasilstream-com-br-stream",
+      "name": "https://9000.brasilstream.com.br/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio10452_1439401380.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-9790-brasilstream-com-br-stream",
+      "name": "https://9790.brasilstream.com.br/stream",
+      "stream_url": "https://i.postimg.cc/NGbNPn5T/04030143105.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-webfrequencia-com-br-8110-tempofm",
+      "name": "https://radio.webfrequencia.com.br:8110/tempofm",
+      "stream_url": "https://smartradio.s3.amazonaws.com/uploads/station/vertical_logo/727714090/Avatar_Logo_Tempo_FM_2025.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor30-brlogic-com-8622-live",
+      "name": "https://servidor30.brlogic.com:8622/live",
+      "stream_url": "https://fmterra.com.br/wp-content/uploads/2022/05/logo-150x150.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-24373-live-streamtheworld-com-rt-sp-mp3",
+      "name": "https://24373.live.streamtheworld.com/RT_SP.mp3",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio8803_1760319906.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-rt-bh-mp3",
+      "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_BH.mp3",
+      "stream_url": "https://static.mytuner.mobi/media/tvos_radios/790/transamerica-belo-horizonte.15dd3e62.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radios-poolwebwork-com-br-8026-stream",
+      "name": "https://radios.poolwebwork.com.br/8026/stream",
+      "stream_url": "https://trifm.com.br/wp-content/uploads/2024/07/logo_512.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-player-centralcast-com-br-proxy-7024",
+      "name": "https://player.centralcast.com.br/proxy/7024",
+      "stream_url": "https://radiotropical.net/wp-content/uploads/2023/08/favicon.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor32-3-brlogic-com-8230-live",
+      "name": "https://servidor32-3.brlogic.com:8230/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/47137/favicon/6c0b5a4fbc04adeb8117f49ccabeb70b.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-painel-sintonizar-tv-br-stream-fatima",
+      "name": "https://painel.sintonizar.tv.br/stream/fatima",
+      "stream_url": "https://www.tuaradio.com.br/image/resize?w=90&h=71&q=90&src=intranet/userfiles/unidades/b4808ee648b022374302ab40f0d6fd22.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-c5bc53qc3k0uv",
+      "name": "https://stream.zeno.fm/c5bc53qc3k0uv",
+      "stream_url": "https://zeno.fm/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor22-brlogic-com-7062-live",
+      "name": "https://servidor22.brlogic.com:7062/live",
+      "stream_url": "https://static.wixstatic.com/media/968b35_5eec78e1465e4cc6886ecfab8dc316b9~mv2.png/v1/fit/w_480,h_480,q_90,enc_avif,quality_auto/968b35_5eec78e1465e4cc6886ecfab8dc316b9~mv2.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor37-brlogic-com-7094-live",
+      "name": "https://servidor37.brlogic.com:7094/live",
+      "stream_url": "https://static.wixstatic.com/media/968b35_ed58ea50126a440db954ab28fe0b9217~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor29-brlogic-com-7004-live",
+      "name": "https://servidor29.brlogic.com:7004/live",
+      "stream_url": "https://static.wixstatic.com/media/968b35_8abc350821884ad6b3b35e24cd6839b2~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor16-brlogic-com-7022-live",
+      "name": "https://servidor16.brlogic.com:7022/live",
+      "stream_url": "https://static.wixstatic.com/media/968b35_e8885c7187ff4d3a8471bfd06e744f25~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor37-brlogic-com-7020-live",
+      "name": "https://servidor37.brlogic.com:7020/live",
+      "stream_url": "https://static.wixstatic.com/media/968b35_320d9822b87440c49c7cffdac32339e6~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20VINTAGE%20SOFT_arte%20web%20.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-centova-euroti-com-br-20055-stream",
+      "name": "https://centova.euroti.com.br:20055/stream",
+      "stream_url": "http://violaviva.com.br/wp-content/uploads/2024/12/4.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-radio-saopaulo01-com-br-8110-stream",
+      "name": "https://radio.saopaulo01.com.br/8110/stream",
+      "stream_url": "https://ministeriosementesdafe.com/favicon.ico",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-s01-transmissaodigital-com-7390-stream",
+      "name": "https://s01.transmissaodigital.com:7390/stream",
+      "stream_url": "https://i.postimg.cc/1zXSgCqx/50414159195.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor34-1-brlogic-com-8090-live",
+      "name": "https://servidor34-1.brlogic.com:8090/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/1132/mobileicon/74ac21590f8bb0c993ae13017baf357e.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-paineldj5-com-br-2100-stream",
+      "name": "https://paineldj5.com.br:2100/stream",
+      "stream_url": "https://www.radiofraternidade.com.br/imagens/mascote.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm4-srvstm-com-9716-stream",
+      "name": "https://stm4.srvstm.com:9716/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio33518_1473868289.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stm16-voxhd-com-br-8852-stream",
+      "name": "https://stm16.voxhd.com.br:8852/stream",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio198185_1648563107.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor37-1-brlogic-com-8068-live",
+      "name": "https://servidor37-1.brlogic.com:8068/live",
+      "stream_url": "https://public-rf-upload.minhawebradio.net/1945/favicon/0490911fa0a9dcb9c6d091f5befa7809.png",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-servidor29-brlogic-com-7060-live",
+      "name": "https://servidor29.brlogic.com:7060/live",
+      "stream_url": "https://img.radios.com.br/radio/lg/radio61905_1558962314.jpg",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
+    },
+    {
+      "id": "radio-https-stream-zeno-fm-gzf0stmb2d0uv",
+      "name": "https://stream.zeno.fm/gzf0stmb2d0uv",
+      "stream_url": "https://images.zeno.fm/F19RKDqzPlicPWJRFtHsKsoDnxxlCIlPPZGOe78MIJc/rs:fit:170:170/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURBdGZhcy1nb01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURRdW9pQjVnZ01vZ0VFZW1WdWJ3L2ltYWdlLw.webp?u=Mon%20Jan%2001%2022:54:51%20UTC+0000%202024",
+      "logo_url": null,
+      "genre": null,
+      "source_id": "reference-catalog",
+      "stream_status": "imported"
     }
   ]
 }

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "series-reinicio",
+    "title": "Reinicio",
+    "type": "series",
+    "year": null,
+    "poster_url": "/1q42BNMaiUu9OSN9W14vbIqce6n.jpg",
+    "genres": [
+      "Mistério",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "304194",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "audio": "dub",
+            "sources": [],
+            "provider_refs": []
+          },
+          {
+            "episode": 1,
+            "audio": "leg",
+            "sources": [],
+            "provider_refs": []
+          },
+          {
+            "episode": 2,
+            "audio": "leg",
+            "sources": [],
+            "provider_refs": []
+          },
+          {
+            "episode": 3,
+            "audio": "leg",
+            "sources": [],
+            "provider_refs": []
+          }
+        ]
+      }
+    ],
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "subtype": "dorama"
+  }
+]

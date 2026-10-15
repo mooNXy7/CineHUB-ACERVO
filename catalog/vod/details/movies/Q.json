@@ -1,0 +1,7519 @@
+[
+  {
+    "id": "movie-q-a-sem-lei-sem-justica",
+    "title": "Q & A - Sem Lei, Sem Justiça",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/q45dAIysDhTNiLrqAyhEhWwxxCj.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "31598",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "31598",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quad-gods",
+    "title": "Quad Gods",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/wPKD810IOsLgYldcKzcAh4OLmnx.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1275790",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1275790",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449253",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quadrigemeos-do-tio-do-meu-ex",
+    "title": "QUADRIGEMEOS DO TIO DO MEU EX",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quadrilha-de-sadicos-2",
+    "title": "Quadrilha de Sádicos 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cwup19CX8WOsDPpntm1xFzuHvsk.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "18477",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "18477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445028",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quadrilha-maldita",
+    "title": "Quadrilha Maldita",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/js4P9y1gyU9bqrzE8s49gSNljQX.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "37481",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "37481",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-qual-seu-numero",
+    "title": "Qual Seu Número?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/lEL1HgLx4wmc1tkdpknAfuALiF4.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "63492",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "63492",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-qualquer-gato-vira-lata",
+    "title": "Qualquer Gato Vira-Lata",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3J3cHveGttHf2NFw5XbQ84zvKI6.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "74053",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "74053",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450754.avi",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-qualquer-gato-vira-lata-2-2015",
+    "title": "Qualquer Gato Vira-Lata 2 (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/aW1jUFBcOarOSJieHkGqbB1dqHh.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "322977",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/180213015bee6f11bae113beebfc9404/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "322977",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451122",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quand-vient-lautomne",
+    "title": "Quand vient lautomne",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/kWAx6sQyGOZzDNH0a3MyJ4lVcfC.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Comédia"
+    ],
+    "tmdb_id": "1171634",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-a-festa-acabar-1993",
+    "title": "Quando a Festa Acabar (1993)",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/o8AFMZVoCdqxvyzdID8tPMNYKl2.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "102408",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "102408",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-a-guerra-acabar-2023",
+    "title": "Quando a Guerra Acabar (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/zglxxVFyhiwwh0X3xfvXa8bPAve.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Guerra"
+    ],
+    "tmdb_id": "1120543",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/279412e7fe8d2de8afce7d3ee91bafa2/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1120543",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450602",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448443",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-justica-volta-da-morte",
+    "title": "QUANDO A JUSTICA VOLTA DA MORTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-a-luz-arrebenta",
+    "title": "Quando a Luz Arrebenta",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/s3rtYPs3gpw2C16dnkM0jnsgG2.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1257407",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-a-morte-chega",
+    "title": "Quando a Morte Chega",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/iJGLHZaa9AmmKABkxr8kPDJS8XQ.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "934641",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "934641",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-morte-sussurra",
+    "title": "Quando a Morte Sussurra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/z9GjAzLasH7ODs8p0XVvrkeorSW.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "1134433",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1134433",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448713",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452083",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-morte-sussurra-2-2024",
+    "title": "Quando a Morte Sussurra 2 (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/6rKpRqQ15QbcqvVlkqGyjQfTz1C.jpg",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Ação"
+    ],
+    "tmdb_id": "1247019",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c39922979523d095522370fec6a435d0/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1247019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451399",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-morte-sussurra-3",
+    "title": "Quando a Morte Sussurra 3",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ppsif2CqPzY8a9zIe0oB8WACktk.jpg",
+    "genres": [
+      "Terror",
+      "Ação",
+      "Suspense"
+    ],
+    "tmdb_id": "1410399",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/cbe5a57c3fcd45d4df65afeb458e09a9/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1410399",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461981",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-sorte-acaba",
+    "title": "Quando a Sorte Acaba",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/gErbuV4viQkVLiqyiRIaF40YlQA.jpg",
+    "genres": [
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "678585",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-a-verdade-veio-a-tona-um-amor-ardente",
+    "title": "Quando A Verdade Veio A Tona Um Amor Ardente",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-a-vida-acontece-2020",
+    "title": "Quando a Vida Acontece (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/yjhyXwf9sFnttNBNln9e3ugmFlQ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "754800",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/565770bf40a6c822f59f40a76d4aaee5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "754800",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456519",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-a-vida-vira-nada",
+    "title": "Quando a Vida Vira Nada",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4IMDVGcQWp0qDeWtActGw0PGXCP.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "978006",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2443958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-anjos-cantam",
+    "title": "Quando Anjos Cantam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/sZJ5DUWrVAsPc3GKkliYn4O88Kq.jpg",
+    "genres": [
+      "Comédia",
+      "Família",
+      "Drama"
+    ],
+    "tmdb_id": "57210",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "57210",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460772",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-as-luzes-se-apagam-2016",
+    "title": "Quando as Luzes se Apagam (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/85J3PJVTuuiz5kyFF7UkLCJqOcZ.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "345911",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/2ecfd08eb6206dd6c56c6342a4fb77a5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2452493",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-as-metralhadoras-cospem",
+    "title": "Quando as Metralhadoras Cospem",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3J3yL1PGIIppDg80hsYzmVis6Zs.jpg",
+    "genres": [
+      "Drama",
+      "Ação",
+      "Comédia",
+      "Música",
+      "Família"
+    ],
+    "tmdb_id": "8446",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8446",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456083",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-as-mulheres-querem-provas",
+    "title": "Quando as Mulheres Querem Provas",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cdB4gCw30rutaaBXfNmrPkT3fRl.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "184158",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-brota-o-amor",
+    "title": "Quando Brota o Amor",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/AmLfhgwwFmEZzTUBN0S4JM3YlVw.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "48207",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "48207",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-chega-a-calmaria",
+    "title": "Quando Chega a Calmaria",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pECCwVYrVO63IrjT5jR0UtFcT0u.jpg",
+    "genres": [
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "748412",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "748412",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459004",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-dois-mundos-colidem",
+    "title": "Quando dois mundos colidem",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pWjhKfhkjFWTLZLqTp9d03ZJxKq.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "373442",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "373442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-ela-acordar",
+    "title": "QUANDO ELA ACORDAR",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/nuOAim9c6ft3X0UBNHPHSe7dSmW.jpg",
+    "genres": [],
+    "tmdb_id": "1467703",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-ela-desapareceu",
+    "title": "QUANDO ELA DESAPARECEU",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-em-roma",
+    "title": "Quando Em Roma",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/gAQVIp2hvxWLwxgouDNNS1Uc0QL.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia",
+      "Romance"
+    ],
+    "tmdb_id": "13477",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "13477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461129",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-encontrei-voce",
+    "title": "Quando Encontrei Você",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/9sDdAfhbN5C0tOnQx3qU6d6eAoy.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "769749",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2461863",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-eu-me-encontrar-2024",
+    "title": "Quando Eu Me Encontrar (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/nuWuyVOPjttUBgUAth8MI1KcJrR.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1136603",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1136603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quando-eu-penso-no-natal",
+    "title": "Quando Eu Penso no Natal",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/oRRJWmHBjkIozNsnrv3lIAQwcZ1.jpg",
+    "genres": [
+      "TV",
+      "Comédia",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "1028543",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1028543",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460404",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-explode-a-vinganca",
+    "title": "Quando Explode a Vingança",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/n9j27jiV3SMowO6QfvuwCcWOQuS.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "336",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "336",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446798",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-hitler-roubou-o-coelho-cor-de-rosa",
+    "title": "Quando Hitler Roubou o Coelho Cor-de-Rosa",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/xN7PSkntdjadMAJFjRHzOOGKEON.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "581518",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "581518",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456329",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-lembro-de-chico",
+    "title": "Quando Lembro de Chico",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mxgxmlg4inLsKp9vW9FdV9iVgDK.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "568029",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "568029",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-meus-gemeos-encontram-seu-pai",
+    "title": "QUANDO MEUS GEMEOS ENCONTRAM SEU PAI",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-meus-gemeos-encontraram-seu-pai",
+    "title": "Quando Meus Gêmeos Encontraram Seu Pai",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-meus-pais-salvaram-a-terra",
+    "title": "Quando Meus Pais Salvaram a Terra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qqBc7CQIhpsAsi3dzv0SnvC8Reh.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica",
+      "Ação"
+    ],
+    "tmdb_id": "27295",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "27295",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461241",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-nasce-o-amor-2023",
+    "title": "Quando Nasce o Amor (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/kVW5CTo3qrCdEuCrn8SrRyEo5au.jpg",
+    "genres": [
+      "TV",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1067821",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/aa214a3b6726dbfdcd5ea593cb4a0942/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1067821",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-nos-conhecemos-2018",
+    "title": "Quando Nos Conhecemos (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/qds0JSt6DvKbu3I1JErMIP1Rk0U.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Fantasia"
+    ],
+    "tmdb_id": "433310",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b3b575ace60baad14cba2c36e290259b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "433310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460022",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-acontece",
+    "title": "Quando o Amor Acontece",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7WOBeoaXUNGzbm79Umio2CcH941.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "9715",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2446749",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-o-amor-acontece-1998",
+    "title": "Quando o Amor Acontece (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/7WOBeoaXUNGzbm79Umio2CcH941.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "9715",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9715",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-acontece-2020",
+    "title": "Quando o Amor Acontece (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/2RrdsMSkoXERqMh75SCK0gTAqpz.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "672852",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "672852",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-o-amor-chega-tarde-demais",
+    "title": "Quando o amor Chega Tarde Demais",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-de-repente-acontece-2020",
+    "title": "QUANDO O AMOR DE REPENTE ACONTECE (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-nao-basta",
+    "title": "QUANDO O AMOR NAO BASTA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-nao-e-suficiente",
+    "title": "Quando o Amor Não É Suficiente",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-se-foi",
+    "title": "QUANDO O AMOR SE FOI",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-se-foi-2024",
+    "title": "QUANDO O AMOR SE FOI (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-secou",
+    "title": "QUANDO O AMOR SECOU",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-amor-vira-traicao",
+    "title": "QUANDO O AMOR VIRA TRAICAO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-o-ceu-se-engana-2025",
+    "title": "Quando o Ceu se Engana (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/h90ccrZZzwfSsOgvHTbB76MLw4b.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "1114967",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/222fa510297ab4054d07d528ec3dc631/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1114967",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445525",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quando-o-coracao-bate-mais-forte-2",
+    "title": "Quando o Coracao Bate Mais Forte 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/bXX8aXo22xbsRk28VTU0WWu8NCm.jpg",
+    "genres": [
+      "Drama",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": "826680",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "826680",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455457",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-o-demonio-chama",
+    "title": "Quando o Demônio Chama",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/x91rdEBFATNkmt4QmaccZFtCXzO.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "752721",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "752721",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452014",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-o-galo-cantar-pela-terceira-vez-renegaras-tua-mae",
+    "title": "Quando o Galo Cantar Pela Terceira Vez Renegarás Tua Mãe",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/yTw4Ne8eROQFiG3wrrRRSDsiHLW.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "488582",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "488582",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-o-guarda-virou-amor",
+    "title": "QUANDO O GUARDA VIROU AMOR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-jogo-esta-alto",
+    "title": "Quando o Jogo está Alto",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/olY4wjp1ZM3CMawf91jEaIj2X13.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "232679",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "232679",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455422",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-o-mal-chega",
+    "title": "Quando o Mal Chega",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/t6cWfm0o5TzCa3nHtHhXpzjBc8V.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "744857",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e908c6ab307ad84c9a1ea2da77e602ac/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-mal-desperta",
+    "title": "Quando o Mal Desperta",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jszaIQKaTmQL4CKZfZclPOhVZHX.jpg",
+    "genres": [
+      "Terror",
+      "Ação",
+      "Ficção científica"
+    ],
+    "tmdb_id": "1301122",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1301122",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444434",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quando-o-sangue-virou-veneno",
+    "title": "QUANDO O SANGUE VIROU VENENO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-sol-se-poe",
+    "title": "Quando o Sol se Põe",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/bmVlOftBeALFWUvxSKlYQG9WTE7.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "697806",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "697806",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457015",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-o-tempo-cair",
+    "title": "Quando o Tempo Cair",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2CqQb4lNDflxxnDMjJNIsJVgtwA.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "676777",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "676777",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450686",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-os-anjos-dormem",
+    "title": "Quando os Anjos Dormem",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/5fL6ptwYEZfoGup4jsg2JDoT8lF.jpg",
+    "genres": [
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "533992",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "533992",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455865",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-os-anjos-falam",
+    "title": "Quando os Anjos Falam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/oaUjpBzWeAAv1Sjo5lpnKqrD3rI.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "50225",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "50225",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457178",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-os-bravos-se-calam",
+    "title": "Quando os Bravos se Calam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tDnC5EAYzxemySfkUT1Mwgbl7Ak.jpg",
+    "genres": [
+      "Drama",
+      "Guerra",
+      "TV"
+    ],
+    "tmdb_id": "13935",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "13935",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458117",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-os-gritos-comecam",
+    "title": "Quando Os Gritos Começam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/dfMoDjv8MglnMmxSyrwbTLMwgCC.jpg",
+    "genres": [
+      "Terror",
+      "Comédia"
+    ],
+    "tmdb_id": "853094",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "853094",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444170",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-os-sinos-tocam",
+    "title": "Quando os Sinos Tocam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ja4VqlrXYS07EDnUUzfcXomP9cd.jpg",
+    "genres": [
+      "História",
+      "Fantasia",
+      "Drama"
+    ],
+    "tmdb_id": "1039571",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1039571",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447321",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-parei-de-te-salvar",
+    "title": "QUANDO PAREI DE TE SALVAR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-suas-mentiras-bateram-no-limite",
+    "title": "QUANDO SUAS MENTIRAS BATERAM NO LIMITE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-te-conheci",
+    "title": "Quando Te Conheci",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/dmWSNfv4fMsjpdhpKo1pLeL9wLB.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Ficção científica"
+    ],
+    "tmdb_id": "301875",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "301875",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-te-encontrei",
+    "title": "Quando Te Encontrei",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/9sDdAfhbN5C0tOnQx3qU6d6eAoy.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "769749",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quando-te-encontrei-love-in-time",
+    "title": "Quando Te Encontrei - Love In Time",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-tudo-parece-perdido",
+    "title": "Quando Tudo Parece Perdido",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/AiruGHcA4NThzneIRZXNqwhsdpD.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "465032",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "465032",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-um-estranho-chama",
+    "title": "Quando um Estranho Chama",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mdhpKVuuNZcc9noZzYXruxeIxdJ.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "45964",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10053",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "45964",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451415",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-um-homem-ama-uma-mulher",
+    "title": "Quando um Homem Ama uma Mulher",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/onkETu3jrDklSkiTcwsQ3pY9mgw.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "10449",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10449",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455257",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-um-homem-e-homem",
+    "title": "Quando Um Homem É Homem",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/bMg4BMP60VLqdlcXAOc8jNl6s19.jpg",
+    "genres": [
+      "Faroeste",
+      "Comédia"
+    ],
+    "tmdb_id": "15263",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "15263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quando-voce-chegou",
+    "title": "Quando Voce Chegou",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4CnJbVjpBFWWeZHXREsCxZM9ELv.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "375785",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "375785",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461384",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-voce-menos-espera-2019",
+    "title": "Quando Voce Menos Espera (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/6UjLFBx5t7DDLsZMZRPiOwz8oNq.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "565326",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "565326",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "343369",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460067",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quando-voce-terminar-de-salvar-o-mundo",
+    "title": "Quando Você Terminar de Salvar o Mundo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/nvKVqqbb5klosZ8elGc696kkIRu.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "691422",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "691422",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455190",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quanto-mais-idiota-melhor",
+    "title": "Quanto Mais Idiota Melhor",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2Owz4QhGrEbyAN3sTizuFxCpCw4.jpg",
+    "genres": [
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": "8872",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8872",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quanto-mais-idiota-melhor-2",
+    "title": "Quanto Mais Idiota Melhor 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3p47lmMO9KiHE9ImXSQgNG7SUhj.jpg",
+    "genres": [
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": "8873",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quanto-mais-quente-melhor",
+    "title": "Quanto Mais Quente Melhor",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/bmaiDTzvS9OCqgKRqG5nEQFIZeS.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Crime"
+    ],
+    "tmdb_id": "239",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "239",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quanto-vale",
+    "title": "Quanto Vale?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4DUDQpsWYeUz3c2Jbr7LYUnsc9A.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "649394",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "649394",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456524",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quantos-dias-quantas-noites",
+    "title": "Quantos Dias Quantas Noites",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tzTt8Gy8T2QpFwj08XUaiqqKtvl.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1174335",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1174335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452724",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quarentena-2008",
+    "title": "Quarentena (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/4KYoUDKOO4sCxuE0UjpcXjdgkVG.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "13812",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/2db05ef6fcb595aa26b291d6574a70df/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "13812",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "876920",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451630",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarentena-2",
+    "title": "Quarentena 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cF4LscI8V4RGEq8bPVoF4efI8gc.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Ficção científica"
+    ],
+    "tmdb_id": "59115",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "59115",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451949",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarentena-pra-quem",
+    "title": "Quarentena Pra Quem?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3eZplgtMxJROcCX39UVN45ndrlR.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "861750",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "861750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quarentao",
+    "title": "Quarentão",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rndkeNvpvz6D8nmcFEYJxxW8lRr.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "949270",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "949270",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451696",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quarta-serie",
+    "title": "Quarta Série",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mLotwUogrrxPdKRjMzTJ7NOf3K2.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "857446",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "857446",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456171",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quarteto-amigo",
+    "title": "Quarteto Amigo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tu2h5LBUcAd2NJy3x11QXOobni4.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "510334",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "510334",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460828",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quarteto-fantastico-2015",
+    "title": "Quarteto Fantastico (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/XJ8jZ4hGyusnN41NnxR0vv5ghS.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica"
+    ],
+    "tmdb_id": "166424",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "166424",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "9738",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455251",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455315",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quarteto-fantastico-1",
+    "title": "Quarteto Fantastico 1",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarteto-fantastico-2",
+    "title": "Quarteto Fantastico 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/kUBvEoDVCuCQeQxBsd8Ohen8tpi.jpg",
+    "genres": [
+      "Ficção científica",
+      "Aventura",
+      "Ação"
+    ],
+    "tmdb_id": "1979",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1979",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453367",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarteto-fantastico-3",
+    "title": "Quarteto Fantastico 3",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarteto-fantastico-primeiros-passos-2025",
+    "title": "Quarteto Fantastico Primeiros Passos (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/8F2vIxWycANHW763lnx2hJVtjDC.jpg",
+    "genres": [
+      "Ficção científica",
+      "Aventura",
+      "Ação"
+    ],
+    "tmdb_id": "617126",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ee842c7919fc5d185935dfae94b5396e/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "617126",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444548",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445404",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarto-212-2019",
+    "title": "Quarto 212 (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/nS1yduwTj432nxoMesbPUj1XE1I.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "595867",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d66610f0fd72d3c0bf655f90bd35d6dd/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quarto-de-guerra",
+    "title": "Quarto de Guerra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/kyssvvCXc13c9VC7QTWjRo12FyE.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "323272",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "323272",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450738",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quarto-do-panico",
+    "title": "Quarto do Pânico",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/yioY8xPjLygGezkrRs7yf01BQ7P.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "1404023",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1404023",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444856",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quartos-vazios",
+    "title": "Quartos Vazios",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6m5URjYfXEv43tEqXoDXX49RygT.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1525091",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1525091",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445180",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quase-18-2016",
+    "title": "Quase 18 (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/sPm7pVVvTw8QYNbvnWU61tJvJZ6.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "376660",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e3d0fcb09c80aa517818de85584e27b1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "376660",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-amigos",
+    "title": "Quase Amigos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ffkK1QnQ95JiYomBJms1NIWep8N.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "436459",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "436459",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457002",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-amor",
+    "title": "QUASE AMOR",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/d6j7h53wfIOVSVtzPCzAEwtPmrr.jpg",
+    "genres": [
+      "Romance"
+    ],
+    "tmdb_id": "1011301",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quase-apaixonados",
+    "title": "Quase Apaixonados",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/htmC2TFpQQd54FD1iLsqTRuY6jU.jpg",
+    "genres": [
+      "Romance",
+      "Música",
+      "Drama"
+    ],
+    "tmdb_id": "1270003",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1270003",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446159",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448320",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quase-casados",
+    "title": "Quase Casados",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/zOorDHGnyCKJIgzjZCwfQNoRIoV.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "588717",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "588717",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quase-deserto",
+    "title": "Quase Deserto",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/77gH6cZgKs1uuzmy8FuZ09VSavC.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "1540605",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1540605",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444487",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quase-deuses",
+    "title": "Quase Deuses",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ab6Wmvhn1zyXz16hSicwjAqBAsS.jpg",
+    "genres": [
+      "TV",
+      "Drama"
+    ],
+    "tmdb_id": "20544",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "20544",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455035",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-dois-irmaos",
+    "title": "Quase Dois Irmãos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/q9nNJm7BFzTHJNboRQlPmXU1ymF.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "49449",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "49449",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455871",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-famosos",
+    "title": "Quase Famosos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mgHxgT0TKaFBv3cAIMxAxe8lR6z.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "786",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2456802",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460261",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-famosos-2000",
+    "title": "Quase Famosos (2000)",
+    "type": "movie",
+    "year": "2000",
+    "poster_url": "/mgHxgT0TKaFBv3cAIMxAxe8lR6z.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "786",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "786",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-famosos-2019",
+    "title": "Quase Famosos (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/bm7mBtoJWienvwsfskulrJXOr5P.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "641004",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "641004",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-igual-aos-outros",
+    "title": "Quase Igual aos Outros",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1cISPds02sB650jLAbKHG6W5EwN.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "24548",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "24548",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quase-ilegal",
+    "title": "Quase Ilegal",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/5vSqi4BbFuW8LnhojWJiWHOXMlp.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "15276",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "15276",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quase-morta-2023",
+    "title": "Quase Morta (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/aVasblXf2bU7SSLiygd0ra84sUM.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "791295",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/805412546289d6c500135ae8bb5d0573/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "791295",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461579",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quase-o-paraiso",
+    "title": "Quase o Paraíso",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3jKZ9wVusyOWME92KmMXz4NTeEC.jpg",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Comédia"
+    ],
+    "tmdb_id": "1232732",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1232732",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450207",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-trinta-em-busca-do-amor",
+    "title": "Quase Trinta - Em Busca do Amor",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/hlsDQdBtZeewxYEHKJBp3jVwdrk.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1160124",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c004f1560dbd67edd287b36dcd430361/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1160124",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445471",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quase-uma-noiva-2024",
+    "title": "Quase Uma Noiva (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/fppBBENnnSyr3qL6pSTR6S8fBlk.jpg",
+    "genres": [
+      "TV",
+      "Romance",
+      "Comédia",
+      "História"
+    ],
+    "tmdb_id": "1148745",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/66d197705b4fd719036a0b66e30fffd1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1148745",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444902",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quase-uma-rockstar-2020",
+    "title": "Quase uma Rockstar (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/cbFgoQKRH8QiFMcLs4D52VznKUz.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "615466",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/5e7e2c2e486532fc687a17b89065433f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "615466",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456642",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quase-virgem",
+    "title": "Quase Virgem",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/fJNJOmUBIGxTGY3ISN9MOFwlbb0.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "19109",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "19109",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quasimodo-2023",
+    "title": "Quasimodo (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/yRitoZ1fVLhUsK7bzu84lJQMg1g.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "893752",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "893752",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460173",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quatro-amigas-e-um-casamento",
+    "title": "Quatro Amigas e um Casamento",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/436VjtTIx4iYJu50bYIEzf52hsw.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "84174",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "84174",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448807",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460151",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-amigas-e-um-jeans-viajante",
+    "title": "Quatro Amigas e um Jeans Viajante",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/hko3QJ0NR7bjS73LVjcX1MKrIt5.jpg",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "9779",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9779",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455889",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-amigas-e-um-jeans-viajante-2-2008",
+    "title": "Quatro Amigas e um Jeans Viajante 2 (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/8oHzMzUoD7GHuFOB5lWjkwzGsn5.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "10188",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/792d51e75228bc1667e9cdec8b58631b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10188",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456675",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-amigas-numa-fria",
+    "title": "Quatro Amigas Numa Fria",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4QDkxzuZ1klmF3OYYM10xaMFIfu.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "884571",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "884571",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447851",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461546",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-bebes-do-regente",
+    "title": "QUATRO BEBES DO REGENTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-cavaleiros-do-apocalipse-2022",
+    "title": "Quatro Cavaleiros do Apocalipse (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/AoB4ZIHY16GThNDObQPmOWPJTPu.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror",
+      "TV"
+    ],
+    "tmdb_id": "969686",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "969686",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447186",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452480",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-dias-com-eduardo",
+    "title": "Quatro Dias com Eduardo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/caWF46UNhzlR1QHQ17lInzRdS9C.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "651880",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2444161",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quatro-geracoes",
+    "title": "Quatro Gerações",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tmbpeBp9qeCFj94f6NtMd7Sssge.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1026822",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1026822",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456000",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-historias-de-fantasmas-2020",
+    "title": "Quatro Historias de Fantasmas (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/iXtqWsjs4kiClTD6zLJlijFdDBY.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "601643",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/3122b5241005d96600962ee373d2d98c/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "601643",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451663",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-historias-de-desejo-2018",
+    "title": "Quatro Histórias de Desejo (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/ap6YP2pD2fSSu1JXSRi0p3r4CYk.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "530154",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/0b48d542c7f507f602e7706ec6f77b8d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "530154",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455593",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-historias-de-desejo-2",
+    "title": "Quatro Histórias de Desejo 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/hPJ8I4ehMFEp9bmOg12Ay7gg021.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1136736",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1136736",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456469",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quatro-historias-de-desejo-3-2026",
+    "title": "Quatro Histórias de Desejo 3 (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/1rYl0kaBlxsDNJtkn4msRIidBvM.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "1451944",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1451944",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2470945",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quatro-irmas-imploram-me-para-ir-para-casa",
+    "title": "Quatro Irmas Imploram Me Para Ir Para Casa",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-irmaos",
+    "title": "Quatro Irmãos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/frQfuCgFq0enioeku24KMG2gvlo.jpg",
+    "genres": [
+      "Ação",
+      "Crime"
+    ],
+    "tmdb_id": "8292",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8292",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quatro-mulheres-e-um-destino",
+    "title": "Quatro Mulheres e Um Destino",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/eI7YqrwsG1Fcu3KohSnNOq9e3NN.jpg",
+    "genres": [
+      "Romance",
+      "Faroeste"
+    ],
+    "tmdb_id": "11853",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11853",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quatro-maes",
+    "title": "Quatro Mães",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2NDYExE6u4q0T1jMSCxeV4PFiI6.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "1081196",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1081196",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444585",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quatro-vidas-de-um-cachorro",
+    "title": "Quatro Vidas de um Cachorro",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3W5jF8z5GkOHEslaIv89Ncp06J4.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Família",
+      "Drama"
+    ],
+    "tmdb_id": "381289",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "381289",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460231",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-a-festa-comece",
+    "title": "Que a Festa Comece",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ufsXcKpEElxqDS0CGZfy21JfITf.jpg",
+    "genres": [
+      "Guerra",
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "76482",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "76482",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-que-a-forca-materna-esteja-com-voce",
+    "title": "Que a Força Materna Esteja com Você",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/9pEPOaZCXqQNjCoRiMnMLqm4nnE.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Ficção científica",
+      "Aventura"
+    ],
+    "tmdb_id": "1284004",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1284004",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-culpa-tem-o-carma",
+    "title": "Que Culpa Tem o Carma?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/75c31o9z1w51yEMdH9NfWkBvz3N.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "648743",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "648743",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446678",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-que-do",
+    "title": "Que Do",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/xj2uHWw6T90M2Ep8ZtTtVC0LcG0.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "3981",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2463785",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-que-eu-conquiste-poder-e-desejo",
+    "title": "QUE EU CONQUISTE PODER E DESEJO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-familia-e-essa",
+    "title": "Que Família é Essa?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/nvCTrlxhVNHOQYMiJryqDf4tJdq.jpg",
+    "genres": [
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "391700",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "391700",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-haja-luz",
+    "title": "Que Haja Luz",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/dGSITQuMpB96RF05b0UGEclrxit.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "480881",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2454998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-horas-ela-volta-2015",
+    "title": "Que Horas Ela Volta (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/d5aIZjwdG87YradTjmtmyZtR1dy.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "310569",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/de1aba65ede983104330f2a79ad8bbbe/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "310569",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451100",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-horas-eu-te-pego-2023",
+    "title": "Que Horas Eu Te Pego (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/Ab2IX5DuY1ZAyFNGXh1MeUOzIGB.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "884605",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ed802bb981266c79093194eccf474614/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "884605",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460705",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 5
+  },
+  {
+    "id": "movie-que-leon-2018",
+    "title": "Que Léon (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/fcQUbX6nUP9XE3Z0WHCH2zFDX0x.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "567452",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/be4184a0ecb6f51b896fba2b07cf6f4f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "567452",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446483",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-mal-eu-fiz-a-deus",
+    "title": "Que Mal Eu Fiz a Deus?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pvZHNWr4wTruHQR63ueVE57KPBT.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "262391",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "262391",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461229",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-mal-eu-fiz-a-deus-2",
+    "title": "Que Mal Eu Fiz a Deus? 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pgz1Yq4sn0ClNKhy3pKvLl0kAeY.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "505436",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "505436",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459826",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-mal-que-faz",
+    "title": "Que Mal Que Faz",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/odaMKuCirLucPXPc7srGLSrjrJs.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "464043",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-que-mae-sou-eu-2025",
+    "title": "Que Mãe Sou Eu? (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/imOkVKrJKfkE4s8GelGwIoCMgEh.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "729713",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/45a7ae916f7be42ce58b1594c44d034b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "729713",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-que-o-poder-dos-tres-me-liberte",
+    "title": "QUE O PODER DOS TRES ME LIBERTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-se-dane-o-amor-de-novo-2022",
+    "title": "Que Se Dane o Amor, De Novo! (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/f4qYU8OF2dgpM6Fe7Xj8dJDnvdN.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "970308",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "970308",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-que-sorte-danada",
+    "title": "Que Sorte Danada!",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/8MaSkeFK2qD9iXEyO0m6kxrMZwv.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "20242",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "20242",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447752",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quebra-de-conduta",
+    "title": "Quebra de Conduta",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cjIb4Jnhp2WqDXt3k0D83V9JOr0.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "170689",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "170689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quebra-de-fidelidade",
+    "title": "Quebra de Fidelidade",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/iIiqXnMhplIkUK6QOnf40zmYGwc.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "37567",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quebrando-a-banca-2008",
+    "title": "Quebrando a Banca (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/f7XJTncIZ7x9fG6wAhmB9M41sUY.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "8065",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6ab3572c40f0db751d3806e52c587468/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8065",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quebrando-as-regras-4-2021",
+    "title": "Quebrando as Regras 4 (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4bJpN0oP18osNlCvSoYvXih4wO8.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "763025",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4cd5c3eeae1d5fea2bf67ef68e0bd574/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "763025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454259",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quebrando-correntes",
+    "title": "Quebrando Correntes",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/su5e95O96dVIcMMRxfBxoEFdfqw.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "841575",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "841575",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455368",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quebrando-o-gelo-2022",
+    "title": "Quebrando o Gelo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/dnwf2DyI41EkWvJnOLfWV6DFRNW.jpg",
+    "genres": [
+      "TV",
+      "Família",
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": "1032412",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1032412",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "15489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446946",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4
+  },
+  {
+    "id": "movie-quebrando-regras",
+    "title": "Quebrando Regras",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/zHgmsesWCLimmYUFFLnXk3DYWde.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "8456",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/a2d83ed1d330ab733eabef5713a312f5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8456",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448782",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455294",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quebrando-regras-2025",
+    "title": "Quebrando Regras (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/zHCYXQhTgyTELLH0Wtzz12zXas7.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1379520",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/a2d83ed1d330ab733eabef5713a312f5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1379520",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quebrando-regras-2-2011",
+    "title": "Quebrando Regras 2 (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/dCTsgWyQKmrMopvtMHtnGA2tghW.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "70006",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/20ec23b6961472d74d6b3211ecce1c6e/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "70006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455108",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quebrando-regras-3",
+    "title": "Quebrando Regras 3",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1ws12NsCd7aTOcUget1sAh8PO1z.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "391757",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "391757",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quebrando-regras-3-nao-se-rendam",
+    "title": "Quebrando Regras 3: Não Se Rendam",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1ws12NsCd7aTOcUget1sAh8PO1z.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "391757",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2457622",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quebre-meu-coracao-novamente",
+    "title": "QUEBRE MEU CORACAO NOVAMENTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queda-livre-a-tragedia-do-caso-boeing",
+    "title": "Queda Livre: A Tragédia do Caso Boeing",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ptk9g0teL4UEQvGyJaZctvVRi8A.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "913862",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "913862",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-queda-livre-as-consequencias-do-caso-boeing",
+    "title": "Queda Livre: As Consequências do Caso Boeing",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/c4xTdrb3mCRFcv6iIKyyySLGD75.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1688804",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1688804",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444480",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444504",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-queda-mortal",
+    "title": "Queda Mortal",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1yWkJOav2boJvJu0l6lsoMVtxTE.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "227229",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "227229",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quedar-se-de-vontade-no-nosso-carma",
+    "title": "QUEDAR-SE DE VONTADE NO NOSSO CARMA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queen-slim",
+    "title": "Queen & Slim",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qfIJOmsiBcum6EGosiy5gTF6ihk.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "536743",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "536743",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455305",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-queen-the-freddie-mercury-tribute-concert-10th-anniversary-documentary",
+    "title": "Queen - The Freddie Mercury Tribute Concert 10th Anniversary Documentary",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6LxoteFrNCXbV1IvPxBt53PGCR1.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "719202",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "719202",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-queen-and-slim",
+    "title": "Queen And Slim",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qfIJOmsiBcum6EGosiy5gTF6ihk.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "536743",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queen-e-slim",
+    "title": "Queen e Slim",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queen-of-spades-through-the-looking-glass",
+    "title": "Queen Of Spades Through The Looking Glass",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6iLooCeB5SuoaAfSDGpMYPOX1Vw.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "575361",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "575361",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queen-tut",
+    "title": "Queen Tut",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/zjlnzrmadBvNTDPMmXc7YW5hANu.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "1020386",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1020386",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-queens",
+    "title": "Queens",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/lrb4Toi6BJHWwOz9clh1aJGJDj8.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1596318",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "647316",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queer",
+    "title": "Queer",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tqhNXXbYgOL8WwesUgvwWi6COtK.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1059128",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9b8e1315c78f547ebcd4e92adbfb5144/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1059128",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447322",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queima-de-arquivo",
+    "title": "Queima de Arquivo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/9j0XaRwXaqUHong7UIolKqxsU98.jpg",
+    "genres": [
+      "Ação",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "9268",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1251340",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "9268",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453910",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457769",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queimando-o-filme-2025",
+    "title": "Queimando o Filme (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/6EIfh5Raw2Eil36dsYvkrVNvBWd.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "1204892",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/36a4ffe7a508946b05d3956cfe26abf0/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1204892",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446419",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449814",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-queimando-pontes",
+    "title": "QUEIMANDO PONTES",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queimando-por-dentro",
+    "title": "Queimando Por Dentro",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ftetcGhnH9IMlPktJeoinmvmaHR.jpg",
+    "genres": [],
+    "tmdb_id": "1362523",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1362523",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461812",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queimando-tudo",
+    "title": "Queimando Tudo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pmc5y0gWRZJqlbMWdlLYCXti2pY.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "11455",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11455",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448540",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-queimar-o-amor-ao-anoitecer",
+    "title": "QUEIMAR O AMOR AO ANOITECER",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queime-depois-de-ler",
+    "title": "Queime Depois de Ler",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ad12q3VNQZNr1W8e7839GLcpdYA.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "4944",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "4944",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460534",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queime-meu-amor",
+    "title": "QUEIME MEU AMOR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queime-minha-gorda",
+    "title": "QUEIME MINHA, GORDA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queime-todas-minhas-cartas-2022",
+    "title": "Queime Todas Minhas Cartas (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/gnk0e4vR2wzsQmFP28A8JTLsQkM.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "História"
+    ],
+    "tmdb_id": "845605",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ab6c060cde58e4aa37dbe7ec4aeabe20/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "845605",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445088",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-acabou-com-o-montreal-expos",
+    "title": "Quem Acabou com o Montreal Expos?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4PNkM8FDP7w8e4joMbAHkgA4RLI.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1544623",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1544623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445318",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2462043",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-cantara-as-suas-cancoes",
+    "title": "Quem Cantara as suas Cancoes",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/sHiwX3sXVFoM5Hj8yfkysmMGs9p.jpg",
+    "genres": [
+      "Música",
+      "Drama",
+      "Mistério"
+    ],
+    "tmdb_id": "438373",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "438373",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456575",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-chamou-o-charlie-2023",
+    "title": "Quem Chamou o Charlie? (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/4c6jDBA2SVoPkfIjqzOOPpi348G.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "1042279",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/43df454519c9db9e85c81d69d0780cbf/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1042279",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449293",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460892",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-com-ferro-fere-2019",
+    "title": "Quem com Ferro Fere (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/qRIA3Pug05jrfFZ7CvuiS7U7hx.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "574376",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e1387252e937441f7604b39a1396e0a5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "574376",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-e-o-protagonista-apagando-voce-da-minha-mente",
+    "title": "QUEM E O PROTAGONISTA - APAGANDO VOCE DA MINHA MENTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-encontra-um-amigo-encontra-um-tesouro",
+    "title": "Quem Encontra um Amigo, Encontra um Tesouro",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/iGAmOAQYqE6nVKahWjWWGyIG2yd.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "6399",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2461823",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-esta-ai-2022",
+    "title": "Quem Está Aí? (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/19mx05Vx4oUapIQeGw63FaWpXvK.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "986718",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "986718",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445613",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448833",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-esta-no-controle",
+    "title": "Quem Está no Controle?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/b6fB33TDJiTuXMBSPkVi3SLfECh.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "896713",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "896713",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445609",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448416",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-esta-rindo-agora-2020",
+    "title": "Quem Está Rindo Agora? (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/jQuaXe6hR3yvhQO4SG25sXGmH4i.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Terror"
+    ],
+    "tmdb_id": "749047",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/0f0c5d74aaa139b7e0737177fb0dd654/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "749047",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448069",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452147",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-eu-mais-quero-conhecer",
+    "title": "Quem Eu Mais Quero Conhecer",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/basXGjjMvamkn9GTskwXJatKHKk.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1033910",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1033910",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-fica-com-o-bar-2022",
+    "title": "Quem Fica com o Bar? (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/sicJmpsyetX00Bpu8UmoSawxyel.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "862553",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/7eda8dbb34f27ef10c161d17db7fabd7/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "862553",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461799",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-fizer-ganha-2023",
+    "title": "Quem Fizer Ganha (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/m5Sip7xT5u4Sd2ARf4Ij1wGUfo0.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "621587",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/479d04a9c9a3c9cca0d9411c688359c1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "621587",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449760",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-foi-jesse-james-1957",
+    "title": "Quem Foi Jesse James (1957)",
+    "type": "movie",
+    "year": "1957",
+    "poster_url": "/1iBG69IiN7NS96hfgTRbaAL0o16.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "83354",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "83354",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-matou-eloa",
+    "title": "Quem Matou Eloá?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1mEE6PrtxbDstWCQclqMmXmxpFP.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "433069",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-matou-jesus",
+    "title": "Quem Matou Jesus?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1Wr7apWkhqHSdzmxnQuzlKTzdK.jpg",
+    "genres": [
+      "TV",
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "332356",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "332356",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-matou-lady-winsley",
+    "title": "Quem Matou Lady Winsley ?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mWmommP8HkJKH0fq5MHkLSlRZdv.jpg",
+    "genres": [
+      "Crime",
+      "Comédia"
+    ],
+    "tmdb_id": "511468",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "511468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-matou-meu-filho",
+    "title": "Quem Matou Meu Filho?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jWiXdlYW2pQ0eHRJnjgxFbmkc2v.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "890466",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "890466",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445481",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447502",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-matou-pixote",
+    "title": "Quem Matou Pixote?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ham9Qy2FVuyIHiaznkC4971hrDZ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "8442",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-matou-rosemary",
+    "title": "Quem Matou Rosemary",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/9BHJiJ0w0EekRRzjri2qcTgH8e9.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "44247",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "44247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449947",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451589",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-matou-2023",
+    "title": "Quem Matou? (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/wURuMRNINuztoC0HotYMVfWfyPt.jpg",
+    "genres": [
+      "Comédia",
+      "Mistério",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "1034335",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/489183f341d6576ab55005283d1ae597/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1034335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459804",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-me-deu-luz-me-afogou-no-escuro",
+    "title": "QUEM ME DEU LUZ ME AFOGOU NO ESCURO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-nao-matou-mona",
+    "title": "Quem Não Matou Mona?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/iuN2SXCGPIlC7pAPCOzqAdeaDji.jpg",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Mistério"
+    ],
+    "tmdb_id": "25166",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25166",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-quer-ser-famoso",
+    "title": "Quem Quer Ser Famoso?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/dXZYSFntyKRBWsUvMxqb0xAOr9d.jpg",
+    "genres": [
+      "Suspense",
+      "Terror",
+      "Mistério",
+      "Drama"
+    ],
+    "tmdb_id": "943919",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "943919",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450093",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452118",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-quer-ser-um-milionario",
+    "title": "Quem Quer Ser um Milionario?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/timJSy64zR0BM2xhkXwIyvDG6MM.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "12405",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2455578",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-se-importa-com-o-coracao-de-uma-plantinha",
+    "title": "Quem Se Importa Com O Coração De Uma Plantinha",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-se-importa",
+    "title": "Quem Se Importa?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/bUPSokpc4EgQdVYR76cVK6al2Cd.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "179810",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2452893",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-somos-agora",
+    "title": "Quem Somos Agora",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rR5JMNGIsFtsVSMLcoVn77fPJoi.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "466410",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "466410",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455607",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-somos-nos-uma-cronica-do-racismo-na-america",
+    "title": "Quem Somos Nós: Uma Crônica do Racismo na América",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/lVJVAy64NBaqiDIVJCAoe7tsCZk.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "803737",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "803737",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-sou-eu-1998",
+    "title": "Quem Sou Eu? (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/zHuyJ8kJTGJKEvN1eGbvISkMuf9.jpg",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Comédia",
+      "Suspense"
+    ],
+    "tmdb_id": "8697",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c7937c8e9d178bcc277a7123d5800605/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8697",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454260",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-tem-medo-de-lobisomem",
+    "title": "Quem Tem Medo de Lobisomem?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pba6XZ3lpn44VCixcKFv67PqFRf.jpg",
+    "genres": [
+      "Terror",
+      "Comédia"
+    ],
+    "tmdb_id": "358608",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "358608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-tem-medo-de-virginia-woolf",
+    "title": "Quem Tem Medo de Virginia Woolf?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rHYaA5K5F3ihgeEflk8UaeOIWzu.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "396",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "396",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-vai-ficar-com-mary",
+    "title": "Quem Vai Ficar com Mary",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/nUi2j9Mp8HEE0r7Iq7nq4RIesO4.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "544",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "544",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446505",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-vai-ficar-com-masha",
+    "title": "Quem Vai Ficar com Masha?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/e8XZPufVmfm7XtwaziCspYeewf4.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Suspense"
+    ],
+    "tmdb_id": "591662",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "591662",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453979",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447115",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-vai-ficar-com-mario",
+    "title": "Quem Vai Ficar com Mário?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/a8grhLGhULwTpWbsCdXD8GQQUDN.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "668780",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "668780",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-vai-salvar-o-natal-2-2025",
+    "title": "Quem Vai Salvar o Natal 2 (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/72rWDqGgOkEcKxf4iQqHwzF7JDE.jpg",
+    "genres": [
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "1196207",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d9b910ba91bb8b6d305e7287070fb2f4/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1196207",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445120",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quem-voce-levaria-para-uma-ilha-deserta",
+    "title": "Quem Você Levaria Para Uma Ilha Deserta",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/f4mNHOpEbx68j0yaNdme6b07WPC.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "586333",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "586333",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461443",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-voce-pensa-que-sou-2019",
+    "title": "Quem Você Pensa que Sou? (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/rj0j9thBfwPIgiJQzZECp5PVbhF.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "544404",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/72adeb5bb380362aef44a7298d932469/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "544404",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455648",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quem-ve-cara",
+    "title": "Quem Vê Cara",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jsGvtmss0RvDhYeD66GP4lDRS6V.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "2616",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1255017",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "2616",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448196",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-ve-cara-nao-ve-coracao",
+    "title": "Quem Vê Cara Não Vê Coração",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jsGvtmss0RvDhYeD66GP4lDRS6V.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "2616",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-e-essa",
+    "title": "Quem é Essa?",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/y45tshg5BB1kkPzK6Vi5aeGcolN.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "26827",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1235913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quem-e-jonbenet",
+    "title": "Quem é JonBenet",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/aHDr48Zq4IojCHRMxzGaS1EMaDB.jpg",
+    "genres": [
+      "Documentário",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "430826",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "430826",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-e-morto-sempre-aparece",
+    "title": "Quem é Morto Sempre Aparece",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6hgfhhJ9wGyYY73hlTnChi27AJ4.jpg",
+    "genres": [
+      "Comédia",
+      "Terror"
+    ],
+    "tmdb_id": "1434161",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1434161",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445254",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461619",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quem-e-morto-sempre-aparece-2005",
+    "title": "Quem é Morto Sempre Aparece (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/u91CV8x22ddoUpxQKO8D2i6mPD.jpg",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "9968",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/caa5c5525ce4fc82418b7c96f5ad6be7/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9968",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quem-e-seu-pai-2023",
+    "title": "Quem é seu Pai? (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/v8oqxldyiCBdotYwtkU8IILgfZM.jpg",
+    "genres": [
+      "Comédia",
+      "Mistério"
+    ],
+    "tmdb_id": "1163402",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1163402",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2466081",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444061",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444080",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quem-e-voce-charlie-brown-2021",
+    "title": "Quem é você, Charlie Brown? (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/jaqRr7OigmkLE5aV6bit5kVRNPC.jpg",
+    "genres": [
+      "Documentário",
+      "Animação"
+    ],
+    "tmdb_id": "836919",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/105080c9a62e61589af2b06026380a83/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "836919",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quentin-tarantino-os-oito-primeiros",
+    "title": "Quentin Tarantino Os Oito Primeiros",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rGPwMYUeygsUAmo0NS8IPlhQEfH.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "631143",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "631143",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452800",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-querem-acabar-comigo-2005",
+    "title": "Querem Acabar Comigo (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/bPkocQB1hW6IZbZBOmx9lV7M5P6.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "11637",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6f8bfffdccd511e2aa0aaef269969c5a/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11637",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-queremos-matar-gunther-2017",
+    "title": "Queremos Matar Gunther (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/1XDIAYXiN5WDIM5TElF6a5ejU93.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "412547",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/02d5ae2b59538e778a9acbfd778ecc2a/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2454884",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-queria-que-voce-fosse-a-minha-esposa",
+    "title": "Queria Que Você fosse A Minha Esposa",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queria-voce-aqui-2025",
+    "title": "Queria Você Aqui (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/wzLR3vgjCgNEyJBpGOqr8BCvy8y.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "842328",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/1e344d0d8a67bbb1c5b05976e2bd50eb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "842328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446248",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449235",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450486",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querida-2025",
+    "title": "Querida (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/wkEuGtrwmQwk7U3FYzIYhmAwDhG.jpg",
+    "genres": [
+      "Suspense",
+      "Ficção científica",
+      "Mistério"
+    ],
+    "tmdb_id": "619730",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "619730",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445938",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 5
+  },
+  {
+    "id": "movie-querida-elizabeth",
+    "title": "Querida Elizabeth",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7oF3vYBTyF8cr4GczrrAtcnuU61.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "659551",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "659551",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450144",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461137",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querida-estiquei-o-bebe-1992",
+    "title": "Querida Estiquei o Bebe (1992)",
+    "type": "movie",
+    "year": "1992",
+    "poster_url": "/gbFeKn4lNwASNlHLWXW0nmhBA1B.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica"
+    ],
+    "tmdb_id": "11158",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11158",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-querida-estranha",
+    "title": "Querida Estranha",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qN0attJyVKppNgftg7NCozwrmAP.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "1029281",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/721c5940556b60aac2db0cc3649501d2/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querida-lea",
+    "title": "Querida Léa",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7pbVghW8GwT1Gp4zUaYnZr7bnFm.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "833428",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "833428",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querida-mamae",
+    "title": "Querida Mamae",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/m5KGfJZqj7NlnOS5F5DfI2M03cU.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "480636",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "480636",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451062",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querida-por-favor-nao-case-com-ele",
+    "title": "Querida por Favor nao Case com ele",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querida-queli-sou-a-herdeira-mais-rica",
+    "title": "QUERIDA QUELI SOU A HERDEIRA MAIS RICA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querida-zoe-2022",
+    "title": "Querida Zoe (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/tLyKCXea2INdSCyOlGOvDnR3feO.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "646473",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/f04e9fea826dcfe67b63cc01e4d242fc/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "646473",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457526",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querida-encolhi-as-criancas",
+    "title": "Querida! Encolhi as Crianças",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mU8FZkP0xMmpuavLkdh4OLDsw8G.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica"
+    ],
+    "tmdb_id": "9354",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9354",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querida-alice",
+    "title": "Querida, Alice",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3hGzrqIe24f7DyD3YD5U9qUdLHX.jpg",
+    "genres": [
+      "Suspense",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "850028",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "850028",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456058",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-querida-encolhi-a-gente",
+    "title": "Querida, Encolhi a Gente",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/txUoJzA5MQjIDB9fJ6TJr0NKBby.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica"
+    ],
+    "tmdb_id": "11425",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2461694",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-querida-encontrei-voce-baby-i-found-you",
+    "title": "QUERIDA, ENCONTREI VOCE - BABY I FOUND YOU",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queridinhas",
+    "title": "Queridinhas",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qUuVx49mBE3ZSR9cuFunu6NGbcI.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "27458",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "27458",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448842",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461333",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido",
+    "title": "Querido",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/LdKLipXCdKHNXxUxn8l7UTdnXJ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1074074",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2449698",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460275",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido-david",
+    "title": "Querido David",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/f3HkD0GxSuOZehm370aSAdgpGet.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasia"
+    ],
+    "tmdb_id": "1059372",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2460948",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido-evan-hansen",
+    "title": "Querido Evan Hansen",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/k9qmy5f60QNx8x2RVt4ChdZ5aY7.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "567690",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "567690",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido-irmao-seu-amor-veio-tarde-demais",
+    "title": "QUERIDO IRMAO SEU AMOR VEIO TARDE DEMAIS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido-john",
+    "title": "Querido John",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/uD0p6CgVhBBJKiYFdqeU1C6PMmd.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Guerra"
+    ],
+    "tmdb_id": "22971",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "22971",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "75653",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447020",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querido-marido-vamos-nos-divorciar",
+    "title": "QUERIDO MARIDO VAMOS NOS DIVORCIAR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querido-menino",
+    "title": "Querido Menino",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ut5sNIXsNb9tHnVJ090V13im4A8.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "451915",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "451915",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456720",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-querido-natal",
+    "title": "Querido Natal",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/zJPQ98VPVWWQIN8WGfDXSZxJCwJ.jpg",
+    "genres": [
+      "TV",
+      "Romance"
+    ],
+    "tmdb_id": "744941",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "744941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446996",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-querido-papai-noel",
+    "title": "Querido Papai Noel",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ynOGBV2k8dlRkm9gLWNmruDc8gv.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "1097870",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1097870",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449441",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-querido-rider-a-historia-de-jake-burton",
+    "title": "Querido Rider: a História de Jake Burton",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tkr9G0QOarjBStPMVJpIiB1PyBt.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "884573",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "884573",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453048",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querido-voce-esta-frito",
+    "title": "QUERIDO VOCE ESTA FRITO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querido-apenas-diga-sim",
+    "title": "QUERIDO, APENAS DIGA SIM!",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-queridos-cresci-2020",
+    "title": "Queridos, Cresci! (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/pQQVDyuNOoAzwRIxqLHlrtFi521.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "701437",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "701437",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444710",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quero-dizer-que-te-amo",
+    "title": "Quero Dizer que te Amo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/n3dIwoQQrj0iiFQ22GGPwDxyEmZ.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "46029",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "46029",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quero-ficar-com-polly",
+    "title": "Quero Ficar Com Polly",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/tWe964ouAeuAmntQKn1rG8jMBre.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "5966",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "5966",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446365",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449578",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quero-matar-meu-chefe",
+    "title": "Quero Matar Meu Chefe",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/21srJ2ovhQJJgCNk4IhuuswemHM.jpg",
+    "genres": [
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "51540",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "51540",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460005",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero-matar-meu-chefe-2",
+    "title": "Quero Matar Meu Chefe 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/yXRwjL92nD5VN83kAmZKMmjMOJK.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "227159",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "227159",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero-ser-grande",
+    "title": "Quero Ser Grande",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6RP9H4BobYPU1J2BfgcvYkWJcAY.jpg",
+    "genres": [
+      "Fantasia",
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "2280",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2280",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero-ser-john-malkovich",
+    "title": "Quero Ser John Malkovich",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rFpKAnc9X01sucqFPiD9pzxLpiA.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "492",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "492",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461195",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero-viver-ate-o-fim",
+    "title": "Quero Viver Ate O Fim",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero-voce",
+    "title": "Quero Você",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/y5MqC5sFLwA4FH73zpjqo0q8Ry7.jpg",
+    "genres": [
+      "Romance",
+      "Suspense"
+    ],
+    "tmdb_id": "1300116",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1300116",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446297",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448218",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quero-te-tanto",
+    "title": "Quero-te Tanto!",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/lYVBAy3WqZhJf5rRShiHr5pi9jb.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "611674",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "611674",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461728",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-querencia",
+    "title": "Querência",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/o6F1JHyxzsaZbCB7AXAhMPa4v3e.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "576079",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "576079",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quero",
+    "title": "Querô",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/gZXhCMSoapkSGqnYRhKcpxQfYA7.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "46645",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "46645",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-questao-de-escolha-2014",
+    "title": "Questão de Escolha (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/icCmRkwx2SlvOkTERmEv0t8FPgc.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "294866",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "294866",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455390",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-questao-de-honra",
+    "title": "Questão de Honra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cPSZgOjUA8WJoFw3K6KX0qiZYdJ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "881",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "881",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447597",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457349",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-questao-de-honra-2022",
+    "title": "Questão de Honra (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/lzOi0zw7Mf98YpYRQfdvXkZjY4y.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1291945",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1291945",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-questao-de-sobrevivencia",
+    "title": "Questão de Sobrevivência",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/weaF990jmJw6VIAlxKyxvH7bAJP.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "100110",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/93584e24272d5e7822a54d8979529b6b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1115980",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444797",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-questao-de-tempo",
+    "title": "Questão de Tempo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/uqEzxvGDYNzoQE7rayv7gRXBomt.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasia"
+    ],
+    "tmdb_id": "122906",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "122906",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461249",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-questoes-de-familia",
+    "title": "Questões de Família",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/nrVsIr8MHybG97BM6tkCx26qea8.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "536331",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/a16b61be24932da3164fb8599bb37dba/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "536331",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448938",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455632",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quincas-berro-d-agua",
+    "title": "Quincas Berro d'Água",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/wqR31Lup29LbKrIPqWrmzDQV3Ov.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "43676",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451031",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quincas-berro-dagua",
+    "title": "Quincas Berro Dagua",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/wqR31Lup29LbKrIPqWrmzDQV3Ov.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "43676",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quintuplos-nao-brinque-com-a-mamae",
+    "title": "Quintuplos Nao Brinque com a Mamae",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quinze",
+    "title": "Quinze",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1418582",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "300464",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1418582",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-quinze-dias",
+    "title": "Quinze Dias",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1418582",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2444058",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444079",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4
+  },
+  {
+    "id": "movie-quinze-quase-dezesseis-2023",
+    "title": "Quinze Quase Dezesseis (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/6U49qgczvZQYt1KpfQSK7olsXU4.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1169149",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1169149",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2468884",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-quislings-siste-dager",
+    "title": "Quislings siste dager",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mMKhDMZtzxK4JXCv7E9hllPqg2r.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "1028819",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1028819",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quiz-lady",
+    "title": "Quiz Lady",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2kkz5jZwKkwYxV8sw6EGMyHjSzO.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "787781",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "787781",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-quo-vadis-aida-2021",
+    "title": "Quo Vadis, Aida? (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/guBfvuR0ije9hHEO2bhVW958fYy.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "728118",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/611ee76bac2ba2a7c153b9612c317ad4/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-que-perra-vida",
+    "title": "Qué perra vida",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/vQj7k1KkSWOawJvSTEyVpwBhmhf.jpg",
+    "genres": [],
+    "tmdb_id": "520236",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2448247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-quintuplos",
+    "title": "Quíntuplos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/l6ckrEZiYSygXTLDsWT66WMvp59.jpg",
+    "genres": [
+      "Drama",
+      "Família",
+      "Comédia",
+      "TV"
+    ],
+    "tmdb_id": "101514",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "101514",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  }
+]
