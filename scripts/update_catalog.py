@@ -4,6 +4,7 @@ import ipaddress
 import json
 import re
 import urllib.request
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -52,7 +53,9 @@ def fetch(url):
 
 
 def normalize_key(value):
-    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
+    value = unicodedata.normalize("NFKD", str(value or ""))
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    return re.sub(r"\s+", " ", value).strip().casefold()
 
 
 def parse_m3u(text, source_id, priority):
