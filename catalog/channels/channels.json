@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:04:27.325Z",
+  "generated_at": "2026-10-15T17:09:22.429Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -367,8 +367,14 @@
       "name": "TV Brasil",
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
-      "epg_id": null,
-      "sources": [],
+      "epg_id": "TVBrasil.br@SD",
+      "sources": [
+        {
+          "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 14
     },
@@ -1097,8 +1103,14 @@
       "name": "TV Câmara",
       "group": "TV Aberta",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-camara-br.png",
-      "epg_id": null,
-      "sources": [],
+      "epg_id": "TVCamara.br@SD",
+      "sources": [
+        {
+          "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 5
     },
@@ -1257,8 +1269,14 @@
       "name": "Canal Educacao",
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/OOB7nrS.png",
-      "epg_id": null,
-      "sources": [],
+      "epg_id": "CanalEducacao.br@SD",
+      "sources": [
+        {
+          "url": "https://canaleducacao-stream.ebc.com.br/index.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 3
     },
@@ -1277,8 +1295,14 @@
       "name": "Canal Gov",
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/rHPY0Yv.png",
-      "epg_id": null,
-      "sources": [],
+      "epg_id": "CanalGov.br@SD",
+      "sources": [
+        {
+          "url": "https://canalgov-stream.ebc.com.br/index.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 4
     },
@@ -3321,6 +3345,38 @@
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
+    },
+    {
+      "id": "ch-canal-libras",
+      "name": "Canal Libras",
+      "group": "Públicos",
+      "logo_url": null,
+      "epg_id": "CanalLibras.br@SD",
+      "sources": [
+        {
+          "url": "https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 0
+    },
+    {
+      "id": "ch-tv-camara-2",
+      "name": "TV Câmara 2",
+      "group": "Públicos",
+      "logo_url": null,
+      "epg_id": "TVCamara2.br@SD",
+      "sources": [
+        {
+          "url": "https://stream3.camara.gov.br/tv2/manifest.m3u8",
+          "priority": 10,
+          "source_id": "public-brazil-broadcasters"
+        }
+      ],
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 0
     }
   ]
 }
