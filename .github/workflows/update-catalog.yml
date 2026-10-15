@@ -44,8 +44,17 @@ jobs:
             '/vod/redeflix/links-*.txt' \
             '/1.m3u' \
             '/3.m3u'
-      - name: Merge new channel, VOD, and radio content
-        run: python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
+      - name: Import new reference data only when needed
+        run: |
+          REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
+          LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
+          if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
+            python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
+            printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
+            echo "Catálogo de referência atualizado: $REF_SHA"
+          else
+            echo "Nenhum novo commit na referência; importação pesada ignorada."
+          fi
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
       - name: Normalize and validate
@@ -59,7 +68,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add catalog reports
+            git add catalog reports .github/reference-sync.sha
             git commit -m "chore(acervo): discover and merge catalog updates"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
