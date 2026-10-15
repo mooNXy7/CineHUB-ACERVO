@@ -402,8 +402,8 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
         if len(fields) >= 2 and fields[1] in {"f", "s"}:
             title = fields[0].strip()
             vod_names.add(norm(title))
-            vod_names.add(norm(re.sub(r"\\s*\\((?:19|20)\\d{2}\\)\\s*$", "", title)))
-            vod_names.add(norm(re.sub(r"\\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\\b", "", title, flags=re.I)))
+            vod_names.add(norm(re.sub(r"\s*\((?:19|20)\d{2}\)\s*$", "", title)))
+            vod_names.add(norm(re.sub(r"\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\b", "", title, flags=re.I)))
     channels = current.get("channels", [])
     by_name = {norm(c.get("name", "")): c for c in channels if c.get("name")}
     by_id = {c.get("id"): c for c in channels if c.get("id")}
@@ -529,7 +529,8 @@ def main() -> None:
             "subtype": item.get("subtype"),
             "source_count": len(item.get("sources", [])) + episode_sources,
             "provider_ref_count": len(item.get("provider_refs", [])) + episode_refs,
-            "detail_path": f"catalog/vod/details/{ {'movie': 'movies', 'dorama': 'doramas'}.get(kind, kind) }/{letter(item['title'])}.json",
+        detail_kind = {"movie": "movies", "dorama": "doramas"}.get(kind, kind)
+            "detail_path": f"catalog/vod/details/{detail_kind}/{letter(item['title'])}.json",
         }
 
     index = {
