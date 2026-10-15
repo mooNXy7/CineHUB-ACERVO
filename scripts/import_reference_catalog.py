@@ -396,6 +396,11 @@ def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
 
 
 def import_channels(reference: Path, current: dict, counters: dict) -> dict:
+    vod_names = set()
+    for line in read_lines(reference / "vod" / "busca.txt") or ():
+        fields = line.rstrip("\n").split("\t")
+        if len(fields) >= 2 and fields[1] in {"f", "s"}:
+            vod_names.add(norm(fields[0]))
     channels = current.get("channels", [])
     by_name = {norm(c.get("name", "")): c for c in channels if c.get("name")}
     by_id = {c.get("id"): c for c in channels if c.get("id")}
@@ -430,6 +435,9 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                     name, attrs = None, {}
                     continue
                 key = norm(channel_name)
+                if key in vod_names:
+                    name, attrs = None, {}
+                    continue
                 target = by_name.get(key)
                 if target is None:
                     target = {
