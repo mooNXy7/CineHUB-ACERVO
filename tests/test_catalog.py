@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
-from import_reference_catalog import merge_record, parse_search_index, safe_candidate
+from import_reference_catalog import canonical_key, merge_record, parse_search_index, safe_candidate, split_sources
 
 
 class CatalogShapeTests(unittest.TestCase):
@@ -69,6 +69,27 @@ class SourceSafetyTests(unittest.TestCase):
         self.assertFalse(safe_candidate("https://user:pass@example.org/live"))
         self.assertFalse(safe_candidate("https://example.org/live.m3u8?token=abc"))
         self.assertFalse(safe_candidate("http://example.org/movie/user/pass/123.mp4"))
+
+    def test_canonical_key_deduplicates_title_variants(self):
+        self.assertEqual(
+            canonical_key({"id": "a", "title": "Filme Exemplo (2020)", "year": "2020"}),
+            canonical_key({"id": "b", "title": "Filme Exemplo", "year": "2020"}),
+        )
+        self.assertEqual(
+            canonical_key({"id": "a", "title": "Nome A", "tmdb_id": "123"}),
+            canonical_key({"id": "b", "title": "Nome B", "tmdb_id": "123"}),
+        )
+
+    def test_embed_sources_are_typed_and_prioritized(self):
+        urls, refs, skipped = split_sources(
+            "https://mgeb.top/embed/123", "dub", source_id="reference-mgeb", priority=20
+        )
+        self.assertEqual(len(urls), 1)
+        self.assertEqual(urls[0]["source_type"], "embed")
+        self.assertEqual(urls[0]["priority"], 20)
+        self.assertEqual(urls[0]["source_id"], "reference-mgeb")
+        self.assertEqual(refs, [])
+        self.assertEqual(skipped, 0)
 
     def test_reference_search_index_parses_movies_and_series(self):
         import tempfile
