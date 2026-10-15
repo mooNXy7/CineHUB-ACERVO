@@ -1,6 +1,12 @@
 name: Update catalog
 
 on:
+  push:
+    branches: [main, master]
+    paths:
+      - "sources/sources.json"
+      - "sources/m3u/**"
+      - "scripts/update_catalog.py"
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
@@ -26,6 +32,8 @@ jobs:
         run: |
           python scripts/normalize_catalog.py
           python scripts/validate_catalog.py
+          python -m unittest discover -s tests -v
+          python -m py_compile scripts/*.py
       - name: Commit changes when needed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
