@@ -370,7 +370,12 @@ def load_existing_details(kind: str) -> dict[str, dict]:
                         else:
                             existing[ident] = item
     previous_index = load_json(VOD_INDEX, {"movies": [], "series": [], "anime": [], "doramas": []})
-    for item in previous_index.get(kind, []):
+    previous_items = previous_index.get(kind)
+    if not isinstance(previous_items, list):
+        category = previous_index.get("categories", {}).get(kind, {})
+        index_path = category.get("index_path")
+        previous_items = load_json(ROOT / index_path, []) if index_path else []
+    for item in previous_items:
         if not isinstance(item, dict) or not item.get("id"):
             continue
         ident = str(item["id"])
@@ -570,21 +575,35 @@ def main() -> None:
             entry["provider_ref_count"] = provider_count
         return entry
 
-    index = {
-        "schema_version": 1,
-        "source_id": SOURCE_ID,
+    category_entries = {
         "movies": [index_entry(x, "movie") for x in movie_list],
         "series": [index_entry(x, "series") for x in series_list],
         "anime": [index_entry(x, "anime") for x in anime_list],
         "doramas": [index_entry(x, "dorama") for x in dorama_list],
     }
+    category_index_changed = False
+    category_manifest = {}
+    for kind, entries in category_entries.items():
+        relative_path = f"catalog/vod/index/{kind}.json"
+        category_path = ROOT / relative_path
+        previous_entries = load_json(category_path, [])
+        if previous_entries != entries:
+            category_index_changed = True
+        write_json_compact(category_path, entries)
+        category_manifest[kind] = {"count": len(entries), "index_path": relative_path}
+
+    manifest = {
+        "schema_version": 1,
+        "source_id": SOURCE_ID,
+        "categories": category_manifest,
+    }
     previous_index = load_json(VOD_INDEX, {})
     previous_comparable = {k: v for k, v in previous_index.items() if k != "generated_at"}
-    if previous_comparable == index:
-        index["generated_at"] = previous_index.get("generated_at")
+    if previous_comparable == manifest and not category_index_changed:
+        manifest["generated_at"] = previous_index.get("generated_at")
     else:
-        index["generated_at"] = datetime.now(timezone.utc).isoformat()
-    write_json_compact(VOD_INDEX, index)
+        manifest["generated_at"] = datetime.now(timezone.utc).isoformat()
+    write_json_compact(VOD_INDEX, manifest)
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
     known_radio = {norm(x.get("name", "")): x for x in radios.get("radios", [])}
