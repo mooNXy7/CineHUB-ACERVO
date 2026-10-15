@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate catalog schemas, VOD shards, stable IDs, and detail references."""
+"""Validate catalog schemas, VOD category indexes, stable IDs, and detail references."""
 import json
 from pathlib import Path
 
@@ -34,30 +34,50 @@ def main():
         if key and not isinstance(data.get(key), list):
             errors.append(f"{path.relative_to(ROOT)}: '{key}' deve ser uma lista")
         if name == "vod":
-            for section in ("movies", "series", "anime", "doramas"):
-                if not isinstance(data.get(section), list):
-                    errors.append(f"{path.relative_to(ROOT)}: '{section}' deve ser uma lista")
+            categories = data.get("categories")
+            if categories is not None and not isinstance(categories, dict):
+                errors.append(f"{path.relative_to(ROOT)}: 'categories' deve ser um objeto")
 
     vod = loaded.get("vod", {})
     if isinstance(vod, dict):
-        for section in ("movies", "series", "anime", "doramas"):
-            items = vod.get(section, [])
+        sections = ("movies", "series", "anime", "doramas")
+        categories = vod.get("categories", {})
+        for section in sections:
+            if isinstance(categories, dict) and isinstance(categories.get(section), dict):
+                category_info = categories[section]
+                index_path = category_info.get("index_path")
+                path = ROOT / index_path if index_path else None
+                if path is None or not path.exists():
+                    errors.append(f"catalog/vod/index.json: índice de categoria ausente {index_path}")
+                    items = []
+                else:
+                    try:
+                        items = load(path)
+                    except (OSError, json.JSONDecodeError) as exc:
+                        errors.append(f"{path.relative_to(ROOT)}: {exc}")
+                        items = []
+                if isinstance(items, list) and category_info.get("count") != len(items):
+                    errors.append(f"{index_path}: contagem não corresponde ao manifesto")
+            else:
+                # Compatibilidade com o formato inicial, que guardava arrays no manifesto.
+                items = vod.get(section, [])
             ids = set()
             for item in items if isinstance(items, list) else []:
                 ident = item.get("id") if isinstance(item, dict) else None
                 if not ident:
-                    errors.append(f"catalog/vod/index.json: item sem id em {section}")
+                    errors.append(f"índice VOD: item sem id em {section}")
                     continue
                 if ident in ids:
-                    errors.append(f"catalog/vod/index.json: ID duplicado {ident} em {section}")
+                    errors.append(f"índice VOD: ID duplicado {ident} em {section}")
                 ids.add(ident)
                 detail = item.get("detail_path")
                 if detail:
                     path = ROOT / detail
                     if not path.exists():
-                        errors.append(f"catalog/vod/index.json: detalhe ausente {detail}")
-            details_root = ROOT / "catalog/vod/details"
-            if details_root.exists():
+                        errors.append(f"índice VOD: detalhe ausente {detail}")
+        details_root = ROOT / "catalog/vod/details"
+        if details_root.exists():
+            for section in sections:
                 for path in (details_root / section).glob("*.json"):
                     try:
                         records = load(path)
