@@ -735,6 +735,7 @@ def main() -> None:
     dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"])
 
     detail_paths = {}
+    written_detail_paths = set()
     for kind, items in (("movies", movie_list), ("series", series_list),
                         ("anime", anime_list), ("doramas", dorama_list)):
         groups = defaultdict(list)
@@ -747,15 +748,17 @@ def main() -> None:
                 chunk = records[offset:offset + chunk_size]
                 relative_path = f"catalog/vod/details/{kind}/{initial}-{chunk_no:03d}.json"
                 write_json_compact(ROOT / relative_path, chunk)
+                written_detail_paths.add(relative_path)
                 for item in chunk:
                     detail_paths[(kind, item["id"])] = relative_path
 
-    # Os arquivos antigos por letra já foram incorporados antes da gravação dos shards.
+    # Todos os registros antigos já foram incorporados antes da gravação; remove apenas shards obsoletos.
     for kind in ("movies", "series", "anime", "doramas"):
         folder = DETAILS / kind
         if folder.exists():
             for old_path in folder.glob("*.json"):
-                if re.fullmatch(r"[A-Z#]\.json", old_path.name):
+                relative_path = old_path.relative_to(ROOT).as_posix()
+                if relative_path not in written_detail_paths:
                     old_path.unlink()
 
     def index_entry(item, kind):
