@@ -173,8 +173,38 @@ def parse_featured(path: Path) -> tuple[dict, set, set]:
     return posters, anime, doramas
 
 
-def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters: dict) -> dict:
-    movies = {}
+def parse_search_index(path: Path) -> tuple[dict, dict]:
+    movies, series = {}, {}
+    for line in read_lines(path) or ():
+        fields = line.rstrip("\n").split("\t")
+        if len(fields) < 3 or fields[1] not in {"f", "s"}:
+            continue
+        title, kind = fields[0].strip(), fields[1]
+        year = fields[3].strip() if len(fields) > 3 and fields[3].strip().isdigit() else None
+        if not title:
+            continue
+        if kind == "f":
+            match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
+            year = year or (match.group(1) if match else None)
+            movies[norm(title)] = {
+                "id": "movie-" + slug(title), "title": title, "type": "movie",
+                "year": year, "poster_url": None, "genres": [], "tmdb_id": None,
+                "sources": [], "provider_refs": [], "source_candidates_skipped": 0,
+            }
+        else:
+            key = (norm(title), year or "")
+            series[key] = {
+                "id": "series-" + slug(title) + ("-" + year if year else ""),
+                "title": title, "type": "series", "year": year,
+                "poster_url": None, "genres": [], "tmdb_id": None,
+                "seasons": [], "sources": [], "provider_refs": [],
+                "source_candidates_skipped": 0,
+            }
+    return movies, series
+
+
+def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters: dict, movies=None) -> dict:
+    movies = movies or {}
     vod = reference / "vod"
     for path in sorted(vod.glob("filmes-*.txt")):
         for line in read_lines(path) or ():
@@ -212,8 +242,8 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
 
 
 def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured_anime: set,
-                 featured_doramas: set, counters: dict) -> dict:
-    series = {}
+                 featured_doramas: set, counters: dict, series=None) -> dict:
+    series = series or {}
     vod = reference / "vod"
     for path in sorted(vod.glob("series-*-*.txt")):
         current = None
@@ -291,6 +321,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                         quoted = not quoted
                     elif char == "," and not quoted:
                         comma = i
+                        break
                 name = line[comma + 1:].strip() if comma >= 0 else attrs.get("tvg-name")
             elif line and not line.startswith("#") and name:
                 channel_name = (attrs.get("tvg-name") or name or "").strip()
@@ -343,8 +374,9 @@ def main() -> None:
 
     fichas = read_fichas(reference / "vod" / "fichas.txt")
     featured_posters, featured_anime, featured_doramas = parse_featured(reference / "vod" / "destaques.txt")
-    movies = parse_movies(reference, fichas, featured_posters, counters)
-    series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters)
+    search_movies, search_series = parse_search_index(reference / "vod" / "busca.txt")
+    movies = parse_movies(reference, fichas, featured_posters, counters, search_movies)
+    series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters, search_series)
 
     # Títulos sem URL direta continuam no índice com identificadores de provedor:
     # os aplicativos podem resolver esses IDs por adaptadores sem perder o item.
