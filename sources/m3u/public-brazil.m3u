@@ -1,5 +1,6 @@
 #EXTM3U
-# Publicly exposed streams from Brazilian public broadcasters.
+# Curated public-broadcaster streams maintained by CineHUB ACERVO.
+# Public URLs were selected from official broadcaster domains.
 # Stream links remain hosted by the respective public broadcaster.
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" group-title="Públicos",TV Brasil
 https://tvbrasil-stream.ebc.com.br/index.m3u8
