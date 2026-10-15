@@ -277,16 +277,14 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
             urls, refs, skipped = split_sources(fields[3], audio)
             counters["skipped_urls"] += skipped
             current["source_candidates_skipped"] += skipped
-            counters["sources_added"] += merge_sources(current["sources"], urls)
-            counters["provider_refs_added"] += merge_provider_refs(current["provider_refs"], refs)
             season = current["seasons"].setdefault(str(season_no), {"season": season_no, "episodes": []})
             episode_key = (episode_no, audio)
             existing = next((e for e in season["episodes"] if (e["episode"], e["audio"]) == episode_key), None)
             if existing is None:
                 existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
                 season["episodes"].append(existing)
-            merge_sources(existing["sources"], urls)
-            merge_provider_refs(existing["provider_refs"], refs)
+            counters["sources_added"] += merge_sources(existing["sources"], urls)
+            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
         item["tmdb_id"] = meta.get("tmdb_id")
