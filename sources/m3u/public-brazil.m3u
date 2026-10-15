@@ -1,0 +1,15 @@
+#EXTM3U
+# Publicly exposed streams from Brazilian public broadcasters.
+# Stream links remain hosted by the respective public broadcaster.
+#EXTINF:-1 tvg-id="TVBrasil.br@SD" group-title="Públicos",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="CanalGov.br@SD" group-title="Públicos",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="CanalEducacao.br@SD" group-title="Públicos",Canal Educacao
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="CanalLibras.br@SD" group-title="Públicos",Canal Libras
+https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8
+#EXTINF:-1 tvg-id="TVCamara.br@SD" group-title="Públicos",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="TVCamara2.br@SD" group-title="Públicos",TV Câmara 2
+https://stream3.camara.gov.br/tv2/manifest.m3u8
