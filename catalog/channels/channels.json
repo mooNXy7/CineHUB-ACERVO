@@ -9,8 +9,8 @@
       "logo_url": "https://img.faz-o-eli.online/ae.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.adult-swim",
@@ -19,8 +19,8 @@
       "logo_url": "https://img.faz-o-eli.online/adultswim.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.amc",
@@ -29,8 +29,8 @@
       "logo_url": "https://img.faz-o-eli.online/amc.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.animal-planet",
@@ -39,8 +39,8 @@
       "logo_url": "https://img.faz-o-eli.online/animalplanet.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.band",
@@ -49,8 +49,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.cartoon-network",
@@ -59,8 +59,8 @@
       "logo_url": "https://img.faz-o-eli.online/cartoonnetwork.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.cnn-brasil",
@@ -69,8 +69,8 @@
       "logo_url": "https://img.faz-o-eli.online/cnnbrasil.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.cnn-brasil-money",
@@ -79,8 +79,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.e",
@@ -89,8 +89,8 @@
       "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/E%21_Logo_Flat_2012.svg?width=300",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.ge-tv",
@@ -99,8 +99,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.globonews",
@@ -109,8 +109,8 @@
       "logo_url": "https://img.faz-o-eli.online/globonews.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.globoplay-novelas",
@@ -119,8 +119,8 @@
       "logo_url": "https://img.faz-o-eli.online/globonovelas.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 27,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 27
     },
     {
       "id": "br.gnt",
@@ -129,8 +129,8 @@
       "logo_url": "https://img.faz-o-eli.online/gnt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 28,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 28
     },
     {
       "id": "br.history",
@@ -139,8 +139,8 @@
       "logo_url": "https://img.faz-o-eli.online/history.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 28,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 28
     },
     {
       "id": "br.history-2",
@@ -149,8 +149,8 @@
       "logo_url": "https://img.faz-o-eli.online/history2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.jovem-pan-news",
@@ -159,8 +159,8 @@
       "logo_url": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.megapix",
@@ -169,8 +169,8 @@
       "logo_url": "https://img.faz-o-eli.online/megapix.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.multishow",
@@ -179,8 +179,8 @@
       "logo_url": "https://img.faz-o-eli.online/multishow.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.premiere-2",
@@ -189,8 +189,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.premiere-3",
@@ -199,8 +199,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.premiere-4",
@@ -209,8 +209,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.premiere-5",
@@ -219,8 +219,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 27,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 27
     },
     {
       "id": "br.premiere-6",
@@ -229,8 +229,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.premiere-7",
@@ -239,8 +239,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.premiere-8",
@@ -249,8 +249,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.premiere-clubes",
@@ -259,8 +259,8 @@
       "logo_url": "https://img.faz-o-eli.online/premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.sbt",
@@ -269,8 +269,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.sbt-news",
@@ -279,8 +279,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.sony-channel",
@@ -289,8 +289,8 @@
       "logo_url": "https://img.faz-o-eli.online/sonychannel.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.sportv",
@@ -299,8 +299,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 28,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 28
     },
     {
       "id": "br.sportv-2",
@@ -309,8 +309,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.sportv-3",
@@ -319,8 +319,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv3.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.canal-off",
@@ -329,8 +329,8 @@
       "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.telecine-action",
@@ -339,8 +339,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecineaction.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 30,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 30
     },
     {
       "id": "br.telecine-pipoca",
@@ -349,8 +349,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecinepipoca.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.telecine-premium",
@@ -359,8 +359,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecinepremium.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.tv-brasil",
@@ -369,8 +369,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 14,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 14
     },
     {
       "id": "br.universal-premiere",
@@ -379,8 +379,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-premiere.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.universal-reality",
@@ -389,8 +389,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.warner",
@@ -399,8 +399,8 @@
       "logo_url": "https://img.faz-o-eli.online/warnerchannel.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.impd",
@@ -409,8 +409,8 @@
       "logo_url": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.globo-sp",
@@ -419,8 +419,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.cartoonito",
@@ -429,8 +429,8 @@
       "logo_url": "https://img.faz-o-eli.online/cartoonito.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.cinemax",
@@ -439,8 +439,8 @@
       "logo_url": "https://img.faz-o-eli.online/cinemax.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.discovery-channel",
@@ -449,8 +449,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoverychannel.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 27,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 27
     },
     {
       "id": "br.discovery-kids",
@@ -459,8 +459,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoverykids.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.discovery-theater",
@@ -469,8 +469,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoverytheater.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.espn",
@@ -479,8 +479,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.espn-2",
@@ -489,8 +489,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 23,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 23
     },
     {
       "id": "br.espn-4",
@@ -499,8 +499,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn4.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.espn-5",
@@ -509,8 +509,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn5.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.espn-6",
@@ -519,8 +519,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn6.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.hbo",
@@ -529,8 +529,8 @@
       "logo_url": "https://img.faz-o-eli.online/hbo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 31,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 31
     },
     {
       "id": "br.hbo2",
@@ -539,8 +539,8 @@
       "logo_url": "https://img.faz-o-eli.online/hbo2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.hbo-family",
@@ -549,8 +549,8 @@
       "logo_url": "https://img.faz-o-eli.online/hbofamily.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.hbo-mundi",
@@ -559,8 +559,8 @@
       "logo_url": "https://img.faz-o-eli.online/hbomundi.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.hbo-plus",
@@ -569,8 +569,8 @@
       "logo_url": "https://img.faz-o-eli.online/hboplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 30,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 30
     },
     {
       "id": "br.hbo-pop",
@@ -579,8 +579,8 @@
       "logo_url": "https://img.faz-o-eli.online/hbopop.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 32,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 32
     },
     {
       "id": "br.hbo-signature",
@@ -589,8 +589,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 28,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 28
     },
     {
       "id": "br.hbo-xtreme",
@@ -599,8 +599,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 28,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 28
     },
     {
       "id": "br.record",
@@ -609,8 +609,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.space",
@@ -619,8 +619,8 @@
       "logo_url": "https://img.faz-o-eli.online/space.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 18,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 18
     },
     {
       "id": "br.tnt",
@@ -629,8 +629,8 @@
       "logo_url": "https://img.faz-o-eli.online/tnt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 30,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 30
     },
     {
       "id": "br.tnt-series",
@@ -639,8 +639,8 @@
       "logo_url": "https://img.faz-o-eli.online/tntseries.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.universal-tv",
@@ -649,8 +649,8 @@
       "logo_url": "https://img.faz-o-eli.online/universaltv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.discovery-turbo",
@@ -659,8 +659,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoveryturbo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.usa-network",
@@ -669,8 +669,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.telecine-fun",
@@ -679,8 +679,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecinefun.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 27,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 27
     },
     {
       "id": "br.telecine-cult",
@@ -689,8 +689,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecinecult.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.telecine-touch",
@@ -699,8 +699,8 @@
       "logo_url": "https://img.faz-o-eli.online/telecinetouch.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 29,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 29
     },
     {
       "id": "br.sony-movies",
@@ -709,8 +709,8 @@
       "logo_url": "https://www.tvlogo.org/brazil/sony-movies-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.globo",
@@ -719,8 +719,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.tooncast",
@@ -729,8 +729,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 8,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 8
     },
     {
       "id": "br.tlc",
@@ -739,8 +739,8 @@
       "logo_url": "https://img.faz-o-eli.online/tlc.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 23,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 23
     },
     {
       "id": "br.arte-1",
@@ -749,8 +749,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.tnt-novelas",
@@ -759,8 +759,8 @@
       "logo_url": "https://img.faz-o-eli.online/tntnovelas.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.discovery-science",
@@ -769,8 +769,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoveryscience.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.axn",
@@ -779,8 +779,8 @@
       "logo_url": "https://img.faz-o-eli.online/axn.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.tcm",
@@ -789,8 +789,8 @@
       "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.band-news",
@@ -799,8 +799,8 @@
       "logo_url": "https://img.faz-o-eli.online/bandnews.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.band-sports-hd",
@@ -809,8 +809,8 @@
       "logo_url": "https://img.faz-o-eli.online/bandsports.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.redetv",
@@ -819,8 +819,8 @@
       "logo_url": "https://www.tvlogo.org/brazil/rede-tv-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.tv-cultura",
@@ -829,8 +829,8 @@
       "logo_url": "https://img.faz-o-eli.online/cultura.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 12,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 12
     },
     {
       "id": "br.terra-viva",
@@ -839,8 +839,8 @@
       "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.woohoo",
@@ -849,8 +849,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/woohoo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 18,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 18
     },
     {
       "id": "br.espn-3",
@@ -859,8 +859,8 @@
       "logo_url": "https://img.faz-o-eli.online/espn3.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.tv-gazeta",
@@ -869,8 +869,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.record-news",
@@ -879,8 +879,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 21,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 21
     },
     {
       "id": "br.cancao-nova",
@@ -889,8 +889,8 @@
       "logo_url": "https://img.faz-o-eli.online/cancaonova.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.tv-aparecida",
@@ -899,8 +899,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.rede-vida",
@@ -909,8 +909,8 @@
       "logo_url": "https://img.faz-o-eli.online/redevida.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.discovery-id",
@@ -919,8 +919,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoverychannel.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.fish-tv",
@@ -929,8 +929,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.box-kids-tv",
@@ -939,8 +939,8 @@
       "logo_url": "https://www.tvlogo.org/brazil/box-kids-tv-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.x-sports",
@@ -949,8 +949,8 @@
       "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 14,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 14
     },
     {
       "id": "br.n-sports",
@@ -959,8 +959,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.music-box-brazil",
@@ -969,8 +969,8 @@
       "logo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MusicBoxBrazil.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.band-sp",
@@ -979,8 +979,8 @@
       "logo_url": "https://img.faz-o-eli.online/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 19,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 19
     },
     {
       "id": "br.band-rs",
@@ -989,8 +989,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.sbt-sp",
@@ -999,8 +999,8 @@
       "logo_url": "https://img.faz-o-eli.online/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.record-sp",
@@ -1009,8 +1009,8 @@
       "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 13,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 13
     },
     {
       "id": "br.canal-rural",
@@ -1019,8 +1019,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-rural-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.agro-mais",
@@ -1029,8 +1029,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/agro-mais-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.cnt",
@@ -1039,8 +1039,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-cnt-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.tv-pai-eterno",
@@ -1049,8 +1049,8 @@
       "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.playtv",
@@ -1059,8 +1059,8 @@
       "logo_url": "https://i.imgur.com/Ikrj3lk.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.rede-brasil",
@@ -1069,8 +1069,8 @@
       "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.rede-gospel",
@@ -1079,8 +1079,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.trace-brazuca",
@@ -1089,8 +1089,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.tv-camara",
@@ -1099,8 +1099,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-camara-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.tv-evangelizar",
@@ -1109,8 +1109,8 @@
       "logo_url": "https://i.imgur.com/IrYR7Kp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.tv-justica",
@@ -1119,8 +1119,8 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.tv-novo-tempo",
@@ -1129,8 +1129,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.tv-senado",
@@ -1139,8 +1139,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.rit",
@@ -1149,8 +1149,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rit-br.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.discovery-home-health",
@@ -1159,8 +1159,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoveryhh.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 27,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 27
     },
     {
       "id": "br.canal-agro",
@@ -1169,8 +1169,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.blits-tv",
@@ -1179,8 +1179,8 @@
       "logo_url": "https://i.imgur.com/FO4QTRf.jpeg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.cnbc",
@@ -1189,8 +1189,8 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.com-brasil",
@@ -1199,8 +1199,8 @@
       "logo_url": "https://i.imgur.com/GrjGwKM.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sesc-tv",
@@ -1209,8 +1209,8 @@
       "logo_url": "https://i.imgur.com/Mu8O6CV.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.tvideonews",
@@ -1219,8 +1219,8 @@
       "logo_url": "https://i.imgur.com/vstHOYx.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.assombracoes",
@@ -1229,8 +1229,8 @@
       "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.bob-esponja-calca-quadrada",
@@ -1239,8 +1239,8 @@
       "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 24,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 24
     },
     {
       "id": "br.boruto-naruto-next-generations",
@@ -1249,8 +1249,8 @@
       "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.canal-educacao",
@@ -1259,8 +1259,8 @@
       "logo_url": "https://i.imgur.com/OOB7nrS.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.canal-futura",
@@ -1269,8 +1269,8 @@
       "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.canal-gov",
@@ -1279,8 +1279,8 @@
       "logo_url": "https://i.imgur.com/rHPY0Yv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.canal-uol",
@@ -1289,8 +1289,8 @@
       "logo_url": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.canal-do-boi",
@@ -1299,8 +1299,8 @@
       "logo_url": "https://i.imgur.com/pVM5MhS.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.chef-tv",
@@ -1309,8 +1309,8 @@
       "logo_url": "https://i.imgur.com/UYksTee.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.cultura-fast",
@@ -1319,8 +1319,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.dumdum",
@@ -1329,8 +1329,8 @@
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.futura",
@@ -1339,8 +1339,8 @@
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/960px-Canal_Futura.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 14,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 14
     },
     {
       "id": "br.kpoptv-play",
@@ -1349,8 +1349,8 @@
       "logo_url": "https://i.imgur.com/Tf0vweF.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.mtv-biggest-pop",
@@ -1359,8 +1359,8 @@
       "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.mtv-rocks",
@@ -1369,8 +1369,8 @@
       "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.masterchef",
@@ -1379,8 +1379,8 @@
       "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.mytime-movie-network",
@@ -1389,8 +1389,8 @@
       "logo_url": "https://i.imgur.com/aiGQtzI.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.nickonline",
@@ -1399,8 +1399,8 @@
       "logo_url": "https://x1colegal.com/logo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.nicktoons-brasil",
@@ -1409,8 +1409,8 @@
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.nickelodeon",
@@ -1419,8 +1419,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.nickelodeon-icarly",
@@ -1429,8 +1429,8 @@
       "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.pluto-tv-anime",
@@ -1439,8 +1439,8 @@
       "logo_url": "https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1785430875394.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.rede-tv",
@@ -1449,8 +1449,8 @@
       "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.runtime",
@@ -1459,8 +1459,8 @@
       "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.smithsonian-channel-pluto-tv",
@@ -1469,8 +1469,8 @@
       "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.travel-box-brazil",
@@ -1479,8 +1479,8 @@
       "logo_url": "https://i.imgur.com/3tBJERH.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 14,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 14
     },
     {
       "id": "br.aeroporto-area-restrita",
@@ -1489,8 +1489,8 @@
       "logo_url": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 8,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 8
     },
     {
       "id": "br.filhinho-da-mamae",
@@ -1499,8 +1499,8 @@
       "logo_url": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.amazon-prime-video-01",
@@ -1509,8 +1509,8 @@
       "logo_url": "https://img.faz-o-eli.online/primevideo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.amazon-prime-video-02",
@@ -1519,8 +1519,8 @@
       "logo_url": "https://img.faz-o-eli.online/primevideo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.amazon-prime-video-03",
@@ -1529,8 +1529,8 @@
       "logo_url": "http://www.fontedecanais.gs/logos/canais/primevideo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.canal-goat-jogo-1",
@@ -1539,8 +1539,8 @@
       "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.canal-goat-jogo-2",
@@ -1549,8 +1549,8 @@
       "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.canal-goat-jogo-3",
@@ -1559,8 +1559,8 @@
       "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.combate",
@@ -1569,8 +1569,8 @@
       "logo_url": "https://img.faz-o-eli.online/combate.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 26,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 26
     },
     {
       "id": "br.dazn-jogo-1",
@@ -1579,8 +1579,8 @@
       "logo_url": "http://logos.appscms.xyz/logos/2025/dazn.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.dazn-jogo-4",
@@ -1589,8 +1589,8 @@
       "logo_url": "http://logos.appscms.xyz/logos/2025/dazn.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.disney-01",
@@ -1599,8 +1599,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.disney-02",
@@ -1609,8 +1609,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.nba-01",
@@ -1619,8 +1619,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/nba.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.n-sports-jogo-1",
@@ -1629,8 +1629,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.paramount-jogo-1",
@@ -1639,8 +1639,8 @@
       "logo_url": "https://img.faz-o-eli.online/paramountplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.paramount-jogo-2",
@@ -1649,8 +1649,8 @@
       "logo_url": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.paramount-jogo-3",
@@ -1659,8 +1659,8 @@
       "logo_url": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.paramount-jogo-6",
@@ -1669,8 +1669,8 @@
       "logo_url": "https://logos.appscms.xyz/logos/2025/Paramount.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sportynet-01",
@@ -1679,8 +1679,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportynet.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.ufc-fight-pass-01",
@@ -1689,8 +1689,8 @@
       "logo_url": "https://img.faz-o-eli.online/ufcfightpass.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.ufc-fight-pass-03",
@@ -1699,8 +1699,8 @@
       "logo_url": "http://logos.imperioapps.top/UFC_FIGHT_PASS.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.canal-brasil",
@@ -1709,8 +1709,8 @@
       "logo_url": "http://www.imgu.top/logos/CANAL%20BRASIL.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.cine-sky-01",
@@ -1719,8 +1719,8 @@
       "logo_url": "http://www.fontedecanais.dev/logos/canais/cinesky.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.cine-sky-02",
@@ -1729,8 +1729,8 @@
       "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.cine-sky-03",
@@ -1739,8 +1739,8 @@
       "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.cine-sky-05",
@@ -1749,8 +1749,8 @@
       "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.lifetime",
@@ -1759,8 +1759,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/lifetime.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.max-01",
@@ -1769,8 +1769,8 @@
       "logo_url": "http://www.fontedecanais.gs/logos/canais/max.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.max-02",
@@ -1779,8 +1779,8 @@
       "logo_url": "http://www.fontedecanais.gs/logos/canais/max.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.studio-universal",
@@ -1789,8 +1789,8 @@
       "logo_url": "https://img.faz-o-eli.online/studiouniversal.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.gloob",
@@ -1799,8 +1799,8 @@
       "logo_url": "https://img.faz-o-eli.online/gloob.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.gloobinho",
@@ -1809,8 +1809,8 @@
       "logo_url": "https://logos.imperioapps.top/GLOBINHO.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 19,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 19
     },
     {
       "id": "br.tv-ra-tim-bum",
@@ -1819,8 +1819,8 @@
       "logo_url": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.band-campinas",
@@ -1829,8 +1829,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.band-curitiba",
@@ -1839,8 +1839,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.band-mg",
@@ -1849,8 +1849,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.band-para",
@@ -1859,8 +1859,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.band-recife-tv-tribuna",
@@ -1869,8 +1869,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.band-rj",
@@ -1879,8 +1879,8 @@
       "logo_url": "https://img.faz-o-eli.online/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.band-rn",
@@ -1889,8 +1889,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.band-sergipe",
@@ -1899,8 +1899,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.rede-familia",
@@ -1909,8 +1909,8 @@
       "logo_url": "http://www.fontedecanais.gs/logos/canais/redefamilia.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sbt-alterosa",
@@ -1919,8 +1919,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.sbt-ba",
@@ -1929,8 +1929,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sbt-go",
@@ -1939,8 +1939,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sbt-londrina",
@@ -1949,8 +1949,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sbt-maringa",
@@ -1959,8 +1959,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sbt-mg",
@@ -1969,8 +1969,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sbt-pi",
@@ -1979,8 +1979,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sbt-pr",
@@ -1989,8 +1989,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sbt-rj",
@@ -1999,8 +1999,8 @@
       "logo_url": "https://img.faz-o-eli.online/sbt.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.tve-bahia",
@@ -2009,8 +2009,8 @@
       "logo_url": "http://i.imgur.com/IWGyp65.jpeg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.tv-goiania",
@@ -2019,8 +2019,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.bis",
@@ -2029,8 +2029,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/bis.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.food-network",
@@ -2039,8 +2039,8 @@
       "logo_url": "https://img.faz-o-eli.online/foodnetwork.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.modo-viagem",
@@ -2049,8 +2049,8 @@
       "logo_url": "http://www.fontedecanais.me/logos/canais/modoviagem.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 17,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 17
     },
     {
       "id": "br.24h-chaves",
@@ -2059,8 +2059,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 18,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 18
     },
     {
       "id": "br.24h-dragon-ball-z",
@@ -2069,8 +2069,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.24h-naruto-classico",
@@ -2079,8 +2079,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.24h-os-simpsons",
@@ -2089,8 +2089,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 67,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 67
     },
     {
       "id": "br.24h-pica-pau",
@@ -2099,8 +2099,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.24h-todo-mundo-odeia-o-cris",
@@ -2109,8 +2109,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.24h-friends",
@@ -2119,8 +2119,8 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.discovery-world",
@@ -2129,8 +2129,8 @@
       "logo_url": "https://img.faz-o-eli.online/discoveryworld.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.cazetv-1",
@@ -2139,8 +2139,8 @@
       "logo_url": "https://img.faz-o-eli.online/cazetv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.cazetv-2",
@@ -2149,8 +2149,8 @@
       "logo_url": "https://img.faz-o-eli.online/cazetv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.pt-a-bola",
@@ -2159,8 +2159,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_abola.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-benfica-tv",
@@ -2169,8 +2169,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-canal-11",
@@ -2179,8 +2179,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_canal11.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-eleven-1",
@@ -2189,8 +2189,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-eleven-2",
@@ -2199,8 +2199,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-eleven-3",
@@ -2209,8 +2209,8 @@
       "logo_url": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-1",
@@ -2219,8 +2219,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-2",
@@ -2229,8 +2229,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-3",
@@ -2239,8 +2239,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-4",
@@ -2249,8 +2249,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-5",
@@ -2259,8 +2259,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-6",
@@ -2269,8 +2269,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.pt-sporttv-7",
@@ -2279,8 +2279,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sportynet-1",
@@ -2289,8 +2289,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportynet.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.sportynet-2",
@@ -2299,8 +2299,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportynet.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sportynet-3",
@@ -2309,8 +2309,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportynet.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.globo-am",
@@ -2319,8 +2319,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-ce",
@@ -2329,8 +2329,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-es",
@@ -2339,8 +2339,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-go",
@@ -2349,8 +2349,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-pb",
@@ -2359,8 +2359,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-pe",
@@ -2369,8 +2369,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-rj",
@@ -2379,8 +2379,8 @@
       "logo_url": "https://img.faz-o-eli.online/globorj.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.globo-rs",
@@ -2389,8 +2389,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.record-go",
@@ -2399,8 +2399,8 @@
       "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.record-mg",
@@ -2409,8 +2409,8 @@
       "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.record-rj",
@@ -2419,8 +2419,8 @@
       "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 5,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 5
     },
     {
       "id": "br.hgtv",
@@ -2429,8 +2429,8 @@
       "logo_url": "https://img.faz-o-eli.online/hgtv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 20,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 20
     },
     {
       "id": "br.mtv",
@@ -2439,8 +2439,8 @@
       "logo_url": "https://img.faz-o-eli.online/mtv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-fazenda-18-1",
@@ -2449,8 +2449,8 @@
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-fazenda-18-2",
@@ -2459,8 +2459,8 @@
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-fazenda-18-3",
@@ -2469,8 +2469,8 @@
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-fazenda-18-4",
@@ -2479,8 +2479,8 @@
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-fazenda-18-5",
@@ -2489,8 +2489,8 @@
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.cazetv-3",
@@ -2499,8 +2499,8 @@
       "logo_url": "https://img.faz-o-eli.online/cazetv.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.globo-df",
@@ -2509,8 +2509,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 8,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 8
     },
     {
       "id": "br.globo-mg",
@@ -2519,8 +2519,8 @@
       "logo_url": "https://img.faz-o-eli.online/globosp.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.max-03",
@@ -2529,8 +2529,8 @@
       "logo_url": "https://img.faz-o-eli.online/max.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.amazon-prime-video-04",
@@ -2539,8 +2539,8 @@
       "logo_url": "https://img.faz-o-eli.online/primevideo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.sportv-4",
@@ -2549,8 +2549,8 @@
       "logo_url": "https://img.faz-o-eli.online/sportv4.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.star-channel",
@@ -2559,8 +2559,8 @@
       "logo_url": "https://img.faz-o-eli.online/starchannel.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.curta",
@@ -2569,8 +2569,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/curta.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 12,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 12
     },
     {
       "id": "br.dog-tv",
@@ -2579,8 +2579,8 @@
       "logo_url": "http://tvonhdbr.com/images/2ecd0b43c0ba5f0fac0f9fbb98bb79cd.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.eurochannel",
@@ -2589,8 +2589,8 @@
       "logo_url": "http://tvonhdbr.com/images/e319732e23a51cafb209d07c7a26c615.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.fashiontv",
@@ -2599,8 +2599,8 @@
       "logo_url": "https://i.imgur.com/1jtRh4S.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.film-arts",
@@ -2609,8 +2609,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 12,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 12
     },
     {
       "id": "br.formula-1-tv",
@@ -2619,8 +2619,8 @@
       "logo_url": "https://imgur.com/a/jyyyawL",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.france-24",
@@ -2629,8 +2629,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.markket",
@@ -2639,8 +2639,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.nba-league-pass-1",
@@ -2649,8 +2649,8 @@
       "logo_url": "https://i.imgur.com/ynW8fZF.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.nba-league-pass-2",
@@ -2659,8 +2659,8 @@
       "logo_url": "https://i.imgur.com/ynW8fZF.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.nba-league-pass-3",
@@ -2669,8 +2669,8 @@
       "logo_url": "https://i.imgur.com/ynW8fZF.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.sportynet-4",
@@ -2679,8 +2679,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.sportynet",
@@ -2689,8 +2689,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.paramount-4",
@@ -2699,8 +2699,8 @@
       "logo_url": "http://tvonhdbr.com/images/a2297e25c35601bed705a676d70e41df.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.paramount-channel",
@@ -2709,8 +2709,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/paramount.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.prime-box-brazil",
@@ -2719,8 +2719,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/primeboxbrazil.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 9,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 9
     },
     {
       "id": "br.sabor-arte",
@@ -2729,8 +2729,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.ufc-fight-pass",
@@ -2739,8 +2739,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.zoomoo",
@@ -2749,8 +2749,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 12,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 12
     },
     {
       "id": "br.101-dalmatas",
@@ -2759,8 +2759,8 @@
       "logo_url": "http://24horas.cc:80/images/9c6a2f33abeeef86c653c2cfb53e30b3.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.a-beleza-secreta-dos-animais",
@@ -2769,8 +2769,8 @@
       "logo_url": "http://24horas.cc:80/images/841daa83c5587e962d6922d8d873a7e3.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.aladdin",
@@ -2779,8 +2779,8 @@
       "logo_url": "http://24horas.cc:80/images/07b77f17e21144dcbd7933ee82820906.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.as-aventuras-do-gato-de-botas",
@@ -2789,8 +2789,8 @@
       "logo_url": "http://24horas.cc:80/images/10eb05c9613316dfb3cb1a39efdf13e0.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.cameras-escondidas-silvio-santos",
@@ -2799,8 +2799,8 @@
       "logo_url": "http://tvonhdbr.com/images/2e635c8ad4f61ac93cc35719e5ec1d6d.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.caverna-do-dragao",
@@ -2809,8 +2809,8 @@
       "logo_url": "http://24horas.cc:80/images/7ba1bfdb706316720d0ba2bafbfd7347.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 4,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 4
     },
     {
       "id": "br.chapolin-colorado",
@@ -2819,8 +2819,8 @@
       "logo_url": "http://24horas.cc:80/images/77e8debc90dbfd7e69d9decf09b9e05e.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 15,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 15
     },
     {
       "id": "br.dois-homens-e-meio",
@@ -2829,8 +2829,8 @@
       "logo_url": "http://24horas.cc:80/images/66a6edec30215e33b34d9a1a1fd25393.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 25,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 25
     },
     {
       "id": "br.dora-aventureira",
@@ -2839,8 +2839,8 @@
       "logo_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/j30WV7vDXXorlbdKEHgl74stDml.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 3,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 3
     },
     {
       "id": "br.dragon-ball-super-saga-deus-da-destruicao-bills",
@@ -2849,8 +2849,8 @@
       "logo_url": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.dragon-ball-super-trunks-do-futuro",
@@ -2859,8 +2859,8 @@
       "logo_url": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.escolinha-do-professor-raimundo",
@@ -2869,8 +2869,8 @@
       "logo_url": "http://24horas.cc:80/images/151df67d8d15f1c0c39c7779f27935b6.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.eu-a-patroa-e-as-criancas",
@@ -2879,8 +2879,8 @@
       "logo_url": "http://24horas.cc:80/images/f8d46ebce886f39998603845cd3fc331.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 10,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 10
     },
     {
       "id": "br.game-shakers",
@@ -2889,8 +2889,8 @@
       "logo_url": "http://24horas.cc:80/images/e1b30a8cf50dbe4b7da802f634c686b3.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 6,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 6
     },
     {
       "id": "br.he-man-e-os-defensores-do-universo",
@@ -2899,8 +2899,8 @@
       "logo_url": "http://24horas.cc:80/images/66c305ee7bff6c27854be94434b46c7e.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.largados-e-pelados",
@@ -2909,8 +2909,8 @@
       "logo_url": "http://24horas.cc:80/images/2246772d199347c5251faaac1a270575.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 22,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 22
     },
     {
       "id": "br.mestres-da-sobrevivencia",
@@ -2919,8 +2919,8 @@
       "logo_url": "http://24horas.cc:80/images/401f441af8a5f5b0211c085d1d755d95.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.nicky-ricky-dicky-e-dawn",
@@ -2929,8 +2929,8 @@
       "logo_url": "http://24horas.cc:80/images/fa42fec0efcb2f9a242913cad45ccba8.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 8,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 8
     },
     {
       "id": "br.um-maluco-no-pedaco",
@@ -2939,8 +2939,8 @@
       "logo_url": "http://24horas.cc:80/images/3e3d6036a0a8a0f316aff080eca66868.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 13,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 13
     },
     {
       "id": "br.fcf-tv-1",
@@ -2949,8 +2949,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.carros-irado",
@@ -2959,8 +2959,8 @@
       "logo_url": "http://24horas.cc:80/images/2dd914ca34a6a1ad2bdbb727f3e51140.jpg",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 18,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 18
     },
     {
       "id": "br.cnbc-brasil",
@@ -2969,8 +2969,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 11,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 11
     },
     {
       "id": "br.brasileirao-serie-a",
@@ -2979,8 +2979,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 7,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 7
     },
     {
       "id": "br.andorra-x-malta",
@@ -2989,8 +2989,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.portugal-x-pais-de-gales",
@@ -2999,8 +2999,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.austria-x-israel",
@@ -3009,8 +3009,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.kosovo-x-irlanda",
@@ -3019,8 +3019,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.liechtenstein-x-lituania",
@@ -3029,8 +3029,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.informacoes-em-breve",
@@ -3039,8 +3039,8 @@
       "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 16,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 16
     },
     {
       "id": "br.gladiadores-da-natureza",
@@ -3049,8 +3049,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-1",
@@ -3059,8 +3059,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-2",
@@ -3069,8 +3069,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-3",
@@ -3079,8 +3079,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-4",
@@ -3089,8 +3089,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-5",
@@ -3099,8 +3099,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.a-fazenda-cam-6",
@@ -3109,8 +3109,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.max-07",
@@ -3119,8 +3119,8 @@
       "logo_url": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.max-08",
@@ -3129,8 +3129,8 @@
       "logo_url": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.premiere-8-mosaico",
@@ -3139,8 +3139,8 @@
       "logo_url": "http://1.bp.blogspot.com/-9NsHz_itoFc/Xk70dxuLv7I/AAAAAAAACGQ/wCExIoJZ8xgbleziCR-Guhr-AkuLgFhVQCLcBGAsYHQ/s1600/premiere_2.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.jogos-de-hoje",
@@ -3149,8 +3149,8 @@
       "logo_url": "https://i.postimg.cc/cHHX4vYD/canal-futebol.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.a-fazenda-18-mosaico",
@@ -3159,8 +3159,8 @@
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Logo_A_Fazenda_-_Atual.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.chapolin",
@@ -3169,8 +3169,8 @@
       "logo_url": "http://32q0d.xyz/images/1ff1de774005f8da13f42943881c655f.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.disney-plus-1",
@@ -3179,8 +3179,8 @@
       "logo_url": "https://vipcanais.net/images/disneyplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.disney-plus-2",
@@ -3189,8 +3189,8 @@
       "logo_url": "https://vipcanais.net/images/disneyplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.disney-plus-3",
@@ -3199,8 +3199,8 @@
       "logo_url": "https://vipcanais.net/images/disneyplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.paramount-plus-1",
@@ -3209,8 +3209,8 @@
       "logo_url": "https://vipcanais.net/images/paramountplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.paramount-plus-2",
@@ -3219,8 +3219,8 @@
       "logo_url": "https://vipcanais.net/images/paramountplus.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 2,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 2
     },
     {
       "id": "br.prime-video-3",
@@ -3229,8 +3229,8 @@
       "logo_url": "https://vipcanais.net/images/amazonprimevideo.png",
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.anime-channel-tv",
@@ -3239,8 +3239,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.otaku-sign-tv",
@@ -3249,8 +3249,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.geekdot",
@@ -3259,8 +3259,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.nbx-tv-kids",
@@ -3269,8 +3269,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.sbc-kids",
@@ -3279,8 +3279,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.rede-criancas",
@@ -3289,8 +3289,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.kuriakos-kids",
@@ -3299,8 +3299,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.gospel-cartoon",
@@ -3309,8 +3309,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     },
     {
       "id": "br.jetsons-tv",
@@ -3319,8 +3319,8 @@
       "logo_url": null,
       "epg_id": null,
       "sources": [],
-      "source_count_imported": 1,
-      "stream_status": "pending_validation"
+      "stream_status": "pending_validation",
+      "source_candidates_pending_review": 1
     }
   ]
 }
