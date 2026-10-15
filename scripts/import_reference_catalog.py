@@ -574,19 +574,52 @@ def load_existing_details(kind: str) -> dict[str, dict]:
     return existing
 
 
-def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
-    old = load_existing_details(kind)
-    canonical = {}
-    for item in list(old.values()) + list(incoming):
+def dedupe_records(items: list[dict]) -> list[dict]:
+    by_id = {}
+    for item in items:
         ident = str(item.get("id") or "")
         if not ident:
             continue
-        key = canonical_key(item)
-        if key in canonical:
-            merge_record(canonical[key], item)
+        if ident in by_id:
+            merge_record(by_id[ident], item)
         else:
-            canonical[key] = item
-    return sorted(canonical.values(), key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
+            by_id[ident] = item
+
+    canonical = []
+    by_tmdb = {}
+    by_title_year = {}
+    for item in by_id.values():
+        tmdb_id = str(item.get("tmdb_id") or "").strip()
+        year = str(item.get("year") or "")
+        if not year:
+            match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
+            year = match.group(1) if match else ""
+        title_key = (base_title(item.get("title", "")), year)
+        target = by_tmdb.get(tmdb_id) if tmdb_id else None
+        if target is None:
+            candidate = by_title_year.get(title_key)
+            if candidate is not None:
+                candidate_tmdb = str(candidate.get("tmdb_id") or "").strip()
+                if not tmdb_id or not candidate_tmdb or candidate_tmdb == tmdb_id:
+                    target = candidate
+        if target is not None:
+            merge_record(target, item)
+            target_tmdb = str(target.get("tmdb_id") or "").strip()
+            if target_tmdb:
+                by_tmdb[target_tmdb] = target
+            by_title_year.setdefault(title_key, target)
+        else:
+            canonical.append(item)
+            if tmdb_id:
+                by_tmdb[tmdb_id] = item
+            by_title_year.setdefault(title_key, item)
+    return canonical
+
+
+def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
+    old = load_existing_details(kind)
+    merged = dedupe_records(list(old.values()) + list(incoming))
+    return sorted(merged, key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
 
 def import_channels(reference: Path, current: dict, counters: dict) -> dict:
