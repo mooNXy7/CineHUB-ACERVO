@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "sources": [],
+  "_instructions": "Add only public sources that permit use/redistribution. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json), enabled, priority, license, notes."
+}
