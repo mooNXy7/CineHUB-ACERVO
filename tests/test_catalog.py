@@ -26,7 +26,13 @@ class CatalogShapeTests(unittest.TestCase):
     def test_vod_categories(self):
         data = self.load("catalog/vod/index.json")
         for category in ("movies", "series", "anime", "doramas"):
-            self.assertIsInstance(data[category], list)
+            if isinstance(data.get(category), list):
+                items = data[category]
+            else:
+                info = data["categories"][category]
+                items = self.load(info["index_path"])
+                self.assertEqual(info["count"], len(items))
+            self.assertIsInstance(items, list)
 
 
 class SourceSafetyTests(unittest.TestCase):
