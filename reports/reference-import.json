@@ -2,17 +2,17 @@
   "reference": "authorized-public-reference",
   "counts": {
     "channel_sources_added": 0,
-    "skipped_urls": 320013,
-    "sources_added": 19711,
-    "provider_refs_added": 579150,
-    "movies": 27742,
-    "series": 11763,
-    "anime": 2706,
-    "doramas": 31,
+    "skipped_urls": 320447,
+    "sources_added": 792679,
+    "provider_refs_added": 646023,
+    "movies": 39115,
+    "series": 12570,
+    "anime": 2960,
+    "doramas": 897,
     "radios_added": 0,
     "channel_records_total": 2431,
     "radio_records_total": 1026,
-    "fichas_matched": 36250
+    "fichas_matched": 37079
   },
   "notes": [
     "Conteúdo adulto reservado não é importado.",
@@ -20,5 +20,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-15T17:35:39.857173+00:00"
+  "generated_at": "2026-10-15T17:42:53.034294+00:00"
 }
