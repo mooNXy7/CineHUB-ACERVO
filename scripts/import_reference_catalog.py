@@ -161,14 +161,15 @@ def parse_featured(path: Path) -> tuple[dict, set, set]:
         if len(fields) >= 2 and fields[0] == "fila":
             section = fields[1].strip().casefold()
             continue
-        if len(fields) >= 5 and fields[0] in {"f", "s"}:
-            kind, title = fields[0], fields[1].strip()
+        if len(fields) >= 5 and fields[0] in {"f", "s", "a", "d"}:
+            row_kind, title = fields[0], fields[1].strip()
+            kind = "f" if row_kind == "f" else "s"
             poster = fields[4].strip()
             if poster:
                 posters[(kind, norm(title))] = poster if poster.startswith("http") else "https://image.tmdb.org/t/p/w342" + poster
-            if kind == "s" and ("anime" in section or "anima" in section):
+            if kind == "s" and (row_kind == "a" or "anime" in section or "anima" in section):
                 anime.add(norm(title))
-            if kind == "s" and ("dorama" in section or "drama asi" in section):
+            if kind == "s" and (row_kind == "d" or "dorama" in section or "drama asi" in section):
                 doramas.add(norm(title))
     return posters, anime, doramas
 
