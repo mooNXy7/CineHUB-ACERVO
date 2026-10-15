@@ -38,6 +38,15 @@ class SourceSafetyTests(unittest.TestCase):
     def test_rejects_embedded_credentials(self):
         self.assertFalse(safe_https_url("https://user:pass@example.com/live"))
 
+    def test_rejects_tokenized_query_urls(self):
+        for url in (
+            "https://example.com/live.m3u8?token=abc",
+            "https://example.com/live.m3u8?auth=abc",
+            "https://example.com/live.m3u8?signature=abc",
+        ):
+            with self.subTest(url=url):
+                self.assertFalse(safe_https_url(url))
+
     def test_rejects_local_and_private_hosts(self):
         for url in (
             "https://localhost/list.m3u",
@@ -86,6 +95,19 @@ https://user:pass@cdn.example.org/channel.m3u8
         self.assertEqual(merged[0]["group"], "Grupo Curado")
         self.assertEqual(merged[0]["logo_url"], "https://logos.example.org/canal.png")
         self.assertEqual(len(merged[0]["sources"]), 2)
+        self.assertEqual(added, 1)
+
+    def test_merge_matches_names_without_accent_difference(self):
+        existing = [{"id": "br.tv-camara", "name": "TV Câmara", "sources": []}]
+        incoming = [{
+            "id": "ch-tv-camara",
+            "name": "TV Camara",
+            "sources": [{"url": "https://stream.example.org/tv.m3u8", "priority": 1}],
+        }]
+        merged, added = merge_channels(existing, incoming)
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(merged[0]["id"], "br.tv-camara")
+        self.assertEqual(len(merged[0]["sources"]), 1)
         self.assertEqual(added, 1)
 
 
