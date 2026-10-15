@@ -40,6 +40,26 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
 
 
+def base_title(value: str) -> str:
+    value = re.sub(r"\s*\((?:19|20)\d{2}\)\s*$", "", str(value or ""))
+    value = re.sub(r"\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\b", "", value, flags=re.I)
+    return norm(value)
+
+
+def canonical_key(item: dict) -> tuple:
+    tmdb_id = str(item.get("tmdb_id") or "").strip()
+    if tmdb_id:
+        return ("tmdb", tmdb_id)
+    title = base_title(item.get("title", ""))
+    year = str(item.get("year") or "")
+    if not year:
+        match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
+        year = match.group(1) if match else ""
+    if title:
+        return ("title", title, year)
+    return ("id", str(item.get("id") or ""))
+
+
 def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", norm(value)).strip("-") or "item"
 
@@ -268,6 +288,11 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
         (vod / "mgeb" / "links-filmes.txt", "reference-mgeb"),
     )
     by_tmdb = {str(item.get("tmdb_id")): item for item in movies.values() if item.get("tmdb_id")}
+    by_title = {}
+    for item in movies.values():
+        for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
+            if key:
+                by_title.setdefault(key, item)
     for path, source_id in source_files:
         for raw in read_lines(path) or ():
             line = raw.rstrip("\n")
@@ -279,8 +304,14 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 continue
             tmdb_id = next((field.split("=", 1)[1].strip() for field in fields[1:]
                             if field.startswith("tmdb=") and field.split("=", 1)[1].strip().isdigit()), None)
+            if not tmdb_id:
+                for field in fields[1:]:
+                    match = re.search(r"https?://mgeb\.top/embed/(\d+)", field)
+                    if match:
+                        tmdb_id = match.group(1)
+                        break
             item = by_tmdb.get(tmdb_id) if tmdb_id else None
-            item = item or movies.get(norm(title))
+            item = item or movies.get(norm(title)) or by_title.get(norm(title)) or by_title.get(base_title(title))
             if item is None:
                 year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
                 item = {
@@ -293,6 +324,9 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
             if tmdb_id:
                 item["tmdb_id"] = item.get("tmdb_id") or tmdb_id
                 by_tmdb[tmdb_id] = item
+            for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
+                if key:
+                    by_title[key] = item
             meta = fichas.get(("f", norm(item["title"])), {})
             item["poster_url"] = item.get("poster_url") or meta.get("poster_path")
             item["genres"] = item.get("genres") or meta.get("genres", [])
@@ -356,9 +390,9 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
     parse_extra_series_sources(vod, series, fichas, counters)
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
-        item["tmdb_id"] = meta.get("tmdb_id")
-        item["poster_url"] = meta.get("poster_path") or featured_posters.get(("s", title_key))
-        item["genres"] = meta.get("genres", [])
+        item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
+        item["poster_url"] = item.get("poster_url") or meta.get("poster_path") or featured_posters.get(("s", title_key))
+        item["genres"] = item.get("genres") or meta.get("genres", [])
         if item.get("subtype") not in {"anime", "dorama"}:
             item["subtype"] = "anime" if title_key in featured_anime or any("animação" in g.casefold() or "animation" in g.casefold() for g in item["genres"]) else (
                 "dorama" if title_key in featured_doramas or "dorama" in title_key or "k-drama" in title_key else "series"
@@ -385,7 +419,9 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
         tmdb = item.get("tmdb_id") or meta.get("tmdb_id")
         if tmdb:
             by_tmdb[str(tmdb)] = item
-        by_name.setdefault(norm(item.get("title", "")), []).append(item)
+        for name_key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
+            if name_key:
+                by_name.setdefault(name_key, []).append(item)
 
     for path, source_id, subtype in files:
         current = None
@@ -405,7 +441,7 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                 current = by_tmdb.get(tmdb_id) if tmdb_id else None
                 current = current or series.get(key)
                 if current is None:
-                    candidates = by_name.get(norm(title), [])
+                    candidates = by_name.get(norm(title), []) or by_name.get(base_title(title), [])
                     current = next((item for item in candidates if not year or item.get("year") in (None, year)), None)
                 if current is None:
                     current = {
@@ -416,7 +452,9 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                         "source_candidates_skipped": 0,
                     }
                     series[key] = current
-                    by_name.setdefault(norm(title), []).append(current)
+                    for name_key in {norm(title), base_title(title)}:
+                        if name_key:
+                            by_name.setdefault(name_key, []).append(current)
                 if year and not current.get("year"):
                     current["year"] = year
                 if tmdb_id:
@@ -538,15 +576,17 @@ def load_existing_details(kind: str) -> dict[str, dict]:
 
 def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
     old = load_existing_details(kind)
-    for item in incoming:
+    canonical = {}
+    for item in list(old.values()) + list(incoming):
         ident = str(item.get("id") or "")
         if not ident:
             continue
-        if ident in old:
-            old[ident] = merge_record(old[ident], item)
+        key = canonical_key(item)
+        if key in canonical:
+            merge_record(canonical[key], item)
         else:
-            old[ident] = item
-    return sorted(old.values(), key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
+            canonical[key] = item
+    return sorted(canonical.values(), key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
 
 def import_channels(reference: Path, current: dict, counters: dict) -> dict:
