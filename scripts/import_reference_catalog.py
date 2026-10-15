@@ -522,6 +522,7 @@ def main() -> None:
             for season in item.get("seasons", [])
             for ep in season.get("episodes", [])
         )
+        detail_kind = {"movie": "movies", "dorama": "doramas"}.get(kind, kind)
         return {
             "id": item["id"], "title": item["title"], "year": item.get("year"),
             "tmdb_id": item.get("tmdb_id"), "poster_url": item.get("poster_url"),
@@ -529,7 +530,6 @@ def main() -> None:
             "subtype": item.get("subtype"),
             "source_count": len(item.get("sources", [])) + episode_sources,
             "provider_ref_count": len(item.get("provider_refs", [])) + episode_refs,
-        detail_kind = {"movie": "movies", "dorama": "doramas"}.get(kind, kind)
             "detail_path": f"catalog/vod/details/{detail_kind}/{letter(item['title'])}.json",
         }
 
