@@ -68,7 +68,7 @@ class SourceSafetyTests(unittest.TestCase):
         import tempfile
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "busca.txt"
-            path.write_text("Filme Exemplo (2020)\\tf\\tF\\nSérie Exemplo\\ts\\tS\\t2022\\n", encoding="utf-8")
+            path.write_text("Filme Exemplo (2020)\tf\tF\nSérie Exemplo\ts\tS\t2022\n", encoding="utf-8")
             movies, series = parse_search_index(path)
         self.assertEqual(len(movies), 1)
         self.assertEqual(len(series), 1)
