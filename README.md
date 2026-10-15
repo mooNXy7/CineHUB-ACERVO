@@ -65,9 +65,9 @@ O GitHub Actions executará a rotina agendada e manualmente. A rotina deve:
 
 **Segurança:** nunca armazenar tokens, senhas ou URLs privadas com credenciais. Não usar fontes que exijam contornar DRM, autenticação ou controles de acesso.
 
-## Relação com Saimo TV
+## Integração e proveniência
 
-A estrutura de referência foi estudada a partir de [SaimoTV-Android](https://github.com/gabrielsaimo/SaimoTV-Android) e do repositório de catálogo [SaimoPlayer](https://github.com/gabrielsaimo/SaimoPlayer). A organização é inspirada nos conceitos de catálogo compartilhado, dados VOD, rádios e scripts de manutenção; este repositório é próprio do CineHUB e não copia automaticamente dados ou credenciais.
+A estrutura de dados foi adaptada a partir de um repositório de referência autorizado pelo mantenedor. O projeto CineHUB mantém nomenclatura, identidade, formatos e rotinas próprios. Dados importados passam por validação técnica e revisão de permissão antes de serem considerados prontos para produção.
 
 ## Status
 
