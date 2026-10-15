@@ -1,8 +1,7 @@
 {
   "reference": "authorized-public-reference",
   "counts": {
-    "channels_added": 2097,
-    "channel_sources_added": 2421,
+    "channel_sources_added": 0,
     "skipped_urls": 320013,
     "sources_added": 19711,
     "provider_refs_added": 579150,
@@ -10,7 +9,7 @@
     "series": 11763,
     "anime": 2706,
     "doramas": 31,
-    "radios_added": 273,
+    "radios_added": 0,
     "channel_records_total": 2431,
     "radio_records_total": 1026,
     "fichas_matched": 36250
@@ -21,5 +20,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-15T17:32:52.651415+00:00"
+  "generated_at": "2026-10-15T17:35:39.857173+00:00"
 }
