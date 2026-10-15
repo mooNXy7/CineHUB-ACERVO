@@ -1,5 +1,3326 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "channels": []
+  "generated_at": "2026-10-15T17:04:27.325Z",
+  "channels": [
+    {
+      "id": "br.a-e",
+      "name": "A&E",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/ae.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.adult-swim",
+      "name": "Adult Swim",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/adultswim.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.amc",
+      "name": "AMC",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/amc.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.animal-planet",
+      "name": "Animal Planet",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/animalplanet.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band",
+      "name": "Band",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cartoon-network",
+      "name": "Cartoon Network",
+      "group": "Infantil",
+      "logo_url": "https://img.faz-o-eli.online/cartoonnetwork.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cnn-brasil",
+      "name": "CNN Brasil",
+      "group": "Notícias",
+      "logo_url": "https://img.faz-o-eli.online/cnnbrasil.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cnn-brasil-money",
+      "name": "CNN Brasil Money",
+      "group": "Notícias",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.e",
+      "name": "E!",
+      "group": "Variedades",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/E%21_Logo_Flat_2012.svg?width=300",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.ge-tv",
+      "name": "GE TV",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globonews",
+      "name": "GloboNews",
+      "group": "Notícias",
+      "logo_url": "https://img.faz-o-eli.online/globonews.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globoplay-novelas",
+      "name": "Globoplay Novelas",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/globonovelas.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 27,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.gnt",
+      "name": "GNT",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/gnt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 28,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.history",
+      "name": "History",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/history.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 28,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.history-2",
+      "name": "History 2",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/history2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.jovem-pan-news",
+      "name": "Jovem Pan News",
+      "group": "Notícias",
+      "logo_url": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.megapix",
+      "name": "Megapix",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/megapix.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.multishow",
+      "name": "Multishow",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/multishow.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-2",
+      "name": "Premiere 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-3",
+      "name": "Premiere 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-4",
+      "name": "Premiere 4",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-5",
+      "name": "Premiere 5",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 27,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-6",
+      "name": "Premiere 6",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-7",
+      "name": "Premiere 7",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-8",
+      "name": "Premiere 8",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-clubes",
+      "name": "Premiere Clubes",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt",
+      "name": "SBT",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-news",
+      "name": "SBT News",
+      "group": "Notícias",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sony-channel",
+      "name": "Sony Channel",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/sonychannel.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportv",
+      "name": "SporTV",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 28,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportv-2",
+      "name": "SporTV 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportv-3",
+      "name": "SporTV 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv3.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-off",
+      "name": "Canal OFF",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/off.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-action",
+      "name": "Telecine Action",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecineaction.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 30,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-pipoca",
+      "name": "Telecine Pipoca",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecinepipoca.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-premium",
+      "name": "Telecine Premium",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecinepremium.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-brasil",
+      "name": "TV Brasil",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 14,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.universal-premiere",
+      "name": "Universal Premiere",
+      "group": "Filmes e Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-premiere.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.universal-reality",
+      "name": "Universal Reality",
+      "group": "Filmes e Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.warner",
+      "name": "Warner",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/warnerchannel.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.impd",
+      "name": "IMPD",
+      "group": "Variedades",
+      "logo_url": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-sp",
+      "name": "Globo SP",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cartoonito",
+      "name": "Cartoonito",
+      "group": "Infantil",
+      "logo_url": "https://img.faz-o-eli.online/cartoonito.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cinemax",
+      "name": "Cinemax",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/cinemax.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-channel",
+      "name": "Discovery Channel",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoverychannel.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 27,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-kids",
+      "name": "Discovery Kids",
+      "group": "Infantil",
+      "logo_url": "https://img.faz-o-eli.online/discoverykids.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-theater",
+      "name": "Discovery Theater",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoverytheater.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn",
+      "name": "ESPN",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn-2",
+      "name": "ESPN 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 23,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn-4",
+      "name": "ESPN 4",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn4.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn-5",
+      "name": "ESPN 5",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn5.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn-6",
+      "name": "ESPN 6",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn6.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo",
+      "name": "HBO",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hbo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 31,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo2",
+      "name": "HBO2",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hbo2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-family",
+      "name": "HBO Family",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hbofamily.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-mundi",
+      "name": "HBO Mundi",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hbomundi.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-plus",
+      "name": "HBO Plus",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hboplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 30,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-pop",
+      "name": "HBO Pop",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/hbopop.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 32,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-signature",
+      "name": "HBO Signature",
+      "group": "Filmes e Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 28,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hbo-xtreme",
+      "name": "HBO Xtreme",
+      "group": "Filmes e Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 28,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record",
+      "name": "Record",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.space",
+      "name": "Space",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/space.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 18,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tnt",
+      "name": "TNT",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/tnt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 30,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tnt-series",
+      "name": "TNT Séries",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/tntseries.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.universal-tv",
+      "name": "Universal TV",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/universaltv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-turbo",
+      "name": "Discovery Turbo",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoveryturbo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.usa-network",
+      "name": "USA Network",
+      "group": "Filmes e Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-fun",
+      "name": "Telecine Fun",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecinefun.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 27,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-cult",
+      "name": "Telecine Cult",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecinecult.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.telecine-touch",
+      "name": "Telecine Touch",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/telecinetouch.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 29,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sony-movies",
+      "name": "SONY Movies",
+      "group": "Filmes e Séries",
+      "logo_url": "https://www.tvlogo.org/brazil/sony-movies-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo",
+      "name": "Globo",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tooncast",
+      "name": "Tooncast",
+      "group": "Infantil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 8,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tlc",
+      "name": "TLC",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/tlc.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 23,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.arte-1",
+      "name": "Arte 1",
+      "group": "Variedades",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tnt-novelas",
+      "name": "TNT Novelas",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/tntnovelas.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-science",
+      "name": "Discovery Science",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoveryscience.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.axn",
+      "name": "AXN",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/axn.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tcm",
+      "name": "TCM",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-news",
+      "name": "Band News",
+      "group": "Notícias",
+      "logo_url": "https://img.faz-o-eli.online/bandnews.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-sports-hd",
+      "name": "BAND SPORTS HD",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/bandsports.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.redetv",
+      "name": "RedeTV!",
+      "group": "TV Aberta",
+      "logo_url": "https://www.tvlogo.org/brazil/rede-tv-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-cultura",
+      "name": "TV Cultura",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/cultura.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 12,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.terra-viva",
+      "name": "Terra Viva",
+      "group": "Variedades",
+      "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.woohoo",
+      "name": "Woohoo",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/woohoo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 18,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.espn-3",
+      "name": "ESPN 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/espn3.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-gazeta",
+      "name": "TV Gazeta",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record-news",
+      "name": "Record News",
+      "group": "Notícias",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 21,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cancao-nova",
+      "name": "Canção Nova",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/cancaonova.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-aparecida",
+      "name": "TV Aparecida",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-vida",
+      "name": "Rede Vida",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/redevida.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-id",
+      "name": "Discovery ID",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoverychannel.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.fish-tv",
+      "name": "Fish TV",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.box-kids-tv",
+      "name": "Box Kids TV",
+      "group": "Infantil",
+      "logo_url": "https://www.tvlogo.org/brazil/box-kids-tv-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.x-sports",
+      "name": "X Sports",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 14,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.n-sports",
+      "name": "N SPORTS",
+      "group": "Esportes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.music-box-brazil",
+      "name": "Music Box Brazil",
+      "group": "Variedades",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MusicBoxBrazil.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-sp",
+      "name": "Band SP",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 19,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-rs",
+      "name": "Band RS",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-sp",
+      "name": "SBT SP",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record-sp",
+      "name": "Record SP",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/record.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 13,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-rural",
+      "name": "Canal Rural",
+      "group": "Variedades",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-rural-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.agro-mais",
+      "name": "Agro Mais",
+      "group": "Variedades",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/agro-mais-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cnt",
+      "name": "CNT",
+      "group": "TV Aberta",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-cnt-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-pai-eterno",
+      "name": "TV Pai Eterno",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.playtv",
+      "name": "PlayTV",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/Ikrj3lk.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-brasil",
+      "name": "Rede Brasil",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/TXJKwzZ.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-gospel",
+      "name": "Rede Gospel",
+      "group": "Variedades",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.trace-brazuca",
+      "name": "Trace Brazuca",
+      "group": "Variedades",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-camara",
+      "name": "TV Câmara",
+      "group": "TV Aberta",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-camara-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-evangelizar",
+      "name": "TV Evangelizar",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/IrYR7Kp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-justica",
+      "name": "TV Justiça",
+      "group": "TV Aberta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-novo-tempo",
+      "name": "TV Novo Tempo",
+      "group": "Variedades",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-senado",
+      "name": "TV Senado",
+      "group": "TV Aberta",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rit",
+      "name": "RIT",
+      "group": "Variedades",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rit-br.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-home-health",
+      "name": "Discovery Home & Health",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoveryhh.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 27,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-agro",
+      "name": "Canal Agro",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.blits-tv",
+      "name": "Blits TV",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/FO4QTRf.jpeg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cnbc",
+      "name": "CNBC",
+      "group": "Notícias",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.com-brasil",
+      "name": "Com Brasil",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/GrjGwKM.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sesc-tv",
+      "name": "SESC TV",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/Mu8O6CV.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tvideonews",
+      "name": "TVideoNews",
+      "group": "Notícias",
+      "logo_url": "https://i.imgur.com/vstHOYx.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.assombracoes",
+      "name": "Assombrações",
+      "group": "24 Horas",
+      "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.bob-esponja-calca-quadrada",
+      "name": "Bob Esponja Calça Quadrada",
+      "group": "24 Horas",
+      "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 24,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.boruto-naruto-next-generations",
+      "name": "Boruto: Naruto Next Generations",
+      "group": "24 Horas",
+      "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-educacao",
+      "name": "Canal Educacao",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/OOB7nrS.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-futura",
+      "name": "Canal Futura",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-gov",
+      "name": "Canal Gov",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/rHPY0Yv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-uol",
+      "name": "Canal UOL",
+      "group": "Notícias",
+      "logo_url": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-do-boi",
+      "name": "Canal do Boi",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/pVM5MhS.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.chef-tv",
+      "name": "Chef TV",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/UYksTee.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cultura-fast",
+      "name": "Cultura Fast",
+      "group": "TV Aberta",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dumdum",
+      "name": "DumDum",
+      "group": "Infantil",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.futura",
+      "name": "Futura",
+      "group": "TV Aberta",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/960px-Canal_Futura.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 14,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.kpoptv-play",
+      "name": "KpopTV Play",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/Tf0vweF.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.mtv-biggest-pop",
+      "name": "MTV Biggest Pop",
+      "group": "Variedades",
+      "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.mtv-rocks",
+      "name": "MTV Rocks",
+      "group": "Variedades",
+      "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.masterchef",
+      "name": "MasterChef",
+      "group": "24 Horas",
+      "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.mytime-movie-network",
+      "name": "MyTime Movie Network",
+      "group": "Filmes e Séries",
+      "logo_url": "https://i.imgur.com/aiGQtzI.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nickonline",
+      "name": "NickOnline",
+      "group": "Infantil",
+      "logo_url": "https://x1colegal.com/logo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nicktoons-brasil",
+      "name": "NickToons Brasil",
+      "group": "Infantil",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nickelodeon",
+      "name": "Nickelodeon",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nickelodeon-icarly",
+      "name": "Nickelodeon iCarly",
+      "group": "24 Horas",
+      "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pluto-tv-anime",
+      "name": "Pluto TV Anime",
+      "group": "Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1785430875394.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-tv",
+      "name": "Rede TV!",
+      "group": "TV Aberta",
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.runtime",
+      "name": "Runtime",
+      "group": "Filmes e Séries",
+      "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.smithsonian-channel-pluto-tv",
+      "name": "Smithsonian Channel Pluto TV",
+      "group": "Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.travel-box-brazil",
+      "name": "Travel Box Brazil",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/3tBJERH.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 14,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.aeroporto-area-restrita",
+      "name": "AEROPORTO AREA RESTRITA",
+      "group": "24 Horas",
+      "logo_url": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 8,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.filhinho-da-mamae",
+      "name": "FILHINHO DA MAMAE",
+      "group": "24 Horas",
+      "logo_url": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.amazon-prime-video-01",
+      "name": "Amazon Prime Video 01",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.amazon-prime-video-02",
+      "name": "Amazon Prime Video 02",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.amazon-prime-video-03",
+      "name": "Amazon Prime Video 03",
+      "group": "Esportes",
+      "logo_url": "http://www.fontedecanais.gs/logos/canais/primevideo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-goat-jogo-1",
+      "name": "Canal GOAT (Jogo 1)",
+      "group": "Esportes",
+      "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-goat-jogo-2",
+      "name": "Canal GOAT (Jogo 2)",
+      "group": "Esportes",
+      "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-goat-jogo-3",
+      "name": "Canal GOAT (Jogo 3)",
+      "group": "Esportes",
+      "logo_url": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.combate",
+      "name": "Combate",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/combate.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 26,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dazn-jogo-1",
+      "name": "DAZN (Jogo 1)",
+      "group": "Esportes",
+      "logo_url": "http://logos.appscms.xyz/logos/2025/dazn.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dazn-jogo-4",
+      "name": "DAZN (Jogo 4)",
+      "group": "Esportes",
+      "logo_url": "http://logos.appscms.xyz/logos/2025/dazn.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.disney-01",
+      "name": "Disney+ 01",
+      "group": "Esportes",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.disney-02",
+      "name": "Disney+ 02",
+      "group": "Esportes",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nba-01",
+      "name": "NBA 01",
+      "group": "Esportes",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/nba.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.n-sports-jogo-1",
+      "name": "N Sports (Jogo 1)",
+      "group": "Esportes",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-jogo-1",
+      "name": "Paramount+ (Jogo 1)",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/paramountplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-jogo-2",
+      "name": "Paramount+ (Jogo 2)",
+      "group": "Esportes",
+      "logo_url": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-jogo-3",
+      "name": "Paramount+ (Jogo 3)",
+      "group": "Esportes",
+      "logo_url": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-jogo-6",
+      "name": "Paramount+ (Jogo 6)",
+      "group": "Esportes",
+      "logo_url": "https://logos.appscms.xyz/logos/2025/Paramount.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet-01",
+      "name": "SportyNet 01",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.ufc-fight-pass-01",
+      "name": "UFC Fight Pass 01",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/ufcfightpass.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.ufc-fight-pass-03",
+      "name": "UFC Fight Pass 03",
+      "group": "Esportes",
+      "logo_url": "http://logos.imperioapps.top/UFC_FIGHT_PASS.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.canal-brasil",
+      "name": "Canal Brasil",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.imgu.top/logos/CANAL%20BRASIL.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cine-sky-01",
+      "name": "Cine SKY 01",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.dev/logos/canais/cinesky.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cine-sky-02",
+      "name": "Cine SKY 02",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cine-sky-03",
+      "name": "Cine SKY 03",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cine-sky-05",
+      "name": "Cine SKY 05",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.lifetime",
+      "name": "Lifetime",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/lifetime.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.max-01",
+      "name": "MAX 01",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.gs/logos/canais/max.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.max-02",
+      "name": "MAX 02",
+      "group": "Filmes e Séries",
+      "logo_url": "http://www.fontedecanais.gs/logos/canais/max.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.studio-universal",
+      "name": "Studio Universal",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/studiouniversal.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.gloob",
+      "name": "Gloob",
+      "group": "Infantil",
+      "logo_url": "https://img.faz-o-eli.online/gloob.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.gloobinho",
+      "name": "Gloobinho",
+      "group": "Infantil",
+      "logo_url": "https://logos.imperioapps.top/GLOBINHO.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 19,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-ra-tim-bum",
+      "name": "TV Rá Tim Bum",
+      "group": "Infantil",
+      "logo_url": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-campinas",
+      "name": "Band Campinas",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-curitiba",
+      "name": "Band Curitiba",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-mg",
+      "name": "Band MG",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-para",
+      "name": "Band Pará",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-recife-tv-tribuna",
+      "name": "Band Recife TV Tribuna",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-rj",
+      "name": "Band RJ",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-rn",
+      "name": "Band RN",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.band-sergipe",
+      "name": "Band Sergipe",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-familia",
+      "name": "Rede Família",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.gs/logos/canais/redefamilia.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-alterosa",
+      "name": "SBT Alterosa",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-ba",
+      "name": "SBT BA",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-go",
+      "name": "SBT GO",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-londrina",
+      "name": "SBT Londrina",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-maringa",
+      "name": "SBT Maringá",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-mg",
+      "name": "SBT MG",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-pi",
+      "name": "SBT PI",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-pr",
+      "name": "SBT PR",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbt-rj",
+      "name": "SBT RJ",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tve-bahia",
+      "name": "TVE Bahia",
+      "group": "TV Aberta",
+      "logo_url": "http://i.imgur.com/IWGyp65.jpeg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.tv-goiania",
+      "name": "Tv Goiania",
+      "group": "TV Aberta",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/band.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.bis",
+      "name": "BIS",
+      "group": "Variedades",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/bis.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.food-network",
+      "name": "Food Network",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/foodnetwork.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.modo-viagem",
+      "name": "Modo Viagem",
+      "group": "Variedades",
+      "logo_url": "http://www.fontedecanais.me/logos/canais/modoviagem.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 17,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-chaves",
+      "name": "24H Chaves",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 18,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-dragon-ball-z",
+      "name": "24H Dragon Ball Z",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-naruto-classico",
+      "name": "24H Naruto Clássico",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-os-simpsons",
+      "name": "24H Os Simpsons",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 67,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-pica-pau",
+      "name": "24H Pica Pau",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-todo-mundo-odeia-o-cris",
+      "name": "24H Todo Mundo Odeia o Cris",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.24h-friends",
+      "name": "24H Friends",
+      "group": "24 Horas",
+      "logo_url": "https://img.faz-o-eli.online/24h.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.discovery-world",
+      "name": "Discovery World",
+      "group": "Documentários",
+      "logo_url": "https://img.faz-o-eli.online/discoveryworld.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cazetv-1",
+      "name": "CazeTV 1",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cazetv-2",
+      "name": "CazeTV 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-a-bola",
+      "name": "PT - A Bola",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_abola.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-benfica-tv",
+      "name": "PT - Benfica TV",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-canal-11",
+      "name": "PT - Canal 11",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_canal11.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-eleven-1",
+      "name": "PT - Eleven 1",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-eleven-2",
+      "name": "PT - Eleven 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-eleven-3",
+      "name": "PT - Eleven 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-1",
+      "name": "PT - Sporttv 1",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-2",
+      "name": "PT - Sporttv 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-3",
+      "name": "PT - Sporttv 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-4",
+      "name": "PT - Sporttv 4",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-5",
+      "name": "PT - Sporttv 5",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-6",
+      "name": "PT - Sporttv 6",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.pt-sporttv-7",
+      "name": "PT - Sporttv 7",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet-1",
+      "name": "SportyNet+ 1",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet-2",
+      "name": "SportyNet+ 2",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet-3",
+      "name": "SportyNet+ 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-am",
+      "name": "Globo AM",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-ce",
+      "name": "Globo CE",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-es",
+      "name": "Globo ES",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-go",
+      "name": "Globo GO",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-pb",
+      "name": "Globo PB",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-pe",
+      "name": "Globo PE",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-rj",
+      "name": "Globo RJ",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globorj.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-rs",
+      "name": "Globo RS",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record-go",
+      "name": "Record GO",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/record.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record-mg",
+      "name": "Record MG",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/record.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.record-rj",
+      "name": "Record RJ",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/record.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 5,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.hgtv",
+      "name": "HGTV",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/hgtv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 20,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.mtv",
+      "name": "MTV",
+      "group": "Variedades",
+      "logo_url": "https://img.faz-o-eli.online/mtv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-1",
+      "name": "A Fazenda 18 1",
+      "group": "PPV",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-2",
+      "name": "A Fazenda 18 2",
+      "group": "PPV",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-3",
+      "name": "A Fazenda 18 3",
+      "group": "PPV",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-4",
+      "name": "A Fazenda 18 4",
+      "group": "PPV",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-5",
+      "name": "A Fazenda 18 5",
+      "group": "PPV",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cazetv-3",
+      "name": "CazeTV 3",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-df",
+      "name": "Globo DF",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 8,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.globo-mg",
+      "name": "Globo MG",
+      "group": "TV Aberta",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.max-03",
+      "name": "MAX 03",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/max.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.amazon-prime-video-04",
+      "name": "Amazon Prime Video 04",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportv-4",
+      "name": "SporTV 4",
+      "group": "Esportes",
+      "logo_url": "https://img.faz-o-eli.online/sportv4.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.star-channel",
+      "name": "Star Channel",
+      "group": "Filmes e Séries",
+      "logo_url": "https://img.faz-o-eli.online/starchannel.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.curta",
+      "name": "Curta",
+      "group": "Documentários",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/curta.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 12,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dog-tv",
+      "name": "DOG TV",
+      "group": "Variedades",
+      "logo_url": "http://tvonhdbr.com/images/2ecd0b43c0ba5f0fac0f9fbb98bb79cd.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.eurochannel",
+      "name": "Eurochannel",
+      "group": "Notícias",
+      "logo_url": "http://tvonhdbr.com/images/e319732e23a51cafb209d07c7a26c615.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.fashiontv",
+      "name": "FashionTV",
+      "group": "Variedades",
+      "logo_url": "https://i.imgur.com/1jtRh4S.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.film-arts",
+      "name": "Film&Arts",
+      "group": "Filmes e Séries",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 12,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.formula-1-tv",
+      "name": "Formula 1 TV",
+      "group": "PPV",
+      "logo_url": "https://imgur.com/a/jyyyawL",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.france-24",
+      "name": "France 24",
+      "group": "Notícias",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.markket",
+      "name": "Markket",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nba-league-pass-1",
+      "name": "NBA League Pass 1",
+      "group": "Esportes",
+      "logo_url": "https://i.imgur.com/ynW8fZF.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nba-league-pass-2",
+      "name": "NBA League Pass 2",
+      "group": "Esportes",
+      "logo_url": "https://i.imgur.com/ynW8fZF.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nba-league-pass-3",
+      "name": "NBA League Pass 3",
+      "group": "Esportes",
+      "logo_url": "https://i.imgur.com/ynW8fZF.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet-4",
+      "name": "SportyNet 4",
+      "group": "Esportes",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sportynet",
+      "name": "SportyNet",
+      "group": "Esportes",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-4",
+      "name": "Paramount + 4",
+      "group": "Variedades",
+      "logo_url": "http://tvonhdbr.com/images/a2297e25c35601bed705a676d70e41df.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-channel",
+      "name": "Paramount Channel",
+      "group": "Filmes e Séries",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/paramount.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.prime-box-brazil",
+      "name": "Prime Box Brazil",
+      "group": "Variedades",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/primeboxbrazil.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 9,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sabor-arte",
+      "name": "Sabor & Arte",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.ufc-fight-pass",
+      "name": "UFC Fight Pass",
+      "group": "PPV",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.zoomoo",
+      "name": "Zoomoo",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 12,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.101-dalmatas",
+      "name": "101 Dalmatas",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/9c6a2f33abeeef86c653c2cfb53e30b3.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-beleza-secreta-dos-animais",
+      "name": "A Beleza Secreta dos Animais",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/841daa83c5587e962d6922d8d873a7e3.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.aladdin",
+      "name": "Aladdin",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/07b77f17e21144dcbd7933ee82820906.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.as-aventuras-do-gato-de-botas",
+      "name": "As Aventuras do Gato de Botas",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/10eb05c9613316dfb3cb1a39efdf13e0.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cameras-escondidas-silvio-santos",
+      "name": "Cameras Escondidas Silvio Santos",
+      "group": "24 Horas",
+      "logo_url": "http://tvonhdbr.com/images/2e635c8ad4f61ac93cc35719e5ec1d6d.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.caverna-do-dragao",
+      "name": "Caverna do Dragao",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/7ba1bfdb706316720d0ba2bafbfd7347.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 4,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.chapolin-colorado",
+      "name": "Chapolin Colorado",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/77e8debc90dbfd7e69d9decf09b9e05e.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 15,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dois-homens-e-meio",
+      "name": "Dois Homens e Meio",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/66a6edec30215e33b34d9a1a1fd25393.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 25,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dora-aventureira",
+      "name": "Dora Aventureira",
+      "group": "24 Horas",
+      "logo_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/j30WV7vDXXorlbdKEHgl74stDml.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 3,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dragon-ball-super-saga-deus-da-destruicao-bills",
+      "name": "Dragon Ball Super - Saga Deus da Destruicao Bills",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.dragon-ball-super-trunks-do-futuro",
+      "name": "Dragon Ball Super - Trunks do Futuro",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.escolinha-do-professor-raimundo",
+      "name": "Escolinha do Professor Raimundo",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/151df67d8d15f1c0c39c7779f27935b6.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.eu-a-patroa-e-as-criancas",
+      "name": "Eu a Patroa e as Criancas",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/f8d46ebce886f39998603845cd3fc331.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 10,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.game-shakers",
+      "name": "Game Shakers",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/e1b30a8cf50dbe4b7da802f634c686b3.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 6,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.he-man-e-os-defensores-do-universo",
+      "name": "He Man e Os Defensores do Universo",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/66c305ee7bff6c27854be94434b46c7e.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.largados-e-pelados",
+      "name": "Largados e Pelados",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/2246772d199347c5251faaac1a270575.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 22,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.mestres-da-sobrevivencia",
+      "name": "Mestres da Sobrevivencia",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/401f441af8a5f5b0211c085d1d755d95.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nicky-ricky-dicky-e-dawn",
+      "name": "Nicky Ricky Dicky e Dawn",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/fa42fec0efcb2f9a242913cad45ccba8.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 8,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.um-maluco-no-pedaco",
+      "name": "Um Maluco no Pedaco",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/3e3d6036a0a8a0f316aff080eca66868.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 13,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.fcf-tv-1",
+      "name": "FCF TV 1",
+      "group": "PPV",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.carros-irado",
+      "name": "Carros Irado",
+      "group": "24 Horas",
+      "logo_url": "http://24horas.cc:80/images/2dd914ca34a6a1ad2bdbb727f3e51140.jpg",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 18,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.cnbc-brasil",
+      "name": "CNBC Brasil",
+      "group": "Notícias",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 11,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.brasileirao-serie-a",
+      "name": "Brasileirao Serie A",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 7,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.andorra-x-malta",
+      "name": "Andorra x Malta",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.portugal-x-pais-de-gales",
+      "name": "Portugal x País de Gales",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.austria-x-israel",
+      "name": "Áustria x Israel",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.kosovo-x-irlanda",
+      "name": "Kosovo x Irlanda",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.liechtenstein-x-lituania",
+      "name": "Liechtenstein x Lituânia",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.informacoes-em-breve",
+      "name": "Informações em Breve",
+      "group": "Esportes",
+      "logo_url": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 16,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.gladiadores-da-natureza",
+      "name": "Gladiadores da Natureza",
+      "group": "24 Horas",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-1",
+      "name": "A Fazenda Cam 1",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-2",
+      "name": "A Fazenda Cam 2",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-3",
+      "name": "A Fazenda Cam 3",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-4",
+      "name": "A Fazenda Cam 4",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-5",
+      "name": "A Fazenda Cam 5",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-cam-6",
+      "name": "A Fazenda Cam 6",
+      "group": "Variedades",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.max-07",
+      "name": "MAX 07",
+      "group": "Filmes e Séries",
+      "logo_url": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.max-08",
+      "name": "MAX 08",
+      "group": "Filmes e Séries",
+      "logo_url": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.premiere-8-mosaico",
+      "name": "PREMIERE 8 MOSAICO",
+      "group": "Esportes",
+      "logo_url": "http://1.bp.blogspot.com/-9NsHz_itoFc/Xk70dxuLv7I/AAAAAAAACGQ/wCExIoJZ8xgbleziCR-Guhr-AkuLgFhVQCLcBGAsYHQ/s1600/premiere_2.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.jogos-de-hoje",
+      "name": "JOGOS DE HOJE",
+      "group": "Esportes",
+      "logo_url": "https://i.postimg.cc/cHHX4vYD/canal-futebol.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.a-fazenda-18-mosaico",
+      "name": "A FAZENDA 18 MOSAICO",
+      "group": "Variedades",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Logo_A_Fazenda_-_Atual.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.chapolin",
+      "name": "CHAPOLIN",
+      "group": "24 Horas",
+      "logo_url": "http://32q0d.xyz/images/1ff1de774005f8da13f42943881c655f.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.disney-plus-1",
+      "name": "Disney Plus 1",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.disney-plus-2",
+      "name": "Disney Plus 2",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.disney-plus-3",
+      "name": "Disney Plus 3",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-plus-1",
+      "name": "Paramount Plus 1",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/paramountplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.paramount-plus-2",
+      "name": "Paramount Plus 2",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/paramountplus.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 2,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.prime-video-3",
+      "name": "Prime Video 3",
+      "group": "Filmes e Séries",
+      "logo_url": "https://vipcanais.net/images/amazonprimevideo.png",
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.anime-channel-tv",
+      "name": "Anime Channel TV",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.otaku-sign-tv",
+      "name": "Otaku Sign TV",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.geekdot",
+      "name": "Geekdot",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.nbx-tv-kids",
+      "name": "NBX TV Kids",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.sbc-kids",
+      "name": "SBC Kids",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.rede-criancas",
+      "name": "Rede Crianças",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.kuriakos-kids",
+      "name": "Kuriakos Kids",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.gospel-cartoon",
+      "name": "Gospel Cartoon",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    },
+    {
+      "id": "br.jetsons-tv",
+      "name": "Jetsons TV",
+      "group": "Infantil",
+      "logo_url": null,
+      "epg_id": null,
+      "sources": [],
+      "source_count_imported": 1,
+      "stream_status": "pending_validation"
+    }
+  ]
 }
