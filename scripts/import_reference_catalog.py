@@ -197,7 +197,7 @@ def parse_search_index(path: Path) -> tuple[dict, dict]:
                 "id": "series-" + slug(title) + ("-" + year if year else ""),
                 "title": title, "type": "series", "year": year,
                 "poster_url": None, "genres": [], "tmdb_id": None,
-                "seasons": [], "sources": [], "provider_refs": [],
+                "seasons": {}, "sources": [], "provider_refs": [],
                 "source_candidates_skipped": 0,
             }
     return movies, series
@@ -420,7 +420,13 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                 name = line[comma + 1:].strip() if comma >= 0 else attrs.get("tvg-name")
             elif line and not line.startswith("#") and name:
                 channel_name = (attrs.get("tvg-name") or name or "").strip()
-                if not channel_name:
+                group_name = str(attrs.get("group-title") or "").casefold()
+                is_vod_group = any(word in group_name for word in (
+                    "filme", "movie", "série", "serie", "series", "anime", "dorama",
+                    "novela", "temporada", "episodio", "episode", "vod"
+                ))
+                is_episode_title = bool(re.search(r"\\bS\\d{1,2}\\s*E\\d{1,3}\\b", channel_name, re.I))
+                if not channel_name or is_vod_group or is_episode_title:
                     name, attrs = None, {}
                     continue
                 key = norm(channel_name)
