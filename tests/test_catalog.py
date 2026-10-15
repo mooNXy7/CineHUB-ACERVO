@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
-from import_reference_catalog import canonical_key, merge_record, parse_search_index, safe_candidate, split_sources
+from import_reference_catalog import canonical_key, dedupe_records, merge_record, parse_search_index, safe_candidate, split_sources
 
 
 class CatalogShapeTests(unittest.TestCase):
@@ -79,6 +79,20 @@ class SourceSafetyTests(unittest.TestCase):
             canonical_key({"id": "a", "title": "Nome A", "tmdb_id": "123"}),
             canonical_key({"id": "b", "title": "Nome B", "tmdb_id": "123"}),
         )
+
+    def test_dedupe_records_merges_same_id_and_tmdb_without_duplicate_ids(self):
+        records = [
+            {"id": "movie-one", "title": "Filme (2020)", "year": "2020", "tmdb_id": "123",
+             "sources": [{"url": "https://cdn.example.org/a.m3u8"}], "provider_refs": []},
+            {"id": "movie-one", "title": "Filme (2020)", "year": "2020",
+             "sources": [{"url": "https://cdn.example.org/b.m3u8"}], "provider_refs": []},
+            {"id": "movie-two", "title": "Título alternativo", "tmdb_id": "123",
+             "sources": [{"url": "https://cdn.example.org/c.m3u8"}], "provider_refs": []},
+        ]
+        merged = dedupe_records(records)
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(len(merged[0]["sources"]), 3)
+        self.assertEqual(merged[0]["id"], "movie-one")
 
     def test_embed_sources_are_typed_and_prioritized(self):
         urls, refs, skipped = split_sources(
