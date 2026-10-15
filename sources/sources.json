@@ -1,5 +1,17 @@
 {
   "schema_version": 1,
-  "sources": [],
+  "sources": [
+    {
+      "id": "public-brazil-broadcasters",
+      "name": "Emissoras públicas oficiais do Brasil",
+      "category": "channels",
+      "url": "https://raw.githubusercontent.com/mooNXy7/CineHUB-ACERVO/main/sources/m3u/public-brazil.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "priority": 10,
+      "license": "Links de transmissão publicados nos domínios oficiais das emissoras; direitos audiovisuais pertencem aos respectivos titulares.",
+      "notes": "Lista curada pelo CineHUB com TV Brasil, Canal Gov, Canal Educação, Canal Libras e TV Câmara. URLs HTTPS oficiais; disponibilidade de reprodução deve continuar sendo monitorada. A mídia não é hospedada pelo CineHUB."
+    }
+  ],
   "_instructions": "Add only public sources that permit use/redistribution. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json), enabled, priority, license, notes."
 }
