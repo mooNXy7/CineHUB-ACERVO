@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "aliases": {},
+  "group_aliases": {
+    "tv aberta": "TV Aberta",
+    "abertos": "TV Aberta",
+    "esportes": "Esportes",
+    "noticias": "Notícias"
+  },
+  "remove_name_tokens": [],
+  "notes": "Expandir com aliases verificados. Não remover canais apenas por semelhança de nome."
+}
