@@ -300,6 +300,101 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
     return series
 
 
+
+def merge_record(target: dict, incoming: dict) -> dict:
+    """Merge metadata, source candidates and episodic structure without deleting old data."""
+    for field in ("title", "type", "year", "tmdb_id", "poster_url", "subtype"):
+        if not target.get(field) and incoming.get(field):
+            target[field] = incoming[field]
+    if not target.get("genres") and incoming.get("genres"):
+        target["genres"] = list(incoming["genres"])
+    target.setdefault("sources", [])
+    target.setdefault("provider_refs", [])
+    merge_sources(target["sources"], incoming.get("sources", []))
+    merge_provider_refs(target["provider_refs"], incoming.get("provider_refs", []))
+    target["source_candidates_skipped"] = max(
+        int(target.get("source_candidates_skipped", 0)),
+        int(incoming.get("source_candidates_skipped", 0)),
+    )
+    if incoming.get("seasons"):
+        old_seasons = target.get("seasons", [])
+        if isinstance(old_seasons, dict):
+            old_seasons = list(old_seasons.values())
+        season_map = {str(s.get("season")): s for s in old_seasons}
+        for new_season in incoming["seasons"]:
+            season_key = str(new_season.get("season"))
+            season = season_map.get(season_key)
+            if season is None:
+                season = {"season": new_season.get("season"), "episodes": []}
+                old_seasons.append(season)
+                season_map[season_key] = season
+            episode_map = {
+                (int(e.get("episode", 0)), str(e.get("audio", ""))): e
+                for e in season.setdefault("episodes", [])
+            }
+            for new_ep in new_season.get("episodes", []):
+                ep_key = (int(new_ep.get("episode", 0)), str(new_ep.get("audio", "")))
+                ep = episode_map.get(ep_key)
+                if ep is None:
+                    ep = {"episode": ep_key[0], "audio": ep_key[1], "sources": [], "provider_refs": []}
+                    season["episodes"].append(ep)
+                    episode_map[ep_key] = ep
+                merge_sources(ep.setdefault("sources", []), new_ep.get("sources", []))
+                merge_provider_refs(ep.setdefault("provider_refs", []), new_ep.get("provider_refs", []))
+        old_seasons.sort(key=lambda s: int(s.get("season", 0)))
+        for season in old_seasons:
+            season["episodes"].sort(key=lambda e: (int(e.get("episode", 0)), str(e.get("audio", ""))))
+        target["seasons"] = old_seasons
+    return target
+
+
+def load_existing_details(kind: str) -> dict[str, dict]:
+    existing = {}
+    folder = DETAILS / kind
+    if folder.exists():
+        for path in sorted(folder.glob("*.json")):
+            try:
+                records = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            if isinstance(records, list):
+                for item in records:
+                    if isinstance(item, dict) and item.get("id"):
+                        ident = str(item["id"])
+                        if ident in existing:
+                            merge_record(existing[ident], item)
+                        else:
+                            existing[ident] = item
+    previous_index = load_json(VOD_INDEX, {"movies": [], "series": [], "anime": [], "doramas": []})
+    for item in previous_index.get(kind, []):
+        if not isinstance(item, dict) or not item.get("id"):
+            continue
+        ident = str(item["id"])
+        if ident not in existing:
+            existing[ident] = {
+                "id": ident, "title": item.get("title") or ident, "type": item.get("type") or kind,
+                "year": item.get("year"), "tmdb_id": item.get("tmdb_id"),
+                "poster_url": item.get("poster_url"), "genres": item.get("genres") or [],
+                "subtype": item.get("subtype"), "sources": [], "provider_refs": [],
+                "source_candidates_skipped": 0,
+                **({"seasons": []} if kind in {"series", "anime", "doramas"} else {}),
+            }
+    return existing
+
+
+def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
+    old = load_existing_details(kind)
+    for item in incoming:
+        ident = str(item.get("id") or "")
+        if not ident:
+            continue
+        if ident in old:
+            old[ident] = merge_record(old[ident], item)
+        else:
+            old[ident] = item
+    return sorted(old.values(), key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
+
+
 def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     channels = current.get("channels", [])
     by_name = {norm(c.get("name", "")): c for c in channels if c.get("name")}
@@ -378,12 +473,11 @@ def main() -> None:
     movies = parse_movies(reference, fichas, featured_posters, counters, search_movies)
     series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters, search_series)
 
-    # Títulos sem URL direta continuam no índice com identificadores de provedor:
-    # os aplicativos podem resolver esses IDs por adaptadores sem perder o item.
-    movie_list = sorted(movies.values(), key=lambda x: (x["title"].casefold(), x.get("year") or ""))
-    series_list = sorted(series.values(), key=lambda x: (x["title"].casefold(), x.get("year") or ""))
-    anime_list = [x for x in series_list if x.get("subtype") == "anime"]
-    dorama_list = [x for x in series_list if x.get("subtype") == "dorama"]
+    # Títulos sem URL direta continuam no índice, e dados antigos nunca são removidos.
+    movie_list = merge_catalog_records("movies", list(movies.values()))
+    series_list = merge_catalog_records("series", list(series.values()))
+    anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"])
+    dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"])
 
     for kind, items in (("movies", movie_list), ("series", series_list),
                         ("anime", anime_list), ("doramas", dorama_list)):
@@ -394,12 +488,23 @@ def main() -> None:
             write_json(DETAILS / kind / f"{initial}.json", records)
 
     def index_entry(item, kind):
+        episode_sources = sum(
+            len(ep.get("sources", []))
+            for season in item.get("seasons", [])
+            for ep in season.get("episodes", [])
+        )
+        episode_refs = sum(
+            len(ep.get("provider_refs", []))
+            for season in item.get("seasons", [])
+            for ep in season.get("episodes", [])
+        )
         return {
             "id": item["id"], "title": item["title"], "year": item.get("year"),
             "tmdb_id": item.get("tmdb_id"), "poster_url": item.get("poster_url"),
             "genres": item.get("genres", []), "type": item.get("type", kind),
-            "subtype": item.get("subtype"), "source_count": len(item.get("sources", [])),
-            "provider_ref_count": len(item.get("provider_refs", [])),
+            "subtype": item.get("subtype"),
+            "source_count": len(item.get("sources", [])) + episode_sources,
+            "provider_ref_count": len(item.get("provider_refs", [])) + episode_refs,
             "detail_path": f"catalog/vod/details/{kind}/{letter(item['title'])}.json",
         }
 
