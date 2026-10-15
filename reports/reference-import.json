@@ -5,14 +5,14 @@
     "skipped_urls": 320447,
     "sources_added": 769737,
     "provider_refs_added": 646026,
-    "movies": 37264,
-    "series": 11592,
-    "anime": 2728,
-    "doramas": 894,
+    "movies": 37249,
+    "series": 11605,
+    "anime": 2730,
+    "doramas": 896,
     "radios_added": 0,
     "channel_records_total": 2431,
     "radio_records_total": 1026,
-    "fichas_matched": 35424
+    "fichas_matched": 35437
   },
   "notes": [
     "Conteúdo adulto reservado não é importado.",
@@ -20,5 +20,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-15T17:47:47.412720+00:00"
+  "generated_at": "2026-10-15T17:49:59.403054+00:00"
 }
