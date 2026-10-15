@@ -10,6 +10,7 @@ on:
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/validate_catalog.py"
+      - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
