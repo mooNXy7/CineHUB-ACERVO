@@ -400,7 +400,10 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     for line in read_lines(reference / "vod" / "busca.txt") or ():
         fields = line.rstrip("\n").split("\t")
         if len(fields) >= 2 and fields[1] in {"f", "s"}:
-            vod_names.add(norm(fields[0]))
+            title = fields[0].strip()
+            vod_names.add(norm(title))
+            vod_names.add(norm(re.sub(r"\\s*\\((?:19|20)\\d{2}\\)\\s*$", "", title)))
+            vod_names.add(norm(re.sub(r"\\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\\b", "", title, flags=re.I)))
     channels = current.get("channels", [])
     by_name = {norm(c.get("name", "")): c for c in channels if c.get("name")}
     by_id = {c.get("id"): c for c in channels if c.get("id")}
@@ -435,10 +438,21 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                     name, attrs = None, {}
                     continue
                 key = norm(channel_name)
-                if key in vod_names:
+                source_path = urlsplit(line).path.lower() if line.lower().startswith(("http://", "https://")) else ""
+                is_vod_url = bool(re.search(r"/(?:movie|series|vod|film|episode)/", source_path)) or bool(
+                    re.search(r"\\.(?:mp4|mkv|avi|mov)$", source_path)
+                )
+                if key in vod_names or is_vod_url:
                     name, attrs = None, {}
                     continue
                 target = by_name.get(key)
+                source_is_safe = safe_candidate(line)
+                if not source_is_safe:
+                    counters["skipped_channel_urls"] += 1
+                    if target is not None:
+                        target["source_candidates_pending_review"] = int(target.get("source_candidates_pending_review", 0)) + 1
+                    name, attrs = None, {}
+                    continue
                 if target is None:
                     target = {
                         "id": "ch-" + slug(channel_name), "name": channel_name,
@@ -452,12 +466,8 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                     by_id[target["id"]] = target
                     counters["channels_added"] += 1
                 target.setdefault("sources", [])
-                if safe_candidate(line):
-                    added = merge_sources(target["sources"], [{"url": line, "priority": 40, "source_id": SOURCE_ID}])
-                    counters["channel_sources_added"] += added
-                else:
-                    target["source_candidates_pending_review"] = int(target.get("source_candidates_pending_review", 0)) + 1
-                    counters["skipped_channel_urls"] += 1
+                added = merge_sources(target["sources"], [{"url": line, "priority": 40, "source_id": SOURCE_ID}])
+                counters["channel_sources_added"] += added
                 if not target.get("logo_url") and safe_candidate(attrs.get("tvg-logo", "")):
                     target["logo_url"] = attrs["tvg-logo"]
                 if not target.get("epg_id") and attrs.get("tvg-id"):
@@ -519,7 +529,7 @@ def main() -> None:
             "subtype": item.get("subtype"),
             "source_count": len(item.get("sources", [])) + episode_sources,
             "provider_ref_count": len(item.get("provider_refs", [])) + episode_refs,
-            "detail_path": f"catalog/vod/details/{kind}/{letter(item['title'])}.json",
+            "detail_path": f"catalog/vod/details/{ {'movie': 'movies', 'dorama': 'doramas'}.get(kind, kind) }/{letter(item['title'])}.json",
         }
 
     index = {
