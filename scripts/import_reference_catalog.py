@@ -87,6 +87,11 @@ def write_json(path: Path, value: dict | list) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def write_json_compact(path: Path, value: dict | list) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+
+
 def read_lines(path: Path):
     if not path.exists():
         return
@@ -505,13 +510,29 @@ def main() -> None:
     anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"])
     dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"])
 
+    detail_paths = {}
     for kind, items in (("movies", movie_list), ("series", series_list),
                         ("anime", anime_list), ("doramas", dorama_list)):
         groups = defaultdict(list)
         for item in items:
             groups[letter(item["title"])].append(item)
+        chunk_size = {"movies": 100, "series": 60, "anime": 80, "doramas": 80}[kind]
         for initial, records in groups.items():
-            write_json(DETAILS / kind / f"{initial}.json", records)
+            for offset in range(0, len(records), chunk_size):
+                chunk_no = offset // chunk_size
+                chunk = records[offset:offset + chunk_size]
+                relative_path = f"catalog/vod/details/{kind}/{initial}-{chunk_no:03d}.json"
+                write_json_compact(ROOT / relative_path, chunk)
+                for item in chunk:
+                    detail_paths[(kind, item["id"])] = relative_path
+
+    # Os arquivos antigos por letra já foram incorporados antes da gravação dos shards.
+    for kind in ("movies", "series", "anime", "doramas"):
+        folder = DETAILS / kind
+        if folder.exists():
+            for old_path in folder.glob("*.json"):
+                if re.fullmatch(r"[A-Z#]\.json", old_path.name):
+                    old_path.unlink()
 
     def index_entry(item, kind):
         episode_sources = sum(
@@ -525,15 +546,29 @@ def main() -> None:
             for ep in season.get("episodes", [])
         )
         detail_kind = {"movie": "movies", "dorama": "doramas"}.get(kind, kind)
-        return {
-            "id": item["id"], "title": item["title"], "year": item.get("year"),
-            "tmdb_id": item.get("tmdb_id"), "poster_url": item.get("poster_url"),
-            "genres": item.get("genres", []), "type": item.get("type", kind),
-            "subtype": item.get("subtype"),
-            "source_count": len(item.get("sources", [])) + episode_sources,
-            "provider_ref_count": len(item.get("provider_refs", [])) + episode_refs,
-            "detail_path": f"catalog/vod/details/{detail_kind}/{letter(item['title'])}.json",
+        entry = {
+            "id": item["id"],
+            "title": item["title"],
+            "type": item.get("type", kind),
+            "detail_path": detail_paths[(detail_kind, item["id"])],
         }
+        optional = {
+            "year": item.get("year"),
+            "tmdb_id": item.get("tmdb_id"),
+            "poster_url": item.get("poster_url"),
+            "genres": item.get("genres"),
+            "subtype": item.get("subtype"),
+        }
+        for field, value in optional.items():
+            if value not in (None, "", []):
+                entry[field] = value
+        source_count = len(item.get("sources", [])) + episode_sources
+        provider_count = len(item.get("provider_refs", [])) + episode_refs
+        if source_count:
+            entry["source_count"] = source_count
+        if provider_count:
+            entry["provider_ref_count"] = provider_count
+        return entry
 
     index = {
         "schema_version": 1,
@@ -549,7 +584,7 @@ def main() -> None:
         index["generated_at"] = previous_index.get("generated_at")
     else:
         index["generated_at"] = datetime.now(timezone.utc).isoformat()
-    write_json(VOD_INDEX, index)
+    write_json_compact(VOD_INDEX, index)
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
     known_radio = {norm(x.get("name", "")): x for x in radios.get("radios", [])}
