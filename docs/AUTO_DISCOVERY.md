@@ -22,7 +22,8 @@ O CineHUB ACERVO sincroniza diariamente os catálogos de referência de canais, 
 
 ## Consumo pelos aplicativos
 
-- Índice geral: `catalog/vod/index.json`
+- Manifesto leve: `catalog/vod/index.json`
+- Índices por categoria: `catalog/vod/index/{movies,series,anime,doramas}.json`
 - Detalhes de filmes: `catalog/vod/details/movies/{letra}-{bloco}.json`
 - Detalhes de séries: `catalog/vod/details/series/{letra}-{bloco}.json`
 - Animes: `catalog/vod/details/anime/{letra}-{bloco}.json`
