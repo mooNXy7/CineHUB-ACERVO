@@ -7,7 +7,7 @@ import urllib.request
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources/sources.json"
@@ -24,6 +24,11 @@ def safe_https_url(url):
             return False
         if parsed.username is not None or parsed.password is not None:
             return False
+        sensitive_query_keys = {"token", "access_token", "auth", "authorization",
+                                "password", "passwd", "username", "user", "key",
+                                "signature", "sig", "session", "expires"}
+        if any(key.lower() in sensitive_query_keys for key, _ in parse_qsl(parsed.query)):
+            return False
         host = parsed.hostname.rstrip(".").lower()
         if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
             return False
@@ -37,15 +42,21 @@ def safe_https_url(url):
         return False
 
 
+class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, request, file_pointer, code, message, headers, new_url):
+        if not safe_https_url(new_url):
+            raise ValueError("redirecionamento para URL não segura")
+        return super().redirect_request(request, file_pointer, code, message, headers, new_url)
+
+
 def fetch(url):
     if not safe_https_url(url):
         raise ValueError("URL da fonte não passou na validação HTTPS/host")
     request = urllib.request.Request(
         url, headers={"User-Agent": "CineHUB-ACERVO/0.2 (+catalog validator)"}
     )
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
-        if response.geturl() and not safe_https_url(response.geturl()):
-            raise ValueError("redirecionamento para URL não segura")
+    opener = urllib.request.build_opener(SafeRedirectHandler())
+    with opener.open(request, timeout=TIMEOUT) as response:
         body = response.read(MAX_BYTES + 1)
     if len(body) > MAX_BYTES:
         raise ValueError("fonte excede limite de 20 MiB")
