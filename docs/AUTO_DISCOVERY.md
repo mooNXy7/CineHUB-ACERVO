@@ -5,7 +5,7 @@ O CineHUB ACERVO sincroniza diariamente os catálogos de referência de canais, 
 ## Como funciona
 
 1. O GitHub Actions baixa somente os arquivos de catálogo necessários do repositório de referência autorizado; não clona o histórico completo.
-2. O importador lê os índices de busca, fichas, listas de filmes e episódios, destaques, rádios e playlists de canais.
+2. O importador lê os índices de busca, fichas, listas de filmes e episódios, destaques, rádios e playlists de canais, além dos catálogos auxiliares de fontes diretas e embeds.
 3. Os títulos são normalizados e deduplicados por identificador estável/nome normalizado; temporadas e episódios continuam hierarquizados.
 4. Novas fontes e referências de provedores são anexadas sem apagar as anteriores. Assim, uma nova execução pode adicionar alternativas quando o catálogo de origem muda.
 5. O índice VOD fica leve e aponta para arquivos de detalhes separados por categoria e letra.
@@ -16,6 +16,8 @@ O CineHUB ACERVO sincroniza diariamente os catálogos de referência de canais, 
 - URLs públicas sem credenciais explícitas são importadas como candidatas; o processo não faz teste de reprodução para cada título.
 - URLs com usuário/senha, parâmetros de token evidentes, hosts privados ou caminhos que aparentam conter credenciais são omitidas e contabilizadas no relatório.
 - Referências compactas de provedores são preservadas como `provider_refs` para que adaptadores possam resolvê-las sem perder títulos.
+- Cada fonte tem `source_id`, idioma, prioridade e tipo (`direct` ou `embed`). Um embed deve ser aberto pelo adaptador compatível do aplicativo; não deve ser tratado automaticamente como arquivo HLS direto.
+- As fontes de referência com tokens de consulta temporários são omitidas. As fontes seguras de provedores adicionais são anexadas sem substituir as que já funcionam.
 - O catálogo não remove um registro só porque ele desapareceu da rodada mais recente. Remoções exigem auditoria separada.
 - Séries e episódios são mantidos separados de filmes. Anime e dorama são categorias derivadas quando a fonte traz sinais suficientes; títulos não classificados continuam em Séries.
 - O conteúdo reservado/adulto não é importado.
