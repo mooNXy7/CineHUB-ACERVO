@@ -153,12 +153,15 @@ def main():
             failures.append(f'{source.get("id", "?")}: {type(exc).__name__}: {exc}')
 
     if collected:
-        current["channels"], added = merge_channels(
-            current.get("channels", []), list(collected.values())
-        )
-        current["generated_at"] = datetime.now(timezone.utc).isoformat()
-        OUT.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
-        print(f"Fonte(s) processada(s): {len(collected)} canais; {added} fontes anexadas.")
+        previous_channels = current.get("channels", [])
+        merged_channels, added = merge_channels(previous_channels, list(collected.values()))
+        if merged_channels != previous_channels:
+            current["channels"] = merged_channels
+            current["generated_at"] = datetime.now(timezone.utc).isoformat()
+            OUT.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(f"Catálogo alterado: {len(collected)} canais processados; {added} fontes anexadas.")
+        else:
+            print(f"Fonte(s) verificadas: {len(collected)} canais; sem alterações no catálogo.")
     else:
         print("Nenhuma fonte de canal segura válida; catálogo anterior preservado.")
 
@@ -166,8 +169,8 @@ def main():
     report.mkdir(exist_ok=True)
     report_path = report / "last-update.txt"
     if failures:
-        report_path.write_text("\\n".join(failures) + "\\n", encoding="utf-8")
-        print("\\n".join("AVISO: " + item for item in failures))
+        report_path.write_text("\n".join(failures) + "\n", encoding="utf-8")
+        print("\n".join("AVISO: " + item for item in failures))
     elif active and report_path.exists():
         report_path.unlink()
 
