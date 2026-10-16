@@ -61,7 +61,7 @@
       "priority": 25,
       "enabled": true,
       "match_strategy": "normalized_name_with_aliases",
-      "notes": "Feed XMLTV combinado já utilizado pelo pipeline de dados do CineHUB; fallback geral."
+      "notes": "Feed XMLTV combinado utilizado pelo pipeline de dados do CineHUB; fallback geral. HTTP 200 confirmado no pipeline de EPG em 2026-10-16."
     },
     {
       "id": "iptv-epg-br",
