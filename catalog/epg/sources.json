@@ -1,5 +1,78 @@
 {
   "schema_version": 1,
   "generated_at": null,
-  "sources": []
+  "timezone": "America/Sao_Paulo",
+  "policy": {
+    "order": "lower priority number wins; explicit channel mappings outrank generic XMLTV name matching",
+    "window_hours": {
+      "past": 6,
+      "future": 72
+    },
+    "fallback": "preserve last successful channel index while a source is unavailable",
+    "redistribution": "publish source URLs and compact channel metadata; do not mirror full upstream XMLTV payloads"
+  },
+  "sources": [
+    {
+      "id": "pluto-br-xmltv",
+      "name": "Pluto TV Brasil",
+      "type": "xmltv",
+      "format": "xmltv",
+      "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml",
+      "priority": 5,
+      "enabled": true,
+      "match_strategy": "pluto_id",
+      "coverage": [
+        "Pluto TV"
+      ],
+      "notes": "Only for channels whose stream URL or logo carries a Pluto channel ID."
+    },
+    {
+      "id": "meuguia-br",
+      "name": "Meu Guia Brasil",
+      "type": "html_schedule",
+      "format": "html",
+      "url_template": "https://meuguia.tv/programacao/canal/{code}",
+      "priority": 10,
+      "enabled": true,
+      "match_strategy": "explicit_code",
+      "mapping_file": "catalog/epg/channel-map.json",
+      "probe_url": "https://meuguia.tv/programacao/canal/HBO",
+      "notes": "Primary schedule for explicitly mapped channels."
+    },
+    {
+      "id": "guia-de-tv-br",
+      "name": "Guia de TV Brasil",
+      "type": "html_schedule",
+      "format": "html",
+      "url_template": "https://www.guiadetv.com/canal/{slug}",
+      "priority": 20,
+      "enabled": true,
+      "match_strategy": "explicit_slug",
+      "mapping_file": "catalog/epg/channel-map.json",
+      "probe_url": "https://www.guiadetv.com/canal/sony-movies",
+      "notes": "Fallback for explicitly mapped channels missing from the primary HTML schedule."
+    },
+    {
+      "id": "iptv-epg-br",
+      "name": "IPTV EPG Brasil",
+      "type": "xmltv",
+      "format": "xmltv",
+      "url": "https://iptv-epg.org/files/epg-br.xml",
+      "priority": 30,
+      "enabled": true,
+      "match_strategy": "normalized_name_with_aliases",
+      "notes": "General XMLTV fallback and metadata enrichment; explicit mappings take precedence."
+    },
+    {
+      "id": "open-epg-br",
+      "name": "Open EPG Brasil",
+      "type": "xmltv",
+      "format": "xmltv",
+      "url": "https://www.open-epg.com/files/brazil3.xml",
+      "priority": 40,
+      "enabled": true,
+      "match_strategy": "normalized_name_with_aliases",
+      "notes": "Secondary XMLTV fallback and metadata enrichment."
+    }
+  ]
 }

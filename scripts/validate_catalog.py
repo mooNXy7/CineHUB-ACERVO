@@ -9,6 +9,8 @@ FILES = {
     "radios": ROOT / "catalog/radios/radios.json",
     "vod": ROOT / "catalog/vod/index.json",
     "sources": ROOT / "sources/sources.json",
+    "epg_sources": ROOT / "catalog/epg/sources.json",
+    "epg_map": ROOT / "catalog/epg/channel-map.json",
 }
 
 
@@ -30,13 +32,27 @@ def main():
         if not isinstance(data, dict) or data.get("schema_version") != 1:
             errors.append(f"{path.relative_to(ROOT)}: schema_version deve ser 1")
             continue
-        key = {"channels": "channels", "radios": "radios", "vod": None, "sources": "sources"}[name]
+        key = {"channels": "channels", "radios": "radios", "vod": None, "sources": "sources", "epg_sources": "sources", "epg_map": None}[name]
         if key and not isinstance(data.get(key), list):
             errors.append(f"{path.relative_to(ROOT)}: '{key}' deve ser uma lista")
         if name == "vod":
             categories = data.get("categories")
             if categories is not None and not isinstance(categories, dict):
                 errors.append(f"{path.relative_to(ROOT)}: 'categories' deve ser um objeto")
+
+    epg_sources = loaded.get("epg_sources", {})
+    if isinstance(epg_sources, dict):
+        source_ids = [x.get("id") for x in epg_sources.get("sources", []) if isinstance(x, dict)]
+        if len(source_ids) != len(set(source_ids)):
+            errors.append("catalog/epg/sources.json: IDs de fonte duplicados")
+        priorities = [x.get("priority") for x in epg_sources.get("sources", []) if isinstance(x, dict)]
+        if priorities != sorted(priorities):
+            errors.append("catalog/epg/sources.json: fontes devem estar ordenadas por prioridade")
+    epg_map = loaded.get("epg_map", {})
+    if isinstance(epg_map, dict):
+        for key in ("meuguia_codes", "guiadetv_slugs", "xmltv_aliases"):
+            if not isinstance(epg_map.get(key), dict):
+                errors.append(f"catalog/epg/channel-map.json: '{key}' deve ser um objeto")
 
     vod = loaded.get("vod", {})
     if isinstance(vod, dict):
@@ -94,7 +110,7 @@ def main():
     if errors:
         print("\n".join("ERROR: " + error for error in errors))
         raise SystemExit(1)
-    print(f"OK: {len(FILES)} catálogos principais e shards VOD válidos")
+    print(f"OK: {len(FILES)} catálogos principais, fontes EPG e shards VOD válidos")
 
 
 if __name__ == "__main__":

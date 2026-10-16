@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "timezone": "America/Sao_Paulo",
+  "meuguia_codes": {
+    "A&E": "MDO",
+    "Animal Planet": "APL",
+    "AXN": "AXN",
+    "Band": "BAN",
+    "Band Sports": "BSP",
+    "Cartoon Network": "CAR",
+    "Canal Brasil": "CBR",
+    "Canal Off": "OFF",
+    "Cinemax": "MNX",
+    "Combate": "135",
+    "Discovery Channel": "DIS",
+    "Discovery Home & Health": "HEA",
+    "Discovery Kids": "DIK",
+    "Discovery Science": "DSC",
+    "Discovery Turbo": "DTU",
+    "Discovery World": "DIW",
+    "E!": "EET",
+    "ESPN": "ESP",
+    "ESPN 2": "ES2",
+    "ESPN 3": "ES3",
+    "ESPN 4": "ES4",
+    "ESPN 5": "ES5",
+    "GNT": "GNT",
+    "Globo RJ": "GRD",
+    "Globo SP": "GRD",
+    "GloboNews": "GLN",
+    "Gloob": "GOB",
+    "HBO": "HBO",
+    "HBO Family": "HFA",
+    "HBO Plus": "HPL",
+    "HBO2": "HB2",
+    "History": "HIS",
+    "Megapix": "MPX",
+    "Multishow": "MSH",
+    "Premiere Clubes": "121",
+    "Record": "REC",
+    "SBT": "SBT",
+    "Sony Channel": "SET",
+    "Space": "SPA",
+    "SporTV": "SPO",
+    "SporTV 2": "SP2",
+    "SporTV 3": "SP3",
+    "Studio Universal": "HAL",
+    "Telecine Action": "TC2",
+    "Telecine Pipoca": "TC4",
+    "Telecine Premium": "TC1",
+    "TNT": "TNT",
+    "TNT Séries": "TBS",
+    "Universal TV": "USA",
+    "Viva": "VIV",
+    "Warner": "WBT",
+    "Arte 1": "BQ5",
+    "TLC": "TRV"
+  },
+  "guiadetv_slugs": {
+    "SONY Movies": "sony-movies",
+    "SBT News": "sbt-news",
+    "Terra Viva": "terra-viva",
+    "Box Kids TV": "box-kids",
+    "X Sports": "xsports",
+    "N SPORTS": "nsports"
+  },
+  "xmltv_aliases": {
+    "Adult Swim": [
+      "truTV",
+      "Adult Swim HD BR"
+    ],
+    "History": [
+      "History Channel"
+    ],
+    "Sony Channel": [
+      "Sony"
+    ],
+    "SporTV 2": [
+      "SporTV2"
+    ],
+    "SporTV 3": [
+      "SporTV3"
+    ],
+    "GNT": [
+      "GNT HD"
+    ],
+    "Band": [
+      "Band SP"
+    ],
+    "Warner": [
+      "Warner Channel"
+    ],
+    "SBT": [
+      "SBT SP"
+    ],
+    "Canal Brasil": [
+      "Canal Brasil"
+    ],
+    "Canal Off": [
+      "Canal Off"
+    ],
+    "Discovery ID": [
+      "Investigação Discovery"
+    ],
+    "AMC": [
+      "AMC Brasil"
+    ],
+    "CNN Brasil Money": [
+      "CNN Brasil Money HD BR"
+    ],
+    "Universal Premiere": [
+      "Universal Premiere HD BR"
+    ],
+    "Universal Reality": [
+      "Universal Reality BR"
+    ],
+    "TNT Novelas": [
+      "TNT Novelas BR"
+    ],
+    "Trace Brazuca": [
+      "Trace Brasil HD BR"
+    ],
+    "Record SP": [
+      "RecordTV SP"
+    ]
+  },
+  "pluto_id_pattern": "(?:plu-|images\\\\.pluto\\\\.tv/channels/)([0-9a-f]{24})"
+}

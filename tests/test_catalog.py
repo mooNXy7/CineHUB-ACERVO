@@ -1,3 +1,4 @@
+import datetime as dt
 import json
 import sys
 import unittest
@@ -7,11 +8,34 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
 from import_reference_catalog import canonical_key, dedupe_records, merge_record, parse_search_index, safe_candidate, split_sources
+from update_epg import normalise, parse_xmltv, parse_xmltv_date
 
 
 class CatalogShapeTests(unittest.TestCase):
     def load(self, path):
         return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
+    def test_epg_registry_shape_and_priorities(self):
+        data = self.load("catalog/epg/sources.json")
+        self.assertEqual(data["schema_version"], 1)
+        self.assertGreaterEqual(len(data["sources"]), 5)
+        priorities = [x["priority"] for x in data["sources"]]
+        self.assertEqual(priorities, sorted(priorities))
+        self.assertTrue(all(x.get("url") or x.get("url_template") for x in data["sources"]))
+
+    def test_epg_normalization_and_xmltv_dates(self):
+        self.assertEqual(normalise("TV Câmara HD BR"), "tv camara")
+        parsed = parse_xmltv_date("20261015193000 -0300")
+        self.assertIsNotNone(parsed)
+        self.assertEqual(parsed.utcoffset().total_seconds(), -10800)
+
+    def test_xmltv_indexer_parses_channels_and_window(self):
+        xml = b'''<?xml version="1.0"?><tv><channel id="canal.1"><display-name>TV Camara</display-name></channel><programme start="20261015193000 -0300" stop="20261015200000 -0300" channel="canal.1"><title>Jornal</title></programme></tv>'''
+        now = dt.datetime(2026, 10, 15, 22, 0, tzinfo=dt.timezone.utc)
+        channels, total, window = parse_xmltv(xml, now=now)
+        self.assertEqual(channels[0]["id"], "canal.1")
+        self.assertEqual(total, 1)
+        self.assertEqual(window, 1)
 
     def test_channels_shape(self):
         data = self.load("catalog/channels/channels.json")

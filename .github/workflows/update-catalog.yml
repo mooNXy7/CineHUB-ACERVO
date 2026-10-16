@@ -6,10 +6,12 @@ on:
     paths:
       - "sources/sources.json"
       - "sources/m3u/**"
+      - "catalog/epg/**"
       - "scripts/update_catalog.py"
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/validate_catalog.py"
+      - "scripts/update_epg.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
@@ -57,6 +59,8 @@ jobs:
           fi
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Refresh EPG health and channel mappings
+        run: python scripts/update_epg.py
       - name: Normalize and validate
         run: |
           python scripts/normalize_catalog.py
