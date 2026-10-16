@@ -34,6 +34,7 @@ class CatalogShapeTests(unittest.TestCase):
         now = dt.datetime(2026, 10, 15, 22, 0, tzinfo=dt.timezone.utc)
         channels, total, window = parse_xmltv(xml, now=now)
         self.assertEqual(channels[0]["id"], "canal.1")
+        self.assertEqual(channels[0]["display_names"], ["TV Camara"])
         self.assertEqual(total, 1)
         self.assertEqual(window, 1)
 

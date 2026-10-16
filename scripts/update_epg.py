@@ -105,8 +105,12 @@ def parse_xmltv(payload, now=None):
             if begin and stop and stop > start_window and begin < end_window:
                 window_count += 1
         if len(stack) > 1:
-            stack[-2].remove(elem)
-        elem.clear()
+            parent = stack[-2]
+            # Keep display-name children until their enclosing channel closes.
+            if not (tag == "display-name" and parent.tag.rsplit("}", 1)[-1] == "channel"):
+                parent.remove(elem)
+        if tag != "display-name":
+            elem.clear()
         stack.pop()
     if not channels:
         raise ValueError("valid XML parsed, but no XMLTV channels were found")
