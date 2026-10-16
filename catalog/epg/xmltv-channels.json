@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T01:13:57Z",
+  "generated_at": "2026-10-16T01:25:59Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-16T01:13:57Z",
+      "fetched_at": "2026-10-16T01:25:59Z",
       "channel_count": 179,
       "channels": [
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-16T01:13:57Z",
+      "fetched_at": "2026-10-16T01:25:59Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-16T01:13:57Z",
+      "fetched_at": "2026-10-16T01:25:59Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3143,6 +3143,2971 @@
           "id": "TVACritica.br",
           "display_names": [
             "BR - TV A Crítica"
+          ]
+        }
+      ]
+    },
+    "brazil-tv-epg": {
+      "source_id": "brazil-tv-epg",
+      "fetched_at": "2026-10-16T01:25:59Z",
+      "channel_count": 493,
+      "channels": [
+        {
+          "id": "A&E",
+          "display_names": [
+            "A&E"
+          ]
+        },
+        {
+          "id": "AMC",
+          "display_names": [
+            "AMC"
+          ]
+        },
+        {
+          "id": "AXN",
+          "display_names": [
+            "AXN"
+          ]
+        },
+        {
+          "id": "Agro+",
+          "display_names": [
+            "Agro+"
+          ]
+        },
+        {
+          "id": "Animal Planet",
+          "display_names": [
+            "Animal Planet"
+          ]
+        },
+        {
+          "id": "Arte 1",
+          "display_names": [
+            "Arte 1"
+          ]
+        },
+        {
+          "id": "BBC World",
+          "display_names": [
+            "BBC World"
+          ]
+        },
+        {
+          "id": "Band",
+          "display_names": [
+            "Band"
+          ]
+        },
+        {
+          "id": "Band RJ",
+          "display_names": [
+            "Band RJ"
+          ]
+        },
+        {
+          "id": "Bandnews",
+          "display_names": [
+            "Bandnews"
+          ]
+        },
+        {
+          "id": "Bandsports",
+          "display_names": [
+            "Bandsports"
+          ]
+        },
+        {
+          "id": "Bis",
+          "display_names": [
+            "Bis"
+          ]
+        },
+        {
+          "id": "Bloomberg",
+          "display_names": [
+            "Bloomberg"
+          ]
+        },
+        {
+          "id": "Box Kids",
+          "display_names": [
+            "Box Kids"
+          ]
+        },
+        {
+          "id": "CNN Brasil",
+          "display_names": [
+            "CNN Brasil"
+          ]
+        },
+        {
+          "id": "Canal Educação",
+          "display_names": [
+            "Canal Educação"
+          ]
+        },
+        {
+          "id": "Canal Rural",
+          "display_names": [
+            "Canal Rural"
+          ]
+        },
+        {
+          "id": "Canal Uol",
+          "display_names": [
+            "Canal Uol"
+          ]
+        },
+        {
+          "id": "Canção Nova",
+          "display_names": [
+            "Canção Nova"
+          ]
+        },
+        {
+          "id": "Cartoon Network",
+          "display_names": [
+            "Cartoon Network"
+          ]
+        },
+        {
+          "id": "Cartoonito",
+          "display_names": [
+            "Cartoonito"
+          ]
+        },
+        {
+          "id": "Cinemax",
+          "display_names": [
+            "Cinemax"
+          ]
+        },
+        {
+          "id": "Combate",
+          "display_names": [
+            "Combate"
+          ]
+        },
+        {
+          "id": "Curta!",
+          "display_names": [
+            "Curta!"
+          ]
+        },
+        {
+          "id": "Discovery Channel",
+          "display_names": [
+            "Discovery Channel"
+          ]
+        },
+        {
+          "id": "Discovery Home & Health",
+          "display_names": [
+            "Discovery Home & Health"
+          ]
+        },
+        {
+          "id": "Discovery Kids",
+          "display_names": [
+            "Discovery Kids"
+          ]
+        },
+        {
+          "id": "Discovery Science",
+          "display_names": [
+            "Discovery Science"
+          ]
+        },
+        {
+          "id": "Discovery Theater",
+          "display_names": [
+            "Discovery Theater"
+          ]
+        },
+        {
+          "id": "Discovery Turbo",
+          "display_names": [
+            "Discovery Turbo"
+          ]
+        },
+        {
+          "id": "Discovery World",
+          "display_names": [
+            "Discovery World"
+          ]
+        },
+        {
+          "id": "E!",
+          "display_names": [
+            "E!"
+          ]
+        },
+        {
+          "id": "ESPN",
+          "display_names": [
+            "ESPN"
+          ]
+        },
+        {
+          "id": "ESPN 2",
+          "display_names": [
+            "ESPN 2"
+          ]
+        },
+        {
+          "id": "ESPN 3",
+          "display_names": [
+            "ESPN 3"
+          ]
+        },
+        {
+          "id": "ESPN 4",
+          "display_names": [
+            "ESPN 4"
+          ]
+        },
+        {
+          "id": "ESPN 5",
+          "display_names": [
+            "ESPN 5"
+          ]
+        },
+        {
+          "id": "ESPN 6",
+          "display_names": [
+            "ESPN 6"
+          ]
+        },
+        {
+          "id": "Film & Arts",
+          "display_names": [
+            "Film & Arts"
+          ]
+        },
+        {
+          "id": "Food Network",
+          "display_names": [
+            "Food Network"
+          ]
+        },
+        {
+          "id": "Fox News",
+          "display_names": [
+            "Fox News"
+          ]
+        },
+        {
+          "id": "Futura",
+          "display_names": [
+            "Futura"
+          ]
+        },
+        {
+          "id": "GE TV",
+          "display_names": [
+            "GE TV"
+          ]
+        },
+        {
+          "id": "GNT",
+          "display_names": [
+            "GNT"
+          ]
+        },
+        {
+          "id": "Globo News",
+          "display_names": [
+            "Globo News"
+          ]
+        },
+        {
+          "id": "Globo Rio de Janeiro",
+          "display_names": [
+            "Globo Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "Globo SP",
+          "display_names": [
+            "Globo SP"
+          ]
+        },
+        {
+          "id": "Gloob",
+          "display_names": [
+            "Gloob"
+          ]
+        },
+        {
+          "id": "Gloobinho",
+          "display_names": [
+            "Gloobinho"
+          ]
+        },
+        {
+          "id": "HBO",
+          "display_names": [
+            "HBO"
+          ]
+        },
+        {
+          "id": "HBO 2",
+          "display_names": [
+            "HBO 2"
+          ]
+        },
+        {
+          "id": "HBO Family",
+          "display_names": [
+            "HBO Family"
+          ]
+        },
+        {
+          "id": "HBO Mundi",
+          "display_names": [
+            "HBO Mundi"
+          ]
+        },
+        {
+          "id": "HBO Plus",
+          "display_names": [
+            "HBO Plus"
+          ]
+        },
+        {
+          "id": "HBO Pop",
+          "display_names": [
+            "HBO Pop"
+          ]
+        },
+        {
+          "id": "HBO Signature",
+          "display_names": [
+            "HBO Signature"
+          ]
+        },
+        {
+          "id": "HBO Xtreme",
+          "display_names": [
+            "HBO Xtreme"
+          ]
+        },
+        {
+          "id": "HGTV",
+          "display_names": [
+            "HGTV"
+          ]
+        },
+        {
+          "id": "History",
+          "display_names": [
+            "History"
+          ]
+        },
+        {
+          "id": "History 2",
+          "display_names": [
+            "History 2"
+          ]
+        },
+        {
+          "id": "Discovery Investigação",
+          "display_names": [
+            "Discovery Investigação"
+          ]
+        },
+        {
+          "id": "Jovem Pan News",
+          "display_names": [
+            "Jovem Pan News"
+          ]
+        },
+        {
+          "id": "Lifetime",
+          "display_names": [
+            "Lifetime"
+          ]
+        },
+        {
+          "id": "Megapix",
+          "display_names": [
+            "Megapix"
+          ]
+        },
+        {
+          "id": "Multishow",
+          "display_names": [
+            "Multishow"
+          ]
+        },
+        {
+          "id": "Music Box Brasil",
+          "display_names": [
+            "Music Box Brasil"
+          ]
+        },
+        {
+          "id": "Nsports",
+          "display_names": [
+            "Nsports"
+          ]
+        },
+        {
+          "id": "Off",
+          "display_names": [
+            "Off"
+          ]
+        },
+        {
+          "id": "Premiere 2",
+          "display_names": [
+            "Premiere 2"
+          ]
+        },
+        {
+          "id": "Premiere 3",
+          "display_names": [
+            "Premiere 3"
+          ]
+        },
+        {
+          "id": "Premiere 4",
+          "display_names": [
+            "Premiere 4"
+          ]
+        },
+        {
+          "id": "Premiere 5",
+          "display_names": [
+            "Premiere 5"
+          ]
+        },
+        {
+          "id": "Premiere 6",
+          "display_names": [
+            "Premiere 6"
+          ]
+        },
+        {
+          "id": "Premiere 7",
+          "display_names": [
+            "Premiere 7"
+          ]
+        },
+        {
+          "id": "Premiere",
+          "display_names": [
+            "Premiere"
+          ]
+        },
+        {
+          "id": "Prime Box Brazil",
+          "display_names": [
+            "Prime Box Brazil"
+          ]
+        },
+        {
+          "id": "Record News",
+          "display_names": [
+            "Record News"
+          ]
+        },
+        {
+          "id": "Record TV",
+          "display_names": [
+            "Record TV"
+          ]
+        },
+        {
+          "id": "Rede Brasil",
+          "display_names": [
+            "Rede Brasil"
+          ]
+        },
+        {
+          "id": "Rede Gospel",
+          "display_names": [
+            "Rede Gospel"
+          ]
+        },
+        {
+          "id": "Rede TV",
+          "display_names": [
+            "Rede TV"
+          ]
+        },
+        {
+          "id": "Rede Vida",
+          "display_names": [
+            "Rede Vida"
+          ]
+        },
+        {
+          "id": "SBT",
+          "display_names": [
+            "SBT"
+          ]
+        },
+        {
+          "id": "SBT News",
+          "display_names": [
+            "SBT News"
+          ]
+        },
+        {
+          "id": "SBT Rio de Janeiro",
+          "display_names": [
+            "SBT Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "SONY Movies",
+          "display_names": [
+            "SONY Movies"
+          ]
+        },
+        {
+          "id": "Sony Channel",
+          "display_names": [
+            "Sony Channel"
+          ]
+        },
+        {
+          "id": "Space",
+          "display_names": [
+            "Space"
+          ]
+        },
+        {
+          "id": "SporTV",
+          "display_names": [
+            "SporTV"
+          ]
+        },
+        {
+          "id": "SporTV 2",
+          "display_names": [
+            "SporTV 2"
+          ]
+        },
+        {
+          "id": "SporTV 3",
+          "display_names": [
+            "SporTV 3"
+          ]
+        },
+        {
+          "id": "SportyNet",
+          "display_names": [
+            "SportyNet"
+          ]
+        },
+        {
+          "id": "Studio Universal",
+          "display_names": [
+            "Studio Universal"
+          ]
+        },
+        {
+          "id": "USA",
+          "display_names": [
+            "USA"
+          ]
+        },
+        {
+          "id": "TCM",
+          "display_names": [
+            "TCM"
+          ]
+        },
+        {
+          "id": "TLC",
+          "display_names": [
+            "TLC"
+          ]
+        },
+        {
+          "id": "TNT",
+          "display_names": [
+            "TNT"
+          ]
+        },
+        {
+          "id": "TNT Novelas",
+          "display_names": [
+            "TNT Novelas"
+          ]
+        },
+        {
+          "id": "TNT Séries",
+          "display_names": [
+            "TNT Séries"
+          ]
+        },
+        {
+          "id": "TV Aparecida",
+          "display_names": [
+            "TV Aparecida"
+          ]
+        },
+        {
+          "id": "TV Brasil",
+          "display_names": [
+            "TV Brasil"
+          ]
+        },
+        {
+          "id": "TV Cultura",
+          "display_names": [
+            "TV Cultura"
+          ]
+        },
+        {
+          "id": "TV Câmara",
+          "display_names": [
+            "TV Câmara"
+          ]
+        },
+        {
+          "id": "TV Rá Tim Bum",
+          "display_names": [
+            "TV Rá Tim Bum"
+          ]
+        },
+        {
+          "id": "TV Senado",
+          "display_names": [
+            "TV Senado"
+          ]
+        },
+        {
+          "id": "Telecine Action",
+          "display_names": [
+            "Telecine Action"
+          ]
+        },
+        {
+          "id": "Telecine Cult",
+          "display_names": [
+            "Telecine Cult"
+          ]
+        },
+        {
+          "id": "Telecine Fun",
+          "display_names": [
+            "Telecine Fun"
+          ]
+        },
+        {
+          "id": "Telecine Pipoca",
+          "display_names": [
+            "Telecine Pipoca"
+          ]
+        },
+        {
+          "id": "Telecine Premium",
+          "display_names": [
+            "Telecine Premium"
+          ]
+        },
+        {
+          "id": "Telecine Touch",
+          "display_names": [
+            "Telecine Touch"
+          ]
+        },
+        {
+          "id": "Terra Viva",
+          "display_names": [
+            "Terra Viva"
+          ]
+        },
+        {
+          "id": "Tooncast",
+          "display_names": [
+            "Tooncast"
+          ]
+        },
+        {
+          "id": "Travel Box Brasil",
+          "display_names": [
+            "Travel Box Brasil"
+          ]
+        },
+        {
+          "id": "Tv Gazeta",
+          "display_names": [
+            "Tv Gazeta"
+          ]
+        },
+        {
+          "id": "Universal TV",
+          "display_names": [
+            "Universal TV"
+          ]
+        },
+        {
+          "id": "Globoplay Novelas",
+          "display_names": [
+            "Globoplay Novelas"
+          ]
+        },
+        {
+          "id": "Warner Channel",
+          "display_names": [
+            "Warner Channel"
+          ]
+        },
+        {
+          "id": "Woohoo",
+          "display_names": [
+            "Woohoo"
+          ]
+        },
+        {
+          "id": "Xsports",
+          "display_names": [
+            "Xsports"
+          ]
+        },
+        {
+          "id": "truTV",
+          "display_names": [
+            "truTV"
+          ]
+        },
+        {
+          "id": "BBC World News",
+          "display_names": [
+            "BBC World News"
+          ]
+        },
+        {
+          "id": "Baby TV",
+          "display_names": [
+            "Baby TV"
+          ]
+        },
+        {
+          "id": "CNN International",
+          "display_names": [
+            "CNN International"
+          ]
+        },
+        {
+          "id": "Canal 21",
+          "display_names": [
+            "Canal 21"
+          ]
+        },
+        {
+          "id": "Canal Brasil",
+          "display_names": [
+            "Canal Brasil"
+          ]
+        },
+        {
+          "id": "Canal do Boi",
+          "display_names": [
+            "Canal do Boi"
+          ]
+        },
+        {
+          "id": "Deutsche Welle",
+          "display_names": [
+            "Deutsche Welle"
+          ]
+        },
+        {
+          "id": "Eurochannel",
+          "display_names": [
+            "Eurochannel"
+          ]
+        },
+        {
+          "id": "Globo",
+          "display_names": [
+            "Globo"
+          ]
+        },
+        {
+          "id": "RAI International",
+          "display_names": [
+            "RAI International"
+          ]
+        },
+        {
+          "id": "Rede Boa Vontade",
+          "display_names": [
+            "Rede Boa Vontade"
+          ]
+        },
+        {
+          "id": "SIC International",
+          "display_names": [
+            "SIC International"
+          ]
+        },
+        {
+          "id": "TBS",
+          "display_names": [
+            "TBS"
+          ]
+        },
+        {
+          "id": "TV Aparecida (aberta)",
+          "display_names": [
+            "TV Aparecida (aberta)"
+          ]
+        },
+        {
+          "id": "TV Escola",
+          "display_names": [
+            "TV Escola"
+          ]
+        },
+        {
+          "id": "TV Espanha",
+          "display_names": [
+            "TV Espanha"
+          ]
+        },
+        {
+          "id": "TV Justiça",
+          "display_names": [
+            "TV Justiça"
+          ]
+        },
+        {
+          "id": "TV5 Monde",
+          "display_names": [
+            "TV5 Monde"
+          ]
+        },
+        {
+          "id": "Adult Swim",
+          "display_names": [
+            "Adult Swim"
+          ]
+        },
+        {
+          "id": "BM&C News",
+          "display_names": [
+            "BM&C News"
+          ]
+        },
+        {
+          "id": "CNN",
+          "display_names": [
+            "CNN"
+          ]
+        },
+        {
+          "id": "CNN Brasil Money",
+          "display_names": [
+            "CNN Brasil Money"
+          ]
+        },
+        {
+          "id": "DreamWorks",
+          "display_names": [
+            "DreamWorks"
+          ]
+        },
+        {
+          "id": "ZooMoo",
+          "display_names": [
+            "ZooMoo"
+          ]
+        },
+        {
+          "id": "FX",
+          "display_names": [
+            "FX"
+          ]
+        },
+        {
+          "id": "Fashion TV",
+          "display_names": [
+            "Fashion TV"
+          ]
+        },
+        {
+          "id": "Fish TV",
+          "display_names": [
+            "Fish TV"
+          ]
+        },
+        {
+          "id": "LMC+",
+          "display_names": [
+            "LMC+"
+          ]
+        },
+        {
+          "id": "Mezzo",
+          "display_names": [
+            "Mezzo"
+          ]
+        },
+        {
+          "id": "Modo Viagem",
+          "display_names": [
+            "Modo Viagem"
+          ]
+        },
+        {
+          "id": "Paramount+",
+          "display_names": [
+            "Paramount+"
+          ]
+        },
+        {
+          "id": "Paramount+ 2",
+          "display_names": [
+            "Paramount+ 2"
+          ]
+        },
+        {
+          "id": "Paramount+ 3",
+          "display_names": [
+            "Paramount+ 3"
+          ]
+        },
+        {
+          "id": "Paramount+ 4",
+          "display_names": [
+            "Paramount+ 4"
+          ]
+        },
+        {
+          "id": "Premiere 24hs",
+          "display_names": [
+            "Premiere 24hs"
+          ]
+        },
+        {
+          "id": "Sabor & Arte",
+          "display_names": [
+            "Sabor & Arte"
+          ]
+        },
+        {
+          "id": "SportyNet + 1",
+          "display_names": [
+            "SportyNet + 1"
+          ]
+        },
+        {
+          "id": "SportyNet + 2",
+          "display_names": [
+            "SportyNet + 2"
+          ]
+        },
+        {
+          "id": "SportyNet + 3",
+          "display_names": [
+            "SportyNet + 3"
+          ]
+        },
+        {
+          "id": "Times Brasil | Licenciado Exclusivo CNBC",
+          "display_names": [
+            "Times Brasil | Licenciado Exclusivo CNBC"
+          ]
+        },
+        {
+          "id": "Trace Brasil",
+          "display_names": [
+            "Trace Brasil"
+          ]
+        },
+        {
+          "id": "Trip Brasil Channel",
+          "display_names": [
+            "Trip Brasil Channel"
+          ]
+        },
+        {
+          "id": "Universal Premiere",
+          "display_names": [
+            "Universal Premiere"
+          ]
+        },
+        {
+          "id": "Universal Reality",
+          "display_names": [
+            "Universal Reality"
+          ]
+        },
+        {
+          "id": "Yeeaah TV",
+          "display_names": [
+            "Yeeaah TV"
+          ]
+        },
+        {
+          "id": "Globosat",
+          "display_names": [
+            "Globosat"
+          ]
+        },
+        {
+          "id": "Amazon Sat",
+          "display_names": [
+            "Amazon Sat"
+          ]
+        },
+        {
+          "id": "Assembleia Legislativa Ceará HD",
+          "display_names": [
+            "Assembleia Legislativa Ceará HD"
+          ]
+        },
+        {
+          "id": "BBC News",
+          "display_names": [
+            "BBC News"
+          ]
+        },
+        {
+          "id": "BH News TV",
+          "display_names": [
+            "BH News TV"
+          ]
+        },
+        {
+          "id": "Band Amazonas",
+          "display_names": [
+            "Band Amazonas"
+          ]
+        },
+        {
+          "id": "Band BH HD",
+          "display_names": [
+            "Band BH HD"
+          ]
+        },
+        {
+          "id": "Band Bahia",
+          "display_names": [
+            "Band Bahia"
+          ]
+        },
+        {
+          "id": "Band Belém",
+          "display_names": [
+            "Band Belém"
+          ]
+        },
+        {
+          "id": "Band Brasília",
+          "display_names": [
+            "Band Brasília"
+          ]
+        },
+        {
+          "id": "Band Curitiba",
+          "display_names": [
+            "Band Curitiba"
+          ]
+        },
+        {
+          "id": "Band Maceió",
+          "display_names": [
+            "Band Maceió"
+          ]
+        },
+        {
+          "id": "Band Mato Grosso",
+          "display_names": [
+            "Band Mato Grosso"
+          ]
+        },
+        {
+          "id": "Band Minas",
+          "display_names": [
+            "Band Minas"
+          ]
+        },
+        {
+          "id": "Band Natal HD",
+          "display_names": [
+            "Band Natal HD"
+          ]
+        },
+        {
+          "id": "Band Piauí HD",
+          "display_names": [
+            "Band Piauí HD"
+          ]
+        },
+        {
+          "id": "Band Porto Alegre",
+          "display_names": [
+            "Band Porto Alegre"
+          ]
+        },
+        {
+          "id": "Band Rio",
+          "display_names": [
+            "Band Rio"
+          ]
+        },
+        {
+          "id": "Band Rio Grande do Sul HD",
+          "display_names": [
+            "Band Rio Grande do Sul HD"
+          ]
+        },
+        {
+          "id": "Band Roraima HD",
+          "display_names": [
+            "Band Roraima HD"
+          ]
+        },
+        {
+          "id": "Band São Luís - TV Maranhão",
+          "display_names": [
+            "Band São Luís - TV Maranhão"
+          ]
+        },
+        {
+          "id": "Band São Paulo",
+          "display_names": [
+            "Band São Paulo"
+          ]
+        },
+        {
+          "id": "Band TV Goiânia",
+          "display_names": [
+            "Band TV Goiânia"
+          ]
+        },
+        {
+          "id": "Boa Vontade TV",
+          "display_names": [
+            "Boa Vontade TV"
+          ]
+        },
+        {
+          "id": "Boomerang HD",
+          "display_names": [
+            "Boomerang HD"
+          ]
+        },
+        {
+          "id": "CGTN",
+          "display_names": [
+            "CGTN"
+          ]
+        },
+        {
+          "id": "CNN en Español HD",
+          "display_names": [
+            "CNN en Español HD"
+          ]
+        },
+        {
+          "id": "CNT",
+          "display_names": [
+            "CNT"
+          ]
+        },
+        {
+          "id": "CNT Bahía",
+          "display_names": [
+            "CNT Bahía"
+          ]
+        },
+        {
+          "id": "Canal Agromix",
+          "display_names": [
+            "Canal Agromix"
+          ]
+        },
+        {
+          "id": "Canal FDR HD",
+          "display_names": [
+            "Canal FDR HD"
+          ]
+        },
+        {
+          "id": "Canal Universitário CNU",
+          "display_names": [
+            "Canal Universitário CNU"
+          ]
+        },
+        {
+          "id": "Canal Universitário TV UFSC",
+          "display_names": [
+            "Canal Universitário TV UFSC"
+          ]
+        },
+        {
+          "id": "Chef TV",
+          "display_names": [
+            "Chef TV"
+          ]
+        },
+        {
+          "id": "Cine Brasil TV",
+          "display_names": [
+            "Cine Brasil TV"
+          ]
+        },
+        {
+          "id": "Cultura",
+          "display_names": [
+            "Cultura"
+          ]
+        },
+        {
+          "id": "DOGTV",
+          "display_names": [
+            "DOGTV"
+          ]
+        },
+        {
+          "id": "Disney",
+          "display_names": [
+            "Disney"
+          ]
+        },
+        {
+          "id": "E-Paraná HD",
+          "display_names": [
+            "E-Paraná HD"
+          ]
+        },
+        {
+          "id": "EPTV Sul de Minas HD",
+          "display_names": [
+            "EPTV Sul de Minas HD"
+          ]
+        },
+        {
+          "id": "ESPN Brasil",
+          "display_names": [
+            "ESPN Brasil"
+          ]
+        },
+        {
+          "id": "ESPN Extra",
+          "display_names": [
+            "ESPN Extra"
+          ]
+        },
+        {
+          "id": "Esporte Interativo",
+          "display_names": [
+            "Esporte Interativo"
+          ]
+        },
+        {
+          "id": "FOX Sports",
+          "display_names": [
+            "FOX Sports"
+          ]
+        },
+        {
+          "id": "FOX Sports 2",
+          "display_names": [
+            "FOX Sports 2"
+          ]
+        },
+        {
+          "id": "Gazeta HD",
+          "display_names": [
+            "Gazeta HD"
+          ]
+        },
+        {
+          "id": "Globo Amazonas",
+          "display_names": [
+            "Globo Amazonas"
+          ]
+        },
+        {
+          "id": "Globo Anhanguera",
+          "display_names": [
+            "Globo Anhanguera"
+          ]
+        },
+        {
+          "id": "Globo Aracaju",
+          "display_names": [
+            "Globo Aracaju"
+          ]
+        },
+        {
+          "id": "Globo Belo Horizonte",
+          "display_names": [
+            "Globo Belo Horizonte"
+          ]
+        },
+        {
+          "id": "Globo Brasília",
+          "display_names": [
+            "Globo Brasília"
+          ]
+        },
+        {
+          "id": "Globo Natal",
+          "display_names": [
+            "Globo Natal"
+          ]
+        },
+        {
+          "id": "Globo Nordeste HD",
+          "display_names": [
+            "Globo Nordeste HD"
+          ]
+        },
+        {
+          "id": "Globo RBS TV Poa",
+          "display_names": [
+            "Globo RBS TV Poa"
+          ]
+        },
+        {
+          "id": "Globo RJ",
+          "display_names": [
+            "Globo RJ"
+          ]
+        },
+        {
+          "id": "Globo Recife",
+          "display_names": [
+            "Globo Recife"
+          ]
+        },
+        {
+          "id": "Globo Rio HD",
+          "display_names": [
+            "Globo Rio HD"
+          ]
+        },
+        {
+          "id": "Globo São Paulo HD",
+          "display_names": [
+            "Globo São Paulo HD"
+          ]
+        },
+        {
+          "id": "Globo TV Bahia",
+          "display_names": [
+            "Globo TV Bahia"
+          ]
+        },
+        {
+          "id": "Globo TV Tribuna",
+          "display_names": [
+            "Globo TV Tribuna"
+          ]
+        },
+        {
+          "id": "Globo Teresina",
+          "display_names": [
+            "Globo Teresina"
+          ]
+        },
+        {
+          "id": "Golf Channel",
+          "display_names": [
+            "Golf Channel"
+          ]
+        },
+        {
+          "id": "Horizonte TV",
+          "display_names": [
+            "Horizonte TV"
+          ]
+        },
+        {
+          "id": "Ideal TV",
+          "display_names": [
+            "Ideal TV"
+          ]
+        },
+        {
+          "id": "InterTV Cabugi HD",
+          "display_names": [
+            "InterTV Cabugi HD"
+          ]
+        },
+        {
+          "id": "InterTV Grande Minas HD",
+          "display_names": [
+            "InterTV Grande Minas HD"
+          ]
+        },
+        {
+          "id": "Loading",
+          "display_names": [
+            "Loading"
+          ]
+        },
+        {
+          "id": "MEGA TVHD",
+          "display_names": [
+            "MEGA TVHD"
+          ]
+        },
+        {
+          "id": "MTV Brasil",
+          "display_names": [
+            "MTV Brasil"
+          ]
+        },
+        {
+          "id": "Max Up",
+          "display_names": [
+            "Max Up"
+          ]
+        },
+        {
+          "id": "MaxPrime Panregional",
+          "display_names": [
+            "MaxPrime Panregional"
+          ]
+        },
+        {
+          "id": "Maxprime",
+          "display_names": [
+            "Maxprime"
+          ]
+        },
+        {
+          "id": "Maxprime*e",
+          "display_names": [
+            "Maxprime*e"
+          ]
+        },
+        {
+          "id": "Mega TV (Brazil)",
+          "display_names": [
+            "Mega TV (Brazil)"
+          ]
+        },
+        {
+          "id": "Meio Norte",
+          "display_names": [
+            "Meio Norte"
+          ]
+        },
+        {
+          "id": "MultiCultura Educação",
+          "display_names": [
+            "MultiCultura Educação"
+          ]
+        },
+        {
+          "id": "NBR",
+          "display_names": [
+            "NBR"
+          ]
+        },
+        {
+          "id": "NHK",
+          "display_names": [
+            "NHK"
+          ]
+        },
+        {
+          "id": "NSC TV Blumenau HD",
+          "display_names": [
+            "NSC TV Blumenau HD"
+          ]
+        },
+        {
+          "id": "NSC TV Chapecó HD",
+          "display_names": [
+            "NSC TV Chapecó HD"
+          ]
+        },
+        {
+          "id": "NSC TV Criciúma",
+          "display_names": [
+            "NSC TV Criciúma"
+          ]
+        },
+        {
+          "id": "NSC TV Florianópolis HD",
+          "display_names": [
+            "NSC TV Florianópolis HD"
+          ]
+        },
+        {
+          "id": "NSC TV Joinville HD",
+          "display_names": [
+            "NSC TV Joinville HD"
+          ]
+        },
+        {
+          "id": "National Geographic",
+          "display_names": [
+            "National Geographic"
+          ]
+        },
+        {
+          "id": "Nick Jr. HD",
+          "display_names": [
+            "Nick Jr. HD"
+          ]
+        },
+        {
+          "id": "NordesTV",
+          "display_names": [
+            "NordesTV"
+          ]
+        },
+        {
+          "id": "PUC TV Goiás HD",
+          "display_names": [
+            "PUC TV Goiás HD"
+          ]
+        },
+        {
+          "id": "Play TV",
+          "display_names": [
+            "Play TV"
+          ]
+        },
+        {
+          "id": "PlayBoy HD",
+          "display_names": [
+            "PlayBoy HD"
+          ]
+        },
+        {
+          "id": "Ponto Jus",
+          "display_names": [
+            "Ponto Jus"
+          ]
+        },
+        {
+          "id": "Premiere 8",
+          "display_names": [
+            "Premiere 8"
+          ]
+        },
+        {
+          "id": "Premiere 9",
+          "display_names": [
+            "Premiere 9"
+          ]
+        },
+        {
+          "id": "RA TIM BUM",
+          "display_names": [
+            "RA TIM BUM"
+          ]
+        },
+        {
+          "id": "RBA TV HD",
+          "display_names": [
+            "RBA TV HD"
+          ]
+        },
+        {
+          "id": "RBI",
+          "display_names": [
+            "RBI"
+          ]
+        },
+        {
+          "id": "RBS TV Florianópolis",
+          "display_names": [
+            "RBS TV Florianópolis"
+          ]
+        },
+        {
+          "id": "RBS TV Porto Alegre HD",
+          "display_names": [
+            "RBS TV Porto Alegre HD"
+          ]
+        },
+        {
+          "id": "RBS TV Rio Grande HD",
+          "display_names": [
+            "RBS TV Rio Grande HD"
+          ]
+        },
+        {
+          "id": "RIC TV Curitiba HD",
+          "display_names": [
+            "RIC TV Curitiba HD"
+          ]
+        },
+        {
+          "id": "RIC TV Florianópolis HD",
+          "display_names": [
+            "RIC TV Florianópolis HD"
+          ]
+        },
+        {
+          "id": "RIT",
+          "display_names": [
+            "RIT"
+          ]
+        },
+        {
+          "id": "RPC Curitiba",
+          "display_names": [
+            "RPC Curitiba"
+          ]
+        },
+        {
+          "id": "RPC Foz do Iguaçu HD",
+          "display_names": [
+            "RPC Foz do Iguaçu HD"
+          ]
+        },
+        {
+          "id": "RPC Maringá HD",
+          "display_names": [
+            "RPC Maringá HD"
+          ]
+        },
+        {
+          "id": "RPC Paranavaí HD",
+          "display_names": [
+            "RPC Paranavaí HD"
+          ]
+        },
+        {
+          "id": "RPC Ponta Grossa HD",
+          "display_names": [
+            "RPC Ponta Grossa HD"
+          ]
+        },
+        {
+          "id": "RTP Internacional",
+          "display_names": [
+            "RTP Internacional"
+          ]
+        },
+        {
+          "id": "RTPi RadioTV Portuguesa Int'l",
+          "display_names": [
+            "RTPi RadioTV Portuguesa Int'l"
+          ]
+        },
+        {
+          "id": "Rai Italia",
+          "display_names": [
+            "Rai Italia"
+          ]
+        },
+        {
+          "id": "Record Cuiabá HD",
+          "display_names": [
+            "Record Cuiabá HD"
+          ]
+        },
+        {
+          "id": "Record Porto Alegre HD",
+          "display_names": [
+            "Record Porto Alegre HD"
+          ]
+        },
+        {
+          "id": "Record TV Bahia",
+          "display_names": [
+            "Record TV Bahia"
+          ]
+        },
+        {
+          "id": "Record TV Brasília",
+          "display_names": [
+            "Record TV Brasília"
+          ]
+        },
+        {
+          "id": "Record TV Campo Grande",
+          "display_names": [
+            "Record TV Campo Grande"
+          ]
+        },
+        {
+          "id": "Record TV Curitiba",
+          "display_names": [
+            "Record TV Curitiba"
+          ]
+        },
+        {
+          "id": "Record TV Florianopolis",
+          "display_names": [
+            "Record TV Florianopolis"
+          ]
+        },
+        {
+          "id": "Record TV Goiás",
+          "display_names": [
+            "Record TV Goiás"
+          ]
+        },
+        {
+          "id": "Record TV Itapoan HD",
+          "display_names": [
+            "Record TV Itapoan HD"
+          ]
+        },
+        {
+          "id": "Record TV Minas",
+          "display_names": [
+            "Record TV Minas"
+          ]
+        },
+        {
+          "id": "Record TV Porto Alegre",
+          "display_names": [
+            "Record TV Porto Alegre"
+          ]
+        },
+        {
+          "id": "Record TV RS",
+          "display_names": [
+            "Record TV RS"
+          ]
+        },
+        {
+          "id": "Record TV Rio",
+          "display_names": [
+            "Record TV Rio"
+          ]
+        },
+        {
+          "id": "RecordTV Belém",
+          "display_names": [
+            "RecordTV Belém"
+          ]
+        },
+        {
+          "id": "RecordTV Cuiabá",
+          "display_names": [
+            "RecordTV Cuiabá"
+          ]
+        },
+        {
+          "id": "RecordTV Paulista HD",
+          "display_names": [
+            "RecordTV Paulista HD"
+          ]
+        },
+        {
+          "id": "RecordTV São Paulo HD",
+          "display_names": [
+            "RecordTV São Paulo HD"
+          ]
+        },
+        {
+          "id": "RecordTV Tocantins",
+          "display_names": [
+            "RecordTV Tocantins"
+          ]
+        },
+        {
+          "id": "Rede 21 HD",
+          "display_names": [
+            "Rede 21 HD"
+          ]
+        },
+        {
+          "id": "Rede Amazônica Manaus HD",
+          "display_names": [
+            "Rede Amazônica Manaus HD"
+          ]
+        },
+        {
+          "id": "Rede Amazônica Rio Branco",
+          "display_names": [
+            "Rede Amazônica Rio Branco"
+          ]
+        },
+        {
+          "id": "Rede Boas Novas",
+          "display_names": [
+            "Rede Boas Novas"
+          ]
+        },
+        {
+          "id": "Rede Difusora HD",
+          "display_names": [
+            "Rede Difusora HD"
+          ]
+        },
+        {
+          "id": "Rede Familia",
+          "display_names": [
+            "Rede Familia"
+          ]
+        },
+        {
+          "id": "Rede Gazeta",
+          "display_names": [
+            "Rede Gazeta"
+          ]
+        },
+        {
+          "id": "Rede Gênesis",
+          "display_names": [
+            "Rede Gênesis"
+          ]
+        },
+        {
+          "id": "Rede Massa",
+          "display_names": [
+            "Rede Massa"
+          ]
+        },
+        {
+          "id": "Rede Mercosul",
+          "display_names": [
+            "Rede Mercosul"
+          ]
+        },
+        {
+          "id": "Rede Minas",
+          "display_names": [
+            "Rede Minas"
+          ]
+        },
+        {
+          "id": "Rede NGT",
+          "display_names": [
+            "Rede NGT"
+          ]
+        },
+        {
+          "id": "Rede Record Maceio HD",
+          "display_names": [
+            "Rede Record Maceio HD"
+          ]
+        },
+        {
+          "id": "Rede Super",
+          "display_names": [
+            "Rede Super"
+          ]
+        },
+        {
+          "id": "Rede Século 21 HD",
+          "display_names": [
+            "Rede Século 21 HD"
+          ]
+        },
+        {
+          "id": "Rede TV Belem HD",
+          "display_names": [
+            "Rede TV Belem HD"
+          ]
+        },
+        {
+          "id": "Rede Vida Belo Horizonte",
+          "display_names": [
+            "Rede Vida Belo Horizonte"
+          ]
+        },
+        {
+          "id": "Rede Vida Cascavel",
+          "display_names": [
+            "Rede Vida Cascavel"
+          ]
+        },
+        {
+          "id": "Rede Vida Cuiaba",
+          "display_names": [
+            "Rede Vida Cuiaba"
+          ]
+        },
+        {
+          "id": "Rede Vida Goiania",
+          "display_names": [
+            "Rede Vida Goiania"
+          ]
+        },
+        {
+          "id": "Rede Vida Porto Alegre",
+          "display_names": [
+            "Rede Vida Porto Alegre"
+          ]
+        },
+        {
+          "id": "Rede Vida Recife",
+          "display_names": [
+            "Rede Vida Recife"
+          ]
+        },
+        {
+          "id": "Rede Vida Sao Luis",
+          "display_names": [
+            "Rede Vida Sao Luis"
+          ]
+        },
+        {
+          "id": "Rede Vida Vitoria",
+          "display_names": [
+            "Rede Vida Vitoria"
+          ]
+        },
+        {
+          "id": "RedeTV! Belo Horizonte HD",
+          "display_names": [
+            "RedeTV! Belo Horizonte HD"
+          ]
+        },
+        {
+          "id": "RedeTV! Fortaleza",
+          "display_names": [
+            "RedeTV! Fortaleza"
+          ]
+        },
+        {
+          "id": "RedeTV! Manaus HD",
+          "display_names": [
+            "RedeTV! Manaus HD"
+          ]
+        },
+        {
+          "id": "RedeTV! Natal",
+          "display_names": [
+            "RedeTV! Natal"
+          ]
+        },
+        {
+          "id": "RedeTV! Pampa",
+          "display_names": [
+            "RedeTV! Pampa"
+          ]
+        },
+        {
+          "id": "RedeTV! Porto Velho",
+          "display_names": [
+            "RedeTV! Porto Velho"
+          ]
+        },
+        {
+          "id": "RedeTV! Recife HD",
+          "display_names": [
+            "RedeTV! Recife HD"
+          ]
+        },
+        {
+          "id": "RedeTV! Rio de Janeiro HD",
+          "display_names": [
+            "RedeTV! Rio de Janeiro HD"
+          ]
+        },
+        {
+          "id": "RedeTV! Rôndonia HD",
+          "display_names": [
+            "RedeTV! Rôndonia HD"
+          ]
+        },
+        {
+          "id": "RedeTV! SP",
+          "display_names": [
+            "RedeTV! SP"
+          ]
+        },
+        {
+          "id": "RedeTV! Sul",
+          "display_names": [
+            "RedeTV! Sul"
+          ]
+        },
+        {
+          "id": "RedeTV! São Paulo HD",
+          "display_names": [
+            "RedeTV! São Paulo HD"
+          ]
+        },
+        {
+          "id": "SBT Belem HD",
+          "display_names": [
+            "SBT Belem HD"
+          ]
+        },
+        {
+          "id": "SBT Brasilia",
+          "display_names": [
+            "SBT Brasilia"
+          ]
+        },
+        {
+          "id": "SBT Criciuma",
+          "display_names": [
+            "SBT Criciuma"
+          ]
+        },
+        {
+          "id": "SBT Cuiabá",
+          "display_names": [
+            "SBT Cuiabá"
+          ]
+        },
+        {
+          "id": "SBT Goiania TV Serra Dourada",
+          "display_names": [
+            "SBT Goiania TV Serra Dourada"
+          ]
+        },
+        {
+          "id": "SBT MS HD",
+          "display_names": [
+            "SBT MS HD"
+          ]
+        },
+        {
+          "id": "SBT Maceio",
+          "display_names": [
+            "SBT Maceio"
+          ]
+        },
+        {
+          "id": "SBT Pará",
+          "display_names": [
+            "SBT Pará"
+          ]
+        },
+        {
+          "id": "SBT Piaui",
+          "display_names": [
+            "SBT Piaui"
+          ]
+        },
+        {
+          "id": "SBT RS",
+          "display_names": [
+            "SBT RS"
+          ]
+        },
+        {
+          "id": "SBT Rio",
+          "display_names": [
+            "SBT Rio"
+          ]
+        },
+        {
+          "id": "SBT Santa Catarina HD",
+          "display_names": [
+            "SBT Santa Catarina HD"
+          ]
+        },
+        {
+          "id": "SBT Sergipe",
+          "display_names": [
+            "SBT Sergipe"
+          ]
+        },
+        {
+          "id": "SBT São Paulo",
+          "display_names": [
+            "SBT São Paulo"
+          ]
+        },
+        {
+          "id": "SBT TV Ponta Verde HD",
+          "display_names": [
+            "SBT TV Ponta Verde HD"
+          ]
+        },
+        {
+          "id": "SBT Tocantins",
+          "display_names": [
+            "SBT Tocantins"
+          ]
+        },
+        {
+          "id": "SBT Vitoria",
+          "display_names": [
+            "SBT Vitoria"
+          ]
+        },
+        {
+          "id": "SIC",
+          "display_names": [
+            "SIC"
+          ]
+        },
+        {
+          "id": "Sesctv",
+          "display_names": [
+            "Sesctv"
+          ]
+        },
+        {
+          "id": "SexPrive Brasileirinhas",
+          "display_names": [
+            "SexPrive Brasileirinhas"
+          ]
+        },
+        {
+          "id": "Sextreme Brazil",
+          "display_names": [
+            "Sextreme Brazil"
+          ]
+        },
+        {
+          "id": "Sexy Hot",
+          "display_names": [
+            "Sexy Hot"
+          ]
+        },
+        {
+          "id": "SonLife Broadcasting Network",
+          "display_names": [
+            "SonLife Broadcasting Network"
+          ]
+        },
+        {
+          "id": "Sundance HD Brasil",
+          "display_names": [
+            "Sundance HD Brasil"
+          ]
+        },
+        {
+          "id": "TV 5",
+          "display_names": [
+            "TV 5"
+          ]
+        },
+        {
+          "id": "TV A Crítica",
+          "display_names": [
+            "TV A Crítica"
+          ]
+        },
+        {
+          "id": "TV AL",
+          "display_names": [
+            "TV AL"
+          ]
+        },
+        {
+          "id": "TV ALESP",
+          "display_names": [
+            "TV ALESP"
+          ]
+        },
+        {
+          "id": "TV Aldeia",
+          "display_names": [
+            "TV Aldeia"
+          ]
+        },
+        {
+          "id": "TV Allamanda",
+          "display_names": [
+            "TV Allamanda"
+          ]
+        },
+        {
+          "id": "TV Alterosa",
+          "display_names": [
+            "TV Alterosa"
+          ]
+        },
+        {
+          "id": "TV Alvorada do Sul HD",
+          "display_names": [
+            "TV Alvorada do Sul HD"
+          ]
+        },
+        {
+          "id": "TV Amapá",
+          "display_names": [
+            "TV Amapá"
+          ]
+        },
+        {
+          "id": "TV Amazônia",
+          "display_names": [
+            "TV Amazônia"
+          ]
+        },
+        {
+          "id": "TV Ambiental",
+          "display_names": [
+            "TV Ambiental"
+          ]
+        },
+        {
+          "id": "TV Anhanguera HD",
+          "display_names": [
+            "TV Anhanguera HD"
+          ]
+        },
+        {
+          "id": "TV Anhanguera Palmas",
+          "display_names": [
+            "TV Anhanguera Palmas"
+          ]
+        },
+        {
+          "id": "TV Antena 10",
+          "display_names": [
+            "TV Antena 10"
+          ]
+        },
+        {
+          "id": "TV Aperipê",
+          "display_names": [
+            "TV Aperipê"
+          ]
+        },
+        {
+          "id": "TV Apoio HD",
+          "display_names": [
+            "TV Apoio HD"
+          ]
+        },
+        {
+          "id": "TV Arapuan",
+          "display_names": [
+            "TV Arapuan"
+          ]
+        },
+        {
+          "id": "TV Aratu",
+          "display_names": [
+            "TV Aratu"
+          ]
+        },
+        {
+          "id": "TV Assembleia de Minas Gerais",
+          "display_names": [
+            "TV Assembleia de Minas Gerais"
+          ]
+        },
+        {
+          "id": "TV Atalaia",
+          "display_names": [
+            "TV Atalaia"
+          ]
+        },
+        {
+          "id": "TV BRASIL RIO DE JANEIRO",
+          "display_names": [
+            "TV BRASIL RIO DE JANEIRO"
+          ]
+        },
+        {
+          "id": "TV BRASIL SÃO PAULO",
+          "display_names": [
+            "TV BRASIL SÃO PAULO"
+          ]
+        },
+        {
+          "id": "TV Bahia HD",
+          "display_names": [
+            "TV Bahia HD"
+          ]
+        },
+        {
+          "id": "TV Boa Vista HD",
+          "display_names": [
+            "TV Boa Vista HD"
+          ]
+        },
+        {
+          "id": "TV Brasília",
+          "display_names": [
+            "TV Brasília"
+          ]
+        },
+        {
+          "id": "TV Cabo Branco",
+          "display_names": [
+            "TV Cabo Branco"
+          ]
+        },
+        {
+          "id": "TV Capixaba",
+          "display_names": [
+            "TV Capixaba"
+          ]
+        },
+        {
+          "id": "TV Catarina HD",
+          "display_names": [
+            "TV Catarina HD"
+          ]
+        },
+        {
+          "id": "TV Catarina?",
+          "display_names": [
+            "TV Catarina?"
+          ]
+        },
+        {
+          "id": "TV Ceará",
+          "display_names": [
+            "TV Ceará"
+          ]
+        },
+        {
+          "id": "TV Centro América Cuiabá",
+          "display_names": [
+            "TV Centro América Cuiabá"
+          ]
+        },
+        {
+          "id": "TV Cidadania",
+          "display_names": [
+            "TV Cidadania"
+          ]
+        },
+        {
+          "id": "TV Cidade",
+          "display_names": [
+            "TV Cidade"
+          ]
+        },
+        {
+          "id": "TV Cidade São Luis HD",
+          "display_names": [
+            "TV Cidade São Luis HD"
+          ]
+        },
+        {
+          "id": "TV Cidade Verde HD",
+          "display_names": [
+            "TV Cidade Verde HD"
+          ]
+        },
+        {
+          "id": "TV Clube",
+          "display_names": [
+            "TV Clube"
+          ]
+        },
+        {
+          "id": "TV Comunicações Interativas HD",
+          "display_names": [
+            "TV Comunicações Interativas HD"
+          ]
+        },
+        {
+          "id": "TV Comunitária",
+          "display_names": [
+            "TV Comunitária"
+          ]
+        },
+        {
+          "id": "TV Correio",
+          "display_names": [
+            "TV Correio"
+          ]
+        },
+        {
+          "id": "TV Difusora São Luís",
+          "display_names": [
+            "TV Difusora São Luís"
+          ]
+        },
+        {
+          "id": "TV Diário",
+          "display_names": [
+            "TV Diário"
+          ]
+        },
+        {
+          "id": "TV Educativa",
+          "display_names": [
+            "TV Educativa"
+          ]
+        },
+        {
+          "id": "TV Educativa da Bahia HD",
+          "display_names": [
+            "TV Educativa da Bahia HD"
+          ]
+        },
+        {
+          "id": "TV Educativa de Porto Alegre HD",
+          "display_names": [
+            "TV Educativa de Porto Alegre HD"
+          ]
+        },
+        {
+          "id": "TV Em Tempo HD",
+          "display_names": [
+            "TV Em Tempo HD"
+          ]
+        },
+        {
+          "id": "TV Equinócio",
+          "display_names": [
+            "TV Equinócio"
+          ]
+        },
+        {
+          "id": "TV Feliz HD",
+          "display_names": [
+            "TV Feliz HD"
+          ]
+        },
+        {
+          "id": "TV Gazeta Rio Branco",
+          "display_names": [
+            "TV Gazeta Rio Branco"
+          ]
+        },
+        {
+          "id": "TV Gazeta Sul",
+          "display_names": [
+            "TV Gazeta Sul"
+          ]
+        },
+        {
+          "id": "TV Guará HD",
+          "display_names": [
+            "TV Guará HD"
+          ]
+        },
+        {
+          "id": "TV Iguaçu HD",
+          "display_names": [
+            "TV Iguaçu HD"
+          ]
+        },
+        {
+          "id": "TV Imperial",
+          "display_names": [
+            "TV Imperial"
+          ]
+        },
+        {
+          "id": "TV Interativa",
+          "display_names": [
+            "TV Interativa"
+          ]
+        },
+        {
+          "id": "TV Jangadeiro",
+          "display_names": [
+            "TV Jangadeiro"
+          ]
+        },
+        {
+          "id": "TV Jornal",
+          "display_names": [
+            "TV Jornal"
+          ]
+        },
+        {
+          "id": "TV Liberal",
+          "display_names": [
+            "TV Liberal"
+          ]
+        },
+        {
+          "id": "TV MS HD",
+          "display_names": [
+            "TV MS HD"
+          ]
+        },
+        {
+          "id": "TV Macapá HD",
+          "display_names": [
+            "TV Macapá HD"
+          ]
+        },
+        {
+          "id": "TV Manaira HD",
+          "display_names": [
+            "TV Manaira HD"
+          ]
+        },
+        {
+          "id": "TV Mar Alagoas",
+          "display_names": [
+            "TV Mar Alagoas"
+          ]
+        },
+        {
+          "id": "TV Maranhense HD",
+          "display_names": [
+            "TV Maranhense HD"
+          ]
+        },
+        {
+          "id": "TV Meridional",
+          "display_names": [
+            "TV Meridional"
+          ]
+        },
+        {
+          "id": "TV Mirante São Luis HD",
+          "display_names": [
+            "TV Mirante São Luis HD"
+          ]
+        },
+        {
+          "id": "TV Morena",
+          "display_names": [
+            "TV Morena"
+          ]
+        },
+        {
+          "id": "TV Mundial",
+          "display_names": [
+            "TV Mundial"
+          ]
+        },
+        {
+          "id": "TV Novo Tempo",
+          "display_names": [
+            "TV Novo Tempo"
+          ]
+        },
+        {
+          "id": "TV Omega",
+          "display_names": [
+            "TV Omega"
+          ]
+        },
+        {
+          "id": "TV Pajuçara",
+          "display_names": [
+            "TV Pajuçara"
+          ]
+        },
+        {
+          "id": "TV Pampa HD",
+          "display_names": [
+            "TV Pampa HD"
+          ]
+        },
+        {
+          "id": "TV Pantanal",
+          "display_names": [
+            "TV Pantanal"
+          ]
+        },
+        {
+          "id": "TV Paraíba HD",
+          "display_names": [
+            "TV Paraíba HD"
+          ]
+        },
+        {
+          "id": "TV Ponta Negra",
+          "display_names": [
+            "TV Ponta Negra"
+          ]
+        },
+        {
+          "id": "TV Rio Branco",
+          "display_names": [
+            "TV Rio Branco"
+          ]
+        },
+        {
+          "id": "TV Rio Sul HD",
+          "display_names": [
+            "TV Rio Sul HD"
+          ]
+        },
+        {
+          "id": "TV Rondônia",
+          "display_names": [
+            "TV Rondônia"
+          ]
+        },
+        {
+          "id": "TV Roraima HD",
+          "display_names": [
+            "TV Roraima HD"
+          ]
+        },
+        {
+          "id": "TV Santa Cruz HD",
+          "display_names": [
+            "TV Santa Cruz HD"
+          ]
+        },
+        {
+          "id": "TV Sergipe HD",
+          "display_names": [
+            "TV Sergipe HD"
+          ]
+        },
+        {
+          "id": "TV Serra Dourada HD",
+          "display_names": [
+            "TV Serra Dourada HD"
+          ]
+        },
+        {
+          "id": "TV São Luis HD",
+          "display_names": [
+            "TV São Luis HD"
+          ]
+        },
+        {
+          "id": "TV Tambaú",
+          "display_names": [
+            "TV Tambaú"
+          ]
+        },
+        {
+          "id": "TV Tribuna",
+          "display_names": [
+            "TV Tribuna"
+          ]
+        },
+        {
+          "id": "TV Tropical",
+          "display_names": [
+            "TV Tropical"
+          ]
+        },
+        {
+          "id": "TV Tucuju",
+          "display_names": [
+            "TV Tucuju"
+          ]
+        },
+        {
+          "id": "TV UFSC HD",
+          "display_names": [
+            "TV UFSC HD"
+          ]
+        },
+        {
+          "id": "TV Universidade de Porto Alegre",
+          "display_names": [
+            "TV Universidade de Porto Alegre"
+          ]
+        },
+        {
+          "id": "TV União",
+          "display_names": [
+            "TV União"
+          ]
+        },
+        {
+          "id": "TV Verdes Mares",
+          "display_names": [
+            "TV Verdes Mares"
+          ]
+        },
+        {
+          "id": "TV Vitória",
+          "display_names": [
+            "TV Vitória"
+          ]
+        },
+        {
+          "id": "TVCI-TV COMUNICACOES INTERATIVAS LTDA",
+          "display_names": [
+            "TVCI-TV COMUNICACOES INTERATIVAS LTDA"
+          ]
+        },
+        {
+          "id": "TVE",
+          "display_names": [
+            "TVE"
+          ]
+        },
+        {
+          "id": "TVE Bahia",
+          "display_names": [
+            "TVE Bahia"
+          ]
+        },
+        {
+          "id": "Telefe",
+          "display_names": [
+            "Telefe"
+          ]
+        },
+        {
+          "id": "Univesp TV",
+          "display_names": [
+            "Univesp TV"
+          ]
+        },
+        {
+          "id": "VH1",
+          "display_names": [
+            "VH1"
+          ]
+        },
+        {
+          "id": "VH1 Megahits",
+          "display_names": [
+            "VH1 Megahits"
+          ]
+        },
+        {
+          "id": "Venus TV SD",
+          "display_names": [
+            "Venus TV SD"
+          ]
+        },
+        {
+          "id": "Adrenalina Pura TV",
+          "display_names": [
+            "Adrenalina Pura TV"
+          ]
+        },
+        {
+          "id": "Bloomberg TV",
+          "display_names": [
+            "Bloomberg TV"
+          ]
+        },
+        {
+          "id": "Box Kids TV",
+          "display_names": [
+            "Box Kids TV"
+          ]
+        },
+        {
+          "id": "C3-TV",
+          "display_names": [
+            "C3-TV"
+          ]
+        },
+        {
+          "id": "Canal Gov",
+          "display_names": [
+            "Canal Gov"
+          ]
+        },
+        {
+          "id": "Canal do Criador",
+          "display_names": [
+            "Canal do Criador"
+          ]
+        },
+        {
+          "id": "DW (Deutsche Welle)",
+          "display_names": [
+            "DW (Deutsche Welle)"
+          ]
+        },
+        {
+          "id": "DreamWorks Channel",
+          "display_names": [
+            "DreamWorks Channel"
+          ]
+        },
+        {
+          "id": "E! Entertainment",
+          "display_names": [
+            "E! Entertainment"
+          ]
+        },
+        {
+          "id": "FashionTV Brasil",
+          "display_names": [
+            "FashionTV Brasil"
+          ]
+        },
+        {
+          "id": "Filmelier TV",
+          "display_names": [
+            "Filmelier TV"
+          ]
+        },
+        {
+          "id": "France 24",
+          "display_names": [
+            "France 24"
+          ]
+        },
+        {
+          "id": "ID  Investigação Discovery",
+          "display_names": [
+            "ID Investigação Discovery"
+          ]
+        },
+        {
+          "id": "Markket",
+          "display_names": [
+            "Markket"
+          ]
+        },
+        {
+          "id": "NHK World",
+          "display_names": [
+            "NHK World"
+          ]
+        },
+        {
+          "id": "Polishop",
+          "display_names": [
+            "Polishop"
+          ]
+        },
+        {
+          "id": "RIT TV",
+          "display_names": [
+            "RIT TV"
+          ]
+        },
+        {
+          "id": "Rede CNT",
+          "display_names": [
+            "Rede CNT"
+          ]
+        },
+        {
+          "id": "Runtime",
+          "display_names": [
+            "Runtime"
+          ]
+        },
+        {
+          "id": "SIC Internacional",
+          "display_names": [
+            "SIC Internacional"
+          ]
+        },
+        {
+          "id": "Sobrevivi",
+          "display_names": [
+            "Sobrevivi"
+          ]
+        },
+        {
+          "id": "TV Canção Nova",
+          "display_names": [
+            "TV Canção Nova"
+          ]
+        },
+        {
+          "id": "TV Evangelizar",
+          "display_names": [
+            "TV Evangelizar"
+          ]
+        },
+        {
+          "id": "TV Oeste",
+          "display_names": [
+            "TV Oeste"
+          ]
+        },
+        {
+          "id": "TV Pai Eterno",
+          "display_names": [
+            "TV Pai Eterno"
+          ]
+        },
+        {
+          "id": "TVE International",
+          "display_names": [
+            "TVE International"
+          ]
+        },
+        {
+          "id": "Times Exclusivo CNBC",
+          "display_names": [
+            "Times Exclusivo CNBC"
+          ]
+        },
+        {
+          "id": "Travel & Food and Drinks",
+          "display_names": [
+            "Travel & Food and Drinks"
+          ]
+        },
+        {
+          "id": "Travel Box",
+          "display_names": [
+            "Travel Box"
+          ]
+        },
+        {
+          "id": "UFC Fight Pass",
+          "display_names": [
+            "UFC Fight Pass"
+          ]
+        },
+        {
+          "id": "Otaku",
+          "display_names": [
+            "Otaku"
+          ]
+        },
+        {
+          "id": "Urban Docs",
+          "display_names": [
+            "Urban Docs"
+          ]
+        },
+        {
+          "id": "Urban Drive",
+          "display_names": [
+            "Urban Drive"
+          ]
+        },
+        {
+          "id": "Urban Kids",
+          "display_names": [
+            "Urban Kids"
+          ]
+        },
+        {
+          "id": "Urban Movie",
+          "display_names": [
+            "Urban Movie"
+          ]
+        },
+        {
+          "id": "Urban Retro",
+          "display_names": [
+            "Urban Retro"
+          ]
+        },
+        {
+          "id": "Urban Series",
+          "display_names": [
+            "Urban Series"
+          ]
+        },
+        {
+          "id": "Urban Travel",
+          "display_names": [
+            "Urban Travel"
+          ]
+        },
+        {
+          "id": "ZooKids",
+          "display_names": [
+            "ZooKids"
+          ]
+        },
+        {
+          "id": "Moove Cine",
+          "display_names": [
+            "Moove Cine"
+          ]
+        },
+        {
+          "id": "Moove Cult",
+          "display_names": [
+            "Moove Cult"
+          ]
+        },
+        {
+          "id": "Moove Explore",
+          "display_names": [
+            "Moove Explore"
+          ]
+        },
+        {
+          "id": "Villa Kids",
+          "display_names": [
+            "Villa Kids"
           ]
         }
       ]
