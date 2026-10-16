@@ -9,6 +9,7 @@ O ACERVO mantém o registro das fontes e o índice de canais XMLTV para que Cine
 | 5 | [Pluto TV Brasil](https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml) | XMLTV | Exclusivamente canais Pluto reconhecidos por ID estável |
 | 10 | [Meu Guia Brasil](https://meuguia.tv/programacao/canal/HBO) | Grade HTML | Fonte principal para canais mapeados por código |
 | 20 | [Guia de TV Brasil](https://www.guiadetv.com/canal/sony-movies) | Grade HTML | Reserva para canais mapeados que não têm grade na fonte principal |
+| 25 | [EPG Brasil — catálogo combinado](https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml) | XMLTV | Cobertura combinada e fallback geral |
 | 30 | [IPTV EPG Brasil](https://iptv-epg.org/files/epg-br.xml) | XMLTV | Cobertura geral, preenchimento de lacunas e metadados |
 | 40 | [Open EPG Brasil](https://www.open-epg.com/files/brazil3.xml) | XMLTV | Segunda cobertura XMLTV e preenchimento de lacunas |
 
