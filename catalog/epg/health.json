@@ -1,7 +1,84 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "overall_status": "pending_first_check",
-  "matched_channel_records": 0,
-  "sources": {}
+  "generated_at": "2026-10-16T01:06:26Z",
+  "overall_status": "healthy",
+  "matched_channel_records": 10,
+  "sources": {
+    "pluto-br-xmltv": {
+      "source_id": "pluto-br-xmltv",
+      "checked_at": "2026-10-16T01:06:26Z",
+      "priority": 5,
+      "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml",
+      "last_success_at": "2026-10-16T01:06:26Z",
+      "consecutive_failures": 0,
+      "status": "healthy",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3784098,
+      "channel_count": 179,
+      "programme_count_total": 4300,
+      "programme_count_window_78h": 4300,
+      "error": null
+    },
+    "guia-de-tv-br": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-16T01:06:26Z",
+      "priority": 20,
+      "url": "https://www.guiadetv.com/canal/sony-movies",
+      "last_success_at": "2026-10-16T01:06:26Z",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 47863,
+      "schedule_markup": true,
+      "status": "healthy",
+      "error": null
+    },
+    "meuguia-br": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-16T01:06:26Z",
+      "priority": 10,
+      "url": "https://meuguia.tv/programacao/canal/HBO",
+      "last_success_at": "2026-10-16T01:06:26Z",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 190011,
+      "schedule_markup": true,
+      "status": "healthy",
+      "error": null
+    },
+    "open-epg-br": {
+      "source_id": "open-epg-br",
+      "checked_at": "2026-10-16T01:06:26Z",
+      "priority": 40,
+      "url": "https://www.open-epg.com/files/brazil3.xml",
+      "last_success_at": "2026-10-16T01:06:26Z",
+      "consecutive_failures": 0,
+      "status": "healthy",
+      "http_status": 200,
+      "content_type": "application/force-download",
+      "bytes": 3834662,
+      "channel_count": 159,
+      "programme_count_total": 10659,
+      "programme_count_window_78h": 1516,
+      "error": null
+    },
+    "iptv-epg-br": {
+      "source_id": "iptv-epg-br",
+      "checked_at": "2026-10-16T01:06:26Z",
+      "priority": 30,
+      "url": "https://iptv-epg.org/files/epg-br.xml",
+      "last_success_at": "2026-10-16T01:06:26Z",
+      "consecutive_failures": 0,
+      "status": "healthy",
+      "http_status": 200,
+      "content_type": "text/xml; charset=utf-8",
+      "bytes": 15664947,
+      "channel_count": 182,
+      "programme_count_total": 28512,
+      "programme_count_window_78h": 17328,
+      "error": null
+    }
+  }
 }

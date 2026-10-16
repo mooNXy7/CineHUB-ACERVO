@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:32:29.225863+00:00",
+  "generated_at": "2026-10-16T01:06:26Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -1256,30 +1256,54 @@
       "name": "Assombrações",
       "group": "24 Horas",
       "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "620d1512c7986a0007220213",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "620d1512c7986a0007220213",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.bob-esponja-calca-quadrada",
       "name": "Bob Esponja Calça Quadrada",
       "group": "24 Horas",
       "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "62545c0b002f4b0007688b61",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 24
+      "source_candidates_pending_review": 24,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "62545c0b002f4b0007688b61",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.boruto-naruto-next-generations",
       "name": "Boruto: Naruto Next Generations",
       "group": "24 Horas",
       "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "656f389c3944b60008e5bdab",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "656f389c3944b60008e5bdab",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.canal-educacao",
@@ -1398,30 +1422,54 @@
       "name": "MTV Biggest Pop",
       "group": "Variedades",
       "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "6047fbdbbb776a0007e7f2ff",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "6047fbdbbb776a0007e7f2ff",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.mtv-rocks",
       "name": "MTV Rocks",
       "group": "Variedades",
       "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "66a01e07d2d50d0008100d6a",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "66a01e07d2d50d0008100d6a",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.masterchef",
       "name": "MasterChef",
       "group": "24 Horas",
       "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
-      "epg_id": null,
+      "epg_id": "6077045b6031bd00078de127",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 2
+      "source_candidates_pending_review": 2,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "6077045b6031bd00078de127",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.mytime-movie-network",
@@ -1468,20 +1516,36 @@
       "name": "Nickelodeon iCarly",
       "group": "24 Horas",
       "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "620ff46e0a576e0007dc2f89",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "620ff46e0a576e0007dc2f89",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.pluto-tv-anime",
       "name": "Pluto TV Anime",
       "group": "Pluto TV",
       "logo_url": "https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1785430875394.png",
-      "epg_id": null,
+      "epg_id": "5f12136385bccc00070142ed",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "5f12136385bccc00070142ed",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.rede-tv",
@@ -1498,20 +1562,36 @@
       "name": "Runtime",
       "group": "Filmes e Séries",
       "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "62c5d32e2c48f9000715b6e9",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "62c5d32e2c48f9000715b6e9",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.smithsonian-channel-pluto-tv",
       "name": "Smithsonian Channel Pluto TV",
       "group": "Pluto TV",
       "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png",
-      "epg_id": null,
+      "epg_id": "6298bd10d88ef000073f16b7",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 1
+      "source_candidates_pending_review": 1,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "6298bd10d88ef000073f16b7",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "br.travel-box-brazil",

@@ -1,9 +1,2111 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-10-16T01:06:26Z",
   "window_hours": {
     "past": 6,
     "future": 72
   },
-  "sources": {}
+  "sources": {
+    "pluto-br-xmltv": {
+      "source_id": "pluto-br-xmltv",
+      "fetched_at": "2026-10-16T01:06:26Z",
+      "channel_count": 179,
+      "channels": [
+        {
+          "id": "5f120e94a5714d00074576a1",
+          "display_names": []
+        },
+        {
+          "id": "5f120f41b7d403000783a6d6",
+          "display_names": []
+        },
+        {
+          "id": "5f12111c9e6c2c00078ef3bb",
+          "display_names": []
+        },
+        {
+          "id": "5f171d3442a0500007362f22",
+          "display_names": []
+        },
+        {
+          "id": "5fa15ad6367e170007cdd098",
+          "display_names": []
+        },
+        {
+          "id": "6479ff764f5ba5000878dfe2",
+          "display_names": []
+        },
+        {
+          "id": "6806d62369aec5b19cd628c0",
+          "display_names": []
+        },
+        {
+          "id": "5f12101f0b12f00007844c7c",
+          "display_names": []
+        },
+        {
+          "id": "62545ed3dab4380007582f7c",
+          "display_names": []
+        },
+        {
+          "id": "5f171f988ab9780007fa95ea",
+          "display_names": []
+        },
+        {
+          "id": "5f1210d14ae1f80007bafb1d",
+          "display_names": []
+        },
+        {
+          "id": "663b9dc7cb3ea10008f1a0ce",
+          "display_names": []
+        },
+        {
+          "id": "5fa1612a669ba0000702017b",
+          "display_names": []
+        },
+        {
+          "id": "6a5520365badf45d3088b8d8",
+          "display_names": []
+        },
+        {
+          "id": "66aa67493a4ad2000806d91b",
+          "display_names": []
+        },
+        {
+          "id": "685daaab9029059b2da9cb9a",
+          "display_names": []
+        },
+        {
+          "id": "6a7caf2321d112e4a89fb38b",
+          "display_names": []
+        },
+        {
+          "id": "6a91ac590c9f5239c28ef0b3",
+          "display_names": []
+        },
+        {
+          "id": "61b790b985706b00072cb797",
+          "display_names": []
+        },
+        {
+          "id": "66c79a4262e5510008ff68a5",
+          "display_names": []
+        },
+        {
+          "id": "5f171f032cd22e0007f17f3d",
+          "display_names": []
+        },
+        {
+          "id": "5fa991b1f09e020007e78626",
+          "display_names": []
+        },
+        {
+          "id": "5f5a545d0dbf7f0007c09408",
+          "display_names": []
+        },
+        {
+          "id": "663b9de4f999220008230fa8",
+          "display_names": []
+        },
+        {
+          "id": "62c5d32e2c48f9000715b6e9",
+          "display_names": []
+        },
+        {
+          "id": "633dcebd80386500074a2461",
+          "display_names": []
+        },
+        {
+          "id": "6a281c0302b6c1c00a1fe570",
+          "display_names": []
+        },
+        {
+          "id": "6474ab5cdc7a760008745008",
+          "display_names": []
+        },
+        {
+          "id": "63eb9c5351f5d000085e8d7e",
+          "display_names": []
+        },
+        {
+          "id": "69fcc8cfb83300b380051794",
+          "display_names": []
+        },
+        {
+          "id": "63eb9fdda995710008991c54",
+          "display_names": []
+        },
+        {
+          "id": "67f960c5441853fe50e7afc1",
+          "display_names": []
+        },
+        {
+          "id": "6474ab1da51cb80008bfb5f4",
+          "display_names": []
+        },
+        {
+          "id": "64ff2d8c6625510008c5a512",
+          "display_names": []
+        },
+        {
+          "id": "678aa104680721c77c506746",
+          "display_names": []
+        },
+        {
+          "id": "63d2ba2f60bc8f0008981a0e",
+          "display_names": []
+        },
+        {
+          "id": "66b3af48d2d50d00083d6936",
+          "display_names": []
+        },
+        {
+          "id": "67e59a6557487a8b7fe73e23",
+          "display_names": []
+        },
+        {
+          "id": "65f060d84e01740008d7421f",
+          "display_names": []
+        },
+        {
+          "id": "691627e4a29a6123e400b3e0",
+          "display_names": []
+        },
+        {
+          "id": "67f9602ee173fa5664fafae8",
+          "display_names": []
+        },
+        {
+          "id": "655e5bc94261ca000810cb17",
+          "display_names": []
+        },
+        {
+          "id": "6a5520691a435d3dfcda8340",
+          "display_names": []
+        },
+        {
+          "id": "69c71615a8ef5d7f33e7322e",
+          "display_names": []
+        },
+        {
+          "id": "5ff768b6a4c8b80008498610",
+          "display_names": []
+        },
+        {
+          "id": "64e501eec630a900088ed0f8",
+          "display_names": []
+        },
+        {
+          "id": "5f99ac4fded33000078f29ab",
+          "display_names": []
+        },
+        {
+          "id": "69162ad79505d0f3b1ebf07d",
+          "display_names": []
+        },
+        {
+          "id": "69162af591700f4c4c135c95",
+          "display_names": []
+        },
+        {
+          "id": "69162b1ef189e235142b17ab",
+          "display_names": []
+        },
+        {
+          "id": "5f1212ad1728050007a523b8",
+          "display_names": []
+        },
+        {
+          "id": "631fa8dd7f25240007099a40",
+          "display_names": []
+        },
+        {
+          "id": "61f1d27a189ed10007b7393e",
+          "display_names": []
+        },
+        {
+          "id": "63eb9dc84e83e70008abea92",
+          "display_names": []
+        },
+        {
+          "id": "62052d3b4eeb740007fbe125",
+          "display_names": []
+        },
+        {
+          "id": "5ff609de50ab210008025c1b",
+          "display_names": []
+        },
+        {
+          "id": "655e5c4d2c46f3000877a54b",
+          "display_names": []
+        },
+        {
+          "id": "68b88ae1943f6fb1fb2ad749",
+          "display_names": []
+        },
+        {
+          "id": "69162648d03565d6c8c8df97",
+          "display_names": []
+        },
+        {
+          "id": "677d93f37bffa600080795e7",
+          "display_names": []
+        },
+        {
+          "id": "5f512365abe1f50007d3ff56",
+          "display_names": []
+        },
+        {
+          "id": "6a281d2bd1e6d3ba6b553c7c",
+          "display_names": []
+        },
+        {
+          "id": "6a565d9022790c74de2e98f6",
+          "display_names": []
+        },
+        {
+          "id": "69c716efeac9a2720ebcaaff",
+          "display_names": []
+        },
+        {
+          "id": "6077045b6031bd00078de127",
+          "display_names": []
+        },
+        {
+          "id": "681110afc188aa63faa147e0",
+          "display_names": []
+        },
+        {
+          "id": "681111be5e0764e297fb200e",
+          "display_names": []
+        },
+        {
+          "id": "6647c0b91050b60008390de4",
+          "display_names": []
+        },
+        {
+          "id": "69fca82395df3283d2b60ef9",
+          "display_names": []
+        },
+        {
+          "id": "5f1212fb81e85c00077ae9ef",
+          "display_names": []
+        },
+        {
+          "id": "6851bdfc9ac48fde5e07f5ae",
+          "display_names": []
+        },
+        {
+          "id": "6851bb3426beced4f2f67ee6",
+          "display_names": []
+        },
+        {
+          "id": "645111f1d8436e00081bb2bd",
+          "display_names": []
+        },
+        {
+          "id": "625463563b8ddc0007134aeb",
+          "display_names": []
+        },
+        {
+          "id": "61a528267e1b8b0007357920",
+          "display_names": []
+        },
+        {
+          "id": "620fdc7d8a36fc000710e3ba",
+          "display_names": []
+        },
+        {
+          "id": "626c2a3502d84a0007cec817",
+          "display_names": []
+        },
+        {
+          "id": "5f6108d8cc331900075e98e4",
+          "display_names": []
+        },
+        {
+          "id": "66a01e07d2d50d0008100d6a",
+          "display_names": []
+        },
+        {
+          "id": "66a01dcb8561260008b0a41d",
+          "display_names": []
+        },
+        {
+          "id": "6047fbdbbb776a0007e7f2ff",
+          "display_names": []
+        },
+        {
+          "id": "63dac32bda711800088a2ba3",
+          "display_names": []
+        },
+        {
+          "id": "604b91e0692f770007d9f33f",
+          "display_names": []
+        },
+        {
+          "id": "6a74c036a311e7c50e8c1ba6",
+          "display_names": []
+        },
+        {
+          "id": "5f1213ba0ecebc00070e170f",
+          "display_names": []
+        },
+        {
+          "id": "681ba2ad93d3d19bcab47433",
+          "display_names": []
+        },
+        {
+          "id": "604a8dedbca75b0007b1c753",
+          "display_names": []
+        },
+        {
+          "id": "6474aa984cfc2c0008883a92",
+          "display_names": []
+        },
+        {
+          "id": "6a74c028c1842722eafad356",
+          "display_names": []
+        },
+        {
+          "id": "5f32d4d9ec194100070c7449",
+          "display_names": []
+        },
+        {
+          "id": "656e2a4b4261ca00083aa99e",
+          "display_names": []
+        },
+        {
+          "id": "69fca7fadf0b6d462c0a0ac3",
+          "display_names": []
+        },
+        {
+          "id": "61bb72a7bf8c520007a8fd27",
+          "display_names": []
+        },
+        {
+          "id": "64ad7394798def00087b2bfe",
+          "display_names": []
+        },
+        {
+          "id": "6014761dfb91870008ea6463",
+          "display_names": []
+        },
+        {
+          "id": "6298bd10d88ef000073f16b7",
+          "display_names": []
+        },
+        {
+          "id": "5f1ef1a8cec6be00072a7ac9",
+          "display_names": []
+        },
+        {
+          "id": "5fac52f142044f00078e2a51",
+          "display_names": []
+        },
+        {
+          "id": "6806d65e84f24b70109485fa",
+          "display_names": []
+        },
+        {
+          "id": "620d1512c7986a0007220213",
+          "display_names": []
+        },
+        {
+          "id": "656e2a81954b020008ed17a4",
+          "display_names": []
+        },
+        {
+          "id": "656e2a10954b020008ed167c",
+          "display_names": []
+        },
+        {
+          "id": "5f32cf37c9ff2b00082adbc8",
+          "display_names": []
+        },
+        {
+          "id": "678fdf9e3de7c8cf948e8824",
+          "display_names": []
+        },
+        {
+          "id": "620d12a82e8ac50007c269c3",
+          "display_names": []
+        },
+        {
+          "id": "638df93ae2f2a3000737c168",
+          "display_names": []
+        },
+        {
+          "id": "62b5c5a064163d0007b2efe6",
+          "display_names": []
+        },
+        {
+          "id": "679a973a97782f0008ff4bb6",
+          "display_names": []
+        },
+        {
+          "id": "62310f66d5888f0007534342",
+          "display_names": []
+        },
+        {
+          "id": "666c9c60a7efd40008f552f0",
+          "display_names": []
+        },
+        {
+          "id": "619e6614c9d9650007a2b171",
+          "display_names": []
+        },
+        {
+          "id": "6102e04e9ab1db0007a980a1",
+          "display_names": []
+        },
+        {
+          "id": "6317ba014d4d040007227f72",
+          "display_names": []
+        },
+        {
+          "id": "62e010e6cd663f0007e57dc8",
+          "display_names": []
+        },
+        {
+          "id": "64b9370b409629000802d32b",
+          "display_names": []
+        },
+        {
+          "id": "698392af0cca0cc3458666ab",
+          "display_names": []
+        },
+        {
+          "id": "5f32d2db0af67400077f29c4",
+          "display_names": []
+        },
+        {
+          "id": "67813f3162bf016db944c9ab",
+          "display_names": []
+        },
+        {
+          "id": "66997e8d3a4ad20008e50be9",
+          "display_names": []
+        },
+        {
+          "id": "6888ee858f4a4aa11feb9430",
+          "display_names": []
+        },
+        {
+          "id": "65a6818c7bdc8d0008457b21",
+          "display_names": []
+        },
+        {
+          "id": "69a20556814d27f4ae630a92",
+          "display_names": []
+        },
+        {
+          "id": "6660b636cb3ea10008429c6a",
+          "display_names": []
+        },
+        {
+          "id": "64f6180130ab3300083d896b",
+          "display_names": []
+        },
+        {
+          "id": "6a68dc0a75fd5e3828f10b10",
+          "display_names": []
+        },
+        {
+          "id": "63eba66da8b2270008436b10",
+          "display_names": []
+        },
+        {
+          "id": "65df71008b24c80008f04281",
+          "display_names": []
+        },
+        {
+          "id": "65df704366eec8000898e32f",
+          "display_names": []
+        },
+        {
+          "id": "65df713dec9fda0008b7a81d",
+          "display_names": []
+        },
+        {
+          "id": "65df70b0f7f0af0008c3b316",
+          "display_names": []
+        },
+        {
+          "id": "609ae66b359b270007869ff1",
+          "display_names": []
+        },
+        {
+          "id": "69fca7dd2387729708faa32c",
+          "display_names": []
+        },
+        {
+          "id": "5f357e91b18f0b00073583d2",
+          "display_names": []
+        },
+        {
+          "id": "69440d0611f6c6384ab78306",
+          "display_names": []
+        },
+        {
+          "id": "67802a22a5d8215f99dcee30",
+          "display_names": []
+        },
+        {
+          "id": "5f5141c1605ddf000748eb1b",
+          "display_names": []
+        },
+        {
+          "id": "5f515ebac01c0f00080e8439",
+          "display_names": []
+        },
+        {
+          "id": "66a7d0e0cd0d310008448610",
+          "display_names": []
+        },
+        {
+          "id": "5f32d432d612e50007e56133",
+          "display_names": []
+        },
+        {
+          "id": "67603668f433320008760af1",
+          "display_names": []
+        },
+        {
+          "id": "5f1ef23020a5ac0007e5e8ea",
+          "display_names": []
+        },
+        {
+          "id": "633ee9ba83c08f00076b60a6",
+          "display_names": []
+        },
+        {
+          "id": "5fd1419a3b4f4b000773ba85",
+          "display_names": []
+        },
+        {
+          "id": "68b88821e542386ab0bf5bef",
+          "display_names": []
+        },
+        {
+          "id": "68b8875777201ec428d9eaa5",
+          "display_names": []
+        },
+        {
+          "id": "61099df8cee03b00074b2ecf",
+          "display_names": []
+        },
+        {
+          "id": "5f12136385bccc00070142ed",
+          "display_names": []
+        },
+        {
+          "id": "604b79c558393100078faeef",
+          "display_names": []
+        },
+        {
+          "id": "687007a8ee4155e89a8f6d67",
+          "display_names": []
+        },
+        {
+          "id": "5f6df5a173d7340007c559f7",
+          "display_names": []
+        },
+        {
+          "id": "64c92f965580090008084968",
+          "display_names": []
+        },
+        {
+          "id": "656f389c3944b60008e5bdab",
+          "display_names": []
+        },
+        {
+          "id": "65d9167818036500080e8780",
+          "display_names": []
+        },
+        {
+          "id": "625464a945b6a200079257d1",
+          "display_names": []
+        },
+        {
+          "id": "66c7982f6838ee00085f0d24",
+          "display_names": []
+        },
+        {
+          "id": "63988c2750108d00072e2686",
+          "display_names": []
+        },
+        {
+          "id": "63988a50be012600070f5db3",
+          "display_names": []
+        },
+        {
+          "id": "633dc392e0282400071b0d39",
+          "display_names": []
+        },
+        {
+          "id": "66b26681d2d50d00083abe8b",
+          "display_names": []
+        },
+        {
+          "id": "624b1c8d4321e200073ee421",
+          "display_names": []
+        },
+        {
+          "id": "5f12141b146d760007934ea7",
+          "display_names": []
+        },
+        {
+          "id": "5f1214a637c6fd00079c652f",
+          "display_names": []
+        },
+        {
+          "id": "66c8cae7fed35b0008580ec0",
+          "display_names": []
+        },
+        {
+          "id": "5f997e44949bc70007a6941e",
+          "display_names": []
+        },
+        {
+          "id": "5f5c216df68f920007888315",
+          "display_names": []
+        },
+        {
+          "id": "63221bafdc6e110007b50270",
+          "display_names": []
+        },
+        {
+          "id": "63eba189c111bc0008ff59c5",
+          "display_names": []
+        },
+        {
+          "id": "62d969fd8451a30007f0fd94",
+          "display_names": []
+        },
+        {
+          "id": "63da6bcd60bc8f0008a5d364",
+          "display_names": []
+        },
+        {
+          "id": "645951c0e94c38000802d2cb",
+          "display_names": []
+        },
+        {
+          "id": "6824ce10c5d53e1351ceb8d1",
+          "display_names": []
+        },
+        {
+          "id": "62545c0b002f4b0007688b61",
+          "display_names": []
+        },
+        {
+          "id": "63221e41af69b500076f84e7",
+          "display_names": []
+        },
+        {
+          "id": "63dd5c904e83e700088fb68a",
+          "display_names": []
+        },
+        {
+          "id": "6759eeb1bd523200083b4f29",
+          "display_names": []
+        },
+        {
+          "id": "6824ce95f09106f4b18f4114",
+          "display_names": []
+        },
+        {
+          "id": "60f5fabf0721880007cd50e3",
+          "display_names": []
+        },
+        {
+          "id": "620ff46e0a576e0007dc2f89",
+          "display_names": []
+        },
+        {
+          "id": "5ffcc5130fd98c0007f2e216",
+          "display_names": []
+        }
+      ]
+    },
+    "open-epg-br": {
+      "source_id": "open-epg-br",
+      "fetched_at": "2026-10-16T01:06:26Z",
+      "channel_count": 159,
+      "channels": [
+        {
+          "id": "A_E.br",
+          "display_names": []
+        },
+        {
+          "id": "Adult Swim HD.br",
+          "display_names": []
+        },
+        {
+          "id": "AGROMAIS.br",
+          "display_names": []
+        },
+        {
+          "id": "AMC HD.br",
+          "display_names": []
+        },
+        {
+          "id": "ANIMAL PLANET HD.br",
+          "display_names": []
+        },
+        {
+          "id": "ARTE 1 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "AXN.br",
+          "display_names": []
+        },
+        {
+          "id": "BABYTV.br",
+          "display_names": []
+        },
+        {
+          "id": "BAND HD.br",
+          "display_names": []
+        },
+        {
+          "id": "BAND NEWS.br",
+          "display_names": []
+        },
+        {
+          "id": "BAND SPORTS HD.br",
+          "display_names": []
+        },
+        {
+          "id": "BBC WORLD NEWS.br",
+          "display_names": []
+        },
+        {
+          "id": "BIS HD.br",
+          "display_names": []
+        },
+        {
+          "id": "BLOOMBERG TV.br",
+          "display_names": []
+        },
+        {
+          "id": "BM&C HD.br",
+          "display_names": []
+        },
+        {
+          "id": "C3-TV.br",
+          "display_names": []
+        },
+        {
+          "id": "CANAL BRASIL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CANAL DO BOI.br",
+          "display_names": []
+        },
+        {
+          "id": "CANAL RURAL.br",
+          "display_names": []
+        },
+        {
+          "id": "CANAL UOL.br",
+          "display_names": []
+        },
+        {
+          "id": "CANÇÍO NOVA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CARTOON HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CARTOONITO.br",
+          "display_names": []
+        },
+        {
+          "id": "CBI.br",
+          "display_names": []
+        },
+        {
+          "id": "CGTN.br",
+          "display_names": []
+        },
+        {
+          "id": "Cinecanal.br",
+          "display_names": []
+        },
+        {
+          "id": "CINEMAX HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CNN Brasil Money HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CNN BRASIL.br",
+          "display_names": []
+        },
+        {
+          "id": "CNN INTERNATIONAL.br",
+          "display_names": []
+        },
+        {
+          "id": "COMBATE HD.br",
+          "display_names": []
+        },
+        {
+          "id": "COMEDY CENTRAL.br",
+          "display_names": []
+        },
+        {
+          "id": "CULTURA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "CURTA.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY HOME&HEALTH HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY KIDS HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY SCIENCE HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY THEATER HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY TURBO HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISCOVERY WORLD HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DISNEY CHANNEL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DOG TV HD.br",
+          "display_names": []
+        },
+        {
+          "id": "DW-TV.br",
+          "display_names": []
+        },
+        {
+          "id": "E.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN 2.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN 3.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN 4.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN 5.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN 6.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN.br",
+          "display_names": []
+        },
+        {
+          "id": "EUROCHANNEL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "FASHION TV.br",
+          "display_names": []
+        },
+        {
+          "id": "FILM & ARTS.br",
+          "display_names": []
+        },
+        {
+          "id": "FISH TV.br",
+          "display_names": []
+        },
+        {
+          "id": "FOOD NETWORK HD.br",
+          "display_names": []
+        },
+        {
+          "id": "FRANCE 24 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "FUTURA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "FX HD.br",
+          "display_names": []
+        },
+        {
+          "id": "GAZETA.br",
+          "display_names": []
+        },
+        {
+          "id": "GLOBO NEWS.br",
+          "display_names": []
+        },
+        {
+          "id": "GLOBO SÍO PAULO.br",
+          "display_names": []
+        },
+        {
+          "id": "GLOOB HD.br",
+          "display_names": []
+        },
+        {
+          "id": "GLOOBINHO HD.br",
+          "display_names": []
+        },
+        {
+          "id": "GNT HD.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO Family.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO Mundi.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO Pop.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO Signature.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO Xtreme.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO+.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO2.br",
+          "display_names": []
+        },
+        {
+          "id": "HGTV HD.br",
+          "display_names": []
+        },
+        {
+          "id": "HISTORY.br",
+          "display_names": []
+        },
+        {
+          "id": "HISTORY2.br",
+          "display_names": []
+        },
+        {
+          "id": "ID HD.br",
+          "display_names": []
+        },
+        {
+          "id": "JOVEM PAN NEWS.br",
+          "display_names": []
+        },
+        {
+          "id": "LBV.br",
+          "display_names": []
+        },
+        {
+          "id": "LIFETIME.br",
+          "display_names": []
+        },
+        {
+          "id": "Like + | Claro tv+.br",
+          "display_names": []
+        },
+        {
+          "id": "LIKE.br",
+          "display_names": []
+        },
+        {
+          "id": "LMC+HD.br",
+          "display_names": []
+        },
+        {
+          "id": "MEGAPIX HD.br",
+          "display_names": []
+        },
+        {
+          "id": "MEZZO HD.br",
+          "display_names": []
+        },
+        {
+          "id": "Modo Viagem.br",
+          "display_names": []
+        },
+        {
+          "id": "MTV HD.br",
+          "display_names": []
+        },
+        {
+          "id": "MTV LIVE.br",
+          "display_names": []
+        },
+        {
+          "id": "MTVs_00.br",
+          "display_names": []
+        },
+        {
+          "id": "MULTISHOW HD.br",
+          "display_names": []
+        },
+        {
+          "id": "MUSIC BOX BRAZIL.br",
+          "display_names": []
+        },
+        {
+          "id": "NATIONAL GEOGRAPHIC HD.br",
+          "display_names": []
+        },
+        {
+          "id": "NICK JR.br",
+          "display_names": []
+        },
+        {
+          "id": "NICKELODEON HD.br",
+          "display_names": []
+        },
+        {
+          "id": "NOSSO FUTEBOL + 1.br",
+          "display_names": []
+        },
+        {
+          "id": "NOSSO FUTEBOL + 2.br",
+          "display_names": []
+        },
+        {
+          "id": "NOSSO FUTEBOL + 3.br",
+          "display_names": []
+        },
+        {
+          "id": "NOSSO FUTEBOL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "Nsports HD.br",
+          "display_names": []
+        },
+        {
+          "id": "OFF HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PARAMOUNT NETWORK.br",
+          "display_names": []
+        },
+        {
+          "id": "Paramount+ 1.br",
+          "display_names": []
+        },
+        {
+          "id": "Paramount+ 2.br",
+          "display_names": []
+        },
+        {
+          "id": "Paramount+ 3.br",
+          "display_names": []
+        },
+        {
+          "id": "Paramount+ 4.br",
+          "display_names": []
+        },
+        {
+          "id": "PLAY TV.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE CLUBES HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE2 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE3 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE4 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE5 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE6 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE7 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PREMIERE8 HD.br",
+          "display_names": []
+        },
+        {
+          "id": "PRIME BOX BRAZIL.br",
+          "display_names": []
+        },
+        {
+          "id": "RAI INTERNATIONAL.br",
+          "display_names": []
+        },
+        {
+          "id": "RECORD HD.br",
+          "display_names": []
+        },
+        {
+          "id": "RECORD NEWS.br",
+          "display_names": []
+        },
+        {
+          "id": "REDE GOSPEL.br",
+          "display_names": []
+        },
+        {
+          "id": "REDE TV.br",
+          "display_names": []
+        },
+        {
+          "id": "REDE VIDA.br",
+          "display_names": []
+        },
+        {
+          "id": "Sabor & Arte.br",
+          "display_names": []
+        },
+        {
+          "id": "SBT.br",
+          "display_names": []
+        },
+        {
+          "id": "SIC INTERNACIONAL.br",
+          "display_names": []
+        },
+        {
+          "id": "SONY CHANNEL.br",
+          "display_names": []
+        },
+        {
+          "id": "SPACE HD.br",
+          "display_names": []
+        },
+        {
+          "id": "SPORTV 2.br",
+          "display_names": []
+        },
+        {
+          "id": "SPORTV 3.br",
+          "display_names": []
+        },
+        {
+          "id": "SPORTV.br",
+          "display_names": []
+        },
+        {
+          "id": "STAR CHANNEL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "STUDIO UNIVERSAL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TCM BR.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE ACTION.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE CULT.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE FUN.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE PIPOCA.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE PREMIUM.br",
+          "display_names": []
+        },
+        {
+          "id": "TELECINE TOUCH.br",
+          "display_names": []
+        },
+        {
+          "id": "TIMES | Exclusivo CNBC.br",
+          "display_names": []
+        },
+        {
+          "id": "TLC HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TNT HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TNT NOVELAS.br",
+          "display_names": []
+        },
+        {
+          "id": "TNT SERIES HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TRACE BRASIL HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TRAVEL BOX.br",
+          "display_names": []
+        },
+        {
+          "id": "TRIP BRASIL CHANNEL.br",
+          "display_names": []
+        },
+        {
+          "id": "TV APARECIDA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "TV BRASIL.br",
+          "display_names": []
+        },
+        {
+          "id": "TV RA TIM BUM.br",
+          "display_names": []
+        },
+        {
+          "id": "TV5 MONDE.br",
+          "display_names": []
+        },
+        {
+          "id": "TVE INTERNATIONAL.br",
+          "display_names": []
+        },
+        {
+          "id": "UNIVERSAL PREMIERE HD.br",
+          "display_names": []
+        },
+        {
+          "id": "UNIVERSAL REALITY.br",
+          "display_names": []
+        },
+        {
+          "id": "UNIVERSAL TV HD.br",
+          "display_names": []
+        },
+        {
+          "id": "USA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "VIVA HD.br",
+          "display_names": []
+        },
+        {
+          "id": "WARNER CHANNEL.br",
+          "display_names": []
+        },
+        {
+          "id": "WOOHOO HD.br",
+          "display_names": []
+        },
+        {
+          "id": "ZOOMOO HD.br",
+          "display_names": []
+        }
+      ]
+    },
+    "iptv-epg-br": {
+      "source_id": "iptv-epg-br",
+      "fetched_at": "2026-10-16T01:06:26Z",
+      "channel_count": 182,
+      "channels": [
+        {
+          "id": "MaisGlobosat.br",
+          "display_names": []
+        },
+        {
+          "id": "AandE.br",
+          "display_names": []
+        },
+        {
+          "id": "AMC.br",
+          "display_names": []
+        },
+        {
+          "id": "AnimalPlanet.br",
+          "display_names": []
+        },
+        {
+          "id": "Arte1.br",
+          "display_names": []
+        },
+        {
+          "id": "AXN.br",
+          "display_names": []
+        },
+        {
+          "id": "BabyTV.br",
+          "display_names": []
+        },
+        {
+          "id": "BandBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "BandCampinas.br",
+          "display_names": []
+        },
+        {
+          "id": "BandNews.br",
+          "display_names": []
+        },
+        {
+          "id": "BandRJ.br",
+          "display_names": []
+        },
+        {
+          "id": "BandSP.br",
+          "display_names": []
+        },
+        {
+          "id": "BandSports.br",
+          "display_names": []
+        },
+        {
+          "id": "BBBMosaico.br",
+          "display_names": []
+        },
+        {
+          "id": "BIS.br",
+          "display_names": []
+        },
+        {
+          "id": "CanalBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "CanaldoBoi.br",
+          "display_names": []
+        },
+        {
+          "id": "CanalGov.br",
+          "display_names": []
+        },
+        {
+          "id": "CanalRural.br",
+          "display_names": []
+        },
+        {
+          "id": "CartoonNetwork.br",
+          "display_names": []
+        },
+        {
+          "id": "Cartoonito.br",
+          "display_names": []
+        },
+        {
+          "id": "ChefTV.br",
+          "display_names": []
+        },
+        {
+          "id": "Cinemax.br",
+          "display_names": []
+        },
+        {
+          "id": "CNN.br",
+          "display_names": []
+        },
+        {
+          "id": "CNNBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "CNT.br",
+          "display_names": []
+        },
+        {
+          "id": "Combate.br",
+          "display_names": []
+        },
+        {
+          "id": "ComedyCentral.br",
+          "display_names": []
+        },
+        {
+          "id": "CONMEBOLTV1.br",
+          "display_names": []
+        },
+        {
+          "id": "CONMEBOLTV2.br",
+          "display_names": []
+        },
+        {
+          "id": "CONMEBOLTV3.br",
+          "display_names": []
+        },
+        {
+          "id": "CONMEBOLTV4.br",
+          "display_names": []
+        },
+        {
+          "id": "Cultura.br",
+          "display_names": []
+        },
+        {
+          "id": "Curta.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryCivilization.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryHomeandHealth.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryKids.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryScience.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryTheater.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryTurbo.br",
+          "display_names": []
+        },
+        {
+          "id": "DiscoveryWorld.br",
+          "display_names": []
+        },
+        {
+          "id": "DisneyChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "DisneyJunior.br",
+          "display_names": []
+        },
+        {
+          "id": "DisneyXD.br",
+          "display_names": []
+        },
+        {
+          "id": "DOGTV.br",
+          "display_names": []
+        },
+        {
+          "id": "E.br",
+          "display_names": []
+        },
+        {
+          "id": "EPTVCampinas.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN2.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN3.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN4.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN5.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPN6.br",
+          "display_names": []
+        },
+        {
+          "id": "ESPNPlus.br",
+          "display_names": []
+        },
+        {
+          "id": "FashionTV.br",
+          "display_names": []
+        },
+        {
+          "id": "FIFA+.br",
+          "display_names": []
+        },
+        {
+          "id": "filmandarts.br",
+          "display_names": []
+        },
+        {
+          "id": "FishTV.br",
+          "display_names": []
+        },
+        {
+          "id": "FoodNetwork.br",
+          "display_names": []
+        },
+        {
+          "id": "FoxNewsChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "Futura.br",
+          "display_names": []
+        },
+        {
+          "id": "FX.br",
+          "display_names": []
+        },
+        {
+          "id": "GETV.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboAnhanguera.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboRJ.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboSP.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboInternacional.br",
+          "display_names": []
+        },
+        {
+          "id": "GloboNews.br",
+          "display_names": []
+        },
+        {
+          "id": "Gloob.br",
+          "display_names": []
+        },
+        {
+          "id": "Gloobinho.br",
+          "display_names": []
+        },
+        {
+          "id": "GNT.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO.br",
+          "display_names": []
+        },
+        {
+          "id": "HBO2.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOFamily.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOMundi.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOPlus.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOPop.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOSignature.br",
+          "display_names": []
+        },
+        {
+          "id": "HBOXtreme.br",
+          "display_names": []
+        },
+        {
+          "id": "HGTV.br",
+          "display_names": []
+        },
+        {
+          "id": "History2.br",
+          "display_names": []
+        },
+        {
+          "id": "HistoryChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "JovemPanNews.br",
+          "display_names": []
+        },
+        {
+          "id": "Lifetime.br",
+          "display_names": []
+        },
+        {
+          "id": "Megapix.br",
+          "display_names": []
+        },
+        {
+          "id": "MTV.br",
+          "display_names": []
+        },
+        {
+          "id": "MTVLive.br",
+          "display_names": []
+        },
+        {
+          "id": "Multishow.br",
+          "display_names": []
+        },
+        {
+          "id": "MusicBoxBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "NatGeoKids.br",
+          "display_names": []
+        },
+        {
+          "id": "NatGeoWild.br",
+          "display_names": []
+        },
+        {
+          "id": "NationalGeographic.br",
+          "display_names": []
+        },
+        {
+          "id": "NHK.br",
+          "display_names": []
+        },
+        {
+          "id": "Nick.br",
+          "display_names": []
+        },
+        {
+          "id": "NickJr.br",
+          "display_names": []
+        },
+        {
+          "id": "Off.br",
+          "display_names": []
+        },
+        {
+          "id": "ParamountChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "PolishopTV.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere2.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere3.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere4.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere5.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere6.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere7.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere8.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere9.br",
+          "display_names": []
+        },
+        {
+          "id": "Premiere10.br",
+          "display_names": []
+        },
+        {
+          "id": "PremiereClubes.br",
+          "display_names": []
+        },
+        {
+          "id": "PrimeBoxBrazil.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordNews.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordTVRJ.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordTVBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordTVInternational.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordTVSP.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeGospel.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeVida.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeTV.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeTVRJ.br",
+          "display_names": []
+        },
+        {
+          "id": "RedeTVSP.br",
+          "display_names": []
+        },
+        {
+          "id": "RITtv.br",
+          "display_names": []
+        },
+        {
+          "id": "SaborandArte.br",
+          "display_names": []
+        },
+        {
+          "id": "SBTBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "SBTRJ.br",
+          "display_names": []
+        },
+        {
+          "id": "SBTSP.br",
+          "display_names": []
+        },
+        {
+          "id": "Shoptime.br",
+          "display_names": []
+        },
+        {
+          "id": "Smithsonian.br",
+          "display_names": []
+        },
+        {
+          "id": "SonyChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "Space.br",
+          "display_names": []
+        },
+        {
+          "id": "SporTV.br",
+          "display_names": []
+        },
+        {
+          "id": "SporTV2.br",
+          "display_names": []
+        },
+        {
+          "id": "SporTV3.br",
+          "display_names": []
+        },
+        {
+          "id": "FOXPremiumAction.br",
+          "display_names": []
+        },
+        {
+          "id": "StarChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "FOXPremium1.br",
+          "display_names": []
+        },
+        {
+          "id": "FOXPremium2.br",
+          "display_names": []
+        },
+        {
+          "id": "StarLife.br",
+          "display_names": []
+        },
+        {
+          "id": "StudioUniversal.br",
+          "display_names": []
+        },
+        {
+          "id": "TBS.br",
+          "display_names": []
+        },
+        {
+          "id": "TCM.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecineAction.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecineCult.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecineFun.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecinePipoca.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecinePremium.br",
+          "display_names": []
+        },
+        {
+          "id": "TelecineTouch.br",
+          "display_names": []
+        },
+        {
+          "id": "TLC.br",
+          "display_names": []
+        },
+        {
+          "id": "TNT.br",
+          "display_names": []
+        },
+        {
+          "id": "TNTSeries.br",
+          "display_names": []
+        },
+        {
+          "id": "Tooncast.br",
+          "display_names": []
+        },
+        {
+          "id": "TravelBoxBrazil.br",
+          "display_names": []
+        },
+        {
+          "id": "TruTV.br",
+          "display_names": []
+        },
+        {
+          "id": "TVAparecida.br",
+          "display_names": []
+        },
+        {
+          "id": "TVBrasil.br",
+          "display_names": []
+        },
+        {
+          "id": "TVCaboBranco.br",
+          "display_names": []
+        },
+        {
+          "id": "TVCamara.br",
+          "display_names": []
+        },
+        {
+          "id": "Climatempo.br",
+          "display_names": []
+        },
+        {
+          "id": "TVGazeta.br",
+          "display_names": []
+        },
+        {
+          "id": "TVGazetaAlagoas.br",
+          "display_names": []
+        },
+        {
+          "id": "TVJustica.br",
+          "display_names": []
+        },
+        {
+          "id": "TVNovoTempo.br",
+          "display_names": []
+        },
+        {
+          "id": "TVRaTimBum.br",
+          "display_names": []
+        },
+        {
+          "id": "TVSenado.br",
+          "display_names": []
+        },
+        {
+          "id": "TVTEMSorocaba.br",
+          "display_names": []
+        },
+        {
+          "id": "TVTribunaSantos.br",
+          "display_names": []
+        },
+        {
+          "id": "Universal.br",
+          "display_names": []
+        },
+        {
+          "id": "UOL.br",
+          "display_names": []
+        },
+        {
+          "id": "USA.br",
+          "display_names": []
+        },
+        {
+          "id": "VH1.br",
+          "display_names": []
+        },
+        {
+          "id": "VH1Megahits.br",
+          "display_names": []
+        },
+        {
+          "id": "Viva.br",
+          "display_names": []
+        },
+        {
+          "id": "WarnerChannel.br",
+          "display_names": []
+        },
+        {
+          "id": "WooHoo.br",
+          "display_names": []
+        },
+        {
+          "id": "ZooMoo.br",
+          "display_names": []
+        },
+        {
+          "id": "RecordTVGoiás.br",
+          "display_names": []
+        },
+        {
+          "id": "CancaoNova.br",
+          "display_names": []
+        },
+        {
+          "id": "InvestigacaoDiscovery.br",
+          "display_names": []
+        },
+        {
+          "id": "EPTVRibeiraoPreto.br",
+          "display_names": []
+        },
+        {
+          "id": "TVVanguardaSaoJosedosCampos.br",
+          "display_names": []
+        },
+        {
+          "id": "TVACritica.br",
+          "display_names": []
+        }
+      ]
+    }
+  }
 }
