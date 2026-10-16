@@ -53,6 +53,17 @@
       "notes": "Fallback for explicitly mapped channels missing from the primary HTML schedule."
     },
     {
+      "id": "brazil-tv-epg",
+      "name": "EPG Brasil — catálogo combinado",
+      "type": "xmltv",
+      "format": "xmltv",
+      "url": "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml",
+      "priority": 25,
+      "enabled": true,
+      "match_strategy": "normalized_name_with_aliases",
+      "notes": "Feed XMLTV combinado já utilizado pelo pipeline de dados do CineHUB; fallback geral."
+    },
+    {
       "id": "iptv-epg-br",
       "name": "IPTV EPG Brasil",
       "type": "xmltv",
