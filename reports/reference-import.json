@@ -3,9 +3,9 @@
   "counts": {
     "channel_sources_added": 0,
     "skipped_urls": 320447,
-    "sources_added": 769701,
+    "sources_added": 769713,
     "provider_refs_added": 593731,
-    "movies": 37172,
+    "movies": 37178,
     "series": 11658,
     "anime": 2749,
     "doramas": 896,
@@ -20,5 +20,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-16T13:21:44.651296+00:00"
+  "generated_at": "2026-10-17T12:16:39.444561+00:00"
 }

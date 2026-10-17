@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T13:21:46Z",
+  "generated_at": "2026-10-17T12:16:41Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-16T13:21:46Z",
+      "fetched_at": "2026-10-17T12:16:41Z",
       "channel_count": 179,
       "channels": [
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-16T13:21:46Z",
+      "fetched_at": "2026-10-17T12:16:41Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-16T13:21:46Z",
+      "fetched_at": "2026-10-17T12:16:41Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,7 +3149,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-16T13:21:46Z",
+      "fetched_at": "2026-10-17T12:16:41Z",
       "channel_count": 493,
       "channels": [
         {
