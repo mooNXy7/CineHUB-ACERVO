@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T12:16:41Z",
+  "generated_at": "2026-10-18T12:40:21Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-17T12:16:41Z",
+      "fetched_at": "2026-10-18T12:40:21Z",
       "channel_count": 179,
       "channels": [
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-17T12:16:41Z",
+      "fetched_at": "2026-10-18T12:40:21Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-17T12:16:41Z",
+      "fetched_at": "2026-10-18T12:40:21Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,8 +3149,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-17T12:16:41Z",
-      "channel_count": 493,
+      "fetched_at": "2026-10-18T12:40:21Z",
+      "channel_count": 481,
       "channels": [
         {
           "id": "A&E",
@@ -5919,6 +5919,12 @@
           ]
         },
         {
+          "id": "Fonte TV",
+          "display_names": [
+            "Fonte TV"
+          ]
+        },
+        {
           "id": "France 24",
           "display_names": [
             "France 24"
@@ -6030,84 +6036,6 @@
           "id": "UFC Fight Pass",
           "display_names": [
             "UFC Fight Pass"
-          ]
-        },
-        {
-          "id": "Otaku",
-          "display_names": [
-            "Otaku"
-          ]
-        },
-        {
-          "id": "Urban Docs",
-          "display_names": [
-            "Urban Docs"
-          ]
-        },
-        {
-          "id": "Urban Drive",
-          "display_names": [
-            "Urban Drive"
-          ]
-        },
-        {
-          "id": "Urban Kids",
-          "display_names": [
-            "Urban Kids"
-          ]
-        },
-        {
-          "id": "Urban Movie",
-          "display_names": [
-            "Urban Movie"
-          ]
-        },
-        {
-          "id": "Urban Retro",
-          "display_names": [
-            "Urban Retro"
-          ]
-        },
-        {
-          "id": "Urban Series",
-          "display_names": [
-            "Urban Series"
-          ]
-        },
-        {
-          "id": "Urban Travel",
-          "display_names": [
-            "Urban Travel"
-          ]
-        },
-        {
-          "id": "ZooKids",
-          "display_names": [
-            "ZooKids"
-          ]
-        },
-        {
-          "id": "Moove Cine",
-          "display_names": [
-            "Moove Cine"
-          ]
-        },
-        {
-          "id": "Moove Cult",
-          "display_names": [
-            "Moove Cult"
-          ]
-        },
-        {
-          "id": "Moove Explore",
-          "display_names": [
-            "Moove Explore"
-          ]
-        },
-        {
-          "id": "Villa Kids",
-          "display_names": [
-            "Villa Kids"
           ]
         }
       ]
