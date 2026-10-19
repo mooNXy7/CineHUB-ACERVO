@@ -2544,7 +2544,15 @@
       "stream_url": "https://radioamc.com.br/stream/amc",
       "logo_url": "https://radioamc.com.br/shared/amclogo.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://radioamc.com.br/stream/amcplus",
+          "priority": 60,
+          "source_id": "reference-catalog",
+          "status": "pending_validation"
+        }
+      ]
     },
     {
       "id": "radio.radio-amiga-87-9-fm",
@@ -4616,7 +4624,15 @@
       "stream_url": "https://s27.maxcast.com.br:8103/live",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://srv1.braudio.com.br:7008/stream",
+          "priority": 60,
+          "source_id": "reference-catalog",
+          "status": "pending_validation"
+        }
+      ]
     },
     {
       "id": "radio.radio-som-brega",
