@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T15:44:23Z",
+  "generated_at": "2026-10-20T13:40:52Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-19T15:44:23Z",
+      "fetched_at": "2026-10-20T13:40:52Z",
       "channel_count": 179,
       "channels": [
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-19T15:44:23Z",
+      "fetched_at": "2026-10-20T13:40:52Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-19T15:44:23Z",
+      "fetched_at": "2026-10-20T13:40:52Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,7 +3149,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-19T15:44:23Z",
+      "fetched_at": "2026-10-20T13:40:52Z",
       "channel_count": 494,
       "channels": [
         {
@@ -3825,60 +3825,6 @@
           ]
         },
         {
-          "id": "Tooncast",
-          "display_names": [
-            "Tooncast"
-          ]
-        },
-        {
-          "id": "Travel Box Brasil",
-          "display_names": [
-            "Travel Box Brasil"
-          ]
-        },
-        {
-          "id": "Tv Gazeta",
-          "display_names": [
-            "Tv Gazeta"
-          ]
-        },
-        {
-          "id": "Universal TV",
-          "display_names": [
-            "Universal TV"
-          ]
-        },
-        {
-          "id": "Globoplay Novelas",
-          "display_names": [
-            "Globoplay Novelas"
-          ]
-        },
-        {
-          "id": "Warner Channel",
-          "display_names": [
-            "Warner Channel"
-          ]
-        },
-        {
-          "id": "Woohoo",
-          "display_names": [
-            "Woohoo"
-          ]
-        },
-        {
-          "id": "Xsports",
-          "display_names": [
-            "Xsports"
-          ]
-        },
-        {
-          "id": "truTV",
-          "display_names": [
-            "truTV"
-          ]
-        },
-        {
           "id": "BBC World News",
           "display_names": [
             "BBC World News"
@@ -3975,6 +3921,12 @@
           ]
         },
         {
+          "id": "TV Gazeta",
+          "display_names": [
+            "TV Gazeta"
+          ]
+        },
+        {
           "id": "TV Justiça",
           "display_names": [
             "TV Justiça"
@@ -3984,6 +3936,42 @@
           "id": "TV5 Monde",
           "display_names": [
             "TV5 Monde"
+          ]
+        },
+        {
+          "id": "Tooncast",
+          "display_names": [
+            "Tooncast"
+          ]
+        },
+        {
+          "id": "Travel Box Brasil",
+          "display_names": [
+            "Travel Box Brasil"
+          ]
+        },
+        {
+          "id": "Universal TV",
+          "display_names": [
+            "Universal TV"
+          ]
+        },
+        {
+          "id": "Globoplay Novelas",
+          "display_names": [
+            "Globoplay Novelas"
+          ]
+        },
+        {
+          "id": "Warner Channel",
+          "display_names": [
+            "Warner Channel"
+          ]
+        },
+        {
+          "id": "Woohoo",
+          "display_names": [
+            "Woohoo"
           ]
         },
         {
@@ -4140,6 +4128,12 @@
           "id": "Universal Reality",
           "display_names": [
             "Universal Reality"
+          ]
+        },
+        {
+          "id": "X Sports",
+          "display_names": [
+            "X Sports"
           ]
         },
         {
@@ -5826,6 +5820,12 @@
           "id": "Telefe",
           "display_names": [
             "Telefe"
+          ]
+        },
+        {
+          "id": "TruTV",
+          "display_names": [
+            "TruTV"
           ]
         },
         {

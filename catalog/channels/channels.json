@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T15:44:23Z",
+  "generated_at": "2026-10-20T13:40:52Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -50,7 +50,7 @@
         },
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "truTV",
+          "channel_id": "TruTV",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -2298,14 +2298,14 @@
       "name": "TV Gazeta",
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
-      "epg_id": "Tv Gazeta",
+      "epg_id": "TV Gazeta",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 6,
       "epg_sources": [
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "Tv Gazeta",
+          "channel_id": "TV Gazeta",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -2496,10 +2496,18 @@
       "name": "X Sports",
       "group": "Esportes",
       "logo_url": "https://img.faz-o-eli.online/xsports.png",
-      "epg_id": null,
+      "epg_id": "X Sports",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 14
+      "source_candidates_pending_review": 14,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "X Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "br.n-sports",
@@ -35714,7 +35722,7 @@
         },
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "truTV",
+          "channel_id": "TruTV",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -35761,7 +35769,7 @@
         },
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "truTV",
+          "channel_id": "TruTV",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -35808,7 +35816,7 @@
         },
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "truTV",
+          "channel_id": "TruTV",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -35850,7 +35858,7 @@
         },
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "truTV",
+          "channel_id": "TruTV",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -38510,7 +38518,7 @@
       "name": "X Sports FHD",
       "group": "Canais | Esportes",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "X Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/340449.ts",
@@ -38519,14 +38527,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "X Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-x-sports-hd",
       "name": "X Sports HD",
       "group": "Canais | Esportes",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "X Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/340450.ts",
@@ -38540,14 +38556,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "X Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-x-sports-sd",
       "name": "X Sports SD",
       "group": "Canais | Esportes",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "X Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/340451.ts",
@@ -38556,7 +38580,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "X Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-recordtv-paranaiba-uberlandia-sd",
@@ -46404,7 +46436,7 @@
       "name": "TV Gazeta HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Tv Gazeta",
+      "epg_id": "TV Gazeta",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501606",
@@ -46417,7 +46449,7 @@
       "epg_sources": [
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "Tv Gazeta",
+          "channel_id": "TV Gazeta",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -46434,7 +46466,7 @@
       "name": "TV Gazeta SD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Tv Gazeta",
+      "epg_id": "TV Gazeta",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501964",
@@ -46447,7 +46479,7 @@
       "epg_sources": [
         {
           "source_id": "brazil-tv-epg",
-          "channel_id": "Tv Gazeta",
+          "channel_id": "TV Gazeta",
           "priority": 25,
           "match": "exact_or_alias"
         },
