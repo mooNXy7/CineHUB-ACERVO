@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:40:52Z",
+  "generated_at": "2026-10-21T13:56:03Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-20T13:40:52Z",
+      "fetched_at": "2026-10-21T13:56:03Z",
       "channel_count": 179,
       "channels": [
         {
@@ -714,9 +714,9 @@
           ]
         },
         {
-          "id": "67813f3162bf016db944c9ab",
+          "id": "6888ee858f4a4aa11feb9430",
           "display_names": [
-            "Red Bull TV"
+            "Top Barça"
           ]
         },
         {
@@ -726,9 +726,9 @@
           ]
         },
         {
-          "id": "6888ee858f4a4aa11feb9430",
+          "id": "67813f3162bf016db944c9ab",
           "display_names": [
-            "Top Barça"
+            "Red Bull TV"
           ]
         },
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-20T13:40:52Z",
+      "fetched_at": "2026-10-21T13:56:03Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-20T13:40:52Z",
+      "fetched_at": "2026-10-21T13:56:03Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,7 +3149,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-20T13:40:52Z",
+      "fetched_at": "2026-10-21T13:56:03Z",
       "channel_count": 494,
       "channels": [
         {
