@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T13:35:55Z",
+  "generated_at": "2026-10-24T12:46:03Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-23T13:35:55Z",
+      "fetched_at": "2026-10-24T12:46:03Z",
       "channel_count": 179,
       "channels": [
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-23T13:35:55Z",
+      "fetched_at": "2026-10-24T12:46:03Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-23T13:35:55Z",
+      "fetched_at": "2026-10-24T12:46:03Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,7 +3149,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-23T13:35:55Z",
+      "fetched_at": "2026-10-24T12:46:03Z",
       "channel_count": 494,
       "channels": [
         {
@@ -3978,12 +3978,6 @@
           "id": "Adult Swim",
           "display_names": [
             "Adult Swim"
-          ]
-        },
-        {
-          "id": "BM&C News",
-          "display_names": [
-            "BM&C News"
           ]
         },
         {
@@ -5856,6 +5850,12 @@
           "id": "Adrenalina Pura TV",
           "display_names": [
             "Adrenalina Pura TV"
+          ]
+        },
+        {
+          "id": "BM&C News",
+          "display_names": [
+            "BM&C News"
           ]
         },
         {
