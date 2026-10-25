@@ -61,8 +61,8 @@ jobs:
               f"- ID externo já presente; requer validação: {summary['status_provider_id_present']:,}",
               f"- Candidato por título/ano/tipo; requer revisão: {summary['status_title_year_type_candidate']:,}",
               f"- Revisão manual por identidade insuficiente: {summary['status_manual_identity_review']:,}",
-              f"- Ocorrências de ID externo com formato inesperado: {summary['invalid_external_id_occurrences']:,}",
-              f"- Grupos de IDs externos repetidos na mesma categoria: {summary['duplicate_external_id_groups']:,}",
+              f"- Ocorrências de ID externo com formato inesperado: {summary.get('invalid_external_id_occurrences', 0):,}",
+              f"- Grupos de IDs externos repetidos na mesma categoria: {summary.get('duplicate_external_id_groups', 0):,}",
               "",
               "IDs com formato inesperado e IDs repetidos são alertas de revisão, não prova de erro. Relatórios gerados sem chamadas de rede e sem modificar arquivos do catálogo. Referências de stream não garantem reprodução; associação de EPG não garante grade atual.",
           ]
