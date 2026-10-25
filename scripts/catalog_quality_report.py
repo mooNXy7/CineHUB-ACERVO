@@ -35,12 +35,14 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     missing_totals = {}
     counts = {}
     duplicate_titles = defaultdict(list)
+    identifier_groups = defaultdict(list)
     channels_doc = load_json(root / "catalog/channels/channels.json")
     channels = channels_doc.get("channels", []) if isinstance(channels_doc, dict) else []
     counts["channels"] = len(channels) if isinstance(channels, list) else 0
     for record in channels if isinstance(channels, list) else []:
         if not isinstance(record, dict): continue
         ident, title = record.get("id"), record.get("name")
+        if ident not in (None, ""): identifier_groups["channels:" + str(ident)].append({"id": str(ident), "title": str(title or "")[:180], "catalog": "channels"})
         if not record.get("logo_url"): add_missing(missing, missing_totals, "channels_missing_logo", ident, title)
         if not record.get("group"): add_missing(missing, missing_totals, "channels_missing_group", ident, title)
         if not record.get("epg_id"): add_missing(missing, missing_totals, "channels_missing_epg_id", ident, title)
@@ -52,6 +54,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     for record in radios if isinstance(radios, list) else []:
         if not isinstance(record, dict): continue
         ident, title = record.get("id"), record.get("name")
+        if ident not in (None, ""): identifier_groups["radios:" + str(ident)].append({"id": str(ident), "title": str(title or "")[:180], "catalog": "radios"})
         if not record.get("logo_url"): add_missing(missing, missing_totals, "radios_missing_logo", ident, title)
         if not record.get("genre"): add_missing(missing, missing_totals, "radios_missing_genre", ident, title)
         if not record.get("stream_url"): add_missing(missing, missing_totals, "radios_missing_stream", ident, title)
@@ -68,6 +71,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         for record in records:
             if not isinstance(record, dict): continue
             ident, title = record.get("id"), record.get("title")
+            if ident not in (None, ""): identifier_groups[f"vod_{section}:" + str(ident)].append({"id": str(ident), "title": str(title or "")[:180], "catalog": section})
             if not record.get("poster_url"): add_missing(missing, missing_totals, "vod_missing_poster", ident, title, section)
             if not record.get("year"): add_missing(missing, missing_totals, "vod_missing_year", ident, title, section)
             if not isinstance(record.get("genres"), list) or not record.get("genres"):
@@ -83,11 +87,13 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         total_dupe_groups += 1
         if len(dupes) < MAX_DUPLICATE_GROUPS:
             dupes.append({"normalized_title": normalized, "items": items[:10], "count": len(items)})
+    id_collisions = [{"id": items[0]["id"], "catalog": items[0]["catalog"], "count": len(items), "items": items[:10]} for _, items in sorted(identifier_groups.items()) if len(items) > 1]
     return {
         "report_version": 1, "mode": "read_only_structural_review",
         "privacy": "No stream, logo, or source URLs are included.",
         "counts": {**counts, "vod_total": vod_total},
         "missing_metadata": {rule: {"count": missing_totals.get(rule, len(items)), "items_included": len(items), "truncated": missing_totals.get(rule, len(items)) > len(items), "items": items} for rule, items in sorted(missing.items())},
+        "duplicate_id_candidates": {"count": len(id_collisions), "groups": id_collisions[:MAX_DUPLICATE_GROUPS], "truncated": len(id_collisions) > MAX_DUPLICATE_GROUPS, "warning": "Repeated IDs are reported only within the same catalog namespace and require review."},
         "duplicate_title_candidates": {"count_included": len(dupes), "truncated": total_dupe_groups > len(dupes), "groups": dupes,
             "warning": "Candidates require review; normalized title equality does not prove duplicate content."},
         "limitations": [
