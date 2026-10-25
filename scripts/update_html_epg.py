@@ -105,7 +105,27 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     })
     programmes_by_channel = dict(previous.get("programmes") or {})
     health_by_channel = dict(previous.get("health") or {})
-    stamp = (now or dt.datetime.now(dt.timezone.utc)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    reference_now = now or dt.datetime.now(dt.timezone.utc)
+    if reference_now.tzinfo is None:
+        reference_now = reference_now.replace(tzinfo=dt.timezone.utc)
+    reference_now = reference_now.astimezone(dt.timezone.utc)
+    stamp = reference_now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    window_start = reference_now - dt.timedelta(hours=6)
+    window_end = reference_now + dt.timedelta(hours=72)
+
+    def in_window(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        kept = []
+        for item in items:
+            try:
+                start = dt.datetime.fromisoformat(item["start"])
+                end = dt.datetime.fromisoformat(item["end"])
+                if start.tzinfo is None or end.tzinfo is None:
+                    continue
+                if end > window_start and start < window_end and end > start:
+                    kept.append(item)
+            except (KeyError, TypeError, ValueError):
+                continue
+        return kept
 
     jobs: list[tuple[str, str, str]] = []
     for name, code in (mapping.get("meuguia_codes") or {}).items():
@@ -126,6 +146,9 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
         }
         for future in concurrent.futures.as_completed(futures):
             source, name, items, error = future.result()
+            items = in_window(items)
+            if not items and error is None:
+                error = "no programmes in the configured -6h/+72h window; keeping last known-good schedule"
             results[(source, name)] = (items, error)
 
     meuguia_success: set[str] = set()
@@ -167,6 +190,9 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
         }
         for future in concurrent.futures.as_completed(futures):
             source, name, items, error = future.result()
+            items = in_window(items)
+            if not items and error is None:
+                error = "no programmes in the configured -6h/+72h window; keeping last known-good schedule"
             if items:
                 programmes_by_channel[name] = {
                     "source_id": source, "fetched_at": stamp, "programmes": items
@@ -193,6 +219,7 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
             "priority": ["meuguia-br", "guia-de-tv-br"],
             "fallback": "preserve last known-good channel schedule on fetch or parse failure",
             "scope": "explicit channel-map mappings only",
+            "window_hours": {"past": 6, "future": 72},
         },
         "programmes": programmes_by_channel,
         "health": health_by_channel,
