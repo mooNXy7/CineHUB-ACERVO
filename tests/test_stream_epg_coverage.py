@@ -27,7 +27,7 @@ class StreamEpgCoverageTests(unittest.TestCase):
                     "radios": [{"id": "r1", "name": "Radio A", "stream_url": "https://example.org/radio"}],
                 },
                 "catalog/epg/channel-map.json": {
-                    "meuguia_codes": {"History": "HIS", "History Alias": "HIS"}, "guiadetv_slugs": {"Sony Channel": "sony-channel", "Missing TV": "missing-tv"},
+                    "meuguia_codes": {"Hístory HD": "HIS", "History Alias": "HIS"}, "guiadetv_slugs": {"Sony Channel": "sony-channel", "Missing TV": "missing-tv"},
                     "xmltv_aliases": {"Sony Channel": ["Sony"]},
                 },
                 "catalog/epg/xmltv-channels.json": {
