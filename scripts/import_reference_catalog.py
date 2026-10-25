@@ -622,25 +622,56 @@ def load_existing_details(kind: str) -> dict[str, dict]:
         for path in sorted(folder.glob("*.json")):
             try:
                 records = json.loads(path.read_text(encoding="utf-8"))
-            except (OSError, json.JSONDecodeError):
-                continue
-            if isinstance(records, list):
-                for item in records:
-                    if isinstance(item, dict) and item.get("id"):
-                        ident = str(item["id"])
-                        if ident in existing:
-                            merge_record(existing[ident], item)
-                        else:
-                            existing[ident] = item
-    previous_index = load_json(VOD_INDEX, {"movies": [], "series": [], "anime": [], "doramas": []})
+            except (OSError, json.JSONDecodeError) as exc:
+                raise ValueError(
+                    f"Refusing reference import because existing detail shard is unreadable: {path}"
+                ) from exc
+            if not isinstance(records, list):
+                raise ValueError(
+                    f"Refusing reference import because existing detail shard is not a list: {path}"
+                )
+            for item in records:
+                if not isinstance(item, dict) or not item.get("id"):
+                    raise ValueError(
+                        f"Refusing reference import because existing detail shard contains a record without ID: {path}"
+                    )
+                ident = str(item["id"])
+                if ident in existing:
+                    merge_record(existing[ident], item)
+                else:
+                    existing[ident] = item
+    if VOD_INDEX.exists():
+        try:
+            previous_index = json.loads(VOD_INDEX.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise ValueError("Refusing reference import because catalog/vod/index.json is unreadable.") from exc
+        if not isinstance(previous_index, dict):
+            raise ValueError("Refusing reference import because catalog/vod/index.json is not an object.")
+    else:
+        previous_index = {"movies": [], "series": [], "anime": [], "doramas": []}
     previous_items = previous_index.get(kind)
     if not isinstance(previous_items, list):
         category = previous_index.get("categories", {}).get(kind, {})
         index_path = category.get("index_path")
-        previous_items = load_json(ROOT / index_path, []) if index_path else []
+        if index_path:
+            index_file = ROOT / index_path
+            try:
+                previous_items = json.loads(index_file.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError) as exc:
+                raise ValueError(
+                    f"Refusing reference import because existing VOD index is unreadable: {index_file}"
+                ) from exc
+            if not isinstance(previous_items, list):
+                raise ValueError(
+                    f"Refusing reference import because existing VOD index is not a list: {index_file}"
+                )
+        else:
+            previous_items = []
     for item in previous_items:
         if not isinstance(item, dict) or not item.get("id"):
-            continue
+            raise ValueError(
+                f"Refusing reference import because existing VOD index for {kind} contains a record without ID."
+            )
         ident = str(item["id"])
         if ident not in existing:
             existing[ident] = {
