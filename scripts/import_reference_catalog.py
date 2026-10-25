@@ -34,6 +34,7 @@ CREDENTIAL_PATH = re.compile(
     r"/(?:live|movie|series|timeshift)/[^/]{3,}/[^/]{3,}/", re.I
 )
 URL_RE = re.compile(r"https?://[^\s,<>\"']+", re.I)
+SUSPICIOUS_URL_MARKERS = ("%22%3e", "%3c", "%3e", "<", ">", '"')
 
 
 def norm(value: str) -> str:
