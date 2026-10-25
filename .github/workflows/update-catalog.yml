@@ -12,6 +12,8 @@ on:
       - "scripts/normalize_catalog.py"
       - "scripts/validate_catalog.py"
       - "scripts/update_epg.py"
+      - "scripts/update_html_epg.py"
+      - "scripts/parse_html_epg.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
@@ -68,6 +70,8 @@ jobs:
         run: python scripts/update_catalog.py
       - name: Refresh EPG health and channel mappings
         run: python scripts/update_epg.py
+      - name: Refresh explicitly mapped HTML EPG schedules (guarded sidecar)
+        run: python scripts/update_html_epg.py
       - name: Normalize and validate
         run: |
           python scripts/normalize_catalog.py
