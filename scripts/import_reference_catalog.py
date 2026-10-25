@@ -461,11 +461,26 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                     current = None
                     continue
                 key = (norm(title), year or "")
+                # Identity priority: exact provider ID, then exact normalized title + year.
+                # A title-only fallback is allowed only when it is unambiguous; never let
+                # an item with a missing year absorb a known-year remake by guesswork.
                 current = by_tmdb.get(tmdb_id) if tmdb_id else None
                 current = current or series.get(key)
                 if current is None:
-                    candidates = by_name.get(norm(title), []) or by_name.get(base_title(title), [])
-                    current = next((item for item in candidates if not year or item.get("year") in (None, year)), None)
+                    candidate_map = {}
+                    for name_key in {norm(title), base_title(title)}:
+                        for candidate in by_name.get(name_key, []):
+                            candidate_map[id(candidate)] = candidate
+                    candidates = list(candidate_map.values())
+                    if year:
+                        exact_year = [
+                            item for item in candidates
+                            if str(item.get("year") or "") == year
+                        ]
+                        if len(exact_year) == 1:
+                            current = exact_year[0]
+                    elif len(candidates) == 1:
+                        current = candidates[0]
                 if current is None:
                     current = {
                         "id": "series-" + slug(title) + ("-" + year if year else ""),
