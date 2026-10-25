@@ -119,6 +119,34 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(doc["programmes"]["HBO"]["source_id"], "meuguia-br")
             self.assertEqual(doc["health"]["HBO"]["status"], "stale")
 
+    def test_html_fetch_url_policy_rejects_non_https_private_and_unknown_hosts(self):
+        import update_html_epg
+        for url in (
+            "http://meuguia.tv/programacao/canal/HBO",
+            "https://127.0.0.1/admin",
+            "https://localhost/",
+            "https://example.com/",
+            "https://user:pass@meuguia.tv/",
+            "https://meuguia.tv:8443/",
+        ):
+            with self.subTest(url=url):
+                with self.assertRaises(ValueError):
+                    update_html_epg._validate_epg_url(url)
+
+    def test_html_fetch_redirect_policy_rejects_unapproved_target(self):
+        import update_html_epg
+        from types import SimpleNamespace
+        handler = update_html_epg._SameSourceRedirectHandler()
+        request = SimpleNamespace(full_url="https://meuguia.tv/programacao/canal/HBO")
+        with self.assertRaises(ValueError):
+            handler.redirect_request(
+                request, None, 302, "Found", {}, "http://127.0.0.1/private"
+            )
+        with self.assertRaises(ValueError):
+            handler.redirect_request(
+                request, None, 302, "Found", {}, "https://example.com/redirect"
+            )
+
     def test_atomic_writer_preserves_previous_file_if_replace_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "result.json"
