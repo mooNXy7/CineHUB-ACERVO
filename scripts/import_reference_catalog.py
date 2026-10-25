@@ -745,7 +745,24 @@ def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming:
     for record in incoming:
         ident = str(record.get("id") or "")
         tmdb_id = str(record.get("tmdb_id") or "").strip()
-        if ident in existing or not tmdb_id:
+        if ident in existing:
+            conflicting_existing = [
+                old for old in existing_by_tmdb.get(tmdb_id, [])
+                if str(old.get("id") or "") != ident
+            ] if tmdb_id else []
+            if conflicting_existing:
+                # This stable catalog record already exists. Do not attach a provider
+                # ID/poster/genres that another existing title claims; keep its sources.
+                sanitized = dict(record)
+                sanitized["tmdb_id"] = None
+                sanitized["poster_url"] = None
+                sanitized["genres"] = []
+                accepted.append(sanitized)
+                counters[f"{kind}_existing_id_metadata_collisions_quarantined"] += 1
+            else:
+                accepted.append(record)
+            continue
+        if not tmdb_id:
             accepted.append(record)
             continue
 
