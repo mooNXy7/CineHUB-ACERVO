@@ -55,7 +55,7 @@ class UpdateHtmlEpgTests(unittest.TestCase):
                 "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
             }), encoding="utf-8")
             html = '<div data-dt="2026-10-25 20:00:00"></div><a href="/programa/filme">Filme Sony</a>'
-            doc = update_document(root, lambda url: html)
+            doc = update_document(root, lambda url: html, dt.datetime(2026, 10, 25, 12, tzinfo=dt.timezone.utc))
             self.assertEqual(doc["programmes"]["SONY Movies"]["source_id"], "guia-de-tv-br")
             self.assertEqual(doc["programmes"]["SONY Movies"]["programmes"][0]["title"], "Filme Sony")
 
@@ -76,7 +76,7 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             }
             (epg / "html-programmes.json").write_text(json.dumps(old), encoding="utf-8")
             html = '<div data-dt="2026-10-25 20:00:00"></div><a href="/programa/novo">Programa atualizado</a>'
-            doc = update_document(root, lambda url: html)
+            doc = update_document(root, lambda url: html, dt.datetime(2026, 10, 25, 12, tzinfo=dt.timezone.utc))
             self.assertEqual(doc["programmes"]["SONY Movies"]["programmes"][0]["title"], "Programa atualizado")
             self.assertEqual(doc["health"]["SONY Movies"]["status"], "healthy")
 
