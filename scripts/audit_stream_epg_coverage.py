@@ -121,13 +121,13 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
         "epg_map_review": {
             "meuguia_map_entries": len(meuguia_map),
             "guiadetv_map_entries": len(guide_map),
-            "meuguia_entries_without_exact_catalog_name": {
+            "meuguia_entries_without_normalized_catalog_name": {
                 "count": len(meuguia_stale), "examples": meuguia_stale[:50],
-                "warning": "Candidate stale mappings only; aliases and regional naming differences may be intentional."
+                "warning": "Candidate stale mappings only after accent/case/quality-marker normalization; aliases and regional naming differences may be intentional."
             },
-            "guiadetv_entries_without_exact_catalog_name": {
+            "guiadetv_entries_without_normalized_catalog_name": {
                 "count": len(guide_stale), "examples": guide_stale[:50],
-                "warning": "Candidate stale mappings only; aliases and regional naming differences may be intentional."
+                "warning": "Candidate stale mappings only after accent/case/quality-marker normalization; aliases and regional naming differences may be intentional."
             },
             "duplicate_meuguia_codes": {
                 "count": len(duplicate_meuguia_codes), "groups": duplicate_meuguia_codes[:50],
