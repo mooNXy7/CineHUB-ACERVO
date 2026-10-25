@@ -42,19 +42,19 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         if not isinstance(record, dict): continue
         ident, title = record.get("id"), record.get("name")
         if not record.get("logo_url"): add_missing(missing, missing_totals, "channels_missing_logo", ident, title)
-        if not record.get("group"): add_missing(missing, "channels_missing_group", ident, title)
-        if not record.get("epg_id"): add_missing(missing, "channels_missing_epg_id", ident, title)
+        if not record.get("group"): add_missing(missing, missing_totals, "channels_missing_group", ident, title)
+        if not record.get("epg_id"): add_missing(missing, missing_totals, "channels_missing_epg_id", ident, title)
         if not isinstance(record.get("sources"), list) or not record.get("sources"):
-            add_missing(missing, "channels_without_source_list", ident, title)
+            add_missing(missing, missing_totals, "channels_without_source_list", ident, title)
     radios_doc = load_json(root / "catalog/radios/radios.json")
     radios = radios_doc.get("radios", []) if isinstance(radios_doc, dict) else []
     counts["radios"] = len(radios) if isinstance(radios, list) else 0
     for record in radios if isinstance(radios, list) else []:
         if not isinstance(record, dict): continue
         ident, title = record.get("id"), record.get("name")
-        if not record.get("logo_url"): add_missing(missing, "radios_missing_logo", ident, title)
-        if not record.get("genre"): add_missing(missing, "radios_missing_genre", ident, title)
-        if not record.get("stream_url"): add_missing(missing, "radios_missing_stream", ident, title)
+        if not record.get("logo_url"): add_missing(missing, missing_totals, "radios_missing_logo", ident, title)
+        if not record.get("genre"): add_missing(missing, missing_totals, "radios_missing_genre", ident, title)
+        if not record.get("stream_url"): add_missing(missing, missing_totals, "radios_missing_stream", ident, title)
     manifest = load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {}) if isinstance(manifest, dict) else {}
     vod_total = 0
@@ -68,11 +68,11 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         for record in records:
             if not isinstance(record, dict): continue
             ident, title = record.get("id"), record.get("title")
-            if not record.get("poster_url"): add_missing(missing, "vod_missing_poster", ident, title, section)
-            if not record.get("year"): add_missing(missing, "vod_missing_year", ident, title, section)
+            if not record.get("poster_url"): add_missing(missing, missing_totals, "vod_missing_poster", ident, title, section)
+            if not record.get("year"): add_missing(missing, missing_totals, "vod_missing_year", ident, title, section)
             if not isinstance(record.get("genres"), list) or not record.get("genres"):
-                add_missing(missing, "vod_missing_genres", ident, title, section)
-            if not record.get("detail_path"): add_missing(missing, "vod_missing_detail_path", ident, title, section)
+                add_missing(missing, missing_totals, "vod_missing_genres", ident, title, section)
+            if not record.get("detail_path"): add_missing(missing, missing_totals, "vod_missing_detail_path", ident, title, section)
             normalized = normalize_title(title)
             if normalized:
                 duplicate_titles[normalized].append({"id": str(ident or "?"), "title": str(title or "")[:180], "category": section})
@@ -94,7 +94,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
             "Field presence does not prove a stream or image URL works.",
             "Missing metadata is not automatically filled or inferred.",
             "No catalog files are changed and no network requests are made.",
-            "Finding lists are capped; per-rule counts reflect emitted items and indicate truncation.",
+            "Finding lists are capped at 500 examples per rule; counts include all findings and indicate truncation.",
         ],
     }
 
