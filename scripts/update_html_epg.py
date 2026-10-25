@@ -118,11 +118,11 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
             jobs.append(("guia-de-tv-br", name, slug))
 
     results: dict[tuple[str, str], tuple[list[dict[str, Any]], str | None]] = {}
+    # Refresh primary source on every run, even for channels with cached data.
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         futures = {
             pool.submit(_job, source, name, code, fetcher): (source, name)
-            for source, name, code in jobs
-            if source == "meuguia-br" or name not in programmes_by_channel
+            for source, name, code in jobs if source == "meuguia-br"
         }
         for future in concurrent.futures.as_completed(futures):
             source, name, items, error = future.result()
@@ -149,11 +149,12 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
                 "error": error,
             }
 
-    # Fetch fallback pages only for channels with no prior schedule and no
-    # successful MeuGuia schedule. Existing MeuGuia schedules retain precedence.
+    # Refresh fallback pages whenever the primary source did not produce a
+    # current schedule. A successful primary result always retains precedence;
+    # a fallback failure never erases the last known-good schedule.
     fallback_names = {
         name for source, name, _ in jobs
-        if source == "guia-de-tv-br" and name not in programmes_by_channel and name not in meuguia_success
+        if source == "guia-de-tv-br" and name not in meuguia_success
     }
     fallback_jobs = [
         (source, name, code) for source, name, code in jobs
