@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Validate catalog schemas, VOD category indexes, stable IDs, and detail references."""
+import datetime as dt
 import json
 from pathlib import Path
 
@@ -17,6 +18,42 @@ FILES = {
 def load(path):
     with path.open(encoding="utf-8") as stream:
         return json.load(stream)
+
+
+def validate_html_epg_doc(data):
+    """Return structural errors for the optional HTML EPG sidecar."""
+    errors = []
+    if not isinstance(data, dict) or data.get("schema_version") != 1:
+        return ["catalog/epg/html-programmes.json: schema_version deve ser 1"]
+    if data.get("timezone") != "America/Sao_Paulo":
+        errors.append("catalog/epg/html-programmes.json: timezone deve ser America/Sao_Paulo")
+    programmes = data.get("programmes")
+    health = data.get("health")
+    if not isinstance(programmes, dict) or not isinstance(health, dict):
+        return errors + ["catalog/epg/html-programmes.json: programmes e health devem ser objetos"]
+    for channel, record in programmes.items():
+        if not isinstance(record, dict) or not isinstance(record.get("programmes"), list):
+            errors.append(f"html EPG {channel}: programmes deve ser uma lista")
+            continue
+        if record.get("source_id") not in {"meuguia-br", "guia-de-tv-br"}:
+            errors.append(f"html EPG {channel}: source_id inválido")
+        previous_start = None
+        for item in record["programmes"]:
+            if not isinstance(item, dict) or not item.get("title"):
+                errors.append(f"html EPG {channel}: programa sem título")
+                continue
+            try:
+                start = dt.datetime.fromisoformat(item["start"])
+                end = dt.datetime.fromisoformat(item["end"])
+            except (KeyError, TypeError, ValueError):
+                errors.append(f"html EPG {channel}: start/end inválidos")
+                continue
+            if start.tzinfo is None or end.tzinfo is None or end <= start:
+                errors.append(f"html EPG {channel}: intervalo inválido ou sem fuso")
+            if previous_start is not None and start < previous_start:
+                errors.append(f"html EPG {channel}: programas fora de ordem")
+            previous_start = start
+    return errors
 
 
 def main():
@@ -48,6 +85,13 @@ def main():
         priorities = [x.get("priority") for x in epg_sources.get("sources", []) if isinstance(x, dict)]
         if priorities != sorted(priorities):
             errors.append("catalog/epg/sources.json: fontes devem estar ordenadas por prioridade")
+    html_epg_path = ROOT / "catalog/epg/html-programmes.json"
+    if html_epg_path.exists():
+        try:
+            errors.extend(validate_html_epg_doc(load(html_epg_path)))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"{html_epg_path.relative_to(ROOT)}: {exc}")
+
     epg_map = loaded.get("epg_map", {})
     if isinstance(epg_map, dict):
         for key in ("meuguia_codes", "guiadetv_slugs", "xmltv_aliases"):
