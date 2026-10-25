@@ -174,13 +174,17 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
                 "error": error,
             }
 
-    # Refresh fallback pages whenever the primary source did not produce a
-    # current schedule. A successful primary result always retains precedence;
-    # a fallback failure never erases the last known-good schedule.
-    fallback_names = {
-        name for source, name, _ in jobs
-        if source == "guia-de-tv-br" and name not in meuguia_success
-    }
+    # A failed primary refresh must not let a lower-priority source replace
+    # an already cached MeuGuia schedule. Refresh Guia de TV only when there is
+    # no cached schedule yet, or when the cached schedule itself came from Guia.
+    fallback_names = set()
+    for source, name, _ in jobs:
+        if source != "guia-de-tv-br" or name in meuguia_success:
+            continue
+        cached = programmes_by_channel.get(name) or {}
+        cached_source = cached.get("source_id")
+        if not cached or cached_source == "guia-de-tv-br":
+            fallback_names.add(name)
     fallback_jobs = [
         (source, name, code) for source, name, code in jobs
         if source == "guia-de-tv-br" and name in fallback_names
