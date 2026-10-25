@@ -44,3 +44,32 @@ Esta revisão orienta melhorias no CineHUB ACERVO. É um mapa de capacidades e p
 3. Validar amostras de EPG real em fluxo manual, medindo página não vazia, fuso horário, ordenação e janela de horários.
 4. Planejar enriquecimento VOD por lotes pequenos, com correspondência por título/ano/tipo, cache, limite de taxa e relatório de candidatos ambíguos.
 5. Só promover correções de dados com diff revisável, backup e testes de compatibilidade dos schemas.
+
+
+## Verificação adicional — 25/10/2026
+
+### Referências inspecionadas nesta rodada
+
+- **SaimoPlayer**: gerador VOD principal, gerador de gêneros/metadados com cache persistente, e gerador de fontes extras por IDs exatos.
+- **Saimo-TV**: parser do catálogo de canais, serviço VOD por fragmentos, pontuação de resultados TMDB, cache/worker EPG e resolvedor de fontes VOD.
+- **SaimoTV-Android**: definições de catálogo, regras EPG/aliases e gerador M3U para catálogo Kotlin.
+- **Saimo-Cell-V2**: serviço EPG, mapa explícito de códigos/slugs e cache de fontes.
+
+### Decisão de implementação
+
+A revisão confirmou um risco de identidade no importador do ACERVO: fontes extras de séries podiam ser anexadas ao primeiro título-base compatível mesmo quando havia remakes com anos diferentes; o caminho equivalente de filmes também podia selecionar o primeiro candidato pelo nome-base. O importador foi endurecido para:
+
+1. preferir ID de provedor exato;
+2. depois usar título/ano exatos;
+3. aceitar correspondência por título-base somente se houver um único candidato possível;
+4. quando o ano estiver presente, exigir o mesmo ano;
+5. se permanecer ambíguo, criar candidato separado em vez de fundir fontes no registro errado.
+
+Testes de regressão foram adicionados para filmes e séries com o mesmo título-base em anos diferentes. A validação do workflow passou após corrigir o formato do fixture de temporadas: **70 testes automatizados e compilação dos scripts concluídos com sucesso** no run [40243650983](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/40243650983).
+
+### O que ainda não significa conclusão de dados
+
+- A validação estrutural não prova que cada stream reproduz nem que cada programação EPG está atualizada.
+- O sidecar HTML de EPG continua separado do formato consumido pelos apps.
+- Não foi executado enriquecimento de dezenas de milhares de registros por API externa. Isso depende de escolher provedor/termos, usar credencial própria em segredo e gerar/revisar um diff antes de alterar dados.
+- Os metadados e fontes existentes não foram apagados nem substituídos por ausência em uma referência.
