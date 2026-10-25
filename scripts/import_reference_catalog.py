@@ -655,45 +655,23 @@ def load_existing_details(kind: str) -> dict[str, dict]:
 
 
 def dedupe_records(items: list[dict]) -> list[dict]:
-    by_id = {}
+    """Merge only identical stable record IDs; ambiguous identity collisions remain separate for review."""
+    by_id: dict[str, dict] = {}
+    no_id_records: list[dict] = []
     for item in items:
-        ident = str(item.get("id") or "")
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
         if not ident:
+            # Do not silently discard a titled record merely because its ID is missing.
+            # Validation can flag it; inventing an ID here could falsely merge distinct works.
+            no_id_records.append(item)
             continue
         if ident in by_id:
             merge_record(by_id[ident], item)
         else:
             by_id[ident] = item
-
-    canonical = []
-    by_tmdb = {}
-    by_title_year = {}
-    for item in by_id.values():
-        tmdb_id = str(item.get("tmdb_id") or "").strip()
-        year = str(item.get("year") or "")
-        if not year:
-            match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
-            year = match.group(1) if match else ""
-        title_key = (base_title(item.get("title", "")), year)
-        target = by_tmdb.get(tmdb_id) if tmdb_id else None
-        if target is None:
-            candidate = by_title_year.get(title_key)
-            if candidate is not None:
-                candidate_tmdb = str(candidate.get("tmdb_id") or "").strip()
-                if not tmdb_id or not candidate_tmdb or candidate_tmdb == tmdb_id:
-                    target = candidate
-        if target is not None:
-            merge_record(target, item)
-            target_tmdb = str(target.get("tmdb_id") or "").strip()
-            if target_tmdb:
-                by_tmdb[target_tmdb] = target
-            by_title_year.setdefault(title_key, target)
-        else:
-            canonical.append(item)
-            if tmdb_id:
-                by_tmdb[tmdb_id] = item
-            by_title_year.setdefault(title_key, item)
-    return canonical
+    return list(by_id.values()) + no_id_records
 
 
 def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
