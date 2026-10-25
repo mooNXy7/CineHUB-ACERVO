@@ -879,7 +879,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     return current
 
 
-def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int]:
+def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, int]:
     """Import radio rows in the documented name|stream[|logo] format, without replacing existing entries."""
     known_radio = {
         norm(item.get("name", "")): item
@@ -887,6 +887,7 @@ def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int]:
         if isinstance(item, dict) and item.get("name")
     }
     imported = 0
+    updated = 0
     radio_file = reference / "vod" / "radios.txt"
     for line in read_lines(radio_file) or ():
         fields = line.rstrip("\n").split("|")
@@ -898,20 +899,36 @@ def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int]:
         if not radio_name:
             continue
         key = norm(radio_name)
-        if not key or key in known_radio:
+        if not key:
             continue
         stream_is_safe = safe_candidate(stream)
+        logo_is_safe = safe_candidate(logo or "")
+        if key in known_radio:
+            existing = known_radio[key]
+            changed = False
+            existing_stream = str(existing.get("stream_url") or "").strip()
+            if stream_is_safe and not safe_candidate(existing_stream):
+                existing["stream_url"] = stream
+                existing["stream_status"] = "imported"
+                changed = True
+            existing_logo = str(existing.get("logo_url") or "").strip()
+            if logo_is_safe and not safe_candidate(existing_logo):
+                existing["logo_url"] = logo
+                changed = True
+            if changed:
+                updated += 1
+            continue
         radio = {
             "id": "radio-" + slug(radio_name), "name": radio_name,
             "stream_url": stream if stream_is_safe else None,
-            "logo_url": logo if safe_candidate(logo or "") else None,
+            "logo_url": logo if logo_is_safe else None,
             "genre": None, "source_id": SOURCE_ID,
             "stream_status": "imported" if stream_is_safe else "pending_review",
         }
         radios.setdefault("radios", []).append(radio)
         known_radio[key] = radio
         imported += 1
-    return radios, imported
+    return radios, imported, updated
 
 
 def main() -> None:
@@ -1035,8 +1052,9 @@ def main() -> None:
                     old_path.unlink()
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
-    radios, imported_radio_count = import_reference_radios(reference, radios)
-    if imported_radio_count or not radios.get("generated_at"):
+    radios, imported_radio_count, updated_radio_count = import_reference_radios(reference, radios)
+    counters["radios_updated"] = updated_radio_count
+    if imported_radio_count or updated_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(RADIOS_FILE, radios)
 
