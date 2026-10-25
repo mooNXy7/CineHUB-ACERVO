@@ -13,7 +13,7 @@ python scripts/plan_vod_enrichment.py > vod-enrichment-plan.json
 python scripts/plan_vod_enrichment.py --limit 100 --output /tmp/vod-enrichment-plan.json
 ```
 
-O limite controla apenas quantos exemplos são incluídos por categoria; as contagens representam o catálogo inteiro. O relatório observa campos ausentes entre pôster, ano, gêneros e sinopse/overview. IDs externos são lidos apenas de uma lista explícita de campos comuns.
+O limite controla apenas quantos exemplos são incluídos por categoria; as contagens representam o catálogo inteiro. O relatório observa campos ausentes de pôster, ano e gêneros nos índices. Sinopses não são incluídas nesta primeira versão porque exigem confirmar a estrutura dos arquivos de detalhe antes de auditar esse campo. IDs externos são lidos apenas de uma lista explícita de campos comuns.
 
 ### Como interpretar os candidatos
 
