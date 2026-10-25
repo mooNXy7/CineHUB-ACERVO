@@ -447,7 +447,17 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
         meta = fichas.get(("s", title_key), {})
         item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
         item["poster_url"] = item.get("poster_url") or meta.get("poster_path") or featured_posters.get(("s", title_key))
-        item["genres"] = item.get("genres") or meta.get("genres", [])
+        existing_genres = item.get("genres") if isinstance(item.get("genres"), list) else []
+        reference_genres = meta.get("genres") if isinstance(meta.get("genres"), list) else []
+        seen_genres = {norm(genre) for genre in existing_genres if isinstance(genre, str)}
+        for genre in reference_genres:
+            if isinstance(genre, str) and genre.strip() and norm(genre) not in seen_genres:
+                existing_genres.append(genre.strip())
+                seen_genres.add(norm(genre))
+        item["genres"] = existing_genres
+        title_year = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
+        if not item.get("year") and title_year:
+            item["year"] = title_year.group(1)
         if item.get("subtype") not in {"anime", "dorama"}:
             item["subtype"] = "anime" if title_key in featured_anime or any("animação" in g.casefold() or "animation" in g.casefold() for g in item["genres"]) else (
                 "dorama" if title_key in featured_doramas or "dorama" in title_key or "k-drama" in title_key else "series"
