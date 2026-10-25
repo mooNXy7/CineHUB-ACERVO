@@ -29,7 +29,7 @@ Prioridade menor significa maior precedência. A fonte Pluto é especial: seu ID
 
 Uma fonte indisponível não apaga seu último índice válido nem bloqueia as outras. A rotina registra a falha e preserva o último sucesso. O acervo publica o índice compacto de canais, não cópias integrais dos XMLTV externos.
 
-A extração HTML usa parsers testáveis sem rede e fuso `America/Sao_Paulo`. Uma resposta vazia, bloqueada ou com marcação inesperada não substitui uma programação válida anterior. A ordem definida para o sidecar é Meu Guia e, para canais mapeados sem grade anterior, Guia de TV. A publicação desse sidecar não muda automaticamente os apps: a integração do consumidor ainda precisa ser validada separadamente. O teste de saúde de uma página HTML confirma conectividade e presença de marcação de grade; não garante que cada canal mapeado esteja com a programação correta.
+A extração HTML usa parsers testáveis sem rede e fuso `America/Sao_Paulo`. Uma resposta vazia, bloqueada ou com marcação inesperada não substitui uma programação válida anterior. A ordem definida para o sidecar é Meu Guia e, para canais mapeados sem grade anterior, Guia de TV. A publicação desse sidecar não muda automaticamente os apps: a integração do consumidor ainda precisa ser validada separadamente. O teste de saúde de uma página HTML confirma conectividade e presença de marcação de grade; não garante que cada canal mapeado esteja com a programação correta. A auditoria de cobertura também lista códigos compartilhados e entradas de mapa sem correspondência exata com o nome atual do catálogo como candidatos de revisão; isso não altera nem remove mapeamentos automaticamente.
 
 ## Contrato de associação
 
