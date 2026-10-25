@@ -671,7 +671,12 @@ def dedupe_records(items: list[dict]) -> list[dict]:
             merge_record(by_id[ident], item)
         else:
             by_id[ident] = item
-    return list(by_id.values()) + no_id_records
+    if no_id_records:
+        raise ValueError(
+            f"Refusing to publish {len(no_id_records)} VOD record(s) without stable IDs; "
+            "the prior catalog remains untouched."
+        )
+    return list(by_id.values())
 
 
 def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
