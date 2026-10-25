@@ -17,6 +17,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from typing import Callable, Any
+from zoneinfo import ZoneInfo
 
 from parse_html_epg import parse_guiadetv, parse_meuguia
 
@@ -28,6 +29,7 @@ USER_AGENT = "CineHUB-ACERVO-EPG/1.0 (+https://github.com/mooNXy7/CineHUB-ACERVO
 TIMEOUT_SECONDS = 20
 MAX_RESPONSE_BYTES = 5 * 1024 * 1024
 MAX_WORKERS = 4
+SAO_PAULO = ZoneInfo("America/Sao_Paulo")
 
 
 def read_json(path: Path, default: Any = None) -> Any:
@@ -80,10 +82,10 @@ def fetch_html(url: str) -> str:
     return b"".join(chunks).decode("utf-8", errors="replace")
 
 
-def _job(source: str, name: str, code: str, fetcher: Callable[[str], str]) -> tuple[str, str, list[dict[str, Any]], str | None]:
+def _job(source: str, name: str, code: str, fetcher: Callable[[str], str], reference_date: dt.date | None = None) -> tuple[str, str, list[dict[str, Any]], str | None]:
     if source == "meuguia-br":
         url = "https://meuguia.tv/programacao/canal/" + urllib.parse.quote(code, safe="")
-        parser = parse_meuguia
+        parser = lambda document: parse_meuguia(document, reference_date=reference_date)
     else:
         url = "https://www.guiadetv.com/canal/" + urllib.parse.quote(code, safe="-")
         parser = parse_guiadetv
@@ -141,7 +143,7 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     # Refresh primary source on every run, even for channels with cached data.
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         futures = {
-            pool.submit(_job, source, name, code, fetcher): (source, name)
+            pool.submit(_job, source, name, code, fetcher, reference_now.astimezone(SAO_PAULO).date()): (source, name)
             for source, name, code in jobs if source == "meuguia-br"
         }
         for future in concurrent.futures.as_completed(futures):
@@ -185,7 +187,7 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     ]
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         futures = {
-            pool.submit(_job, source, name, code, fetcher): (source, name)
+            pool.submit(_job, source, name, code, fetcher, reference_now.astimezone(SAO_PAULO).date()): (source, name)
             for source, name, code in fallback_jobs
         }
         for future in concurrent.futures.as_completed(futures):
