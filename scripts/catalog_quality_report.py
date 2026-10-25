@@ -20,7 +20,8 @@ def normalize_title(value: Any) -> str:
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
-def add_missing(target, rule, record_id, title, category=""):
+def add_missing(target, totals, rule, record_id, title, category=""):
+    totals[rule] = totals.get(rule, 0) + 1
     bucket = target.setdefault(rule, [])
     if len(bucket) < MAX_FINDINGS_PER_RULE:
         item = {"id": str(record_id or "?"), "title": str(title or "")[:180]}
@@ -31,6 +32,7 @@ def add_missing(target, rule, record_id, title, category=""):
 def build_report(root: Path = ROOT) -> dict[str, Any]:
     """Summarize metadata gaps and duplicate-title candidates; never mutate input."""
     missing = {}
+    missing_totals = {}
     counts = {}
     duplicate_titles = defaultdict(list)
     channels_doc = load_json(root / "catalog/channels/channels.json")
@@ -39,7 +41,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     for record in channels if isinstance(channels, list) else []:
         if not isinstance(record, dict): continue
         ident, title = record.get("id"), record.get("name")
-        if not record.get("logo_url"): add_missing(missing, "channels_missing_logo", ident, title)
+        if not record.get("logo_url"): add_missing(missing, missing_totals, "channels_missing_logo", ident, title)
         if not record.get("group"): add_missing(missing, "channels_missing_group", ident, title)
         if not record.get("epg_id"): add_missing(missing, "channels_missing_epg_id", ident, title)
         if not isinstance(record.get("sources"), list) or not record.get("sources"):
@@ -85,7 +87,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "report_version": 1, "mode": "read_only_structural_review",
         "privacy": "No stream, logo, or source URLs are included.",
         "counts": {**counts, "vod_total": vod_total},
-        "missing_metadata": {rule: {"count": len(items), "truncated": len(items) >= MAX_FINDINGS_PER_RULE, "items": items} for rule, items in sorted(missing.items())},
+        "missing_metadata": {rule: {"count": missing_totals.get(rule, len(items)), "items_included": len(items), "truncated": missing_totals.get(rule, len(items)) > len(items), "items": items} for rule, items in sorted(missing.items())},
         "duplicate_title_candidates": {"count_included": len(dupes), "truncated": total_dupe_groups > len(dupes), "groups": dupes,
             "warning": "Candidates require review; normalized title equality does not prove duplicate content."},
         "limitations": [
