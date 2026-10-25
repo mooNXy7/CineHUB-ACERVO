@@ -45,7 +45,7 @@ class EpgUrlSafetyTests(unittest.TestCase):
 
     def test_redirect_to_public_https_target_is_allowed(self):
         handler = update_epg.SafeRedirectHandler()
-        request = SimpleNamespace(full_url="https://raw.githubusercontent.com/feed.xml")
+        request = Request("https://raw.githubusercontent.com/feed.xml")
         redirected = handler.redirect_request(
             request, None, 302, "Found", {}, "https://cdn.example.org/feed.xml"
         )
