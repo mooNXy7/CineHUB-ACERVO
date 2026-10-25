@@ -19,6 +19,7 @@ class ReferenceRadioParsingTests(unittest.TestCase):
                 "Logo FM|https://radio.example/logo-live|https://images.example/logo.png\n"
                 "Bad FM|javascript:alert(1)|https://images.example/bad.png\n"
                 "Existing FM|https://radio.example/new-live|https://images.example/new.png\n"
+                "Needs Stream|https://radio.example/needs-stream\n"
                 "Malformed row only one field\n",
                 encoding="utf-8",
             )
@@ -30,12 +31,19 @@ class ReferenceRadioParsingTests(unittest.TestCase):
                     "stream_url": "https://radio.example/original-live",
                     "logo_url": "https://images.example/original.png",
                     "genre": "Rock",
+                }, {
+                    "id": "radio-needs-stream",
+                    "name": "Needs Stream",
+                    "stream_url": None,
+                    "logo_url": None,
+                    "genre": None,
                 }],
             }
 
-            result, added = importer.import_reference_radios(reference, existing)
+            result, added, updated = importer.import_reference_radios(reference, existing)
 
         self.assertEqual(added, 3)
+        self.assertEqual(updated, 1)
         by_name = {item["name"]: item for item in result["radios"]}
         self.assertEqual(by_name["Test FM"]["stream_url"], "https://radio.example/live")
         self.assertIsNone(by_name["Test FM"]["logo_url"])
@@ -45,6 +53,7 @@ class ReferenceRadioParsingTests(unittest.TestCase):
         self.assertEqual(by_name["Bad FM"]["stream_status"], "pending_review")
         self.assertEqual(by_name["Existing FM"]["stream_url"], "https://radio.example/original-live")
         self.assertEqual(by_name["Existing FM"]["genre"], "Rock")
+        self.assertEqual(by_name["Needs Stream"]["stream_url"], "https://radio.example/needs-stream")
 
 
 if __name__ == "__main__":
