@@ -19,6 +19,78 @@ jobs:
           python-version: "3.12"
       - name: Validate required catalog schemas and references
         run: python scripts/validate_catalog.py
+      - name: Preview authorized reference import in an isolated worktree (never published)
+        run: |
+          set +e
+          if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference-preview; then
+            printf '{"schema_version":1,"status":"reference_unavailable","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          git -C /tmp/cinehub-reference-preview sparse-checkout set --no-cone \
+            '/vod/filmes-*.txt' \
+            '/vod/series-*-*.txt' \
+            '/vod/fichas.txt' \
+            '/vod/busca.txt' \
+            '/vod/destaques.txt' \
+            '/vod/radios.txt' \
+            '/vod/mgeb/links-*.txt' \
+            '/vod/redeflix/links-*.txt' \
+            '/1.m3u' \
+            '/3.m3u'
+          if [ "$?" -ne 0 ]; then
+            printf '{"schema_version":1,"status":"reference_sparse_checkout_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          git worktree add --detach /tmp/cinehub-acervo-preview HEAD
+          if [ "$?" -ne 0 ]; then
+            printf '{"schema_version":1,"status":"isolated_worktree_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          python /tmp/cinehub-acervo-preview/scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference-preview
+          IMPORT_STATUS=$?
+          VALIDATION_STATUS=125
+          if [ "$IMPORT_STATUS" -eq 0 ]; then
+            python /tmp/cinehub-acervo-preview/scripts/validate_catalog.py
+            VALIDATION_STATUS=$?
+          fi
+          if [ -f /tmp/cinehub-acervo-preview/reports/reference-import.json ]; then
+            python scripts/summarize_reference_import_preview.py \
+              --before-root "$GITHUB_WORKSPACE" \
+              --after-root /tmp/cinehub-acervo-preview \
+              --import-report /tmp/cinehub-acervo-preview/reports/reference-import.json \
+              --output reference-import-preview.json
+          else
+            python scripts/summarize_reference_import_preview.py \
+              --before-root "$GITHUB_WORKSPACE" \
+              --after-root /tmp/cinehub-acervo-preview \
+              --output reference-import-preview.json
+          fi
+          SUMMARY_STATUS=$?
+          if [ "$SUMMARY_STATUS" -eq 0 ]; then
+            python - "$IMPORT_STATUS" "$VALIDATION_STATUS" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("reference-import-preview.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          import_status = int(sys.argv[1])
+          validation_status = int(sys.argv[2])
+          data["import_exit_code"] = import_status
+          data["preview_validation_exit_code"] = validation_status
+          data["status"] = (
+              "ready_for_review" if import_status == 0 and validation_status == 0
+              else "import_failed" if import_status != 0
+              else "preview_validation_failed"
+          )
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(json.dumps({"status": data["status"], "catalog_published": False}))
+          PY
+          else
+            printf '{"schema_version":1,"status":"summary_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+          fi
+          git worktree remove --force /tmp/cinehub-acervo-preview
+
       - name: Run read-only catalog integrity audit
         run: python scripts/audit_catalog.py > audit-catalog.json
       - name: Run stream and EPG coverage audit (read-only)
@@ -83,5 +155,6 @@ jobs:
             stream-epg-coverage.json
             catalog-quality-report.json
             vod-enrichment-plan.json
+            reference-import-preview.json
           if-no-files-found: warn
           retention-days: 14
