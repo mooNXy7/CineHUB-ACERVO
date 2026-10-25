@@ -9,7 +9,9 @@ from __future__ import annotations
 import argparse
 import ipaddress
 import json
+import os
 import re
+import tempfile
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -102,14 +104,30 @@ def load_json(path: Path, fallback: dict) -> dict:
         return fallback
 
 
-def write_json(path: Path, value: dict | list) -> None:
+def atomic_write_text(path: Path, text: str) -> None:
+    """Replace one generated file atomically; preserve prior content on failure."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\\n") as stream:
+            stream.write(text)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
+
+
+def write_json(path: Path, value: dict | list) -> None:
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\\n")
 
 
 def write_json_compact(path: Path, value: dict | list) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\\n")
 
 
 def read_lines(path: Path):
@@ -752,15 +770,6 @@ def main() -> None:
                 for item in chunk:
                     detail_paths[(kind, item["id"])] = relative_path
 
-    # Todos os registros antigos já foram incorporados antes da gravação; remove apenas shards obsoletos.
-    for kind in ("movies", "series", "anime", "doramas"):
-        folder = DETAILS / kind
-        if folder.exists():
-            for old_path in folder.glob("*.json"):
-                relative_path = old_path.relative_to(ROOT).as_posix()
-                if relative_path not in written_detail_paths:
-                    old_path.unlink()
-
     def index_entry(item, kind):
         episode_sources = sum(
             len(ep.get("sources", []))
@@ -826,6 +835,16 @@ def main() -> None:
     else:
         manifest["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json_compact(VOD_INDEX, manifest)
+
+    # Delete obsolete shards only after all replacement shards and indexes are published.
+    # If index publication fails, old shard files remain available to the prior index.
+    for kind in ("movies", "series", "anime", "doramas"):
+        folder = DETAILS / kind
+        if folder.exists():
+            for old_path in folder.glob("*.json"):
+                relative_path = old_path.relative_to(ROOT).as_posix()
+                if relative_path not in written_detail_paths:
+                    old_path.unlink()
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
     known_radio = {norm(x.get("name", "")): x for x in radios.get("radios", [])}
