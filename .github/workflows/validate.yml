@@ -57,6 +57,16 @@ jobs:
             python /tmp/cinehub-acervo-preview/scripts/validate_catalog.py
             VALIDATION_STATUS=$?
           fi
+          python /tmp/cinehub-acervo-preview/scripts/catalog_quality_report.py > /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json
+          QUALITY_STATUS=$?
+          python /tmp/cinehub-acervo-preview/scripts/plan_vod_enrichment.py --output /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json
+          PLAN_STATUS=$?
+          if [ -f /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json ]; then
+            cp /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json "$GITHUB_WORKSPACE/catalog-quality-report-preview.json"
+          fi
+          if [ -f /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json ]; then
+            cp /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json "$GITHUB_WORKSPACE/vod-enrichment-plan-preview.json"
+          fi
           if [ -f /tmp/cinehub-acervo-preview/reports/reference-import.json ]; then
             python scripts/summarize_reference_import_preview.py \
               --before-root "$GITHUB_WORKSPACE" \
@@ -160,5 +170,7 @@ jobs:
             catalog-quality-report.json
             vod-enrichment-plan.json
             reference-import-preview.json
+            catalog-quality-report-preview.json
+            vod-enrichment-plan-preview.json
           if-no-files-found: warn
           retention-days: 14
