@@ -59,6 +59,27 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(doc["programmes"]["SONY Movies"]["source_id"], "guia-de-tv-br")
             self.assertEqual(doc["programmes"]["SONY Movies"]["programmes"][0]["title"], "Filme Sony")
 
+
+    def test_existing_guiadetv_schedule_is_refreshed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            epg = root / "catalog/epg"
+            epg.mkdir(parents=True)
+            (epg / "channel-map.json").write_text(json.dumps({
+                "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
+            }), encoding="utf-8")
+            old = {
+                "schema_version": 1, "timezone": "America/Sao_Paulo",
+                "programmes": {"SONY Movies": {"source_id": "guia-de-tv-br", "fetched_at": "2026-10-24T10:00:00Z",
+                                               "programmes": [{"start": "2026-10-24T18:00:00-03:00", "end": "2026-10-24T19:00:00-03:00", "title": "Programa antigo", "genre": None}]}},
+                "health": {"SONY Movies": {"consecutive_failures": 0}},
+            }
+            (epg / "html-programmes.json").write_text(json.dumps(old), encoding="utf-8")
+            html = '<div data-dt="2026-10-25 20:00:00"></div><a href="/programa/novo">Programa atualizado</a>'
+            doc = update_document(root, lambda url: html)
+            self.assertEqual(doc["programmes"]["SONY Movies"]["programmes"][0]["title"], "Programa atualizado")
+            self.assertEqual(doc["health"]["SONY Movies"]["status"], "healthy")
+
     def test_atomic_writer_preserves_previous_file_if_replace_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "result.json"
