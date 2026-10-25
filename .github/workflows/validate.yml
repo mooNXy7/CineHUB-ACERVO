@@ -37,7 +37,6 @@ jobs:
           coverage = json.load(open("stream-epg-coverage.json", encoding="utf-8"))
           vod = json.load(open("vod-enrichment-plan.json", encoding="utf-8"))
           counts = audit["counts"]
-          quality = audit["quality"]
           summary = vod["summary"]
           stream_counts = coverage["counts"]
           stream_coverage = coverage["coverage"]
@@ -62,8 +61,10 @@ jobs:
               f"- ID externo já presente; requer validação: {summary['status_provider_id_present']:,}",
               f"- Candidato por título/ano/tipo; requer revisão: {summary['status_title_year_type_candidate']:,}",
               f"- Revisão manual por identidade insuficiente: {summary['status_manual_identity_review']:,}",
+              f"- Ocorrências de ID externo com formato inesperado: {summary['invalid_external_id_occurrences']:,}",
+              f"- Grupos de IDs externos repetidos na mesma categoria: {summary['duplicate_external_id_groups']:,}",
               "",
-              "Relatórios gerados sem chamadas de rede e sem modificar arquivos do catálogo. Referências de stream não garantem reprodução; associação de EPG não garante grade atual.",
+              "IDs com formato inesperado e IDs repetidos são alertas de revisão, não prova de erro. Relatórios gerados sem chamadas de rede e sem modificar arquivos do catálogo. Referências de stream não garantem reprodução; associação de EPG não garante grade atual.",
           ]
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
               handle.write("\n".join(lines) + "\n")
