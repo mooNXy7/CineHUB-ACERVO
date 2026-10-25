@@ -2,7 +2,9 @@
 """Safely refresh channel sources without replacing curated catalog metadata."""
 import ipaddress
 import json
+import os
 import re
+import tempfile
 import urllib.request
 import unicodedata
 from datetime import datetime, timezone
@@ -14,6 +16,29 @@ SOURCES = ROOT / "sources/sources.json"
 OUT = ROOT / "catalog/channels/channels.json"
 MAX_BYTES = 20 * 1024 * 1024
 TIMEOUT = 20
+
+
+def atomic_write_text(path, text):
+    """Write in the same directory and atomically replace the destination."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(text)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
+
+
+def atomic_write_json(path, value):
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
 def safe_https_url(url):
@@ -116,7 +141,6 @@ def merge_channels(existing, incoming):
                 existing_sources.append(source)
                 known_urls.add(source.get("url"))
                 added_sources += 1
-        # Fill only blank metadata; never replace curated values with source values.
         for field in ("group", "logo_url", "epg_id"):
             if not target.get(field) and item.get(field):
                 target[field] = item[field]
@@ -158,7 +182,7 @@ def main():
         if merged_channels != previous_channels:
             current["channels"] = merged_channels
             current["generated_at"] = datetime.now(timezone.utc).isoformat()
-            OUT.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            atomic_write_json(OUT, current)
             print(f"Catálogo alterado: {len(collected)} canais processados; {added} fontes anexadas.")
         else:
             print(f"Fonte(s) verificadas: {len(collected)} canais; sem alterações no catálogo.")
@@ -169,7 +193,7 @@ def main():
     report.mkdir(exist_ok=True)
     report_path = report / "last-update.txt"
     if failures:
-        report_path.write_text("\n".join(failures) + "\n", encoding="utf-8")
+        atomic_write_text(report_path, "\n".join(failures) + "\n")
         print("\n".join("AVISO: " + item for item in failures))
     elif active and report_path.exists():
         report_path.unlink()
