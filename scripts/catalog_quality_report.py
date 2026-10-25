@@ -94,7 +94,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "counts": {**counts, "vod_total": vod_total},
         "missing_metadata": {rule: {"count": missing_totals.get(rule, len(items)), "items_included": len(items), "truncated": missing_totals.get(rule, len(items)) > len(items), "items": items} for rule, items in sorted(missing.items())},
         "duplicate_id_candidates": {"count": len(id_collisions), "groups": id_collisions[:MAX_DUPLICATE_GROUPS], "truncated": len(id_collisions) > MAX_DUPLICATE_GROUPS, "warning": "Repeated IDs are reported only within the same catalog namespace and require review."},
-        "duplicate_title_candidates": {"count_included": len(dupes), "truncated": total_dupe_groups > len(dupes), "groups": dupes,
+        "duplicate_title_candidates": {"count": total_dupe_groups, "groups_included": len(dupes), "truncated": total_dupe_groups > len(dupes), "groups": dupes,
             "warning": "Candidates require review; normalized title equality does not prove duplicate content."},
         "limitations": [
             "Field presence does not prove a stream or image URL works.",
