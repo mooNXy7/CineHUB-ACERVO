@@ -70,5 +70,75 @@ class ReadOnlyAuditTests(unittest.TestCase):
             self.assertTrue(any(x["code"] == "duplicate_ids" for x in result["findings"]))
 
 
+
+    def test_audit_reports_catalog_quality_without_mutating_data(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files = {
+                "catalog/channels/channels.json": {"schema_version": 1, "channels": [
+                    {"id": "ch-a", "name": "A", "logo_url": "http://example.com/logo.png",
+                     "sources": [{"url": "https://example.com/live"}]}
+                ]},
+                "catalog/radios/radios.json": {"schema_version": 1, "radios": [
+                    {"id": "r-a", "name": "Rock", "stream_url": "https://radio.example/stream%22%3E%3C/audio%3E"}
+                ]},
+                "catalog/vod/index.json": {"schema_version": 1, "categories": {
+                    name: {"count": 2 if name == "movies" else 0,
+                           "index_path": f"catalog/vod/index/{name}.json"}
+                    for name in ("movies", "series", "anime", "doramas")}},
+                "catalog/vod/index/movies.json": [
+                    {"id": "m-1", "title": "Example Movie"},
+                    {"id": "m-2", "title": "Example Movie"}
+                ],
+                "catalog/vod/index/series.json": [],
+                "catalog/vod/index/anime.json": [],
+                "catalog/vod/index/doramas.json": [],
+                "sources/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/channel-map.json": {"meuguia_codes": {}, "guiadetv_slugs": {}, "xmltv_aliases": {}},
+                "catalog/epg/health.json": {"sources": {}},
+                "catalog/epg/xmltv-channels.json": {"sources": {}},
+            }
+            for relative, value in files.items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value), encoding="utf-8")
+            before = {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()}
+            result = audit(root)
+            after = {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()}
+            self.assertEqual(before, after)
+            self.assertEqual(result["quality"]["http_url_references"], 1)
+            self.assertEqual(result["quality"]["suspicious_url_references"], 1)
+            self.assertEqual(result["quality"]["vod_duplicate_normalized_titles"], 1)
+            self.assertEqual(result["quality"]["vod_missing_poster"], 2)
+
+    def test_audit_rejects_detail_paths_that_escape_repository_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files = {
+                "catalog/channels/channels.json": {"schema_version": 1, "channels": []},
+                "catalog/radios/radios.json": {"schema_version": 1, "radios": []},
+                "catalog/vod/index.json": {"schema_version": 1, "categories": {
+                    name: {"count": 1 if name == "movies" else 0,
+                           "index_path": f"catalog/vod/index/{name}.json"}
+                    for name in ("movies", "series", "anime", "doramas")}},
+                "catalog/vod/index/movies.json": [{"id": "m-1", "detail_path": "../../outside.json"}],
+                "catalog/vod/index/series.json": [],
+                "catalog/vod/index/anime.json": [],
+                "catalog/vod/index/doramas.json": [],
+                "sources/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/channel-map.json": {"meuguia_codes": {}, "guiadetv_slugs": {}, "xmltv_aliases": {}},
+                "catalog/epg/health.json": {"sources": {}},
+                "catalog/epg/xmltv-channels.json": {"sources": {}},
+            }
+            for relative, value in files.items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value), encoding="utf-8")
+            result = audit(root)
+            self.assertTrue(any(x["code"] == "detail_path_outside_root" for x in result["findings"]))
+
+
 if __name__ == "__main__":
     unittest.main()

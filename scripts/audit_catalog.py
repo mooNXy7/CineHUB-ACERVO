@@ -7,6 +7,8 @@ local counts and structural risks so an operator can review data before any merg
 from __future__ import annotations
 
 import json
+import re
+from urllib.parse import urlsplit
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -25,6 +27,36 @@ def read_json(root: Path, relative: str, findings: list[dict[str, str]]) -> Any:
         findings.append({"severity": "error", "code": "invalid_json", "path": relative,
                          "detail": str(exc)[:200]})
     return None
+
+
+def normalized_name(value: Any) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(value or "").casefold()).strip()
+
+
+def url_quality(value: Any) -> str:
+    """Classify catalog URL shape without making network requests."""
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
+            return "invalid"
+        if parsed.username is not None or parsed.password is not None:
+            return "credentials"
+        if any(marker in str(value).lower() for marker in ("%22%3e", "%3c", "%3e", "<", ">", '"')):
+            return "malformed_markup"
+        return "http" if parsed.scheme.lower() == "http" else "https"
+    except (TypeError, ValueError):
+        return "invalid"
+
+
+def contained_file(root: Path, relative: str) -> Path | None:
+    """Resolve a catalog reference only if it remains inside the repository root."""
+    try:
+        base = root.resolve()
+        candidate = (base / relative).resolve()
+        candidate.relative_to(base)
+        return candidate
+    except (OSError, RuntimeError, ValueError, TypeError):
+        return None
 
 
 def audit(root: Path = ROOT) -> dict[str, Any]:
@@ -55,6 +87,49 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
     radios = records("radios", "radios")
     counts["channels"] = len(channels)
     counts["radios"] = len(radios)
+
+    quality = {
+        "channels_missing_logo": sum(not x.get("logo_url") for x in channels),
+        "channels_missing_group": sum(not x.get("group") for x in channels),
+        "channels_missing_epg_id": sum(not x.get("epg_id") for x in channels),
+        "channels_without_source_list": sum(not isinstance(x.get("sources"), list) or not x.get("sources") for x in channels),
+        "radios_missing_logo": sum(not x.get("logo_url") for x in radios),
+        "radios_missing_genre": sum(not x.get("genre") for x in radios),
+        "radios_missing_stream": sum(not x.get("stream_url") for x in radios),
+        "http_url_references": 0,
+        "invalid_url_references": 0,
+        "suspicious_url_references": 0,
+        "vod_missing_poster": 0,
+        "vod_missing_year": 0,
+        "vod_missing_genres": 0,
+        "vod_duplicate_normalized_titles": 0,
+    }
+    suspicious_url_examples: list[str] = []
+    for kind, records_list in (("channels", channels), ("radios", radios)):
+        for record in records_list:
+            candidates = []
+            if kind == "channels":
+                candidates.append((f'{record.get("id", "?")}:logo', record.get("logo_url")))
+                for source in record.get("sources") or []:
+                    if isinstance(source, dict):
+                        candidates.append((f'{record.get("id", "?")}:stream', source.get("url")))
+            else:
+                candidates.extend(((f'{record.get("id", "?")}:stream', record.get("stream_url")),
+                                  (f'{record.get("id", "?")}:logo', record.get("logo_url"))))
+            for label, candidate in candidates:
+                if not candidate:
+                    continue
+                classification = url_quality(candidate)
+                if classification == "http":
+                    quality["http_url_references"] += 1
+                elif classification in {"invalid", "credentials"}:
+                    quality["invalid_url_references"] += 1
+                    if len(suspicious_url_examples) < 25:
+                        suspicious_url_examples.append(f"{label} ({classification})")
+                elif classification == "malformed_markup":
+                    quality["suspicious_url_references"] += 1
+                    if len(suspicious_url_examples) < 25:
+                        suspicious_url_examples.append(f"{label} (malformed_markup)")
     for label, items in (("channels", channels), ("radios", radios)):
         ids = [str(x.get("id", "")).strip() for x in items]
         missing = sum(not ident for ident in ids)
@@ -105,6 +180,21 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
                                  "path": str(index_path or category),
                                  "detail": ", ".join(sorted(duplicate_ids)[:20])})
 
+            # Quality metrics are observational only; no records are rewritten or removed.
+            seen_titles = Counter(normalized_name(item.get("title")) for item in index
+                                  if isinstance(item, dict) and normalized_name(item.get("title")))
+            quality["vod_duplicate_normalized_titles"] += sum(1 for _, n in seen_titles.items() if n > 1)
+            quality["vod_missing_poster"] += sum(
+                not (item.get("poster_url") or item.get("poster_path"))
+                for item in index if isinstance(item, dict)
+            )
+            quality["vod_missing_year"] += sum(
+                not item.get("year") for item in index if isinstance(item, dict)
+            )
+            quality["vod_missing_genres"] += sum(
+                not item.get("genres") for item in index if isinstance(item, dict)
+            )
+
             # Verify detail references without loading or rewriting the full detail corpus.
             for item in index:
                 if not isinstance(item, dict):
@@ -112,9 +202,14 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
                                      "path": str(index_path or category)})
                     continue
                 detail_path = item.get("detail_path")
-                if detail_path and not (root / str(detail_path)).is_file():
-                    findings.append({"severity": "error", "code": "missing_detail",
-                                     "path": str(detail_path), "detail": str(item.get("id", ""))})
+                if detail_path:
+                    resolved = contained_file(root, str(detail_path))
+                    if resolved is None:
+                        findings.append({"severity": "error", "code": "detail_path_outside_root",
+                                         "path": str(detail_path), "detail": str(item.get("id", ""))})
+                    elif not resolved.is_file():
+                        findings.append({"severity": "error", "code": "missing_detail",
+                                         "path": str(detail_path), "detail": str(item.get("id", ""))})
 
     channel_sources = loaded.get("channel_sources")
     source_list = channel_sources.get("sources", []) if isinstance(channel_sources, dict) else []
@@ -153,6 +248,8 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
         "mode": "read-only",
         "repository": "CineHUB-ACERVO",
         "counts": counts,
+        "quality": quality,
+        "suspicious_url_examples_limited_to_25": suspicious_url_examples,
         "vod_categories": category_stats,
         "findings_summary": dict(Counter(x["severity"] for x in findings)),
         "findings": findings,

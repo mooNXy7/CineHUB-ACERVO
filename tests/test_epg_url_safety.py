@@ -1,7 +1,7 @@
 import sys
 import unittest
 from pathlib import Path
-from types import SimpleNamespace
+from urllib.request import Request
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -37,7 +37,7 @@ class EpgUrlSafetyTests(unittest.TestCase):
 
     def test_redirect_to_unsafe_target_is_rejected(self):
         handler = update_epg.SafeRedirectHandler()
-        request = SimpleNamespace(full_url="https://raw.githubusercontent.com/feed.xml")
+        request = Request("https://raw.githubusercontent.com/feed.xml")
         for target in ("http://127.0.0.1/private", "https://localhost/", "https://evil.example:8443/"):
             with self.subTest(target=target):
                 with self.assertRaises(ValueError):
