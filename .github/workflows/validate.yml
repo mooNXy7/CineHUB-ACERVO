@@ -20,10 +20,20 @@ jobs:
       - name: Validate required catalog schemas and references
         run: python scripts/validate_catalog.py
       - name: Run read-only catalog integrity audit
-        run: python scripts/audit_catalog.py
+        run: python scripts/audit_catalog.py > audit-catalog.json
       - name: Run stream and EPG coverage audit (read-only)
-        run: python scripts/audit_stream_epg_coverage.py
+        run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
       - name: Run automated tests
         run: python -m unittest discover -s tests -v
       - name: Compile Python scripts
         run: python -m py_compile scripts/*.py
+      - name: Upload machine-readable audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-acervo-audit-reports
+          path: |
+            audit-catalog.json
+            stream-epg-coverage.json
+          if-no-files-found: warn
+          retention-days: 14

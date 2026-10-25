@@ -69,6 +69,24 @@ O GitHub Actions executará a rotina agendada e manualmente. A rotina deve:
 
 A estrutura de dados foi adaptada a partir de um repositório de referência autorizado pelo mantenedor. O projeto CineHUB mantém nomenclatura, identidade, formatos e rotinas próprios. Dados importados passam por validação técnica e revisão de permissão antes de serem considerados prontos para produção.
 
+## Auditoria de qualidade
+
+A validação do pull request executa duas auditorias somente de leitura e publica os relatórios JSON como artefato do GitHub Actions por 14 dias:
+
+- `audit-catalog.json`: integridade de IDs, contagens, referências a detalhes, campos de metadados ausentes e URLs estruturalmente suspeitas.
+- `stream-epg-coverage.json`: cobertura estrutural de referências de streams e associações de EPG.
+
+Esses relatórios não fazem requisições de rede e não modificam os catálogos. Uma URL presente não comprova que o stream reproduz; uma associação EPG não comprova programação atual. Os relatórios podem conter nomes/IDs públicos de registros para facilitar revisão, mas não devem conter credenciais.
+
+Para executar localmente:
+
+```bash
+python scripts/audit_catalog.py > audit-catalog.json
+python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
+python -m unittest discover -s tests -v
+python scripts/validate_catalog.py
+```
+
 ## Status
 
 Versão de estrutura: **0.1.0**. A integração com os aplicativos CineHUB TV/Mobile deve ser feita por URLs estáveis e validada em cada app antes de trocar a fonte atual.
