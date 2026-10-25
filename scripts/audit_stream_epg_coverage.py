@@ -79,7 +79,7 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
             or name_key in meuguia
             or name_key in guide
             or name_key in xmltv_names
-            or any(name_key in names or bool(names & xmltv_names) for names in alias_names.values())
+            or bool(alias_names.get(name_key, set()) & xmltv_names)
         )
         stats["channels_with_epg_association"] += has_mapping
         if epg_id and epg_id in xmltv_ids:
