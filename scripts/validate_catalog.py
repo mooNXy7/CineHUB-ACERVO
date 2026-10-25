@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Validate catalog schemas, VOD category indexes, stable IDs, and detail references."""
 import datetime as dt
+import ipaddress
 import json
 from pathlib import Path
+from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = {
@@ -18,6 +20,37 @@ FILES = {
 def load(path):
     with path.open(encoding="utf-8") as stream:
         return json.load(stream)
+
+
+def safe_source_url(value):
+    """Structural URL check for configured network sources (no network/DNS lookup)."""
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        if parsed.scheme.lower() != "https" or not parsed.hostname:
+            return False
+        if parsed.username is not None or parsed.password is not None:
+            return False
+        if parsed.port not in (None, 443):
+            return False
+        sensitive = {"token", "access_token", "auth", "authorization", "password",
+                     "passwd", "username", "user", "key", "signature", "sig", "session"}
+        if any(key.lower() in sensitive for key, _ in parse_qsl(parsed.query, keep_blank_values=True)):
+            return False
+        host = parsed.hostname.rstrip(".").lower()
+        if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
+            return False
+        try:
+            address = ipaddress.ip_address(host)
+        except ValueError:
+            address = None
+        if address is not None and (
+            address.is_private or address.is_loopback or address.is_link_local
+            or address.is_reserved or address.is_multicast or address.is_unspecified
+        ):
+            return False
+        return True
+    except (TypeError, ValueError):
+        return False
 
 
 def validate_html_epg_doc(data):
@@ -76,6 +109,37 @@ def main():
             categories = data.get("categories")
             if categories is not None and not isinstance(categories, dict):
                 errors.append(f"{path.relative_to(ROOT)}: 'categories' deve ser um objeto")
+
+    # Validate network source endpoints before any updater can fetch them.
+    for source_doc_name, url_fields in (
+        ("epg_sources", ("url", "probe_url")),
+        ("sources", ("url",)),
+    ):
+        source_doc = loaded.get(source_doc_name, {})
+        if not isinstance(source_doc, dict):
+            continue
+        for source in source_doc.get("sources", []):
+            if not isinstance(source, dict) or not source.get("enabled", False):
+                continue
+            for field in url_fields:
+                endpoint = source.get(field)
+                if endpoint and not safe_source_url(endpoint):
+                    errors.append(
+                        f"{FILES[source_doc_name].relative_to(ROOT)}: URL insegura/inválida "
+                        f"para fonte {source.get('id', '?')} ({field})"
+                    )
+        if source_doc_name == "epg_sources":
+            for source in source_doc.get("sources", []):
+                if not isinstance(source, dict) or not source.get("enabled", False):
+                    continue
+                template = source.get("url_template")
+                if template:
+                    base = template.split("{", 1)[0]
+                    if not safe_source_url(base):
+                        errors.append(
+                            f"{FILES[source_doc_name].relative_to(ROOT)}: url_template inseguro "
+                            f"para fonte {source.get('id', '?')}"
+                        )
 
     epg_sources = loaded.get("epg_sources", {})
     if isinstance(epg_sources, dict):

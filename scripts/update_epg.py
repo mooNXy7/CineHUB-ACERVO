@@ -3,11 +3,13 @@
 import concurrent.futures
 import datetime as dt
 import io
+import ipaddress
 import json
 import os
 import tempfile
 import re
 import unicodedata
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -58,9 +60,57 @@ def normalise(value):
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
+SENSITIVE_QUERY_KEYS = {
+    "token", "access_token", "auth", "authorization", "password", "passwd",
+    "username", "user", "key", "signature", "sig", "session",
+}
+
+
+def safe_https_url(url):
+    """Reject non-HTTPS, credential-bearing, local, and private-IP source URLs."""
+    try:
+        parsed = urllib.parse.urlsplit(str(url).strip())
+        if parsed.scheme.lower() != "https" or not parsed.hostname:
+            return False
+        if parsed.username is not None or parsed.password is not None:
+            return False
+        if parsed.port not in (None, 443):
+            return False
+        if any(key.lower() in SENSITIVE_QUERY_KEYS
+               for key, _ in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)):
+            return False
+        host = parsed.hostname.rstrip(".").lower()
+        if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
+            return False
+        try:
+            address = ipaddress.ip_address(host)
+        except ValueError:
+            address = None
+        if address is not None and (
+            address.is_private or address.is_loopback or address.is_link_local
+            or address.is_reserved or address.is_multicast or address.is_unspecified
+        ):
+            return False
+        return True
+    except (TypeError, ValueError):
+        return False
+
+
+class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Revalidate every redirect before following it."""
+    def redirect_request(self, request, file_pointer, code, message, headers, new_url):
+        target = urllib.parse.urljoin(request.full_url, new_url)
+        if not safe_https_url(target):
+            raise ValueError("redirection target rejected by HTTPS/source URL policy")
+        return super().redirect_request(request, file_pointer, code, message, headers, target)
+
+
 def get_url(url):
+    if not safe_https_url(url):
+        raise ValueError("source URL rejected by HTTPS/source URL policy")
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,text/html,*/*"})
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+    opener = urllib.request.build_opener(SafeRedirectHandler())
+    with opener.open(request, timeout=TIMEOUT) as response:
         status = getattr(response, "status", 200)
         content_type = response.headers.get("Content-Type", "")
         chunks, size = [], 0
