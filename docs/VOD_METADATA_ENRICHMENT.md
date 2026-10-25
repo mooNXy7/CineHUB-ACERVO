@@ -6,7 +6,7 @@ Completar metadados ausentes nos índices de filmes, séries, animes e doramas s
 
 ## Relatório dry-run disponível
 
-O comando `scripts/plan_vod_enrichment.py` inventaria registros com metadados ausentes. É somente leitura: não consulta rede, não altera os índices e não inclui URLs de fontes de reprodução no resultado.
+O comando `scripts/plan_vod_enrichment.py` inventaria registros com metadados ausentes e verifica a sintaxe óbvia dos IDs externos, além de agrupar IDs repetidos dentro de cada categoria. É somente leitura: não consulta rede, não altera os índices e não inclui URLs de fontes de reprodução no resultado.
 
 ```bash
 python scripts/plan_vod_enrichment.py > vod-enrichment-plan.json
@@ -20,8 +20,10 @@ O limite controla apenas quantos exemplos são incluídos por categoria; as cont
 - `provider_id_present`: há um ID externo no registro; ainda é necessário confirmar que ele corresponde à obra e à categoria.
 - `title_year_type_candidate`: título, ano e tipo existem; é candidato para futura consulta, não uma correspondência aprovada.
 - `manual_identity_review`: faltam evidências suficientes; revisão manual antes de consultar qualquer provedor.
+- `invalid_external_id_occurrences`: o valor não corresponde ao padrão sintático básico esperado para aquele campo. Pode ser um formato local legítimo ou dado legado; revisar antes de alterar.
+- `duplicate_external_id_groups`: o mesmo ID aparece em mais de um registro dentro da mesma categoria. É um alerta para revisão, não uma instrução para apagar ou mesclar registros.
 
-Este relatório não executa enriquecimento. Antes de qualquer consulta em lote, é necessário escolher um provedor autorizado, revisar os termos/licença e definir como IDs e procedência serão armazenados.
+Os testes de formato e duplicidade são heurísticos; **não provam** que um ID seja correto ou incorreto. O relatório não executa enriquecimento. Antes de qualquer consulta em lote, é necessário escolher um provedor autorizado, revisar os termos/licença e definir como IDs e procedência serão armazenados.
 
 ## Próximas etapas seguras
 
