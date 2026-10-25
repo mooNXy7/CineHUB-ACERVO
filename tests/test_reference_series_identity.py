@@ -50,8 +50,8 @@ class ReferenceSeriesIdentityTests(unittest.TestCase):
 
         self.assertEqual(older["seasons"], {})
         self.assertEqual(len(newer["seasons"]), 1)
-        self.assertEqual(newer["seasons"][0]["episodes"][0]["episode"], 1)
-        self.assertEqual(len(newer["seasons"][0]["episodes"][0]["sources"]), 1)
+        self.assertEqual(newer["seasons"]["1"]["episodes"][0]["episode"], 1)
+        self.assertEqual(len(newer["seasons"]["1"]["episodes"][0]["sources"]), 1)
         self.assertEqual(len(series), 2)
 
     def test_missing_year_does_not_merge_when_title_is_ambiguous(self):
@@ -64,7 +64,7 @@ class ReferenceSeriesIdentityTests(unittest.TestCase):
 
         self._run_import("@The Remake", series)
 
-        self.assertEqual(older["seasons"], [])
+        self.assertEqual(older["seasons"], {})
         self.assertEqual(newer["seasons"], {})
         self.assertEqual(len(series), 3)
         created = next(item for item in series.values() if item["id"] not in {
