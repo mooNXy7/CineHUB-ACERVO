@@ -682,6 +682,10 @@ def load_existing_details(kind: str) -> dict[str, dict]:
                 "source_candidates_skipped": 0,
                 **({"seasons": []} if kind in {"series", "anime", "doramas"} else {}),
             }
+        else:
+            # The index may contain valid metadata missing from an older detail shard.
+            # Merge only into gaps so collision checks see the complete current identity.
+            merge_record(existing[ident], item)
     return existing
 
 
