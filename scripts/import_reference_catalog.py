@@ -109,7 +109,7 @@ def atomic_write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
-        with os.fdopen(fd, "w", encoding="utf-8", newline="\\n") as stream:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
             stream.write(text)
             stream.flush()
             os.fsync(stream.fileno())
@@ -123,11 +123,11 @@ def atomic_write_text(path: Path, text: str) -> None:
 
 
 def write_json(path: Path, value: dict | list) -> None:
-    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\\n")
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
 def write_json_compact(path: Path, value: dict | list) -> None:
-    atomic_write_text(path, json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\\n")
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
 def read_lines(path: Path):
