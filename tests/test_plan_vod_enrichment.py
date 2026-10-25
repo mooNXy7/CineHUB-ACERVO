@@ -17,6 +17,7 @@ class PlanVodEnrichmentTests(unittest.TestCase):
                 {"id": "m-1", "title": "Filme com ID", "type": "movie", "tmdb_id": "123", "poster_url": ""},
                 {"id": "m-2", "title": "Filme candidato", "type": "movie", "year": "2020", "poster_url": ""},
                 {"id": "m-3", "title": "Sem ano", "type": "movie", "poster_url": "", "sources": [{"url": "https://secret.example/play"}]},
+                {"id": "m-4", "title": "ID suspeito", "type": "movie", "imdb_id": "not-an-imdb-id", "tmdb_id": "123", "poster_url": ""},
             ],
             "series": [], "anime": [], "doramas": [],
         }
@@ -36,10 +37,14 @@ class PlanVodEnrichmentTests(unittest.TestCase):
             self.assertTrue(report["read_only"])
             self.assertFalse(report["network_accessed"])
             self.assertFalse(report["catalog_mutated"])
-            self.assertEqual(report["categories"]["movies"]["records_with_missing_metadata"], 3)
-            self.assertEqual(report["categories"]["movies"]["match_status_counts"]["provider_id_present"], 1)
+            self.assertEqual(report["categories"]["movies"]["records_with_missing_metadata"], 4)
+            self.assertEqual(report["categories"]["movies"]["match_status_counts"]["provider_id_present"], 2)
             self.assertEqual(report["categories"]["movies"]["match_status_counts"]["title_year_type_candidate"], 1)
             self.assertEqual(report["categories"]["movies"]["match_status_counts"]["manual_identity_review"], 1)
+            self.assertEqual(report["categories"]["movies"]["invalid_external_id_occurrences"], 1)
+            self.assertEqual(report["categories"]["movies"]["duplicate_external_id_groups"], 1)
+            self.assertEqual(report["summary"]["invalid_external_id_occurrences"], 1)
+            self.assertEqual(report["summary"]["duplicate_external_id_groups"], 1)
             self.assertNotIn("secret.example", serialized)
             self.assertNotIn("https://", serialized)
 
@@ -49,9 +54,11 @@ class PlanVodEnrichmentTests(unittest.TestCase):
             self._fixture(root)
             report = build_report(root, limit=1)
             section = report["categories"]["movies"]
-            self.assertEqual(section["records_with_missing_metadata"], 3)
+            self.assertEqual(section["records_with_missing_metadata"], 4)
             self.assertEqual(section["examples_included"], 1)
             self.assertTrue(section["examples_truncated"])
+            self.assertEqual(section["invalid_external_id_occurrences"], 1)
+            self.assertEqual(section["invalid_external_id_examples_included"], 1)
 
     def test_rejects_index_path_escape(self):
         with tempfile.TemporaryDirectory() as tmp:
