@@ -312,7 +312,7 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
                 existing_genres.append(genre.strip())
                 seen_genres.add(norm(genre))
         item["genres"] = existing_genres
-                title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
+        title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
         if not item.get("year") and title_year:
             item["year"] = title_year.group(1)
     return movies
@@ -356,7 +356,7 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                     for candidate in by_title.get(name_key, []):
                         candidate_map[id(candidate)] = candidate
                 candidates = list(candidate_map.values())
-                title_year = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", title)
+                title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
                 requested_year = title_year.group(1) if title_year else None
                 if requested_year:
                     exact_year = [
