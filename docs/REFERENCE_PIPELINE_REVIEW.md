@@ -73,3 +73,10 @@ Testes de regressão foram adicionados para filmes e séries com o mesmo título
 - O sidecar HTML de EPG continua separado do formato consumido pelos apps.
 - Não foi executado enriquecimento de dezenas de milhares de registros por API externa. Isso depende de escolher provedor/termos, usar credencial própria em segredo e gerar/revisar um diff antes de alterar dados.
 - Os metadados e fontes existentes não foram apagados nem substituídos por ausência em uma referência.
+
+
+### Correção adicional — preservação de metadados VOD
+
+A inspeção do importador revelou que o caminho de filmes atribuía diretamente os metadados da referência, inclusive quando a referência não possuía ID TMDB, pôster ou gêneros. Isso poderia substituir dados já existentes por valores vazios. A correção agora trata a referência como enriquecimento: mantém ID e pôster existentes, preenche ano quando ausente e reconhecível no título, e combina gêneros sem duplicação. O caminho de séries também combina gêneros e preenche o ano ausente sem apagar os dados já existentes.
+
+Testes de regressão cobrem filmes e séries, preservação de ID/pôster/fontes e combinação de gêneros. A execução [#160](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/40245113697) passou com **72 testes automatizados**, auditorias e compilação dos scripts.
