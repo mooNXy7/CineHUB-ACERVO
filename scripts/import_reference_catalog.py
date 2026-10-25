@@ -788,6 +788,41 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     return current
 
 
+def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int]:
+    """Import radio rows in the documented name|stream[|logo] format, without replacing existing entries."""
+    known_radio = {
+        norm(item.get("name", "")): item
+        for item in radios.get("radios", [])
+        if isinstance(item, dict) and item.get("name")
+    }
+    imported = 0
+    radio_file = reference / "vod" / "radios.txt"
+    for line in read_lines(radio_file) or ():
+        fields = line.rstrip("\n").split("|")
+        if len(fields) < 2:
+            continue
+        radio_name = fields[0].strip()
+        stream = fields[1].strip()
+        logo = fields[2].strip() if len(fields) > 2 and fields[2].strip() else None
+        if not radio_name:
+            continue
+        key = norm(radio_name)
+        if not key or key in known_radio:
+            continue
+        stream_is_safe = safe_candidate(stream)
+        radio = {
+            "id": "radio-" + slug(radio_name), "name": radio_name,
+            "stream_url": stream if stream_is_safe else None,
+            "logo_url": logo if safe_candidate(logo or "") else None,
+            "genre": None, "source_id": SOURCE_ID,
+            "stream_status": "imported" if stream_is_safe else "pending_review",
+        }
+        radios.setdefault("radios", []).append(radio)
+        known_radio[key] = radio
+        imported += 1
+    return radios, imported
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE)
@@ -909,31 +944,7 @@ def main() -> None:
                     old_path.unlink()
 
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
-    known_radio = {norm(x.get("name", "")): x for x in radios.get("radios", [])}
-    imported_radio_count = 0
-    radio_file = reference / "vod" / "radios.txt"
-    for line in read_lines(radio_file) or ():
-        fields = line.rstrip("\n").split("|")
-        if len(fields) < 3:
-            continue
-        radio_name = fields[1].strip()
-        if not radio_name:
-            continue
-        key = norm(radio_name)
-        if key in known_radio:
-            continue
-        stream = fields[2].strip()
-        logo = fields[3].strip() if len(fields) > 3 and fields[3].strip() else None
-        radio = {
-            "id": "radio-" + slug(radio_name), "name": radio_name,
-            "stream_url": stream if safe_candidate(stream) else None,
-            "logo_url": logo if safe_candidate(logo or "") else None,
-            "genre": None, "source_id": SOURCE_ID,
-            "stream_status": "imported" if safe_candidate(stream) else "pending_review",
-        }
-        radios.setdefault("radios", []).append(radio)
-        known_radio[key] = radio
-        imported_radio_count += 1
+    radios, imported_radio_count = import_reference_radios(reference, radios)
     if imported_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(RADIOS_FILE, radios)
