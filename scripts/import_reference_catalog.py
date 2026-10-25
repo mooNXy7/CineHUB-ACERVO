@@ -311,11 +311,11 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
         (vod / "mgeb" / "links-filmes.txt", "reference-mgeb"),
     )
     by_tmdb = {str(item.get("tmdb_id")): item for item in movies.values() if item.get("tmdb_id")}
-    by_title = {}
+    by_title = defaultdict(list)
     for item in movies.values():
         for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
-            if key:
-                by_title.setdefault(key, item)
+            if key and all(existing is not item for existing in by_title[key]):
+                by_title[key].append(item)
     for path, source_id in source_files:
         for raw in read_lines(path) or ():
             line = raw.rstrip("\n")
@@ -334,7 +334,24 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                         tmdb_id = match.group(1)
                         break
             item = by_tmdb.get(tmdb_id) if tmdb_id else None
-            item = item or movies.get(norm(title)) or by_title.get(norm(title)) or by_title.get(base_title(title))
+            item = item or movies.get(norm(title))
+            if item is None:
+                candidate_map = {}
+                for name_key in {norm(title), base_title(title)}:
+                    for candidate in by_title.get(name_key, []):
+                        candidate_map[id(candidate)] = candidate
+                candidates = list(candidate_map.values())
+                title_year = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", title)
+                requested_year = title_year.group(1) if title_year else None
+                if requested_year:
+                    exact_year = [
+                        candidate for candidate in candidates
+                        if str(candidate.get("year") or "") == requested_year
+                    ]
+                    if len(exact_year) == 1:
+                        item = exact_year[0]
+                elif len(candidates) == 1:
+                    item = candidates[0]
             if item is None:
                 year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
                 item = {
@@ -348,8 +365,8 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 item["tmdb_id"] = item.get("tmdb_id") or tmdb_id
                 by_tmdb[tmdb_id] = item
             for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
-                if key:
-                    by_title[key] = item
+                if key and all(existing is not item for existing in by_title[key]):
+                    by_title[key].append(item)
             meta = fichas.get(("f", norm(item["title"])), {})
             item["poster_url"] = item.get("poster_url") or meta.get("poster_path")
             item["genres"] = item.get("genres") or meta.get("genres", [])
