@@ -59,13 +59,11 @@ class ReferenceDedupePreservationTests(unittest.TestCase):
         self.assertEqual(len(result[0]["sources"]), 1)
         self.assertEqual(result[0]["sources"][0]["source_id"], "reference")
 
-    def test_record_without_id_is_not_silently_dropped(self):
+    def test_record_without_id_aborts_instead_of_being_dropped(self):
         item = record("", "Record Missing ID", "2001", None)
 
-        result = importer.dedupe_records([item])
-
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]["title"], "Record Missing ID")
+        with self.assertRaisesRegex(ValueError, "without stable IDs"):
+            importer.dedupe_records([item])
 
 
 if __name__ == "__main__":
