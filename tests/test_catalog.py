@@ -105,7 +105,7 @@ class SourceSafetyTests(unittest.TestCase):
             canonical_key({"id": "b", "title": "Nome B", "tmdb_id": "123"}),
         )
 
-    def test_dedupe_records_merges_same_id_and_tmdb_without_duplicate_ids(self):
+    def test_dedupe_records_merges_same_id_but_preserves_tmdb_collision(self):
         records = [
             {"id": "movie-one", "title": "Filme (2020)", "year": "2020", "tmdb_id": "123",
              "sources": [{"url": "https://cdn.example.org/a.m3u8"}], "provider_refs": []},
@@ -115,9 +115,11 @@ class SourceSafetyTests(unittest.TestCase):
              "sources": [{"url": "https://cdn.example.org/c.m3u8"}], "provider_refs": []},
         ]
         merged = dedupe_records(records)
-        self.assertEqual(len(merged), 1)
-        self.assertEqual(len(merged[0]["sources"]), 3)
-        self.assertEqual(merged[0]["id"], "movie-one")
+        self.assertEqual(len(merged), 2)
+        by_id = {item["id"]: item for item in merged}
+        self.assertEqual(len(by_id["movie-one"]["sources"]), 2)
+        self.assertEqual(len(by_id["movie-two"]["sources"]), 1)
+        self.assertEqual(by_id["movie-two"]["sources"][0]["url"], "https://cdn.example.org/c.m3u8")
 
     def test_embed_sources_are_typed_and_prioritized(self):
         urls, refs, skipped = split_sources(
