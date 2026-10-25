@@ -9,7 +9,7 @@ import urllib.request
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources/sources.json"
@@ -44,7 +44,10 @@ def atomic_write_json(path, value):
 def safe_https_url(url):
     """Reject non-HTTPS URLs, embedded credentials, and local/private hosts."""
     try:
-        parsed = urlsplit(str(url).strip())
+        candidate = str(url).strip()
+        if any(marker in candidate.lower() for marker in ("%22%3e", "%3c", "%3e", "<", ">", '"')):
+            return False
+        parsed = urlsplit(candidate)
         if parsed.scheme.lower() != "https" or not parsed.hostname:
             return False
         if parsed.username is not None or parsed.password is not None:
@@ -67,16 +70,28 @@ def safe_https_url(url):
         return False
 
 
+def safe_source_url(url):
+    """Stricter policy for URLs fetched by the catalog updater, not stream endpoints."""
+    if not safe_https_url(url):
+        return False
+    try:
+        parsed = urlsplit(str(url).strip())
+        return parsed.port in (None, 443)
+    except (TypeError, ValueError):
+        return False
+
+
 class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, request, file_pointer, code, message, headers, new_url):
-        if not safe_https_url(new_url):
-            raise ValueError("redirecionamento para URL não segura")
-        return super().redirect_request(request, file_pointer, code, message, headers, new_url)
+        target = urljoin(request.full_url, new_url)
+        if not safe_source_url(target):
+            raise ValueError("redirecionamento para URL de fonte não segura")
+        return super().redirect_request(request, file_pointer, code, message, headers, target)
 
 
 def fetch(url):
-    if not safe_https_url(url):
-        raise ValueError("URL da fonte não passou na validação HTTPS/host")
+    if not safe_source_url(url):
+        raise ValueError("URL da fonte não passou na validação HTTPS/host/porta")
     request = urllib.request.Request(
         url, headers={"User-Agent": "CineHUB-ACERVO/0.2 (+catalog validator)"}
     )
