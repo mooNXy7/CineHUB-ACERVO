@@ -33,20 +33,27 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch only the reference catalog files
+        id: reference
         run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference
-          git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
-            '/vod/filmes-*.txt' \
-            '/vod/series-*-*.txt' \
-            '/vod/fichas.txt' \
-            '/vod/busca.txt' \
-            '/vod/destaques.txt' \
-            '/vod/radios.txt' \
-            '/vod/mgeb/links-*.txt' \
-            '/vod/redeflix/links-*.txt' \
-            '/1.m3u' \
-            '/3.m3u'
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference; then
+            git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
+              '/vod/filmes-*.txt' \
+              '/vod/series-*-*.txt' \
+              '/vod/fichas.txt' \
+              '/vod/busca.txt' \
+              '/vod/destaques.txt' \
+              '/vod/radios.txt' \
+              '/vod/mgeb/links-*.txt' \
+              '/vod/redeflix/links-*.txt' \
+              '/1.m3u' \
+              '/3.m3u'
+            echo "REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
+          else
+            echo "REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
+            echo "::warning::Catálogo de referência indisponível nesta execução; a importação será ignorada e os dados atuais serão preservados."
+          fi
       - name: Import new reference data only when needed
+        if: env.REFERENCE_AVAILABLE == 'true'
         run: |
           REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
