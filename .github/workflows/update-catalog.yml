@@ -37,7 +37,7 @@ jobs:
       - name: Fetch only the reference catalog files
         id: reference
         run: |
-          if git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference; then
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference; then
             git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
               '/vod/filmes-*.txt' \
               '/vod/series-*-*.txt' \
