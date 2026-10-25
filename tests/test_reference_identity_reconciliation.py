@@ -68,6 +68,24 @@ class ReferenceIdentityReconciliationTests(unittest.TestCase):
         self.assertEqual(accepted, [])
         self.assertEqual(counters["movies_ambiguous_tmdb_id_records_skipped"], 2)
 
+    def test_existing_stable_id_does_not_receive_conflicting_provider_metadata(self):
+        old_owner = record("movie-owner", "Owner Film (2020)", "2020", "123", "https://owner.example/movie.m3u8")
+        existing_target = record("movie-target", "Target Film (2020)", "2020", None, "https://target.example/movie.m3u8")
+        incoming = record("movie-target", "Target Film (2020)", "2020", "123", "https://new.example/movie.m3u8")
+        incoming["poster_url"] = "https://images.example/wrong-poster.jpg"
+        incoming["genres"] = ["Wrong Genre"]
+        existing = {old_owner["id"]: old_owner, existing_target["id"]: existing_target}
+        counters = defaultdict(int)
+
+        accepted = importer.reconcile_reference_identity("movies", existing, [incoming], counters)
+
+        self.assertEqual(len(accepted), 1)
+        self.assertIsNone(accepted[0]["tmdb_id"])
+        self.assertIsNone(accepted[0]["poster_url"])
+        self.assertEqual(accepted[0]["genres"], [])
+        self.assertEqual(accepted[0]["sources"][0]["url"], "https://new.example/movie.m3u8")
+        self.assertEqual(counters["movies_existing_id_metadata_collisions_quarantined"], 1)
+
     def test_unique_tmdb_id_incoming_record_is_accepted(self):
         incoming = record("movie-unique", "Unique Film (2020)", "2020", "456", "https://unique.example/movie.m3u8")
         counters = defaultdict(int)
