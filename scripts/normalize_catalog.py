@@ -15,7 +15,7 @@ RULES = ROOT / "normalizer/rules.json"
 def key(value):
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(c for c in value if not unicodedata.combining(c))
-    return re.sub(r"\\s+", " ", value).strip().casefold()
+    return re.sub(r"\s+", " ", value).strip().casefold()
 
 
 def atomic_write_text(path, text):
@@ -24,7 +24,7 @@ def atomic_write_text(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
-        with os.fdopen(fd, "w", encoding="utf-8", newline="\\n") as stream:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
             stream.write(text)
             stream.flush()
             os.fsync(stream.fileno())
@@ -57,7 +57,7 @@ def main():
         seen.add(identity)
     if duplicates:
         print("Possíveis IDs duplicados (não removidos): " + ", ".join(sorted(set(duplicates))))
-    atomic_write_text(CATALOG, json.dumps(data, ensure_ascii=False, indent=2) + "\\n")
+    atomic_write_text(CATALOG, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     print(f"Normalizados {len(data.get('channels', []))} canais; nenhum registro foi removido.")
 
 
