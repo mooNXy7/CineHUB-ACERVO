@@ -27,7 +27,7 @@ class StreamEpgCoverageTests(unittest.TestCase):
                     "radios": [{"id": "r1", "name": "Radio A", "stream_url": "https://example.org/radio"}],
                 },
                 "catalog/epg/channel-map.json": {
-                    "meuguia_codes": {"Hístory HD": "HIS", "History Alias": "HIS"}, "guiadetv_slugs": {"Sony Channel": "sony-channel", "Missing TV": "missing-tv"},
+                    "meuguia_codes": {"Hístory HD": "HIS", "History Alias": "HIS"}, "guiadetv_slugs": {"Sony Channel": "sony-channel", "Missing TV": "sony-channel"},
                     "xmltv_aliases": {"Sony Channel": ["Sony"]},
                 },
                 "catalog/epg/xmltv-channels.json": {
@@ -57,6 +57,7 @@ class StreamEpgCoverageTests(unittest.TestCase):
             self.assertEqual(result["epg_map_review"]["meuguia_entries_without_normalized_catalog_name"]["examples"], ["History Alias"])
             self.assertEqual(result["epg_map_review"]["guiadetv_entries_without_normalized_catalog_name"]["examples"], ["Missing TV"])
             self.assertEqual(result["epg_map_review"]["duplicate_meuguia_codes"]["count"], 1)
+            self.assertEqual(result["epg_map_review"]["duplicate_guiadetv_slugs"]["count"], 1)
             self.assertEqual(result["network_requests"], 0)
             self.assertFalse(result["catalog_files_modified"])
 
