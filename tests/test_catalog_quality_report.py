@@ -12,7 +12,7 @@ class CatalogQualityReportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             docs = {
-                "catalog/channels/channels.json": {"channels": [{"id":"ch-1","name":"Canal A","sources":[{"url":"https://secret.example/live"}]}]},
+                "catalog/channels/channels.json": {"channels": [{"id":"ch-1","name":"Canal A","sources":[{"url":"https://secret.example/live"}]},{"id":"ch-1","name":"Canal A duplicado"}]},
                 "catalog/radios/radios.json": {"radios": [{"id":"r-1","name":"Rádio Rock","stream_url":"https://secret.example/radio"}]},
                 "catalog/vod/index.json": {"categories": {s: {"index_path":f"catalog/vod/index/{s}.json"} for s in ("movies","series","anime","doramas")}},
                 "catalog/vod/index/movies.json": [{"id":"m-1","title":"São Paulo","detail_path":"detail/a.json"},{"id":"m-2","title":"Sao-Paulo"}],
@@ -29,6 +29,8 @@ class CatalogQualityReportTests(unittest.TestCase):
             self.assertEqual(report["counts"]["vod_total"], 2)
             self.assertEqual(report["missing_metadata"]["radios_missing_genre"]["count"], 1)
             self.assertEqual(report["duplicate_title_candidates"]["count_included"], 1)
+            self.assertEqual(report["duplicate_id_candidates"]["count"], 1)
+            self.assertEqual(report["duplicate_id_candidates"]["groups"][0]["catalog"], "channels")
             self.assertNotIn("secret.example", serialized)
             self.assertNotIn("https://", serialized)
 
