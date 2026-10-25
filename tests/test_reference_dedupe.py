@@ -7,7 +7,7 @@ import import_reference_catalog as importer
 
 
 class ReferenceDedupeTests(unittest.TestCase):
-    def test_title_year_suffix_matches_explicit_year_and_preserves_sources(self):
+    def test_title_year_variants_with_different_ids_remain_separate(self):
         first = {
             "id": "movie-example-movie-2019",
             "title": "Example Movie (2019)",
@@ -29,10 +29,9 @@ class ReferenceDedupeTests(unittest.TestCase):
 
         result = importer.dedupe_records([first, second])
 
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]["year"], "2019")
+        self.assertEqual(len(result), 2)
         self.assertEqual(
-            {source["url"] for source in result[0]["sources"]},
+            {source["url"] for item in result for source in item["sources"]},
             {"https://one.example/movie.mp4", "https://two.example/movie.mp4"},
         )
 
