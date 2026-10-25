@@ -57,6 +57,29 @@ def write_json_atomic(path: Path, value: Any) -> None:
         raise
 
 
+ALLOWED_EPG_HOSTS = {"meuguia.tv", "www.meuguia.tv", "guiadetv.com", "www.guiadetv.com"}
+
+
+def _validate_epg_url(url: str) -> None:
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme != "https":
+        raise ValueError("EPG requests must use HTTPS")
+    if parsed.username or parsed.password or not parsed.hostname:
+        raise ValueError("EPG URL must not contain credentials and must have a hostname")
+    if parsed.port not in (None, 443):
+        raise ValueError("EPG URL uses a non-standard port")
+    if parsed.hostname.lower() not in ALLOWED_EPG_HOSTS:
+        raise ValueError(f"EPG host is not allowlisted: {parsed.hostname}")
+
+
+class _SameSourceRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Allow HTTPS redirects only among the explicitly approved EPG source hosts."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        target = urllib.parse.urljoin(req.full_url, newurl)
+        _validate_epg_url(target)
+        return super().redirect_request(req, fp, code, msg, headers, target)
+
+
 def fetch_html(url: str) -> str:
     request = urllib.request.Request(
         url,
