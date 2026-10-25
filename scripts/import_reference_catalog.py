@@ -610,7 +610,7 @@ def dedupe_records(items: list[dict]) -> list[dict]:
         tmdb_id = str(item.get("tmdb_id") or "").strip()
         year = str(item.get("year") or "")
         if not year:
-            match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
+            match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
             year = match.group(1) if match else ""
         title_key = (base_title(item.get("title", "")), year)
         target = by_tmdb.get(tmdb_id) if tmdb_id else None
@@ -687,7 +687,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                 key = norm(channel_name)
                 source_path = urlsplit(line).path.lower() if line.lower().startswith(("http://", "https://")) else ""
                 is_vod_url = bool(re.search(r"/(?:movie|series|vod|film|episode)/", source_path)) or bool(
-                    re.search(r"\\.(?:mp4|mkv|avi|mov)$", source_path)
+                    re.search(r"\.(?:mp4|mkv|avi|mov)$", source_path)
                 )
                 if key in vod_names or is_vod_url:
                     name, attrs = None, {}
