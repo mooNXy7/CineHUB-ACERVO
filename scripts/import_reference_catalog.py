@@ -297,9 +297,24 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
                 counters["provider_refs_added"] += merge_provider_refs(item["provider_refs"], refs)
     for item in movies.values():
         meta = fichas.get(("f", norm(item["title"])), {})
-        item["tmdb_id"] = meta.get("tmdb_id")
-        item["poster_url"] = meta.get("poster_path") or featured_posters.get(("f", norm(item["title"])))
-        item["genres"] = meta.get("genres", [])
+        # Reference metadata is enrichment, never a reason to erase valid catalog data.
+        item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
+        item["poster_url"] = (
+            item.get("poster_url")
+            or meta.get("poster_path")
+            or featured_posters.get(("f", norm(item["title"])))
+        )
+        existing_genres = item.get("genres") if isinstance(item.get("genres"), list) else []
+        reference_genres = meta.get("genres") if isinstance(meta.get("genres"), list) else []
+        seen_genres = {norm(genre) for genre in existing_genres if isinstance(genre, str)}
+        for genre in reference_genres:
+            if isinstance(genre, str) and genre.strip() and norm(genre) not in seen_genres:
+                existing_genres.append(genre.strip())
+                seen_genres.add(norm(genre))
+        item["genres"] = existing_genres
+        title_year = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
+        if not item.get("year") and title_year:
+            item["year"] = title_year.group(1)
     return movies
 
 
