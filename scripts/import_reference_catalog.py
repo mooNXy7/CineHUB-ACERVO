@@ -73,7 +73,11 @@ def letter(value: str) -> str:
 
 def safe_candidate(raw: str) -> bool:
     try:
-        parsed = urlsplit(str(raw).strip().rstrip(".,;"))
+        candidate = str(raw).strip().rstrip(".,;")
+        lowered = candidate.lower()
+        if any(marker in lowered for marker in SUSPICIOUS_URL_MARKERS):
+            return False
+        parsed = urlsplit(candidate)
         if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
             return False
         if parsed.username is not None or parsed.password is not None:

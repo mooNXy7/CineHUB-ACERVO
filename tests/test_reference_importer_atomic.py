@@ -30,5 +30,22 @@ class ReferenceImporterAtomicWriteTests(unittest.TestCase):
             self.assertEqual(list(Path(tmp).glob(".*.tmp")), [])
 
 
+
+
+class ReferenceUrlSafetyTests(unittest.TestCase):
+    def test_rejects_encoded_markup_and_malformed_stream_urls(self):
+        for url in (
+            "https://radio.example/stream%22%3E%3C/audio%3E",
+            "https://radio.example/path%3Cscript%3E",
+            'https://radio.example/stream"><audio>',
+        ):
+            with self.subTest(url=url):
+                self.assertFalse(importer.safe_candidate(url))
+
+    def test_keeps_normal_public_stream_urls(self):
+        self.assertTrue(importer.safe_candidate("https://radio.example:8044/live"))
+        self.assertTrue(importer.safe_candidate("http://radio.example:8000/stream"))
+
+
 if __name__ == "__main__":
     unittest.main()
