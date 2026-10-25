@@ -10,7 +10,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTIONS = ("movies", "series", "anime", "doramas")
-TARGET_FIELDS = ("poster_url", "year", "genres", "overview")
+TARGET_FIELDS = ("poster_url", "year", "genres")
 EXTERNAL_ID_FIELDS = ("tmdb_id", "imdb_id", "tvdb_id", "mal_id", "anilist_id")
 DEFAULT_LIMIT = 250
 MAX_LIMIT = 5000
