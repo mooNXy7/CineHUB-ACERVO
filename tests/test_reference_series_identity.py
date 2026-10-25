@@ -17,7 +17,7 @@ def series_record(title, year, ident):
         "tmdb_id": None,
         "poster_url": None,
         "genres": [],
-        "seasons": [],
+        "seasons": {},
         "sources": [],
         "provider_refs": [],
         "source_candidates_skipped": 0,
@@ -48,7 +48,7 @@ class ReferenceSeriesIdentityTests(unittest.TestCase):
 
         self._run_import("@The Remake\t2020", series)
 
-        self.assertEqual(older["seasons"], [])
+        self.assertEqual(older["seasons"], {})
         self.assertEqual(len(newer["seasons"]), 1)
         self.assertEqual(newer["seasons"][0]["episodes"][0]["episode"], 1)
         self.assertEqual(len(newer["seasons"][0]["episodes"][0]["sources"]), 1)
@@ -65,7 +65,7 @@ class ReferenceSeriesIdentityTests(unittest.TestCase):
         self._run_import("@The Remake", series)
 
         self.assertEqual(older["seasons"], [])
-        self.assertEqual(newer["seasons"], [])
+        self.assertEqual(newer["seasons"], {})
         self.assertEqual(len(series), 3)
         created = next(item for item in series.values() if item["id"] not in {
             "series-remake-1998", "series-remake-2020"
