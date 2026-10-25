@@ -4,6 +4,8 @@ import concurrent.futures
 import datetime as dt
 import io
 import json
+import os
+import tempfile
 import re
 import unicodedata
 import urllib.request
@@ -30,8 +32,22 @@ def read_json(path, default=None):
 
 
 def write_json(path, value):
+    """Atomically replace JSON so interrupted runs preserve the last valid file."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    payload = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(payload)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
 
 
 def normalise(value):
