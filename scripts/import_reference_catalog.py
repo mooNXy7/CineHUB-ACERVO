@@ -455,7 +455,7 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
                 existing_genres.append(genre.strip())
                 seen_genres.add(norm(genre))
         item["genres"] = existing_genres
-        title_year = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
+        title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
         if not item.get("year") and title_year:
             item["year"] = title_year.group(1)
         if item.get("subtype") not in {"anime", "dorama"}:
