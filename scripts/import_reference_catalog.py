@@ -710,9 +710,69 @@ def dedupe_records(items: list[dict]) -> list[dict]:
     return list(by_id.values())
 
 
-def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
+def _identity_year(item: dict) -> str:
+    year = str(item.get("year") or "").strip()
+    if year:
+        return year
+    match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
+    return match.group(1) if match else ""
+
+
+def _same_confirmed_identity(left: dict, right: dict) -> bool:
+    left_title = base_title(left.get("title", ""))
+    right_title = base_title(right.get("title", ""))
+    left_year = _identity_year(left)
+    right_year = _identity_year(right)
+    return bool(left_title and left_title == right_title and left_year and left_year == right_year)
+
+
+def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming: list[dict],
+                                 counters: dict) -> list[dict]:
+    """Keep ambiguous incoming TMDB collisions out of the catalog; never remove existing records."""
+    existing_by_tmdb: dict[str, list[dict]] = defaultdict(list)
+    for record in existing.values():
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if tmdb_id:
+            existing_by_tmdb[tmdb_id].append(record)
+
+    incoming_by_tmdb: dict[str, list[dict]] = defaultdict(list)
+    for record in incoming:
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if tmdb_id and str(record.get("id") or "") not in existing:
+            incoming_by_tmdb[tmdb_id].append(record)
+
+    accepted = []
+    for record in incoming:
+        ident = str(record.get("id") or "")
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if ident in existing or not tmdb_id:
+            accepted.append(record)
+            continue
+
+        existing_matches = existing_by_tmdb.get(tmdb_id, [])
+        if existing_matches:
+            exact = [old for old in existing_matches if _same_confirmed_identity(record, old)]
+            if len(exact) == 1:
+                merge_record(exact[0], record)
+                counters[f"{kind}_tmdb_id_sources_merged_into_existing"] += 1
+            else:
+                counters[f"{kind}_ambiguous_tmdb_id_records_skipped"] += 1
+            continue
+
+        same_id_group = incoming_by_tmdb.get(tmdb_id, [])
+        if len(same_id_group) > 1:
+            # No existing canonical record to anchor the identity. Quarantine all
+            # incoming records with this duplicated external ID instead of choosing one.
+            counters[f"{kind}_ambiguous_tmdb_id_records_skipped"] += 1
+            continue
+        accepted.append(record)
+    return accepted
+
+
+def merge_catalog_records(kind: str, incoming: list[dict], counters: dict) -> list[dict]:
     old = load_existing_details(kind)
-    merged = dedupe_records(list(old.values()) + list(incoming))
+    safe_incoming = reconcile_reference_identity(kind, old, incoming, counters)
+    merged = dedupe_records(list(old.values()) + list(safe_incoming))
     return sorted(merged, key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
 
@@ -858,10 +918,10 @@ def main() -> None:
     series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters, search_series)
 
     # Títulos sem URL direta continuam no índice, e dados antigos nunca são removidos.
-    movie_list = merge_catalog_records("movies", list(movies.values()))
-    series_list = merge_catalog_records("series", list(series.values()))
-    anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"])
-    dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"])
+    movie_list = merge_catalog_records("movies", list(movies.values()), counters)
+    series_list = merge_catalog_records("series", list(series.values()), counters)
+    anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"], counters)
+    dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"], counters)
 
     detail_paths = {}
     written_detail_paths = set()
