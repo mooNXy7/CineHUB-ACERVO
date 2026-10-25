@@ -69,6 +69,10 @@ O GitHub Actions executará a rotina agendada e manualmente. A rotina deve:
 
 A estrutura de dados foi adaptada a partir de um repositório de referência autorizado pelo mantenedor. O projeto CineHUB mantém nomenclatura, identidade, formatos e rotinas próprios. Dados importados passam por validação técnica e revisão de permissão antes de serem considerados prontos para produção.
 
+## Enriquecimento de metadados VOD
+
+O plano para completar metadados ausentes de filmes, séries, animes e doramas está em [`docs/VOD_METADATA_ENRICHMENT.md`](docs/VOD_METADATA_ENRICHMENT.md). O fluxo previsto começa com dry-run e revisão de correspondências; não sobrescreve metadados válidos, não altera fontes de reprodução e exige provedor/termos aprovados antes de consultar dados em lote.
+
 ## Auditoria de qualidade
 
 A validação do pull request executa duas auditorias somente de leitura e publica os relatórios JSON como artefato do GitHub Actions por 14 dias:
