@@ -35,9 +35,26 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
     channels = channels_doc.get("channels", [])
     radios = radios_doc.get("radios", [])
 
-    meuguia = {norm(k) for k in (epg_map.get("meuguia_codes") or {})}
-    guide = {norm(k) for k in (epg_map.get("guiadetv_slugs") or {})}
+    meuguia_map = epg_map.get("meuguia_codes") or {}
+    guide_map = epg_map.get("guiadetv_slugs") or {}
+    meuguia = {norm(k) for k in meuguia_map}
+    guide = {norm(k) for k in guide_map}
     aliases = epg_map.get("xmltv_aliases") or {}
+    channel_names = {
+        norm(item.get("name"))
+        for item in channels
+        if isinstance(item, dict) and item.get("name")
+    }
+    meuguia_stale = sorted(str(name) for name in meuguia_map if norm(name) not in channel_names)
+    guide_stale = sorted(str(name) for name in guide_map if norm(name) not in channel_names)
+    meuguia_code_groups: dict[str, list[str]] = {}
+    for channel_name, code in meuguia_map.items():
+        meuguia_code_groups.setdefault(str(code).strip(), []).append(str(channel_name))
+    duplicate_meuguia_codes = [
+        {"code": code, "channel_names": sorted(names)}
+        for code, names in sorted(meuguia_code_groups.items())
+        if code and len(names) > 1
+    ]
     xmltv_names: set[str] = set()
     xmltv_ids: set[str] = set()
     xmltv_sources = xmltv_doc.get("sources") or {}
@@ -99,8 +116,24 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
 
     total = stats["channels"]
     return {
-        "audit_schema_version": 1,
+        "audit_schema_version": 2,
         "mode": "read-only",
+        "epg_map_review": {
+            "meuguia_map_entries": len(meuguia_map),
+            "guiadetv_map_entries": len(guide_map),
+            "meuguia_entries_without_exact_catalog_name": {
+                "count": len(meuguia_stale), "examples": meuguia_stale[:50],
+                "warning": "Candidate stale mappings only; aliases and regional naming differences may be intentional."
+            },
+            "guiadetv_entries_without_exact_catalog_name": {
+                "count": len(guide_stale), "examples": guide_stale[:50],
+                "warning": "Candidate stale mappings only; aliases and regional naming differences may be intentional."
+            },
+            "duplicate_meuguia_codes": {
+                "count": len(duplicate_meuguia_codes), "groups": duplicate_meuguia_codes[:50],
+                "warning": "Shared external codes require manual review and are never changed automatically."
+            }
+        },
         "network_requests": 0,
         "catalog_files_modified": False,
         "counts": dict(stats),
