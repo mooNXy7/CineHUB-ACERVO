@@ -55,6 +55,14 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
         for code, names in sorted(meuguia_code_groups.items())
         if code and len(names) > 1
     ]
+    guide_slug_groups: dict[str, list[str]] = {}
+    for channel_name, slug in guide_map.items():
+        guide_slug_groups.setdefault(str(slug).strip().casefold(), []).append(str(channel_name))
+    duplicate_guiadetv_slugs = [
+        {"slug": slug, "channel_names": sorted(names)}
+        for slug, names in sorted(guide_slug_groups.items())
+        if slug and len(names) > 1
+    ]
     xmltv_names: set[str] = set()
     xmltv_ids: set[str] = set()
     xmltv_sources = xmltv_doc.get("sources") or {}
@@ -132,6 +140,10 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
             "duplicate_meuguia_codes": {
                 "count": len(duplicate_meuguia_codes), "groups": duplicate_meuguia_codes[:50],
                 "warning": "Shared external codes require manual review and are never changed automatically."
+            },
+            "duplicate_guiadetv_slugs": {
+                "count": len(duplicate_guiadetv_slugs), "groups": duplicate_guiadetv_slugs[:50],
+                "warning": "Shared external slugs require manual review and are never changed automatically."
             }
         },
         "network_requests": 0,
