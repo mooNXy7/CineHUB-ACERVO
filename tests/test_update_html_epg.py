@@ -80,6 +80,45 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(doc["programmes"]["SONY Movies"]["programmes"][0]["title"], "Programa atualizado")
             self.assertEqual(doc["health"]["SONY Movies"]["status"], "healthy")
 
+    def test_fallback_does_not_replace_cached_primary_schedule_when_primary_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            epg = root / "catalog/epg"
+            epg.mkdir(parents=True)
+            (epg / "channel-map.json").write_text(json.dumps({
+                "meuguia_codes": {"HBO": "HBO"},
+                "guiadetv_slugs": {"HBO": "hbo"},
+            }), encoding="utf-8")
+            old = {
+                "schema_version": 1, "timezone": "America/Sao_Paulo",
+                "programmes": {"HBO": {
+                    "source_id": "meuguia-br",
+                    "fetched_at": "2026-10-25T11:00:00Z",
+                    "programmes": [{
+                        "start": "2026-10-25T10:00:00-03:00",
+                        "end": "2026-10-25T11:00:00-03:00",
+                        "title": "Grade principal válida", "genre": None,
+                    }],
+                }},
+                "health": {"HBO": {"consecutive_failures": 0}},
+            }
+            (epg / "html-programmes.json").write_text(json.dumps(old), encoding="utf-8")
+
+            def fetcher(url):
+                if "meuguia.tv" in url:
+                    raise OSError("simulated primary source failure")
+                return '<div data-dt="2026-10-25 12:00:00"></div><a href="/programa/fallback">Grade reserva</a>'
+
+            doc = update_document(
+                root, fetcher, dt.datetime(2026, 10, 25, 12, tzinfo=dt.timezone.utc)
+            )
+            self.assertEqual(
+                doc["programmes"]["HBO"]["programmes"][0]["title"],
+                "Grade principal válida",
+            )
+            self.assertEqual(doc["programmes"]["HBO"]["source_id"], "meuguia-br")
+            self.assertEqual(doc["health"]["HBO"]["status"], "stale")
+
     def test_atomic_writer_preserves_previous_file_if_replace_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "result.json"
