@@ -55,6 +55,9 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
             rendered = json.dumps(result)
 
         self.assertFalse(result["catalog_published"])
+        self.assertFalse(result["review_gate"]["automatic_approval_allowed"])
+        self.assertEqual(result["review_gate"]["status"], "blocked_pending_review")
+        self.assertTrue(any("duplicate-title groups increased" in reason for reason in result["review_gate"]["blocking_reasons"]))
         self.assertEqual(result["delta"]["vod_total"], 1)
         self.assertEqual(result["delta"]["vod_counts"]["movies"], 1)
         self.assertEqual(result["delta"]["vod_missing_metadata"]["year"], 0)
