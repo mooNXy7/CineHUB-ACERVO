@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import argparse
 import json
-from collections import Counter
+import re
+import unicodedata
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -29,6 +31,13 @@ def safe_path(root: Path, relative: str) -> Path:
     return path
 
 
+def normalize_title(value: Any) -> str:
+    value = unicodedata.normalize("NFKD", str(value or ""))
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    value = re.sub(r"\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\b", " ", value, flags=re.I)
+    return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
+
+
 def snapshot(root: Path) -> dict[str, Any]:
     channels_doc = read_json(root / "catalog/channels/channels.json", {})
     radios_doc = read_json(root / "catalog/radios/radios.json", {})
@@ -40,6 +49,7 @@ def snapshot(root: Path) -> dict[str, Any]:
     category_counts: dict[str, Any] = {}
     missing = Counter()
     totals = Counter()
+    duplicate_titles: dict[str, Any] = {}
     for section in SECTIONS:
         info = category_manifest.get(section, {}) if isinstance(category_manifest, dict) else {}
         relative = info.get("index_path", f"catalog/vod/index/{section}.json")
@@ -47,15 +57,24 @@ def snapshot(root: Path) -> dict[str, Any]:
         if not isinstance(records, list):
             raise ValueError(f"VOD index for {section} is not a list")
         category_counts[section] = len(records)
+        title_groups: dict[str, int] = defaultdict(int)
         for record in records:
             if not isinstance(record, dict):
                 continue
+            title_key = normalize_title(record.get("title"))
+            if title_key:
+                title_groups[title_key] += 1
             for field in MISSING_FIELDS:
                 value = record.get(field)
                 if value is None or value == "" or value == []:
                     missing[f"missing_{field}"] += 1
             totals["source_count"] += int(record.get("source_count") or 0)
             totals["provider_ref_count"] += int(record.get("provider_ref_count") or 0)
+        duplicate_groups = [count for count in title_groups.values() if count > 1]
+        duplicate_titles[section] = {
+            "groups": len(duplicate_groups),
+            "extra_records": sum(count - 1 for count in duplicate_groups),
+        }
 
     channel_counts = Counter()
     for item in channels if isinstance(channels, list) else []:
@@ -81,6 +100,7 @@ def snapshot(root: Path) -> dict[str, Any]:
         "vod_counts": category_counts,
         "vod_total": sum(category_counts.values()),
         "vod_missing_metadata": {field: int(missing[f"missing_{field}"]) for field in MISSING_FIELDS},
+        "vod_duplicate_titles_by_category": duplicate_titles,
         "vod_source_references_in_index": dict(totals),
         "channels": dict(channel_counts),
         "radios": dict(radio_counts),
@@ -127,6 +147,14 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
                 key: after["vod_source_references_in_index"].get(key, 0)
                 - before["vod_source_references_in_index"].get(key, 0)
                 for key in set(before["vod_source_references_in_index"]) | set(after["vod_source_references_in_index"])
+            },
+            "vod_duplicate_titles_by_category": {
+                section: {
+                    field: after["vod_duplicate_titles_by_category"][section][field]
+                    - before["vod_duplicate_titles_by_category"][section][field]
+                    for field in ("groups", "extra_records")
+                }
+                for section in SECTIONS
             },
         },
         "import_counters": safe_counters,
