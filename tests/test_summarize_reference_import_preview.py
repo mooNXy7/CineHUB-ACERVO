@@ -47,7 +47,7 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
                     "source_count": 2,
                 },
                 {
-                    "id": "movie-2", "title": "Another Movie", "year": None,
+                    "id": "movie-2", "title": "Example Movie", "year": None,
                     "poster_url": None, "genres": [], "source_count": 0,
                 },
             ])
@@ -59,9 +59,10 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
         self.assertEqual(result["delta"]["vod_counts"]["movies"], 1)
         self.assertEqual(result["delta"]["vod_missing_metadata"]["year"], 0)
         self.assertEqual(result["delta"]["vod_source_references_in_index"]["source_count"], 1)
+        self.assertEqual(result["delta"]["vod_duplicate_titles_by_category"]["movies"]["groups"], 1)
         self.assertNotIn("https://secret.example", rendered)
         self.assertNotIn("Example Movie", rendered)
-        self.assertNotIn("Another Movie", rendered)
+        self.assertNotIn("Example Movie", rendered)
 
 
 if __name__ == "__main__":
