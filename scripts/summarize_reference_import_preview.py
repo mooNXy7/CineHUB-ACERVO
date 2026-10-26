@@ -117,46 +117,68 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
         for key, value in counters.items()
         if isinstance(value, (int, float)) and not isinstance(value, bool)
     }
+    delta = {
+        "vod_total": after["vod_total"] - before["vod_total"],
+        "vod_counts": {
+            section: after["vod_counts"][section] - before["vod_counts"][section]
+            for section in SECTIONS
+        },
+        "vod_missing_metadata": {
+            field: after["vod_missing_metadata"][field] - before["vod_missing_metadata"][field]
+            for field in MISSING_FIELDS
+        },
+        "channels": {
+            key: after["channels"].get(key, 0) - before["channels"].get(key, 0)
+            for key in set(before["channels"]) | set(after["channels"])
+        },
+        "radios": {
+            key: after["radios"].get(key, 0) - before["radios"].get(key, 0)
+            for key in set(before["radios"]) | set(after["radios"])
+        },
+        "vod_source_references_in_index": {
+            key: after["vod_source_references_in_index"].get(key, 0)
+            - before["vod_source_references_in_index"].get(key, 0)
+            for key in set(before["vod_source_references_in_index"]) | set(after["vod_source_references_in_index"])
+        },
+        "vod_duplicate_titles_by_category": {
+            section: {
+                field: after["vod_duplicate_titles_by_category"][section][field]
+                - before["vod_duplicate_titles_by_category"][section][field]
+                for field in ("groups", "extra_records")
+            }
+            for section in SECTIONS
+        },
+    }
+    blocking_reasons = []
+    for section, change in delta["vod_counts"].items():
+        if change < 0:
+            blocking_reasons.append(f"VOD count decreased for {section}: {change}")
+    for field, change in delta["vod_missing_metadata"].items():
+        if change > 0:
+            blocking_reasons.append(f"Missing VOD metadata increased for {field}: +{change}")
+    for section, changes in delta["vod_duplicate_titles_by_category"].items():
+        if changes["groups"] > 0:
+            blocking_reasons.append(f"Normalized duplicate-title groups increased for {section}: +{changes['groups']}")
+    for label, counts in (("channels", delta["channels"]), ("radios", delta["radios"])):
+        if counts.get(label, 0) < 0:
+            blocking_reasons.append(f"{label.capitalize()} count decreased: {counts[label]}")
+    for field, change in delta["vod_source_references_in_index"].items():
+        if change < 0:
+            blocking_reasons.append(f"VOD reference count decreased for {field}: {change}")
     return {
         "schema_version": 1,
         "report_type": "isolated_reference_import_preview",
         "read_only_from_published_repository": True,
         "catalog_published": False,
         "network_sources_in_report": False,
+        "review_gate": {
+            "status": "blocked_pending_review" if blocking_reasons else "manual_approval_required",
+            "automatic_approval_allowed": False,
+            "blocking_reasons": blocking_reasons,
+        },
         "before": before,
         "after_preview": after,
-        "delta": {
-            "vod_total": after["vod_total"] - before["vod_total"],
-            "vod_counts": {
-                section: after["vod_counts"][section] - before["vod_counts"][section]
-                for section in SECTIONS
-            },
-            "vod_missing_metadata": {
-                field: after["vod_missing_metadata"][field] - before["vod_missing_metadata"][field]
-                for field in MISSING_FIELDS
-            },
-            "channels": {
-                key: after["channels"].get(key, 0) - before["channels"].get(key, 0)
-                for key in set(before["channels"]) | set(after["channels"])
-            },
-            "radios": {
-                key: after["radios"].get(key, 0) - before["radios"].get(key, 0)
-                for key in set(before["radios"]) | set(after["radios"])
-            },
-            "vod_source_references_in_index": {
-                key: after["vod_source_references_in_index"].get(key, 0)
-                - before["vod_source_references_in_index"].get(key, 0)
-                for key in set(before["vod_source_references_in_index"]) | set(after["vod_source_references_in_index"])
-            },
-            "vod_duplicate_titles_by_category": {
-                section: {
-                    field: after["vod_duplicate_titles_by_category"][section][field]
-                    - before["vod_duplicate_titles_by_category"][section][field]
-                    for field in ("groups", "extra_records")
-                }
-                for section in SECTIONS
-            },
-        },
+        "delta": delta,
         "import_counters": safe_counters,
         "notes": [
             "Preview ran in a detached temporary worktree; no catalog files were published or committed.",
