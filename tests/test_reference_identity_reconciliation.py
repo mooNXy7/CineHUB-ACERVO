@@ -86,6 +86,23 @@ class ReferenceIdentityReconciliationTests(unittest.TestCase):
         self.assertEqual(accepted[0]["sources"][0]["url"], "https://new.example/movie.m3u8")
         self.assertEqual(counters["movies_existing_id_metadata_collisions_quarantined"], 1)
 
+    def test_duplicate_tmdb_ids_for_existing_stable_ids_are_quarantined(self):
+        old_one = record("movie-one", "First Film (2020)", "2020", None, "https://one.example/movie.m3u8")
+        old_two = record("movie-two", "Second Film (2020)", "2020", None, "https://two.example/movie.m3u8")
+        incoming_one = record("movie-one", "First Film (2020)", "2020", "123", "https://new-one.example/movie.m3u8")
+        incoming_two = record("movie-two", "Second Film (2020)", "2020", "123", "https://new-two.example/movie.m3u8")
+        existing = {old_one["id"]: old_one, old_two["id"]: old_two}
+        counters = defaultdict(int)
+
+        accepted = importer.reconcile_reference_identity(
+            "movies", existing, [incoming_one, incoming_two], counters
+        )
+        merged = importer.dedupe_records(list(existing.values()) + accepted)
+
+        self.assertEqual(len(merged), 2)
+        self.assertTrue(all(not item.get("tmdb_id") for item in merged))
+        self.assertEqual(counters["movies_existing_id_metadata_collisions_quarantined"], 2)
+
     def test_unique_tmdb_id_incoming_record_is_accepted(self):
         incoming = record("movie-unique", "Unique Film (2020)", "2020", "456", "https://unique.example/movie.m3u8")
         counters = defaultdict(int)
