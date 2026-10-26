@@ -747,7 +747,7 @@ def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming:
     incoming_by_tmdb: dict[str, list[dict]] = defaultdict(list)
     for record in incoming:
         tmdb_id = str(record.get("tmdb_id") or "").strip()
-        if tmdb_id and str(record.get("id") or "") not in existing:
+        if tmdb_id:
             incoming_by_tmdb[tmdb_id].append(record)
 
     accepted = []
@@ -759,7 +759,12 @@ def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming:
                 old for old in existing_by_tmdb.get(tmdb_id, [])
                 if str(old.get("id") or "") != ident
             ] if tmdb_id else []
-            if conflicting_existing:
+            current_tmdb = str(existing[ident].get("tmdb_id") or "").strip()
+            incoming_group_conflict = any(
+                str(candidate.get("id") or "") != ident
+                for candidate in incoming_by_tmdb.get(tmdb_id, [])
+            ) if tmdb_id else False
+            if conflicting_existing or (incoming_group_conflict and current_tmdb != tmdb_id):
                 # This stable catalog record already exists. Do not attach a provider
                 # ID/poster/genres that another existing title claims; keep its sources.
                 sanitized = dict(record)
