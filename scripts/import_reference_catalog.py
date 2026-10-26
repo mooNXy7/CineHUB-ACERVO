@@ -683,9 +683,14 @@ def load_existing_details(kind: str) -> dict[str, dict]:
                 **({"seasons": []} if kind in {"series", "anime", "doramas"} else {}),
             }
         else:
-            # The index may contain valid metadata missing from an older detail shard.
-            # Merge only into gaps so collision checks see the complete current identity.
-            merge_record(existing[ident], item)
+            # Index entries are metadata-only summaries. Fill gaps directly instead of
+            # running a full source/episode merge for every one of tens of thousands of rows.
+            target = existing[ident]
+            for field in ("title", "type", "year", "tmdb_id", "poster_url", "subtype"):
+                if not target.get(field) and item.get(field):
+                    target[field] = item[field]
+            if not target.get("genres") and isinstance(item.get("genres"), list):
+                target["genres"] = list(item["genres"])
     return existing
 
 
