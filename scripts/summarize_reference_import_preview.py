@@ -247,6 +247,7 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
         },
         "new_records_missing_metadata": new_record_missing_metadata,
         "import_counters": safe_counters,
+        "import_counter_semantics": import_report.get("counter_semantics", {}) if isinstance(import_report, dict) else {},
         "notes": [
             "Preview ran in a detached temporary worktree; no catalog files were published or committed.",
             "Counts contain no titles, stream URLs, logos, credentials, or provider response bodies.",
