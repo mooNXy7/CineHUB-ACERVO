@@ -225,6 +225,8 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
     for field, change in delta["vod_source_references_in_index"].items():
         if change < 0:
             blocking_reasons.append(f"VOD reference count decreased for {field}: {change}")
+    public_before = {key: value for key, value in before.items() if key != "vod_record_ids_by_category"}
+    public_after = {key: value for key, value in after.items() if key != "vod_record_ids_by_category"}
     return {
         "schema_version": 1,
         "report_type": "isolated_reference_import_preview",
@@ -236,8 +238,8 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
             "automatic_approval_allowed": False,
             "blocking_reasons": blocking_reasons,
         },
-        "before": before,
-        "after_preview": after,
+        "before": public_before,
+        "after_preview": public_after,
         "delta": delta,
         "duplicate_title_examples": {
             "before": before.get("vod_duplicate_title_examples", {}),
