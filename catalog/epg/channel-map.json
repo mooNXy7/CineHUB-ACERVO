@@ -125,5 +125,15 @@
       "RecordTV SP"
     ]
   },
-  "pluto_id_pattern": "(?:plu-|images\\\\.pluto\\\\.tv/channels/)([0-9a-f]{24})"
+  "pluto_id_pattern": "(?:plu-|images\\\\.pluto\\\\.tv/channels/)([0-9a-f]{24})",
+  "intentional_shared_meuguia_codes": [
+    {
+      "code": "GRD",
+      "channel_names": [
+        "Globo RJ",
+        "Globo SP"
+      ],
+      "evidence": "Authorized reference mapping fkuller/Saimo-Cell-V2:data/epgMappings.ts; both regional names intentionally use GRD in the reference."
+    }
+  ]
 }
