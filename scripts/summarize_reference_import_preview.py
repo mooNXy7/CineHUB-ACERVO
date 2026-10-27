@@ -50,6 +50,8 @@ def snapshot(root: Path) -> dict[str, Any]:
     missing = Counter()
     totals = Counter()
     duplicate_titles: dict[str, Any] = {}
+    duplicate_title_examples: dict[str, list[dict[str, Any]]] = {}
+    records_by_section: dict[str, list[dict[str, Any]]] = {}
     for section in SECTIONS:
         info = category_manifest.get(section, {}) if isinstance(category_manifest, dict) else {}
         relative = info.get("index_path", f"catalog/vod/index/{section}.json")
@@ -57,24 +59,41 @@ def snapshot(root: Path) -> dict[str, Any]:
         if not isinstance(records, list):
             raise ValueError(f"VOD index for {section} is not a list")
         category_counts[section] = len(records)
-        title_groups: dict[str, int] = defaultdict(int)
+        records_by_section[section] = [record for record in records if isinstance(record, dict)]
+        title_groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
         for record in records:
             if not isinstance(record, dict):
                 continue
             title_key = normalize_title(record.get("title"))
             if title_key:
-                title_groups[title_key] += 1
+                title_groups[title_key].append(record)
             for field in MISSING_FIELDS:
                 value = record.get(field)
                 if value is None or value == "" or value == []:
                     missing[f"missing_{field}"] += 1
             totals["source_count"] += int(record.get("source_count") or 0)
             totals["provider_ref_count"] += int(record.get("provider_ref_count") or 0)
-        duplicate_groups = [count for count in title_groups.values() if count > 1]
+        duplicate_groups = [(key, group) for key, group in title_groups.items() if len(group) > 1]
         duplicate_titles[section] = {
             "groups": len(duplicate_groups),
-            "extra_records": sum(count - 1 for count in duplicate_groups),
+            "extra_records": sum(len(group) - 1 for _, group in duplicate_groups),
         }
+        duplicate_title_examples[section] = [
+            {
+                "normalized_title": key,
+                "items": [
+                    {
+                        "id": str(item.get("id") or ""),
+                        "title": str(item.get("title") or ""),
+                        "year": str(item.get("year") or ""),
+                        "tmdb_id": str(item.get("tmdb_id") or ""),
+                    }
+                    for item in group[:5]
+                ],
+                "count": len(group),
+            }
+            for key, group in sorted(duplicate_groups, key=lambda pair: pair[0])[:25]
+        ]
 
     channel_counts = Counter()
     for item in channels if isinstance(channels, list) else []:
@@ -101,6 +120,11 @@ def snapshot(root: Path) -> dict[str, Any]:
         "vod_total": sum(category_counts.values()),
         "vod_missing_metadata": {field: int(missing[f"missing_{field}"]) for field in MISSING_FIELDS},
         "vod_duplicate_titles_by_category": duplicate_titles,
+        "vod_duplicate_title_examples": duplicate_title_examples,
+        "vod_record_ids_by_category": {
+            section: [str(item.get("id") or "") for item in records]
+            for section, records in records_by_section.items()
+        },
         "vod_source_references_in_index": dict(totals),
         "channels": dict(channel_counts),
         "radios": dict(radio_counts),
@@ -149,6 +173,42 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
             for section in SECTIONS
         },
     }
+    new_record_missing_metadata: dict[str, Any] = {}
+    after_manifest = read_json(after_root / "catalog/vod/index.json", {})
+    after_categories = after_manifest.get("categories", {}) if isinstance(after_manifest, dict) else {}
+    for section in SECTIONS:
+        before_ids = set(before.get("vod_record_ids_by_category", {}).get(section, []))
+        after_ids = set(after.get("vod_record_ids_by_category", {}).get(section, []))
+        new_ids = {ident for ident in after_ids if ident and ident not in before_ids}
+        relative = after_categories.get(section, {}).get("index_path", f"catalog/vod/index/{section}.json")
+        after_records = read_json(safe_path(after_root, relative), [])
+        missing_counts = Counter()
+        examples = []
+        records_with_missing = 0
+        for item in after_records if isinstance(after_records, list) else []:
+            if not isinstance(item, dict) or str(item.get("id") or "") not in new_ids:
+                continue
+            missing_fields = [field for field in MISSING_FIELDS if item.get(field) is None or item.get(field) == "" or item.get(field) == []]
+            if missing_fields:
+                records_with_missing += 1
+            for field in missing_fields:
+                missing_counts[field] += 1
+            if missing_fields and len(examples) < 50:
+                examples.append({
+                    "id": str(item.get("id") or ""),
+                    "title": str(item.get("title") or ""),
+                    "year": str(item.get("year") or ""),
+                    "missing_fields": missing_fields,
+                    "has_external_id": any(item.get(field) for field in ("tmdb_id", "imdb_id", "tvdb_id", "mal_id", "anilist_id")),
+                })
+        new_record_missing_metadata[section] = {
+            "new_record_count": len(new_ids),
+            "records_with_missing_metadata": records_with_missing,
+            "missing_field_counts": dict(missing_counts),
+            "examples_included": len(examples),
+            "examples_truncated": records_with_missing > len(examples),
+            "examples": examples,
+        }
     blocking_reasons = []
     for section, change in delta["vod_counts"].items():
         if change < 0:
@@ -179,6 +239,11 @@ def build_summary(before_root: Path, after_root: Path, import_report_path: Path 
         "before": before,
         "after_preview": after,
         "delta": delta,
+        "duplicate_title_examples": {
+            "before": before.get("vod_duplicate_title_examples", {}),
+            "after_preview": after.get("vod_duplicate_title_examples", {}),
+        },
+        "new_records_missing_metadata": new_record_missing_metadata,
         "import_counters": safe_counters,
         "notes": [
             "Preview ran in a detached temporary worktree; no catalog files were published or committed.",
