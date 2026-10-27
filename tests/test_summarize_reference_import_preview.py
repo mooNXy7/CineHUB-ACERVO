@@ -51,7 +51,14 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
                     "poster_url": None, "genres": [], "source_count": 0,
                 },
             ])
-            result = preview.build_summary(before, after)
+            import_report = root / "reference-import.json"
+            import_report.write_text(json.dumps({
+                "counts": {"source_urls_merged_into_reference_candidates": 3},
+                "counter_semantics": {
+                    "source_urls_merged_into_reference_candidates": "Parser-level merges; not net catalog additions."
+                },
+            }), encoding="utf-8")
+            result = preview.build_summary(before, after, import_report)
             rendered = json.dumps(result)
 
         self.assertFalse(result["catalog_published"])
@@ -67,6 +74,8 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
         self.assertIn("duplicate_title_examples", result)
         self.assertIn("Example Movie", rendered)
         self.assertIn("new_records_missing_metadata", result)
+        self.assertEqual(result["import_counters"]["source_urls_merged_into_reference_candidates"], 3)
+        self.assertIn("not net catalog additions", result["import_counter_semantics"]["source_urls_merged_into_reference_candidates"])
         self.assertEqual(result["new_records_missing_metadata"]["movies"]["new_record_count"], 1)
         self.assertEqual(result["new_records_missing_metadata"]["movies"]["records_with_missing_metadata"], 1)
         self.assertNotIn("vod_record_ids_by_category", rendered)
