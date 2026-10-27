@@ -16,7 +16,7 @@ class CatalogQualityReportTests(unittest.TestCase):
                 "catalog/radios/radios.json": {"radios": [{"id":"r-1","name":"Rádio Rock","stream_url":"https://secret.example/radio"}]},
                 "catalog/vod/index.json": {"categories": {s: {"index_path":f"catalog/vod/index/{s}.json"} for s in ("movies","series","anime","doramas")}},
                 "catalog/vod/index/movies.json": [{"id":"m-1","title":"São Paulo","detail_path":"detail/a.json"},{"id":"m-2","title":"Sao-Paulo"}],
-                "catalog/vod/index/series.json": [], "catalog/vod/index/anime.json": [], "catalog/vod/index/doramas.json": [],
+                "catalog/vod/index/series.json": [], "catalog/vod/index/anime.json": [{"id":"a-1","title":"São Paulo","detail_path":"detail/a.json"}], "catalog/vod/index/doramas.json": [],
             }
             for rel, value in docs.items():
                 path = root / rel; path.parent.mkdir(parents=True, exist_ok=True)
@@ -26,10 +26,12 @@ class CatalogQualityReportTests(unittest.TestCase):
             after = {p.relative_to(root).as_posix():p.read_bytes() for p in root.rglob("*") if p.is_file()}
             serialized = json.dumps(report, ensure_ascii=False)
             self.assertEqual(before, after)
-            self.assertEqual(report["counts"]["vod_total"], 2)
+            self.assertEqual(report["counts"]["vod_total"], 3)
             self.assertEqual(report["missing_metadata"]["radios_missing_genre"]["count"], 1)
             self.assertEqual(report["duplicate_title_candidates"]["count"], 1)
             self.assertEqual(report["duplicate_title_candidates"]["groups_included"], 1)
+            self.assertEqual(report["duplicate_title_candidates"]["groups"][0]["category"], "movies")
+            self.assertEqual(report["cross_category_title_overlaps"]["count"], 1)
             self.assertEqual(report["duplicate_id_candidates"]["count"], 1)
             self.assertEqual(report["duplicate_id_candidates"]["groups"][0]["catalog"], "channels")
             self.assertNotIn("secret.example", serialized)
