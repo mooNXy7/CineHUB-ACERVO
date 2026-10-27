@@ -800,9 +800,61 @@ def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming:
     return accepted
 
 
+def hold_unready_new_records(kind: str, existing: dict[str, dict], incoming: list[dict], counters: dict) -> list[dict]:
+    """Keep incomplete or title-ambiguous new records out of the published index.
+
+    Existing IDs always remain eligible for source/metadata merging. New records
+    are admitted only when poster, year, and genres are present and their normalized
+    title is unique within this category. Held records remain in the authorized
+    upstream source and can be reconsidered after enrichment or manual review.
+    """
+    existing_titles = {
+        norm(item.get("title", ""))
+        for item in existing.values()
+        if isinstance(item, dict) and item.get("title")
+    }
+    title_counts = defaultdict(int)
+    for item in incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if ident and ident in existing:
+            continue
+        title_key = norm(item.get("title", ""))
+        if title_key:
+            title_counts[title_key] += 1
+
+    accepted = []
+    for item in incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if ident and ident in existing:
+            accepted.append(item)
+            continue
+        title_key = norm(item.get("title", ""))
+        genres = item.get("genres")
+        missing = []
+        if not item.get("poster_url"):
+            missing.append("poster_url")
+        if not item.get("year"):
+            missing.append("year")
+        if not isinstance(genres, list) or not any(isinstance(g, str) and g.strip() for g in genres):
+            missing.append("genres")
+        if missing:
+            counters[f"{kind}_held_incomplete_metadata"] += 1
+            continue
+        if not title_key or title_key in existing_titles or title_counts[title_key] > 1:
+            counters[f"{kind}_held_title_collision"] += 1
+            continue
+        accepted.append(item)
+    return accepted
+
+
 def merge_catalog_records(kind: str, incoming: list[dict], counters: dict) -> list[dict]:
     old = load_existing_details(kind)
-    safe_incoming = reconcile_reference_identity(kind, old, incoming, counters)
+    ready_incoming = hold_unready_new_records(kind, old, incoming, counters)
+    safe_incoming = reconcile_reference_identity(kind, old, ready_incoming, counters)
     merged = dedupe_records(list(old.values()) + list(safe_incoming))
     return sorted(merged, key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
