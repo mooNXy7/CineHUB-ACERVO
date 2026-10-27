@@ -855,9 +855,11 @@ def hold_unready_new_records(kind: str, existing: dict[str, dict], incoming: lis
 
 def merge_catalog_records(kind: str, incoming: list[dict], counters: dict) -> list[dict]:
     old = load_existing_details(kind)
-    ready_incoming = hold_unready_new_records(kind, old, incoming, counters)
-    safe_incoming = reconcile_reference_identity(kind, old, ready_incoming, counters)
-    merged = dedupe_records(list(old.values()) + list(safe_incoming))
+    # Resolve exact provider identities first so their source variants can enrich
+    # existing records even when the reference row itself lacks display metadata.
+    safe_incoming = reconcile_reference_identity(kind, old, incoming, counters)
+    ready_incoming = hold_unready_new_records(kind, old, safe_incoming, counters)
+    merged = dedupe_records(list(old.values()) + list(ready_incoming))
     return sorted(merged, key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
 
