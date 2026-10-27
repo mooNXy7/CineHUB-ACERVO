@@ -66,8 +66,9 @@ jobs:
           set -euo pipefail
           REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
+          LAST_PREVIEW_SHA="$(cat .github/reference-preview.sha 2>/dev/null || true)"
           APPROVE_REFERENCE_IMPORT="${{ github.event.inputs.approve_reference_import || 'false' }}"
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
+          if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
             git worktree add --detach /tmp/cinehub-acervo-import HEAD
             cleanup() {
@@ -107,6 +108,7 @@ jobs:
             else
               GATE_STATUS=$?
             fi
+            printf '%s\n' "$REF_SHA" > .github/reference-preview.sha
             if [[ "$GATE_STATUS" -eq 0 && "$APPROVE_REFERENCE_IMPORT" == "true" ]]; then
               cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
               cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
@@ -143,7 +145,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add catalog reports .github/reference-sync.sha
+            git add catalog reports .github/reference-sync.sha .github/reference-preview.sha
             git commit -m "chore(acervo): discover and merge catalog updates"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
