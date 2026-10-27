@@ -80,7 +80,7 @@ jobs:
               --import-report /tmp/cinehub-acervo-import/reports/reference-import.json \
               --output /tmp/reference-import-quality-gate.json
 
-            python - <<'PY'
+            if python - <<'PY'
           import json
           from pathlib import Path
           report = json.loads(Path("/tmp/reference-import-quality-gate.json").read_text(encoding="utf-8"))
@@ -95,7 +95,11 @@ jobs:
               print("::warning::Reference import held back by quality gate. Other independent catalog/EPG updates will continue.")
               raise SystemExit(2)
           PY
-            GATE_STATUS=$?
+            then
+              GATE_STATUS=0
+            else
+              GATE_STATUS=$?
+            fi
             if [[ "$GATE_STATUS" -eq 0 ]]; then
               cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
               cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
