@@ -34,7 +34,7 @@ Esta revisão orienta melhorias no CineHUB ACERVO. É um mapa de capacidades e p
 
 - Não importar chaves de API, tokens, cabeçalhos de autenticação, cookies, parâmetros assinados ou lógica de resolução privada dos projetos de referência. O gerador de metadados de referência contém uma credencial de API hardcoded no código; esse valor não foi copiado para o ACERVO. Para qualquer novo enriquecimento, usar credencial própria em secret de CI e confirmar condições de uso da API.
 - Não importar automaticamente URLs com markup malformado nem publicar novos endpoints antes de revisão e testes.
-- O pipeline de atualização executa a importação de referência em worktree isolado; se a barreira de qualidade bloquear os novos títulos, esses dados não são copiados para a área de trabalho, mas as atualizações independentes de M3U e EPG continuam. O marcador de sincronização só avança quando a importação passa pela barreira.
+- O pipeline de atualização executa a importação de referência em worktree isolado; se a barreira de qualidade bloquear os novos títulos, esses dados não são copiados para a área de trabalho, mas as atualizações independentes de M3U e EPG continuam. O marcador de sincronização só avança quando a importação passa pela barreira e recebe aprovação manual explícita por `workflow_dispatch`.
 - Presença de URL não prova reprodução. O conteúdo pode expirar, exigir cabeçalhos ou ter restrições que precisam ser respeitadas.
 - Esta revisão não alterou dados dos apps, não testou reprodução de todos os streams e não considera o EPG HTML pronto para consumo pelos aplicativos.
 
