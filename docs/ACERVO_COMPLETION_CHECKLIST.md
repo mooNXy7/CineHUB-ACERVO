@@ -32,6 +32,7 @@ Este documento é o quadro de controle para concluir a organização do ACERVO s
 - [x] Preservar fontes múltiplas para o mesmo ID estável.
 - [x] Isolar a prévia em diretório temporário e gerar relatório sem URLs de stream/logo.
 - [x] Contabilizar fontes, referências de provedores, URLs rejeitadas e colisões de identidade.
+- [ ] Classificar os 316.560 candidatos de URL rejeitados na prévia por motivo (credenciais, parâmetros sensíveis, markup malformado, host privado ou URL inválida); não afrouxar filtros sem evidência.
 - [ ] Revisar a prévia atual: ela adiciona 808 VOD, mas também aumenta campos ausentes (pôster +776, ano +630, gêneros +777) e grupos de títulos repetidos em séries/animes/doramas; por isso a publicação segue bloqueada.
 - [ ] Inspecionar os exemplos detalhados de títulos repetidos e metadados faltantes gerados pela nova versão do relatório.
 - [ ] Decidir por lote quais candidatos podem ser incorporados com identidade confirmada e quais devem permanecer em revisão/quarentena.
