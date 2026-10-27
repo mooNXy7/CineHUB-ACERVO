@@ -196,6 +196,33 @@ def pluto_id(text):
     return match.group(1).lower() if match else None
 
 
+def merge_xmltv_channels(previous: list[dict], incoming: list[dict]) -> list[dict]:
+    """Keep previously indexed XMLTV IDs when a fresh feed omits them; merge display names by stable ID."""
+    merged: dict[str, dict] = {}
+    for item in previous + incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if not ident:
+            continue
+        if ident not in merged:
+            merged[ident] = {**item}
+            names = item.get("display_names", [])
+            merged[ident]["display_names"] = list(dict.fromkeys(
+                str(name).strip() for name in names if str(name).strip()
+            )) if isinstance(names, list) else []
+            continue
+        target = merged[ident]
+        names = item.get("display_names", [])
+        if isinstance(names, list):
+            existing_names = target.setdefault("display_names", [])
+            target["display_names"] = list(dict.fromkeys(
+                [str(name).strip() for name in existing_names if str(name).strip()]
+                + [str(name).strip() for name in names if str(name).strip()]
+            ))
+    return list(merged.values())
+
+
 def main():
     sources_doc = read_json(SOURCES_FILE, {})
     map_doc = read_json(MAP_FILE, {})
@@ -232,7 +259,29 @@ def main():
                         "programme_count_total": programmes, "programme_count_window_78h": window_programmes,
                         "last_success_at": now, "consecutive_failures": 0, "error": None,
                     })
-                    index_by_id[sid] = {"source_id": sid, "fetched_at": now, "channel_count": len(channels), "channels": channels}
+                    previous_index = index_by_id.get(sid, {})
+                    previous_channels = previous_index.get("channels", [])
+                    preserved_channels = merge_xmltv_channels(
+                        previous_channels if isinstance(previous_channels, list) else [],
+                        channels,
+                    )
+                    omitted_count = max(0, len(preserved_channels) - len(channels))
+                    if omitted_count:
+                        entry["feed_channel_count"] = len(channels)
+                        entry["retained_previously_indexed_channels"] = omitted_count
+                        entry["warning"] = (
+                            "Fresh XMLTV feed omitted previously indexed channel IDs; "
+                            "old IDs were retained for review."
+                        )
+                        print(
+                            f"WARNING: EPG source {sid} omitted {omitted_count} previously indexed channel ID(s); "
+                            "retaining them in the index."
+                        )
+                    index_by_id[sid] = {
+                        "source_id": sid, "fetched_at": now,
+                        "channel_count": len(preserved_channels),
+                        "channels": preserved_channels,
+                    }
                 else:
                     entry.update(future.result())
                     entry.update({"status": "healthy", "last_success_at": now, "consecutive_failures": 0, "error": None})
