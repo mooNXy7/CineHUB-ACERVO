@@ -35,6 +35,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     missing_totals = {}
     counts = {}
     duplicate_titles = defaultdict(list)
+    title_categories = defaultdict(list)
     identifier_groups = defaultdict(list)
     channels_doc = load_json(root / "catalog/channels/channels.json")
     channels = channels_doc.get("channels", []) if isinstance(channels_doc, dict) else []
@@ -79,14 +80,26 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
             if not record.get("detail_path"): add_missing(missing, missing_totals, "vod_missing_detail_path", ident, title, section)
             normalized = normalize_title(title)
             if normalized:
-                duplicate_titles[normalized].append({"id": str(ident or "?"), "title": str(title or "")[:180], "category": section})
+                title_item = {"id": str(ident or "?"), "title": str(title or "")[:180], "category": section}
+                duplicate_titles[(section, normalized)].append(title_item)
+                title_categories[normalized].append(title_item)
     dupes = []
     total_dupe_groups = 0
-    for normalized, items in sorted(duplicate_titles.items()):
-        if len(items) < 2: continue
+    for (section, normalized), items in sorted(duplicate_titles.items()):
+        if len(items) < 2:
+            continue
         total_dupe_groups += 1
         if len(dupes) < MAX_DUPLICATE_GROUPS:
-            dupes.append({"normalized_title": normalized, "items": items[:10], "count": len(items)})
+            dupes.append({"category": section, "normalized_title": normalized, "items": items[:10], "count": len(items)})
+    cross_category = []
+    cross_category_count = 0
+    for normalized, items in sorted(title_categories.items()):
+        sections = sorted({item["category"] for item in items})
+        if len(sections) < 2:
+            continue
+        cross_category_count += 1
+        if len(cross_category) < MAX_DUPLICATE_GROUPS:
+            cross_category.append({"normalized_title": normalized, "categories": sections, "items": items[:10], "count": len(items)})
     id_collisions = [{"id": items[0]["id"], "catalog": items[0]["catalog"], "count": len(items), "items": items[:10]} for _, items in sorted(identifier_groups.items()) if len(items) > 1]
     return {
         "report_version": 1, "mode": "read_only_structural_review",
@@ -95,7 +108,9 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "missing_metadata": {rule: {"count": missing_totals.get(rule, len(items)), "items_included": len(items), "truncated": missing_totals.get(rule, len(items)) > len(items), "items": items} for rule, items in sorted(missing.items())},
         "duplicate_id_candidates": {"count": len(id_collisions), "groups": id_collisions[:MAX_DUPLICATE_GROUPS], "truncated": len(id_collisions) > MAX_DUPLICATE_GROUPS, "warning": "Repeated IDs are reported only within the same catalog namespace and require review."},
         "duplicate_title_candidates": {"count": total_dupe_groups, "groups_included": len(dupes), "truncated": total_dupe_groups > len(dupes), "groups": dupes,
-            "warning": "Candidates require review; normalized title equality does not prove duplicate content."},
+            "warning": "Only repeated normalized titles within the same VOD category are counted here; title equality does not prove duplicate content."},
+        "cross_category_title_overlaps": {"count": cross_category_count, "groups_included": len(cross_category), "truncated": cross_category_count > len(cross_category), "groups": cross_category,
+            "warning": "Same-title entries across series/anime/dorama categories may be intentional; this separate report is informational and never auto-merges records."},
         "limitations": [
             "Field presence does not prove a stream or image URL works.",
             "Missing metadata is not automatically filled or inferred.",
