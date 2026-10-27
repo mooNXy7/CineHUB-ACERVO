@@ -31,7 +31,7 @@ def make_catalog(root: Path, movie_records):
 
 
 class ReferenceImportPreviewSummaryTests(unittest.TestCase):
-    def test_summary_reports_count_deltas_without_catalog_urls_or_titles(self):
+    def test_summary_reports_count_deltas_and_bounded_identity_examples_without_stream_urls(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             before = root / "before"
@@ -64,8 +64,12 @@ class ReferenceImportPreviewSummaryTests(unittest.TestCase):
         self.assertEqual(result["delta"]["vod_source_references_in_index"]["source_count"], 1)
         self.assertEqual(result["delta"]["vod_duplicate_titles_by_category"]["movies"]["groups"], 1)
         self.assertNotIn("https://secret.example", rendered)
-        self.assertNotIn("Example Movie", rendered)
-        self.assertNotIn("Example Movie", rendered)
+        self.assertIn("duplicate_title_examples", result)
+        self.assertIn("Example Movie", rendered)
+        self.assertIn("new_records_missing_metadata", result)
+        self.assertEqual(result["new_records_missing_metadata"]["movies"]["new_record_count"], 1)
+        self.assertEqual(result["new_records_missing_metadata"]["movies"]["records_with_missing_metadata"], 1)
+        self.assertNotIn("vod_record_ids_by_category", rendered)
 
 
 if __name__ == "__main__":
