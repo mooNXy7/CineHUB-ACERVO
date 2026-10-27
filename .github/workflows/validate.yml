@@ -93,9 +93,11 @@ jobs:
           data["import_exit_code"] = import_status
           data["preview_validation_exit_code"] = validation_status
           data["status"] = (
-              "ready_for_review" if import_status == 0 and validation_status == 0
-              else "import_failed" if import_status != 0
-              else "preview_validation_failed"
+              "import_failed" if import_status != 0
+              else "preview_validation_failed" if validation_status != 0
+              else "blocked_pending_review"
+              if data.get("review_gate", {}).get("status") == "blocked_pending_review"
+              else "ready_for_review"
           )
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           print(json.dumps({"status": data["status"], "catalog_published": False}))
