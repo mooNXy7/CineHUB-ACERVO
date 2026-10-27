@@ -293,8 +293,8 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
                 urls, refs, skipped = split_sources(value, audio)
                 counters["skipped_urls"] += skipped
                 item["source_candidates_skipped"] += skipped
-                counters["sources_added"] += merge_sources(item["sources"], urls)
-                counters["provider_refs_added"] += merge_provider_refs(item["provider_refs"], refs)
+                counters["source_urls_merged_into_reference_candidates"] += merge_sources(item["sources"], urls)
+                counters["provider_refs_merged_into_reference_candidates"] += merge_provider_refs(item["provider_refs"], refs)
     for item in movies.values():
         meta = fichas.get(("f", norm(item["title"])), {})
         # Reference metadata is enrichment, never a reason to erase valid catalog data.
@@ -394,8 +394,8 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 urls, refs, skipped = split_sources(value, audio, source_id=source_id, priority=20)
                 counters["skipped_urls"] += skipped
                 item["source_candidates_skipped"] = int(item.get("source_candidates_skipped", 0)) + skipped
-                counters["sources_added"] += merge_sources(item.setdefault("sources", []), urls)
-                counters["provider_refs_added"] += merge_provider_refs(item.setdefault("provider_refs", []), refs)
+                counters["source_urls_merged_into_reference_candidates"] += merge_sources(item.setdefault("sources", []), urls)
+                counters["provider_refs_merged_into_reference_candidates"] += merge_provider_refs(item.setdefault("provider_refs", []), refs)
     return movies
 
 
@@ -440,8 +440,8 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
             if existing is None:
                 existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
                 season["episodes"].append(existing)
-            counters["sources_added"] += merge_sources(existing["sources"], urls)
-            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+            counters["source_urls_merged_into_reference_candidates"] += merge_sources(existing["sources"], urls)
+            counters["provider_refs_merged_into_reference_candidates"] += merge_provider_refs(existing["provider_refs"], refs)
     parse_extra_series_sources(vod, series, fichas, counters)
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
@@ -562,8 +562,8 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
             if existing is None:
                 existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
                 season["episodes"].append(existing)
-            counters["sources_added"] += merge_sources(existing["sources"], urls)
-            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+            counters["source_urls_merged_into_reference_candidates"] += merge_sources(existing["sources"], urls)
+            counters["provider_refs_merged_into_reference_candidates"] += merge_provider_refs(existing["provider_refs"], refs)
 
 
 def merge_record(target: dict, incoming: dict) -> dict:
@@ -1140,6 +1140,11 @@ def main() -> None:
     report_data = {
         "reference": "authorized-public-reference",
         "counts": dict(counters),
+        "counter_semantics": {
+            "source_urls_merged_into_reference_candidates": "Parser-level unique URL merges before identity reconciliation; not the net number added to the final catalog.",
+            "provider_refs_merged_into_reference_candidates": "Parser-level provider-reference merges before identity reconciliation; not the net number added to the final catalog.",
+            "net_catalog_reference_changes": "Use the before/after delta in the reference import preview for net source_count and provider_ref_count changes in generated indexes.",
+        },
         "notes": [
             "Conteúdo adulto reservado não é importado.",
             "URLs com credenciais evidentes, tokens de consulta ou hosts privados são omitidas.",
