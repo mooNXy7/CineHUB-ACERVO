@@ -9,7 +9,7 @@ Esta revisão orienta melhorias no CineHUB ACERVO. É um mapa de capacidades e p
 - O catálogo é fatiado por letra e as séries em partes menores, reduzindo o tamanho baixado por tela/dispositivo.
 - O gerador de metadados (`gerar_generos.py`) usa cache persistente e busca correspondência de título com ano/tipo; isso é preferível a escolher a primeira imagem encontrada.
 - **Saimo-TV** (`src/services/vodService.ts`) usa arquivos menores e cacheia leituras durante a visita; falha de rede não deve ser cacheada permanentemente como se o arquivo estivesse vazio/ausente.
-- **Aplicação ao ACERVO:** manter múltiplas fontes com proveniência, deduplicar conservadoramente por título + ano + tipo + versão quando disponível, manter os índices atuais compatíveis e nunca apagar uma fonte válida só porque uma atualização não a trouxe.
+- **Aplicação ao ACERVO:** manter múltiplas fontes com proveniência, deduplicar conservadoramente por identidade estável e metadados confirmados, manter os índices atuais compatíveis e nunca apagar uma fonte válida só porque uma atualização não a trouxe. A importação automática agora mantém registros existentes elegíveis para receber novas fontes após reconciliação de identidade, mas retém novos títulos sem pôster/ano/gêneros ou com colisão de título até enriquecimento/revisão. A prévia deve mostrar a diferença líquida do índice separadamente dos contadores internos de parsing.
 
 ## EPG: combinar cobertura sem confundir horários e metadados
 
@@ -34,6 +34,7 @@ Esta revisão orienta melhorias no CineHUB ACERVO. É um mapa de capacidades e p
 
 - Não importar chaves de API, tokens, cabeçalhos de autenticação, cookies, parâmetros assinados ou lógica de resolução privada dos projetos de referência. O gerador de metadados de referência contém uma credencial de API hardcoded no código; esse valor não foi copiado para o ACERVO. Para qualquer novo enriquecimento, usar credencial própria em secret de CI e confirmar condições de uso da API.
 - Não importar automaticamente URLs com markup malformado nem publicar novos endpoints antes de revisão e testes.
+- O pipeline de atualização executa a importação de referência em worktree isolado; se a barreira de qualidade bloquear os novos títulos, esses dados não são copiados para a área de trabalho, mas as atualizações independentes de M3U e EPG continuam. O marcador de sincronização só avança quando a importação passa pela barreira.
 - Presença de URL não prova reprodução. O conteúdo pode expirar, exigir cabeçalhos ou ter restrições que precisam ser respeitadas.
 - Esta revisão não alterou dados dos apps, não testou reprodução de todos os streams e não considera o EPG HTML pronto para consumo pelos aplicativos.
 
