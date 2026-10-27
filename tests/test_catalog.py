@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
 from import_reference_catalog import canonical_key, dedupe_records, merge_record, parse_search_index, safe_candidate, split_sources
-from update_epg import normalise, parse_xmltv, parse_xmltv_date
+from update_epg import merge_xmltv_channels, normalise, parse_xmltv, parse_xmltv_date
 
 
 class CatalogShapeTests(unittest.TestCase):
@@ -28,6 +28,23 @@ class CatalogShapeTests(unittest.TestCase):
         parsed = parse_xmltv_date("20261015193000 -0300")
         self.assertIsNotNone(parsed)
         self.assertEqual(parsed.utcoffset().total_seconds(), -10800)
+
+    def test_xmltv_refresh_preserves_previously_indexed_channel_ids(self):
+        previous = [
+            {"id": "channel.a", "display_names": ["Old A"]},
+            {"id": "channel.b", "display_names": ["Channel B"]},
+        ]
+        incoming = [
+            {"id": "channel.a", "display_names": ["New A", "Old A"]},
+            {"id": "channel.c", "display_names": ["Channel C"]},
+        ]
+
+        merged = merge_xmltv_channels(previous, incoming)
+        by_id = {item["id"]: item for item in merged}
+
+        self.assertEqual(set(by_id), {"channel.a", "channel.b", "channel.c"})
+        self.assertEqual(by_id["channel.a"]["display_names"], ["Old A", "New A"])
+        self.assertEqual(by_id["channel.b"]["display_names"], ["Channel B"])
 
     def test_xmltv_indexer_parses_channels_and_window(self):
         xml = b'''<?xml version="1.0"?><tv><channel id="canal.1"><display-name>TV Camara</display-name></channel><programme start="20261015193000 -0300" stop="20261015200000 -0300" channel="canal.1"><title>Jornal</title></programme></tv>'''
