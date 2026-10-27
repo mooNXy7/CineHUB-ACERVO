@@ -842,10 +842,12 @@ def hold_unready_new_records(kind: str, existing: dict[str, dict], incoming: lis
         if not isinstance(genres, list) or not any(isinstance(g, str) and g.strip() for g in genres):
             missing.append("genres")
         if missing:
-            counters[f"{kind}_held_incomplete_metadata"] += 1
+            counter_key = f"{kind}_held_incomplete_metadata"
+            counters[counter_key] = counters.get(counter_key, 0) + 1
             continue
         if not title_key or title_key in existing_titles or title_counts[title_key] > 1:
-            counters[f"{kind}_held_title_collision"] += 1
+            counter_key = f"{kind}_held_title_collision"
+            counters[counter_key] = counters.get(counter_key, 0) + 1
             continue
         accepted.append(item)
     return accepted
