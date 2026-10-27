@@ -55,6 +55,19 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
         for code, names in sorted(meuguia_code_groups.items())
         if code and len(names) > 1
     ]
+    intentional_shared_codes = {
+        (str(item.get("code") or "").strip(), tuple(sorted(str(name) for name in item.get("channel_names", []))))
+        for item in epg_map.get("intentional_shared_meuguia_codes", [])
+        if isinstance(item, dict) and item.get("code") and isinstance(item.get("channel_names"), list)
+    }
+    documented_shared_meuguia_codes = [
+        group for group in duplicate_meuguia_codes
+        if (group["code"], tuple(group["channel_names"])) in intentional_shared_codes
+    ]
+    undocumented_duplicate_meuguia_codes = [
+        group for group in duplicate_meuguia_codes
+        if (group["code"], tuple(group["channel_names"])) not in intentional_shared_codes
+    ]
     guide_slug_groups: dict[str, list[str]] = {}
     for channel_name, slug in guide_map.items():
         guide_slug_groups.setdefault(str(slug).strip().casefold(), []).append(str(channel_name))
@@ -139,7 +152,11 @@ def audit_coverage(root: Path = ROOT) -> dict[str, Any]:
             },
             "duplicate_meuguia_codes": {
                 "count": len(duplicate_meuguia_codes), "groups": duplicate_meuguia_codes[:50],
-                "warning": "Shared external codes require manual review and are never changed automatically."
+                "documented_intentional_count": len(documented_shared_meuguia_codes),
+                "documented_intentional_groups": documented_shared_meuguia_codes[:50],
+                "undocumented_count": len(undocumented_duplicate_meuguia_codes),
+                "undocumented_groups": undocumented_duplicate_meuguia_codes[:50],
+                "warning": "Documented shared codes are listed separately; all undocumented duplicate codes require review and are never changed automatically."
             },
             "duplicate_guiadetv_slugs": {
                 "count": len(duplicate_guiadetv_slugs), "groups": duplicate_guiadetv_slugs[:50],
