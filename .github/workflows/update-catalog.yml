@@ -18,6 +18,12 @@ on:
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
+    inputs:
+      approve_reference_import:
+        description: "Aplicar a importação VOD de referência somente após revisar o relatório de qualidade."
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -60,6 +66,7 @@ jobs:
           set -euo pipefail
           REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
+          APPROVE_REFERENCE_IMPORT="${{ github.event.inputs.approve_reference_import || 'false' }}"
           if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
             git worktree add --detach /tmp/cinehub-acervo-import HEAD
@@ -100,7 +107,7 @@ jobs:
             else
               GATE_STATUS=$?
             fi
-            if [[ "$GATE_STATUS" -eq 0 ]]; then
+            if [[ "$GATE_STATUS" -eq 0 && "$APPROVE_REFERENCE_IMPORT" == "true" ]]; then
               cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
               cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
               cp /tmp/cinehub-acervo-import/catalog/vod/index.json catalog/vod/index.json
@@ -108,9 +115,11 @@ jobs:
               rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/details/ catalog/vod/details/
               cp /tmp/cinehub-acervo-import/reports/reference-import.json reports/reference-import.json
               printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
-              echo "Catálogo de referência passou pelos controles estruturais e foi aplicado à área de trabalho: $REF_SHA"
+              echo "Catálogo de referência passou pelos controles e foi aplicado após aprovação manual: $REF_SHA"
+            elif [[ "$GATE_STATUS" -eq 0 ]]; then
+              echo "::warning::Quality gate passed, but manual approval is required. No reference catalog changes were applied. Dispatch this workflow with approve_reference_import=true after reviewing the preview."
             elif [[ "$GATE_STATUS" -eq 2 ]]; then
-              echo "Importação de referência não aplicada; atualizações independentes continuarão."
+              echo "Importação de referência bloqueada pela qualidade; nenhuma alteração de referência aplicada. Atualizações independentes continuarão."
             else
               exit "$GATE_STATUS"
             fi
