@@ -54,7 +54,7 @@ jobs:
             echo "REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
             echo "::warning::Catálogo de referência indisponível nesta execução; a importação será ignorada e os dados atuais serão preservados."
           fi
-      - name: Import reference data with a quality gate
+      - name: Import reference data with an isolated quality gate
         if: env.REFERENCE_AVAILABLE == 'true'
         run: |
           set -euo pipefail
@@ -62,15 +62,22 @@ jobs:
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
           if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
-            cleanup() { git worktree remove --force /tmp/cinehub-acervo-before || true; }
+            git worktree add --detach /tmp/cinehub-acervo-import HEAD
+            cleanup() {
+              git worktree remove --force /tmp/cinehub-acervo-import || true
+              git worktree remove --force /tmp/cinehub-acervo-before || true
+            }
             trap cleanup EXIT
 
-            python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
-            python scripts/validate_catalog.py
+            (
+              cd /tmp/cinehub-acervo-import
+              python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
+              python scripts/validate_catalog.py
+            )
             python scripts/summarize_reference_import_preview.py \
               --before-root /tmp/cinehub-acervo-before \
-              --after-root "$GITHUB_WORKSPACE" \
-              --import-report reports/reference-import.json \
+              --after-root /tmp/cinehub-acervo-import \
+              --import-report /tmp/cinehub-acervo-import/reports/reference-import.json \
               --output /tmp/reference-import-quality-gate.json
 
             python - <<'PY'
@@ -79,12 +86,30 @@ jobs:
           report = json.loads(Path("/tmp/reference-import-quality-gate.json").read_text(encoding="utf-8"))
           gate = report.get("review_gate", {})
           reasons = gate.get("blocking_reasons", [])
-          print(json.dumps({"status": gate.get("status"), "blocking_reasons": reasons}, ensure_ascii=False))
+          print(json.dumps({
+              "status": gate.get("status"),
+              "blocking_reasons": reasons,
+              "catalog_published": False,
+          }, ensure_ascii=False))
           if reasons:
-              raise SystemExit("Reference import blocked: quality gate requires manual review; no catalog changes will be committed.")
+              print("::warning::Reference import held back by quality gate. Other independent catalog/EPG updates will continue.")
+              raise SystemExit(2)
           PY
-            printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
-            echo "Catálogo de referência passou pelos controles estruturais: $REF_SHA"
+            GATE_STATUS=$?
+            if [[ "$GATE_STATUS" -eq 0 ]]; then
+              cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
+              cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
+              cp /tmp/cinehub-acervo-import/catalog/vod/index.json catalog/vod/index.json
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/index/ catalog/vod/index/
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/details/ catalog/vod/details/
+              cp /tmp/cinehub-acervo-import/reports/reference-import.json reports/reference-import.json
+              printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
+              echo "Catálogo de referência passou pelos controles estruturais e foi aplicado à área de trabalho: $REF_SHA"
+            elif [[ "$GATE_STATUS" -eq 2 ]]; then
+              echo "Importação de referência não aplicada; atualizações independentes continuarão."
+            else
+              exit "$GATE_STATUS"
+            fi
           else
             echo "Nenhum novo commit na referência; importação pesada ignorada."
           fi
