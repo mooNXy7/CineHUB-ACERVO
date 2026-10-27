@@ -23,6 +23,12 @@ jobs:
           python-version: "3.12"
       - name: Validate required catalog schemas and references
         run: python scripts/validate_catalog.py
+      - name: Validate workflow YAML syntax
+        run: |
+          ruby -e 'require "yaml"; ARGV.each { |path| YAML.load_file(path, aliases: true); puts "YAML OK: #{path}" }' \
+            .github/workflows/validate.yml \
+            .github/workflows/update-catalog.yml \
+            .github/workflows/probe-html-epg.yml
       - name: Preview authorized reference import in an isolated worktree (never published)
         run: |
           set +e
