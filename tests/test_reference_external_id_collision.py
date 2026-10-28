@@ -53,7 +53,7 @@ class ExternalIdCollisionTests(unittest.TestCase):
     def test_series_source_does_not_merge_on_conflicting_title_with_same_tmdb_id(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            path = root / "vod/mgeb"
+            path = root / "mgeb"
             path.mkdir(parents=True)
             (path / "links-series.txt").write_text(
                 "@Completely Different Show\t2020\t100\n"
