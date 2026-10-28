@@ -221,7 +221,7 @@
     {
       "id": "radio.a-tarde-fm",
       "name": "A Tarde FM",
-      "stream_url": null,
+      "stream_url": "https://stm35.srvstm.com:7920/stream",
       "logo_url": null,
       "genre": null,
       "source_id": "upstream-import"
@@ -821,7 +821,7 @@
     {
       "id": "radio.clube-fm-100-5",
       "name": "Clube FM 100.5",
-      "stream_url": null,
+      "stream_url": "https://sc4s.cdn.upx.com:8069/stream",
       "logo_url": null,
       "genre": null,
       "source_id": "upstream-import"
@@ -4157,7 +4157,7 @@
     {
       "id": "radio.radio-nikey",
       "name": "Rádio Nikey",
-      "stream_url": null,
+      "stream_url": "https://stm8.voxhd.com.br:7996/stream",
       "logo_url": "https://www.radionikkeyweb.com.br/public/18419-2023-12-27.png",
       "genre": null,
       "source_id": "upstream-import"
