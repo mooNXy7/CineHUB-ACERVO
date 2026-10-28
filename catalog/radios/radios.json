@@ -6133,15 +6133,6 @@
       "stream_status": "imported"
     },
     {
-      "id": "radio-https-8185-brasilstream-com-br-stream",
-      "name": "https://8185.brasilstream.com.br/stream",
-      "stream_url": null,
-      "logo_url": null,
-      "genre": null,
-      "source_id": "reference-catalog",
-      "stream_status": "imported"
-    },
-    {
       "id": "radio-https-stm41-stmsrv-com-16614-stream",
       "name": "https://stm41.stmsrv.com:16614/stream",
       "stream_url": "https://cdn.stmsrv.com/multi/16614/logo_r1dbkqc.png",
@@ -6361,15 +6352,6 @@
       "id": "radio-https-paineldj-com-br-20196-stream",
       "name": "https://paineldj.com.br:20196/stream",
       "stream_url": "https://ub.canarinhofm.com/admin/assets/img/logo.png",
-      "logo_url": null,
-      "genre": null,
-      "source_id": "reference-catalog",
-      "stream_status": "imported"
-    },
-    {
-      "id": "radio-https-8758-brasilstream-com-br-stream",
-      "name": "https://8758.brasilstream.com.br/stream",
-      "stream_url": null,
       "logo_url": null,
       "genre": null,
       "source_id": "reference-catalog",
@@ -7006,15 +6988,6 @@
       "stream_status": "imported"
     },
     {
-      "id": "radio-https-sv10-hdradios-net-6864-stream",
-      "name": "https://sv10.hdradios.net:6864/stream",
-      "stream_url": null,
-      "logo_url": null,
-      "genre": null,
-      "source_id": "reference-catalog",
-      "stream_status": "pending_review"
-    },
-    {
       "id": "radio-https-playerservices-streamtheworld-com-api-livestream-redirect-classicrock-s01aac-64-aac",
       "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASSICROCK_S01AAC_64.aac",
       "stream_url": "https://radiocidade.fm/player/img/classic-rock.svg",
@@ -7625,15 +7598,6 @@
       "genre": null,
       "source_id": "reference-catalog",
       "stream_status": "imported"
-    },
-    {
-      "id": "radio-https-streaming-radioempresabrasil-com-br-proxy-novainstrumental-stream",
-      "name": "https://streaming.radioempresabrasil.com.br/proxy/novainstrumental/stream",
-      "stream_url": null,
-      "logo_url": null,
-      "genre": null,
-      "source_id": "reference-catalog",
-      "stream_status": "pending_review"
     },
     {
       "id": "radio-https-servidor31-4-brlogic-com-8332-live",
