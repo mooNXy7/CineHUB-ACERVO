@@ -36,6 +36,9 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     channels = channels_doc.get("channels", [])
     indexed_sources = index_doc.get("sources", {})
     aliases = map_doc.get("xmltv_aliases", {})
+    meuguia_names = {norm(name) for name in (map_doc.get("meuguia_codes") or {})}
+    guiadetv_names = {norm(name) for name in (map_doc.get("guiadetv_slugs") or {})}
+    html_mapped_names = meuguia_names | guiadetv_names
 
     # Build normalized display-name -> source-specific XMLTV IDs. Preserve
     # collisions as ambiguity instead of choosing whichever source came first.
@@ -62,6 +65,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     candidates = []
     no_exact_match = []
     already_mapped = 0
+    html_mapped = 0
     ambiguous = 0
     for channel in channels:
         if not isinstance(channel, dict):
@@ -78,8 +82,12 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
             for source_id, ids in names_to_ids.get(key, {}).items():
                 matched_sources[source_id].update(ids)
 
-        # Existing explicit associations are not proposed for replacement.
+        # Existing explicit and HTML-guide associations are not proposed for replacement.
         if current_id or current_sources:
+            already_mapped += 1
+            continue
+        if channel_key in html_mapped_names:
+            html_mapped += 1
             already_mapped += 1
             continue
         if not matched_sources:
@@ -116,6 +124,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "counts": {
             "catalog_channels": len(channels),
             "channels_with_existing_epg_association": already_mapped,
+            "channels_with_existing_html_epg_mapping": html_mapped,
             "candidate_channels": len(candidates),
             "unique_exact_name_candidates": sum(c["status"] == "unique_exact_name_review" for c in candidates),
             "ambiguous_exact_name_candidates": ambiguous,
