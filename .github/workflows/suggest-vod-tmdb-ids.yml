@@ -32,6 +32,10 @@ jobs:
           LIMIT: ${{ inputs.limit }}
         run: |
           set -euo pipefail
+          if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
+            echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
+            exit 1
+          fi
           python -m py_compile scripts/suggest_vod_tmdb_matches.py
           python scripts/suggest_vod_tmdb_matches.py \
             --limit "$LIMIT" \
