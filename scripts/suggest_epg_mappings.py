@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).casefold()
-    value = re.sub(r"\\b(?:hd|sd|fhd|uhd|4k|br)\\b", " ", value)
+    value = re.sub(r"\b(?:hd|sd|fhd|uhd|4k|br)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
@@ -139,7 +139,7 @@ def main() -> int:
     args = parser.parse_args()
     report = build_report(args.root)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"output": str(args.output), "counts": report["counts"], "catalog_mutated": False}, ensure_ascii=False))
     return 0
 
