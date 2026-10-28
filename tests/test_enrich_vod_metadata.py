@@ -77,7 +77,7 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
     def test_requires_api_key_before_reading_or_writing(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            with self.assertRaisesRegex(ValueError, "TMDB_API_KEY is required"):
+            with self.assertRaisesRegex(ValueError, "SUPABASE_ANON_KEY is required"):
                 enrich.build_patch(root, root / "patch.json", root / "cache.sqlite3", 10, "", delay=0)
             self.assertFalse((root / "patch.json").exists())
             self.assertFalse((root / "cache.sqlite3").exists())
