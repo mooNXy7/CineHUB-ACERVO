@@ -28,7 +28,9 @@ jobs:
           ruby -e 'require "yaml"; ARGV.each { |path| YAML.load_file(path, aliases: true); puts "YAML OK: #{path}" }' \
             .github/workflows/validate.yml \
             .github/workflows/update-catalog.yml \
-            .github/workflows/probe-html-epg.yml \\\n            .github/workflows/enrich-vod-metadata.yml \\\n            .github/workflows/suggest-vod-tmdb-ids.yml
+            .github/workflows/probe-html-epg.yml \
+            .github/workflows/enrich-vod-metadata.yml \
+            .github/workflows/suggest-vod-tmdb-ids.yml
       - name: Preview authorized reference import in an isolated worktree (manual dispatch only)
         if: github.event_name == 'workflow_dispatch'
         run: |
