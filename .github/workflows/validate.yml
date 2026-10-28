@@ -139,6 +139,8 @@ jobs:
         run: python scripts/audit_catalog.py > audit-catalog.json
       - name: Run stream and EPG coverage audit (read-only)
         run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
+      - name: Build exact-name EPG mapping review candidates (read-only)
+        run: python scripts/suggest_epg_mappings.py --output epg-mapping-candidates.json
       - name: Build actionable catalog quality report (read-only; URLs redacted)
         run: python scripts/catalog_quality_report.py > catalog-quality-report.json
       - name: Build VOD metadata enrichment dry-run (read-only; no network)
@@ -197,6 +199,7 @@ jobs:
           path: |
             audit-catalog.json
             stream-epg-coverage.json
+            epg-mapping-candidates.json
             catalog-quality-report.json
             vod-enrichment-plan.json
             reference-import-preview.json
