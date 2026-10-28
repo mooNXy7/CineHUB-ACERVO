@@ -37,7 +37,7 @@ class ReferenceMovieMetadataPreservationTests(unittest.TestCase):
                 "source_candidates_skipped": 0,
             }
             movies = {importer.norm(item["title"]): item}
-            counters = {"skipped_urls": 0, "sources_added": 0, "provider_refs_added": 0}
+            counters = {"skipped_urls": 0, "source_urls_merged_into_reference_candidates": 0, "provider_refs_merged_into_reference_candidates": 0}
             fichas = {
                 ("f", importer.norm(item["title"])): {
                     "tmdb_id": "222",
@@ -55,7 +55,7 @@ class ReferenceMovieMetadataPreservationTests(unittest.TestCase):
         self.assertEqual(item["genres"], ["Drama", "Comedy"])
         self.assertEqual(len(item["sources"]), 2)
         self.assertEqual(item["sources"][0]["source_id"], "existing-source")
-        self.assertEqual(counters["sources_added"], 1)
+        self.assertEqual(counters["source_urls_merged_into_reference_candidates"], 1)
 
 
 if __name__ == "__main__":
