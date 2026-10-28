@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28",
+  "mode": "reviewable_quarantine",
+  "live_catalog_mutated": true,
+  "records_preserved": true,
+  "records": [
+    {
+      "record": {
+        "id": "radio-https-8185-brasilstream-com-br-stream",
+        "name": "https://8185.brasilstream.com.br/stream",
+        "stream_url": null,
+        "logo_url": null,
+        "genre": null,
+        "source_id": "reference-catalog",
+        "stream_status": "imported"
+      },
+      "reason": "Malformed imported row: the name is a stream URL, stream_url was invalid/missing, and the same exact stream already exists in a named station record.",
+      "duplicate_of": "radio.98-rock",
+      "duplicate_stream_url": "https://8185.brasilstream.com.br/stream",
+      "action": "quarantined_not_deleted"
+    },
+    {
+      "record": {
+        "id": "radio-https-8758-brasilstream-com-br-stream",
+        "name": "https://8758.brasilstream.com.br/stream",
+        "stream_url": null,
+        "logo_url": null,
+        "genre": null,
+        "source_id": "reference-catalog",
+        "stream_status": "imported"
+      },
+      "reason": "Malformed imported row: the name is a stream URL, stream_url was invalid/missing, and the same exact stream already exists in a named station record.",
+      "duplicate_of": "radio.casa-dos-caipiras",
+      "duplicate_stream_url": "https://8758.brasilstream.com.br/stream",
+      "action": "quarantined_not_deleted"
+    },
+    {
+      "record": {
+        "id": "radio-https-sv10-hdradios-net-6864-stream",
+        "name": "https://sv10.hdradios.net:6864/stream",
+        "stream_url": null,
+        "logo_url": null,
+        "genre": null,
+        "source_id": "reference-catalog",
+        "stream_status": "pending_review"
+      },
+      "reason": "Malformed imported row: the name is a stream URL, stream_url was invalid/missing, and the same exact stream already exists in a named station record.",
+      "duplicate_of": "radio.radio-chaveco",
+      "duplicate_stream_url": "https://sv10.hdradios.net:6864/stream",
+      "action": "quarantined_not_deleted"
+    },
+    {
+      "record": {
+        "id": "radio-https-streaming-radioempresabrasil-com-br-proxy-novainstrumental-stream",
+        "name": "https://streaming.radioempresabrasil.com.br/proxy/novainstrumental/stream",
+        "stream_url": null,
+        "logo_url": null,
+        "genre": null,
+        "source_id": "reference-catalog",
+        "stream_status": "pending_review"
+      },
+      "reason": "Malformed imported row: the name is a stream URL, stream_url was invalid/missing, and the same exact stream already exists in a named station record.",
+      "duplicate_of": "radio.radio-nova-instrumental",
+      "duplicate_stream_url": "https://streaming.radioempresabrasil.com.br/proxy/novainstrumental/stream",
+      "action": "quarantined_not_deleted"
+    }
+  ]
+}
