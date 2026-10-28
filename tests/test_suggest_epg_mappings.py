@@ -16,6 +16,7 @@ class SuggestEpgMappingsTests(unittest.TestCase):
                 {"id": "c2", "name": "Canal Ambíguo"},
                 {"id": "c3", "name": "Canal Sem EPG"},
                 {"id": "c4", "name": "Já Mapeado", "epg_id": "mapped-id"},
+                {"id": "c5", "name": "History Channel"},
             ]
         }), encoding="utf-8")
         (root / "catalog/epg/xmltv-channels.json").write_text(json.dumps({
@@ -24,6 +25,7 @@ class SuggestEpgMappingsTests(unittest.TestCase):
                     {"id": "arvore.a", "display_names": ["Canal Árvore"]},
                     {"id": "amb.1", "display_names": ["Canal Ambíguo"]},
                     {"id": "amb.2", "display_names": ["Canal Ambíguo"]},
+                    {"id": "history.br", "display_names": ["History"]},
                 ]},
                 "feed-b": {"channels": [
                     {"id": "arvore.b", "display_names": ["Canal Arvore"]},
@@ -31,7 +33,7 @@ class SuggestEpgMappingsTests(unittest.TestCase):
             }
         }), encoding="utf-8")
         (root / "catalog/epg/channel-map.json").write_text(json.dumps({
-            "xmltv_aliases": {},
+            "xmltv_aliases": {"History": ["History Channel"]},
             "meuguia_codes": {"Canal Sem EPG": "CSE"},
             "guiadetv_slugs": {},
         }), encoding="utf-8")
@@ -53,6 +55,8 @@ class SuggestEpgMappingsTests(unittest.TestCase):
         self.assertNotIn("Canal Sem EPG", candidates)
         self.assertNotIn("Já Mapeado", candidates)
         self.assertEqual(report["counts"]["channels_with_existing_html_epg_mapping"], 1)
+        self.assertIn("History Channel", candidates)
+        self.assertEqual(candidates["History Channel"]["source_ids"]["feed-a"], ["history.br"])
 
     def test_source_specific_ids_are_preserved(self):
         with tempfile.TemporaryDirectory() as temp:
