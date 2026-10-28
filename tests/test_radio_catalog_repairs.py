@@ -38,7 +38,7 @@ class RadioCatalogRepairTests(unittest.TestCase):
     def test_no_radio_url_contains_known_imported_html_fragments(self):
         bad = re.compile(
             r"%22%3e%3c/audio%3e|%22%20data-turbolinks-permanent|%22$|"
-            r"facebook\\.com/photo/.*__tn__=%3c",
+            r"facebook[.]com/photo/.*__tn__=%3c",
             re.IGNORECASE,
         )
         findings = []
