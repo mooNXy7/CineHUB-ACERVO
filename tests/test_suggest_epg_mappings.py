@@ -31,7 +31,9 @@ class SuggestEpgMappingsTests(unittest.TestCase):
             }
         }), encoding="utf-8")
         (root / "catalog/epg/channel-map.json").write_text(json.dumps({
-            "xmltv_aliases": {}
+            "xmltv_aliases": {},
+            "meuguia_codes": {"Canal Sem EPG": "CSE"},
+            "guiadetv_slugs": {},
         }), encoding="utf-8")
 
     def test_only_exact_name_candidates_and_never_mutates_catalog(self):
@@ -50,6 +52,7 @@ class SuggestEpgMappingsTests(unittest.TestCase):
         self.assertEqual(candidates["Canal Ambíguo"]["status"], "ambiguous_exact_name_review")
         self.assertNotIn("Canal Sem EPG", candidates)
         self.assertNotIn("Já Mapeado", candidates)
+        self.assertEqual(report["counts"]["channels_with_existing_html_epg_mapping"], 1)
 
     def test_source_specific_ids_are_preserved(self):
         with tempfile.TemporaryDirectory() as temp:
