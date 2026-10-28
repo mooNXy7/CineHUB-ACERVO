@@ -50,3 +50,16 @@ Os testes de formato e duplicidade são heurísticos; **não provam** que um ID 
 - JSON e esquema válidos; contagens e IDs estáveis.
 - A versão anterior continua recuperável e uma falha de lote não publica estado parcial.
 - Os aplicativos consumidores continuam compatíveis com o formato atual; integração com TV/Mobile ocorre em trabalho separado e só após testes próprios.
+
+
+## Patch TMDB com revisão (28/10/2026)
+
+O script scripts/enrich_vod_metadata.py e o workflow manual .github/workflows/enrich-vod-metadata.yml adicionam um caminho opcional para enriquecer registros que **já possuem um TMDB ID numérico**.
+
+- O script consulta o endpoint exato de filme/série; não faz busca por título nem atribui IDs novos.
+- Exige confirmação do ID e correspondência de título normalizado. Divergência de título ou ano explícito no título vira revisão manual.
+- Só propõe poster_url, year e genres quando o campo está vazio; nunca substitui metadados preenchidos.
+- Usa cache SQLite durante a execução, timeout, tentativas limitadas e intervalo entre chamadas. Falhas transitórias não ficam cacheadas como resultado definitivo.
+- Produz um JSON de patch revisável como artefato; não modifica catalog/. Aplicar qualquer patch é uma etapa separada, após revisão.
+- O workflow é manual e limitado a 1–1000 registros por execução. Para habilitá-lo, adicione uma chave TMDB própria como secret TMDB_API_KEY em Settings → Secrets and variables → Actions. Não cole a chave no chat, não use nem copie a credencial encontrada no repositório de referência.
+- A nova rotina foi adicionada com testes unitários de patch, correspondência de identidade, conflito de ano e ausência de credencial. A validação CI deve passar antes da primeira execução com rede.
