@@ -54,13 +54,19 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
                 if key:
                     names_to_ids[key][str(source_id)].add(str(item["id"]).strip())
 
+    # Resolve aliases in both directions: canonical channel names may be
+    # stored in the catalog while the XMLTV feed uses an alias, or vice versa.
+    # Keep a normalized equivalence group but do not collapse source-specific IDs.
     alias_lookup: dict[str, set[str]] = defaultdict(set)
     for canonical, values in aliases.items():
         canonical_key = norm(canonical)
-        if canonical_key:
-            alias_lookup[canonical_key].add(canonical_key)
-            if isinstance(values, list):
-                alias_lookup[canonical_key].update(norm(value) for value in values if norm(value))
+        if not canonical_key:
+            continue
+        alias_keys = {canonical_key}
+        if isinstance(values, list):
+            alias_keys.update(norm(value) for value in values if norm(value))
+        for alias_key in alias_keys:
+            alias_lookup[alias_key].update(alias_keys)
 
     candidates = []
     no_exact_match = []
