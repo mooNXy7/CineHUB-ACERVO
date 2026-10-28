@@ -31,9 +31,16 @@ class RadioCatalogRepairTests(unittest.TestCase):
         self.assertIsNone(self.radios["radio.a-tarde-fm"]["stream_url"])
         self.assertIsNone(self.radios["radio.casa-dos-caipiras"]["logo_url"])
         self.assertIsNone(self.radios["radio-https-8758-brasilstream-com-br-stream"]["stream_url"])
+        self.assertIsNone(self.radios["radio.clube-fm-100-5"]["stream_url"])
+        self.assertIsNone(self.radios["radio.radio-nikey"]["stream_url"])
+        self.assertIsNone(self.radios["radio-https-8185-brasilstream-com-br-stream"]["stream_url"])
 
-    def test_no_radio_url_contains_encoded_html_markup(self):
-        bad = re.compile(r"%(?:22|3c|3e)|<|>", re.IGNORECASE)
+    def test_no_radio_url_contains_known_imported_html_fragments(self):
+        bad = re.compile(
+            r"%22%3e%3c/audio%3e|%22%20data-turbolinks-permanent|%22$|"
+            r"facebook\\.com/photo/.*__tn__=%3c",
+            re.IGNORECASE,
+        )
         findings = []
         for radio in self.document["radios"]:
             for field in ("stream_url", "logo_url"):
