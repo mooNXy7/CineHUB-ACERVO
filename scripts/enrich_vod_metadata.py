@@ -13,13 +13,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTIONS = ("movies", "series", "anime", "doramas")
 IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
-API_BASE = "https://api.themoviedb.org/3"
+DEFAULT_SUPABASE_URL = "https://qdheeiitzlvynshvkwcs.supabase.co"
+DEFAULT_FUNCTION_SLUG = "cinehub-catalog"
 DEFAULT_LIMIT = 100
 MAX_LIMIT = 1000
 
@@ -54,15 +54,30 @@ def endpoint_for(section: str, record: dict) -> str:
 
 
 def fetch_tmdb_details(endpoint: str, tmdb_id: str, api_key: str, timeout: float = 8.0,
-                       retries: int = 3, delay: float = 0.25) -> tuple[dict | None, str]:
-    """Fetch one exact TMDB ID. Errors are redacted; the API key is never logged."""
-    url = f"{API_BASE}/{endpoint}/{tmdb_id}?{urlencode({'api_key': api_key, 'language': 'pt-BR'})}"
+                       retries: int = 3, delay: float = 0.25,
+                       function_url: str | None = None) -> tuple[dict | None, str]:
+    """Fetch one exact TMDB ID through CineHUB's Supabase proxy; never expose TMDB_TOKEN."""
+    target = function_url or os.environ.get(
+        "CINEHUB_CATALOG_FUNCTION_URL",
+        f"{DEFAULT_SUPABASE_URL}/functions/v1/{DEFAULT_FUNCTION_SLUG}")
+    body = json.dumps({
+        "action": "details",
+        "type": "movie" if endpoint == "movie" else "series",
+        "id": tmdb_id,
+    }).encode("utf-8")
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    if api_key.strip():
+        headers["apikey"] = api_key.strip()
+        headers["Authorization"] = f"Bearer {api_key.strip()}"
     last_status = "request_error"
     for attempt in range(retries):
         try:
-            request = Request(url, headers={"Accept": "application/json", "User-Agent": "CineHUB-ACERVO-MetadataAudit/1.0"})
+            request = Request(target, data=body, headers=headers, method="POST")
             with urlopen(request, timeout=timeout) as response:
-                payload = json.loads(response.read(2_000_001).decode("utf-8"))
+                wrapper = json.loads(response.read(2_000_001).decode("utf-8"))
+            if not isinstance(wrapper, dict) or wrapper.get("success") is False:
+                return None, "proxy_error"
+            payload = wrapper.get("data")
             if not isinstance(payload, dict) or str(payload.get("id") or "") != tmdb_id:
                 return None, "provider_id_mismatch"
             return payload, "ok"
@@ -146,7 +161,7 @@ def store_details(db: sqlite3.Connection, endpoint: str, tmdb_id: str,
 def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 api_key: str, delay: float = 0.25) -> dict:
     if not api_key.strip():
-        raise ValueError("TMDB_API_KEY is required; provide it through a secret or environment variable.")
+        raise ValueError("SUPABASE_ANON_KEY is required; use the public project key to call CineHUB Supabase.")
     if not 1 <= limit <= MAX_LIMIT:
         raise ValueError(f"limit must be between 1 and {MAX_LIMIT}")
 
@@ -212,7 +227,7 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                     payload, status = cached
 
                 if status in {"http_401", "http_403"}:
-                    raise RuntimeError("TMDB authentication failed; verify the TMDB_API_KEY secret.")
+                    raise RuntimeError("Supabase authorization failed; verify SUPABASE_ANON_KEY and cinehub-catalog function access.")
                 if status != "ok" or not isinstance(payload, dict):
                     counts["not_found" if status == "not_found" else "request_error"] += 1
                     continue
@@ -289,7 +304,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     parser.add_argument("--delay", type=float, default=0.25)
     args = parser.parse_args()
-    key = os.environ.get("TMDB_API_KEY", "")
+    key = os.environ.get("SUPABASE_ANON_KEY", "")
     report = build_patch(args.root, args.output, args.cache, args.limit, key, max(0.0, args.delay))
     print(json.dumps({
         "output": str(args.output),
