@@ -1,0 +1,48 @@
+name: Build VOD metadata review patch
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum records with existing TMDB IDs to inspect (1–1000)"
+        required: true
+        default: "100"
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: acervo-vod-metadata-review
+  cancel-in-progress: false
+
+jobs:
+  build-patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate limit and build review-only patch
+        env:
+          TMDB_API_KEY: \${{ secrets.TMDB_API_KEY }}
+          LIMIT: \${{ inputs.limit }}
+        run: |
+          set -euo pipefail
+          if [[ -z "\${TMDB_API_KEY:-}" ]]; then
+            echo "::error::Add TMDB_API_KEY under repository Actions secrets before running this workflow."
+            exit 1
+          fi
+          python -m py_compile scripts/enrich_vod_metadata.py
+          python scripts/enrich_vod_metadata.py \
+            --limit "$LIMIT" \
+            --output "$RUNNER_TEMP/vod-metadata-patch.json" \
+            --cache "$RUNNER_TEMP/tmdb-metadata-cache.sqlite3"
+      - name: Upload review-only patch
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-vod-metadata-review-patch
+          path: \${{ runner.temp }}/vod-metadata-patch.json
+          if-no-files-found: error
+          retention-days: 7
