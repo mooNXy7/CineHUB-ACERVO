@@ -1022,6 +1022,7 @@ def main() -> None:
     # stop the import rather than be replaced by a fallback document.
     current_channels = load_json(CHANNELS_FILE, {"schema_version": 1, "channels": []})
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
+    previous_report = load_json(REPORT, {})
     current_channels = import_channels(reference, current_channels, counters)
 
     fichas = read_fichas(reference / "vod" / "fichas.txt")
@@ -1162,7 +1163,6 @@ def main() -> None:
             "A importação não testa reprodução durante a montagem do catálogo."
         ]
     }
-    previous_report = load_json(REPORT, {})
     if any(previous_report.get(k) != v for k, v in report_data.items()) or not previous_report.get("generated_at"):
         report_data["generated_at"] = datetime.now(timezone.utc).isoformat()
         write_json(REPORT, report_data)
