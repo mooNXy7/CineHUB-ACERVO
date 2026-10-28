@@ -19,19 +19,21 @@ concurrency:
 jobs:
   build-patch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate limit and build review-only patch
+      - name: Validate limit and build review-only patch through CineHUB Supabase
         env:
-          TMDB_API_KEY: \${{ secrets.TMDB_API_KEY }}
-          LIMIT: \${{ inputs.limit }}
+          CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          LIMIT: ${{ inputs.limit }}
         run: |
           set -euo pipefail
-          if [[ -z "\${TMDB_API_KEY:-}" ]]; then
-            echo "::error::Add TMDB_API_KEY under repository Actions secrets before running this workflow."
+          if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
+            echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
             exit 1
           fi
           python -m py_compile scripts/enrich_vod_metadata.py
@@ -43,6 +45,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cinehub-vod-metadata-review-patch
-          path: \${{ runner.temp }}/vod-metadata-patch.json
+          path: ${{ runner.temp }}/vod-metadata-patch.json
           if-no-files-found: error
           retention-days: 7
