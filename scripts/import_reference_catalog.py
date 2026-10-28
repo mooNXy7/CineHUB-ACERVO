@@ -361,7 +361,7 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
             # attaching a source to an existing record.
             item = by_tmdb.get(tmdb_id) if tmdb_id else None
             if item is not None:
-                incoming_year_match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", title)
+                incoming_year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
                 incoming_year = incoming_year_match.group(1) if incoming_year_match else None
                 existing_year = str(item.get("year") or "")
                 same_title = (
