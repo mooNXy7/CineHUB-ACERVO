@@ -143,6 +143,8 @@ jobs:
         run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
       - name: Build exact-name EPG mapping review candidates (read-only)
         run: python scripts/suggest_epg_mappings.py --output epg-mapping-candidates.json
+      - name: Build exact-name channel logo suggestions (read-only)
+        run: python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions.json
       - name: Build actionable catalog quality report (read-only; URLs redacted)
         run: python scripts/catalog_quality_report.py > catalog-quality-report.json
       - name: Build VOD metadata enrichment dry-run (read-only; no network)
@@ -156,6 +158,7 @@ jobs:
           audit = json.load(open("audit-catalog.json", encoding="utf-8"))
           coverage = json.load(open("stream-epg-coverage.json", encoding="utf-8"))
           vod = json.load(open("vod-enrichment-plan.json", encoding="utf-8"))
+          logos = json.load(open("channel-logo-suggestions.json", encoding="utf-8"))
           counts = audit["counts"]
           summary = vod["summary"]
           stream_counts = coverage["counts"]
@@ -168,6 +171,7 @@ jobs:
               f"- **Canais:** {counts['channels']:,}; {stream_counts['channels_with_stream_reference']:,} com referência de stream ({stream_coverage['channel_stream_reference_pct']}%)",
               f"- **EPG:** {stream_counts['channels_with_epg_association']:,} canais com associação estrutural ({stream_coverage['channel_epg_structural_association_pct']}%); não comprova programação atual",
               f"- **Rádios:** {counts['radios']:,}; {stream_counts['radios_with_stream_reference']:,} com referência de stream ({stream_coverage['radio_stream_reference_pct']}%)",
+              f"- **Logos de canais:** {logos['counts']['candidate_channels']:,} sugestões por nome normalizado exato para revisão; nenhuma aplicação automática",
               "",
               "### Metadados VOD ausentes",
               "",
@@ -202,6 +206,7 @@ jobs:
             audit-catalog.json
             stream-epg-coverage.json
             epg-mapping-candidates.json
+            channel-logo-suggestions.json
             catalog-quality-report.json
             vod-enrichment-plan.json
             reference-import-preview.json
