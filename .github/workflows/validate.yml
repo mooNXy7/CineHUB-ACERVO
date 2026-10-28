@@ -29,7 +29,8 @@ jobs:
             .github/workflows/validate.yml \
             .github/workflows/update-catalog.yml \
             .github/workflows/probe-html-epg.yml
-      - name: Preview authorized reference import in an isolated worktree (never published)
+      - name: Preview authorized reference import in an isolated worktree (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch'
         run: |
           set +e
           if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference-preview; then
