@@ -202,10 +202,13 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 if cached is None:
                     payload, status = fetch_tmdb_details(endpoint, tmdb_id, api_key, delay=delay)
                     network_requests += 1
-                    store_details(db, endpoint, tmdb_id, payload, status)
+                    if status in {"ok", "not_found", "provider_id_mismatch"}:
+                        store_details(db, endpoint, tmdb_id, payload, status)
                 else:
                     payload, status = cached
 
+                if status in {"http_401", "http_403"}:
+                    raise RuntimeError("TMDB authentication failed; verify the TMDB_API_KEY secret.")
                 if status != "ok" or not isinstance(payload, dict):
                     counts["not_found" if status == "not_found" else "request_error"] += 1
                     continue
@@ -213,9 +216,9 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 if meta["id"] != tmdb_id:
                     counts["identity_review"] += 1
                     continue
-                title_keys = {norm(record.get("title")), *(norm(t) for t in meta["titles"])}
-                title_keys.discard("")
-                if not title_keys.intersection({norm(t) for t in meta["titles"]}):
+                record_title = norm(record.get("title"))
+                provider_titles = {norm(t) for t in meta["titles"] if norm(t)}
+                if not record_title or record_title not in provider_titles:
                     counts["identity_review"] += 1
                     continue
                 hint = year_hint(record.get("title"))
