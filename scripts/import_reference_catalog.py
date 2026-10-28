@@ -102,11 +102,19 @@ def safe_candidate(raw: str) -> bool:
         return False
 
 
-def load_json(path: Path, fallback: dict) -> dict:
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+def load_json(path: Path, fallback):
+    """Use defaults only for missing files; never mask corrupt existing catalog data."""
+    if not path.exists():
         return fallback
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Refusing reference import because existing JSON is unreadable: {path}") from exc
+    if not isinstance(value, type(fallback)):
+        raise ValueError(
+            f"Refusing reference import because existing JSON has the wrong top-level type: {path}"
+        )
+    return value
 
 
 def atomic_write_text(path: Path, text: str) -> None:
@@ -1010,9 +1018,11 @@ def main() -> None:
         raise SystemExit(f"Diretório de referência não encontrado: {reference / 'vod'}")
 
     counters = defaultdict(int)
+    # Preflight every catalog root before any writes. A corrupt existing file must
+    # stop the import rather than be replaced by a fallback document.
     current_channels = load_json(CHANNELS_FILE, {"schema_version": 1, "channels": []})
+    radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
     current_channels = import_channels(reference, current_channels, counters)
-    write_json(CHANNELS_FILE, current_channels)
 
     fichas = read_fichas(reference / "vod" / "fichas.txt")
     featured_posters, featured_anime, featured_doramas = parse_featured(reference / "vod" / "destaques.txt")
@@ -1121,12 +1131,12 @@ def main() -> None:
                 if relative_path not in written_detail_paths:
                     old_path.unlink()
 
-    radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
     radios, imported_radio_count, updated_radio_count = import_reference_radios(reference, radios)
     counters["radios_updated"] = updated_radio_count
     if imported_radio_count or updated_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(RADIOS_FILE, radios)
+    write_json(CHANNELS_FILE, current_channels)
 
     counters["movies"] = len(movie_list)
     counters["series"] = len(series_list)
