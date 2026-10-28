@@ -356,7 +356,21 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                     if match:
                         tmdb_id = match.group(1)
                         break
+            # An external ID is not sufficient proof of identity: provider data can
+            # contain collisions or stale IDs. Require compatible title and year before
+            # attaching a source to an existing record.
             item = by_tmdb.get(tmdb_id) if tmdb_id else None
+            if item is not None:
+                incoming_year_match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", title)
+                incoming_year = incoming_year_match.group(1) if incoming_year_match else None
+                existing_year = str(item.get("year") or "")
+                same_title = (
+                    norm(item.get("title", "")) == norm(title)
+                    or base_title(item.get("title", "")) == base_title(title)
+                )
+                year_conflict = incoming_year and existing_year and incoming_year != existing_year
+                if not same_title or year_conflict:
+                    item = None
             item = item or movies.get(norm(title))
             if item is None:
                 candidate_map = {}
@@ -511,10 +525,18 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                     current = None
                     continue
                 key = (norm(title), year or "")
-                # Identity priority: exact provider ID, then exact normalized title + year.
-                # A title-only fallback is allowed only when it is unambiguous; never let
-                # an item with a missing year absorb a known-year remake by guesswork.
+                # A provider ID is evidence, not proof: reject it when title or known
+                # year conflicts, then continue through conservative title/year matching.
                 current = by_tmdb.get(tmdb_id) if tmdb_id else None
+                if current is not None:
+                    same_title = (
+                        norm(current.get("title", "")) == norm(title)
+                        or base_title(current.get("title", "")) == base_title(title)
+                    )
+                    existing_year = str(current.get("year") or "")
+                    year_conflict = year and existing_year and year != existing_year
+                    if not same_title or year_conflict:
+                        current = None
                 current = current or series.get(key)
                 if current is None:
                     candidate_map = {}
