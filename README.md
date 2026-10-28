@@ -94,3 +94,17 @@ python scripts/validate_catalog.py
 ## Status
 
 Versão de estrutura: **0.1.0**. A integração com os aplicativos CineHUB TV/Mobile deve ser feita por URLs estáveis e validada em cada app antes de trocar a fonte atual.
+
+
+## Enriquecimento VOD via Supabase (somente revisão)
+
+O ACERVO reutiliza a Edge Function existente `cinehub-catalog` do projeto Supabase CINEHUB para consultas ao TMDB. O token privado `TMDB_TOKEN` permanece no ambiente do Supabase; ele não deve ser copiado para o GitHub nem para relatórios.
+
+Para executar os workflows manuais de revisão no GitHub Actions, configure o segredo `SUPABASE_ANON_KEY` com a chave pública (anon/publishable) do projeto. Não use a chave `service_role` nesse segredo. A URL da função já está definida nos workflows e pode ser alterada caso a função seja migrada.
+
+- `Build VOD metadata review patch`: consulta IDs TMDB que já existem no catálogo e sugere pôster, ano e gêneros somente quando a identidade bate.
+- `Build VOD TMDB ID review candidates`: procura candidatos para registros sem ID TMDB, usando título normalizado exato e conferência de ano quando disponível.
+- Ambos geram artefatos de revisão; nenhum deles altera os JSONs do catálogo ou associa IDs automaticamente.
+- Antes de aceitar candidatos, confirme título, ano, tipo de mídia e identidade (remakes/edições diferentes podem compartilhar nomes).
+
+O endpoint `cinehub-catalog` precisa estar acessível pelo GitHub Actions. Se o segredo `SUPABASE_ANON_KEY` não estiver configurado no repositório, os workflows param com uma mensagem clara; não é necessário configurar outro token TMDB no GitHub.
