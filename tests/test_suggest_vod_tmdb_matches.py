@@ -31,31 +31,37 @@ class SuggestVODTMDBMatchesTests(unittest.TestCase):
             before = detail.read_bytes()
             result = {"id": 123, "title": "Filme Teste", "original_title": "Test Movie",
                       "release_date": "2001-02-03", "poster_path": "/p.jpg", "overview": "x"}
-            with patch.object(suggest, "search_tmdb", return_value=([result], "ok")):
-                report = suggest.build_report(root, root / "reports/out.json", "secret", limit=1, delay=0)
+            with patch.object(suggest, "search_catalog_proxy", return_value=([result], "ok")) as proxy:
+                report = suggest.build_report(root, root / "reports/out.json",
+                    "https://project.supabase.co/functions/v1/cinehub-catalog", "public-key",
+                    limit=1, delay=0)
+            proxy.assert_called_once()
+            self.assertEqual(proxy.call_args.args[2:4], ("movie", "Filme Teste"))
             self.assertEqual(report["summary"]["exact_title_candidates"], 1)
             self.assertEqual(report["candidates"][0]["candidates"][0]["tmdb_id_candidate"], "123")
             self.assertFalse(report["catalog_mutated"])
             self.assertEqual(detail.read_bytes(), before)
-            self.assertNotIn("secret", (root / "reports/out.json").read_text(encoding="utf-8"))
+            self.assertNotIn("public-key", (root / "reports/out.json").read_text(encoding="utf-8"))
 
     def test_rejects_year_conflict(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self.fixture(root, {"id": "m-1", "title": "Filme Teste (2001)", "year": None})
             result = {"id": 123, "title": "Filme Teste", "release_date": "2002-02-03"}
-            with patch.object(suggest, "search_tmdb", return_value=([result], "ok")):
-                report = suggest.build_report(root, root / "reports/out.json", "secret", limit=1, delay=0)
+            with patch.object(suggest, "search_catalog_proxy", return_value=([result], "ok")):
+                report = suggest.build_report(root, root / "reports/out.json",
+                    "https://project.supabase.co/functions/v1/cinehub-catalog", "",
+                    limit=1, delay=0)
             self.assertEqual(report["summary"]["year_conflict"], 1)
             self.assertEqual(report["candidates"], [])
 
-    def test_requires_api_key_and_limit(self):
+    def test_requires_https_url_and_valid_limit(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             with self.assertRaises(ValueError):
-                suggest.build_report(root, root / "out.json", "", limit=1)
+                suggest.build_report(root, root / "out.json", "http://not-secure", "", limit=1)
             with self.assertRaises(ValueError):
-                suggest.build_report(root, root / "out.json", "secret", limit=501)
+                suggest.build_report(root, root / "out.json", "https://project.supabase.co/functions/v1/cinehub-catalog", "", limit=501)
 
 
 if __name__ == "__main__":
