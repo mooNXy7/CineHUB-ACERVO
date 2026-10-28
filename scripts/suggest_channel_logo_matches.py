@@ -24,7 +24,7 @@ REFERENCE_FILE = "catalog/reference/saimo-channel-logos.json"
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).casefold()
-    value = re.sub(r"\\b(?:hd|sd|fhd|uhd|4k|br)\\b", " ", value)
+    value = re.sub(r"\b(?:hd|sd|fhd|uhd|4k|br)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
