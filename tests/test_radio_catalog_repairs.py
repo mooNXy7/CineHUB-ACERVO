@@ -29,7 +29,8 @@ class RadioCatalogRepairTests(unittest.TestCase):
 
     def test_known_malformed_imported_urls_are_quarantined(self):
         self.assertEqual(self.radios["radio.a-tarde-fm"]["stream_url"], "https://stm35.srvstm.com:7920/stream")
-        self.assertIsNone(self.radios["radio.casa-dos-caipiras"]["logo_url"])
+        self.assertEqual(self.radios["radio.casa-dos-caipiras"]["genre"], "Sertanejo")
+        self.assertEqual(self.radios["radio.casa-dos-caipiras"]["logo_url"], "https://img.radios.com.br/radio/lg/radio36246_1585720041.jpg")
         self.assertIsNone(self.radios["radio-https-8758-brasilstream-com-br-stream"]["stream_url"])
         self.assertEqual(self.radios["radio.clube-fm-100-5"]["stream_url"], "https://sc4s.cdn.upx.com:8069/stream")
         self.assertEqual(self.radios["radio.radio-nikey"]["stream_url"], "https://stm8.voxhd.com.br:7996/stream")
