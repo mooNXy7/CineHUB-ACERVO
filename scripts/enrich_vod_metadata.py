@@ -161,7 +161,11 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
 
     try:
         for section in SECTIONS:
-            info = categories.get(section, {})
+            # A minimal fixture or future schema may omit an entire category; only
+            # skip it when the manifest does not declare it. Declared missing files still fail loudly.
+            if section not in categories:
+                continue
+            info = categories[section]
             index_path = info.get("index_path", f"catalog/vod/index/{section}.json")
             index_records = load_json(safe_path(root, index_path))
             if not isinstance(index_records, list):
