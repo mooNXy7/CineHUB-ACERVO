@@ -25,16 +25,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate configuration and generate review-only suggestions
+      - name: Generate review-only suggestions through CineHUB Supabase
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit }}
         run: |
           set -euo pipefail
-          if [[ -z "${TMDB_API_KEY:-}" ]]; then
-            echo "::error::Add TMDB_API_KEY under repository Actions secrets before running this workflow."
-            exit 1
-          fi
           python -m py_compile scripts/suggest_vod_tmdb_matches.py
           python scripts/suggest_vod_tmdb_matches.py \
             --limit "$LIMIT" \
