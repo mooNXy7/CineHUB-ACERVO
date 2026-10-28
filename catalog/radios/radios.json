@@ -221,7 +221,7 @@
     {
       "id": "radio.a-tarde-fm",
       "name": "A Tarde FM",
-      "stream_url": "https://stm35.srvstm.com:7920/stream%22%3E%3C/audio%3E",
+      "stream_url": null,
       "logo_url": null,
       "genre": null,
       "source_id": "upstream-import"
@@ -590,7 +590,7 @@
       "id": "radio.casa-dos-caipiras",
       "name": "Casa dos Caipiras",
       "stream_url": "https://8758.brasilstream.com.br/stream",
-      "logo_url": "https://www.facebook.com/photo/?fbid=609917337351676&set=a.609917284018348&__tn__=%3C",
+      "logo_url": null,
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -6369,7 +6369,7 @@
     {
       "id": "radio-https-8758-brasilstream-com-br-stream",
       "name": "https://8758.brasilstream.com.br/stream",
-      "stream_url": "https://www.facebook.com/photo/?fbid=609917337351676&set=a.609917284018348&__tn__=%3C",
+      "stream_url": null,
       "logo_url": null,
       "genre": null,
       "source_id": "reference-catalog",
