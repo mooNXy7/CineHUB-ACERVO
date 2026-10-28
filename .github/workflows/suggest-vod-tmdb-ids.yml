@@ -1,0 +1,48 @@
+name: Build VOD TMDB ID review candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum records without TMDB IDs to search (1–500)"
+        required: true
+        default: "50"
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: acervo-vod-id-review
+  cancel-in-progress: false
+
+jobs:
+  suggest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate configuration and generate review-only suggestions
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${TMDB_API_KEY:-}" ]]; then
+            echo "::error::Add TMDB_API_KEY under repository Actions secrets before running this workflow."
+            exit 1
+          fi
+          python -m py_compile scripts/suggest_vod_tmdb_matches.py
+          python scripts/suggest_vod_tmdb_matches.py \
+            --limit "$LIMIT" \
+            --output "$RUNNER_TEMP/vod-tmdb-id-candidates.json"
+      - name: Upload review-only suggestions
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-vod-tmdb-id-candidates
+          path: ${{ runner.temp }}/vod-tmdb-id-candidates.json
+          if-no-files-found: error
+          retention-days: 7
