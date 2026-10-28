@@ -113,6 +113,27 @@ jobs:
           fi
           git worktree remove --force /tmp/cinehub-acervo-preview
 
+      - name: Enforce isolated reference preview result
+        if: always() && hashFiles('reference-import-preview.json') != ''
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("reference-import-preview.json")
+          try:
+              report = json.loads(path.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError) as exc:
+              print(f"Invalid reference import preview report: {exc}", file=sys.stderr)
+              raise SystemExit(1)
+
+          status = report.get("status")
+          print(f"Reference import preview status: {status}")
+          if status in {"import_failed", "preview_validation_failed", "summary_failed"}:
+              raise SystemExit(1)
+          PY
+
       - name: Run read-only catalog integrity audit
         run: python scripts/audit_catalog.py > audit-catalog.json
       - name: Run stream and EPG coverage audit (read-only)
