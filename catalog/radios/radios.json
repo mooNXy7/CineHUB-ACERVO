@@ -7,7 +7,7 @@
       "name": "012 Rock News",
       "stream_url": "https://9881.brasilstream.com.br/stream",
       "logo_url": "https://www.012news.com.br/wp-content/uploads/2022/07/novo-logo1.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -31,7 +31,7 @@
       "name": "89 FM A Rádio Rock",
       "stream_url": "https://ice.fabricahost.com.br/89aradiorockgo",
       "logo_url": "https://89goiania.com.br/wp-content/uploads/2024/07/icone_89.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -39,7 +39,7 @@
       "name": "91 Rock",
       "stream_url": "https://servidor40.brlogic.com:8044/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -151,7 +151,7 @@
       "name": "98 Rock",
       "stream_url": "https://8185.brasilstream.com.br/stream",
       "logo_url": "https://i.iheart.com/v3/re/assets.brands/604a56cb27a1c403c522c6bc?ops=gravity(%22center%22),contain(300,300)&quality=80",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -159,7 +159,7 @@
       "name": "98 Rock Brasil",
       "stream_url": "https://stm41.stmsrv.com:16614/stream",
       "logo_url": "https://cdn.stmsrv.com/multi/16614/logo_r1dbkqc.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -215,7 +215,7 @@
       "name": "A Sertaneja 106.7 FM",
       "stream_url": "https://sc4s.cdn.upx.com:8067/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -239,7 +239,7 @@
       "name": "Adoro Flashback",
       "stream_url": "https://server01.ouvir.radio.br:8018/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio151308_1593879965.jpg",
-      "genre": null,
+      "genre": "Flashback",
       "source_id": "upstream-import"
     },
     {
@@ -271,7 +271,7 @@
       "name": "Alpha MPB",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ALPHAMPBAAC.aac",
       "logo_url": "https://react.alphafm.com.br/favicon.ico",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -519,7 +519,7 @@
       "name": "Bossa Jazz Brasil",
       "stream_url": "https://centova5.transmissaodigital.com:20104/live",
       "logo_url": "https://bossajazzbrasil.com/wp-content/uploads/2020/12/cropped-bjs-app-180x180.png",
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -527,7 +527,7 @@
       "name": "BR - The Classic Rock",
       "stream_url": "https://stream.zeno.fm/nbq1aq62gd0uv",
       "logo_url": "https://cdn.onlineradiobox.com/img/l/5/94775.v6.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1007,7 +1007,7 @@
       "name": "Digital Jazz",
       "stream_url": "https://stm01.virtualcast.com.br:8190/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -1095,7 +1095,7 @@
       "name": "Essência Gospel FM",
       "stream_url": "https://srv2.braudio.com.br/7598//stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -1231,7 +1231,7 @@
       "name": "Geografia Rock",
       "stream_url": "https://stream.zeno.fm/63kdg03m2uhvv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1351,7 +1351,7 @@
       "name": "Hunter FM MPB",
       "stream_url": "https://live.hunter.fm/mpb_normal",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -1359,7 +1359,7 @@
       "name": "Hunter FM Pagode",
       "stream_url": "https://live.hunter.fm/pagode_normal",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pagode",
       "source_id": "upstream-import"
     },
     {
@@ -1367,7 +1367,7 @@
       "name": "Hunter FM Pop",
       "stream_url": "https://live.hunter.fm/pop_high",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1383,7 +1383,7 @@
       "name": "Hunter FM Rock",
       "stream_url": "https://live.hunter.fm/rock_high",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1391,7 +1391,7 @@
       "name": "Hunter FM Sertanejo",
       "stream_url": "https://live.hunter.fm/sertanejo_normal",
       "logo_url": null,
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -1695,7 +1695,7 @@
       "name": "Lightness of Rock",
       "stream_url": "https://stream.zeno.fm/n0dt87vrnd0uv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1831,7 +1831,7 @@
       "name": "Metropolitana FM Pop",
       "stream_url": "https://ice.fabricahost.com.br/metrosppop",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1839,7 +1839,7 @@
       "name": "Metropolitana MPB",
       "stream_url": "https://ice.fabricahost.com.br/metropolitanampb",
       "logo_url": "https://metropolitanafm.com.br/assets/imgs/mpb-nova.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -1847,7 +1847,7 @@
       "name": "Metropolitana Sertanejo",
       "stream_url": "https://ice.fabricahost.com.br/metrospsertanejo",
       "logo_url": "https://metropolitanafm.com.br/assets/imgs/sertanejo.png",
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -1879,7 +1879,7 @@
       "name": "MGT Rádio Country",
       "stream_url": "https://cast.mgtradio.net/radio/8110/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Country",
       "source_id": "upstream-import"
     },
     {
@@ -1887,7 +1887,7 @@
       "name": "MGT Rádio Dance Hits",
       "stream_url": "https://cast.mgtradio.net/radio/8080/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
     {
@@ -1895,7 +1895,7 @@
       "name": "MGT Rádio Forró",
       "stream_url": "https://cast.mgtradio.net/radio/8050/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Forró",
       "source_id": "upstream-import"
     },
     {
@@ -1903,7 +1903,7 @@
       "name": "MGT Rádio Gospel",
       "stream_url": "https://cast.mgtradio.net/radio/8040/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -1927,7 +1927,7 @@
       "name": "MGT Rádio Rock",
       "stream_url": "https://cast.mgtradio.net/radio/8090/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1935,7 +1935,7 @@
       "name": "MGT Rádio Sertanejo",
       "stream_url": "https://cast.mgtradio.net/radio/8000/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -2023,7 +2023,7 @@
       "name": "Momento Love Gospel",
       "stream_url": "https://stream.zeno.fm/526wmr2en98uv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -2095,7 +2095,7 @@
       "name": "Mundial Rock",
       "stream_url": "https://azura.mundialmusic.net/radio/8010/radio.mp3",
       "logo_url": "http://img.sedoparking.com/templates/logos/sedo_logo.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2135,7 +2135,7 @@
       "name": "No Mundo do Rock",
       "stream_url": "https://servidor34-1.brlogic.com:8014/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/1949/logo/36cb5c29d6db9db77f6e496c3966ed8e.jpeg",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2359,7 +2359,7 @@
       "name": "Piauí Gospel",
       "stream_url": "https://stream.zeno.fm/k4pw9r36mhruv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -2575,7 +2575,7 @@
       "name": "Rádio Amigos do Flashback",
       "stream_url": "https://stm4.voxhd.com.br:7086/;",
       "logo_url": "https://www.wix.com/favicon.ico",
-      "genre": null,
+      "genre": "Flashback",
       "source_id": "upstream-import"
     },
     {
@@ -2591,7 +2591,7 @@
       "name": "Rádio Amigos do Rock",
       "stream_url": "https://stm25.srvaudio.com.br:11358/;",
       "logo_url": "https://www.wix.com/favicon.ico",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2599,7 +2599,7 @@
       "name": "Rádio Amigos do Sertanejo",
       "stream_url": "https://stm10.voxhd.com.br:7846/;",
       "logo_url": "https://www.wix.com/favicon.ico",
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -2623,7 +2623,7 @@
       "name": "Rádio Aquele Rock",
       "stream_url": "https://azura.servercast.com.br/listen/radio_leandro/radio.mp3",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2703,7 +2703,7 @@
       "name": "Rádio Batuta MPB",
       "stream_url": "https://radioims.out.airtime.pro:8000/radioims_a",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2727,7 +2727,7 @@
       "name": "Rádio BLA Rock",
       "stream_url": "https://s12.maxcast.com.br:8086/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2775,7 +2775,7 @@
       "name": "Rádio Buteco Sertanejo",
       "stream_url": "https://stream.zeno.fm/6kumndewqbruv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -2911,7 +2911,7 @@
       "name": "Rádio Cidade - Classic Rock",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASSICROCK_S01AAC_64.aac",
       "logo_url": "https://radiocidade.fm/player/img/classic-rock.svg",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -3015,7 +3015,7 @@
       "name": "Rádio Clássica",
       "stream_url": "https://stm11.painelcast.com:7530/stream",
       "logo_url": "https://cordeiroplasticos.com.br/radioclassica.png",
-      "genre": null,
+      "genre": "Clássica",
       "source_id": "upstream-import"
     },
     {
@@ -3023,7 +3023,7 @@
       "name": "Rádio Clássica Brasil",
       "stream_url": "https://streaming.livebroadcast.biz/radio/8010/classica",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica",
       "source_id": "upstream-import"
     },
     {
@@ -3191,7 +3191,7 @@
       "name": "Rádio Dance FM",
       "stream_url": "https://servidor26.brlogic.com:8738/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
     {
@@ -3199,7 +3199,7 @@
       "name": "Rádio Dance Music 2000",
       "stream_url": "https://cloud1.cdnseguro.com:2190/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
     {
@@ -3343,7 +3343,7 @@
       "name": "Radio Energia Dance",
       "stream_url": "https://s05.w3bserver.com:20025/;",
       "logo_url": "https://radioenergiadance.com/wp-content/uploads/2023/02/cropped-iconipar4d-180x180.webp",
-      "genre": null,
+      "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
     {
@@ -3375,7 +3375,7 @@
       "name": "Rádio Estação Gospel",
       "stream_url": "https://stream.zeno.fm/ahu7876hhbruv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3383,7 +3383,7 @@
       "name": "Rádio Estação Pop",
       "stream_url": "https://s46.hstbr.net:8026/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio29801_1439401712.jpg",
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -3439,7 +3439,7 @@
       "name": "Rádio Forró",
       "stream_url": "https://stm5.painelcast.com:7600/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Forró",
       "source_id": "upstream-import"
     },
     {
@@ -3631,7 +3631,7 @@
       "name": "Radio Instrumental Gospel",
       "stream_url": "https://live8.livemus.com.br:27142/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3711,7 +3711,7 @@
       "name": "Rádio Jazz Medley",
       "stream_url": "https://server01.ouvir.radio.br:8006/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -3735,7 +3735,7 @@
       "name": "Radio Joli MPB",
       "stream_url": "https://stream-163.zeno.fm/mrutsyhkc3quv",
       "logo_url": "https://img.radios.com.br/radio/lg/radio112934_1562066435.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -3831,7 +3831,7 @@
       "name": "Rádio Liga Samba",
       "stream_url": "https://srv1.braudio.com.br:7308/;stream",
       "logo_url": "https://www.radio-ao-vivo.com/favicon.ico",
-      "genre": null,
+      "genre": "Samba",
       "source_id": "upstream-import"
     },
     {
@@ -3911,7 +3911,7 @@
       "name": "Rádio Máquina no Rock",
       "stream_url": "https://servidor20-4.brlogic.com:8582/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -3991,7 +3991,7 @@
       "name": "Rádio Mega Dance",
       "stream_url": "https://live3.livemus.com.br:7002/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
     {
@@ -4055,7 +4055,7 @@
       "name": "Radio MPB Máquina do Tempo",
       "stream_url": "https://servidor28.brlogic.com:8032/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -4391,7 +4391,7 @@
       "name": "Radio Rap A Voz do Gueto",
       "stream_url": "https://bissau.radio/listen/10047",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rap/Hip-hop",
       "source_id": "upstream-import"
     },
     {
@@ -4399,7 +4399,7 @@
       "name": "Rádio Rap Brasil",
       "stream_url": "https://stream.zeno.fm/7c83b37e32quv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rap/Hip-hop",
       "source_id": "upstream-import"
     },
     {
@@ -4407,7 +4407,7 @@
       "name": "Rádio Rapadura Rock Web",
       "stream_url": "https://stm35.srvstm.com:6806/;",
       "logo_url": "https://www.rapadurarockweb.com.br/admin/assets/img/logo.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -4447,7 +4447,7 @@
       "name": "Radio Reggae Brasil",
       "stream_url": "https://casthttps.suaradionanet.net/13805/stream",
       "logo_url": "https://manager.suaradionanet.net/storage/radios/reggaebrasil/site_basic/63f193d9235468.08684969.png",
-      "genre": null,
+      "genre": "Reggae",
       "source_id": "upstream-import"
     },
     {
@@ -4495,7 +4495,7 @@
       "name": "Rádio Rock FM",
       "stream_url": "https://stream-159.zeno.fm/bd9p0p44puquv",
       "logo_url": "https://pbs.twimg.com/media/ElF46QUXgAEtJk9?format=png&name=small",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -4599,7 +4599,7 @@
       "name": "Rádio Sertaneja",
       "stream_url": "https://stm5.painelcast.com:7584/stream",
       "logo_url": "https://cordeiroplasticos.com.br/sertaneja.jpg",
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -4607,7 +4607,7 @@
       "name": "Radio Sertaneja Top",
       "stream_url": "https://radiosertanejatop.stream.laut.fm/radiosertanejatop",
       "logo_url": "https://img.radios.com.br/radio/lg/radio25503_1725610340.jpg",
-      "genre": null,
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -4623,7 +4623,7 @@
       "name": "Radio Só MPB",
       "stream_url": "https://s27.maxcast.com.br:8103/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import",
       "sources": [
         {
@@ -4671,7 +4671,7 @@
       "name": "Radio Studio Flashback",
       "stream_url": "https://stream-163.zeno.fm/6gv76f1xruquv",
       "logo_url": "https://pbs.twimg.com/media/GE7jNgZWQAEcxNb?format=png&name=240x240",
-      "genre": null,
+      "genre": "Flashback",
       "source_id": "upstream-import"
     },
     {
@@ -4679,7 +4679,7 @@
       "name": "Radio Studio Souto - Rap Nacional",
       "stream_url": "https://centova5.transmissaodigital.com:20031/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rap/Hip-hop",
       "source_id": "upstream-import"
     },
     {
@@ -4975,7 +4975,7 @@
       "name": "Rádio Viva o Samba",
       "stream_url": "https://servidor33-3.brlogic.com:8020/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Samba",
       "source_id": "upstream-import"
     },
     {
@@ -4999,7 +4999,7 @@
       "name": "Rádio Web 104 Reggae",
       "stream_url": "https://stream.zeno.fm/m1r5mm8fv0quv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Reggae",
       "source_id": "upstream-import"
     },
     {
@@ -5079,7 +5079,7 @@
       "name": "Rádio Ziggy MPB",
       "stream_url": "https://stream.zeno.fm/g5xt330zkd0uv",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -5095,7 +5095,7 @@
       "name": "Rádio Ziggy Rock Brasil",
       "stream_url": "https://stream.zeno.fm/0y68rshdreruv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5215,7 +5215,7 @@
       "name": "Rock na Teia",
       "stream_url": "https://s19.maxcast.com.br:8182/live",
       "logo_url": "https://static.wixstatic.com/media/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5223,7 +5223,7 @@
       "name": "Rock no Pinheiro",
       "stream_url": "https://hts02.brascast.com:11442/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5239,7 +5239,7 @@
       "name": "RST Radio Rock",
       "stream_url": "https://servidor37-1.brlogic.com:8100/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/113/fbplayer/7eb6b35b003a5c561f99df3588822931.jpg",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5359,7 +5359,7 @@
       "name": "Sintoniza Rock",
       "stream_url": "https://s04.maxcast.com.br:8930/autodj",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5375,7 +5375,7 @@
       "name": "Smooth Jazz Brasil",
       "stream_url": "https://sc4s.cdn.upx.com:8176/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -5383,7 +5383,7 @@
       "name": "Smooth Jazz Lounge",
       "stream_url": "https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge",
       "logo_url": "https://www.vip-radios.fm/favicon.ico",
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -5519,7 +5519,7 @@
       "name": "Super Mix Gospel",
       "stream_url": "https://stream.zeno.fm/3xge6g7hhbruv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -5711,7 +5711,7 @@
       "name": "Tropical Smooth Jazz",
       "stream_url": "https://servidor32-3.brlogic.com:8230/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/47137/favicon/6c0b5a4fbc04adeb8117f49ccabeb70b.jpg",
-      "genre": null,
+      "genre": "Jazz",
       "source_id": "upstream-import"
     },
     {
@@ -5815,7 +5815,7 @@
       "name": "Venenos do Rock",
       "stream_url": "https://stream.zeno.fm/dy417tqqmd0uv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5871,7 +5871,7 @@
       "name": "Vintage Rock",
       "stream_url": "https://servidor29.brlogic.com:7004/live",
       "logo_url": "https://static.wixstatic.com/media/968b35_8abc350821884ad6b3b35e24cd6839b2~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -5967,7 +5967,7 @@
       "name": "Web Rádio Music Gospel",
       "stream_url": "https://player.srvaudio.com.br/player-ssl/9608",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
