@@ -86,3 +86,29 @@ Testes de regressão cobrem filmes e séries, preservação de ID/pôster/fontes
 ### Alinhamento da origem de referência
 
 A conferência da automação encontrou que o workflow .github/workflows/update-catalog.yml ainda clonava gabrielsaimo/SaimoPlayer, enquanto a referência explicitamente autorizada para esta etapa é fkuller/SaimoPlayer. Os dois repositórios têm conteúdo e SHAs diferentes, embora o repositório autorizado mantenha os caminhos de dados esperados (vod/filmes-*.txt, vod/series-*-*.txt, vod/fichas.txt, vod/destaques.txt, rádios e fontes extras). A URL do clone foi alinhada para fkuller/SaimoPlayer; os caminhos sparse e a importação incremental foram mantidos. Essa alteração está somente nesta branch e ainda precisa de revisão antes de ser mesclada; nenhuma importação automática foi executada por essa mudança.
+
+
+## Verificação de estabilidade — 28/10/2026
+
+### Correções adicionais do importador
+
+- O parser de rádios aceita linhas com stream e logo opcional, preserva streams e gêneros existentes e não promove URLs inválidas.
+- A deduplicação VOD só une registros com o mesmo ID estável. Colisões por título/ano/TMDB permanecem separadas para revisão; registros sem ID bloqueiam a publicação.
+- Arquivos JSON de catálogo existentes agora precisam ser legíveis e ter o tipo de topo esperado. O importador não transforma arquivo corrompido em catálogo vazio; canais, rádios e relatório anterior são pré-lidos antes de qualquer gravação.
+- Os contadores de referências de provedor toleram chamadas diretas de teste com dicionários comuns, sem exigir que todas as chaves estejam pré-inicializadas.
+- Teste automatizado e compilação de scripts passaram no workflow [#40759589320](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/40759589320): **97 testes concluídos com sucesso**. A prévia de importação, auditorias de catálogo/EPG e relatórios de qualidade também passaram.
+
+### Estado medido do catálogo (relatórios do workflow)
+
+- VOD: **56.248 registros** — 40.938 filmes, 11.665 séries, 2.749 animes e 896 doramas.
+- Metadados ausentes: 30.526 anos, 7.620 pôsteres e 7.976 listas de gêneros; são contagens de campos, não necessariamente registros distintos.
+- Canais: 2.431 no total; 2.110 com fonte, 683 sem logo, 321 sem lista de fontes e 1.716 sem identificador de EPG.
+- Rádio: 1.026 estações; 1.024 com stream, 754 sem logo e 1.026 sem gênero confiável.
+- EPG: 6 fontes registradas reportadas saudáveis; 718 canais têm alguma associação estrutural por ID, mapa, nome ou alias. Isso não prova que a grade atual esteja disponível. O relatório encontrou 713 IDs de EPG no índice XMLTV e 2 IDs não encontrados.
+- A prévia autorizada preserva os totais e os metadados existentes, adiciona **1 título** e reduz em 1 a contagem de anos ausentes. A variação líquida do índice é de **+90 referências de stream** e **+909.462 referências de provedor**; os contadores internos de parsing são maiores e não representam adições líquidas.
+
+### Barreira antes de qualquer publicação
+
+A prévia ficou com status ready_for_review, mas continua exigindo aprovação manual. O salto de referências de provedor é grande e precisa ser revisado quanto à utilidade para os consumidores e ao tamanho final dos arquivos antes de aprovar a importação. Nenhum catálogo foi publicado por esse teste; a PR continua em rascunho e não foi mesclada.
+
+A cobertura restante não deve ser “completada” por inferência: gêneros de rádio exigem uma fonte explícita, anos/pôsteres/gêneros VOD precisam de enriquecimento com identidade validada, e novos códigos EPG devem ser confirmados contra grades reais. O pipeline de enriquecimento ainda não chamou uma API externa nem usou credenciais; não foi copiada nenhuma chave de referência.
