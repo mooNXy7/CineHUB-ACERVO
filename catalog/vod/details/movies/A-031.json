@@ -1,1 +1,3897 @@
-[{"id":"movie-a-um-clique-de-distancia-2021","title":"A Um Clique de Distancia (2021)","type":"movie","year":"2021","poster_url":"/oiCdwdPEhhbqeTGh04b6MzHEhEb.jpg","genres":["Drama","Comédia"],"tmdb_id":"795530","sources":[{"url":"https://mgeb.top/embed/795530","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/795530","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Um%20Clique%20de%20Dist_ncia%20_2021_%20_tmdb_795530_333b1c7a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"795530","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-um-passo-da-eternidade","title":"A Um Passo da Eternidade","type":"movie","year":null,"poster_url":"/j38dopMgHSXdCcx7SdplICoXYSo.jpg","genres":["Guerra","Romance","Drama"],"tmdb_id":"11426","sources":[],"provider_refs":[{"provider":"18","ref":"11426","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-um-passo-da-eternidade-1953","title":"A Um Passo da Eternidade (1953)","type":"movie","year":"1953","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Um%20Passo%20da%20Eternidade%20_1953_%20_tmdb_11426_445fd7b4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-um-passo-da-gloria-2000","title":"A Um Passo da Glória (2000)","type":"movie","year":"2000","poster_url":"/4pwP6jn3FjXejUBGGZ0Z2fz9xfc.jpg","genres":["Drama"],"tmdb_id":"72087","sources":[{"url":"https://mgeb.top/embed/72087","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/72087","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-um-passo-da-guerra","title":"A Um Passo da Guerra","type":"movie","year":null,"poster_url":"/vCIQeQ2ynVqEjIvtbOXGnKtcgAX.jpg","genres":["Drama","História"],"tmdb_id":"192139","sources":[{"url":"https://mgeb.top/embed/192139","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/192139","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/a-um-passo-da-guerra-legendado.mp4","audio":"leg","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"192139","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"192139.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-um-passo-do-estrelato","title":"A Um Passo do Estrelato","type":"movie","year":null,"poster_url":"/nCqVpHwdVcaCJ8dS4Ms6zWzXhKt.jpg","genres":["Documentário","Música"],"tmdb_id":"159014","sources":[{"url":"https://mgeb.top/embed/159014","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/159014","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-universidade-de-sing-sing-2011","title":"A Universidade de Sing Sing (2011)","type":"movie","year":"2011","poster_url":"/1mNqGNhi0SDJrQFzFPFeuWUIO8J.jpg","genres":["Documentário"],"tmdb_id":"281671","sources":[{"url":"https://mgeb.top/embed/281671","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/281671","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-ursa-polar","title":"A Ursa Polar","type":"movie","year":null,"poster_url":"/4mJhqONvdgUMz8rOMO5NZdn8HQS.jpg","genres":["Documentário","Família"],"tmdb_id":"927070","sources":[{"url":"https://mgeb.top/embed/927070","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/927070","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Ursa%20Polar%20_2022_%20_tmdb_927070_9b150114.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"927070","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452743","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648087","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-ursa-polar-2022","title":"A Ursa Polar (2022)","type":"movie","year":"2022","poster_url":"/4mJhqONvdgUMz8rOMO5NZdn8HQS.jpg","genres":["Documentário","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/927070","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/927070","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-useful-ghost-uma-ajuda-do-alem","title":"A Useful Ghost: Uma Ajuda do Além","type":"movie","year":null,"poster_url":"/uhllXiSWe03jTeQiBRGpUrqeVD3.jpg","genres":["Comédia","Drama","Fantasia"],"tmdb_id":"1364904","sources":[{"url":"https://mgeb.top/embed/1364904","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1364904","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vampira-de-barcelona-2020","title":"A Vampira de Barcelona (2020)","type":"movie","year":"2020","poster_url":"/8OgkiBdshstnwhEe8UrSGCLPlkK.jpg","genres":["Drama","História","Suspense"],"tmdb_id":"742472","sources":[{"url":"https://mgeb.top/embed/742472","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/742472","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vastidao-da-noite-2019","title":"A Vastidao da Noite (2019)","type":"movie","year":"2019","poster_url":"/vcZb17z4szf7ovmsjTGc2qDmaoQ.jpg","genres":["Drama","Mistério","Ficção científica","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/565743","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/565743","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vastidao-da-noite","title":"A Vastidão da Noite","type":"movie","year":null,"poster_url":"/vcZb17z4szf7ovmsjTGc2qDmaoQ.jpg","genres":["Drama","Mistério","Ficção científica","Suspense"],"tmdb_id":"565743","sources":[{"url":"https://mgeb.top/embed/565743","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/565743","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vastid_o%20da%20Noite%20_2019_%20_tmdb_565743_8e216c69.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"565743","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458689","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646933","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-velha-com-a-faca","title":"A Velha Com a Faca","type":"movie","year":"2025","poster_url":"/du65x58CJrMMThuiT85kBFMYi0Z.jpg","genres":["Ação","Mistério","Drama"],"tmdb_id":"1247002","sources":[{"url":"https://mgeb.top/embed/1247002","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1247002","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-venezuela-em-solo-brasileiro","title":"A Venezuela em Solo Brasileiro","type":"movie","year":null,"poster_url":"/cdYFiGE3ClOCd4eocV2VQnVRbxj.jpg","genres":["Documentário"],"tmdb_id":"1151772","sources":[{"url":"https://mgeb.top/embed/1151772","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1151772","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1151772","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453242","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647961","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-venezuela-em-solo-brasileiro-2023","title":"A Venezuela em Solo Brasileiro (2023)","type":"movie","year":"2023","poster_url":"/cdYFiGE3ClOCd4eocV2VQnVRbxj.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1151772","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1151772","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade","title":"A Verdade","type":"movie","year":null,"poster_url":"/cTlQRJfm1si2fteoQa4z6o7SS6v.jpg","genres":["Comédia","Romance"],"tmdb_id":"20943","sources":[{"url":"https://mgeb.top/embed/20943","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/20943","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Nua%20e%20Crua%20_2009_%20_tmdb_20943_0a634824.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"517468","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"20943","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457725","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446386","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448657","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459940","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653153","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651963","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"736093","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762563","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-verdade-2019","title":"A Verdade (2019)","type":"movie","year":"2019","poster_url":"/b2VqAf0GSkPJ6AwzVC64VoXLxzs.jpg","genres":["Ação","Drama","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1885","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1885","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade-em-segredo","title":"A Verdade em Segredo","type":"movie","year":null,"poster_url":"/tqZTmF9vZHeoHT0MmrhoQcZxVrl.jpg","genres":["Suspense","Drama"],"tmdb_id":"553882","sources":[],"provider_refs":[{"provider":"18","ref":"553882","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdade-em-segredo-2019","title":"A Verdade em Segredo (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20em%20Segredo%20_2019_%20_tmdb_553882_841d175f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade-esta-la-fora","title":"A Verdade Está Lá Fora","type":"movie","year":null,"poster_url":"/rCDO35ufaGdbk2Xr5xiVYqRl81X.jpg","genres":["Drama"],"tmdb_id":"859563","sources":[],"provider_refs":[{"provider":"18","ref":"859563","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdade-esta-la-fora-2021","title":"A Verdade Está Lá Fora (2021)","type":"movie","year":"2021","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Est_%20L_%20Fora%20_2021_%20_tmdb_859563_288a9c35.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade-nua-e-crua-2009","title":"A Verdade Nua e Crua (2009)","type":"movie","year":"2009","poster_url":"/cTlQRJfm1si2fteoQa4z6o7SS6v.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/20943","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/20943","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade-sobre-jussie-smollett-2025","title":"A Verdade sobre Jussie Smollett? (2025)","type":"movie","year":"2025","poster_url":"/1JHoXc6mzZWp3ewXoGywpoxgb3a.jpg","genres":["Documentário"],"tmdb_id":"1517212","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/cc9ee12e739bef8e05414089cd43893c/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1517212","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1517212","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20sobre%20Jussie%20Smollett%20_2025_%20_tmdb_1517212_ec121698.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1517212","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdade-sobre-o-amor","title":"A Verdade Sobre o Amor","type":"movie","year":null,"poster_url":"/946d6xl8yRpgS4KSzqFHmHgePAc.jpg","genres":["Drama","Romance","Comédia"],"tmdb_id":"14933","sources":[],"provider_refs":[{"provider":"18","ref":"14933","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdade-sobre-o-amor-2005","title":"A Verdade Sobre o Amor (2005)","type":"movie","year":"2005","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Sobre%20o%20Amor%20_2005_%20_tmdb_14933_70183b09.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdade-sobre-o-caso-deventer","title":"A Verdade Sobre o Caso Deventer","type":"movie","year":null,"poster_url":"/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg","genres":["Drama","Suspense"],"tmdb_id":"844530","sources":[{"url":"https://mgeb.top/embed/844530","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/844530","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Sobre%20o%20Caso%20Deventer%20_2021_%20_tmdb_844530_a8866cfe.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"844530","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450263","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455107","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652254","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-verdade-sobre-o-caso-deventer-2021","title":"A Verdade Sobre o Caso Deventer (2021)","type":"movie","year":"2021","poster_url":"/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg","genres":["Drama","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/844530","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/844530","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-dor","title":"A Verdadeira Dor","type":"movie","year":null,"poster_url":"/57trFzPPZsmroyBNNg7QZsD21JL.jpg","genres":["Comédia","Drama"],"tmdb_id":"1013850","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/43cbd3eeb46430e9ece3c4f9848457e3/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1013850","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1013850","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Dor%20_2024_%20_tmdb_1013850_909f171b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1013850","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447126","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670151","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-verdadeira-dor-cinema","title":"A Verdadeira Dor [Cinema]","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"18","ref":"655608","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-filha-renasce-e-se-torna-o-tesouro-da-familia","title":"A VERDADEIRA FILHA RENASCE E SE TORNA O TESOURO DA FAMILIA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-verdadeira-historia-do-roubo-do-seculo-2022","title":"A Verdadeira Historia do Roubo do Seculo (2022)","type":"movie","year":"2022","poster_url":"/xrYVZ5b0p0BKg6vZ3scU4iyOwC3.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1000194","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1000194","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-de-ned-kelly","title":"A Verdadeira História de Ned Kelly","type":"movie","year":null,"poster_url":"/y30AxTVrQUVKlokjz1TR0m5ISoY.jpg","genres":["Crime","Drama","Faroeste","Suspense"],"tmdb_id":"501395","sources":[{"url":"https://mgeb.top/embed/501395","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/501395","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20de%20Ned%20Kelly%20_2019_%20_tmdb_501395_6bc40edd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"501395","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455436","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653648","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-verdadeira-historia-de-ned-kelly-2019","title":"A Verdadeira História de Ned Kelly (2019)","type":"movie","year":"2019","poster_url":"/y30AxTVrQUVKlokjz1TR0m5ISoY.jpg","genres":["Crime","Drama","Faroeste","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/501395","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/501395","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-de-papai-noel","title":"A Verdadeira História de Papai Noel","type":"movie","year":null,"poster_url":"/mEIBrplag2W7doD7lxbBnQh5WEF.jpg","genres":["Animação","Família","Fantasia","TV"],"tmdb_id":"13400","sources":[],"provider_refs":[{"provider":"18","ref":"13400","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-de-papai-noel-1970","title":"A Verdadeira História de Papai Noel (1970)","type":"movie","year":"1970","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20de%20Papai%20Noel%20_1970_%20_tmdb_13400_9472cb97.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-do-gato-de-botas","title":"A Verdadeira História do Gato de Botas","type":"movie","year":null,"poster_url":"/bbvFY8odTt52DVuz1fLtt5JDbbY.jpg","genres":["Família","Aventura","Animação"],"tmdb_id":"25353","sources":[],"provider_refs":[{"provider":"18","ref":"25353","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-do-gato-de-botas-2009","title":"A Verdadeira História do Gato de Botas (2009)","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20do%20Gato%20de%20Botas%20_2009_%20_tmdb_25353_39b69c09.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-verdadeira-historia-do-roubo-do-seculo","title":"A Verdadeira História do Roubo do Século","type":"movie","year":null,"poster_url":"/xrYVZ5b0p0BKg6vZ3scU4iyOwC3.jpg","genres":["Documentário"],"tmdb_id":"1000194","sources":[{"url":"https://mgeb.top/embed/1000194","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1000194","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20do%20Roubo%20do%20S_culo%20_2022_%20_tmdb_1000194_119bd690.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1000194","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452721","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648064","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-versao-persa-2023","title":"A Versão Persa (2023)","type":"movie","year":"2023","poster_url":"/fmHNcjt08oWz9Q619ZSXqQxLgMT.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"1058620","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/6c659630fdee5ce90ac3963f1196775f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1058620","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1058620","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1058620","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447146","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460662","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650237","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vespa","title":"A Vespa","type":"movie","year":null,"poster_url":"/5BKRuGVxx8qsB7WGSJ0oWRCHsgN.jpg","genres":["Ação","Aventura","Ficção científica"],"tmdb_id":"363088","sources":[{"url":"https://mgeb.top/embed/363088","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/363088","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vespa%20_2024_%20_tmdb_1019404_e3b174b2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Homem-Formiga%20e%20a%20Vespa%20_2018_%20_tmdb_363088_4e0b9306.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1019404","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"363088","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445747","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450276","audio":"leg","source_id":"reference-catalog"},{"provider":"10","ref":"2454285","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647113","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670336","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649229","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-vespa-2024","title":"A Vespa (2024)","type":"movie","year":"2024","poster_url":"/qZDafbofrZn46MmDwJS8fCSCe6l.jpg","genres":["Ação","Aventura","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/640146","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/640146","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-via-lactea","title":"A Via Láctea","type":"movie","year":null,"poster_url":"/gF9Q4OpwpPrAbUDB32adgCNAznS.jpg","genres":["Drama"],"tmdb_id":"89271","sources":[{"url":"https://mgeb.top/embed/89271","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/89271","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Via%20Lactea%20_2007_%20_tmdb_89271_a95ea4b4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"89271","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"897135","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-viagem","title":"A Viagem","type":"movie","year":"2001","poster_url":"/hhoKhsyJ3hFaxEm5pMdZRiTu2lJ.jpg","genres":["Animação","Família","Fantasia"],"tmdb_id":"129","sources":[{"url":"https://mgeb.top/embed/129","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/129","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/17707","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17707","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/17a06be21fa2d0787d7d4b720b3d3545/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20_1994_%20_tmdb_634296_c7012d0c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Chihiro%20_2001_%20_tmdb_129_cc7406ed.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"634296","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455671","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459112","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"129","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448846","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459216","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646477","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762753","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viagem-1999","title":"A Viagem (1999)","type":"movie","year":"1999","poster_url":"/pX50UPLcxaV5XtcYhqpHf6UFNiR.jpg","genres":["Drama","Suspense","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/17707","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17707","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viagem-2012","title":"A Viagem (2012)","type":"movie","year":"2012","poster_url":"/hf7Mqgy79fyhgKJ5JmEuyWgh6LA.jpg","genres":["Drama","Ficção científica"],"tmdb_id":"83542","sources":[{"url":"https://mgeb.top/embed/83542","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/83542","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Atlas%20_2024_%20_tmdb_614933_cd3be087.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"83542","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644557","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654339","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viagem-de-ernesto-e-celestine","title":"A Viagem de Ernesto e Celestine","type":"movie","year":null,"poster_url":"/eQjSaDD33BphfGZJrN82Q9Mp55w.jpg","genres":["Animação","Família","Música","Aventura"],"tmdb_id":"947219","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/7be6b0826b5b27a471f2e931b0c84353/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/947219","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/947219","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Ernesto%20e%20Celestine%20_2022_%20_tmdb_947219_4a6a0a4d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"947219","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449364","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459310","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645984","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viagem-de-fanny","title":"A Viagem de Fanny","type":"movie","year":null,"poster_url":"/klUbZxXXUAS9Mp3j9qSYjMX1FOj.jpg","genres":["Drama","História"],"tmdb_id":"384581","sources":[],"provider_refs":[{"provider":"18","ref":"384581","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viagem-de-fanny-2016","title":"A Viagem de Fanny (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Fanny%20_2016_%20_tmdb_384581_9e82269b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viagem-de-heidi-e-cokeman","title":"A Viagem de Heidi e Cokeman","type":"movie","year":null,"poster_url":"/hyxaVyx7wEqChZoAO7vpvmMnDb1.jpg","genres":["Ação","Comédia","Crime"],"tmdb_id":"659063","sources":[],"provider_refs":[{"provider":"18","ref":"659063","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viagem-de-nossas-vidas","title":"A Viagem de Nossas Vidas","type":"movie","year":null,"poster_url":"/vFZxksR9665GZYGAi7Gu4RjJJIn.jpg","genres":["Drama","Comédia"],"tmdb_id":"733508","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/7503d98455e35c6c72388e5ae6def03e/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/733508","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/733508","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Nossas%20Vidas%20_2020_%20_tmdb_733508_a4dc10b0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"733508","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448601","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455161","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652006","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670307","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viagem-de-pedro","title":"A Viagem de Pedro","type":"movie","year":null,"poster_url":"/lllNOmsGOmCj6UsdXDKnWuhKHjK.jpg","genres":["História","Drama"],"tmdb_id":"575981","sources":[{"url":"https://mgeb.top/embed/575981","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/575981","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Pedro%20_2022_%20_tmdb_575981_71025695.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"575981","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455680","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652586","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-viagem-de-pedro-2022","title":"A Viagem de Pedro (2022)","type":"movie","year":"2022","poster_url":"/lllNOmsGOmCj6UsdXDKnWuhKHjK.jpg","genres":["História","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/575981","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/575981","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viagem-do-divorcio-2023","title":"A Viagem do Divórcio (2023)","type":"movie","year":"2023","poster_url":"/6rfZZ9JtCdnWiaTxNJ8FfJmwGH.jpg","genres":["Comédia","Romance","Mistério"],"tmdb_id":"1128986","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/91ffa68ac4e8a746d91246abe8916575/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1128986","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1128986","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20do%20Div_rcio%20_2023_%20_tmdb_1128986_36d54953.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1128986","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444887","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viagem-encantada","title":"A Viagem Encantada","type":"movie","year":null,"poster_url":"/vWNsfLp5jyVdAHtPZluqAzHm5m1.jpg","genres":["Animação","Família","Fantasia"],"tmdb_id":"589759","sources":[{"url":"https://mgeb.top/embed/589759","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/589759","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20Encantada%20_2022_%20_tmdb_589759_2b89730d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"589759","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448028","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459262","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884444","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viagem-musical-1983","title":"A viagem musical (1983)","type":"movie","year":"1983","poster_url":"/aNCN8xBOaEccXS0V93RBdLDSqFh.jpg","genres":["Aventura","Animação","Fantasia"],"tmdb_id":"21356","sources":[{"url":"https://mgeb.top/embed/21356","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/21356","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viatura","title":"A Viatura","type":"movie","year":null,"poster_url":"/hbv30REhVgm869UUDJPL637r76W.jpg","genres":["Crime","Suspense"],"tmdb_id":"310133","sources":[],"provider_refs":[{"provider":"18","ref":"310133","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"310133.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viatura-2015","title":"A Viatura (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viatura%20_2015_%20_tmdb_310133_9a7a480a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-ao-lado","title":"A Vida ao Lado","type":"movie","year":null,"poster_url":"/xet4htqw9UFruRXrdpykUw1QBO8.jpg","genres":["Drama"],"tmdb_id":"396293","sources":[{"url":"https://mgeb.top/embed/396293","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/396293","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20ao%20Lado%20_2006_%20_tmdb_396293_24e8fc7d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"396293","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457175","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884734","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vida-com-lincoln-2015","title":"A Vida com Lincoln (2015)","type":"movie","year":"2015","poster_url":"/pjrkPGtqOVVCcQbCEgflLbfWVDU.jpg","genres":["Documentário"],"tmdb_id":"332816","sources":[{"url":"https://mgeb.top/embed/332816","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/332816","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-da-outra-2022","title":"A Vida da Outra (2022)","type":"movie","year":"2022","poster_url":"/dN7anfYszXWCkm0pzJ2wUezV9qa.jpg","genres":["Romance","Comédia","Drama"],"tmdb_id":"961807","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/547e7de6019e5a2234838cee5d17bf27/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/961807","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/961807","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20da%20Outra%20_2022_%20_tmdb_961807_007f96ac.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"961807","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-de-brian-1979","title":"A Vida de Brian (1979)","type":"movie","year":"1979","poster_url":"/qupkDQuRcikg5vjeAWru9SLgMlZ.jpg","genres":["Comédia"],"tmdb_id":"583","sources":[{"url":"https://mgeb.top/embed/583","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/583","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Brian%20_1979_%20_tmdb_583_aaaed484.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"583","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-de-chuck","title":"A Vida de Chuck","type":"movie","year":null,"poster_url":"/xHPycdo2OOzsXf9GqdPp1zCEHuU.jpg","genres":["Fantasia","Drama"],"tmdb_id":"842924","sources":[{"url":"https://mgeb.top/embed/842924","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/842924","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Chuck%20_2025_%20_tmdb_842924_8dddfbe1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"842924","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445551","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450309","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"897159","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-de-chuck-2025","title":"A Vida de Chuck (2025)","type":"movie","year":"2025","poster_url":"/xHPycdo2OOzsXf9GqdPp1zCEHuU.jpg","genres":["Fantasia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/842924","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/842924","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-david-gale","title":"A Vida de David Gale","type":"movie","year":null,"poster_url":"/dVY2gPIYIPyOItwN0vsrT2F9wvU.jpg","genres":["Drama","Suspense","Crime"],"tmdb_id":"11615","sources":[{"url":"https://mgeb.top/embed/11615","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11615","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20David%20Gale%20_2003_%20_tmdb_11615_35b41234.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11615","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456324","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652874","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vida-de-david-gale-2003","title":"A Vida de David Gale (2003)","type":"movie","year":"2003","poster_url":"/dVY2gPIYIPyOItwN0vsrT2F9wvU.jpg","genres":["Drama","Suspense","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/11615","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11615","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-diane-2019","title":"A Vida de Diane (2019)","type":"movie","year":"2019","poster_url":"/tvvifwP1I8FFGdFWOxYxTzXdIYG.jpg","genres":["Drama"],"tmdb_id":"510034","sources":[{"url":"https://mgeb.top/embed/510034","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/510034","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Diane%20_2019_%20_tmdb_510034_52aaf7b1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"510034","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-de-jesus-cristo","title":"A Vida de Jesus Cristo","type":"movie","year":null,"poster_url":"/goDUAbKlrUg2GKrvr3DLgFD5BFF.jpg","genres":["Drama"],"tmdb_id":"499589","sources":[],"provider_refs":[{"provider":"18","ref":"499589","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-de-jesus-cristo-1971","title":"A Vida de Jesus Cristo (1971)","type":"movie","year":"1971","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Jesus%20Cristo%20_1971_%20_tmdb_499589_5df1e3ba.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-katrina-gilbert-2014","title":"A Vida de Katrina Gilbert (2014)","type":"movie","year":"2014","poster_url":"/jTsJjghF6z5cy8h7JvJFefW4FyZ.jpg","genres":["Documentário"],"tmdb_id":"259855","sources":[{"url":"https://mgeb.top/embed/259855","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/259855","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-miles-davis-2016","title":"A Vida de Miles Davis (2016)","type":"movie","year":"2016","poster_url":"/ePvK2fk8fPQOXpHHha9He9ZAh1p.jpg","genres":["Drama","Música","História"],"tmdb_id":"316000","sources":[{"url":"https://mgeb.top/embed/316000","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/316000","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-togo","title":"A Vida de Togo","type":"movie","year":null,"poster_url":"/vmUNcjfQn3NqqA0wWz43F4xOLlQ.jpg","genres":["Crime","Drama"],"tmdb_id":"884363","sources":[{"url":"https://mgeb.top/embed/884363","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/884363","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Togo%20_2022_%20_tmdb_884363_fca8324b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"884363","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644913","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-de-togo-2022","title":"A Vida de Togo (2022)","type":"movie","year":"2022","poster_url":"/vmUNcjfQn3NqqA0wWz43F4xOLlQ.jpg","genres":["Crime","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/884363","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/884363","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-de-tove-jansson-2020","title":"A Vida de Tove Jansson (2020)","type":"movie","year":"2020","poster_url":"/9Uvh3aVhf9uzGTQZw4js0DzH6WB.jpg","genres":["Drama"],"tmdb_id":"608232","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/b29d871cdedc4144ce26414ba964625f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/608232","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/608232","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Tove%20Jansson%20_2020_%20_tmdb_608232_1bffd3a9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"608232","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448570","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456216","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652267","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-de-um-campeao","title":"A Vida de Um Campeão","type":"movie","year":null,"poster_url":"/34piO1tTRlLkd3nPUCPSVZpIVrB.jpg","genres":["Drama","História"],"tmdb_id":"74447","sources":[{"url":"https://mgeb.top/embed/74447","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/74447","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Um%20Campeao%20_2010_%20_tmdb_74447_ba8cc600.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"74447","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449310","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457291","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"74447.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"762594","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770478","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-de-uma-mulher","title":"A Vida de uma Mulher","type":"movie","year":null,"poster_url":"/lmyR4dAexRo7gdCI9wr7Qpyq9pD.jpg","genres":["Drama"],"tmdb_id":"408543","sources":[],"provider_refs":[{"provider":"18","ref":"408543","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-de-uma-mulher-2016","title":"A Vida de uma Mulher (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20uma%20Mulher%20_2016_%20_tmdb_408543_6c35a224.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-depois","title":"A Vida Depois","type":"movie","year":null,"poster_url":"/vEK7CKSixZw1UlHaNbqXqXo8fX9.jpg","genres":["Drama"],"tmdb_id":"795514","sources":[{"url":"https://mgeb.top/embed/795514","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/795514","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20_2021_%20_tmdb_795514_726a0cf8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"795514","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455933","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652950","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-depois-2021","title":"A Vida Depois (2021)","type":"movie","year":"2021","poster_url":"/vEK7CKSixZw1UlHaNbqXqXo8fX9.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/795514","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/795514","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-depois-de-voce","title":"A Vida Depois de Você","type":"movie","year":null,"poster_url":"/o61RnIKtEaaMxqNhVbmPUQhqUAa.jpg","genres":["Drama"],"tmdb_id":"881876","sources":[{"url":"https://mgeb.top/embed/881876","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/881876","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20de%20Voc%20_2022_%20_tmdb_881876_522ccc8f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"881876","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450556","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456450","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884666","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-depois-de-yang","title":"A Vida Depois de Yang","type":"movie","year":null,"poster_url":"/qoGVl6ru5JU2pPQkgxm2s2L4uZY.jpg","genres":["Ficção científica","Drama"],"tmdb_id":"585378","sources":[],"provider_refs":[{"provider":"18","ref":"585378","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-depois-de-yang-2022","title":"A Vida Depois de Yang (2022)","type":"movie","year":"2022","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20de%20Yang%20_2022_%20_tmdb_585378_21e4893f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-diante-de-seus-olhos","title":"A Vida Diante de Seus Olhos","type":"movie","year":null,"poster_url":"/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg","genres":["Fantasia","Romance","Suspense"],"tmdb_id":"1191885","sources":[{"url":"https://mgeb.top/embed/1191885","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1191885","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Diante%20de%20Seus%20Olhos%20_2023_%20_tmdb_1191885_e4eb9ce7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1191885","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451617","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654693","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-diante-de-seus-olhos-2023","title":"A Vida Diante de Seus Olhos (2023)","type":"movie","year":"2023","poster_url":"/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg","genres":["Fantasia","Romance","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1191885","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1191885","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-do-livreiro-a-j-fikry","title":"A Vida do Livreiro A.J. Fikry","type":"movie","year":null,"poster_url":"/ffPdKMxc2sAQDKXkDaO2EPifMuf.jpg","genres":["Drama","Comédia","Romance"],"tmdb_id":"841733","sources":[{"url":"https://mgeb.top/embed/841733","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/841733","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20do%20Livreiro%20A.J.%20Fikry%20_2022_%20_tmdb_841733_367ccdbc.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"841733","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455868","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652490","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vida-do-livreiro-aj-fikry-2022","title":"A Vida do Livreiro AJ Fikry (2022)","type":"movie","year":"2022","poster_url":"/ffPdKMxc2sAQDKXkDaO2EPifMuf.jpg","genres":["Drama","Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/841733","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/841733","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-dos-leopardos","title":"A Vida dos Leopardos","type":"movie","year":null,"poster_url":"/5yjytWCBpNh0OEXhELUPovvZHif.jpg","genres":["Documentário"],"tmdb_id":"1255187","sources":[{"url":"https://mgeb.top/embed/1255187","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1255187","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20dos%20Leopardos%20_2024_%20_tmdb_1255187_b0f2c193.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1255187","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449247","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453107","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647795","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vida-dos-leopardos-2024","title":"A Vida dos Leopardos (2024)","type":"movie","year":"2024","poster_url":"/5yjytWCBpNh0OEXhELUPovvZHif.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1255187","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1255187","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-dos-outros","title":"A Vida dos Outros","type":"movie","year":null,"poster_url":"/xaHem8yAbLxGPzHKMsNKsTgalH4.jpg","genres":["Drama","Suspense"],"tmdb_id":"582","sources":[],"provider_refs":[{"provider":"18","ref":"582","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-dos-outros-2006","title":"A Vida dos Outros (2006)","type":"movie","year":"2006","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20dos%20Outros%20_2006_%20_tmdb_582_89f293aa.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-dupla-de-um-bilionario","title":"A VIDA DUPLA DE UM BILIONARIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vida-dupla-do-casal-bilionario","title":"A Vida Dupla do Casal Bilionario","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vida-dupla-do-meu-marido-bilionario-2023","title":"A Vida Dupla do Meu Marido Bilionário (2023)","type":"movie","year":"2023","poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vida-dupla-do-sr-presidente","title":"A Vida Dupla do Sr Presidente","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vida-e-a-paixao-de-jesus-cristo","title":"A Vida e a Paixão de Jesus Cristo","type":"movie","year":null,"poster_url":"/gDNqLlnk81xqUr2Uemj4lNd0C2u.jpg","genres":["Drama","História"],"tmdb_id":"119744","sources":[],"provider_refs":[{"provider":"18","ref":"119744","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vida-e-a-paixao-de-jesus-cristo-1903","title":"A Vida e a Paixão de Jesus Cristo (1903)","type":"movie","year":"1903","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20e%20a%20Paix_o%20de%20Jesus%20Cristo%20_1903_%20_tmdb_119744_e8205b79.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-e-agora-2-2022","title":"A Vida E Agora 2 (2022)","type":"movie","year":"2022","poster_url":"/cnOvRDoYqcrOVjOBqRAP5NlhpkS.jpg","genres":["Romance","Drama"],"tmdb_id":"888479","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e9611a94c5f90a765375a3e329b915b1/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/888479","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/888479","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"888479","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446590","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645428","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-vida-e-dura-a-historia-de-dewey-cox","title":"A Vida E Dura A Historia De Dewey Cox","type":"movie","year":null,"poster_url":"/5jl1bLX0A1967reaADY1V1DRBZJ.jpg","genres":["Comédia","Música"],"tmdb_id":"6575","sources":[{"url":"https://mgeb.top/embed/6575","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/6575","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20_%20Dura_%20A%20Hist_ria%20de%20Dewey%20Cox%20_2007_%20_tmdb_6575_1ffa9276.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"6575","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460087","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651310","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vida-e-dura-a-historia-de-dewey-cox-2007","title":"A Vida e Dura A História de Dewey Cox (2007)","type":"movie","year":"2007","poster_url":"/5jl1bLX0A1967reaADY1V1DRBZJ.jpg","genres":["Comédia","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/6575","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/6575","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vida-eletrizante-de-louis-wain","title":"A Vida Eletrizante de Louis Wain","type":"movie","year":null,"poster_url":"/JKA0XRQCoglMhPVXJ1EBQtP2Se.jpg","genres":["Drama","História","Comédia"],"tmdb_id":"617762","sources":[{"url":"https://mgeb.top/embed/617762","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/617762","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Eletrizante%20de%20Louis%20Wain%20_2021_%20_tmdb_617762_ec78cdc9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"617762","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456461","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652911","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2}]
+[
+  {
+    "id": "movie-a-um-clique-de-distancia-2021",
+    "title": "A Um Clique de Distancia (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/oiCdwdPEhhbqeTGh04b6MzHEhEb.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "795530",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/795530",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/795530",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Um%20Clique%20de%20Dist_ncia%20_2021_%20_tmdb_795530_333b1c7a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "795530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quando seu marido o presenteia com aulas espanhol, Adam não sabe como isso se encaixará em sua rotina estruturada. Mas quando uma tragédia acontece, sua professora torna-se uma amiga que não sabia que precisava. Prêmio do Público no SXSW."
+  },
+  {
+    "id": "movie-a-um-passo-da-eternidade",
+    "title": "A Um Passo da Eternidade",
+    "type": "movie",
+    "year": "1953",
+    "poster_url": "/j38dopMgHSXdCcx7SdplICoXYSo.jpg",
+    "genres": [
+      "Guerra",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "11426",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11426",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O filme relata histórias de vidas em um campo do exército americano no Havaí, às vésperas do ataque japonês à Pearl Harbor. Centraliza as ações acompanhando os conflitos de três militares da base. Roteiro baseado num livro de James Jones."
+  },
+  {
+    "id": "movie-a-um-passo-da-eternidade-1953",
+    "title": "A Um Passo da Eternidade (1953)",
+    "type": "movie",
+    "year": "1953",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Um%20Passo%20da%20Eternidade%20_1953_%20_tmdb_11426_445fd7b4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-um-passo-da-gloria-2000",
+    "title": "A Um Passo da Glória (2000)",
+    "type": "movie",
+    "year": "2000",
+    "poster_url": "/4pwP6jn3FjXejUBGGZ0Z2fz9xfc.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "72087",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/72087",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/72087",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Gordon McLeod é o gerente de uma equipe de futebol da segunda divisão da Escócia. Enfrentando a pressão de seu proprietário americano, é forçado a trazer um renomado jogador para melhorar a sorte da equipe e impedir que o seu time seja transferido da cidade que lealmente a defende por um século. Em meio a tudo isso, McLeod deve lutar com seus próprios demônios, incluindo antigas desavenças com sua filha e também um ex-colega que o traiu."
+  },
+  {
+    "id": "movie-a-um-passo-da-guerra",
+    "title": "A Um Passo da Guerra",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/vCIQeQ2ynVqEjIvtbOXGnKtcgAX.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "192139",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/192139",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/192139",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/a-um-passo-da-guerra-legendado.mp4",
+        "audio": "leg",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "192139",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "192139.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O presidente Ronald Reagan corre contra o tempo para salvar um acordo com o líder soviético Mikhail Gorbachev que poderia desmantelar os arsenais nucleares ou desencadear um desastre. Com a pressão aumentando de todos os lados, cada palavra dita aproxima o mundo da paz... ou da destruição."
+  },
+  {
+    "id": "movie-a-um-passo-do-estrelato",
+    "title": "A Um Passo do Estrelato",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/nCqVpHwdVcaCJ8dS4Ms6zWzXhKt.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "159014",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/159014",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/159014",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Os cantores de apoio vivem em um mundo que está além dos holofotes. Suas vozes trazem harmonia para as maiores bandas da música popular, mas não temos ideia de quem são esses cantores ou a vida que levam – até agora."
+  },
+  {
+    "id": "movie-a-universidade-de-sing-sing-2011",
+    "title": "A Universidade de Sing Sing (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/1mNqGNhi0SDJrQFzFPFeuWUIO8J.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "281671",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/281671",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/281671",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-ursa-polar",
+    "title": "A Ursa Polar",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/4mJhqONvdgUMz8rOMO5NZdn8HQS.jpg",
+    "genres": [
+      "Documentário",
+      "Família"
+    ],
+    "tmdb_id": "927070",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/927070",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/927070",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Ursa%20Polar%20_2022_%20_tmdb_927070_9b150114.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "927070",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452743",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648087",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A história de uma mãe cujas memórias da própria juventude a preparam para lidar com a maternidade em um mundo cada vez mais desafiador para os ursos polares."
+  },
+  {
+    "id": "movie-a-ursa-polar-2022",
+    "title": "A Ursa Polar (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/4mJhqONvdgUMz8rOMO5NZdn8HQS.jpg",
+    "genres": [
+      "Documentário",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/927070",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/927070",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-useful-ghost-uma-ajuda-do-alem",
+    "title": "A Useful Ghost: Uma Ajuda do Além",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/uhllXiSWe03jTeQiBRGpUrqeVD3.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "1364904",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1364904",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1364904",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Depois que sua esposa Nat morre vítima da poluição do ar, March descobre que o espírito dela reencarnou em um aspirador de pó. Embora o casal tente manter seu vínculo além da morte, a família de March rejeita essa relação sobrenatural. Para provar que Nat é um “fantasma útil”, ela decide limpar a fábrica da família — enfrentando segredos do passado e revelando injustiças sociais."
+  },
+  {
+    "id": "movie-a-vampira-de-barcelona-2020",
+    "title": "A Vampira de Barcelona (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/8OgkiBdshstnwhEe8UrSGCLPlkK.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Suspense"
+    ],
+    "tmdb_id": "742472",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/742472",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/742472",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Barcelona, início do século XX. Quando a jovem filha de uma família rica desaparece, a notícia abala todo o país. A polícia logo tem uma suspeita: uma mulher conhecida como \"A Vampira de Barcelona\"."
+  },
+  {
+    "id": "movie-a-vastidao-da-noite-2019",
+    "title": "A Vastidao da Noite (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/vcZb17z4szf7ovmsjTGc2qDmaoQ.jpg",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/565743",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/565743",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vastidao-da-noite",
+    "title": "A Vastidão da Noite",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/vcZb17z4szf7ovmsjTGc2qDmaoQ.jpg",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "565743",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/565743",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/565743",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vastid_o%20da%20Noite%20_2019_%20_tmdb_565743_8e216c69.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "565743",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646933",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "No período da Guerra Fria, enquanto acontece a corrida espacial entre os Estados Unidos e a União Soviética, dois adolescentes de uma cidadezinha americana são obcecados pelo rádio. Quando eles descobrem uma estranha frequência de ondas aéreas, suas vidas e o mundo inteiro podem estar prestes a mudar drasticamente."
+  },
+  {
+    "id": "movie-a-velha-com-a-faca",
+    "title": "A Velha Com a Faca",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/du65x58CJrMMThuiT85kBFMYi0Z.jpg",
+    "genres": [
+      "Ação",
+      "Mistério",
+      "Drama"
+    ],
+    "tmdb_id": "1247002",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1247002",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1247002",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "A assassina envelhecida Hornclaw viu tudo, mas ela nunca esperava orientar um novato imprudente como Bullfight. À medida que seu vínculo improvável se aprofunda, rachaduras se formam no submundo em que eles navegam juntos. Quando Hornclaw descobre que alguém a quer morta, ela é empurrada para um jogo mortal de engano. Com os inimigos se aproximando e confiando na falta de oferta, sobreviver significa permanecer afiada - tanto a lâmina quanto a mente."
+  },
+  {
+    "id": "movie-a-venezuela-em-solo-brasileiro",
+    "title": "A Venezuela em Solo Brasileiro",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/cdYFiGE3ClOCd4eocV2VQnVRbxj.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1151772",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1151772",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1151772",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1151772",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453242",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647961",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um spin-off do documentário Infiltrados: Venezuela. Viajamos até a fronteira do Brasil com a Venezuela, na cidade de Pacaraima, estado de Roraima, para conversar com venezuelanos que fugiram do seu país. São pessoas que abandonaram suas casas para buscar uma vida melhor no Brasil. E essa história vai complementar o novo documentário da BP."
+  },
+  {
+    "id": "movie-a-venezuela-em-solo-brasileiro-2023",
+    "title": "A Venezuela em Solo Brasileiro (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/cdYFiGE3ClOCd4eocV2VQnVRbxj.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1151772",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1151772",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade",
+    "title": "A Verdade",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cTlQRJfm1si2fteoQa4z6o7SS6v.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "20943",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/20943",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/20943",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Nua%20e%20Crua%20_2009_%20_tmdb_20943_0a634824.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "517468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "20943",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457725",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446386",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448657",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459940",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653153",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651963",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "736093",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762563",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-verdade-2019",
+    "title": "A Verdade (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/b2VqAf0GSkPJ6AwzVC64VoXLxzs.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1885",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1885",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade-em-segredo",
+    "title": "A Verdade em Segredo",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/tqZTmF9vZHeoHT0MmrhoQcZxVrl.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "553882",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "553882",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Libby Lamm é uma antiga assessora de segurança nacional, quando trabalhava com Rachel Burke, uma veterana política, assinou uma ação militar controversa que deveria acabar com a guerra contra o terrorismo. O problema: milhares morreram sob falsos pretextos. Assombrada por seu passado, Libby decide contar a verdade, arriscando sua própria vida para expor um encobrimento que se estende até os mais altos níveis de governo."
+  },
+  {
+    "id": "movie-a-verdade-em-segredo-2019",
+    "title": "A Verdade em Segredo (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20em%20Segredo%20_2019_%20_tmdb_553882_841d175f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade-esta-la-fora",
+    "title": "A Verdade Está Lá Fora",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/rCDO35ufaGdbk2Xr5xiVYqRl81X.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "859563",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "859563",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Dois imigrantes vivendo à margem da sociedade americana e que acreditam que suas vidas foram moldadas por uma abdução alienígena, embarcam em uma jornada em busca da verdade sobre os seus passados."
+  },
+  {
+    "id": "movie-a-verdade-esta-la-fora-2021",
+    "title": "A Verdade Está Lá Fora (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Est_%20L_%20Fora%20_2021_%20_tmdb_859563_288a9c35.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade-nua-e-crua-2009",
+    "title": "A Verdade Nua e Crua (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/cTlQRJfm1si2fteoQa4z6o7SS6v.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/20943",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/20943",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade-sobre-jussie-smollett-2025",
+    "title": "A Verdade sobre Jussie Smollett? (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/1JHoXc6mzZWp3ewXoGywpoxgb3a.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1517212",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/cc9ee12e739bef8e05414089cd43893c/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1517212",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1517212",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20sobre%20Jussie%20Smollett%20_2025_%20_tmdb_1517212_ec121698.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1517212",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Crime de ódio ou mentira? Jussie Smollett conta sua versão neste documentário revelador dos produtores de O Golpista do Tinder e Don't F**k with Cats: Uma Caçada Online."
+  },
+  {
+    "id": "movie-a-verdade-sobre-o-amor",
+    "title": "A Verdade Sobre o Amor",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/946d6xl8yRpgS4KSzqFHmHgePAc.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "14933",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "14933",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quando Alice (Jennifer Love Hewitt) recebe um cartão romântico anônimo de Dia dos Namorados, acha que é uma brincadeira de seu marido, Sam (Jimi Mistry), e responde com outro cartão, também anônimo. Só que ele esconde esse fato, e ela passa a desconfiar de sua fidelidade. Com a ajuda de sua irmã, a moça resolve criar a personalidade de uma mulher para seduzir Sam e comprovar suas suspeitas. Enquanto isso, o melhor amigo do casal (Dougray Scott) declara estar apaixonado por ela."
+  },
+  {
+    "id": "movie-a-verdade-sobre-o-amor-2005",
+    "title": "A Verdade Sobre o Amor (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Sobre%20o%20Amor%20_2005_%20_tmdb_14933_70183b09.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdade-sobre-o-caso-deventer",
+    "title": "A Verdade Sobre o Caso Deventer",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "844530",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/844530",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/844530",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdade%20Sobre%20o%20Caso%20Deventer%20_2021_%20_tmdb_844530_a8866cfe.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "844530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455107",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652254",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Baseado na história real do notório Caso Deventer. Em 1999, na Holanda, o jornalista Bas Haan investiga o assassinato de uma viúva que foi morta em sua casa, e começa a suspeitar de Ernest Louwes, última pessoa a falar com a vítima. Após uma reportagem de Bas, Ernest começa a ser difamado pela mídia, que transforma a vida dele e de sua esposa em um verdadeiro pesadelo. Arrependido, Bas decide lutar contra as conspirações, a polícia, a mídia e até os juízes para descobrir a verdade, mas acaba percebendo que a imagem às vezes é mais forte do que os fatos."
+  },
+  {
+    "id": "movie-a-verdade-sobre-o-caso-deventer-2021",
+    "title": "A Verdade Sobre o Caso Deventer (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/844530",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/844530",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-dor",
+    "title": "A Verdadeira Dor",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/57trFzPPZsmroyBNNg7QZsD21JL.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "1013850",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/43cbd3eeb46430e9ece3c4f9848457e3/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1013850",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1013850",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Dor%20_2024_%20_tmdb_1013850_909f171b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1013850",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447126",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670151",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Dois primos que não se dão bem se reúnem para uma excursão pela Polônia para homenagear sua amada avó. A aventura toma um rumo diferente quando as antigas tensões deles ressurgem contra o pano de fundo de sua história familiar."
+  },
+  {
+    "id": "movie-a-verdadeira-dor-cinema",
+    "title": "A Verdadeira Dor [Cinema]",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "655608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-filha-renasce-e-se-torna-o-tesouro-da-familia",
+    "title": "A VERDADEIRA FILHA RENASCE E SE TORNA O TESOURO DA FAMILIA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-verdadeira-historia-do-roubo-do-seculo-2022",
+    "title": "A Verdadeira Historia do Roubo do Seculo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/xrYVZ5b0p0BKg6vZ3scU4iyOwC3.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1000194",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1000194",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-historia-de-ned-kelly",
+    "title": "A Verdadeira História de Ned Kelly",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/y30AxTVrQUVKlokjz1TR0m5ISoY.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Faroeste",
+      "Suspense"
+    ],
+    "tmdb_id": "501395",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/501395",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/501395",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20de%20Ned%20Kelly%20_2019_%20_tmdb_501395_6bc40edd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "501395",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455436",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653648",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A ascensão e a queda do rebelde australiano Ned Kelly, consagrado como o maior bush ranger da história do país. Durante a década de 1870, incentivado pelo foragido Harry Power e pela prisão de sua mãe, Kelly recrutou um montante de rebeldes para planejar uma rebelião lendária."
+  },
+  {
+    "id": "movie-a-verdadeira-historia-de-ned-kelly-2019",
+    "title": "A Verdadeira História de Ned Kelly (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/y30AxTVrQUVKlokjz1TR0m5ISoY.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Faroeste",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/501395",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/501395",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-historia-de-papai-noel",
+    "title": "A Verdadeira História de Papai Noel",
+    "type": "movie",
+    "year": "1970",
+    "poster_url": "/mEIBrplag2W7doD7lxbBnQh5WEF.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Fantasia",
+      "TV"
+    ],
+    "tmdb_id": "13400",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "13400",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "É um longa metragem de 1970 em Stop-Motion. O carteiro decide responder algumas das perguntas mais comuns a respeito do Papai Noel, ele conta sobre um bebezinho chamado Kris que foi abandonado na porta da família Kringle (fabricantes de brinquedos). Quando Kris cresce, ele decide entregar os brinquedos para as crianças da Cidade Sombria. Porém o Burgo Mestre (Prefeito da Cidade) é uma má pessoa e não deixará que isso aconteça. Para piorar as coisas, há um malvado feiticeiro chamado Inverno que vive entre os Kringles e a Cidade Sombria, Kris planeja derreter o coração de gelo do feiticeiro (assim como da professora da cidade) para poder entregar seus preciosos brinquedos."
+  },
+  {
+    "id": "movie-a-verdadeira-historia-de-papai-noel-1970",
+    "title": "A Verdadeira História de Papai Noel (1970)",
+    "type": "movie",
+    "year": "1970",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20de%20Papai%20Noel%20_1970_%20_tmdb_13400_9472cb97.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-historia-do-gato-de-botas",
+    "title": "A Verdadeira História do Gato de Botas",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/bbvFY8odTt52DVuz1fLtt5JDbbY.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Animação"
+    ],
+    "tmdb_id": "25353",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Adaptação para cinema da personagem Gato de Botas, popular criação do francês Charles Perrault. Na história, após a morte do pai, um jovem moleiro herda um estranho gato que pode falar com os humanos e é dotado de poderes mágicos – aparentemente, graças às lindas botas que usa. É ele, com todo seu charme e habilidades na dança e no canto, quem vai ajudar o rapaz a conquistar o amor da princesa Manon. Mas as coisas não serão tão fáceis na medida em que o rei já tem em mente um pretendente para a filha."
+  },
+  {
+    "id": "movie-a-verdadeira-historia-do-gato-de-botas-2009",
+    "title": "A Verdadeira História do Gato de Botas (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20do%20Gato%20de%20Botas%20_2009_%20_tmdb_25353_39b69c09.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-verdadeira-historia-do-roubo-do-seculo",
+    "title": "A Verdadeira História do Roubo do Século",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/xrYVZ5b0p0BKg6vZ3scU4iyOwC3.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1000194",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1000194",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1000194",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Verdadeira%20Hist_ria%20do%20Roubo%20do%20S_culo%20_2022_%20_tmdb_1000194_119bd690.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1000194",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452721",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648064",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em entrevistas reveladoras, os mais famosos ladrões de banco da Argentina contam todos os detalhes sobre a arriscada operação criminosa de 2006."
+  },
+  {
+    "id": "movie-a-versao-persa-2023",
+    "title": "A Versão Persa (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/fmHNcjt08oWz9Q619ZSXqQxLgMT.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1058620",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6c659630fdee5ce90ac3963f1196775f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1058620",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1058620",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1058620",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447146",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460662",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650237",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nesta história festiva de uma jovem mulher no Brooklyn, Leila (Layla Mohammadi) se esforça para encontrar o equilíbrio e aceitar suas culturas opostas enquanto desafia os rótulos que a sociedade projeta sobre ela. Quando sua família barulhenta se reúne na cidade de Nova York para o transplante de coração de seu pai, Leila mantém sua vida \"real\" separada da vida familiar. Mas quando seu..."
+  },
+  {
+    "id": "movie-a-vespa",
+    "title": "A Vespa",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/5BKRuGVxx8qsB7WGSJ0oWRCHsgN.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica"
+    ],
+    "tmdb_id": "363088",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/363088",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/363088",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vespa%20_2024_%20_tmdb_1019404_e3b174b2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Homem-Formiga%20e%20a%20Vespa%20_2018_%20_tmdb_363088_4e0b9306.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1019404",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "363088",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445747",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450276",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454285",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647113",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670336",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649229",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-a-vespa-2024",
+    "title": "A Vespa (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/qZDafbofrZn46MmDwJS8fCSCe6l.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/640146",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/640146",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-via-lactea",
+    "title": "A Via Láctea",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/gF9Q4OpwpPrAbUDB32adgCNAznS.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "89271",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/89271",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/89271",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Via%20Lactea%20_2007_%20_tmdb_89271_a95ea4b4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "89271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "897135",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Heitor está atormentado com a decisão de sua namorada e atriz Julia romper o relacionamento depois de uma terrível discussão por telefone."
+  },
+  {
+    "id": "movie-a-viagem",
+    "title": "A Viagem",
+    "type": "movie",
+    "year": "2001",
+    "poster_url": "/hhoKhsyJ3hFaxEm5pMdZRiTu2lJ.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "129",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/129",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/129",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/17707",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17707",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/17a06be21fa2d0787d7d4b720b3d3545/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20_1994_%20_tmdb_634296_c7012d0c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Chihiro%20_2001_%20_tmdb_129_cc7406ed.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "634296",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459112",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "129",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448846",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459216",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762753",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-viagem-1999",
+    "title": "A Viagem (1999)",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": "/pX50UPLcxaV5XtcYhqpHf6UFNiR.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/17707",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17707",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viagem-2012",
+    "title": "A Viagem (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/hf7Mqgy79fyhgKJ5JmEuyWgh6LA.jpg",
+    "genres": [
+      "Drama",
+      "Ficção científica"
+    ],
+    "tmdb_id": "83542",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/83542",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/83542",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Atlas%20_2024_%20_tmdb_614933_cd3be087.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "83542",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644557",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654339",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O filme percorre séculos para revelar a formação das almas e o impacto duradouro das ações. Um escravo em fuga ajuda um advogado em 1849; um compositor na Inglaterra antes da Segunda Guerra tenta terminar a sua obra-prima; um trabalhador geneticamente modificado em 2144 sente o peso da consciência."
+  },
+  {
+    "id": "movie-a-viagem-de-ernesto-e-celestine",
+    "title": "A Viagem de Ernesto e Celestine",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/eQjSaDD33BphfGZJrN82Q9Mp55w.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Música",
+      "Aventura"
+    ],
+    "tmdb_id": "947219",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/7be6b0826b5b27a471f2e931b0c84353/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/947219",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/947219",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Ernesto%20e%20Celestine%20_2022_%20_tmdb_947219_4a6a0a4d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "947219",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449364",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645984",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Ernesto e Celestine voltam para Charabia e descobrem que a música foi banida. A dupla se une a novos amigos, incluindo um vingador mascarado, para tentar corrigir esta injustiça e trazer a alegria de volta à terra dos ursos."
+  },
+  {
+    "id": "movie-a-viagem-de-fanny",
+    "title": "A Viagem de Fanny",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/klUbZxXXUAS9Mp3j9qSYjMX1FOj.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "384581",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "384581",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A trama conta a história de Fanny Ben Ami, menina que vive escondida com suas duas irmãs em um internato, longe de seus pais, um local considerado seguro para crianças judias em uma zona neutra da França. Após alguns acontecimentos, o lugar é denunciado e Fanny precisa fugir com as outras crianças para a Suíça e enfrenta diversos medos e apuros, aprendendo o significado de independência."
+  },
+  {
+    "id": "movie-a-viagem-de-fanny-2016",
+    "title": "A Viagem de Fanny (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Fanny%20_2016_%20_tmdb_384581_9e82269b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viagem-de-heidi-e-cokeman",
+    "title": "A Viagem de Heidi e Cokeman",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/hyxaVyx7wEqChZoAO7vpvmMnDb1.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "659063",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "659063",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Heidi e Cokeman são os dois piores traficantes de Paris. Eles sobrevivem de pequenos golpes e de serviços prestados aos chefes do crime. No entanto, quando a irmã de Heidi se casa com um famoso traficante, eles enxergam uma oportunidade de crescer nos negócios. Sob pressão da esposa, o novo cunhado promete as melhores cargas de drogas para a dupla, que sonha em abrir a própria rede de tráfico em Paris. Convencidos que a nova fase de vendas será incrível para enriquecer, eles acabam percebendo que é apenas o começo dos maiores problemas das suas vidas."
+  },
+  {
+    "id": "movie-a-viagem-de-nossas-vidas",
+    "title": "A Viagem de Nossas Vidas",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/vFZxksR9665GZYGAi7Gu4RjJJIn.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "733508",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/7503d98455e35c6c72388e5ae6def03e/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/733508",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/733508",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Nossas%20Vidas%20_2020_%20_tmdb_733508_a4dc10b0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "733508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448601",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455161",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670307",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Depois de perder uma batalha judicial pela custódia de seu filho, o eterno adolescente, Wayne Stobierski rapta o garoto para um último fim de semana de pai e filho na cidade dos seus sonhos - Milwaukee, Wisconsin. O que deveria ser uma aventura alegre logo se transforma em uma jornada de profunda redenção."
+  },
+  {
+    "id": "movie-a-viagem-de-pedro",
+    "title": "A Viagem de Pedro",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/lllNOmsGOmCj6UsdXDKnWuhKHjK.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "575981",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/575981",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/575981",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20de%20Pedro%20_2022_%20_tmdb_575981_71025695.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "575981",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455680",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em 1831, o primeiro Imperador do Brasil volta à Europa sob condições adversas, na nau inglesa Warspite. Diante de sua abdicação ao trono do Brasil, esse é um momento de profunda reflexão para D. Pedro I, que pondera os erros e acertos de sua administração desde o momento em que chegou no país com sua família aos 10 anos de idade, em 1808."
+  },
+  {
+    "id": "movie-a-viagem-de-pedro-2022",
+    "title": "A Viagem de Pedro (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/lllNOmsGOmCj6UsdXDKnWuhKHjK.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/575981",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/575981",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viagem-do-divorcio-2023",
+    "title": "A Viagem do Divórcio (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/6rfZZ9JtCdnWiaTxNJ8FfJmwGH.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Mistério"
+    ],
+    "tmdb_id": "1128986",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/91ffa68ac4e8a746d91246abe8916575/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1128986",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1128986",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20do%20Div_rcio%20_2023_%20_tmdb_1128986_36d54953.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1128986",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444887",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após dez anos casados, Natalie e Eric decidem se separar. Mas de acordo com o acordo pré-nupcial que assinaram, eles precisam fazer uma última viagem de férias e gastar todo o dinheiro que possuem em uma conta conjunta."
+  },
+  {
+    "id": "movie-a-viagem-encantada",
+    "title": "A Viagem Encantada",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/vWNsfLp5jyVdAHtPZluqAzHm5m1.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "589759",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/589759",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/589759",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viagem%20Encantada%20_2022_%20_tmdb_589759_2b89730d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "589759",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448028",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459262",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884444",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "É véspera de Ano Novo e Marie terá uma surpresa muito desagradável: sua mãe é forçada a se casar com o revoltante Sr. Agiota.  Como forma de proposta, ele dá a Marie uma boneca chamada Quebra-Nozes.  Um milagre ocorre e Marie fica do mesmo tamanho de seus brinquedos de infância, que ganham vida.  O Quebra-Nozes é o Príncipe George, que foi enfeitiçado.  Marie, George e seus amigos brinquedos viajam para a Terra das Flores com a missão de salvar o mundo de cair sob o controle do povo rato."
+  },
+  {
+    "id": "movie-a-viagem-musical-1983",
+    "title": "A viagem musical (1983)",
+    "type": "movie",
+    "year": "1983",
+    "poster_url": "/aNCN8xBOaEccXS0V93RBdLDSqFh.jpg",
+    "genres": [
+      "Aventura",
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": "21356",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/21356",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/21356",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viatura",
+    "title": "A Viatura",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/hbv30REhVgm869UUDJPL637r76W.jpg",
+    "genres": [
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "310133",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "310133",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "310133.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Dois garotos encontram uma viatura deixada no meio do nada. Eles decidem se divertir um pouco, cujo porta-malas esconde algo. Não demora muito para o xerife Kretzer (Kevin Bacon) ficar sabendo disso. Ele, então começa a ameaçar os garotos, caso eles contem para alguém o que tem no porta-malas."
+  },
+  {
+    "id": "movie-a-viatura-2015",
+    "title": "A Viatura (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Viatura%20_2015_%20_tmdb_310133_9a7a480a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-ao-lado",
+    "title": "A Vida ao Lado",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/xet4htqw9UFruRXrdpykUw1QBO8.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "396293",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/396293",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/396293",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20ao%20Lado%20_2006_%20_tmdb_396293_24e8fc7d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "396293",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457175",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884734",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Cecília sonha com Ana, mas não tem coragem de se aproximar dela. Ana tenta conquistar Alberto, que pensa em se matar. Num dia decisivo, os três vizinhos passam a dividir a mesma experiência, o amor."
+  },
+  {
+    "id": "movie-a-vida-com-lincoln-2015",
+    "title": "A Vida com Lincoln (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/pjrkPGtqOVVCcQbCEgflLbfWVDU.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "332816",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/332816",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/332816",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Documentário sobre uma coleção única de fotos e recordações de Abraham Lincoln acumulada ao longo de cinco gerações de uma mesma família."
+  },
+  {
+    "id": "movie-a-vida-da-outra-2022",
+    "title": "A Vida da Outra (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/dN7anfYszXWCkm0pzJ2wUezV9qa.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "961807",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/547e7de6019e5a2234838cee5d17bf27/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/961807",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/961807",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20da%20Outra%20_2022_%20_tmdb_961807_007f96ac.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "961807",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Duas irmãs gêmeas têm vidas completamente diferentes. Uma se casou com um empresário rico e acabou de ter um filho, enquanto a outra é uma médica que enfrenta problemas financeiros e busca um novo emprego no exterior."
+  },
+  {
+    "id": "movie-a-vida-de-brian-1979",
+    "title": "A Vida de Brian (1979)",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": "/qupkDQuRcikg5vjeAWru9SLgMlZ.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "583",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/583",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/583",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Brian%20_1979_%20_tmdb_583_aaaed484.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "583",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Na Palestina do ano 1 d.C., três reis magos trazem presentes à mãe de Brian, confundindo-o com Jesus que nasceu no mesmo dia, na manjedoura ao lado. Brian, depois de crescido, engaja-se em um dos muitos grupos revolucionários que se opõem ao domínio romano. Após tentar sequestrar a mulher de Pôncio Pilatos com seu grupo, ele é visto como Messias pela uma multidão, ávida por lideranças religiosas."
+  },
+  {
+    "id": "movie-a-vida-de-chuck",
+    "title": "A Vida de Chuck",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/xHPycdo2OOzsXf9GqdPp1zCEHuU.jpg",
+    "genres": [
+      "Fantasia",
+      "Drama"
+    ],
+    "tmdb_id": "842924",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/842924",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/842924",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Chuck%20_2025_%20_tmdb_842924_8dddfbe1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "842924",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445551",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450309",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "897159",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A história da vida de Charles Krantz ao contrário, começando com sua morte por um tumor cerebral aos 39 anos e terminando com sua infância em uma casa supostamente mal-assombrada."
+  },
+  {
+    "id": "movie-a-vida-de-chuck-2025",
+    "title": "A Vida de Chuck (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/xHPycdo2OOzsXf9GqdPp1zCEHuU.jpg",
+    "genres": [
+      "Fantasia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/842924",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/842924",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-de-david-gale",
+    "title": "A Vida de David Gale",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/dVY2gPIYIPyOItwN0vsrT2F9wvU.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "11615",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11615",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11615",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20David%20Gale%20_2003_%20_tmdb_11615_35b41234.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11615",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456324",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652874",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "David Gale (Kevin Spacey) é um professor que trabalha na Universidade do Texas e também um ativista contra a pena de morte. Até que, após o assassino de uma colega de trabalho, Gale é injustamente acusado e condenado à pena contra a qual ele tanto combate. O caso chama a atenção de Elizabeth Bloom (Kate Winslet), uma jornalista que decide investigar a vida de Gale e também o sistema judicial que o condenou à pena de morte."
+  },
+  {
+    "id": "movie-a-vida-de-david-gale-2003",
+    "title": "A Vida de David Gale (2003)",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/dVY2gPIYIPyOItwN0vsrT2F9wvU.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11615",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11615",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-de-diane-2019",
+    "title": "A Vida de Diane (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/tvvifwP1I8FFGdFWOxYxTzXdIYG.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "510034",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/510034",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/510034",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Diane%20_2019_%20_tmdb_510034_52aaf7b1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "510034",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Diane é uma viúva na casa dos setenta anos cuja vida é ditada pelo o que os outros necessitam. Ela passa seus dias levando comida para moradores de rua, visitando amigos no fim de suas vidas e tentando desesperadamente se conectar com seu filho viciado em drogas. Conforme vai perdendo essas peças de sua existência, ela se vê obrigada a olhar para si e confrontar sua própria identidade."
+  },
+  {
+    "id": "movie-a-vida-de-jesus-cristo",
+    "title": "A Vida de Jesus Cristo",
+    "type": "movie",
+    "year": "1971",
+    "poster_url": "/goDUAbKlrUg2GKrvr3DLgFD5BFF.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "499589",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "499589",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Uma Historia fascinante e incrível do maior homem que já viveu"
+  },
+  {
+    "id": "movie-a-vida-de-jesus-cristo-1971",
+    "title": "A Vida de Jesus Cristo (1971)",
+    "type": "movie",
+    "year": "1971",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Jesus%20Cristo%20_1971_%20_tmdb_499589_5df1e3ba.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-de-katrina-gilbert-2014",
+    "title": "A Vida de Katrina Gilbert (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/jTsJjghF6z5cy8h7JvJFefW4FyZ.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "259855",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/259855",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/259855",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Com foco numa mãe solteira do Tennessee, documentário mostra os desafios de mulheres americanas para manter a\r família com um salário mínimo"
+  },
+  {
+    "id": "movie-a-vida-de-miles-davis-2016",
+    "title": "A Vida de Miles Davis (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/ePvK2fk8fPQOXpHHha9He9ZAh1p.jpg",
+    "genres": [
+      "Drama",
+      "Música",
+      "História"
+    ],
+    "tmdb_id": "316000",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/316000",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/316000",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "O trompetista Miles Davis (Don Cheadle) chegou ao auge da carreira nos anos 1950, mas em 1974 ele dá uma pausa na carreira para lutar contra o vício em drogas. Ele retorna cinco anos depois e concede uma entrevista ao jornalista da revista Rolling Stone (Ewan McGregor)."
+  },
+  {
+    "id": "movie-a-vida-de-togo",
+    "title": "A Vida de Togo",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/vmUNcjfQn3NqqA0wWz43F4xOLlQ.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "884363",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/884363",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/884363",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Togo%20_2022_%20_tmdb_884363_fca8324b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "884363",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Ele vigia carros estacionados e vai fazer de tudo para proteger esse ganha-pão. Ainda mais agora que os traficantes querem que ele e seus amigos vendam drogas nas ruas."
+  },
+  {
+    "id": "movie-a-vida-de-togo-2022",
+    "title": "A Vida de Togo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/vmUNcjfQn3NqqA0wWz43F4xOLlQ.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/884363",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/884363",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-de-tove-jansson-2020",
+    "title": "A Vida de Tove Jansson (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/9Uvh3aVhf9uzGTQZw4js0DzH6WB.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "608232",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b29d871cdedc4144ce26414ba964625f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/608232",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/608232",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Tove%20Jansson%20_2020_%20_tmdb_608232_1bffd3a9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "608232",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448570",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456216",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652267",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em Helsinque, em 1945, o fim da Segunda Guerra Mundial traz um novo sentido de liberdade artística e social para a escritora e pintora finlandesa Tove Jansson. O filme conta a história da artista, mostrando seus relacionamentos pessoais e a criação das mundialmente famosas histórias dos Moomim."
+  },
+  {
+    "id": "movie-a-vida-de-um-campeao",
+    "title": "A Vida de Um Campeão",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/34piO1tTRlLkd3nPUCPSVZpIVrB.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "74447",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/74447",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/74447",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20Um%20Campeao%20_2010_%20_tmdb_74447_ba8cc600.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "74447",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457291",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "74447.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762594",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770478",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Ele sabia que poderia ser um campeão.  Eles sabiam que ele poderia ser muito mais. Um drama sobre a maioridade que acompanha a vida de Matt Hamill, o primeiro lutador surdo a vencer um National Collegiate Wrestling Championship."
+  },
+  {
+    "id": "movie-a-vida-de-uma-mulher",
+    "title": "A Vida de uma Mulher",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/lmyR4dAexRo7gdCI9wr7Qpyq9pD.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "408543",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "408543",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Jeanne volta para casa após completar os estudos e passa a ajudar os zelosos pais nas tarefas do campo. Certo dia o visconde Julien de Lamare aparece nas redondezas e logo conquista o coração da jovem, que, encantada, com ele se casa e vai morar. Conforme o tempo avança Julien se mostra infiel, avarento e nada companheiro, o que vai minando a alegria de viver da antes esperançosa Jeanne."
+  },
+  {
+    "id": "movie-a-vida-de-uma-mulher-2016",
+    "title": "A Vida de uma Mulher (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20de%20uma%20Mulher%20_2016_%20_tmdb_408543_6c35a224.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-depois",
+    "title": "A Vida Depois",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/vEK7CKSixZw1UlHaNbqXqXo8fX9.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "795514",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/795514",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/795514",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20_2021_%20_tmdb_795514_726a0cf8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "795514",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455933",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652950",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "O filme acompanha a colegial Vada em sua jornada por uma crise emocional após vivenciar uma tragédia escolar. Seu relacionamento com família e amigos, assim como sua visão do mundo, são alterados para sempre."
+  },
+  {
+    "id": "movie-a-vida-depois-2021",
+    "title": "A Vida Depois (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/vEK7CKSixZw1UlHaNbqXqXo8fX9.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/795514",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/795514",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-depois-de-voce",
+    "title": "A Vida Depois de Você",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/o61RnIKtEaaMxqNhVbmPUQhqUAa.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "881876",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/881876",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/881876",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20de%20Voc%20_2022_%20_tmdb_881876_522ccc8f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "881876",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450556",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456450",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884666",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Linda e Tito pareciam levar a vida perfeita junto de seus três filhos. Mas tudo muda após a morte do filho mais novo, vítima de uma overdose."
+  },
+  {
+    "id": "movie-a-vida-depois-de-yang",
+    "title": "A Vida Depois de Yang",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/qoGVl6ru5JU2pPQkgxm2s2L4uZY.jpg",
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
+    "tmdb_id": "585378",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "585378",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Num futuro próximo, uma família enfrenta questões de amor, ligação e perda após o seu ajudante ter sofrido problemas inesperados."
+  },
+  {
+    "id": "movie-a-vida-depois-de-yang-2022",
+    "title": "A Vida Depois de Yang (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Depois%20de%20Yang%20_2022_%20_tmdb_585378_21e4893f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-diante-de-seus-olhos",
+    "title": "A Vida Diante de Seus Olhos",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg",
+    "genres": [
+      "Fantasia",
+      "Romance",
+      "Suspense"
+    ],
+    "tmdb_id": "1191885",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1191885",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1191885",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Diante%20de%20Seus%20Olhos%20_2023_%20_tmdb_1191885_e4eb9ce7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1191885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451617",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654693",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando sua casa é invadida, uma instrutora de yoga vê a vida passar diante dos olhos e embarca em uma viagem ao passado para tentar salvar o homem que ama."
+  },
+  {
+    "id": "movie-a-vida-diante-de-seus-olhos-2023",
+    "title": "A Vida Diante de Seus Olhos (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg",
+    "genres": [
+      "Fantasia",
+      "Romance",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1191885",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1191885",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-do-livreiro-a-j-fikry",
+    "title": "A Vida do Livreiro A.J. Fikry",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/ffPdKMxc2sAQDKXkDaO2EPifMuf.jpg",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "841733",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/841733",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/841733",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20do%20Livreiro%20A.J.%20Fikry%20_2022_%20_tmdb_841733_367ccdbc.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "841733",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455868",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652490",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A vida de A.J. Fikry, dono de uma livraria, não está indo como esperado. Sofrendo com o trágico falecimento de sua esposa, ele atinge o fundo do poço quando seu pertence mais valioso é roubado. Porém, com a vendedora de livros, Amelia, chegando em sua vida, assim como uma entrega inesperada chegando em sua porta, Fikry ganha uma nova perspectiva na vida e vê seu mundo mudar de várias maneiras."
+  },
+  {
+    "id": "movie-a-vida-do-livreiro-aj-fikry-2022",
+    "title": "A Vida do Livreiro AJ Fikry (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/ffPdKMxc2sAQDKXkDaO2EPifMuf.jpg",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/841733",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/841733",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-dos-leopardos",
+    "title": "A Vida dos Leopardos",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/5yjytWCBpNh0OEXhELUPovvZHif.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1255187",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1255187",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1255187",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20dos%20Leopardos%20_2024_%20_tmdb_1255187_b0f2c193.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1255187",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453107",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647795",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma equipe de filmagem acompanha de perto dois filhotes de leopardo em sua jornada fascinante desde a infância até a vida adulta neste documentário."
+  },
+  {
+    "id": "movie-a-vida-dos-leopardos-2024",
+    "title": "A Vida dos Leopardos (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/5yjytWCBpNh0OEXhELUPovvZHif.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1255187",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1255187",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-dos-outros",
+    "title": "A Vida dos Outros",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/xaHem8yAbLxGPzHKMsNKsTgalH4.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "582",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "582",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Georg Dreyman é o maior dramaturgo da Alemanha Oriental, sendo por muitos considerado o modelo perfeito de cidadão para o país, já que não contesta o governo nem seu regime político. Apesar disto o ministro Bruno Hempf acha por bem acompanhar seus passos, para descobrir se Dreyman tem algo a esconder. Ele passa esta tarefa para Anton Grubitz, que a princípio não vê nada de errado com Dreyman mas é alertado por Gerd Wiesler, seu subordinado, de que ele deveria ser vigiado. Grubitz passa a tarefa a Wiesler, que monta uma estrutura em que Dreyman e sua namorada, a atriz Christa-Maria Sieland, são vigiados 24 horas."
+  },
+  {
+    "id": "movie-a-vida-dos-outros-2006",
+    "title": "A Vida dos Outros (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20dos%20Outros%20_2006_%20_tmdb_582_89f293aa.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-dupla-de-um-bilionario",
+    "title": "A VIDA DUPLA DE UM BILIONARIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-vida-dupla-do-casal-bilionario",
+    "title": "A Vida Dupla do Casal Bilionario",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-vida-dupla-do-meu-marido-bilionario-2023",
+    "title": "A Vida Dupla do Meu Marido Bilionário (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-vida-dupla-do-sr-presidente",
+    "title": "A Vida Dupla do Sr Presidente",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-vida-e-a-paixao-de-jesus-cristo",
+    "title": "A Vida e a Paixão de Jesus Cristo",
+    "type": "movie",
+    "year": "1903",
+    "poster_url": "/gDNqLlnk81xqUr2Uemj4lNd0C2u.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "119744",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "119744",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A história da vida e da paixão de Jesus Cristo, desde a proclamação de seu nascimento até sua ascensão ao céu."
+  },
+  {
+    "id": "movie-a-vida-e-a-paixao-de-jesus-cristo-1903",
+    "title": "A Vida e a Paixão de Jesus Cristo (1903)",
+    "type": "movie",
+    "year": "1903",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20e%20a%20Paix_o%20de%20Jesus%20Cristo%20_1903_%20_tmdb_119744_e8205b79.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-e-agora-2-2022",
+    "title": "A Vida E Agora 2 (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/cnOvRDoYqcrOVjOBqRAP5NlhpkS.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "888479",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e9611a94c5f90a765375a3e329b915b1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/888479",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/888479",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "888479",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446590",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645428",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-a-vida-e-dura-a-historia-de-dewey-cox",
+    "title": "A Vida E Dura A Historia De Dewey Cox",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/5jl1bLX0A1967reaADY1V1DRBZJ.jpg",
+    "genres": [
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": "6575",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/6575",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/6575",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20_%20Dura_%20A%20Hist_ria%20de%20Dewey%20Cox%20_2007_%20_tmdb_6575_1ffa9276.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "6575",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460087",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Biografia de um cantor fictício, considerado uma lenda da música norte-americana que, como tantos outros cantores famosos de origem humilde, vive uma vida de excessos, é derrotado pelas drogas e se redime através do amor de uma mulher."
+  },
+  {
+    "id": "movie-a-vida-e-dura-a-historia-de-dewey-cox-2007",
+    "title": "A Vida e Dura A História de Dewey Cox (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/5jl1bLX0A1967reaADY1V1DRBZJ.jpg",
+    "genres": [
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/6575",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/6575",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vida-eletrizante-de-louis-wain",
+    "title": "A Vida Eletrizante de Louis Wain",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/JKA0XRQCoglMhPVXJ1EBQtP2Se.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Comédia"
+    ],
+    "tmdb_id": "617762",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/617762",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/617762",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vida%20Eletrizante%20de%20Louis%20Wain%20_2021_%20_tmdb_617762_ec78cdc9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "617762",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456461",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Cinebiografia do artista inglês Louis Wain, que viveu entre 1860-1939 e é mais conhecido por seus desenhos, que consistentemente apresentavam gatos e gatinhos antropomorfizados de olhos grandes. Em seus últimos anos, ele pode ter sofrido de esquizofrenia (embora alguns especialistas contestem essa afirmação), o que, segundo alguns psiquiatras, pode ser visto em suas obras."
+  }
+]

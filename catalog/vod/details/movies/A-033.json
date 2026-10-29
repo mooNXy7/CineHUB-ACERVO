@@ -1,1 +1,4009 @@
-[{"id":"movie-a-vinganca-de-frankenstein-1958","title":"A Vingança de Frankenstein (1958)","type":"movie","year":"1958","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Frankenstein%20_1958_%20_tmdb_3127_a74fa775.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-jack","title":"A Vingança de Jack","type":"movie","year":null,"poster_url":"/bcwCsAXYO13F2F4xMPS3mOHuuIB.jpg","genres":["Suspense","Terror","História"],"tmdb_id":"1105014","sources":[{"url":"https://mgeb.top/embed/1105014","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1105014","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Jack%20_2023_%20_tmdb_1105014_17add7ce.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1105014","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448455","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451362","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654424","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670477","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-de-jack-2023","title":"A Vingança de Jack (2023)","type":"movie","year":"2023","poster_url":"/bcwCsAXYO13F2F4xMPS3mOHuuIB.jpg","genres":["Suspense","Terror","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1105014","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1105014","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-jennifer","title":"A Vingança de Jennifer","type":"movie","year":null,"poster_url":"/4c96SRsaAo1zO0zSoxipQo0ZxuT.jpg","genres":["Terror","Drama"],"tmdb_id":"25239","sources":[],"provider_refs":[{"provider":"18","ref":"25239","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-jennifer-1978","title":"A Vingança de Jennifer (1978)","type":"movie","year":"1978","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Jennifer%20_1978_%20_tmdb_25239_1e5c48a6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-jennifer-deja-vu-2019","title":"A Vingança de Jennifer: Deja Vu (2019)","type":"movie","year":"2019","poster_url":"/hrD8fU6tA1Pzh4ybxG4iN5TbVdU.jpg","genres":["Terror"],"tmdb_id":"369196","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/4811517216d95533329b9e7ec266d659/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/369196","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/369196","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-vinganca-de-john-henry-2020","title":"A Vingança de John Henry (2020)","type":"movie","year":"2020","poster_url":"/k7nQXpMO4uPgVAULoY39EoavxlG.jpg","genres":["Drama","Suspense"],"tmdb_id":"658199","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/5cce88a9348972ea912d7a1610a3b8f0/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/658199","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/658199","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20John%20Henry%20_2020_%20_tmdb_658199_918b9c51.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"658199","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448520","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455795","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652094","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670904","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-de-julia","title":"A Vingança de Julia","type":"movie","year":null,"poster_url":"/dciMTd3PPQuRosZ8p0qQlUn0yZR.jpg","genres":["Terror"],"tmdb_id":"84228","sources":[],"provider_refs":[{"provider":"18","ref":"84228","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-julia-2011","title":"A Vingança de Julia (2011)","type":"movie","year":"2011","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Julia%20_2011_%20_tmdb_84228_3e3dfadf.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-lefty-brown","title":"A Vingança de Lefty Brown","type":"movie","year":null,"poster_url":"/xQoi7Dapb6UZHpYQRfdX2eYAtwT.jpg","genres":["Faroeste"],"tmdb_id":"438457","sources":[],"provider_refs":[{"provider":"18","ref":"438457","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-lefty-brown-2017","title":"A Vingança de Lefty Brown (2017)","type":"movie","year":"2017","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Lefty%20Brown%20_2017_%20_tmdb_438457_313313f8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-maria-2019","title":"A Vingança de Maria (2019)","type":"movie","year":"2019","poster_url":"/d7KJjttE1IQECkKNmtunQTmmp6m.jpg","genres":["Ação","Crime"],"tmdb_id":"591121","sources":[{"url":"https://mgeb.top/embed/591121","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/591121","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Maria%20_2019_%20_tmdb_591121_cdcdedc0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"591121","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-nina-2024","title":"A Vingança de Nina (2024)","type":"movie","year":"2024","poster_url":"/lUK3NL7Eb685dsvjIboxlm6FCkN.jpg","genres":["Drama","Suspense"],"tmdb_id":"1244872","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/c801951a1d22288ec797f2ad638fe9cb/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/1244872","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1244872","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Nina%20_2024_%20_tmdb_1244872_4a711327.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1244872","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444263","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444277","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"925751","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-vinganca-de-popeye","title":"A Vingança de Popeye","type":"movie","year":null,"poster_url":"/8kYGtiNVVjLSsJumGjqqYDkx9uA.jpg","genres":["Terror"],"tmdb_id":"1393382","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e8bc79a8470e90266b4ab5a3535693bb/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1393382","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1393382","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Popeye%20_2025_%20_tmdb_1393382_e7f38de5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1393382","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451706","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450406","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"885009","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-de-um-kickboxer-6-o-desafio-final-1995","title":"A Vingança de um Kickboxer 6: O Desafio Final (1995)","type":"movie","year":"1995","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20um%20Kickboxer%206_%20O%20Desafio%20Final%20_1995_%20_tmdb_86523_3fa96dd5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-uma-mulher-2012","title":"A Vingança de uma Mulher (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20uma%20Mulher%20_2012_%20_tmdb_89451_.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-willard","title":"A Vingança de Willard","type":"movie","year":null,"poster_url":"/6zQd8k2p4eTWWvrr3vnNmQvUVh2.jpg","genres":["Terror","Drama","Suspense"],"tmdb_id":"10929","sources":[{"url":"https://mgeb.top/embed/10929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Willard%20_2003_%20_tmdb_10929_4770758f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10929","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451250","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655043","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vinganca-de-willard-2003","title":"A Vingança de Willard (2003)","type":"movie","year":"2003","poster_url":"/6zQd8k2p4eTWWvrr3vnNmQvUVh2.jpg","genres":["Terror","Drama","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-wyatt-earp","title":"A Vingança de Wyatt Earp","type":"movie","year":null,"poster_url":"/hqQvZ3TcV8f1oy8K5No9bR0FOxQ.jpg","genres":["Faroeste","Drama"],"tmdb_id":"89888","sources":[],"provider_refs":[{"provider":"18","ref":"89888","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-de-wyatt-earp-2012","title":"A Vingança de Wyatt Earp (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Wyatt%20Earp%20_2012_%20_tmdb_89888_f5118aea.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-do-dragao","title":"A Vingança do Dragão","type":"movie","year":null,"poster_url":"/ujoSOGMTqdFcxj1bXfFGizz7Tgr.jpg","genres":["Ação","Drama"],"tmdb_id":"308529","sources":[{"url":"https://mgeb.top/embed/308529","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/308529","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20do%20Drag_o%20_1979_%20_tmdb_19274_9e02bb66.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2455309","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458119","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-do-dragao-1979","title":"A Vingança do Dragão (1979)","type":"movie","year":"1979","poster_url":"/5p5zpWZ8owERYSQPyAxpSVWLKga.jpg","genres":["Ação","Comédia"],"tmdb_id":"19274","sources":[{"url":"https://mgeb.top/embed/19274","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/19274","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"19274","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454710","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649284","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vinganca-dos-lutadores-2023","title":"A Vingança dos Lutadores (2023)","type":"movie","year":"2023","poster_url":"/y6QRQ0bHGt9Wc1BBTZsa1iB2PAm.jpg","genres":["Ação","Drama"],"tmdb_id":"997391","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/9306036d1d1517ac45e53b5fdebcab71/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/1c95a43eb0340de0338fc81f24dd0a62/master.txt","audio":"leg","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/997391","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/997391","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"997391","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-dos-nerds","title":"A Vingança dos Nerds","type":"movie","year":null,"poster_url":"/vwQEWLHtV77822u9fOK5CtuKrSu.jpg","genres":["Comédia"],"tmdb_id":"14052","sources":[{"url":"https://mgeb.top/embed/14052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vinganca%20dos%20Nerds%20_1984_%20_tmdb_14052_c73f1c37.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"14052","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449910","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460835","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762880","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-dos-nerds-1984","title":"A Vingança dos Nerds (1984)","type":"movie","year":"1984","poster_url":"/vwQEWLHtV77822u9fOK5CtuKrSu.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/14052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-dos-nerds-2-os-nerds-saem-de-ferias","title":"A Vingança dos Nerds 2: Os Nerds Saem de Férias","type":"movie","year":null,"poster_url":"/z5mHAcMuxRr7QRfw643pY7O9xEK.jpg","genres":["Comédia"],"tmdb_id":"16889","sources":[{"url":"https://mgeb.top/embed/16889","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/16889","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vinganca%20dos%20Nerds%202_%20Os%20Nerds%20Saem%20de%20Ferias%20_1987_%20_tmdb_16889_6dfc0b9e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"16889","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461328","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447026","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"16889.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"762603","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762879","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-dos-sapos-assassinos","title":"A Vingança dos Sapos Assassinos","type":"movie","year":null,"poster_url":"/4dvmb8xvyDsC9sWp4plbG70uRaA.jpg","genres":["Ação","Ficção científica"],"tmdb_id":"96469","sources":[],"provider_refs":[{"provider":"18","ref":"96469","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-dos-sapos-assassinos-1992","title":"A Vingança dos Sapos Assassinos (1992)","type":"movie","year":"1992","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20dos%20Sapos%20Assassinos%20_1992_%20_tmdb_96469_4f7a1cf2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-esta-na-moda-2015","title":"A Vingança Esta na Moda (2015)","type":"movie","year":"2015","poster_url":"/fXNobPTdS2sDUTFGd6j4A7bluog.jpg","genres":["Drama","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/298382","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298382","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vinganca-esta-na-moda","title":"A Vingança Está na Moda","type":"movie","year":null,"poster_url":"/fXNobPTdS2sDUTFGd6j4A7bluog.jpg","genres":["Drama","Comédia"],"tmdb_id":"298382","sources":[{"url":"https://mgeb.top/embed/298382","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298382","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"298382","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447034","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645150","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vinganca-esta-servida","title":"A Vingança Está Servida","type":"movie","year":null,"poster_url":"/tR69VvHRyFAVfkH1LjhW7QwAwCF.jpg","genres":["Suspense"],"tmdb_id":"1184773","sources":[{"url":"https://mgeb.top/embed/1184773","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1184773","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20Est_%20Servida%20_2023_%20_tmdb_1184773_f2aa3cf6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1184773","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445341","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447804","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1184773.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670139","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"735989","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-nao-e-um-jogo","title":"A Vingança Não é um Jogo","type":"movie","year":null,"poster_url":"/k0MiTVaOfsjler502U2dKdA37s2.jpg","genres":["Ficção científica","Comédia","Suspense"],"tmdb_id":"1142101","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/3c93d2623fd7ad44586d18103e36558a/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1142101","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1142101","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20N_o%20_%20um%20Jogo%20_2024_%20_tmdb_1142101_66ef0fb6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1142101","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447766","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458812","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1142101.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"762575","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762811","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vinganca-perfeita-2018","title":"A Vingança Perfeita (2018)","type":"movie","year":"2018","poster_url":"/aZESs94vKzjunQqJFBLa2CSjA8.jpg","genres":["Crime","Drama","Suspense","Ação","Comédia","Mistério"],"tmdb_id":"385332","sources":[{"url":"https://mgeb.top/embed/385332","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/385332","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20Perfeita%20_2018_%20_tmdb_385332_fcbd5609.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"385332","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinganca-e-minha-2012","title":"A Vingança é Minha (2012)","type":"movie","year":"2012","poster_url":"/8JNhoXHOSYq4v6zvoKlEZSbbNsX.jpg","genres":["Drama","Ação","Crime"],"tmdb_id":"298667","sources":[{"url":"https://mgeb.top/embed/298667","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298667","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20_%20Minha%20_2012_%20_tmdb_298667_39bd86b8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"298667","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vinicola-dos-sonhos","title":"A Vinícola dos Sonhos","type":"movie","year":null,"poster_url":"/epMSW8ybcKGGE6ZeptAvR75dqbP.jpg","genres":["Drama"],"tmdb_id":"650380","sources":[{"url":"https://mgeb.top/embed/650380","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/650380","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"650380","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456306","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652750","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vinicola-dos-sonhos-2019","title":"A Vinícola dos Sonhos (2019)","type":"movie","year":"2019","poster_url":"/epMSW8ybcKGGE6ZeptAvR75dqbP.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/650380","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/650380","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-virada","title":"A Virada","type":"movie","year":null,"poster_url":"/15hzyOCCiPbSQkgtUr4sdOJjQwO.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"9390","sources":[{"url":"https://mgeb.top/embed/9390","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9390","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20_2013_%20_tmdb_199570_52a273f1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20_2003_%20_tmdb_17345_0deba61b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Jerry%20Maguire_%20A%20Grande%20Virada%20_1996_%20_tmdb_9390_c84fc16b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9390","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460911","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651001","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651194","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-virada-2003","title":"A Virada (2003)","type":"movie","year":"2003","poster_url":"/gP8SLm29PL31W8Un77BANx0m3Dx.jpg","genres":["Drama","Família"],"tmdb_id":"17345","sources":[{"url":"https://mgeb.top/embed/17345","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17345","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"17345","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"199570","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451077","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645867","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-virada-errada","title":"A Virada Errada","type":"movie","year":null,"poster_url":"/7ZUlOmzgopsbsTwIBcqfpBCDe7w.jpg","genres":["Suspense","Drama"],"tmdb_id":"315055","sources":[{"url":"https://mgeb.top/embed/315055","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/315055","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20Errada%20_2015_%20_tmdb_315055_0642f045.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"315055","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901281","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-virada-errada-2015","title":"A Virada Errada (2015)","type":"movie","year":"2015","poster_url":"/7ZUlOmzgopsbsTwIBcqfpBCDe7w.jpg","genres":["Suspense","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/315055","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/315055","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-virgem-da-pedreira","title":"A Virgem da Pedreira","type":"movie","year":null,"poster_url":"/f3TvzHqcFTb2TPokvV6hjC6Ypsz.jpg","genres":["Terror","Suspense"],"tmdb_id":"862739","sources":[{"url":"https://mgeb.top/embed/862739","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/862739","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virgem%20da%20Pedreira%20_2026_%20_tmdb_862739_869385b8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"862739","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444740","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"909060","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-virgem-e-o-bilionario","title":"A Virgem e o Bilionario","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-virgem-vermelha","title":"A Virgem Vermelha","type":"movie","year":null,"poster_url":"/5oXFlJ6UdTbHihthSHW272CBP7F.jpg","genres":["Drama","História","Suspense"],"tmdb_id":"1118028","sources":[{"url":"https://mgeb.top/embed/1118028","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1118028","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virgem%20Vermelha%20_2024_%20_tmdb_1118028_38a54b7f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1118028","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450121","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455209","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652016","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670368","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-virgem-vermelha-2024","title":"A Virgem Vermelha (2024)","type":"movie","year":"2024","poster_url":"/5oXFlJ6UdTbHihthSHW272CBP7F.jpg","genres":["Drama","História","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1118028","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1118028","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-visita","title":"A Visita","type":"movie","year":null,"poster_url":"/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg","genres":["Terror","Suspense"],"tmdb_id":"298312","sources":[{"url":"https://mgeb.top/embed/298312","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298312","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Visita%20_2014_%20_tmdb_500772_a9194673.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1231729","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"500772","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"298312","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451671","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655173","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-visita-2015","title":"A Visita (2015)","type":"movie","year":"2015","poster_url":"/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/298312","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298312","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-visao-2024","title":"A Visão (2024)","type":"movie","year":"2024","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vis_o%20_2024_%20_tmdb_1057006_7af315e1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vitima-suspeita-1995","title":"A Vitima Suspeita (1995)","type":"movie","year":"1995","poster_url":"/sITtBHqFPmgtzKCGtjeLjgwpEjA.jpg","genres":["Suspense"],"tmdb_id":"261048","sources":[{"url":"https://mgeb.top/embed/261048","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/261048","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viuva-das-sombras-2020","title":"A Viuva das Sombras (2020)","type":"movie","year":"2020","poster_url":"/dn5iLpppgZqmoH60yiWlpK5SLKd.jpg","genres":["Terror","Suspense"],"tmdb_id":"579872","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/10023b5ec4852879692bc5d2c62f768d/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/579872","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/579872","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20das%20Sombras%20_2020_%20_tmdb_579872_4de1c45b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"579872","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452149","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655124","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viuva-do-trono-o-renascimento-de-isabelax","title":"A VIUVA DO TRONO O RENASCIMENTO DE ISABELAX","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-viuva-negra-2019","title":"A Viuva Negra (2019)","type":"movie","year":"2019","poster_url":"/tGkpjxJ96EV0T7HiFkEt7C5h3ds.jpg","genres":["Ação","Crime","Suspense","Drama"],"tmdb_id":"551115","sources":[{"url":"https://mgeb.top/embed/551115","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/551115","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/44052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/44052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Negra%20_2019_%20_tmdb_551115_37aeae1d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Negra%20_1954_%20_tmdb_44052_2407410d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"551115","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"44052","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644921","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-vizinha-perfeita-2025","title":"A Vizinha Perfeita (2025)","type":"movie","year":"2025","poster_url":"/pIiaTk88kozithTIL7tV3tDHqc8.jpg","genres":["Crime","Documentário"],"tmdb_id":"1400782","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/ed129801d0c1dc827ab6470dff981575/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1400782","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1400782","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinha%20Perfeita%20_2025_%20_tmdb_1400782_3212e514.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1400782","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445236","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-vizinhanca-assombrada","title":"A Vizinhança Assombrada","type":"movie","year":null,"poster_url":"/kBpvdyMx7hD0zuTf1XrbHyxMx1Q.jpg","genres":["Terror"],"tmdb_id":"376311","sources":[],"provider_refs":[{"provider":"18","ref":"376311","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-vizinhanca-assombrada-2016","title":"A Vizinhança Assombrada (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinhan_a%20Assombrada%20_2016_%20_tmdb_376311_1e1bb72b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-vizinhanca-do-tigre","title":"A Vizinhança do Tigre","type":"movie","year":null,"poster_url":"/hGi4HyIyLlfZCQgGSclbjfQnLot.jpg","genres":["Documentário","Drama"],"tmdb_id":"259050","sources":[{"url":"https://mgeb.top/embed/259050","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/259050","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinhanca%20do%20Tigre%20_2016_%20_tmdb_259050_ed1d5675.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"259050","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452624","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770247","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viuva-2021","title":"A Viúva (2021)","type":"movie","year":"2021","poster_url":"/9tCiLEgKlgrJ4EWWr1DPdhFR7Sb.jpg","genres":["Suspense","Terror","Drama"],"tmdb_id":"675799","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/9c641519e6908414fcea7a407c226fcb/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/675799","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/675799","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"675799","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"76871","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452425","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654708","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-viuva-clicquot-a-mulher-que-formou-um-imperio","title":"A Viúva Clicquot – A Mulher que Formou um Império","type":"movie","year":null,"poster_url":"/iwhEYKNctfAMMImyehKFjK5ULCD.jpg","genres":["Drama"],"tmdb_id":"1042650","sources":[{"url":"https://mgeb.top/embed/1042650","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1042650","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Clicquot%20_%20A%20Mulher%20que%20Formou%20um%20Imp_rio%20_2024_%20_tmdb_1042650_717c79e2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1042650","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449428","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1042650.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670865","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-viuva-clicquot-a-mulher-que-formou-um-imperio-2024","title":"A Viúva Clicquot – A Mulher que Formou um Império (2024)","type":"movie","year":"2024","poster_url":"/iwhEYKNctfAMMImyehKFjK5ULCD.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1042650","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1042650","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viuva-negra","title":"A Viúva Negra","type":"movie","year":null,"poster_url":"/6u1ynJxGhqhKpFMvDmPk1OWQ5FW.jpg","genres":["Mistério","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/44052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/44052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-viuva-virgem","title":"A Viúva Virgem","type":"movie","year":null,"poster_url":"/wLyhrEKseEDN8NzB9LMheCCvVLJ.jpg","genres":["Comédia","Terror"],"tmdb_id":"250062","sources":[],"provider_refs":[{"provider":"18","ref":"250062","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-viuva-virgem-1972","title":"A Viúva Virgem (1972)","type":"movie","year":"1972","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Virgem%20_1972_%20_tmdb_250062_c37b641f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-ao-mundo-em-80-dias-2021","title":"A Volta ao Mundo em 80 Dias (2021)","type":"movie","year":"2021","poster_url":"/kuaBfUCrp1RBmdq1FsFHVe5eQO9.jpg","genres":["Animação","Família","Comédia"],"tmdb_id":"753601","sources":[{"url":"https://mgeb.top/embed/753601","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/753601","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20ao%20Mundo%20em%2080%20Dias%20_2021_%20_tmdb_753601_5738607b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"753601","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-da-montanha-enfeiticada-1978","title":"A Volta da Montanha Enfeiticada (1978)","type":"movie","year":"1978","poster_url":"/l2HCYrEFtcIaYX8Eus1EBsdJ91t.jpg","genres":["Aventura","Fantasia","Ficção científica","Família"],"tmdb_id":"14822","sources":[{"url":"https://mgeb.top/embed/14822","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14822","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-de-frank-james","title":"A Volta de Frank James","type":"movie","year":null,"poster_url":"/4e2X31I53QCIIxxLD62pjevLrSI.jpg","genres":["Faroeste"],"tmdb_id":"43821","sources":[],"provider_refs":[{"provider":"18","ref":"43821","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-de-frank-james-1940","title":"A Volta de Frank James (1940)","type":"movie","year":"1940","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20de%20Frank%20James%20_1940_%20_tmdb_43821_1ace4580.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-agente-da-u-n-c-l-e","title":"A Volta do Agente da U.N.C.L.E.","type":"movie","year":null,"poster_url":"/63RlXOunT1lFlyIOZnoxQsOzHzl.jpg","genres":["Ação","Crime","Suspense","TV"],"tmdb_id":"94116","sources":[],"provider_refs":[{"provider":"18","ref":"94116","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-do-agente-da-u-n-c-l-e-1983","title":"A Volta do Agente da U.N.C.L.E. (1983)","type":"movie","year":"1983","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Agente%20da%20U.N.C.L.E%20_1983_%20_tmdb_94116_c8e98750.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-espirito-de-natal","title":"A Volta do Espirito de Natal","type":"movie","year":null,"poster_url":"/idzfcrP4USlCM8LSBZTP9qQtdEs.jpg","genres":["Drama","TV"],"tmdb_id":"483548","sources":[{"url":"https://mgeb.top/embed/483548","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/483548","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Esp_rito%20de%20Natal%20_2017_%20_tmdb_483548_1f568bab.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"483548","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457508","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653965","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-volta-do-espirito-de-natal-2017","title":"A Volta do Espírito de Natal (2017)","type":"movie","year":"2017","poster_url":"/idzfcrP4USlCM8LSBZTP9qQtdEs.jpg","genres":["Drama","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/483548","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/483548","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-guerreiro-americano","title":"A Volta do Guerreiro Americano","type":"movie","year":null,"poster_url":"/i7Gx4Ns7UKIEQt4MR3numwDNfWd.jpg","genres":["Ação"],"tmdb_id":"25678","sources":[],"provider_refs":[{"provider":"18","ref":"25678","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-do-guerreiro-americano-1987","title":"A Volta do Guerreiro Americano (1987)","type":"movie","year":"1987","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Guerreiro%20Americano%20_1987_%20_tmdb_25678_b740b624.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-homem-de-seis-milhoes-de-dolares-e-da-mulher-bionica","title":"A Volta do Homem de Seis Milhões de Dólares e da Mulher Biônica","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Homem%20de%20Seis%20Milh_es%20de%20D_lares%20e%20da%20Mulher%20Bi_nica%20_1987_%20_tmdb_82085_9d9adf4c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"82085","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-volta-do-incrivel-hulk","title":"A Volta do Incrível Hulk","type":"movie","year":null,"poster_url":"/4unPQN3D2Xi794R7aUnSlxWzyD8.jpg","genres":["Ação","Drama","Aventura","TV"],"tmdb_id":"26881","sources":[{"url":"https://mgeb.top/embed/26881","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26881","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Incrivel%20Hulk%20_1988_%20_tmdb_26881_76596d11.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"26881","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459065","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762805","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-volta-do-juizo-final-2017","title":"A Volta do Juizo Final (2017)","type":"movie","year":"2017","poster_url":"/lQOrFfaFTtSSmOtDCSM2EzHguOq.jpg","genres":["Ficção científica","Terror","Ação"],"tmdb_id":"418588","sources":[{"url":"https://mgeb.top/embed/418588","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/418588","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-mestre-dos-brinquedos","title":"A Volta do Mestre dos Brinquedos","type":"movie","year":"1992","poster_url":"/1UOwGPXCO6pRn6eY3tVMqdXZ5Mz.jpg","genres":["Terror"],"tmdb_id":"26956","sources":[{"url":"https://mgeb.top/embed/26956","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26956","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Mestre%20dos%20Brinquedos%20_1992_%20_tmdb_26956_144c22d8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"26956","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-do-monstro-do-pantano","title":"A Volta do Monstro do Pântano","type":"movie","year":null,"poster_url":"/5sm1Yi1hgj805b9o2a1uC6BXhqw.jpg","genres":["Terror","Ficção científica"],"tmdb_id":"19142","sources":[],"provider_refs":[{"provider":"18","ref":"19142","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-do-monstro-do-pantano-1989","title":"A Volta do Monstro do Pântano (1989)","type":"movie","year":"1989","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Monstro%20do%20P_ntano%20_1989_%20_tmdb_19142_e5f30eab.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-pistoleiro","title":"A Volta do Pistoleiro","type":"movie","year":null,"poster_url":"/YvkbwDP08QRD0FkTpq1bYQy52Z.jpg","genres":["Faroeste"],"tmdb_id":"179087","sources":[],"provider_refs":[{"provider":"18","ref":"179087","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-do-pistoleiro-1967","title":"A Volta do Pistoleiro (1967)","type":"movie","year":"1967","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Pistoleiro%20_1967_%20_tmdb_179087_c3c35f48.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-do-todo-poderoso","title":"A Volta do Todo Poderoso","type":"movie","year":null,"poster_url":"/yWI70Xl5PqmUuCsikSK54qY6uyO.jpg","genres":["Fantasia","Comédia","Família"],"tmdb_id":"2698","sources":[{"url":"https://mgeb.top/embed/2698","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2698","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Todo%20Poderoso%20_2007_%20_tmdb_2698_1391737a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"2698","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460642","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651142","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-volta-do-todo-poderoso-2007","title":"A Volta do Todo Poderoso (2007)","type":"movie","year":"2007","poster_url":"/yWI70Xl5PqmUuCsikSK54qY6uyO.jpg","genres":["Fantasia","Comédia","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2698","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2698","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-dos-mortos-vivos","title":"A Volta dos Mortos Vivos","type":"movie","year":null,"poster_url":"/6DGsNitU2bO1n94GNwEeGX4PLMG.jpg","genres":["Comédia","Terror","Ficção científica"],"tmdb_id":"10925","sources":[{"url":"https://mgeb.top/embed/10925","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10925","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%20_1985_%20_tmdb_10925_b8bd6952.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10925","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451674","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655577","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-volta-dos-mortos-vivos-1985","title":"A Volta dos Mortos Vivos (1985)","type":"movie","year":"1985","poster_url":"/6DGsNitU2bO1n94GNwEeGX4PLMG.jpg","genres":["Comédia","Terror","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10925","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10925","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-dos-mortos-vivos-2","title":"A Volta dos Mortos Vivos 2","type":"movie","year":null,"poster_url":"/l8Pyhx3nNY5K3NZFrLYobwsB6rb.jpg","genres":["Terror","Comédia"],"tmdb_id":"24929","sources":[{"url":"https://mgeb.top/embed/24929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/24929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%202%20_1988_%20_tmdb_24929_c9202e95.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"24929","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452010","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655576","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-volta-dos-mortos-vivos-2-1988","title":"A Volta dos Mortos Vivos 2 (1988)","type":"movie","year":"1988","poster_url":"/l8Pyhx3nNY5K3NZFrLYobwsB6rb.jpg","genres":["Terror","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/24929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/24929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-dos-mortos-vivos-3-1993","title":"A Volta dos Mortos Vivos 3 (1993)","type":"movie","year":"1993","poster_url":"/9SssSUnFLRkyuusJ2bPRcxfrDLW.jpg","genres":["Terror","Romance"],"tmdb_id":"28260","sources":[{"url":"https://mgeb.top/embed/28260","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/28260","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%203%20_1993_%20_tmdb_28260_587de804.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"28260","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2466061","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-dos-mortos-vivos-rave-2005","title":"A Volta dos Mortos Vivos: Rave (2005)","type":"movie","year":"2005","poster_url":"/v0SybpvPqUm53CronME52gwtr1w.jpg","genres":["Ação","Terror","TV"],"tmdb_id":"24939","sources":[{"url":"https://mgeb.top/embed/24939","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/24939","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos_%20Rave%20_2005_%20_tmdb_24939_f7098695.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"24939","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-por-cima","title":"A Volta por Cima","type":"movie","year":null,"poster_url":"/plhaeDj3IR1VFno7LFxHR8Oa0tk.jpg","genres":["Comédia"],"tmdb_id":"624060","sources":[],"provider_refs":[{"provider":"18","ref":"624060","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-volta-por-cima-2019","title":"A Volta por Cima (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20por%20Cima%20_2019_%20_tmdb_624060_1e43eaca.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-volta-triunfal-do-herdeiro-da-elite","title":"A Volta Triunfal do Herdeiro da Elite","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-voz-da-resistencia-2021","title":"A Voz da Resistência (2021)","type":"movie","year":"2021","poster_url":"/sKNKpWSJBWyceOIdZjEl0yTzZt2.jpg","genres":["Drama","Guerra"],"tmdb_id":"529580","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/5c110dd1a0a2cc3ba4d0b9cd73eb814c/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/529580","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/529580","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20da%20Resist_ncia%20_2021_%20_tmdb_529580_e66f42d0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"529580","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457619","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652405","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-voz-das-sombras","title":"A Voz das Sombras","type":"movie","year":null,"poster_url":"/mELMhjvb3AdEex5Vjl0hBfjjdVb.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":"1327881","sources":[{"url":"https://mgeb.top/embed/1327881","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1327881","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20das%20Sombras%20_2024_%20_tmdb_1327881_b4d09fd2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1327881","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445015","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901058","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"902511","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-voz-das-sombras-2024","title":"A Voz das Sombras (2024)","type":"movie","year":"2024","poster_url":"/mELMhjvb3AdEex5Vjl0hBfjjdVb.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1327881","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1327881","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-voz-de-hind-rajab","title":"A Voz de Hind Rajab","type":"movie","year":null,"poster_url":"/9bu1V3NBCKia7x4j7ep3qYrXbHW.jpg","genres":["Drama","História"],"tmdb_id":"1480382","sources":[{"url":"https://mgeb.top/embed/1480382","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1480382","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20de%20Hind%20Rajab%20_2025_%20_tmdb_1480382_e9316878.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1480382","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444642","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"907468","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"911574","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-voz-de-hind-rajab-2025","title":"A Voz de Hind Rajab (2025)","type":"movie","year":"2025","poster_url":"/9bu1V3NBCKia7x4j7ep3qYrXbHW.jpg","genres":["Drama","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1480382","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1480382","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-voz-de-makayla-uma-carta-ao-mundo","title":"A Voz de Makayla Uma Carta ao Mundo","type":"movie","year":null,"poster_url":"/Mmft9Q4hkNAiHMWLR0ttSEIP88.jpg","genres":["Documentário"],"tmdb_id":"1214685","sources":[{"url":"https://mgeb.top/embed/1214685","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1214685","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20de%20Makayla_%20Uma%20Carta%20ao%20Mundo%20_2024_%20_tmdb_1214685_0ed6ff43.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1214685","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448911","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452632","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647715","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670328","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-voz-de-uma-geracao","title":"A Voz de uma Geração","type":"movie","year":null,"poster_url":"/mm5mpFhsgtB5qjfQiUw3qo4PiJL.jpg","genres":["Comédia"],"tmdb_id":"157360","sources":[{"url":"https://mgeb.top/embed/157360","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/157360","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-voz-do-silencio-2016","title":"A Voz do Silêncio (2016)","type":"movie","year":"2016","poster_url":"/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg","genres":["Animação","Drama","Romance"],"tmdb_id":"378064","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e89330365d297f8cd1e9efa1a587fa18/master.txt","audio":"leg","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/378064","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/378064","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20do%20Sil_ncio%20_2016_%20_tmdb_378064_8563b52e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"378064","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-voz-suprema-do-blues","title":"A Voz Suprema do Blues","type":"movie","year":null,"poster_url":"/qAHr52Tzmn2Nywsj9bPb1V18jdm.jpg","genres":["Drama","Música"],"tmdb_id":"615667","sources":[{"url":"https://mgeb.top/embed/615667","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/615667","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20Suprema%20do%20Blues%20_2020_%20_tmdb_615667_b06449ff.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"615667","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455903","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653621","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-voz-suprema-do-blues-2020","title":"A Voz Suprema do Blues (2020)","type":"movie","year":"2020","poster_url":"/qAHr52Tzmn2Nywsj9bPb1V18jdm.jpg","genres":["Drama","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/615667","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/615667","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-a-vinganca-de-frankenstein-1958",
+    "title": "A Vingança de Frankenstein (1958)",
+    "type": "movie",
+    "year": "1958",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Frankenstein%20_1958_%20_tmdb_3127_a74fa775.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-jack",
+    "title": "A Vingança de Jack",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/bcwCsAXYO13F2F4xMPS3mOHuuIB.jpg",
+    "genres": [
+      "Suspense",
+      "Terror",
+      "História"
+    ],
+    "tmdb_id": "1105014",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1105014",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1105014",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Jack%20_2023_%20_tmdb_1105014_17add7ce.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1105014",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448455",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451362",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654424",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um jornalista que está investigando os terríveis assassinatos do assassino em série Jack recebe cartas de alguém que afirma ser o estripador. Ele se aprofunda no caso e se vê preso em uma espiral de mistérios e sangue."
+  },
+  {
+    "id": "movie-a-vinganca-de-jack-2023",
+    "title": "A Vingança de Jack (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/bcwCsAXYO13F2F4xMPS3mOHuuIB.jpg",
+    "genres": [
+      "Suspense",
+      "Terror",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1105014",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1105014",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-jennifer",
+    "title": "A Vingança de Jennifer",
+    "type": "movie",
+    "year": "1978",
+    "poster_url": "/4c96SRsaAo1zO0zSoxipQo0ZxuT.jpg",
+    "genres": [
+      "Terror",
+      "Drama"
+    ],
+    "tmdb_id": "25239",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25239",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Jennifer Hills está trabalhando em um novo livro e precisa sair da cidade para concluí-lo. Para tanto ela aluga uma casa à beira do rio, perto de Nova York. Sua presença chama a atenção de alguns moradores locais, que resolvem atacá-la. Eles tiram sua roupa e a estupram, além de destruírem o livro que estava escrevendo. Apesar do forte trauma, Jennifer se recupera e passa a planejar em detalhes sua vingança."
+  },
+  {
+    "id": "movie-a-vinganca-de-jennifer-1978",
+    "title": "A Vingança de Jennifer (1978)",
+    "type": "movie",
+    "year": "1978",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Jennifer%20_1978_%20_tmdb_25239_1e5c48a6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-jennifer-deja-vu-2019",
+    "title": "A Vingança de Jennifer: Deja Vu (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/hrD8fU6tA1Pzh4ybxG4iN5TbVdU.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "369196",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4811517216d95533329b9e7ec266d659/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/369196",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/369196",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Após o estupro, Jennifer Hills (Camille Keaton) escreveu um best-seller de sua provação e do julgamento polêmico no qual ela foi acusada por fazer justiça com suas próprias mãos e assassinar brutalmente os seus agressores. Na pequena cidade, onde o estupro e vingança aconteceu, os familiares dos quatro estupradores que ela matou ficam furiosos quando o tribunal a declara inocente e resolvem se vingar de Jennifer e de sua filha, Christy (Jamie Bernadette)."
+  },
+  {
+    "id": "movie-a-vinganca-de-john-henry-2020",
+    "title": "A Vingança de John Henry (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/k7nQXpMO4uPgVAULoY39EoavxlG.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "658199",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/5cce88a9348972ea912d7a1610a3b8f0/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/658199",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/658199",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20John%20Henry%20_2020_%20_tmdb_658199_918b9c51.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "658199",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448520",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455795",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652094",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670904",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando duas crianças imigrantes que fogem de seu ex-líder de gangue, tropeçam em sua vida, John é forçado a se reconciliar com seu passado para tentar dar-lhes um futuro."
+  },
+  {
+    "id": "movie-a-vinganca-de-julia",
+    "title": "A Vingança de Julia",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/dciMTd3PPQuRosZ8p0qQlUn0yZR.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "84228",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "84228",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Julia decide marcar um encontro com o homem que conheceu pela internet e acaba sendo sequestrada e marcada com a letra X na própria pele. Mas a jovem está determinada a acabar com este pesadelo."
+  },
+  {
+    "id": "movie-a-vinganca-de-julia-2011",
+    "title": "A Vingança de Julia (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Julia%20_2011_%20_tmdb_84228_3e3dfadf.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-lefty-brown",
+    "title": "A Vingança de Lefty Brown",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/xQoi7Dapb6UZHpYQRfdX2eYAtwT.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "438457",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "438457",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Lefty Brown (Bill Pullman) é um ajudante de 63 anos que toda a sua vida ficou ao lado da lenda do faroeste Eddie Johnson (Peter Fonda). Johnson foi apontado como senador de Montana e, apesar das objeções da esposa Laura, planeja deixar Lefty em cargo do rancho. Quando um ladrão mata Johnson, Lefty é confrontado pela sombra do parceiro e das feias realidades da justiça na fronteira."
+  },
+  {
+    "id": "movie-a-vinganca-de-lefty-brown-2017",
+    "title": "A Vingança de Lefty Brown (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Lefty%20Brown%20_2017_%20_tmdb_438457_313313f8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-maria-2019",
+    "title": "A Vingança de Maria (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/d7KJjttE1IQECkKNmtunQTmmp6m.jpg",
+    "genres": [
+      "Ação",
+      "Crime"
+    ],
+    "tmdb_id": "591121",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/591121",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/591121",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Maria%20_2019_%20_tmdb_591121_cdcdedc0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "591121",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quando uma ex-assassina do cartel BlackRose se recusa a completar uma missão, a gangue ordena sua execução. Eles só não esperavam que ela fosse mais rápida e forjasse a própria morte, recomeçando uma nova vida. Mas o grupo de criminosos acaba descobrindo que ela está viva e passa a persegui-la."
+  },
+  {
+    "id": "movie-a-vinganca-de-nina-2024",
+    "title": "A Vingança de Nina (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/lUK3NL7Eb685dsvjIboxlm6FCkN.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "1244872",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c801951a1d22288ec797f2ad638fe9cb/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1244872",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1244872",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Nina%20_2024_%20_tmdb_1244872_4a711327.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1244872",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444277",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "925751",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Tinha dezesseis anos quando saiu de sua pequena cidade natal para perseguir o sonho de se tornar uma atriz. Trinta anos depois, ela retorna com o único objetivo de se vingar do homem que arruinou sua vida."
+  },
+  {
+    "id": "movie-a-vinganca-de-popeye",
+    "title": "A Vingança de Popeye",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/8kYGtiNVVjLSsJumGjqqYDkx9uA.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "1393382",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e8bc79a8470e90266b4ab5a3535693bb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1393382",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1393382",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Popeye%20_2025_%20_tmdb_1393382_e7f38de5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1393382",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451706",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450406",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "885009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Durante a inauguração de um acampamento de verão, conselheiros enfrentam o terror quando a lenda de Popeye ganha vida, transformando o local em um pesadelo sangrento."
+  },
+  {
+    "id": "movie-a-vinganca-de-um-kickboxer-6-o-desafio-final-1995",
+    "title": "A Vingança de um Kickboxer 6: O Desafio Final (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20um%20Kickboxer%206_%20O%20Desafio%20Final%20_1995_%20_tmdb_86523_3fa96dd5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-uma-mulher-2012",
+    "title": "A Vingança de uma Mulher (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20uma%20Mulher%20_2012_%20_tmdb_89451_.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-willard",
+    "title": "A Vingança de Willard",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/6zQd8k2p4eTWWvrr3vnNmQvUVh2.jpg",
+    "genres": [
+      "Terror",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "10929",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Willard%20_2003_%20_tmdb_10929_4770758f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10929",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451250",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655043",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um jovem com uma conexão incomum com ratos os utiliza por sua própria vontade sociopática."
+  },
+  {
+    "id": "movie-a-vinganca-de-willard-2003",
+    "title": "A Vingança de Willard (2003)",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/6zQd8k2p4eTWWvrr3vnNmQvUVh2.jpg",
+    "genres": [
+      "Terror",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-de-wyatt-earp",
+    "title": "A Vingança de Wyatt Earp",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/hqQvZ3TcV8f1oy8K5No9bR0FOxQ.jpg",
+    "genres": [
+      "Faroeste",
+      "Drama"
+    ],
+    "tmdb_id": "89888",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "89888",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Baseado na história real do lendário personagem histórico, Earp reconta a saga de como o pistoleiro reuniu os melhores homens do Velho Oeste para a missão de vingar o assassinato de sua amada esposa Dora. Na companhia do famoso Bat Masterson, Charlie Basset, Bill Tighman e Doc Holliday, Earp vai em busca dos irmãos Kennedy, assassinos que deixam um rastro de mortes de Dodge Cit ao México. Protegidos pelo pai influente, os impiedosos irmãos sabem que não precisam se preocupar com a lei -  mas ao mesmo tempo acabam subestimando Earp e seus homens."
+  },
+  {
+    "id": "movie-a-vinganca-de-wyatt-earp-2012",
+    "title": "A Vingança de Wyatt Earp (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20de%20Wyatt%20Earp%20_2012_%20_tmdb_89888_f5118aea.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-do-dragao",
+    "title": "A Vingança do Dragão",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ujoSOGMTqdFcxj1bXfFGizz7Tgr.jpg",
+    "genres": [
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "308529",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/308529",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/308529",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20do%20Drag_o%20_1979_%20_tmdb_19274_9e02bb66.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2455309",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458119",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-do-dragao-1979",
+    "title": "A Vingança do Dragão (1979)",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": "/5p5zpWZ8owERYSQPyAxpSVWLKga.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "19274",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/19274",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/19274",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "19274",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454710",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649284",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Shing Lung, um jovem rapaz do interior treina com seu avô, um grande mestre, o segredo do tradicional Kung Fu. Contra a vontade de seu avô passa a lutar por dinheiro, para ajudar no sustento de seu mestre que encontra-se doente. Até que seu avô encontra um velho inimigo, líder de uma facção criminosa que o mata covardemente. Desesperado e com sede de vingança, não mede conseqüências para tentar vingar a morte do seu grande mestre."
+  },
+  {
+    "id": "movie-a-vinganca-dos-lutadores-2023",
+    "title": "A Vingança dos Lutadores (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/y6QRQ0bHGt9Wc1BBTZsa1iB2PAm.jpg",
+    "genres": [
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "997391",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9306036d1d1517ac45e53b5fdebcab71/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/1c95a43eb0340de0338fc81f24dd0a62/master.txt",
+        "audio": "leg",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/997391",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/997391",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "997391",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Separados há vários anos, três lutadores habilidosos se reúnem para enfrentar um inimigo em comum que busca vingança. Veja tudo o que quiser."
+  },
+  {
+    "id": "movie-a-vinganca-dos-nerds",
+    "title": "A Vingança dos Nerds",
+    "type": "movie",
+    "year": "1984",
+    "poster_url": "/vwQEWLHtV77822u9fOK5CtuKrSu.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "14052",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vinganca%20dos%20Nerds%20_1984_%20_tmdb_14052_c73f1c37.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "14052",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449910",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762880",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Sátira da vida universitária de um grupo de excluídos que fundam sua própria fraternidade, após terem sido rejeitados por todas as outras do campus. É uma batalha de cérebro contra músculos. Os fortes do time de futebol tentam esmagar seus excêntricos oponentes, mas os nerds têm um plano perfeito para ganhar vantagem."
+  },
+  {
+    "id": "movie-a-vinganca-dos-nerds-1984",
+    "title": "A Vingança dos Nerds (1984)",
+    "type": "movie",
+    "year": "1984",
+    "poster_url": "/vwQEWLHtV77822u9fOK5CtuKrSu.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-dos-nerds-2-os-nerds-saem-de-ferias",
+    "title": "A Vingança dos Nerds 2: Os Nerds Saem de Férias",
+    "type": "movie",
+    "year": "1987",
+    "poster_url": "/z5mHAcMuxRr7QRfw643pY7O9xEK.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "16889",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/16889",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/16889",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vinganca%20dos%20Nerds%202_%20Os%20Nerds%20Saem%20de%20Ferias%20_1987_%20_tmdb_16889_6dfc0b9e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "16889",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447026",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "16889.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762879",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Os nerds Lewia, Wormser, Poindexter, Lamar e Booger voltam nessa sequência, mas agora preparados para tirar férias e ainda participar da Conferência das Fraternidades Unidas. Má lá eles encontram os Alpha Betas unidos ao gerente do hotel, impedindo que os Tri-Lambs se hospedem no local. O que sobra para eles é a ala Ricky Ricardo do decadente Hotel Coral Essex. Isso provoca a ira dos rapazes, que planejam uma vingança."
+  },
+  {
+    "id": "movie-a-vinganca-dos-sapos-assassinos",
+    "title": "A Vingança dos Sapos Assassinos",
+    "type": "movie",
+    "year": "1992",
+    "poster_url": "/4dvmb8xvyDsC9sWp4plbG70uRaA.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "tmdb_id": "96469",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "96469",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O território do Texas é controlado por vigilantes aéreos. Nesse local há uma reserva, tipo colônia penal, onde vivem sapos mutantes. Eles vivem em paz até a chegada dos vigilantes. Assim , decidem contra-atacar os inimigos"
+  },
+  {
+    "id": "movie-a-vinganca-dos-sapos-assassinos-1992",
+    "title": "A Vingança dos Sapos Assassinos (1992)",
+    "type": "movie",
+    "year": "1992",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20dos%20Sapos%20Assassinos%20_1992_%20_tmdb_96469_4f7a1cf2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-esta-na-moda-2015",
+    "title": "A Vingança Esta na Moda (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/fXNobPTdS2sDUTFGd6j4A7bluog.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298382",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298382",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vinganca-esta-na-moda",
+    "title": "A Vingança Está na Moda",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/fXNobPTdS2sDUTFGd6j4A7bluog.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "298382",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298382",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298382",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "298382",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447034",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645150",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Tilly Dunnage fugiu da cidade rural em que vivia na Austrália depois de ser acusada de ter se envolvido em um assassinato. Ela parte para a Europa e lá conquista fama e reconhecimento por seu trabalho na alta costura. Decidida a acertar as contas com seu passado, Tilly retorna para casa, transformada em uma mulher atraente e sofisticada. Com sua máquina de costura e estilo haute couture, ela transforma a vida das mulheres e chama a atenção dos homens, em especial de um jovem (Liam Hemsworth). Logo, ela demanda a doce vingança de quem por anos duvidou de sua palavra."
+  },
+  {
+    "id": "movie-a-vinganca-esta-servida",
+    "title": "A Vingança Está Servida",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/tR69VvHRyFAVfkH1LjhW7QwAwCF.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "1184773",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1184773",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1184773",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20Est_%20Servida%20_2023_%20_tmdb_1184773_f2aa3cf6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1184773",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445341",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447804",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1184773.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670139",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "735989",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em um castelo na França, um grupo de políticos e correspondentes internacionais se reúnem para um jantar. Mas eles logo descobrem que caíram em uma armadilha, preparada por uma mãe que busca vingar a morte de seu filho."
+  },
+  {
+    "id": "movie-a-vinganca-nao-e-um-jogo",
+    "title": "A Vingança Não é um Jogo",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/k0MiTVaOfsjler502U2dKdA37s2.jpg",
+    "genres": [
+      "Ficção científica",
+      "Comédia",
+      "Suspense"
+    ],
+    "tmdb_id": "1142101",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/3c93d2623fd7ad44586d18103e36558a/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1142101",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1142101",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20N_o%20_%20um%20Jogo%20_2024_%20_tmdb_1142101_66ef0fb6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1142101",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458812",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1142101.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762575",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Uma mãe de luto usa um jogo de realidade virtual para atrapalhar a viagem de fim de semana de seus antigos amigos. Mas o que começa como um exercício de cura terapêutica se transforma em uma noite de vingança."
+  },
+  {
+    "id": "movie-a-vinganca-perfeita-2018",
+    "title": "A Vingança Perfeita (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/aZESs94vKzjunQqJFBLa2CSjA8.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Suspense",
+      "Ação",
+      "Comédia",
+      "Mistério"
+    ],
+    "tmdb_id": "385332",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/385332",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/385332",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20Perfeita%20_2018_%20_tmdb_385332_fcbd5609.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "385332",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Dois assassinos de aluguel (Max Irons e Dexter Fletcher) embarcam uma missão suicída, encomendada por uma pessoa misteriosa. Até que surge uma mulher perigosa, Annie (Margot Robbie), que está mais envolvida nessa história do que aparenta."
+  },
+  {
+    "id": "movie-a-vinganca-e-minha-2012",
+    "title": "A Vingança é Minha (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/8JNhoXHOSYq4v6zvoKlEZSbbNsX.jpg",
+    "genres": [
+      "Drama",
+      "Ação",
+      "Crime"
+    ],
+    "tmdb_id": "298667",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298667",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298667",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vingan_a%20_%20Minha%20_2012_%20_tmdb_298667_39bd86b8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "298667",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após o ataque em seu recinto, Kane enterra seus amigos e se prepara para vingar suas mortes. Ele monta uma nova equipe e segue a trilha através da fronteira para Vancouver."
+  },
+  {
+    "id": "movie-a-vinicola-dos-sonhos",
+    "title": "A Vinícola dos Sonhos",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/epMSW8ybcKGGE6ZeptAvR75dqbP.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "650380",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/650380",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/650380",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "650380",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456306",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Mark Gentile é um advogado atarefado que está passando por uma crise de meia idade. Ele resolve viajar para um pequeno vilarejo na Itália e visitar o vinhedo onde cresceu, mas o encontra em estado de total abandono. Mark tem a ideia de reformar a propriedade com a ajuda dos moradores do vilarejo e começar a produzir vinho novamente."
+  },
+  {
+    "id": "movie-a-vinicola-dos-sonhos-2019",
+    "title": "A Vinícola dos Sonhos (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/epMSW8ybcKGGE6ZeptAvR75dqbP.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/650380",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/650380",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-virada",
+    "title": "A Virada",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/15hzyOCCiPbSQkgtUr4sdOJjQwO.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "9390",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9390",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9390",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20_2013_%20_tmdb_199570_52a273f1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20_2003_%20_tmdb_17345_0deba61b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Jerry%20Maguire_%20A%20Grande%20Virada%20_1996_%20_tmdb_9390_c84fc16b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9390",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651001",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651194",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-virada-2003",
+    "title": "A Virada (2003)",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/gP8SLm29PL31W8Un77BANx0m3Dx.jpg",
+    "genres": [
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "17345",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/17345",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17345",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "17345",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "199570",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451077",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645867",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Jay Austin quer vender carros usados da pior maneira... e é assim mesmo que ele negocia na sua loja. Promete muito mais do que pode cumprir e faz qualquer coisa para vender um carro. Sua atitude manipuladora se manifesta em todos os seus relacionamentos. Até sua esposa e seu filho sabem que não podem confiar nele. Mas Jay passa a trabalhar na restauração de um modelo clássico conversível e começa a ver que Deus está se esforçando para recupera-lo. Ao encarar a realidade de como ele se comporta de verdade, Jay Austin vive uma grande reviravolta: aprende a honrar a Deus nos negócios, nos relacionamentos, na sua vida toda!"
+  },
+  {
+    "id": "movie-a-virada-errada",
+    "title": "A Virada Errada",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/7ZUlOmzgopsbsTwIBcqfpBCDe7w.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "315055",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/315055",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/315055",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virada%20Errada%20_2015_%20_tmdb_315055_0642f045.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "315055",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901281",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Enquanto correm para o hospital para o nascimento do seu bebé, um casal bate em algo na estrada, mas não para. Pouco depois, a recém-mãe faz amizade com uma mulher cujo marido está em coma e descobre a terrível verdade."
+  },
+  {
+    "id": "movie-a-virada-errada-2015",
+    "title": "A Virada Errada (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/7ZUlOmzgopsbsTwIBcqfpBCDe7w.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/315055",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/315055",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-virgem-da-pedreira",
+    "title": "A Virgem da Pedreira",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/f3TvzHqcFTb2TPokvV6hjC6Ypsz.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "862739",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/862739",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/862739",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virgem%20da%20Pedreira%20_2026_%20_tmdb_862739_869385b8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "862739",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444740",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "909060",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Baseado em dois contos de Mariana Enriquez, este filme argentino de terror visceral acompanha uma adolescente durante um verão abafado no subúrbio. Obcecada por um garoto, ela recorre a um ritual pagão perverso e desencadeia uma tragédia."
+  },
+  {
+    "id": "movie-a-virgem-e-o-bilionario",
+    "title": "A Virgem e o Bilionario",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-virgem-vermelha",
+    "title": "A Virgem Vermelha",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/5oXFlJ6UdTbHihthSHW272CBP7F.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Suspense"
+    ],
+    "tmdb_id": "1118028",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1118028",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1118028",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Virgem%20Vermelha%20_2024_%20_tmdb_1118028_38a54b7f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1118028",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450121",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455209",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652016",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670368",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Aos 16 anos, Hildegart se tornou especialista em sexualidade feminina e uma das mentes jovens mais brilhantes da Espanha na década de 1930, moldada pela mãe para ser a mulher ideal do futuro. Mas, quando Hildegart começa a experimentar o mundo e se rebelar contra essas expectativas rígidas, sua mãe fará todo o possível para não permitir que ela se liberte."
+  },
+  {
+    "id": "movie-a-virgem-vermelha-2024",
+    "title": "A Virgem Vermelha (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/5oXFlJ6UdTbHihthSHW272CBP7F.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1118028",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1118028",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-visita",
+    "title": "A Visita",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "298312",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298312",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298312",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Visita%20_2014_%20_tmdb_500772_a9194673.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1231729",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "500772",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "298312",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655173",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um garoto (Ed Oxenbould) e sua irmã (Olivia DeJonge) são mandados pela mãe (Kathryn Hahn) para visitar seus avós que moram em uma remota fazenda. Não demora muito até que os irmãos descubram que os idosos estão envolvidos com coisas profundamente pertubadoras que colocam a vida dos netos em perigo."
+  },
+  {
+    "id": "movie-a-visita-2015",
+    "title": "A Visita (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298312",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298312",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-visao-2024",
+    "title": "A Visão (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vis_o%20_2024_%20_tmdb_1057006_7af315e1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vitima-suspeita-1995",
+    "title": "A Vitima Suspeita (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/sITtBHqFPmgtzKCGtjeLjgwpEjA.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "261048",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/261048",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/261048",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Sylvie vive caso de amor com Peter, do qual nasce Calley. Mas a menina é raptada e Sylvie vira a principal suspeita devido a alguns lapsos de memória. Após ao desaparecimento de Peter, Sylvie investiga, com a ajuda da mãe e de um detetive, e se descobre envolvida em incrível trama."
+  },
+  {
+    "id": "movie-a-viuva-das-sombras-2020",
+    "title": "A Viuva das Sombras (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/dn5iLpppgZqmoH60yiWlpK5SLKd.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "579872",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/10023b5ec4852879692bc5d2c62f768d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/579872",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/579872",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20das%20Sombras%20_2020_%20_tmdb_579872_4de1c45b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "579872",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452149",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655124",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em uma área densamente arborizada ao norte de São Petersburgo, as pessoas estão desaparecidas há três décadas. Os poucos cadáveres encontrados estavam nus. Em 14 de outubro de 2017, uma equipe de voluntários saiu para a floresta em busca de um adolescente desaparecido. Logo, toda a comunicação com eles foi perdida. Os habitantes locais acreditam que foram levados pelo mesmo espírito das trevas que levou os outros. Eles chamam de 'Limping Widow'."
+  },
+  {
+    "id": "movie-a-viuva-do-trono-o-renascimento-de-isabelax",
+    "title": "A VIUVA DO TRONO O RENASCIMENTO DE ISABELAX",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-viuva-negra-2019",
+    "title": "A Viuva Negra (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/tGkpjxJ96EV0T7HiFkEt7C5h3ds.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "551115",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/551115",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/551115",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/44052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/44052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Negra%20_2019_%20_tmdb_551115_37aeae1d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Negra%20_1954_%20_tmdb_44052_2407410d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "551115",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "44052",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644921",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Descoberta em seu esconderijo no Canadá, a antiga rainha do tráfico, Carmen, precisa voltar a Amsterdã para resolver negócios inacabados e manter sua família segura."
+  },
+  {
+    "id": "movie-a-vizinha-perfeita-2025",
+    "title": "A Vizinha Perfeita (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/pIiaTk88kozithTIL7tV3tDHqc8.jpg",
+    "genres": [
+      "Crime",
+      "Documentário"
+    ],
+    "tmdb_id": "1400782",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ed129801d0c1dc827ab6470dff981575/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1400782",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1400782",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinha%20Perfeita%20_2025_%20_tmdb_1400782_3212e514.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1400782",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445236",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Imagens de câmeras policiais revelam como uma antiga briga de vizinhos acabou em morte neste documentário sobre medo, preconceito e a lei de legítima defesa nos EUA."
+  },
+  {
+    "id": "movie-a-vizinhanca-assombrada",
+    "title": "A Vizinhança Assombrada",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/kBpvdyMx7hD0zuTf1XrbHyxMx1Q.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "376311",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "376311",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Os moradores de uma pequena cidade descobrem que algo mais sinistro do que os lobos assassinos estão à espreita no sertão : primeiro os lobos começam a aparecer mortos …… então as pessoas ."
+  },
+  {
+    "id": "movie-a-vizinhanca-assombrada-2016",
+    "title": "A Vizinhança Assombrada (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinhan_a%20Assombrada%20_2016_%20_tmdb_376311_1e1bb72b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-vizinhanca-do-tigre",
+    "title": "A Vizinhança do Tigre",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/hGi4HyIyLlfZCQgGSclbjfQnLot.jpg",
+    "genres": [
+      "Documentário",
+      "Drama"
+    ],
+    "tmdb_id": "259050",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/259050",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/259050",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vizinhanca%20do%20Tigre%20_2016_%20_tmdb_259050_ed1d5675.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "259050",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452624",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Juninho, Menor, Neguinho, Adilson e Eldo são jovens moradores do bairro do Nacional, na periferia de Contagem. Divididos entre o trabalho e o lazer, o crime e a esperança, cada um deles terá que encontrar maneiras de superar os obstáculos e domar o tigre que mora dentro deles."
+  },
+  {
+    "id": "movie-a-viuva-2021",
+    "title": "A Viúva (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/9tCiLEgKlgrJ4EWWr1DPdhFR7Sb.jpg",
+    "genres": [
+      "Suspense",
+      "Terror",
+      "Drama"
+    ],
+    "tmdb_id": "675799",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9c641519e6908414fcea7a407c226fcb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/675799",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/675799",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "675799",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "76871",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452425",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654708",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Laura Garland perdeu o marido na guerra enquanto estava grávida. Ela mora em uma grande casa que está dividida em duas. O governo a persegue, alegando que ela deve ocupar toda a casa, caso contrário, eles a tomarão dela. Laura aluga a casa para Ricky, um fora da lei que trará novos problemas para sua vida. Pelo menos ela tem outro plano."
+  },
+  {
+    "id": "movie-a-viuva-clicquot-a-mulher-que-formou-um-imperio",
+    "title": "A Viúva Clicquot – A Mulher que Formou um Império",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/iwhEYKNctfAMMImyehKFjK5ULCD.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1042650",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1042650",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1042650",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Clicquot%20_%20A%20Mulher%20que%20Formou%20um%20Imp_rio%20_2024_%20_tmdb_1042650_717c79e2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1042650",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449428",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1042650.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670865",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A história de Barbe-Nicole Ponsardin – uma viúva de 27 anos que depois da morte prematura do marido – desrespeita as convenções legais e assume os negócios de vinho que mantinham juntos. Sem apoio, ela passa a conduzir a empresa e a tomar decisões políticas e financeiras desafiando os críticos da época e revolucionando a indústria de Champagne ao se tornar uma das primeiras empresárias do ramo no mundo. Hoje, com 250 anos de história, a marca Veuve Clicquot é uma das mais reconhecidas e premiadas do setor."
+  },
+  {
+    "id": "movie-a-viuva-clicquot-a-mulher-que-formou-um-imperio-2024",
+    "title": "A Viúva Clicquot – A Mulher que Formou um Império (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/iwhEYKNctfAMMImyehKFjK5ULCD.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1042650",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1042650",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viuva-negra",
+    "title": "A Viúva Negra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6u1ynJxGhqhKpFMvDmPk1OWQ5FW.jpg",
+    "genres": [
+      "Mistério",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/44052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/44052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-viuva-virgem",
+    "title": "A Viúva Virgem",
+    "type": "movie",
+    "year": "1972",
+    "poster_url": "/wLyhrEKseEDN8NzB9LMheCCvVLJ.jpg",
+    "genres": [
+      "Comédia",
+      "Terror"
+    ],
+    "tmdb_id": "250062",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "250062",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Cristina fica viúva na noite de núpcias. Abalada, vai para o Rio e fica no apartamento que herdou do marido. Lá, o malandro Constantino passa a cortejá-la e o fantasma do esposo aparece e a impede de perder a virgindade."
+  },
+  {
+    "id": "movie-a-viuva-virgem-1972",
+    "title": "A Viúva Virgem (1972)",
+    "type": "movie",
+    "year": "1972",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Vi_va%20Virgem%20_1972_%20_tmdb_250062_c37b641f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-ao-mundo-em-80-dias-2021",
+    "title": "A Volta ao Mundo em 80 Dias (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/kuaBfUCrp1RBmdq1FsFHVe5eQO9.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Comédia"
+    ],
+    "tmdb_id": "753601",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/753601",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/753601",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20ao%20Mundo%20em%2080%20Dias%20_2021_%20_tmdb_753601_5738607b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "753601",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um sagüi estudioso sonha em conhecer o mundo. Ao lado de um sapo malandro, eles tentarão viajar ao redor da Terra em 80 dias."
+  },
+  {
+    "id": "movie-a-volta-da-montanha-enfeiticada-1978",
+    "title": "A Volta da Montanha Enfeiticada (1978)",
+    "type": "movie",
+    "year": "1978",
+    "poster_url": "/l2HCYrEFtcIaYX8Eus1EBsdJ91t.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Ficção científica",
+      "Família"
+    ],
+    "tmdb_id": "14822",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14822",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14822",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Os irmãos Tony e Tina, vieram do espaço e têm uma curiosa energia capaz de ajudar muitas pessoas. Foi em uma situação de ajudar a pessoas em perigo que Tony, acaba caindo em uma seringa que tinha um líquido que hipnotizava as pessoas… E foi assim que o pequeno Tony foi raptado. Desesperada com o sumiço do irmão Tina, pede ajuda a um grupo de garotos que se intitulam uma gangue. A ajuda desses garotos mais os poderes telepáticos de Tina, serão a bússola para reencontrar Tony, e salvá-lo das garras de um inescrupuloso cientista."
+  },
+  {
+    "id": "movie-a-volta-de-frank-james",
+    "title": "A Volta de Frank James",
+    "type": "movie",
+    "year": "1940",
+    "poster_url": "/4e2X31I53QCIIxxLD62pjevLrSI.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "43821",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "43821",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Frank James deixou sua vida de crimes e se tornou um pacífico fazendeiro. Nem quando Clem Tom Grayson, um jovem e grande amigo, lhe conta que Jesse James foi baleado pelas costas pelos irmãos Ford, Frank procura se vingar, pois crê na justiça. Aparentemente isto acontece, pois Bob e Charles são condenados por assassinato. Porém meia hora após o veredicto o governador lhes dá total perdão, e ainda recebem uma recompensa. Ao ver isto Frank constata que precisa fazer justiça com as próprias mãos."
+  },
+  {
+    "id": "movie-a-volta-de-frank-james-1940",
+    "title": "A Volta de Frank James (1940)",
+    "type": "movie",
+    "year": "1940",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20de%20Frank%20James%20_1940_%20_tmdb_43821_1ace4580.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-agente-da-u-n-c-l-e",
+    "title": "A Volta do Agente da U.N.C.L.E.",
+    "type": "movie",
+    "year": "1983",
+    "poster_url": "/63RlXOunT1lFlyIOZnoxQsOzHzl.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": "94116",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "94116",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-agente-da-u-n-c-l-e-1983",
+    "title": "A Volta do Agente da U.N.C.L.E. (1983)",
+    "type": "movie",
+    "year": "1983",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Agente%20da%20U.N.C.L.E%20_1983_%20_tmdb_94116_c8e98750.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-espirito-de-natal",
+    "title": "A Volta do Espirito de Natal",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/idzfcrP4USlCM8LSBZTP9qQtdEs.jpg",
+    "genres": [
+      "Drama",
+      "TV"
+    ],
+    "tmdb_id": "483548",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/483548",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/483548",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Esp_rito%20de%20Natal%20_2017_%20_tmdb_483548_1f568bab.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "483548",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653965",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Gabby Messinger, um anjo da guarda que tem problemas para seguir as regras e é conhecido por se intrometer no show de amor de outras pessoas, é encarregado pelo anjo Michael de ajudar a cidade de Angel Falls a encontrar seu espírito de Natal novamente."
+  },
+  {
+    "id": "movie-a-volta-do-espirito-de-natal-2017",
+    "title": "A Volta do Espírito de Natal (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/idzfcrP4USlCM8LSBZTP9qQtdEs.jpg",
+    "genres": [
+      "Drama",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/483548",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/483548",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-guerreiro-americano",
+    "title": "A Volta do Guerreiro Americano",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/i7Gx4Ns7UKIEQt4MR3numwDNfWd.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "25678",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25678",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-guerreiro-americano-1987",
+    "title": "A Volta do Guerreiro Americano (1987)",
+    "type": "movie",
+    "year": "1987",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Guerreiro%20Americano%20_1987_%20_tmdb_25678_b740b624.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-homem-de-seis-milhoes-de-dolares-e-da-mulher-bionica",
+    "title": "A Volta do Homem de Seis Milhões de Dólares e da Mulher Biônica",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Homem%20de%20Seis%20Milh_es%20de%20D_lares%20e%20da%20Mulher%20Bi_nica%20_1987_%20_tmdb_82085_9d9adf4c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "82085",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-volta-do-incrivel-hulk",
+    "title": "A Volta do Incrível Hulk",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/4unPQN3D2Xi794R7aUnSlxWzyD8.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Aventura",
+      "TV"
+    ],
+    "tmdb_id": "26881",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26881",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26881",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Incrivel%20Hulk%20_1988_%20_tmdb_26881_76596d11.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "26881",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459065",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762805",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Anos depois dos acontecimentos da série clássica, o Dr. David Banner ainda busca uma forma de acabar com suas transformações no Hulk. Quando um velho amigo do passado, Don Blake, reaparece com um segredo místico, Banner acaba envolvido numa teia de conspiração que o força a se transformar novamente. Com a ajuda de Blake — que possui uma ligação com o poderoso deus Thor — Banner/Hulk enfrenta uma organização criminosa para resgatar pessoas queridas e tentar controlar seu destino."
+  },
+  {
+    "id": "movie-a-volta-do-juizo-final-2017",
+    "title": "A Volta do Juizo Final (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/lQOrFfaFTtSSmOtDCSM2EzHguOq.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror",
+      "Ação"
+    ],
+    "tmdb_id": "418588",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/418588",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/418588",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Há 15 anos, o mundo foi invadido por criaturas demoníacas, saídas dos confins da terra, que se alimentaram dos humanos por um dia. Esse evento ficou conhecido como o Dia do Arrebatamento. Ele irá se repetir?"
+  },
+  {
+    "id": "movie-a-volta-do-mestre-dos-brinquedos",
+    "title": "A Volta do Mestre dos Brinquedos",
+    "type": "movie",
+    "year": "1992",
+    "poster_url": "/1UOwGPXCO6pRn6eY3tVMqdXZ5Mz.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "26956",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26956",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26956",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Mestre%20dos%20Brinquedos%20_1992_%20_tmdb_26956_144c22d8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "26956",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Em Berlim, durante a Segunda Guerra, o construtor de marionetes André Toulon, depois de perder a esposa,se vinga dos nazistas dando vida a seus bonecos, usando antigo segredo árabe."
+  },
+  {
+    "id": "movie-a-volta-do-monstro-do-pantano",
+    "title": "A Volta do Monstro do Pântano",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": "/5sm1Yi1hgj805b9o2a1uC6BXhqw.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica"
+    ],
+    "tmdb_id": "19142",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "19142",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O Monstro do Pântano retorna para lutar contra o malvado Dr. Arcane, que tem um novo laboratório científico cheio de criaturas transformadas por mutação genética, e escolhe Heather Locklear como seu novo objeto de afeição."
+  },
+  {
+    "id": "movie-a-volta-do-monstro-do-pantano-1989",
+    "title": "A Volta do Monstro do Pântano (1989)",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Monstro%20do%20P_ntano%20_1989_%20_tmdb_19142_e5f30eab.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-pistoleiro",
+    "title": "A Volta do Pistoleiro",
+    "type": "movie",
+    "year": "1967",
+    "poster_url": "/YvkbwDP08QRD0FkTpq1bYQy52Z.jpg",
+    "genres": [
+      "Faroeste"
+    ],
+    "tmdb_id": "179087",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "179087",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um pistoleiro e um cowboy ajudam uma garota mexicana a vingar o assassinato de seus pais relacionado à terra."
+  },
+  {
+    "id": "movie-a-volta-do-pistoleiro-1967",
+    "title": "A Volta do Pistoleiro (1967)",
+    "type": "movie",
+    "year": "1967",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Pistoleiro%20_1967_%20_tmdb_179087_c3c35f48.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-do-todo-poderoso",
+    "title": "A Volta do Todo Poderoso",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/yWI70Xl5PqmUuCsikSK54qY6uyO.jpg",
+    "genres": [
+      "Fantasia",
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "2698",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2698",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2698",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20do%20Todo%20Poderoso%20_2007_%20_tmdb_2698_1391737a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2698",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460642",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651142",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O congressista Evan Baxter, cujo desejo é \"mudar o mundo\", é ouvido por ninguém menos que Deus. Quando Deus aparece com o pedido desconcertante de construir uma arca, Evan tem certeza de que a está perdendo."
+  },
+  {
+    "id": "movie-a-volta-do-todo-poderoso-2007",
+    "title": "A Volta do Todo Poderoso (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/yWI70Xl5PqmUuCsikSK54qY6uyO.jpg",
+    "genres": [
+      "Fantasia",
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2698",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2698",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos",
+    "title": "A Volta dos Mortos Vivos",
+    "type": "movie",
+    "year": "1985",
+    "poster_url": "/6DGsNitU2bO1n94GNwEeGX4PLMG.jpg",
+    "genres": [
+      "Comédia",
+      "Terror",
+      "Ficção científica"
+    ],
+    "tmdb_id": "10925",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10925",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10925",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%20_1985_%20_tmdb_10925_b8bd6952.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10925",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451674",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655577",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Dois empregados de um armazém de medicamentos encontram no subsolo do estabelecimento barris do exército, lacrados e acidentalmente liberam um gás mortal no ar. Esse gás acaba re-animando os Mortos de um cemitério próximo, que vão querer apenas uma coisa dos vivos: seus miolos."
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos-1985",
+    "title": "A Volta dos Mortos Vivos (1985)",
+    "type": "movie",
+    "year": "1985",
+    "poster_url": "/6DGsNitU2bO1n94GNwEeGX4PLMG.jpg",
+    "genres": [
+      "Comédia",
+      "Terror",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10925",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10925",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos-2",
+    "title": "A Volta dos Mortos Vivos 2",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/l8Pyhx3nNY5K3NZFrLYobwsB6rb.jpg",
+    "genres": [
+      "Terror",
+      "Comédia"
+    ],
+    "tmdb_id": "24929",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/24929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/24929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%202%20_1988_%20_tmdb_24929_c9202e95.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "24929",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452010",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655576",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Barris misteriosos caem de um caminhão do exército perto de um cemitério abandonado. Quando pessoas da vizinhança abrem esses barris, deixam escapar um líquido verde que transforma os vivos em zumbis e ressuscita os mortos de suas tumbas."
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos-2-1988",
+    "title": "A Volta dos Mortos Vivos 2 (1988)",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/l8Pyhx3nNY5K3NZFrLYobwsB6rb.jpg",
+    "genres": [
+      "Terror",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/24929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/24929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos-3-1993",
+    "title": "A Volta dos Mortos Vivos 3 (1993)",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/9SssSUnFLRkyuusJ2bPRcxfrDLW.jpg",
+    "genres": [
+      "Terror",
+      "Romance"
+    ],
+    "tmdb_id": "28260",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/28260",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/28260",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos%203%20_1993_%20_tmdb_28260_587de804.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "28260",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2466061",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Curt (J. Trevor Edmond) e sua namorada Julie (Melinda Clarke) descobrem que a base militar da região está fazendo uma experiência secreta com o gás Trioxin, o mesmo que trouxe os mortos à vida nos filmes anteriores. Quem coordena a pesquisa é o pai de Curt, e a intenção é usar o gás como arma de guerra para que os zumbis devorem os inimigos. Curt, revoltado por não querer acompanhar o pai na sua transferência para a cidade de Oklahoma, resolve fugir com Julie. Na fuga eles sofrem um acidente, e Julie morre. Curt desesperado a leva para a base militar para ressuscitá-la com o gás, e ela se torna uma zumbi faminta por carne humana. Ainda assim, Curt quer mantê-la viva e precisa fugir do exército, que quer capturar a garota, e de uma gangue de latinos com a qual se encrencou."
+  },
+  {
+    "id": "movie-a-volta-dos-mortos-vivos-rave-2005",
+    "title": "A Volta dos Mortos Vivos: Rave (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/v0SybpvPqUm53CronME52gwtr1w.jpg",
+    "genres": [
+      "Ação",
+      "Terror",
+      "TV"
+    ],
+    "tmdb_id": "24939",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/24939",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/24939",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20dos%20Mortos%20Vivos_%20Rave%20_2005_%20_tmdb_24939_f7098695.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "24939",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Refazendo sua vida depois do ocorrido em Necropolis, Julian, agora na faculdade, encontra um pacote misterioso no sótão da casa do seu tio. Julian leva o pacote para seu amigo Cody para ser analisado, e descobrem uma misteriosa droga ainda mais potente que o “ecstasy”. Uma mega festa rave, está programada, ao saber Skeet, um traficante traça seus planos para vender o que puder da droga nesta balada. Mas a droga revela um efeito colateral aterrorizante, à medida que é consumida o que deveria ser uma experiência psicodélica, os usuários são transformados em zumbis!"
+  },
+  {
+    "id": "movie-a-volta-por-cima",
+    "title": "A Volta por Cima",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/plhaeDj3IR1VFno7LFxHR8Oa0tk.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "624060",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "624060",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Loucos para exibir o sucesso da vida adulta para desafetos e paixões do tempo de escola, dois amigos vivem uma noite muito louca no reencontro dos colegas de turma."
+  },
+  {
+    "id": "movie-a-volta-por-cima-2019",
+    "title": "A Volta por Cima (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Volta%20por%20Cima%20_2019_%20_tmdb_624060_1e43eaca.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-volta-triunfal-do-herdeiro-da-elite",
+    "title": "A Volta Triunfal do Herdeiro da Elite",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-voz-da-resistencia-2021",
+    "title": "A Voz da Resistência (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/sKNKpWSJBWyceOIdZjEl0yTzZt2.jpg",
+    "genres": [
+      "Drama",
+      "Guerra"
+    ],
+    "tmdb_id": "529580",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/5c110dd1a0a2cc3ba4d0b9cd73eb814c/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/529580",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/529580",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20da%20Resist_ncia%20_2021_%20_tmdb_529580_e66f42d0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "529580",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457619",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652405",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em 1942, a França está sob controle nazista. Os Aliados foram expulsos do continente e sua derrota parece provável. Sob essa sombra escura, um homem chamado Jacques usa um rádio para transmitir uma mensagem de esperança para os sobreviventes."
+  },
+  {
+    "id": "movie-a-voz-das-sombras",
+    "title": "A Voz das Sombras",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/mELMhjvb3AdEex5Vjl0hBfjjdVb.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "1327881",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1327881",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1327881",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20das%20Sombras%20_2024_%20_tmdb_1327881_b4d09fd2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1327881",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445015",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901058",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "902511",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Uma jovem de origem humilde pode herdar uma grande propriedade, desde que ela e o namorado cumpram uma série de condições bizarras."
+  },
+  {
+    "id": "movie-a-voz-das-sombras-2024",
+    "title": "A Voz das Sombras (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/mELMhjvb3AdEex5Vjl0hBfjjdVb.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1327881",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1327881",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-voz-de-hind-rajab",
+    "title": "A Voz de Hind Rajab",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/9bu1V3NBCKia7x4j7ep3qYrXbHW.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "1480382",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1480382",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1480382",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20de%20Hind%20Rajab%20_2025_%20_tmdb_1480382_e9316878.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1480382",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444642",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "907468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "911574",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em uma noite de terror em Gaza, o que começa como uma chamada de emergência para o departamento humanitário se transforma em uma luta desesperada pela vida de uma criança palestina de apenas 6 anos. O filme acompanha a agonizante tentativa dos voluntários da Cruz Vermelha de resgatar Hind Rajab, presa sob fogo cruzado dentro de um carro. Em permanente contato telefônico com a menina, cuja voz no filme é real, eles enfrentam o desafio de coordenar uma operação de resgate em um ambiente de violência implacável."
+  },
+  {
+    "id": "movie-a-voz-de-hind-rajab-2025",
+    "title": "A Voz de Hind Rajab (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/9bu1V3NBCKia7x4j7ep3qYrXbHW.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1480382",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1480382",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-voz-de-makayla-uma-carta-ao-mundo",
+    "title": "A Voz de Makayla Uma Carta ao Mundo",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/Mmft9Q4hkNAiHMWLR0ttSEIP88.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1214685",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1214685",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1214685",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20de%20Makayla_%20Uma%20Carta%20ao%20Mundo%20_2024_%20_tmdb_1214685_0ed6ff43.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1214685",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452632",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647715",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Neste curta documental, uma adolescente com autismo descobre o maravilhoso mundo da autoexpressão e mostra pela primeira vez que também tem uma voz."
+  },
+  {
+    "id": "movie-a-voz-de-uma-geracao",
+    "title": "A Voz de uma Geração",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/mm5mpFhsgtB5qjfQiUw3qo4PiJL.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "157360",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/157360",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/157360",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 2,
+    "overview": "O talento vocal é marca da família de Carol (Lake Bell). Esta jovem trabalha como treinadora vocal, enquanto seu pai é um conhecido dublador de trailers de filmes. Apesar das poucas possibilidades profissionais que ela encontra, seu pai a encoraja a lutar contra o machismo e as dificuldades do emprego para se tornar a voz da nova geração."
+  },
+  {
+    "id": "movie-a-voz-do-silencio-2016",
+    "title": "A Voz do Silêncio (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg",
+    "genres": [
+      "Animação",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "378064",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e89330365d297f8cd1e9efa1a587fa18/master.txt",
+        "audio": "leg",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/378064",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/378064",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20do%20Sil_ncio%20_2016_%20_tmdb_378064_8563b52e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "378064",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nishimiya Shouko é uma estudante com deficiência auditiva. Durante o ensino fundamental, após se transferir para uma nova escola, Shouko passa a ser alvo de bullying e em pouco tempo precisa se transferir. O que ela não esperava é que alguns anos depois, Ishida Shouya, um dos valentões que tanto a fez sofrer no passado surgisse de novo em sua vida com um novo propósito."
+  },
+  {
+    "id": "movie-a-voz-suprema-do-blues",
+    "title": "A Voz Suprema do Blues",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/qAHr52Tzmn2Nywsj9bPb1V18jdm.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "615667",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/615667",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/615667",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Voz%20Suprema%20do%20Blues%20_2020_%20_tmdb_615667_b06449ff.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "615667",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455903",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653621",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Na Chicago de 1927, o clima fica tenso quando a pioneira Mãe do Blues se reúne com a banda em um estúdio de gravação. Adaptação da peça de August Wilson."
+  },
+  {
+    "id": "movie-a-voz-suprema-do-blues-2020",
+    "title": "A Voz Suprema do Blues (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/qAHr52Tzmn2Nywsj9bPb1V18jdm.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/615667",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/615667",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  }
+]
