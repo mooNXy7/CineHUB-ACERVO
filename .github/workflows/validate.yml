@@ -143,6 +143,8 @@ jobs:
         run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
       - name: Build exact-name EPG mapping review candidates (read-only)
         run: python scripts/suggest_epg_mappings.py --output epg-mapping-candidates.json
+      - name: Build conservative near-name EPG candidates (read-only)
+        run: python scripts/suggest_epg_near_matches.py --output epg-near-match-candidates.json
       - name: Build exact-name channel logo suggestions (read-only)
         run: python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions.json
       - name: Build conservative radio genre suggestions (read-only)
@@ -159,6 +161,7 @@ jobs:
 
           audit = json.load(open("audit-catalog.json", encoding="utf-8"))
           coverage = json.load(open("stream-epg-coverage.json", encoding="utf-8"))
+          near_epg = json.load(open("epg-near-match-candidates.json", encoding="utf-8"))
           vod = json.load(open("vod-enrichment-plan.json", encoding="utf-8"))
           logos = json.load(open("channel-logo-suggestions.json", encoding="utf-8"))
           radio_genres = json.load(open("radio-genre-suggestions.json", encoding="utf-8"))
@@ -173,6 +176,7 @@ jobs:
               f"- **Catálogo VOD:** {counts['vod_total']:,} registros",
               f"- **Canais:** {counts['channels']:,}; {stream_counts['channels_with_stream_reference']:,} com referência de stream ({stream_coverage['channel_stream_reference_pct']}%)",
               f"- **EPG:** {stream_counts['channels_with_epg_association']:,} canais com associação estrutural ({stream_coverage['channel_epg_structural_association_pct']}%); não comprova programação atual",
+              f"- **EPG — candidatos por nome aproximado:** {near_epg['counts']['candidate_channels']:,} para revisão manual; não há associação automática",
               f"- **Rádios:** {counts['radios']:,}; {stream_counts['radios_with_stream_reference']:,} com referência de stream ({stream_coverage['radio_stream_reference_pct']}%)",
               f"- **Logos de canais:** {logos['counts']['higher_confidence_exact_candidates']:,} correspondências exatas e {logos['counts']['lower_confidence_quality_marker_candidates']:,} candidatas que ignoram marcadores HD/SD para revisão manual; nenhuma aplicação automática",
               f"- **Gêneros de rádio:** {radio_genres['counts']['candidate_suggestions']:,} sugestões por palavras-chave únicas; {radio_genres['counts']['ambiguous_candidates']:,} ambíguas separadas; nenhuma aplicação automática",
@@ -210,6 +214,7 @@ jobs:
             audit-catalog.json
             stream-epg-coverage.json
             epg-mapping-candidates.json
+            epg-near-match-candidates.json
             channel-logo-suggestions.json
             radio-genre-suggestions.json
             catalog-quality-report.json
