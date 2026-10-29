@@ -423,7 +423,7 @@
       "name": "BandNews FM",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC_SC",
       "logo_url": "https://static.mytuner.mobi/media/tvos_radios/YjB73sNAHd.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -431,7 +431,7 @@
       "name": "BandNews FM Belo Horizonte",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_BHAAC.aac",
       "logo_url": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -439,7 +439,7 @@
       "name": "BandNews FM Salvador",
       "stream_url": "https://server23.srvsh.com.br:7918/live.mp3",
       "logo_url": "https://img.band.com.br/image/2026/06/25/logo-bandnews-fm-10043.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -447,7 +447,7 @@
       "name": "BandNews FM São Paulo",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -487,7 +487,7 @@
       "name": "Bíblia em Áudio Rádio Web",
       "stream_url": "https://stm3.voxhd.com.br:8062/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -615,7 +615,7 @@
       "name": "CBN Amazônia 102.3",
       "stream_url": "https://stream2.cbnamazonia.com.br/cbn-mao",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -623,7 +623,7 @@
       "name": "CBN Belo Horizonte",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_BHAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -631,7 +631,7 @@
       "name": "CBN Belo Horizonte 106.1",
       "stream_url": "https://27423.live.streamtheworld.com/CBN_SPAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -639,7 +639,7 @@
       "name": "CBN Campinas 99.1",
       "stream_url": "https://8214.brasilstream.com.br/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio11233_1573682868.jpg",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -647,7 +647,7 @@
       "name": "CBN Rio de Janeiro 92.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -655,7 +655,7 @@
       "name": "CBN Rio de Janeiro 92.5 FM",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJ_ADP.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -663,7 +663,7 @@
       "name": "CBN Salvador",
       "stream_url": "https://sv1.audiostream.com.br/radio/8030/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -671,7 +671,7 @@
       "name": "CBN São Paulo",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC_SC",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -679,7 +679,7 @@
       "name": "CBN Vale 90.7",
       "stream_url": "https://8018.brasilstream.com.br/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -775,7 +775,7 @@
       "name": "Classic Pan",
       "stream_url": "https://stream.zeno.fm/rtk4pzcome3vv",
       "logo_url": "https://s.jpimg.com.br/wp-content/themes/jovempan/assets/src/images/classic-pan/Classic-Pan-Logo-Branco-RGB.png",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -783,7 +783,7 @@
       "name": "Classic Pan Belo Horizonte",
       "stream_url": "https://8374.brasilstream.com.br/stream",
       "logo_url": "https://jpimg.com.br/uploads/2025/04/classic_bh.png",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -919,7 +919,7 @@
       "name": "Cultura FM 95.1",
       "stream_url": "https://8040.brasilstream.com.br/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -927,7 +927,7 @@
       "name": "Cultura FM 100.9",
       "stream_url": "https://ssl1.transmissaodigital.com:20028/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -935,7 +935,7 @@
       "name": "Cultura FM 103.3",
       "stream_url": "https://player-culturafm.stream.uol.com.br/live/culturafm.m3u8",
       "logo_url": "https://cultura.uol.com.br/favicon.ico",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -943,7 +943,7 @@
       "name": "Cultura FM 104.9",
       "stream_url": "https://8571.brasilstream.com.br/stream",
       "logo_url": "https://i.postimg.cc/8C5KGB9c/04030140262.png",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -1055,7 +1055,7 @@
       "name": "Educativa FM Maceió",
       "stream_url": "https://radio.saopaulo01.com.br/9370/stream",
       "logo_url": "https://static.tudoradio.com/ins/w:120/plain/https://tudoradio.com/img/uploads/radios/64d05128d92c3.png",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -1071,7 +1071,7 @@
       "name": "Eldorado FM",
       "stream_url": "https://cast4.audiostream.com.br:2652/mp3",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13051_1439401448.jpg",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -1079,7 +1079,7 @@
       "name": "Energia 97 FM",
       "stream_url": "https://streaming.inweb.com.br/energia",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1135,7 +1135,7 @@
       "name": "FM Cultura 107.7",
       "stream_url": "https://streaming.procergs.com.br:8443/fmcultura/sfmcultura/chunklist_w644085663.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -1271,7 +1271,7 @@
       "name": "GrooveWave Lounge",
       "stream_url": "https://stm1.srvif.com:7576/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -1303,7 +1303,7 @@
       "name": "Hits FM 87.9",
       "stream_url": "https://stm24.srvaudio.com.br:10082/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1327,7 +1327,7 @@
       "name": "Hunter FM Hits Brasil",
       "stream_url": "https://live.hunter.fm/hitsbrasil_normal",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1535,7 +1535,7 @@
       "name": "Jovem Pan FM 89.9",
       "stream_url": "https://paineldj5.com.br:20028/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1543,7 +1543,7 @@
       "name": "Jovem Pan FM 91.1",
       "stream_url": "https://cast2.hoost.com.br:8039/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1551,7 +1551,7 @@
       "name": "Jovem Pan FM 91.3",
       "stream_url": "https://shout25.crossradio.com.br:18022/1,%20https://shout25.crossradio.com.br:18022/1",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1559,7 +1559,7 @@
       "name": "Jovem Pan FM 94.3",
       "stream_url": "https://r15.ciclano.io/proxy/radiomu1/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1567,7 +1567,7 @@
       "name": "Jovem Pan FM 99.1",
       "stream_url": "https://8062.brasilstream.com.br//stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1575,7 +1575,7 @@
       "name": "Jovem Pan FM 100.9",
       "stream_url": "https://stream.zeno.fm/c45wbq2us3buv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1583,7 +1583,7 @@
       "name": "Jovem Pan FM 103.3",
       "stream_url": "https://shout25.crossradio.com.br:24030//1",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1591,7 +1591,7 @@
       "name": "Jovem Pan FM 106.3",
       "stream_url": "https://shout25.crossradio.com.br:18022/1",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1599,7 +1599,7 @@
       "name": "Jovem Pan FM 106.9",
       "stream_url": "https://radio.saopaulo01.com.br:10937/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1607,7 +1607,7 @@
       "name": "Jovem Pan FM Belo Horizonte",
       "stream_url": "https://8062.brasilstream.com.br/mp3",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1615,7 +1615,7 @@
       "name": "Jovem Pan FM Blumenau",
       "stream_url": "https://ice.fabricahost.com.br/jpblumenau",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1655,7 +1655,7 @@
       "name": "Kiss FM 92.5",
       "stream_url": "https://26593.live.streamtheworld.com/RADIO_KISSFM_ADP.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1807,7 +1807,7 @@
       "name": "Metal Heads",
       "stream_url": "https://hts01.brascast.com:9194/live",
       "logo_url": "https://spaceks.net/sites/metalheads.com.br/images/logo/logo.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -1871,7 +1871,7 @@
       "name": "MGT Rádio Brasil Hits",
       "stream_url": "https://cast.mgtradio.net/radio/8030/aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1967,7 +1967,7 @@
       "name": "Mix FM Juiz de Fora 88.9",
       "stream_url": "https://stream02.ouveai.com.br/8034/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1975,7 +1975,7 @@
       "name": "Mix FM Porto Alegre",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_POAAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1983,7 +1983,7 @@
       "name": "Mix FM Recife 97.1",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_RECIFE971AAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1991,7 +1991,7 @@
       "name": "Mix FM Rio 102.1",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXRIOAAC_SC",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -1999,7 +1999,7 @@
       "name": "Mix FM São Paulo 106.3",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -2007,7 +2007,7 @@
       "name": "Mix FM Teresina 91.5",
       "stream_url": "https://webradio.amsolution.com.br/radio/8080/mix",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -2151,7 +2151,7 @@
       "name": "Notícia FM 88.9",
       "stream_url": "https://stm24.xcast.com.br:11928/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2367,7 +2367,7 @@
       "name": "Play Mix FM",
       "stream_url": "https://tgaurl.com.br/playmixfm",
       "logo_url": "https://i.postimg.cc/d3x5xqy2/PLAY-MIX-FM-fundo-transparente.png",
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -2439,7 +2439,7 @@
       "name": "Punk FM Brasil",
       "stream_url": "https://radio.punkfm.com.br/listen/punkfmbrasil/punkfmbrasil.mp3",
       "logo_url": "https://punkfm.com.br/wp-content/uploads/PFM-logo-icon.png",
-      "genre": null,
+      "genre": "Rock",
       "source_id": "upstream-import"
     },
     {
@@ -2615,7 +2615,7 @@
       "name": "Rádio Aparecida 104.3 FM",
       "stream_url": "https://aparecida.jmvstream.com/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio9571_1726148606.jpg",
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -2671,7 +2671,7 @@
       "name": "Rádio Bandeirantes",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RadioBandeirantesAAC.m3u8",
       "logo_url": "https://img.radios.com.br/radio/lg/radio10412_1630622638.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2679,7 +2679,7 @@
       "name": "Rádio Bandeirantes Campinas",
       "stream_url": "https://stm23.xcast.com.br:11284/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2687,7 +2687,7 @@
       "name": "Rádio Bandeirantes Goiânia",
       "stream_url": "https://casthttps.suaradionanet.net/13633/stream",
       "logo_url": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2022/11/cropped-favcon-band-180x180.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2815,7 +2815,7 @@
       "name": "Rádio Canção Nova",
       "stream_url": "https://cloud1.cdnseguro.com:20038/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3111,7 +3111,7 @@
       "name": "Rádio Cordeiro de Deus",
       "stream_url": "https://servidor33.brlogic.com:8598/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3135,7 +3135,7 @@
       "name": "Rádio Cristã Online",
       "stream_url": "https://servidor40.brlogic.com:8004/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/3671/logo/ddefcfbb544edceaee90270f85726f48.png",
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3151,7 +3151,7 @@
       "name": "Rádio Cultura 1260 AM",
       "stream_url": "https://sonicpanel.oficialserver.com/9990/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -3159,7 +3159,7 @@
       "name": "Rádio Cultura Brasil 77.9 FM",
       "stream_url": "https://player-culturaam.stream.uol.com.br/live/culturaam.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -3167,7 +3167,7 @@
       "name": "Rádio Cultura Rio Grande",
       "stream_url": "https://casthttps.suaradionanet.net/10402/stream",
       "logo_url": "https://manager.suaradionanet.net/storage/radios/culturaam/site_basic/64f0b1dde9a5c3.82638254.png",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -3295,7 +3295,7 @@
       "name": "Rádio Educativa Inatel 101.9 FM",
       "stream_url": "https://educativainatel.radioca.st/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -3431,7 +3431,7 @@
       "name": "Rádio FEMA Educativa",
       "stream_url": "https://servidor27-2.brlogic.com:8196/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -3487,7 +3487,7 @@
       "name": "Rádio Gaúcha 93.7 FM",
       "stream_url": "https://1132747t.ha.azioncdn.net/primary/gaucha_rbs.sdp/playlist.m3u8",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13176_1628168105.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3495,7 +3495,7 @@
       "name": "Rádio Gaúcha Serra",
       "stream_url": "https://liverdgauserra.rbsdirect.com.br/primary/gau_serra.sdp/chunklist_b32baa2b-bdde-45e8-bf11-b64cac697b0a.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3527,7 +3527,7 @@
       "name": "Rádio Globo",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac",
       "logo_url": "https://radioglobo.it/favicon.ico",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3655,7 +3655,7 @@
       "name": "Rádio Itatiaia FM 95.7",
       "stream_url": "https://8903.brasilstream.com.br/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3719,7 +3719,7 @@
       "name": "Rádio Jesus a Vida",
       "stream_url": "https://servidor40-3.brlogic.com:8004/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3743,7 +3743,7 @@
       "name": "Rádio Jornal 90.3 FM",
       "stream_url": "https://player-ne10-radiojornal-app.stream.uol.com.br/live/radiojornalrecifeapp_lsd.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3751,7 +3751,7 @@
       "name": "Rádio Jornal da Manhã",
       "stream_url": "https://centova4.transmissaodigital.com:20066/;",
       "logo_url": "https://jmonline.com.br/",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3759,7 +3759,7 @@
       "name": "Rádio Jornal da Manhã FM",
       "stream_url": "https://www.appradio.app:8107/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3767,7 +3767,7 @@
       "name": "Rádio Jornal FM 91.3",
       "stream_url": "https://str1.streamhostpg.com.br:8124/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3903,7 +3903,7 @@
       "name": "Rádio Máquina Instrumental",
       "stream_url": "https://servidor29-2.brlogic.com:8578/live",
       "logo_url": "https://public-rf-assets.minhawebradio.net/img/favicon.ico",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -4199,7 +4199,7 @@
       "name": "Radio Nova Instrumental",
       "stream_url": "https://streaming.radioempresabrasil.com.br/proxy/novainstrumental/stream",
       "logo_url": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240706_202435735.jpg?alt=media&token=561c7175-bd0b-42ce-8e0f-5d3723f6e3bd",
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -4551,7 +4551,7 @@
       "name": "Rádio Scalla Instrumental",
       "stream_url": "https://s01.svrdedicado.org:6782/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -4591,7 +4591,7 @@
       "name": "Rádio Serrana Mix",
       "stream_url": "https://stream03.dghost.com.br:8260/stream",
       "logo_url": "https://www.radioserranamix.com.br/public/24456-2024-06-25.png",
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -4615,7 +4615,7 @@
       "name": "Rádio Shekinah Só Louvor",
       "stream_url": "https://player.voxpainel.com.br/proxy/7076",
       "logo_url": "https://img.radios.com.br/radio/md/radio15612_1701426271.jpg",
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -4639,7 +4639,7 @@
       "name": "Rádio Som Brega",
       "stream_url": "https://stm5.painelcast.com:7588/stream",
       "logo_url": "https://cordeiroplasticos.com.br/sombrega1.png",
-      "genre": null,
+      "genre": "Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -4767,7 +4767,7 @@
       "name": "Rádio Terra Gaúcha",
       "stream_url": "https://5a57bda70564a.streamlock.net/terragaucha/terragaucha.stream/playlist.m3u8",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5071,7 +5071,7 @@
       "name": "Rádio Ziggy Mix",
       "stream_url": "https://stream.zeno.fm/h0bbyx9fzs8uv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -5119,7 +5119,7 @@
       "name": "RadioNOS Lounge Channel",
       "stream_url": "https://nos.radio.br/stream/13/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
     {
@@ -5391,7 +5391,7 @@
       "name": "Só Brega",
       "stream_url": "https://stm18.xcast.com.br:8290/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -5447,7 +5447,7 @@
       "name": "Stereo Mix",
       "stream_url": "https://servidor24.brlogic.com:7134/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/220246/mobileicon/10d0f66b1d0576ddfe366c6c13cdcb45x192.png",
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -5535,7 +5535,7 @@
       "name": "Super Rádio Tupi 96.5 FM",
       "stream_url": "https://8923.brasilstream.com.br/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5663,7 +5663,7 @@
       "name": "Transamérica FM 100.1",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_SPAAC.aac",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -5671,7 +5671,7 @@
       "name": "Transamérica Hits 97.7 FM",
       "stream_url": "https://servidor39.brlogic.com:8146/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -5895,7 +5895,7 @@
       "name": "Viola Viva Caipira",
       "stream_url": "https://centova.euroti.com.br:20055/stream",
       "logo_url": "http://violaviva.com.br/wp-content/uploads/2024/12/4.png",
-      "genre": null,
+      "genre": "Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -5903,7 +5903,7 @@
       "name": "Voz do Esporte 2",
       "stream_url": "https://paineldj.com.br:20172/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5911,7 +5911,7 @@
       "name": "Voz do Esporte 4",
       "stream_url": "https://paineldj.com.br:20193/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5927,7 +5927,7 @@
       "name": "Voz News FM 100.9",
       "stream_url": "https://s01.transmissaodigital.com:7390/stream",
       "logo_url": "https://i.postimg.cc/1zXSgCqx/50414159195.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -6866,7 +6866,7 @@
       "name": "https://aparecida.jmvstream.com/stream",
       "stream_url": "https://img.radios.com.br/radio/lg/radio9571_1726148606.jpg",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "reference-catalog",
       "stream_status": "imported"
     },
@@ -7226,7 +7226,7 @@
       "name": "https://1132747t.ha.azioncdn.net/primary/gaucha_rbs.sdp/playlist.m3u8",
       "stream_url": "https://img.radios.com.br/radio/lg/radio13176_1628168105.png",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "reference-catalog",
       "stream_status": "imported"
     },
@@ -7253,7 +7253,7 @@
       "name": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac",
       "stream_url": "https://radioglobo.it/favicon.ico",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "reference-catalog",
       "stream_status": "imported"
     },
