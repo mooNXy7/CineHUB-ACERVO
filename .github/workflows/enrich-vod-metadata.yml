@@ -8,6 +8,9 @@ on:
         required: true
         default: "100"
         type: string
+  push:
+    branches:
+      - audit/acervo-hardening-2026-10
 
 permissions:
   contents: read
@@ -29,7 +32,7 @@ jobs:
         env:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-          LIMIT: ${{ inputs.limit }}
+          LIMIT: ${{ inputs.limit || '100' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
