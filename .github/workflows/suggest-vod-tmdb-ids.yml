@@ -6,7 +6,12 @@ on:
       limit:
         description: "Maximum records without TMDB IDs to search (1–500)"
         required: true
-        default: "50"
+        default: "500"
+        type: string
+      offset:
+        description: "Number of eligible records to skip before this batch"
+        required: true
+        default: "0"
         type: string
   push:
     branches:
@@ -32,7 +37,8 @@ jobs:
         env:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-          LIMIT: ${{ inputs.limit || '50' }}
+          LIMIT: ${{ inputs.limit || '500' }}
+          OFFSET: ${{ inputs.offset || '50' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
@@ -42,6 +48,7 @@ jobs:
           python -m py_compile scripts/suggest_vod_tmdb_matches.py
           python scripts/suggest_vod_tmdb_matches.py \
             --limit "$LIMIT" \
+            --offset "$OFFSET" \
             --output "$RUNNER_TEMP/vod-tmdb-id-candidates.json"
       - name: Upload review-only suggestions
         uses: actions/upload-artifact@v4

@@ -55,6 +55,18 @@ class SuggestVODTMDBMatchesTests(unittest.TestCase):
             self.assertEqual(report["summary"]["year_conflict"], 1)
             self.assertEqual(report["candidates"], [])
 
+    def test_offset_skips_eligible_records_without_searching_them(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.fixture(root, {"id": "m-1", "title": "Filme Teste", "year": None})
+            with patch.object(suggest, "search_catalog_proxy") as proxy:
+                report = suggest.build_report(root, root / "out.json",
+                    "https://project.supabase.co/functions/v1/cinehub-catalog", "public-key",
+                    limit=10, delay=0, offset=1)
+            proxy.assert_not_called()
+            self.assertEqual(report["records_examined"], 0)
+            self.assertEqual(report["eligible_records_skipped"], 1)
+
     def test_requires_https_url_and_valid_limit(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

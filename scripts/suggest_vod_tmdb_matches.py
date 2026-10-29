@@ -100,15 +100,18 @@ def result_year(item: dict, endpoint: str) -> str | None:
 
 
 def build_report(root: Path, output: Path, function_url: str, anon_key: str,
-                 limit: int = 50, delay: float = 0.25) -> dict:
+                 limit: int = 50, delay: float = 0.25, offset: int = 0) -> dict:
     if not function_url.startswith("https://"):
         raise ValueError("A valid HTTPS CINEHUB_CATALOG_FUNCTION_URL is required.")
     if not 1 <= limit <= MAX_LIMIT:
         raise ValueError(f"limit must be between 1 and {MAX_LIMIT}")
+    if offset < 0:
+        raise ValueError("offset must be zero or greater")
     manifest = load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {})
     shard_cache: dict[str, dict[str, dict]] = {}
     examined = 0
+    eligible_skipped = 0
     network_requests = 0
     candidates: list[dict] = []
     counts = {"no_tmdb_id_examined": 0, "exact_title_candidates": 0,
@@ -144,6 +147,9 @@ def build_report(root: Path, output: Path, function_url: str, anon_key: str,
                 continue
             title = str(record.get("title") or "").strip()
             if not title:
+                continue
+            if eligible_skipped < offset:
+                eligible_skipped += 1
                 continue
             if examined >= limit:
                 break
@@ -201,7 +207,9 @@ def build_report(root: Path, output: Path, function_url: str, anon_key: str,
         "schema_version": 1, "report_type": "review_only_tmdb_id_candidates",
         "provider": "CineHUB Supabase Edge Function cinehub-catalog",
         "read_only": True, "catalog_mutated": False, "automatic_id_assignment": False,
-        "records_examined": examined, "network_requests": network_requests,
+        "records_examined": examined, "offset": offset,
+        "eligible_records_skipped": eligible_skipped,
+        "network_requests": network_requests,
         "summary": counts, "candidates": candidates,
         "notes": [
             "TMDB_TOKEN stays in the Supabase server environment and is never sent to GitHub Actions.",
@@ -220,6 +228,7 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--limit", type=int, default=50)
+    parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--delay", type=float, default=0.25)
     parser.add_argument("--function-url", default=os.environ.get(
         "CINEHUB_CATALOG_FUNCTION_URL",
@@ -227,8 +236,10 @@ def main() -> int:
     parser.add_argument("--anon-key", default=os.environ.get("SUPABASE_ANON_KEY", ""))
     args = parser.parse_args()
     report = build_report(args.root, args.output, args.function_url, args.anon_key,
-                          args.limit, max(0.0, args.delay))
+                          args.limit, max(0.0, args.delay), args.offset)
     print(json.dumps({"records_examined": report["records_examined"],
+                      "offset": report["offset"],
+                      "eligible_records_skipped": report["eligible_records_skipped"],
                       "network_requests": report["network_requests"],
                       "summary": report["summary"], "catalog_mutated": False}, ensure_ascii=False))
     return 0

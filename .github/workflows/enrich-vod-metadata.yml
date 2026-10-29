@@ -6,7 +6,12 @@ on:
       limit:
         description: "Maximum records with existing TMDB IDs to inspect (1–1000)"
         required: true
-        default: "100"
+        default: "1000"
+        type: string
+      offset:
+        description: "Number of eligible records to skip before this batch"
+        required: true
+        default: "0"
         type: string
   push:
     branches:
@@ -32,7 +37,8 @@ jobs:
         env:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-          LIMIT: ${{ inputs.limit || '100' }}
+          LIMIT: ${{ inputs.limit || '1000' }}
+          OFFSET: ${{ inputs.offset || '100' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
@@ -42,6 +48,7 @@ jobs:
           python -m py_compile scripts/enrich_vod_metadata.py
           python scripts/enrich_vod_metadata.py \
             --limit "$LIMIT" \
+            --offset "$OFFSET" \
             --output "$RUNNER_TEMP/vod-metadata-patch.json" \
             --cache "$RUNNER_TEMP/tmdb-metadata-cache.sqlite3"
       - name: Upload review-only patch

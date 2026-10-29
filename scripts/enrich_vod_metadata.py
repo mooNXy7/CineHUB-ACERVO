@@ -159,11 +159,13 @@ def store_details(db: sqlite3.Connection, endpoint: str, tmdb_id: str,
 
 
 def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
-                api_key: str, delay: float = 0.25) -> dict:
+                api_key: str, delay: float = 0.25, offset: int = 0) -> dict:
     if not api_key.strip():
         raise ValueError("SUPABASE_ANON_KEY is required; use the public project key to call CineHUB Supabase.")
     if not 1 <= limit <= MAX_LIMIT:
         raise ValueError(f"limit must be between 1 and {MAX_LIMIT}")
+    if offset < 0:
+        raise ValueError("offset must be zero or greater")
 
     manifest = load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {})
@@ -171,6 +173,7 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
     detail_cache: dict[str, dict[str, dict]] = {}
     network_requests = 0
     examined = 0
+    eligible_skipped = 0
     patches = []
     counts = {"ready": 0, "identity_review": 0, "not_found": 0, "request_error": 0, "complete": 0, "no_tmdb_id": 0}
 
@@ -212,6 +215,9 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 tmdb_id = str(record.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
                 if not tmdb_id.isdigit():
                     counts["no_tmdb_id"] += 1
+                    continue
+                if eligible_skipped < offset:
+                    eligible_skipped += 1
                     continue
                 if examined >= limit:
                     break
@@ -281,6 +287,8 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
         "catalog_mutated": False,
         "network_requests": network_requests,
         "records_examined": examined,
+        "offset": offset,
+        "eligible_records_skipped": eligible_skipped,
         "summary": counts,
         "patches": patches,
         "notes": [
@@ -302,13 +310,16 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=Path("reports/vod-metadata-patch.json"))
     parser.add_argument("--cache", type=Path, default=Path("/tmp/cinehub-tmdb-cache.sqlite3"))
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
+    parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--delay", type=float, default=0.25)
     args = parser.parse_args()
     key = os.environ.get("SUPABASE_ANON_KEY", "")
-    report = build_patch(args.root, args.output, args.cache, args.limit, key, max(0.0, args.delay))
+    report = build_patch(args.root, args.output, args.cache, args.limit, key, max(0.0, args.delay), args.offset)
     print(json.dumps({
         "output": str(args.output),
         "records_examined": report["records_examined"],
+        "offset": report["offset"],
+        "eligible_records_skipped": report["eligible_records_skipped"],
         "network_requests": report["network_requests"],
         "summary": report["summary"],
         "catalog_mutated": False,
