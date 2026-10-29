@@ -86,6 +86,20 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             self.assertEqual(report["records_examined"], 0)
             self.assertEqual(report["eligible_records_skipped"], 1)
 
+    def test_offset_counts_complete_records_in_stable_tmdb_id_sequence(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            complete = {"id": "movie-complete", "title": "Complete Film", "type": "movie",
+                        "year": "2001", "tmdb_id": "123", "poster_url": "/poster.jpg",
+                        "genres": ["Drama"], "overview": "Already complete."}
+            self._fixture(root, complete)
+            with patch.object(enrich, "fetch_tmdb_details") as fetch:
+                report = enrich.build_patch(root, root / "patch.json", root / "cache.sqlite3",
+                                            10, "test-key", delay=0, offset=1)
+            fetch.assert_not_called()
+            self.assertEqual(report["eligible_records_skipped"], 1)
+            self.assertEqual(report["records_examined"], 0)
+
     def test_requires_api_key_before_reading_or_writing(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

@@ -9,7 +9,7 @@ on:
         default: "1000"
         type: string
       offset:
-        description: "Number of eligible records to skip before this batch"
+        description: "Number of catalog records with existing numeric TMDB IDs to skip (stable checkpoint)"
         required: true
         default: "1000"
         type: string
@@ -19,6 +19,9 @@ on:
     paths-ignore:
       - 'catalog/**'
       - 'reports/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/**'
 
 permissions:
   contents: write
@@ -41,7 +44,7 @@ jobs:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '1000' }}
-          OFFSET: ${{ inputs.offset || '1000' }}
+          OFFSET: ${{ inputs.offset || '0' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then

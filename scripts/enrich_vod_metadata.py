@@ -207,14 +207,16 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 record = detail_cache[key_path].get(str(entry.get("id") or ""))
                 if not isinstance(record, dict):
                     continue
+                tmdb_id = str(record.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
                 missing = [field for field in ("poster_url", "year", "genres", "overview")
                            if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
-                if not missing:
-                    counts["complete"] += 1
-                    continue
-                tmdb_id = str(record.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
+
+                # Offset is anchored to the stable sequence of records with an existing
+                # numeric TMDB ID, not the changing subset with missing metadata. A
+                # successful batch therefore cannot shift the next batch's position.
                 if not tmdb_id.isdigit():
-                    counts["no_tmdb_id"] += 1
+                    if missing:
+                        counts["no_tmdb_id"] += 1
                     continue
                 if eligible_skipped < offset:
                     eligible_skipped += 1
@@ -222,6 +224,9 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 if examined >= limit:
                     break
                 examined += 1
+                if not missing:
+                    counts["complete"] += 1
+                    continue
                 endpoint = endpoint_for(section, record)
                 cached = cached_details(db, endpoint, tmdb_id)
                 if cached is None:
