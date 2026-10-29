@@ -174,7 +174,7 @@ jobs:
               f"- **Canais:** {counts['channels']:,}; {stream_counts['channels_with_stream_reference']:,} com referência de stream ({stream_coverage['channel_stream_reference_pct']}%)",
               f"- **EPG:** {stream_counts['channels_with_epg_association']:,} canais com associação estrutural ({stream_coverage['channel_epg_structural_association_pct']}%); não comprova programação atual",
               f"- **Rádios:** {counts['radios']:,}; {stream_counts['radios_with_stream_reference']:,} com referência de stream ({stream_coverage['radio_stream_reference_pct']}%)",
-              f"- **Logos de canais:** {logos['counts']['candidate_channels']:,} sugestões por nome normalizado exato para revisão; nenhuma aplicação automática",
+              f"- **Logos de canais:** {logos['counts']['higher_confidence_exact_candidates']:,} correspondências exatas e {logos['counts']['lower_confidence_quality_marker_candidates']:,} candidatas que ignoram marcadores HD/SD para revisão manual; nenhuma aplicação automática",
               f"- **Gêneros de rádio:** {radio_genres['counts']['candidate_suggestions']:,} sugestões por palavras-chave únicas; {radio_genres['counts']['ambiguous_candidates']:,} ambíguas separadas; nenhuma aplicação automática",
               "",
               "### Metadados VOD ausentes",
