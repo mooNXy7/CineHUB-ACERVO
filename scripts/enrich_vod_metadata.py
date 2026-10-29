@@ -17,7 +17,6 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTIONS = ("movies", "series", "anime", "doramas")
-IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
 DEFAULT_SUPABASE_URL = "https://qdheeiitzlvynshvkwcs.supabase.co"
 DEFAULT_FUNCTION_SLUG = "cinehub-catalog"
 DEFAULT_LIMIT = 100
@@ -107,9 +106,10 @@ def response_metadata(payload: dict, endpoint: str) -> dict:
         "id": str(payload.get("id") or ""),
         "titles": [str(payload.get(key) or "") for key in title_fields if payload.get(key)],
         "year": str(payload.get(date_field) or "")[:4] or None,
-        "poster_url": IMAGE_BASE + str(payload["poster_path"]) if payload.get("poster_path") else None,
+        "poster_url": str(payload["poster_path"]) if payload.get("poster_path") else None,
         "genres": [str(g.get("name")).strip() for g in payload.get("genres", [])
                    if isinstance(g, dict) and str(g.get("name") or "").strip()],
+        "overview": str(payload.get("overview") or "").strip() or None,
     }
 
 
@@ -207,7 +207,7 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 record = detail_cache[key_path].get(str(entry.get("id") or ""))
                 if not isinstance(record, dict):
                     continue
-                missing = [field for field in ("poster_url", "year", "genres")
+                missing = [field for field in ("poster_url", "year", "genres", "overview")
                            if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
                 if not missing:
                     counts["complete"] += 1
@@ -258,6 +258,8 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                     proposed["year"] = meta["year"]
                 if "genres" in missing and meta.get("genres"):
                     proposed["genres"] = meta["genres"]
+                if "overview" in missing and meta.get("overview"):
+                    proposed["overview"] = meta["overview"]
                 if not proposed:
                     counts["complete"] += 1
                     continue
@@ -267,7 +269,7 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                     "id": str(record.get("id") or ""),
                     "title": str(record.get("title") or ""),
                     "tmdb_id": tmdb_id,
-                    "matched_title": meta["titles"][0] if meta["titles"] else "",
+                    "matched_title": next(t for t in meta["titles"] if norm(t) == record_title),
                     "missing_fields": missing,
                     "proposed_fields": proposed,
                     "confidence": "exact_provider_id_and_title",
@@ -295,7 +297,8 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
             "This report proposes changes only; it never writes to catalog JSON files.",
             "Only existing numeric TMDB IDs are queried; no title search or new ID assignment is performed.",
             "Proposals require exact provider ID and a normalized title match. A year in the catalog title that conflicts with TMDB is held for review.",
-            "Only currently missing poster_url, year, and genres fields are proposed; existing non-empty metadata is never overwritten.",
+            "Only currently missing poster_url, year, genres, and overview fields are proposed; existing non-empty metadata is never overwritten.",
+            "poster_url preserves the catalog's relative TMDB poster-path convention.",
             "API credentials and full provider responses are excluded from this report.",
         ],
     }

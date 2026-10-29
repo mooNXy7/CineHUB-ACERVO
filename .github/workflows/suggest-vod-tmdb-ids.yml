@@ -16,6 +16,9 @@ on:
   push:
     branches:
       - audit/acervo-hardening-2026-10
+    paths-ignore:
+      - 'catalog/**'
+      - 'reports/**'
 
 permissions:
   contents: read
