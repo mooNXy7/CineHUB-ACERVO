@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build read-only channel-logo suggestions from the sanitized Saimo reference.
+"""Build tiered, read-only channel-logo suggestions from the sanitized Saimo reference.
 
-Matching is exact after Unicode accent, case, and punctuation normalization.
-Broadcast-quality markers (HD, SD, FHD, UHD, 4K) are preserved to avoid
-conflating regional or quality-specific variants. No catalog mutation occurs.
+Tier 1 matches exact normalized names (accent/case/punctuation only).
+Tier 2 additionally ignores broadcast-quality markers and is explicitly lower
+confidence for human review. No catalog mutation occurs.
 """
 from __future__ import annotations
 
@@ -18,12 +18,17 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = "catalog/channels/channels.json"
 REFERENCE_FILE = "catalog/reference/saimo-channel-logos.json"
+QUALITY_MARKERS = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|br)\b")
 
 
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).casefold()
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def norm_without_quality(value: Any) -> str:
+    return re.sub(r"\s+", " ", QUALITY_MARKERS.sub(" ", norm(value))).strip()
 
 
 def load_json(path: Path) -> Any:
@@ -36,32 +41,42 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
     channels = channels_doc.get("channels", [])
     entries = reference_doc.get("entries", [])
 
-    by_name: dict[str, list[dict[str, str]]] = defaultdict(list)
+    exact: dict[str, list[dict[str, str]]] = defaultdict(list)
+    relaxed: dict[str, list[dict[str, str]]] = defaultdict(list)
     for item in entries:
         if not isinstance(item, dict):
             continue
         name = str(item.get("name") or "").strip()
         logo = str(item.get("logo_url") or "").strip()
         if name and logo.startswith("https://"):
-            by_name[norm(name)].append({"name": name, "logo_url": logo})
+            entry = {"name": name, "logo_url": logo}
+            exact[norm(name)].append(entry)
+            relaxed[norm_without_quality(name)].append(entry)
 
     suggestions = []
     already_has_logo = 0
     missing_logo = 0
     no_reference = 0
     ambiguous = 0
+    exact_count = 0
+    quality_marker_count = 0
     for channel in channels:
         if not isinstance(channel, dict):
             continue
         name = str(channel.get("name") or "").strip()
         if not name:
             continue
-        current_logo = str(channel.get("logo_url") or "").strip()
-        if current_logo:
+        if str(channel.get("logo_url") or "").strip():
             already_has_logo += 1
             continue
         missing_logo += 1
-        matches = by_name.get(norm(name), [])
+        matches = exact.get(norm(name), [])
+        tier = "exact_normalized_name_review"
+        confidence = "higher"
+        if not matches:
+            matches = relaxed.get(norm_without_quality(name), [])
+            tier = "quality_marker_normalized_review"
+            confidence = "lower"
         unique_logos = {item["logo_url"] for item in matches}
         if len(unique_logos) == 1:
             match = matches[0]
@@ -70,9 +85,14 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
                 "channel_name": name,
                 "suggested_logo_url": match["logo_url"],
                 "reference_name": match["name"],
-                "status": "exact_normalized_name_review",
+                "status": tier,
+                "confidence": confidence,
                 "automatic_update": False,
             })
+            if confidence == "higher":
+                exact_count += 1
+            else:
+                quality_marker_count += 1
         elif len(unique_logos) > 1:
             ambiguous += 1
         else:
@@ -87,21 +107,22 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "source_fields_used": ["name", "logo_url"],
         "stream_or_drm_data_imported": False,
         "fuzzy_matching_used": False,
-        "quality_markers_preserved": True,
         "counts": {
             "catalog_channels": len(channels),
             "channels_with_logo": already_has_logo,
             "channels_missing_logo_examined": missing_logo,
             "candidate_channels": len(suggestions),
+            "higher_confidence_exact_candidates": exact_count,
+            "lower_confidence_quality_marker_candidates": quality_marker_count,
             "ambiguous_reference_matches": ambiguous,
             "no_reference_match": no_reference,
         },
         "suggestions": suggestions,
         "notes": [
             "Suggestions only; no channel record or logo is changed automatically.",
-            "Matching preserves HD/SD/FHD/UHD/4K markers to avoid conflating channel variants.",
+            "Higher-confidence matches preserve HD/SD/FHD/UHD/4K markers; lower-confidence matches ignore those markers and require extra review.",
             "Only HTTPS logo references are included; streams, DRM keys, headers, and playback fields are excluded.",
-            "Exact normalized names can still refer to regional variants; review before applying.",
+            "Even exact names may refer to regional variants; review before applying.",
         ],
     }
 
