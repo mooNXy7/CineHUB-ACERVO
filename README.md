@@ -123,3 +123,11 @@ python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions
 python scripts/suggest_radio_genres.py --output radio-genre-suggestions.json
 ```
 
+## Revisão de possíveis correspondências EPG
+
+Além do mapeador por nome exato, `epg-near-match-candidates.json` apresenta candidatos por similaridade textual alta e diferença mínima em relação ao segundo melhor resultado. Esse relatório serve somente para triagem: não grava `epg_id`, não altera `epg_sources` e preserva os IDs por feed. Correspondências regionais e nomes semelhantes ainda precisam ser verificadas manualmente.
+
+```bash
+python scripts/suggest_epg_near_matches.py --output epg-near-match-candidates.json
+```
+
