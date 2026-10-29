@@ -11,7 +11,7 @@ on:
       offset:
         description: "Number of eligible records to skip before this batch"
         required: true
-        default: "0"
+        default: "500"
         type: string
   push:
     branches:
@@ -41,7 +41,7 @@ jobs:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '500' }}
-          OFFSET: ${{ inputs.offset || '50' }}
+          OFFSET: ${{ inputs.offset || '500' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then

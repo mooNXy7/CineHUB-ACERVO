@@ -25,6 +25,10 @@ O limite controla apenas quantos exemplos são incluídos por categoria; as cont
 
 Os testes de formato e duplicidade são heurísticos; **não provam** que um ID seja correto ou incorreto. O relatório não executa enriquecimento. Antes de qualquer consulta em lote, é necessário escolher um provedor autorizado, revisar os termos/licença e definir como IDs e procedência serão armazenados.
 
+## Execução de enriquecimento em lotes
+
+O fluxo `Build VOD metadata review patch` já concluiu o primeiro lote de 1.000 registros elegíveis (offset 0). Foram aplicadas 913 correções em registros com ID TMDB existente e título compatível, preenchendo 1.533 campos ausentes; 84 casos com divergência de ano foram mantidos para revisão, 3 registros já estavam completos e nenhum erro de consulta ou conflito de identidade ocorreu. O aplicador preservou campos existentes e fontes de reprodução. O lote seguinte parte do offset 1.000. As sugestões de IDs TMDB para registros sem ID permanecem em relatório separado e nunca são aplicadas automaticamente.
+
 ## Próximas etapas seguras
 
 1. **Definir provedor e licença:** preferir API oficial ou fonte com termos documentados. Registrar o nome do provedor, data da consulta, licença/termos e campos obtidos. Não copiar chaves de API de repositórios de referência nem incluir credenciais em arquivos, URLs ou logs.
