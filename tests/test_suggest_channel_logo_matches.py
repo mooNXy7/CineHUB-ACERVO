@@ -21,7 +21,7 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
             (root / "catalog/reference/saimo-channel-logos.json").write_text(json.dumps({
                 "source": "https://example.org/reference",
                 "entries": [
-                    {"name": "Canal Arvore", "logo_url": "https://logos.example/arvore.png"},
+                    {"name": "Canal Arvore HD", "logo_url": "https://logos.example/arvore.png"},
                 ],
             }), encoding="utf-8")
             before = channels_path.read_text(encoding="utf-8")
@@ -32,11 +32,28 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
         self.assertTrue(report["read_only"])
         self.assertFalse(report["catalog_mutated"])
         self.assertFalse(report["stream_or_drm_data_imported"])
+        self.assertTrue(report["quality_markers_preserved"])
         self.assertEqual(report["counts"]["candidate_channels"], 1)
         self.assertEqual(report["counts"]["channels_missing_logo_examined"], 2)
         self.assertEqual(report["counts"]["no_reference_match"], 1)
         self.assertEqual(report["suggestions"][0]["channel_id"], "c1")
         self.assertFalse(report["suggestions"][0]["automatic_update"])
+
+    def test_quality_variants_do_not_match_automatically(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "catalog/channels").mkdir(parents=True)
+            (root / "catalog/reference").mkdir(parents=True)
+            (root / "catalog/channels/channels.json").write_text(json.dumps({
+                "channels": [{"id": "c1", "name": "Canal HD", "logo_url": None}]
+            }), encoding="utf-8")
+            (root / "catalog/reference/saimo-channel-logos.json").write_text(json.dumps({
+                "entries": [{"name": "Canal", "logo_url": "https://logos.example/a.png"}]
+            }), encoding="utf-8")
+            report = build_report(root)
+
+        self.assertEqual(report["counts"]["candidate_channels"], 0)
+        self.assertEqual(report["counts"]["no_reference_match"], 1)
 
     def test_ambiguous_logo_matches_are_not_suggested(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -49,7 +66,7 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
             (root / "catalog/reference/saimo-channel-logos.json").write_text(json.dumps({
                 "entries": [
                     {"name": "Band", "logo_url": "https://logos.example/a.png"},
-                    {"name": "Band HD", "logo_url": "https://logos.example/b.png"},
+                    {"name": "Band", "logo_url": "https://logos.example/b.png"},
                 ]
             }), encoding="utf-8")
             report = build_report(root)
