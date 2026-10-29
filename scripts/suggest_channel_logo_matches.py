@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Build read-only channel-logo suggestions from the sanitized Saimo reference.
 
-Only blank catalog logo fields are considered. Matching is exact after Unicode,
-accent, case, and common broadcast-quality-marker normalization. No stream,
-DRM, headers, or playback data is read or imported, and the catalog is never
-modified.
+Matching is exact after Unicode accent, case, and punctuation normalization.
+Broadcast-quality markers (HD, SD, FHD, UHD, 4K) are preserved to avoid
+conflating regional or quality-specific variants. No catalog mutation occurs.
 """
 from __future__ import annotations
 
@@ -24,7 +23,6 @@ REFERENCE_FILE = "catalog/reference/saimo-channel-logos.json"
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).casefold()
-    value = re.sub(r"\b(?:hd|sd|fhd|uhd|4k|br)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
@@ -89,6 +87,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "source_fields_used": ["name", "logo_url"],
         "stream_or_drm_data_imported": False,
         "fuzzy_matching_used": False,
+        "quality_markers_preserved": True,
         "counts": {
             "catalog_channels": len(channels),
             "channels_with_logo": already_has_logo,
@@ -100,6 +99,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         "suggestions": suggestions,
         "notes": [
             "Suggestions only; no channel record or logo is changed automatically.",
+            "Matching preserves HD/SD/FHD/UHD/4K markers to avoid conflating channel variants.",
             "Only HTTPS logo references are included; streams, DRM keys, headers, and playback fields are excluded.",
             "Exact normalized names can still refer to regional variants; review before applying.",
         ],
