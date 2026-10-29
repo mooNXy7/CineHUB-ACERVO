@@ -108,3 +108,18 @@ Para executar os workflows manuais de revisão no GitHub Actions, configure o se
 - Antes de aceitar candidatos, confirme título, ano, tipo de mídia e identidade (remakes/edições diferentes podem compartilhar nomes).
 
 O endpoint `cinehub-catalog` precisa estar acessível pelo GitHub Actions. Se o segredo `SUPABASE_ANON_KEY` não estiver configurado no repositório, os workflows param com uma mensagem clara; não é necessário configurar outro token TMDB no GitHub.
+
+## Sugestões de logos e gêneros (somente revisão)
+
+A validação também gera dois relatórios sem alterar os catálogos:
+
+- `channel-logo-suggestions.json`: sugestões de logos a partir da referência sanitizada do Saimo Android TV. Correspondências por nome normalizado exato são separadas das correspondências de menor confiança que ignoram marcadores como HD/SD; as duas categorias exigem revisão humana.
+- `radio-genre-suggestions.json`: sugere gênero apenas quando as palavras-chave do nome da estação apontam para uma categoria única. Casos ambíguos são separados e não recebem sugestão automática.
+
+Os relatórios não importam streams, cabeçalhos, DRM nem dados de reprodução. Uma sugestão nunca altera o registro por si só. Para executar localmente:
+
+```bash
+python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions.json
+python scripts/suggest_radio_genres.py --output radio-genre-suggestions.json
+```
+
