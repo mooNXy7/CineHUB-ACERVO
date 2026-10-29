@@ -32,14 +32,15 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
         self.assertTrue(report["read_only"])
         self.assertFalse(report["catalog_mutated"])
         self.assertFalse(report["stream_or_drm_data_imported"])
-        self.assertTrue(report["quality_markers_preserved"])
         self.assertEqual(report["counts"]["candidate_channels"], 1)
+        self.assertEqual(report["counts"]["higher_confidence_exact_candidates"], 1)
+        self.assertEqual(report["counts"]["lower_confidence_quality_marker_candidates"], 0)
         self.assertEqual(report["counts"]["channels_missing_logo_examined"], 2)
         self.assertEqual(report["counts"]["no_reference_match"], 1)
         self.assertEqual(report["suggestions"][0]["channel_id"], "c1")
         self.assertFalse(report["suggestions"][0]["automatic_update"])
 
-    def test_quality_variants_do_not_match_automatically(self):
+    def test_quality_variant_is_separated_as_lower_confidence(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             (root / "catalog/channels").mkdir(parents=True)
@@ -52,8 +53,11 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
             }), encoding="utf-8")
             report = build_report(root)
 
-        self.assertEqual(report["counts"]["candidate_channels"], 0)
-        self.assertEqual(report["counts"]["no_reference_match"], 1)
+        self.assertEqual(report["counts"]["candidate_channels"], 1)
+        self.assertEqual(report["counts"]["higher_confidence_exact_candidates"], 0)
+        self.assertEqual(report["counts"]["lower_confidence_quality_marker_candidates"], 1)
+        self.assertEqual(report["suggestions"][0]["confidence"], "lower")
+        self.assertFalse(report["suggestions"][0]["automatic_update"])
 
     def test_ambiguous_logo_matches_are_not_suggested(self):
         with tempfile.TemporaryDirectory() as temp:
