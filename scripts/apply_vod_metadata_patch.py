@@ -32,7 +32,7 @@ def safe_path(root: Path, relative: str) -> Path:
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or "")).casefold()
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
-    value = re.sub(r"\\s*\\(((?:19|20)\\d{2})\\)\\s*$", "", value)
+    value = re.sub(r"\s*\(((?:19|20)\d{2})\)\s*$", "", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
