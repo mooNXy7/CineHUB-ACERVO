@@ -42,11 +42,11 @@ class SuggestEpgNearMatchesTests(unittest.TestCase):
 
     def test_equally_close_candidates_are_not_proposed(self):
         with tempfile.TemporaryDirectory() as temp:
-            root = self._root(temp, ["Canal X Sports"], ["Canal X Sport", "Canal X Sport HD"])
+            root = self._root(temp, ["Canal X Sport"], ["Canal X Sports", "Canal X Sporty"])
             report = build_report(root)
 
         self.assertEqual(report["counts"]["candidate_channels"], 0)
-        self.assertGreaterEqual(report["counts"]["skipped_ambiguous"], 0)
+        self.assertEqual(report["counts"]["skipped_ambiguous"], 1)
 
 
 if __name__ == "__main__":
