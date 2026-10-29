@@ -1,1 +1,4209 @@
-[{"id":"movie-a-excecao-as-suas-regras","title":"A EXCECAO AS SUAS REGRAS","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-excecao","title":"A Exceção","type":"movie","year":null,"poster_url":"/69l4gEhfGW7X72OzuFE13mKvDe5.jpg","genres":["Guerra","Drama","Romance"],"tmdb_id":"339987","sources":[{"url":"https://mgeb.top/embed/339987","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/339987","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Exce_o%20_2017_%20_tmdb_339987_4de46703.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"339987","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458179","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-experiencia-1995","title":"A Experiencia (1995)","type":"movie","year":"1995","poster_url":"/uRssQeAvrXVYoCkgfQounfUQ1y1.jpg","genres":["Ficção científica","Terror","Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/9348","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9348","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-experiencia-3-2005","title":"A Experiencia 3 (2005)","type":"movie","year":"2005","poster_url":"/eH7pQTCwenRToalvPAreFjdHDmG.jpg","genres":["Ficção científica","Ação","Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/9711","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9711","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-experiencia-4-2007","title":"A Experiencia 4 (2007)","type":"movie","year":"2007","poster_url":"/3RzU7WX8A3uVt9Hm1Pu5XHLyXfG.jpg","genres":["Terror","Ficção científica","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/15212","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/15212","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-experiencia-ii-a-mutacao-1998","title":"A Experiencia II - A Mutacao (1998)","type":"movie","year":"1998","poster_url":"/53IqPn7T5uP5SSv6ToQW0a3i9Rk.jpg","genres":["Ficção científica","Ação","Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10216","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10216","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-experiencia","title":"A Experiência","type":"movie","year":null,"poster_url":"/uRssQeAvrXVYoCkgfQounfUQ1y1.jpg","genres":["Ficção científica","Terror","Ação"],"tmdb_id":"9348","sources":[{"url":"https://mgeb.top/embed/9348","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9348","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20_2001_%20_tmdb_575_7bbf9cb5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20_1995_%20_tmdb_9348_4369010a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9348","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"575","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452060","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457783","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655209","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-experiencia-4-o-despertar","title":"A Experiência 4: O Despertar","type":"movie","year":null,"poster_url":"/3RzU7WX8A3uVt9Hm1Pu5XHLyXfG.jpg","genres":["Terror","Ficção científica","Suspense"],"tmdb_id":"15212","sources":[{"url":"https://mgeb.top/embed/15212","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/15212","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%204%20-%20O%20Despertar%20_2007_%20_tmdb_15212_28048855.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"15212","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451941","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457762","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655206","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-experiencia-ii-a-mutacao","title":"A Experiência II - A Mutação","type":"movie","year":null,"poster_url":"/53IqPn7T5uP5SSv6ToQW0a3i9Rk.jpg","genres":["Ficção científica","Ação","Terror"],"tmdb_id":"10216","sources":[{"url":"https://mgeb.top/embed/10216","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10216","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Experi_ncia%20II%20-%20A%20Muta_o%20_1998_%20_tmdb_10216_84fa6056.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10216","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452019","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457830","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655208","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-experiencia-iii","title":"A Experiência III","type":"movie","year":null,"poster_url":"/eH7pQTCwenRToalvPAreFjdHDmG.jpg","genres":["Ficção científica","Ação","Terror"],"tmdb_id":"9711","sources":[{"url":"https://mgeb.top/embed/9711","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9711","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20III%20_2005_%20_tmdb_9711_6a9be77b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9711","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452028","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457804","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655207","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-extorsao-2023","title":"A Extorsao (2023)","type":"movie","year":"2023","poster_url":"/wAQvIuLJRFo0LCr0gLQTng9KRco.jpg","genres":["Suspense","Crime","Drama"],"tmdb_id":"931935","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bdccf04b0a91a16abada9a85b1e072b2/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/931935","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/931935","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extors_o%20_2023_%20_tmdb_931935_dabb163d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"931935","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"542936","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446939","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647285","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-extraordinaria-garota-chamada-estrela-2020","title":"A Extraordinaria Garota Chamada Estrela (2020)","type":"movie","year":"2020","poster_url":"/zYvD1TZfGF2RHe1078MULl78nsV.jpg","genres":["Comédia","Drama","Romance","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/382748","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/382748","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-extraordinaria-garota-chamada-estrela-em-hollywood-2022","title":"A Extraordinaria Garota Chamada Estrela em Hollywood (2022)","type":"movie","year":"2022","poster_url":"/2h5C9SDYM3hk2xDJQZP0SKSVVZT.jpg","genres":["Comédia","Romance","Música"],"tmdb_id":"799883","sources":[{"url":"https://mgeb.top/embed/799883","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/799883","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Garota%20Chamada%20Estrela%20em%20Hollywood%20_2022_%20_tmdb_799883_a3bf63d1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"799883","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460443","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650667","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-extraordinaria-jornada-do-faquir","title":"A Extraordinaria Jornada do Faquir","type":"movie","year":null,"poster_url":"/vM4utNdhTMEOxrosXDNjo3wjy4v.jpg","genres":["Comédia","Aventura","Drama"],"tmdb_id":"407447","sources":[{"url":"https://mgeb.top/embed/407447","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/407447","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Jornada%20do%20Faquir%20_2018_%20_tmdb_407447_9ef6bc23.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"407447","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460960","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651604","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-extraordinaria-garota-chamada-estrela","title":"A Extraordinária Garota Chamada Estrela","type":"movie","year":null,"poster_url":"/zYvD1TZfGF2RHe1078MULl78nsV.jpg","genres":["Comédia","Drama","Romance","Família"],"tmdb_id":"382748","sources":[{"url":"https://mgeb.top/embed/382748","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/382748","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Garota%20Chamada%20Estrela%20_2020_%20_tmdb_382748_df81b3f1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"382748","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460348","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651418","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-extraordinaria-garota-chamada-estrela-em-hollywood","title":"A Extraordinária Garota Chamada Estrela em Hollywood","type":"movie","year":null,"poster_url":"/zYvD1TZfGF2RHe1078MULl78nsV.jpg","genres":["Comédia","Drama","Romance","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/382748","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/382748","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-extraordinaria-historia-do-new-york-cosmos","title":"A Extraordinária História do New York Cosmos","type":"movie","year":null,"poster_url":"/pLm2JDp1jkwCCaz3NM1bUjHv9OW.jpg","genres":["Documentário"],"tmdb_id":"39183","sources":[{"url":"https://mgeb.top/embed/39183","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/39183","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-extraordinaria-vida-de-ibelin-2024","title":"A Extraordinária Vida de Ibelin (2024)","type":"movie","year":"2024","poster_url":"/3KRdzmGq96bSV2dVU8mEKk4CocD.jpg","genres":["Documentário","Animação"],"tmdb_id":"1167027","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/6f0846c650db7b842a5588c4940ae3b5/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1167027","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1167027","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Vida%20de%20Ibelin%20_2024_%20_tmdb_1167027_44d969fb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1167027","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449213","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452988","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647740","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670549","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-fabrica-de-fake-news-2024","title":"A Fabrica de Fake News (2024)","type":"movie","year":"2024","poster_url":"/9BzHo1CfB1yFAowe3E0THzucek6.jpg","genres":["Crime","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1007127","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1007127","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-fabulosa-aventura-da-sharpay","title":"A Fabulosa Aventura da Sharpay","type":"movie","year":null,"poster_url":"/rwZe91BYGQLVhQ1opbKwRf1hQV5.jpg","genres":["Família","Música"],"tmdb_id":"60405","sources":[],"provider_refs":[{"provider":"18","ref":"60405","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-fabulosa-aventura-da-sharpay-2011","title":"A Fabulosa Aventura da Sharpay (2011)","type":"movie","year":"2011","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fabulosa%20Aventura%20da%20Sharpay%20_2011_%20_tmdb_60405_35020c3c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-fabulosa-gilly-hopkins","title":"A Fabulosa Gilly Hopkins","type":"movie","year":null,"poster_url":"/76T9xMGbXOu3Nb3BMUMmhOmFqFC.jpg","genres":["Comédia","Drama","Família"],"tmdb_id":"331588","sources":[],"provider_refs":[{"provider":"18","ref":"331588","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-fabulosa-gilly-hopkins-2015","title":"A Fabulosa Gilly Hopkins (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fabulosa%20Gilly%20Hopkins%20_2015_%20_tmdb_331588_495ed9d3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-face-da-guerra","title":"A Face da Guerra","type":"movie","year":null,"poster_url":"/arlwPVSQg3fsBCDhwORpiHnZjYt.jpg","genres":["Guerra","Drama","História"],"tmdb_id":"567566","sources":[{"url":"https://mgeb.top/embed/567566","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/567566","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Guerra%20_2018_%20_tmdb_505011_36d7b599.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Outra%20Face%20da%20Guerra%20_2019_%20_tmdb_567566_b00d1de4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"567566","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455816","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653088","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-face-da-guerra-2018","title":"A Face da Guerra (2018)","type":"movie","year":"2018","poster_url":"/3uTyEas5u5zfzwsSCX3yMBd6Mww.jpg","genres":["Guerra"],"tmdb_id":"505011","sources":[{"url":"https://mgeb.top/embed/505011","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/505011","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"505011","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447715","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450623","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644950","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670730","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-face-da-morte","title":"A Face da Morte","type":"movie","year":null,"poster_url":"/jLN3dCYojhYbTuNGoAymAb7LiNB.jpg","genres":["TV","Drama"],"tmdb_id":"369657","sources":[{"url":"https://mgeb.top/embed/369657","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/369657","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"655593","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-face-da-morte-o-demonio-veste-sorriso-2012","title":"A Face da Morte - o Demônio Veste Sorriso (2012)","type":"movie","year":"2012","poster_url":"/5GOEq0vdFUVNV3n6YJff3LqA6tO.jpg","genres":["Terror"],"tmdb_id":"119278","sources":[{"url":"https://mgeb.top/embed/119278","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/119278","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Morte%20-%20o%20Dem_nio%20Veste%20Sorriso%20_2012_%20_tmdb_119278_a4532084.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"119278","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-da-verdade","title":"A Face da Verdade","type":"movie","year":null,"poster_url":"/2dXA5dNh3kqDQwRt08TxxgldTOW.jpg","genres":["Crime","Drama","Romance"],"tmdb_id":"22067","sources":[{"url":"https://mgeb.top/embed/22067","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/22067","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Verdade%20_1994_%20_tmdb_22067_81f16ed1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-face-da-verdade-2019","title":"A Face da Verdade (2019)","type":"movie","year":"2019","poster_url":"/JAShb31Bbn03ZluMvbfmCHLZcR.jpg","genres":["Drama","Guerra"],"tmdb_id":"623953","sources":[{"url":"https://mgeb.top/embed/623953","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/623953","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/22067","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/22067","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"623953","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"22067","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455418","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653626","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-face-da-vinganca","title":"A Face da Vingança","type":"movie","year":null,"poster_url":"/tlMVU37EuUzgfc737cuusJMTQlr.jpg","genres":["Ação"],"tmdb_id":"1135229","sources":[{"url":"https://mgeb.top/embed/1135229","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1135229","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Vingan_a%20_2023_%20_tmdb_1135229_e2366d73.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1135229","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449497","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452074","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654425","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670489","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-face-de-um-anjo-2014","title":"A Face De Um Anjo (2014)","type":"movie","year":"2014","poster_url":"/100pHE252kgwxwVNbiflYV9j1yi.jpg","genres":["Drama","Suspense"],"tmdb_id":"254024","sources":[{"url":"https://mgeb.top/embed/254024","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/254024","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20De%20Um%20Anjo%20_2014_%20_tmdb_254024_2c248467.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"254024","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-do-mal","title":"A Face do Mal","type":"movie","year":null,"poster_url":"/koI6ZCE7WGiJjpf6j532CEnRjRK.jpg","genres":["Terror"],"tmdb_id":"146243","sources":[],"provider_refs":[{"provider":"18","ref":"146243","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-do-mal-2014","title":"A Face do Mal (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20do%20Mal%20_2014_%20_tmdb_146243_2cf67ab5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-face-do-predador","title":"A Face do Predador","type":"movie","year":null,"poster_url":"/2oppAZ5Eh83Zlaf4eSj72FT5znI.jpg","genres":["Terror","Ficção científica"],"tmdb_id":"24683","sources":[],"provider_refs":[{"provider":"18","ref":"24683","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-do-predador-2007","title":"A Face do Predador (2007)","type":"movie","year":"2007","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20do%20Predador%20_2007_%20_tmdb_24683_.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-face-oculta-da-lei","title":"A Face Oculta da Lei","type":"movie","year":null,"poster_url":"/2tGDJRIakAFHDu8dg018MhXEpyM.jpg","genres":["Crime","Suspense","Drama"],"tmdb_id":"4911","sources":[],"provider_refs":[{"provider":"18","ref":"4911","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-oculta-da-lei-2002","title":"A Face Oculta da Lei (2002)","type":"movie","year":"2002","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20da%20Lei%20_2002_%20_tmdb_4911_f7bc7a74.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-face-oculta-da-medicina","title":"A Face Oculta da Medicina","type":"movie","year":null,"poster_url":"/cCESCi4DtkVgQ82hwaDPlvhmfZq.jpg","genres":["Documentário"],"tmdb_id":"1187335","sources":[{"url":"https://mgeb.top/embed/1187335","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1187335","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20da%20Medicina%20_2020_%20_tmdb_1187335_2048850f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1187335","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453211","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647919","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-oculta-de-varginha-poder-dinheiro-e-rituais","title":"A Face Oculta de Varginha: Poder, Dinheiro e Rituais.","type":"movie","year":null,"poster_url":"/jhemlyhhwpEYRgnWqSPRXXFVWxL.jpg","genres":[],"tmdb_id":"1652717","sources":[{"url":"https://mgeb.top/embed/1652717","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1652717","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20de%20Varginha_%20Poder_%20Dinheiro%20e%20Rituais%20_2026_%20_tmdb_1652717_6a6e5bd2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1652717","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444781","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"907983","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-face-oculta-do-feminismo","title":"A Face Oculta do Feminismo","type":"movie","year":null,"poster_url":"/iXjBoRHtOEFChA13YCPUrGRXWKD.jpg","genres":["Documentário"],"tmdb_id":"972482","sources":[{"url":"https://mgeb.top/embed/972482","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/972482","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20do%20Feminismo%20_2022_%20_tmdb_972482_f530d86c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"972482","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453026","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648084","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-face-oculta-do-feminismo-2022","title":"A Face Oculta do Feminismo (2022)","type":"movie","year":"2022","poster_url":"/iXjBoRHtOEFChA13YCPUrGRXWKD.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/972482","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/972482","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-fada-das-trevas","title":"A Fada das Trevas","type":"movie","year":null,"poster_url":"/n6YHVEEPu3NXSENdTUkWlZO7kQl.jpg","genres":["Comédia"],"tmdb_id":"1475815","sources":[{"url":"https://mgeb.top/embed/1475815","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1475815","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fada%20das%20Trevas%20_2025_%20_tmdb_1475815_5c75a27b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1475815","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444477","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-fada-do-dente-2022","title":"A Fada do Dente (2022)","type":"movie","year":"2022","poster_url":"/7Biyu5aP0o86GjxnffsHThYN4h1.jpg","genres":["Animação","Aventura","Comédia","Família","Fantasia"],"tmdb_id":"681303","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/9ad0f362cbc8f396106143ad612079c4/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/681303","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/681303","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fada%20do%20Dente%20_2022_%20_tmdb_681303_da77ad57.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"681303","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646070","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-falha-2020","title":"A Falha (2020)","type":"movie","year":"2020","poster_url":"/hZTtAsUT1oD9IaX3lF54Z3RIzg0.jpg","genres":["Suspense","Ficção científica"],"tmdb_id":"648299","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/cf540160e163ca244c50f3aa4fac2f2d/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/648299","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/648299","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"648299","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"471955","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445586","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447912","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647126","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670538","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-falsa-esposa-do-bilionario","title":"A FALSA ESPOSA DO BILIONARIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-familia-addams-2019","title":"A Familia Addams (2019)","type":"movie","year":"2019","poster_url":"/sFwaszCIbVXGnsJG6dg6WUY7d6P.jpg","genres":["Comédia","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2907","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2907","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-addams-2-1993","title":"A Familia Addams 2 (1993)","type":"movie","year":"1993","poster_url":"/4OcwSxm47cmxT04MyGgI8aBfTlZ.jpg","genres":["Comédia","Família","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2758","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2758","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-addams-2-pe-na-estrada-2021","title":"A Familia Addams 2: Pe na Estrada (2021)","type":"movie","year":"2021","poster_url":"/kGSZSlmJqshcxh6Usgx9Um0utK0.jpg","genres":["Animação","Família","Comédia","Fantasia"],"tmdb_id":"639721","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bb8acb5268080482fbe93cbc0637d70d/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/639721","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/639721","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%202_%20P_%20na%20Estrada%20_2021_%20_tmdb_639721_0084bab4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"639721","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458608","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646809","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-familia-craft-em-o-impostor","title":"A Familia Craft em O Impostor","type":"movie","year":null,"poster_url":"/zDhSf2RhV4GnuroTLu21fzjvmEX.jpg","genres":["Aventura","Comédia"],"tmdb_id":"919566","sources":[{"url":"https://mgeb.top/embed/919566","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/919566","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Familia%20Craft%20em%20O%20Impostor%20_2021_%20_tmdb_919566_0d5dd551.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"919566","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451177","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"739605","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-familia-craft-em-o-impostor-2021","title":"A Familia Craft em O Impostor (2021)","type":"movie","year":"2021","poster_url":"/zDhSf2RhV4GnuroTLu21fzjvmEX.jpg","genres":["Aventura","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/919566","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/919566","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-da-noiva-2005","title":"A Familia da Noiva (2005)","type":"movie","year":"2005","poster_url":"/zvIgkHV0PC7Dcdyiy3zfRunxz5E.jpg","genres":["Comédia","Romance"],"tmdb_id":"11638","sources":[{"url":"https://mgeb.top/embed/11638","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11638","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-do-futuro","title":"A Familia do Futuro","type":"movie","year":null,"poster_url":"/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg","genres":["Animação","Comédia","Família","Ficção científica","Aventura"],"tmdb_id":"1267","sources":[{"url":"https://mgeb.top/embed/1267","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1267","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20do%20Futuro%20_2007_%20_tmdb_1267_959c2a14.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1267","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459294","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646728","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-familia-do-futuro-2007","title":"A Familia do Futuro (2007)","type":"movie","year":"2007","poster_url":"/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg","genres":["Animação","Comédia","Família","Ficção científica","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1267","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1267","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-mcmullen-2025","title":"A Familia McMullen (2025)","type":"movie","year":"2025","poster_url":"/7DB9uAse9ST0u1opoU2ufDpYMSe.jpg","genres":["Comédia","Drama","Família","Romance"],"tmdb_id":"1548017","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/41a73ef43afa0b5f599bb58b3bc47ef3/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1548017","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1548017","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20McMullen%20_2025_%20_tmdb_1548017_1371f983.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1548017","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445137","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"896957","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900505","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-familia-mitchell-e-a-revolta-das-maquinas-2021","title":"A Familia Mitchell e a Revolta das Maquinas (2021)","type":"movie","year":"2021","poster_url":"/k1p10mLm1uM1jqR7RlzB0SalD00.jpg","genres":["Animação","Aventura","Comédia"],"tmdb_id":"501929","sources":[{"url":"https://mgeb.top/embed/501929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/501929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Mitchell%20e%20a%20Revolta%20das%20M_quinas%20_2021_%20_tmdb_501929_a4cb125e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"501929","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646243","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-noel-2020","title":"A Familia Noel (2020)","type":"movie","year":"2020","poster_url":"/xOkrJgY9oHl0FMkR8VqOgYEmp7f.jpg","genres":["Família","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/767896","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/767896","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-noel-2-2021","title":"A Familia Noel 2 (2021)","type":"movie","year":"2021","poster_url":"/6EV8G1tESAjelFEvrdn1rEMz8Z0.jpg","genres":["Família","Comédia","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/881180","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/881180","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-noel-3-2022","title":"A Familia Noel 3 (2022)","type":"movie","year":"2022","poster_url":"/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg","genres":["Família","Comédia","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1051959","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1051959","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-perfeita-2021","title":"A Familia Perfeita (2021)","type":"movie","year":"2021","poster_url":"/4EWtby5Sb1JKxwqVfpLLybmJK6E.jpg","genres":["Comédia","Drama","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/826241","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/826241","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-perfeita-da-garota-planta","title":"A FAMILIA PERFEITA DA GAROTA PLANTA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-family-is-a-family-is-a-family-a-rosie-o-039-donnell-celebration-2010","title":"A Family Is a Family Is a Family: A Rosie O&#039;Donnell Celebration (2010)","type":"movie","year":"2010","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Family%20Is%20a%20Family%20Is%20a%20Family_%20A%20Rosie%20O_Donnell%20Celebration%20_2010_%20_tmdb_243665_eba27d82.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-family-is-a-family-is-a-family-a-rosie-o-donnell-celebration","title":"A Family Is a Family Is a Family: A Rosie O'Donnell Celebration","type":"movie","year":null,"poster_url":"/3BQ6NnEiwUMWO2NENZnLCzXhLZq.jpg","genres":["Documentário"],"tmdb_id":"243665","sources":[],"provider_refs":[{"provider":"18","ref":"243665","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-famosa-bettie-page-2005","title":"A Famosa Bettie Page (2005)","type":"movie","year":"2005","poster_url":"/jRzcb9O8WdGmJdz8EESEaBEuZZJ.jpg","genres":["Comédia","Drama"],"tmdb_id":"15402","sources":[{"url":"https://mgeb.top/embed/15402","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/15402","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-addams","title":"A Família Addams","type":"movie","year":"1991","poster_url":"/sFwaszCIbVXGnsJG6dg6WUY7d6P.jpg","genres":["Comédia","Fantasia"],"tmdb_id":"2907","sources":[{"url":"https://mgeb.top/embed/2907","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2907","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%20_2019_%20_tmdb_481084_6098a98e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%20_1991_%20_tmdb_2907_2d7bef25.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"481084","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449008","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458530","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461865","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"2907","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646462","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650185","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762341","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770295","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-addams-2","title":"A Família Addams 2","type":"movie","year":null,"poster_url":"/4OcwSxm47cmxT04MyGgI8aBfTlZ.jpg","genres":["Comédia","Família","Fantasia"],"tmdb_id":"2758","sources":[{"url":"https://mgeb.top/embed/2758","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2758","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Familia%20Addams%202%20_1993_%20_tmdb_2758_f2912f74.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"2758","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458685","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646733","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-familia-belier-2014","title":"A Família Belier (2014)","type":"movie","year":"2014","poster_url":"/f0E3QLcLcRCLjqcs7G1VD9H320N.jpg","genres":["Comédia","Música","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/304410","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/304410","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-buscape","title":"A Família Buscapé","type":"movie","year":null,"poster_url":"/1yEKkVxRHhHBG1Wk6kxxhMN5nhX.jpg","genres":["Comédia","Família"],"tmdb_id":"11041","sources":[{"url":"https://mgeb.top/embed/11041","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11041","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Buscap%20_1993_%20_tmdb_11041_3bc53970.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11041","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461506","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651869","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-buscape-1993","title":"A Família Buscapé (1993)","type":"movie","year":"1993","poster_url":"/1yEKkVxRHhHBG1Wk6kxxhMN5nhX.jpg","genres":["Comédia","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/11041","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11041","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-belier","title":"A Família Bélier","type":"movie","year":null,"poster_url":"/f0E3QLcLcRCLjqcs7G1VD9H320N.jpg","genres":["Comédia","Música","Drama"],"tmdb_id":"304410","sources":[{"url":"https://mgeb.top/embed/304410","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/304410","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"304410","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461009","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651025","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-familia-de-simon","title":"A Família de Simon","type":"movie","year":null,"poster_url":"/k9mGGOOsRVRqW4NzD7gqpH6mcAH.jpg","genres":["Drama"],"tmdb_id":"860700","sources":[{"url":"https://mgeb.top/embed/860700","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/860700","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"860700","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449079","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455524","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652135","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-de-simon-2022","title":"A Família de Simon (2022)","type":"movie","year":"2022","poster_url":"/k9mGGOOsRVRqW4NzD7gqpH6mcAH.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/860700","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/860700","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-khumalo","title":"A Família Khumalo","type":"movie","year":null,"poster_url":"/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg","genres":["Comédia","Romance"],"tmdb_id":"1450863","sources":[{"url":"https://mgeb.top/embed/1450863","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1450863","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Khumalo%20_2025_%20_tmdb_1450863_033a2f34.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1450863","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446188","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447635","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"770285","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-khumalo-2025","title":"A Família Khumalo (2025)","type":"movie","year":"2025","poster_url":"/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1450863","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1450863","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-familia-lero-lero","title":"A Família Lero-Lero","type":"movie","year":null,"poster_url":"/gLFRaxaeMRpLEdY5vwSyWfAspVo.jpg","genres":["Comédia"],"tmdb_id":"373640","sources":[{"url":"https://mgeb.top/embed/373640","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/373640","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-familia-noel","title":"A Família Noel","type":"movie","year":null,"poster_url":"/xOkrJgY9oHl0FMkR8VqOgYEmp7f.jpg","genres":["Família","Fantasia"],"tmdb_id":"767896","sources":[{"url":"https://mgeb.top/embed/767896","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/767896","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%20_2020_%20_tmdb_767896_1a5ebb7f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"767896","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458542","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646823","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-noel-2","title":"A Família Noel 2","type":"movie","year":null,"poster_url":"/6EV8G1tESAjelFEvrdn1rEMz8Z0.jpg","genres":["Família","Comédia","Fantasia"],"tmdb_id":"881180","sources":[{"url":"https://mgeb.top/embed/881180","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/881180","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%202%20_2021_%20_tmdb_881180_0bf7a4dd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"881180","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447071","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447083","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645074","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-noel-3","title":"A Família Noel 3","type":"movie","year":null,"poster_url":"/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg","genres":["Família","Comédia","Fantasia"],"tmdb_id":"1051959","sources":[{"url":"https://mgeb.top/embed/1051959","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1051959","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%203%20_2022_%20_tmdb_1051959_58373887.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1051959","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461774","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650297","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-perfeita","title":"A Família Perfeita","type":"movie","year":null,"poster_url":"/4EWtby5Sb1JKxwqVfpLLybmJK6E.jpg","genres":["Comédia","Drama","Família"],"tmdb_id":"826241","sources":[{"url":"https://mgeb.top/embed/826241","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/826241","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Perfeita%20_2021_%20_tmdb_826241_c6e264d1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"826241","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461445","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650680","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-familia-que-escolhi","title":"A Família que Escolhi","type":"movie","year":null,"poster_url":"/zwXvzUfxIp2I0HmwoFOBOv3CWNo.jpg","genres":["Romance","Comédia","Drama"],"tmdb_id":"834966","sources":[{"url":"https://mgeb.top/embed/834966","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/834966","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20que%20Escolhi%20_2024_%20_tmdb_834966_36a4aea5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"834966","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"919164","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-familia-radical-o-filme","title":"A Família Radical: O Filme","type":"movie","year":null,"poster_url":"/h49hMQRoEUoLOBAQvfYrXpWIxqc.jpg","genres":["Comédia","Família","Animação","TV"],"tmdb_id":"61728","sources":[],"provider_refs":[{"provider":"18","ref":"61728","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-familia-radical-o-filme-2005","title":"A Família Radical: O Filme (2005)","type":"movie","year":"2005","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Radical_%20O%20Filme%20_2005_%20_tmdb_61728_263e3e84.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-fantastica-fabrica-de-chocolate-1971","title":"A Fantastica Fabrica de Chocolate (1971)","type":"movie","year":"1971","poster_url":"/noanwChjqswpEz5FTaqdbztfSsB.jpg","genres":["Família","Fantasia","Comédia"],"tmdb_id":"252","sources":[{"url":"https://mgeb.top/embed/252","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/252","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fant_stica%20F_brica%20de%20Chocolate%20_2005_%20_tmdb_118_05ab4cfe.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fant_stica%20F_brica%20de%20Chocolate%20_1971_%20_tmdb_252_92f74383.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"252","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646849","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-fantastica-fabrica-de-chocolate-2005","title":"A Fantastica Fábrica de Chocolate (2005)","type":"movie","year":"2005","poster_url":"/vSl1u0z4TCKL4VPVyr6KDtZibYT.jpg","genres":["Aventura","Comédia","Família","Fantasia"],"tmdb_id":"118","sources":[{"url":"https://mgeb.top/embed/118","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/118","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"118","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458620","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646848","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-farra-dos-malandros","title":"A Farra dos Malandros","type":"movie","year":null,"poster_url":"/y4rc8vwJs0DHbhw9oN4coaHKTzx.jpg","genres":["Comédia","Música"],"tmdb_id":"39016","sources":[],"provider_refs":[{"provider":"18","ref":"39016","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-farra-dos-malandros-1954","title":"A Farra dos Malandros (1954)","type":"movie","year":"1954","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Farra%20dos%20Malandros%20_1954_%20_tmdb_39016_aa7fcb73.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-farsa","title":"A Farsa","type":"movie","year":null,"poster_url":"/vf2fZMZ0s44STAjF6kE7wVcKiw1.jpg","genres":["Drama","Romance","Suspense"],"tmdb_id":"41963","sources":[{"url":"https://mgeb.top/embed/41963","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/41963","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Farsa%20_2022_%20_tmdb_892515_5d9b686d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-farsa-2022","title":"A Farsa (2022)","type":"movie","year":"2022","poster_url":"/7ZBfjV7pJMXnuftpDr35gUHe8Pe.jpg","genres":["Comédia","Crime","Drama","Romance"],"tmdb_id":"892515","sources":[{"url":"https://mgeb.top/embed/892515","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/892515","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/41963","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/41963","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"892515","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455805","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652583","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-favorita","title":"A Favorita","type":"movie","year":null,"poster_url":"/uBOytbDGmdiUVt3NNXx5HaoL3fn.jpg","genres":["História","Comédia","Drama"],"tmdb_id":"375262","sources":[{"url":"https://mgeb.top/embed/375262","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/375262","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Favorita%20_2018_%20_tmdb_375262_72c0dc2e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"375262","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456160","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654115","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-favorita-2018","title":"A Favorita (2018)","type":"movie","year":"2018","poster_url":"/uBOytbDGmdiUVt3NNXx5HaoL3fn.jpg","genres":["História","Comédia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/375262","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/375262","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-favorita-gravida","title":"A FAVORITA GRAVIDA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-faxineira-e-na-verdade-a-ceo","title":"A Faxineira e na Verdade a CEO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-faxineira-milionaria","title":"A Faxineira Milionaria","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-faxineira-que-virou-estrela","title":"A FAXINEIRA QUE VIROU ESTRELA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-febre","title":"A Febre","type":"movie","year":null,"poster_url":"/fSjEqdSvrrd0uOAH5l7iIKb649c.jpg","genres":["Fantasia","Terror"],"tmdb_id":"1380861","sources":[{"url":"https://mgeb.top/embed/1380861","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1380861","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Febre%20_2024_%20_tmdb_1380861_c3643020.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-febre-2021","title":"A Febre (2021)","type":"movie","year":"2021","poster_url":"/bcCcRhvmCIfP5BGYBwRkVE1uDKW.jpg","genres":["Drama","Mistério","Suspense"],"tmdb_id":"515985","sources":[{"url":"https://mgeb.top/embed/515985","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/515985","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/1380861","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1380861","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"515985","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1380861","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457105","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653578","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-feiticeira-2005","title":"A Feiticeira (2005)","type":"movie","year":"2005","poster_url":"/trQdN5qU3TM80pBS9mnAkGQ6xEc.jpg","genres":["Comédia","Fantasia","Romance"],"tmdb_id":"9722","sources":[{"url":"https://mgeb.top/embed/9722","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9722","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Feiticeira%20_2005_%20_tmdb_9722_84b84e83.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9722","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-feiticeira-e-o-guarda-roupa","title":"a Feiticeira e o Guarda-Roupa","type":"movie","year":null,"poster_url":"/sDBziWxSTavCNjbayaXaDDwmTiQ.jpg","genres":["Aventura","Família","Fantasia"],"tmdb_id":"411","sources":[{"url":"https://mgeb.top/embed/411","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/411","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/As%20Cr_nicas%20de%20N_rnia_%20O%20Le_o_%20a%20Feiticeira%20e%20o%20Guarda-Roupa%20_2005_%20_tmdb_411_68893924.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"411","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647091","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-felicidade-das-coisas","title":"A Felicidade das Coisas","type":"movie","year":null,"poster_url":"/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg","genres":["Drama"],"tmdb_id":"764510","sources":[{"url":"https://mgeb.top/embed/764510","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/764510","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Felicidade%20das%20Coisas%20_2022_%20_tmdb_764510_590a019c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"764510","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-felicidade-das-coisas-2022","title":"A Felicidade das Coisas (2022)","type":"movie","year":"2022","poster_url":"/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/764510","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/764510","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-felicidade-mora-ao-lado","title":"A Felicidade Mora ao Lado","type":"movie","year":null,"poster_url":"/pM7goQohLEojWhS94SijerhFuDJ.jpg","genres":["Drama","Romance"],"tmdb_id":"563388","sources":[{"url":"https://mgeb.top/embed/563388","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/563388","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Felicidade%20Mora%20ao%20Lado%20_2018_%20_tmdb_563388_cd19698c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"563388","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457277","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652542","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2}]
+[
+  {
+    "id": "movie-a-excecao-as-suas-regras",
+    "title": "A EXCECAO AS SUAS REGRAS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-excecao",
+    "title": "A Exceção",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/69l4gEhfGW7X72OzuFE13mKvDe5.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "339987",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/339987",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/339987",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Exce_o%20_2017_%20_tmdb_339987_4de46703.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "339987",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458179",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um agente da resistência holandesa na Segunda Guerra Mundial, trabalha disfarçado para Wiston Churchill para infiltrar um agente na casa do Kaiser. Um perigoso romance inflama entre um oficial alemão e uma jovem holandesa judaica, enquanto ocorre a corrida nazista para identificar e eliminar o agente por trás da deserção potencialmente desastrosa de seu ex-imperador para a Inglaterra."
+  },
+  {
+    "id": "movie-a-experiencia-1995",
+    "title": "A Experiencia (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/uRssQeAvrXVYoCkgfQounfUQ1y1.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror",
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9348",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9348",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-experiencia-3-2005",
+    "title": "A Experiencia 3 (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/eH7pQTCwenRToalvPAreFjdHDmG.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9711",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9711",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-experiencia-4-2007",
+    "title": "A Experiencia 4 (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/3RzU7WX8A3uVt9Hm1Pu5XHLyXfG.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/15212",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/15212",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-experiencia-ii-a-mutacao-1998",
+    "title": "A Experiencia II - A Mutacao (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/53IqPn7T5uP5SSv6ToQW0a3i9Rk.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10216",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10216",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-experiencia",
+    "title": "A Experiência",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/uRssQeAvrXVYoCkgfQounfUQ1y1.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror",
+      "Ação"
+    ],
+    "tmdb_id": "9348",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9348",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9348",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20_2001_%20_tmdb_575_7bbf9cb5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20_1995_%20_tmdb_9348_4369010a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9348",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "575",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452060",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457783",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655209",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Cientistas usam um código genético alienígena para criar uma menina que parece comum. Eles têm ordens para matar a criança --uma mistura de humano e alien-- após o nascimento, mas ela cresce depressa, consegue escapar e agora quer se reproduzir."
+  },
+  {
+    "id": "movie-a-experiencia-4-o-despertar",
+    "title": "A Experiência 4: O Despertar",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/3RzU7WX8A3uVt9Hm1Pu5XHLyXfG.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "15212",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/15212",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/15212",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%204%20-%20O%20Despertar%20_2007_%20_tmdb_15212_28048855.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "15212",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457762",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655206",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Após um estranho desmaio, Miranda Hollander descobre sua verdadeira origem como um ser humano-alienígena e entra em batalha com outros híbridos. Mas o tempo está acabando. Ela vai se render aos seus instintos assassinos em busca de um companheiro?"
+  },
+  {
+    "id": "movie-a-experiencia-ii-a-mutacao",
+    "title": "A Experiência II - A Mutação",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/53IqPn7T5uP5SSv6ToQW0a3i9Rk.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Terror"
+    ],
+    "tmdb_id": "10216",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10216",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10216",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Experi_ncia%20II%20-%20A%20Muta_o%20_1998_%20_tmdb_10216_84fa6056.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10216",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457830",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655208",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-experiencia-iii",
+    "title": "A Experiência III",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/eH7pQTCwenRToalvPAreFjdHDmG.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Terror"
+    ],
+    "tmdb_id": "9711",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9711",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9711",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Experi_ncia%20III%20_2005_%20_tmdb_9711_6a9be77b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9711",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452028",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457804",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655207",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A filha de Eve (Natasha Henstridge), Sara (Sunny Mabrey), faz parte da 3ª geração de alienígenas na Terra. Existem outros da sua espécie, mas Sara é mais resistente aos diversos tipos de doença do planeta. Ela vive na casa de um professor universitário, Abbot (Robert Knepper), que a seqüestrou do governo quando era apenas um bebê, ou seja, poucos dias atrás, pois ela cresce 15 centímetros por dia e em breve será uma adulta. Abbot quer criar o espécime perfeito e obter reconhecimento internacional, mas várias coisas começam a dar totalmente e mortes acontecem. Além disto outros alienígenas mestiços começam a apresentar sérios problemas de saúde, mas uma dela, Amelia (Amelia Cooke), parece estar disposta a tudo para poder sobreviver."
+  },
+  {
+    "id": "movie-a-extorsao-2023",
+    "title": "A Extorsao (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/wAQvIuLJRFo0LCr0gLQTng9KRco.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "931935",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bdccf04b0a91a16abada9a85b1e072b2/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/931935",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/931935",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extors_o%20_2023_%20_tmdb_931935_dabb163d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "931935",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "542936",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446939",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647285",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Guillermo Francella é Alejandro, um experiente piloto à beira da aposentadoria, chantageado e forçado a levar uma misteriosa carga de Buenos Aires a Madri para não ser penalizado por um grave erro que cometeu no trabalho."
+  },
+  {
+    "id": "movie-a-extraordinaria-garota-chamada-estrela-2020",
+    "title": "A Extraordinaria Garota Chamada Estrela (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/zYvD1TZfGF2RHe1078MULl78nsV.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/382748",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/382748",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-extraordinaria-garota-chamada-estrela-em-hollywood-2022",
+    "title": "A Extraordinaria Garota Chamada Estrela em Hollywood (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/2h5C9SDYM3hk2xDJQZP0SKSVVZT.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Música"
+    ],
+    "tmdb_id": "799883",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/799883",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/799883",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Garota%20Chamada%20Estrela%20em%20Hollywood%20_2022_%20_tmdb_799883_a3bf63d1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "799883",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460443",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650667",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando sua mãe é contratada para trabalhar em um filme, elas se mudam para Los Angeles, onde Estrela acaba conhecendo dois irmãos aspirantes a cineastas, um vizinho mal-humorado e uma musicista que Estrela admira."
+  },
+  {
+    "id": "movie-a-extraordinaria-jornada-do-faquir",
+    "title": "A Extraordinaria Jornada do Faquir",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/vM4utNdhTMEOxrosXDNjo3wjy4v.jpg",
+    "genres": [
+      "Comédia",
+      "Aventura",
+      "Drama"
+    ],
+    "tmdb_id": "407447",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/407447",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/407447",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Jornada%20do%20Faquir%20_2018_%20_tmdb_407447_9ef6bc23.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "407447",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460960",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Ajatashatru Lavash Patel viveu toda a sua vida em um pequeno bairro de Mumbai, enganando as pessoas com mágica de rua e truques de faquir. Ele parte em uma jornada para encontrar seu pai, de quem estava distante, mas acaba se envolvendo em uma aventura sem fim."
+  },
+  {
+    "id": "movie-a-extraordinaria-garota-chamada-estrela",
+    "title": "A Extraordinária Garota Chamada Estrela",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/zYvD1TZfGF2RHe1078MULl78nsV.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance",
+      "Família"
+    ],
+    "tmdb_id": "382748",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/382748",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/382748",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Garota%20Chamada%20Estrela%20_2020_%20_tmdb_382748_df81b3f1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "382748",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460348",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651418",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Leo Borlock, é um estudante mediano da Mica High School. Ele tira notas decentes, é membro da banda marcial da escola e sempre se contentou a voar abaixo do radar. Mas tudo isso muda quando ele conhece Estrela Caraway, uma aluna nova confiante e colorida com uma predileção pelo ukulele, que se destaca da multidão. Ela é doce, enxerga magia nas coisas comuns e toca a vida de todos com os gestos mais simples. Suas excentricidades e personalidade contagiante encantam Leo e o corpo estudantil, e ela rapidamente deixa de ser ignorada e ridicularizada para ser aceita e aclamada, e o inverso outra vez, colocando Leo em uma montanha-russa de emoções."
+  },
+  {
+    "id": "movie-a-extraordinaria-garota-chamada-estrela-em-hollywood",
+    "title": "A Extraordinária Garota Chamada Estrela em Hollywood",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/zYvD1TZfGF2RHe1078MULl78nsV.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/382748",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/382748",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-extraordinaria-historia-do-new-york-cosmos",
+    "title": "A Extraordinária História do New York Cosmos",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/pLm2JDp1jkwCCaz3NM1bUjHv9OW.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "39183",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/39183",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/39183",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "No auge da NASL nos anos 1970, o documentário retrata como o New York Cosmos conquistou os EUA ao trazer Pelé e outras lendas do futebol, revelando ao mesmo tempo os excessos e os desafios que levaram a liga ao seu colapso."
+  },
+  {
+    "id": "movie-a-extraordinaria-vida-de-ibelin-2024",
+    "title": "A Extraordinária Vida de Ibelin (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/3KRdzmGq96bSV2dVU8mEKk4CocD.jpg",
+    "genres": [
+      "Documentário",
+      "Animação"
+    ],
+    "tmdb_id": "1167027",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6f0846c650db7b842a5588c4940ae3b5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1167027",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1167027",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Extraordin_ria%20Vida%20de%20Ibelin%20_2024_%20_tmdb_1167027_44d969fb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1167027",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449213",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452988",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647740",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670549",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A vida secreta de um jovem jogador de World of Warcraft é reimaginada quando os amigos da internet entram com contato com a família dele após a morte."
+  },
+  {
+    "id": "movie-a-fabrica-de-fake-news-2024",
+    "title": "A Fabrica de Fake News (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/9BzHo1CfB1yFAowe3E0THzucek6.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1007127",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1007127",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-fabulosa-aventura-da-sharpay",
+    "title": "A Fabulosa Aventura da Sharpay",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/rwZe91BYGQLVhQ1opbKwRf1hQV5.jpg",
+    "genres": [
+      "Família",
+      "Música"
+    ],
+    "tmdb_id": "60405",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "60405",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um olheiro vê Sharpay Evans e seu cachorro Boi se apresentando em um evento de caridade e os envia à cidade de Nova York. Sharpay achava que fama e fortuna são fáceis de conquistar, mas descobre que o meio artístico é um mundo de cobra comendo cobra e se decepciona. Ela conhece Peyton, um charmoso estudante de cinema, que a ajuda a lidar com uma manipuladora estrela da Broadway e alcançar o sucesso."
+  },
+  {
+    "id": "movie-a-fabulosa-aventura-da-sharpay-2011",
+    "title": "A Fabulosa Aventura da Sharpay (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fabulosa%20Aventura%20da%20Sharpay%20_2011_%20_tmdb_60405_35020c3c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-fabulosa-gilly-hopkins",
+    "title": "A Fabulosa Gilly Hopkins",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/76T9xMGbXOu3Nb3BMUMmhOmFqFC.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "331588",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "331588",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O filme é uma adaptação do livro de Katherine Paterson (autora de Ponte para Terabítia), que narra a história de Gilly, uma garota de 12 anos que passa por diversos lares adotivos durante sua vida. Ao ser enviada para a casa de Maime Trotter, Gilly elabora um plano de fuga para se juntar à sua mãe biológica, mas descobre que as coisas não são tão simples quanto ela imaginava."
+  },
+  {
+    "id": "movie-a-fabulosa-gilly-hopkins-2015",
+    "title": "A Fabulosa Gilly Hopkins (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fabulosa%20Gilly%20Hopkins%20_2015_%20_tmdb_331588_495ed9d3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-face-da-guerra",
+    "title": "A Face da Guerra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/arlwPVSQg3fsBCDhwORpiHnZjYt.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "567566",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/567566",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/567566",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Guerra%20_2018_%20_tmdb_505011_36d7b599.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Outra%20Face%20da%20Guerra%20_2019_%20_tmdb_567566_b00d1de4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "567566",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455816",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653088",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-face-da-guerra-2018",
+    "title": "A Face da Guerra (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/3uTyEas5u5zfzwsSCX3yMBd6Mww.jpg",
+    "genres": [
+      "Guerra"
+    ],
+    "tmdb_id": "505011",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/505011",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/505011",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "505011",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447715",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644950",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670730",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Voltando para casa depois de lutar na África durante a Segunda Guerra Mundial, um soldado com PTSD (transtorno de estresse pós-traumático) acha cada vez mais difícil a reintegração à vida familiar, enquanto revive a batalha do Passo de Kasserine. (e 16 - Estimado 16 Anos)"
+  },
+  {
+    "id": "movie-a-face-da-morte",
+    "title": "A Face da Morte",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jLN3dCYojhYbTuNGoAymAb7LiNB.jpg",
+    "genres": [
+      "TV",
+      "Drama"
+    ],
+    "tmdb_id": "369657",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/369657",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/369657",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "655593",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-face-da-morte-o-demonio-veste-sorriso-2012",
+    "title": "A Face da Morte - o Demônio Veste Sorriso (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/5GOEq0vdFUVNV3n6YJff3LqA6tO.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "119278",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/119278",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/119278",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Morte%20-%20o%20Dem_nio%20Veste%20Sorriso%20_2012_%20_tmdb_119278_a4532084.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "119278",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Numa tentativa de superar a morte de sua mãe, Ashley parte para a faculdade. Lá, ela conhece novas pessoas, incluindo um colega chamado Binder, que a convida para uma festa. Durante essa festa, a jovem conhece uma lenda urbana que está circulando o campus – trata-se de um assassino que frequenta o mundo online e tem como apelido “Smiley”, aquela carinha feliz que se usa quando se escreve uma mensagem. Ele ataca suas vítimas depois que elas repetem determinada frase três vezes no mundo virtual. Até então ele só pode ser visto na internet, ninguém o viu no mundo real.\r Intrigada, Ashley volta para o dormitório e, junto com sua colega de quarto Proxy, ela resolve colocar à prova tal lenda. Para seu terror, Ashley vê o tal assassino e fica paranoica sobre o assunto, pensando se o que ela viu é real ou se ela está ficando louca."
+  },
+  {
+    "id": "movie-a-face-da-verdade",
+    "title": "A Face da Verdade",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/2dXA5dNh3kqDQwRt08TxxgldTOW.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "22067",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/22067",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/22067",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Verdade%20_1994_%20_tmdb_22067_81f16ed1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-face-da-verdade-2019",
+    "title": "A Face da Verdade (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/JAShb31Bbn03ZluMvbfmCHLZcR.jpg",
+    "genres": [
+      "Drama",
+      "Guerra"
+    ],
+    "tmdb_id": "623953",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/623953",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/623953",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/22067",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/22067",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "623953",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "22067",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455418",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653626",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um soldado chamado Jack está no campo de batalha e, após receber uma carta de sua amada esposa Eva, deixa sua unidade militar, corre pelo campo e encontra o vale onde Eva mora. Lá, Jack encontra algum trabalho, enquanto sonha com Eva e em criar sua própria casa e ter um bebê. De repente, a polícia secreta aparece. Para piorar, Bar, o cruel proprietário de uma fábrica local, está interessado em Eva e fará de tudo para que Jack saia do caminho."
+  },
+  {
+    "id": "movie-a-face-da-vinganca",
+    "title": "A Face da Vingança",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/tlMVU37EuUzgfc737cuusJMTQlr.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "1135229",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1135229",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1135229",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20da%20Vingan_a%20_2023_%20_tmdb_1135229_e2366d73.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1135229",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449497",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452074",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654425",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Durante uma viagem para conhecer os pais de seu namorado, Erin é sequestrada por uma estranha organização de comércio de sangue. Mas os seus sequestradores não sabem o erro que cometeram ao capturarem uma mulher com problemas de raiva."
+  },
+  {
+    "id": "movie-a-face-de-um-anjo-2014",
+    "title": "A Face De Um Anjo (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/100pHE252kgwxwVNbiflYV9j1yi.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "254024",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/254024",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/254024",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20De%20Um%20Anjo%20_2014_%20_tmdb_254024_2c248467.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "254024",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Thomas (Daniel Brühl) é um cineasta em busca de uma segunda chance em Hollywood depois do fracasso de bilheterias de seu primeiro longa. Ele vai a Siena, na Itália, para pesquisar sobre um brutal assassinato que está atualmente em julgamento na cidade. As ordens vêm de seus produtores, em busca de um produto palatável pra vender; a atmosférica cidade medieval e seus habitantes, porém, começam a exercer uma estranha influência sobre o diretor. Ele passa a ter visões e pesadelos desconcertantes enquanto segue em sua busca pela verdade, ao lado de Simone (Kate Beckinsale) uma jornalista que escreveu um livro sobre o assassinato e conhece tudo sobre o caso."
+  },
+  {
+    "id": "movie-a-face-do-mal",
+    "title": "A Face do Mal",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/koI6ZCE7WGiJjpf6j532CEnRjRK.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "146243",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "146243",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Ao lado dos pais e das duas irmãs, Evan Asher (Harrison Gilbertson) é um jovem tímido e pouco sociável que se muda para uma grande casa, cujo passado é marcado por uma família que perdeu todos os filhos. Aproveitando o baixo preço e sem problemas superstições, os Asher se mudam para o local. Lá, Evan aproveita o tempo livre para desenvolver uma amizade/namoro com a vizinha Sam (Liana Liberato). Curiosos, os dois vão explorar o passado sombrio do local e despertar forças nada amigáveis."
+  },
+  {
+    "id": "movie-a-face-do-mal-2014",
+    "title": "A Face do Mal (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20do%20Mal%20_2014_%20_tmdb_146243_2cf67ab5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-face-do-predador",
+    "title": "A Face do Predador",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/2oppAZ5Eh83Zlaf4eSj72FT5znI.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica"
+    ],
+    "tmdb_id": "24683",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "24683",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quatro amigos de faculdade viajam até os pântanos da Florida para ganhar alguns créditos extras nas aulas de biologia. Acreditando que estão lá para pesquisar diferentes espécies, nem imaginam que seu professor, Dr. Soren, criou uma monstruosa enguia geneticamente modificada e que cabe a eles agora captura-la, viva ou morta. Delmar, amigo do professor, também está na captura da criatura, enquanto a xerife da cidade persegue dois fugitivos. Quando todos esses grupos se encontram, tudo se torna excitante... e mortal!"
+  },
+  {
+    "id": "movie-a-face-do-predador-2007",
+    "title": "A Face do Predador (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20do%20Predador%20_2007_%20_tmdb_24683_.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-face-oculta-da-lei",
+    "title": "A Face Oculta da Lei",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/2tGDJRIakAFHDu8dg018MhXEpyM.jpg",
+    "genres": [
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "4911",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "4911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um policial novato discorda quando seu parceiro corrupto conspira com seu mentor para acusar falsamente dois ex-presidiários de assassinato."
+  },
+  {
+    "id": "movie-a-face-oculta-da-lei-2002",
+    "title": "A Face Oculta da Lei (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20da%20Lei%20_2002_%20_tmdb_4911_f7bc7a74.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-face-oculta-da-medicina",
+    "title": "A Face Oculta da Medicina",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/cCESCi4DtkVgQ82hwaDPlvhmfZq.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1187335",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1187335",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1187335",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20da%20Medicina%20_2020_%20_tmdb_1187335_2048850f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1187335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453211",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647919",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um documentário que conta a história do médico Paulo Cesar Fructuoso que realizou seu trabalho como cirurgião oncológico em paralelo às sessões de materializações e cirurgias espirituais realizadas no famoso Lar de Frei Luiz."
+  },
+  {
+    "id": "movie-a-face-oculta-de-varginha-poder-dinheiro-e-rituais",
+    "title": "A Face Oculta de Varginha: Poder, Dinheiro e Rituais.",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/jhemlyhhwpEYRgnWqSPRXXFVWxL.jpg",
+    "genres": [],
+    "tmdb_id": "1652717",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1652717",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1652717",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20de%20Varginha_%20Poder_%20Dinheiro%20e%20Rituais%20_2026_%20_tmdb_1652717_6a6e5bd2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1652717",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444781",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "907983",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O filme apresenta diferentes visões sobre o caso — ufológica, religiosa e ocultista. Além dos relatos de aparições e da possível captura de criaturas, ele sugere que mortes de animais, movimentação militar e testemunhos estranhos poderiam estar ligados a rituais, forças ocultas ou interesses políticos.  No fim, o documentário trata o episódio como um mistério complexo, onde ETs, ocultismo e manipulação de informações podem estar misturados, sem dar uma conclusão definitiva.  Se quiser, também posso te contar quais partes do documentário são fatos históricos confirmados e quais são mais teoria/conspiração — essa história de Varginha tem muita coisa misturada."
+  },
+  {
+    "id": "movie-a-face-oculta-do-feminismo",
+    "title": "A Face Oculta do Feminismo",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/iXjBoRHtOEFChA13YCPUrGRXWKD.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "972482",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/972482",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/972482",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Face%20Oculta%20do%20Feminismo%20_2022_%20_tmdb_972482_f530d86c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "972482",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453026",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648084",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O feminismo é um movimento político popular. Suas concepções pautam a política, os debates públicos, as interações sociais. Mas por trás dessa feição conhecida, esconde-se outra, oculta até de seus apoiadores, e que agora será revelada."
+  },
+  {
+    "id": "movie-a-face-oculta-do-feminismo-2022",
+    "title": "A Face Oculta do Feminismo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/iXjBoRHtOEFChA13YCPUrGRXWKD.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/972482",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/972482",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-fada-das-trevas",
+    "title": "A Fada das Trevas",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/n6YHVEEPu3NXSENdTUkWlZO7kQl.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "1475815",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1475815",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1475815",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fada%20das%20Trevas%20_2025_%20_tmdb_1475815_5c75a27b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1475815",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Aina se apaixona pelo jovem Miras. Os pais do garoto mal conseguem acreditar que seu filho está se relacionando com uma jovem tão rica, mas não sabem que a luxuosa mansão da família de Aina esconde muitos segredos."
+  },
+  {
+    "id": "movie-a-fada-do-dente-2022",
+    "title": "A Fada do Dente (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/7Biyu5aP0o86GjxnffsHThYN4h1.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "681303",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9ad0f362cbc8f396106143ad612079c4/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/681303",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/681303",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fada%20do%20Dente%20_2022_%20_tmdb_681303_da77ad57.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "681303",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646070",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Violetta, uma fada curiosa e atrevida, se perde no mundo humano.  Para encontrar o caminho de volta ao mundo das fadas, ela se junta à garota humana Maxie e descobre seu verdadeiro destino."
+  },
+  {
+    "id": "movie-a-falha-2020",
+    "title": "A Falha (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/hZTtAsUT1oD9IaX3lF54Z3RIzg0.jpg",
+    "genres": [
+      "Suspense",
+      "Ficção científica"
+    ],
+    "tmdb_id": "648299",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/cf540160e163ca244c50f3aa4fac2f2d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/648299",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/648299",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "648299",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "471955",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447912",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647126",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670538",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A vida aparentemente perfeita de uma dona de casa do subúrbio entra em colapso quando ela começa a apresentar avarias, revelando sua natureza androide. Com a piora dos defeitos, ela se torna uma ameaça para a família."
+  },
+  {
+    "id": "movie-a-falsa-esposa-do-bilionario",
+    "title": "A FALSA ESPOSA DO BILIONARIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-familia-addams-2019",
+    "title": "A Familia Addams (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/sFwaszCIbVXGnsJG6dg6WUY7d6P.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2907",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2907",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-addams-2-1993",
+    "title": "A Familia Addams 2 (1993)",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/4OcwSxm47cmxT04MyGgI8aBfTlZ.jpg",
+    "genres": [
+      "Comédia",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2758",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2758",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-addams-2-pe-na-estrada-2021",
+    "title": "A Familia Addams 2: Pe na Estrada (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/kGSZSlmJqshcxh6Usgx9Um0utK0.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "639721",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bb8acb5268080482fbe93cbc0637d70d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/639721",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/639721",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%202_%20P_%20na%20Estrada%20_2021_%20_tmdb_639721_0084bab4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "639721",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646809",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Os Addams se envolvem em aventuras mais malucas e se envolvem em confrontos hilariantes com todos os tipos de personagens desavisados."
+  },
+  {
+    "id": "movie-a-familia-craft-em-o-impostor",
+    "title": "A Familia Craft em O Impostor",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/zDhSf2RhV4GnuroTLu21fzjvmEX.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "919566",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/919566",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/919566",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Familia%20Craft%20em%20O%20Impostor%20_2021_%20_tmdb_919566_0d5dd551.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "919566",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451177",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "739605",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Baixamemoria, Cronosplays e Spok são amigos inseparáveis. Eles viajam rumo ao aniversário de Ana. Durante a festa, ocorre um apagão, e quando as luzes voltam, percebem que algo sumiu. Para ajudar Ana, eles vão contar com a \"ajuda\" do Detetive Xeroque Rolmes. Os meninos desconfiam do detetive. Mas com o trabalho em grupo, a turma descobre que tudo é mais um plano do professor Whiter, Cree e Per."
+  },
+  {
+    "id": "movie-a-familia-craft-em-o-impostor-2021",
+    "title": "A Familia Craft em O Impostor (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/zDhSf2RhV4GnuroTLu21fzjvmEX.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/919566",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/919566",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-da-noiva-2005",
+    "title": "A Familia da Noiva (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/zvIgkHV0PC7Dcdyiy3zfRunxz5E.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "11638",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11638",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11638",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Percy Jones é um pai amoroso, porém rígido, que tem uma grande surpresa ao conhecer seu futuro genro. Percy e sua família são negros e Simon, o noivo de sua filha, é branco. Tudo se complica quando Simon se mostra bastante atrapalhado perto do seu sisudo futuro sogro."
+  },
+  {
+    "id": "movie-a-familia-do-futuro",
+    "title": "A Familia do Futuro",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Ficção científica",
+      "Aventura"
+    ],
+    "tmdb_id": "1267",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1267",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1267",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20do%20Futuro%20_2007_%20_tmdb_1267_959c2a14.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1267",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459294",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646728",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Lewis (Daniel Hansen) é um jovem responsável por invenções brilhantes e surpreendentes. Seu mais recente trabalho é o escâner de memória, uma máquina que o ajudará a encontrar sua mãe biológica, o que permitirá que ele enfim tenha uma família. Porém antes mesmo de utilizá-la a máquina é roubada pelo Bandido do Chapéu Coco (Stephen J. Anderson). Lewis recebe então a visita de Wilbur Robinson (Wesley Singerman), um jovem misterioso que o leva em uma viagem no tempo. Já no futuro Lewis conhece os Robinsons, a família de Wilbur, que o ajudará a recuperar o escâner de memória."
+  },
+  {
+    "id": "movie-a-familia-do-futuro-2007",
+    "title": "A Familia do Futuro (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Ficção científica",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1267",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1267",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-mcmullen-2025",
+    "title": "A Familia McMullen (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/7DB9uAse9ST0u1opoU2ufDpYMSe.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família",
+      "Romance"
+    ],
+    "tmdb_id": "1548017",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/41a73ef43afa0b5f599bb58b3bc47ef3/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1548017",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1548017",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20McMullen%20_2025_%20_tmdb_1548017_1371f983.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1548017",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445137",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "896957",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900505",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Nesta continuação de Os Irmãos McMullen, Barry (Edward Burns), agora com cinquenta anos, o irmão Patrick (Michael McGlone) e a cunhada Molly (Connie Britton) redescobrem o amor, enquanto os filhos de Barry enfrentam seus próprios dilemas."
+  },
+  {
+    "id": "movie-a-familia-mitchell-e-a-revolta-das-maquinas-2021",
+    "title": "A Familia Mitchell e a Revolta das Maquinas (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/k1p10mLm1uM1jqR7RlzB0SalD00.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "501929",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/501929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/501929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Mitchell%20e%20a%20Revolta%20das%20M_quinas%20_2021_%20_tmdb_501929_a4cb125e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "501929",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646243",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Katie Mitchell é aceita na faculdade de cinema dos seus sonhos e seu pai decide aproveitar para realizar uma viagem em família para levá-la à universidade. Porém, seus planos são interrompidos por uma revolução robótica e agora os Mitchells terão que unir forças em família para trabalhar juntos para salvar o mundo."
+  },
+  {
+    "id": "movie-a-familia-noel-2020",
+    "title": "A Familia Noel (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/xOkrJgY9oHl0FMkR8VqOgYEmp7f.jpg",
+    "genres": [
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/767896",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/767896",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-noel-2-2021",
+    "title": "A Familia Noel 2 (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/6EV8G1tESAjelFEvrdn1rEMz8Z0.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/881180",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/881180",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-noel-3-2022",
+    "title": "A Familia Noel 3 (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1051959",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1051959",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-perfeita-2021",
+    "title": "A Familia Perfeita (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4EWtby5Sb1JKxwqVfpLLybmJK6E.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/826241",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/826241",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-perfeita-da-garota-planta",
+    "title": "A FAMILIA PERFEITA DA GAROTA PLANTA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-family-is-a-family-is-a-family-a-rosie-o-039-donnell-celebration-2010",
+    "title": "A Family Is a Family Is a Family: A Rosie O&#039;Donnell Celebration (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Family%20Is%20a%20Family%20Is%20a%20Family_%20A%20Rosie%20O_Donnell%20Celebration%20_2010_%20_tmdb_243665_eba27d82.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-family-is-a-family-is-a-family-a-rosie-o-donnell-celebration",
+    "title": "A Family Is a Family Is a Family: A Rosie O'Donnell Celebration",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/3BQ6NnEiwUMWO2NENZnLCzXhLZq.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "243665",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "243665",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Comovente retrato sobre a diversidade familiar existente no mundo atual, que desafia todos os estereótipos. Produzido por Rosie O'Donnell."
+  },
+  {
+    "id": "movie-a-famosa-bettie-page-2005",
+    "title": "A Famosa Bettie Page (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/jRzcb9O8WdGmJdz8EESEaBEuZZJ.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "15402",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/15402",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/15402",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-addams",
+    "title": "A Família Addams",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": "/sFwaszCIbVXGnsJG6dg6WUY7d6P.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "2907",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2907",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2907",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%20_2019_%20_tmdb_481084_6098a98e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Addams%20_1991_%20_tmdb_2907_2d7bef25.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "481084",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449008",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461865",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "2907",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646462",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650185",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762341",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770295",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando um homem dizendo ser Fester Addams (o irmão desaparecido de Gomez Addams) chega à casa dos Addams, a família está feliz. No entanto, Mortícia começa a suspeitar que Fester é uma fraude, já que ele não consegue se lembrar de detalhes da sua vida. Com a ajuda do advogado Tully Alford, Fester consegue fazer com que o clã Addams seja despejado de sua casa. Gomez percebe que os dois homens estão conspirando para roubar a fortuna de sua família."
+  },
+  {
+    "id": "movie-a-familia-addams-2",
+    "title": "A Família Addams 2",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/4OcwSxm47cmxT04MyGgI8aBfTlZ.jpg",
+    "genres": [
+      "Comédia",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "2758",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2758",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2758",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Familia%20Addams%202%20_1993_%20_tmdb_2758_f2912f74.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2758",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458685",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646733",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Gomez Addams e sua esposa Mortícia estão comemorando a chegada de um bebê. Porém, os irmãos Wednesday e Pugsley não estão muito felizes com a novidade e tentam eliminar o bebê. Quando a babá Debbie Jelinsky aparece para manter as crianças na linha, sua presença leva a uma revira-volta inesperada."
+  },
+  {
+    "id": "movie-a-familia-belier-2014",
+    "title": "A Família Belier (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/f0E3QLcLcRCLjqcs7G1VD9H320N.jpg",
+    "genres": [
+      "Comédia",
+      "Música",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/304410",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/304410",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-buscape",
+    "title": "A Família Buscapé",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/1yEKkVxRHhHBG1Wk6kxxhMN5nhX.jpg",
+    "genres": [
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "11041",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11041",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11041",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Buscap%20_1993_%20_tmdb_11041_3bc53970.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11041",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461506",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651869",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "O mais Inacreditável choque de culturas acontece nesta história hilária que descreve as mudanças na vida da Família Clampett que fica rica da noite para o dia quando descobrem petróleo no pântano atrás de seu casebre em Ozark. Incentivada a se mudar para Beverly Hills, a inocente e trabalhadora família é a isca perfeita para charlatões, impostores e aproveitadores."
+  },
+  {
+    "id": "movie-a-familia-buscape-1993",
+    "title": "A Família Buscapé (1993)",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/1yEKkVxRHhHBG1Wk6kxxhMN5nhX.jpg",
+    "genres": [
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11041",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11041",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-belier",
+    "title": "A Família Bélier",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/f0E3QLcLcRCLjqcs7G1VD9H320N.jpg",
+    "genres": [
+      "Comédia",
+      "Música",
+      "Drama"
+    ],
+    "tmdb_id": "304410",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/304410",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/304410",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "304410",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Paula é uma adolescente francesa que enfrenta todas as questões comuns de sua idade: o primeiro amor, os problemas na escola, as brigas com os pais… Mas a sua família tem algo diferente: seu pai , sua mãe e o irmão são surdos e mudos. É Paula quem administra a fazenda familiar, e que traduz a linguagem de sinais nas conversas com os vizinhos. Um dia, ela descobre ter o talento para o canto, podendo integrar uma escola prestigiosa em Paris. Mas como abandonar os pais e os irmãos?"
+  },
+  {
+    "id": "movie-a-familia-de-simon",
+    "title": "A Família de Simon",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/k9mGGOOsRVRqW4NzD7gqpH6mcAH.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "860700",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/860700",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/860700",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "860700",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449079",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455524",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652135",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Simon é um garoto que leva uma vida feliz junto de seus pais adotivos e de seus dois irmãos. Mas a vida desta família irá virar de cabeça para baixo quando o pai biológico de Simon aparece querendo recuperar a sua guarda."
+  },
+  {
+    "id": "movie-a-familia-de-simon-2022",
+    "title": "A Família de Simon (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/k9mGGOOsRVRqW4NzD7gqpH6mcAH.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/860700",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/860700",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-khumalo",
+    "title": "A Família Khumalo",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1450863",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1450863",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1450863",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Khumalo%20_2025_%20_tmdb_1450863_033a2f34.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1450863",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446188",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447635",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770285",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Antigas melhores amigas e agora arqui-inimigas, duas mulheres viram vizinhas e entram em guerra quando descobrem que o filho de uma e a filha de outra se apaixonaram."
+  },
+  {
+    "id": "movie-a-familia-khumalo-2025",
+    "title": "A Família Khumalo (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1450863",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1450863",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-familia-lero-lero",
+    "title": "A Família Lero-Lero",
+    "type": "movie",
+    "year": "1953",
+    "poster_url": "/gLFRaxaeMRpLEdY5vwSyWfAspVo.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "373640",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/373640",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/373640",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Aquiles Taveira é um servidor público mal-humorado que se acha explorado pela mulher e os três filhos adultos, Teteco, Janjão e Laurita. Também não é respeitado na vizinhança e no trabalho, passando meses reclamando de um buraco no piso, sem serem atendidos os seus pedidos para o conserto. Após os filhos fracassarem na tentativa de seguirem carreiras artísticas e esportivas mas mesmo assim insistindo em não procurarem trabalhos comuns e serem apoiados pela mãe, Aquiles se deixa ser acusado de um desfalque de 50 mil cruzeiros na repartição e foge para o Guarujá, onde se hospeda num hotel-cassino e tenta a sorte na roleta."
+  },
+  {
+    "id": "movie-a-familia-noel",
+    "title": "A Família Noel",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/xOkrJgY9oHl0FMkR8VqOgYEmp7f.jpg",
+    "genres": [
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "767896",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/767896",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/767896",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%20_2020_%20_tmdb_767896_1a5ebb7f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "767896",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458542",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646823",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Jules odeia as festas de fim de ano. Mas, quando seu avô fica doente, descobre o legado mágico da família e percebe que é o único que pode salvar o Natal."
+  },
+  {
+    "id": "movie-a-familia-noel-2",
+    "title": "A Família Noel 2",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/6EV8G1tESAjelFEvrdn1rEMz8Z0.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "881180",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/881180",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/881180",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%202%20_2021_%20_tmdb_881180_0bf7a4dd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "881180",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447071",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447083",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645074",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Jules Noel entra no clima do Natal novamente e começa a se preparar para a época mais movimentada do ano, junto com o vovô Noel. Tudo vai bem até que Jules recebe uma carta especial com uma pergunta intrigante. “A Família Noel 2” é um filme para toda a família curtir, estrelado por talentosos artistas da Holanda e da região de Flandres."
+  },
+  {
+    "id": "movie-a-familia-noel-3",
+    "title": "A Família Noel 3",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "1051959",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1051959",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1051959",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Noel%203%20_2022_%20_tmdb_1051959_58373887.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1051959",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461774",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650297",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A entrega dos presentes dá errado e o Vovô Noel fica em apuros. Para salvar o Natal, os irmãos Jules e Norah vão ter que trabalhar juntos… mas será que eles conseguem?"
+  },
+  {
+    "id": "movie-a-familia-perfeita",
+    "title": "A Família Perfeita",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4EWtby5Sb1JKxwqVfpLLybmJK6E.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "826241",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/826241",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/826241",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Perfeita%20_2021_%20_tmdb_826241_c6e264d1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "826241",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461445",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650680",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Surpresa com a família da namorada do filho, Lucia nem imagina o impacto que essas pessoas terão sobre sua vida aparentemente perfeita."
+  },
+  {
+    "id": "movie-a-familia-que-escolhi",
+    "title": "A Família que Escolhi",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/zwXvzUfxIp2I0HmwoFOBOv3CWNo.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "834966",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/834966",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/834966",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20que%20Escolhi%20_2024_%20_tmdb_834966_36a4aea5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "834966",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "919164",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Ann é uma professora de yoga tentando encontrar sua paz interior apesar dos problemas com sua família e de ter uma vida amorosa complicada."
+  },
+  {
+    "id": "movie-a-familia-radical-o-filme",
+    "title": "A Família Radical: O Filme",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/h49hMQRoEUoLOBAQvfYrXpWIxqc.jpg",
+    "genres": [
+      "Comédia",
+      "Família",
+      "Animação",
+      "TV"
+    ],
+    "tmdb_id": "61728",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "61728",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Oscar e a família ganham uma viagem para uma ilha tropical, mas tudo não passa de uma armadilha de um cientista louco que quer uma fórmula secreta que Oscar inventou para colocar nos amendoins. O plano do cientista é dominar o mundo e ele vai causar muita confusão nessa divertida aventura da Família Radical!"
+  },
+  {
+    "id": "movie-a-familia-radical-o-filme-2005",
+    "title": "A Família Radical: O Filme (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fam_lia%20Radical_%20O%20Filme%20_2005_%20_tmdb_61728_263e3e84.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-fantastica-fabrica-de-chocolate-1971",
+    "title": "A Fantastica Fabrica de Chocolate (1971)",
+    "type": "movie",
+    "year": "1971",
+    "poster_url": "/noanwChjqswpEz5FTaqdbztfSsB.jpg",
+    "genres": [
+      "Família",
+      "Fantasia",
+      "Comédia"
+    ],
+    "tmdb_id": "252",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/252",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/252",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fant_stica%20F_brica%20de%20Chocolate%20_2005_%20_tmdb_118_05ab4cfe.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fant_stica%20F_brica%20de%20Chocolate%20_1971_%20_tmdb_252_92f74383.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "252",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646849",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um garoto pobre ganha o direito de visitar a fábrica de chocolates do excêntrico Willy Wonka. Acompanhado por seu avô e quatro crianças mimadas, ele vive aventuras inesquecíveis e aprende uma importante lição."
+  },
+  {
+    "id": "movie-a-fantastica-fabrica-de-chocolate-2005",
+    "title": "A Fantastica Fábrica de Chocolate (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/vSl1u0z4TCKL4VPVyr6KDtZibYT.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "118",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/118",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/118",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "118",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458620",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646848",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Willy Wonka é o excêntrico dono da maior fábrica de doces do planeta, que decide realizar um concurso mundial para escolher um herdeiro para seu império. Cinco crianças de sorte, entre elas Charlie Bucket, encontram um convite dourado em barras de chocolate Wonka e com isso ganham uma visita guiada pela lendária fábrica de chocolate, que não era visitada por ninguém há quinze anos."
+  },
+  {
+    "id": "movie-a-farra-dos-malandros",
+    "title": "A Farra dos Malandros",
+    "type": "movie",
+    "year": "1954",
+    "poster_url": "/y4rc8vwJs0DHbhw9oN4coaHKTzx.jpg",
+    "genres": [
+      "Comédia",
+      "Música"
+    ],
+    "tmdb_id": "39016",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "39016",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Wally Cook (Janet Leigh) é uma repórter do \"Crônica da Manhã?, de Nova York, que vai até Fim do Mundo, um pequeno lugarejo no Novo México, para levar Homer Flagg (Jerry Lewis), um jovem que trabalha na estação ferroviária, para Nova York com as despesas pagas, pois se acredita que Homer esteja morrendo vítima de radiação. Mas quando ela chega lá Steve Harris (Dean Martin), o médico de Homer, já constatou o erro e descobriu que ele nada tem. Entretanto, Homer quer conhecer Nova York e Steve se sente atraído por Wally. Assim, nada diz e afirma que tem de acompanhar Homer nos seus últimos dias de vida. Porém, em Nova York esta farsa fica cada vez mais difícil de ser sustentada."
+  },
+  {
+    "id": "movie-a-farra-dos-malandros-1954",
+    "title": "A Farra dos Malandros (1954)",
+    "type": "movie",
+    "year": "1954",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Farra%20dos%20Malandros%20_1954_%20_tmdb_39016_aa7fcb73.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-farsa",
+    "title": "A Farsa",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/vf2fZMZ0s44STAjF6kE7wVcKiw1.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Suspense"
+    ],
+    "tmdb_id": "41963",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/41963",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/41963",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Farsa%20_2022_%20_tmdb_892515_5d9b686d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Após a morte da mãe, a herdeira de uma grande fortuna se envolve com um jovem capitão de iates que parece amá-la intensamente. Ao descobrir que o amante está completamente falido, ela passa a desconfiar das suas intenções."
+  },
+  {
+    "id": "movie-a-farsa-2022",
+    "title": "A Farsa (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/7ZBfjV7pJMXnuftpDr35gUHe8Pe.jpg",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "892515",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/892515",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/892515",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/41963",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/41963",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "892515",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455805",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652583",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando um jovem gigolô cai no feitiço de uma tentadora vigarista, um esquema desonesto começa a ser planejado sob o sol ardente da Riviera Francesa. Em busca de uma vida de luxo, os dois amantes iriam tão longe a ponto de sacrificar o sustento de uma ex-estrela de cinema e de um corretor de imóveis? Paixão, crime, traição dão o tom neste romance cheio de reviravoltas."
+  },
+  {
+    "id": "movie-a-favorita",
+    "title": "A Favorita",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/uBOytbDGmdiUVt3NNXx5HaoL3fn.jpg",
+    "genres": [
+      "História",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "375262",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/375262",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/375262",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Favorita%20_2018_%20_tmdb_375262_72c0dc2e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "375262",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456160",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654115",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Na Inglaterra do século XVIII, Sarah Churchill, a Duquesa de Marlborough (Rachel Weisz) exerce sua influência na corte como confidente, conselheira e amante secreta da Rainha Ana (Olivia Colman). Seu posto privilegiado, no entanto, é ameaçado pela chegada de Abigail (Emma Stone), nova criada que logo se torna a queridinha da majestade e agarra com unhas e dentes a oportunidade única."
+  },
+  {
+    "id": "movie-a-favorita-2018",
+    "title": "A Favorita (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/uBOytbDGmdiUVt3NNXx5HaoL3fn.jpg",
+    "genres": [
+      "História",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/375262",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/375262",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-favorita-gravida",
+    "title": "A FAVORITA GRAVIDA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-faxineira-e-na-verdade-a-ceo",
+    "title": "A Faxineira e na Verdade a CEO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-faxineira-milionaria",
+    "title": "A Faxineira Milionaria",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-faxineira-que-virou-estrela",
+    "title": "A FAXINEIRA QUE VIROU ESTRELA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-febre",
+    "title": "A Febre",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/fSjEqdSvrrd0uOAH5l7iIKb649c.jpg",
+    "genres": [
+      "Fantasia",
+      "Terror"
+    ],
+    "tmdb_id": "1380861",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1380861",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1380861",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Febre%20_2024_%20_tmdb_1380861_c3643020.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Ao acordar no meio da noite, uma mulher caminha por uma casa escura em busca de uma saída."
+  },
+  {
+    "id": "movie-a-febre-2021",
+    "title": "A Febre (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/bcCcRhvmCIfP5BGYBwRkVE1uDKW.jpg",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "515985",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/515985",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/515985",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1380861",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1380861",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "515985",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1380861",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457105",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653578",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Justino, é um guarda de segurança no porto de Manaus. Enquanto sua filha se prepara para estudar medicina em Brasília, Justino é dominado por uma febre misteriosa."
+  },
+  {
+    "id": "movie-a-feiticeira-2005",
+    "title": "A Feiticeira (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/trQdN5qU3TM80pBS9mnAkGQ6xEc.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia",
+      "Romance"
+    ],
+    "tmdb_id": "9722",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9722",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9722",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Feiticeira%20_2005_%20_tmdb_9722_84b84e83.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9722",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Isabel é uma bondosa bruxa, que vive no vale californiano de San Fernando e deseja mudar de vida. Isabel está decidida a renegar seus poderes sobrenaturais e levar uma vida normal. Enquanto isso Jack Wyatt, um ator que deseja resgatar sua carreira, se dedica integralmente à nova versão da clássica série de TV \"A Feiticeira\", exibida nos anos 60, na qual interpretará o personagem Darrin. Por acaso Jack conhece Isabel, por quem sente uma atração imediata. Convencido de que Isabel poderia interpretar a personagem Samantha na série, Jack a convence a se tornar atriz. Por sua vez Isabel vê em Jack a chance de levar uma vida normal, sem precisar usar seus poderes, e por isso aceita o papel."
+  },
+  {
+    "id": "movie-a-feiticeira-e-o-guarda-roupa",
+    "title": "a Feiticeira e o Guarda-Roupa",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/sDBziWxSTavCNjbayaXaDDwmTiQ.jpg",
+    "genres": [
+      "Aventura",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "411",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/411",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/411",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/As%20Cr_nicas%20de%20N_rnia_%20O%20Le_o_%20a%20Feiticeira%20e%20o%20Guarda-Roupa%20_2005_%20_tmdb_411_68893924.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "411",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647091",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-felicidade-das-coisas",
+    "title": "A Felicidade das Coisas",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "764510",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/764510",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/764510",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Felicidade%20das%20Coisas%20_2022_%20_tmdb_764510_590a019c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "764510",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Paula sonha em construir uma piscina para os filhos na sua modesta casa de praia. No entanto, seus planos se desfazem por conta de problemas financeiros, e ela se vê cada vez mais sufocada pelo peso das responsabilidades."
+  },
+  {
+    "id": "movie-a-felicidade-das-coisas-2022",
+    "title": "A Felicidade das Coisas (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/764510",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/764510",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-felicidade-mora-ao-lado",
+    "title": "A Felicidade Mora ao Lado",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/pM7goQohLEojWhS94SijerhFuDJ.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "563388",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/563388",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/563388",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Felicidade%20Mora%20ao%20Lado%20_2018_%20_tmdb_563388_cd19698c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "563388",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457277",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652542",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Pouco antes do Natal, após sair da cadeia, Jon Price, um presidiário em liberdade condicional, se vê obrigado a voltar para sua pequena e chuvosa cidade natal e reencontrar sua família. Lá, ele inesperadamente volta a encontrar a felicidade ao conhecer Olivia, uma mãe solteira que lhe mostra a verdadeira bondade, e então Jon passa a exercer o papel de pai para a filha dela."
+  }
+]
