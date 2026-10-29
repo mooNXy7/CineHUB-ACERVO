@@ -1,1 +1,3843 @@
-[{"id":"movie-a-princesa-dos-lycan-nao-sera-sua-luna","title":"A PRINCESA DOS LYCAN NAO SERA SUA LUNA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-a-ervilha","title":"A Princesa e a Ervilha","type":"movie","year":null,"poster_url":"/oC1wcIY9VECwRkRd6nS4DSHVrMR.jpg","genres":["Animação","Fantasia","Família"],"tmdb_id":"14492","sources":[{"url":"https://mgeb.top/embed/14492","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14492","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2459183","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-e-a-plebeia","title":"A Princesa e a Plebeia","type":"movie","year":null,"poster_url":"/mpIZEkNudLQrQO7hwDNTqQphe2l.jpg","genres":["Romance","Comédia"],"tmdb_id":"556803","sources":[{"url":"https://mgeb.top/embed/556803","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/556803","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20a%20Plebeia%20_2018_%20_tmdb_556803_c1e5d38e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"556803","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446719","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645816","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-a-plebeia-2018","title":"A Princesa e a Plebeia (2018)","type":"movie","year":"2018","poster_url":"/mpIZEkNudLQrQO7hwDNTqQphe2l.jpg","genres":["Romance","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/556803","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/556803","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-a-plebeia-nova-aventura","title":"A Princesa E A Plebeia Nova Aventura","type":"movie","year":null,"poster_url":"/4PdBXLcLb75cHtdxd7EVo8fL60h.jpg","genres":["Família","Romance","Comédia","TV"],"tmdb_id":"643882","sources":[{"url":"https://mgeb.top/embed/643882","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/643882","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"643882","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446965","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645702","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-a-plebeia-as-vilas-tambem-amam-2021","title":"A Princesa e a Plebeia: As Vilas Tambem Amam (2021)","type":"movie","year":"2021","poster_url":"/eNOvGQ3rMPtHqQxXqKvHlQCwS3E.jpg","genres":["Romance","Comédia"],"tmdb_id":"785533","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/28f34da67b0e7839cd055d2ca355ebb8/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/785533","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/785533","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20a%20Plebeia_%20As%20Vil_s%20Tamb_m%20Amam%20_2021_%20_tmdb_785533_b5768492.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"785533","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446587","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645625","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-e-a-plebeia-nova-aventura-2020","title":"A Princesa e a Plebeia: Nova Aventura (2020)","type":"movie","year":"2020","poster_url":"/4PdBXLcLb75cHtdxd7EVo8fL60h.jpg","genres":["Família","Romance","Comédia","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/643882","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/643882","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-dragao","title":"A Princesa e o Dragao","type":"movie","year":null,"poster_url":"/eWpbrTpACpLIGUA2RNdVwpwkdd0.jpg","genres":["Animação","Fantasia"],"tmdb_id":"518604","sources":[{"url":"https://mgeb.top/embed/518604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/518604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"518604","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459266","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646529","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-o-dragao-2018","title":"A Princesa e o Dragao (2018)","type":"movie","year":"2018","poster_url":"/eWpbrTpACpLIGUA2RNdVwpwkdd0.jpg","genres":["Animação","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/518604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/518604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-duende","title":"A Princesa e o Duende","type":"movie","year":null,"poster_url":"/gWXeEzpOavcmv1Ca8sjqkorfuIO.jpg","genres":["Aventura","Animação","Família","Fantasia"],"tmdb_id":"42001","sources":[],"provider_refs":[{"provider":"18","ref":"42001.m3u8","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-feitico-do-tempo","title":"A Princesa e o Feitiço do Tempo","type":"movie","year":null,"poster_url":"/t6Q6B0Iv3n9Vrrc4VcYgYS8y28y.jpg","genres":["Família","Fantasia","Comédia"],"tmdb_id":"1027604","sources":[{"url":"https://mgeb.top/embed/1027604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1027604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Feiti_o%20do%20Tempo%20_2022_%20_tmdb_1027604_0b4cf6a6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1027604","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447165","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460752","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650187","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-e-o-feitico-do-tempo-2022","title":"A Princesa e o Feitiço do Tempo (2022)","type":"movie","year":"2022","poster_url":"/t6Q6B0Iv3n9Vrrc4VcYgYS8y28y.jpg","genres":["Família","Fantasia","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1027604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1027604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-general","title":"A PRINCESA E O GENERAL","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-o-piloto","title":"A Princesa e o Piloto","type":"movie","year":null,"poster_url":"/bvXhm90FNtZWn5VQPGATcT26ePA.jpg","genres":["Aventura","Animação","Drama","Romance"],"tmdb_id":"93013","sources":[],"provider_refs":[{"provider":"18","ref":"93013","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-piloto-2011","title":"A Princesa e o Piloto (2011)","type":"movie","year":"2011","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Piloto%20_2011_%20_tmdb_93013_98ae314f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-e-o-sapo","title":"A Princesa e o Sapo","type":"movie","year":null,"poster_url":"/5JQbaVcFd9x5snwWT9gquNKmDC.jpg","genres":["Animação","Romance","Fantasia","Família"],"tmdb_id":"10198","sources":[{"url":"https://mgeb.top/embed/10198","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10198","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Sapo%20_2009_%20_tmdb_10198_7bd75574.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10198","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459174","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646340","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesa-e-o-sapo-2009","title":"A Princesa e o Sapo (2009)","type":"movie","year":"2009","poster_url":"/5JQbaVcFd9x5snwWT9gquNKmDC.jpg","genres":["Animação","Romance","Fantasia","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10198","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10198","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada","title":"A Princesa Encantada","type":"movie","year":null,"poster_url":"/eK08pDC4ASwgS5OohDmZcUbLrBx.jpg","genres":["Família","Animação","Fantasia","Aventura","Comédia"],"tmdb_id":"22586","sources":[{"url":"https://mgeb.top/embed/22586","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/22586","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2459711","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-1994","title":"A Princesa Encantada (1994)","type":"movie","year":"1994","poster_url":"/eK08pDC4ASwgS5OohDmZcUbLrBx.jpg","genres":["Família","Animação","Fantasia","Aventura","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/22586","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/22586","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-o-reino-da-musica","title":"A Princesa Encantada - O Reino da Música","type":"movie","year":null,"poster_url":"/6WU5ORvayBF1Cep3FYyo17KYGDG.jpg","genres":["Família","Animação","Fantasia","Música"],"tmdb_id":"605829","sources":[{"url":"https://mgeb.top/embed/605829","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/605829","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada%20-%20O%20Reino%20da%20M_sica%20_2019_%20_tmdb_605829_963fd188.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"605829","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450656","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-encantada-o-reino-da-musica-2019","title":"A Princesa Encantada - O Reino da Música (2019)","type":"movie","year":"2019","poster_url":"/6WU5ORvayBF1Cep3FYyo17KYGDG.jpg","genres":["Família","Animação","Fantasia","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/605829","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/605829","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-era-uma-vez-2023","title":"A Princesa Encantada Era Uma Vez (2023)","type":"movie","year":"2023","poster_url":"/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg","genres":["Família","Animação","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1118203","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1118203","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-ii-o-segredo-do-castelo","title":"A Princesa Encantada II: O Segredo do Castelo","type":"movie","year":null,"poster_url":"/yp9RrPITdY1VTV3fsoi3G48Xltr.jpg","genres":["Família","Fantasia","Animação","Romance"],"tmdb_id":"54113","sources":[{"url":"https://mgeb.top/embed/54113","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/54113","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada%20II_%20O%20Segredo%20do%20Castelo%20_1997_%20_tmdb_54113_57d6c90a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"54113","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-encantada-a-fabula-da-familia-real","title":"A Princesa Encantada: A Fábula da Família Real","type":"movie","year":null,"poster_url":"/c6syIxEykVx0Ju4UOUbKPLyFAcF.jpg","genres":["Família","Animação","Fantasia"],"tmdb_id":"254263","sources":[],"provider_refs":[{"provider":"18","ref":"254263","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-a-fabula-da-familia-real-2014","title":"A Princesa Encantada: A Fábula da Família Real (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada_%20A%20F_bula%20da%20Fam_lia%20Real%20_2014_%20_tmdb_254263_8f13eab8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-encantada-era-uma-vez","title":"A Princesa Encantada: Era Uma Vez…","type":"movie","year":null,"poster_url":"/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg","genres":["Família","Animação","Fantasia"],"tmdb_id":"1118203","sources":[{"url":"https://mgeb.top/embed/1118203","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1118203","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada_%20Era%20Uma%20Vez%20_2023_%20_tmdb_1118203_7ff2bbd3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1118203","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646118","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-princesa-encantada-o-casamento-real","title":"A Princesa Encantada: O Casamento Real","type":"movie","year":null,"poster_url":"/9VnFR68Yto8p78c7y5rW4eaExhR.jpg","genres":["Animação","Família","Fantasia"],"tmdb_id":"718100","sources":[{"url":"https://mgeb.top/embed/718100","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/718100","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2459510","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesa-odiada-do-rei-alfa-alpha-king-s-hated-princess","title":"A PRINCESA ODIADA DO REI ALFA - ALPHA KING'S HATED PRINCESS","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-princesa-perdida-2025","title":"A Princesa Perdida (2025)","type":"movie","year":"2025","poster_url":"/8EnFIZuCmkgkTSbWmCZGrp6CtDK.jpg","genres":["Ação","Aventura"],"tmdb_id":"1086910","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/18fa5ceef936b126878ec6f4d7dc02c0/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1086910","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1086910","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Perdida%20_2025_%20_tmdb_1086910_fa02956b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1086910","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444663","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-princesa-prometida-1987","title":"A Princesa Prometida (1987)","type":"movie","year":"1987","poster_url":"/9tXM8AR7BZ8cu6JkI9FlBl98Vao.jpg","genres":["Aventura","Fantasia","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2493","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2493","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-que-nao-perdoa","title":"A Princesa que nao Perdoa","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-princesa-xuxa-e-os-trapalhoes-1989","title":"A Princesa Xuxa e os Trapalhoes (1989)","type":"movie","year":"1989","poster_url":"/Cgup7klrAhrTrF176j7ScvjkT7.jpg","genres":["Aventura","Comédia","Família","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/123571","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/123571","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-princesa-xuxa-e-os-trapalhoes","title":"A Princesa Xuxa e os Trapalhões","type":"movie","year":null,"poster_url":"/Cgup7klrAhrTrF176j7ScvjkT7.jpg","genres":["Aventura","Comédia","Família","Ficção científica"],"tmdb_id":"123571","sources":[{"url":"https://mgeb.top/embed/123571","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/123571","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"123571","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451138","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644493","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesinha","title":"A Princesinha","type":"movie","year":null,"poster_url":"/cZZPfGiiuCRx6tIbY6tESpbRmuE.jpg","genres":["Drama","Família","Fantasia"],"tmdb_id":"19101","sources":[{"url":"https://mgeb.top/embed/19101","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/19101","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesinha%20_1995_%20_tmdb_19101_4f2216d0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"19101","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455986","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654347","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-princesinha-1995","title":"A Princesinha (1995)","type":"movie","year":"1995","poster_url":"/cZZPfGiiuCRx6tIbY6tESpbRmuE.jpg","genres":["Drama","Família","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/19101","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/19101","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-prisioneira","title":"A Prisioneira","type":"movie","year":null,"poster_url":"/whGg2IuCqXV7zbaGcdi5CgQo81f.jpg","genres":["Terror","Suspense"],"tmdb_id":"16335","sources":[],"provider_refs":[{"provider":"18","ref":"16335","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-prisioneira-2009","title":"A Prisioneira (2009)","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prisioneira%20_2009_%20_tmdb_16335_bbc6fbb1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-prisioneira-de-bordeaux","title":"A Prisioneira De Bordeaux","type":"movie","year":null,"poster_url":"/hhvnYGsWrg6GD1WJdbhzkIdKHka.jpg","genres":["Drama"],"tmdb_id":"961080","sources":[{"url":"https://mgeb.top/embed/961080","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/961080","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prisioneira%20De%20Bordeaux%20_2024_%20_tmdb_961080_3109efa8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"961080","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-procura-2014","title":"A Procura (2014)","type":"movie","year":"2014","poster_url":"/zUDIzM0mGXmvPtTCT8IGjKb7xh9.jpg","genres":["Drama","Suspense","Crime"],"tmdb_id":"244761","sources":[{"url":"https://mgeb.top/embed/244761","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/244761","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"244761","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455639","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653099","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-procura-da-felicidade-2006","title":"A Procura da Felicidade (2006)","type":"movie","year":"2006","poster_url":"/vHGC2sSh7pBWXY0qzMdPD7fcjzS.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1402","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1402","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-procura-de-martina","title":"A Procura de Martina","type":"movie","year":null,"poster_url":"/5Knp16HlsPxGIJYv2xoWLB42Frd.jpg","genres":["Drama"],"tmdb_id":"1260070","sources":[{"url":"https://mgeb.top/embed/1260070","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1260070","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Procura%20de%20Martina%20_2025_%20_tmdb_1260070_87671227.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1260070","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444579","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901431","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-procura-do-amor-2013","title":"A Procura do Amor (2013)","type":"movie","year":"2013","poster_url":"/lh4iE3odsvzPyFtTi7mMTwZmxUJ.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"209263","sources":[{"url":"https://mgeb.top/embed/209263","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/209263","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia","title":"A Profecia","type":"movie","year":"1976","poster_url":"/uHemQhtg5n5jPYMLeFFTPfMsvFE.jpg","genres":["Terror","Suspense"],"tmdb_id":"794","sources":[{"url":"https://mgeb.top/embed/794","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/794","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/9505bb078a2c5c897f390bb452e32fd3/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20_2006_%20_tmdb_806_9cbd96c5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20_1976_%20_tmdb_794_35486adb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/384d42d19083ef00bc26ce4dfefacfd8/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/806","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/806","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2451390","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"794","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-profecia-2006","title":"A Profecia (2006)","type":"movie","year":"2006","poster_url":"/rN61lR87sthJKEewINVfijPLp04.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":"806","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/384d42d19083ef00bc26ce4dfefacfd8/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/806","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/806","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"806","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655331","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-profecia-2-1978","title":"A Profecia 2 (1978)","type":"movie","year":"1978","poster_url":"/izID2fUZbp1b1RvuO1GRqQIPW7K.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10766","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10766","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-3-1981","title":"A Profecia 3 (1981)","type":"movie","year":"1981","poster_url":"/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10768","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10768","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-4-1991","title":"A Profecia 4 (1991)","type":"movie","year":"1991","poster_url":"/iuiMLMTFOkzXj0nvp6O5kind0iv.jpg","genres":["Terror","Mistério","Suspense","TV"],"tmdb_id":"17792","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/b595627044cadb2e1e2110f08af47402/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/17792","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17792","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"17792","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-profecia-celestina","title":"A Profecia Celestina","type":"movie","year":null,"poster_url":"/rP9XSO6pXxcvymhV7FbKLTk6daV.jpg","genres":["Romance","Drama","Aventura"],"tmdb_id":"18524","sources":[{"url":"https://mgeb.top/embed/18524","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18524","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20Celestina%20_2006_%20_tmdb_18524_6433a106.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"18524","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451030","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645833","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-profecia-celestina-2006","title":"A Profecia Celestina (2006)","type":"movie","year":"2006","poster_url":"/rP9XSO6pXxcvymhV7FbKLTk6daV.jpg","genres":["Romance","Drama","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/18524","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18524","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-da-lua","title":"A Profecia da Lua","type":"movie","year":null,"poster_url":"/yimYUuMnZakjHPq80IkVPaBeM1p.jpg","genres":["Fantasia","Aventura","Drama"],"tmdb_id":"634088","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/33655ce067f9189910ecd08025344e41/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/634088","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/634088","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20da%20Lua%20_2024_%20_tmdb_634088_73ca1eae.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"634088","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449103","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458618","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-profecia-de-um-guerreiro-2025","title":"A Profecia de um Guerreiro (2025)","type":"movie","year":"2025","poster_url":"/bb3JuXrt5mpxbBiqffNEqKVTAAc.jpg","genres":["Terror","Ação","Fantasia"],"tmdb_id":"1312833","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e0dbd77d72aa8c955a6b30844cc86656/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1312833","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1312833","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20de%20um%20Guerreiro%20_2025_%20_tmdb_1312833_bb04cf76.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1312833","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444599","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-profecia-do-mal","title":"A Profecia do Mal","type":"movie","year":null,"poster_url":"/kIy8rzFTCFlEbW8L8tZ9ar81l6o.jpg","genres":["Terror","Fantasia","Ficção científica","Suspense"],"tmdb_id":"296271","sources":[{"url":"https://mgeb.top/embed/296271","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/296271","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20do%20Mal%20_2023_%20_tmdb_296271_184aa51a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"296271","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452194","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654832","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-profecia-do-mal-2023","title":"A Profecia do Mal (2023)","type":"movie","year":"2023","poster_url":"/kIy8rzFTCFlEbW8L8tZ9ar81l6o.jpg","genres":["Terror","Fantasia","Ficção científica","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/296271","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/296271","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-do-presidente","title":"A Profecia do Presidente","type":"movie","year":null,"poster_url":"/h3VbOI015osx5Yb1CMldqPvvAMh.jpg","genres":["Drama"],"tmdb_id":"548887","sources":[],"provider_refs":[{"provider":"18","ref":"548887","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-profecia-do-presidente-2018","title":"A Profecia do Presidente (2018)","type":"movie","year":"2018","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20do%20Presidente%20_2018_%20_tmdb_548887_290526af.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-iii-o-conflito-final","title":"A Profecia III - O Conflito Final","type":"movie","year":null,"poster_url":"/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":"10768","sources":[{"url":"https://mgeb.top/embed/10768","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10768","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20III_%20O%20Conflito%20Final%20_1981_%20_tmdb_10768_a63f856c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10768","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451420","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655329","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-profecia-iii-o-conflito-final-1981","title":"A Profecia III: O Conflito Final (1981)","type":"movie","year":"1981","poster_url":"/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10768","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10768","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profecia-iv-o-despertar-1991","title":"A Profecia IV: O Despertar (1991)","type":"movie","year":"1991","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20IV_%20O%20Despertar%20_1991_%20_tmdb_17792_76ed3500.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-professora-de-piano","title":"A Professora de Piano","type":"movie","year":null,"poster_url":"/qC4rVB4Ia6Cc9cwaS0OfNwAD28d.jpg","genres":["Drama","Romance"],"tmdb_id":"1791","sources":[{"url":"https://mgeb.top/embed/1791","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1791","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-professora-desaparecida","title":"A Professora Desaparecida","type":"movie","year":null,"poster_url":"/xkDtXIlQBtkaHSjL6NyUsZREZTe.jpg","genres":["Mistério","Suspense"],"tmdb_id":"1187054","sources":[{"url":"https://mgeb.top/embed/1187054","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1187054","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1187054","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449365","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-professora-desaparecida-2023","title":"A Professora Desaparecida (2023)","type":"movie","year":"2023","poster_url":"/xkDtXIlQBtkaHSjL6NyUsZREZTe.jpg","genres":["Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1187054","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1187054","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-professora-do-jardim-de-infancia","title":"A Professora do Jardim de Infância","type":"movie","year":null,"poster_url":"/ewxLFRI40ysuWxdyLlKUhgtcRqb.jpg","genres":["Drama"],"tmdb_id":"489927","sources":[{"url":"https://mgeb.top/embed/489927","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/489927","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"489927","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455963","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653984","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-professora-do-jardim-de-infancia-2018","title":"A Professora do Jardim de Infância (2018)","type":"movie","year":"2018","poster_url":"/ewxLFRI40ysuWxdyLlKUhgtcRqb.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/489927","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/489927","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-profissional-2021","title":"A Profissional (2021)","type":"movie","year":"2021","poster_url":"/7FboYvoa4wcxD1gFJV62d8nTGNG.jpg","genres":["Ação","Suspense","Crime"],"tmdb_id":"645788","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/99ef4430c60f0995cabb1e439fca12df/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/645788","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/645788","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profissional%20_2021_%20_tmdb_645788_3f8ef936.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"645788","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454220","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648810","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-promessa-2016","title":"A Promessa (2016)","type":"movie","year":"2016","poster_url":"/pPMwAgYd1cZo3DtdEZuqwiBHybu.jpg","genres":["História","Romance","Drama"],"tmdb_id":"354859","sources":[{"url":"https://mgeb.top/embed/354859","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/354859","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Promessa%20_2016_%20_tmdb_354859_404f5785.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"354859","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-promessa-de-verao","title":"A PROMESSA DE VERAO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-prometida-1985","title":"A Prometida (1985)","type":"movie","year":"1985","poster_url":"/n5WX5qHuDcUgpJqM6g1j9f0lrc.jpg","genres":["Drama","Terror","Romance","Ficção científica"],"tmdb_id":"29077","sources":[{"url":"https://mgeb.top/embed/29077","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/29077","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prometida%20_1985_%20_tmdb_29077_5896e8e4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"29077","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-prometida-do-principe-vampiro","title":"A PROMETIDA DO PRINCIPE VAMPIRO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-prometida-do-principe-vampiro-a-noiva-do-principe-vampiro","title":"A PROMETIDA DO PRINCIPE VAMPIRO - A NOIVA DO PRINCIPE VAMPIRO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-proposta","title":"A Proposta","type":"movie","year":null,"poster_url":"/uIhags0jXoe78JJjCDZbByciesQ.jpg","genres":["Comédia","Romance","Drama"],"tmdb_id":"18240","sources":[{"url":"https://mgeb.top/embed/18240","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18240","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Proposta%20_2009_%20_tmdb_18240_15df6b89.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Proposta%20_2005_%20_tmdb_16608_f39a5f6f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"18240","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"16608","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460878","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651064","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-proposta-2009","title":"A Proposta (2009)","type":"movie","year":"2009","poster_url":"/uIhags0jXoe78JJjCDZbByciesQ.jpg","genres":["Comédia","Romance","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/18240","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18240","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-propria-carne-2025","title":"A Propria Carne (2025)","type":"movie","year":"2025","poster_url":"/sygGPt8K4IlmJenNuLIhd75rIAe.jpg","genres":["Terror","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1353066","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1353066","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-propria-criacao-e-amor","title":"A PROPRIA CRIACAO E AMOR","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-protetora-de-animais-2016","title":"A Protetora de Animais (2016)","type":"movie","year":"2016","poster_url":"/wmDEowNXyqjtnfYDZe29VaFf67b.jpg","genres":["Drama","Família"],"tmdb_id":"394047","sources":[{"url":"https://mgeb.top/embed/394047","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/394047","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-prova-de-fogo-2008","title":"A Prova de Fogo (2008)","type":"movie","year":"2008","poster_url":"/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg","genres":["Drama","Romance"],"tmdb_id":"14438","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/74b777fbd92edf365f191e367e591beb/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/14438","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14438","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Prova%20de%20Fogo%20_2008_%20_tmdb_14438_ac711c5e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"14438","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450654","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645906","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-prova-de-morte-2007","title":"A Prova de Morte (2007)","type":"movie","year":"2007","poster_url":"/19yVSPVhMDojcCdGjTj8azzA7uC.jpg","genres":["Ação","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1991","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1991","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-prova-final","title":"A Prova Final","type":"movie","year":null,"poster_url":"/lZr1iyVmAhsog6aBFdI3iNeTzjr.jpg","genres":["Suspense"],"tmdb_id":"1511599","sources":[{"url":"https://mgeb.top/embed/1511599","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1511599","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2450425","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-proxima-reelstar","title":"A PROXIMA REELSTAR","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-propria-carne","title":"A Própria Carne","type":"movie","year":null,"poster_url":"/sygGPt8K4IlmJenNuLIhd75rIAe.jpg","genres":["Terror","Mistério"],"tmdb_id":"1353066","sources":[{"url":"https://mgeb.top/embed/1353066","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1353066","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_pria%20Carne%20_2025_%20_tmdb_1353066_679a27ac.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1353066","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445359","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900439","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901378","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-proxima","title":"A Próxima","type":"movie","year":null,"poster_url":"/y3jonKAWv9JPfz1r7UouRRpZGY8.jpg","genres":["Terror","Suspense","Crime"],"tmdb_id":"317894","sources":[{"url":"https://mgeb.top/embed/317894","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/317894","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/624183","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/624183","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20_2019_%20_tmdb_638238_4c010af4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20V_tima%20_2021_%20_tmdb_842169_daae2089.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20V_tima%20_1993_%20_tmdb_110093_dad43a20.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"638238","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"317894","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448963","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451285","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654667","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-proxima-2019","title":"A Próxima (2019)","type":"movie","year":"2019","poster_url":"/cQMnCdx4F2AUgzg5m2mat1neqjc.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/624183","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/624183","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-proxima-vitima-2021","title":"A Próxima Vítima (2021)","type":"movie","year":"2021","poster_url":"/sQxDZKXYSK8Tp6xxub5IpMD47xx.jpg","genres":["Terror","Suspense"],"tmdb_id":"842169","sources":[{"url":"https://mgeb.top/embed/842169","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/842169","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"842169","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"110093","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451283","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447249","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"654548","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-pura-verdade","title":"A Pura Verdade","type":"movie","year":null,"poster_url":"/5FGJSYbldFT2vPhVf14UqBtVBim.jpg","genres":["Drama","História"],"tmdb_id":"558095","sources":[{"url":"https://mgeb.top/embed/558095","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/558095","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pura%20Verdade%20_2018_%20_tmdb_558095_155f0e7f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"558095","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456224","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653821","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-pura-verdade-2018","title":"A Pura Verdade (2018)","type":"movie","year":"2018","poster_url":"/5FGJSYbldFT2vPhVf14UqBtVBim.jpg","genres":["Drama","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/558095","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/558095","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-pureza-da-pele-de-gelo","title":"A PUREZA DA PELE DE GELO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-pushover-do-escritorio-e-a-verdadeira-herdeira","title":"A PUSHOVER DO ESCRITORIO E A VERDADEIRA HERDEIRA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-pe-ele-nao-vai-longe","title":"A Pé Ele Não Vai Longe","type":"movie","year":null,"poster_url":"/tt6gUs8VUYzTS4jLbixEia2eKtd.jpg","genres":["Comédia","Drama"],"tmdb_id":"443009","sources":[{"url":"https://mgeb.top/embed/443009","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/443009","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20P_%20Ele%20N_o%20Vai%20Longe%20_2018_%20_tmdb_443009_f168a285.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"443009","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460221","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651542","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-pilula-da-verdade","title":"A Pílula da Verdade","type":"movie","year":null,"poster_url":"/42Opo2WDBmgPXaeR9TgxlbWCihP.jpg","genres":["Drama","Ficção científica"],"tmdb_id":"852854","sources":[{"url":"https://mgeb.top/embed/852854","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/852854","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-qualquer-custo","title":"A Qualquer Custo","type":"movie","year":null,"poster_url":"/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg","genres":["Faroeste","Crime","Drama"],"tmdb_id":"338766","sources":[{"url":"https://mgeb.top/embed/338766","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/338766","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Qualquer%20Custo%20_2016_%20_tmdb_338766_3431767d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"338766","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446972","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448397","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"931769","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-qualquer-custo-2016","title":"A Qualquer Custo (2016)","type":"movie","year":"2016","poster_url":"/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg","genres":["Faroeste","Crime","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/338766","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/338766","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-qualquer-hora","title":"a Qualquer Hora","type":"movie","year":null,"poster_url":"/eOss7pg6sH8UQ4WUvmAxCDLmMHc.jpg","genres":["Drama"],"tmdb_id":"1319870","sources":[{"url":"https://mgeb.top/embed/1319870","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1319870","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-qualquer-preco","title":"A Qualquer Preço","type":"movie","year":null,"poster_url":"/tDI9givmfg5rihgAOnydLsWi19S.jpg","genres":["Drama","Suspense"],"tmdb_id":"289191","sources":[],"provider_refs":[{"provider":"18","ref":"289191","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-qualquer-preco-2015","title":"A Qualquer Preço (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Qualquer%20Pre_o%20_2015_%20_tmdb_289191_37b79f66.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-queda","title":"A Queda","type":"movie","year":null,"poster_url":"/ey5j9PzI1S0jsMPuN8H9ldrGzuX.jpg","genres":["Suspense"],"tmdb_id":"985939","sources":[{"url":"https://mgeb.top/embed/985939","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/985939","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_871815_ddfbff2c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_985939_2836ff60.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_964822_8b271162.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"985939","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"871815","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445943","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451185","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461641","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2462114","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644362","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647333","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-queda-2022","title":"A Queda (2022)","type":"movie","year":"2022","poster_url":"/ey5j9PzI1S0jsMPuN8H9ldrGzuX.jpg","genres":["Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/985939","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/985939","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-queda-2-no-limite-2026","title":"A Queda 2: No Limite (2026)","type":"movie","year":"2026","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%202_%20No%20Limite%20_2026_%20_tmdb_1101412_5294f3c1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-queda-da-terra","title":"A queda da Terra","type":"movie","year":null,"poster_url":"/dCaPFrbKnAjfcz9fUIoX0slelbk.jpg","genres":["Ação","Ficção científica","TV"],"tmdb_id":"353257","sources":[],"provider_refs":[{"provider":"18","ref":"353257","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-queda-da-terra-2015","title":"A queda da Terra (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20queda%20da%20Terra%20_2015_%20_tmdb_353257_793e49f1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-queda-de-berlim","title":"A Queda de Berlim","type":"movie","year":null,"poster_url":"/mkF7O5M3qviVnz19dVR8ocpStY3.jpg","genres":["Suspense","Crime","Mistério"],"tmdb_id":"429886","sources":[{"url":"https://mgeb.top/embed/429886","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/429886","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20de%20Berlim%20_2017_%20_tmdb_429886_182661bc.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"429886","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445956","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647701","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-queda-de-berlim-2017","title":"A Queda de Berlim (2017)","type":"movie","year":"2017","poster_url":"/mkF7O5M3qviVnz19dVR8ocpStY3.jpg","genres":["Suspense","Crime","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/429886","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/429886","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-a-princesa-dos-lycan-nao-sera-sua-luna",
+    "title": "A PRINCESA DOS LYCAN NAO SERA SUA LUNA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-princesa-e-a-ervilha",
+    "title": "A Princesa e a Ervilha",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/oC1wcIY9VECwRkRd6nS4DSHVrMR.jpg",
+    "genres": [
+      "Animação",
+      "Fantasia",
+      "Família"
+    ],
+    "tmdb_id": "14492",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14492",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14492",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2459183",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A Princesa e a Ervilha é uma adaptação cinematográfica animada de 2002 do popular conto de fadas de 1835 \"A Princesa e a Ervilha\", de Hans Christian Andersen. O filme foi dirigido por Mark Swan"
+  },
+  {
+    "id": "movie-a-princesa-e-a-plebeia",
+    "title": "A Princesa e a Plebeia",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/mpIZEkNudLQrQO7hwDNTqQphe2l.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "556803",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/556803",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/556803",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20a%20Plebeia%20_2018_%20_tmdb_556803_c1e5d38e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "556803",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446719",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645816",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma duquesa e uma confeiteira descobrem que são sósias perfeitas uma da outra e decidem trocar de lugar. Quando elas se apaixonam por homens que não fazem a menor ideia de quem elas são de verdade, esse plano pode virar um problema."
+  },
+  {
+    "id": "movie-a-princesa-e-a-plebeia-2018",
+    "title": "A Princesa e a Plebeia (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/mpIZEkNudLQrQO7hwDNTqQphe2l.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/556803",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/556803",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-e-a-plebeia-nova-aventura",
+    "title": "A Princesa E A Plebeia Nova Aventura",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/4PdBXLcLb75cHtdxd7EVo8fL60h.jpg",
+    "genres": [
+      "Família",
+      "Romance",
+      "Comédia",
+      "TV"
+    ],
+    "tmdb_id": "643882",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/643882",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/643882",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "643882",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446965",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645702",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A coroação de Margaret está atrapalhando a vida amorosa da futura rainha. Sua sósia Stacy tem um plano para ajudar – se outra garota idêntica a elas não estragar tudo."
+  },
+  {
+    "id": "movie-a-princesa-e-a-plebeia-as-vilas-tambem-amam-2021",
+    "title": "A Princesa e a Plebeia: As Vilas Tambem Amam (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/eNOvGQ3rMPtHqQxXqKvHlQCwS3E.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "785533",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/28f34da67b0e7839cd055d2ca355ebb8/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/785533",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/785533",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20a%20Plebeia_%20As%20Vil_s%20Tamb_m%20Amam%20_2021_%20_tmdb_785533_b5768492.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "785533",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446587",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645625",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Uma relíquia de valor incontestável é roubada, e a Princesa Stacy pede ajuda à Lady Fiona, a ambiciosa prima da Rainha Margaret. Para recuperar a joia, ela se une a um misterioso homem de seu passado, o que acaba reacendendo a chama de um romance natalino irresistível. O resultado é uma mudança totalmente inesperada."
+  },
+  {
+    "id": "movie-a-princesa-e-a-plebeia-nova-aventura-2020",
+    "title": "A Princesa e a Plebeia: Nova Aventura (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/4PdBXLcLb75cHtdxd7EVo8fL60h.jpg",
+    "genres": [
+      "Família",
+      "Romance",
+      "Comédia",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/643882",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/643882",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-e-o-dragao",
+    "title": "A Princesa e o Dragao",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/eWpbrTpACpLIGUA2RNdVwpwkdd0.jpg",
+    "genres": [
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": "518604",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/518604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/518604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "518604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459266",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646529",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A jovem princesa Barbara descobre um livro mágico que a teletransporta para um lugar repleto de criaturas fantásticas. Junto do dragão Dragosha, ela encara muitas aventuras e faz novos amigos."
+  },
+  {
+    "id": "movie-a-princesa-e-o-dragao-2018",
+    "title": "A Princesa e o Dragao (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/eWpbrTpACpLIGUA2RNdVwpwkdd0.jpg",
+    "genres": [
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/518604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/518604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-e-o-duende",
+    "title": "A Princesa e o Duende",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": "/gWXeEzpOavcmv1Ca8sjqkorfuIO.jpg",
+    "genres": [
+      "Aventura",
+      "Animação",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "42001",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "42001.m3u8",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A princesa Irene esta ameaçada pelos Duendes, seres que vem das profundezas das montanhas, criaturas mas e que tentam dominar o reino ao mesmo tempo em que desejam que a bela princesinha venha a casar com o horroroso Froglip. Mas ela conta com a ajuda de sua avó e de Curdie."
+  },
+  {
+    "id": "movie-a-princesa-e-o-feitico-do-tempo",
+    "title": "A Princesa e o Feitiço do Tempo",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/t6Q6B0Iv3n9Vrrc4VcYgYS8y28y.jpg",
+    "genres": [
+      "Família",
+      "Fantasia",
+      "Comédia"
+    ],
+    "tmdb_id": "1027604",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1027604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1027604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Feiti_o%20do%20Tempo%20_2022_%20_tmdb_1027604_0b4cf6a6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1027604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447165",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460752",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650187",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Amélie é uma jovem alquimista que recebe o poder de controlar o tempo. Mas, ao abusar de seus poderes, ela acaba se dividindo em duas: uma do passado e outra do presente. Além de enfrentar um poderoso mago, ela também precisará lutar contra o desejo de manter os seus poderes para sempre."
+  },
+  {
+    "id": "movie-a-princesa-e-o-feitico-do-tempo-2022",
+    "title": "A Princesa e o Feitiço do Tempo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/t6Q6B0Iv3n9Vrrc4VcYgYS8y28y.jpg",
+    "genres": [
+      "Família",
+      "Fantasia",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1027604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1027604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-e-o-general",
+    "title": "A PRINCESA E O GENERAL",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-princesa-e-o-piloto",
+    "title": "A Princesa e o Piloto",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/bvXhm90FNtZWn5VQPGATcT26ePA.jpg",
+    "genres": [
+      "Aventura",
+      "Animação",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "93013",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "93013",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A história ocorre em torno de Charles Karino, um piloto mercenário do império de Levamme. Um dia, ele recebe uma missão assombrosa: Voar sozinho a mais de 12.000 quilômetros em águas inimigas para transportar uma mulher chamada Fana del Moral. Fana está para se casar com o príncipe herdeiro do trono e se tornar uma futura imperatriz."
+  },
+  {
+    "id": "movie-a-princesa-e-o-piloto-2011",
+    "title": "A Princesa e o Piloto (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Piloto%20_2011_%20_tmdb_93013_98ae314f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-e-o-sapo",
+    "title": "A Princesa e o Sapo",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/5JQbaVcFd9x5snwWT9gquNKmDC.jpg",
+    "genres": [
+      "Animação",
+      "Romance",
+      "Fantasia",
+      "Família"
+    ],
+    "tmdb_id": "10198",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10198",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10198",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20e%20o%20Sapo%20_2009_%20_tmdb_10198_7bd75574.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10198",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459174",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646340",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Desde criança, Tiana sonha em ter um restaurante próprio. Para conseguir a quantia necessária para que possa finalmente alugar o imóvel de seus sonhos, ela aceita trabalhar na festa realizada por Charlotte LaBouff, sua amiga de infância. Logo surge um sapo, anunciando ser um príncipe e pedindo a Tiana que lhe conceda um beijo. Tiana aceita e se transforma em sapo!"
+  },
+  {
+    "id": "movie-a-princesa-e-o-sapo-2009",
+    "title": "A Princesa e o Sapo (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/5JQbaVcFd9x5snwWT9gquNKmDC.jpg",
+    "genres": [
+      "Animação",
+      "Romance",
+      "Fantasia",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10198",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10198",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-encantada",
+    "title": "A Princesa Encantada",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/eK08pDC4ASwgS5OohDmZcUbLrBx.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia",
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "22586",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/22586",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/22586",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2459711",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A princesa Odette e o príncipe Derek se conhecem desde criança e passam todos os verões juntos, com o intuito de que possam se apaixonar e casar quando crescidos, para que os dois reinos se juntem pela união. Porém, com o tempo os dois se afastam e o sonho dos pais parece cada vez mais distante. Até que em um verão, Derek e Odette se reaproximam, nutrindo uma paixão que os dois até então desconheciam. Na volta para casa, o rei e a princesa são surpreendidos no caminho e Odette é raptada pelo malvado feiticeiro Rothbart, que a transforma em um cisne. Agora, só o verdadeiro amor será capaz de quebrar tal encanto."
+  },
+  {
+    "id": "movie-a-princesa-encantada-1994",
+    "title": "A Princesa Encantada (1994)",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/eK08pDC4ASwgS5OohDmZcUbLrBx.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia",
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/22586",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/22586",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-encantada-o-reino-da-musica",
+    "title": "A Princesa Encantada - O Reino da Música",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/6WU5ORvayBF1Cep3FYyo17KYGDG.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia",
+      "Música"
+    ],
+    "tmdb_id": "605829",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/605829",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/605829",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada%20-%20O%20Reino%20da%20M_sica%20_2019_%20_tmdb_605829_963fd188.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "605829",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450656",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A princesa Odette (Nina Herzog) está apresentando uma competição de música em comemoração ao aniversário da princesa Alise, e o vencedor irá cantar para ela em seu baile. Enquanto isso, a princesa Mei Li procura Odette e Derek (Yuri Lowenthal) para ajudar Chen, que foi amaldiçoado a viver na forma de um dragão para sempre."
+  },
+  {
+    "id": "movie-a-princesa-encantada-o-reino-da-musica-2019",
+    "title": "A Princesa Encantada - O Reino da Música (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/6WU5ORvayBF1Cep3FYyo17KYGDG.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/605829",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/605829",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-encantada-era-uma-vez-2023",
+    "title": "A Princesa Encantada Era Uma Vez (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1118203",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1118203",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-encantada-ii-o-segredo-do-castelo",
+    "title": "A Princesa Encantada II: O Segredo do Castelo",
+    "type": "movie",
+    "year": "1997",
+    "poster_url": "/yp9RrPITdY1VTV3fsoi3G48Xltr.jpg",
+    "genres": [
+      "Família",
+      "Fantasia",
+      "Animação",
+      "Romance"
+    ],
+    "tmdb_id": "54113",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/54113",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/54113",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada%20II_%20O%20Segredo%20do%20Castelo%20_1997_%20_tmdb_54113_57d6c90a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "54113",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Após um ano de casamento, Derek e Odette estão se afastando. Enquanto a princessa se preocupa com o aniversário de casamento, Derek dá atenção às suas atividades de caça. Um dia ocorre um incêndio nos campos do Reino e Derek sai para saber o que está acontecendo. Ao mesmo tempo, sua mãe, a Rainha Uberta, é sequestrada como uma armadilha para o príncipe, que só poderá ser salvo com a ajuda de Odette em abrir mão de sua forma humana e se transformar em cisne."
+  },
+  {
+    "id": "movie-a-princesa-encantada-a-fabula-da-familia-real",
+    "title": "A Princesa Encantada: A Fábula da Família Real",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/c6syIxEykVx0Ju4UOUbKPLyFAcF.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": "254263",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "254263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Os personagens memoráveis ​​da série A Princesa Encantada estão de volta para uma nova aventura! Pouco depois de a Família Real adotar uma menina chamada Alise, ela é levada para a floresta. Princesa Odette, Derek e seus amigos da floresta, Jean-Bob, o Sapo, e Speed, a Tartaruga, devem trabalhar juntos para encontrar uma maneira de trazê-la de volta para o castelo. Com amizade, trabalho em equipe, canções originais e muitas risadas, A Princesa Encantada - A Fábula Da Família Real é uma série imperdível para toda a família!"
+  },
+  {
+    "id": "movie-a-princesa-encantada-a-fabula-da-familia-real-2014",
+    "title": "A Princesa Encantada: A Fábula da Família Real (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada_%20A%20F_bula%20da%20Fam_lia%20Real%20_2014_%20_tmdb_254263_8f13eab8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-encantada-era-uma-vez",
+    "title": "A Princesa Encantada: Era Uma Vez…",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg",
+    "genres": [
+      "Família",
+      "Animação",
+      "Fantasia"
+    ],
+    "tmdb_id": "1118203",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1118203",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1118203",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Encantada_%20Era%20Uma%20Vez%20_2023_%20_tmdb_1118203_7ff2bbd3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1118203",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646118",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Antes de se tornar rainha, Uberta tinha uma vida humilde com seu marido Maximilian quando, de repente, foi jogada na realeza. Com vitórias e tragédias, ela aprende as lições que precisa para ser uma rainha amada enquanto cria a próxima geração de regentes. Quando chega a hora de Uberta passar o cetro real para Odette e Derek, a rival rainha Wixom tem planos para arruinar a maior coroação do reino."
+  },
+  {
+    "id": "movie-a-princesa-encantada-o-casamento-real",
+    "title": "A Princesa Encantada: O Casamento Real",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/9VnFR68Yto8p78c7y5rW4eaExhR.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "718100",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/718100",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/718100",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2459510",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A princesa Odette e o príncipe Derek vão a um casamento na princesa Mei Li e seu amado Chen. Mas as forças do mal estão em jogo e os planos do casamento estão manchados e o amor verdadeiro tem condições difíceis."
+  },
+  {
+    "id": "movie-a-princesa-odiada-do-rei-alfa-alpha-king-s-hated-princess",
+    "title": "A PRINCESA ODIADA DO REI ALFA - ALPHA KING'S HATED PRINCESS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-princesa-perdida-2025",
+    "title": "A Princesa Perdida (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/8EnFIZuCmkgkTSbWmCZGrp6CtDK.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "1086910",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/18fa5ceef936b126878ec6f4d7dc02c0/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1086910",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1086910",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesa%20Perdida%20_2025_%20_tmdb_1086910_fa02956b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1086910",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444663",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Alec Touati é um bilionário americano que embarca em uma jornada transformadora para descobrir suas raízes. Após uma visão induzida por Ayahuasca, ele se vê em um castelo assombrado no Marrocos, onde conhece Hanna. Ela compartilha a história de sua mãe, uma princesa obrigada a se casar com um príncipe saudita, mas que se apaixonou pelo zelador do castelo. À medida que a gravidez da princesa se torna evidente, o casal enfrenta consequências perigosas. Alec deve proteger o legado do castelo e confrontar seu próprio destino."
+  },
+  {
+    "id": "movie-a-princesa-prometida-1987",
+    "title": "A Princesa Prometida (1987)",
+    "type": "movie",
+    "year": "1987",
+    "poster_url": "/9tXM8AR7BZ8cu6JkI9FlBl98Vao.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2493",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2493",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-que-nao-perdoa",
+    "title": "A Princesa que nao Perdoa",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-princesa-xuxa-e-os-trapalhoes-1989",
+    "title": "A Princesa Xuxa e os Trapalhoes (1989)",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": "/Cgup7klrAhrTrF176j7ScvjkT7.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/123571",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/123571",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-princesa-xuxa-e-os-trapalhoes",
+    "title": "A Princesa Xuxa e os Trapalhões",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": "/Cgup7klrAhrTrF176j7ScvjkT7.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Família",
+      "Ficção científica"
+    ],
+    "tmdb_id": "123571",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/123571",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/123571",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "123571",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451138",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644493",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O diabólico Ratam assume o poder do planeta Antar, após a morte do imperador local, e ordena que todas as crianças sejam capturadas para trabalharem  como escravas. Mantida sempre dentro do palácio, a Princesa Xeron acredita que o povo de seu reino está feliz e que tudo está correndo bem. Enquanto isso, do lado de fora, os príncipes Mussaim, Dedeon e Zacaling se unem ao Cavaleiro Sem Nome, para que juntos possam derrotar Ratam."
+  },
+  {
+    "id": "movie-a-princesinha",
+    "title": "A Princesinha",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/cZZPfGiiuCRx6tIbY6tESpbRmuE.jpg",
+    "genres": [
+      "Drama",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "19101",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/19101",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/19101",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Princesinha%20_1995_%20_tmdb_19101_4f2216d0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "19101",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455986",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654347",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "1914, Simla, Índia. Sara Crewe é uma garota inglesa que vivia feliz, apesar de ser órfã de mãe. Quando eclodiu a 1ª Guerra Mundial seu pai, o capitão Crewe, que pertencia ao exército inglês, tem que ir para a guerra. Porém antes vai a Nova York para deixar Sara num luxuoso internato para moças, no qual a mãe dela já estudara e que é administrado agora com mão de ferro pela Srta. Minchin. A Srta. Minchin fica incomodada com a criatividade de Sara, que logo cativa a maioria das garotas. Um dia o Sr. Barrow, o advogado do pai de Sara, chega no colégio para dizer que não haveriam mais pagamentos, pois o pai de Sara tinha morrido em combate. Minchin então faz Sara trabalhar como uma criada, para pagar sua estada ali."
+  },
+  {
+    "id": "movie-a-princesinha-1995",
+    "title": "A Princesinha (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/cZZPfGiiuCRx6tIbY6tESpbRmuE.jpg",
+    "genres": [
+      "Drama",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/19101",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/19101",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-prisioneira",
+    "title": "A Prisioneira",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/whGg2IuCqXV7zbaGcdi5CgQo81f.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "16335",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "16335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Representante de uma companhia supervisiona a demolição de um misterioso prédio e descobre os segredos escondidos no local, ligados à um assassino sanguinário."
+  },
+  {
+    "id": "movie-a-prisioneira-2009",
+    "title": "A Prisioneira (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prisioneira%20_2009_%20_tmdb_16335_bbc6fbb1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-prisioneira-de-bordeaux",
+    "title": "A Prisioneira De Bordeaux",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/hhvnYGsWrg6GD1WJdbhzkIdKHka.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "961080",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/961080",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/961080",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prisioneira%20De%20Bordeaux%20_2024_%20_tmdb_961080_3109efa8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "961080",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Alma, uma mulher de classe alta que vive sozinha desde a prisão do marido. Num dia de visita, conhece uma jovem mãe que foi ver o companheiro, mas, por questões burocráticas, não será possível, e deve voltar no dia seguinte. Ela mora longe, são 3h de viagem, e Alma simpatiza com ela, e lhe oferece estadia em sua casa na cidade. Começa aí uma amizade improvável, que toma contornos inesperados."
+  },
+  {
+    "id": "movie-a-procura-2014",
+    "title": "A Procura (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/zUDIzM0mGXmvPtTCT8IGjKb7xh9.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "244761",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/244761",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/244761",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "244761",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455639",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653099",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Canadá. Matthew (Ryan Reynolds) estava dirigindo seu carro e parou para fazer uma rápida compra, deixando a filha de nove anos, Cass (Peyton Kennedy/Alexia Fast), no banco de trás. Ao retornar, ela havia desaparecido sem deixar pistas. Os policiais Nicole (Rosario Dawson) e Jeffrey (Scott Speedman) assumiram o caso, mas nada descobriram. A primeira pista sobre a garota apenas surge seis anos depois, quando os policiais estão investigando uma grande rede de pedofilia. Para a surpresa de todos, Cass tem um importante papel na organização, já que é ela quem entra em contato com as crianças pela internet para atraí-las. Apesar disto, ela segue sendo mantida em cativeiro por seu raptor, Mika (Kevin Durand)."
+  },
+  {
+    "id": "movie-a-procura-da-felicidade-2006",
+    "title": "A Procura da Felicidade (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/vHGC2sSh7pBWXY0qzMdPD7fcjzS.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1402",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1402",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-procura-de-martina",
+    "title": "A Procura de Martina",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/5Knp16HlsPxGIJYv2xoWLB42Frd.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1260070",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1260070",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1260070",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Procura%20de%20Martina%20_2025_%20_tmdb_1260070_87671227.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1260070",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444579",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901431",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Martina é uma viúva argentina que procura há mais de 30 anos pelo neto, nascido em cativeiro durante a ditadura militar. A necessidade de encontrá- lo se torna ainda mais urgente ao receber o diagnóstico de Alzheimer. Quando Martina descobre que o neto pode estar no Brasil, ela embarca em uma jornada em que passado e presente se misturam, transformando essa busca em uma luta contra o esquecimento."
+  },
+  {
+    "id": "movie-a-procura-do-amor-2013",
+    "title": "A Procura do Amor (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/lh4iE3odsvzPyFtTi7mMTwZmxUJ.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "209263",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/209263",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/209263",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Eva, uma mãe divorciada, pode estar se apaixonando por Albert, um divorciado carinhoso, divertido e parecido com ela. Mas, à medida que o relacionamento evolui, Eva faz amizade com Marianne, que está sempre reclamando sobre seu ex-marido. Quando Eva percebe que Albert é o motivo dos resmungos de Marianne, ela começa a questionar sua própria percepção sobre primeiras impressões e segundas chances."
+  },
+  {
+    "id": "movie-a-profecia",
+    "title": "A Profecia",
+    "type": "movie",
+    "year": "1976",
+    "poster_url": "/uHemQhtg5n5jPYMLeFFTPfMsvFE.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "794",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/794",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/794",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9505bb078a2c5c897f390bb452e32fd3/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20_2006_%20_tmdb_806_9cbd96c5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20_1976_%20_tmdb_794_35486adb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/384d42d19083ef00bc26ce4dfefacfd8/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/806",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/806",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451390",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "794",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O embaixador americano e a esposa querem muito ter filhos. Quando ela dá à luz um bebê morto e um padre sugere que adotem um recém-nascido saudável e órfão, ele aceita sem contar à mulher. O que ele não sabe é que o bebê é o anticristo."
+  },
+  {
+    "id": "movie-a-profecia-2006",
+    "title": "A Profecia (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/rN61lR87sthJKEewINVfijPLp04.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "806",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/384d42d19083ef00bc26ce4dfefacfd8/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/806",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/806",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "806",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655331",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Robert Thorn (Liev Schreiber) é um diplomata, que está prestes a ter um filho com sua esposa Katherine (Julia Stiles). Porém a criança morre logo após o parto, o que faz com que Robert adote um bebê para colocá-lo no lugar do filho, sem que Katherine soubesse. Seis anos depois Damien (Seamus Davey-Fitzpatrick), o filho de Robert e Katherine, começa a dar sinais de que seja o Anti-Cristo."
+  },
+  {
+    "id": "movie-a-profecia-2-1978",
+    "title": "A Profecia 2 (1978)",
+    "type": "movie",
+    "year": "1978",
+    "poster_url": "/izID2fUZbp1b1RvuO1GRqQIPW7K.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10766",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10766",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-3-1981",
+    "title": "A Profecia 3 (1981)",
+    "type": "movie",
+    "year": "1981",
+    "poster_url": "/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10768",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10768",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-4-1991",
+    "title": "A Profecia 4 (1991)",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": "/iuiMLMTFOkzXj0nvp6O5kind0iv.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": "17792",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b595627044cadb2e1e2110f08af47402/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/17792",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17792",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "17792",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-celestina",
+    "title": "A Profecia Celestina",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/rP9XSO6pXxcvymhV7FbKLTk6daV.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Aventura"
+    ],
+    "tmdb_id": "18524",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18524",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18524",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20Celestina%20_2006_%20_tmdb_18524_6433a106.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "18524",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451030",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645833",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Baseado no best-seller mundial de James Redfield, The Celestine Prophecy é um filme de aventura espiritual que narra a descoberta de pergaminhos antigos nas florestas tropicais do Peru. A profecia e seus nove principais insights prevêem um despertar mundial, surgindo dentro de todas as tradições religiosas, que move a humanidade em direção a uma experiência mais profunda de espiritualidade."
+  },
+  {
+    "id": "movie-a-profecia-celestina-2006",
+    "title": "A Profecia Celestina (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/rP9XSO6pXxcvymhV7FbKLTk6daV.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18524",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18524",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-da-lua",
+    "title": "A Profecia da Lua",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/yimYUuMnZakjHPq80IkVPaBeM1p.jpg",
+    "genres": [
+      "Fantasia",
+      "Aventura",
+      "Drama"
+    ],
+    "tmdb_id": "634088",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/33655ce067f9189910ecd08025344e41/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/634088",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/634088",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20da%20Lua%20_2024_%20_tmdb_634088_73ca1eae.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "634088",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449103",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458618",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Denis é um mestiço em um mundo habitado por emers, humanos e outras espécies. Quando uma guerra entre povos começa, ele deverá buscar a escolhida que irá unir todos."
+  },
+  {
+    "id": "movie-a-profecia-de-um-guerreiro-2025",
+    "title": "A Profecia de um Guerreiro (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/bb3JuXrt5mpxbBiqffNEqKVTAAc.jpg",
+    "genres": [
+      "Terror",
+      "Ação",
+      "Fantasia"
+    ],
+    "tmdb_id": "1312833",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e0dbd77d72aa8c955a6b30844cc86656/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1312833",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1312833",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20de%20um%20Guerreiro%20_2025_%20_tmdb_1312833_bb04cf76.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1312833",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444599",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um cavaleiro intrépido enfrenta um reino mortal para salvar a alma do Escolhido. Enfrentando bruxas, demônios e inimigos brutais, ele descobre que seu retorno pode desencadear o caos e destruir a humanidade."
+  },
+  {
+    "id": "movie-a-profecia-do-mal",
+    "title": "A Profecia do Mal",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/kIy8rzFTCFlEbW8L8tZ9ar81l6o.jpg",
+    "genres": [
+      "Terror",
+      "Fantasia",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "296271",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/296271",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/296271",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20do%20Mal%20_2023_%20_tmdb_296271_184aa51a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "296271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452194",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654832",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Uma poderosa empresa de biotecnologia faz uma descoberta de ponta, permitindo a clonagem de a partir de meros fragmentos de DNA, inclusive figuras históricas. Por trás dessa empresa, está um grupo de satanistas que rouba o Santo Sudário, ficando em posse do DNA de Jesus Cristo. O clone será a última oferenda ao Diabo. O Arcanjo Miguel vem à Terra e fará de tudo para acabar com esta profecia do mal."
+  },
+  {
+    "id": "movie-a-profecia-do-mal-2023",
+    "title": "A Profecia do Mal (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/kIy8rzFTCFlEbW8L8tZ9ar81l6o.jpg",
+    "genres": [
+      "Terror",
+      "Fantasia",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/296271",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/296271",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-do-presidente",
+    "title": "A Profecia do Presidente",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/h3VbOI015osx5Yb1CMldqPvvAMh.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "548887",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "548887",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Baseado em uma história real. Convencido de ter ouvido a voz de Deus dizendo que Donald Trump seria o próximo presidente dos Estados Unidos, um homem não medirá esforços para difundir a mensagem que recebeu."
+  },
+  {
+    "id": "movie-a-profecia-do-presidente-2018",
+    "title": "A Profecia do Presidente (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20do%20Presidente%20_2018_%20_tmdb_548887_290526af.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-iii-o-conflito-final",
+    "title": "A Profecia III - O Conflito Final",
+    "type": "movie",
+    "year": "1981",
+    "poster_url": "/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "10768",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10768",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10768",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20III_%20O%20Conflito%20Final%20_1981_%20_tmdb_10768_a63f856c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10768",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451420",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655329",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O Anticristo Damien Thorn, agora com 32 anos, é um empresário de sucesso, pronto para cumprir seu destino. Recém-nomeado embaixador dos Estados Unidos na Grã-Bretanha, ele é ameaçado de morte por um grupo liderado pelo padre DeCarlo. Enquanto Damien se prepara para o retorno de Jesus Cristo, ele toma proveito de seu relacionamento com Kate Reynolds para recrutar o filho dela, Peter, como seu seguidor."
+  },
+  {
+    "id": "movie-a-profecia-iii-o-conflito-final-1981",
+    "title": "A Profecia III: O Conflito Final (1981)",
+    "type": "movie",
+    "year": "1981",
+    "poster_url": "/2B8MTqjDbx26ULnEyyV5vta13Ho.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10768",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10768",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profecia-iv-o-despertar-1991",
+    "title": "A Profecia IV: O Despertar (1991)",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profecia%20IV_%20O%20Despertar%20_1991_%20_tmdb_17792_76ed3500.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-professora-de-piano",
+    "title": "A Professora de Piano",
+    "type": "movie",
+    "year": "2001",
+    "poster_url": "/qC4rVB4Ia6Cc9cwaS0OfNwAD28d.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1791",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1791",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1791",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Erika Kohut trabalha como professora de piano no Conservatório de Viena. Ela não bebe nem fuma, vivendo na casa de sua mãe aos 40 anos. Quando não está dando aulas Erika costuma frequentar cinemas pornôs e peep-shows, em busca de excitação. Logo ela inicia um relacionamento com Walter Klemmer, um de seus alunos, com quem realiza vários jogos perversos."
+  },
+  {
+    "id": "movie-a-professora-desaparecida",
+    "title": "A Professora Desaparecida",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/xkDtXIlQBtkaHSjL6NyUsZREZTe.jpg",
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "1187054",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1187054",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1187054",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1187054",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449365",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma professora desaparece de repente depois que um vídeo dela se divertindo em uma boate viraliza. Agora, uma policial obstinada vai tentar resolver o caso."
+  },
+  {
+    "id": "movie-a-professora-desaparecida-2023",
+    "title": "A Professora Desaparecida (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/xkDtXIlQBtkaHSjL6NyUsZREZTe.jpg",
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1187054",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1187054",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-professora-do-jardim-de-infancia",
+    "title": "A Professora do Jardim de Infância",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/ewxLFRI40ysuWxdyLlKUhgtcRqb.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "489927",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/489927",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/489927",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "489927",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455963",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653984",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Lisa Spinelli, casada e com filhos que na sua maioria das vezes a ignoram, segue seus dias como professora em total anestesia. Mas um dia tudo muda – Lisa descobre que um menino de cinco anos da sua turma pode ser o poeta que ela sempre sonhou ser. Ela fica fascinada."
+  },
+  {
+    "id": "movie-a-professora-do-jardim-de-infancia-2018",
+    "title": "A Professora do Jardim de Infância (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/ewxLFRI40ysuWxdyLlKUhgtcRqb.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/489927",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/489927",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-profissional-2021",
+    "title": "A Profissional (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/7FboYvoa4wcxD1gFJV62d8nTGNG.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "645788",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/99ef4430c60f0995cabb1e439fca12df/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/645788",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/645788",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Profissional%20_2021_%20_tmdb_645788_3f8ef936.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "645788",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454220",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Anna é resgatada quando criança e treinada para se tornar a assassina profissional mais habilidosa do mundo. Quando Moody, o homem que ela tinha como um pai e que lhe ensinou tudo sobre sobrevivência, é brutalmente assassinado, ela se junta ao enigmático Rembrandt e promete ir até o fim em busca de vingança."
+  },
+  {
+    "id": "movie-a-promessa-2016",
+    "title": "A Promessa (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/pPMwAgYd1cZo3DtdEZuqwiBHybu.jpg",
+    "genres": [
+      "História",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "354859",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/354859",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/354859",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Promessa%20_2016_%20_tmdb_354859_404f5785.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "354859",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um triângulo amoroso surge em meio aos últimos dias do Império Otomano. Durante estes dias turbulentos, Michael (Oscar Isaac), um estudante de medicina excepcional, e Chris (Christian Bale), um renomado jornalista americano vão disputar o amor da bela Ana (Charlotte Le Bon)."
+  },
+  {
+    "id": "movie-a-promessa-de-verao",
+    "title": "A PROMESSA DE VERAO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-prometida-1985",
+    "title": "A Prometida (1985)",
+    "type": "movie",
+    "year": "1985",
+    "poster_url": "/n5WX5qHuDcUgpJqM6g1j9f0lrc.jpg",
+    "genres": [
+      "Drama",
+      "Terror",
+      "Romance",
+      "Ficção científica"
+    ],
+    "tmdb_id": "29077",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/29077",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/29077",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Prometida%20_1985_%20_tmdb_29077_5896e8e4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "29077",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após anos de pesquisa, o Dr. Frankenstein finalmente consegue criar a mulher perfeita, que ele chama de Eva."
+  },
+  {
+    "id": "movie-a-prometida-do-principe-vampiro",
+    "title": "A PROMETIDA DO PRINCIPE VAMPIRO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-prometida-do-principe-vampiro-a-noiva-do-principe-vampiro",
+    "title": "A PROMETIDA DO PRINCIPE VAMPIRO - A NOIVA DO PRINCIPE VAMPIRO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-proposta",
+    "title": "A Proposta",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/uIhags0jXoe78JJjCDZbByciesQ.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "18240",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18240",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18240",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Proposta%20_2009_%20_tmdb_18240_15df6b89.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Proposta%20_2005_%20_tmdb_16608_f39a5f6f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "18240",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "16608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460878",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651064",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Margaret Tate é uma poderosa editora de livros, que se vê em apuros ao ser comunicada de sua deportação para o país-natal, o Canadá. Para evitar que isto ocorra ela declara estar noiva de Andrew Paxton, seu assistente. Perseguido por Margaret há anos, ele aceita participar da farsa mas impõe algumas condições."
+  },
+  {
+    "id": "movie-a-proposta-2009",
+    "title": "A Proposta (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/uIhags0jXoe78JJjCDZbByciesQ.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18240",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18240",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-propria-carne-2025",
+    "title": "A Propria Carne (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/sygGPt8K4IlmJenNuLIhd75rIAe.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1353066",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1353066",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-propria-criacao-e-amor",
+    "title": "A PROPRIA CRIACAO E AMOR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-protetora-de-animais-2016",
+    "title": "A Protetora de Animais (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/wmDEowNXyqjtnfYDZe29VaFf67b.jpg",
+    "genres": [
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "394047",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/394047",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/394047",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Sara Gold é uma jovem garota em uma jornada para salvar o melhor amigo do homem. Quando ela vai disfarçada para derrubar um criador de cães suspeito de irregularidades, ela rapidamente descobre que pode estar do lado errado do certo. Sara deve tomar uma decisão: continuar e seguir as ordens de sua organização, United Animal Protection Agency, ou confiar em seus instintos e no garoto por quem ela se apaixonou."
+  },
+  {
+    "id": "movie-a-prova-de-fogo-2008",
+    "title": "A Prova de Fogo (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "14438",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/74b777fbd92edf365f191e367e591beb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/14438",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14438",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Prova%20de%20Fogo%20_2008_%20_tmdb_14438_ac711c5e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "14438",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450654",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645906",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Caleb Holt, um heroico capitão bombeiro que preza a dedicação e o serviço ao próximo acima de tudo. Mas a parceria mais importante de sua vida, seu casamento, está prestes a se desfazer em fumaça. Esta história cativante acompanha o desejo de um homem de transformar sua vida e seu casamento através do poder curativo da fé e de seguir adiante pelo lema dos bombeiros: \"Nunca deixe seu parceiro para trás\"."
+  },
+  {
+    "id": "movie-a-prova-de-morte-2007",
+    "title": "A Prova de Morte (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/19yVSPVhMDojcCdGjTj8azzA7uC.jpg",
+    "genres": [
+      "Ação",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1991",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1991",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-prova-final",
+    "title": "A Prova Final",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/lZr1iyVmAhsog6aBFdI3iNeTzjr.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "1511599",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1511599",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1511599",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2450425",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "No último dia do semestre, três estudantes se reúnem para realizar a prova final. O que parecia apenas um teste comum se transforma em um desafio psicológico cheio de tensão e mistério, onde cada decisão pode mudar seus destinos para sempre."
+  },
+  {
+    "id": "movie-a-proxima-reelstar",
+    "title": "A PROXIMA REELSTAR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-propria-carne",
+    "title": "A Própria Carne",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/sygGPt8K4IlmJenNuLIhd75rIAe.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "1353066",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1353066",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1353066",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_pria%20Carne%20_2025_%20_tmdb_1353066_679a27ac.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1353066",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445359",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900439",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901378",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Três soldados desertores durante a Guerra do Paraguai, em 1870, cada um lutando pela sobrevivência à sua maneira, encontram uma casa isolada na fronteira, habitada apenas por um fazendeiro misterioso e uma jovem. O que parecia ser um refúgio seguro se transforma em um pesadelo aterrorizante quando os soldados descobrem que a casa esconde segredos macabros, confrontando-os com um destino ainda mais horrível do que a guerra da qual fugiram."
+  },
+  {
+    "id": "movie-a-proxima",
+    "title": "A Próxima",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/y3jonKAWv9JPfz1r7UouRRpZGY8.jpg",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Crime"
+    ],
+    "tmdb_id": "317894",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/317894",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/317894",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/624183",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/624183",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20_2019_%20_tmdb_638238_4c010af4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20V_tima%20_2021_%20_tmdb_842169_daae2089.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pr_xima%20V_tima%20_1993_%20_tmdb_110093_dad43a20.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "638238",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "317894",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448963",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451285",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654667",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-proxima-2019",
+    "title": "A Próxima (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/cQMnCdx4F2AUgzg5m2mat1neqjc.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/624183",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/624183",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-proxima-vitima-2021",
+    "title": "A Próxima Vítima (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/sQxDZKXYSK8Tp6xxub5IpMD47xx.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "842169",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/842169",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/842169",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "842169",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "110093",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451283",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447249",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654548",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um grupo de traficantes utiliza alucinógenos e traumas do passado das vítimas para transformá-las em escravas sexuais. Lorian West é uma jovem que foi sequestrada e aprisionada dentro de seu próprio pesadelo. Ela busca uma maneira de escapar antes que se torne a próxima vítima do grupo."
+  },
+  {
+    "id": "movie-a-pura-verdade",
+    "title": "A Pura Verdade",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/5FGJSYbldFT2vPhVf14UqBtVBim.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "558095",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/558095",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/558095",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Pura%20Verdade%20_2018_%20_tmdb_558095_155f0e7f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "558095",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456224",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653821",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Londres, 29 de junho de 1613. O Globe Theatre, dirigido pelo famoso dramaturgo William Shakespeare, queima acidentalmente em cinzas. Gravemente afetado, ele para de escrever e volta para sua cidade natal, onde sua esposa Anne e as filhas Judith e Susanna ficam surpresas ao saber que ele pretende ficar lá definitivamente, depois de duas décadas trabalhando na capital, negligenciando seus sinceros afetos por eles."
+  },
+  {
+    "id": "movie-a-pura-verdade-2018",
+    "title": "A Pura Verdade (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/5FGJSYbldFT2vPhVf14UqBtVBim.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/558095",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/558095",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-pureza-da-pele-de-gelo",
+    "title": "A PUREZA DA PELE DE GELO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-pushover-do-escritorio-e-a-verdadeira-herdeira",
+    "title": "A PUSHOVER DO ESCRITORIO E A VERDADEIRA HERDEIRA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-pe-ele-nao-vai-longe",
+    "title": "A Pé Ele Não Vai Longe",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/tt6gUs8VUYzTS4jLbixEia2eKtd.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "443009",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/443009",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/443009",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20P_%20Ele%20N_o%20Vai%20Longe%20_2018_%20_tmdb_443009_f168a285.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "443009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460221",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651542",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "John Callahan  é um jovem conturbado que, aos 21 anos, bate de carro e sofre um grave acidente. Tetraplégico, ele transformará sua vida, tornando-se um dos cartunistas mais improváveis (e perseverantes) do mundo."
+  },
+  {
+    "id": "movie-a-pilula-da-verdade",
+    "title": "A Pílula da Verdade",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/42Opo2WDBmgPXaeR9TgxlbWCihP.jpg",
+    "genres": [
+      "Drama",
+      "Ficção científica"
+    ],
+    "tmdb_id": "852854",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/852854",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/852854",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 2,
+    "overview": "Durante uma viagem, um jovem casal decide testar a força de seu relacionamento usando uma pílula revolucionária que permite que seus usuários descubram quando outra pessoa está mentindo."
+  },
+  {
+    "id": "movie-a-qualquer-custo",
+    "title": "A Qualquer Custo",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg",
+    "genres": [
+      "Faroeste",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "338766",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/338766",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/338766",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Qualquer%20Custo%20_2016_%20_tmdb_338766_3431767d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "338766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446972",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448397",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "931769",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando a fazenda da família é penhorada pelo banco no Oeste do Texas, dois irmãos, um ex-presidiário e um pai divorciado com dois filhos, decidem assaltar algumas agências para se restabelecerem financeiramente. No entanto, a dupla cruza com um delegado, prestes a se aposentar, que fará de tudo para impedi-los e fechar com chave de ouro a sua carreira."
+  },
+  {
+    "id": "movie-a-qualquer-custo-2016",
+    "title": "A Qualquer Custo (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg",
+    "genres": [
+      "Faroeste",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/338766",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/338766",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-qualquer-hora",
+    "title": "a Qualquer Hora",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/eOss7pg6sH8UQ4WUvmAxCDLmMHc.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1319870",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1319870",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1319870",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-qualquer-preco",
+    "title": "A Qualquer Preço",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/tDI9givmfg5rihgAOnydLsWi19S.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "289191",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "289191",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Maria (Kim Basinger) é uma empresária bem sucedida, que já conseguiu tudo na vida, menos uma coisa: ter um filho. Depois de sofrer mais um aborto, o médico informa Maria que ela está velha demais para carregar uma criança. Devastada e incapaz de aceitar o seu destino, Maria sai em uma busca desesperada e perigosa para realizar seu maior desejo, o sonho da maternidade."
+  },
+  {
+    "id": "movie-a-qualquer-preco-2015",
+    "title": "A Qualquer Preço (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Qualquer%20Pre_o%20_2015_%20_tmdb_289191_37b79f66.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-queda",
+    "title": "A Queda",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/ey5j9PzI1S0jsMPuN8H9ldrGzuX.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "985939",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/985939",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/985939",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_871815_ddfbff2c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_985939_2836ff60.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20_2022_%20_tmdb_964822_8b271162.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "985939",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "871815",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445943",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451185",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461641",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2462114",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644362",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647333",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Becky e Hunter são duas amigas que buscam aventura e enfrentam grande alturas em suas escaladas. Depois de um grande drama vivido por elas, as duas decidem escalar uma remota torre de rádio abandonada com mais de 2000 pés de altura. Parecia a aventura perfeita para desligar a mente do trágico acontecimento que vivenciaram com o namorado de uma delas. Elas não contavam que ficariam presas e isoladas naquele lugar sem sinal de celular, sem energia e sem pessoas por perto."
+  },
+  {
+    "id": "movie-a-queda-2022",
+    "title": "A Queda (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/ey5j9PzI1S0jsMPuN8H9ldrGzuX.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/985939",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/985939",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-queda-2-no-limite-2026",
+    "title": "A Queda 2: No Limite (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%202_%20No%20Limite%20_2026_%20_tmdb_1101412_5294f3c1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-queda-da-terra",
+    "title": "A queda da Terra",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/dCaPFrbKnAjfcz9fUIoX0slelbk.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "TV"
+    ],
+    "tmdb_id": "353257",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "353257",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A gravidade de um planeta interestelar tirou a Terra da sua órbita, causando uma enorme devastação. A vida dos sobreviventes está em risco e a Terra pode sofrer alterações permanentes."
+  },
+  {
+    "id": "movie-a-queda-da-terra-2015",
+    "title": "A queda da Terra (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20queda%20da%20Terra%20_2015_%20_tmdb_353257_793e49f1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-queda-de-berlim",
+    "title": "A Queda de Berlim",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/mkF7O5M3qviVnz19dVR8ocpStY3.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Mistério"
+    ],
+    "tmdb_id": "429886",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/429886",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/429886",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Queda%20de%20Berlim%20_2017_%20_tmdb_429886_182661bc.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "429886",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445956",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647701",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O dia de Frank começou difícil e está prestes a ficar muito pior. Ele acordou com um telefonema irritado de sua ex-esposa, um tanque de gasolina vazio e uma garrafa de suco de maçã e vodka no café da manhã. Enquanto se prepara para ir pegar sua filha na estação de trem, ele conhece Andreas e lhe oferece uma carona. O olho ex-militar de Frank logo percebe que essa decisão acabará numa violenta viagem de vida ou morte, e os dois são jogados em um jogo tenso de gato e rato, rumando para revelações surpreendentes em seu destino final – Berlim."
+  },
+  {
+    "id": "movie-a-queda-de-berlim-2017",
+    "title": "A Queda de Berlim (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/mkF7O5M3qviVnz19dVR8ocpStY3.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/429886",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/429886",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  }
+]

@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_catalog import merge_channels, parse_m3u, safe_https_url
 from import_reference_catalog import canonical_key, dedupe_records, merge_record, parse_search_index, safe_candidate, split_sources
-from update_epg import normalise, parse_xmltv, parse_xmltv_date
+from update_epg import merge_xmltv_channels, normalise, parse_xmltv, parse_xmltv_date
 
 
 class CatalogShapeTests(unittest.TestCase):
@@ -28,6 +28,23 @@ class CatalogShapeTests(unittest.TestCase):
         parsed = parse_xmltv_date("20261015193000 -0300")
         self.assertIsNotNone(parsed)
         self.assertEqual(parsed.utcoffset().total_seconds(), -10800)
+
+    def test_xmltv_refresh_preserves_previously_indexed_channel_ids(self):
+        previous = [
+            {"id": "channel.a", "display_names": ["Old A"]},
+            {"id": "channel.b", "display_names": ["Channel B"]},
+        ]
+        incoming = [
+            {"id": "channel.a", "display_names": ["New A", "Old A"]},
+            {"id": "channel.c", "display_names": ["Channel C"]},
+        ]
+
+        merged = merge_xmltv_channels(previous, incoming)
+        by_id = {item["id"]: item for item in merged}
+
+        self.assertEqual(set(by_id), {"channel.a", "channel.b", "channel.c"})
+        self.assertEqual(by_id["channel.a"]["display_names"], ["Old A", "New A"])
+        self.assertEqual(by_id["channel.b"]["display_names"], ["Channel B"])
 
     def test_xmltv_indexer_parses_channels_and_window(self):
         xml = b'''<?xml version="1.0"?><tv><channel id="canal.1"><display-name>TV Camara</display-name></channel><programme start="20261015193000 -0300" stop="20261015200000 -0300" channel="canal.1"><title>Jornal</title></programme></tv>'''
@@ -105,7 +122,7 @@ class SourceSafetyTests(unittest.TestCase):
             canonical_key({"id": "b", "title": "Nome B", "tmdb_id": "123"}),
         )
 
-    def test_dedupe_records_merges_same_id_and_tmdb_without_duplicate_ids(self):
+    def test_dedupe_records_merges_same_id_but_preserves_tmdb_collision(self):
         records = [
             {"id": "movie-one", "title": "Filme (2020)", "year": "2020", "tmdb_id": "123",
              "sources": [{"url": "https://cdn.example.org/a.m3u8"}], "provider_refs": []},
@@ -115,9 +132,11 @@ class SourceSafetyTests(unittest.TestCase):
              "sources": [{"url": "https://cdn.example.org/c.m3u8"}], "provider_refs": []},
         ]
         merged = dedupe_records(records)
-        self.assertEqual(len(merged), 1)
-        self.assertEqual(len(merged[0]["sources"]), 3)
-        self.assertEqual(merged[0]["id"], "movie-one")
+        self.assertEqual(len(merged), 2)
+        by_id = {item["id"]: item for item in merged}
+        self.assertEqual(len(by_id["movie-one"]["sources"]), 2)
+        self.assertEqual(len(by_id["movie-two"]["sources"]), 1)
+        self.assertEqual(by_id["movie-two"]["sources"][0]["url"], "https://cdn.example.org/c.m3u8")
 
     def test_embed_sources_are_typed_and_prioritized(self):
         urls, refs, skipped = split_sources(

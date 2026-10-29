@@ -1,0 +1,19 @@
+name: Probe HTML EPG sources (read-only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe two mapped public EPG pages without publishing
+        run: python scripts/probe_html_epg.py

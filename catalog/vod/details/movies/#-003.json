@@ -1,1 +1,3980 @@
-[{"id":"movie-220-volts-especial-de-fim-de-ano-2020","title":"220 Volts: Especial de Fim de Ano (2020)","type":"movie","year":"2020","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/220%20Volts_%20Especial%20de%20Fim%20de%20Ano%20_2020_%20_tmdb_760163_b3205a78.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-222-encontro-marcado","title":"222 - Encontro Marcado","type":"movie","year":null,"poster_url":"/48ZnyZi3KGrn1YOOco7xKWa57Vb.jpg","genres":["Ficção científica","Mistério","Suspense","Romance"],"tmdb_id":"269795","sources":[{"url":"https://mgeb.top/embed/269795","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/269795","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/5d1fd1c9dd621da6393d512ba6663ed9/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/2_22%20-%20Encontro%20Marcado%20_2017_%20_tmdb_269795_472f7f7d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"269795","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449537","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458637","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884871","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-23-walks","title":"23 Walks","type":"movie","year":null,"poster_url":"/aGo4K0eUVGg3H7VrCOZsuTMUHUd.jpg","genres":["Drama","Romance"],"tmdb_id":"719266","sources":[],"provider_refs":[{"provider":"18","ref":"719266","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-23-000-vidas-2026","title":"23.000 Vidas (2026)","type":"movie","year":"2026","poster_url":"/iABvE2vyn7ZorgMlDqtIElpDaLn.jpg","genres":["Drama"],"tmdb_id":"1656220","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/d9d90c895ea1bd25d71e6059d5a1ca7c/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/1656220","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1656220","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/23.000%20Vidas%20_2026_%20_tmdb_1656220_7c72c6ba.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1656220","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444348","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"922254","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":4},{"id":"movie-24-horas-com-gaspar-2023","title":"24 Horas com Gaspar (2023)","type":"movie","year":"2023","poster_url":"/wpEbqJ2UYMx1dCgQW6kRgNAlmo4.jpg","genres":["Ação","Crime","Drama","Mistério","Ficção científica","Suspense"],"tmdb_id":"1013240","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/6c2818169222f0a04135ecba565d5f0b/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1013240","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1013240","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20com%20Gaspar%20_2023_%20_tmdb_1013240_80231f1c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1013240","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450493","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454066","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648451","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-24-horas-de-furia","title":"24 Horas de Fúria","type":"movie","year":null,"poster_url":"/120GwiD01pfR3hIezUwbSDY2mm1.jpg","genres":["Drama","Crime"],"tmdb_id":"10844","sources":[{"url":"https://mgeb.top/embed/10844","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10844","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20de%20F_ria%20_2006_%20_tmdb_10844_e758170f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10844","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455388","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770502","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-24-horas-para-o-natal","title":"24 Horas para o Natal","type":"movie","year":null,"poster_url":"/qtwhbcbG9N7yR9Wq5e0UZVAJqUy.jpg","genres":["Comédia","Romance","TV"],"tmdb_id":"551701","sources":[{"url":"https://mgeb.top/embed/551701","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/551701","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20para%20o%20Natal%20_2018_%20_tmdb_551701_59b6a88e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"551701","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458083","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-242310","title":"242310","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-27-noites","title":"27 Noites","type":"movie","year":null,"poster_url":"/fo2MUxHn8sTaNYldpBCd5Q4Nu1y.jpg","genres":["Comédia"],"tmdb_id":"1327769","sources":[{"url":"https://mgeb.top/embed/1327769","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1327769","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/27%20Noites%20_2025_%20_tmdb_1327769_e1d8921b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1327769","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445588","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"889795","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":4},{"id":"movie-27-noites-2025","title":"27 Noites (2025)","type":"movie","year":"2025","poster_url":"/fo2MUxHn8sTaNYldpBCd5Q4Nu1y.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1327769","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1327769","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-28-dias","title":"28 Dias","type":"movie","year":null,"poster_url":"/1jorzJKw23wvIjb914O0wDa5Mkg.jpg","genres":["Comédia","Drama"],"tmdb_id":"10468","sources":[{"url":"https://mgeb.top/embed/10468","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10468","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/28%20Dias%20_2000_%20_tmdb_10468_d30a022a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10468","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-28-dias-com-o-alfa","title":"28 Dias com o Alfa","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-29","title":"29","type":"movie","year":null,"poster_url":"/aQZ4OxzaYTN7cRN7fALi9BhPucp.jpg","genres":["Romance","Comédia","Drama"],"tmdb_id":"1510769","sources":[{"url":"https://mgeb.top/embed/1510769","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1510769","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/29%20_2026_%20_tmdb_1510769_3fb50b8f.mp4","audio":"leg","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1510769.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-2die4-24-horas-no-limite","title":"2DIE4: 24 Horas no Limite","type":"movie","year":"2026","poster_url":"/wYUZviDJDrx8jWQTua1eOmQyPAC.jpg","genres":["Ação","Documentário"],"tmdb_id":"1595223","sources":[{"url":"https://mgeb.top/embed/1595223","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1595223","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/2DIE4%2024%20Horas%20no%20Limite%20_2026_%20_tmdb_1595223_f50c4780.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1595223","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2472324","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"930998","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-harry-potter-e-o-prisioneiro-de-azkaban","title":"3 - Harry Potter E O Prisioneiro De Azkaban","type":"movie","year":null,"poster_url":"/1HdMUghqlgOIvbsU9ZtO40IPRzl.jpg","genres":["Aventura","Fantasia"],"tmdb_id":"673","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/b9d01bf713fc1d4384d63c4647eabc88/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/673","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/673","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Harry%20Potter%20e%20o%20Prisioneiro%20de%20Azkaban%20_2004_%20_tmdb_673_66835a8a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"673","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458032","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458676","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646910","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-coracoes","title":"3 Corações","type":"movie","year":null,"poster_url":"/13vkyx0RU8Pikdaow8Yjsb8J9aL.jpg","genres":["Romance","Drama"],"tmdb_id":"283701","sources":[],"provider_refs":[{"provider":"18","ref":"283701","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-coracoes-2014","title":"3 Corações (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Cora_es%20_2014_%20_tmdb_283701_7082fdc5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-dias-com-meu-pai","title":"3 Dias com Meu Pai","type":"movie","year":null,"poster_url":"/yxoANMeq8YArGzhgB5lK7UdvIoM.jpg","genres":["Comédia"],"tmdb_id":"629442","sources":[{"url":"https://mgeb.top/embed/629442","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/629442","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Dias%20com%20Meu%20Pai%20_2019_%20_tmdb_629442_f119ec99.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"629442","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460801","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650471","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-3-dias-com-meu-pai-2019","title":"3 Dias com Meu Pai (2019)","type":"movie","year":"2019","poster_url":"/yxoANMeq8YArGzhgB5lK7UdvIoM.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/629442","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/629442","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-dias-para-matar","title":"3 Dias para Matar","type":"movie","year":null,"poster_url":"/kW6zkRGYiwHViMRUy0wJkbXIFBv.jpg","genres":["Ação","Drama","Suspense"],"tmdb_id":"192102","sources":[{"url":"https://mgeb.top/embed/192102","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/192102","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Dias%20para%20Matar%20_2014_%20_tmdb_192102_58c9ec4b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"192102","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453945","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648892","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649610","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-dias-para-matar-2014","title":"3 Dias para Matar (2014)","type":"movie","year":"2014","poster_url":"/kW6zkRGYiwHViMRUy0wJkbXIFBv.jpg","genres":["Ação","Drama","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/192102","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/192102","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-faces-2018","title":"3 Faces (2018)","type":"movie","year":"2018","poster_url":"/fkOP2cxW1dbYIOZnaMnrJMAJ5HW.jpg","genres":["Drama","Documentário"],"tmdb_id":"517731","sources":[{"url":"https://mgeb.top/embed/517731","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/517731","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Faces%20_2018_%20_tmdb_517731_7f7ad59b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"517731","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-historias-de-amor","title":"3 Histórias de Amor","type":"movie","year":null,"poster_url":"/jnIbrjHtbTQbzXCav27zqhZj0B9.jpg","genres":["Drama","Romance"],"tmdb_id":"1210789","sources":[{"url":"https://mgeb.top/embed/1210789","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1210789","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2457610","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653202","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-3-idiotas","title":"3 Idiotas","type":"movie","year":null,"poster_url":"/gmSRHU1Wtiatj8KoyVt8rT9ockx.jpg","genres":["Drama","Comédia"],"tmdb_id":"20453","sources":[{"url":"https://mgeb.top/embed/20453","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/20453","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"20453","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460135","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-ninjas-contra-atacam","title":"3 Ninjas Contra Atacam","type":"movie","year":null,"poster_url":"/p0Sg52iqA6fAnWF35mmtUPxwOz5.jpg","genres":["Família","Aventura","Ação","Comédia"],"tmdb_id":"18885","sources":[{"url":"https://mgeb.top/embed/18885","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18885","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas%20Contra-Atacam%20_1994_%20_tmdb_18885_81b98dcc.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"18885","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460758","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884569","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-ninjas-contra-atacam-1994","title":"3 Ninjas Contra-Atacam (1994)","type":"movie","year":"1994","poster_url":"/p0Sg52iqA6fAnWF35mmtUPxwOz5.jpg","genres":["Família","Aventura","Ação","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/18885","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18885","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-ninjas-em-apuros-1995","title":"3 Ninjas em Apuros (1995)","type":"movie","year":"1995","poster_url":"/7iIBkrgpjYgRIOz07KLyxYXq0Vj.jpg","genres":["Família","Aventura","Ação","Comédia"],"tmdb_id":"40508","sources":[{"url":"https://mgeb.top/embed/40508","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/40508","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas%20em%20Apuros%20_1995_%20_tmdb_40508_38cf3c70.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"40508","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-ninjas-aventura-na-mega-mountain-1998","title":"3 Ninjas: Aventura na Mega Mountain (1998)","type":"movie","year":"1998","poster_url":"/4kwVR9pMRliOubH8oK12xlZMew2.jpg","genres":["Família","Ação","Comédia"],"tmdb_id":"32302","sources":[{"url":"https://mgeb.top/embed/32302","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/32302","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas_%20Aventura%20na%20Mega%20Mountain%20_1998_%20_tmdb_32302_c1d770e4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"32302","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-obas-de-xango","title":"3 Obás de Xangô","type":"movie","year":"2025","poster_url":"/5ecdYVdJqeIWgCPr74LAEhj5JQI.jpg","genres":["Documentário"],"tmdb_id":"1352343","sources":[{"url":"https://mgeb.top/embed/1352343","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1352343","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2469551","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"930244","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-3-pedidos","title":"3 Pedidos","type":"movie","year":null,"poster_url":"/74j6S3VZYKT7e74ViBDqU3YeWdg.jpg","genres":["Suspense","Drama"],"tmdb_id":"416772","sources":[{"url":"https://mgeb.top/embed/416772","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/416772","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Pedidos%20_2017_%20_tmdb_416772_d70c5815.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"416772","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445835","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647592","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-pedidos-2017","title":"3 Pedidos (2017)","type":"movie","year":"2017","poster_url":"/74j6S3VZYKT7e74ViBDqU3YeWdg.jpg","genres":["Suspense","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/416772","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/416772","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-turcos-e-um-bebe","title":"3 Turcos e um Bebê","type":"movie","year":null,"poster_url":"/9w1OgDXR2GhHxJuFkAp4UD1Pzwk.jpg","genres":["Comédia"],"tmdb_id":"308174","sources":[{"url":"https://mgeb.top/embed/308174","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/308174","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Turcos%20e%20um%20Beb%20_2015_%20_tmdb_308174_a44248bd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"308174","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461053","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651268","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-turcos-e-um-bebe-2015","title":"3 Turcos e um Bebê (2015)","type":"movie","year":"2015","poster_url":"/9w1OgDXR2GhHxJuFkAp4UD1Pzwk.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/308174","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/308174","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-vidas","title":"3 Vidas","type":"movie","year":null,"poster_url":"/wJRvneXHknLj3vfg3NDRdzgb7Y8.jpg","genres":["Suspense"],"tmdb_id":"400041","sources":[],"provider_refs":[{"provider":"18","ref":"400041","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-3-vidas-2019","title":"3 Vidas (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Vidas%20_2019_%20_tmdb_400041_9bb36647.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-working-days","title":"3 Working Days","type":"movie","year":null,"poster_url":"/qyPIHjPQTKE4nF2nSU1ZzMvJw2e.jpg","genres":["Drama"],"tmdb_id":"1365787","sources":[{"url":"https://mgeb.top/embed/1365787","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1365787","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Working%20Days%20_2024_%20_tmdb_1365787_997bed30.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1365787","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449811","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1365787.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670282","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-3-working-days-2024","title":"3 Working Days (2024)","type":"movie","year":"2024","poster_url":"/qyPIHjPQTKE4nF2nSU1ZzMvJw2e.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1365787","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1365787","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-2-1-adeus-e-ponto-final","title":"3.2.1 ADEUS E PONTO FINAL","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-30-anos-blues","title":"30 Anos Blues","type":"movie","year":null,"poster_url":"/uv0CdL2JlWRpCmkBuwV092sNLBe.jpg","genres":["Drama"],"tmdb_id":"615224","sources":[{"url":"https://mgeb.top/embed/615224","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/615224","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"615224","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456742","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653243","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-30-anos-blues-2019","title":"30 Anos Blues (2019)","type":"movie","year":"2019","poster_url":"/uv0CdL2JlWRpCmkBuwV092sNLBe.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/615224","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/615224","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-30-anos-congelada-3-irmaos-se-arrependem","title":"30 Anos Congelada 3 Irmaos se Arrependem","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-30-dias-de-noite","title":"30 Dias de Noite","type":"movie","year":null,"poster_url":"/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg","genres":["Terror","Suspense"],"tmdb_id":"4513","sources":[{"url":"https://mgeb.top/embed/4513","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/4513","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Dias%20de%20Noite%20_2007_%20_tmdb_4513_4fa5fee7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"4513","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452466","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-30-dias-de-noite-2007","title":"30 Dias de Noite (2007)","type":"movie","year":"2007","poster_url":"/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/4513","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/4513","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-30-dias-de-noite-1","title":"30 Dias de Noite 1","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"18","ref":"655601","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-30-dias-de-noite-2","title":"30 Dias de Noite 2","type":"movie","year":null,"poster_url":"/b3B9y2KRlBCveMKuQERbajuJzRK.jpg","genres":["Terror","Suspense"],"tmdb_id":"42941","sources":[{"url":"https://mgeb.top/embed/42941","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/42941","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Dias%20de%20Noite%202_%20Dias%20Sombrios%20_2010_%20_tmdb_42941_bbc7ec66.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"42941","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452482","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655600","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-30-dias-de-noite-2-dias-sombrios-2010","title":"30 Dias de Noite 2: Dias Sombrios (2010)","type":"movie","year":"2010","poster_url":"/b3B9y2KRlBCveMKuQERbajuJzRK.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/42941","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/42941","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-30-minutos-ou-menos-2011","title":"30 Minutos ou Menos (2011)","type":"movie","year":"2011","poster_url":"/6u1Q1Y3yNGDBCkD8UQ5yVp6KYx9.jpg","genres":["Ação","Aventura","Comédia"],"tmdb_id":"62206","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/32f906bdf83aa4aa1d59644208da099a/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/62206","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/62206","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Minutos%20ou%20Menos%20_2011_%20_tmdb_62206_07449110.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"62206","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-30-noites-com-a-minha-ex","title":"30 Noites com a Minha Ex","type":"movie","year":null,"poster_url":"/9GUOSsdQrchL57N4HTAncDEWxKO.jpg","genres":["Comédia","Romance"],"tmdb_id":"882040","sources":[{"url":"https://mgeb.top/embed/882040","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/882040","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Noites%20com%20a%20Minha%20Ex%20_2022_%20_tmdb_882040_883ec7f3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"882040","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460518","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650489","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-30-noites-com-a-minha-ex-2022","title":"30 Noites com a Minha Ex (2022)","type":"movie","year":"2022","poster_url":"/9GUOSsdQrchL57N4HTAncDEWxKO.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/882040","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/882040","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-30-noites-de-atividade-paranormal-com-a-filha-dos-homens-que-nao-amavam-as-mulheres","title":"30 Noites de Atividade Paranormal com a Filha dos Homens que Não Amavam as Mulheres","type":"movie","year":null,"poster_url":"/xng4MvtKEj8mV2aHgc51tGZzkdN.jpg","genres":["Comédia"],"tmdb_id":"157058","sources":[],"provider_refs":[{"provider":"18","ref":"157058","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-30-noites-de-atividade-paranormal-com-a-filha-dos-homens-que-nao-amavam-as-mulheres-2013","title":"30 Noites de Atividade Paranormal com a Filha dos Homens que Não Amavam as Mulheres (2013)","type":"movie","year":"2013","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Noites%20de%20Atividade%20Paranormal%20com%20a%20Filha%20dos%20Homens%20que%20N_o%20Amavam%20as%20Mulheres%20_2013_%20_tmdb_157058_fb9be5e8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-300","title":"300","type":"movie","year":null,"poster_url":"/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg","genres":["Ação","Aventura","Guerra"],"tmdb_id":"1271","sources":[{"url":"https://mgeb.top/embed/1271","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1271","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/300%20_2007_%20_tmdb_1271_c33e95ba.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1271","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453819","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650006","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-300-2007","title":"300 (2007)","type":"movie","year":"2007","poster_url":"/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg","genres":["Ação","Aventura","Guerra"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1271","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1271","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3000-milhas-para-o-inferno","title":"3000 Milhas para o Inferno","type":"movie","year":null,"poster_url":"/z96gChcr9lu1wIeXTu1IG0VOHaE.jpg","genres":["Ação","Aventura","Comédia","Crime","Suspense"],"tmdb_id":"12138","sources":[{"url":"https://mgeb.top/embed/12138","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12138","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3000%20Milhas%20para%20o%20Inferno%20_2001_%20_tmdb_12138_1d04e164.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"12138","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454286","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649540","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-3000-milhas-para-o-inferno-2001","title":"3000 Milhas para o Inferno (2001)","type":"movie","year":"2001","poster_url":"/z96gChcr9lu1wIeXTu1IG0VOHaE.jpg","genres":["Ação","Aventura","Comédia","Crime","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/12138","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12138","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-300-a-ascensao-do-imperio-2014","title":"300: A Ascensao do Imperio (2014)","type":"movie","year":"2014","poster_url":"/dSCFqaPcByXMEl6IEWxWW03bhmk.jpg","genres":["Ação","Drama","Guerra"],"tmdb_id":"53182","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/3e1cab785769acb767a39ccde6c70496/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/53182","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/53182","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/300_%20A%20Ascens_o%20do%20Imp_rio%20_2014_%20_tmdb_53182_e46f65a2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"53182","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453775","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650007","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-3022-2019","title":"3022 (2019)","type":"movie","year":"2019","poster_url":"/dp1brl24LXGFU3JPFaDoljDONRz.jpg","genres":["Ficção científica"],"tmdb_id":"640882","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/38b7b9a928da4003ba8ccbb3a1bb45dc/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/640882","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/640882","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"640882","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-303-squadron-legendado","title":"303 Squadron Legendado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-3096-dias-de-cativeiro-2013","title":"3096 Dias de Cativeiro (2013)","type":"movie","year":"2013","poster_url":"/cV5BPqLxe1BynyexKZar3KOnYV.jpg","genres":["Drama"],"tmdb_id":"166666","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bad974825d4396917db41b80fc3a2930/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/166666","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/166666","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3096%20Dias%20de%20Cativeiro%20_2013_%20_tmdb_166666_e775ecd0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"166666","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455509","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653275","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-31-a-morte-e-a-unica-saida","title":"31 - A Morte é a Única Saída","type":"movie","year":null,"poster_url":"/jHkIIkP4O0vUkSACcizOPZQIiF7.jpg","genres":["Terror","Suspense"],"tmdb_id":"284564","sources":[{"url":"https://mgeb.top/embed/284564","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/284564","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20-%20A%20Morte%20_%20a%20_nica%20Sa_da%20_2016_%20_tmdb_284564_72676cc3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"284564","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-31-a-morte-e-a-unica-saida-2016","title":"31 A Morte é a Única Saída (2016)","type":"movie","year":"2016","poster_url":"/jHkIIkP4O0vUkSACcizOPZQIiF7.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/284564","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/284564","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-31-candles","title":"31 Candles","type":"movie","year":null,"poster_url":"/2si5krYdGNZiZpgyacaoZK1Xtwp.jpg","genres":["Comédia","Romance"],"tmdb_id":"1214056","sources":[],"provider_refs":[{"provider":"18","ref":"1214056","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-31-candles-2025","title":"31 Candles (2025)","type":"movie","year":"2025","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20Candles%20_2026_%20_tmdb_1214056_c6afb262.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-31-minutos-natal-escaldante","title":"31 Minutos: Natal Escaldante","type":"movie","year":null,"poster_url":"/lt0IpOhrvhPOzQkQOvg2xK25bZ1.jpg","genres":["Família","Comédia","Aventura","Música"],"tmdb_id":"1237082","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/516d2327e6c57d256fcc5586ff87da8c/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1237082","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1237082","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20Minutos_%20Natal%20Escaldante%20_2025_%20_tmdb_1237082_ca58f84b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1237082","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444603","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900606","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-316","title":"316","type":"movie","year":null,"poster_url":"/3yknIqlAb38JbeaBn4eBtT2D5mj.jpg","genres":["Drama","Romance"],"tmdb_id":"205107","sources":[{"url":"https://mgeb.top/embed/205107","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/205107","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-32-a-guerra-civil","title":"32 – A Guerra Civil","type":"movie","year":null,"poster_url":"/a53v4rBquvcQvJJDIrZvjxSobQm.jpg","genres":["Documentário"],"tmdb_id":"404957","sources":[{"url":"https://mgeb.top/embed/404957","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/404957","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-33-photos-from-the-ghetto","title":"33 Photos from the Ghetto","type":"movie","year":null,"poster_url":"/MCCllKhFwbibmrIRMRK3Y09uTb.jpg","genres":["Documentário","História","Guerra"],"tmdb_id":"1462871","sources":[{"url":"https://mgeb.top/embed/1462871","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1462871","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-35-o-assalto-ao-poder","title":"35 - O Assalto ao Poder","type":"movie","year":null,"poster_url":"/u2DqAo66pkIbMhqrzJH7ZHM9Khw.jpg","genres":["Documentário"],"tmdb_id":"404958","sources":[],"provider_refs":[{"provider":"18","ref":"404958","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-35-o-assalto-ao-poder-2002","title":"35 - O Assalto ao Poder (2002)","type":"movie","year":"2002","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/35%20-%20O%20Assalto%20ao%20Poder%20_2002_%20_tmdb_404958_2e4c2e1d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-36","title":"36","type":"movie","year":null,"poster_url":"/2PNnavWkEmNbvP7Q9BLjIQ2UTmr.jpg","genres":["Crime","Drama","Suspense"],"tmdb_id":"7291","sources":[{"url":"https://mgeb.top/embed/7291","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/7291","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-36-horas-de-guerra","title":"36 Horas de Guerra","type":"movie","year":null,"poster_url":"/eRUrER9xFIiLp2aMIJjCTEOU3VX.jpg","genres":["Drama","Guerra","Ação","História"],"tmdb_id":"646071","sources":[{"url":"https://mgeb.top/embed/646071","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/646071","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/36%20Horas%20de%20Guerra%20_2021_%20_tmdb_646071_835c2a2a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"646071","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456431","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652688","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-36-horas-de-guerra-2021","title":"36 Horas de Guerra (2021)","type":"movie","year":"2021","poster_url":"/eRUrER9xFIiLp2aMIJjCTEOU3VX.jpg","genres":["Drama","Guerra","Ação","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/646071","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/646071","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-365-dias","title":"365 Dias","type":"movie","year":null,"poster_url":"/3104lH1U1XfUXo0ZLawnIjXS0NC.jpg","genres":["Romance","Drama"],"tmdb_id":"829557","sources":[{"url":"https://mgeb.top/embed/829557","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/829557","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias%20_2020_%20_tmdb_664413_e3abe65c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias_%20Hoje%20_2022_%20_tmdb_829557_efe572a8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"829557","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446466","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446580","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645325","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645561","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-365-dias-2020","title":"365 Dias (2020)","type":"movie","year":"2020","poster_url":"/3b1uR8Jggt1hWgtBbp42Mt3cwWe.jpg","genres":["Romance","Drama","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/664413","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/664413","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-365-dias-finais","title":"365 Dias Finais","type":"movie","year":null,"poster_url":"/2pxKwxMbd5l3BxK5fBgVCWYweH2.jpg","genres":["Romance","Drama"],"tmdb_id":"829560","sources":[{"url":"https://mgeb.top/embed/829560","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/829560","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias%20Finais%20_2022_%20_tmdb_829560_c13ee20e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"829560","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446834","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645523","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-365-dias-finais-2022","title":"365 Dias Finais (2022)","type":"movie","year":"2022","poster_url":"/2pxKwxMbd5l3BxK5fBgVCWYweH2.jpg","genres":["Romance","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/829560","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/829560","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-365-dias-hoje-2022","title":"365 Dias: Hoje (2022)","type":"movie","year":"2022","poster_url":"/3104lH1U1XfUXo0ZLawnIjXS0NC.jpg","genres":["Romance","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/829557","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/829557","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-365-dni","title":"365 dni","type":"movie","year":null,"poster_url":"/3b1uR8Jggt1hWgtBbp42Mt3cwWe.jpg","genres":["Romance","Drama","Crime"],"tmdb_id":"664413","sources":[{"url":"https://mgeb.top/embed/664413","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/664413","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"664413","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-37-segundos-2019","title":"37 Segundos (2019)","type":"movie","year":"2019","poster_url":"/cpoiVrlEKiz8XYNyeG8jHddTqtA.jpg","genres":["Drama"],"tmdb_id":"570735","sources":[{"url":"https://mgeb.top/embed/570735","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/570735","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-3-genesis","title":"3: Gênesis","type":"movie","year":"2012","poster_url":"/uLIyUugRBrJrKPAFw3cC4oY31k0.jpg","genres":["Terror"],"tmdb_id":"80280","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/8ccc9262a11a325ed136784fbb4bb059/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/80280","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/80280","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/REC_%203_%20G_nesis%20_2012_%20_tmdb_80280_968bc9ac.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2452416","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"80280","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655211","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-4-harry-potter-e-o-calice-de-fogo","title":"4 - Harry Potter E O Calice De Fogo","type":"movie","year":null,"poster_url":"/5oWB3hjzyECRBAjgWkmZinxl9qA.jpg","genres":["Aventura","Fantasia"],"tmdb_id":"674","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/2249bf682dd046b7d44afcd8e1145f81/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/674","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/674","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Harry%20Potter%20e%20o%20C_lice%20de%20Fogo%20_2005_%20_tmdb_674_b72d84ec.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"674","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457797","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458558","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447430","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"646909","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-4-amigos-te-apresento-minha-amiga-2023","title":"4 Amigos Te Apresento Minha Amiga (2023)","type":"movie","year":"2023","poster_url":"/x5J7DKezqKriOdodzj8A5AlqFk2.jpg","genres":["Comédia"],"tmdb_id":"1123080","sources":[{"url":"https://mgeb.top/embed/1123080","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1123080","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-4-kings-2","title":"4 Kings 2","type":"movie","year":"2023","poster_url":"/vA5klcvvxpRDBG3zBW3Nh8UHcWQ.jpg","genres":["Drama","Ação","Crime"],"tmdb_id":"968232","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/b0400d26bef2522928e06c742b7fdb34/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/968232","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/968232","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Fora%20dos%20Muros%20da%20Escola%20II%20_2023_%20_tmdb_968232_e56196fd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"968232","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447527","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456587","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"968232.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"762447","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770445","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-4-latas","title":"4 Latas","type":"movie","year":null,"poster_url":"/bqSdcFF4w8ZwgWZB3jNNTJNubBK.jpg","genres":["Comédia","Drama"],"tmdb_id":"584427","sources":[{"url":"https://mgeb.top/embed/584427","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/584427","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/4%20Latas%20_2019_%20_tmdb_584427_580b77c6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"584427","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459965","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651568","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-4-latas-2019","title":"4 Latas (2019)","type":"movie","year":"2019","poster_url":"/bqSdcFF4w8ZwgWZB3jNNTJNubBK.jpg","genres":["Comédia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/584427","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/584427","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-4-luas-2014","title":"4 Luas (2014)","type":"movie","year":"2014","poster_url":"/jIS07xojCgVHLDCYGzvlF9UllWJ.jpg","genres":["Drama","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/258034","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/258034","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-40","title":"40","type":"movie","year":null,"poster_url":"/10AaeA1oQCsVVCXUb6SrZc7nw9j.jpg","genres":["TV"],"tmdb_id":"1362651","sources":[],"provider_refs":[{"provider":"18","ref":"1362651","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-40-acres","title":"40 Acres","type":"movie","year":"2024","poster_url":"/hFU9lETUKtDnBBAuhARQOUDJOSO.jpg","genres":["Ação","Suspense","Drama","Fantasia","Terror"],"tmdb_id":"1319951","sources":[{"url":"https://mgeb.top/embed/1319951","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1319951","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2448704","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1319951","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-40-dias-o-milagre-da-vida-2019","title":"40 Dias - O Milagre da Vida (2019)","type":"movie","year":"2019","poster_url":"/kyoSXlgV8OMGyAfBHwyDECp1m5f.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/576071","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/576071","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-40-dias-e-noites","title":"40 Dias e Noites","type":"movie","year":null,"poster_url":"/bAHXPIZy1t8kiEqb7hn4BRbuuBd.jpg","genres":["Ação","Ficção científica","Aventura","Suspense"],"tmdb_id":"145738","sources":[],"provider_refs":[{"provider":"18","ref":"145738","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-40-dias-e-noites-2012","title":"40 Dias e Noites (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20e%20Noites%20_2012_%20_tmdb_145738_462210aa.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-40-dias-o-milagre-da-vida","title":"40 Dias O Milagre Da Vida","type":"movie","year":null,"poster_url":"/kyoSXlgV8OMGyAfBHwyDECp1m5f.jpg","genres":["Drama"],"tmdb_id":"576071","sources":[{"url":"https://mgeb.top/embed/576071","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/576071","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20-%20O%20Milagre%20da%20Vida%20_2019_%20_tmdb_576071_2ebe3f8c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"576071","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457204","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653636","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-40-dias-perdidos-na-selva-2024","title":"40 Dias Perdidos na Selva (2024)","type":"movie","year":"2024","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20Perdidos%20na%20Selva%20_2024_%20_tmdb_1279310_37ca1b4c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-40-dias-perdidos-en-la-selva","title":"40 días perdidos en la selva","type":"movie","year":null,"poster_url":"/9ByWI7ressU9JwidkImepGmZcVV.jpg","genres":["Drama"],"tmdb_id":"1279310","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/f8ef518f8acdbdde0e37f30d65fae456/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1279310","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1279310","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1279310","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444643","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"914219","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-400-balas-2021","title":"400 Balas (2021)","type":"movie","year":"2021","poster_url":"/burp795vripHCoq8VAT0Dm5SPE.jpg","genres":["Ação","Guerra","Mistério"],"tmdb_id":"788672","sources":[{"url":"https://mgeb.top/embed/788672","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/788672","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Balas%20_2021_%20_tmdb_788672_ec4a70a0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"788672","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-400-contra-1-uma-historia-do-crime-organizado-2010","title":"400 Contra 1 Uma Historia do Crime Organizado (2010)","type":"movie","year":"2010","poster_url":"/vYjpX0uLBCtjJBf42zJk4OxepPx.jpg","genres":["Ação","Crime","Drama"],"tmdb_id":"49821","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/6174103477b1bda7ef3f57cdd5fabef1/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/49821","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/49821","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Contra%201_%20A%20Hist_ria%20do%20Comando%20Vermelho%20_2010_%20_tmdb_49821_cd7e4edd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"49821","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451433","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644408","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-400-dias","title":"400 Dias","type":"movie","year":null,"poster_url":"/eddAe9z7MjDNBUctFohB4hscVJT.jpg","genres":["Mistério","Ficção científica","Suspense"],"tmdb_id":"332502","sources":[],"provider_refs":[{"provider":"18","ref":"332502","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-400-dias-2015","title":"400 Dias (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Dias%20_2015_%20_tmdb_332502_2ae92833.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-407-o-voo-das-trevas","title":"407 : O Vôo das Trevas","type":"movie","year":null,"poster_url":"/tWFMSfO35ZdDVclhlQkD6jndhRa.jpg","genres":["Terror","Suspense"],"tmdb_id":"101419","sources":[],"provider_refs":[{"provider":"18","ref":"101419","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-407-o-voo-das-trevas-2012","title":"407 : O Vôo das Trevas (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/407%20_%20O%20V_o%20das%20Trevas%20_2012_%20_tmdb_101419_8eac3f59.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-220-volts-especial-de-fim-de-ano-2020",
+    "title": "220 Volts: Especial de Fim de Ano (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/220%20Volts_%20Especial%20de%20Fim%20de%20Ano%20_2020_%20_tmdb_760163_b3205a78.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-222-encontro-marcado",
+    "title": "222 - Encontro Marcado",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/48ZnyZi3KGrn1YOOco7xKWa57Vb.jpg",
+    "genres": [
+      "Ficção científica",
+      "Mistério",
+      "Suspense",
+      "Romance"
+    ],
+    "tmdb_id": "269795",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/269795",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/269795",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/5d1fd1c9dd621da6393d512ba6663ed9/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/2_22%20-%20Encontro%20Marcado%20_2017_%20_tmdb_269795_472f7f7d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "269795",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449537",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458637",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884871",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-23-walks",
+    "title": "23 Walks",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/aGo4K0eUVGg3H7VrCOZsuTMUHUd.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "719266",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "719266",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Dave e Fern estão por volta dos 60 anos, e começam ase conhecer ao longo de 23 passeios com seus cães."
+  },
+  {
+    "id": "movie-23-000-vidas-2026",
+    "title": "23.000 Vidas (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/iABvE2vyn7ZorgMlDqtIElpDaLn.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1656220",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d9d90c895ea1bd25d71e6059d5a1ca7c/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1656220",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1656220",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/23.000%20Vidas%20_2026_%20_tmdb_1656220_7c72c6ba.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1656220",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444348",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "922254",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4,
+    "overview": "Um grupo de jovens embarca rumo ao Mediterrâneo para salvar as vidas de refugiados, em uma missão que desafia suas ideias sobre lei e justiça."
+  },
+  {
+    "id": "movie-24-horas-com-gaspar-2023",
+    "title": "24 Horas com Gaspar (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/wpEbqJ2UYMx1dCgQW6kRgNAlmo4.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Drama",
+      "Mistério",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "1013240",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6c2818169222f0a04135ecba565d5f0b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1013240",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1013240",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20com%20Gaspar%20_2023_%20_tmdb_1013240_80231f1c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1013240",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450493",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454066",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648451",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um detetive particular que só tem mais 24 horas de vida tenta solucionar o desaparecimento de sua amiga de infância."
+  },
+  {
+    "id": "movie-24-horas-de-furia",
+    "title": "24 Horas de Fúria",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/120GwiD01pfR3hIezUwbSDY2mm1.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "10844",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10844",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10844",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20de%20F_ria%20_2006_%20_tmdb_10844_e758170f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10844",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455388",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770502",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "As pessoas comuns encontram extraordinária coragem diante da loucura. Em 13 e 14 de novembro de 1990, essa loucura chegou a Aramoana, uma pequena cidade litorânea da Nova Zelândia, na forma de um atirador solitário com um rifle semi-automático de alta potência. Enquanto espreitava suas vítimas, os moradores aterrorizados e confusos ficaram presos por 24 horas, enquanto um punhado de policiais locais com poucos recursos e sub-armados arriscaram a vida tentando encontrá-lo e salvar os sobreviventes. Baseado em fatos reais."
+  },
+  {
+    "id": "movie-24-horas-para-o-natal",
+    "title": "24 Horas para o Natal",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/qtwhbcbG9N7yR9Wq5e0UZVAJqUy.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "TV"
+    ],
+    "tmdb_id": "551701",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/551701",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/551701",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/24%20Horas%20para%20o%20Natal%20_2018_%20_tmdb_551701_59b6a88e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "551701",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458083",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Ellen está determinada a conquistar a tão sonhada vaga de diretora de criação na empresa em que trabalha, mas uma paixão pode atrapalhar seus planos."
+  },
+  {
+    "id": "movie-242310",
+    "title": "242310",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-27-noites",
+    "title": "27 Noites",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/fo2MUxHn8sTaNYldpBCd5Q4Nu1y.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "1327769",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1327769",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1327769",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/27%20Noites%20_2025_%20_tmdb_1327769_e1d8921b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1327769",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445588",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "889795",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4,
+    "overview": "Uma mulher é internada em uma clínica psiquiátrica pelas filhas por seu comportamento. Agora, cabe a um especialista julgar se ela está doente ou só quer curtir a vida."
+  },
+  {
+    "id": "movie-27-noites-2025",
+    "title": "27 Noites (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/fo2MUxHn8sTaNYldpBCd5Q4Nu1y.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1327769",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1327769",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-28-dias",
+    "title": "28 Dias",
+    "type": "movie",
+    "year": "2000",
+    "poster_url": "/1jorzJKw23wvIjb914O0wDa5Mkg.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "10468",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10468",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10468",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/28%20Dias%20_2000_%20_tmdb_10468_d30a022a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Gwen Cummings, uma bem-sucedida escritora de Nova York, frequenta todas as festas. Mas tudo muda quando ela e o namorado ficam bêbados, pegam a limusine do casamento de sua irmã e batem o carro em uma casa. Depois disso, Gwen é obrigada, pelo juiz, a lidar com a consequência dos seus atos em uma clínica de reabilitação."
+  },
+  {
+    "id": "movie-28-dias-com-o-alfa",
+    "title": "28 Dias com o Alfa",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-29",
+    "title": "29",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/aQZ4OxzaYTN7cRN7fALi9BhPucp.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "1510769",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1510769",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1510769",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/29%20_2026_%20_tmdb_1510769_3fb50b8f.mp4",
+        "audio": "leg",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1510769.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "É um drama romântico indiano dirigido por Rathna Kumar. A trama acompanha Sathya, um jovem de 29 anos em crise de identidade que se apaixona por Viji, uma mulher de espírito livre e focada na carreira. O relacionamento força o casal a confrontar a diferença entre a fantasia do amor e a realidade da vida."
+  },
+  {
+    "id": "movie-2die4-24-horas-no-limite",
+    "title": "2DIE4: 24 Horas no Limite",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/wYUZviDJDrx8jWQTua1eOmQyPAC.jpg",
+    "genres": [
+      "Ação",
+      "Documentário"
+    ],
+    "tmdb_id": "1595223",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1595223",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1595223",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/2DIE4%2024%20Horas%20no%20Limite%20_2026_%20_tmdb_1595223_f50c4780.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1595223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2472324",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "930998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O primeiro filme brasileiro lançado em IMAX, conduz o público por um ponto de vista inédito: a própria mente do piloto brasileiro durante a prova de resistência mais famosa do automobilismo, considerada a mais antiga e exigente da história."
+  },
+  {
+    "id": "movie-3-harry-potter-e-o-prisioneiro-de-azkaban",
+    "title": "3 - Harry Potter E O Prisioneiro De Azkaban",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1HdMUghqlgOIvbsU9ZtO40IPRzl.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia"
+    ],
+    "tmdb_id": "673",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b9d01bf713fc1d4384d63c4647eabc88/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/673",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/673",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Harry%20Potter%20e%20o%20Prisioneiro%20de%20Azkaban%20_2004_%20_tmdb_673_66835a8a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "673",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458032",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458676",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646910",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-3-coracoes",
+    "title": "3 Corações",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/13vkyx0RU8Pikdaow8Yjsb8J9aL.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "283701",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "283701",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após perder seu trem noturno de volta para Paris, Marc conhece Sylvie em uma pequena cidade francesa. O encontro revela aos dois uma surpreendente afinidade e, juntos, eles andam pelas ruas até o amanhecer conversando sobre tudo, menos sobre si mesmos."
+  },
+  {
+    "id": "movie-3-coracoes-2014",
+    "title": "3 Corações (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Cora_es%20_2014_%20_tmdb_283701_7082fdc5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-dias-com-meu-pai",
+    "title": "3 Dias com Meu Pai",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/yxoANMeq8YArGzhgB5lK7UdvIoM.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "629442",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/629442",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/629442",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Dias%20com%20Meu%20Pai%20_2019_%20_tmdb_629442_f119ec99.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "629442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460801",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650471",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A última coisa que Eddie Mills quer fazer é voltar para sua antiga casa para cuidar de Bob, seu pai moribundo. Mas, quando a culpa o atormenta, ele decide voltar para o lar onde vive sua louca família, com uma madrasta autoritária e seu pai opressor."
+  },
+  {
+    "id": "movie-3-dias-com-meu-pai-2019",
+    "title": "3 Dias com Meu Pai (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/yxoANMeq8YArGzhgB5lK7UdvIoM.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/629442",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/629442",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-dias-para-matar",
+    "title": "3 Dias para Matar",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/kW6zkRGYiwHViMRUy0wJkbXIFBv.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "192102",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/192102",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/192102",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Dias%20para%20Matar%20_2014_%20_tmdb_192102_58c9ec4b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "192102",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453945",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648892",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649610",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Ethan Renner (Kevin Costner), veterano agente secreto, está à beira da morte. Seu último desejo é reatar com sua filha, com quem perdeu contato há muito tempo. Temendo não ter tempo hábil para salvar seus relacionamentos com a menina e com a ex-esposa, este homem descobre a existência de uma potente droga que pode salvá-lo, contanto que ele aceite um derradeiro trabalho."
+  },
+  {
+    "id": "movie-3-dias-para-matar-2014",
+    "title": "3 Dias para Matar (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/kW6zkRGYiwHViMRUy0wJkbXIFBv.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/192102",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/192102",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-faces-2018",
+    "title": "3 Faces (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/fkOP2cxW1dbYIOZnaMnrJMAJ5HW.jpg",
+    "genres": [
+      "Drama",
+      "Documentário"
+    ],
+    "tmdb_id": "517731",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/517731",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/517731",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Faces%20_2018_%20_tmdb_517731_7f7ad59b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "517731",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Uma famosa atriz iraniana recebe um vídeo perturbador de uma garota implorando por ajuda para escapar de sua família conservadora. Ela então pede para seu amigo, o diretor Jafar Panahi, ajudá-la a descobrir se o vídeo é real ou uma manipulação. Juntos, eles seguem o caminho para a aldeia da menina nas remotas montanhas do norte, onde as tradições ancestrais continuam a ditar a vida local."
+  },
+  {
+    "id": "movie-3-historias-de-amor",
+    "title": "3 Histórias de Amor",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jnIbrjHtbTQbzXCav27zqhZj0B9.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1210789",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1210789",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1210789",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2457610",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653202",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-3-idiotas",
+    "title": "3 Idiotas",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/gmSRHU1Wtiatj8KoyVt8rT9ockx.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "20453",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/20453",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/20453",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "20453",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460135",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Farhan e Raju partem em busca de seu amigo e colega de faculdade há muito desaparecido, Rancho. No decorrer desta aventura, serão confrontados com uma antiga aposta esquecida, um casamento que terão de entrar de penetras e um funeral que não correrá como planejado."
+  },
+  {
+    "id": "movie-3-ninjas-contra-atacam",
+    "title": "3 Ninjas Contra Atacam",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/p0Sg52iqA6fAnWF35mmtUPxwOz5.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "18885",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18885",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18885",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas%20Contra-Atacam%20_1994_%20_tmdb_18885_81b98dcc.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "18885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460758",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884569",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Acompanhando seus avós ao Japão, os três jovens ninjas acabam no meio de um conflito de artes marciais. Perseguidos por um trio de alucinados ladrões e um exército de ninjas bem treinados, Rocky, Colt e Tum Tum, têm que usar todas as suas habilidades, nesta comédia de ação que não deixa a alegria baixar."
+  },
+  {
+    "id": "movie-3-ninjas-contra-atacam-1994",
+    "title": "3 Ninjas Contra-Atacam (1994)",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/p0Sg52iqA6fAnWF35mmtUPxwOz5.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18885",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18885",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-ninjas-em-apuros-1995",
+    "title": "3 Ninjas em Apuros (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/7iIBkrgpjYgRIOz07KLyxYXq0Vj.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "40508",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/40508",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/40508",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas%20em%20Apuros%20_1995_%20_tmdb_40508_38cf3c70.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "40508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Rocky, Colt e TumTum devem lutar contra um rico e malvado dumper de lixo tóxico, a fim de salvar uma tribo indígena local e seu amigo Joe. Os 3 Ninjas devem ajudar a encontrar o pai de Joe e encontrar um disco secreto que contenha evidências que possam deter o aterro tóxico que está destruindo a comunidade indígena. No entanto, a cidade é de propriedade do homem rico e ele controla a polícia e até mesmo o prefeito. Eles devem lutar contra uma gangue de motoqueiros e cowboys renegados nesta aventura ninja sem parar."
+  },
+  {
+    "id": "movie-3-ninjas-aventura-na-mega-mountain-1998",
+    "title": "3 Ninjas: Aventura na Mega Mountain (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/4kwVR9pMRliOubH8oK12xlZMew2.jpg",
+    "genres": [
+      "Família",
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "32302",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/32302",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/32302",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Ninjas_%20Aventura%20na%20Mega%20Mountain%20_1998_%20_tmdb_32302_c1d770e4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "32302",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Rocky, Colt, Tum Tum e Amanda estão em um parque de diversões \"Mega Mountain\" quando uma invasão da perversa Medusa, e seu exército de ninjas, acontece. Com a ajuda do astro de TV aposentado Dave Dragon, as crianças precisam deter a vilã."
+  },
+  {
+    "id": "movie-3-obas-de-xango",
+    "title": "3 Obás de Xangô",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/5ecdYVdJqeIWgCPr74LAEhj5JQI.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1352343",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1352343",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1352343",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2469551",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "930244",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A amizade de Jorge Amado, Dorival Caymmi e Carybé, artistas que foram os maiores responsáveis pela criação de um imaginário baianidade que persiste até os dias de hoje e que defendiam que a força de suas obras residia em documentar o que viam nas ruas."
+  },
+  {
+    "id": "movie-3-pedidos",
+    "title": "3 Pedidos",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/74j6S3VZYKT7e74ViBDqU3YeWdg.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "416772",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/416772",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/416772",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Pedidos%20_2017_%20_tmdb_416772_d70c5815.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "416772",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647592",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Antes de entrar no programa de proteção de testemunhas, o ladrão de bancos Mikael exige 3 coisas da polícia, 3 coisas que lançam uma nova luz sobre o assalto em que ele e seus parceiros foram presos."
+  },
+  {
+    "id": "movie-3-pedidos-2017",
+    "title": "3 Pedidos (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/74j6S3VZYKT7e74ViBDqU3YeWdg.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/416772",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/416772",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-turcos-e-um-bebe",
+    "title": "3 Turcos e um Bebê",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/9w1OgDXR2GhHxJuFkAp4UD1Pzwk.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "308174",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/308174",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/308174",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Turcos%20e%20um%20Beb%20_2015_%20_tmdb_308174_a44248bd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "308174",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461053",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651268",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Três amigos dividem um apartamento e dedicam grande parte do tempo livre para se divertirem com um time interminável de namoradas. Um dia, um bebê é deixado na porta do apartamento deles, com um bilhete da mãe (Nancy Travis) dizendo não ter condições de cuidar da filha no momento. Acontece que o pai é um ator (Ted Danson) e está atualmente filmando na Turquia. Após o choque inicial os outros dois resolvem cuidar da criança, mas isto afetará a vida dos três muito além do que possam imaginar."
+  },
+  {
+    "id": "movie-3-turcos-e-um-bebe-2015",
+    "title": "3 Turcos e um Bebê (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/9w1OgDXR2GhHxJuFkAp4UD1Pzwk.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/308174",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/308174",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-vidas",
+    "title": "3 Vidas",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/wJRvneXHknLj3vfg3NDRdzgb7Y8.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "400041",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "400041",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Emma acorda e encontra-se presa em um bunker abandonado, e sua única maneira de ver o céu é através das barras dessa prisão. Ela logo percebe que há outras duas vítimas presas com ela – Ben e Jamie – que ela conhece de seus dias na escola."
+  },
+  {
+    "id": "movie-3-vidas-2019",
+    "title": "3 Vidas (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Vidas%20_2019_%20_tmdb_400041_9bb36647.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-working-days",
+    "title": "3 Working Days",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/qyPIHjPQTKE4nF2nSU1ZzMvJw2e.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1365787",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1365787",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1365787",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3%20Working%20Days%20_2024_%20_tmdb_1365787_997bed30.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1365787",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1365787.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670282",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um homem desesperado assalta um banco, fazendo funcionários e clientes como reféns com um ultimato para processar sua transação atrasada. Sem que ele saiba, sua ação atrapalhou os planos de uma gangue mortal que planejava atacar o mesmo banco."
+  },
+  {
+    "id": "movie-3-working-days-2024",
+    "title": "3 Working Days (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/qyPIHjPQTKE4nF2nSU1ZzMvJw2e.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1365787",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1365787",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3-2-1-adeus-e-ponto-final",
+    "title": "3.2.1 ADEUS E PONTO FINAL",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-30-anos-blues",
+    "title": "30 Anos Blues",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/uv0CdL2JlWRpCmkBuwV092sNLBe.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "615224",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/615224",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/615224",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "615224",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456742",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653243",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A síndrome de Peter Pan se caracteriza por um conjunto de comportamentos apresentados por adultos que não querem deixar de ser crianças."
+  },
+  {
+    "id": "movie-30-anos-blues-2019",
+    "title": "30 Anos Blues (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/uv0CdL2JlWRpCmkBuwV092sNLBe.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/615224",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/615224",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-30-anos-congelada-3-irmaos-se-arrependem",
+    "title": "30 Anos Congelada 3 Irmaos se Arrependem",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-30-dias-de-noite",
+    "title": "30 Dias de Noite",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "4513",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/4513",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/4513",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Dias%20de%20Noite%20_2007_%20_tmdb_4513_4fa5fee7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "4513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452466",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Barrow, Alasca. Durante os 30 dias do inverno local a cidade fica na mais completa escuridão. Neste período boa parte dos moradores viaja rumo ao sul, mas neste ano a cidade recebeu a visita de seres estranhos: um grupo de vampiros, que pretendem se aproveitar da noite constante para atacar os moradores locais. Para combatê-los um pequeno grupo é reunido, liderado pelo xerife Eben Oleson e por sua ex-esposa Stella."
+  },
+  {
+    "id": "movie-30-dias-de-noite-2007",
+    "title": "30 Dias de Noite (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/4513",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/4513",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-30-dias-de-noite-1",
+    "title": "30 Dias de Noite 1",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "655601",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-30-dias-de-noite-2",
+    "title": "30 Dias de Noite 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/b3B9y2KRlBCveMKuQERbajuJzRK.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "42941",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/42941",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/42941",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Dias%20de%20Noite%202_%20Dias%20Sombrios%20_2010_%20_tmdb_42941_bbc7ec66.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "42941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452482",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655600",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-30-dias-de-noite-2-dias-sombrios-2010",
+    "title": "30 Dias de Noite 2: Dias Sombrios (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/b3B9y2KRlBCveMKuQERbajuJzRK.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/42941",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/42941",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-30-minutos-ou-menos-2011",
+    "title": "30 Minutos ou Menos (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/6u1Q1Y3yNGDBCkD8UQ5yVp6KYx9.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Comédia"
+    ],
+    "tmdb_id": "62206",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/32f906bdf83aa4aa1d59644208da099a/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/62206",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/62206",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Minutos%20ou%20Menos%20_2011_%20_tmdb_62206_07449110.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "62206",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nick (Jesse Eisenberg) é um entregador de pizza que tem sua vida alterada pelos planos de Dwayne (Danny McBride) e Travis (Nick Swardson), que sonham em se tornar mestres do crime. A dupla sequestra Nick e o obriga a assaltar um banco. Com poucas horas para realizar o crime, Nick pede ajuda a Chet (Aziz Ansari), seu melhor amigo. Ambos precisam enfrentar a polícia e matadores de aluguel, o que coloca em risco a amizade existente entre eles."
+  },
+  {
+    "id": "movie-30-noites-com-a-minha-ex",
+    "title": "30 Noites com a Minha Ex",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/9GUOSsdQrchL57N4HTAncDEWxKO.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "882040",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/882040",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/882040",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Noites%20com%20a%20Minha%20Ex%20_2022_%20_tmdb_882040_883ec7f3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "882040",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460518",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Após três anos separado de La Loba, que apresenta um longo histórico de internações psiquiátricas, El Turbo aceita conviver durante 30 dias com sua ex-mulher a pedido de sua filha. La Loba deve fazer a transição entre a internação e sua reinserção social. A nova estrutura familiar fará com que El Turbo e La Loba revivam os sentimentos de amor e despertem a ilusão de que seguem juntos."
+  },
+  {
+    "id": "movie-30-noites-com-a-minha-ex-2022",
+    "title": "30 Noites com a Minha Ex (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/9GUOSsdQrchL57N4HTAncDEWxKO.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/882040",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/882040",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-30-noites-de-atividade-paranormal-com-a-filha-dos-homens-que-nao-amavam-as-mulheres",
+    "title": "30 Noites de Atividade Paranormal com a Filha dos Homens que Não Amavam as Mulheres",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/xng4MvtKEj8mV2aHgc51tGZzkdN.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "157058",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "157058",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após passar uma temporada em um hospital psiquiátrico, Dana (Kathryn Fiore) recebe alta e volta para casa, palco do terrível massacre que vitimou todos os atores de um filme mudo. Em companhia do marido, Aaron (Flip Schultz), Dana filma os agitados trinta primeiros dias de sua nova vida."
+  },
+  {
+    "id": "movie-30-noites-de-atividade-paranormal-com-a-filha-dos-homens-que-nao-amavam-as-mulheres-2013",
+    "title": "30 Noites de Atividade Paranormal com a Filha dos Homens que Não Amavam as Mulheres (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/30%20Noites%20de%20Atividade%20Paranormal%20com%20a%20Filha%20dos%20Homens%20que%20N_o%20Amavam%20as%20Mulheres%20_2013_%20_tmdb_157058_fb9be5e8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-300",
+    "title": "300",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Guerra"
+    ],
+    "tmdb_id": "1271",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1271",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1271",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/300%20_2007_%20_tmdb_1271_c33e95ba.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453819",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em 480 a.C., Leônidas, o rei de Esparta, comanda seu pequeno batalhão de 300 soldados contra um exército de mais de 1 milhão de persas na Batalha das Termópilas."
+  },
+  {
+    "id": "movie-300-2007",
+    "title": "300 (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Guerra"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1271",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1271",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-3000-milhas-para-o-inferno",
+    "title": "3000 Milhas para o Inferno",
+    "type": "movie",
+    "year": "2001",
+    "poster_url": "/z96gChcr9lu1wIeXTu1IG0VOHaE.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Comédia",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "12138",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12138",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12138",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3000%20Milhas%20para%20o%20Inferno%20_2001_%20_tmdb_12138_1d04e164.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "12138",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454286",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649540",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um grupo de ex-presidiários, liderado por Michael e Murphy, planeja um assalto a um cassino de Las Vegas. Porém, como o assalto acontecerá em meio à uma convenção de imitadores de Elvis Presley, eles precisam se vestir a caráter para executar o roubo."
+  },
+  {
+    "id": "movie-3000-milhas-para-o-inferno-2001",
+    "title": "3000 Milhas para o Inferno (2001)",
+    "type": "movie",
+    "year": "2001",
+    "poster_url": "/z96gChcr9lu1wIeXTu1IG0VOHaE.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Comédia",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12138",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12138",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-300-a-ascensao-do-imperio-2014",
+    "title": "300: A Ascensao do Imperio (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/dSCFqaPcByXMEl6IEWxWW03bhmk.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Guerra"
+    ],
+    "tmdb_id": "53182",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/3e1cab785769acb767a39ccde6c70496/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/53182",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/53182",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/300_%20A%20Ascens_o%20do%20Imp_rio%20_2014_%20_tmdb_53182_e46f65a2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "53182",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453775",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650007",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Após a morte do pai, Xerxes dá início a uma jornada de vingança e ruma em direção à Grécia, com seu exército sendo liderado por Artemisia. Enquanto os 300 espartanos liderados por Leonidas tantam combater o Deus-Rei, os exércitos do resto da Grécia se unem para uma batalha com as tropas de Artemisia no mar. Temístocles é o responsável por liderar os gregos."
+  },
+  {
+    "id": "movie-3022-2019",
+    "title": "3022 (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/dp1brl24LXGFU3JPFaDoljDONRz.jpg",
+    "genres": [
+      "Ficção científica"
+    ],
+    "tmdb_id": "640882",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/38b7b9a928da4003ba8ccbb3a1bb45dc/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/640882",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/640882",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "640882",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global."
+  },
+  {
+    "id": "movie-303-squadron-legendado",
+    "title": "303 Squadron Legendado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-3096-dias-de-cativeiro-2013",
+    "title": "3096 Dias de Cativeiro (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/cV5BPqLxe1BynyexKZar3KOnYV.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "166666",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bad974825d4396917db41b80fc3a2930/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/166666",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/166666",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/3096%20Dias%20de%20Cativeiro%20_2013_%20_tmdb_166666_e775ecd0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "166666",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455509",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653275",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Viena, 2 de março de 1998. A jovem Natascha Kampusch de 10 anos é arrastada para dentro de uma van pelo engenheiro de telecomunicações Wolfgang Priklopil enquanto ia para a escola. O sequestrador não quer resgate, ele quer apenas possuí-la. Embaixo de sua casa numa zona residencial de classe média, Priklopil construiu uma cela secreta para aprisioná-la. Baseado na história real de Natascha Kampusch."
+  },
+  {
+    "id": "movie-31-a-morte-e-a-unica-saida",
+    "title": "31 - A Morte é a Única Saída",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/jHkIIkP4O0vUkSACcizOPZQIiF7.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "284564",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/284564",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/284564",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20-%20A%20Morte%20_%20a%20_nica%20Sa_da%20_2016_%20_tmdb_284564_72676cc3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "284564",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Cinco pessoas são sequestradas cinco dias antes do Halloween e são mantidas reféns em um lugar chamado \"Murder World\" para participar de um sangrento jogo chamando \"31\". O desafio é sobreviver 12 horas dentro do local, cheio de palhaços assassinos e sanguinários."
+  },
+  {
+    "id": "movie-31-a-morte-e-a-unica-saida-2016",
+    "title": "31 A Morte é a Única Saída (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/jHkIIkP4O0vUkSACcizOPZQIiF7.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/284564",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/284564",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-31-candles",
+    "title": "31 Candles",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/2si5krYdGNZiZpgyacaoZK1Xtwp.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1214056",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1214056",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-31-candles-2025",
+    "title": "31 Candles (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20Candles%20_2026_%20_tmdb_1214056_c6afb262.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-31-minutos-natal-escaldante",
+    "title": "31 Minutos: Natal Escaldante",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/lt0IpOhrvhPOzQkQOvg2xK25bZ1.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "Aventura",
+      "Música"
+    ],
+    "tmdb_id": "1237082",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/516d2327e6c57d256fcc5586ff87da8c/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1237082",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1237082",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/31%20Minutos_%20Natal%20Escaldante%20_2025_%20_tmdb_1237082_ca58f84b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1237082",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900606",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Bodoque parte rumo ao Polo Norte em busca dos presentes de Natal para Titirilquén, mas sua compulsão por apostas gera problemas. No estúdio, Mario Hugo enfrenta desafios ao tentar realizar um show natalino."
+  },
+  {
+    "id": "movie-316",
+    "title": "316",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3yknIqlAb38JbeaBn4eBtT2D5mj.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "205107",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/205107",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/205107",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-32-a-guerra-civil",
+    "title": "32 – A Guerra Civil",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/a53v4rBquvcQvJJDIrZvjxSobQm.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "404957",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/404957",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/404957",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "No início da década de 1930, o Governo Provisório de Getúlio Vargas se transformara numa ditadura. Havia insatisfeitos em todo o país, mas só os paulistas se levantaram em armas. A guerra civil durou três meses. Nela, houve cerca de 800 vítimas fatais, mais do que o número de soldados brasileiros mortos na Segunda Guerra Mundial. Apesar do apoio maciço da população e do alistamento espontâneo de 45 mil civis, os paulistas acabaram derrotados. O segundo episódio da série sobre revoluções dirigida por Eduardo Escorel, realizado dois anos após o primeiro, traz depoimentos de cientistas e historiadores, e inclui cenas de arquivo curiosas, como a seqüência em que soldados mineiros zombam dos paulistas em pleno front."
+  },
+  {
+    "id": "movie-33-photos-from-the-ghetto",
+    "title": "33 Photos from the Ghetto",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/MCCllKhFwbibmrIRMRK3Y09uTb.jpg",
+    "genres": [
+      "Documentário",
+      "História",
+      "Guerra"
+    ],
+    "tmdb_id": "1462871",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1462871",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1462871",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-35-o-assalto-ao-poder",
+    "title": "35 - O Assalto ao Poder",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/u2DqAo66pkIbMhqrzJH7ZHM9Khw.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "404958",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "404958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O ano de 1935 estava chegando ao fim quando três levantes militares, em três diferentes capitais brasileiras, tentaram derrubar o governo de Getúlio Vargas. O governo de Getúlio foi implacável com os insurretos. Vários deles foram brutalmente torturados. Em poucos dias o movimento foi inteiramente dominado e esse foi um dos primeiros passos para a escalada autoritária de Getúlio Vargas que se manteria no poder até 1945. 35 - O Assalto ao Poder, documenta todos os lances da insurreição comunista e todas as etapas de um complexo processo que teve como protagonistas, além de Getúlio Vargas, Luiz Carlos Prestes, Octávio Brandão, Olga Benário, Gregório Bezerra, Giocondo Dias entre outros anti-heróis da utopia comunista na América Latina."
+  },
+  {
+    "id": "movie-35-o-assalto-ao-poder-2002",
+    "title": "35 - O Assalto ao Poder (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/35%20-%20O%20Assalto%20ao%20Poder%20_2002_%20_tmdb_404958_2e4c2e1d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-36",
+    "title": "36",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/2PNnavWkEmNbvP7Q9BLjIQ2UTmr.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "7291",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/7291",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/7291",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 2,
+    "overview": "Em Paris, por quase 18 meses um grupo de assaltantes provocou 9 mortes e roubou quase 2 milhões de euros. Robert Mancini, o diretor da polícia, que foi indicado para um importante cargo, decidiu que seu sucessor será um dos seus auxiliares mais diretos: Léo Vrinks, que é chefe da BRI, e Denis Klein, que comanda a BRB. Aquele que desbaratar esta quadrilha será seu substituto, se tornando o chefe da 36. Acontece que sempre houve uma rivalidade entre a BRI e a BRB, principalmente por causa de Klein, e dois policiais que já foram grandes amigos agora se tornaram rivais. Para vencer eles tentam controlar os fatos, mas às vezes os fatos os controlam."
+  },
+  {
+    "id": "movie-36-horas-de-guerra",
+    "title": "36 Horas de Guerra",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/eRUrER9xFIiLp2aMIJjCTEOU3VX.jpg",
+    "genres": [
+      "Drama",
+      "Guerra",
+      "Ação",
+      "História"
+    ],
+    "tmdb_id": "646071",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/646071",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/646071",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/36%20Horas%20de%20Guerra%20_2021_%20_tmdb_646071_835c2a2a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "646071",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456431",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652688",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Desdobrando-se ao longo de 36 horas, em três guerras separadas - a Guerra Civil Americana, a Primeira Guerra Mundial e o Iraque - acompanhamos um pequeno grupo de soldados presos em um espaço confinado, enquanto lutam com a moralidade, a futilidade e uma situação de combate cada vez mais insustentável e perto de um desfecho ruim para todos."
+  },
+  {
+    "id": "movie-36-horas-de-guerra-2021",
+    "title": "36 Horas de Guerra (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/eRUrER9xFIiLp2aMIJjCTEOU3VX.jpg",
+    "genres": [
+      "Drama",
+      "Guerra",
+      "Ação",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/646071",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/646071",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-365-dias",
+    "title": "365 Dias",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3104lH1U1XfUXo0ZLawnIjXS0NC.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "829557",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/829557",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/829557",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias%20_2020_%20_tmdb_664413_e3abe65c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias_%20Hoje%20_2022_%20_tmdb_829557_efe572a8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "829557",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446466",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446580",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645325",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-365-dias-2020",
+    "title": "365 Dias (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/3b1uR8Jggt1hWgtBbp42Mt3cwWe.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/664413",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/664413",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-365-dias-finais",
+    "title": "365 Dias Finais",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/2pxKwxMbd5l3BxK5fBgVCWYweH2.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "829560",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/829560",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/829560",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/365%20Dias%20Finais%20_2022_%20_tmdb_829560_c13ee20e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "829560",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446834",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645523",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A falta de confiança deixa a relação entre Laura e Massimo por um fio. Enquanto isso, Nacho usa de sua esperteza para afastá-los ainda mais."
+  },
+  {
+    "id": "movie-365-dias-finais-2022",
+    "title": "365 Dias Finais (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/2pxKwxMbd5l3BxK5fBgVCWYweH2.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/829560",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/829560",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-365-dias-hoje-2022",
+    "title": "365 Dias: Hoje (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/3104lH1U1XfUXo0ZLawnIjXS0NC.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/829557",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/829557",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-365-dni",
+    "title": "365 dni",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/3b1uR8Jggt1hWgtBbp42Mt3cwWe.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "664413",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/664413",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/664413",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "664413",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Laura, a fim de salvar seu relacionamento, vai para a Sicília, onde conhece Massimo. Um homem perigoso, o chefe de uma família da máfia, que a sequestra e lhe dá 365 dias para amá-lo."
+  },
+  {
+    "id": "movie-37-segundos-2019",
+    "title": "37 Segundos (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/cpoiVrlEKiz8XYNyeG8jHddTqtA.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "570735",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/570735",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/570735",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Yuma Takada (Mei Kayama) é uma jovem japonesa que possui o sonho de ser uma artista consagrada de mangás, mas vê em sua paralisia cerebral um obstáculo extremamente difícil de ultrapassar. Dividida entre as suas obrigações com a família e as suas aspirações cotidianas, ela se esforça o máximo para se manter sem a ajuda dos outros."
+  },
+  {
+    "id": "movie-3-genesis",
+    "title": "3: Gênesis",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/uLIyUugRBrJrKPAFw3cC4oY31k0.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "80280",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/8ccc9262a11a325ed136784fbb4bb059/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/80280",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/80280",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/REC_%203_%20G_nesis%20_2012_%20_tmdb_80280_968bc9ac.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2452416",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "80280",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655211",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-4-harry-potter-e-o-calice-de-fogo",
+    "title": "4 - Harry Potter E O Calice De Fogo",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/5oWB3hjzyECRBAjgWkmZinxl9qA.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia"
+    ],
+    "tmdb_id": "674",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/2249bf682dd046b7d44afcd8e1145f81/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/674",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/674",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Harry%20Potter%20e%20o%20C_lice%20de%20Fogo%20_2005_%20_tmdb_674_b72d84ec.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "674",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457797",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458558",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447430",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646909",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-4-amigos-te-apresento-minha-amiga-2023",
+    "title": "4 Amigos Te Apresento Minha Amiga (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/x5J7DKezqKriOdodzj8A5AlqFk2.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "1123080",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1123080",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1123080",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Ane Freitas, Niny Magalhães, Viviana Freitas e Xanda dias são as 4 Amigas que abrilhantam ainda mais este especial de sucesso dos 4 Amigos - Afonso Padilha, Thiago Ventura, Mácio Donato Dihh Lopes. Cada um dos humoristas e seus convidados se apresentam contando suas melhores histórias, crônicas e piadas para proporcionar um grande espetáculo de comédia stand-up."
+  },
+  {
+    "id": "movie-4-kings-2",
+    "title": "4 Kings 2",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/vA5klcvvxpRDBG3zBW3Nh8UHcWQ.jpg",
+    "genres": [
+      "Drama",
+      "Ação",
+      "Crime"
+    ],
+    "tmdb_id": "968232",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b0400d26bef2522928e06c742b7fdb34/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/968232",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/968232",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Fora%20dos%20Muros%20da%20Escola%20II%20_2023_%20_tmdb_968232_e56196fd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "968232",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447527",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456587",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "968232.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762447",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770445",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-4-latas",
+    "title": "4 Latas",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/bqSdcFF4w8ZwgWZB3jNNTJNubBK.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "584427",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/584427",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/584427",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/4%20Latas%20_2019_%20_tmdb_584427_580b77c6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "584427",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459965",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651568",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Tocho e Jean Pierre refazem sua viagem de carro da Espanha ao Mali para reencontrar um velho amigo à beira da morte e levam junto a filha que ele não vê há muito tempo."
+  },
+  {
+    "id": "movie-4-latas-2019",
+    "title": "4 Latas (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/bqSdcFF4w8ZwgWZB3jNNTJNubBK.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/584427",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/584427",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-4-luas-2014",
+    "title": "4 Luas (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/jIS07xojCgVHLDCYGzvlF9UllWJ.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/258034",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/258034",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-40",
+    "title": "40",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/10AaeA1oQCsVVCXUb6SrZc7nw9j.jpg",
+    "genres": [
+      "TV"
+    ],
+    "tmdb_id": "1362651",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1362651",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-40-acres",
+    "title": "40 Acres",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/hFU9lETUKtDnBBAuhARQOUDJOSO.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Drama",
+      "Fantasia",
+      "Terror"
+    ],
+    "tmdb_id": "1319951",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1319951",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1319951",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2448704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1319951",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em um futuro devastado pela fome, a veterana Hailey luta para proteger sua família e sua fazenda no interior do Canadá. Quando uma milícia violenta tenta tomar suas terras, mãe e filho precisam se unir para sobreviver."
+  },
+  {
+    "id": "movie-40-dias-o-milagre-da-vida-2019",
+    "title": "40 Dias - O Milagre da Vida (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/kyoSXlgV8OMGyAfBHwyDECp1m5f.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/576071",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/576071",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-40-dias-e-noites",
+    "title": "40 Dias e Noites",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/bAHXPIZy1t8kiEqb7hn4BRbuuBd.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "Aventura",
+      "Suspense"
+    ],
+    "tmdb_id": "145738",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "145738",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após um desastre natural, bióloga reúne DNA de diferentes espécies para preservar a vida na Terra."
+  },
+  {
+    "id": "movie-40-dias-e-noites-2012",
+    "title": "40 Dias e Noites (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20e%20Noites%20_2012_%20_tmdb_145738_462210aa.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-40-dias-o-milagre-da-vida",
+    "title": "40 Dias O Milagre Da Vida",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/kyoSXlgV8OMGyAfBHwyDECp1m5f.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "576071",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/576071",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/576071",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20-%20O%20Milagre%20da%20Vida%20_2019_%20_tmdb_576071_2ebe3f8c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "576071",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457204",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653636",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Tudo que Abby Johnson sempre quis foi ajudar outras mulheres. Como uma das diretoras mais jovens da história da Paternidade Planejada, organização responsável por metade dos abortos realizados nos Estados Unidos, ela acreditava ter feito a escolha certa. Até o dia em que algo que Abby viu fez com que tudo mudasse e ela se tornasse uma das principais vozes do movimento pró-vida dos Estados Unidos."
+  },
+  {
+    "id": "movie-40-dias-perdidos-na-selva-2024",
+    "title": "40 Dias Perdidos na Selva (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/40%20Dias%20Perdidos%20na%20Selva%20_2024_%20_tmdb_1279310_37ca1b4c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-40-dias-perdidos-en-la-selva",
+    "title": "40 días perdidos en la selva",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/9ByWI7ressU9JwidkImepGmZcVV.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1279310",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/f8ef518f8acdbdde0e37f30d65fae456/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1279310",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1279310",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1279310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444643",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "914219",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Quatro crianças, a mais velha com 12 anos e a mais nova com 11 meses, viajavam em um pequeno avião com a mãe quando, devido a problemas técnicos, o piloto tentou pousar na selva amazônica de Guaviare, na Colômbia. O pequeno avião caiu de cabeça na mata, matando a mãe e o piloto, mas as crianças saíram ilesas, encontrando-se repentinamente sozinhas e desprotegidas no meio da selva. Com a ideia de voltar para casa, começaram a caminhar sem saber exatamente para onde ir. Não tinham comida nem qualquer tipo de ajuda. Grupos de indígenas e membros do exército colombiano iniciaram as buscas, sem saber se estavam vivas ou mortas. Após quarenta dias, um grupo de busca indígena as encontrou e as entregou às autoridades."
+  },
+  {
+    "id": "movie-400-balas-2021",
+    "title": "400 Balas (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/burp795vripHCoq8VAT0Dm5SPE.jpg",
+    "genres": [
+      "Ação",
+      "Guerra",
+      "Mistério"
+    ],
+    "tmdb_id": "788672",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/788672",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/788672",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Balas%20_2021_%20_tmdb_788672_ec4a70a0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "788672",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma noite fria de inverno no Afeganistão está prestes a ficar muito pior para Rana Rae, um soldado Gurkha deixado para proteger um posto militar britânico, quando o capitão Noah Brandt chega em busca de refúgio de um grupo de operações especiais desonestos e uma célula de soldados fortemente armados Talibã. Os dois soldados devem lutar por suas vidas enquanto tentam chamar reforços antes que o esquadrão desonesto, liderado pelo traidor Sargento Bartlett, possa caçá-los para recuperar uma caixa de chips de orientação de mísseis que Noah interceptou. Mas Bartlett e seus homens não contam com Rana, cujo treinamento feroz em Gurkha o torna uma força a ser reconhecida."
+  },
+  {
+    "id": "movie-400-contra-1-uma-historia-do-crime-organizado-2010",
+    "title": "400 Contra 1 Uma Historia do Crime Organizado (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/vYjpX0uLBCtjJBf42zJk4OxepPx.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "49821",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/6174103477b1bda7ef3f57cdd5fabef1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/49821",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/49821",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Contra%201_%20A%20Hist_ria%20do%20Comando%20Vermelho%20_2010_%20_tmdb_49821_cd7e4edd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "49821",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451433",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644408",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Anos 70, presídio da Ilha Grande, no Rio de Janeiro. Um grupo de presos resolve se unir para lutar por direitos e ideais coletivos. William (Daniel de Oliveira) é um dos líderes deste grupo, que fundou o Comando Vermelho. A nova organização cria uma conduta de solidariedade entre os presos, algo inédito até então. No início dos anos 80 o Comando Vermelho passa a agir nas ruas do Rio de Janeiro, realizando ousados assaltos."
+  },
+  {
+    "id": "movie-400-dias",
+    "title": "400 Dias",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/eddAe9z7MjDNBUctFohB4hscVJT.jpg",
+    "genres": [
+      "Mistério",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "332502",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "332502",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O filme conta a história de quatro astronautas enviados em uma missão que simula uma viagem a um planeta distante para testar os efeitos psicológicos da viagem ao espaço profundo. Trancados por 400 dias, o estado mental da tripulação começa a deteriorar-se quando perdem toda a comunicação com o mundo exterior. Tentando sair do experimento, eles descobrem que essa missão pode não ter sido uma simulação."
+  },
+  {
+    "id": "movie-400-dias-2015",
+    "title": "400 Dias (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/400%20Dias%20_2015_%20_tmdb_332502_2ae92833.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-407-o-voo-das-trevas",
+    "title": "407 : O Vôo das Trevas",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/tWFMSfO35ZdDVclhlQkD6jndhRa.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "101419",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "101419",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A jovem Neuw, sobrevivente de um acidente aéreo, é mandada para a psicoterapia por acreditar que seu acidente fora causado por um espírito do mal. Anos depois, ela finalmente está pronta para viajar de avião novamente, mas quando ela percebe que a aeronave em que se encontra é a mesma na qual sofrera o acidente, já é tarde demais."
+  },
+  {
+    "id": "movie-407-o-voo-das-trevas-2012",
+    "title": "407 : O Vôo das Trevas (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/407%20_%20O%20V_o%20das%20Trevas%20_2012_%20_tmdb_101419_8eac3f59.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  }
+]

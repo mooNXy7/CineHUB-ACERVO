@@ -12,10 +12,18 @@ on:
       - "scripts/normalize_catalog.py"
       - "scripts/validate_catalog.py"
       - "scripts/update_epg.py"
+      - "scripts/update_html_epg.py"
+      - "scripts/parse_html_epg.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
+    inputs:
+      approve_reference_import:
+        description: "Aplicar a importação VOD de referência somente após revisar o relatório de qualidade."
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,27 +41,90 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch only the reference catalog files
+        id: reference
         run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference
-          git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
-            '/vod/filmes-*.txt' \
-            '/vod/series-*-*.txt' \
-            '/vod/fichas.txt' \
-            '/vod/busca.txt' \
-            '/vod/destaques.txt' \
-            '/vod/radios.txt' \
-            '/vod/mgeb/links-*.txt' \
-            '/vod/redeflix/links-*.txt' \
-            '/1.m3u' \
-            '/3.m3u'
-      - name: Import new reference data only when needed
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference; then
+            git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
+              '/vod/filmes-*.txt' \
+              '/vod/series-*-*.txt' \
+              '/vod/fichas.txt' \
+              '/vod/busca.txt' \
+              '/vod/destaques.txt' \
+              '/vod/radios.txt' \
+              '/vod/mgeb/links-*.txt' \
+              '/vod/redeflix/links-*.txt' \
+              '/1.m3u' \
+              '/3.m3u'
+            echo "REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
+          else
+            echo "REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
+            echo "::warning::Catálogo de referência indisponível nesta execução; a importação será ignorada e os dados atuais serão preservados."
+          fi
+      - name: Import reference data with an isolated quality gate
+        if: env.REFERENCE_AVAILABLE == 'true'
         run: |
+          set -euo pipefail
           REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
-            python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
-            printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
-            echo "Catálogo de referência atualizado: $REF_SHA"
+          LAST_PREVIEW_SHA="$(cat .github/reference-preview.sha 2>/dev/null || true)"
+          APPROVE_REFERENCE_IMPORT="${{ github.event.inputs.approve_reference_import || 'false' }}"
+          if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) ]]; then
+            git worktree add --detach /tmp/cinehub-acervo-before HEAD
+            git worktree add --detach /tmp/cinehub-acervo-import HEAD
+            cleanup() {
+              git worktree remove --force /tmp/cinehub-acervo-import || true
+              git worktree remove --force /tmp/cinehub-acervo-before || true
+            }
+            trap cleanup EXIT
+
+            (
+              cd /tmp/cinehub-acervo-import
+              python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
+              python scripts/validate_catalog.py
+            )
+            python scripts/summarize_reference_import_preview.py \
+              --before-root /tmp/cinehub-acervo-before \
+              --after-root /tmp/cinehub-acervo-import \
+              --import-report /tmp/cinehub-acervo-import/reports/reference-import.json \
+              --output /tmp/reference-import-quality-gate.json
+
+            if python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("/tmp/reference-import-quality-gate.json").read_text(encoding="utf-8"))
+          gate = report.get("review_gate", {})
+          reasons = gate.get("blocking_reasons", [])
+          print(json.dumps({
+              "status": gate.get("status"),
+              "blocking_reasons": reasons,
+              "catalog_published": False,
+          }, ensure_ascii=False))
+          if reasons:
+              print("::warning::Reference import held back by quality gate. Other independent catalog/EPG updates will continue.")
+              raise SystemExit(2)
+          PY
+            then
+              GATE_STATUS=0
+            else
+              GATE_STATUS=$?
+            fi
+            printf '%s\n' "$REF_SHA" > .github/reference-preview.sha
+            if [[ "$GATE_STATUS" -eq 0 && "$APPROVE_REFERENCE_IMPORT" == "true" ]]; then
+              cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
+              cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
+              cp /tmp/cinehub-acervo-import/catalog/vod/index.json catalog/vod/index.json
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/index/ catalog/vod/index/
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/details/ catalog/vod/details/
+              cp /tmp/cinehub-acervo-import/reports/reference-import.json reports/reference-import.json
+              printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
+              echo "Catálogo de referência passou pelos controles e foi aplicado após aprovação manual: $REF_SHA"
+            elif [[ "$GATE_STATUS" -eq 0 ]]; then
+              echo "::warning::Quality gate passed, but manual approval is required. No reference catalog changes were applied. Dispatch this workflow with approve_reference_import=true after reviewing the preview."
+            elif [[ "$GATE_STATUS" -eq 2 ]]; then
+              echo "Importação de referência bloqueada pela qualidade; nenhuma alteração de referência aplicada. Atualizações independentes continuarão."
+            else
+              exit "$GATE_STATUS"
+            fi
           else
             echo "Nenhum novo commit na referência; importação pesada ignorada."
           fi
@@ -61,6 +132,8 @@ jobs:
         run: python scripts/update_catalog.py
       - name: Refresh EPG health and channel mappings
         run: python scripts/update_epg.py
+      - name: Refresh explicitly mapped HTML EPG schedules (guarded sidecar)
+        run: python scripts/update_html_epg.py
       - name: Normalize and validate
         run: |
           python scripts/normalize_catalog.py
@@ -72,7 +145,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add catalog reports .github/reference-sync.sha
+            git add catalog reports .github/reference-sync.sha .github/reference-preview.sha
             git commit -m "chore(acervo): discover and merge catalog updates"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"

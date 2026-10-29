@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "purpose": "Review-only reference for filling missing channel logos by exact normalized name.",
+  "source": "https://github.com/SaimoTV/SaimoTV-Android/blob/main/scripts/offline.json",
+  "source_note": "Derived only from name and logo fields. Stream URLs, headers, DRM fields, and playback data were intentionally excluded.",
+  "entries": [
+    {
+      "name": "A&E",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/aee.png"
+    },
+    {
+      "name": "Adult Swim",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png"
+    },
+    {
+      "name": "AMC",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png"
+    },
+    {
+      "name": "Animal Planet",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/animal-planet.png"
+    },
+    {
+      "name": "Arte1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png"
+    },
+    {
+      "name": "AXN",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png"
+    },
+    {
+      "name": "Band",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png"
+    },
+    {
+      "name": "BandNews",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band-news.png"
+    },
+    {
+      "name": "BandSports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band-sports.png"
+    },
+    {
+      "name": "BBC News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/bbc-world-news.png"
+    },
+    {
+      "name": "BIS",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/bis.png"
+    },
+    {
+      "name": "Bloomberg",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/bloomberg.png"
+    },
+    {
+      "name": "BM&C News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/bmec-news.png"
+    },
+    {
+      "name": "C3 TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/c3-tv.png"
+    },
+    {
+      "name": "Canal Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png"
+    },
+    {
+      "name": "Canal Uol",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-uol.png"
+    },
+    {
+      "name": "Canção Nova",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cancao-nova.png"
+    },
+    {
+      "name": "Cartoon Network",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cartoon-network.png"
+    },
+    {
+      "name": "Cartoonito",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cartoonito.png"
+    },
+    {
+      "name": "CazéTV",
+      "logo_url": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/s151990_lw_h8_aa._SL170_FMpng_.png"
+    },
+    {
+      "name": "CGTN",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cgtn.png"
+    },
+    {
+      "name": "Cinemax",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png"
+    },
+    {
+      "name": "CNBC",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnbc-hd.png"
+    },
+    {
+      "name": "CNN Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil.png"
+    },
+    {
+      "name": "CNN Brasil Money",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png"
+    },
+    {
+      "name": "CNN International",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png"
+    },
+    {
+      "name": "Curta!",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/curta!.png"
+    },
+    {
+      "name": "Discovery Channel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery.png"
+    },
+    {
+      "name": "Discovery Home & Health",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png"
+    },
+    {
+      "name": "Discovery Kids",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-kids.png"
+    },
+    {
+      "name": "Discovery Science",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-science.png"
+    },
+    {
+      "name": "Discovery Theater",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-theater.png"
+    },
+    {
+      "name": "Discovery Turbo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-turbo.png"
+    },
+    {
+      "name": "Discovery World",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-world.png"
+    },
+    {
+      "name": "Disney+ 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 5",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 6",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Disney+ 7",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
+    },
+    {
+      "name": "Dog TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/dog-tv.png"
+    },
+    {
+      "name": "DumDum",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/zoomoo-kids.png"
+    },
+    {
+      "name": "DW",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/dw.png"
+    },
+    {
+      "name": "E!",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/e!.png"
+    },
+    {
+      "name": "ESPN",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn.png"
+    },
+    {
+      "name": "ESPN 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-2.png"
+    },
+    {
+      "name": "ESPN 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-3.png"
+    },
+    {
+      "name": "ESPN 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-4.png"
+    },
+    {
+      "name": "ESPN 5",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-5.png"
+    },
+    {
+      "name": "ESPN 6",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-6.png"
+    },
+    {
+      "name": "Eurochannel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/euro-channel.png"
+    },
+    {
+      "name": "FashionTV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/fashion-tv.png"
+    },
+    {
+      "name": "Film & Arts",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png"
+    },
+    {
+      "name": "Fish TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png"
+    },
+    {
+      "name": "Food Network",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/food-network.png"
+    },
+    {
+      "name": "France 24",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png"
+    },
+    {
+      "name": "Futura",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/futura.png"
+    },
+    {
+      "name": "GE TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png"
+    },
+    {
+      "name": "Globo Brasília",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo Minas",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo Nordeste",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo RBS TV Porto Alegre",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rbs-tv.png"
+    },
+    {
+      "name": "Globo Rio",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo RPC Curitiba",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png"
+    },
+    {
+      "name": "Globo São Paulo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "GloboNews",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png"
+    },
+    {
+      "name": "Globoplay Novelas",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/viva.png"
+    },
+    {
+      "name": "Gloob",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gloob.png"
+    },
+    {
+      "name": "Gloobinho",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gloobinho.png"
+    },
+    {
+      "name": "GNT",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gnt.png"
+    },
+    {
+      "name": "HBO",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo.png"
+    },
+    {
+      "name": "HBO Family",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-family.png"
+    },
+    {
+      "name": "HBO Max 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 5",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 6",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Max 7",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-max.png"
+    },
+    {
+      "name": "HBO Mundi",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-mundi.png"
+    },
+    {
+      "name": "HBO Plus",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hboplus.png"
+    },
+    {
+      "name": "HBO Pop",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-pop.png"
+    },
+    {
+      "name": "HBO Signature",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png"
+    },
+    {
+      "name": "HBO Xtreme",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png"
+    },
+    {
+      "name": "HBO2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo-2.png"
+    },
+    {
+      "name": "HGTV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/hgtv.png"
+    },
+    {
+      "name": "History",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/history-channel.png"
+    },
+    {
+      "name": "History 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/history-2.png"
+    },
+    {
+      "name": "Investigação Discovery",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png"
+    },
+    {
+      "name": "Jovem Pan News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/jp-news-vertical.png"
+    },
+    {
+      "name": "Lifetime",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/lifetime.png"
+    },
+    {
+      "name": "LMC+",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/lmc-plus.png"
+    },
+    {
+      "name": "Megapix",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png"
+    },
+    {
+      "name": "Mezzo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/mezzo-live-hd.png"
+    },
+    {
+      "name": "Modo Viagem",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/modo-viagem.png"
+    },
+    {
+      "name": "MTV 00s",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/mtv-00s.png"
+    },
+    {
+      "name": "MTV Live",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/mtv-live-hd.png"
+    },
+    {
+      "name": "Multishow",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/multishow.png"
+    },
+    {
+      "name": "Music Box Brazil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/music-boxbrazil.png"
+    },
+    {
+      "name": "NSports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
+    },
+    {
+      "name": "Off",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-off.png"
+    },
+    {
+      "name": "Paramount+ 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-1.png"
+    },
+    {
+      "name": "Paramount+ 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-2.png"
+    },
+    {
+      "name": "Paramount+ 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-3.png"
+    },
+    {
+      "name": "Paramount+ 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-4.png"
+    },
+    {
+      "name": "Play TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/play-tv.png"
+    },
+    {
+      "name": "Premiere 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-2.png"
+    },
+    {
+      "name": "Premiere 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-3.png"
+    },
+    {
+      "name": "Premiere 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-4.png"
+    },
+    {
+      "name": "Premiere 5",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-5.png"
+    },
+    {
+      "name": "Premiere 6",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-6.png"
+    },
+    {
+      "name": "Premiere 7",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-7.png"
+    },
+    {
+      "name": "Premiere 8",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-8.png"
+    },
+    {
+      "name": "Premiere Clubes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png"
+    },
+    {
+      "name": "Prime Box Brazil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/prime-boxbrazil.png"
+    },
+    {
+      "name": "RAI Italia",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rai-italia.png"
+    },
+    {
+      "name": "Record News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png"
+    },
+    {
+      "name": "Record TV São Paulo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
+    },
+    {
+      "name": "Rede Vida",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rede-vida.png"
+    },
+    {
+      "name": "RedeTV!",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/redetv!.png"
+    },
+    {
+      "name": "Sabor & Arte",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png"
+    },
+    {
+      "name": "SBT",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png"
+    },
+    {
+      "name": "SBT News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png"
+    },
+    {
+      "name": "Sony Channel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sony.png"
+    },
+    {
+      "name": "Sony Movies",
+      "logo_url": "https://media.cdn.telefonica.com//storagearea0/IMAGES/00/14/89/14890843_FA36D119CE56B664.png"
+    },
+    {
+      "name": "Space",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png"
+    },
+    {
+      "name": "SporTV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv.png"
+    },
+    {
+      "name": "SporTV 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-2.png"
+    },
+    {
+      "name": "SporTV 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-3.png"
+    },
+    {
+      "name": "SportyNet",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png"
+    },
+    {
+      "name": "SportyNet+ 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png"
+    },
+    {
+      "name": "SportyNet+ 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png"
+    },
+    {
+      "name": "SportyNet+ 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png"
+    },
+    {
+      "name": "Studio Universal",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png"
+    },
+    {
+      "name": "Telecine Action",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-action.png"
+    },
+    {
+      "name": "Telecine Cult",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-cult.png"
+    },
+    {
+      "name": "Telecine Fun",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-fun.png"
+    },
+    {
+      "name": "Telecine Pipoca",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-pipoca.png"
+    },
+    {
+      "name": "Telecine Premium",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-premium.png"
+    },
+    {
+      "name": "Telecine Touch",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-touch.png"
+    },
+    {
+      "name": "TLC",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tlc.png"
+    },
+    {
+      "name": "TNT",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png"
+    },
+    {
+      "name": "TNT Novelas",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png"
+    },
+    {
+      "name": "TNT Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png"
+    },
+    {
+      "name": "Trace Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brasil.png"
+    },
+    {
+      "name": "Travel Box Brazil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-boxbrazil.png"
+    },
+    {
+      "name": "Travel Food & Drinks",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-food-e-drinks.png"
+    },
+    {
+      "name": "Trip Brasil Channel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trip-brasil-channel.png"
+    },
+    {
+      "name": "TV Aparecida",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png"
+    },
+    {
+      "name": "TV Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png"
+    },
+    {
+      "name": "TV Cultura",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png"
+    },
+    {
+      "name": "TV Gazeta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png"
+    },
+    {
+      "name": "TV Rá-Tim-Bum",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-ra-tim-bum.png"
+    },
+    {
+      "name": "TV5Monde",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-5-monde.png"
+    },
+    {
+      "name": "TVE Internacional",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tve.png"
+    },
+    {
+      "name": "Universal Premiere",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-premiere.png"
+    },
+    {
+      "name": "Universal Reality",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png"
+    },
+    {
+      "name": "Universal TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal.png"
+    },
+    {
+      "name": "USA",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
+    },
+    {
+      "name": "Warner",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/warner-channel.png"
+    },
+    {
+      "name": "WooHoo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/woohoo.png"
+    },
+    {
+      "name": "Xsports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/xsports.png"
+    }
+  ]
+}

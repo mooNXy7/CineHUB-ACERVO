@@ -1,1 +1,4120 @@
-[{"id":"movie-horror","title":"#Horror","type":"movie","year":null,"poster_url":"/v9pTHwhpSWmPHU8i1pEt9VIG9Kg.jpg","genres":["Crime","Terror","Suspense"],"tmdb_id":"301325","sources":[],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-horror-2015","title":"#Horror (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-h2-halloween-2","title":"H2: Halloween 2","type":"movie","year":null,"poster_url":"/vCr2zC3s8rFycFYLoOVzX8Dm5qB.jpg","genres":["Terror"],"tmdb_id":"24150","sources":[{"url":"https://mgeb.top/embed/24150","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/24150","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"24150","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452161","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452646","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655539","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-ha-algo-no-celeiro-2023","title":"Ha Algo no Celeiro (2023)","type":"movie","year":"2023","poster_url":"/wbhe0l7WhcMMAjwvfiyFlnQ8diD.jpg","genres":["Terror","Comédia","Fantasia"],"tmdb_id":"956920","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/725d3d1128375563879785d8296fcd15/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/956920","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/956920","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/H_%20Algo%20no%20Celeiro%20_2023_%20_tmdb_956920_c93ebe35.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"956920","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448925","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460790","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650251","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-habit","title":"Habit","type":"movie","year":null,"poster_url":"/piDplaWgc73jAuOohiFhTucBSYN.jpg","genres":["Crime","Suspense","Comédia"],"tmdb_id":"682376","sources":[],"provider_refs":[{"provider":"18","ref":"682376","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-habitantes-eles-estao-aqui-2015","title":"Habitantes - Eles Estão Aqui (2015)","type":"movie","year":"2015","poster_url":"/lqPTPbOcdGDI0GMbLPo5szJaWBi.jpg","genres":["Terror","Ficção científica","Suspense"],"tmdb_id":"421987","sources":[{"url":"https://mgeb.top/embed/421987","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/421987","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Habitantes%20-%20Eles%20Est_o%20Aqui%20_2015_%20_tmdb_421987_af2a6005.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"421987","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-habitantes-da-escuridao-2002","title":"Habitantes da Escuridão (2002)","type":"movie","year":"2002","poster_url":"/fin8WMppwDO6XoR1wcz9LTBSq0U.jpg","genres":["Terror","Suspense"],"tmdb_id":"16028","sources":[{"url":"https://mgeb.top/embed/16028","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/16028","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hachiko-para-sempre-2023","title":"Hachiko: Para Sempre (2023)","type":"movie","year":"2023","poster_url":"/w5GeWMEEWJBMKXSeDB5BpcowEBn.jpg","genres":["Drama","Família"],"tmdb_id":"1107387","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/cd0687176de1e50ddab9e1a89d44bf7f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1107387","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1107387","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hachiko%20Para%20Sempre%20_2023_%20_tmdb_1107387_63cec922.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1107387","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449018","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455560","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652001","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670250","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hackeando-o-coracao-do-ceo","title":"HACKEANDO O CORACAO DO CEO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-hacker","title":"Hacker","type":"movie","year":null,"poster_url":"/dNDBzk6JRqDnpwGwBBKx7dGEFcd.jpg","genres":["Crime","Suspense","Ação"],"tmdb_id":"201088","sources":[{"url":"https://mgeb.top/embed/201088","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/201088","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker%20_2018_%20_tmdb_449811_62af5c8a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"449811","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446353","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647489","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hacker-2015","title":"Hacker (2015)","type":"movie","year":"2015","poster_url":"/dNDBzk6JRqDnpwGwBBKx7dGEFcd.jpg","genres":["Crime","Suspense","Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/201088","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/201088","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hacker-privacidade-violada","title":"Hacker - Privacidade Violada","type":"movie","year":null,"poster_url":"/54L9slFusu6B4Kp7ogGjiGygzdF.jpg","genres":["Suspense"],"tmdb_id":"662231","sources":[{"url":"https://mgeb.top/embed/662231","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/662231","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker%20-%20Privacidade%20Violada%20_2020_%20_tmdb_662231_ebac8c51.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"662231","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445585","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448803","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"647108","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670317","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hacker-todo-crime-tem-um-inicio-2016","title":"Hacker Todo Crime Tem Um Inicio (2016)","type":"movie","year":"2016","poster_url":"/6zHdhfnreagE3Bv6n7BXtC8gk6r.jpg","genres":["Crime","Drama","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/413052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/413052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hacker-todo-crime-tem-um-inicio","title":"Hacker: Todo Crime Tem Um Início","type":"movie","year":null,"poster_url":"/6zHdhfnreagE3Bv6n7BXtC8gk6r.jpg","genres":["Crime","Drama","Suspense"],"tmdb_id":"413052","sources":[{"url":"https://mgeb.top/embed/413052","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/413052","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker_%20Todo%20Crime%20Tem%20Um%20In_cio%20_2016_%20_tmdb_413052_cf143249.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"413052","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hackers-piratas-de-computador","title":"Hackers - Piratas de Computador","type":"movie","year":null,"poster_url":"/mIlCgd51B5Ssms0Q95FjPPQqM7P.jpg","genres":["Ação","Crime","Suspense","Drama"],"tmdb_id":"10428","sources":[{"url":"https://mgeb.top/embed/10428","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10428","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10428","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446384","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647682","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"896557","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hackers-no-controle","title":"Hackers no Controle","type":"movie","year":null,"poster_url":"/k3gGPN3TCXQCbnWY6SwxSE0LCxo.jpg","genres":["Ação","Crime","Suspense"],"tmdb_id":"944864","sources":[{"url":"https://mgeb.top/embed/944864","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/944864","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hackers%20no%20Controle%20_2022_%20_tmdb_944864_24404dfe.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"944864","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454054","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648662","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hackers-no-controle-2022","title":"Hackers no Controle (2022)","type":"movie","year":"2022","poster_url":"/k3gGPN3TCXQCbnWY6SwxSE0LCxo.jpg","genres":["Ação","Crime","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/944864","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/944864","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hackers-piratas-de-computador-1995","title":"Hackers: Piratas de Computador (1995)","type":"movie","year":"1995","poster_url":"/mIlCgd51B5Ssms0Q95FjPPQqM7P.jpg","genres":["Ação","Crime","Suspense","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10428","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10428","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-haikyu-a-batalha-do-lixao-2024","title":"HAIKYU!! A Batalha do Lixão (2024)","type":"movie","year":"2024","poster_url":"/pRfLrwbfUWmUj1Jh1NGLSQceHoT.jpg","genres":["Animação","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1012201","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1012201","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-haikyu-the-dumpster-battle","title":"HAIKYU!! The Dumpster Battle","type":"movie","year":null,"poster_url":"/pRfLrwbfUWmUj1Jh1NGLSQceHoT.jpg","genres":["Animação","Comédia"],"tmdb_id":"1012201","sources":[{"url":"https://mgeb.top/embed/1012201","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1012201","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/HAIKYU_%20The%20Dumpster%20Battle%20_2024_%20_tmdb_1012201_33228ff4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1012201","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447244","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645941","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670514","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-haikyuu-movie-owari-to-hajimari","title":"Haikyuu!! Movie: Owari to Hajimari","type":"movie","year":null,"poster_url":"/kWopdC6UbjcDGxCYwS2uIsoYl3b.jpg","genres":["Animação","Drama"],"tmdb_id":"347183","sources":[{"url":"https://mgeb.top/embed/347183","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/347183","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2449883","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670885","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hail-satan","title":"Hail Satan","type":"movie","year":null,"poster_url":"/2URKnBTrhp84y8HX5R4SxeFl6qK.jpg","genres":["Documentário"],"tmdb_id":"565719","sources":[{"url":"https://mgeb.top/embed/565719","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/565719","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-hail-satan-2019","title":"Hail Satan? (2019)","type":"movie","year":"2019","poster_url":"/2URKnBTrhp84y8HX5R4SxeFl6qK.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/565719","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/565719","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hair","title":"Hair","type":"movie","year":null,"poster_url":"/qrZIlVCL9UyEBsgOGbisNzuWjX.jpg","genres":["Música","Drama","Comédia"],"tmdb_id":"10654","sources":[],"provider_refs":[{"provider":"18","ref":"10654","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hair-1979","title":"Hair (1979)","type":"movie","year":"1979","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hair%20_1979_%20_tmdb_10654_5a9b7966.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hairspray-brasil","title":"Hairspray Brasil","type":"movie","year":null,"poster_url":"/uNJo2pz96i6jauOdQAcEvZsvYCx.jpg","genres":[],"tmdb_id":"1352635","sources":[],"provider_refs":[{"provider":"18","ref":"1352635","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hairspray-brasil-2009","title":"Hairspray Brasil (2009)","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hairspray%20Brasil%20_2009_%20_tmdb_1352635_50720c63.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hairspray-live","title":"Hairspray Live!","type":"movie","year":null,"poster_url":"/3T1u2DzwfDUd5iMNw4gqFWQx3P2.jpg","genres":["Romance","Comédia","Drama","TV","Música"],"tmdb_id":"409447","sources":[],"provider_refs":[{"provider":"18","ref":"409447","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hala","title":"Hala","type":"movie","year":"2019","poster_url":"/oMC0S5kpUq5AFIf4e5bZSEVRB7u.jpg","genres":["Drama"],"tmdb_id":"535308","sources":[{"url":"https://mgeb.top/embed/535308","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/535308","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hala%20_2019_%20_tmdb_535308_cae97093.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"535308","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457210","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653932","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":4},{"id":"movie-hallelujah-leonard-cohen-uma-jornada-uma-cancao","title":"Hallelujah: Leonard Cohen, Uma Jornada, Uma canção","type":"movie","year":null,"poster_url":"/10sXvhdDZgwlEe7cw1EYdlaCVOH.jpg","genres":["Documentário","Música"],"tmdb_id":"854513","sources":[{"url":"https://mgeb.top/embed/854513","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/854513","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hallelujah_%20Leonard%20Cohen_%20Uma%20Jornada_%20Uma%20cancao%20_2022_%20_tmdb_854513_d866de3d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"854513","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453285","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647832","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hallelujah-leonard-cohen-uma-jornada-uma-cancao-2022","title":"Hallelujah: Leonard Cohen, Uma Jornada, Uma canção (2022)","type":"movie","year":"2022","poster_url":"/10sXvhdDZgwlEe7cw1EYdlaCVOH.jpg","genres":["Documentário","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/854513","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/854513","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hallow-road","title":"Hallow Road","type":"movie","year":"2025","poster_url":"/aMKCpg3dYPj8NGCB64jZZllyWL1.jpg","genres":["Mistério","Suspense","Terror"],"tmdb_id":"1205656","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/c28d75064397ac4d7dd7031c8857a819/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1205656","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1205656","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hallow%20Road_%20Caminho%20Sem%20Volta%20_2025_%20_tmdb_1205656_01777991.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2448221","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"1205656","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444501","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"905561","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-halloween-63","title":"Halloween '63","type":"movie","year":null,"poster_url":"/jLxtHn1GsjxF0npV3DLCthzBuet.jpg","genres":["Terror"],"tmdb_id":"1446485","sources":[{"url":"https://mgeb.top/embed/1446485","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1446485","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2451859","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-87","title":"Halloween '87","type":"movie","year":null,"poster_url":"/cTyEB6GWaCweytZkbpQUfA4u2Qa.jpg","genres":["Música"],"tmdb_id":"657929","sources":[{"url":"https://mgeb.top/embed/657929","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/657929","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"657929","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452412","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-2018","title":"Halloween (2018)","type":"movie","year":"2018","poster_url":"/mVQ8Lb7FhQXPqkQv0QCNbEwp9a6.jpg","genres":["Terror","Suspense"],"tmdb_id":"948","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/757a97139078877f5799aa92d2cbd55b/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/948","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/948","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20_2018_%20_tmdb_424139_37790156.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20-%20A%20Noite%20do%20Terror%20_1978_%20_tmdb_948_4af388a7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"948","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"424139","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451704","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452068","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457866","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457990","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655049","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655605","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655521","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-o-espantalho-assassino","title":"Halloween - O Espantalho Assassino","type":"movie","year":null,"poster_url":"/ouczezymhTjjs6kJS9JvUj8tvHo.jpg","genres":["Terror","Suspense"],"tmdb_id":"1503900","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/0cb79f3d16db83f10f0331cf2fbec33b/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1503900","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1503900","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20-%20O%20Espantalho%20Assassino%20_2025_%20_tmdb_1503900_6211b184.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1503900","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444589","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"913590","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-halloween-1","title":"Halloween 1","type":"movie","year":null,"poster_url":"/iN5rcaY9uWbJNrOKQdyXeSJtzDM.jpg","genres":[],"tmdb_id":"573472","sources":[{"url":"https://mgeb.top/embed/573472","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/573472","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"655538","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-14","title":"Halloween 14","type":"movie","year":null,"poster_url":"/jSS1ALrosjSTaLUgjWwWWR4o0DJ.jpg","genres":[],"tmdb_id":"1355905","sources":[{"url":"https://mgeb.top/embed/1355905","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1355905","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2451587","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-2-o-pesadelo-continua-1981","title":"Halloween 2 O Pesadelo Continua (1981)","type":"movie","year":"1981","poster_url":"/3wCCqM7JSSt6PJFNMEC2fxflDjP.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/11281","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11281","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-3","title":"Halloween 3","type":"movie","year":null,"poster_url":"/c8PjmkInMZ6O1p3jDZBXuM0jcK3.jpg","genres":[],"tmdb_id":"1036066","sources":[{"url":"https://mgeb.top/embed/1036066","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1036066","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2451468","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655536","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-3-a-noite-das-bruxas-1982","title":"Halloween 3 A Noite das Bruxas (1982)","type":"movie","year":"1982","poster_url":"/9URqVdJxGbytiWo8PeZ3MTBLOuA.jpg","genres":["Terror","Ficção científica","Mistério","Suspense"],"tmdb_id":"10676","sources":[{"url":"https://mgeb.top/embed/10676","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10676","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20III_%20A%20Noite%20das%20Bruxas%20_1982_%20_tmdb_10676_077c64b5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10676","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457889","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-4","title":"Halloween 4","type":"movie","year":"1988","poster_url":"/cAjDJf4OsPUWbB8rg3b5v7XTyb6.jpg","genres":["Terror","Suspense"],"tmdb_id":"11357","sources":[{"url":"https://mgeb.top/embed/11357","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11357","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%204_%20O%20Retorno%20de%20Michael%20Myers%20_1988_%20_tmdb_11357_37384fa3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11357","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655535","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-5","title":"Halloween 5","type":"movie","year":"1989","poster_url":"/qDCoAeD7T1HQ0OnkQ27bC3G2e6P.jpg","genres":["Terror","Suspense"],"tmdb_id":"11361","sources":[{"url":"https://mgeb.top/embed/11361","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11361","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%205_%20A%20Vingan_a%20de%20Michael%20Myers%20_1989_%20_tmdb_11361_53f05df0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11361","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452509","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655534","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-6","title":"Halloween 6","type":"movie","year":"1995","poster_url":"/dIPn1ohodFg87zsZYCbdcx02RBQ.jpg","genres":["Terror","Suspense"],"tmdb_id":"10987","sources":[{"url":"https://mgeb.top/embed/10987","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10987","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%206_%20A%20_ltima%20Vingan_a%20_1995_%20_tmdb_10987_ac6636c0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10987","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655533","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-7","title":"Halloween 7","type":"movie","year":null,"poster_url":"/2xEKswOgGNn6I9nM7oQQiV4qWkq.jpg","genres":["Terror"],"tmdb_id":"1744005","sources":[{"url":"https://mgeb.top/embed/1744005","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1744005","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2453009","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655532","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-8","title":"Halloween 8","type":"movie","year":null,"poster_url":"/c8AOp4U2wrQU3BvkXoAuzEM2Wfc.jpg","genres":[],"tmdb_id":"83020","sources":[{"url":"https://mgeb.top/embed/83020","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/83020","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"655531","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-a-noite-do-terror-1978","title":"Halloween A Noite do Terror (1978)","type":"movie","year":"1978","poster_url":"/mVQ8Lb7FhQXPqkQv0QCNbEwp9a6.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/948","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/948","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-ends","title":"Halloween Ends","type":"movie","year":null,"poster_url":"/3uDwqxbr0j34rJVJMOW6o8Upw5W.jpg","genres":["Terror","Suspense"],"tmdb_id":"616820","sources":[{"url":"https://mgeb.top/embed/616820","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/616820","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"616820","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451504","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654859","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-halloween-ends-2022","title":"Halloween Ends (2022)","type":"movie","year":"2022","poster_url":"/3uDwqxbr0j34rJVJMOW6o8Upw5W.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/616820","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/616820","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-ends-o-acerto-de-contas-final-2022","title":"Halloween Ends: O Acerto de Contas Final (2022)","type":"movie","year":"2022","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Ends_%20O%20Acerto%20de%20Contas%20Final%20_2022_%20_tmdb_616820_71bc262f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-h20-vinte-anos-depois-1998","title":"Halloween H20: Vinte Anos Depois (1998)","type":"movie","year":"1998","poster_url":"/jLWjQASwYGghD7gWxvt9BYwSwgW.jpg","genres":["Terror","Suspense"],"tmdb_id":"11675","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/fc6989422ac609ff3dbe0080c838c75f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/11675","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11675","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20H20_%20Vinte%20Anos%20Depois%20_1998_%20_tmdb_11675_d20d0bf1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11675","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457915","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-heroes","title":"Halloween Heroes","type":"movie","year":null,"poster_url":"/7BUSP9vUlmDA6MrdwYIPzmkbUrV.jpg","genres":["Comédia"],"tmdb_id":"850885","sources":[],"provider_refs":[{"provider":"18","ref":"850885","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-heroes-2021","title":"Halloween Heroes (2021)","type":"movie","year":"2021","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Heroes%20_2021_%20_tmdb_850885_a5dc1073.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-ii-2009","title":"Halloween II (2009)","type":"movie","year":"2009","poster_url":"/vCr2zC3s8rFycFYLoOVzX8Dm5qB.jpg","genres":["Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/24150","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/24150","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-ii-o-pesadelo-continua","title":"Halloween II: O Pesadelo Continua","type":"movie","year":null,"poster_url":"/3wCCqM7JSSt6PJFNMEC2fxflDjP.jpg","genres":["Terror","Suspense"],"tmdb_id":"11281","sources":[{"url":"https://mgeb.top/embed/11281","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11281","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20II_%20O%20Pesadelo%20Continua%20_1981_%20_tmdb_11281_8fb39bd8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11281","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451750","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457967","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654465","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-kills-o-terror-continua","title":"Halloween Kills: O Terror Continua","type":"movie","year":null,"poster_url":"/4NphuHmnuROLqCjAEr5LS7Aage6.jpg","genres":["Terror"],"tmdb_id":"610253","sources":[{"url":"https://mgeb.top/embed/610253","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/610253","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Kills_%20O%20Terror%20Continua%20_2021_%20_tmdb_610253_5ca80a23.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"610253","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452067","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457845","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654985","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-halloween-kills-o-terror-continua-2021","title":"Halloween Kills: O Terror Continua (2021)","type":"movie","year":"2021","poster_url":"/4NphuHmnuROLqCjAEr5LS7Aage6.jpg","genres":["Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/610253","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/610253","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-macabro","title":"Halloween Macabro","type":"movie","year":null,"poster_url":"/ruskUcYFAy6ctl2ZlTsXqJ7kPCD.jpg","genres":["Comédia","Terror"],"tmdb_id":"262169","sources":[{"url":"https://mgeb.top/embed/262169","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/262169","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Macabro%20_2004_%20_tmdb_35946_ef54c96f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"35946","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457824","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-midnight-circus","title":"HALLOWEEN MIDNIGHT CIRCUS","type":"movie","year":null,"poster_url":"/unnGwqWmMAuszJnleyuqZ70MtrT.jpg","genres":["Música","Documentário"],"tmdb_id":"896430","sources":[],"provider_refs":[{"provider":"18","ref":"896430","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-midnight-circus-2021","title":"HALLOWEEN MIDNIGHT CIRCUS (2021)","type":"movie","year":"2021","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/HALLOWEEN%20MIDNIGHT%20CIRCUS%20_2021_%20_tmdb_896430_b3ae6a11.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-na-casa-da-tia-ethel-2019","title":"Halloween na Casa da Tia Ethel (2019)","type":"movie","year":"2019","poster_url":"/A0kJvMCOV0k2OmNOhNFXDXciM11.jpg","genres":["Terror","Comédia"],"tmdb_id":"558294","sources":[{"url":"https://mgeb.top/embed/558294","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/558294","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-a-lenda-de-jack","title":"Halloween: A Lenda de Jack","type":"movie","year":null,"poster_url":"/fgfGkXaz5WhccjX6SsqR5f5kXHf.jpg","genres":["Terror"],"tmdb_id":"550412","sources":[{"url":"https://mgeb.top/embed/550412","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/550412","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20A%20Lenda%20de%20Jack%20_2018_%20_tmdb_550412_9b89ebed.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"550412","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457940","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-a-maldicao-esta-de-volta","title":"Halloween: A Maldição Está de Volta!","type":"movie","year":null,"poster_url":"/As60LTJeTZ05JCnaZPMljUA11h3.jpg","genres":["Terror"],"tmdb_id":"27498","sources":[],"provider_refs":[{"provider":"18","ref":"27498","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloween-a-maldicao-esta-de-volta-1995","title":"Halloween: A Maldição Está de Volta! (1995)","type":"movie","year":"1995","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20A%20Maldi_o%20Est_%20de%20Volta%20_1995_%20_tmdb_27498_858c1fb5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-o-inicio","title":"Halloween: O Início","type":"movie","year":null,"poster_url":"/911XlyHgPDz7aaemmwL8Em50TE1.jpg","genres":["Terror"],"tmdb_id":"2082","sources":[{"url":"https://mgeb.top/embed/2082","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2082","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20O%20In_cio%20_2007_%20_tmdb_2082_48ebd51d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"2082","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452326","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457789","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655530","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-halloween-o-inicio-2007","title":"Halloween: O Início (2007)","type":"movie","year":"2007","poster_url":"/911XlyHgPDz7aaemmwL8Em50TE1.jpg","genres":["Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2082","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2082","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloween-ressurreicao","title":"Halloween: Ressurreição","type":"movie","year":null,"poster_url":"/8umD9g3RINWw9vdRtCQfDUkT6vy.jpg","genres":["Terror","Suspense"],"tmdb_id":"11442","sources":[{"url":"https://mgeb.top/embed/11442","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11442","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20Ressurrei_o%20_2002_%20_tmdb_11442_889cb5db.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"11442","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451567","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457809","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654462","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-halloween-ressurreicao-2002","title":"Halloween: Ressurreição (2002)","type":"movie","year":"2002","poster_url":"/8umD9g3RINWw9vdRtCQfDUkT6vy.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/11442","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11442","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halloweentown-2-a-vinganca-de-kalabar","title":"Halloweentown 2: A Vingança de Kalabar","type":"movie","year":null,"poster_url":"/vqCwbRvABBRKxHiNWzE9Ddjj1lE.jpg","genres":["Aventura","Família","Fantasia"],"tmdb_id":"34205","sources":[{"url":"https://mgeb.top/embed/34205","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/34205","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloweentown%202_%20A%20Vingan_a%20de%20Kalabar%20_2001_%20_tmdb_34205_72ed4d4a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"34205","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-halloweentown-o-portal","title":"Halloweentown: O Portal","type":"movie","year":null,"poster_url":"/gO40pTHpuZOAmOBrKfyyG8SLqwA.jpg","genres":["Família","Fantasia","Comédia","TV"],"tmdb_id":"34560","sources":[],"provider_refs":[{"provider":"18","ref":"34560","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halloweentown-o-portal-2004","title":"Halloweentown: O Portal (2004)","type":"movie","year":"2004","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloweentown_%20O%20Portal%20_2004_%20_tmdb_34560_524856b8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-halo-nightfall","title":"Halo: Nightfall","type":"movie","year":null,"poster_url":"/liLQ8EFzHN06eFZ9KQMDK6cmGaK.jpg","genres":["Ficção científica","Ação","Aventura"],"tmdb_id":"487186","sources":[],"provider_refs":[{"provider":"18","ref":"487186","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-halo-nightfall-2014","title":"Halo: Nightfall (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halo_%20Nightfall%20_2014_%20_tmdb_487186_a6289c27.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hamburger-hill","title":"Hamburger Hill","type":"movie","year":null,"poster_url":"/u2ZbbYAhsfzFVdUB8co9lHr1xO6.jpg","genres":["Guerra","Ação","Drama"],"tmdb_id":"10652","sources":[{"url":"https://mgeb.top/embed/10652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamburger%20Hill%20_1987_%20_tmdb_10652_a2b0ebfe.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10652","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455173","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649322","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hamburger-hill-1987","title":"Hamburger Hill (1987)","type":"movie","year":"1987","poster_url":"/u2ZbbYAhsfzFVdUB8co9lHr1xO6.jpg","genres":["Guerra","Ação","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/10652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hamilton","title":"Hamilton","type":"movie","year":null,"poster_url":"/h1B7tW0t399VDjAcWJh8m87469b.jpg","genres":["História","Drama"],"tmdb_id":"556574","sources":[{"url":"https://mgeb.top/embed/556574","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/556574","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"556574","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444672","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hamilton-2025","title":"Hamilton (2025)","type":"movie","year":"2025","poster_url":"/h1B7tW0t399VDjAcWJh8m87469b.jpg","genres":["História","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/556574","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/556574","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hamlet","title":"Hamlet","type":"movie","year":null,"poster_url":"/ilurgUOp6SCl4cuhfjctj1qxlfZ.jpg","genres":["Drama"],"tmdb_id":"10549","sources":[{"url":"https://mgeb.top/embed/10549","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10549","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/24e5770b8337976bf145e36e3c25e1fb/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/21d487ebba0d311766a4a410bedadcba/master.txt","audio":"leg","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamlet%20_2026_%20_tmdb_843342_a93beb17.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/10264","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10264","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"843342","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444143","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-hamlet-1990","title":"Hamlet (1990)","type":"movie","year":"1990","poster_url":"/cB5HbaiFoQLLmGeN2eeJjBGrp8U.jpg","genres":["Drama","História"],"tmdb_id":"10264","sources":[{"url":"https://mgeb.top/embed/10264","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10264","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10264","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"921097","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hamlet-2026","title":"Hamlet (2026)","type":"movie","year":"2026","poster_url":"/ilurgUOp6SCl4cuhfjctj1qxlfZ.jpg","genres":["Drama"],"tmdb_id":"843342","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/24e5770b8337976bf145e36e3c25e1fb/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/21d487ebba0d311766a4a410bedadcba/master.txt","audio":"leg","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/10549","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10549","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hammarskjold-luta-pela-paz","title":"Hammarskjöld: Luta pela Paz","type":"movie","year":null,"poster_url":"/mESJd1Uxi9oGMM918FLX8r34oad.jpg","genres":["Suspense","Drama","História"],"tmdb_id":"1084145","sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hammarskjold%20Luta%20pela%20Paz%20_2023_%20_tmdb_1084145_b6c793fd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1084145","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"931541","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hammer-heroes-legends-and-monsters","title":"Hammer: Heroes, Legends and Monsters","type":"movie","year":null,"poster_url":"/2qbS8CaSV4UNxg2JecAuiAozJRq.jpg","genres":["Documentário","Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1325909","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1325909","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hamnet-a-vida-antes-de-hamlet-2025","title":"Hamnet A Vida Antes de Hamlet (2025)","type":"movie","year":"2025","poster_url":"/njatIGrIlZCxB88UUBC2xgmfCNE.jpg","genres":["Drama","Romance"],"tmdb_id":"858024","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/a7274706c51f173b3931c0d2f5bb2a34/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/858024","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/858024","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamnet_%20A%20Vida%20Antes%20de%20Hamlet%20_2025_%20_tmdb_858024_1731dbf3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"858024","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444951","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"905048","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"911623","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":4},{"id":"movie-hampstead-nunca-e-tarde-para-amar","title":"Hampstead: Nunca é Tarde para Amar","type":"movie","year":null,"poster_url":"/xsAV68tOqj8oN5ALIwhpzVkxA9V.jpg","genres":["Comédia","Romance"],"tmdb_id":"441728","sources":[{"url":"https://mgeb.top/embed/441728","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/441728","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hampstead_%20Nunca%20_%20Tarde%20para%20Amar%20_2017_%20_tmdb_441728_0ed8db1b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"441728","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447021","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645689","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hampstead-nunca-e-tarde-para-amar-2017","title":"Hampstead: Nunca é Tarde para Amar (2017)","type":"movie","year":"2017","poster_url":"/xsAV68tOqj8oN5ALIwhpzVkxA9V.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/441728","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/441728","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-han-solo-uma-historia-star-wars-2018","title":"Han Solo: Uma História Star Wars (2018)","type":"movie","year":"2018","poster_url":"/jAMEX0syUh6sbjBiysibzrFpbo.jpg","genres":["Ficção científica","Aventura","Ação"],"tmdb_id":"348350","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e7dceb7b49bacb82102159ba9246cf62/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/348350","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/348350","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Han%20Solo_%20Uma%20Hist_ria%20Star%20Wars%20_2018_%20_tmdb_348350_96696c35.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"348350","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458165","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458300","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647044","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hanami","title":"Hanami","type":"movie","year":null,"poster_url":"/s9mpHQe4RNCbjp4KgU4K1WorfB.jpg","genres":["Drama","Fantasia"],"tmdb_id":"1315405","sources":[{"url":"https://mgeb.top/embed/1315405","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1315405","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1315405","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1315405.m3u8?lang=leg","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hancock-2008","title":"Hancock (2008)","type":"movie","year":"2008","poster_url":"/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg","genres":["Fantasia","Ação"],"tmdb_id":"8960","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/9d081d3deb9bc0aff94c6a9a986f0ee1/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/8960","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/8960","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hancock%20_2008_%20_tmdb_8960_71ac5363.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"8960","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448901","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454327","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649535","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762501","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762736","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-handling-the-undead-2024","title":"Handling The Undead (2024)","type":"movie","year":"2024","poster_url":"/fdJ3P61uDFgryCu625L7BQaOBAv.jpg","genres":["Terror","Drama","Mistério"],"tmdb_id":"1020896","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/7e10f99e82202c96b5c569f0f6317cbd/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1020896","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1020896","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mortos%20Entre%20Vivos%20_2024_%20_tmdb_1020896_a9291c06.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1020896","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447790","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445399","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900635","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901129","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-handsome-um-filme-de-misterio-netflix","title":"Handsome: Um Filme de Mistério Netflix","type":"movie","year":null,"poster_url":"/yc1GQhNw5MvznrtPmPY52dKsdrm.jpg","genres":["Comédia"],"tmdb_id":"402582","sources":[{"url":"https://mgeb.top/embed/402582","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/402582","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Handsome_%20Um%20Filme%20de%20Mist_rio%20Netflix%20_2017_%20_tmdb_402582_5236e4b0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"402582","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hank-e-asha-2013","title":"Hank e Asha (2013)","type":"movie","year":"2013","poster_url":"/kjkPVdMArDjdxAHLZT1zNJiihL3.jpg","genres":["Comédia","Romance"],"tmdb_id":"159652","sources":[{"url":"https://mgeb.top/embed/159652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/159652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hanky-panky-uma-dupla-em-apuros-1982","title":"Hanky Panky, Uma Dupla em Apuros (1982)","type":"movie","year":"1982","poster_url":"/4kfxLfph8DZU44sB3Txz3dZYjdL.jpg","genres":["Mistério","Ação","Comédia","Crime"],"tmdb_id":"25001","sources":[{"url":"https://mgeb.top/embed/25001","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/25001","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hanky%20Panky_%20Uma%20Dupla%20em%20Apuros%20_1982_%20_tmdb_25001_502ff5d1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"25001","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hanna","title":"Hanna","type":"movie","year":null,"poster_url":"/w5CE2YRInfNGWTqdCzu9HcXgfbR.jpg","genres":["Ação","Suspense","Aventura"],"tmdb_id":"50456","sources":[{"url":"https://mgeb.top/embed/50456","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/50456","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hanna%20_2011_%20_tmdb_50456_25f8b1ef.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"50456","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453861","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648903","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762720","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hanna-2011","title":"Hanna (2011)","type":"movie","year":"2011","poster_url":"/w5CE2YRInfNGWTqdCzu9HcXgfbR.jpg","genres":["Ação","Suspense","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/50456","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/50456","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hannah-e-suas-irmas","title":"Hannah e Suas Irmãs","type":"movie","year":null,"poster_url":"/546N4k22NkOnMvVI1OzRBTBQVoT.jpg","genres":["Comédia","Drama"],"tmdb_id":"5143","sources":[{"url":"https://mgeb.top/embed/5143","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/5143","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20e%20Suas%20Irm_s%20_1986_%20_tmdb_5143_ae1e4f04.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"5143","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-hannah-montana-miley-cyrus-show-o-melhor-dos-dois-mundos","title":"Hannah Montana & Miley Cyrus: Show - O Melhor dos Dois Mundos","type":"movie","year":null,"poster_url":"/gX1gzIe30qzlgxO51t9bBvj6sln.jpg","genres":["Documentário","Música"],"tmdb_id":"253353","sources":[],"provider_refs":[{"provider":"18","ref":"253353","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-hannah-montana-amp-miley-cyrus-show-o-melhor-dos-dois-mundos-2008","title":"Hannah Montana &amp; Miley Cyrus: Show - O Melhor dos Dois Mundos (2008)","type":"movie","year":"2008","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana%20_%20Miley%20Cyrus_%20Show%20-%20O%20Melhor%20dos%20Dois%20Mundos%20_2008_%20_tmdb_253353_7d7fe812.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-hannah-montana-especial-de-20-aniversario-2026","title":"Hannah Montana Especial de 20 Aniversario (2026)","type":"movie","year":"2026","poster_url":"/v3U31jWWRCAurkJ12jmv1Axh0PZ.jpg","genres":["Documentário","Música"],"tmdb_id":"1637319","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/97172f0cbc1c792061537efa7d4d88d1/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1637319","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1637319","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana_%20Especial%20de%2020_%20Anivers_rio%20_2026_%20_tmdb_1637319_d66f21f6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1637319","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hannah-montana-o-filme","title":"Hannah Montana: O Filme","type":"movie","year":null,"poster_url":"/efjanadOQRhCUacHviLGL2ODhSK.jpg","genres":["Comédia","Drama","Família","Música","Romance"],"tmdb_id":"18126","sources":[{"url":"https://mgeb.top/embed/18126","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18126","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana_%20O%20Filme%20_2009_%20_tmdb_18126_aa1f9a0e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"18126","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459846","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650897","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-hannah-montana-o-filme-2009","title":"Hannah Montana: O Filme (2009)","type":"movie","year":"2009","poster_url":"/efjanadOQRhCUacHviLGL2ODhSK.jpg","genres":["Comédia","Drama","Família","Música","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/18126","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/18126","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-horror",
+    "title": "#Horror",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/v9pTHwhpSWmPHU8i1pEt9VIG9Kg.jpg",
+    "genres": [
+      "Crime",
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "301325",
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Inspirado em fatos reais, um grupo de garotas de 12 anos de idade enfrenta uma noite de horror quando um vício compulsivo por um jogo online de uma rede social, transforma um momento de cyber-bullying em uma noite de insanidade."
+  },
+  {
+    "id": "movie-horror-2015",
+    "title": "#Horror (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-h2-halloween-2",
+    "title": "H2: Halloween 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/vCr2zC3s8rFycFYLoOVzX8Dm5qB.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "24150",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/24150",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/24150",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "24150",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452161",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452646",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655539",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-ha-algo-no-celeiro-2023",
+    "title": "Ha Algo no Celeiro (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/wbhe0l7WhcMMAjwvfiyFlnQ8diD.jpg",
+    "genres": [
+      "Terror",
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "956920",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/725d3d1128375563879785d8296fcd15/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/956920",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/956920",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/H_%20Algo%20no%20Celeiro%20_2023_%20_tmdb_956920_c93ebe35.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "956920",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448925",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460790",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650251",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-habit",
+    "title": "Habit",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/piDplaWgc73jAuOohiFhTucBSYN.jpg",
+    "genres": [
+      "Crime",
+      "Suspense",
+      "Comédia"
+    ],
+    "tmdb_id": "682376",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "682376",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-habitantes-eles-estao-aqui-2015",
+    "title": "Habitantes - Eles Estão Aqui (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/lqPTPbOcdGDI0GMbLPo5szJaWBi.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "421987",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/421987",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/421987",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Habitantes%20-%20Eles%20Est_o%20Aqui%20_2015_%20_tmdb_421987_af2a6005.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "421987",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-habitantes-da-escuridao-2002",
+    "title": "Habitantes da Escuridão (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/fin8WMppwDO6XoR1wcz9LTBSq0U.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "16028",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/16028",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/16028",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hachiko-para-sempre-2023",
+    "title": "Hachiko: Para Sempre (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/w5GeWMEEWJBMKXSeDB5BpcowEBn.jpg",
+    "genres": [
+      "Drama",
+      "Família"
+    ],
+    "tmdb_id": "1107387",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/cd0687176de1e50ddab9e1a89d44bf7f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1107387",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1107387",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hachiko%20Para%20Sempre%20_2023_%20_tmdb_1107387_63cec922.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1107387",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449018",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455560",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652001",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670250",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hackeando-o-coracao-do-ceo",
+    "title": "HACKEANDO O CORACAO DO CEO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hacker",
+    "title": "Hacker",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/dNDBzk6JRqDnpwGwBBKx7dGEFcd.jpg",
+    "genres": [
+      "Crime",
+      "Suspense",
+      "Ação"
+    ],
+    "tmdb_id": "201088",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/201088",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/201088",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker%20_2018_%20_tmdb_449811_62af5c8a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "449811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hacker-2015",
+    "title": "Hacker (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/dNDBzk6JRqDnpwGwBBKx7dGEFcd.jpg",
+    "genres": [
+      "Crime",
+      "Suspense",
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/201088",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/201088",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hacker-privacidade-violada",
+    "title": "Hacker - Privacidade Violada",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/54L9slFusu6B4Kp7ogGjiGygzdF.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "662231",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/662231",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/662231",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker%20-%20Privacidade%20Violada%20_2020_%20_tmdb_662231_ebac8c51.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "662231",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445585",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448803",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647108",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670317",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hacker-todo-crime-tem-um-inicio-2016",
+    "title": "Hacker Todo Crime Tem Um Inicio (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/6zHdhfnreagE3Bv6n7BXtC8gk6r.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/413052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/413052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hacker-todo-crime-tem-um-inicio",
+    "title": "Hacker: Todo Crime Tem Um Início",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/6zHdhfnreagE3Bv6n7BXtC8gk6r.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "413052",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/413052",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/413052",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hacker_%20Todo%20Crime%20Tem%20Um%20In_cio%20_2016_%20_tmdb_413052_cf143249.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "413052",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hackers-piratas-de-computador",
+    "title": "Hackers - Piratas de Computador",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mIlCgd51B5Ssms0Q95FjPPQqM7P.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "10428",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10428",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10428",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10428",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446384",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647682",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "896557",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hackers-no-controle",
+    "title": "Hackers no Controle",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/k3gGPN3TCXQCbnWY6SwxSE0LCxo.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "944864",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/944864",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/944864",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hackers%20no%20Controle%20_2022_%20_tmdb_944864_24404dfe.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "944864",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454054",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648662",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hackers-no-controle-2022",
+    "title": "Hackers no Controle (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/k3gGPN3TCXQCbnWY6SwxSE0LCxo.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/944864",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/944864",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hackers-piratas-de-computador-1995",
+    "title": "Hackers: Piratas de Computador (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/mIlCgd51B5Ssms0Q95FjPPQqM7P.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10428",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10428",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-haikyu-a-batalha-do-lixao-2024",
+    "title": "HAIKYU!! A Batalha do Lixão (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/pRfLrwbfUWmUj1Jh1NGLSQceHoT.jpg",
+    "genres": [
+      "Animação",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1012201",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1012201",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-haikyu-the-dumpster-battle",
+    "title": "HAIKYU!! The Dumpster Battle",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/pRfLrwbfUWmUj1Jh1NGLSQceHoT.jpg",
+    "genres": [
+      "Animação",
+      "Comédia"
+    ],
+    "tmdb_id": "1012201",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1012201",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1012201",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/HAIKYU_%20The%20Dumpster%20Battle%20_2024_%20_tmdb_1012201_33228ff4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1012201",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447244",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670514",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-haikyuu-movie-owari-to-hajimari",
+    "title": "Haikyuu!! Movie: Owari to Hajimari",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/kWopdC6UbjcDGxCYwS2uIsoYl3b.jpg",
+    "genres": [
+      "Animação",
+      "Drama"
+    ],
+    "tmdb_id": "347183",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/347183",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/347183",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2449883",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hail-satan",
+    "title": "Hail Satan",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2URKnBTrhp84y8HX5R4SxeFl6qK.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "565719",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/565719",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/565719",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hail-satan-2019",
+    "title": "Hail Satan? (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/2URKnBTrhp84y8HX5R4SxeFl6qK.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/565719",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/565719",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hair",
+    "title": "Hair",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/qrZIlVCL9UyEBsgOGbisNzuWjX.jpg",
+    "genres": [
+      "Música",
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "10654",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10654",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hair-1979",
+    "title": "Hair (1979)",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hair%20_1979_%20_tmdb_10654_5a9b7966.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hairspray-brasil",
+    "title": "Hairspray Brasil",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/uNJo2pz96i6jauOdQAcEvZsvYCx.jpg",
+    "genres": [],
+    "tmdb_id": "1352635",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1352635",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hairspray-brasil-2009",
+    "title": "Hairspray Brasil (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hairspray%20Brasil%20_2009_%20_tmdb_1352635_50720c63.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hairspray-live",
+    "title": "Hairspray Live!",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3T1u2DzwfDUd5iMNw4gqFWQx3P2.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama",
+      "TV",
+      "Música"
+    ],
+    "tmdb_id": "409447",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "409447",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hala",
+    "title": "Hala",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/oMC0S5kpUq5AFIf4e5bZSEVRB7u.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "535308",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/535308",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/535308",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hala%20_2019_%20_tmdb_535308_cae97093.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "535308",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457210",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653932",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4
+  },
+  {
+    "id": "movie-hallelujah-leonard-cohen-uma-jornada-uma-cancao",
+    "title": "Hallelujah: Leonard Cohen, Uma Jornada, Uma canção",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/10sXvhdDZgwlEe7cw1EYdlaCVOH.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "854513",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/854513",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/854513",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hallelujah_%20Leonard%20Cohen_%20Uma%20Jornada_%20Uma%20cancao%20_2022_%20_tmdb_854513_d866de3d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "854513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453285",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647832",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hallelujah-leonard-cohen-uma-jornada-uma-cancao-2022",
+    "title": "Hallelujah: Leonard Cohen, Uma Jornada, Uma canção (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/10sXvhdDZgwlEe7cw1EYdlaCVOH.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/854513",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/854513",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hallow-road",
+    "title": "Hallow Road",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/aMKCpg3dYPj8NGCB64jZZllyWL1.jpg",
+    "genres": [
+      "Mistério",
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": "1205656",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c28d75064397ac4d7dd7031c8857a819/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1205656",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1205656",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hallow%20Road_%20Caminho%20Sem%20Volta%20_2025_%20_tmdb_1205656_01777991.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2448221",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1205656",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444501",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "905561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-halloween-63",
+    "title": "Halloween '63",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jLxtHn1GsjxF0npV3DLCthzBuet.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "1446485",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1446485",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1446485",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451859",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-87",
+    "title": "Halloween '87",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/cTyEB6GWaCweytZkbpQUfA4u2Qa.jpg",
+    "genres": [
+      "Música"
+    ],
+    "tmdb_id": "657929",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/657929",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/657929",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "657929",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452412",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-2018",
+    "title": "Halloween (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/mVQ8Lb7FhQXPqkQv0QCNbEwp9a6.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "948",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/757a97139078877f5799aa92d2cbd55b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/948",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/948",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20_2018_%20_tmdb_424139_37790156.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20-%20A%20Noite%20do%20Terror%20_1978_%20_tmdb_948_4af388a7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "948",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "424139",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452068",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457866",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457990",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655049",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655605",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655521",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-o-espantalho-assassino",
+    "title": "Halloween - O Espantalho Assassino",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ouczezymhTjjs6kJS9JvUj8tvHo.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "1503900",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/0cb79f3d16db83f10f0331cf2fbec33b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1503900",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1503900",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20-%20O%20Espantalho%20Assassino%20_2025_%20_tmdb_1503900_6211b184.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1503900",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444589",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "913590",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-halloween-1",
+    "title": "Halloween 1",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/iN5rcaY9uWbJNrOKQdyXeSJtzDM.jpg",
+    "genres": [],
+    "tmdb_id": "573472",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/573472",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/573472",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "655538",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-14",
+    "title": "Halloween 14",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jSS1ALrosjSTaLUgjWwWWR4o0DJ.jpg",
+    "genres": [],
+    "tmdb_id": "1355905",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1355905",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1355905",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451587",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-2-o-pesadelo-continua-1981",
+    "title": "Halloween 2 O Pesadelo Continua (1981)",
+    "type": "movie",
+    "year": "1981",
+    "poster_url": "/3wCCqM7JSSt6PJFNMEC2fxflDjP.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11281",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11281",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-3",
+    "title": "Halloween 3",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/c8PjmkInMZ6O1p3jDZBXuM0jcK3.jpg",
+    "genres": [],
+    "tmdb_id": "1036066",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1036066",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1036066",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655536",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-3-a-noite-das-bruxas-1982",
+    "title": "Halloween 3 A Noite das Bruxas (1982)",
+    "type": "movie",
+    "year": "1982",
+    "poster_url": "/9URqVdJxGbytiWo8PeZ3MTBLOuA.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "10676",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10676",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10676",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20III_%20A%20Noite%20das%20Bruxas%20_1982_%20_tmdb_10676_077c64b5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10676",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457889",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-4",
+    "title": "Halloween 4",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/cAjDJf4OsPUWbB8rg3b5v7XTyb6.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "11357",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11357",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11357",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%204_%20O%20Retorno%20de%20Michael%20Myers%20_1988_%20_tmdb_11357_37384fa3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11357",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-5",
+    "title": "Halloween 5",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": "/qDCoAeD7T1HQ0OnkQ27bC3G2e6P.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "11361",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11361",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11361",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%205_%20A%20Vingan_a%20de%20Michael%20Myers%20_1989_%20_tmdb_11361_53f05df0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11361",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452509",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655534",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-6",
+    "title": "Halloween 6",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": "/dIPn1ohodFg87zsZYCbdcx02RBQ.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "10987",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10987",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10987",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%206_%20A%20_ltima%20Vingan_a%20_1995_%20_tmdb_10987_ac6636c0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10987",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655533",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-7",
+    "title": "Halloween 7",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2xEKswOgGNn6I9nM7oQQiV4qWkq.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "1744005",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1744005",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1744005",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2453009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655532",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-8",
+    "title": "Halloween 8",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/c8AOp4U2wrQU3BvkXoAuzEM2Wfc.jpg",
+    "genres": [],
+    "tmdb_id": "83020",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/83020",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/83020",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "655531",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-a-noite-do-terror-1978",
+    "title": "Halloween A Noite do Terror (1978)",
+    "type": "movie",
+    "year": "1978",
+    "poster_url": "/mVQ8Lb7FhQXPqkQv0QCNbEwp9a6.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/948",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/948",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-ends",
+    "title": "Halloween Ends",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3uDwqxbr0j34rJVJMOW6o8Upw5W.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "616820",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/616820",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/616820",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "616820",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451504",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654859",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-halloween-ends-2022",
+    "title": "Halloween Ends (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/3uDwqxbr0j34rJVJMOW6o8Upw5W.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/616820",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/616820",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-ends-o-acerto-de-contas-final-2022",
+    "title": "Halloween Ends: O Acerto de Contas Final (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Ends_%20O%20Acerto%20de%20Contas%20Final%20_2022_%20_tmdb_616820_71bc262f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-h20-vinte-anos-depois-1998",
+    "title": "Halloween H20: Vinte Anos Depois (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/jLWjQASwYGghD7gWxvt9BYwSwgW.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "11675",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/fc6989422ac609ff3dbe0080c838c75f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/11675",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11675",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20H20_%20Vinte%20Anos%20Depois%20_1998_%20_tmdb_11675_d20d0bf1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11675",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457915",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-heroes",
+    "title": "Halloween Heroes",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/7BUSP9vUlmDA6MrdwYIPzmkbUrV.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "850885",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "850885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-heroes-2021",
+    "title": "Halloween Heroes (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Heroes%20_2021_%20_tmdb_850885_a5dc1073.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-ii-2009",
+    "title": "Halloween II (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/vCr2zC3s8rFycFYLoOVzX8Dm5qB.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/24150",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/24150",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-ii-o-pesadelo-continua",
+    "title": "Halloween II: O Pesadelo Continua",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/3wCCqM7JSSt6PJFNMEC2fxflDjP.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "11281",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11281",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11281",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20II_%20O%20Pesadelo%20Continua%20_1981_%20_tmdb_11281_8fb39bd8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11281",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457967",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654465",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-kills-o-terror-continua",
+    "title": "Halloween Kills: O Terror Continua",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4NphuHmnuROLqCjAEr5LS7Aage6.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "610253",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/610253",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/610253",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Kills_%20O%20Terror%20Continua%20_2021_%20_tmdb_610253_5ca80a23.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "610253",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452067",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457845",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654985",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-halloween-kills-o-terror-continua-2021",
+    "title": "Halloween Kills: O Terror Continua (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4NphuHmnuROLqCjAEr5LS7Aage6.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/610253",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/610253",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-macabro",
+    "title": "Halloween Macabro",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ruskUcYFAy6ctl2ZlTsXqJ7kPCD.jpg",
+    "genres": [
+      "Comédia",
+      "Terror"
+    ],
+    "tmdb_id": "262169",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/262169",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/262169",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween%20Macabro%20_2004_%20_tmdb_35946_ef54c96f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "35946",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457824",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-midnight-circus",
+    "title": "HALLOWEEN MIDNIGHT CIRCUS",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/unnGwqWmMAuszJnleyuqZ70MtrT.jpg",
+    "genres": [
+      "Música",
+      "Documentário"
+    ],
+    "tmdb_id": "896430",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "896430",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-midnight-circus-2021",
+    "title": "HALLOWEEN MIDNIGHT CIRCUS (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/HALLOWEEN%20MIDNIGHT%20CIRCUS%20_2021_%20_tmdb_896430_b3ae6a11.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-na-casa-da-tia-ethel-2019",
+    "title": "Halloween na Casa da Tia Ethel (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/A0kJvMCOV0k2OmNOhNFXDXciM11.jpg",
+    "genres": [
+      "Terror",
+      "Comédia"
+    ],
+    "tmdb_id": "558294",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/558294",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/558294",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-a-lenda-de-jack",
+    "title": "Halloween: A Lenda de Jack",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/fgfGkXaz5WhccjX6SsqR5f5kXHf.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "550412",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/550412",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/550412",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20A%20Lenda%20de%20Jack%20_2018_%20_tmdb_550412_9b89ebed.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "550412",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457940",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-a-maldicao-esta-de-volta",
+    "title": "Halloween: A Maldição Está de Volta!",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/As60LTJeTZ05JCnaZPMljUA11h3.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "27498",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "27498",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-a-maldicao-esta-de-volta-1995",
+    "title": "Halloween: A Maldição Está de Volta! (1995)",
+    "type": "movie",
+    "year": "1995",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20A%20Maldi_o%20Est_%20de%20Volta%20_1995_%20_tmdb_27498_858c1fb5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-o-inicio",
+    "title": "Halloween: O Início",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/911XlyHgPDz7aaemmwL8Em50TE1.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "2082",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2082",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2082",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20O%20In_cio%20_2007_%20_tmdb_2082_48ebd51d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2082",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452326",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457789",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-halloween-o-inicio-2007",
+    "title": "Halloween: O Início (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/911XlyHgPDz7aaemmwL8Em50TE1.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2082",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2082",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloween-ressurreicao",
+    "title": "Halloween: Ressurreição",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/8umD9g3RINWw9vdRtCQfDUkT6vy.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "11442",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11442",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11442",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloween_%20Ressurrei_o%20_2002_%20_tmdb_11442_889cb5db.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "11442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451567",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457809",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654462",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-halloween-ressurreicao-2002",
+    "title": "Halloween: Ressurreição (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/8umD9g3RINWw9vdRtCQfDUkT6vy.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11442",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11442",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloweentown-2-a-vinganca-de-kalabar",
+    "title": "Halloweentown 2: A Vingança de Kalabar",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/vqCwbRvABBRKxHiNWzE9Ddjj1lE.jpg",
+    "genres": [
+      "Aventura",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "34205",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/34205",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/34205",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloweentown%202_%20A%20Vingan_a%20de%20Kalabar%20_2001_%20_tmdb_34205_72ed4d4a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "34205",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-halloweentown-o-portal",
+    "title": "Halloweentown: O Portal",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/gO40pTHpuZOAmOBrKfyyG8SLqwA.jpg",
+    "genres": [
+      "Família",
+      "Fantasia",
+      "Comédia",
+      "TV"
+    ],
+    "tmdb_id": "34560",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "34560",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halloweentown-o-portal-2004",
+    "title": "Halloweentown: O Portal (2004)",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halloweentown_%20O%20Portal%20_2004_%20_tmdb_34560_524856b8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halo-nightfall",
+    "title": "Halo: Nightfall",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/liLQ8EFzHN06eFZ9KQMDK6cmGaK.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "487186",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "487186",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-halo-nightfall-2014",
+    "title": "Halo: Nightfall (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Halo_%20Nightfall%20_2014_%20_tmdb_487186_a6289c27.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hamburger-hill",
+    "title": "Hamburger Hill",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/u2ZbbYAhsfzFVdUB8co9lHr1xO6.jpg",
+    "genres": [
+      "Guerra",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "10652",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamburger%20Hill%20_1987_%20_tmdb_10652_a2b0ebfe.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10652",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455173",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649322",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hamburger-hill-1987",
+    "title": "Hamburger Hill (1987)",
+    "type": "movie",
+    "year": "1987",
+    "poster_url": "/u2ZbbYAhsfzFVdUB8co9lHr1xO6.jpg",
+    "genres": [
+      "Guerra",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hamilton",
+    "title": "Hamilton",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "556574",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/556574",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/556574",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "556574",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444672",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hamilton-2025",
+    "title": "Hamilton (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/556574",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/556574",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hamlet",
+    "title": "Hamlet",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/ilurgUOp6SCl4cuhfjctj1qxlfZ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "10549",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10549",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10549",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/24e5770b8337976bf145e36e3c25e1fb/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/21d487ebba0d311766a4a410bedadcba/master.txt",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamlet%20_2026_%20_tmdb_843342_a93beb17.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/10264",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10264",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "843342",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444143",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-hamlet-1990",
+    "title": "Hamlet (1990)",
+    "type": "movie",
+    "year": "1990",
+    "poster_url": "/cB5HbaiFoQLLmGeN2eeJjBGrp8U.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "10264",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10264",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10264",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10264",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "921097",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hamlet-2026",
+    "title": "Hamlet (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/ilurgUOp6SCl4cuhfjctj1qxlfZ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "843342",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/24e5770b8337976bf145e36e3c25e1fb/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/21d487ebba0d311766a4a410bedadcba/master.txt",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/10549",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10549",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hammarskjold-luta-pela-paz",
+    "title": "Hammarskjöld: Luta pela Paz",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mESJd1Uxi9oGMM918FLX8r34oad.jpg",
+    "genres": [
+      "Suspense",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "1084145",
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hammarskjold%20Luta%20pela%20Paz%20_2023_%20_tmdb_1084145_b6c793fd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1084145",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "931541",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hammer-heroes-legends-and-monsters",
+    "title": "Hammer: Heroes, Legends and Monsters",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/2qbS8CaSV4UNxg2JecAuiAozJRq.jpg",
+    "genres": [
+      "Documentário",
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1325909",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1325909",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hamnet-a-vida-antes-de-hamlet-2025",
+    "title": "Hamnet A Vida Antes de Hamlet (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/njatIGrIlZCxB88UUBC2xgmfCNE.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "858024",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/a7274706c51f173b3931c0d2f5bb2a34/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/858024",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/858024",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hamnet_%20A%20Vida%20Antes%20de%20Hamlet%20_2025_%20_tmdb_858024_1731dbf3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "858024",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444951",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "905048",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "911623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 4
+  },
+  {
+    "id": "movie-hampstead-nunca-e-tarde-para-amar",
+    "title": "Hampstead: Nunca é Tarde para Amar",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/xsAV68tOqj8oN5ALIwhpzVkxA9V.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "441728",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/441728",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/441728",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hampstead_%20Nunca%20_%20Tarde%20para%20Amar%20_2017_%20_tmdb_441728_0ed8db1b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "441728",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447021",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hampstead-nunca-e-tarde-para-amar-2017",
+    "title": "Hampstead: Nunca é Tarde para Amar (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/xsAV68tOqj8oN5ALIwhpzVkxA9V.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/441728",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/441728",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-han-solo-uma-historia-star-wars-2018",
+    "title": "Han Solo: Uma História Star Wars (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/jAMEX0syUh6sbjBiysibzrFpbo.jpg",
+    "genres": [
+      "Ficção científica",
+      "Aventura",
+      "Ação"
+    ],
+    "tmdb_id": "348350",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e7dceb7b49bacb82102159ba9246cf62/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/348350",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/348350",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Han%20Solo_%20Uma%20Hist_ria%20Star%20Wars%20_2018_%20_tmdb_348350_96696c35.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "348350",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458165",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458300",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647044",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hanami",
+    "title": "Hanami",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/s9mpHQe4RNCbjp4KgU4K1WorfB.jpg",
+    "genres": [
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "1315405",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1315405",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1315405",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1315405",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1315405.m3u8?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hancock-2008",
+    "title": "Hancock (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
+    "genres": [
+      "Fantasia",
+      "Ação"
+    ],
+    "tmdb_id": "8960",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/9d081d3deb9bc0aff94c6a9a986f0ee1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/8960",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/8960",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hancock%20_2008_%20_tmdb_8960_71ac5363.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8960",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448901",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454327",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762501",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762736",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-handling-the-undead-2024",
+    "title": "Handling The Undead (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/fdJ3P61uDFgryCu625L7BQaOBAv.jpg",
+    "genres": [
+      "Terror",
+      "Drama",
+      "Mistério"
+    ],
+    "tmdb_id": "1020896",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/7e10f99e82202c96b5c569f0f6317cbd/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1020896",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1020896",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mortos%20Entre%20Vivos%20_2024_%20_tmdb_1020896_a9291c06.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1020896",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447790",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445399",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900635",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901129",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-handsome-um-filme-de-misterio-netflix",
+    "title": "Handsome: Um Filme de Mistério Netflix",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/yc1GQhNw5MvznrtPmPY52dKsdrm.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "402582",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/402582",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/402582",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Handsome_%20Um%20Filme%20de%20Mist_rio%20Netflix%20_2017_%20_tmdb_402582_5236e4b0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "402582",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hank-e-asha-2013",
+    "title": "Hank e Asha (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/kjkPVdMArDjdxAHLZT1zNJiihL3.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "159652",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/159652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/159652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hanky-panky-uma-dupla-em-apuros-1982",
+    "title": "Hanky Panky, Uma Dupla em Apuros (1982)",
+    "type": "movie",
+    "year": "1982",
+    "poster_url": "/4kfxLfph8DZU44sB3Txz3dZYjdL.jpg",
+    "genres": [
+      "Mistério",
+      "Ação",
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "25001",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/25001",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/25001",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hanky%20Panky_%20Uma%20Dupla%20em%20Apuros%20_1982_%20_tmdb_25001_502ff5d1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25001",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hanna",
+    "title": "Hanna",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/w5CE2YRInfNGWTqdCzu9HcXgfbR.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Aventura"
+    ],
+    "tmdb_id": "50456",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/50456",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/50456",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hanna%20_2011_%20_tmdb_50456_25f8b1ef.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "50456",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453861",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648903",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762720",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hanna-2011",
+    "title": "Hanna (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/w5CE2YRInfNGWTqdCzu9HcXgfbR.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/50456",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/50456",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hannah-e-suas-irmas",
+    "title": "Hannah e Suas Irmãs",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/546N4k22NkOnMvVI1OzRBTBQVoT.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "5143",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/5143",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/5143",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20e%20Suas%20Irm_s%20_1986_%20_tmdb_5143_ae1e4f04.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "5143",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-hannah-montana-miley-cyrus-show-o-melhor-dos-dois-mundos",
+    "title": "Hannah Montana & Miley Cyrus: Show - O Melhor dos Dois Mundos",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/gX1gzIe30qzlgxO51t9bBvj6sln.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "253353",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "253353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hannah-montana-amp-miley-cyrus-show-o-melhor-dos-dois-mundos-2008",
+    "title": "Hannah Montana &amp; Miley Cyrus: Show - O Melhor dos Dois Mundos (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana%20_%20Miley%20Cyrus_%20Show%20-%20O%20Melhor%20dos%20Dois%20Mundos%20_2008_%20_tmdb_253353_7d7fe812.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-hannah-montana-especial-de-20-aniversario-2026",
+    "title": "Hannah Montana Especial de 20 Aniversario (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/v3U31jWWRCAurkJ12jmv1Axh0PZ.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "1637319",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/97172f0cbc1c792061537efa7d4d88d1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1637319",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1637319",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana_%20Especial%20de%2020_%20Anivers_rio%20_2026_%20_tmdb_1637319_d66f21f6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1637319",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hannah-montana-o-filme",
+    "title": "Hannah Montana: O Filme",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/efjanadOQRhCUacHviLGL2ODhSK.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família",
+      "Música",
+      "Romance"
+    ],
+    "tmdb_id": "18126",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18126",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18126",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Hannah%20Montana_%20O%20Filme%20_2009_%20_tmdb_18126_aa1f9a0e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "18126",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459846",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650897",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-hannah-montana-o-filme-2009",
+    "title": "Hannah Montana: O Filme (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/efjanadOQRhCUacHviLGL2ODhSK.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família",
+      "Música",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/18126",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/18126",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  }
+]

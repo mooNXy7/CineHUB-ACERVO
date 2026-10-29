@@ -1,1 +1,3883 @@
-[{"id":"movie-a-despedida-2019","title":"A Despedida (2019)","type":"movie","year":"2019","poster_url":"/oenx30V5wzfMjxzTOOM1CD9YSq4.jpg","genres":["Drama"],"tmdb_id":"536396","sources":[{"url":"https://mgeb.top/embed/536396","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/536396","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"536396","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651070","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652217","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653382","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-despedida-2020","title":"A Despedida (2020)","type":"movie","year":"2020","poster_url":"/oenx30V5wzfMjxzTOOM1CD9YSq4.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/536396","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/536396","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-deusa-da-vinganca-2016","title":"A Deusa da Vingança (2016)","type":"movie","year":"2016","poster_url":"/pWFo72g7YIcc5ADZT9b6LzP6T6K.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":"412766","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/d9e56f55cb0bb01a0dbea851238f83bd/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/412766","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/412766","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20da%20Vingan_a%20_2016_%20_tmdb_412766_1fa43eb1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"412766","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-deusa-dos-vagalumes","title":"A Deusa dos Vagalumes","type":"movie","year":null,"poster_url":"/xWiOWC7bg50ik1FPpcY2XuGLoQx.jpg","genres":["Drama"],"tmdb_id":"633742","sources":[{"url":"https://mgeb.top/embed/633742","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/633742","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20dos%20Vagalumes%20_2020_%20_tmdb_633742_715fa9d8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"633742","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455455","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652771","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-deusa-dos-vagalumes-2020","title":"A Deusa dos Vagalumes (2020)","type":"movie","year":"2020","poster_url":"/xWiOWC7bg50ik1FPpcY2XuGLoQx.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/633742","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/633742","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-deusa-fortuna","title":"A Deusa Fortuna","type":"movie","year":null,"poster_url":"/b2TMQ4IvyFKuCmmFYojW9jH2MXG.jpg","genres":["Drama"],"tmdb_id":"606952","sources":[{"url":"https://mgeb.top/embed/606952","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/606952","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20Fortuna%20_2019_%20_tmdb_606952_7f89f409.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fortuna%20_2019_%20_tmdb_686872_2a9064a7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"606952","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456992","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"686872","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460308","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653152","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651408","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-deusa-fortuna-2019","title":"A Deusa Fortuna (2019)","type":"movie","year":"2019","poster_url":"/b2TMQ4IvyFKuCmmFYojW9jH2MXG.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/606952","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/606952","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-dificil-vinganca","title":"A Difícil Vingança","type":"movie","year":null,"poster_url":"/uUqcv8ZlRTwy5myECIyR6yA2grA.jpg","genres":["Ação","Faroeste"],"tmdb_id":"109500","sources":[],"provider_refs":[{"provider":"18","ref":"109500","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-dificil-vinganca-2012","title":"A Difícil Vingança (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dif_cil%20Vingan_a%20_2012_%20_tmdb_109500_8eb468e3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-discussao","title":"A Discussão","type":"movie","year":null,"poster_url":"/BOFJrBQ5YjYFCBG3wbRjNlme3o.jpg","genres":["Comédia","Drama"],"tmdb_id":"735436","sources":[{"url":"https://mgeb.top/embed/735436","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/735436","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Discuss_o%20_2020_%20_tmdb_735436_b40635a1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"735436","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460993","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651055","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-discussao-2020","title":"A Discussão (2020)","type":"movie","year":"2020","poster_url":"/BOFJrBQ5YjYFCBG3wbRjNlme3o.jpg","genres":["Comédia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/735436","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/735436","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-disputa","title":"A Disputa","type":"movie","year":null,"poster_url":"/qjnFtcmmaO3j87feotRtFta7vmM.jpg","genres":["Drama"],"tmdb_id":"21868","sources":[{"url":"https://mgeb.top/embed/21868","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/21868","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Disputa%20_2021_%20_tmdb_840283_715b8e4b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2445537","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-disputa-2020","title":"A Disputa (2020)","type":"movie","year":"2020","poster_url":"/qjnFtcmmaO3j87feotRtFta7vmM.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/21868","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/21868","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-disputa-2021","title":"A Disputa (2021)","type":"movie","year":"2021","poster_url":"/jYFaFJPg79ngwBrxjQw4aThzen4.jpg","genres":["Drama","História","Guerra"],"tmdb_id":"840283","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/8f502d2dae457803446d0a80dce6af00/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/840283","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/840283","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"840283","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-disputa-do-natal","title":"A Disputa do Natal","type":"movie","year":null,"poster_url":"/70fiLbvk76cdaHRyTkPxxj8aJDi.jpg","genres":["Documentário"],"tmdb_id":"888652","sources":[{"url":"https://mgeb.top/embed/888652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/888652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"888652","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-disputa-do-natal-2021","title":"A Disputa do Natal (2021)","type":"movie","year":"2021","poster_url":"/70fiLbvk76cdaHRyTkPxxj8aJDi.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/888652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/888652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-disputa-dos-sexos","title":"A Disputa dos Sexos","type":"movie","year":null,"poster_url":"/8tJ8eSNcF2LMU7i2IZcGzmL7KQl.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"4988","sources":[{"url":"https://mgeb.top/embed/4988","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/4988","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Disputa%20dos%20Sexos%20_1977_%20_tmdb_4988_54063842.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"4988","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460876","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"762900","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-distancia-certa-2007","title":"A Distancia Certa (2007)","type":"movie","year":"2007","poster_url":null,"genres":["Drama"],"tmdb_id":"1703924","sources":[{"url":"https://mgeb.top/embed/1703924","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1703924","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-ditadura-perfeita","title":"A Ditadura Perfeita","type":"movie","year":null,"poster_url":"/pjNWekSbafFIPLBNZQ9gUaX3tkV.jpg","genres":["Drama","Comédia"],"tmdb_id":"264525","sources":[],"provider_refs":[{"provider":"18","ref":"264525","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-ditadura-perfeita-2014","title":"A Ditadura Perfeita (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Ditadura%20Perfeita%20_2014_%20_tmdb_264525_ad2c3781.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-diva-da-mafia-renasce-das-chamas-mafia-diva-reborn-from-the-flames","title":"A DIVA DA MAFIA RENASCE DAS CHAMAS - MAFIA DIVA REBORN FROM THE FLAMES","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-divina-comedia-1991","title":"A Divina Comédia (1991)","type":"movie","year":"1991","poster_url":"/gLRWIn5f0gH9Z8h79CiBupJOJUy.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/104482","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/104482","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-divisao-2020","title":"A Divisao (2020)","type":"movie","year":"2020","poster_url":"/hcjQWaH8RfDi5TqwHZtViVQLjyT.jpg","genres":["Ação","Crime","Suspense"],"tmdb_id":"651866","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/ec7b904d9f65fb2c09e4bc74643738aa/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/651866","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/651866","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Divis_o%20_2020_%20_tmdb_651866_774c20e6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"651866","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454064","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649581","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-doce-e-amada-cozinheirinha","title":"A DOCE E AMADA COZINHEIRINHA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-doce-esposa-do-chefe-frio","title":"A DOCE ESPOSA DO CHEFE FRIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-doce-esposa-gravida-mimada-pelo-marido-milionario","title":"A DOCE ESPOSA GRAVIDA MIMADA PELO MARIDO MILIONARIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-doce-perseguicao-do-papai","title":"A DOCE PERSEGUICAO DO PAPAI","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-docura-amarga-de-ve-la-divorciada","title":"A Docura Amarga de ve la Divorciada","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-dogs-journey-legendado","title":"A Dogs Journey Legendado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-dois-passos-do-assassino","title":"A Dois Passos do Assassino","type":"movie","year":null,"poster_url":"/xbBpMvfntGLYSQ3MJ39cOt5NGgD.jpg","genres":["Crime","Suspense","Terror","Mistério"],"tmdb_id":"1127375","sources":[{"url":"https://mgeb.top/embed/1127375","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1127375","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dois%20Passos%20do%20Assassino%20_2024_%20_tmdb_1127375_4bb01929.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1127375","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444445","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"913584","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-dona-s01e1111","title":"A Dona S01E1111","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"11","ref":"2342213","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-doutora-e-a-imperatriz","title":"A Doutora e a Imperatriz","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-doutora-e-seu-marido-secreto","title":"A DOUTORA E SEU MARIDO SECRETO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-dupla-explosiva","title":"A Dupla Explosiva","type":"movie","year":null,"poster_url":"/3cl6oytCYbWYZY3pOD7zpmYy6AT.jpg","genres":["Ação","Comédia"],"tmdb_id":"6916","sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Explosiva%20_2022_%20_tmdb_838197_82a8c78d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Explosiva%20_1974_%20_tmdb_6916_65126762.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-dupla-explosiva-2022","title":"A Dupla Explosiva (2022)","type":"movie","year":"2022","poster_url":"/a3w9A9k7KSzLffT23dMdL0R7oMJ.jpg","genres":["Comédia","Ação"],"tmdb_id":"838197","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/31efd0aac0289f77b9071ffb714571ed/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/838197","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/838197","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"838197","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"6916","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461047","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650604","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-dupla-naturesa-de-sua-esposa-sedutora","title":"A Dupla Naturesa de Sua Esposa Sedutora","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-dupla-natureza-de-sua-esposa-sedutora","title":"A DUPLA NATUREZA DE SUA ESPOSA SEDUTORA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-a-dupla-vida-de-uma-herdeira-bilionaria","title":"A DUPLA VIDA DE UMA HERDEIRA BILIONARIA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-dupla-vida-de-veronique","title":"A Dupla Vida de Véronique","type":"movie","year":null,"poster_url":"/pQ25yX2PaqqCnQcEBLss1OdouMB.jpg","genres":["Drama","Fantasia"],"tmdb_id":"1600","sources":[],"provider_refs":[{"provider":"18","ref":"1600","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-dupla-vida-de-veronique-1991","title":"A Dupla Vida de Véronique (1991)","type":"movie","year":"1991","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Vida%20de%20V_ronique%20_1991_%20_tmdb_1600_39f1c307.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-duquesa","title":"A Duquesa","type":"movie","year":null,"poster_url":"/yA875ZvQCNHWi6fSUnyGCBhPstE.jpg","genres":["Drama","História","Romance"],"tmdb_id":"12783","sources":[{"url":"https://mgeb.top/embed/12783","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12783","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Duquesa%20_2008_%20_tmdb_12783_c57a829b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"12783","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454979","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653433","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-duquesa-2008","title":"A Duquesa (2008)","type":"movie","year":"2008","poster_url":"/yA875ZvQCNHWi6fSUnyGCBhPstE.jpg","genres":["Drama","História","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/12783","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12783","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-duquesa-vingadora-2024","title":"A Duquesa Vingadora (2024)","type":"movie","year":"2024","poster_url":"/yOpm3V3Hde76UiW6Q4Q3OGpEdik.jpg","genres":["Ação","Crime","Suspense"],"tmdb_id":"1005076","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/517a502f8e8e97b90afaa73310621062/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1005076","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1005076","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Duquesa%20Vingadora%20_2024_%20_tmdb_1005076_bbdf93e2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1005076","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447877","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454825","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884366","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-edicao-do-nordeste","title":"A Edição do Nordeste","type":"movie","year":"2023","poster_url":"/iCY5jx25RLZT9HeI5fxOFoQhhl5.jpg","genres":["Documentário"],"tmdb_id":"1141546","sources":[{"url":"https://mgeb.top/embed/1141546","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1141546","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2470650","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"930239","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-educacao-de-mohammad-hussein-2012","title":"A Educacao de Mohammad Hussein (2012)","type":"movie","year":"2012","poster_url":"/4KtFRQTXaguFyHuSHJkZAGi5FfL.jpg","genres":["Documentário","Drama"],"tmdb_id":"137646","sources":[{"url":"https://mgeb.top/embed/137646","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/137646","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-elefanta-do-magico-2023","title":"A Elefanta do Magico (2023)","type":"movie","year":"2023","poster_url":"/g7weieVLynnkcFqOWA5WAmjffNB.jpg","genres":["Animação","Aventura","Família","Fantasia","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/776835","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/776835","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-elefanta-do-magico","title":"A Elefanta do Mágico","type":"movie","year":null,"poster_url":"/g7weieVLynnkcFqOWA5WAmjffNB.jpg","genres":["Animação","Aventura","Família","Fantasia","Comédia"],"tmdb_id":"776835","sources":[{"url":"https://mgeb.top/embed/776835","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/776835","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Elefanta%20do%20M_gico%20_2023_%20_tmdb_776835_9d29f3ba.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"776835","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646134","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-empregada-2025","title":"A Empregada (2025)","type":"movie","year":"2025","poster_url":"/qaqAdyuk8Fcgfsj19Cj3OpJ8hN.jpg","genres":["Mistério","Suspense"],"tmdb_id":"1368166","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/ad00ce9ffdacfc1b8660a0307a984a9c/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/c16093e08a0fe6234ba18c2c9243ec66/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/e181a1f69d346f1b6a3c97d8d90c81a6/master.txt","audio":"leg","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/1368166","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1368166","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://comprarebom.xyz/cdn/down/bb9f6f7da7cb14097b736bf1/index.m3u8","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Empregada%20_2025_%20_tmdb_1368166_5ef1813a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Empregada%20_2010_%20_tmdb_45202_03444c6f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1368166","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"45202","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444865","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"904332","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-a-empregada-do-bilionario-the-billionaires-maid","title":"A EMPREGADA DO BILIONARIO - THE BILLIONAIRES MAID","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-empregada-secreta-do-chefe-da-mafia","title":"A EMPREGADA SECRETA DO CHEFE DA MAFIA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-empregada-vingativa","title":"A EMPREGADA VINGATIVA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-a-encruzilhada","title":"A Encruzilhada","type":"movie","year":null,"poster_url":"/u0w7385y4UcloI2VEbWdQreaXFi.jpg","genres":["Drama","Música","Romance","Mistério"],"tmdb_id":"15392","sources":[{"url":"https://mgeb.top/embed/15392","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/15392","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Encruzilhada%20_2020_%20_tmdb_728604_afee1116.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Encruzilhada%20_1986_%20_tmdb_15392_9768553f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/728604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/728604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"15392","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446169","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455973","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-encruzilhada-1986","title":"A Encruzilhada (1986)","type":"movie","year":"1986","poster_url":"/u0w7385y4UcloI2VEbWdQreaXFi.jpg","genres":["Drama","Música","Romance","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/15392","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/15392","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-encruzilhada-2020","title":"A Encruzilhada (2020)","type":"movie","year":"2020","poster_url":"/qrEGDX1NtbvKMeCq7zsAi62y3D9.jpg","genres":["Suspense"],"tmdb_id":"728604","sources":[{"url":"https://mgeb.top/embed/728604","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/728604","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"728604","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647270","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654367","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-enfermeira-assassina","title":"A Enfermeira Assassina","type":"movie","year":null,"poster_url":"/1Sv0E1E0NwlntDrqH1c43vvSrLF.jpg","genres":["Terror","Suspense"],"tmdb_id":"78383","sources":[{"url":"https://mgeb.top/embed/78383","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/78383","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Nurse_%20A%20Enfermeira%20Assassina%20_2013_%20_tmdb_78383_a86d3e10.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"78383","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451667","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655104","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-enfermeira-assassina-2013","title":"A Enfermeira Assassina (2013)","type":"movie","year":"2013","poster_url":"/1Sv0E1E0NwlntDrqH1c43vvSrLF.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/78383","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/78383","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-enfermeira-betty-2000","title":"A Enfermeira Betty (2000)","type":"movie","year":"2000","poster_url":"/fe36YMFeZm64ZHhcaySKVoQhOFr.jpg","genres":["Comédia","Crime","Suspense","Drama"],"tmdb_id":"10480","sources":[{"url":"https://mgeb.top/embed/10480","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10480","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Enfermeira%20Betty%20_2000_%20_tmdb_10480_b6a21ee6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10480","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-entidade-2012","title":"A Entidade (2012)","type":"movie","year":"2012","poster_url":"/uTaCFSTQ29LKqLXJU75owdir04h.jpg","genres":["Terror","Suspense","Mistério"],"tmdb_id":"82507","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/42da3ad1a03bedd74251f354a8fb49f5/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/82507","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/82507","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%20_2019_%20_tmdb_601343_f4a1be98.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%20_2012_%20_tmdb_82507_6c5d8302.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"82507","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449216","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451600","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452187","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655268","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"736069","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-entidade-2-2015","title":"A Entidade 2 (2015)","type":"movie","year":"2015","poster_url":"/1nKrDcCzDG5LLamYb3dWWenE92L.jpg","genres":["Terror"],"tmdb_id":"283445","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/72216e1fa5263c8e11ca27f228779ee2/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/283445","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/283445","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%202%20_2015_%20_tmdb_283445_f2518453.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"283445","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452184","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655269","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-entrega","title":"A Entrega","type":"movie","year":null,"poster_url":"/4Ne8Kjt2UGJkOABhs1LopDVAAju.jpg","genres":["Drama","Crime"],"tmdb_id":"154400","sources":[{"url":"https://mgeb.top/embed/154400","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/154400","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entrega%20_2014_%20_tmdb_154400_6570861e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"154400","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-entrega-2014","title":"A Entrega (2014)","type":"movie","year":"2014","poster_url":"/4Ne8Kjt2UGJkOABhs1LopDVAAju.jpg","genres":["Drama","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/154400","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/154400","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-entrevista-2014","title":"A Entrevista (2014)","type":"movie","year":"2014","poster_url":"/zz1wnnIS22JI10NU7cT9r4YP7DQ.jpg","genres":["Ação","Comédia"],"tmdb_id":"228967","sources":[{"url":"https://mgeb.top/embed/228967","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/228967","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entrevista%20_2014_%20_tmdb_228967_906b0e7c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"228967","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-enviada-do-mal","title":"A Enviada do Mal","type":"movie","year":null,"poster_url":"/wmXwUbXMQjR7dmmQepDDhhSmVLw.jpg","genres":["Terror","Mistério"],"tmdb_id":"334536","sources":[],"provider_refs":[{"provider":"18","ref":"334536","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-enviada-do-mal-2017","title":"A Enviada do Mal (2017)","type":"movie","year":"2017","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Enviada%20do%20Mal%20_2017_%20_tmdb_334536_ab2f131d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-epidemia","title":"A Epidemia","type":"movie","year":"2014","poster_url":"/cDbclzPox0H0dn5nq1O9rcJQcEM.jpg","genres":["Comédia","Terror","Ação","Ficção científica","Suspense"],"tmdb_id":"241843","sources":[{"url":"https://mgeb.top/embed/241843","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/241843","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/29427","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/29427","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/4cc96ce5de8ee53502e8c920af07c14b/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Epidemia%20_2010_%20_tmdb_29427_8cbf5ccb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Cooties_%20A%20Epidemia%20_2014_%20_tmdb_241843_db3f8458.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"241843","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-epidemia-2010","title":"A Epidemia (2010)","type":"movie","year":"2010","poster_url":"/cc6QIKKSDVWYHtSLoNKi2aqYslY.jpg","genres":["Mistério","Terror","Ação"],"tmdb_id":"29427","sources":[{"url":"https://mgeb.top/embed/29427","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/29427","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"29427","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-epidemia-zumbi","title":"A Epidemia Zumbi","type":"movie","year":null,"poster_url":"/mQVlinrnC7JHDOpkodJgcUnxVvQ.jpg","genres":["Terror","Suspense"],"tmdb_id":"356326","sources":[],"provider_refs":[{"provider":"18","ref":"356326","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-epidemia-zumbi-2015","title":"A Epidemia Zumbi (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Epidemia%20Zumbi%20_2015_%20_tmdb_356326_c21afc3b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-da-escuridao-2016","title":"A Era da Escuridão (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20da%20Escurid_o%20_2016_%20_tmdb_363579_ec6b6aa5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-da-escuridao-mutant-chronicles-2008","title":"A Era Da Escuridão: Mutant Chronicles (2008)","type":"movie","year":"2008","poster_url":"/mTjPjWh7EwPCKPmFZs7HOszPj9Q.jpg","genres":["Ação","Aventura","Ficção científica"],"tmdb_id":"13256","sources":[{"url":"https://mgeb.top/embed/13256","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/13256","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20Da%20Escurid_o_%20Mutant%20Chronicles%20_2008_%20_tmdb_13256_ae8eb9d7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"13256","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-era-de-kasym","title":"A Era de Kasym","type":"movie","year":null,"poster_url":"/eKDT8G4qWNqpe889WFOHTyuWusk.jpg","genres":["História","Drama","Ação","Guerra"],"tmdb_id":"975262","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bc12f8bab0a95f927a529d9971098ccb/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/975262","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/975262","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Kasym%20_2022_%20_tmdb_975262_1631af3e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"975262","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450568","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450424","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-era-de-lareokoto","title":"A Era de Lareokotô","type":"movie","year":null,"poster_url":"/tWKq17VKsU1SZb9uMeCGgLHYxFQ.jpg","genres":["Documentário"],"tmdb_id":"695535","sources":[{"url":"https://mgeb.top/embed/695535","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/695535","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Lareokot%20_2019_%20_tmdb_695535_121eb1f8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"695535","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452780","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647767","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-era-de-ouro","title":"A Era de Ouro","type":"movie","year":null,"poster_url":"/9slCWNlcIhgBtlf5HGmmIhuuIUm.jpg","genres":["Drama"],"tmdb_id":"300373","sources":[{"url":"https://mgeb.top/embed/300373","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/300373","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Ouro%20_2023_%20_tmdb_326316_6c3475ce.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-de-ouro-2023","title":"A Era de Ouro (2023)","type":"movie","year":"2023","poster_url":"/p7HiwisHEP9l1bF3LMnoF3R63nn.jpg","genres":["Música","Drama"],"tmdb_id":"326316","sources":[{"url":"https://mgeb.top/embed/326316","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/326316","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/300373","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/300373","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"326316","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457369","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652364","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-era-do-desacobertamento","title":"A Era do Desacobertamento","type":"movie","year":null,"poster_url":"/7f0gVJ2DwygToEFSS5GVsd2kO9T.jpg","genres":["Documentário"],"tmdb_id":"1422166","sources":[{"url":"https://mgeb.top/embed/1422166","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1422166","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1422166","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-gelo-2002","title":"A Era do Gelo (2002)","type":"movie","year":"2002","poster_url":"/dlqC2gJs02gc23XvyOjoz52ToRI.jpg","genres":["Animação","Comédia","Família","Aventura"],"tmdb_id":"425","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/4aeeb0509731d5384ebe3708043ca1b0/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/425","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/425","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%20_2002_%20_tmdb_425_ac2b1058.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"425","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459289","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646356","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-gelo-2","title":"A Era do Gelo 2","type":"movie","year":null,"poster_url":"/5BSEXwvi0xDC2CbMkZQ0LngaVOh.jpg","genres":["Animação","Família","Comédia","Aventura"],"tmdb_id":"950","sources":[{"url":"https://mgeb.top/embed/950","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/950","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%202%20_2006_%20_tmdb_950_d66f1cf2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"950","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459271","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646355","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-gelo-2-2006","title":"A Era do Gelo 2 (2006)","type":"movie","year":"2006","poster_url":"/5BSEXwvi0xDC2CbMkZQ0LngaVOh.jpg","genres":["Animação","Família","Comédia","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/950","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/950","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-3","title":"A Era do Gelo 3","type":"movie","year":null,"poster_url":"/kaXQMlurbJ6n5u33TRePTXWxPHY.jpg","genres":["Animação","Comédia","Família","Aventura"],"tmdb_id":"8355","sources":[{"url":"https://mgeb.top/embed/8355","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/8355","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%203%20_2009_%20_tmdb_8355_42cad15a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"8355","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459034","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646354","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-gelo-3-2009","title":"A Era do Gelo 3 (2009)","type":"movie","year":"2009","poster_url":"/kaXQMlurbJ6n5u33TRePTXWxPHY.jpg","genres":["Animação","Comédia","Família","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/8355","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/8355","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-4","title":"A Era do Gelo 4","type":"movie","year":null,"poster_url":"/dWiHLqARtyAAOy0nLvXIxRYkfNA.jpg","genres":["Animação","Comédia","Aventura","Família"],"tmdb_id":"57800","sources":[{"url":"https://mgeb.top/embed/57800","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/57800","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%204%20_2012_%20_tmdb_57800_935ddf85.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"57800","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459521","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646353","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-gelo-4-2012","title":"A Era do Gelo 4 (2012)","type":"movie","year":"2012","poster_url":"/dWiHLqARtyAAOy0nLvXIxRYkfNA.jpg","genres":["Animação","Comédia","Aventura","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/57800","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/57800","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-o-big-bang-2016","title":"A Era do Gelo O Big Bang (2016)","type":"movie","year":"2016","poster_url":"/e7R8ULZLdiKO2uYtXqifwf2pJfy.jpg","genres":["Aventura","Animação","Família","Comédia","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/278154","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/278154","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-a-grande-cacada-aos-ovos-de-pascoa","title":"A Era do Gelo: A Grande Caçada aos Ovos de Páscoa","type":"movie","year":null,"poster_url":"/1ElCrTKMsWVmt9WPgfxMQr0l8PG.jpg","genres":["Animação","Comédia","Família","TV"],"tmdb_id":"387893","sources":[{"url":"https://mgeb.top/embed/387893","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/387893","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20A%20Grande%20Ca_ada%20aos%20Ovos%20de%20P_scoa%20_2016_%20_tmdb_387893_6f4afd08.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"387893","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459233","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-as-aventuras-de-buck","title":"A Era do Gelo: As Aventuras de Buck","type":"movie","year":null,"poster_url":"/qeP3p3T6PWZXpoYLBbdeL6rfT5W.jpg","genres":["Animação","Comédia","Família","Aventura"],"tmdb_id":"774825","sources":[{"url":"https://mgeb.top/embed/774825","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/774825","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20As%20Aventuras%20de%20Buck%20_2022_%20_tmdb_774825_494c45fe.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"774825","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646228","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-era-do-gelo-as-aventuras-de-buck-2022","title":"A Era do Gelo: As Aventuras de Buck (2022)","type":"movie","year":"2022","poster_url":"/qeP3p3T6PWZXpoYLBbdeL6rfT5W.jpg","genres":["Animação","Comédia","Família","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/774825","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/774825","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-do-gelo-especial-de-natal","title":"A Era do Gelo: Especial de Natal","type":"movie","year":null,"poster_url":"/tNJDdFZozVL4JWc7pYbAsnbeF4K.jpg","genres":["Animação","Família","TV"],"tmdb_id":"79218","sources":[{"url":"https://mgeb.top/embed/79218","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/79218","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20Especial%20de%20Natal%20_2011_%20_tmdb_79218_63b64c45.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"79218","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"902559","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-era-do-gelo-o-big-bang","title":"A Era do Gelo: O Big Bang","type":"movie","year":null,"poster_url":"/e7R8ULZLdiKO2uYtXqifwf2pJfy.jpg","genres":["Aventura","Animação","Família","Comédia","Ficção científica"],"tmdb_id":"278154","sources":[{"url":"https://mgeb.top/embed/278154","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/278154","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20O%20Big%20Bang%20_2016_%20_tmdb_278154_38d7b4a6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Big%20Bang%20_2022_%20_tmdb_998938_7d157cd6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Big%20Bang%20_1986_%20_tmdb_322697_cfb2e4e5.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"278154","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459311","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646352","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-era-do-radio","title":"A Era do Rádio","type":"movie","year":null,"poster_url":"/xWnaM1RpE9PSmGiEPMxpyz6umgs.jpg","genres":["Comédia","Drama"],"tmdb_id":"30890","sources":[{"url":"https://mgeb.top/embed/30890","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/30890","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Radio%20_1987_%20_tmdb_30890_95d54a83.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"30890","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"896955","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-a-era-dos-dragoes","title":"A Era dos Dragões","type":"movie","year":null,"poster_url":"/dw5wraNaujH69dxdFTIslErL0nO.jpg","genres":["Aventura","Ação","Fantasia"],"tmdb_id":"59883","sources":[],"provider_refs":[{"provider":"18","ref":"59883","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-era-dos-dragoes-2011","title":"A Era dos Dragões (2011)","type":"movie","year":"2011","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20dos%20Drag_es%20_2011_%20_tmdb_59883_46108ff7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-era-dos-humanos","title":"A Era dos Humanos","type":"movie","year":"2023","poster_url":"/s4priSqcknNZ8BPo8d4HQWsGhsa.jpg","genres":["Documentário"],"tmdb_id":"1283280","sources":[{"url":"https://mgeb.top/embed/1283280","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1283280","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20dos%20Humanos%20_2023_%20_tmdb_1283280_3dfe4c6a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1283280","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-erva-do-rato","title":"A Erva do Rato","type":"movie","year":null,"poster_url":"/6iEhNYpK8uuX3IV7JWVwBCSUtf.jpg","genres":["Terror","Drama"],"tmdb_id":"52247","sources":[],"provider_refs":[{"provider":"18","ref":"52247","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-a-erva-do-rato-2009","title":"A Erva do Rato (2009)","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Erva%20do%20Rato%20_2009_%20_tmdb_52247_bbade9f7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-escala-amizade-em-segundo-lugar","title":"A Escala: Amizade Em Segundo Lugar","type":"movie","year":null,"poster_url":"/1JtZcIYVg5Z3tnA0bkHm4EbtcHP.jpg","genres":["Comédia","Romance"],"tmdb_id":"339404","sources":[{"url":"https://mgeb.top/embed/339404","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/339404","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escala_%20Amizade%20em%20Segundo%20Lugar%20_2017_%20_tmdb_339404_567867cc.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"339404","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461681","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651976","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-escala-amizade-em-segundo-lugar-2017","title":"A Escala: Amizade em Segundo Lugar (2017)","type":"movie","year":"2017","poster_url":"/1JtZcIYVg5Z3tnA0bkHm4EbtcHP.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/339404","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/339404","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-escalada","title":"A Escalada","type":"movie","year":null,"poster_url":"/yMXaUoJVrnblTVfREWS4YxkHWxU.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1270511","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1270511","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-escalada-2002","title":"A Escalada (2002)","type":"movie","year":"2002","poster_url":"/swOexPWujYsroCcWh6CdiS6i63J.jpg","genres":["Drama","Ação"],"tmdb_id":"26467","sources":[{"url":"https://mgeb.top/embed/26467","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26467","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/1270511","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1270511","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escalada%20_2017_%20_tmdb_421447_41aff6f7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escalada%20_2002_%20_tmdb_26467_714fc0ff.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"26467","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"421447","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456142","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652513","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-a-escavacao-2021","title":"A Escavacao (2021)","type":"movie","year":"2021","poster_url":"/1XWxZs5JOA2itGObDzLZLZeCfaE.jpg","genres":["Drama","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/532865","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/532865","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-a-escavacao","title":"A Escavação","type":"movie","year":null,"poster_url":"/1XWxZs5JOA2itGObDzLZLZeCfaE.jpg","genres":["Drama","História"],"tmdb_id":"532865","sources":[{"url":"https://mgeb.top/embed/532865","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/532865","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escava_o%20_2021_%20_tmdb_532865_69d180dd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"532865","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456105","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653583","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1}]
+[
+  {
+    "id": "movie-a-despedida-2019",
+    "title": "A Despedida (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/oenx30V5wzfMjxzTOOM1CD9YSq4.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "536396",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/536396",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/536396",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "536396",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651070",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652217",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653382",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Neste retrato otimista da morte, uma mãe reúne sua família para alguns dias na praia após decidir encerrar sua batalha com uma doença. Mas nem todos estão tão tranquilos com a despedida. Com as vencedoras do Oscar Susan Sarandon e Kate Winslet."
+  },
+  {
+    "id": "movie-a-despedida-2020",
+    "title": "A Despedida (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/oenx30V5wzfMjxzTOOM1CD9YSq4.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/536396",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/536396",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-deusa-da-vinganca-2016",
+    "title": "A Deusa da Vingança (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/pWFo72g7YIcc5ADZT9b6LzP6T6K.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "412766",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d9e56f55cb0bb01a0dbea851238f83bd/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/412766",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/412766",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20da%20Vingan_a%20_2016_%20_tmdb_412766_1fa43eb1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "412766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Sam, um vendedor ambulante, viaja pelo deserto em busca de clientes, mas a área parece deserta. E sua esposa não atende suas chamadas telefônicas. É como se todos estivessem evitando ele. Seu único contato com o mundo exterior é uma estação de rádio local. O anfitrião, um homem estranho com o nome de Eddy, atende chamadas a respeito de um assassino de crianças, e empurra os ouvintes para caçar o homem até a morte. É quando Sam percebe que todos pensam que ele é o assassino."
+  },
+  {
+    "id": "movie-a-deusa-dos-vagalumes",
+    "title": "A Deusa dos Vagalumes",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/xWiOWC7bg50ik1FPpcY2XuGLoQx.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "633742",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/633742",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/633742",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20dos%20Vagalumes%20_2020_%20_tmdb_633742_715fa9d8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "633742",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455455",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652771",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Adaptado do romance best-seller de Geneviève Pettersen, La déesse des mouches à feu, A Deusa dos Vagalumes se passa na década de 1990 e conta história de Catherine, uma adolescente que mora em Chicoutimi e está passando por um período difícil, em que descobrirá o sexo, drogas, amor e a morte."
+  },
+  {
+    "id": "movie-a-deusa-dos-vagalumes-2020",
+    "title": "A Deusa dos Vagalumes (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/xWiOWC7bg50ik1FPpcY2XuGLoQx.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/633742",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/633742",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-deusa-fortuna",
+    "title": "A Deusa Fortuna",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/b2TMQ4IvyFKuCmmFYojW9jH2MXG.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "606952",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/606952",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/606952",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Deusa%20Fortuna%20_2019_%20_tmdb_606952_7f89f409.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Fortuna%20_2019_%20_tmdb_686872_2a9064a7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "606952",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456992",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "686872",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460308",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653152",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651408",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Alessandro e Arturo estão juntos há mais de 15 anos e, apesar do sentimento que ainda têm um pelo outro, a relação deles está em crise. Quando a melhor amiga de Alessandro, do nada, pede que eles cuidem de seus dois filhos por alguns dias, algo muda em sua rotina diária e o amor os levará a uma virada louca e inesperada em suas vidas."
+  },
+  {
+    "id": "movie-a-deusa-fortuna-2019",
+    "title": "A Deusa Fortuna (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/b2TMQ4IvyFKuCmmFYojW9jH2MXG.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/606952",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/606952",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-dificil-vinganca",
+    "title": "A Difícil Vingança",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/uUqcv8ZlRTwy5myECIyR6yA2grA.jpg",
+    "genres": [
+      "Ação",
+      "Faroeste"
+    ],
+    "tmdb_id": "109500",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "109500",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Christian Slater, Jill Hennessy e Donald Sutherland estrelam esta envolvente história de vingança e paixão no Oeste americano. Quando o pai do atirador John Mason (Slater) é morto por bandidos ascarados, Mason vai com toda a fúria caçar aqueles que o mataram. Durante sua missão, ele se vê envolvido em um amargo triângulo amoroso, quando se apaixona pela bela e decidida Alice, também adorada por seu melhor amigo. Baseado na eterna aventura de John Wayne, A Difícil Vingança é uma emocionante saga de recompensa, dever e valor no Oeste americano."
+  },
+  {
+    "id": "movie-a-dificil-vinganca-2012",
+    "title": "A Difícil Vingança (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dif_cil%20Vingan_a%20_2012_%20_tmdb_109500_8eb468e3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-discussao",
+    "title": "A Discussão",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/BOFJrBQ5YjYFCBG3wbRjNlme3o.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "735436",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/735436",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/735436",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Discuss_o%20_2020_%20_tmdb_735436_b40635a1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "735436",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460993",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651055",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O casal Jack (Dan Fogler) e Lisa (Emma Bell) se reúne com um grupo de amigos (Tyler James Williams, Cleopatra Coleman, Maggie Q e Danny Pudi) em sua casa para uma noite de drinks. Quando uma discussão entre os dois começa a ficar acalorada, o evento acaba tendo que ser interrompido. Revoltados porque não conseguiram convencer um ao outro com seus argumentos, a dupla decide recriar o episódio até que cheguem a um acordo."
+  },
+  {
+    "id": "movie-a-discussao-2020",
+    "title": "A Discussão (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/BOFJrBQ5YjYFCBG3wbRjNlme3o.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/735436",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/735436",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-disputa",
+    "title": "A Disputa",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/qjnFtcmmaO3j87feotRtFta7vmM.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "21868",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/21868",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/21868",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Disputa%20_2021_%20_tmdb_840283_715b8e4b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2445537",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A história verídica de um pai que luta para criar sozinho os filhos na Irlanda de 1953. Ele fica arrasado quando as autoridades eclesiásticas e os tribunais irlandeses lhe tiram a custódia das crianças e as colocam em um orfanato. Com a ajuda de amigos e de um advogado, ele consegue fazer o que nunca ninguém fizera: desafiar uma lei inflexível."
+  },
+  {
+    "id": "movie-a-disputa-2020",
+    "title": "A Disputa (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/qjnFtcmmaO3j87feotRtFta7vmM.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/21868",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/21868",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-disputa-2021",
+    "title": "A Disputa (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/jYFaFJPg79ngwBrxjQw4aThzen4.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Guerra"
+    ],
+    "tmdb_id": "840283",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/8f502d2dae457803446d0a80dce6af00/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/840283",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/840283",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "840283",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Inspirado por verdadeiros eventos da primavera de 1944, quando os nazistas organizaram uma partida de futebol entre uma equipe de internos do campo e uma equipe de elite nazista no aniversário de Adolf Hitler. Uma partida que os prisioneiros estão determinados a vencer, aconteça o que acontecer."
+  },
+  {
+    "id": "movie-a-disputa-do-natal",
+    "title": "A Disputa do Natal",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/70fiLbvk76cdaHRyTkPxxj8aJDi.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "888652",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/888652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/888652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "888652",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Nesta fábula natalina da vida real com um toque diferente, Jeremy Morris dá outro sentido ao espírito de Natal quando sua comemoração extravagante gera uma disputa com os vizinhos que termina no tribunal."
+  },
+  {
+    "id": "movie-a-disputa-do-natal-2021",
+    "title": "A Disputa do Natal (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/70fiLbvk76cdaHRyTkPxxj8aJDi.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/888652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/888652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-disputa-dos-sexos",
+    "title": "A Disputa dos Sexos",
+    "type": "movie",
+    "year": "1977",
+    "poster_url": "/8tJ8eSNcF2LMU7i2IZcGzmL7KQl.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "4988",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/4988",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/4988",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Disputa%20dos%20Sexos%20_1977_%20_tmdb_4988_54063842.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "4988",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460876",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762900",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma amizade a três entre dois jogadores de futebol profissional de espírito livre e a filha do proprietário fica comprometida quando dois deles se envolvem romanticamente."
+  },
+  {
+    "id": "movie-a-distancia-certa-2007",
+    "title": "A Distancia Certa (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": null,
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1703924",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1703924",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1703924",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-ditadura-perfeita",
+    "title": "A Ditadura Perfeita",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/pjNWekSbafFIPLBNZQ9gUaX3tkV.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "264525",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "264525",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Depois de mais uma das frequentes gafes cometidas pelo presidente da República, o MX TV, maior TV do México, tem que ajudar seu aliado político antes que a polêmica gere uma crise na sua imagem. Para isso, a televisão tenta desviar a atenção do povo exibindo, em horário nobre, um vídeo onde o Governador Carmelo Vargas (Damián Alcázar) pratica corrupção. Desesperado para salvar seu futuro político, Vargas decide fechar um acordo secreto com a própria emissora que o denunciou para mudar sua imagem e torná-lo a nova estrela política do país.  Mas para lançar esse possível novo candidato à presidência a qualquer custo, a situação acaba fugindo do controle."
+  },
+  {
+    "id": "movie-a-ditadura-perfeita-2014",
+    "title": "A Ditadura Perfeita (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Ditadura%20Perfeita%20_2014_%20_tmdb_264525_ad2c3781.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-diva-da-mafia-renasce-das-chamas-mafia-diva-reborn-from-the-flames",
+    "title": "A DIVA DA MAFIA RENASCE DAS CHAMAS - MAFIA DIVA REBORN FROM THE FLAMES",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-divina-comedia-1991",
+    "title": "A Divina Comédia (1991)",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": "/gLRWIn5f0gH9Z8h79CiBupJOJUy.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/104482",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/104482",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-divisao-2020",
+    "title": "A Divisao (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/hcjQWaH8RfDi5TqwHZtViVQLjyT.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "651866",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ec7b904d9f65fb2c09e4bc74643738aa/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/651866",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/651866",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Divis_o%20_2020_%20_tmdb_651866_774c20e6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "651866",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454064",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649581",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "No Rio de Janeiro da década de 1990, uma onda de sequestros assola a cidade maravilhosa. Quando o secretário de segurança e o chefe da polícia encarregam três policiais corruptos de tirar a cidade dessa situação, a Delegacia Anti-sequestro precisa entrar em ação para enfrentar o repetitivo número de casos envolvendo sequestros e mudar o cenário carioca."
+  },
+  {
+    "id": "movie-a-doce-e-amada-cozinheirinha",
+    "title": "A DOCE E AMADA COZINHEIRINHA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-doce-esposa-do-chefe-frio",
+    "title": "A DOCE ESPOSA DO CHEFE FRIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-doce-esposa-gravida-mimada-pelo-marido-milionario",
+    "title": "A DOCE ESPOSA GRAVIDA MIMADA PELO MARIDO MILIONARIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-doce-perseguicao-do-papai",
+    "title": "A DOCE PERSEGUICAO DO PAPAI",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-docura-amarga-de-ve-la-divorciada",
+    "title": "A Docura Amarga de ve la Divorciada",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-dogs-journey-legendado",
+    "title": "A Dogs Journey Legendado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-dois-passos-do-assassino",
+    "title": "A Dois Passos do Assassino",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/xbBpMvfntGLYSQ3MJ39cOt5NGgD.jpg",
+    "genres": [
+      "Crime",
+      "Suspense",
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "1127375",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1127375",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1127375",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dois%20Passos%20do%20Assassino%20_2024_%20_tmdb_1127375_4bb01929.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1127375",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444445",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "913584",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Annie Sullivan é uma jornalista que escreve sobre um famoso serial killer ao mesmo tempo em que tenta ajudar um detetive a solucionar o caso. Buscando um pouco de paz e tranquilidade, ela se muda para uma pequena cidade rural, mas descobre que a violência não conhece fronteiras."
+  },
+  {
+    "id": "movie-a-dona-s01e1111",
+    "title": "A Dona S01E1111",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "11",
+        "ref": "2342213",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-doutora-e-a-imperatriz",
+    "title": "A Doutora e a Imperatriz",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-doutora-e-seu-marido-secreto",
+    "title": "A DOUTORA E SEU MARIDO SECRETO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-dupla-explosiva",
+    "title": "A Dupla Explosiva",
+    "type": "movie",
+    "year": "1974",
+    "poster_url": "/3cl6oytCYbWYZY3pOD7zpmYy6AT.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "6916",
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Explosiva%20_2022_%20_tmdb_838197_82a8c78d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Explosiva%20_1974_%20_tmdb_6916_65126762.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Depois de um empate em 1º lugar em uma corrida de acrobacias local, dois pilotos iniciam uma disputa para decidir quem será o dono do prêmio, um buggy. Mas quando um mafioso destrói o carro, eles estão determinados a recuperá-lo."
+  },
+  {
+    "id": "movie-a-dupla-explosiva-2022",
+    "title": "A Dupla Explosiva (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/a3w9A9k7KSzLffT23dMdL0R7oMJ.jpg",
+    "genres": [
+      "Comédia",
+      "Ação"
+    ],
+    "tmdb_id": "838197",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/31efd0aac0289f77b9071ffb714571ed/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/838197",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/838197",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "838197",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "6916",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461047",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Neste reboot do clássico dos anos 1970 com Bud Spencer e Terence Hill, dois irmãos que passaram 25 anos afastados se reúnem para recuperar o amado bugue do pai."
+  },
+  {
+    "id": "movie-a-dupla-naturesa-de-sua-esposa-sedutora",
+    "title": "A Dupla Naturesa de Sua Esposa Sedutora",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-dupla-natureza-de-sua-esposa-sedutora",
+    "title": "A DUPLA NATUREZA DE SUA ESPOSA SEDUTORA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-dupla-vida-de-uma-herdeira-bilionaria",
+    "title": "A DUPLA VIDA DE UMA HERDEIRA BILIONARIA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-dupla-vida-de-veronique",
+    "title": "A Dupla Vida de Véronique",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": "/pQ25yX2PaqqCnQcEBLss1OdouMB.jpg",
+    "genres": [
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "1600",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1600",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Weronika vive na Polónia. Véronique vive em Paris. Não se conhecem e não tem nenhuma relação. No entanto, são idênticas: ambas são esquerdinas, gostam de andar descalças, têm o mesmo brilho no olhar, uma voz sublime, um sentido musical absoluto e, acima de tudo, partilham o mesmo problema cardíaco dificilmente detectável. Sem o saber, uma irá beneficiar das experiências e sabedoria da outra. Como se cada vez que a primeira se magoasse com um qualquer objecto a segunda evitasse tocar no mesmo. Em França, Véronique descobre o amor na figura de um escritor e criador de teatro de marionetas..."
+  },
+  {
+    "id": "movie-a-dupla-vida-de-veronique-1991",
+    "title": "A Dupla Vida de Véronique (1991)",
+    "type": "movie",
+    "year": "1991",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Dupla%20Vida%20de%20V_ronique%20_1991_%20_tmdb_1600_39f1c307.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-duquesa",
+    "title": "A Duquesa",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/yA875ZvQCNHWi6fSUnyGCBhPstE.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Romance"
+    ],
+    "tmdb_id": "12783",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12783",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12783",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Duquesa%20_2008_%20_tmdb_12783_c57a829b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "12783",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454979",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653433",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Georgiana Spencer casou-se aos 18 anos com o Duque de Devonshire, que queria a todo custo ter um filho. Possuindo o título de Duquesa de Devonshire, logo Georgiana demonstrou sua inteligência e perspicácia perante a corte inglesa. Entretanto, ela não conseguia dar ao duque um filho, com todas as suas tentativas de ficar grávida resultando em abortos ou em filhas. Isto faz com que o relacionamento entre eles se deteriore, pouco a pouco."
+  },
+  {
+    "id": "movie-a-duquesa-2008",
+    "title": "A Duquesa (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/yA875ZvQCNHWi6fSUnyGCBhPstE.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12783",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12783",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-duquesa-vingadora-2024",
+    "title": "A Duquesa Vingadora (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/yOpm3V3Hde76UiW6Q4Q3OGpEdik.jpg",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "1005076",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/517a502f8e8e97b90afaa73310621062/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1005076",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1005076",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Duquesa%20Vingadora%20_2024_%20_tmdb_1005076_bbdf93e2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1005076",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447877",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454825",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884366",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Duchess, uma criminosa de pequena escala, tenta entrar no perigoso mundo do tráfico de diamantes e acaba dada como morta quando um negócio dá errado. Determinada a fazer justiça, ela inicia uma incansável busca para ajustar contas."
+  },
+  {
+    "id": "movie-a-edicao-do-nordeste",
+    "title": "A Edição do Nordeste",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/iCY5jx25RLZT9HeI5fxOFoQhhl5.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1141546",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1141546",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1141546",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2470650",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "930239",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Para se inventar uma região é preciso criar sua cultura, de preferência com ajuda do cinema. Inspirado no livro e peça “A Invenção do Nordeste”, esta é uma reedição de filmes brasileiros essenciais para a fundação do imaginário nordestino."
+  },
+  {
+    "id": "movie-a-educacao-de-mohammad-hussein-2012",
+    "title": "A Educacao de Mohammad Hussein (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/4KtFRQTXaguFyHuSHJkZAGi5FfL.jpg",
+    "genres": [
+      "Documentário",
+      "Drama"
+    ],
+    "tmdb_id": "137646",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/137646",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/137646",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Documentário sobre como vive uma comunidade muçulmana em Detroit, uma década após os ataques terroristas de 2001."
+  },
+  {
+    "id": "movie-a-elefanta-do-magico-2023",
+    "title": "A Elefanta do Magico (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/g7weieVLynnkcFqOWA5WAmjffNB.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Família",
+      "Fantasia",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/776835",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/776835",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-elefanta-do-magico",
+    "title": "A Elefanta do Mágico",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/g7weieVLynnkcFqOWA5WAmjffNB.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Família",
+      "Fantasia",
+      "Comédia"
+    ],
+    "tmdb_id": "776835",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/776835",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/776835",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Elefanta%20do%20M_gico%20_2023_%20_tmdb_776835_9d29f3ba.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "776835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646134",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um garoto aceita o desafio proposto por um rei: realizar três tarefas impossíveis para ganhar uma elefanta mágica e ter a chance de ir atrás de seu destino."
+  },
+  {
+    "id": "movie-a-empregada-2025",
+    "title": "A Empregada (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/qaqAdyuk8Fcgfsj19Cj3OpJ8hN.jpg",
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "1368166",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ad00ce9ffdacfc1b8660a0307a984a9c/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c16093e08a0fe6234ba18c2c9243ec66/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e181a1f69d346f1b6a3c97d8d90c81a6/master.txt",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1368166",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1368166",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://comprarebom.xyz/cdn/down/bb9f6f7da7cb14097b736bf1/index.m3u8",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Empregada%20_2025_%20_tmdb_1368166_5ef1813a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Empregada%20_2010_%20_tmdb_45202_03444c6f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1368166",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "45202",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444865",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "904332",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Millie é uma mulher passando por dificuldades que se sente aliviada com a chance de um novo começo como empregada doméstica de Nina e Andrew, um casal rico. Logo, ela descobre que os segredos da família são muito mais perigosos do que os seus."
+  },
+  {
+    "id": "movie-a-empregada-do-bilionario-the-billionaires-maid",
+    "title": "A EMPREGADA DO BILIONARIO - THE BILLIONAIRES MAID",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-empregada-secreta-do-chefe-da-mafia",
+    "title": "A EMPREGADA SECRETA DO CHEFE DA MAFIA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-empregada-vingativa",
+    "title": "A EMPREGADA VINGATIVA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-encruzilhada",
+    "title": "A Encruzilhada",
+    "type": "movie",
+    "year": "1986",
+    "poster_url": "/u0w7385y4UcloI2VEbWdQreaXFi.jpg",
+    "genres": [
+      "Drama",
+      "Música",
+      "Romance",
+      "Mistério"
+    ],
+    "tmdb_id": "15392",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/15392",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/15392",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Encruzilhada%20_2020_%20_tmdb_728604_afee1116.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Encruzilhada%20_1986_%20_tmdb_15392_9768553f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/728604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/728604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "15392",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446169",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455973",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Eugene Martone é um jovem e talentoso guitarrista que está buscando uma canção de sucesso para alcançar o estrelato. Ele pede ajuda a Willie Brown, um veterano músico de blues, e o segue até sua cidade de origem. Aprendendo a arte do blues, o jovem não sabe que está a caminho de uma encruzilhada."
+  },
+  {
+    "id": "movie-a-encruzilhada-1986",
+    "title": "A Encruzilhada (1986)",
+    "type": "movie",
+    "year": "1986",
+    "poster_url": "/u0w7385y4UcloI2VEbWdQreaXFi.jpg",
+    "genres": [
+      "Drama",
+      "Música",
+      "Romance",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/15392",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/15392",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-encruzilhada-2020",
+    "title": "A Encruzilhada (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/qrEGDX1NtbvKMeCq7zsAi62y3D9.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "728604",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/728604",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/728604",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "728604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647270",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654367",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Jake Galloway é um charmoso vigarista que tem sua vida virada de cabeça para baixo ao descobrir que o seu filho foi sequestrado. Ele é forçado a dirigir pelas ruas de Sidney e completar uma série de tarefas para aprender que as suas ações têm consequências."
+  },
+  {
+    "id": "movie-a-enfermeira-assassina",
+    "title": "A Enfermeira Assassina",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1Sv0E1E0NwlntDrqH1c43vvSrLF.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "78383",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/78383",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/78383",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Nurse_%20A%20Enfermeira%20Assassina%20_2013_%20_tmdb_78383_a86d3e10.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "78383",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451667",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655104",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-a-enfermeira-assassina-2013",
+    "title": "A Enfermeira Assassina (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/1Sv0E1E0NwlntDrqH1c43vvSrLF.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/78383",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/78383",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-enfermeira-betty-2000",
+    "title": "A Enfermeira Betty (2000)",
+    "type": "movie",
+    "year": "2000",
+    "poster_url": "/fe36YMFeZm64ZHhcaySKVoQhOFr.jpg",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "10480",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10480",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10480",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Enfermeira%20Betty%20_2000_%20_tmdb_10480_b6a21ee6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10480",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Betty Sizemore (Renée Zellweger) é uma garçonete que mora em uma pequena cidade e vive sonhando com seu verdadeiro amor: David Ravell (Greg Kinnear), o médico da novela \"Uma Razão Para Amar\", que ela assiste todos os dias. Só que, depois de testemunhar o assassinato de seu marido, numa transação de drogas que saiu errada, Betty começa a viver como se estivesse dentro de sua novela predileta, quando se transforma da garçonete Betty para a enfermeira Betty. Resolve então partir rumo a Hollywood para encontrar o médico dos seus sonhos, mas passa a ser perseguida pelos traficantes que mataram seu marido e, principalmente, por um impiedoso pistoleiro (Morgan Freeman)."
+  },
+  {
+    "id": "movie-a-entidade-2012",
+    "title": "A Entidade (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/uTaCFSTQ29LKqLXJU75owdir04h.jpg",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Mistério"
+    ],
+    "tmdb_id": "82507",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/42da3ad1a03bedd74251f354a8fb49f5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/82507",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/82507",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%20_2019_%20_tmdb_601343_f4a1be98.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%20_2012_%20_tmdb_82507_6c5d8302.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "82507",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449216",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451600",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452187",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655268",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "736069",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Ellison (Ethan Hawke) é um escritor de romances policias que acaba de se mudar com a família. No sótão da nova casa ele descobre antigos rolos de filme, que trazem imagens de pessoas sendo mortas. Intrigado com o que elas representam e com um estranho símbolo presente nas imagens, ele e sua família logo passam a correr sério risco de morte."
+  },
+  {
+    "id": "movie-a-entidade-2-2015",
+    "title": "A Entidade 2 (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/1nKrDcCzDG5LLamYb3dWWenE92L.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "283445",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/72216e1fa5263c8e11ca27f228779ee2/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/283445",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/283445",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entidade%202%20_2015_%20_tmdb_283445_f2518453.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "283445",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452184",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655269",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Courtney, uma jovem mãe solteira e superprotetora de dois gêmeos de 9 anos, se muda com os filhos para uma casa em uma área rural de uma pequena cidade. Logo, ela descobre que o local foi palco de estranhos acontecimentos e que sua família está marcada para morrer."
+  },
+  {
+    "id": "movie-a-entrega",
+    "title": "A Entrega",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/4Ne8Kjt2UGJkOABhs1LopDVAAju.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "154400",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/154400",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/154400",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entrega%20_2014_%20_tmdb_154400_6570861e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "154400",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um atendente de bar, Bob Saginowski (Tom Hardy), que busca deixar o universo do crime, mas acaba envolvido em uma complicada trama com um filhote de pit bull, um assalto e um assassinato. O bar onde Bob trabalha atende mafiosos e gângsters. Tudo fica ainda mais complicado para ele pois se apaixona por Nadia (Noomi Rapace)."
+  },
+  {
+    "id": "movie-a-entrega-2014",
+    "title": "A Entrega (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/4Ne8Kjt2UGJkOABhs1LopDVAAju.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/154400",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/154400",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-entrevista-2014",
+    "title": "A Entrevista (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/zz1wnnIS22JI10NU7cT9r4YP7DQ.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "228967",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/228967",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/228967",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Entrevista%20_2014_%20_tmdb_228967_906b0e7c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "228967",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Dave Skylark e seu produtor Aaron Rapoport têm um programa de TV apelativo sobre celebridades chamado \"Skylark Tonight\". Eles descobrem que o ditador norte-coreano Kim Jong-un é fã do programa e decidem fazer uma entrevista com ele, na tentativa de legitimarem-se como jornalistas. Enquanto Dave e Aaron se preparam para viajar para Pyongyang, eles têm seus planos mudados pela CIA, que os recruta para assassinar Kim Jong-un."
+  },
+  {
+    "id": "movie-a-enviada-do-mal",
+    "title": "A Enviada do Mal",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/wmXwUbXMQjR7dmmQepDDhhSmVLw.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "334536",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "334536",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Kat (Kiernan Shipka) e Rose (Lucy Boynton) são deixadas sozinhas em uma escola preparatória durante as férias de inverno, quando seus pais, misteriosamente, deixam de buscá-las. Enquanto as meninas presenciam ocorrências cada vez mais estranhas e assustadoras, ela cruzam com outra história – a de Joan (Emma Roberts), uma jovem problemática, que, por razões desconhecidas, está determinada a chegar a Bramford o mais rápido que puder. À medida que Joan se aproxima da escola, Kat torna-se atormentada por visões cada vez mais intensas e horrorosas, com Rose fazendo o seu melhor para ajudar seu novo amigo, enquanto ela desliza cada vez mais no alcance de uma força maligna."
+  },
+  {
+    "id": "movie-a-enviada-do-mal-2017",
+    "title": "A Enviada do Mal (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Enviada%20do%20Mal%20_2017_%20_tmdb_334536_ab2f131d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-epidemia",
+    "title": "A Epidemia",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/cDbclzPox0H0dn5nq1O9rcJQcEM.jpg",
+    "genres": [
+      "Comédia",
+      "Terror",
+      "Ação",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "241843",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/241843",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/241843",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/29427",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/29427",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4cc96ce5de8ee53502e8c920af07c14b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Epidemia%20_2010_%20_tmdb_29427_8cbf5ccb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Cooties_%20A%20Epidemia%20_2014_%20_tmdb_241843_db3f8458.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "241843",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-a-epidemia-2010",
+    "title": "A Epidemia (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/cc6QIKKSDVWYHtSLoNKi2aqYslY.jpg",
+    "genres": [
+      "Mistério",
+      "Terror",
+      "Ação"
+    ],
+    "tmdb_id": "29427",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/29427",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/29427",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "29427",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A primavera acaba de chegar numa tranquila cidade do interior, onde a simplicidade toma conta das pessoas e suas rotinas. Mas neste ano, a estação trouxe algo além de flores. Misteriosamente, os moradores tornam-se pessoas silenciosas e extremamente agressivas!  O casal David (Timothy Olyphant) e Judy (Radha Mitchell) se vêem cercados por aqueles que um dia já foram seus vizinhos e amigos, mas agora vagam pela cidade com um único objetivo em mente: matar, destruir, aniquilar."
+  },
+  {
+    "id": "movie-a-epidemia-zumbi",
+    "title": "A Epidemia Zumbi",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/mQVlinrnC7JHDOpkodJgcUnxVvQ.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "356326",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "356326",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O verão idílico da família Johansson chega à uma parada abrupta quando as mortes começam a acontecer por conta de variante do vírus da gripe. As autoridades começam isolando a vizinhança, mas logo entram em pânico e forçam os habitantes a permanecer em quarentena dentro de suas casas hermeticamente fechadas. Isolados do resto do mundo, o adolescente Gustav espia e percebe que a situação está ficando fora de controle."
+  },
+  {
+    "id": "movie-a-epidemia-zumbi-2015",
+    "title": "A Epidemia Zumbi (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Epidemia%20Zumbi%20_2015_%20_tmdb_356326_c21afc3b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-da-escuridao-2016",
+    "title": "A Era da Escuridão (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20da%20Escurid_o%20_2016_%20_tmdb_363579_ec6b6aa5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-da-escuridao-mutant-chronicles-2008",
+    "title": "A Era Da Escuridão: Mutant Chronicles (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/mTjPjWh7EwPCKPmFZs7HOszPj9Q.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica"
+    ],
+    "tmdb_id": "13256",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/13256",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/13256",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20Da%20Escurid_o_%20Mutant%20Chronicles%20_2008_%20_tmdb_13256_ae8eb9d7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "13256",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Constantine (John Malkovich) é o chefe de uma das quatro empresas que lideram os continentes no mundo e que lutam contra a devastação total do planeta. No meio desta guerra entre corporações, surge um exército de \"NecroMutantes\" e apenas uma profecia pode vencer esta nação de assassinos surgidos do fundo da Terra. Apostando alto, Constantine coloca nas mãos de um grupo de 7 guerreiros, guiados por Samuel (Ron Perlman), um religioso, a responsabilidade de salvar o mundo. O Major Mitch Hunter, um fuzileiro que lidera os humanos na sua luta contra os mutantes, será seu principal aliado e buscará, junto com os demais guerreiros, a salvação de um mundo que parece totalmente perdido."
+  },
+  {
+    "id": "movie-a-era-de-kasym",
+    "title": "A Era de Kasym",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/eKDT8G4qWNqpe889WFOHTyuWusk.jpg",
+    "genres": [
+      "História",
+      "Drama",
+      "Ação",
+      "Guerra"
+    ],
+    "tmdb_id": "975262",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bc12f8bab0a95f927a529d9971098ccb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/975262",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/975262",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Kasym%20_2022_%20_tmdb_975262_1631af3e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "975262",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450568",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450424",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "No século XVI, após anos de lutas, surge um grande líder para unir as tribos rivais da Eurásia: Kasym Khan, considerado pelos historiadores como um dos fundadores do Estado cazaque."
+  },
+  {
+    "id": "movie-a-era-de-lareokoto",
+    "title": "A Era de Lareokotô",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/tWKq17VKsU1SZb9uMeCGgLHYxFQ.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "695535",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/695535",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/695535",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Lareokot%20_2019_%20_tmdb_695535_121eb1f8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "695535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452780",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647767",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-de-ouro",
+    "title": "A Era de Ouro",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/9slCWNlcIhgBtlf5HGmmIhuuIUm.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "300373",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/300373",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/300373",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20de%20Ouro%20_2023_%20_tmdb_326316_6c3475ce.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-de-ouro-2023",
+    "title": "A Era de Ouro (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/p7HiwisHEP9l1bF3LMnoF3R63nn.jpg",
+    "genres": [
+      "Música",
+      "Drama"
+    ],
+    "tmdb_id": "326316",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/326316",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/326316",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/300373",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/300373",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "326316",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457369",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652364",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Neil Bogart funda a gravadora Casablanca Records na década de 1970 e assina com grandes artistas como Donna Summer, Parliament, Gladys Knight, Isley Brothers, Village People, Bill Withers e Kiss. Com uma equipe de jovens e entusiasmados amantes da música, a Casablanca reescreve a história e muda a indústria fonográfica para sempre."
+  },
+  {
+    "id": "movie-a-era-do-desacobertamento",
+    "title": "A Era do Desacobertamento",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/7f0gVJ2DwygToEFSS5GVsd2kO9T.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1422166",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1422166",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1422166",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1422166",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Revela um acobertamento mundial de 80 anos de formas de vida inteligente não humanas e uma guerra secreta entre grandes nações para fazer a engenharia reversa de tecnologia avançada de origem não humana."
+  },
+  {
+    "id": "movie-a-era-do-gelo-2002",
+    "title": "A Era do Gelo (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/dlqC2gJs02gc23XvyOjoz52ToRI.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": "425",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4aeeb0509731d5384ebe3708043ca1b0/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/425",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/425",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%20_2002_%20_tmdb_425_ac2b1058.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "425",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459289",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646356",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Vinte mil anos atrás, num mundo coberto de gelo, o mamute Manfred e a preguiça Sid resgatam um bebê humano órfão. Agora, os dois vão enfrentar muitas aventuras até devolver o filhote de gente à sua tribo, que migrou para um novo acampamento."
+  },
+  {
+    "id": "movie-a-era-do-gelo-2",
+    "title": "A Era do Gelo 2",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/5BSEXwvi0xDC2CbMkZQ0LngaVOh.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Comédia",
+      "Aventura"
+    ],
+    "tmdb_id": "950",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/950",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/950",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%202%20_2006_%20_tmdb_950_d66f1cf2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "950",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646355",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O aquecimento global traz ameaças de inundações generalizadas a regiões que antes eram geladas. Manny, Sid e Diego partem em busca de um refúgio seguro. Eles encontram outro mamute, mas que acredita ser um gambá."
+  },
+  {
+    "id": "movie-a-era-do-gelo-2-2006",
+    "title": "A Era do Gelo 2 (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/5BSEXwvi0xDC2CbMkZQ0LngaVOh.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Comédia",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/950",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/950",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-do-gelo-3",
+    "title": "A Era do Gelo 3",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/kaXQMlurbJ6n5u33TRePTXWxPHY.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": "8355",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/8355",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/8355",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%203%20_2009_%20_tmdb_8355_42cad15a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8355",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459034",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646354",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Depois que Sid rouba alguns ovos de dinossauro, Manny, Diego e o resto de seus amigos pré-históricos entram em um mundo misterioso e subterrâneo para resgatar Sid. Durante o curso da sua missão, o grupo encontra muitas criaturas grandes e pequenas, incluindo os carnívoros famintos e implacáveis, caçando o dinossauro chamado Buck."
+  },
+  {
+    "id": "movie-a-era-do-gelo-3-2009",
+    "title": "A Era do Gelo 3 (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/kaXQMlurbJ6n5u33TRePTXWxPHY.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/8355",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/8355",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-do-gelo-4",
+    "title": "A Era do Gelo 4",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/dWiHLqARtyAAOy0nLvXIxRYkfNA.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Aventura",
+      "Família"
+    ],
+    "tmdb_id": "57800",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/57800",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/57800",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo%204%20_2012_%20_tmdb_57800_935ddf85.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "57800",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459521",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Sempre em busca de sua cobiçada noz, o esquilo Scrat provoca, sem querer, a separação dos continentes. A situação causa mudanças no terreno de vários locais, entre eles onde os amigos Manny, Diego e Sid estão alojados. Um terremoto faz com que o trio fique preso em um iceberg."
+  },
+  {
+    "id": "movie-a-era-do-gelo-4-2012",
+    "title": "A Era do Gelo 4 (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/dWiHLqARtyAAOy0nLvXIxRYkfNA.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Aventura",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/57800",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/57800",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-do-gelo-o-big-bang-2016",
+    "title": "A Era do Gelo O Big Bang (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/e7R8ULZLdiKO2uYtXqifwf2pJfy.jpg",
+    "genres": [
+      "Aventura",
+      "Animação",
+      "Família",
+      "Comédia",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/278154",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/278154",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-do-gelo-a-grande-cacada-aos-ovos-de-pascoa",
+    "title": "A Era do Gelo: A Grande Caçada aos Ovos de Páscoa",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/1ElCrTKMsWVmt9WPgfxMQr0l8PG.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "TV"
+    ],
+    "tmdb_id": "387893",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/387893",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/387893",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20A%20Grande%20Ca_ada%20aos%20Ovos%20de%20P_scoa%20_2016_%20_tmdb_387893_6f4afd08.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "387893",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459233",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Os negócios estão crescendo de vento em popa no serviço que Sid abriu como babá de ovos, mas quando um covarde coelhinho pirata rouba os ovos, Manny, Diego e o resto do bando precisam embarcar numa missão ousada de resgate, que acaba virando a primeira caçada aos ovos do mundo."
+  },
+  {
+    "id": "movie-a-era-do-gelo-as-aventuras-de-buck",
+    "title": "A Era do Gelo: As Aventuras de Buck",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/qeP3p3T6PWZXpoYLBbdeL6rfT5W.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": "774825",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/774825",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/774825",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20As%20Aventuras%20de%20Buck%20_2022_%20_tmdb_774825_494c45fe.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "774825",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646228",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "As peripécias hilárias dos mamíferos pré-históricos favoritos de todo mundo continuam, enquanto os gambás caçadores de emoções Crash e Eddie se juntam ao seu amigo caolho, aventureiro e caçador de dinossauros, a doninha Buck Wild, para enfrentar os dinossauros rebeldes do Mundo Perdido."
+  },
+  {
+    "id": "movie-a-era-do-gelo-as-aventuras-de-buck-2022",
+    "title": "A Era do Gelo: As Aventuras de Buck (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/qeP3p3T6PWZXpoYLBbdeL6rfT5W.jpg",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/774825",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/774825",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-do-gelo-especial-de-natal",
+    "title": "A Era do Gelo: Especial de Natal",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/tNJDdFZozVL4JWc7pYbAsnbeF4K.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "TV"
+    ],
+    "tmdb_id": "79218",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/79218",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/79218",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20Especial%20de%20Natal%20_2011_%20_tmdb_79218_63b64c45.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "79218",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "902559",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando Sid acidentalmente destrói uma peça que está na família de Manny há anos e acaba indo para na lista dos ‘não bonzinhos’ que o Papai Noel não vai presentear, ele parte numa hilária viagem até o Polo Norte para tentar consertar as coisas… e como sempre, acaba piorando tudo! A única esperança agora é Manny reunir seu bando pré-histórico e salvar o Natal para o mundo todo!"
+  },
+  {
+    "id": "movie-a-era-do-gelo-o-big-bang",
+    "title": "A Era do Gelo: O Big Bang",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/e7R8ULZLdiKO2uYtXqifwf2pJfy.jpg",
+    "genres": [
+      "Aventura",
+      "Animação",
+      "Família",
+      "Comédia",
+      "Ficção científica"
+    ],
+    "tmdb_id": "278154",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/278154",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/278154",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Gelo_%20O%20Big%20Bang%20_2016_%20_tmdb_278154_38d7b4a6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Big%20Bang%20_2022_%20_tmdb_998938_7d157cd6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Big%20Bang%20_1986_%20_tmdb_322697_cfb2e4e5.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "278154",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459311",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646352",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Depois que o esquilo Scrat, involuntariamente, provoca um acidente espacial em sua incansável perseguição pela noz, um enorme meteoro entra em rota de colisão com a Terra, ameaçando o lar de Manny, Diego, Sid e cia. Sem saber o que fazer para reverter a situação, eles terão que confiar em Buck, a elétrica doninha caolha do terceiro filme – único do grupo que realmente tem um plano para evitar o trágico fim de todos. Paralelamente, Manny e Ellie têm que lidar com iminente saída de Amora de casa, ao passo que Diego e Shira pensam em aumentar a família e Sid finalmente parece encontrar o amor."
+  },
+  {
+    "id": "movie-a-era-do-radio",
+    "title": "A Era do Rádio",
+    "type": "movie",
+    "year": "1987",
+    "poster_url": "/xWnaM1RpE9PSmGiEPMxpyz6umgs.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "30890",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/30890",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/30890",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20do%20Radio%20_1987_%20_tmdb_30890_95d54a83.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "30890",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "896955",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um olhar nostálgico na época de ouro do rádio. No início da Segunda Guerra Mundial em Nova York, uma família comum tem seus sonhos inspirados nos programas de rádio da época. Como não existia televisão, as famílias se reuniam ao redor do rádio e cada membro da família tinha seu programa preferido. O destemido Vingador Mascarado, o Café da Manhã Show com os socialites e galanteadores Roger e Irene e Sally, a \"Garota dos Cigarros\", são quase tão importantes quanto, por exemplo, se o Oceano Pacífico é menor do que o Atlântico, ou mesmo o que o seu pai realmente faz para ganhar a vida."
+  },
+  {
+    "id": "movie-a-era-dos-dragoes",
+    "title": "A Era dos Dragões",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/dw5wraNaujH69dxdFTIslErL0nO.jpg",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Fantasia"
+    ],
+    "tmdb_id": "59883",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "59883",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O ambiente é hostil, o céu é um cruel inimigo e predadores alados amedrontam a face da Terra, cuspindo fogo. Em meio a neve e a neblina, um pequeno grupo de aventureiros e caçadores embarca em uma incrível jornada liderada por um capitão atormentado e obcecado por vingar-se do maior dos dragões. Enquanto lutam para continuarem vivos em terras distantes e ameaçados o tempo todo por essas criaturas impiedosas, eles estreitam laços e descobrem que o passado pode aproximá-los ou dividi-los."
+  },
+  {
+    "id": "movie-a-era-dos-dragoes-2011",
+    "title": "A Era dos Dragões (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20dos%20Drag_es%20_2011_%20_tmdb_59883_46108ff7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-era-dos-humanos",
+    "title": "A Era dos Humanos",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/s4priSqcknNZ8BPo8d4HQWsGhsa.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1283280",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1283280",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1283280",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Era%20dos%20Humanos%20_2023_%20_tmdb_1283280_3dfe4c6a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1283280",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Como os nossos pensamentos, intuições, emoções e sentidos influenciam a vida no planeta? Você irá descobrir em uma viagem pelo Ar, Fogo, Água e Terra e entender como a natureza humana está por trás das mudanças climáticas. O ator Marcos Palmeira é o nosso guia nessa jornada, na qual cientistas prestigiados compartilham sua paixão pela natureza e mente humana."
+  },
+  {
+    "id": "movie-a-erva-do-rato",
+    "title": "A Erva do Rato",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/6iEhNYpK8uuX3IV7JWVwBCSUtf.jpg",
+    "genres": [
+      "Terror",
+      "Drama"
+    ],
+    "tmdb_id": "52247",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "52247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após se conhecerem em um cemitério a beira-mar, um homem (Selton Mello) propõe a uma mulher (Alessandra Negrini) que cuide dela. Ela aceita a oferta, o que faz com que morem juntos. Durante um longo tempo ele conta histórias sobre a geografia do Rio de Janeiro, os venenos preparados pelos índios e a mitologia grega. Até que, notando o cansaço dela, ele decide comprar uma câmera fotográfica. Ela logo se torna sua musa, sendo o foco principal de todas as suas fotos. Quando descobre que um rato está roendo as fotografias tiradas, ele espalha pela casa diversas ratoeiras. Mas aos poucos descobre que o animal não é tão indesejado assim."
+  },
+  {
+    "id": "movie-a-erva-do-rato-2009",
+    "title": "A Erva do Rato (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Erva%20do%20Rato%20_2009_%20_tmdb_52247_bbade9f7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-escala-amizade-em-segundo-lugar",
+    "title": "A Escala: Amizade Em Segundo Lugar",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/1JtZcIYVg5Z3tnA0bkHm4EbtcHP.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "339404",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/339404",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/339404",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escala_%20Amizade%20em%20Segundo%20Lugar%20_2017_%20_tmdb_339404_567867cc.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "339404",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461681",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651976",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Duas grandes amigas de infância decidem fazer uma viagem juntas. Mas quando estão paradas na escala, uma ameaça de furacão faz com que fiquem presas no aeroporto. Enquanto esperam pelo próximo voo, elas conhecem um homem, e as duas se apaixonam por ele."
+  },
+  {
+    "id": "movie-a-escala-amizade-em-segundo-lugar-2017",
+    "title": "A Escala: Amizade em Segundo Lugar (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/1JtZcIYVg5Z3tnA0bkHm4EbtcHP.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/339404",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/339404",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-escalada",
+    "title": "A Escalada",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/yMXaUoJVrnblTVfREWS4YxkHWxU.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1270511",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1270511",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-escalada-2002",
+    "title": "A Escalada (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/swOexPWujYsroCcWh6CdiS6i63J.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "26467",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26467",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26467",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1270511",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1270511",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escalada%20_2017_%20_tmdb_421447_41aff6f7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escalada%20_2002_%20_tmdb_26467_714fc0ff.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "26467",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "421447",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456142",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma história bem diferenciada que mostra a trajetória de dois alpinistas que para realizaram seu objetivo principal que é escalar uma grande montanha acabam tendo que fingir serem amigos.\r Um resgate parece abrir as portas para a realização do grande sonho dos “amigos”, porém Derrick é muito ambicioso, gosta de escalar sozinho e seu parceiro Michael não se arrisca, não ousa, porém muitas surpresas irão ocorrer nas vidas desses “parceiros”."
+  },
+  {
+    "id": "movie-a-escavacao-2021",
+    "title": "A Escavacao (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/1XWxZs5JOA2itGObDzLZLZeCfaE.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/532865",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/532865",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-a-escavacao",
+    "title": "A Escavação",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/1XWxZs5JOA2itGObDzLZLZeCfaE.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "532865",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/532865",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/532865",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/A%20Escava_o%20_2021_%20_tmdb_532865_69d180dd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "532865",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456105",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653583",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Às vésperas da Segunda Guerra Mundial, uma rica viúva contrata um arqueólogo amador para escavar sepultamentos ancestrais em sua propriedade. Ao fazerem uma descoberta histórica, os ecos do passado ressoam em um futuro de incertezas."
+  }
+]

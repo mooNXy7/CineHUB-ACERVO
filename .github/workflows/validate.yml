@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: validate-acervo-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -17,6 +21,206 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/validate_catalog.py
-      - run: python -m unittest discover -s tests -v
-      - run: python -m py_compile scripts/*.py
+      - name: Validate required catalog schemas and references
+        run: python scripts/validate_catalog.py
+      - name: Validate workflow YAML syntax
+        run: |
+          ruby -e 'require "yaml"; ARGV.each { |path| YAML.load_file(path, aliases: true); puts "YAML OK: #{path}" }' \
+            .github/workflows/validate.yml \
+            .github/workflows/update-catalog.yml \
+            .github/workflows/probe-html-epg.yml \
+            .github/workflows/enrich-vod-metadata.yml \
+            .github/workflows/suggest-vod-tmdb-ids.yml
+      - name: Preview authorized reference import in an isolated worktree (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          set +e
+          if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference-preview; then
+            printf '{"schema_version":1,"status":"reference_unavailable","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          git -C /tmp/cinehub-reference-preview sparse-checkout set --no-cone \
+            '/vod/filmes-*.txt' \
+            '/vod/series-*-*.txt' \
+            '/vod/fichas.txt' \
+            '/vod/busca.txt' \
+            '/vod/destaques.txt' \
+            '/vod/radios.txt' \
+            '/vod/mgeb/links-*.txt' \
+            '/vod/redeflix/links-*.txt' \
+            '/1.m3u' \
+            '/3.m3u'
+          if [ "$?" -ne 0 ]; then
+            printf '{"schema_version":1,"status":"reference_sparse_checkout_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          git worktree add --detach /tmp/cinehub-acervo-preview HEAD
+          if [ "$?" -ne 0 ]; then
+            printf '{"schema_version":1,"status":"isolated_worktree_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+            exit 0
+          fi
+          python /tmp/cinehub-acervo-preview/scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference-preview
+          IMPORT_STATUS=$?
+          VALIDATION_STATUS=125
+          if [ "$IMPORT_STATUS" -eq 0 ]; then
+            python /tmp/cinehub-acervo-preview/scripts/validate_catalog.py
+            VALIDATION_STATUS=$?
+          fi
+          python /tmp/cinehub-acervo-preview/scripts/catalog_quality_report.py > /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json
+          QUALITY_STATUS=$?
+          python /tmp/cinehub-acervo-preview/scripts/plan_vod_enrichment.py --output /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json
+          PLAN_STATUS=$?
+          if [ -f /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json ]; then
+            cp /tmp/cinehub-acervo-preview/catalog-quality-report-preview.json "$GITHUB_WORKSPACE/catalog-quality-report-preview.json"
+          fi
+          if [ -f /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json ]; then
+            cp /tmp/cinehub-acervo-preview/vod-enrichment-plan-preview.json "$GITHUB_WORKSPACE/vod-enrichment-plan-preview.json"
+          fi
+          if [ -f /tmp/cinehub-acervo-preview/reports/reference-import.json ]; then
+            python scripts/summarize_reference_import_preview.py \
+              --before-root "$GITHUB_WORKSPACE" \
+              --after-root /tmp/cinehub-acervo-preview \
+              --import-report /tmp/cinehub-acervo-preview/reports/reference-import.json \
+              --output reference-import-preview.json
+          else
+            python scripts/summarize_reference_import_preview.py \
+              --before-root "$GITHUB_WORKSPACE" \
+              --after-root /tmp/cinehub-acervo-preview \
+              --output reference-import-preview.json
+          fi
+          SUMMARY_STATUS=$?
+          if [ "$SUMMARY_STATUS" -eq 0 ]; then
+            python - "$IMPORT_STATUS" "$VALIDATION_STATUS" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("reference-import-preview.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          import_status = int(sys.argv[1])
+          validation_status = int(sys.argv[2])
+          data["import_exit_code"] = import_status
+          data["preview_validation_exit_code"] = validation_status
+          data["status"] = (
+              "import_failed" if import_status != 0
+              else "preview_validation_failed" if validation_status != 0
+              else "blocked_pending_review"
+              if data.get("review_gate", {}).get("status") == "blocked_pending_review"
+              else "ready_for_review"
+          )
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(json.dumps({"status": data["status"], "catalog_published": False}))
+          PY
+          else
+            printf '{"schema_version":1,"status":"summary_failed","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
+          fi
+          git worktree remove --force /tmp/cinehub-acervo-preview
+
+      - name: Enforce isolated reference preview result
+        if: always() && hashFiles('reference-import-preview.json') != ''
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          path = Path("reference-import-preview.json")
+          try:
+              report = json.loads(path.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError) as exc:
+              print(f"Invalid reference import preview report: {exc}", file=sys.stderr)
+              raise SystemExit(1)
+
+          status = report.get("status")
+          print(f"Reference import preview status: {status}")
+          if status in {"import_failed", "preview_validation_failed", "summary_failed"}:
+              raise SystemExit(1)
+          PY
+
+      - name: Run read-only catalog integrity audit
+        run: python scripts/audit_catalog.py > audit-catalog.json
+      - name: Run stream and EPG coverage audit (read-only)
+        run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
+      - name: Build exact-name EPG mapping review candidates (read-only)
+        run: python scripts/suggest_epg_mappings.py --output epg-mapping-candidates.json
+      - name: Build conservative near-name EPG candidates (read-only)
+        run: python scripts/suggest_epg_near_matches.py --output epg-near-match-candidates.json
+      - name: Build exact-name channel logo suggestions (read-only)
+        run: python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions.json
+      - name: Build conservative radio genre suggestions (read-only)
+        run: python scripts/suggest_radio_genres.py --output radio-genre-suggestions.json
+      - name: Build actionable catalog quality report (read-only; URLs redacted)
+        run: python scripts/catalog_quality_report.py > catalog-quality-report.json
+      - name: Build VOD metadata enrichment dry-run (read-only; no network)
+        run: python scripts/plan_vod_enrichment.py --output vod-enrichment-plan.json
+      - name: Add aggregate audit summary to workflow
+        run: |
+          python - <<'PY'
+          import json
+          import os
+
+          audit = json.load(open("audit-catalog.json", encoding="utf-8"))
+          coverage = json.load(open("stream-epg-coverage.json", encoding="utf-8"))
+          near_epg = json.load(open("epg-near-match-candidates.json", encoding="utf-8"))
+          vod = json.load(open("vod-enrichment-plan.json", encoding="utf-8"))
+          logos = json.load(open("channel-logo-suggestions.json", encoding="utf-8"))
+          radio_genres = json.load(open("radio-genre-suggestions.json", encoding="utf-8"))
+          counts = audit["counts"]
+          summary = vod["summary"]
+          stream_counts = coverage["counts"]
+          stream_coverage = coverage["coverage"]
+
+          lines = [
+              "## CineHUB ACERVO — auditoria somente leitura",
+              "",
+              f"- **Catálogo VOD:** {counts['vod_total']:,} registros",
+              f"- **Canais:** {counts['channels']:,}; {stream_counts['channels_with_stream_reference']:,} com referência de stream ({stream_coverage['channel_stream_reference_pct']}%)",
+              f"- **EPG:** {stream_counts['channels_with_epg_association']:,} canais com associação estrutural ({stream_coverage['channel_epg_structural_association_pct']}%); não comprova programação atual",
+              f"- **EPG — candidatos por nome aproximado:** {near_epg['counts']['candidate_channels']:,} para revisão manual; não há associação automática",
+              f"- **Rádios:** {counts['radios']:,}; {stream_counts['radios_with_stream_reference']:,} com referência de stream ({stream_coverage['radio_stream_reference_pct']}%)",
+              f"- **Logos de canais:** {logos['counts']['higher_confidence_exact_candidates']:,} correspondências exatas e {logos['counts']['lower_confidence_quality_marker_candidates']:,} candidatas que ignoram marcadores HD/SD para revisão manual; nenhuma aplicação automática",
+              f"- **Gêneros de rádio:** {radio_genres['counts']['candidate_suggestions']:,} sugestões por palavras-chave únicas; {radio_genres['counts']['ambiguous_candidates']:,} ambíguas separadas; nenhuma aplicação automática",
+              "",
+              "### Metadados VOD ausentes",
+              "",
+              f"- Registros com pelo menos um campo ausente: **{summary['records_with_missing_metadata']:,}**",
+              f"- Pôster: {summary['missing_poster_url']:,}",
+              f"- Ano: {summary['missing_year']:,}",
+              f"- Gêneros: {summary['missing_genres']:,}",
+              "",
+              "### Identidade para enriquecimento (não é confirmação de correspondência)",
+              "",
+              f"- ID externo já presente; requer validação: {summary['status_provider_id_present']:,}",
+              f"- Candidato por título/ano/tipo; requer revisão: {summary['status_title_year_type_candidate']:,}",
+              f"- Revisão manual por identidade insuficiente: {summary['status_manual_identity_review']:,}",
+              f"- Ocorrências de ID externo com formato inesperado: {summary.get('invalid_external_id_occurrences', 0):,}",
+              f"- Grupos de IDs externos repetidos na mesma categoria: {summary.get('duplicate_external_id_groups', 0):,}",
+              "",
+              "IDs com formato inesperado e IDs repetidos são alertas de revisão, não prova de erro. Relatórios gerados sem chamadas de rede e sem modificar arquivos do catálogo. Referências de stream não garantem reprodução; associação de EPG não garante grade atual.",
+          ]
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
+              handle.write("\n".join(lines) + "\n")
+          PY
+      - name: Run automated tests
+        run: python -m unittest discover -s tests -v
+      - name: Compile Python scripts
+        run: python -m py_compile scripts/*.py
+      - name: Upload machine-readable audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-acervo-audit-reports
+          path: |
+            audit-catalog.json
+            stream-epg-coverage.json
+            epg-mapping-candidates.json
+            epg-near-match-candidates.json
+            channel-logo-suggestions.json
+            radio-genre-suggestions.json
+            catalog-quality-report.json
+            vod-enrichment-plan.json
+            reference-import-preview.json
+            catalog-quality-report-preview.json
+            vod-enrichment-plan-preview.json
+          if-no-files-found: warn
+          retention-days: 14

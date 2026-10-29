@@ -9,7 +9,9 @@ from __future__ import annotations
 import argparse
 import ipaddress
 import json
+import os
 import re
+import tempfile
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -32,6 +34,7 @@ CREDENTIAL_PATH = re.compile(
     r"/(?:live|movie|series|timeshift)/[^/]{3,}/[^/]{3,}/", re.I
 )
 URL_RE = re.compile(r"https?://[^\s,<>\"']+", re.I)
+SUSPICIOUS_URL_MARKERS = ("%22%3e", "%3c", "%3e", "<", ">", '"')
 
 
 def norm(value: str) -> str:
@@ -71,7 +74,11 @@ def letter(value: str) -> str:
 
 def safe_candidate(raw: str) -> bool:
     try:
-        parsed = urlsplit(str(raw).strip().rstrip(".,;"))
+        candidate = str(raw).strip().rstrip(".,;")
+        lowered = candidate.lower()
+        if any(marker in lowered for marker in SUSPICIOUS_URL_MARKERS):
+            return False
+        parsed = urlsplit(candidate)
         if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
             return False
         if parsed.username is not None or parsed.password is not None:
@@ -95,21 +102,45 @@ def safe_candidate(raw: str) -> bool:
         return False
 
 
-def load_json(path: Path, fallback: dict) -> dict:
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+def load_json(path: Path, fallback):
+    """Use defaults only for missing files; never mask corrupt existing catalog data."""
+    if not path.exists():
         return fallback
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Refusing reference import because existing JSON is unreadable: {path}") from exc
+    if not isinstance(value, type(fallback)):
+        raise ValueError(
+            f"Refusing reference import because existing JSON has the wrong top-level type: {path}"
+        )
+    return value
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    """Replace one generated file atomically; preserve prior content on failure."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(text)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
 
 
 def write_json(path: Path, value: dict | list) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
 def write_json_compact(path: Path, value: dict | list) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n")
 
 
 def read_lines(path: Path):
@@ -270,13 +301,28 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
                 urls, refs, skipped = split_sources(value, audio)
                 counters["skipped_urls"] += skipped
                 item["source_candidates_skipped"] += skipped
-                counters["sources_added"] += merge_sources(item["sources"], urls)
-                counters["provider_refs_added"] += merge_provider_refs(item["provider_refs"], refs)
+                counters["source_urls_merged_into_reference_candidates"] = counters.get("source_urls_merged_into_reference_candidates", 0) + merge_sources(item["sources"], urls)
+                counters["provider_refs_merged_into_reference_candidates"] = counters.get("provider_refs_merged_into_reference_candidates", 0) + merge_provider_refs(item["provider_refs"], refs)
     for item in movies.values():
         meta = fichas.get(("f", norm(item["title"])), {})
-        item["tmdb_id"] = meta.get("tmdb_id")
-        item["poster_url"] = meta.get("poster_path") or featured_posters.get(("f", norm(item["title"])))
-        item["genres"] = meta.get("genres", [])
+        # Reference metadata is enrichment, never a reason to erase valid catalog data.
+        item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
+        item["poster_url"] = (
+            item.get("poster_url")
+            or meta.get("poster_path")
+            or featured_posters.get(("f", norm(item["title"])))
+        )
+        existing_genres = item.get("genres") if isinstance(item.get("genres"), list) else []
+        reference_genres = meta.get("genres") if isinstance(meta.get("genres"), list) else []
+        seen_genres = {norm(genre) for genre in existing_genres if isinstance(genre, str)}
+        for genre in reference_genres:
+            if isinstance(genre, str) and genre.strip() and norm(genre) not in seen_genres:
+                existing_genres.append(genre.strip())
+                seen_genres.add(norm(genre))
+        item["genres"] = existing_genres
+        title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
+        if not item.get("year") and title_year:
+            item["year"] = title_year.group(1)
     return movies
 
 
@@ -288,11 +334,11 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
         (vod / "mgeb" / "links-filmes.txt", "reference-mgeb"),
     )
     by_tmdb = {str(item.get("tmdb_id")): item for item in movies.values() if item.get("tmdb_id")}
-    by_title = {}
+    by_title = defaultdict(list)
     for item in movies.values():
         for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
-            if key:
-                by_title.setdefault(key, item)
+            if key and all(existing is not item for existing in by_title[key]):
+                by_title[key].append(item)
     for path, source_id in source_files:
         for raw in read_lines(path) or ():
             line = raw.rstrip("\n")
@@ -310,8 +356,39 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                     if match:
                         tmdb_id = match.group(1)
                         break
+            # An external ID is not sufficient proof of identity: provider data can
+            # contain collisions or stale IDs. Require compatible title and year before
+            # attaching a source to an existing record.
             item = by_tmdb.get(tmdb_id) if tmdb_id else None
-            item = item or movies.get(norm(title)) or by_title.get(norm(title)) or by_title.get(base_title(title))
+            if item is not None:
+                incoming_year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
+                incoming_year = incoming_year_match.group(1) if incoming_year_match else None
+                existing_year = str(item.get("year") or "")
+                same_title = (
+                    norm(item.get("title", "")) == norm(title)
+                    or base_title(item.get("title", "")) == base_title(title)
+                )
+                year_conflict = incoming_year and existing_year and incoming_year != existing_year
+                if not same_title or year_conflict:
+                    item = None
+            item = item or movies.get(norm(title))
+            if item is None:
+                candidate_map = {}
+                for name_key in {norm(title), base_title(title)}:
+                    for candidate in by_title.get(name_key, []):
+                        candidate_map[id(candidate)] = candidate
+                candidates = list(candidate_map.values())
+                title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
+                requested_year = title_year.group(1) if title_year else None
+                if requested_year:
+                    exact_year = [
+                        candidate for candidate in candidates
+                        if str(candidate.get("year") or "") == requested_year
+                    ]
+                    if len(exact_year) == 1:
+                        item = exact_year[0]
+                elif len(candidates) == 1:
+                    item = candidates[0]
             if item is None:
                 year_match = re.search(r"\(((?:19|20)\d{2})\)\s*$", title)
                 item = {
@@ -325,8 +402,8 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 item["tmdb_id"] = item.get("tmdb_id") or tmdb_id
                 by_tmdb[tmdb_id] = item
             for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
-                if key:
-                    by_title[key] = item
+                if key and all(existing is not item for existing in by_title[key]):
+                    by_title[key].append(item)
             meta = fichas.get(("f", norm(item["title"])), {})
             item["poster_url"] = item.get("poster_url") or meta.get("poster_path")
             item["genres"] = item.get("genres") or meta.get("genres", [])
@@ -339,8 +416,8 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 urls, refs, skipped = split_sources(value, audio, source_id=source_id, priority=20)
                 counters["skipped_urls"] += skipped
                 item["source_candidates_skipped"] = int(item.get("source_candidates_skipped", 0)) + skipped
-                counters["sources_added"] += merge_sources(item.setdefault("sources", []), urls)
-                counters["provider_refs_added"] += merge_provider_refs(item.setdefault("provider_refs", []), refs)
+                counters["source_urls_merged_into_reference_candidates"] = counters.get("source_urls_merged_into_reference_candidates", 0) + merge_sources(item.setdefault("sources", []), urls)
+                counters["provider_refs_merged_into_reference_candidates"] = counters.get("provider_refs_merged_into_reference_candidates", 0) + merge_provider_refs(item.setdefault("provider_refs", []), refs)
     return movies
 
 
@@ -385,14 +462,24 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
             if existing is None:
                 existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
                 season["episodes"].append(existing)
-            counters["sources_added"] += merge_sources(existing["sources"], urls)
-            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+            counters["source_urls_merged_into_reference_candidates"] = counters.get("source_urls_merged_into_reference_candidates", 0) + merge_sources(existing["sources"], urls)
+            counters["provider_refs_merged_into_reference_candidates"] = counters.get("provider_refs_merged_into_reference_candidates", 0) + merge_provider_refs(existing["provider_refs"], refs)
     parse_extra_series_sources(vod, series, fichas, counters)
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
         item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
         item["poster_url"] = item.get("poster_url") or meta.get("poster_path") or featured_posters.get(("s", title_key))
-        item["genres"] = item.get("genres") or meta.get("genres", [])
+        existing_genres = item.get("genres") if isinstance(item.get("genres"), list) else []
+        reference_genres = meta.get("genres") if isinstance(meta.get("genres"), list) else []
+        seen_genres = {norm(genre) for genre in existing_genres if isinstance(genre, str)}
+        for genre in reference_genres:
+            if isinstance(genre, str) and genre.strip() and norm(genre) not in seen_genres:
+                existing_genres.append(genre.strip())
+                seen_genres.add(norm(genre))
+        item["genres"] = existing_genres
+        title_year = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
+        if not item.get("year") and title_year:
+            item["year"] = title_year.group(1)
         if item.get("subtype") not in {"anime", "dorama"}:
             item["subtype"] = "anime" if title_key in featured_anime or any("animação" in g.casefold() or "animation" in g.casefold() for g in item["genres"]) else (
                 "dorama" if title_key in featured_doramas or "dorama" in title_key or "k-drama" in title_key else "series"
@@ -438,11 +525,34 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                     current = None
                     continue
                 key = (norm(title), year or "")
+                # A provider ID is evidence, not proof: reject it when title or known
+                # year conflicts, then continue through conservative title/year matching.
                 current = by_tmdb.get(tmdb_id) if tmdb_id else None
+                if current is not None:
+                    same_title = (
+                        norm(current.get("title", "")) == norm(title)
+                        or base_title(current.get("title", "")) == base_title(title)
+                    )
+                    existing_year = str(current.get("year") or "")
+                    year_conflict = year and existing_year and year != existing_year
+                    if not same_title or year_conflict:
+                        current = None
                 current = current or series.get(key)
                 if current is None:
-                    candidates = by_name.get(norm(title), []) or by_name.get(base_title(title), [])
-                    current = next((item for item in candidates if not year or item.get("year") in (None, year)), None)
+                    candidate_map = {}
+                    for name_key in {norm(title), base_title(title)}:
+                        for candidate in by_name.get(name_key, []):
+                            candidate_map[id(candidate)] = candidate
+                    candidates = list(candidate_map.values())
+                    if year:
+                        exact_year = [
+                            item for item in candidates
+                            if str(item.get("year") or "") == year
+                        ]
+                        if len(exact_year) == 1:
+                            current = exact_year[0]
+                    elif len(candidates) == 1:
+                        current = candidates[0]
                 if current is None:
                     current = {
                         "id": "series-" + slug(title) + ("-" + year if year else ""),
@@ -482,8 +592,8 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
             if existing is None:
                 existing = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
                 season["episodes"].append(existing)
-            counters["sources_added"] += merge_sources(existing["sources"], urls)
-            counters["provider_refs_added"] += merge_provider_refs(existing["provider_refs"], refs)
+            counters["source_urls_merged_into_reference_candidates"] = counters.get("source_urls_merged_into_reference_candidates", 0) + merge_sources(existing["sources"], urls)
+            counters["provider_refs_merged_into_reference_candidates"] = counters.get("provider_refs_merged_into_reference_candidates", 0) + merge_provider_refs(existing["provider_refs"], refs)
 
 
 def merge_record(target: dict, incoming: dict) -> dict:
@@ -542,25 +652,56 @@ def load_existing_details(kind: str) -> dict[str, dict]:
         for path in sorted(folder.glob("*.json")):
             try:
                 records = json.loads(path.read_text(encoding="utf-8"))
-            except (OSError, json.JSONDecodeError):
-                continue
-            if isinstance(records, list):
-                for item in records:
-                    if isinstance(item, dict) and item.get("id"):
-                        ident = str(item["id"])
-                        if ident in existing:
-                            merge_record(existing[ident], item)
-                        else:
-                            existing[ident] = item
-    previous_index = load_json(VOD_INDEX, {"movies": [], "series": [], "anime": [], "doramas": []})
+            except (OSError, json.JSONDecodeError) as exc:
+                raise ValueError(
+                    f"Refusing reference import because existing detail shard is unreadable: {path}"
+                ) from exc
+            if not isinstance(records, list):
+                raise ValueError(
+                    f"Refusing reference import because existing detail shard is not a list: {path}"
+                )
+            for item in records:
+                if not isinstance(item, dict) or not item.get("id"):
+                    raise ValueError(
+                        f"Refusing reference import because existing detail shard contains a record without ID: {path}"
+                    )
+                ident = str(item["id"])
+                if ident in existing:
+                    merge_record(existing[ident], item)
+                else:
+                    existing[ident] = item
+    if VOD_INDEX.exists():
+        try:
+            previous_index = json.loads(VOD_INDEX.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise ValueError("Refusing reference import because catalog/vod/index.json is unreadable.") from exc
+        if not isinstance(previous_index, dict):
+            raise ValueError("Refusing reference import because catalog/vod/index.json is not an object.")
+    else:
+        previous_index = {"movies": [], "series": [], "anime": [], "doramas": []}
     previous_items = previous_index.get(kind)
     if not isinstance(previous_items, list):
         category = previous_index.get("categories", {}).get(kind, {})
         index_path = category.get("index_path")
-        previous_items = load_json(ROOT / index_path, []) if index_path else []
+        if index_path:
+            index_file = ROOT / index_path
+            try:
+                previous_items = json.loads(index_file.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError) as exc:
+                raise ValueError(
+                    f"Refusing reference import because existing VOD index is unreadable: {index_file}"
+                ) from exc
+            if not isinstance(previous_items, list):
+                raise ValueError(
+                    f"Refusing reference import because existing VOD index is not a list: {index_file}"
+                )
+        else:
+            previous_items = []
     for item in previous_items:
         if not isinstance(item, dict) or not item.get("id"):
-            continue
+            raise ValueError(
+                f"Refusing reference import because existing VOD index for {kind} contains a record without ID."
+            )
         ident = str(item["id"])
         if ident not in existing:
             existing[ident] = {
@@ -571,54 +712,184 @@ def load_existing_details(kind: str) -> dict[str, dict]:
                 "source_candidates_skipped": 0,
                 **({"seasons": []} if kind in {"series", "anime", "doramas"} else {}),
             }
+        else:
+            # Index entries are metadata-only summaries. Fill gaps directly instead of
+            # running a full source/episode merge for every one of tens of thousands of rows.
+            target = existing[ident]
+            for field in ("title", "type", "year", "tmdb_id", "poster_url", "subtype"):
+                if not target.get(field) and item.get(field):
+                    target[field] = item[field]
+            if not target.get("genres") and isinstance(item.get("genres"), list):
+                target["genres"] = list(item["genres"])
     return existing
 
 
 def dedupe_records(items: list[dict]) -> list[dict]:
-    by_id = {}
+    """Merge only identical stable record IDs; ambiguous identity collisions remain separate for review."""
+    by_id: dict[str, dict] = {}
+    no_id_records: list[dict] = []
     for item in items:
-        ident = str(item.get("id") or "")
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
         if not ident:
+            # Do not silently discard a titled record merely because its ID is missing.
+            # Validation can flag it; inventing an ID here could falsely merge distinct works.
+            no_id_records.append(item)
             continue
         if ident in by_id:
             merge_record(by_id[ident], item)
         else:
             by_id[ident] = item
-
-    canonical = []
-    by_tmdb = {}
-    by_title_year = {}
-    for item in by_id.values():
-        tmdb_id = str(item.get("tmdb_id") or "").strip()
-        year = str(item.get("year") or "")
-        if not year:
-            match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(item.get("title") or ""))
-            year = match.group(1) if match else ""
-        title_key = (base_title(item.get("title", "")), year)
-        target = by_tmdb.get(tmdb_id) if tmdb_id else None
-        if target is None:
-            candidate = by_title_year.get(title_key)
-            if candidate is not None:
-                candidate_tmdb = str(candidate.get("tmdb_id") or "").strip()
-                if not tmdb_id or not candidate_tmdb or candidate_tmdb == tmdb_id:
-                    target = candidate
-        if target is not None:
-            merge_record(target, item)
-            target_tmdb = str(target.get("tmdb_id") or "").strip()
-            if target_tmdb:
-                by_tmdb[target_tmdb] = target
-            by_title_year.setdefault(title_key, target)
-        else:
-            canonical.append(item)
-            if tmdb_id:
-                by_tmdb[tmdb_id] = item
-            by_title_year.setdefault(title_key, item)
-    return canonical
+    if no_id_records:
+        raise ValueError(
+            f"Refusing to publish {len(no_id_records)} VOD record(s) without stable IDs; "
+            "the prior catalog remains untouched."
+        )
+    return list(by_id.values())
 
 
-def merge_catalog_records(kind: str, incoming: list[dict]) -> list[dict]:
+def _identity_year(item: dict) -> str:
+    year = str(item.get("year") or "").strip()
+    if year:
+        return year
+    match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(item.get("title") or ""))
+    return match.group(1) if match else ""
+
+
+def _same_confirmed_identity(left: dict, right: dict) -> bool:
+    left_title = base_title(left.get("title", ""))
+    right_title = base_title(right.get("title", ""))
+    left_year = _identity_year(left)
+    right_year = _identity_year(right)
+    return bool(left_title and left_title == right_title and left_year and left_year == right_year)
+
+
+def reconcile_reference_identity(kind: str, existing: dict[str, dict], incoming: list[dict],
+                                 counters: dict) -> list[dict]:
+    """Keep ambiguous incoming TMDB collisions out of the catalog; never remove existing records."""
+    existing_by_tmdb: dict[str, list[dict]] = defaultdict(list)
+    for record in existing.values():
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if tmdb_id:
+            existing_by_tmdb[tmdb_id].append(record)
+
+    incoming_by_tmdb: dict[str, list[dict]] = defaultdict(list)
+    for record in incoming:
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if tmdb_id:
+            incoming_by_tmdb[tmdb_id].append(record)
+
+    accepted = []
+    for record in incoming:
+        ident = str(record.get("id") or "")
+        tmdb_id = str(record.get("tmdb_id") or "").strip()
+        if ident in existing:
+            conflicting_existing = [
+                old for old in existing_by_tmdb.get(tmdb_id, [])
+                if str(old.get("id") or "") != ident
+            ] if tmdb_id else []
+            current_tmdb = str(existing[ident].get("tmdb_id") or "").strip()
+            incoming_group_conflict = any(
+                str(candidate.get("id") or "") != ident
+                for candidate in incoming_by_tmdb.get(tmdb_id, [])
+            ) if tmdb_id else False
+            if conflicting_existing or (incoming_group_conflict and current_tmdb != tmdb_id):
+                # This stable catalog record already exists. Do not attach a provider
+                # ID/poster/genres that another existing title claims; keep its sources.
+                sanitized = dict(record)
+                sanitized["tmdb_id"] = None
+                sanitized["poster_url"] = None
+                sanitized["genres"] = []
+                accepted.append(sanitized)
+                counters[f"{kind}_existing_id_metadata_collisions_quarantined"] += 1
+            else:
+                accepted.append(record)
+            continue
+        if not tmdb_id:
+            accepted.append(record)
+            continue
+
+        existing_matches = existing_by_tmdb.get(tmdb_id, [])
+        if existing_matches:
+            exact = [old for old in existing_matches if _same_confirmed_identity(record, old)]
+            if len(exact) == 1:
+                merge_record(exact[0], record)
+                counters[f"{kind}_tmdb_id_sources_merged_into_existing"] += 1
+            else:
+                counters[f"{kind}_ambiguous_tmdb_id_records_skipped"] += 1
+            continue
+
+        same_id_group = incoming_by_tmdb.get(tmdb_id, [])
+        if len(same_id_group) > 1:
+            # No existing canonical record to anchor the identity. Quarantine all
+            # incoming records with this duplicated external ID instead of choosing one.
+            counters[f"{kind}_ambiguous_tmdb_id_records_skipped"] += 1
+            continue
+        accepted.append(record)
+    return accepted
+
+
+def hold_unready_new_records(kind: str, existing: dict[str, dict], incoming: list[dict], counters: dict) -> list[dict]:
+    """Keep incomplete or title-ambiguous new records out of the published index.
+
+    Existing IDs always remain eligible for source/metadata merging. New records
+    are admitted only when poster, year, and genres are present and their normalized
+    title is unique within this category. Held records remain in the authorized
+    upstream source and can be reconsidered after enrichment or manual review.
+    """
+    existing_titles = {
+        norm(item.get("title", ""))
+        for item in existing.values()
+        if isinstance(item, dict) and item.get("title")
+    }
+    title_counts = defaultdict(int)
+    for item in incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if ident and ident in existing:
+            continue
+        title_key = norm(item.get("title", ""))
+        if title_key:
+            title_counts[title_key] += 1
+
+    accepted = []
+    for item in incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if ident and ident in existing:
+            accepted.append(item)
+            continue
+        title_key = norm(item.get("title", ""))
+        genres = item.get("genres")
+        missing = []
+        if not item.get("poster_url"):
+            missing.append("poster_url")
+        if not item.get("year"):
+            missing.append("year")
+        if not isinstance(genres, list) or not any(isinstance(g, str) and g.strip() for g in genres):
+            missing.append("genres")
+        if missing:
+            counter_key = f"{kind}_held_incomplete_metadata"
+            counters[counter_key] = counters.get(counter_key, 0) + 1
+            continue
+        if not title_key or title_key in existing_titles or title_counts[title_key] > 1:
+            counter_key = f"{kind}_held_title_collision"
+            counters[counter_key] = counters.get(counter_key, 0) + 1
+            continue
+        accepted.append(item)
+    return accepted
+
+
+def merge_catalog_records(kind: str, incoming: list[dict], counters: dict) -> list[dict]:
     old = load_existing_details(kind)
-    merged = dedupe_records(list(old.values()) + list(incoming))
+    # Resolve exact provider identities first so their source variants can enrich
+    # existing records even when the reference row itself lacks display metadata.
+    safe_incoming = reconcile_reference_identity(kind, old, incoming, counters)
+    ready_incoming = hold_unready_new_records(kind, old, safe_incoming, counters)
+    merged = dedupe_records(list(old.values()) + list(ready_incoming))
     return sorted(merged, key=lambda x: (str(x.get("title", "")).casefold(), str(x.get("year") or "")))
 
 
@@ -669,7 +940,7 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
                 key = norm(channel_name)
                 source_path = urlsplit(line).path.lower() if line.lower().startswith(("http://", "https://")) else ""
                 is_vod_url = bool(re.search(r"/(?:movie|series|vod|film|episode)/", source_path)) or bool(
-                    re.search(r"\\.(?:mp4|mkv|avi|mov)$", source_path)
+                    re.search(r"\.(?:mp4|mkv|avi|mov)$", source_path)
                 )
                 if key in vod_names or is_vod_url:
                     name, attrs = None, {}
@@ -708,6 +979,58 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     return current
 
 
+def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, int]:
+    """Import radio rows in the documented name|stream[|logo] format, without replacing existing entries."""
+    known_radio = {
+        norm(item.get("name", "")): item
+        for item in radios.get("radios", [])
+        if isinstance(item, dict) and item.get("name")
+    }
+    imported = 0
+    updated = 0
+    radio_file = reference / "vod" / "radios.txt"
+    for line in read_lines(radio_file) or ():
+        fields = line.rstrip("\n").split("|")
+        if len(fields) < 2:
+            continue
+        radio_name = fields[0].strip()
+        stream = fields[1].strip()
+        logo = fields[2].strip() if len(fields) > 2 and fields[2].strip() else None
+        if not radio_name:
+            continue
+        key = norm(radio_name)
+        if not key:
+            continue
+        stream_is_safe = safe_candidate(stream)
+        logo_is_safe = safe_candidate(logo or "")
+        if key in known_radio:
+            existing = known_radio[key]
+            changed = False
+            existing_stream = str(existing.get("stream_url") or "").strip()
+            if stream_is_safe and not safe_candidate(existing_stream):
+                existing["stream_url"] = stream
+                existing["stream_status"] = "imported"
+                changed = True
+            existing_logo = str(existing.get("logo_url") or "").strip()
+            if logo_is_safe and not safe_candidate(existing_logo):
+                existing["logo_url"] = logo
+                changed = True
+            if changed:
+                updated += 1
+            continue
+        radio = {
+            "id": "radio-" + slug(radio_name), "name": radio_name,
+            "stream_url": stream if stream_is_safe else None,
+            "logo_url": logo if logo_is_safe else None,
+            "genre": None, "source_id": SOURCE_ID,
+            "stream_status": "imported" if stream_is_safe else "pending_review",
+        }
+        radios.setdefault("radios", []).append(radio)
+        known_radio[key] = radio
+        imported += 1
+    return radios, imported, updated
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE)
@@ -717,9 +1040,12 @@ def main() -> None:
         raise SystemExit(f"Diretório de referência não encontrado: {reference / 'vod'}")
 
     counters = defaultdict(int)
+    # Preflight every catalog root before any writes. A corrupt existing file must
+    # stop the import rather than be replaced by a fallback document.
     current_channels = load_json(CHANNELS_FILE, {"schema_version": 1, "channels": []})
+    radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
+    previous_report = load_json(REPORT, {})
     current_channels = import_channels(reference, current_channels, counters)
-    write_json(CHANNELS_FILE, current_channels)
 
     fichas = read_fichas(reference / "vod" / "fichas.txt")
     featured_posters, featured_anime, featured_doramas = parse_featured(reference / "vod" / "destaques.txt")
@@ -729,10 +1055,10 @@ def main() -> None:
     series = parse_series(reference, fichas, featured_posters, featured_anime, featured_doramas, counters, search_series)
 
     # Títulos sem URL direta continuam no índice, e dados antigos nunca são removidos.
-    movie_list = merge_catalog_records("movies", list(movies.values()))
-    series_list = merge_catalog_records("series", list(series.values()))
-    anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"])
-    dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"])
+    movie_list = merge_catalog_records("movies", list(movies.values()), counters)
+    series_list = merge_catalog_records("series", list(series.values()), counters)
+    anime_list = merge_catalog_records("anime", [x for x in series_list if x.get("subtype") == "anime"], counters)
+    dorama_list = merge_catalog_records("doramas", [x for x in series_list if x.get("subtype") == "dorama"], counters)
 
     detail_paths = {}
     written_detail_paths = set()
@@ -751,15 +1077,6 @@ def main() -> None:
                 written_detail_paths.add(relative_path)
                 for item in chunk:
                     detail_paths[(kind, item["id"])] = relative_path
-
-    # Todos os registros antigos já foram incorporados antes da gravação; remove apenas shards obsoletos.
-    for kind in ("movies", "series", "anime", "doramas"):
-        folder = DETAILS / kind
-        if folder.exists():
-            for old_path in folder.glob("*.json"):
-                relative_path = old_path.relative_to(ROOT).as_posix()
-                if relative_path not in written_detail_paths:
-                    old_path.unlink()
 
     def index_entry(item, kind):
         episode_sources = sum(
@@ -827,35 +1144,22 @@ def main() -> None:
         manifest["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json_compact(VOD_INDEX, manifest)
 
-    radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
-    known_radio = {norm(x.get("name", "")): x for x in radios.get("radios", [])}
-    imported_radio_count = 0
-    radio_file = reference / "vod" / "radios.txt"
-    for line in read_lines(radio_file) or ():
-        fields = line.rstrip("\n").split("|")
-        if len(fields) < 3:
-            continue
-        radio_name = fields[1].strip()
-        if not radio_name:
-            continue
-        key = norm(radio_name)
-        if key in known_radio:
-            continue
-        stream = fields[2].strip()
-        logo = fields[3].strip() if len(fields) > 3 and fields[3].strip() else None
-        radio = {
-            "id": "radio-" + slug(radio_name), "name": radio_name,
-            "stream_url": stream if safe_candidate(stream) else None,
-            "logo_url": logo if safe_candidate(logo or "") else None,
-            "genre": None, "source_id": SOURCE_ID,
-            "stream_status": "imported" if safe_candidate(stream) else "pending_review",
-        }
-        radios.setdefault("radios", []).append(radio)
-        known_radio[key] = radio
-        imported_radio_count += 1
-    if imported_radio_count or not radios.get("generated_at"):
+    # Delete obsolete shards only after all replacement shards and indexes are published.
+    # If index publication fails, old shard files remain available to the prior index.
+    for kind in ("movies", "series", "anime", "doramas"):
+        folder = DETAILS / kind
+        if folder.exists():
+            for old_path in folder.glob("*.json"):
+                relative_path = old_path.relative_to(ROOT).as_posix()
+                if relative_path not in written_detail_paths:
+                    old_path.unlink()
+
+    radios, imported_radio_count, updated_radio_count = import_reference_radios(reference, radios)
+    counters["radios_updated"] = updated_radio_count
+    if imported_radio_count or updated_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(RADIOS_FILE, radios)
+    write_json(CHANNELS_FILE, current_channels)
 
     counters["movies"] = len(movie_list)
     counters["series"] = len(series_list)
@@ -869,6 +1173,11 @@ def main() -> None:
     report_data = {
         "reference": "authorized-public-reference",
         "counts": dict(counters),
+        "counter_semantics": {
+            "source_urls_merged_into_reference_candidates": "Parser-level unique URL merges before identity reconciliation; not the net number added to the final catalog.",
+            "provider_refs_merged_into_reference_candidates": "Parser-level provider-reference merges before identity reconciliation; not the net number added to the final catalog.",
+            "net_catalog_reference_changes": "Use the before/after delta in the reference import preview for net source_count and provider_ref_count changes in generated indexes.",
+        },
         "notes": [
             "Conteúdo adulto reservado não é importado.",
             "URLs com credenciais evidentes, tokens de consulta ou hosts privados são omitidas.",
@@ -876,7 +1185,6 @@ def main() -> None:
             "A importação não testa reprodução durante a montagem do catálogo."
         ]
     }
-    previous_report = load_json(REPORT, {})
     if any(previous_report.get(k) != v for k, v in report_data.items()) or not previous_report.get("generated_at"):
         report_data["generated_at"] = datetime.now(timezone.utc).isoformat()
         write_json(REPORT, report_data)

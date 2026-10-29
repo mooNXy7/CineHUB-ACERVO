@@ -1,0 +1,91 @@
+name: Build VOD metadata review patch
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum records with existing TMDB IDs to inspect (1–1000)"
+        required: true
+        default: "1000"
+        type: string
+      offset:
+        description: "Number of catalog records with existing numeric TMDB IDs to skip (stable checkpoint)"
+        required: true
+        default: "1000"
+        type: string
+  push:
+    branches:
+      - audit/acervo-hardening-2026-10
+    paths-ignore:
+      - 'catalog/**'
+      - 'reports/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: acervo-vod-metadata-review
+  cancel-in-progress: false
+
+jobs:
+  build-patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate limit and build review-only patch through CineHUB Supabase
+        env:
+          CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          LIMIT: ${{ inputs.limit || '1000' }}
+          OFFSET: ${{ inputs.offset || '0' }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
+            echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
+            exit 1
+          fi
+          python -m py_compile scripts/enrich_vod_metadata.py
+          python scripts/enrich_vod_metadata.py \
+            --limit "$LIMIT" \
+            --offset "$OFFSET" \
+            --output "$RUNNER_TEMP/vod-metadata-patch.json" \
+            --cache "$RUNNER_TEMP/tmdb-metadata-cache.sqlite3"
+      - name: Apply only verified, missing-field metadata to catalog
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/apply_vod_metadata_patch.py
+          python scripts/apply_vod_metadata_patch.py \
+            --patch "$RUNNER_TEMP/vod-metadata-patch.json" \
+            --output "$RUNNER_TEMP/vod-metadata-apply-summary.json"
+          python scripts/validate_catalog.py
+          python -m unittest discover -s tests -v
+      - name: Commit safe metadata repairs to audit branch
+        env:
+          TARGET_BRANCH: audit/acervo-hardening-2026-10
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- catalog/vod; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add catalog/vod
+            git commit -m "data: enrich verified VOD metadata batch"
+            git push origin "HEAD:$TARGET_BRANCH"
+          else
+            echo "No safe missing-field metadata changes to commit."
+          fi
+      - name: Upload metadata patch and application summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-vod-metadata-review-patch
+          path: |
+            ${{ runner.temp }}/vod-metadata-patch.json
+            ${{ runner.temp }}/vod-metadata-apply-summary.json
+          if-no-files-found: error
+          retention-days: 7

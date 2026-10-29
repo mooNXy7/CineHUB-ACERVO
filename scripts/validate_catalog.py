@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Validate catalog schemas, VOD category indexes, stable IDs, and detail references."""
+import datetime as dt
+import ipaddress
 import json
 from pathlib import Path
+from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = {
@@ -17,6 +20,73 @@ FILES = {
 def load(path):
     with path.open(encoding="utf-8") as stream:
         return json.load(stream)
+
+
+def safe_source_url(value):
+    """Structural URL check for configured network sources (no network/DNS lookup)."""
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        if parsed.scheme.lower() != "https" or not parsed.hostname:
+            return False
+        if parsed.username is not None or parsed.password is not None:
+            return False
+        if parsed.port not in (None, 443):
+            return False
+        sensitive = {"token", "access_token", "auth", "authorization", "password",
+                     "passwd", "username", "user", "key", "signature", "sig", "session"}
+        if any(key.lower() in sensitive for key, _ in parse_qsl(parsed.query, keep_blank_values=True)):
+            return False
+        host = parsed.hostname.rstrip(".").lower()
+        if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
+            return False
+        try:
+            address = ipaddress.ip_address(host)
+        except ValueError:
+            address = None
+        if address is not None and (
+            address.is_private or address.is_loopback or address.is_link_local
+            or address.is_reserved or address.is_multicast or address.is_unspecified
+        ):
+            return False
+        return True
+    except (TypeError, ValueError):
+        return False
+
+
+def validate_html_epg_doc(data):
+    """Return structural errors for the optional HTML EPG sidecar."""
+    errors = []
+    if not isinstance(data, dict) or data.get("schema_version") != 1:
+        return ["catalog/epg/html-programmes.json: schema_version deve ser 1"]
+    if data.get("timezone") != "America/Sao_Paulo":
+        errors.append("catalog/epg/html-programmes.json: timezone deve ser America/Sao_Paulo")
+    programmes = data.get("programmes")
+    health = data.get("health")
+    if not isinstance(programmes, dict) or not isinstance(health, dict):
+        return errors + ["catalog/epg/html-programmes.json: programmes e health devem ser objetos"]
+    for channel, record in programmes.items():
+        if not isinstance(record, dict) or not isinstance(record.get("programmes"), list):
+            errors.append(f"html EPG {channel}: programmes deve ser uma lista")
+            continue
+        if record.get("source_id") not in {"meuguia-br", "guia-de-tv-br"}:
+            errors.append(f"html EPG {channel}: source_id inválido")
+        previous_start = None
+        for item in record["programmes"]:
+            if not isinstance(item, dict) or not item.get("title"):
+                errors.append(f"html EPG {channel}: programa sem título")
+                continue
+            try:
+                start = dt.datetime.fromisoformat(item["start"])
+                end = dt.datetime.fromisoformat(item["end"])
+            except (KeyError, TypeError, ValueError):
+                errors.append(f"html EPG {channel}: start/end inválidos")
+                continue
+            if start.tzinfo is None or end.tzinfo is None or end <= start:
+                errors.append(f"html EPG {channel}: intervalo inválido ou sem fuso")
+            if previous_start is not None and start < previous_start:
+                errors.append(f"html EPG {channel}: programas fora de ordem")
+            previous_start = start
+    return errors
 
 
 def main():
@@ -40,6 +110,37 @@ def main():
             if categories is not None and not isinstance(categories, dict):
                 errors.append(f"{path.relative_to(ROOT)}: 'categories' deve ser um objeto")
 
+    # Validate network source endpoints before any updater can fetch them.
+    for source_doc_name, url_fields in (
+        ("epg_sources", ("url", "probe_url")),
+        ("sources", ("url",)),
+    ):
+        source_doc = loaded.get(source_doc_name, {})
+        if not isinstance(source_doc, dict):
+            continue
+        for source in source_doc.get("sources", []):
+            if not isinstance(source, dict) or not source.get("enabled", False):
+                continue
+            for field in url_fields:
+                endpoint = source.get(field)
+                if endpoint and not safe_source_url(endpoint):
+                    errors.append(
+                        f"{FILES[source_doc_name].relative_to(ROOT)}: URL insegura/inválida "
+                        f"para fonte {source.get('id', '?')} ({field})"
+                    )
+        if source_doc_name == "epg_sources":
+            for source in source_doc.get("sources", []):
+                if not isinstance(source, dict) or not source.get("enabled", False):
+                    continue
+                template = source.get("url_template")
+                if template:
+                    base = template.split("{", 1)[0]
+                    if not safe_source_url(base):
+                        errors.append(
+                            f"{FILES[source_doc_name].relative_to(ROOT)}: url_template inseguro "
+                            f"para fonte {source.get('id', '?')}"
+                        )
+
     epg_sources = loaded.get("epg_sources", {})
     if isinstance(epg_sources, dict):
         source_ids = [x.get("id") for x in epg_sources.get("sources", []) if isinstance(x, dict)]
@@ -48,6 +149,13 @@ def main():
         priorities = [x.get("priority") for x in epg_sources.get("sources", []) if isinstance(x, dict)]
         if priorities != sorted(priorities):
             errors.append("catalog/epg/sources.json: fontes devem estar ordenadas por prioridade")
+    html_epg_path = ROOT / "catalog/epg/html-programmes.json"
+    if html_epg_path.exists():
+        try:
+            errors.extend(validate_html_epg_doc(load(html_epg_path)))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"{html_epg_path.relative_to(ROOT)}: {exc}")
+
     epg_map = loaded.get("epg_map", {})
     if isinstance(epg_map, dict):
         for key in ("meuguia_codes", "guiadetv_slugs", "xmltv_aliases"):

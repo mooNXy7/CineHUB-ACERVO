@@ -2,12 +2,14 @@
 """Safely refresh channel sources without replacing curated catalog metadata."""
 import ipaddress
 import json
+import os
 import re
+import tempfile
 import urllib.request
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources/sources.json"
@@ -16,10 +18,36 @@ MAX_BYTES = 20 * 1024 * 1024
 TIMEOUT = 20
 
 
+def atomic_write_text(path, text):
+    """Write in the same directory and atomically replace the destination."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(text)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
+
+
+def atomic_write_json(path, value):
+    atomic_write_text(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+
+
 def safe_https_url(url):
     """Reject non-HTTPS URLs, embedded credentials, and local/private hosts."""
     try:
-        parsed = urlsplit(str(url).strip())
+        candidate = str(url).strip()
+        if any(marker in candidate.lower() for marker in ("%22%3e", "%3c", "%3e", "<", ">", '"')):
+            return False
+        parsed = urlsplit(candidate)
         if parsed.scheme.lower() != "https" or not parsed.hostname:
             return False
         if parsed.username is not None or parsed.password is not None:
@@ -42,16 +70,28 @@ def safe_https_url(url):
         return False
 
 
+def safe_source_url(url):
+    """Stricter policy for URLs fetched by the catalog updater, not stream endpoints."""
+    if not safe_https_url(url):
+        return False
+    try:
+        parsed = urlsplit(str(url).strip())
+        return parsed.port in (None, 443)
+    except (TypeError, ValueError):
+        return False
+
+
 class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, request, file_pointer, code, message, headers, new_url):
-        if not safe_https_url(new_url):
-            raise ValueError("redirecionamento para URL não segura")
-        return super().redirect_request(request, file_pointer, code, message, headers, new_url)
+        target = urljoin(request.full_url, new_url)
+        if not safe_source_url(target):
+            raise ValueError("redirecionamento para URL de fonte não segura")
+        return super().redirect_request(request, file_pointer, code, message, headers, target)
 
 
 def fetch(url):
-    if not safe_https_url(url):
-        raise ValueError("URL da fonte não passou na validação HTTPS/host")
+    if not safe_source_url(url):
+        raise ValueError("URL da fonte não passou na validação HTTPS/host/porta")
     request = urllib.request.Request(
         url, headers={"User-Agent": "CineHUB-ACERVO/0.2 (+catalog validator)"}
     )
@@ -116,7 +156,6 @@ def merge_channels(existing, incoming):
                 existing_sources.append(source)
                 known_urls.add(source.get("url"))
                 added_sources += 1
-        # Fill only blank metadata; never replace curated values with source values.
         for field in ("group", "logo_url", "epg_id"):
             if not target.get(field) and item.get(field):
                 target[field] = item[field]
@@ -158,7 +197,7 @@ def main():
         if merged_channels != previous_channels:
             current["channels"] = merged_channels
             current["generated_at"] = datetime.now(timezone.utc).isoformat()
-            OUT.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            atomic_write_json(OUT, current)
             print(f"Catálogo alterado: {len(collected)} canais processados; {added} fontes anexadas.")
         else:
             print(f"Fonte(s) verificadas: {len(collected)} canais; sem alterações no catálogo.")
@@ -169,7 +208,7 @@ def main():
     report.mkdir(exist_ok=True)
     report_path = report / "last-update.txt"
     if failures:
-        report_path.write_text("\n".join(failures) + "\n", encoding="utf-8")
+        atomic_write_text(report_path, "\n".join(failures) + "\n")
         print("\n".join("AVISO: " + item for item in failures))
     elif active and report_path.exists():
         report_path.unlink()
