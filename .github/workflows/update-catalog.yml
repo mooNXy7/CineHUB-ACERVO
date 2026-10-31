@@ -1,3 +1,4 @@
+# Retry EPG refresh after correcting the reference-mapping test's channel-list shape.
 # Retry after correcting the series-reference fixture's string season key.
 # Audit-branch reference sync: re-run only after catalog/test corrections are committed.
 name: Update catalog
