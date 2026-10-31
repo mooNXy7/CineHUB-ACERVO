@@ -89,13 +89,8 @@ def validate_html_epg_doc(data):
     return errors
 
 
-def index_detail_tmdb_mismatches(index_items: list, detail_records: list, section: str) -> list[str]:
+def index_detail_tmdb_mismatches(indexed: dict, detail_records: list, section: str) -> list[str]:
     """Return TMDB ID disagreements between the compact index and detail shards."""
-    indexed = {
-        str(item.get("id")): item
-        for item in index_items
-        if isinstance(item, dict) and item.get("id")
-    }
     mismatches = []
     for record in detail_records:
         if not isinstance(record, dict) or not record.get("id"):
@@ -192,7 +187,7 @@ def main():
     if isinstance(vod, dict):
         sections = ("movies", "series", "anime", "doramas")
         categories = vod.get("categories", {})
-        index_by_section: dict[str, list] = {}
+        index_by_section: dict[str, dict[str, dict]] = {}
         for section in sections:
             if isinstance(categories, dict) and isinstance(categories.get(section), dict):
                 category_info = categories[section]
@@ -212,7 +207,10 @@ def main():
             else:
                 # Compatibilidade com o formato inicial, que guardava arrays no manifesto.
                 items = vod.get(section, [])
-            index_by_section[section] = items if isinstance(items, list) else []
+            index_by_section[section] = {
+                str(item.get("id")): item
+                for item in items if isinstance(item, dict) and item.get("id")
+            } if isinstance(items, list) else {}
             ids = set()
             for item in items if isinstance(items, list) else []:
                 ident = item.get("id") if isinstance(item, dict) else None
