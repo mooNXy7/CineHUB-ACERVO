@@ -140,5 +140,40 @@ class ReadOnlyAuditTests(unittest.TestCase):
             self.assertTrue(any(x["code"] == "detail_path_outside_root" for x in result["findings"]))
 
 
+    def test_audit_exposes_duplicate_title_groups_for_safe_review(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files = {
+                "catalog/channels/channels.json": {"schema_version": 1, "channels": []},
+                "catalog/radios/radios.json": {"schema_version": 1, "radios": []},
+                "catalog/vod/index.json": {"schema_version": 1, "categories": {
+                    name: {"count": 2 if name == "movies" else 0,
+                           "index_path": f"catalog/vod/index/{name}.json"}
+                    for name in ("movies", "series", "anime", "doramas")}},
+                "catalog/vod/index/movies.json": [
+                    {"id": "m-1", "title": "Example Film (2020)", "year": "2020", "tmdb_id": "101"},
+                    {"id": "m-2", "title": "Example Film", "year": "2020", "tmdb_id": "202"}
+                ],
+                "catalog/vod/index/series.json": [],
+                "catalog/vod/index/anime.json": [],
+                "catalog/vod/index/doramas.json": [],
+                "sources/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/channel-map.json": {"meuguia_codes": {}, "guiadetv_slugs": {}, "xmltv_aliases": {}},
+                "catalog/epg/health.json": {"sources": {}},
+                "catalog/epg/xmltv-channels.json": {"sources": {}},
+            }
+            for relative, value in files.items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value), encoding="utf-8")
+            result = audit(root)
+            groups = result["duplicate_title_groups"]
+            self.assertEqual(len(groups), 1)
+            self.assertEqual(groups[0]["normalized_title"], "example film")
+            self.assertFalse(groups[0]["same_tmdb_id"])
+            self.assertEqual({x["tmdb_id"] for x in groups[0]["records"]}, {"101", "202"})
+
+
 if __name__ == "__main__":
     unittest.main()
