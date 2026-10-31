@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T22:36:21Z",
+  "generated_at": "2026-10-31T22:41:01Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -5065,7 +5065,7 @@
       "id": "br.film-arts",
       "name": "Film&Arts",
       "group": "Filmes e Séries",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5105,7 +5105,7 @@
       "id": "br.france-24",
       "name": "France 24",
       "group": "Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5187,7 +5187,7 @@
       "id": "br.sportynet",
       "name": "SportyNet",
       "group": "Esportes",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png",
       "epg_id": "SportyNet",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5277,7 +5277,7 @@
       "id": "br.sabor-arte",
       "name": "Sabor & Arte",
       "group": "Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [],
       "stream_status": "pending_validation",
