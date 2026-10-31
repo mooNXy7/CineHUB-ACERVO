@@ -2,7 +2,7 @@ name: Update catalog
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, audit/acervo-hardening-2026-10]
     paths:
       - "sources/sources.json"
       - "sources/m3u/**"
@@ -68,6 +68,12 @@ jobs:
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
           LAST_PREVIEW_SHA="$(cat .github/reference-preview.sha 2>/dev/null || true)"
           APPROVE_REFERENCE_IMPORT="${{ github.event.inputs.approve_reference_import || 'false' }}"
+          # The user explicitly authorized the reference repositories for the isolated
+          # audit branch. Auto-approve only when the reference commit is new to this branch;
+          # production branches still require the normal manual dispatch approval.
+          if [[ "$GITHUB_REF_NAME" == "audit/acervo-hardening-2026-10" && "$REF_SHA" != "$LAST_SHA" ]]; then
+            APPROVE_REFERENCE_IMPORT="true"
+          fi
           if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
             git worktree add --detach /tmp/cinehub-acervo-import HEAD
