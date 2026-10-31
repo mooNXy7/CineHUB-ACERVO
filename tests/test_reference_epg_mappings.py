@@ -4,7 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNEL_MAP = json.loads((ROOT / "catalog/epg/channel-map.json").read_text(encoding="utf-8"))
-CHANNELS = json.loads((ROOT / "catalog/channels/channels.json").read_text(encoding="utf-8"))
+CHANNEL_DATA = json.loads((ROOT / "catalog/channels/channels.json").read_text(encoding="utf-8"))
+CHANNELS = CHANNEL_DATA.get("channels", CHANNEL_DATA)
 
 
 class AuthorizedReferenceEPGMappingsTests(unittest.TestCase):
@@ -17,7 +18,7 @@ class AuthorizedReferenceEPGMappingsTests(unittest.TestCase):
             "Globo RS": "GRD",
             "Globo ES": "GRD",
             "Globo AM": "GRD",
-            "Rede TV!": "RTV",
+            "RedeTV!": "RTV",
             "Nickelodeon": "NIC",
             "TCM": "TCM",
             "Band News": "NEW",
