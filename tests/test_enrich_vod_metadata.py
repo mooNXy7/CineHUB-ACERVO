@@ -35,7 +35,7 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             output = root / "reports/patch.json"
             payload = {"id": 123, "title": "A Test Film", "original_title": "A Test Film",
                        "release_date": "2001-05-01", "poster_path": "/poster.jpg",
-                       "overview": "A synopsis.", "genres": [{"id": 1, "name": "Drama"}]}
+                       "overview": "A synopsis.", "imdb_id": "tt1234567", "genres": [{"id": 1, "name": "Drama"}]}
             with patch.object(enrich, "fetch_tmdb_details", return_value=(payload, "ok")) as fetch:
                 report = enrich.build_patch(root, output, root / "cache.sqlite3", 10, "test-key", delay=0)
             self.assertEqual(fetch.call_count, 1)
@@ -44,7 +44,7 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             self.assertEqual(detail_path.read_bytes(), before)
             self.assertEqual(report["patches"][0]["proposed_fields"], {
                 "poster_url": "/poster.jpg",
-                "year": "2001", "genres": ["Drama"], "overview": "A synopsis.",
+                "year": "2001", "genres": ["Drama"], "overview": "A synopsis.", "imdb_id": "tt1234567",
             })
             self.assertNotIn("test-key", output.read_text(encoding="utf-8"))
 
