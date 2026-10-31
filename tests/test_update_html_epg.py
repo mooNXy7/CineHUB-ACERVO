@@ -163,5 +163,35 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(list(Path(tmp).glob(".result.json.*.tmp")), [])
 
 
+    def test_fetch_html_validates_initial_url_and_uses_redirect_allowlist(self):
+        import update_html_epg
+        from unittest.mock import MagicMock, patch
+
+        response = MagicMock()
+        response.status = 200
+        response.headers.get.return_value = "text/html; charset=utf-8"
+        response.read.side_effect = [b"<html>ok</html>", b""]
+        response.__enter__.return_value = response
+        opener = MagicMock()
+        opener.open.return_value = response
+
+        with patch("update_html_epg.urllib.request.build_opener", return_value=opener) as build:
+            result = update_html_epg.fetch_html("https://meuguia.tv/programacao/canal/HBO")
+
+        self.assertEqual(result, "<html>ok</html>")
+        build.assert_called_once()
+        self.assertIsInstance(build.call_args.args[0], update_html_epg._SameSourceRedirectHandler)
+        opener.open.assert_called_once()
+
+    def test_fetch_html_rejects_unapproved_initial_url_before_network(self):
+        import update_html_epg
+        from unittest.mock import patch
+
+        with patch("update_html_epg.urllib.request.build_opener") as build:
+            with self.assertRaises(ValueError):
+                update_html_epg.fetch_html("https://example.com/epg")
+        build.assert_not_called()
+
+
 if __name__ == "__main__":
     unittest.main()
