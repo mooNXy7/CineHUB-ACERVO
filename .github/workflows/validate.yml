@@ -2,7 +2,7 @@ name: Validate catalog
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, audit/acervo-hardening-2026-10]
   pull_request:
   workflow_dispatch:
 
