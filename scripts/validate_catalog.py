@@ -166,6 +166,7 @@ def main():
     if isinstance(vod, dict):
         sections = ("movies", "series", "anime", "doramas")
         categories = vod.get("categories", {})
+        index_by_section: dict[str, list] = {}
         for section in sections:
             if isinstance(categories, dict) and isinstance(categories.get(section), dict):
                 category_info = categories[section]
@@ -182,6 +183,7 @@ def main():
                         items = []
                 if isinstance(items, list) and category_info.get("count") != len(items):
                     errors.append(f"{index_path}: contagem não corresponde ao manifesto")
+            index_by_section[section] = items if isinstance(items, list) else []
             else:
                 # Compatibilidade com o formato inicial, que guardava arrays no manifesto.
                 items = vod.get(section, [])
@@ -214,6 +216,9 @@ def main():
                     record_ids = [x.get("id") for x in records if isinstance(x, dict)]
                     if len(record_ids) != len(set(record_ids)):
                         errors.append(f"{path.relative_to(ROOT)}: IDs duplicados no arquivo")
+                    errors.extend(index_detail_tmdb_mismatches(
+                        index_by_section.get(section, []), records, section
+                    ))
 
     if errors:
         print("\n".join("ERROR: " + error for error in errors))
