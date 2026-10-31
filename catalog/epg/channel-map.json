@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-10-31T21:30:42.293Z",
   "timezone": "America/Sao_Paulo",
   "meuguia_codes": {
     "A&E": "MDO",
@@ -55,7 +55,18 @@
     "Viva": "VIV",
     "Warner": "WBT",
     "Arte 1": "BQ5",
-    "TLC": "TRV"
+    "TLC": "TRV",
+    "Telecine Cult": "TC5",
+    "Telecine Fun": "TC6",
+    "Telecine Touch": "TC3",
+    "Globo MG": "GRD",
+    "Globo RS": "GRD",
+    "Globo ES": "GRD",
+    "Globo AM": "GRD",
+    "RedeTV!": "RTV",
+    "Nickelodeon": "NIC",
+    "TCM": "TCM",
+    "Band News": "NEW"
   },
   "guiadetv_slugs": {
     "SONY Movies": "sony-movies",
@@ -63,7 +74,28 @@
     "Terra Viva": "terra-viva",
     "Box Kids TV": "box-kids",
     "X Sports": "xsports",
-    "N SPORTS": "nsports"
+    "N SPORTS": "nsports",
+    "HBO Pop": "hbo-pop",
+    "HBO Xtreme": "hbo-xtreme",
+    "HBO Mundi": "hbo-mundi",
+    "CNN Brasil": "cnn-brasil",
+    "Cartoonito": "cartoonito",
+    "AMC": "amc",
+    "TNT Novelas": "tnt-novelas",
+    "History 2": "history-2",
+    "Food Network": "food-network",
+    "HGTV": "hgtv",
+    "Multishow": "multishow",
+    "BIS": "bis",
+    "Arte 1": "arte-1",
+    "Record News": "record-news",
+    "Jovem Pan News": "jovem-pan-news",
+    "TV Brasil": "tv-brasil",
+    "TV Aparecida": "tv-aparecida",
+    "Premiere 2": "premiere-2",
+    "Premiere 3": "premiere-3",
+    "Premiere 4": "premiere-4",
+    "Adult Swim": "adult-swim"
   },
   "xmltv_aliases": {
     "Adult Swim": [
@@ -131,9 +163,13 @@
       "code": "GRD",
       "channel_names": [
         "Globo RJ",
-        "Globo SP"
+        "Globo SP",
+        "Globo MG",
+        "Globo RS",
+        "Globo ES",
+        "Globo AM"
       ],
-      "evidence": "Authorized reference mapping fkuller/Saimo-Cell-V2:data/epgMappings.ts; both regional names intentionally use GRD in the reference."
+      "evidence": "Authorized reference mapping fkuller/Saimo-Cell-V2:data/epgMappings.ts; all six regional Globo channels intentionally use GRD in the reference."
     }
   ]
 }
