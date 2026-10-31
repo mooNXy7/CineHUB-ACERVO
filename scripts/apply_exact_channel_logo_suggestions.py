@@ -7,7 +7,10 @@ import json
 from pathlib import Path
 from typing import Any
 
-from suggest_channel_logo_matches import CHANNELS_FILE, ROOT, build_report, norm
+try:
+    from .suggest_channel_logo_matches import CHANNELS_FILE, ROOT, build_report, norm
+except ImportError:  # Executed as a standalone script from the scripts directory.
+    from suggest_channel_logo_matches import CHANNELS_FILE, ROOT, build_report, norm
 
 
 def apply(root: Path = ROOT) -> dict[str, Any]:
