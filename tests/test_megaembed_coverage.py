@@ -70,5 +70,12 @@ class MegaEmbedCoverageAuditTests(unittest.TestCase):
         self.assertEqual(totals["episodes_with_megaembed"], 1)
 
 
+    def test_season_iteration_accepts_legacy_lists_and_canonical_keyed_objects(self):
+        legacy = {"seasons": [{"season": 1, "episodes": []}]}
+        canonical = {"seasons": {"1": {"season": 1, "episodes": []}}}
+        self.assertEqual(len(list(audit.iter_seasons(legacy))), 1)
+        self.assertEqual(len(list(audit.iter_seasons(canonical))), 1)
+
+
 if __name__ == "__main__":
     unittest.main()
