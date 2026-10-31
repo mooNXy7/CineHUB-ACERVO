@@ -33,7 +33,7 @@ permissions:
 
 concurrency:
   group: acervo-vod-metadata-review
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-patch:
