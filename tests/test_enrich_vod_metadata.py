@@ -79,10 +79,18 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             root = Path(tmp)
             self._fixture(root, {"id": "movie-test-film", "title": "A Test Film", "type": "movie",
                                  "year": None, "tmdb_id": "123", "poster_url": None, "genres": []})
-            with patch.object(enrich, "fetch_tmdb_details") as fetch:
+            original_load_json = enrich.load_json
+            detail_loads = []
+            def tracked_load_json(path):
+                if str(path).endswith("A-000.json"):
+                    detail_loads.append(str(path))
+                return original_load_json(path)
+            with patch.object(enrich, "load_json", side_effect=tracked_load_json), \
+                 patch.object(enrich, "fetch_tmdb_details") as fetch:
                 report = enrich.build_patch(root, root / "patch.json", root / "cache.sqlite3",
                                             10, "test-key", delay=0, offset=1)
             fetch.assert_not_called()
+            self.assertEqual(detail_loads, [])
             self.assertEqual(report["records_examined"], 0)
             self.assertEqual(report["eligible_records_skipped"], 1)
 
