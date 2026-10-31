@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T22:50:48Z",
+  "generated_at": "2026-10-31T22:52:42Z",
   "timezone": "America/Sao_Paulo",
   "policy": {
     "priority": [
@@ -17,7 +17,7 @@
   "programmes": {
     "Band": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:20:00-03:00",
@@ -389,7 +389,7 @@
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:09:00-03:00",
@@ -1013,7 +1013,7 @@
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:55:00-03:00",
@@ -1517,7 +1517,7 @@
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:35:00-03:00",
@@ -2141,7 +2141,7 @@
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:30:00-03:00",
@@ -2495,7 +2495,7 @@
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -2987,7 +2987,7 @@
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:44:00-03:00",
@@ -3905,7 +3905,7 @@
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:00:00-03:00",
@@ -4127,7 +4127,7 @@
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:46:00-03:00",
@@ -6293,7 +6293,7 @@
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:48:00-03:00",
@@ -6557,7 +6557,7 @@
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:58:00-03:00",
@@ -7055,7 +7055,7 @@
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:05:00-03:00",
@@ -7631,7 +7631,7 @@
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:36:00-03:00",
@@ -8231,7 +8231,7 @@
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:12:00-03:00",
@@ -8783,7 +8783,7 @@
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:36:00-03:00",
@@ -9713,7 +9713,7 @@
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:48:00-03:00",
@@ -11736,12 +11736,18 @@
           "title": "Polly Pocket",
           "genre": "Infantil/Desenho",
           "end": "2026-11-03T19:52:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:52:00-03:00",
+          "title": "Polly Pocket",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T20:03:00-03:00"
         }
       ]
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:45:00-03:00",
@@ -12053,7 +12059,7 @@
     },
     "E!": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:20:00-03:00",
@@ -12563,7 +12569,7 @@
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:30:00-03:00",
@@ -12929,7 +12935,7 @@
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:30:00-03:00",
@@ -13259,7 +13265,7 @@
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:30:00-03:00",
@@ -13535,7 +13541,7 @@
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:00:00-03:00",
@@ -13877,7 +13883,7 @@
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:40:00-03:00",
@@ -14483,7 +14489,7 @@
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -14873,7 +14879,7 @@
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -15263,7 +15269,7 @@
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -15533,7 +15539,7 @@
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -15803,7 +15809,7 @@
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:35:00-03:00",
@@ -16049,7 +16055,7 @@
     },
     "Gloob": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -17135,7 +17141,7 @@
     },
     "HBO Family": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T17:57:00-03:00",
@@ -17393,7 +17399,7 @@
     },
     "Multishow": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:27:00-03:00",
@@ -18335,7 +18341,7 @@
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:25:00-03:00",
@@ -18611,7 +18617,7 @@
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:25:00-03:00",
@@ -18839,7 +18845,7 @@
     },
     "History": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -19379,7 +19385,7 @@
     },
     "Record": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -19739,7 +19745,7 @@
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -20021,7 +20027,7 @@
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:00:00-03:00",
@@ -20765,7 +20771,7 @@
     },
     "Space": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:08:00-03:00",
@@ -21209,7 +21215,7 @@
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:30:00-03:00",
@@ -21629,7 +21635,7 @@
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:30:00-03:00",
@@ -22025,7 +22031,7 @@
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -22253,7 +22259,7 @@
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -22493,7 +22499,7 @@
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:45:00-03:00",
@@ -22751,7 +22757,7 @@
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:25:00-03:00",
@@ -22985,7 +22991,7 @@
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -23219,7 +23225,7 @@
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -23447,7 +23453,7 @@
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:37:00-03:00",
@@ -23879,7 +23885,7 @@
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:47:00-03:00",
@@ -24413,7 +24419,7 @@
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:23:00-03:00",
@@ -24947,7 +24953,7 @@
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -25457,7 +25463,7 @@
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:30:00-03:00",
@@ -26015,7 +26021,7 @@
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T17:22:00-03:00",
@@ -26789,7 +26795,7 @@
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:41:00-03:00",
@@ -27485,7 +27491,7 @@
     },
     "Telecine Cult": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:35:00-03:00",
@@ -27731,7 +27737,7 @@
     },
     "Telecine Touch": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T17:40:00-03:00",
@@ -27971,7 +27977,7 @@
     },
     "Telecine Fun": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:35:00-03:00",
@@ -28241,7 +28247,7 @@
     },
     "Globo MG": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -28631,7 +28637,7 @@
     },
     "Globo RS": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -29021,7 +29027,7 @@
     },
     "Globo AM": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -29411,7 +29417,7 @@
     },
     "Globo ES": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:50:00-03:00",
@@ -29801,7 +29807,7 @@
     },
     "RedeTV!": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:45:00-03:00",
@@ -30185,7 +30191,7 @@
     },
     "TCM": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T19:21:00-03:00",
@@ -30479,7 +30485,7 @@
     },
     "Band News": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T22:50:48Z",
+      "fetched_at": "2026-10-31T22:52:42Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -30997,651 +31003,651 @@
   "health": {
     "Band": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 61,
       "error": null
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 83,
       "error": null
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 58,
       "error": null
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 81,
       "error": null
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 152,
       "error": null
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 36,
       "error": null
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 360,
       "error": null
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 43,
       "error": null
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 82,
       "error": null
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 95,
       "error": null
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 99,
       "error": null
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 91,
       "error": null
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 154,
       "error": null
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
-      "programme_count": 337,
+      "programme_count": 338,
       "error": null
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 51,
       "error": null
     },
     "E!": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 60,
       "error": null
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 54,
       "error": null
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 45,
       "error": null
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 56,
       "error": null
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 100,
       "error": null
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 44,
       "error": null
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 44,
       "error": null
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 40,
       "error": null
     },
     "Gloob": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 180,
       "error": null
     },
     "HBO Family": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 42,
       "error": null
     },
     "Multishow": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 156,
       "error": null
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 45,
       "error": null
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "History": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 89,
       "error": null
     },
     "Record": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 59,
       "error": null
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 46,
       "error": null
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 123,
       "error": null
     },
     "Space": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 73,
       "error": null
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 69,
       "error": null
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 65,
       "error": null
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 39,
       "error": null
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 42,
       "error": null
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 71,
       "error": null
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 88,
       "error": null
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 88,
       "error": null
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 92,
       "error": null
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 128,
       "error": null
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 115,
       "error": null
     },
     "SONY Movies": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "SBT News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Terra Viva": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Box Kids TV": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "X Sports": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "N SPORTS": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Telecine Cult": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 40,
       "error": null
     },
     "Telecine Touch": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 39,
       "error": null
     },
     "Telecine Fun": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 44,
       "error": null
     },
     "Globo MG": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "Globo RS": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "Globo AM": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "Globo ES": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 64,
       "error": null
     },
     "Nickelodeon": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "RedeTV!": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 63,
       "error": null
     },
     "TCM": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 48,
       "error": null
     },
     "Band News": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "healthy",
       "programme_count": 85,
       "error": null
     },
     "HBO Pop": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HBO Mundi": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "CNN Brasil": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Cartoonito": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HBO Xtreme": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "AMC": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TNT Novelas": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Food Network": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "History 2": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HGTV": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "BIS": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Record News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Jovem Pan News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TV Brasil": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TV Aparecida": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 2": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 4": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 3": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Adult Swim": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T22:50:48Z",
+      "checked_at": "2026-10-31T22:52:42Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "error": "HTTPError: HTTP Error 404: Not Found"
     }
   }
