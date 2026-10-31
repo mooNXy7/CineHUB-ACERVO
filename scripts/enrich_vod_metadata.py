@@ -193,12 +193,10 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
             index_records = load_json(safe_path(root, index_path))
             if not isinstance(index_records, list):
                 raise ValueError(f"VOD index for {section} is not a list")
-            for entry in index_records:
-                if not isinstance(entry, dict):
-                    continue
+            def load_detail_record(entry: dict) -> dict | None:
                 detail_path = str(entry.get("detail_path") or "")
                 if not detail_path:
-                    continue
+                    return None
                 resolved = safe_path(root, detail_path)
                 key_path = resolved.as_posix()
                 if key_path not in detail_cache:
@@ -210,25 +208,50 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                         if isinstance(item, dict) and item.get("id")
                     }
                 record = detail_cache[key_path].get(str(entry.get("id") or ""))
-                if not isinstance(record, dict):
-                    continue
-                tmdb_id = str(record.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
-                missing = [field for field in ("poster_url", "year", "genres", "overview")
-                           if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
+                return record if isinstance(record, dict) else None
 
-                # Offset is anchored to the stable sequence of records with an existing
-                # numeric TMDB ID, not the changing subset with missing metadata. A
-                # successful batch therefore cannot shift the next batch's position.
+            for entry in index_records:
+                if not isinstance(entry, dict) or not entry.get("detail_path"):
+                    continue
+
+                # The index is the stable, compact checkpoint source. Avoid opening
+                # detail shards for every record skipped by offset; load details only
+                # for the selected batch. Fall back to detail data when an older index
+                # entry has no TMDB ID.
+                tmdb_id = str(entry.get("tmdb_id") or "").strip()
+                record = None
                 if not tmdb_id.isdigit():
+                    record = load_detail_record(entry)
+                    if not isinstance(record, dict):
+                        continue
+                    tmdb_id = str(record.get("tmdb_id") or "").strip()
+
+                if not tmdb_id.isdigit():
+                    missing = [field for field in ("poster_url", "year", "genres", "overview")
+                               if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
                     if missing:
                         counts["no_tmdb_id"] += 1
                     continue
+
+                # Offset is anchored to the stable sequence of records with an existing
+                # numeric TMDB ID, not the changing subset with missing metadata.
                 if eligible_skipped < offset:
                     eligible_skipped += 1
                     continue
                 if examined >= limit:
                     break
                 examined += 1
+
+                if record is None:
+                    record = load_detail_record(entry)
+                if not isinstance(record, dict):
+                    continue
+                detail_tmdb_id = str(record.get("tmdb_id") or "").strip()
+                if detail_tmdb_id and detail_tmdb_id != tmdb_id:
+                    counts["identity_review"] += 1
+                    continue
+                missing = [field for field in ("poster_url", "year", "genres", "overview")
+                           if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
                 if not missing:
                     counts["complete"] += 1
                     continue
