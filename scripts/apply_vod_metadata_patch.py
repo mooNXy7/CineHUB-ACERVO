@@ -13,7 +13,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTIONS = ("movies", "series", "anime", "doramas")
-ALLOWED_FIELDS = {"poster_url", "year", "genres", "overview"}
+ALLOWED_FIELDS = {"poster_url", "year", "genres", "overview", "imdb_id"}
 
 
 def load_json(path: Path) -> Any:
@@ -41,6 +41,8 @@ def empty(value: Any) -> bool:
 
 
 def validate_value(field: str, value: Any) -> bool:
+    if field == "imdb_id":
+        return isinstance(value, str) and bool(re.fullmatch(r"tt\\d{7,10}", value, flags=re.IGNORECASE))
     if field == "year":
         return isinstance(value, str) and bool(re.fullmatch(r"(?:19|20)\d{2}", value))
     if field == "poster_url":
