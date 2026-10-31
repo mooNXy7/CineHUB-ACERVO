@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_HOSTS = {"mgeb.top", "www.mgeb.top", "megaembedapi.site"}
-IMDB = re.compile(r"^tt\\d{7,10}$")
+IMDB = re.compile(r"^tt\d{7,10}$")
 
 
 def load_json(path: Path):
@@ -29,7 +29,7 @@ def source_is_megaembed(source: dict) -> bool:
 
 
 def iter_seasons(record: dict):
-    """Support both legacy list seasons and the importer’s canonical keyed object."""
+    """Support legacy list seasons and the importer’s canonical keyed object."""
     seasons = record.get("seasons")
     if isinstance(seasons, dict):
         yield from seasons.values()
@@ -164,7 +164,7 @@ def main():
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     report = audit(args.root)
-    rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\\n"
+    rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered, encoding="utf-8")
