@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T21:32:29Z",
+  "generated_at": "2026-10-31T22:27:12Z",
   "timezone": "America/Sao_Paulo",
   "policy": {
     "priority": [
@@ -17,20 +17,8 @@
   "programmes": {
     "Band": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:30:00-03:00",
-          "title": "Brasil Urgente - SP",
-          "genre": "Jornalismo/Informativo",
-          "end": "2026-10-31T18:50:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:50:00-03:00",
-          "title": "Jornal do Rio",
-          "genre": "Jornalismo/Informativo",
-          "end": "2026-10-31T19:20:00-03:00"
-        },
         {
           "start": "2026-10-31T19:20:00-03:00",
           "title": "Jornal da Band",
@@ -384,19 +372,25 @@
           "title": "Brasil Urgente Rio",
           "genre": "Jornalismo/Informativo",
           "end": "2026-11-03T18:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:40:00-03:00",
+          "title": "Jornal do Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:20:00-03:00",
+          "title": "Jornal da Band",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T20:30:00-03:00"
         }
       ]
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:23:00-03:00",
-          "title": "Santuário Animal",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T19:09:00-03:00"
-        },
         {
           "start": "2026-10-31T19:09:00-03:00",
           "title": "O Aquário",
@@ -1008,19 +1002,19 @@
           "title": "Um Lar para Pets",
           "genre": "Séries/Comportamento",
           "end": "2026-11-03T19:09:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:09:00-03:00",
+          "title": "O Vínculo",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:55:00-03:00"
         }
       ]
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:55:00-03:00",
-          "title": "Criminal Minds",
-          "genre": "Séries/Suspense",
-          "end": "2026-10-31T18:55:00-03:00"
-        },
         {
           "start": "2026-10-31T18:55:00-03:00",
           "title": "Criminal Minds",
@@ -1506,19 +1500,19 @@
           "title": "Hawaii Five-0",
           "genre": "Séries/Ação",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Hawaii Five-0",
+          "genre": "Séries/Ação",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:55:00-03:00",
-          "title": "Condenadas À Morte",
-          "genre": "Séries/Policial",
-          "end": "2026-10-31T18:45:00-03:00"
-        },
         {
           "start": "2026-10-31T18:45:00-03:00",
           "title": "Revelações De Um Serial Killer",
@@ -2130,19 +2124,19 @@
           "title": "Arquivo Morto: O Dna Não Falha",
           "genre": "Séries/Investigação",
           "end": "2026-11-03T18:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:40:00-03:00",
+          "title": "Em Nome da Justiça",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:50:00-03:00",
-          "title": "Chapecoense x Criciúma - Ao Vivo",
-          "genre": "Esporte/Futebol de Salão",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
         {
           "start": "2026-10-31T18:30:00-03:00",
           "title": "PBR Brasil: Etapa Campo Grande-MS: Round 1 - VT",
@@ -2495,14 +2489,8 @@
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:25:00-03:00",
-          "title": "O Porão da Rua do Grito",
-          "genre": "Filme/Terror",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "Delegado - A Arma de Biu Doidão",
@@ -2993,20 +2981,8 @@
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:19:00-03:00",
-          "title": "Visão De Rua",
-          "genre": "Séries/Aventura",
-          "end": "2026-10-31T18:48:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:48:00-03:00",
-          "title": "Yoga Em Todo Lugar",
-          "genre": "Séries/Aventura",
-          "end": "2026-10-31T19:16:00-03:00"
-        },
         {
           "start": "2026-10-31T19:16:00-03:00",
           "title": "Kaiak",
@@ -3906,19 +3882,25 @@
           "title": "Kaiak",
           "genre": "Séries/Aventura",
           "end": "2026-11-03T18:41:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:41:00-03:00",
+          "title": "Kaiak",
+          "genre": "Séries/Aventura",
+          "end": "2026-11-03T19:09:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:09:00-03:00",
+          "title": "Mar E Música",
+          "genre": "Séries/Aventura",
+          "end": "2026-11-03T19:37:00-03:00"
         }
       ]
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:55:00-03:00",
-          "title": "Oktagon 96 - Ao Vivo",
-          "genre": "Esporte/Luta",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "Mundo Da Luta - Ep.12",
@@ -4133,38 +4115,8 @@
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:23:00-03:00",
-          "title": "O Mundo Maravilhosamente Estranho de Gumball",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:35:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:35:00-03:00",
-          "title": "O Mundo Maravilhosamente Estranho de Gumball",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:46:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:46:00-03:00",
-          "title": "O Mundo Maravilhosamente Estranho de Gumball",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:59:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:59:00-03:00",
-          "title": "O Mundo Maravilhosamente Estranho de Gumball",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:10:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:10:00-03:00",
-          "title": "O Mundo Maravilhosamente Estranho de Gumball",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:22:00-03:00"
-        },
         {
           "start": "2026-10-31T19:22:00-03:00",
           "title": "O Mundo Maravilhosamente Estranho de Gumball",
@@ -6306,12 +6258,36 @@
           "title": "Os Jovens Titãs em Ação",
           "genre": "Infantil/Desenho",
           "end": "2026-11-03T18:42:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:42:00-03:00",
+          "title": "Os Jovens Titãs em Ação",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "Clarêncio, o Otimista",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:11:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:11:00-03:00",
+          "title": "Clarêncio, o Otimista",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:23:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:23:00-03:00",
+          "title": "Clarêncio, o Otimista",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:23:00-03:00",
@@ -6570,19 +6546,19 @@
           "title": "T-34: O Monstro de Metal",
           "genre": "Filme/Guerra",
           "end": "2026-11-03T18:56:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:56:00-03:00",
+          "title": "Coração Errante",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T20:49:00-03:00"
         }
       ]
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:08:00-03:00",
-          "title": "Irmãos à Obra: Compra e Venda",
-          "genre": "Séries/Comportamento",
-          "end": "2026-10-31T18:58:00-03:00"
-        },
         {
           "start": "2026-10-31T18:58:00-03:00",
           "title": "Menos É Demais",
@@ -7073,14 +7049,8 @@
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:16:00-03:00",
-          "title": "Ed Stafford: Desafio Mortal",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T19:05:00-03:00"
-        },
         {
           "start": "2026-10-31T19:05:00-03:00",
           "title": "Ed Stafford: Desafio Mortal",
@@ -7638,25 +7608,19 @@
           "title": "Ed Stafford: Aventura em Família",
           "genre": "Séries/Reality Show",
           "end": "2026-11-03T18:59:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:59:00-03:00",
+          "title": "Largados e Pelados",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:48:00-03:00"
         }
       ]
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:00:00-03:00",
-          "title": "American Chopper",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T18:48:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:48:00-03:00",
-          "title": "4x4 Sob Medida",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T19:12:00-03:00"
-        },
         {
           "start": "2026-10-31T19:12:00-03:00",
           "title": "4x4 Sob Medida",
@@ -8238,19 +8202,25 @@
           "title": "Dupla do Barulho",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T18:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:45:00-03:00",
+          "title": "Vida Automotiva",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:08:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:08:00-03:00",
+          "title": "Vida Automotiva",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:24:00-03:00",
-          "title": "Olho Crítico",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T19:12:00-03:00"
-        },
         {
           "start": "2026-10-31T19:12:00-03:00",
           "title": "Mistérios da Humanidade Com Megan Fox",
@@ -8790,25 +8760,19 @@
           "title": "Olho Crítico",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T19:12:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:12:00-03:00",
+          "title": "Rumo ao Desconhecido: Mistérios Paranormais",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T20:00:00-03:00"
         }
       ]
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:24:00-03:00",
-          "title": "O Poder dos Alimentos",
-          "genre": "Séries/Culinária",
-          "end": "2026-10-31T18:48:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:48:00-03:00",
-          "title": "Viciados em Viagens",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T19:12:00-03:00"
-        },
         {
           "start": "2026-10-31T19:12:00-03:00",
           "title": "Vende-se Pântano",
@@ -9720,61 +9684,25 @@
           "title": "O Poder dos Alimentos",
           "genre": "Séries/Culinária",
           "end": "2026-11-03T18:48:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:48:00-03:00",
+          "title": "Viciados em Viagens",
+          "genre": "Séries/Reality Show",
+          "end": "2026-11-03T19:12:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:12:00-03:00",
+          "title": "Vende-se Pântano",
+          "genre": "Séries/Reality Show",
+          "end": "2026-11-03T19:36:00-03:00"
         }
       ]
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:19:00-03:00",
-          "title": "O Show da Luna!",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "O Show da Luna!",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:42:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:42:00-03:00",
-          "title": "O Show da Luna!",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T18:53:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:53:00-03:00",
-          "title": "O Show da Luna!",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:04:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:04:00-03:00",
-          "title": "Peppa Pig",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:09:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:09:00-03:00",
-          "title": "Peppa Pig",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:14:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:14:00-03:00",
-          "title": "Peppa Pig",
-          "genre": "Infantil/Animação",
-          "end": "2026-10-31T19:19:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:19:00-03:00",
-          "title": "Peppa Pig",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:24:00-03:00"
-        },
         {
           "start": "2026-10-31T19:24:00-03:00",
           "title": "Peppa Pig",
@@ -11766,19 +11694,37 @@
           "title": "Mermicorno: A Queda das Estrelas",
           "genre": "Séries/Infantil",
           "end": "2026-11-03T18:41:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:41:00-03:00",
+          "title": "Mermicorno: A Queda das Estrelas",
+          "genre": "Séries/Infantil",
+          "end": "2026-11-03T19:04:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:04:00-03:00",
+          "title": "Turma da Mônica",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:11:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:11:00-03:00",
+          "title": "Turma da Mônica",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:18:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:18:00-03:00",
+          "title": "O Show da Luna!",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T19:29:00-03:00"
         }
       ]
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:30:00-03:00",
-          "title": "Milan x Internazionale - Ao Vivo",
-          "genre": "Esporte/Futebol",
-          "end": "2026-10-31T18:45:00-03:00"
-        },
         {
           "start": "2026-10-31T18:45:00-03:00",
           "title": "Mundo F - Ao Vivo",
@@ -12089,20 +12035,8 @@
     },
     "E!": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:30:00-03:00",
-          "title": "Million Dollar Listing NY",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "Botched",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T19:20:00-03:00"
-        },
         {
           "start": "2026-10-31T19:20:00-03:00",
           "title": "Muito Além da Moda - Paulo Borges",
@@ -12594,12 +12528,18 @@
           "title": "Million Dollar Listing NY",
           "genre": "Séries/Reality Show",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Million Dollar Listing NY",
+          "genre": "Séries/Reality Show",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:25:00-03:00",
@@ -12960,12 +12900,18 @@
           "title": "ATP Masters 1000: Paris - Ao Vivo",
           "genre": "Esporte/Tênis",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "Pelas Quadras - Ao Vivo",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T20:00:00-03:00"
         }
       ]
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -13290,12 +13236,18 @@
           "title": "VT - Boca Juniors x River Plate",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "ATP Challenger 125: Costa do Sauipe - Ao Vivo",
+          "genre": "Esporte/Tênis",
+          "end": "2026-11-03T21:00:00-03:00"
         }
       ]
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -13571,20 +13523,8 @@
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:00:00-03:00",
-          "title": "Show da Rodada do Italiano",
-          "genre": "Jornalismo/Esportivo",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "Show da Rodada da Copa da Liga",
-          "genre": "Jornalismo/Esportivo",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "VT - Tottenham Hotspur x Crystal Palace",
@@ -13908,25 +13848,25 @@
           "title": "West Bromwich x Southampton - Ao Vivo",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "Sportscenter Abre o Jogo - Ao Vivo",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T19:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:20:00-03:00",
+          "title": "NBB: Franca x Minas - Ao Vivo",
+          "genre": "Esporte/Basquete",
+          "end": "2026-11-03T21:30:00-03:00"
         }
       ]
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:00:00-03:00",
-          "title": "Tempero De Família",
-          "genre": "Séries/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "Cozinha Prática Com Rita Lobo",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T19:05:00-03:00"
-        },
         {
           "start": "2026-10-31T19:05:00-03:00",
           "title": "Diogo Na Cozinha",
@@ -14520,25 +14460,19 @@
           "title": "Cozinha Prática Com Rita Lobo",
           "genre": "Séries/Culinária",
           "end": "2026-11-03T18:58:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:58:00-03:00",
+          "title": "Cozinha Prática Com Rita Lobo",
+          "genre": "Séries/Diversos",
+          "end": "2026-11-03T19:41:00-03:00"
         }
       ]
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -14916,25 +14850,19 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -15312,12 +15240,18 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -15576,12 +15510,18 @@
           "title": "Megatubarão 2",
           "genre": "Filme/Ação",
           "end": "2026-11-03T19:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:15:00-03:00",
+          "title": "Morte e Mistério na Amazônia",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T20:15:00-03:00"
         }
       ]
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -15851,14 +15791,8 @@
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:30:00-03:00",
-          "title": "It: Bem-vindos a Derry",
-          "genre": "Séries/Suspense",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
         {
           "start": "2026-10-31T18:30:00-03:00",
           "title": "It: Bem-vindos a Derry",
@@ -16092,31 +16026,25 @@
           "title": "Imaculada",
           "genre": "Filme/Terror",
           "end": "2026-11-03T18:41:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:41:00-03:00",
+          "title": "Astronauta",
+          "genre": "Séries/Ficção",
+          "end": "2026-11-03T19:11:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:11:00-03:00",
+          "title": "Bob Burnquist: A Lenda do Skate",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T20:00:00-03:00"
         }
       ]
     },
     "Gloob": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:38:00-03:00",
-          "title": "Cine Gloob: Goosebumps 2: Halloween Assombrado",
-          "genre": "Filme/Aventura",
-          "end": "2026-10-31T19:04:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:04:00-03:00",
-          "title": "Alvinnn!!! E Os Esquilos",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:16:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:16:00-03:00",
-          "title": "Alvinnn!!! E Os Esquilos",
-          "genre": "Infantil/Desenho",
-          "end": "2026-10-31T19:27:00-03:00"
-        },
         {
           "start": "2026-10-31T19:27:00-03:00",
           "title": "Escola De Gênios",
@@ -17190,12 +17118,18 @@
           "title": "Programação do Canal",
           "genre": "Infantil/Desenho",
           "end": "2026-11-03T19:07:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:07:00-03:00",
+          "title": "D.P.A. - Detetives Do Prédio A",
+          "genre": "Séries/Infantil",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "HBO Family": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:57:00-03:00",
@@ -17442,19 +17376,19 @@
           "title": "Minha Vida é um Circo",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T19:12:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:12:00-03:00",
+          "title": "Minha Vida é um Circo",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T20:00:00-03:00"
         }
       ]
     },
     "Multishow": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:29:00-03:00",
-          "title": "Rolling Stones: A Bigger Bang - Copacabana Beach, Rio",
-          "genre": "Variedades/Musical",
-          "end": "2026-10-31T19:27:00-03:00"
-        },
         {
           "start": "2026-10-31T19:27:00-03:00",
           "title": "Replay: Exagerado",
@@ -18336,12 +18270,60 @@
           "title": "Setlist",
           "genre": "Variedades/Musical",
           "end": "2026-11-03T18:33:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:33:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:36:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:36:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:39:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:39:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:47:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:47:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:54:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:54:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:57:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:57:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T19:01:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:01:00-03:00",
+          "title": "Som Sertanejo",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:25:00-03:00",
@@ -18600,19 +18582,19 @@
           "title": "A Morte do Demônio: A Ascensão",
           "genre": "Filme/Terror",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Carlinhos Brown em Meia Lua Inteira",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:35:00-03:00"
         }
       ]
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:35:00-03:00",
-          "title": "Riquinho",
-          "genre": "Filme/Comédia",
-          "end": "2026-10-31T19:25:00-03:00"
-        },
         {
           "start": "2026-10-31T19:25:00-03:00",
           "title": "Especial A Bruxa Está Solta!: Shrek Para Sempre",
@@ -18828,19 +18810,19 @@
           "title": "Especial Mundos Mágicos: Shrek",
           "genre": "Filme/Animação",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "Especial Mundos Mágicos: Amigos Imaginários",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-03T21:00:00-03:00"
         }
       ]
     },
     "History": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:10:00-03:00",
-          "title": "Grandes Mistérios da História Com Laurence Fishburne",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T18:55:00-03:00"
-        },
         {
           "start": "2026-10-31T18:55:00-03:00",
           "title": "Mistérios Inexplorados Com Danny Trejo",
@@ -19362,12 +19344,24 @@
           "title": "Caçadores de Relíquias",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Aberto Para Compras",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:15:00-03:00",
+          "title": "Aberto Para Compras",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "Record": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -19722,19 +19716,19 @@
           "title": "Cidade Alerta",
           "genre": "Jornalismo/Informativo",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Cidade Alerta",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:55:00-03:00"
         }
       ]
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:45:00-03:00",
-          "title": "Sabadão de Todos",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T19:20:00-03:00"
-        },
         {
           "start": "2026-10-31T19:20:00-03:00",
           "title": "SBT Cidades",
@@ -20004,19 +19998,19 @@
           "title": "Barcelona (ESP) x Aston Villa (ING) - Ao Vivo",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "SBT Cidades",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:45:00-03:00"
         }
       ]
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:10:00-03:00",
-          "title": "Giro Da Rodada - Brasileirão - 31ª Rodada",
-          "genre": "Jornalismo/Esportivo",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "Náutico x Avaí - Ao Vivo",
@@ -20742,12 +20736,18 @@
           "title": "VT - Grêmio x Internacional",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "VT - Palmeiras x Corinthians",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Space": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:08:00-03:00",
@@ -21180,19 +21180,19 @@
           "title": "C.S.I",
           "genre": "Séries/Policial",
           "end": "2026-11-03T19:07:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:07:00-03:00",
+          "title": "C.S.I",
+          "genre": "Séries/Policial",
+          "end": "2026-11-03T19:54:00-03:00"
         }
       ]
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:40:00-03:00",
-          "title": "M3gan",
-          "genre": "Filme/Ficção",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
         {
           "start": "2026-10-31T18:30:00-03:00",
           "title": "Especial De Halloween: Pânico No Lago - O Capítulo Final",
@@ -21611,14 +21611,8 @@
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:30:00-03:00",
-          "title": "VT - Corinthians x Cruzeiro",
-          "genre": "Esporte/Futebol",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
         {
           "start": "2026-10-31T18:30:00-03:00",
           "title": "sportv News - Ao Vivo",
@@ -22013,7 +22007,7 @@
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -22241,7 +22235,7 @@
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -22487,14 +22481,8 @@
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:20:00-03:00",
-          "title": "Velozes & Furiosos 9",
-          "genre": "Filme/Ação",
-          "end": "2026-10-31T18:45:00-03:00"
-        },
         {
           "start": "2026-10-31T18:45:00-03:00",
           "title": "O Dublê",
@@ -22740,25 +22728,19 @@
           "title": "Como Eu Era Antes De Você",
           "genre": "Filme/Drama",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "Sol",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T21:00:00-03:00"
         }
       ]
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:30:00-03:00",
-          "title": "Fórmula 1 - GP da Cidade do México - Classificação - Ao Vivo",
-          "genre": "Esporte/Automobilismo",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
-        {
-          "start": "2026-10-31T19:00:00-03:00",
-          "title": "Vitórias Para Sempre - Rubinho Hockenheim 2000",
-          "genre": "Jornalismo/Esportivo",
-          "end": "2026-10-31T19:25:00-03:00"
-        },
         {
           "start": "2026-10-31T19:25:00-03:00",
           "title": "Circuito Mundial de Surfe - Etapa de Portugal - Ao Vivo",
@@ -22980,12 +22962,18 @@
           "title": "Diamond League - Salto Com Vara Masculino - Lausanne, Suiça",
           "genre": "Esporte/Atletismo",
           "end": "2026-11-03T19:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:25:00-03:00",
+          "title": "Circuito Mundial de Surfe - Etapa das Filipinas - Ao Vivo",
+          "genre": "Esporte/Surfe",
+          "end": "2026-11-04T05:30:00-03:00"
         }
       ]
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -23219,7 +23207,7 @@
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:25:00-03:00",
@@ -23453,7 +23441,7 @@
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T16:51:00-03:00",
@@ -23880,19 +23868,19 @@
           "title": "Batman: O Retorno",
           "genre": "Filme/Ação",
           "end": "2026-11-03T18:58:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:58:00-03:00",
+          "title": "Homem-Aranha 3",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-03T21:29:00-03:00"
         }
       ]
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:04:00-03:00",
-          "title": "O Doutrinador",
-          "genre": "Séries/Policial",
-          "end": "2026-10-31T18:53:00-03:00"
-        },
         {
           "start": "2026-10-31T18:53:00-03:00",
           "title": "Os Irmãos Freitas",
@@ -24420,25 +24408,19 @@
           "title": "Amor Sem Fim",
           "genre": "Séries/Drama",
           "end": "2026-11-03T19:16:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:16:00-03:00",
+          "title": "Meu Lar, Meu Destino",
+          "genre": "Séries/Drama",
+          "end": "2026-11-03T20:04:00-03:00"
         }
       ]
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:14:00-03:00",
-          "title": "Dois Em Cena: Encontro De Gerações",
-          "genre": "Séries/Documentário",
-          "end": "2026-10-31T18:38:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:38:00-03:00",
-          "title": "Tropicaliente",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:23:00-03:00"
-        },
         {
           "start": "2026-10-31T19:23:00-03:00",
           "title": "O Cravo E A Rosa",
@@ -24954,19 +24936,25 @@
           "title": "Dois Em Cena: Encontro De Gerações",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T18:39:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:39:00-03:00",
+          "title": "Tropicaliente",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T19:22:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:22:00-03:00",
+          "title": "O Cravo E A Rosa",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T20:08:00-03:00"
         }
       ]
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:10:00-03:00",
-          "title": "Chicago Fire",
-          "genre": "Séries/Ação",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "Chicago P.D.",
@@ -25464,25 +25452,19 @@
           "title": "Law & Order: Svu",
           "genre": "Séries/Policial",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "Law & Order: Svu",
+          "genre": "Séries/Policial",
+          "end": "2026-11-03T19:50:00-03:00"
         }
       ]
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:00:00-03:00",
-          "title": "Material Bruto: Helvécio Ratton",
-          "genre": "Séries/Cultural",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "Sentidos do Fio: Desconstrução + Expansão + Diálogo com Outras Linguagens",
-          "genre": "Séries/Cultural",
-          "end": "2026-10-31T19:00:00-03:00"
-        },
         {
           "start": "2026-10-31T19:00:00-03:00",
           "title": "Arte 1 em Movimento",
@@ -26028,12 +26010,18 @@
           "title": "Arte 1 em Série: A Arte dos Museus",
           "genre": "Séries/Documentário",
           "end": "2026-11-03T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:00:00-03:00",
+          "title": "Arte 1 em Movimento",
+          "genre": "Jornalismo/Cultural",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:22:00-03:00",
@@ -26807,26 +26795,8 @@
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T18:13:00-03:00",
-          "title": "Cupom Mania",
-          "genre": "Séries/Comportamento",
-          "end": "2026-10-31T18:35:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:35:00-03:00",
-          "title": "Casas Exuberantes",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T18:57:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:57:00-03:00",
-          "title": "Casas Exuberantes",
-          "genre": "Séries/Reality Show",
-          "end": "2026-10-31T19:19:00-03:00"
-        },
         {
           "start": "2026-10-31T19:19:00-03:00",
           "title": "Casas Exuberantes",
@@ -27504,19 +27474,25 @@
           "title": "Os Pequenos Johnstons",
           "genre": "Séries/Reality Show",
           "end": "2026-11-03T18:37:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:37:00-03:00",
+          "title": "O Vestido Ideal",
+          "genre": "Séries/Reality Show",
+          "end": "2026-11-03T19:21:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:21:00-03:00",
+          "title": "O Vestido Ideal: Reino Unido",
+          "genre": "Séries/Comportamento",
+          "end": "2026-11-03T19:43:00-03:00"
         }
       ]
     },
     "Telecine Cult": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:55:00-03:00",
-          "title": "Jurassic Park - O Parque Dos Dinossauros",
-          "genre": "Filme/Aventura",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "Especial Halloween: A Última Praga De Mojica",
@@ -27756,12 +27732,18 @@
           "title": "A Árvore Da Vida",
           "genre": "Filme/Drama",
           "end": "2026-11-03T19:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:20:00-03:00",
+          "title": "O Traidor",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T22:00:00-03:00"
         }
       ]
     },
     "Telecine Touch": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:40:00-03:00",
@@ -28001,14 +27983,8 @@
     },
     "Telecine Fun": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T16:45:00-03:00",
-          "title": "Jogo De Amor Em Las Vegas",
-          "genre": "Filme/Comédia",
-          "end": "2026-10-31T18:35:00-03:00"
-        },
         {
           "start": "2026-10-31T18:35:00-03:00",
           "title": "Vovó... Zona 2",
@@ -28277,20 +28253,8 @@
     },
     "Globo MG": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -28668,25 +28632,19 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "Globo RS": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -29064,25 +29022,19 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "Globo AM": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -29460,25 +29412,19 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "Globo ES": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:00:00-03:00",
-          "title": "Caldeirão com Mion",
-          "genre": "Variedades/Diversos",
-          "end": "2026-10-31T18:30:00-03:00"
-        },
-        {
-          "start": "2026-10-31T18:30:00-03:00",
-          "title": "A Nobreza do Amor",
-          "genre": "Variedades/Novela",
-          "end": "2026-10-31T19:15:00-03:00"
-        },
         {
           "start": "2026-10-31T19:15:00-03:00",
           "title": "RJ2",
@@ -29856,12 +29802,18 @@
           "title": "A Nobreza do Amor",
           "genre": "Variedades/Novela",
           "end": "2026-11-03T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:40:00-03:00"
         }
       ]
     },
     "RedeTV!": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -30245,14 +30197,8 @@
     },
     "TCM": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
-        {
-          "start": "2026-10-31T17:36:00-03:00",
-          "title": "Um Dia no Paraíso",
-          "genre": "Filme/Comédia Romântica",
-          "end": "2026-10-31T19:21:00-03:00"
-        },
         {
           "start": "2026-10-31T19:21:00-03:00",
           "title": "Os Doze Condenados",
@@ -30534,12 +30480,18 @@
           "title": "Caça Explosiva",
           "genre": "Filme/Ação",
           "end": "2026-11-03T18:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:50:00-03:00",
+          "title": "Cine Holliúdy 2 - A Chibata Sideral",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T20:32:00-03:00"
         }
       ]
     },
     "Band News": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:32:29Z",
+      "fetched_at": "2026-10-31T22:27:12Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -31051,651 +31003,651 @@
   "health": {
     "Band": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 61,
       "error": null
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 82,
       "error": null
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 59,
+      "programme_count": 58,
       "error": null
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 82,
+      "programme_count": 81,
       "error": null
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 152,
       "error": null
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 36,
+      "programme_count": 35,
       "error": null
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 362,
+      "programme_count": 361,
       "error": null
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 43,
+      "programme_count": 44,
       "error": null
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 82,
+      "programme_count": 81,
       "error": null
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 94,
       "error": null
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 99,
       "error": null
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 91,
       "error": null
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 154,
       "error": null
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 340,
+      "programme_count": 336,
       "error": null
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 52,
+      "programme_count": 51,
       "error": null
     },
     "E!": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 84,
+      "programme_count": 83,
       "error": null
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 60,
+      "programme_count": 61,
       "error": null
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 54,
+      "programme_count": 55,
       "error": null
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 45,
       "error": null
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 56,
       "error": null
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 101,
+      "programme_count": 100,
       "error": null
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 43,
+      "programme_count": 44,
       "error": null
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 44,
       "error": null
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
-      "status": "healthy",
-      "programme_count": 40,
-      "error": null
-    },
-    "Gloob": {
-      "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
-      "status": "healthy",
-      "programme_count": 182,
-      "error": null
-    },
-    "HBO Family": {
-      "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 41,
       "error": null
     },
+    "Gloob": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T22:27:12Z",
+      "status": "healthy",
+      "programme_count": 180,
+      "error": null
+    },
+    "HBO Family": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T22:27:12Z",
+      "status": "healthy",
+      "programme_count": 42,
+      "error": null
+    },
     "Multishow": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 148,
+      "programme_count": 155,
       "error": null
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 43,
+      "programme_count": 44,
       "error": null
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "History": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 88,
+      "programme_count": 89,
       "error": null
     },
     "Record": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 59,
+      "programme_count": 60,
       "error": null
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 46,
       "error": null
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 122,
       "error": null
     },
     "Space": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 72,
+      "programme_count": 73,
       "error": null
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 70,
+      "programme_count": 69,
       "error": null
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 66,
+      "programme_count": 65,
       "error": null
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 40,
       "error": null
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 42,
       "error": null
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 39,
+      "programme_count": 38,
       "error": null
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 71,
+      "programme_count": 72,
       "error": null
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 89,
       "error": null
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 88,
       "error": null
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 93,
+      "programme_count": 92,
       "error": null
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 128,
       "error": null
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 116,
+      "programme_count": 115,
       "error": null
     },
     "SONY Movies": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "SBT News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Terra Viva": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Box Kids TV": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "X Sports": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "N SPORTS": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Telecine Cult": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 41,
       "error": null
     },
     "Telecine Touch": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 39,
       "error": null
     },
     "Telecine Fun": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 45,
+      "programme_count": 44,
       "error": null
     },
     "Globo MG": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "Globo RS": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "Globo AM": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "Globo ES": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 64,
       "error": null
     },
     "Nickelodeon": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "RedeTV!": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 63,
       "error": null
     },
     "TCM": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 48,
       "error": null
     },
     "Band News": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "HBO Pop": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HBO Mundi": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "CNN Brasil": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Cartoonito": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HBO Xtreme": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "AMC": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TNT Novelas": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Food Network": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "History 2": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "HGTV": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "BIS": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Record News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Jovem Pan News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TV Brasil": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "TV Aparecida": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 2": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 4": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Premiere 3": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Adult Swim": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:32:29Z",
+      "checked_at": "2026-10-31T22:27:12Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "HTTPError: HTTP Error 404: Not Found"
     }
   }
