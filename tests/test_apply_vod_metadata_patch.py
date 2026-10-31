@@ -15,7 +15,7 @@ class ApplyVODMetadataPatchTests(unittest.TestCase):
         (root / "catalog/vod/details/movies").mkdir(parents=True)
         if index_record is None:
             index_record = {k: v for k, v in detail_record.items() if k in
-                            {"id", "title", "type", "tmdb_id", "year", "poster_url", "genres", "overview"}}
+                            {"id", "title", "type", "tmdb_id", "imdb_id", "year", "poster_url", "genres", "overview"}}
             index_record["detail_path"] = "catalog/vod/details/movies/A-000.json"
         manifest = {"schema_version": 1, "categories": {"movies": {
             "count": 1, "index_path": "catalog/vod/index/movies.json"}}}
@@ -36,14 +36,16 @@ class ApplyVODMetadataPatchTests(unittest.TestCase):
                                   "matched_title": "A Test Film", "tmdb_id": "123",
                                   "confidence": "exact_provider_id_and_title",
                                   "proposed_fields": {"year": "2001", "poster_url": "/poster.jpg",
-                                                      "genres": ["Drama"], "overview": "Synopsis"}}]}
+                                                      "genres": ["Drama"], "overview": "Synopsis", "imdb_id": "tt1234567"}}]}
             patch_path = root / "patch.json"
             patch_path.write_text(json.dumps(patch), encoding="utf-8")
             summary = apply_patch.apply_patch(root, patch_path, root / "summary.json")
             index = json.loads(index_path.read_text(encoding="utf-8"))[0]
             detail = json.loads(detail_path.read_text(encoding="utf-8"))[0]
-            self.assertEqual(summary["counts"]["fields_updated"], 4)
+            self.assertEqual(summary["counts"]["fields_updated"], 5)
             self.assertEqual(index["overview"], "Synopsis")
+            self.assertEqual(index["imdb_id"], "tt1234567")
+            self.assertEqual(detail["imdb_id"], "tt1234567")
             self.assertEqual(detail["poster_url"], "/poster.jpg")
             self.assertEqual(detail["sources"], record["sources"])
             self.assertTrue(summary["catalog_mutated"])
