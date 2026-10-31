@@ -1553,7 +1553,7 @@
     "id": "movie-as-leis-do-crime",
     "title": "As Leis do Crime",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/i3xH6aZbVXwTtoe6tcOuuzdMEcI.jpg",
     "genres": [
       "Drama",
@@ -1570,7 +1570,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A década de 1980 em Nova York é marcada por lutar de gangues, violência e grandes traições. Sonny e Steven são colegas de escola e grandes amigos. É 1983. Eles entram em na gangue Green Dragons, de Chinatown. Sonny e Steven aprendem a matar e aprendem quem não devem matar. Logo eles têm a missão de matat os líderes de uma gangue inimiga.",
+    "imdb_id": "tt1396523"
   },
   {
     "id": "movie-as-leis-do-crime-2014",
@@ -1596,7 +1598,7 @@
     "id": "movie-as-linhas-da-minha-mao",
     "title": "As Linhas da Minha Mão",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/foVMIyTMLOtPXxNXQQddQ9aAvkZ.jpg",
     "genres": [
       "Documentário"
@@ -1657,13 +1659,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Por meio de uma série de encontros imprevisíveis, uma atriz fala sobre a sua experiência com a arte e a loucura. Dividido em sete atos, o filme é ao mesmo tempo o retrato de uma mulher e um estudo sobre as possibilidades desse retrato.  Prêmio de Melhor Filme na Mostra Aurora da 26a Mostra de Tiradentes",
+    "imdb_id": "tt27502343"
   },
   {
     "id": "movie-as-linhas-tortas-de-deus",
     "title": "As Linhas Tortas de Deus",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/i7xCXKYkuFxx6UglVbSFaBmrwcO.jpg",
     "genres": [
       "Drama",
@@ -1738,7 +1742,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Alice Gould, uma investigadora particular, finge estar mentalmente doente para entrar em um hospital psiquiátrico e reunir provas para o caso em que está trabalhando: a morte de um paciente em circunstâncias pouco claras.",
+    "imdb_id": "tt13229894"
   },
   {
     "id": "movie-as-linhas-tortas-de-deus-2022",
@@ -1782,7 +1788,7 @@
     "id": "movie-as-loucas-aventuras-de-elvira",
     "title": "As Loucas Aventuras de Elvira",
     "type": "movie",
-    "year": null,
+    "year": "2002",
     "poster_url": "/c75MntoAWJr2dOCXuXqxQ37HUxr.jpg",
     "genres": [
       "Comédia",
@@ -1798,7 +1804,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Elvira e a sua serva voltam a criar desacatos, dessa vez em uma mansão dominada por fantasmas. A história é ambientada em 1851, em Carpathia. Lá, ambas estão a caminho de um espetáculo da “Mistress of Dark”, mas, inadvertidamente, vão parar no sinistro castelo medieval do Lord Vladimere Hellsubus. Continuação do clássico de 1988, \"Elvira, a Rainha das Trevas\".",
+    "imdb_id": "tt0265171"
   },
   {
     "id": "movie-as-loucas-aventuras-de-elvira-2002",
@@ -1871,7 +1879,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quando o presidente Ulysses S. Grant fica sabendo que o diabólico inventor Arliss Loveless planeja assassiná-lo e conquistar os Estados Unidos com suas máquinas modernas, ele encarrega James West, o herói da Guerra Civil americana, e o militar Artemus Gordon de capturá-lo. A personalidade dos dois nem sempre combina, mas a dupla consegue trabalhar junto. Com a ajuda de uma mulher misteriosa, West e Gordon chegam a Loveless.",
+    "imdb_id": "tt0120891"
   },
   {
     "id": "movie-as-loucuras-2025",
@@ -1975,13 +1985,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt31226985"
+    "imdb_id": "tt31226985",
+    "overview": "Seis mulheres unidas por uma \"amiga\" em comum: a loucura. E receber a visita dela significa escancarar a realidade, tomar decisões ousadas e ter a vida transformada."
   },
   {
     "id": "movie-as-loucuras-de-dick-jane",
     "title": "As Loucuras de Dick & Jane",
     "type": "movie",
-    "year": null,
+    "year": "2005",
     "poster_url": "/5g03eRFOILs4crO6vUCWehdzKto.jpg",
     "genres": [
       "Comédia",
@@ -2049,7 +2060,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O casal Dick e Jane vive de maneira confortável, mas ele acaba perdendo o emprego. Com o acúmulo de contas, a dupla decide roubar para pagar as dívidas e manter o estilo de vida, mas percebem que uma carreira criminosa pode ferir pessoas inocentes.",
+    "imdb_id": "tt0369441"
   },
   {
     "id": "movie-as-loucuras-de-dick-jane-2005",
@@ -2112,7 +2125,7 @@
     "id": "movie-as-loucuras-de-rose",
     "title": "As Loucuras de Rose",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/yCAjdSbjomrijDmYtSWSF6Wb58B.jpg",
     "genres": [
       "Música",
@@ -2168,7 +2181,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Rose-Lynn Harlan é uma cantora de Glasgow, na Escócia, que sonha em se tornar uma estrela da música country em Nashville, no Tennessee. Acabando de sair da prisão e mãe solteira de dois filhos, ela é forçada a encarar responsabilidades mais urgentes e arruma um emprego de diarista, mas acaba encontrando em seu caminho quem dê apoio para o seu sonho aparentemente louco.",
+    "imdb_id": "tt5117428"
   },
   {
     "id": "movie-as-loucuras-de-rose-2019",
@@ -2212,7 +2227,7 @@
     "id": "movie-as-loucuras-do-rei-george",
     "title": "As Loucuras do Rei George",
     "type": "movie",
-    "year": null,
+    "year": "1994",
     "poster_url": "/wIxyWV9JBJTXbNkeovWs2wCboAF.jpg",
     "genres": [
       "Comédia",
@@ -2299,7 +2314,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um monarca britânico do século 18 ama sua devotada rainha, mas uma doença afeta gravemente sua mente.",
+    "imdb_id": "tt0110428"
   },
   {
     "id": "movie-as-loucuras-do-rei-george-1994",
@@ -2343,7 +2360,7 @@
     "id": "movie-as-maes-de-chico-xavier",
     "title": "As Maes De Chico Xavier",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/clnDNQsAH75mw8gfaBnRQGOHxGt.jpg",
     "genres": [
       "Drama"
@@ -2404,13 +2421,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Três mães veem sua realidade se transformar por completo... São elas: Ruth, cujo filho adolescente, Raul, enfrenta problemas com drogas; Elisa, que tenta suprir a ausência do marido dando total atenção ao filho, o pequeno Theo, e Lara, professora que enfrenta o dilema de uma gravidez não planejada. Essas três mulheres, vivendo momentos distintos de suas vidas, buscam conforto junto a Chico Xavier. E o repórter Karl permanece insistindo em entrevistar o médium, mesmo sem estar preparado para isso...",
+    "imdb_id": "tt1882041"
   },
   {
     "id": "movie-as-mais-incriveis-aventuras-de-pernalonga-e-sua-turma",
     "title": "As Mais Incriveis Aventuras de Pernalonga e Sua Turma",
     "type": "movie",
-    "year": null,
+    "year": "1979",
     "poster_url": "/5fogEHQJvyVkqk1R9ZzVyxtT5gH.jpg",
     "genres": [
       "Animação",
@@ -2475,7 +2494,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma compilação de curtas animados protagonizados pelos clássicos personagens da Warner Bros como Patolino, Gaguinho, e Wile E. Coyote, apresentados por Pernalonga.",
+    "imdb_id": "tt0078915"
   },
   {
     "id": "movie-as-mais-incriveis-aventuras-de-pernalonga-e-sua-turma-1979",
@@ -2521,7 +2542,7 @@
     "id": "movie-as-maos-de-meu-filho",
     "title": "As Maos de Meu Filho",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/3SrtBdrxBeXS1EdBMubvYJ6Flyw.jpg",
     "genres": [
       "Drama",
@@ -2583,7 +2604,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Na história que se passa nos anos 1920, a história é sobre uma sofrida família humilde que conseguiu superar o drama do alcoolismo do pai (Gustavo Falcão). Com o vício, o pai perde o emprego e Margarida (Ana Petta) passa a sustentar a família. Num certo dia, durante visita à casa de madame Novaes (Adriana Garambone), uma rica cliente, a mãe percebe que o então menino Gilberto (Yago Machado (criança); Antônio Guerra (adulto)) fica fascinado com o piano. Ela o incentiva nas artes, apesar das duras críticas que recebe do marido.",
+    "imdb_id": "tt11724124"
   },
   {
     "id": "movie-as-marvels-2023",
@@ -2714,13 +2737,14 @@
       }
     ],
     "source_candidates_skipped": 4,
-    "imdb_id": "tt10676048"
+    "imdb_id": "tt10676048",
+    "overview": "Quando suas obrigações a levam a uma fenda espacial anômala ligada a um revolucionário Kree, os poderes de Carol Danvers, a Capitã Marvel, se entrelaçam aos de Kamala Khan, a Ms. Marvel, e aos da sobrinha de Carol, astronauta da S.A.B.E.R., Capitã Monica Rambeau. Juntas, esse trio improvável deve ser unir para salvar o universo como \"As Marvels\"."
   },
   {
     "id": "movie-as-massagistas-profissionais",
     "title": "As Massagistas Profissionais",
     "type": "movie",
-    "year": null,
+    "year": "1976",
     "poster_url": "/upXeBZEYtwiI74MB4cLrV1C6fv4.jpg",
     "genres": [
       "Comédia"
@@ -2756,13 +2780,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A academia de massagens Mãos de Ouro, após despedir duas profissionais, contrata Virginia e Berta, campeãs de ordenha na roça. Elas hospedam-se numa pensão perto da academia e se entusiasmam por Duda, pilantra e mulherengo. Duda sempre tem êxito com as mulheres mas, ao se envolver com a esposa do chinês Kung Fu, professor de caratê da academia, passa a ser perseguido por ele. O diretor do estabelecimento, doutor Brochard, míope e débil mental, confunde Duda com um professor e o contrata, propiciando ao rapaz ambiente para suas conquistas. Virginia e Berta, desprezadas por Duda, fazem tudo para infernizar a vida do rapaz.\" (Guia de Filmes) (Cinemateca Brasileira)",
+    "imdb_id": "tt0261055"
   },
   {
     "id": "movie-as-melhores-coisas-do-mundo",
     "title": "As Melhores Coisas do Mundo",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/jdwlYFpObdJyCmib6oFEBblDpsu.jpg",
     "genres": [
       "Comédia",
@@ -2836,7 +2862,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Mano é um adolescente de 15 anos. Ele está aprendendo a tocar guitarra com Marcelo, pois deseja chamar a atenção de uma garota. Seus pais, Camila e Horácio, estão se separando, o que afeta tanto ele quanto seu irmão mais velho, Pedro (Fiuk). Sua melhor amiga e confidente é Carol, que está apaixonada pelo professor Artur. Em meio a estas situações, Mano precisa lidar com os colegas de escola em momentos de diversão e também sérios, típicos da adolescência nos dias atuais.",
+    "imdb_id": "tt1054677"
   },
   {
     "id": "movie-as-melhores-coisas-do-mundo-2010",
@@ -2950,13 +2978,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt11938888"
+    "imdb_id": "tt11938888",
+    "overview": "Luzmila e Peta são duas irmãs que trabalham como empregadas domésticas para Alicia e Carmen, duas senhoras aristocráticas do Peru. Elas são quase consideradas parte da família, até que um dia, uma festa de aniversário reúne todos os membros de ambas as famílias e um segredo de longa data envolvendo ambas as famílias é revelado, explodindo para sempre a bolha de seu mundo aristocrático perfeito."
   },
   {
     "id": "movie-as-melhores-semanas-da-minha-vida",
     "title": "As Melhores Semanas da Minha Vida",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/1TyeRAudiEQizibi0z0kGdbTSY3.jpg",
     "genres": [
       "Comédia"
@@ -3041,13 +3070,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Sid é um aluno do ensino médio que sempre fez de tudo para chamar o mínimo de atenção possível. Mas após fazer o valentão do colégio ser suspenso, ele percebe que possui apenas duas semanas para viver tudo o que perdeu em todos esses anos.",
+    "imdb_id": "tt4450714"
   },
   {
     "id": "movie-as-memorias-de-marnie",
     "title": "As Memórias de Marnie",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/q8dKK0OdBR91gEJWRdo9osvxvM6.jpg",
     "genres": [
       "Animação",
@@ -3122,13 +3153,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Anna é uma menina de 12 anos, filha de pais adotivos, sempre muito solitária e não exatamente feliz. Um belo dia, em um castelo numa ilha isolada, ela conhece Marnie. A menina loira de vestido branco se torna a grande e única amiga de Anna, mas ela descobrirá que Marnie não é exatamente quem parece ser.",
+    "imdb_id": "tt3398268"
   },
   {
     "id": "movie-as-meninas-superpoderosas-o-filme",
     "title": "As Meninas Superpoderosas: O Filme",
     "type": "movie",
-    "year": null,
+    "year": "2002",
     "poster_url": "/qUW6cgfzc7Sg2WG337HENcELiF0.jpg",
     "genres": [
       "Animação",
@@ -3202,7 +3235,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Disposto a criar as garotas perfeitas, o Prof. Utônio utilizou em sua fórmula secreta ingredientes como açúcar, tempero e um ingrediente secreto chamado Elemento X. De suas experiências nasceram Docinho, Florzinha e Lindinha, as Meninas Superpoderosas, que passaram a dedicar suas vidas a proteger a cidade de Townsville dos vilões que a atormentam periodicamente.",
+    "imdb_id": "tt0289408"
   },
   {
     "id": "movie-as-meninas-superpoderosas-o-filme-2002",
@@ -3292,13 +3327,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt26731500"
+    "imdb_id": "tt26731500",
+    "overview": "Decidida a retornar ao seu trabalho, uma mulher decide contratar o filho adolescente de sua vizinha para cuidar de seu filho de dois anos enquanto ela estiver fora de casa. O marido tem algumas reservas sobre isso, no entanto ela prefere confiar no adolescente. Até que um segredo obscuro vem à tona."
   },
   {
     "id": "movie-as-mercenarias",
     "title": "As Mercenárias",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/1rbMWF6Npr1fwrcoTZcItFX5Rv1.jpg",
     "genres": [
       "Ação"
@@ -3313,7 +3349,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A filha do presidente dos EUA é capturada e mantida presa enquanto eles passeavam por uma zona de guerra. Um time de elite feminino é convocado para infiltrar na prisão feminina local e realizar um ousado resgate.",
+    "imdb_id": "tt3598222"
   },
   {
     "id": "movie-as-mercenarias-2014",
@@ -3339,7 +3377,7 @@
     "id": "movie-as-metas-de-jessica-darling",
     "title": "As Metas de Jessica Darling",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/886ub4lnbhb9hxhgviiD9cmYeR7.jpg",
     "genres": [
       "Família"
@@ -3400,7 +3438,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Armada com dicas de popularidade da linda irmã mais velha, a precoce Jessica Darling se prepara para enfrentar o universo traiçoeiro da sétima série.",
+    "imdb_id": "tt5213744"
   },
   {
     "id": "movie-as-metas-de-jessica-darling-2016",
@@ -3442,7 +3482,7 @@
     "id": "movie-as-mil-palavras",
     "title": "As Mil Palavras",
     "type": "movie",
-    "year": null,
+    "year": "2012",
     "poster_url": "/cGDovB6FPGN9xPA2oA28OGkNto.jpg",
     "genres": [
       "Drama",
@@ -3505,7 +3545,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O falante Jack McCall fala o que for preciso para fechar um negócio. Mas, depois de distorcer um pouco a verdade com um guru espiritual, ele vê sua vida depender de uma árvore mágica, com 1.000 folhas... uma para cada  palavra que Jack diz. Agora, ele tem que parar de falar e inventar novas e inusitadas formas de se comunicar, ou estará perdido.",
+    "imdb_id": "tt0763831"
   },
   {
     "id": "movie-as-mil-palavras-2012",
@@ -3549,7 +3591,7 @@
     "id": "movie-as-minas-do-rei-salomao",
     "title": "As Minas do Rei Salomão",
     "type": "movie",
-    "year": null,
+    "year": "1985",
     "poster_url": "/u5kDbFZnXXrLXCUovsBdMYeNerv.jpg",
     "genres": [
       "Ação",
@@ -3655,7 +3697,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Na África do início do século 20, o aventureiro e caçador de tesouros Allan Quatermain é contratado pela jovem norte-americana Jesse Huston para procurar seu pai arqueólogo, que desapareceu enquanto organizava uma expedição às lendárias Minas do Rei Salomão. Além de diversos perigos, Quatermain e Jesse também enfrentarão um destacamento alemão, liderado pelo Coronel Bockner e um grupo de mercenários sob o comando do vilão turco Dogati. Todos eles em busca da fortuna em diamantes escondida no interior das minas.",
+    "imdb_id": "tt0089421"
   },
   {
     "id": "movie-as-minas-do-rei-salomao-1985",
@@ -3699,7 +3743,7 @@
     "id": "movie-as-mortes-de-dick-johnson",
     "title": "As Mortes de Dick Johnson",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/7Gu8QodLefx66wEn5vHuTXZuEi3.jpg",
     "genres": [
       "Documentário"
@@ -3760,7 +3804,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em Dick Johnson Is Dead, a diretora Kirsten Johnson busca uma maneira de manter vivo seu pai de 86 anos para sempre. Utilizando a magia do cinema e o humor sombrio de sua família, ela comemora os últimos anos do Dr. Dick Johnson encenando fantasias da morte e além. Juntos, pai e filha enfrentam a grande inevitabilidade que nos espera.",
+    "imdb_id": "tt11394180"
   },
   {
     "id": "movie-as-mortes-de-dick-johnson-2020",
@@ -3802,7 +3848,7 @@
     "id": "movie-as-mocas-daquela-hora",
     "title": "As Moças Daquela Hora",
     "type": "movie",
-    "year": null,
+    "year": "1973",
     "poster_url": "/orSGdh2Tp9v6l47CMuqZyXZKN9X.jpg",
     "genres": [
       "Comédia"
@@ -3817,7 +3863,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Mariana (Nídia de Paula), Isaura (Tina Luiza) e Lia (Monique Lafond) nasceram em lugares e famílias de padrões sociais distintos, mas suas histórias - contadas em três respectivos episódios - são interligadas pelas enigmáticas aparições de Pilar (Kátia Grumberg) e Fininho (Roberto Roney) no momento crítico de suas vidas.",
+    "imdb_id": "tt0260201"
   },
   {
     "id": "movie-as-mocas-daquela-hora-1973",
@@ -3843,7 +3891,7 @@
     "id": "movie-as-muitas-aventuras-do-ursinho-pooh",
     "title": "As Muitas Aventuras do Ursinho Pooh",
     "type": "movie",
-    "year": null,
+    "year": "1977",
     "poster_url": "/drmonezw1z24j1LD5haP56QRIbs.jpg",
     "genres": [
       "Animação",
@@ -3888,13 +3936,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em três deliciosas aventuras, Puff e seus amigos enfrentam uma enchente, se envolvem com um enxame de abelhas e se divertem com um tigre saltador!",
+    "imdb_id": "tt0076363"
   },
   {
     "id": "movie-as-mulheres-da-sacada",
     "title": "As Mulheres da Sacada",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/mVkhMmo8E1xBa4YI6EaxdgTSPYa.jpg",
     "genres": [
       "Comédia",
@@ -3946,13 +3996,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt27721737"
+    "imdb_id": "tt27721737",
+    "overview": "Enquanto uma onda de calor faz ferver um bairro de Marselha, três colegas de quarto se intrometem alegremente na vida de seus vizinhos a partir de sua varanda. Até que um drinque tarde da noite se transforma em um caso sangrento."
   },
   {
     "id": "movie-as-mulheres-do-6o-andar",
     "title": "As Mulheres do 6º Andar",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/nUK7agD0yWKazORr9aYQBnuCEp6.jpg",
     "genres": [
       "Comédia"
@@ -3967,7 +4018,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Paris, década de 1960. O casal Jean-Louis Joubert (Fabrice Luchini) e Suzanne Joubert (Sandrine Kiberlain) mora num prédio de classe média. Conservadores, levam uma vida que beira o tédio; muito diferente da rotina de suas vizinhas do sexto andar, visivelmente mais animada. Imigrantes da Espanha, estas mulheres trabalham no prédio como governantas e apresentam a Jean-Louis um novo e exuberante universo. Ele se vê cada vez mais atraído por estas mulheres, especialmente por María (Natalia Verbeke) , a bela e jovem governanta que trabalha na sua casa. Mas é realmente possível mudar de vida depois dos 40 anos?",
+    "imdb_id": "tt1805297"
   },
   {
     "id": "movie-as-mulheres-do-6o-andar-2011",
@@ -4105,7 +4158,7 @@
     "id": "movie-as-mumias-do-farao",
     "title": "As Múmias do Faraó",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/rHps2s8XFQYtyP0lUvF7682ExWo.jpg",
     "genres": [
       "Fantasia",
@@ -4169,7 +4222,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Adèle é uma jovem e aventureira repórter capaz de qualquer coisa para conseguir o que quer. Ela vai até o Egito em busca da cura da doença de sua irmã, na tumba secreta de um faraó. Ao retornar para Paris, ela percebe que o pânico tomou conta da população. Um ovo de dinossauro de milhões de anos se chocou misteriosamente no museu e a criatura está aterrorizando a cidade. Além disso, coisas estranhas continuam acontecendo no museu. Mas, nem o perigo e nem todo mistério por trás dos curiosos acontecimentos impedirá Adèle de conseguir salvar sua irmã. Prepare-se, a aventura está apenas começando!",
+    "imdb_id": "tt1179025"
   },
   {
     "id": "movie-as-mumias-do-farao-2010",
@@ -4220,7 +4275,7 @@
     "id": "movie-as-mumias-e-o-anel-perdido",
     "title": "As Múmias e o Anel Perdido",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/olT9HuXfnMVFqDGjLhllKe5EuQP.jpg",
     "genres": [
       "Animação",
@@ -4320,13 +4375,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Acompanha as divertidas aventuras de três múmias egípcias que vivem numa cidade secreta subterrânea sob as pirâmides do antigo Egito – uma princesa, um piloto de corrida de bigas e o irmão mais novo dele, inseparável de seu bebê crocodilo de estimação. Após uma série de infelizes acasos, o trio de múmias e seu pet embarcam numa hilária e agitada jornada na Londres atual à procura de um anel ancestral, de propriedade da Família Real das Múmias, roubado pelo ambicioso arqueólogo Lorde Carnaby.",
+    "imdb_id": "tt23177868"
   },
   {
     "id": "movie-as-nadadoras",
     "title": "As Nadadoras",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/l0s6z3GTRMyBs7ZBh8mKMP6QZ6V.jpg",
     "genres": [
       "Drama",
@@ -4400,7 +4457,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Cheias de coragem, duas jovens irmãs deixam a Síria devastada pela guerra e embarcam em uma viagem arriscada rumo às Olimpíadas do Rio em 2016.",
+    "imdb_id": "tt8745676"
   },
   {
     "id": "movie-as-nadadoras-2022",
@@ -4494,13 +4553,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Amanda é órfã e seu desejo é ser adotada pela divertida assistente social, Diana, antes que uma família de exploradores de crianças o faça. Alyssa leva uma vida de princesa, mas seu pai, o milionário Roger Callaway, está prestes a casar com uma verdadeira bruxa. O que estas duas garotas têm em comum? Elas são idênticas e se encontram a tempo de bolar um plano infalível para unir Diana e Roger e conseguir a família perfeita. Mas preparem-se porque elas vão colocar a casa abaixo, afinal, duas cabeças pensam melhor que uma!",
+    "imdb_id": "tt0113442"
   },
   {
     "id": "movie-as-novas-aventuras-de-pippi-meia-longa",
     "title": "As Novas Aventuras de Pippi Meia-Longa",
     "type": "movie",
-    "year": null,
+    "year": "1988",
     "poster_url": "/a9o3WEzGjr36YjqTnzuikxHvyET.jpg",
     "genres": [
       "Fantasia",
@@ -4550,13 +4611,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após um acidente no iate de seu pai, uma menina irrequieta dotada de poderes mágicos chega a uma cidade no litoral da Flórida. Além de tirar rígida assistente social do sério, ela usa incríveis habilidades para salvar crianças em apuros.",
+    "imdb_id": "tt0093744"
   },
   {
     "id": "movie-as-novas-aventuras-do-fusca",
     "title": "As Novas Aventuras do Fusca",
     "type": "movie",
-    "year": null,
+    "year": "1974",
     "poster_url": "/2owUFcJsLJw7e6k6CliDRWkoGX4.jpg",
     "genres": [
       "Romance",
@@ -4626,7 +4689,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando um ambicioso milionário decide construir um arranha-céu no terreno de uma bondosa senhora, Herbie, o fusquinha com personalidade própria, decide ajudá-la.",
+    "imdb_id": "tt0071607"
   },
   {
     "id": "movie-as-novas-aventuras-do-fusca-1974",
@@ -4671,7 +4736,7 @@
     "id": "movie-as-novas-viagens-de-simbad",
     "title": "As Novas Viagens de Simbad",
     "type": "movie",
-    "year": null,
+    "year": "1973",
     "poster_url": "/evJuLE8cXOWbfj9HTsxfsvSAJoz.jpg",
     "genres": [
       "Ação",
@@ -4742,13 +4807,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Simbad e sua tripulação interceptam um animal fantástico carregando um medalhão de ouro. O Príncipe Koura, criador do animal e praticante de magia negra, quer recuperar o medalhão e persegue Simbad. Mas o medalhão não está completo; somente juntando as três peças ele revelará seu segredo, um segredo que o Grão-Vizir de Marábia também anseia por descobrir. Acompanhado pelo Grão-Vizir e perseguido por Koura, Simbad navegará em direção à lendária terra da Lemuria.",
+    "imdb_id": "tt0071569"
   },
   {
     "id": "movie-as-nupcias-de-dracula",
     "title": "As Núpcias de Drácula",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/iiCTxzRpwa3txtm7RrvU4q9QsEK.jpg",
     "genres": [
       "Terror",
@@ -4786,13 +4853,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Em uma paisagem quente da América do Sul, Conde Drácula está numa caçada por diversos amantes jovens, homens e mulheres. A sede do místico vampiro não é somente de sangue...",
+    "imdb_id": "tt7282292"
   },
   {
     "id": "movie-as-ondas",
     "title": "As Ondas",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/dXHO1tPfv5rXQQOfu9Ji6EcAFbE.jpg",
     "genres": [
       "Romance",
@@ -4854,7 +4923,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Dois jovens casais navegam o campo minado emocional de crescer, amadurecer e se apaixonar.",
+    "imdb_id": "tt8652728"
   },
   {
     "id": "movie-as-ondas-2019",
@@ -5017,6 +5088,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Rafaela e Gabriela são jovens amigas vivendo em um mundo fantasioso que é ameaçado quando Rafaela descobre estar grávida. Ela pretende abortar, mas no Chile o procedimento é ilegal. Juntas, enfrentam o sistema hostil para garantir um aborto seguro para Rafaela, lutando para preservar a amizade.",
+    "imdb_id": "tt26348412"
   }
 ]
