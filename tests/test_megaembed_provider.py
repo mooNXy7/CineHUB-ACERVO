@@ -30,7 +30,7 @@ class MegaEmbedProviderContractTests(unittest.TestCase):
                 self.assertEqual(parsed.scheme, "https")
                 self.assertIn(parsed.hostname, allowed)
                 self.assertGreater(route["priority"], 0)
-                placeholders = set(re.findall(r"\\{([a-z_]+)\\}", route["url_template"]))
+                placeholders = set(re.findall(r"\{([a-z_]+)\}", route["url_template"]))
                 self.assertTrue(set(route["requires"]).issubset(placeholders | {"title"}))
 
     def test_identity_policy_prevents_title_similarity_id_assignment(self):
