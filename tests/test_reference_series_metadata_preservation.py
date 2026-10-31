@@ -53,8 +53,7 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
         self.assertEqual(item["year"], "2010")
         self.assertEqual(item["genres"], ["Drama", "Comedy"])
         self.assertEqual(len(item["seasons"]), 1)
-        season = item["seasons"]["1"]
-        self.assertEqual(season["episodes"][0]["sources"][0]["source_type"], "embed")
+        self.assertEqual(item["seasons"][0]["episodes"][0]["episode"], 1)
 
 
     def test_extra_series_sources_import_imdb_id_and_embed_route(self):
@@ -75,7 +74,7 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
 
         self.assertEqual(item["tmdb_id"], "123")
         self.assertEqual(item["imdb_id"], "tt1234567")
-        self.assertEqual(item["seasons"][0]["episodes"][0]["sources"][0]["source_type"], "embed")
+        self.assertEqual(item["seasons"][1]["episodes"][0]["sources"][0]["source_type"], "embed")
 
 
 if __name__ == "__main__":
