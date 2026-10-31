@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T13:14:25Z",
+  "generated_at": "2026-10-31T21:28:42Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -1653,11 +1653,17 @@
       "name": "Space",
       "group": "Filmes e Séries",
       "logo_url": "https://img.faz-o-eli.online/space.png",
-      "epg_id": "Space",
+      "epg_id": "SPACE",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 18,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -1907,6 +1913,12 @@
           "channel_id": "SONY Movies",
           "priority": 25,
           "match": "exact_or_alias"
+        },
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Sony Movies",
+          "priority": 25,
+          "match": "exact_or_alias"
         }
       ]
     },
@@ -2131,11 +2143,17 @@
       "name": "Band News",
       "group": "Notícias",
       "logo_url": "https://img.faz-o-eli.online/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 22,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -2155,7 +2173,7 @@
       "name": "BAND SPORTS HD",
       "group": "Esportes",
       "logo_url": "https://img.faz-o-eli.online/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71803.ts",
@@ -2171,6 +2189,12 @@
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 25,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -3122,11 +3146,17 @@
       "name": "Canal UOL",
       "group": "Notícias",
       "logo_url": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
-      "epg_id": "Canal Uol",
+      "epg_id": "Canal UOL",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal UOL",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Canal Uol",
@@ -4036,6 +4066,12 @@
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Band RJ",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band RJ HD",
           "priority": 25,
           "match": "exact_or_alias"
         },
@@ -6753,7 +6789,7 @@
       "name": "Band News 4K",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/103526.ts",
@@ -6764,6 +6800,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6783,7 +6825,7 @@
       "name": "Band News FHD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71789.ts",
@@ -6799,6 +6841,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6834,7 +6882,7 @@
       "name": "Band News HD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71791.ts",
@@ -6850,6 +6898,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6869,7 +6923,7 @@
       "name": "Band News SD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/images/abb329697106ebb6f051ab5ab2d39dfd.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71792.ts",
@@ -6885,6 +6939,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -7007,7 +7067,7 @@
       "name": "Band Sports 4K",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/103525.ts",
@@ -7018,6 +7078,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -7031,7 +7097,7 @@
       "name": "Band Sports FHD",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71801.ts",
@@ -7047,6 +7113,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -7076,7 +7148,7 @@
       "name": "Band Sports SD",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71804.ts",
@@ -7092,6 +7164,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -21213,7 +21291,7 @@
       "name": "OFF 4K",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90240.ts",
@@ -21224,6 +21302,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21249,7 +21333,7 @@
       "name": "OFF FHD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72209.ts",
@@ -21260,6 +21344,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21301,7 +21391,7 @@
       "name": "OFF HD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72211.ts",
@@ -21312,6 +21402,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21337,7 +21433,7 @@
       "name": "OFF SD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72212.ts",
@@ -21348,6 +21444,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -44106,7 +44208,7 @@
       "name": "NSports FHD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Nsports",
+      "epg_id": "NSports",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501921",
@@ -44117,6 +44219,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "NSports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Nsports",
@@ -44136,7 +44244,7 @@
       "name": "NSports HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Nsports",
+      "epg_id": "NSports",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501922",
@@ -44147,6 +44255,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "NSports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Nsports",
@@ -45424,7 +45538,7 @@
       "name": "Space FHD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Space",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501702",
@@ -45435,6 +45549,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -45460,7 +45580,7 @@
       "name": "Space HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Space",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501703",
@@ -45471,6 +45591,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -45496,7 +45622,7 @@
       "name": "Space SD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": "Space",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501704",
@@ -45507,6 +45633,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",

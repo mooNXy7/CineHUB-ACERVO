@@ -2,17 +2,34 @@
   "reference": "authorized-public-reference",
   "counts": {
     "channel_sources_added": 0,
-    "skipped_urls": 320447,
-    "sources_added": 840517,
-    "provider_refs_added": 298059,
-    "movies": 40938,
+    "skipped_urls": 316560,
+    "source_urls_merged_into_reference_candidates": 774373,
+    "provider_refs_merged_into_reference_candidates": 1136577,
+    "movies_tmdb_id_sources_merged_into_existing": 348,
+    "movies_ambiguous_tmdb_id_records_skipped": 2113,
+    "movies_existing_id_metadata_collisions_quarantined": 9092,
+    "movies_held_incomplete_metadata": 755,
+    "series_ambiguous_tmdb_id_records_skipped": 1094,
+    "series_tmdb_id_sources_merged_into_existing": 98,
+    "series_existing_id_metadata_collisions_quarantined": 7,
+    "series_held_incomplete_metadata": 40,
+    "series_held_title_collision": 7,
+    "anime_ambiguous_tmdb_id_records_skipped": 1,
+    "doramas_ambiguous_tmdb_id_records_skipped": 46,
+    "radios_updated": 0,
+    "movies": 40939,
     "series": 11665,
-    "anime": 2749,
+    "anime": 2750,
     "doramas": 896,
     "radios_added": 0,
     "channel_records_total": 2431,
-    "radio_records_total": 1026,
-    "fichas_matched": 35982
+    "radio_records_total": 1022,
+    "fichas_matched": 36146
+  },
+  "counter_semantics": {
+    "source_urls_merged_into_reference_candidates": "Parser-level unique URL merges before identity reconciliation; not the net number added to the final catalog.",
+    "provider_refs_merged_into_reference_candidates": "Parser-level provider-reference merges before identity reconciliation; not the net number added to the final catalog.",
+    "net_catalog_reference_changes": "Use the before/after delta in the reference import preview for net source_count and provider_ref_count changes in generated indexes."
   },
   "notes": [
     "Conteúdo adulto reservado não é importado.",
@@ -20,5 +37,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-19T15:44:22.078273+00:00"
+  "generated_at": "2026-10-31T21:28:32.759930+00:00"
 }
