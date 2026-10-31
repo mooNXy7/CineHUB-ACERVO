@@ -141,6 +141,8 @@ jobs:
         run: python scripts/audit_catalog.py > audit-catalog.json
       - name: Run stream and EPG coverage audit (read-only)
         run: python scripts/audit_stream_epg_coverage.py > stream-epg-coverage.json
+      - name: Audit MegaEmbed fallback coverage (read-only)
+        run: python scripts/audit_megaembed_coverage.py --output megaembed-coverage.json
       - name: Build exact-name EPG mapping review candidates (read-only)
         run: python scripts/suggest_epg_mappings.py --output epg-mapping-candidates.json
       - name: Build conservative near-name EPG candidates (read-only)
@@ -213,6 +215,7 @@ jobs:
           path: |
             audit-catalog.json
             stream-epg-coverage.json
+            megaembed-coverage.json
             epg-mapping-candidates.json
             epg-near-match-candidates.json
             channel-logo-suggestions.json
