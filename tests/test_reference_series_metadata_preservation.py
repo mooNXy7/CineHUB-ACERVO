@@ -40,6 +40,7 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
                     "tmdb_id": "222",
                     "poster_path": "https://images.example/reference-poster.jpg",
                     "genres": ["Drama", "Comedy"],
+                    "imdb_id": "tt7654321",
                 }
             }
 
@@ -47,11 +48,33 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
 
         self.assertEqual(item["id"], "series-existing-id")
         self.assertEqual(item["tmdb_id"], "111")
+        self.assertEqual(item["imdb_id"], "tt7654321")
         self.assertEqual(item["poster_url"], "https://images.example/existing-poster.jpg")
         self.assertEqual(item["year"], "2010")
         self.assertEqual(item["genres"], ["Drama", "Comedy"])
         self.assertEqual(len(item["seasons"]), 1)
         self.assertEqual(item["seasons"][0]["episodes"][0]["episode"], 1)
+
+
+    def test_extra_series_sources_import_imdb_id_and_embed_route(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            vod = Path(tmp) / "vod"
+            mgeb = vod / "mgeb"
+            mgeb.mkdir(parents=True)
+            (mgeb / "links-series.txt").write_text(
+                "@A Test Series (2010)\\t2010\\t123\\timdb=tt1234567\\n"
+                "1\\t1\\tdub\\thttps://mgeb.top/embed/123/1/1\\n",
+                encoding="utf-8",
+            )
+            series = {}
+            counters = {"skipped_urls": 0, "source_urls_merged_into_reference_candidates": 0,
+                        "provider_refs_merged_into_reference_candidates": 0}
+            importer.parse_extra_series_sources(vod, series, {}, counters)
+            item = series[(importer.norm("A Test Series (2010)"), "2010")]
+
+        self.assertEqual(item["tmdb_id"], "123")
+        self.assertEqual(item["imdb_id"], "tt1234567")
+        self.assertEqual(item["seasons"][0]["episodes"][0]["sources"][0]["source_type"], "embed")
 
 
 if __name__ == "__main__":
