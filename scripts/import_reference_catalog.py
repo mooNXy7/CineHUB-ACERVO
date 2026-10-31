@@ -50,7 +50,7 @@ def extract_imdb_id(fields) -> str | None:
         key, value = str(field).split("=", 1)
         if key.strip().casefold() in {"imdb", "imdb_id"}:
             candidate = value.strip()
-            if re.fullmatch(r"tt\\d{7,10}", candidate, flags=re.IGNORECASE):
+            if re.fullmatch(r"tt\d{7,10}", candidate, flags=re.IGNORECASE):
                 return candidate
     return None
 
