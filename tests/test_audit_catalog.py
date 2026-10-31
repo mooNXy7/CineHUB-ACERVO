@@ -175,5 +175,49 @@ class ReadOnlyAuditTests(unittest.TestCase):
             self.assertEqual({x["tmdb_id"] for x in groups[0]["records"]}, {"101", "202"})
 
 
+    def test_audit_separates_html_epg_page_health_from_source_health(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files = {
+                "catalog/channels/channels.json": {"schema_version": 1, "channels": []},
+                "catalog/radios/radios.json": {"schema_version": 1, "radios": []},
+                "catalog/vod/index.json": {"schema_version": 1, "categories": {
+                    name: {"count": 0, "index_path": f"catalog/vod/index/{name}.json"}
+                    for name in ("movies", "series", "anime", "doramas")}},
+                "catalog/vod/index/movies.json": [],
+                "catalog/vod/index/series.json": [],
+                "catalog/vod/index/anime.json": [],
+                "catalog/vod/index/doramas.json": [],
+                "sources/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/sources.json": {"schema_version": 1, "sources": []},
+                "catalog/epg/channel-map.json": {"meuguia_codes": {}, "guiadetv_slugs": {}, "xmltv_aliases": {}},
+                "catalog/epg/health.json": {"sources": {"guiadetv-br": {"status": "healthy"}}},
+                "catalog/epg/xmltv-channels.json": {"sources": {}},
+                "catalog/epg/html-programmes.json": {
+                    "schema_version": 1,
+                    "timezone": "America/Sao_Paulo",
+                    "health": {
+                        "Canal A": {"source_id": "meuguia-br", "status": "healthy", "programme_count": 3},
+                        "Canal B": {"source_id": "guia-de-tv-br", "status": "unavailable",
+                                    "error": "no_programmes", "programme_count": 0},
+                    },
+                    "programmes": {
+                        "Canal A": {"source_id": "meuguia-br", "programmes": [{"title": "Jornal"}]}
+                    },
+                },
+            }
+            for relative, value in files.items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value), encoding="utf-8")
+            result = audit(root)
+            self.assertEqual(result["counts"]["epg_sources_healthy"], 1)
+            self.assertEqual(result["counts"]["html_epg_channels_healthy"], 1)
+            self.assertEqual(result["counts"]["html_epg_channels_unavailable"], 1)
+            self.assertEqual(result["counts"]["html_epg_channels_with_programmes"], 1)
+            self.assertEqual(result["counts"]["html_epg_channels_without_programmes"], 1)
+            self.assertEqual(result["html_epg_unavailable_examples"][0]["channel"], "Canal B")
+
+
 if __name__ == "__main__":
     unittest.main()
