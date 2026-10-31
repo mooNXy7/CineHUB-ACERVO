@@ -163,6 +163,7 @@ jobs:
 
           audit = json.load(open("audit-catalog.json", encoding="utf-8"))
           coverage = json.load(open("stream-epg-coverage.json", encoding="utf-8"))
+          megaembed = json.load(open("megaembed-coverage.json", encoding="utf-8"))
           near_epg = json.load(open("epg-near-match-candidates.json", encoding="utf-8"))
           vod = json.load(open("vod-enrichment-plan.json", encoding="utf-8"))
           logos = json.load(open("channel-logo-suggestions.json", encoding="utf-8"))
@@ -180,6 +181,7 @@ jobs:
               f"- **EPG:** {stream_counts['channels_with_epg_association']:,} canais com associação estrutural ({stream_coverage['channel_epg_structural_association_pct']}%); não comprova programação atual",
               f"- **EPG — candidatos por nome aproximado:** {near_epg['counts']['candidate_channels']:,} para revisão manual; não há associação automática",
               f"- **Rádios:** {counts['radios']:,}; {stream_counts['radios_with_stream_reference']:,} com referência de stream ({stream_coverage['radio_stream_reference_pct']}%)",
+              f"- **MegaEmbed:** {megaembed['totals']['records_with_megaembed']:,} registros com fontes de incorporação; {megaembed['totals']['episodes_with_megaembed']:,} episódios com fonte; não comprova disponibilidade de reprodução",
               f"- **Logos de canais:** {logos['counts']['higher_confidence_exact_candidates']:,} correspondências exatas e {logos['counts']['lower_confidence_quality_marker_candidates']:,} candidatas que ignoram marcadores HD/SD para revisão manual; nenhuma aplicação automática",
               f"- **Gêneros de rádio:** {radio_genres['counts']['candidate_suggestions']:,} sugestões por palavras-chave únicas; {radio_genres['counts']['ambiguous_candidates']:,} ambíguas separadas; nenhuma aplicação automática",
               "",
