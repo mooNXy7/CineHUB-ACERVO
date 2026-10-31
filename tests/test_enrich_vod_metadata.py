@@ -117,21 +117,29 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             self.assertFalse((root / "cache.sqlite3").exists())
 
 
-    def test_offset_falls_back_to_detail_tmdb_id_when_index_id_is_missing(self):
+    def test_missing_index_tmdb_id_skips_detail_shard_reads(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self._fixture(root, {"id": "movie-test-film", "title": "A Test Film", "type": "movie",
                                  "year": None, "tmdb_id": "123", "poster_url": None, "genres": []})
             index_path = root / "catalog/vod/index/movies.json"
             index = json.loads(index_path.read_text(encoding="utf-8"))
-            index[0]["tmdb_id"] = None
+            del index[0]["tmdb_id"]
             index_path.write_text(json.dumps(index), encoding="utf-8")
-            with patch.object(enrich, "fetch_tmdb_details") as fetch:
+            original_load_json = enrich.load_json
+            detail_loads = []
+            def tracked_load_json(path):
+                if str(path).endswith("A-000.json"):
+                    detail_loads.append(str(path))
+                return original_load_json(path)
+            with patch.object(enrich, "load_json", side_effect=tracked_load_json), \
+                 patch.object(enrich, "fetch_tmdb_details") as fetch:
                 report = enrich.build_patch(root, root / "patch.json", root / "cache.sqlite3",
-                                            10, "test-key", delay=0, offset=1)
+                                            10, "test-key", delay=0, offset=0)
             fetch.assert_not_called()
-            self.assertEqual(report["eligible_records_skipped"], 1)
+            self.assertEqual(detail_loads, [])
             self.assertEqual(report["records_examined"], 0)
+            self.assertEqual(report["summary"]["no_tmdb_id"], 1)
 
     def test_index_detail_tmdb_id_mismatch_is_held_for_review(self):
         with tempfile.TemporaryDirectory() as tmp:
