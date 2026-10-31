@@ -81,11 +81,13 @@ class _SameSourceRedirectHandler(urllib.request.HTTPRedirectHandler):
 
 
 def fetch_html(url: str) -> str:
+    _validate_epg_url(url)
     request = urllib.request.Request(
         url,
         headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"},
     )
-    with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+    opener = urllib.request.build_opener(_SameSourceRedirectHandler())
+    with opener.open(request, timeout=TIMEOUT_SECONDS) as response:
         status = getattr(response, "status", 200)
         if not 200 <= status < 300:
             raise ValueError(f"HTTP status {status}")
