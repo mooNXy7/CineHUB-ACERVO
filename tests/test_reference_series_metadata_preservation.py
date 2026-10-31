@@ -74,7 +74,7 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
 
         self.assertEqual(item["tmdb_id"], "123")
         self.assertEqual(item["imdb_id"], "tt1234567")
-        self.assertEqual(item["seasons"][1]["episodes"][0]["sources"][0]["source_type"], "embed")
+        self.assertEqual(item["seasons"]["1"]["episodes"][0]["sources"][0]["source_type"], "embed")
 
 
 if __name__ == "__main__":
