@@ -5,13 +5,12 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_HOSTS = {"mgeb.top", "www.mgeb.top", "megaembedapi.site"}
-IMDB = re.compile(r"^tt\\d{7,10}$")
+IMDB = re.compile(r"^tt\d{7,10}$")
 
 
 def load_json(path: Path):
@@ -73,10 +72,8 @@ def audit(root: Path) -> dict:
             "megaembed_source_urls": 0, "episodes": 0,
             "episodes_with_megaembed": 0
         }
-        for entry in entries:
-            relative = str(entry.get("detail_path") or "")
-            if not relative:
-                continue
+        detail_paths = sorted({str(entry.get("detail_path") or "") for entry in entries if entry.get("detail_path")})
+        for relative in detail_paths:
             if relative not in detail_cache:
                 detail_cache[relative] = load_json(root / relative)
             records = detail_cache[relative]
@@ -104,7 +101,10 @@ def audit(root: Path) -> dict:
                         if not isinstance(source, dict):
                             continue
                         url = str(source.get("url") or "").strip()
-                        host = (urlsplit(url).hostname or "").lower() if url else ""
+                        try:
+                            host = (urlsplit(url).hostname or "").lower() if url else ""
+                        except ValueError:
+                            host = ""
                         if host in ALLOWED_HOSTS:
                             if source_is_megaembed(source):
                                 counts["megaembed_source_urls"] += 1
