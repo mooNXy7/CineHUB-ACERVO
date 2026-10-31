@@ -262,6 +262,39 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
         if isinstance(source, dict) and isinstance(source.get("channels"), list)
     ) if isinstance(xmltv_sources, dict) else 0
 
+    html_epg_path = root / "catalog/epg/html-programmes.json"
+    html_epg = read_json(root, "catalog/epg/html-programmes.json", findings) if html_epg_path.exists() else {}
+    html_health = html_epg.get("health", {}) if isinstance(html_epg, dict) else {}
+    html_programmes = html_epg.get("programmes", {}) if isinstance(html_epg, dict) else {}
+    if not isinstance(html_health, dict):
+        html_health = {}
+    if not isinstance(html_programmes, dict):
+        html_programmes = {}
+    counts["html_epg_health_entries"] = len(html_health)
+    counts["html_epg_channels_healthy"] = sum(
+        1 for item in html_health.values() if isinstance(item, dict) and item.get("status") == "healthy"
+    )
+    counts["html_epg_channels_unavailable"] = sum(
+        1 for item in html_health.values() if isinstance(item, dict) and item.get("status") == "unavailable"
+    )
+    counts["html_epg_channels_with_programmes"] = sum(
+        1 for item in html_programmes.values()
+        if isinstance(item, dict) and isinstance(item.get("programmes"), list) and item.get("programmes")
+    )
+    counts["html_epg_channels_without_programmes"] = max(
+        0, counts["html_epg_health_entries"] - counts["html_epg_channels_with_programmes"]
+    )
+    html_epg_unavailable_examples = [
+        {
+            "channel": channel,
+            "source_id": item.get("source_id"),
+            "error": item.get("error"),
+            "programme_count": item.get("programme_count", 0),
+        }
+        for channel, item in html_health.items()
+        if isinstance(item, dict) and item.get("status") == "unavailable"
+    ][:50]
+
     total_vod = sum(counts.get(x, 0) for x in VOD_CATEGORIES)
     counts["vod_total"] = total_vod
     return {
@@ -273,6 +306,7 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
         "suspicious_url_examples_limited_to_25": suspicious_url_examples,
         "vod_categories": category_stats,
         "duplicate_title_groups": duplicate_title_groups,
+        "html_epg_unavailable_examples": html_epg_unavailable_examples,
         "findings_summary": dict(Counter(x["severity"] for x in findings)),
         "findings": findings,
         "preservation_note": "No catalog files were modified by this audit.",
