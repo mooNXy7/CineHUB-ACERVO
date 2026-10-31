@@ -46,6 +46,17 @@ class MegaEmbedCoverageAuditTests(unittest.TestCase):
                 }]
             }]), encoding="utf-8")
 
+            # Canonical importer format: seasons are keyed by their string number.
+            (root / "catalog/vod/details/series/A.json").write_text(json.dumps([{
+                "id": "s1", "imdb_id": "tt1234567", "seasons": {
+                    "1": {"season": 1, "episodes": [{
+                        "episode": 1, "sources": [
+                            {"url": "https://megaembedapi.site/embed/tt1234567/1/1"}
+                        ]
+                    }]}
+                }
+            }]), encoding="utf-8")
+
             report = audit.audit(root)
 
         totals = report["totals"]
