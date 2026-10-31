@@ -42,7 +42,7 @@ def empty(value: Any) -> bool:
 
 def validate_value(field: str, value: Any) -> bool:
     if field == "imdb_id":
-        return isinstance(value, str) and bool(re.fullmatch(r"tt\\d{7,10}", value, flags=re.IGNORECASE))
+        return isinstance(value, str) and bool(re.fullmatch(r"tt\d{7,10}", value, flags=re.IGNORECASE))
     if field == "year":
         return isinstance(value, str) and bool(re.fullmatch(r"(?:19|20)\d{2}", value))
     if field == "poster_url":
