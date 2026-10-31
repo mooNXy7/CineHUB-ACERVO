@@ -102,6 +102,10 @@ def fetch_tmdb_details(endpoint: str, tmdb_id: str, api_key: str, timeout: float
 def response_metadata(payload: dict, endpoint: str) -> dict:
     date_field = "release_date" if endpoint == "movie" else "first_air_date"
     title_fields = ("title", "original_title") if endpoint == "movie" else ("name", "original_name")
+    external_ids = payload.get("external_ids") if isinstance(payload.get("external_ids"), dict) else {}
+    imdb_id = str(payload.get("imdb_id") or external_ids.get("imdb_id") or "").strip()
+    if not re.fullmatch(r"tt\\d{7,10}", imdb_id, flags=re.IGNORECASE):
+        imdb_id = None
     return {
         "id": str(payload.get("id") or ""),
         "titles": [str(payload.get(key) or "") for key in title_fields if payload.get(key)],
@@ -110,6 +114,7 @@ def response_metadata(payload: dict, endpoint: str) -> dict:
         "genres": [str(g.get("name")).strip() for g in payload.get("genres", [])
                    if isinstance(g, dict) and str(g.get("name") or "").strip()],
         "overview": str(payload.get("overview") or "").strip() or None,
+        "imdb_id": imdb_id,
     }
 
 
@@ -265,6 +270,10 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                     proposed["genres"] = meta["genres"]
                 if "overview" in missing and meta.get("overview"):
                     proposed["overview"] = meta["overview"]
+                # IMDb IDs are supplemental playback identity hints. Fill only when
+                # the exact TMDB ID and normalized title have already been verified.
+                if not record.get("imdb_id") and meta.get("imdb_id"):
+                    proposed["imdb_id"] = meta["imdb_id"]
                 if not proposed:
                     counts["complete"] += 1
                     continue
