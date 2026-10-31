@@ -14,6 +14,7 @@ on:
       - "scripts/update_epg.py"
       - "scripts/update_html_epg.py"
       - "scripts/parse_html_epg.py"
+      - "docs/WORKLOG-2026-10-31.md"
       - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
