@@ -43,6 +43,18 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
 
 
+def extract_imdb_id(fields) -> str | None:
+    for field in fields:
+        if "=" not in str(field):
+            continue
+        key, value = str(field).split("=", 1)
+        if key.strip().casefold() in {"imdb", "imdb_id"}:
+            candidate = value.strip()
+            if re.fullmatch(r"tt\\d{7,10}", candidate, flags=re.IGNORECASE):
+                return candidate
+    return None
+
+
 def base_title(value: str) -> str:
     value = re.sub(r"\s*\((?:19|20)\d{2}\)\s*$", "", str(value or ""))
     value = re.sub(r"\b(?:4k|uhd|fhd|hd|1080p|720p|sd)\b", "", value, flags=re.I)
@@ -161,7 +173,7 @@ def split_sources(text: str, audio: str = "dub", source_id: str = SOURCE_ID,
             clean = token.rstrip(".,;")
             if safe_candidate(clean):
                 host = (urlsplit(clean).hostname or "").lower()
-                source_type = "embed" if host in {"mgeb.top"} else "direct"
+                source_type = "embed" if host in {"mgeb.top", "www.mgeb.top", "megaembedapi.site"} else "direct"
                 urls.append({
                     "url": clean, "audio": audio, "priority": priority,
                     "source_id": source_id, "source_type": source_type
@@ -218,6 +230,7 @@ def read_fichas(path: Path) -> dict[tuple[str, str], dict]:
             "tmdb_id": fields[2] if len(fields) > 2 and fields[2].isdigit() else None,
             "poster_path": fields[3] if len(fields) > 3 and fields[3] else None,
             "genres": [g.strip() for g in fields[4].split(",") if g.strip()] if len(fields) > 4 else [],
+            "imdb_id": extract_imdb_id(fields[5:]),
         }
     return result
 
@@ -307,6 +320,7 @@ def parse_movies(reference: Path, fichas: dict, featured_posters: dict, counters
         meta = fichas.get(("f", norm(item["title"])), {})
         # Reference metadata is enrichment, never a reason to erase valid catalog data.
         item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
+        item["imdb_id"] = item.get("imdb_id") or meta.get("imdb_id")
         item["poster_url"] = (
             item.get("poster_url")
             or meta.get("poster_path")
@@ -350,6 +364,7 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 continue
             tmdb_id = next((field.split("=", 1)[1].strip() for field in fields[1:]
                             if field.startswith("tmdb=") and field.split("=", 1)[1].strip().isdigit()), None)
+            imdb_id = extract_imdb_id(fields[1:])
             if not tmdb_id:
                 for field in fields[1:]:
                     match = re.search(r"https?://mgeb\.top/embed/(\d+)", field)
@@ -394,13 +409,15 @@ def parse_extra_movie_sources(reference: Path, movies: dict, fichas: dict, count
                 item = {
                     "id": "movie-" + slug(title), "title": title, "type": "movie",
                     "year": year_match.group(1) if year_match else None,
-                    "poster_url": None, "genres": [], "tmdb_id": tmdb_id,
+                    "poster_url": None, "genres": [], "tmdb_id": tmdb_id, "imdb_id": imdb_id,
                     "sources": [], "provider_refs": [], "source_candidates_skipped": 0,
                 }
                 movies[norm(title)] = item
             if tmdb_id:
                 item["tmdb_id"] = item.get("tmdb_id") or tmdb_id
                 by_tmdb[tmdb_id] = item
+            if imdb_id and not item.get("imdb_id"):
+                item["imdb_id"] = imdb_id
             for key in {norm(item.get("title", "")), base_title(item.get("title", ""))}:
                 if key and all(existing is not item for existing in by_title[key]):
                     by_title[key].append(item)
@@ -468,6 +485,7 @@ def parse_series(reference: Path, fichas: dict, featured_posters: dict, featured
     for (title_key, year), item in series.items():
         meta = fichas.get(("s", title_key), {})
         item["tmdb_id"] = item.get("tmdb_id") or meta.get("tmdb_id")
+        item["imdb_id"] = item.get("imdb_id") or meta.get("imdb_id")
         item["poster_url"] = item.get("poster_url") or meta.get("poster_path") or featured_posters.get(("s", title_key))
         existing_genres = item.get("genres") if isinstance(item.get("genres"), list) else []
         reference_genres = meta.get("genres") if isinstance(meta.get("genres"), list) else []
@@ -521,6 +539,7 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                 title = fields[0].strip()
                 year = fields[1].strip() if len(fields) > 1 and fields[1].strip().isdigit() else None
                 tmdb_id = fields[2].strip() if len(fields) > 2 and fields[2].strip().isdigit() else None
+                imdb_id = extract_imdb_id(fields[2:])
                 if not title:
                     current = None
                     continue
@@ -558,6 +577,7 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                         "id": "series-" + slug(title) + ("-" + year if year else ""),
                         "title": title, "type": "series", "year": year, "tmdb_id": tmdb_id,
                         "poster_url": None, "genres": [], "subtype": subtype or "series",
+                        "imdb_id": imdb_id,
                         "seasons": {}, "sources": [], "provider_refs": [],
                         "source_candidates_skipped": 0,
                     }
@@ -570,6 +590,8 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
                 if tmdb_id:
                     current["tmdb_id"] = current.get("tmdb_id") or tmdb_id
                     by_tmdb[tmdb_id] = current
+                if imdb_id and not current.get("imdb_id"):
+                    current["imdb_id"] = imdb_id
                 if subtype in {"anime", "dorama"}:
                     current["subtype"] = subtype
                 continue
@@ -598,7 +620,7 @@ def parse_extra_series_sources(vod: Path, series: dict, fichas: dict, counters: 
 
 def merge_record(target: dict, incoming: dict) -> dict:
     """Merge metadata, source candidates and episodic structure without deleting old data."""
-    for field in ("title", "type", "year", "tmdb_id", "poster_url", "subtype"):
+    for field in ("title", "type", "year", "tmdb_id", "imdb_id", "poster_url", "subtype"):
         if field == "subtype" and incoming.get(field) in {"anime", "dorama"} and target.get(field) not in {"anime", "dorama"}:
             target[field] = incoming[field]
         elif not target.get(field) and incoming.get(field):
