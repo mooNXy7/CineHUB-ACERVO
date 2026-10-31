@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T21:28:45Z",
+  "generated_at": "2026-10-31T21:32:29Z",
   "timezone": "America/Sao_Paulo",
   "policy": {
     "priority": [
@@ -17,7 +17,7 @@
   "programmes": {
     "Band": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -389,7 +389,7 @@
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:23:00-03:00",
@@ -1013,7 +1013,7 @@
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -1511,7 +1511,7 @@
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -2135,7 +2135,7 @@
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T16:50:00-03:00",
@@ -2495,7 +2495,7 @@
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:25:00-03:00",
@@ -2993,7 +2993,7 @@
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:19:00-03:00",
@@ -3911,7 +3911,7 @@
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -4122,12 +4122,18 @@
           "title": "Oktagon 96",
           "genre": "Esporte/Luta",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Power Slap 25",
+          "genre": "Esporte/Luta",
+          "end": "2026-11-03T19:30:00-03:00"
         }
       ]
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:23:00-03:00",
@@ -6294,12 +6300,18 @@
           "title": "O Mundo Maravilhosamente Estranho de Gumball",
           "genre": "Infantil/Desenho",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Os Jovens Titãs em Ação",
+          "genre": "Infantil/Desenho",
+          "end": "2026-11-03T18:42:00-03:00"
         }
       ]
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:23:00-03:00",
@@ -6563,7 +6575,7 @@
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:08:00-03:00",
@@ -7061,7 +7073,7 @@
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:16:00-03:00",
@@ -7631,7 +7643,7 @@
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -8231,7 +8243,7 @@
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:24:00-03:00",
@@ -8783,7 +8795,7 @@
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:24:00-03:00",
@@ -9713,7 +9725,7 @@
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:19:00-03:00",
@@ -11759,7 +11771,7 @@
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T16:30:00-03:00",
@@ -12066,12 +12078,18 @@
           "title": "Sportscenter - Ao Vivo",
           "genre": "Jornalismo/Esportivo",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Equipe F - Ao Vivo",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T20:00:00-03:00"
         }
       ]
     },
     "E!": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -12581,7 +12599,7 @@
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:25:00-03:00",
@@ -12947,7 +12965,7 @@
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -13277,7 +13295,7 @@
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -13553,7 +13571,7 @@
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -13895,7 +13913,7 @@
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -14507,7 +14525,7 @@
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -14903,7 +14921,7 @@
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -15299,7 +15317,7 @@
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -15563,7 +15581,7 @@
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -15833,7 +15851,7 @@
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -16079,7 +16097,7 @@
     },
     "Gloob": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:38:00-03:00",
@@ -17177,7 +17195,7 @@
     },
     "HBO Family": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:57:00-03:00",
@@ -17429,7 +17447,7 @@
     },
     "Multishow": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:29:00-03:00",
@@ -18312,12 +18330,18 @@
           "title": "Nesse Canto Eu Conto",
           "genre": "Variedades/Musical",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Setlist",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-03T18:33:00-03:00"
         }
       ]
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:25:00-03:00",
@@ -18581,7 +18605,7 @@
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:35:00-03:00",
@@ -18809,7 +18833,7 @@
     },
     "History": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -19343,7 +19367,7 @@
     },
     "Record": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:00:00-03:00",
@@ -19703,7 +19727,7 @@
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:45:00-03:00",
@@ -19985,7 +20009,7 @@
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -20712,12 +20736,18 @@
           "title": "VT - Atlético-MG x Santos",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "VT - Grêmio x Internacional",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-03T19:00:00-03:00"
         }
       ]
     },
     "Space": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:08:00-03:00",
@@ -21155,7 +21185,7 @@
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T16:40:00-03:00",
@@ -21581,7 +21611,7 @@
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -21972,12 +22002,18 @@
           "title": "Flamengo x Operário-PR - Ao Vivo",
           "genre": "Esporte/Futebol",
           "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Bahia x Flamengo - Ao Vivo",
+          "genre": "Esporte/Futebol Feminino",
+          "end": "2026-11-03T21:00:00-03:00"
         }
       ]
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -22205,7 +22241,7 @@
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -22451,7 +22487,7 @@
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T16:20:00-03:00",
@@ -22709,7 +22745,7 @@
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:30:00-03:00",
@@ -22949,7 +22985,7 @@
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:55:00-03:00",
@@ -23183,7 +23219,7 @@
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:25:00-03:00",
@@ -23417,7 +23453,7 @@
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T16:51:00-03:00",
@@ -23849,7 +23885,7 @@
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:04:00-03:00",
@@ -24389,7 +24425,7 @@
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:14:00-03:00",
@@ -24923,7 +24959,7 @@
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:10:00-03:00",
@@ -25433,7 +25469,7 @@
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:00:00-03:00",
@@ -25997,7 +26033,7 @@
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T17:22:00-03:00",
@@ -26771,7 +26807,7 @@
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "fetched_at": "2026-10-31T21:28:45Z",
+      "fetched_at": "2026-10-31T21:32:29Z",
       "programmes": [
         {
           "start": "2026-10-31T18:13:00-03:00",
@@ -27470,427 +27506,4197 @@
           "end": "2026-11-03T18:37:00-03:00"
         }
       ]
+    },
+    "Telecine Cult": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T16:55:00-03:00",
+          "title": "Jurassic Park - O Parque Dos Dinossauros",
+          "genre": "Filme/Aventura",
+          "end": "2026-10-31T19:15:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:15:00-03:00",
+          "title": "Especial Halloween: A Última Praga De Mojica",
+          "genre": "Filme/Terror",
+          "end": "2026-10-31T19:35:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:35:00-03:00",
+          "title": "Especial Halloween: A Praga",
+          "genre": "Filme/Terror",
+          "end": "2026-10-31T20:35:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:35:00-03:00",
+          "title": "Especial Halloween: O Gabinete do Dr. Caligari",
+          "genre": "Filme/Terror",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "Especial Halloween: Nosferatu (1922)",
+          "genre": "Filme/Terror",
+          "end": "2026-10-31T23:45:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:45:00-03:00",
+          "title": "Especial Halloween: Desconhecidos",
+          "genre": "Filme/Terror",
+          "end": "2026-11-01T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-01T01:25:00-03:00",
+          "title": "Dr. Mabuse, o Jogador",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T04:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:10:00-03:00",
+          "title": "Levante",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:00:00-03:00",
+          "title": "Flechas De Fogo",
+          "genre": "Filme/Western",
+          "end": "2026-11-01T07:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:40:00-03:00",
+          "title": "A Estrada Perdida",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:00:00-03:00",
+          "title": "Houria - Dançando no Silêncio",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:45:00-03:00",
+          "title": "A Lenda",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-01T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-01T13:25:00-03:00",
+          "title": "O Regresso",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T16:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T16:00:00-03:00",
+          "title": "Nasce Uma Estrela (1937)",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T17:55:00-03:00"
+        },
+        {
+          "start": "2026-11-01T17:55:00-03:00",
+          "title": "Se Eu Tivesse Pernas, Eu Te Chutaria",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T19:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T19:50:00-03:00",
+          "title": "Retrato de Uma Jovem em Chamas",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:00:00-03:00",
+          "title": "O Grande Ditador",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T00:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T00:15:00-03:00",
+          "title": "Zodíaco",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:00:00-03:00",
+          "title": "Eu Sou o Amor",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T04:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:40:00-03:00",
+          "title": "Beijos Proibidos",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T06:20:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:20:00-03:00",
+          "title": "Jardim Dos Girassóis",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-02T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:00:00-03:00",
+          "title": "La Pointe Courte",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T09:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:25:00-03:00",
+          "title": "A Igualdade É Branca",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T11:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:00:00-03:00",
+          "title": "Hoje Eu Quero Voltar Sozinho",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T12:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T12:45:00-03:00",
+          "title": "Nosferatu (1922)",
+          "genre": "Filme/Terror",
+          "end": "2026-11-02T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:30:00-03:00",
+          "title": "Lumière! A Aventura Continua",
+          "genre": "Filme/Documentário",
+          "end": "2026-11-02T16:20:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:20:00-03:00",
+          "title": "Nouvelle Vague",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T18:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:15:00-03:00",
+          "title": "Tropa De Elite",
+          "genre": "Filme/Ação",
+          "end": "2026-11-02T20:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:15:00-03:00",
+          "title": "Sessão Bang Bang: Sangue Em Sonora",
+          "genre": "Filme/Western",
+          "end": "2026-11-02T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:00:00-03:00",
+          "title": "Sessão Bang Bang: Sua Única Saída",
+          "genre": "Filme/Western",
+          "end": "2026-11-02T23:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T23:50:00-03:00",
+          "title": "O Olhar Misterioso do Flamingo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T01:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:50:00-03:00",
+          "title": "Aquarius",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T04:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T04:25:00-03:00",
+          "title": "O Que É Isso, Companheiro?",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T06:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:25:00-03:00",
+          "title": "Sonhar com Leões",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:00:00-03:00",
+          "title": "Os Guarda-Chuvas Do Amor",
+          "genre": "Filme/Romance",
+          "end": "2026-11-03T09:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:35:00-03:00",
+          "title": "O Palhaço",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T11:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:05:00-03:00",
+          "title": "Um Poeta",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T13:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:15:00-03:00",
+          "title": "Bancando o Águia",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T14:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:10:00-03:00",
+          "title": "Um Herói",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T16:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:25:00-03:00",
+          "title": "Cult Curtas: Campeão de Boxe",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:00:00-03:00",
+          "title": "A Árvore Da Vida",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T19:20:00-03:00"
+        }
+      ]
+    },
+    "Telecine Touch": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:40:00-03:00",
+          "title": "Maratona Crepúsculo: A Saga Crepúsculo: Lua Nova",
+          "genre": "Filme/Romance",
+          "end": "2026-10-31T19:55:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:55:00-03:00",
+          "title": "Maratona Crepúsculo: A Saga Crepúsculo: Eclipse",
+          "genre": "Filme/Romance",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "Maratona Crepúsculo: A Saga Crepúsculo: Amanhecer - Parte 1",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:00:00-03:00",
+          "title": "Preview No Touch",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T00:05:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:05:00-03:00",
+          "title": "Maratona Crepúsculo: A Saga Crepúsculo: Amanhecer - Parte 2",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T02:05:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:05:00-03:00",
+          "title": "Terapia Do Amor",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:00:00-03:00",
+          "title": "Malu",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T05:55:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:55:00-03:00",
+          "title": "América",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T06:25:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:25:00-03:00",
+          "title": "Touch Faixa 06h30: Megalópolis",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T08:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:50:00-03:00",
+          "title": "Sempre Ao Seu Lado",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T10:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:30:00-03:00",
+          "title": "A Filha do Rei",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-01T12:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:15:00-03:00",
+          "title": "O Diário De Bridget Jones",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T14:05:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:05:00-03:00",
+          "title": "Minha Fera",
+          "genre": "Filme/Comédia Romântica",
+          "end": "2026-11-01T16:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T16:00:00-03:00",
+          "title": "Ela Dança, Eu Danço",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T17:55:00-03:00"
+        },
+        {
+          "start": "2026-11-01T17:55:00-03:00",
+          "title": "A Cabana",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T20:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:10:00-03:00",
+          "title": "Cartas Para Julieta",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:00:00-03:00",
+          "title": "Intocáveis",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T00:00:00-03:00",
+          "title": "A Paixão De Cristo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T02:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:10:00-03:00",
+          "title": "Maré Alta",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T04:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:05:00-03:00",
+          "title": "Meu Pai",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T05:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T05:50:00-03:00",
+          "title": "Negócio Das Arábias",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T07:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T07:35:00-03:00",
+          "title": "Terapia Do Amor",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Maratona: Crepúsculo",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T11:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:40:00-03:00",
+          "title": "Maratona: A Saga Crepúsculo: Lua Nova",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T13:55:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:55:00-03:00",
+          "title": "Maratona: A Saga Crepúsculo: Eclipse",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T16:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:05:00-03:00",
+          "title": "Maratona: A Saga Crepúsculo: Amanhecer - Parte 1",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T18:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:05:00-03:00",
+          "title": "Maratona: A Saga Crepúsculo: Amanhecer - Parte 2",
+          "genre": "Filme/Romance",
+          "end": "2026-11-02T20:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:05:00-03:00",
+          "title": "O Impossível",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:00:00-03:00",
+          "title": "Case Comigo",
+          "genre": "Filme/Romance",
+          "end": "2026-11-03T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:00:00-03:00",
+          "title": "Ela É O Cara",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T01:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:55:00-03:00",
+          "title": "Amor a Três",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T03:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:55:00-03:00",
+          "title": "Marte Um",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T05:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:55:00-03:00",
+          "title": "O Jovem Messias",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T07:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T07:50:00-03:00",
+          "title": "Boyhood: Da Infância À Juventude",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T10:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:40:00-03:00",
+          "title": "Procura-se A Mulher Perfeita",
+          "genre": "Filme/Romance",
+          "end": "2026-11-03T12:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T12:15:00-03:00",
+          "title": "Senna",
+          "genre": "Filme/Documentário",
+          "end": "2026-11-03T14:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:10:00-03:00",
+          "title": "Negócio Das Arábias",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T15:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:55:00-03:00",
+          "title": "A Filha do Rei",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-03T17:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:35:00-03:00",
+          "title": "O Curioso Caso de Benjamin Button",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T20:25:00-03:00"
+        }
+      ]
+    },
+    "Telecine Fun": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T16:45:00-03:00",
+          "title": "Jogo De Amor Em Las Vegas",
+          "genre": "Filme/Comédia",
+          "end": "2026-10-31T18:35:00-03:00"
+        },
+        {
+          "start": "2026-10-31T18:35:00-03:00",
+          "title": "Vovó... Zona 2",
+          "genre": "Filme/Comédia",
+          "end": "2026-10-31T20:25:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:25:00-03:00",
+          "title": "Trolls 2",
+          "genre": "Filme/Animação",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "Programa Duplo: Gato De Botas",
+          "genre": "Filme/Animação",
+          "end": "2026-10-31T23:35:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:35:00-03:00",
+          "title": "Programa Duplo: Gato de Botas 2: O Último Pedido",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T01:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T01:30:00-03:00",
+          "title": "Minha Vida Em Marte",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T03:25:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:25:00-03:00",
+          "title": "Pluft - O Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T05:05:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:05:00-03:00",
+          "title": "Planeta 51",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T06:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:40:00-03:00",
+          "title": "O Shaolin Do Sertão",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:30:00-03:00",
+          "title": "O Pequeno Príncipe",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T10:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:20:00-03:00",
+          "title": "A Viagem Encantada",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T11:55:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:55:00-03:00",
+          "title": "Vovó...Zona",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T13:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T13:40:00-03:00",
+          "title": "Kung Fu Panda",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T15:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:20:00-03:00",
+          "title": "Nina: A Heroína dos Sete Mares",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T17:00:00-03:00",
+          "title": "Alvin E Os Esquilos",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T18:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:40:00-03:00",
+          "title": "Tarzan: A Evolução Da Lenda",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T20:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:20:00-03:00",
+          "title": "Preview No Fun",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T20:25:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:25:00-03:00",
+          "title": "Os Pinguins De Madagascar",
+          "genre": "Filme/Animação",
+          "end": "2026-11-01T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:00:00-03:00",
+          "title": "Nanny McPhee - A Babá Encantada",
+          "genre": "Filme/Ficção",
+          "end": "2026-11-01T23:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:45:00-03:00",
+          "title": "Lassie: De Volta À Casa",
+          "genre": "Filme/Aventura",
+          "end": "2026-11-02T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:25:00-03:00",
+          "title": "Perlimps",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T02:55:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:55:00-03:00",
+          "title": "Noivas Em Guerra",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T04:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:35:00-03:00",
+          "title": "Programação do Canal",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T06:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:25:00-03:00",
+          "title": "Os Inseparáveis",
+          "genre": "Filme/Infantil",
+          "end": "2026-11-02T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:00:00-03:00",
+          "title": "Sorte No Amor (2006)",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T09:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:50:00-03:00",
+          "title": "Planeta 51",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T11:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:30:00-03:00",
+          "title": "Pluft - O Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T13:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:10:00-03:00",
+          "title": "Vovó... Zona 2",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T14:55:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:55:00-03:00",
+          "title": "Alvin E Os Esquilos 3",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T16:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:30:00-03:00",
+          "title": "Programa Duplo: Gato De Botas",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T18:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:05:00-03:00",
+          "title": "Preview No Fun",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T18:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:10:00-03:00",
+          "title": "Programa Duplo: Gato de Botas 2: O Último Pedido",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T20:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:00:00-03:00",
+          "title": "Minha Irmã E Eu",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:00:00-03:00",
+          "title": "Sing 2",
+          "genre": "Filme/Animação",
+          "end": "2026-11-03T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:00:00-03:00",
+          "title": "Shrek 2",
+          "genre": "Filme/Animação",
+          "end": "2026-11-03T01:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:40:00-03:00",
+          "title": "Johnny English",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T03:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:20:00-03:00",
+          "title": "Uma Loucura de Mulher",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T05:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:05:00-03:00",
+          "title": "Minha Vida Em Marte",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T07:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T07:00:00-03:00",
+          "title": "Vovó...Zona",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T08:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:45:00-03:00",
+          "title": "A Volta Do Todo Poderoso",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T10:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:25:00-03:00",
+          "title": "Jogo De Amor Em Las Vegas",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T12:10:00-03:00"
+        },
+        {
+          "start": "2026-11-03T12:10:00-03:00",
+          "title": "Tô Ryca!",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T14:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:05:00-03:00",
+          "title": "Os Estagiários",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T16:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:15:00-03:00",
+          "title": "O Bebê De Bridget Jones",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T18:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:20:00-03:00",
+          "title": "Dois É Demais Em Orlando",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-03T20:20:00-03:00"
+        }
+      ]
+    },
+    "Globo MG": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:00:00-03:00",
+          "title": "Caldeirão com Mion",
+          "genre": "Variedades/Diversos",
+          "end": "2026-10-31T18:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T18:30:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T19:15:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:15:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T19:50:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:50:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T22:40:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:40:00-03:00",
+          "title": "Altas Horas",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:30:00-03:00",
+          "title": "Supercine: A Noite das Bruxas",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T02:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:20:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:30:00-03:00",
+          "title": "Corujão: Noites de Alface",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T04:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:35:00-03:00",
+          "title": "Corujão II: Pluft, o Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T05:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:50:00-03:00",
+          "title": "Santa Missa",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T06:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:40:00-03:00",
+          "title": "Globo Repórter",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-01T07:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:30:00-03:00",
+          "title": "Globo Comunidade RJ",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Auto Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T08:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:35:00-03:00",
+          "title": "Globo Rural",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:15:00-03:00",
+          "title": "Viver Sertanejo",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-01T11:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:15:00-03:00",
+          "title": "Esporte Espetacular",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:30:00-03:00",
+          "title": "Temperatura Máxima: Air - A História Por Trás do Logo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:30:00-03:00",
+          "title": "Em Família com Eliana",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "Bora Pro Jogo",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:45:00-03:00",
+          "title": "Palmeiras x Vasco - Ao Vivo",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-01T18:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:10:00-03:00",
+          "title": "Domingão Com Huck",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:30:00-03:00",
+          "title": "Fantástico",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T23:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:35:00-03:00",
+          "title": "Domingo Maior: Creed II",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:25:00-03:00",
+          "title": "Fórmula 1 - GP do México - Compacto",
+          "genre": "Esporte/Automobilismo",
+          "end": "2026-11-02T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T03:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:15:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-02T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T15:25:00-03:00",
+          "title": "Sessão da Tarde: Space Jam - Um Novo Legado",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T19:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:40:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T22:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:40:00-03:00",
+          "title": "Tela Quente: O Protetor - Capítulo Final",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T00:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:25:00-03:00",
+          "title": "Jornal da Globo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T01:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:15:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T01:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:55:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T02:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:40:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:25:00-03:00",
+          "title": "Sessão da Tarde: George Foreman - Sua História",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T19:10:00-03:00"
+        }
+      ]
+    },
+    "Globo RS": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:00:00-03:00",
+          "title": "Caldeirão com Mion",
+          "genre": "Variedades/Diversos",
+          "end": "2026-10-31T18:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T18:30:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T19:15:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:15:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T19:50:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:50:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T22:40:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:40:00-03:00",
+          "title": "Altas Horas",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:30:00-03:00",
+          "title": "Supercine: A Noite das Bruxas",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T02:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:20:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:30:00-03:00",
+          "title": "Corujão: Noites de Alface",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T04:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:35:00-03:00",
+          "title": "Corujão II: Pluft, o Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T05:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:50:00-03:00",
+          "title": "Santa Missa",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T06:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:40:00-03:00",
+          "title": "Globo Repórter",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-01T07:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:30:00-03:00",
+          "title": "Globo Comunidade RJ",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Auto Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T08:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:35:00-03:00",
+          "title": "Globo Rural",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:15:00-03:00",
+          "title": "Viver Sertanejo",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-01T11:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:15:00-03:00",
+          "title": "Esporte Espetacular",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:30:00-03:00",
+          "title": "Temperatura Máxima: Air - A História Por Trás do Logo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:30:00-03:00",
+          "title": "Em Família com Eliana",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "Bora Pro Jogo",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:45:00-03:00",
+          "title": "Palmeiras x Vasco - Ao Vivo",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-01T18:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:10:00-03:00",
+          "title": "Domingão Com Huck",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:30:00-03:00",
+          "title": "Fantástico",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T23:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:35:00-03:00",
+          "title": "Domingo Maior: Creed II",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:25:00-03:00",
+          "title": "Fórmula 1 - GP do México - Compacto",
+          "genre": "Esporte/Automobilismo",
+          "end": "2026-11-02T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T03:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:15:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-02T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T15:25:00-03:00",
+          "title": "Sessão da Tarde: Space Jam - Um Novo Legado",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T19:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:40:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T22:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:40:00-03:00",
+          "title": "Tela Quente: O Protetor - Capítulo Final",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T00:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:25:00-03:00",
+          "title": "Jornal da Globo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T01:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:15:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T01:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:55:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T02:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:40:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:25:00-03:00",
+          "title": "Sessão da Tarde: George Foreman - Sua História",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T19:10:00-03:00"
+        }
+      ]
+    },
+    "Globo AM": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:00:00-03:00",
+          "title": "Caldeirão com Mion",
+          "genre": "Variedades/Diversos",
+          "end": "2026-10-31T18:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T18:30:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T19:15:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:15:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T19:50:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:50:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T22:40:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:40:00-03:00",
+          "title": "Altas Horas",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:30:00-03:00",
+          "title": "Supercine: A Noite das Bruxas",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T02:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:20:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:30:00-03:00",
+          "title": "Corujão: Noites de Alface",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T04:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:35:00-03:00",
+          "title": "Corujão II: Pluft, o Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T05:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:50:00-03:00",
+          "title": "Santa Missa",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T06:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:40:00-03:00",
+          "title": "Globo Repórter",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-01T07:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:30:00-03:00",
+          "title": "Globo Comunidade RJ",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Auto Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T08:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:35:00-03:00",
+          "title": "Globo Rural",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:15:00-03:00",
+          "title": "Viver Sertanejo",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-01T11:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:15:00-03:00",
+          "title": "Esporte Espetacular",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:30:00-03:00",
+          "title": "Temperatura Máxima: Air - A História Por Trás do Logo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:30:00-03:00",
+          "title": "Em Família com Eliana",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "Bora Pro Jogo",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:45:00-03:00",
+          "title": "Palmeiras x Vasco - Ao Vivo",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-01T18:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:10:00-03:00",
+          "title": "Domingão Com Huck",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:30:00-03:00",
+          "title": "Fantástico",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T23:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:35:00-03:00",
+          "title": "Domingo Maior: Creed II",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:25:00-03:00",
+          "title": "Fórmula 1 - GP do México - Compacto",
+          "genre": "Esporte/Automobilismo",
+          "end": "2026-11-02T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T03:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:15:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-02T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T15:25:00-03:00",
+          "title": "Sessão da Tarde: Space Jam - Um Novo Legado",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T19:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:40:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T22:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:40:00-03:00",
+          "title": "Tela Quente: O Protetor - Capítulo Final",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T00:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:25:00-03:00",
+          "title": "Jornal da Globo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T01:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:15:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T01:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:55:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T02:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:40:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:25:00-03:00",
+          "title": "Sessão da Tarde: George Foreman - Sua História",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T19:10:00-03:00"
+        }
+      ]
+    },
+    "Globo ES": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:00:00-03:00",
+          "title": "Caldeirão com Mion",
+          "genre": "Variedades/Diversos",
+          "end": "2026-10-31T18:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T18:30:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T19:15:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:15:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T19:50:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:50:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-10-31T22:40:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:40:00-03:00",
+          "title": "Altas Horas",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:30:00-03:00",
+          "title": "Supercine: A Noite das Bruxas",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T02:20:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:20:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-01T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:30:00-03:00",
+          "title": "Corujão: Noites de Alface",
+          "genre": "Filme/Romance",
+          "end": "2026-11-01T04:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:35:00-03:00",
+          "title": "Corujão II: Pluft, o Fantasminha",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-01T05:50:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:50:00-03:00",
+          "title": "Santa Missa",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T06:40:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:40:00-03:00",
+          "title": "Globo Repórter",
+          "genre": "Séries/Documentário",
+          "end": "2026-11-01T07:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:30:00-03:00",
+          "title": "Globo Comunidade RJ",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Auto Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T08:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:35:00-03:00",
+          "title": "Globo Rural",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:15:00-03:00",
+          "title": "Viver Sertanejo",
+          "genre": "Variedades/Musical",
+          "end": "2026-11-01T11:15:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:15:00-03:00",
+          "title": "Esporte Espetacular",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-01T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:30:00-03:00",
+          "title": "Temperatura Máxima: Air - A História Por Trás do Logo",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:30:00-03:00",
+          "title": "Em Família com Eliana",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "Bora Pro Jogo",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T15:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:45:00-03:00",
+          "title": "Palmeiras x Vasco - Ao Vivo",
+          "genre": "Esporte/Futebol",
+          "end": "2026-11-01T18:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:10:00-03:00",
+          "title": "Domingão Com Huck",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:30:00-03:00",
+          "title": "Fantástico",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T23:35:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:35:00-03:00",
+          "title": "Domingo Maior: Creed II",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T01:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:25:00-03:00",
+          "title": "Fórmula 1 - GP do México - Compacto",
+          "genre": "Esporte/Automobilismo",
+          "end": "2026-11-02T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T03:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:15:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-02T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-02T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T15:25:00-03:00",
+          "title": "Sessão da Tarde: Space Jam - Um Novo Legado",
+          "genre": "Filme/Animação",
+          "end": "2026-11-02T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T19:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:10:00-03:00",
+          "title": "RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T19:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:40:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Jornal Nacional",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Quem Ama Cuida",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-02T22:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:40:00-03:00",
+          "title": "Tela Quente: O Protetor - Capítulo Final",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T00:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:25:00-03:00",
+          "title": "Jornal da Globo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T01:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:15:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T01:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:55:00-03:00",
+          "title": "Por Você",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T02:40:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:40:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola I",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:30:00-03:00",
+          "title": "Comédia Na Madruga - Vai Que Cola II",
+          "genre": "Séries/Humor",
+          "end": "2026-11-03T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T04:00:00-03:00",
+          "title": "Hora Um",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Bom Dia Rio",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:30:00-03:00",
+          "title": "Bom Dia Brasil",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Encontro com Patrícia Poeta",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T10:35:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:35:00-03:00",
+          "title": "Mais Você",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:45:00-03:00",
+          "title": "RJ1",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Globo Esporte",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T13:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:25:00-03:00",
+          "title": "Jornal Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T14:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:45:00-03:00",
+          "title": "Roque Santeiro",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T15:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:25:00-03:00",
+          "title": "Sessão da Tarde: George Foreman - Sua História",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T16:50:00-03:00"
+        },
+        {
+          "start": "2026-11-03T16:50:00-03:00",
+          "title": "Boletim RJ2",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T17:05:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:05:00-03:00",
+          "title": "Vale a Pena Ver de Novo: Avenida Brasil",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T18:25:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:25:00-03:00",
+          "title": "A Nobreza do Amor",
+          "genre": "Variedades/Novela",
+          "end": "2026-11-03T19:10:00-03:00"
+        }
+      ]
+    },
+    "RedeTV!": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:00:00-03:00",
+          "title": "Vila Nova x Juventude - Ao Vivo",
+          "genre": "Esporte/Futebol",
+          "end": "2026-10-31T19:45:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:45:00-03:00",
+          "title": "RedeTV! News",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Rodada de Negócios",
+          "genre": "Variedades/Entrevista",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "Bastidores Do Crime",
+          "genre": "Variedades/Diversos",
+          "end": "2026-10-31T22:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:30:00-03:00",
+          "title": "Operação de Risco",
+          "genre": "Variedades/Reality Show",
+          "end": "2026-10-31T23:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:30:00-03:00",
+          "title": "Mega Sonho",
+          "genre": "Variedades/Game Show",
+          "end": "2026-11-01T00:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:45:00-03:00",
+          "title": "Madrugada Animada",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Igreja da Graça No Seu Lar",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T05:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:00:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:00:00-03:00",
+          "title": "Ultrafarma",
+          "genre": "Variedades/Televendas",
+          "end": "2026-11-01T07:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:00:00-03:00",
+          "title": "Ultrafarma - Missa São Judas",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Ultrafarma",
+          "genre": "Variedades/Televendas",
+          "end": "2026-11-01T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:30:00-03:00",
+          "title": "Programa Mundo Empresarial",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T09:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T09:00:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:00:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-01T11:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:45:00-03:00",
+          "title": "Educação Na TV - Apeoesp",
+          "genre": "Variedades/Educativo",
+          "end": "2026-11-01T11:55:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:55:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:00:00-03:00",
+          "title": "Ultrafarma",
+          "genre": "Variedades/Televendas",
+          "end": "2026-11-01T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T13:00:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T15:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:00:00-03:00",
+          "title": "Show da Saúde",
+          "genre": "Variedades/Televendas",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:00:00-03:00",
+          "title": "Mega Sonho",
+          "genre": "Variedades/Game Show",
+          "end": "2026-11-01T19:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T19:00:00-03:00",
+          "title": "A Hora Do Zap",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T19:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T19:30:00-03:00",
+          "title": "Para Aqui!",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-01T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T21:30:00-03:00",
+          "title": "Vizinhos Em Guerra",
+          "genre": "Variedades/Reality Show",
+          "end": "2026-11-01T22:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:30:00-03:00",
+          "title": "Amor Em Risco",
+          "genre": "Variedades/Reality Show",
+          "end": "2026-11-01T23:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:30:00-03:00",
+          "title": "O Melhor de Tudo",
+          "genre": "Séries/Drama",
+          "end": "2026-11-02T00:15:00-03:00"
+        },
+        {
+          "start": "2026-11-02T00:15:00-03:00",
+          "title": "Vê Se Pode",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-02T01:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:00:00-03:00",
+          "title": "Madrugada Animada",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-02T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:00:00-03:00",
+          "title": "Igreja da Graça No Seu Lar",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T05:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T05:00:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:30:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "RedeTV! Notícias - 1ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:00:00-03:00",
+          "title": "RedeTV! Notícias - 1ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T10:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:30:00-03:00",
+          "title": "Fica Com a Gente",
+          "genre": "Variedades/Culinária",
+          "end": "2026-11-02T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T12:00:00-03:00",
+          "title": "Bola na Rede",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T15:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T15:00:00-03:00",
+          "title": "A Tarde é Sua",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:00:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:00:00-03:00",
+          "title": "RedeTV! Notícias - 2ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:30:00-03:00",
+          "title": "Brasil Do Povo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T19:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:45:00-03:00",
+          "title": "RedeTV! News",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Rapidinhas da Fama",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T21:40:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:40:00-03:00",
+          "title": "TV Fama",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T22:45:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:45:00-03:00",
+          "title": "Sensacional",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:00:00-03:00",
+          "title": "Leitura Dinâmica",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:30:00-03:00",
+          "title": "Madrugada Animada",
+          "genre": "Variedades/Humor",
+          "end": "2026-11-03T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:00:00-03:00",
+          "title": "Igreja da Graça No Seu Lar",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T05:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:00:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Igreja Internacional da Graça de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T08:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:30:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "RedeTV! Notícias - 1ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:00:00-03:00",
+          "title": "RedeTV! Notícias - 1ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T10:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:30:00-03:00",
+          "title": "Fica Com a Gente",
+          "genre": "Variedades/Culinária",
+          "end": "2026-11-03T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T12:00:00-03:00",
+          "title": "Bola na Rede",
+          "genre": "Jornalismo/Esportivo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T15:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:00:00-03:00",
+          "title": "A Tarde é Sua",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:00:00-03:00",
+          "title": "Igreja Universal do Reino de Deus",
+          "genre": "Variedades/Religião",
+          "end": "2026-11-03T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:00:00-03:00",
+          "title": "RedeTV! Notícias - 2ª Edição",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T18:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:30:00-03:00",
+          "title": "Brasil Do Povo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T19:45:00-03:00"
+        }
+      ]
+    },
+    "TCM": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T17:36:00-03:00",
+          "title": "Um Dia no Paraíso",
+          "genre": "Filme/Comédia Romântica",
+          "end": "2026-10-31T19:21:00-03:00"
+        },
+        {
+          "start": "2026-10-31T19:21:00-03:00",
+          "title": "Os Doze Condenados",
+          "genre": "Filme/Drama",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "El Tigre Veron",
+          "genre": "Séries/Drama",
+          "end": "2026-10-31T22:54:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:54:00-03:00",
+          "title": "El Tigre Veron",
+          "genre": "Séries/Drama",
+          "end": "2026-10-31T23:47:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:47:00-03:00",
+          "title": "O Outro Irmão",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T01:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T01:45:00-03:00",
+          "title": "Um Homem Tem Três Metros de Altura",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T03:12:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:12:00-03:00",
+          "title": "A Negociação",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-01T05:02:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:02:00-03:00",
+          "title": "Hollywood One on One",
+          "genre": "Variedades/Cinema",
+          "end": "2026-11-01T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:00:00-03:00",
+          "title": "Hollywood One On One 2026",
+          "genre": "Variedades/Entrevista",
+          "end": "2026-11-01T06:10:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:10:00-03:00",
+          "title": "Alemanha",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T07:32:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:32:00-03:00",
+          "title": "Ama-me ou Esquece-me",
+          "genre": "Filme/Musical",
+          "end": "2026-11-01T09:34:00-03:00"
+        },
+        {
+          "start": "2026-11-01T09:34:00-03:00",
+          "title": "Um Dia no Paraíso",
+          "genre": "Filme/Comédia Romântica",
+          "end": "2026-11-01T11:12:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:12:00-03:00",
+          "title": "Os Doze Condenados",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T13:42:00-03:00"
+        },
+        {
+          "start": "2026-11-01T13:42:00-03:00",
+          "title": "Assim Caminha a Humanidade",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T14:42:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:42:00-03:00",
+          "title": "Assim Caminha a Humanidade",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T17:00:00-03:00",
+          "title": "Caída do Ceu",
+          "genre": "Filme/Comédia Romântica",
+          "end": "2026-11-01T18:17:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:17:00-03:00",
+          "title": "Um Lutador Lendário",
+          "genre": "Filme/Ação",
+          "end": "2026-11-01T19:45:00-03:00"
+        },
+        {
+          "start": "2026-11-01T19:45:00-03:00",
+          "title": "A Águia Solitária",
+          "genre": "Filme/Biografia",
+          "end": "2026-11-01T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:00:00-03:00",
+          "title": "O Outro Irmão",
+          "genre": "Filme/Drama",
+          "end": "2026-11-01T23:51:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:51:00-03:00",
+          "title": "Vingança FM",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-02T01:24:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:24:00-03:00",
+          "title": "A Negociação",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-02T03:13:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:13:00-03:00",
+          "title": "Gatilho Relâmpago",
+          "genre": "Filme/Western",
+          "end": "2026-11-02T04:42:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:42:00-03:00",
+          "title": "Carroceros: Hearse Lovers",
+          "genre": "Filme/Documentário",
+          "end": "2026-11-02T05:55:00-03:00"
+        },
+        {
+          "start": "2026-11-02T05:55:00-03:00",
+          "title": "Hollywood One on One",
+          "genre": "Variedades/Cinema",
+          "end": "2026-11-02T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:00:00-03:00",
+          "title": "Hollywood One on One",
+          "genre": "Variedades/Cinema",
+          "end": "2026-11-02T06:07:00-03:00"
+        },
+        {
+          "start": "2026-11-02T06:07:00-03:00",
+          "title": "Assim Caminha a Humanidade",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T07:07:00-03:00"
+        },
+        {
+          "start": "2026-11-02T07:07:00-03:00",
+          "title": "Assim Caminha a Humanidade",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T09:25:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:25:00-03:00",
+          "title": "Um Lutador Lendário",
+          "genre": "Filme/Ação",
+          "end": "2026-11-02T10:55:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:55:00-03:00",
+          "title": "A Águia Solitária",
+          "genre": "Filme/Biografia",
+          "end": "2026-11-02T13:10:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:10:00-03:00",
+          "title": "Line Walker 2: Espião Invisível",
+          "genre": "Filme/Ação",
+          "end": "2026-11-02T14:48:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:48:00-03:00",
+          "title": "O Preço de um Homem",
+          "genre": "Filme/Western",
+          "end": "2026-11-02T16:19:00-03:00"
+        },
+        {
+          "start": "2026-11-02T16:19:00-03:00",
+          "title": "Balas Contra a Gestapo",
+          "genre": "Filme/Ação",
+          "end": "2026-11-02T18:06:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:06:00-03:00",
+          "title": "Longa Jornada Noite Adentro",
+          "genre": "Filme/Drama",
+          "end": "2026-11-02T20:18:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:18:00-03:00",
+          "title": "Cine Holliúdy 2 - A Chibata Sideral",
+          "genre": "Filme/Comédia",
+          "end": "2026-11-02T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T22:00:00-03:00",
+          "title": "Vingança FM",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-02T23:32:00-03:00"
+        },
+        {
+          "start": "2026-11-02T23:32:00-03:00",
+          "title": "A Tortura do Silêncio",
+          "genre": "Filme/Suspense",
+          "end": "2026-11-03T01:07:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:07:00-03:00",
+          "title": "Gatilho Relâmpago",
+          "genre": "Filme/Western",
+          "end": "2026-11-03T02:36:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:36:00-03:00",
+          "title": "Downhill",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T03:55:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:55:00-03:00",
+          "title": "A Grande Sacada",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T05:56:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:56:00-03:00",
+          "title": "Hollywood One on One",
+          "genre": "Variedades/Cinema",
+          "end": "2026-11-03T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:00:00-03:00",
+          "title": "Hollywood One On One 2026",
+          "genre": "Variedades/Entrevista",
+          "end": "2026-11-03T06:20:00-03:00"
+        },
+        {
+          "start": "2026-11-03T06:20:00-03:00",
+          "title": "Line Walker 2: Espião Invisível",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T07:58:00-03:00"
+        },
+        {
+          "start": "2026-11-03T07:58:00-03:00",
+          "title": "O Preço de um Homem",
+          "genre": "Filme/Western",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Balas Contra a Gestapo",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T11:17:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:17:00-03:00",
+          "title": "Longa Jornada Noite Adentro",
+          "genre": "Filme/Drama",
+          "end": "2026-11-03T13:29:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:29:00-03:00",
+          "title": "O Intrépido General Custer",
+          "genre": "Filme/Biografia",
+          "end": "2026-11-03T15:48:00-03:00"
+        },
+        {
+          "start": "2026-11-03T15:48:00-03:00",
+          "title": "Europe Raiders",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T17:24:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:24:00-03:00",
+          "title": "Caça Explosiva",
+          "genre": "Filme/Ação",
+          "end": "2026-11-03T18:50:00-03:00"
+        }
+      ]
+    },
+    "Band News": {
+      "source_id": "meuguia-br",
+      "fetched_at": "2026-10-31T21:32:29Z",
+      "programmes": [
+        {
+          "start": "2026-10-31T18:00:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T20:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T20:30:00-03:00",
+          "title": "Jornal da Band",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T21:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T21:30:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-10-31T22:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T22:00:00-03:00",
+          "title": "Bandnews Entrevistas",
+          "genre": "Variedades/Entrevista",
+          "end": "2026-10-31T23:00:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:00:00-03:00",
+          "title": "Experimente",
+          "genre": "Séries/Culinária",
+          "end": "2026-10-31T23:30:00-03:00"
+        },
+        {
+          "start": "2026-10-31T23:30:00-03:00",
+          "title": "Seus Filhos",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:00:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T00:30:00-03:00",
+          "title": "BandNews DOCs",
+          "genre": "Documentário/Diversos",
+          "end": "2026-11-01T01:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T01:00:00-03:00",
+          "title": "Economia Pra Você",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T01:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T01:30:00-03:00",
+          "title": "Viver Melhor",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T02:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T02:00:00-03:00",
+          "title": "Jornal da Band",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:00:00-03:00",
+          "title": "Jornal da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T03:30:00-03:00",
+          "title": "O Que É Ser Brasileiro?",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:00:00-03:00",
+          "title": "Seus Filhos",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T04:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T04:30:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T05:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:00:00-03:00",
+          "title": "Experimente",
+          "genre": "Séries/Culinária",
+          "end": "2026-11-01T05:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T05:30:00-03:00",
+          "title": "Economia Pra Você",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T06:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:00:00-03:00",
+          "title": "Bandnews Empresas",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T06:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T06:30:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T07:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:00:00-03:00",
+          "title": "BandNews DOCs",
+          "genre": "Documentário/Diversos",
+          "end": "2026-11-01T07:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T07:30:00-03:00",
+          "title": "O Que É Ser Brasileiro?",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-01T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T08:00:00-03:00",
+          "title": "Manhã Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T09:30:00-03:00",
+          "title": "Questão De Regra",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:00:00-03:00",
+          "title": "Viver Melhor",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T10:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T10:30:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T11:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T11:00:00-03:00",
+          "title": "Manhã Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T12:00:00-03:00",
+          "title": "Tarde Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T13:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T13:30:00-03:00",
+          "title": "Bandnews Empresas",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T14:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:00:00-03:00",
+          "title": "Economia Pra Você",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T14:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T14:30:00-03:00",
+          "title": "Viver Melhor",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T15:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:00:00-03:00",
+          "title": "Tarde Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T15:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T15:30:00-03:00",
+          "title": "Seus Filhos",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T16:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T16:00:00-03:00",
+          "title": "Tarde Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T18:00:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T20:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T20:00:00-03:00",
+          "title": "Canal Livre",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T21:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T21:00:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T22:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:00:00-03:00",
+          "title": "Economia Pra Você",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T22:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T22:30:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-01T23:00:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:00:00-03:00",
+          "title": "Experimente",
+          "genre": "Séries/Culinária",
+          "end": "2026-11-01T23:30:00-03:00"
+        },
+        {
+          "start": "2026-11-01T23:30:00-03:00",
+          "title": "BandNews DOCs",
+          "genre": "Documentário/Diversos",
+          "end": "2026-11-02T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T00:00:00-03:00",
+          "title": "Bandnews Empresas",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T00:30:00-03:00",
+          "title": "Bandnews No Mundo",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T01:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:00:00-03:00",
+          "title": "O Que É Ser Brasileiro?",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T01:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T01:30:00-03:00",
+          "title": "Viver Melhor",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T02:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:00:00-03:00",
+          "title": "Experimente",
+          "genre": "Séries/Culinária",
+          "end": "2026-11-02T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T02:30:00-03:00",
+          "title": "BandNews DOCs",
+          "genre": "Documentário/Diversos",
+          "end": "2026-11-02T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:00:00-03:00",
+          "title": "Jornal da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T03:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T03:30:00-03:00",
+          "title": "Seus Filhos",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T04:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:00:00-03:00",
+          "title": "Economia Pra Você",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T04:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T04:30:00-03:00",
+          "title": "Canal Livre",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T05:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T05:30:00-03:00",
+          "title": "Bandnews Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T08:00:00-03:00",
+          "title": "Jornal Gente",
+          "genre": "Jornalismo/Político",
+          "end": "2026-11-02T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T09:30:00-03:00",
+          "title": "Resumo Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T10:00:00-03:00",
+          "title": "Manhã Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T11:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T11:00:00-03:00",
+          "title": "O X da Questão",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T12:00:00-03:00",
+          "title": "Meio Do Dia",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T12:30:00-03:00",
+          "title": "Resumo Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T13:00:00-03:00",
+          "title": "Papo Reto",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T14:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T14:00:00-03:00",
+          "title": "Tarde Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T17:00:00-03:00",
+          "title": "Expresso Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-02T18:00:00-03:00",
+          "title": "O É da Coisa",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-02T19:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T19:30:00-03:00",
+          "title": "Panorama Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T20:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T20:30:00-03:00",
+          "title": "Jornal da Band",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T21:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T21:30:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-02T23:30:00-03:00"
+        },
+        {
+          "start": "2026-11-02T23:30:00-03:00",
+          "title": "BandNews DOCs",
+          "genre": "Documentário/Diversos",
+          "end": "2026-11-03T00:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:00:00-03:00",
+          "title": "Jornal da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T00:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:30:00-03:00",
+          "title": "Opinião Do Dia",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T00:45:00-03:00"
+        },
+        {
+          "start": "2026-11-03T00:45:00-03:00",
+          "title": "Experimente",
+          "genre": "Séries/Culinária",
+          "end": "2026-11-03T01:15:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:15:00-03:00",
+          "title": "Opinião Do Dia",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T01:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T01:30:00-03:00",
+          "title": "Jornal da Band",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T02:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T02:30:00-03:00",
+          "title": "Seus Filhos",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T03:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T03:00:00-03:00",
+          "title": "Edição da Noite",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T05:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:00:00-03:00",
+          "title": "Jornal Terraviva",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T05:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T05:30:00-03:00",
+          "title": "Bandnews Hoje",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T08:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T08:00:00-03:00",
+          "title": "Jornal Gente",
+          "genre": "Jornalismo/Político",
+          "end": "2026-11-03T09:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T09:30:00-03:00",
+          "title": "Resumo Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T10:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T10:00:00-03:00",
+          "title": "Manhã Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T11:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T11:00:00-03:00",
+          "title": "O X da Questão",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T12:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T12:00:00-03:00",
+          "title": "Meio Do Dia",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T12:30:00-03:00"
+        },
+        {
+          "start": "2026-11-03T12:30:00-03:00",
+          "title": "Resumo Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T13:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T13:00:00-03:00",
+          "title": "Papo Reto",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T14:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T14:00:00-03:00",
+          "title": "Tarde Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T17:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T17:00:00-03:00",
+          "title": "Expresso Bandnews",
+          "genre": "Jornalismo/Informativo",
+          "end": "2026-11-03T18:00:00-03:00"
+        },
+        {
+          "start": "2026-11-03T18:00:00-03:00",
+          "title": "O É da Coisa",
+          "genre": "Variedades/Diversos",
+          "end": "2026-11-03T19:30:00-03:00"
+        }
+      ]
     }
   },
   "health": {
     "Band": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 61,
       "error": null
     },
     "Animal Planet": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "AXN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 82,
       "error": null
     },
     "A&E": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 103,
       "error": null
     },
     "Band Sports": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 59,
       "error": null
     },
     "Canal Brasil": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 82,
       "error": null
     },
     "Canal Off": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 152,
       "error": null
     },
     "Combate": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 35,
+      "programme_count": 36,
       "error": null
     },
     "Cartoon Network": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 361,
+      "programme_count": 362,
       "error": null
     },
     "Cinemax": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 43,
       "error": null
     },
     "Discovery Home & Health": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 82,
       "error": null
     },
     "Discovery Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 94,
       "error": null
     },
     "Discovery Turbo": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 99,
       "error": null
     },
     "Discovery Science": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 91,
       "error": null
     },
     "Discovery World": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 154,
       "error": null
     },
     "Discovery Kids": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 340,
       "error": null
     },
     "ESPN": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 51,
+      "programme_count": 52,
       "error": null
     },
     "E!": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "ESPN 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 60,
       "error": null
     },
     "ESPN 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 54,
       "error": null
     },
     "ESPN 5": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 45,
       "error": null
     },
     "ESPN 4": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 56,
       "error": null
     },
     "GNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 101,
       "error": null
     },
     "Globo SP": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 65,
       "error": null
     },
     "Globo RJ": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 65,
       "error": null
     },
     "HBO": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 43,
       "error": null
     },
     "GloboNews": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 44,
       "error": null
     },
     "HBO Plus": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 40,
       "error": null
     },
     "Gloob": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 182,
       "error": null
     },
     "HBO Family": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 41,
       "error": null
     },
     "Multishow": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 147,
+      "programme_count": 148,
       "error": null
     },
     "HBO2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 43,
       "error": null
     },
     "Megapix": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "History": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 88,
       "error": null
     },
     "Record": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 59,
       "error": null
     },
     "SBT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 46,
       "error": null
     },
     "Premiere Clubes": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 121,
+      "programme_count": 122,
       "error": null
     },
     "Space": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 72,
       "error": null
     },
     "Sony Channel": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 70,
       "error": null
     },
     "SporTV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
-      "programme_count": 65,
+      "programme_count": 66,
       "error": null
     },
     "SporTV 2": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 37,
       "error": null
     },
     "Telecine Action": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 40,
       "error": null
     },
     "Studio Universal": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 42,
       "error": null
     },
     "SporTV 3": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 39,
       "error": null
     },
     "Telecine Pipoca": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "Telecine Premium": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 38,
       "error": null
     },
     "TNT": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 71,
       "error": null
     },
     "TNT Séries": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 89,
       "error": null
     },
     "Viva": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 88,
       "error": null
     },
     "Universal TV": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 84,
       "error": null
     },
     "Arte 1": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 93,
       "error": null
     },
     "Warner": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 128,
       "error": null
     },
     "TLC": {
       "source_id": "meuguia-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "healthy",
       "programme_count": 116,
       "error": null
     },
     "SONY Movies": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "SBT News": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Terra Viva": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "Box Kids TV": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
     "X Sports": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 2,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "N SPORTS": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 2,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Telecine Cult": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 41,
+      "error": null
+    },
+    "Telecine Touch": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 39,
+      "error": null
+    },
+    "Telecine Fun": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 45,
+      "error": null
+    },
+    "Globo MG": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 65,
+      "error": null
+    },
+    "Globo RS": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 65,
+      "error": null
+    },
+    "Globo AM": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 65,
+      "error": null
+    },
+    "Globo ES": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 65,
+      "error": null
+    },
+    "Nickelodeon": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
       "consecutive_failures": 1,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
     },
-    "N SPORTS": {
+    "RedeTV!": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 63,
+      "error": null
+    },
+    "TCM": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 48,
+      "error": null
+    },
+    "Band News": {
+      "source_id": "meuguia-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "healthy",
+      "programme_count": 84,
+      "error": null
+    },
+    "HBO Pop": {
       "source_id": "guia-de-tv-br",
-      "checked_at": "2026-10-31T21:28:45Z",
+      "checked_at": "2026-10-31T21:32:29Z",
       "status": "unavailable",
       "programme_count": 0,
       "consecutive_failures": 1,
       "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "HBO Mundi": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "CNN Brasil": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Cartoonito": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "HBO Xtreme": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "AMC": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "TNT Novelas": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Food Network": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "History 2": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "HGTV": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "BIS": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Record News": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Jovem Pan News": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "TV Brasil": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "TV Aparecida": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Premiere 2": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Premiere 4": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Premiere 3": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "ValueError: no programme entries parsed; keeping last known-good schedule"
+    },
+    "Adult Swim": {
+      "source_id": "guia-de-tv-br",
+      "checked_at": "2026-10-31T21:32:29Z",
+      "status": "unavailable",
+      "programme_count": 0,
+      "consecutive_failures": 1,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   }
 }
