@@ -83,6 +83,19 @@ def fetch_tmdb_details(endpoint: str, tmdb_id: str, api_key: str, timeout: float
         except HTTPError as exc:
             if exc.code == 404:
                 return None, "not_found"
+            if exc.code == 500:
+                # cinehub-catalog currently wraps TMDB's HTTP 404 in an HTTP 500.
+                # Treat only TMDB's explicit resource-not-found response as a terminal miss.
+                try:
+                    error_payload = json.loads(exc.read(65_536).decode("utf-8"))
+                except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+                    error_payload = {}
+                error_message = str(
+                    error_payload.get("error") or error_payload.get("status_message") or ""
+                ).casefold()
+                if error_payload.get("status_code") == 34 or \
+                        "resource you requested could not be found" in error_message:
+                    return None, "not_found"
             last_status = f"http_{exc.code}"
             if exc.code not in {429, 500, 502, 503, 504}:
                 return None, last_status
