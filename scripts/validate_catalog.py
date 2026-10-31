@@ -183,10 +183,10 @@ def main():
                         items = []
                 if isinstance(items, list) and category_info.get("count") != len(items):
                     errors.append(f"{index_path}: contagem não corresponde ao manifesto")
-            index_by_section[section] = items if isinstance(items, list) else []
             else:
                 # Compatibilidade com o formato inicial, que guardava arrays no manifesto.
                 items = vod.get(section, [])
+            index_by_section[section] = items if isinstance(items, list) else []
             ids = set()
             for item in items if isinstance(items, list) else []:
                 ident = item.get("id") if isinstance(item, dict) else None
