@@ -1210,7 +1210,7 @@
     "id": "movie-algo-vai-acontecer",
     "title": "Algo Vai Acontecer",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/6ugkW7MLbWwYDD2HwYyYuK3Ei64.jpg",
     "genres": [
       "Drama",
@@ -1241,7 +1241,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Lucia é uma programadora que perde o emprego. Para sobreviver, ela se torna taxista e passa os dias dirigindo pelas ruas de Madri enquanto espera pelo dia em que irá dar carona para o seu vizinho, por quem está perdidamente apaixonada."
   },
   {
     "id": "movie-algo-viejo-algo-nuevo-algo-prestado",
@@ -1276,7 +1277,7 @@
     "id": "movie-algorithm-bliss",
     "title": "Algorithm: BLISS",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/lYtL1lK8zKPTbIzNlhUsCoswLVA.jpg",
     "genres": [
       "Ficção científica",
@@ -1353,13 +1354,14 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A história começa quando Helena após uma série de desgostos amorosos, aceita uma oferta de trabalho no escritório de Lisboa da agência de publicidade na qual trabalha. Está decidida a mudar o rumo de sua vida afetiva tomando para si um novo objetivo emocional: ser `solteira, inteligente e indisponível´. Mas o destino parece ter outros planos e, logo após sua chegada em Lisboa, conhece Alex, por quem se apaixona. Para desespero de Helena, Alex começa a apresentar os mesmos defeitos de todos os outros homens, e que Helena tanto despreza, assombrando a relação perfeita. Helena deseja apenas um homem sensível às inseguranças das mulheres, um homem mais parecido com ela. E o que parecia ser um simples pedido aos céus, torna-se uma complexa relação à três..."
   },
   {
     "id": "movie-alguem-especial",
     "title": "Alguem Especial",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/qmcCmG1I5z1DDWohQU28ncaRBKN.jpg",
     "genres": [
       "Comédia",
@@ -1409,7 +1411,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Após o fim de um relacionamento, a jornalista musical Jenny se prepara para recomeçar — e para uma última aventura com as melhores amigas. Gina Rodriguez (Jane the Virgin) vive um fim de namoro e uma noite de loucuras com as amigas nesta comédia romântica."
   },
   {
     "id": "movie-alguem-que-eu-costumava-conhecer-2023",
@@ -1446,7 +1449,7 @@
     "id": "movie-algum-lugar-especial",
     "title": "Algum Lugar Especial",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/7dw0gnyLnW7xMbOjjHTRMfzCC7O.jpg",
     "genres": [
       "Drama"
@@ -1495,7 +1498,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "John, um limpador de vidros de 35 anos, dedica sua vida a criar o filho, depois que a mãe da criança os deixou logo após o parto. Ao descobrir ter apenas alguns meses de vida, ele tenta encontrar uma nova família que seja perfeita para o garoto."
   },
   {
     "id": "movie-algum-lugar-especial-2020",
@@ -1530,7 +1534,7 @@
     "id": "movie-alguma-coisa-assim",
     "title": "Alguma Coisa Assim",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/r693Dlgk67wyomGZSzRy47wfKmZ.jpg",
     "genres": [
       "Drama"
@@ -1579,7 +1583,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Enquanto buscam diversão, os jovens Caio (André Antunes) e Mari (Caroline Abras), vagam pela noite de São Paulo. Nesse contexto, entre o som e os silêncios, os dois vão se conhecendo ainda mais e ao longo de uma década se reencontram em três momentos muito importantes de suas vidas."
   },
   {
     "id": "movie-alguma-coisa-assim-2017",
@@ -1614,7 +1619,7 @@
     "id": "movie-algumas-garotas",
     "title": "Algumas Garotas",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/ozz4epRp9QMxZx8Uj5BQl8rhveb.jpg",
     "genres": [
       "Comédia",
@@ -1664,7 +1669,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Algumas Garotas – Pouco antes de se casar, um jovem escritor bem-sucedido (Adam Brody) decide viajar pelo país e reencontrar suas ex-namoradas, para retomar a amizade e fazer as pazes após as brigas do passado. Entre elas está Lindsay, uma antiga professora de faculdade, a sedutora Tyler, a pequena Reggie, irmã de seu melhor amigo, a amargurada Sam e principalmente Bobbi, seu antigo amor de colégio. No caminho, ele aprende muito mais sobre relacionamentos e sobre as verdadeiras razões que levaram ao fim de tantos namoros."
   },
   {
     "id": "movie-algumas-garotas-2013",
@@ -1700,7 +1706,7 @@
     "id": "movie-alguem-avisa",
     "title": "Alguém Avisa?",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/neE6fqGiQcp6z4qNlFtlP0z76c0.jpg",
     "genres": [
       "Romance",
@@ -1750,7 +1756,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma jovem tem um plano para propor casamento à sua namorada na festa de Natal da família, mas descobre que sua parceira ainda não se assumiu perante seus pais conservadores."
   },
   {
     "id": "movie-alguem-avisa-2020",
@@ -1786,7 +1793,7 @@
     "id": "movie-alguem-entre-nos",
     "title": "Alguém Entre Nós",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/aylctgv7m6sWh9knEPcjgdj3arJ.jpg",
     "genres": [
       "Terror",
@@ -1836,7 +1843,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Léo tem uma vida feliz, com trabalho, amigos e sua noiva Ana. Depois que uma publicação na internet o lembra de um romance adolescente que ele teve há muitos anos, uma série de eventos estranhos começam a acontecer com o casal."
   },
   {
     "id": "movie-alguem-entre-nos-2021",
@@ -1902,7 +1910,7 @@
     "id": "movie-alguem-especial-como-voce",
     "title": "Alguém Especial como Você",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/wgWAr8PZ2j5H3CmusD8RzpVFwxb.jpg",
     "genres": [
       "Romance",
@@ -1965,13 +1973,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Shrirenu segue as tradições. Madhu é livre, leve e solta. Quando os dois se encontram, começa um romance fofo, mas meio desajeitado e marcado pelo patriarcado."
   },
   {
     "id": "movie-alguem-la-em-cima-gosta-de-mim",
     "title": "Alguém Lá em Cima Gosta de Mim",
     "type": "movie",
-    "year": null,
+    "year": "1977",
     "poster_url": "/9QrIWpKS24thkL0g4HrRYAznFDV.jpg",
     "genres": [
       "Fantasia",
@@ -1987,7 +1996,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Tarzana, Califórnia. Jerry Landers (John Denver), o subgerente de um supermercado, é escolhido por Deus (George Burns) para disseminar Sua palavra, pois Deus está insatisfeito com várias coisas que estão acontecendo no mundo. Inicialmente Jerry achou que era uma brincadeira, mas logo se convence que está falando e vendo Deus, que se faz aparentar por um velho. Bobbie (Teri Garr), a esposa de Jerry, questiona a sanidade do marido, mas aos poucos Jerry é ouvido, fazendo representantes de várias igrejas se unirem para propôr um teste que Jerry não teria a menor chance de responder."
   },
   {
     "id": "movie-alguem-la-em-cima-gosta-de-mim-1977",
@@ -2013,7 +2023,7 @@
     "id": "movie-alguem-muito-especial",
     "title": "Alguém Muito Especial",
     "type": "movie",
-    "year": null,
+    "year": "1987",
     "poster_url": "/yeb0N1nQ9R42QlV4sY8ejpsumys.jpg",
     "genres": [
       "Romance",
@@ -2075,7 +2085,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Keith Nelson (Eric Stoltz) é um jovem atraído pela garota mais popular do colégio, Amanda Jones (Lea Thompson) e que namora o rico Hardy Jenns (Craig Sheffer). Na tentativa de conquistar Amanda, Keith pede ajuda a Watts (Mary Stuart Masterson), que é apaixonada por ele."
   },
   {
     "id": "movie-alguem-muito-especial-1987",
@@ -2111,7 +2122,7 @@
     "id": "movie-alguem-qualquer",
     "title": "Alguém Qualquer",
     "type": "movie",
-    "year": null,
+    "year": "2012",
     "poster_url": "/cI9d7sjBmjThCyKrAHpCyovRTwA.jpg",
     "genres": [
       "Romance",
@@ -2128,7 +2139,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Jandira é uma garota simples de uma cidade do interior. Ela sonha em ser estrela de cinema e se muda para a casa de Zé, seu primo estranho e calado que trabalha como faxineiro em um prédio luxuoso no centro de São Paulo. Ao morar sob o mesmo teto, os dois primos se apaixonam. Porém, o inusitado romance é abalado quando ambos descobrem que Zé é portador de uma doença incurável e só tem seis meses de vida."
   },
   {
     "id": "movie-alguem-qualquer-2012",
@@ -2154,7 +2166,7 @@
     "id": "movie-alguem-que-eu-costumava-conhecer",
     "title": "Alguém Que Eu Costumava Conhecer",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/m7LufNqf6zrz9u112fNcn19Zr8W.jpg",
     "genres": [
       "Romance",
@@ -2205,13 +2217,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Em uma viagem para sua cidade natal, a workaholic Ally se reencontra com seu primeiro amor Sean e começa a questionar tudo sobre a pessoa que ela se tornou. As coisas ficam mais confusas quando ela conhece a noiva de Sean, Cassidy, que faz Ally se lembrar da pessoa que ela costumava ser."
   },
   {
     "id": "movie-alguem-tem-que-ceder",
     "title": "Alguém Tem Que Ceder",
     "type": "movie",
-    "year": null,
+    "year": "2003",
     "poster_url": "/sRz1U7hQvAjqd5510B0JSGhUUqY.jpg",
     "genres": [
       "Drama",
@@ -2228,7 +2241,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quando Harry Sanborn, um homem já envelhecido. e sua jovem namorada Marin chegam à casa de sua família de praia nos Hamptons, eles descobrem que a mãe dela, a dramaturga Erica Barry, também pretende ficar para o fim de semana. Erica se escandaliza com o relacionamento e o machismo de Harry. Porém quando Harry tem um ataque cardíaco e um médico prescreve repouso na casa de Barry, ele se apaixona por Erica."
   },
   {
     "id": "movie-alguem-tem-que-ceder-2003",
@@ -2277,13 +2291,14 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Cassius Clay era um grande lutador nos ringues de boxe e uma pessoa inteligente fora deles, onde impressionava pelo seu fácil palavreado. Ele logo se tornou uma das principais personalidades do esporte mundial nos anos 60, principalmente após se converter ao islamismo, trocar seu nome para Muhammad Ali e se recusar a lutar na Guerra do Vietnã."
   },
   {
     "id": "movie-ali-baba-e-os-quarenta-ladroes",
     "title": "Ali Babá e os Quarenta Ladrões",
     "type": "movie",
-    "year": null,
+    "year": "1972",
     "poster_url": "/AuoLAGJvUFGv6LtvWv2EgtCJWfw.jpg",
     "genres": [
       "Aventura",
@@ -2340,13 +2355,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Ali Babá (Renato Aragão) não quer saber de trabalhar e vive de sombra e água fresca. Ele fila refeições na casa do irmão Cassim (Dedé Santana), até o dia em que a cunhada decide colocá-lo para fora de casa. Ele, então, conhece Rosinha (Elza de Castro), que ficou paralítica depois de um acidente no trapézio do modesto circo de seu pai. Apaixonado, ele se empenha em conseguir dinheiro para uma cirurgia. É quando descobre um depósito de mercadorias escondidas por 40 ladrões, que contém cigarros estrangeiros, uísque, aparelhos de rádio e televisão e muito dinheiro falso."
   },
   {
     "id": "movie-ali-g-indahouse-o-filme",
     "title": "Ali G Indahouse: O Filme",
     "type": "movie",
-    "year": null,
+    "year": "2002",
     "poster_url": "/jQgEPYJ0Qa2NDkd2XRTueq6rfP2.jpg",
     "genres": [
       "Comédia"
@@ -2361,7 +2377,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um político de oposição quer eleger o deputado mais ridículo possível e associá-lo ao primeiro-ministro para derrubá-lo. O bode expiatório é o excêntrico Borat, um sujeito ignorante e incompetente, que faz montes de besteiras mas é amado pelo povo."
   },
   {
     "id": "movie-ali-g-indahouse-o-filme-2025",
@@ -2387,7 +2404,7 @@
     "id": "movie-ali-wong-hard-knock-wife",
     "title": "Ali Wong: Hard Knock Wife",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/kMIPAhukW76looUtyZlrpWjwdgH.jpg",
     "genres": [
       "Comédia"
@@ -2402,7 +2419,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Após o sucesso de \"Baby Cobra\", Wong retorna em outro especial de stand-up. Com mais um bebê a caminho, ela destila algumas verdades sobre casamento e maternidade."
   },
   {
     "id": "movie-ali-wong-hard-knock-wife-2018",
@@ -2469,7 +2487,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em uma missão para eliminar um embaixador nazista em Casablanca, no Marrocos, os espiões Max Vatan e Marianne Beausejour se apaixonam perdidamente e decidem se casar. Os problemas começam anos depois, com suspeitas sobre uma conexão entre Marianne e os alemães. Intrigado, Max decide investigar o passado da companheira e os dias de felicidade do casal vão por água abaixo."
   },
   {
     "id": "movie-alianca-do-crime-2015",
@@ -2526,7 +2545,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Whitey Bulger (Johnny Depp), irmão de um senador dos Estados Unidos, foi um dos criminosos mais famosos da história do sul de Boston. Ele começou a trabalhar como informante do FBI para derrubar uma família de mafiosos, mas foi traído pela agência, tornando-se um dos homens mais procurados do país. Baseado em uma história real."
   },
   {
     "id": "movie-alianca-mortal-2013",
@@ -2562,7 +2582,7 @@
     "id": "movie-alianca-mortal",
     "title": "Aliança Mortal",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/AhDJFm4pZ3Wdlq7IKmvpRXEWqbf.jpg",
     "genres": [
       "Suspense",
@@ -2625,7 +2645,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Henry (Tom Everett Scott) e Clay (Orlando Jones) são inimigos mortais que precisam colocar suas diferenças de lado para ajudar um chefão surtado do narcotráfico (Jean-Claude Van Damme) a encontrar um carregamento desaparecido de drogas."
   },
   {
     "id": "movie-alibi-com-2016",
@@ -2661,7 +2682,7 @@
     "id": "movie-alibi-com-2",
     "title": "Alibi.com 2",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/u2IgcRl1q5iDoag5xBYR4q51gJW.jpg",
     "genres": [
       "Comédia",
@@ -2724,7 +2745,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "A vida de Greg andava tranquila desde que ele fechou sua agência Alibi.com... até que ele decidiu pedir Flo em casamento e teve que apresentá-la ao seu pai corrupto e à sua mãe, ex-atriz glamourosa. Ele não teve escolha a não ser reabrir a agência e encontrar pais falsos mais respeitáveis."
   },
   {
     "id": "movie-alice",
@@ -2845,7 +2867,7 @@
     "id": "movie-alice-so",
     "title": "Alice & Só",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/itDzlvVJSWm7emFPc0wliI2bPb.jpg",
     "genres": [
       "Comédia",
@@ -2869,7 +2891,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice, uma jovem apaixonada por música, faz uma viagem de carro ao maior festival de covers do mundo. Acompanhada do melhor amigo Sócrates e Tinho, um ex-roqueiro, ela viverá aventuras incríveis."
   },
   {
     "id": "movie-alice-2022",
@@ -2935,7 +2958,7 @@
     "id": "movie-alice-atraves-do-espelho",
     "title": "Alice Atraves do Espelho",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/xHANJfW7hk2weM532IpUthgAQfo.jpg",
     "genres": [
       "Aventura",
@@ -2986,7 +3009,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice retorna após uma longa viagem pelo mundo, e reencontra a mãe. No casarão de uma grande festa, ela percebe a presença de um espelho mágico. A jovem atravessa o objeto e retorna ao País das Maravilhas, onde descobre que o Chapeleiro Maluco corre risco de morte após fazer uma descoberta sobre seu passado. Para salvar o amigo, Alice deve conversar com o Tempo para voltar às vésperas de um evento traumático e mudar o destino do Chapeleiro. Nesta aventura, também descobre um trauma que separou as irmãs Rainha Branca e Rainha Vermelha."
   },
   {
     "id": "movie-alice-atraves-do-espelho-2016",
@@ -3023,7 +3047,7 @@
     "id": "movie-alice-dos-anjos",
     "title": "Alice dos Anjos",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/1eaNYp8sgO0SUPoolQPIzICvvfM.jpg",
     "genres": [
       "Família",
@@ -3073,13 +3097,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice descobre uma terra estranha e brilhante onde encontra personagens ainda mais estranhos. No entanto, a comunidade é ameaçada por um coronel local que fará tudo para tomar as terras de que a comunidade depende."
   },
   {
     "id": "movie-alice-e-peter-onde-nascem-os-sonhos",
     "title": "Alice e Peter: Onde Nascem os Sonhos",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/pGTKgXQyJ1Tj1OUaUZVUWYoPVlQ.jpg",
     "genres": [
       "Fantasia",
@@ -3129,7 +3154,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Antes do País das Maravilhas e da Terra do Nunca, Peter e Alice eram irmãos. Quando uma tragédia toma conta da família, eles embarcam em uma aventura fantástica e descobrirão que as jornadas mais incríveis começam em casa."
   },
   {
     "id": "movie-alice-e-peter-onde-nascem-os-sonhos-2020",
@@ -3165,7 +3191,7 @@
     "id": "movie-alice-junior",
     "title": "Alice Júnior",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/fJWlPBsPIiHKRyHD6SiCNmzlmUp.jpg",
     "genres": [
       "Romance",
@@ -3228,7 +3254,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice Júnior é uma YouTuber trans cercada de liberdades e mimos. Depois de se mudar com o pai para uma pequena cidade onde a escola parece ter parado no tempo, a jovem precisa sobreviver ao ensino médio e ao preconceito para conquistar seu maior desejo: dar o primeiro beijo."
   },
   {
     "id": "movie-alice-junior-2020",
@@ -3288,13 +3315,14 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Depois de conhecer uma misteriosa americana, o correspondente alemão Phillip aceita com relutância a custódia temporária da pequena Alice. A amizade dos dois cresce enquanto viajam por várias cidades europeias em busca da avó da criança."
   },
   {
     "id": "movie-alice-no-mundo-da-internet",
     "title": "Alice no Mundo da Internet",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/5TFbrqLvB6eCXSbe208SUVzAyBd.jpg",
     "genres": [
       "Aventura",
@@ -3345,7 +3373,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice é uma youtuber famosa que vive em função do seu canal. Até que um dia, se preparando para uma importante “live”, ela se depara com um poderoso vírus e é sugada para dentro do seu computador. Para voltar para casa, Alice terá que enfrentar a Rainha dos bots que está determinada a mantê-la pra sempre no mundo digital."
   },
   {
     "id": "movie-alice-no-mundo-da-internet-2022",
@@ -3433,7 +3462,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Alice é uma garota curiosa e cansada da monotonia de sua vida. Um dia, ao seguir o apressado e misterioso Coelho Branco até uma toca, ela acaba entrando no País das Maravilhas. Lá, ela conhece diversos seres incríveis, como o peculiar Chapeleiro Maluco, o misterioso Mestre Gato, a Lagarta e a tirana Rainha de Copas."
   },
   {
     "id": "movie-alice-no-pais-das-maravilhas-2010",
@@ -3533,13 +3563,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após a morte de seus pais, a jovem Alice vai morar com a avó em uma casa isolada na floresta, sem saber que forças sinistras se escondem por lá."
   },
   {
     "id": "movie-alice-nao-mora-mais-aqui",
     "title": "Alice Não Mora Mais Aqui",
     "type": "movie",
-    "year": null,
+    "year": "1974",
     "poster_url": "/64LGxgK9FUOQySuivgKLNUth5zt.jpg",
     "genres": [
       "Romance",
@@ -3583,13 +3614,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Depois de perder o marido caminhoneiro num acidente, Alice começa a trabalhar como cantora para sustentar o filho Tommy, mas acaba se envolvendo com um homem casado e agressivo e precisará ir embora da cidade se quiser refazer sua vida."
   },
   {
     "id": "movie-alice-subservience",
     "title": "Alice: Subservience",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/6EO0cjZt2vzAOmuDJZGED6GQmi4.jpg",
     "genres": [
       "Terror",
@@ -3670,7 +3702,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um pai de família compra uma robô com inteligência artificial para auxiliar nos afazeres domésticos. No entanto, todos seus planos mudam quando a ferramenta acaba adquirindo consciência, com consequências devastadoras."
   },
   {
     "id": "movie-alice-uma-acompanhante-parisiense-2020",
@@ -3721,7 +3754,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alice levava um casamento feliz ao lado de sua família, até o dia em que o seu marido resolve abandoná-la sem dinheiro algum. Com medo de perder a casa em que mora com seu filho, ela decide procurar trabalho na agência de acompanhantes de luxo que o seu marido frequentava e entrar para o mundo da prostituição."
   },
   {
     "id": "movie-alien-1",
@@ -3847,7 +3881,7 @@
     "id": "movie-alien-3",
     "title": "Alien 3",
     "type": "movie",
-    "year": null,
+    "year": "1992",
     "poster_url": "/e0m3kAcurYNmLBI0UVTjWg9J93L.jpg",
     "genres": [
       "Ficção científica",
@@ -3885,7 +3919,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A tenente Ripley é encarregada de ir a um planeta que é usado como colônia penal de segurança máxima. Este é o novo palco de assassinatos do Alien, que está matando tudo o que se move, menos a própria tenente Ripley, que aparentemente não é atacada pelo monstro."
   },
   {
     "id": "movie-alien-3-1992",
@@ -3967,7 +4002,7 @@
     "id": "movie-alien-contact-triangle-phenomenon",
     "title": "Alien Contact: Triangle Phenomenon",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/xTpu1Psx6HRpKCM5BgEEsL0zPdO.jpg",
     "genres": [
       "Documentário"
@@ -4003,13 +4038,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Há quem acredite que a vida aqui está sendo monitorada pela vida lá fora. E tem gente aqui que sabe... é verdade."
   },
   {
     "id": "movie-alien-convergence",
     "title": "Alien Convergence",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/96xgOCz2li0IiqKYcLQh5bK7CiU.jpg",
     "genres": [
       "Terror",
@@ -4052,7 +4088,7 @@
     "id": "movie-alien-sharks-ghosts-of-japan",
     "title": "Alien Sharks: Ghosts of Japan",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/5RZHDXIJZerMyUYEuZoAzu13byy.jpg",
     "genres": [
       "Documentário"
@@ -4101,7 +4137,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O biólogo da vida selvagem Forrest Galante explora o mundo alienígena dos oceanos do Japão; em parceria com a especialista em tubarões de águas profundas Christine De Silva, eles procuram pelo tubarão-anjo japonês, também conhecido como Yokai, o fantasma do mar, uma espécie criticamente ameaçada de extinção."
   },
   {
     "id": "movie-alien-vs-predador-2004",
@@ -4172,13 +4209,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma pirâmide até então desconhecida é encontrada na Antártica através de satélites, fazendo com que uma equipe de cientistas e aventureiros seja enviada para investigar o local. Porém lá eles fazem uma descoberta chocante: a pirâmide serve de abrigo para duas raças alienígenas extremamente violentas, que estão em guerra."
   },
   {
     "id": "movie-alien0089",
     "title": "AliEN0089",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/AdxzNWT0VU4LKdXZ3RxuvhjNRcx.jpg",
     "genres": [
       "Suspense",
@@ -4202,7 +4240,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Enquanto uma jogadora publica um vídeo denunciando o assédio que sofre em um videogame, um estranho invade sua casa e hackeia seu computador, confundindo as fronteiras entre os mundos real e virtual."
   },
   {
     "id": "movie-alien-a-ressurreicao-1997",
@@ -4348,6 +4387,7 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Duzentos anos se passaram desde que Ripley sacrificou sua vida em Fiorina 161. Agora, depois de tanto tempo, e após sete pavorosos fracassos, os cientistas finalmente conseguiram clonar uma réplica perfeita de Ripley, o que inclui DNA da Rainha alienígena que se desenvolvia dentro dela quando Ripley morreu. Mas essa nova geração de aliens é muito mais inteligente do que foram seus antecessores - um fato que os cientistas só percebem após a nave The Betty ter chegado com mais hospedeiros humanos."
   }
 ]
