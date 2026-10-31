@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "megaembed",
+  "name": "MegaEmbed",
+  "kind": "iframe_embed",
+  "role": "fallback",
+  "activation": "after_direct_sources_fail",
+  "direct_media": false,
+  "external_player_required": true,
+  "respect_provider_embed_restrictions": true,
+  "allowed_hosts": [
+    "mgeb.top",
+    "megaembedapi.site"
+  ],
+  "movies": [
+    {"url_template":"https://mgeb.top/embed/{tmdb_id}","requires":["tmdb_id"],"priority":90},
+    {"url_template":"https://mgeb.top/embed/{imdb_id}","requires":["imdb_id"],"priority":91},
+    {"url_template":"https://megaembedapi.site/embed/{imdb_id}","requires":["imdb_id"],"priority":92},
+    {"url_template":"https://megaembedapi.site/embed/{tmdb_id}","requires":["tmdb_id"],"priority":93},
+    {"url_template":"https://megaembedapi.site/embed/movie?title={title}&year={year}","requires":["title"],"priority":99,"confidence":"title_lookup"}
+  ],
+  "series": [
+    {"url_template":"https://mgeb.top/embed/{tmdb_id}/{season}/{episode}","requires":["tmdb_id","season","episode"],"priority":90},
+    {"url_template":"https://mgeb.top/embed/{tmdb_id}-{season}-{episode}","requires":["tmdb_id","season","episode"],"priority":91},
+    {"url_template":"https://mgeb.top/embed/{imdb_id}/{season}/{episode}","requires":["imdb_id","season","episode"],"priority":92},
+    {"url_template":"https://mgeb.top/embed/{imdb_id}-{season}-{episode}","requires":["imdb_id","season","episode"],"priority":93},
+    {"url_template":"https://megaembedapi.site/embed/{tmdb_id}/{season}/{episode}","requires":["tmdb_id","season","episode"],"priority":94},
+    {"url_template":"https://megaembedapi.site/embed/{imdb_id}/{season}/{episode}","requires":["imdb_id","season","episode"],"priority":95},
+    {"url_template":"https://megaembedapi.site/embed/series?tmdb={tmdb_id}&sea={season}&epi={episode}","requires":["tmdb_id","season","episode"],"priority":96},
+    {"url_template":"https://megaembedapi.site/embed/series?imdb={imdb_id}&sea={season}&epi={episode}","requires":["imdb_id","season","episode"],"priority":97},
+    {"url_template":"https://megaembedapi.site/embed/series?title={title}&year={year}&season={season}&episode={episode}","requires":["title","season","episode"],"priority":99,"confidence":"title_lookup"}
+  ],
+  "source_contract": {
+    "source_type": "embed",
+    "provider": "megaembed",
+    "label": "MegaEmbed",
+    "priority": 90,
+    "must_not_be_treated_as_direct_media": true
+  },
+  "identity_policy": {
+    "preferred_ids": ["tmdb_id", "imdb_id"],
+    "title_lookup_is_last_resort": true,
+    "never_assign_tmdb_id_from_title_similarity": true,
+    "require_exact_media_type": true
+  }
+}
