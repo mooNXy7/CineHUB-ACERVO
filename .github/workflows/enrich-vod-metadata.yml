@@ -76,7 +76,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add catalog/vod
             git commit -m "data: enrich verified VOD metadata batch"
-            git fetch origin "$TARGET_BRANCH"
+            git fetch origin "$TARGET_BRANCH:refs/remotes/origin/$TARGET_BRANCH"
             git rebase "origin/$TARGET_BRANCH"
             git push origin "HEAD:$TARGET_BRANCH"
           else
