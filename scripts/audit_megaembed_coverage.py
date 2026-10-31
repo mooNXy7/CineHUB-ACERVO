@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_HOSTS = {"mgeb.top", "www.mgeb.top", "megaembedapi.site"}
-IMDB = re.compile(r"^tt\d{7,10}$")
+IMDB = re.compile(r"^tt\\d{7,10}$")
 
 
 def load_json(path: Path):
@@ -28,18 +28,35 @@ def source_is_megaembed(source: dict) -> bool:
     return parsed.scheme == "https" and host in ALLOWED_HOSTS and parsed.path.startswith("/embed/")
 
 
+def iter_seasons(record: dict):
+    """Support both legacy list seasons and the importer’s canonical keyed object."""
+    seasons = record.get("seasons")
+    if isinstance(seasons, dict):
+        yield from seasons.values()
+    elif isinstance(seasons, list):
+        yield from seasons
+
+
+def iter_episodes(record: dict):
+    for season in iter_seasons(record):
+        if not isinstance(season, dict):
+            continue
+        episodes = season.get("episodes", [])
+        if not isinstance(episodes, list):
+            continue
+        for episode in episodes:
+            if isinstance(episode, dict):
+                yield episode
+
+
 def iter_source_lists(record: dict):
     sources = record.get("sources")
     if isinstance(sources, list):
         yield sources
-    seasons = record.get("seasons")
-    if isinstance(seasons, list):
-        for season in seasons:
-            if not isinstance(season, dict):
-                continue
-            for episode in season.get("episodes", []):
-                if isinstance(episode, dict) and isinstance(episode.get("sources"), list):
-                    yield episode["sources"]
+    for episode in iter_episodes(record):
+        sources = episode.get("sources")
+        if isinstance(sources, list):
+            yield sources
 
 
 def audit(root: Path) -> dict:
@@ -80,6 +97,8 @@ def audit(root: Path) -> dict:
             if not isinstance(records, list):
                 continue
             for record in records:
+                if not isinstance(record, dict):
+                    continue
                 ident = str(record.get("id") or "")
                 key = (category, ident)
                 if key in seen_records:
@@ -111,22 +130,18 @@ def audit(root: Path) -> dict:
                                 record_has_embed = True
                             else:
                                 result["totals"]["invalid_megaembed_urls"] += 1
-                        if source.get("source_type") == "embed" and host not in ALLOWED_HOSTS:
-                            continue
                 if record_has_embed:
                     counts["with_megaembed"] += 1
 
-                seasons = record.get("seasons")
-                if isinstance(seasons, list):
-                    for season in seasons:
-                        if not isinstance(season, dict):
-                            continue
-                        for episode in season.get("episodes", []):
-                            if not isinstance(episode, dict):
-                                continue
-                            counts["episodes"] += 1
-                            if any(source_is_megaembed(s) for s in episode.get("sources", []) if isinstance(s, dict)):
-                                counts["episodes_with_megaembed"] += 1
+                for episode in iter_episodes(record):
+                    counts["episodes"] += 1
+                    episode_sources = episode.get("sources", [])
+                    if isinstance(episode_sources, list) and any(
+                        source_is_megaembed(source)
+                        for source in episode_sources
+                        if isinstance(source, dict)
+                    ):
+                        counts["episodes_with_megaembed"] += 1
 
         result["categories"][category] = counts
         for key in result["totals"]:
@@ -149,7 +164,7 @@ def main():
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     report = audit(args.root)
-    rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
+    rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\\n"
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered, encoding="utf-8")
