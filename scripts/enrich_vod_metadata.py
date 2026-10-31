@@ -214,21 +214,13 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                 if not isinstance(entry, dict) or not entry.get("detail_path"):
                     continue
 
-                # The index is the stable, compact checkpoint source. Avoid opening
-                # detail shards for every record skipped by offset; load details only
-                # for the selected batch. Fall back to detail data when an older index
-                # entry has no TMDB ID.
+                # The importer writes tmdb_id into the compact index whenever an
+                # identity is known. An absent/null index value is therefore authoritative;
+                # validation separately detects any disagreement with the detail shard.
                 tmdb_id = str(entry.get("tmdb_id") or "").strip()
-                record = None
                 if not tmdb_id.isdigit():
-                    record = load_detail_record(entry)
-                    if not isinstance(record, dict):
-                        continue
-                    tmdb_id = str(record.get("tmdb_id") or "").strip()
-
-                if not tmdb_id.isdigit():
-                    missing = [field for field in ("poster_url", "year", "genres", "overview")
-                               if record.get(field) is None or record.get(field) == "" or record.get(field) == []]
+                    missing = [field for field in ("poster_url", "year", "genres")
+                               if entry.get(field) is None or entry.get(field) == "" or entry.get(field) == []]
                     if missing:
                         counts["no_tmdb_id"] += 1
                     continue
@@ -242,12 +234,11 @@ def build_patch(root: Path, output: Path, cache_path: Path, limit: int,
                     break
                 examined += 1
 
-                if record is None:
-                    record = load_detail_record(entry)
+                record = load_detail_record(entry)
                 if not isinstance(record, dict):
                     continue
                 detail_tmdb_id = str(record.get("tmdb_id") or "").strip()
-                if detail_tmdb_id and detail_tmdb_id != tmdb_id:
+                if detail_tmdb_id != tmdb_id:
                     counts["identity_review"] += 1
                     continue
                 missing = [field for field in ("poster_url", "year", "genres", "overview")
