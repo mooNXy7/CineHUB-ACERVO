@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 import re
 from urllib.parse import urlsplit
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -143,6 +143,7 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
 
     manifest = loaded.get("vod_manifest")
     category_stats: dict[str, dict[str, int]] = {}
+    duplicate_title_groups: list[dict[str, Any]] = []
     if isinstance(manifest, dict):
         category_info = manifest.get("categories", {})
         for category in VOD_CATEGORIES:
@@ -181,9 +182,29 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
                                  "detail": ", ".join(sorted(duplicate_ids)[:20])})
 
             # Quality metrics are observational only; no records are rewritten or removed.
-            seen_titles = Counter(normalized_name(item.get("title")) for item in index
-                                  if isinstance(item, dict) and normalized_name(item.get("title")))
-            quality["vod_duplicate_normalized_titles"] += sum(1 for _, n in seen_titles.items() if n > 1)
+            title_groups: dict[str, list[dict[str, str]]] = defaultdict(list)
+            for item in index:
+                if not isinstance(item, dict):
+                    continue
+                title_key = normalized_name(item.get("title"))
+                if title_key:
+                    title_groups[title_key].append({
+                        "id": str(item.get("id") or ""),
+                        "title": str(item.get("title") or ""),
+                        "year": str(item.get("year") or ""),
+                        "tmdb_id": str(item.get("tmdb_id") or ""),
+                        "imdb_id": str(item.get("imdb_id") or ""),
+                        "detail_path": str(item.get("detail_path") or ""),
+                    })
+            for title_key, group in sorted(title_groups.items()):
+                if len(group) > 1:
+                    duplicate_title_groups.append({
+                        "category": category,
+                        "normalized_title": title_key,
+                        "same_tmdb_id": bool(group[0]["tmdb_id"]) and len({x["tmdb_id"] for x in group}) == 1,
+                        "records": group,
+                    })
+            quality["vod_duplicate_normalized_titles"] += sum(1 for group in title_groups.values() if len(group) > 1)
             quality["vod_missing_poster"] += sum(
                 not (item.get("poster_url") or item.get("poster_path"))
                 for item in index if isinstance(item, dict)
@@ -251,6 +272,7 @@ def audit(root: Path = ROOT) -> dict[str, Any]:
         "quality": quality,
         "suspicious_url_examples_limited_to_25": suspicious_url_examples,
         "vod_categories": category_stats,
+        "duplicate_title_groups": duplicate_title_groups,
         "findings_summary": dict(Counter(x["severity"] for x in findings)),
         "findings": findings,
         "preservation_note": "No catalog files were modified by this audit.",
