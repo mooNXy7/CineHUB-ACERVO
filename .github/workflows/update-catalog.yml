@@ -1,3 +1,4 @@
+# Audit-branch reference sync: re-run only after catalog/test corrections are committed.
 name: Update catalog
 
 on:
