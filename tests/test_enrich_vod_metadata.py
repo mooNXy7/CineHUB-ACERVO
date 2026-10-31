@@ -1,9 +1,11 @@
+import io
 import json
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -156,6 +158,28 @@ class ReviewOnlyTMDBPatchTests(unittest.TestCase):
             fetch.assert_not_called()
             self.assertEqual(report["summary"]["identity_review"], 1)
             self.assertEqual(report["patches"], [])
+
+
+    def test_proxy_wrapped_tmdb_not_found_is_terminal_not_retryable_500(self):
+        body = json.dumps({
+            "success": False,
+            "error": "The resource you requested could not be found.",
+        }).encode("utf-8")
+        error = HTTPError(
+            "https://catalog.example/functions/v1/cinehub-catalog",
+            500,
+            "Internal Server Error",
+            None,
+            io.BytesIO(body),
+        )
+        with patch.object(enrich, "urlopen", side_effect=error) as request:
+            payload, status = enrich.fetch_tmdb_details(
+                "movie", "999999", "test-key", retries=3, delay=0,
+                function_url="https://catalog.example/functions/v1/cinehub-catalog",
+            )
+        self.assertIsNone(payload)
+        self.assertEqual(status, "not_found")
+        request.assert_called_once()
 
 
 if __name__ == "__main__":
