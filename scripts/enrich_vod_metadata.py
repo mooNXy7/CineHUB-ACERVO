@@ -104,7 +104,7 @@ def response_metadata(payload: dict, endpoint: str) -> dict:
     title_fields = ("title", "original_title") if endpoint == "movie" else ("name", "original_name")
     external_ids = payload.get("external_ids") if isinstance(payload.get("external_ids"), dict) else {}
     imdb_id = str(payload.get("imdb_id") or external_ids.get("imdb_id") or "").strip()
-    if not re.fullmatch(r"tt\\d{7,10}", imdb_id, flags=re.IGNORECASE):
+    if not re.fullmatch(r"tt\d{7,10}", imdb_id, flags=re.IGNORECASE):
         imdb_id = None
     return {
         "id": str(payload.get("id") or ""),
