@@ -151,7 +151,7 @@ class ReadOnlyAuditTests(unittest.TestCase):
                            "index_path": f"catalog/vod/index/{name}.json"}
                     for name in ("movies", "series", "anime", "doramas")}},
                 "catalog/vod/index/movies.json": [
-                    {"id": "m-1", "title": "Example Film (2020)", "year": "2020", "tmdb_id": "101"},
+                    {"id": "m-1", "title": "Example Film", "year": "2020", "tmdb_id": "101"},
                     {"id": "m-2", "title": "Example Film", "year": "2020", "tmdb_id": "202"}
                 ],
                 "catalog/vod/index/series.json": [],
