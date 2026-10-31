@@ -66,7 +66,7 @@ class ReferenceMovieMetadataPreservationTests(unittest.TestCase):
             mgeb = reference / "vod/mgeb"
             mgeb.mkdir(parents=True)
             (mgeb / "links-filmes.txt").write_text(
-                "A New Film (2020)\\tdub=https://mgeb.top/embed/123,https://megaembedapi.site/embed/123\\ttmdb=123\\timdb=tt1234567\\n",
+                "A New Film (2020)\tdub=https://mgeb.top/embed/123,https://megaembedapi.site/embed/123\ttmdb=123\timdb=tt1234567\n",
                 encoding="utf-8",
             )
             movies = {}
