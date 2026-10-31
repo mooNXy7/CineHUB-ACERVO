@@ -62,8 +62,8 @@ class ReferenceSeriesMetadataPreservationTests(unittest.TestCase):
             mgeb = vod / "mgeb"
             mgeb.mkdir(parents=True)
             (mgeb / "links-series.txt").write_text(
-                "@A Test Series (2010)\\t2010\\t123\\timdb=tt1234567\\n"
-                "1\\t1\\tdub\\thttps://mgeb.top/embed/123/1/1\\n",
+                "@A Test Series (2010)\t2010\t123\timdb=tt1234567\n"
+                "1\t1\tdub\thttps://mgeb.top/embed/123/1/1\n",
                 encoding="utf-8",
             )
             series = {}
