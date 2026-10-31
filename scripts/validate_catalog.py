@@ -89,6 +89,32 @@ def validate_html_epg_doc(data):
     return errors
 
 
+def index_detail_tmdb_mismatches(index_items: list, detail_records: list, section: str) -> list[str]:
+    """Return TMDB ID disagreements between the compact index and detail shards."""
+    indexed = {
+        str(item.get("id")): item
+        for item in index_items
+        if isinstance(item, dict) and item.get("id")
+    }
+    mismatches = []
+    for record in detail_records:
+        if not isinstance(record, dict) or not record.get("id"):
+            continue
+        item = indexed.get(str(record["id"]))
+        if item is None:
+            continue
+        index_has_id = "tmdb_id" in item and item.get("tmdb_id") not in (None, "")
+        detail_has_id = record.get("tmdb_id") not in (None, "")
+        index_id = str(item.get("tmdb_id") or "").strip()
+        detail_id = str(record.get("tmdb_id") or "").strip()
+        if index_has_id != detail_has_id or index_id != detail_id:
+            mismatches.append(
+                f"{section}: índice/detalhe divergem em tmdb_id para {record['id']} "
+                f"(index={index_id or 'ausente'}, detail={detail_id or 'ausente'})"
+            )
+    return mismatches
+
+
 def main():
     errors = []
     loaded = {}
