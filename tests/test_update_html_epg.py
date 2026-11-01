@@ -1,8 +1,11 @@
 import datetime as dt
+import io
 import json
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -242,6 +245,40 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(items[0]["start"], "2026-10-25T17:40:00-03:00")
             self.assertEqual(items[1]["title"], "Depois da Terra")
 
+
+
+    def test_main_logs_unavailable_source_classification(self):
+        import update_html_epg
+
+        document = {
+            "programmes": {"HBO": {"programmes": [{"title": "Programa válido"}]}},
+            "health": {
+                "HBO": {"status": "healthy", "source_id": "meuguia-br", "error": None},
+                "Nickelodeon": {
+                    "status": "unavailable",
+                    "source_id": "meuguia-br",
+                    "error": "ValueError: no programme entries parsed",
+                },
+                "Adult Swim": {
+                    "status": "unavailable",
+                    "source_id": "guia-de-tv-br",
+                    "error": "HTTPError: HTTP Error 404: Not Found",
+                },
+            },
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            output_path = Path(tmp) / "html-programmes.json"
+            stdout = io.StringIO()
+            with patch.object(update_html_epg, "OUTPUT_FILE", output_path), patch.object(
+                update_html_epg, "update_document", return_value=document
+            ), redirect_stdout(stdout):
+                self.assertEqual(update_html_epg.main(), 0)
+
+        log = stdout.getvalue()
+        self.assertIn("Nickelodeon", log)
+        self.assertIn("ValueError: no programme entries parsed", log)
+        self.assertIn("Adult Swim", log)
+        self.assertIn("HTTP Error 404", log)
 
 
 if __name__ == "__main__":
