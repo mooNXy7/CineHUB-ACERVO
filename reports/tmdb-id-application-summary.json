@@ -1,0 +1,28 @@
+{
+  "report_type": "applied_exact_title_year_tmdb_id_candidates",
+  "catalog_mutated": true,
+  "read_only": false,
+  "counts": {
+    "reports_received": 9,
+    "candidates_seen": 2941,
+    "unique_exact_year_candidates": 2788,
+    "ids_assigned": 45,
+    "skipped_not_exact": 0,
+    "skipped_multiple_candidates": 109,
+    "skipped_missing_or_conflicting_year": 44,
+    "skipped_duplicate_title": 2253,
+    "skipped_tmdb_id_already_used": 490,
+    "skipped_existing_id": 0,
+    "skipped_catalog_identity_mismatch": 0
+  },
+  "updated_index_files": [
+    "movies"
+  ],
+  "updated_detail_shards": 39,
+  "safety": [
+    "Only one TMDB candidate with exact normalized title, exact media type, and exact non-empty year was eligible.",
+    "Records with duplicate normalized title/year, an already-used TMDB ID, or any existing provider ID were skipped.",
+    "Only tmdb_id was assigned; all existing streams, metadata, IDs, and source records were preserved.",
+    "No ambiguous or year-mismatched candidates were assigned."
+  ]
+}
