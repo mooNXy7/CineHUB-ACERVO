@@ -131,3 +131,7 @@ Além do mapeador por nome exato, `epg-near-match-candidates.json` apresenta can
 python scripts/suggest_epg_near_matches.py --output epg-near-match-candidates.json
 ```
 
+
+## Atualização automática de rádios
+
+A rotina `scripts/update_radio_catalog.py` lê a fonte autorizada `saimoplayer-radio-reference` (`nome|stream`) e acrescenta somente estações novas ou streams ausentes. URLs diferentes para uma estação existente são reportadas em `reports/radio-source-refresh.json` e nunca substituem automaticamente o stream atual. Logos e gêneros já cadastrados são preservados.
