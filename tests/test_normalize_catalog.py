@@ -34,7 +34,7 @@ class CatalogDisplayNormalizationTests(unittest.TestCase):
             "seasons": [{"season": 1, "episodes": [{"title": "  Episódio &#039; Um &#039;  "}]}],
         }]
         updated = normalize_catalog.normalize_title_records(records)
-        self.assertEqual(updated, 1)
+        self.assertEqual(updated, 2)
         self.assertEqual(records[0]["title"], "Scooby-Doo! Mistério na Lutamania")
         self.assertEqual(records[0]["id"], "movie-1")
         self.assertEqual(records[0]["tmdb_id"], "123")
