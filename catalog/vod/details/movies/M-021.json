@@ -5375,7 +5375,7 @@
     "id": "movie-morto-nao-fala",
     "title": "Morto Não Fala",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/wGkro5BxdWDe14NeaJe3iH74joV.jpg",
     "genres": [
       "Suspense",
@@ -5438,7 +5438,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Stênio é plantonista noturno no necrotério de uma grande e violenta cidade. Em suas madrugadas de trabalho, ele nunca está só, pois possui um dom paranormal de comunicação com os mortos. Quando as confidências que ouve do além, contudo, revelam segredos de sua própria vida, Stênio desencadeia uma maldição que traz perigo e morte para perto de si e de sua família.",
+    "imdb_id": "tt7986672"
   },
   {
     "id": "movie-morto-nao-fala-2019",
@@ -5482,7 +5484,7 @@
     "id": "movie-mortos-de-fome",
     "title": "Mortos de Fome",
     "type": "movie",
-    "year": null,
+    "year": "1999",
     "poster_url": "/6Z5l7LH9NuTZSvJ8hQRpanAXKZT.jpg",
     "genres": [
       "Aventura",
@@ -5547,7 +5549,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Em 1847, um oficial da Cavalaria americana é enviado para um forte numa região remota da Califórnia, na Sierra Nevada, onde aparece um estranho com uma história misteriosa sobre canibais. A situação se complica ainda mais quando eles saem para investigar o local onde teria acontecido a tragédia.",
+    "imdb_id": "tt0129332"
   },
   {
     "id": "movie-mortos-de-fome-1999",
@@ -5593,7 +5597,7 @@
     "id": "movie-mortos-vivos",
     "title": "Mortos Vivos",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/cnP2hEwMKnJg5daUUtrfB2KKEr5.jpg",
     "genres": [
       "Terror"
@@ -5608,7 +5612,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um xerife que deve resgatar uma família isolada em uma montanha durante a erupção de um vulcão e lutar contra uma horda de zumbis cheios de lava arremessados para fora do vulcão e que se erguem por causa de uma maldição.",
+    "imdb_id": "tt3369676"
   },
   {
     "id": "movie-mortos-vivos-2015",
