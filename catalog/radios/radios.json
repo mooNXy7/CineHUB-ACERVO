@@ -1623,7 +1623,7 @@
       "name": "Jovem Pan News",
       "stream_url": "https://stream.zeno.fm/vlcraijc6yiuv",
       "logo_url": "https://cdn.onlineradiobox.com/img/l/0/133430.v8.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -1631,7 +1631,7 @@
       "name": "Jovem Pan News 100.3",
       "stream_url": "https://ssl.srvstm.com:6808/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
