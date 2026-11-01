@@ -20,6 +20,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "sources.json").write_text(json.dumps({
                 "sources": [
                     {"id": "meuguia-br", "format": "html", "enabled": False},
@@ -58,6 +62,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {"HBO": "HBO"}, "guiadetv_slugs": {},
             }), encoding="utf-8")
@@ -73,6 +81,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {"HBO": "HBO"}, "guiadetv_slugs": {},
             }), encoding="utf-8")
@@ -93,6 +105,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
             }), encoding="utf-8")
@@ -107,6 +123,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
             }), encoding="utf-8")
@@ -127,6 +147,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {"HBO": "HBO"},
                 "guiadetv_slugs": {"HBO": "hbo"},
@@ -267,6 +291,10 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             root = Path(tmp)
             epg = root / "catalog/epg"
             epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({"sources": [
+                {"id": "meuguia-br", "format": "html", "enabled": True},
+                {"id": "guia-de-tv-br", "format": "html", "enabled": True},
+            ]}), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
             }), encoding="utf-8")
