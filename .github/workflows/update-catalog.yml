@@ -14,6 +14,7 @@ on:
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/apply_exact_channel_logo_suggestions.py"
+      - "scripts/apply_reviewed_channel_logo_variants.py"
       - "scripts/validate_catalog.py"
       - "scripts/update_epg.py"
       - "scripts/update_html_epg.py"
@@ -154,6 +155,7 @@ jobs:
         run: |
           python scripts/normalize_catalog.py
           python scripts/apply_exact_channel_logo_suggestions.py
+          python scripts/apply_reviewed_channel_logo_variants.py
           python scripts/validate_catalog.py
           python -m unittest discover -s tests -v
           python -m py_compile scripts/*.py
