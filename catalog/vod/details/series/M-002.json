@@ -115896,13 +115896,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 95,
-    "subtype": "dorama"
+    "subtype": "dorama",
+    "overview": "Marie sempre manteve viva a esperança de reencontrar o pai. Criada por uma mãe instável e forçada a cuidar da casa desde cedo, ela escondeu o único vínculo que ainda a ligava a ele. Quando esse segredo vem à tona, sua vida vira de cabeça para baixo. Três homens aparecem, cada um afirmando ser seu verdadeiro pai. Em busca da verdade, Marie se vê cercada por conflitos e incertezas, envolvendo até Gang Se, seu veterano da faculdade de medicina. Sem saber em quem confiar, ela precisa escolher entre se proteger ou seguir o desejo de ter um pai. No meio do caos, começa a descobrir o que realmente significa ser família.",
+    "imdb_id": "tt38644602"
   },
   {
     "id": "series-marielle-o-documentario",
     "title": "Marielle O Documentario",
     "type": "series",
-    "year": null,
+    "year": "2020",
     "poster_url": "/rzOflKW4wtkprwiIjJV8RZgU7T0.jpg",
     "genres": [
       "Documentário",
@@ -116330,13 +116332,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 6,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Na noite de 14 de março de 2018, Marielle Franco e o motorista Anderson Gomes foram assassinados. Dois anos depois, os mandantes do crime ainda não foram identificados.",
+    "imdb_id": "tt11928982"
   },
   {
     "id": "series-marimar",
     "title": "Marimar",
     "type": "series",
-    "year": null,
+    "year": "1994",
     "poster_url": "/eoHl6ISwfzVyW68sv7hUfR9MQh.jpg",
     "genres": [
       "Drama",
@@ -126021,7 +126025,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 298,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Marimar, uma jovem humilde de uma pequena vila de pescadores, verá sua vida simples mudar para sempre após se apaixonar por Sergio, filho de um fazendeiro muito rico da região.",
+    "imdb_id": "tt0130410"
   },
   {
     "id": "series-marines",
@@ -126286,7 +126292,7 @@
     "id": "series-marinheiro-de-guerra",
     "title": "Marinheiro de Guerra",
     "type": "series",
-    "year": null,
+    "year": "2023",
     "poster_url": "/mz8zD8adyQ07dMPbXqHWEVmYyUp.jpg",
     "genres": [
       "Drama"
@@ -126504,6 +126510,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 3,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Em meio à Segunda Guerra Mundial, dois marinheiros enfrentam situações terríveis em um navio norueguês enquanto lutam para sobreviver.",
+    "imdb_id": "tt26743607"
   }
 ]
