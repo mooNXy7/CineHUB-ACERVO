@@ -54,6 +54,12 @@ class SaimoTVChannelReferenceTests(unittest.TestCase):
             self.assertEqual(report["counts"]["skipped_unsafe"], 1)
             self.assertEqual(report["counts"]["already_has_stream"], 1)
 
+    def test_broadcaster_name_spacing_and_accents_are_normalized(self):
+        self.assertEqual(
+            importer.normalize_channel_name("CazéTV HD"),
+            importer.normalize_channel_name("Caze TV"),
+        )
+
     def test_quality_variant_selects_matching_channel_and_leaves_other_variants(self):
         channels = [
             {"id": "ch-jp-hd", "name": "Jovem Pan News HD"},
