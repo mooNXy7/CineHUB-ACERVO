@@ -11,7 +11,7 @@ on:
       offset:
         description: "Stable starting offset among records with numeric TMDB IDs"
         required: true
-        default: "21000"
+        default: "26000"
         type: string
       batch_count:
         description: "Number of consecutive bounded batches (1–5)"
@@ -53,7 +53,7 @@ jobs:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '1000' }}
-          OFFSET: ${{ inputs.offset || (github.event_name == 'push' && '21000' || '21000') }}
+          OFFSET: ${{ inputs.offset || (github.event_name == 'push' && '26000' || '26000') }}
           BATCH_COUNT: ${{ inputs.batch_count || '5' }}
         run: |
           set -euo pipefail
