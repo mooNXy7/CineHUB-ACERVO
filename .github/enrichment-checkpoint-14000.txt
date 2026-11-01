@@ -1,1 +1,0 @@
-Branch-only trigger for the next bounded TMDB metadata checkpoint. The workflow default is offset 14000, limit 1000, batch_count 5. This marker contains no secrets or catalog data.
