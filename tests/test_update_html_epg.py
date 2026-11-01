@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from update_html_epg import update_document, write_json_atomic
+from parse_html_epg import parse_guiadetv
 
 
 class UpdateHtmlEpgTests(unittest.TestCase):
@@ -191,6 +192,33 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 update_html_epg.fetch_html("https://example.com/epg")
         build.assert_not_called()
+
+
+    def test_guiadetv_parses_visible_times_and_portuguese_date_headers(self):
+        html = """
+        <h2>Domingo, 25 de outubro</h2>
+        <div><span>17:40</span><span>1h35</span><a href="/programa/ameaca">Ameaça Pré-Histórica</a></div>
+        <div><span>19:15</span><span>1h40</span><a href="/programa/depois-da-terra">Depois da Terra</a></div>
+        <h2>Segunda-feira, 26 de outubro</h2>
+        <div><span>00:55</span><span>1h20</span><a href="/programa/hanna">Hanna</a></div>
+        """
+        items = parse_guiadetv(html, dt.date(2026, 10, 25))
+        self.assertEqual([item["title"] for item in items], [
+            "Ameaça Pré-Histórica", "Depois da Terra", "Hanna",
+        ])
+        self.assertEqual(items[0]["start"], "2026-10-25T17:40:00-03:00")
+        self.assertEqual(items[1]["start"], "2026-10-25T19:15:00-03:00")
+        self.assertEqual(items[2]["start"], "2026-10-26T00:55:00-03:00")
+
+    def test_guiadetv_visible_time_fallback_handles_midnight_rollover(self):
+        html = """
+        <div><span>23:50</span><a href="/programa/noite">Programa da noite</a></div>
+        <div><span>00:20</span><a href="/programa/madrugada">Programa da madrugada</a></div>
+        """
+        items = parse_guiadetv(html, dt.date(2026, 10, 31))
+        self.assertEqual(items[0]["start"], "2026-10-31T23:50:00-03:00")
+        self.assertEqual(items[1]["start"], "2026-11-01T00:20:00-03:00")
+
 
 
 if __name__ == "__main__":
