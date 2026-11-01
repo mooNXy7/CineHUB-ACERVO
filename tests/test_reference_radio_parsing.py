@@ -83,5 +83,40 @@ class ReferenceRadioParsingTests(unittest.TestCase):
 
 
 
+    def test_new_reference_radios_are_candidates_in_catalog_sync_mode(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            reference = Path(tmp)
+            vod = reference / "vod"
+            vod.mkdir()
+            (vod / "radios.txt").write_text(
+                "Known FM|https://radio.example/known\\n"
+                "New FM|https://radio.example/new|https://images.example/new.png\\n"
+                "Unsafe FM|javascript:alert(1)\\n",
+                encoding="utf-8",
+            )
+            existing = {
+                "schema_version": 1,
+                "radios": [{
+                    "id": "radio-known",
+                    "name": "Known FM",
+                    "stream_url": None,
+                    "logo_url": None,
+                    "genre": None,
+                }],
+            }
+            candidates = []
+            result, added, updated = importer.import_reference_radios(
+                reference, existing, allow_new=False, candidates=candidates
+            )
+
+        self.assertEqual(added, 0)
+        self.assertEqual(updated, 1)
+        self.assertEqual(len(result["radios"]), 1)
+        self.assertEqual(result["radios"][0]["stream_url"], "https://radio.example/known")
+        self.assertEqual([item["name"] for item in candidates], ["New FM", "Unsafe FM"])
+        self.assertEqual(candidates[0]["logo_url"], "https://images.example/new.png")
+        self.assertIsNone(candidates[1]["stream_url"])
+
+
 if __name__ == "__main__":
     unittest.main()
