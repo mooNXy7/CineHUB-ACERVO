@@ -32,7 +32,7 @@ jobs:
             .github/workflows/enrich-vod-metadata.yml \
             .github/workflows/suggest-vod-tmdb-ids.yml
       - name: Preview authorized reference import in an isolated worktree (manual dispatch only)
-        if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request'
+        if: github.event_name == 'workflow_dispatch'
         run: |
           set +e
           if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference-preview; then
