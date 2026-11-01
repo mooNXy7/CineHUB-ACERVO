@@ -102,20 +102,42 @@ class _MeuGuiaParser(HTMLParser):
 
 
 def _date_from_header(value: str, reference_date: dt.date) -> dt.date | None:
-    match = re.search(r"\b(\d{1,2})\s*/\s*(\d{1,2})(?:\s*/\s*(\d{4}))?\b", value or "")
-    if not match:
-        if re.search(r"hoje|today", value or "", re.I):
-            return reference_date
-        if re.search(r"amanh[ãa]|tomorrow", value or "", re.I):
-            return reference_date + dt.timedelta(days=1)
-        return None
-    day, month = int(match.group(1)), int(match.group(2))
-    year = int(match.group(3) or reference_date.year)
+    value = value or ""
+    match = re.search(r"\b(\d{1,2})\s*/\s*(\d{1,2})(?:\s*/\s*(\d{4}))?\b", value)
+    explicit_year = False
+    if match:
+        day, month = int(match.group(1)), int(match.group(2))
+        year = int(match.group(3) or reference_date.year)
+        explicit_year = bool(match.group(3))
+    else:
+        months = {
+            "janeiro": 1, "fevereiro": 2, "marco": 3, "março": 3,
+            "abril": 4, "maio": 5, "junho": 6, "julho": 7,
+            "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11,
+            "dezembro": 12,
+        }
+        month_match = re.search(
+            r"\b(\d{1,2})\s+de\s+([a-záàâãéêíóôõúç]+)(?:\s+de\s+(\d{4}))?\b",
+            value.casefold(),
+        )
+        if month_match:
+            day = int(month_match.group(1))
+            month = months.get(month_match.group(2))
+            if month is None:
+                return None
+            year = int(month_match.group(3) or reference_date.year)
+            explicit_year = bool(month_match.group(3))
+        else:
+            if re.search(r"hoje|today", value, re.I):
+                return reference_date
+            if re.search(r"amanh[ãa]|tomorrow", value, re.I):
+                return reference_date + dt.timedelta(days=1)
+            return None
     try:
         result = dt.date(year, month, day)
     except ValueError:
         return None
-    if not match.group(3) and result < reference_date - dt.timedelta(days=180):
+    if not explicit_year and result < reference_date - dt.timedelta(days=180):
         try:
             result = result.replace(year=year + 1)
         except ValueError:
@@ -153,12 +175,14 @@ def parse_meuguia(html_document: str, reference_date: dt.date | None = None) -> 
 
 
 class _GuiaDeTvParser(HTMLParser):
-    """Read data-dt schedule markers and their associated /programa/ title links."""
-    def __init__(self) -> None:
+    """Parse GuiaDeTv schedule entries using data-dt or visible time + programme links."""
+    def __init__(self, reference_date: dt.date | None = None) -> None:
         super().__init__(convert_charrefs=True)
         self.pending_start: dt.datetime | None = None
+        self.pending_clock: tuple[int, int] | None = None
+        self.current_date = reference_date or dt.datetime.now(SAO_PAULO).date()
+        self.last_clock_minutes: int | None = None
         self.capture_anchor = False
-        self.anchor_href = ""
         self.anchor_text: list[str] = []
         self.records: list[tuple[dt.datetime, str]] = []
 
@@ -176,28 +200,51 @@ class _GuiaDeTvParser(HTMLParser):
             except ValueError:
                 self.pending_start = None
         if tag == "a":
-            self.anchor_href = attr.get("href", "")
-            self.capture_anchor = "/programa/" in self.anchor_href
+            self.capture_anchor = "/programa/" in attr.get("href", "")
             self.anchor_text = []
 
     def handle_data(self, data: str) -> None:
         if self.capture_anchor:
             self.anchor_text.append(data)
+            return
+        parsed_date = _date_from_header(data, self.current_date)
+        if parsed_date is not None and parsed_date != self.current_date:
+            self.current_date = parsed_date
+            self.last_clock_minutes = None
+            self.pending_clock = None
+        if self.pending_start is None:
+            time_match = re.search(r"\b([01]?\d|2[0-3]):([0-5]\d)\b", data)
+            if time_match:
+                self.pending_clock = (int(time_match.group(1)), int(time_match.group(2)))
 
     def handle_endtag(self, tag: str) -> None:
-        if tag == "a":
-            title = _text(" ".join(self.anchor_text))
-            if self.capture_anchor and self.pending_start and title:
-                self.records.append((self.pending_start, title))
+        if tag != "a":
+            return
+        title = _text(" ".join(self.anchor_text))
+        if self.capture_anchor and title:
+            start = self.pending_start
+            if start is None and self.pending_clock is not None:
+                hour, minute = self.pending_clock
+                clock_minutes = hour * 60 + minute
+                if self.last_clock_minutes is not None and clock_minutes < self.last_clock_minutes:
+                    self.current_date += dt.timedelta(days=1)
+                start = dt.datetime.combine(
+                    self.current_date, dt.time(hour, minute), tzinfo=SAO_PAULO
+                )
+                self.last_clock_minutes = clock_minutes
+            if start is not None:
+                self.records.append((start, title))
                 self.pending_start = None
-            self.capture_anchor = False
-            self.anchor_href = ""
-            self.anchor_text = []
+                self.pending_clock = None
+        self.capture_anchor = False
+        self.anchor_text = []
 
 
-def parse_guiadetv(html_document: str) -> list[dict[str, Any]]:
-    """Parse GuiaDeTv data-dt markers and following /programa/ links."""
-    parser = _GuiaDeTvParser()
+def parse_guiadetv(
+    html_document: str, reference_date: dt.date | None = None
+) -> list[dict[str, Any]]:
+    """Parse GuiaDeTv data-dt markers or visible schedule times preceding /programa/ links."""
+    parser = _GuiaDeTvParser(reference_date)
     parser.feed(html_document or "")
     parser.close()
     return _finish_intervals([
