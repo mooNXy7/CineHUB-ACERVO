@@ -31,6 +31,7 @@ class CatalogDisplayNormalizationTests(unittest.TestCase):
             "title": "Scooby-Doo!  Mistério na Lutamania",
             "sources": [{"url": "https://example.com/live"}],
             "tmdb_id": "123",
+            "seasons": [{"season": 1, "episodes": [{"title": "  Episódio &#039; Um &#039;  "}]}],
         }]
         updated = normalize_catalog.normalize_title_records(records)
         self.assertEqual(updated, 1)
@@ -38,6 +39,7 @@ class CatalogDisplayNormalizationTests(unittest.TestCase):
         self.assertEqual(records[0]["id"], "movie-1")
         self.assertEqual(records[0]["tmdb_id"], "123")
         self.assertEqual(records[0]["sources"], [{"url": "https://example.com/live"}])
+        self.assertEqual(records[0]["seasons"][0]["episodes"][0]["title"], "Episódio ' Um '")
 
 
     def test_normalizes_vod_index_and_detail_titles_together(self):
