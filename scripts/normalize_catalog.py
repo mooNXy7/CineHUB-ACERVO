@@ -49,15 +49,25 @@ def atomic_write_text(path, text):
 
 
 def normalize_title_records(records):
-    """Normalize only title display text; preserve IDs, metadata, and source arrays."""
+    """Normalize title display text recursively; preserve IDs, metadata, and source arrays."""
     updated = 0
-    for item in records if isinstance(records, list) else []:
-        if not isinstance(item, dict) or not isinstance(item.get("title"), str):
-            continue
-        normalized = normalize_display_text(item["title"])
-        if normalized != item["title"]:
-            item["title"] = normalized
-            updated += 1
+
+    def visit(value):
+        nonlocal updated
+        if isinstance(value, dict):
+            for field, item in value.items():
+                if field == "title" and isinstance(item, str):
+                    normalized = normalize_display_text(item)
+                    if normalized != item:
+                        value[field] = normalized
+                        updated += 1
+                else:
+                    visit(item)
+        elif isinstance(value, list):
+            for item in value:
+                visit(item)
+
+    visit(records)
     return updated
 
 
