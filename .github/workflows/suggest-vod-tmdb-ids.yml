@@ -13,17 +13,6 @@ on:
         required: true
         default: "1000"
         type: string
-  push:
-    branches:
-      - audit/acervo-hardening-2026-10
-    paths-ignore:
-      - '.github/enrichment-checkpoint-*.txt'
-      - 'catalog/**'
-      - 'reports/**'
-      - 'docs/**'
-      - 'scripts/**'
-      - 'tests/**'
-      - '.github/workflows/**'
 
 permissions:
   contents: read
