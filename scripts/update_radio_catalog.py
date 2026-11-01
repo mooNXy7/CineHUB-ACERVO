@@ -387,11 +387,10 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     if active and failures and not collected and not radio_browser_stations:
         raise RuntimeError("Nenhuma fonte de rádio segura válida; catálogo anterior preservado: " + "; ".join(failures))
 
-    original_radios = list(current["radios"])
-    merged, merge_counts = merge_radio_records(original_radios, collected) if collected else (original_radios, {
-        "added": 0, "filled_stream": 0, "unchanged": 0,
-        "stream_conflicts": 0, "ambiguous_matches": 0, "stream_conflict_names": [],
-    })
+    original_radios = [dict(item) for item in current["radios"] if isinstance(item, dict)]
+    # Always clone before applying metadata so a Radio Browser-only fallback is
+    # still detected as a catalog mutation when the stream-reference fetch fails.
+    merged, merge_counts = merge_radio_records(original_radios, collected)
     metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations) if radio_browser_stations else {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0, "ambiguous": 0,
         "genres_filled": 0, "logos_filled": 0, "favicon_rejected": 0,
