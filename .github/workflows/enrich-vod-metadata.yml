@@ -49,7 +49,7 @@ jobs:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '1000' }}
-          OFFSET: ${{ inputs.offset || '4000' }}
+          OFFSET: ${{ inputs.offset || (github.event_name == 'push' && '9000' || '4000') }}
           BATCH_COUNT: ${{ inputs.batch_count || '5' }}
         run: |
           set -euo pipefail
