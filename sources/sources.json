@@ -11,7 +11,18 @@
       "priority": 10,
       "license": "Links de transmissão publicados nos domínios oficiais das emissoras; direitos audiovisuais pertencem aos respectivos titulares.",
       "notes": "Lista curada pelo CineHUB com TV Brasil, Canal Gov, Canal Educação, Canal Libras e TV Câmara. URLs HTTPS oficiais; disponibilidade de reprodução deve continuar sendo monitorada. A mídia não é hospedada pelo CineHUB."
+    },
+    {
+      "id": "saimoplayer-radio-reference",
+      "name": "Referência de rádios autorizada — SaimoPlayer",
+      "category": "radio",
+      "url": "https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/vod/radios.txt",
+      "format": "pipe-delimited",
+      "enabled": true,
+      "priority": 10,
+      "license": "Uso autorizado pelo mantenedor do repositório de referência para integração de nomes e URLs públicos no catálogo CineHUB; somente campos name e stream HTTPS são lidos.",
+      "notes": "Fonte de referência no formato nome|stream. O importador preserva streams, logos e gêneros existentes; conflitos de URL ficam em relatório e não substituem a reprodução atual. Nenhum DRM ou cabeçalho é importado."
     }
   ],
-  "_instructions": "Add only public sources that permit use/redistribution. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json), enabled, priority, license, notes."
+  "_instructions": "Add only sources with documented permission and provenance. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json|pipe-delimited), enabled, priority, license, notes."
 }
