@@ -10,6 +10,7 @@ on:
       - "sources/sources.json"
       - "sources/m3u/**"
       - "catalog/epg/**"
+      - "catalog/reference/**"
       - "scripts/update_catalog.py"
       - "scripts/update_radio_catalog.py"
       - "scripts/import_reference_catalog.py"
