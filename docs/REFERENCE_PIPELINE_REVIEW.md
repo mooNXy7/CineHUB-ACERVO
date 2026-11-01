@@ -112,3 +112,35 @@ A conferência da automação encontrou que o workflow .github/workflows/update-
 A prévia ficou com status ready_for_review, mas continua exigindo aprovação manual. O salto de referências de provedor é grande e precisa ser revisado quanto à utilidade para os consumidores e ao tamanho final dos arquivos antes de aprovar a importação. Nenhum catálogo foi publicado por esse teste; a PR continua em rascunho e não foi mesclada.
 
 A cobertura restante não deve ser “completada” por inferência: gêneros de rádio exigem uma fonte explícita, anos/pôsteres/gêneros VOD precisam de enriquecimento com identidade validada, e novos códigos EPG devem ser confirmados contra grades reais. O pipeline de enriquecimento ainda não chamou uma API externa nem usou credenciais; não foi copiada nenhuma chave de referência.
+
+
+## Atualização de execução — 01/11/2026
+
+Esta seção é a referência operacional mais recente e **substitui os números de rádio/canais e o estado de aprovação descritos nas revisões de 25–28/10**.
+
+### Autorização e fontes efetivamente integradas
+
+O usuário confirmou expressamente que os repositórios do Gabriel e os materiais disponibilizados — canais, logos e conteúdo — estão autorizados para uso no CineHUB. A branch isolada `audit/acervo-hardening-2026-10` passou a aplicar automaticamente a sincronização dessas referências quando a revisão de origem muda. A barreira de integridade continua ativa; a autorização não permite fundir identidades ambíguas nem publicar dados inválidos. A branch de produção não foi alterada, o PR permanece sem merge e não houve OTA.
+
+- **SaimoPlayer:** `vod/radios.txt` foi integrado como referência de nome/stream. A última leitura aceitou 752 linhas; 749 já correspondiam ao catálogo, 3 conflitos de stream ficaram separados, 1 URL insegura e 1 nome duplicado ambíguo foram retidos. Nenhum stream existente foi substituído.
+- **Saimo-TV:** foram acrescentadas 54 referências novas de logo, elevando a base de referência para 397 entradas. A fonte foi lida somente nos campos `name` e `logo`; URLs permanecem referências externas, sem re-hospedagem. A lista de variantes de qualidade revisadas chegou a 108 entradas. O fluxo seguinte aplica as correspondências exatas e as variantes explicitamente aprovadas.
+- **SaimoTV-Android / Saimo-Cell-V2:** o arquivo `scripts/offline.json` foi aproveitado como referência de canais. A automação tenta preencher apenas canais sem fonte, por nome normalizado e qualidade correspondente, usando HLS HTTPS direto. Ela preserva logos/fontes atuais e não copia chaves DRM, credenciais ou cabeçalhos de requisição. O resultado líquido da execução real fica registrado em `reports/saimotv-channel-stream-refresh.json`.
+- **Rádio Browser:** foi conectado como fonte pública de metadados brasileiros. O processo só preenche gênero/logo ausente, exige correspondência exata de stream ou nome único, preserva streams atuais e agora registra as tags ainda não classificadas para ampliar a taxonomia sem adivinhar gênero.
+- **EPG XMLTV:** foram acrescentados aliases revisados para Prime Box Brasil, Globo Anhanguera, Record Brasília/Goiás, Rede Amazônica Rio Branco e variantes Telecine [LEG], além de quatro IDs Pluto específicos para canais temáticos 24H. Os IDs permanecem vinculados à fonte correta. As fontes XMLTV ativas continuam sendo a base da programação.
+- **VOD/TMDB:** o lote 21.000–25.000 terminou com 4.639 registros enriquecidos e 11.473 campos preenchidos. O lote 26.000–30.000 está em execução. A próxima janela foi preparada para processar 5.000 registros em uma única varredura, reduzindo leituras repetidas. Também foi criado um aplicador de IDs TMDB que só aceita candidato único com título, tipo e ano exatos; ambiguidades, anos ausentes e IDs duplicados continuam em revisão.
+
+### Última auditoria disponível antes da execução pendente de atualização
+
+- VOD: 56.250 registros; 18.020 ainda tinham pelo menos um campo de metadado ausente; 10.423 registros incompletos já possuíam ID de provedor; 4.186 eram candidatos de título/ano/tipo e 3.411 exigiam revisão de identidade.
+- Canais: 2.431 registros; 2.110 com fonte; 321 sem fonte; 579 sem logo antes da aplicação das 14 novas correspondências identificadas; 713 com associação EPG XMLTV antes dos novos aliases/IDs Pluto.
+- Rádio: 753 estações, todas com stream; 245 com gênero e 284 com logo antes da última atualização de metadados. O enriquecimento acumulado desde o início desta etapa preencheu 72 gêneros e 12 logos, sem sobrescrever valores existentes.
+- Integridade: a auditoria registrou zero URLs inválidas e zero grupos de IDs externos duplicados no VOD. A suíte de validação mais recente passou com **200 testes**.
+
+### O que ainda está em execução ou depende de confirmação
+
+1. A execução pendente de atualização do catálogo deve aplicar as novas logos, preencher eventuais canais sem fonte encontrados na referência SaimoTV-Android, atualizar rádios e recalcular as associações EPG.
+2. As janelas TMDB 31.000–35.000 e 36.000–40.000 ainda precisam concluir; depois disso, será executada a busca em lotes dos registros sem TMDB ID e aplicada somente a correspondência única de título/ano/tipo.
+3. A auditoria final deve ser gerada após todas essas execuções, com os totais efetivos e as lacunas restantes. Campos sem fonte de dados confiável não serão inventados.
+4. As duas fontes HTML de EPG permanecem desabilitadas até haver autorização de redistribuição dos próprios sites. Isso não impede o uso das quatro fontes XMLTV ativas nem dos novos aliases/IDs revisados.
+
+**Estado de publicação:** todas as alterações permanecem na branch de auditoria. Nenhuma alteração foi enviada ao CineHUB TV/MOBILE, nenhum dado de produção do Supabase foi escrito e nenhuma atualização OTA foi publicada. A validação final e o teste nos aplicativos ficam para depois do fechamento dos lotes.
