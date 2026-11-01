@@ -13,6 +13,8 @@ on:
       - "catalog/reference/**"
       - "scripts/update_catalog.py"
       - "scripts/update_radio_catalog.py"
+      - "scripts/update_saimotv_channel_reference.py"
+      - "tests/test_update_saimotv_channel_reference.py"
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/apply_exact_channel_logo_suggestions.py"
@@ -67,6 +69,13 @@ jobs:
           else
             echo "REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
             echo "::warning::Catálogo de referência indisponível nesta execução; a importação será ignorada e os dados atuais serão preservados."
+          fi
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoTV-Android.git /tmp/cinehub-saimo-tv; then
+            git -C /tmp/cinehub-saimo-tv sparse-checkout set --no-cone '/scripts/offline.json'
+            echo "SAIMOTV_REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
+          else
+            echo "SAIMOTV_REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
+            echo "::warning::Referência SaimoTV-Android indisponível; atualização de streams será ignorada."
           fi
       - name: Import reference data with an isolated quality gate
         if: env.REFERENCE_AVAILABLE == 'true'
@@ -151,6 +160,9 @@ jobs:
           fi
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
+        if: env.SAIMOTV_REFERENCE_AVAILABLE == 'true'
+        run: python scripts/update_saimotv_channel_reference.py --reference-file /tmp/cinehub-saimo-tv/scripts/offline.json
       - name: Refresh authorized radio reference (preserve existing playback)
         run: python scripts/update_radio_catalog.py
       - name: Refresh EPG health and channel mappings
