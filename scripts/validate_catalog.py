@@ -53,6 +53,54 @@ def safe_source_url(value):
         return False
 
 
+def is_http_url(value):
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        return parsed.scheme.lower() in {"http", "https"} and bool(parsed.netloc)
+    except (TypeError, ValueError):
+        return False
+
+
+def validate_radio_catalog(radios, quarantine):
+    """Ensure malformed URL-as-name rows stay outside the active radio catalog."""
+    errors = []
+    active = radios.get("radios", []) if isinstance(radios, dict) else []
+    quarantined = quarantine.get("records", []) if isinstance(quarantine, dict) else []
+    if not isinstance(active, list):
+        return ["catalog/radios/radios.json: radios deve ser uma lista"]
+    if not isinstance(quarantined, list):
+        return ["catalog/radios/quarantine.json: records deve ser uma lista"]
+    active_ids = set()
+    for item in active:
+        if not isinstance(item, dict):
+            errors.append("catalog/radios/radios.json: registro de rádio inválido")
+            continue
+        if is_http_url(item.get("name")):
+            errors.append(
+                f"catalog/radios/radios.json: URL no campo name do registro {item.get('id', '?')}"
+            )
+        if item.get("id"):
+            active_ids.add(str(item["id"]))
+    quarantine_ids = set()
+    for item in quarantined:
+        if not isinstance(item, dict) or not item.get("id"):
+            errors.append("catalog/radios/quarantine.json: registro sem objeto/id válido")
+            continue
+        ident = str(item["id"])
+        if ident in quarantine_ids:
+            errors.append(f"catalog/radios/quarantine.json: ID duplicado {ident}")
+        quarantine_ids.add(ident)
+        if not is_http_url(item.get("name")):
+            errors.append(f"catalog/radios/quarantine.json: registro {ident} não tem URL no name")
+    overlap = active_ids & quarantine_ids
+    if overlap:
+        errors.append(
+            "catalog/radios: IDs presentes no catálogo ativo e na quarentena: "
+            + ", ".join(sorted(overlap)[:10])
+        )
+    return errors
+
+
 def validate_html_epg_doc(data):
     """Return structural errors for the optional HTML EPG sidecar."""
     errors = []
@@ -130,6 +178,16 @@ def main():
             categories = data.get("categories")
             if categories is not None and not isinstance(categories, dict):
                 errors.append(f"{path.relative_to(ROOT)}: 'categories' deve ser um objeto")
+
+    radio_quarantine_path = ROOT / "catalog/radios/quarantine.json"
+    try:
+        radio_quarantine = load(radio_quarantine_path)
+        if not isinstance(radio_quarantine, dict) or radio_quarantine.get("schema_version") != 1:
+            errors.append("catalog/radios/quarantine.json: schema_version deve ser 1")
+        else:
+            errors.extend(validate_radio_catalog(loaded.get("radios", {}), radio_quarantine))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"{radio_quarantine_path.relative_to(ROOT)}: {exc}")
 
     # Validate network source endpoints before any updater can fetch them.
     for source_doc_name, url_fields in (
