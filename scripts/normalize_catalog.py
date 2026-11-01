@@ -79,6 +79,8 @@ def normalize_vod_titles(root=ROOT):
     detail_paths = set()
     index_records = 0
     detail_records = 0
+    index_titles_updated = 0
+    detail_titles_updated = 0
     changed_files = 0
     for category in categories.values():
         relative = category.get("index_path") if isinstance(category, dict) else None
@@ -92,15 +94,19 @@ def normalize_vod_titles(root=ROOT):
                 item.get("detail_path") for item in records
                 if isinstance(item, dict) and item.get("detail_path")
             )
-        if normalize_title_records(records):
+        updated = normalize_title_records(records)
+        index_titles_updated += updated
+        if updated:
             changed_files += int(write_json_if_changed(path, records, compact=True))
     for relative in sorted(detail_paths):
         path = root / relative
         records = json.loads(path.read_text(encoding="utf-8"))
         detail_records += len(records) if isinstance(records, list) else 0
-        if normalize_title_records(records):
+        updated = normalize_title_records(records)
+        detail_titles_updated += updated
+        if updated:
             changed_files += int(write_json_if_changed(path, records, compact=True))
-    return index_records, detail_records, changed_files
+    return index_records, detail_records, index_titles_updated, detail_titles_updated, changed_files
 
 
 def main():
@@ -136,13 +142,14 @@ def main():
             item["genre"] = normalize_display_text(item["genre"])
     write_json_if_changed(RADIOS, radios)
 
-    index_records, detail_records, vod_files_changed = normalize_vod_titles(ROOT)
+    index_records, detail_records, index_titles_updated, detail_titles_updated, vod_files_changed = normalize_vod_titles(ROOT)
     if duplicates:
         print("Possíveis IDs duplicados (não removidos): " + ", ".join(sorted(set(duplicates))))
     print(
         f"Normalizados {len(data.get('channels', []))} canais, "
         f"{len(radios.get('radios', []))} rádios, "
-        f"{index_records} registros nos índices VOD e {detail_records} detalhes VOD; "
+        f"{index_records} registros nos índices VOD ({index_titles_updated} títulos corrigidos) "
+        f"e {detail_records} detalhes VOD ({detail_titles_updated} títulos corrigidos); "
         f"{vod_files_changed} arquivos VOD alterados. Nenhum registro foi removido."
     )
 
