@@ -127,11 +127,32 @@ def _job(source: str, name: str, code: str, fetcher: Callable[[str], str], refer
 def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_html, now: dt.datetime | None = None) -> dict[str, Any]:
     epg_dir = root / "catalog/epg"
     mapping = read_json(epg_dir / "channel-map.json", {})
+    sources_doc = read_json(epg_dir / "sources.json")
+    if sources_doc is None:
+        # Test/legacy fixture compatibility only; production always has sources.json.
+        enabled_html_sources = {"meuguia-br", "guia-de-tv-br"}
+        disabled_html_sources: set[str] = set()
+    else:
+        html_sources = [s for s in sources_doc.get("sources", [])
+                        if isinstance(s, dict) and s.get("format") == "html"]
+        enabled_html_sources = {str(s.get("id")) for s in html_sources if s.get("enabled")}
+        disabled_html_sources = {str(s.get("id")) for s in html_sources if not s.get("enabled")}
     previous = read_json(epg_dir / "html-programmes.json", {
         "schema_version": 1, "timezone": "America/Sao_Paulo", "programmes": {}, "health": {}
     })
     programmes_by_channel = dict(previous.get("programmes") or {})
     health_by_channel = dict(previous.get("health") or {})
+    # A source explicitly disabled for redistribution is not a transient outage:
+    # remove its cached schedules instead of preserving/re-publishing them.
+    for channel, record in list(programmes_by_channel.items()):
+        if isinstance(record, dict) and record.get("source_id") in disabled_html_sources:
+            programmes_by_channel.pop(channel, None)
+            health_by_channel[channel] = {
+                "source_id": record.get("source_id"),
+                "status": "disabled",
+                "programme_count": 0,
+                "error": "HTML schedule publication disabled until redistribution permission is confirmed",
+            }
     reference_now = now or dt.datetime.now(dt.timezone.utc)
     if reference_now.tzinfo is None:
         reference_now = reference_now.replace(tzinfo=dt.timezone.utc)
@@ -155,14 +176,16 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
         return kept
 
     jobs: list[tuple[str, str, str]] = []
-    for name, code in (mapping.get("meuguia_codes") or {}).items():
-        if isinstance(name, str) and isinstance(code, str) and name.strip() and code.strip():
-            jobs.append(("meuguia-br", name, code))
-    for name, slug in (mapping.get("guiadetv_slugs") or {}).items():
-        # Guia de TV is a fallback: only fetch it when MeuGuia did not yield a
-        # current schedule in this run and there is no last-known-good schedule.
-        if isinstance(name, str) and isinstance(slug, str) and name.strip() and slug.strip():
-            jobs.append(("guia-de-tv-br", name, slug))
+    if "meuguia-br" in enabled_html_sources:
+        for name, code in (mapping.get("meuguia_codes") or {}).items():
+            if isinstance(name, str) and isinstance(code, str) and name.strip() and code.strip():
+                jobs.append(("meuguia-br", name, code))
+    if "guia-de-tv-br" in enabled_html_sources:
+        for name, slug in (mapping.get("guiadetv_slugs") or {}).items():
+            # Guia de TV is a fallback: only fetch it when MeuGuia did not yield a
+            # current schedule in this run and there is no last-known-good schedule.
+            if isinstance(name, str) and isinstance(slug, str) and name.strip() and slug.strip():
+                jobs.append(("guia-de-tv-br", name, slug))
 
     results: dict[tuple[str, str], tuple[list[dict[str, Any]], str | None]] = {}
     # Refresh primary source on every run, even for channels with cached data.
@@ -247,11 +270,13 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
         "generated_at": stamp,
         "timezone": "America/Sao_Paulo",
         "policy": {
-            "priority": ["meuguia-br", "guia-de-tv-br"],
-            "fallback": "preserve last known-good channel schedule on fetch or parse failure",
+            "priority": [source for source in ("meuguia-br", "guia-de-tv-br") if source in enabled_html_sources],
+            "disabled_sources": sorted(disabled_html_sources),
+            "fallback": "preserve last known-good schedule only for enabled sources on transient fetch/parse failure; remove explicitly disabled sources",
             "scope": "explicit channel-map mappings only",
             "window_hours": {"past": 6, "future": 72},
         },
+        "active_sources": sorted(enabled_html_sources),
         "programmes": programmes_by_channel,
         "health": health_by_channel,
     }
@@ -259,9 +284,10 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
 
 def main() -> int:
     document = update_document()
-    # Never publish a brand-new empty schedule document when every source failed.
-    if not document["programmes"]:
-        print("HTML EPG: no valid schedules available; no publication performed")
+    # Preserve the previous sidecar when enabled sources all fail, but publish an
+    # empty sidecar when every HTML source is explicitly disabled.
+    if not document["programmes"] and document.get("active_sources"):
+        print("HTML EPG: enabled sources produced no valid schedules; no publication performed")
         return 0
     write_json_atomic(OUTPUT_FILE, document)
     statuses = {status: sum(1 for item in document["health"].values() if item.get("status") == status)
