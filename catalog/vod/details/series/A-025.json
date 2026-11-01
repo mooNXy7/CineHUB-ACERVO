@@ -45779,7 +45779,7 @@
     "id": "series-a-beira-do-caos",
     "title": "À Beira do Caos",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/59288xuObda3dsxWQ6lWXCYlxhG.jpg",
     "genres": [
       "Comédia",
@@ -46504,13 +46504,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 12,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "A crise da meia-idade bateu à porta. Agora, quatro amigas compartilham as dores e as delícias de suas vidas pessoais e profissionais.",
+    "imdb_id": "tt5540990"
   },
   {
     "id": "series-a-beira-do-precipicio",
     "title": "À Beira do Precipício",
     "type": "series",
-    "year": null,
+    "year": "2022",
     "poster_url": "/pVHQTMF0RwrIIQnH8HZTIRiKPDi.jpg",
     "genres": [
       "Crime",
@@ -47170,13 +47172,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 6,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Após uma ativista ser encontrada morta durante uma caça às baleias, o jornalista Hannis Martinsson, que há pouco tempo descobriu ser pai da garota, arriscará sua própria vida para desvendar o mistério por trás de uma comunidade isolada nas Ilhas Faroé.",
+    "imdb_id": "tt11856246"
   },
   {
     "id": "series-a-espera-de-persefone",
     "title": "À Espera de Perséfone",
     "type": "series",
-    "year": null,
+    "year": "2026",
     "poster_url": "/1aa0awklO1VZ7NFEmhJ5hIf5RWt.jpg",
     "genres": [
       "Drama"
@@ -47332,7 +47336,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Para salvar sua família em dificuldades, Persephone Lancaster toma uma decisão impensável: ela concorda em se casar com Adam Boyce, o enigmático duque de Kielder, um homem sobre quem sussurram com temor por todo o reino. Lançada em um mundo de imponentes paredes de pedra, expectativas rígidas e silenciosa solidão, Persephone se vê isolada no imponente castelo do duque. Embora unidos pelo matrimônio, Adam mantém sua nova esposa à distância, determinado a proteger tanto seu coração quanto seus segredos. Enquanto Persephone busca propósito e felicidade em sua nova vida, começa a se perguntar: será este apenas um casamento de necessidade… ou algo mais profundo poderá estar esperando para crescer entre eles?",
+    "imdb_id": "tt29666911"
   },
   {
     "id": "series-a-minha-ladra-querida",
@@ -48608,13 +48614,15 @@
     ],
     "sources": [],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Nascida do encontro entre um nobre e uma escrava, Hong Eun Jo (Nam Ji Hyun) conhece bem as dificuldades do povo comum, principalmente após o pai adoecer. Durante o dia, Eun Jo trabalha como médica, mas à noite ela assume a identidade de \"Hong Gil Dong\", uma ladra que rouba de oficiais corruptos para distribuir riqueza aos necessitados. As travessuras de Hong Gil Dong atraem a atenção do príncipe Yi Yeol (Moon Sang Min), que tem inclinação para investigações e se sente pessoalmente intrigado pelo mistério da ladra justiceira, embora a maioria dos oficiais do palácio acredite que ele esteja apenas brincando. Durante a sua busca, Yi Yeol encontra Eun Jo e se apaixona à primeira vista. Mas quando Yi Yeol e Eun Jo acabam trocando de corpo, segredos que ambos tentam esconder correm o risco de serem revelados.",
+    "imdb_id": "tt39303266"
   },
   {
     "id": "series-a-procura-do-amor",
     "title": "À Procura do Amor",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/fSjy0zdUuYdpxwFFzoc6GfzYRPP.jpg",
     "genres": [
       "Drama"
@@ -48825,7 +48833,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 3,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Ansiosa por amor, obcecada por sexo, Linda está em busca do amante perfeito. Mas encontrar o Sr. Certo é muito mais difícil do que ela pensava.",
+    "imdb_id": "tt10556338"
   },
   {
     "id": "series-a-procura-do-assassino-aqueles-que-matam-2019",
@@ -50190,13 +50200,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Julie, de 17 anos, está desaparecida há seis meses sem deixar vestígios e a detetive policial Jan está desesperada para dar respostas à mãe. Quando Jan encontra os restos mortais de uma garota de idade similar e outra garota é seqüestrada, Jan pede a Louise ajuda a um perfilador da polícia, para tentar resolver o caso.",
+    "imdb_id": "tt9466596"
   },
   {
     "id": "series-a-prova-de-risco",
     "title": "À Prova de Risco",
     "type": "series",
-    "year": null,
+    "year": "2018",
     "poster_url": "/c9uCCyOgFEvqgbbsaf2UHwm53I.jpg",
     "genres": [
       "Reality"
@@ -50566,7 +50578,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 6,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Tim Kennedy explora as habilidades necessárias para se tornar um piloto de testes.",
+    "imdb_id": "tt8543258"
   },
   {
     "id": "series-a-prova-de-tudo-2006",
@@ -55261,7 +55275,7 @@
     "id": "series-a-tona",
     "title": "À Tona",
     "type": "series",
-    "year": null,
+    "year": "2022",
     "poster_url": "/qx1n4iM443VF2jaS4z1Sm9ykuSR.jpg",
     "genres": [
       "Drama",
@@ -55798,13 +55812,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 8,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Durante uma viagem na Europa, uma mãe solteira é forçada a revisitar seu passado de espiã russa quando um assassino começa a matar pessoas com as mesmas habilidades que ela tinha.",
+    "imdb_id": "tt11859542"
   },
   {
     "id": "series-agua-viva",
     "title": "Água Viva",
     "type": "series",
-    "year": null,
+    "year": "1980",
     "poster_url": "/1BFl7pS1hyFfq0sYhZmiS8j9Qd9.jpg",
     "genres": [
       "Novela",
@@ -65237,13 +65253,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 159,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Nelson, um campeão de pesca, e seu irmão Miguel, renomado cirurgião plástico, disputam pelo amor de Lígia, mulher ambiciosa que procura ascender socialmente de todas as maneiras.",
+    "imdb_id": "tt0138278"
   },
   {
     "id": "series-aguas-do-norte",
     "title": "Águas do Norte",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/lLxkJ3nn5UEGF3urCYndD1DmlIq.jpg",
     "genres": [
       "Drama",
@@ -65739,6 +65757,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 6,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Patrick Sumner é um ex-cirurgião das Forças Armadas. Esperando fugir dos traumas seu passado, ele vai a uma expedição no Ártico. Porém, descobre novos horrores que não imaginava.",
+    "imdb_id": "tt7660970"
   }
 ]

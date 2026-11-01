@@ -35190,7 +35190,7 @@
     "id": "series-sleboda",
     "title": "Śleboda",
     "type": "series",
-    "year": null,
+    "year": "2024",
     "poster_url": "/aIrtJMuUfp4sbUJwrtOtOK1ZrMt.jpg",
     "genres": [
       "Crime",
@@ -35329,6 +35329,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "A trama acompanha Anka Serafin, uma jovem professora e doutora em antropologia de Cracóvia. Em busca de autodescoberta e para fugir de sua rotina sufocante, ela decide viajar para a pitoresca região montanhosa de Podhale, no sul da Polônia, para visitar seus primos.\n\nNo entanto, o retiro pacífico é interrompido abruptamente quando Anka tropeça em um cadáver durante uma caminhada nas montanhas. Ela acaba envolvida em uma perigosa investigação de assassinato repleta de segredos locais e reviravoltas.",
+    "imdb_id": "tt34754029"
   }
 ]

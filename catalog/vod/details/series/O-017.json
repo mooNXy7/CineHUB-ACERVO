@@ -31878,7 +31878,7 @@
     "id": "series-orfaos-da-terra",
     "title": "Órfãos da Terra",
     "type": "series",
-    "year": null,
+    "year": "2019",
     "poster_url": "/bqaYLCvamLZXv4TxwfssxHXJPSd.jpg",
     "genres": [
       "Crime",
@@ -41905,13 +41905,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 154,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Vítimas da guerra da Síria, Missade e Elias fogem para o Líbano com seus filhos, Khaled  Laila – que aceita se casar com o sheik Aziz em troca de dinheiro para pagar o tratamento do irmão, que ficou gravemente ferido. Porém, quando o irmão morre, a moça foge para o Brasil com seus pais, irritando o futuro marido, que envia atrás dela Jamil, seu braço-direito e noivo de sua filha, Dalila, para que traga ela a força.",
+    "imdb_id": "tt10126500"
   },
   {
     "id": "series-ovnis-investigacao-secreta",
     "title": "Óvnis: Investigação Secreta",
     "type": "series",
-    "year": null,
+    "year": "2019",
     "poster_url": "/nvg32rnkTLvc6sU2CPv9FlhoCaj.jpg",
     "genres": [
       "Documentário"
@@ -42758,7 +42760,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 14,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Um ex-funcionário do Pentágono compartilha informações sobre um estranho programa de óvnis em execução nos Estados Unidos, conhecido como Programa Avançado de Identificação de Ameaças Aeroespaciais.",
+    "imdb_id": "tt10016814"
   },
   {
     "id": "series-onus-da-prova",
@@ -44187,7 +44191,7 @@
     "id": "series-ooku-por-dentro-do-castelo",
     "title": "Ōoku: Por Dentro do Castelo",
     "type": "series",
-    "year": null,
+    "year": "2023",
     "poster_url": "/4G1xzjLfI9ZMNb3gSPm89fnEl3o.jpg",
     "genres": [
       "Animação",
@@ -44794,6 +44798,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 10,
-    "subtype": "anime"
+    "subtype": "anime",
+    "overview": "Em um mundo alternativo onde a população masculina foi praticamente dizimada, os homens que se qualificam servem de concubinos para a xogum.",
+    "imdb_id": "tt27250301"
   }
 ]

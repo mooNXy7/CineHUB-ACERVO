@@ -6101,7 +6101,7 @@
     "id": "series-x-men-evolution",
     "title": "X-Men: Evolution",
     "type": "series",
-    "year": null,
+    "year": "2000",
     "poster_url": "/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
     "genres": [
       "Infantil",
@@ -9204,7 +9204,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 52,
-    "subtype": "anime"
+    "subtype": "anime",
+    "overview": "Com base nos quadrinhos populares da Marvel, esta maravilhosa história sobre amadurecimento acompanha adolescentes aparentemente “normais” que podem lançar raios ópticos, levitar objetos e desaparecer à vontade enquanto tentam tirar notas boas na escola.",
+    "imdb_id": "tt0247827"
   },
   {
     "id": "series-xand-aviao-dvds-shows",
@@ -9633,7 +9635,7 @@
     "id": "series-xeque-mate",
     "title": "Xeque Mate",
     "type": "series",
-    "year": null,
+    "year": "1976",
     "poster_url": null,
     "genres": [
       "Novela",
@@ -10215,7 +10217,9 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "São Paulo, 1939. As mansões das famílias tradicionais representam a transição de uma sociedade que evoluiu do ciclo do café para a industrialização. Os viúvos Dr. Arnaldo Lemos e Dona Carolina Bastos são vizinhos em um elegante bairro. Nancy e Lúcia são as filhas de Lemos. Nancy é uma moça que preza a liberdade. Avançada para a sociedade da época, viaja a Paris para desfrutar dos bons anos que precedem a Segunda Guerra Mundial. Lúcia é uma filha dedicada ao pai e ao lar e desligada das questões do coração. Banqueiro, Dr. Lemos é sócio da casa Lemos & Bastos. Seu antigo sócio é o falecido marido de Carolina. Por sua vez, Carolina é mãe de Rodolfo e Helena. Ela está no curso colegial, enquanto Rodolfo é um homem ambicioso, apaixonado por Lúcia, que o despreza.",
+    "imdb_id": "tt0209855"
   },
   {
     "id": "series-xiao-fang",
@@ -11210,13 +11214,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 18,
-    "subtype": "dorama"
+    "subtype": "dorama",
+    "overview": "Na véspera de Ano Novo, Fanyan Yang volta para casa para ajudar seu irmão em uma crise familiar. Sua filha, Xiaofang, está grávida e solteira, e seu relacionamento com Xiaowei Qi acabou. Fanyan descobre muitas conexões com o feto.",
+    "imdb_id": "tt35418163"
   },
   {
     "id": "series-xica-da-silva",
     "title": "Xica da Silva",
     "type": "series",
-    "year": null,
+    "year": "1996",
     "poster_url": "/uWxMIZeg1Mqz0KFOZ1etFdUIuXa.jpg",
     "genres": [
       "Novela",
@@ -23382,13 +23388,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 187,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Obra baseada no livro \"Chica Que Manda\" de Agripa Vasconcellos, narra a história de Xica da Silva, a escrava que conseguiu sua independência e se tornou uma rainha em pleno século XVIII, no Brasil Colonial.\n\nAtrevida e muito inteligente, Xica da Silva foi uma escrava que virou rainha no século 18 no Brasil. Ela conquistou João Fernandes, o homem mais rico e poderoso da época, e deixou de ser escrava, escandalizando a sociedade.",
+    "imdb_id": "tt0138277"
   },
   {
     "id": "series-xiii-the-series",
     "title": "XIII: The Series",
     "type": "series",
-    "year": null,
+    "year": "2011",
     "poster_url": "/jGr9iZFXCl8XOnHOAj17AYz85fr.jpg",
     "genres": [
       "Ação e aventura",
@@ -24946,13 +24954,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 26,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "A trama tem início quando um homem desmemoriado tenta descobrir sua verdadeira identidade. Suas únicas pistas são: o número XIII, em algarismos romanos, tatuado em seu corpo e uma foto sua ao lado da viúva de um Capitão das Forças Armadas. Tentando localizá-la, XIII passa a ser perseguido por assassinos de uma organização secreta que tenta derrubar o governo americano.",
+    "imdb_id": "tt1713938"
   },
   {
     "id": "series-xilindro",
     "title": "Xilindró",
     "type": "series",
-    "year": null,
+    "year": "2016",
     "poster_url": "/dNMWmD3O6UthGWhqZeNgqk5tT19.jpg",
     "genres": [
       "Comédia"
@@ -29858,13 +29868,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 75,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Amadeus é um detento que vive no regime semi-aberto e durante o dia tem um bike-food. Seja no Xilindró ou na rua, ele e sua turma estão sempre aprontando.",
+    "imdb_id": "tt6130384"
   },
   {
     "id": "series-xou-da-xuxa-edicao-especial",
     "title": "Xou da Xuxa - Edição Especial",
     "type": "series",
-    "year": null,
+    "year": "2023",
     "poster_url": "/5r3p41UNDQ5rszmXe1yklXK3YnY.jpg",
     "genres": [],
     "tmdb_id": "291371",
@@ -30881,7 +30893,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 17,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Com brincadeiras e atrações musicais, o Xou da Xuxa foi um marco na televisão brasileira, consagrando a apresentadora Xuxa como a eterna rainha dos baixinhos."
   },
   {
     "id": "series-xtreme-vanguard-baatar",
@@ -32058,7 +32071,7 @@
     "id": "series-xxxholic",
     "title": "xxxHOLiC",
     "type": "series",
-    "year": null,
+    "year": "2006",
     "poster_url": "/k9HSk7qw3j7k6Yhuzhmr5SiglXR.jpg",
     "genres": [
       "Animação",
@@ -32387,6 +32400,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "anime"
+    "subtype": "anime",
+    "overview": "Watanuki Kimihiro, é um jovem estudante que tem o dom de ver e atrair fantasmas e espíritos. Um dia, ao ser atacado por uma ayakashi, acaba entrando em uma loja. A dona do lugar é Ichihara Yuuko, uma mulher que diz que o fato dele ter entrado lá não foi coincidência. Aquela é uma loja onde se realiza desejos, e ele tinha um. Porém para que seja concedido, é necessário pagar um preço equivalente. Watanuki então, deseja não ver mais os espíritos, e para poder pagar o preço, \"aceita\" a oferta de Yuuko para trabalhar em sua loja. A partir desse momento, sua vida muda completamente, pois Watanuki passa a se envolver nas histórias misteriosas dos clientes de Yuuko, e com ela aprende não só sobre as situações mágicas que o cercam, mas também sobre si mesmo.",
+    "imdb_id": "tt0488477"
   }
 ]

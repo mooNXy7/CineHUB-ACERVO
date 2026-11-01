@@ -40716,7 +40716,7 @@
     "id": "series-e-amor-ou-falsidade",
     "title": "É Amor ou Falsidade?",
     "type": "series",
-    "year": null,
+    "year": "2023",
     "poster_url": "/cndCx0UnQdl2wpyOY4nTu5RCu9J.jpg",
     "genres": [
       "Reality"
@@ -41204,13 +41204,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 8,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Cinco casais testam a fidelidade neste reality caliente em que a tecnologia de deepfake mistura verdades e mentiras. O motivo? Um belo prêmio em dinheiro.",
+    "imdb_id": "tt28022865"
   },
   {
     "id": "series-e-o-amor-familia-camargo",
     "title": "É o Amor: Família Camargo",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/ouT39abGsN27ocpWsz8y8ckERha.jpg",
     "genres": [
       "Reality"
@@ -41551,13 +41553,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 5,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Cercados pela família e pelos amigos, Zezé Di Camargo e a filha Wanessa se reúnem para trabalhar juntos em um novo álbum neste reality exclusivo.",
+    "imdb_id": "tt16247236"
   },
   {
     "id": "series-e-ouro-o-brilho-do-brasil-em-toquio",
     "title": "É Ouro! O Brilho do Brasil em Tóquio",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/aBdrE3derKhIXZKsCxy0fu0klRN.jpg",
     "genres": [
       "Documentário"
@@ -42045,13 +42049,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 16,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Por 17 dias, voltamos a experimentar a sensação do abraço da vitória e o orgulho de torcer juntos. É ouro conta a história dos campeões olímpicos brasileiros em Tóquio e uma surpresa extra.",
+    "imdb_id": "tt15353196"
   },
   {
     "id": "series-elite-historias-breves-samuel-omar",
     "title": "Élite Historias Breves: Samuel Omar",
     "type": "series",
-    "year": null,
+    "year": "2021",
     "poster_url": "/yCT0Ss92zzYw2LEk5WNGoA6BBoO.jpg",
     "genres": [
       "Mistério",
@@ -42245,13 +42251,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 3,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Agora que está em remissão, Ander quer passar o verão ajudando seu parceiro de quimioterapia, Alexis, a enfrentar o tratamento.",
+    "imdb_id": "tt16259804"
   },
   {
     "id": "series-eramos-seis",
     "title": "Éramos Seis",
     "type": "series",
-    "year": null,
+    "year": "2019",
     "poster_url": "/pzS9lmilGc3cERf0jW5Dt8JXPFi.jpg",
     "genres": [
       "Novela",
@@ -52272,13 +52280,15 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 154,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Apresenta a história de uma grande família cuja matriarca luta para que se mantenha unida frente às dificuldades sociais e econômicas do início do século XX.",
+    "imdb_id": "tt11065088"
   },
   {
     "id": "series-eta-mundo-bom",
     "title": "Êta Mundo Bom",
     "type": "series",
-    "year": null,
+    "year": "2016",
     "poster_url": "/gAbt0tV2Z0z2zSYEjDzhsyy74d7.jpg",
     "genres": [
       "Novela",
@@ -61706,6 +61716,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 100,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "Candinho foi separado da mãe logo após seu nascimento e acolhido por um casal dono de uma fazenda. Mas quando cresce, Candinho é expulso por se apaixonar pela primogênita, Filomena. Candinho segue para a capital em busca da mãe biológica.",
+    "imdb_id": "tt5615652"
   }
 ]

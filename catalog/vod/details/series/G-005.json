@@ -34377,7 +34377,7 @@
     "id": "series-gen",
     "title": "จะ Gen จนกว่าจะเจอ",
     "type": "series",
-    "year": null,
+    "year": "2026",
     "poster_url": "/jb7rTyqZecAxjPDm35lDZRmh4mv.jpg",
     "genres": [
       "Ficção e fantasia"
@@ -34458,6 +34458,8 @@
     "sources": [],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "subtype": "series"
+    "subtype": "series",
+    "overview": "A introvertida Gen recebe um robô realista parecido com a garota dos seus sonhos. Depois de ativá-la acidentalmente, Gen rapidamente se apega e decide ficar com ela, chamando-a de Ai.",
+    "imdb_id": "tt43250938"
   }
 ]
