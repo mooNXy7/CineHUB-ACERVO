@@ -67,11 +67,11 @@ class CatalogDisplayNormalizationTests(unittest.TestCase):
                 },
             }), encoding="utf-8")
 
-            index_count, detail_count, changed_files = normalize_catalog.normalize_vod_titles(root)
+            index_count, detail_count, index_titles, detail_titles, changed_files = normalize_catalog.normalize_vod_titles(root)
 
             index = json.loads(index_path.read_text(encoding="utf-8"))
             detail = json.loads(detail_path.read_text(encoding="utf-8"))
-            self.assertEqual((index_count, detail_count, changed_files), (1, 1, 2))
+            self.assertEqual((index_count, detail_count, index_titles, detail_titles, changed_files), (1, 1, 1, 1, 2))
             self.assertEqual(index[0]["title"], "A' Test")
             self.assertEqual(detail[0]["title"], "A' Test")
             self.assertEqual(detail[0]["sources"], [{"url": "https://example.com/movie"}])
