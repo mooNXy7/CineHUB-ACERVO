@@ -376,6 +376,18 @@
       "reference_name": "TV Pai Eterno"
     },
     {
+      "channel_id": "ch-ufc-fight-pass-fhd",
+      "reference_name": "UFC Fight Pass"
+    },
+    {
+      "channel_id": "ch-ufc-fight-pass-hd",
+      "reference_name": "UFC Fight Pass"
+    },
+    {
+      "channel_id": "ch-ufc-fight-pass-sd",
+      "reference_name": "UFC Fight Pass"
+    },
+    {
       "channel_id": "ch-usa-network-fhd",
       "reference_name": "USA Network"
     },
@@ -386,6 +398,30 @@
     {
       "channel_id": "ch-usa-network-sd",
       "reference_name": "USA Network"
+    },
+    {
+      "channel_id": "ch-viva-fhd",
+      "reference_name": "Viva"
+    },
+    {
+      "channel_id": "ch-viva-hd",
+      "reference_name": "Viva"
+    },
+    {
+      "channel_id": "ch-viva-sd",
+      "reference_name": "Viva"
+    },
+    {
+      "channel_id": "ch-warner-channel-fhd",
+      "reference_name": "Warner Channel"
+    },
+    {
+      "channel_id": "ch-warner-channel-hd",
+      "reference_name": "Warner Channel"
+    },
+    {
+      "channel_id": "ch-warner-channel-sd",
+      "reference_name": "Warner Channel"
     },
     {
       "channel_id": "ch-x-sports-fhd",
