@@ -17,6 +17,7 @@ on:
     branches:
       - audit/acervo-hardening-2026-10
     paths-ignore:
+      - '.github/enrichment-checkpoint-*.txt'
       - 'catalog/**'
       - 'reports/**'
       - 'docs/**'
