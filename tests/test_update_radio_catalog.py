@@ -121,6 +121,14 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(counts["genres_filled"], 1)
         self.assertEqual(counts["logos_filled"], 1)
 
+    def test_expanded_radio_browser_tags_map_to_canonical_brazilian_genres(self):
+        self.assertEqual(update_radio_catalog.genre_from_tags("ecletica, online"), "Eclética")
+        self.assertEqual(update_radio_catalog.genre_from_tags("sertaneja, Brazil"), "Sertanejo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("futebol, live sports"), "Esportes")
+        self.assertEqual(update_radio_catalog.genre_from_tags("jpop, anime"), "J-Pop")
+        self.assertEqual(update_radio_catalog.genre_from_tags("flash back, anos80"), "Flashback")
+        self.assertEqual(update_radio_catalog.genre_from_tags("entrevistas, local news"), "Jornalismo")
+
     def test_unclassified_station_tags_are_reported_for_followup_mapping(self):
         radios = [{
             "id": "radio.radio-a", "name": "Rádio A FM",
