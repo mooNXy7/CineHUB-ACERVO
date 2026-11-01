@@ -36,7 +36,7 @@ permissions:
 
 concurrency:
   group: acervo-catalog-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
