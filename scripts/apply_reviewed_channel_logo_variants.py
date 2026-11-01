@@ -52,12 +52,15 @@ def apply(root: Path = ROOT) -> dict[str, Any]:
     for channel_id, reference_name in approved.items():
         matches = by_id.get(channel_id, [])
         suggestion = suggestions.get(channel_id)
-        if len(matches) != 1 or not suggestion:
+        if len(matches) != 1:
             skipped_invalid += 1
             continue
         channel = matches[0]
         if str(channel.get("logo_url") or "").strip():
             skipped_existing += 1
+            continue
+        if not suggestion:
+            skipped_invalid += 1
             continue
         if suggestion.get("status") != "quality_marker_normalized_review":
             skipped_unapproved += 1
