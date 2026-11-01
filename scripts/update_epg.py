@@ -196,6 +196,17 @@ def pluto_id(text):
     return match.group(1).lower() if match else None
 
 
+def pluto_id_for_channel(channel: dict, overrides: dict | None = None):
+    channel_id = str(channel.get("id") or "")
+    override = str((overrides or {}).get(channel_id) or "").strip()
+    if re.fullmatch(r"[0-9a-f]{24}", override, re.I):
+        return override.lower()
+    return pluto_id(" ".join([
+        str(channel.get("logo_url") or ""),
+        " ".join(str(x.get("url", "")) for x in channel.get("sources", []) if isinstance(x, dict)),
+    ]))
+
+
 def merge_xmltv_channels(previous: list[dict], incoming: list[dict]) -> list[dict]:
     """Keep previously indexed XMLTV IDs when a fresh feed omits them; merge display names by stable ID."""
     merged: dict[str, dict] = {}
@@ -317,6 +328,7 @@ def main():
     channel_doc = read_json(CHANNELS_FILE, {})
     channels = channel_doc.get("channels", [])
     aliases = map_doc.get("xmltv_aliases", {})
+    pluto_id_overrides = map_doc.get("pluto_id_overrides", {})
     aliases_norm = {normalise(k): [normalise(x) for x in v] for k, v in aliases.items()}
     by_source_names = {}
     for source in xmltv_sources:
@@ -335,10 +347,7 @@ def main():
         if not name:
             continue
         current_sources = []
-        pid = pluto_id(" ".join([
-            str(channel.get("logo_url") or ""),
-            " ".join(str(x.get("url", "")) for x in channel.get("sources", []) if isinstance(x, dict)),
-        ]))
+        pid = pluto_id_for_channel(channel, pluto_id_overrides)
         for source in xmltv_sources:
             sid = source["id"]
             if sid == "pluto-br-xmltv":
