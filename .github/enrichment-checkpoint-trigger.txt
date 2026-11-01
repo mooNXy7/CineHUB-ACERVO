@@ -1,1 +1,0 @@
-Temporary branch-only trigger for the bounded TMDB checkpoint. The workflow is configured to process offsets 9000–13000 in five batches of 1000. Do not merge this marker to main; remove after the checkpoint is verified.
