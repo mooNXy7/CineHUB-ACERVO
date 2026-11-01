@@ -61,6 +61,20 @@ def is_http_url(value):
         return False
 
 
+def safe_radio_stream_url(value):
+    """Radio playback URLs may use provider ports, but must be HTTPS and credential-free."""
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        return (
+            parsed.scheme.lower() == "https"
+            and bool(parsed.hostname)
+            and parsed.username is None
+            and parsed.password is None
+        )
+    except (TypeError, ValueError):
+        return False
+
+
 def validate_radio_catalog(radios, quarantine):
     """Ensure malformed URL-as-name rows stay outside the active radio catalog."""
     errors = []
@@ -78,6 +92,10 @@ def validate_radio_catalog(radios, quarantine):
         if is_http_url(item.get("name")):
             errors.append(
                 f"catalog/radios/radios.json: URL no campo name do registro {item.get('id', '?')}"
+            )
+        if item.get("stream_url") and not safe_radio_stream_url(item.get("stream_url")):
+            errors.append(
+                f"catalog/radios/radios.json: stream_url inseguro/inválido no registro {item.get('id', '?')}"
             )
         if item.get("id"):
             active_ids.add(str(item["id"]))
