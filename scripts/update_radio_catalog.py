@@ -27,8 +27,10 @@ def slug(value: str) -> str:
 
 def parse_radio_source(text: str, source_id: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
     records: list[dict[str, Any]] = []
-    counts = {"lines_seen": 0, "accepted": 0, "malformed": 0, "unsafe_streams": 0}
-    seen: set[tuple[str, str]] = set()
+    counts = {"lines_seen": 0, "accepted": 0, "malformed": 0, "unsafe_streams": 0,
+              "ambiguous_names": 0}
+    seen: dict[str, str] = {}
+    ambiguous_names: set[str] = set()
     for raw in text.splitlines():
         line = raw.strip()
         if not line or line.startswith("#"):
@@ -44,10 +46,19 @@ def parse_radio_source(text: str, source_id: str) -> tuple[list[dict[str, Any]],
         if not safe_https_url(stream_url):
             counts["unsafe_streams"] += 1
             continue
-        key = (normalize_key(name), stream_url)
-        if key in seen:
+        key = normalize_key(name)
+        if key in ambiguous_names:
             continue
-        seen.add(key)
+        if key in seen:
+            if seen[key] == stream_url:
+                continue
+            records = [record for record in records if normalize_key(record["name"]) != key]
+            seen.pop(key, None)
+            ambiguous_names.add(key)
+            counts["accepted"] = max(0, counts["accepted"] - 1)
+            counts["ambiguous_names"] += 1
+            continue
+        seen[key] = stream_url
         records.append({
             "id": "radio." + slug(name),
             "name": name,
