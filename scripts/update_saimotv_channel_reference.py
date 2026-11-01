@@ -120,7 +120,7 @@ def update(root: Path = ROOT, reference_file: Path | None = None) -> dict[str, A
             headers = stream.get("headers") if isinstance(stream.get("headers"), dict) else {}
             user_agent = str(headers.get("user-agent") or headers.get("User-Agent") or "").strip()
             referer = str(headers.get("referer") or headers.get("Referer") or "").strip()
-            if user_agent and len(user_agent) <= 512 and not re.search(r"[\\r\\n]", user_agent):
+            if user_agent and len(user_agent) <= 512 and not re.search(r"[\r\n]", user_agent):
                 source_entry["user_agent"] = user_agent
                 source_entry["userAgent"] = user_agent
             if referer and safe_https_url(referer) and len(referer) <= 2048:
