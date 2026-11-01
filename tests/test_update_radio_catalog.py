@@ -39,6 +39,69 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(records, [])
         self.assertEqual(counts["ambiguous_names"], 1)
 
+    def test_radio_browser_payload_keeps_only_working_brazilian_stations(self):
+        stations = update_radio_catalog.parse_radio_browser_payload([
+            {"name": "Radio A", "countrycode": "BR", "lastcheckok": 1},
+            {"name": "Radio B", "countrycode": "US", "lastcheckok": 1},
+            {"name": "Radio C", "countrycode": "BR", "lastcheckok": 0},
+        ])
+        self.assertEqual([x["name"] for x in stations], ["Radio A"])
+
+    def test_genre_tags_map_only_recognized_categories(self):
+        self.assertEqual(update_radio_catalog.genre_from_tags("brazil, sertanejo, portuguese"), "Sertanejo")
+        self.assertIsNone(update_radio_catalog.genre_from_tags("brazil, portuguese, online"))
+
+    def test_station_favicon_must_belong_to_homepage_domain(self):
+        self.assertEqual(
+            update_radio_catalog.safe_station_favicon({
+                "homepage": "https://radio.example",
+                "favicon": "https://www.radio.example/logo.png",
+            }),
+            "https://www.radio.example/logo.png",
+        )
+        self.assertIsNone(update_radio_catalog.safe_station_favicon({
+            "homepage": "https://radio.example",
+            "favicon": "https://third-party.example/logo.png",
+        }))
+
+    def test_radio_browser_match_requires_exact_name_and_stream_or_unique_name(self):
+        radio = {"name": "Rádio A FM", "stream_url": "https://radio.example/live"}
+        station = {
+            "stationuuid": "station-a", "name": "Radio A",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "countrycode": "BR", "lastcheckok": 1,
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, [station])
+        self.assertEqual(matched, station)
+        self.assertEqual(method, "exact_stream_and_name")
+
+    def test_radio_browser_metadata_fills_only_missing_genre_and_logo(self):
+        radios = [{
+            "id": "radio.radio-a", "name": "Rádio A FM",
+            "stream_url": "https://radio.example/live", "genre": None, "logo_url": None,
+        }]
+        stations = [{
+            "stationuuid": "station-a", "name": "Radio A",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "homepage": "https://radio.example", "favicon": "https://radio.example/logo.png",
+            "tags": "sertanejo,brazil", "countrycode": "BR", "lastcheckok": 1,
+        }]
+        counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        self.assertEqual(radios[0]["genre"], "Sertanejo")
+        self.assertEqual(radios[0]["logo_url"], "https://radio.example/logo.png")
+        self.assertEqual(counts["genres_filled"], 1)
+        self.assertEqual(counts["logos_filled"], 1)
+
+    def test_radio_browser_ambiguous_name_is_not_used(self):
+        radio = {"name": "Rádio A FM", "stream_url": "https://unmatched.example/live"}
+        stations = [
+            {"stationuuid": "a1", "name": "Radio A", "url": "https://one.example/live", "countrycode": "BR", "lastcheckok": 1},
+            {"stationuuid": "a2", "name": "Radio A", "url": "https://two.example/live", "countrycode": "BR", "lastcheckok": 1},
+        ]
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, stations)
+        self.assertIsNone(matched)
+        self.assertEqual(method, "ambiguous_name")
+
     def test_merge_adds_new_station_and_preserves_existing_metadata(self):
         existing = [{
             "id": "radio.radio-a", "name": "Radio A",
