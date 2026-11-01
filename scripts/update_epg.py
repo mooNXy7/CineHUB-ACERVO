@@ -231,8 +231,23 @@ def main():
     health_by_id = old_health.get("sources", {})
     index_by_id = old_indexes.get("sources", {})
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    xmltv_sources = [s for s in sources_doc.get("sources", []) if s.get("enabled") and s.get("format") == "xmltv"]
-    html_sources = [s for s in sources_doc.get("sources", []) if s.get("enabled") and s.get("format") == "html"]
+    all_sources = [s for s in sources_doc.get("sources", []) if isinstance(s, dict)]
+    xmltv_sources = [s for s in all_sources if s.get("enabled") and s.get("format") == "xmltv"]
+    html_sources = [s for s in all_sources if s.get("enabled") and s.get("format") == "html"]
+    disabled_html_sources = [s for s in all_sources if not s.get("enabled") and s.get("format") == "html"]
+    for source in disabled_html_sources:
+        sid = str(source.get("id") or "")
+        previous = health_by_id.get(sid, {})
+        health_by_id[sid] = {
+            "source_id": sid,
+            "checked_at": now,
+            "priority": source.get("priority"),
+            "url": source.get("url") or source.get("probe_url"),
+            "status": "disabled",
+            "last_success_at": previous.get("last_success_at"),
+            "consecutive_failures": int(previous.get("consecutive_failures", 0)),
+            "error": "HTML schedule publication disabled until redistribution permission is confirmed",
+        }
     tasks = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for source in xmltv_sources:
