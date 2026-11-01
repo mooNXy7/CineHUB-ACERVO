@@ -53,5 +53,12 @@ class RadioQuarantineValidationTests(unittest.TestCase):
 
 
 
+    def test_active_radio_requires_a_playback_url(self):
+        radios = {"radios": [{"id": "radio-empty", "name": "Empty FM"}]}
+        errors = validate_catalog.validate_radio_catalog(radios, {"records": []})
+        self.assertTrue(any("stream_url ausente" in error for error in errors))
+
+
+
 if __name__ == "__main__":
     unittest.main()
