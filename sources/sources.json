@@ -22,7 +22,18 @@
       "priority": 10,
       "license": "Uso autorizado pelo mantenedor do repositório de referência para integração de nomes e URLs públicos no catálogo CineHUB; somente campos name e stream HTTPS são lidos.",
       "notes": "Fonte de referência no formato nome|stream. O importador preserva streams, logos e gêneros existentes; conflitos de URL ficam em relatório e não substituem a reprodução atual. Nenhum DRM ou cabeçalho é importado."
+    },
+    {
+      "id": "radio-browser-br-metadata",
+      "name": "Radio Browser — metadados públicos de estações brasileiras",
+      "category": "radio",
+      "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/BR?hidebroken=true&limit=10000&order=name",
+      "format": "radio-browser-json",
+      "enabled": true,
+      "priority": 20,
+      "license": "Dados de estações em domínio público conforme a página oficial Radio Browser — Free for ALL (data license: public domain). Favicons são apenas URLs de referência do site oficial da estação; não são copiados nem re-hospedados.",
+      "notes": "Fonte exclusivamente de metadados. Aplicar tags reconhecidas como gênero e favicon HTTPS apenas quando domínio do favicon corresponder ao homepage e houver correspondência exata e única por nome/stream. Nunca importar ou substituir stream_url, IDs, DRM, headers ou controles de reprodução."
     }
   ],
-  "_instructions": "Add only sources with documented permission and provenance. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json|pipe-delimited), enabled, priority, license, notes."
+  "_instructions": "Add only sources with documented permission and provenance. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json|pipe-delimited|radio-browser-json), enabled, priority, license, notes."
 }
