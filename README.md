@@ -139,3 +139,5 @@ A rotina `scripts/update_radio_catalog.py` lê a fonte autorizada `saimoplayer-r
 ## EPG: fontes e permissões
 
 O ACERVO mantém as associações XMLTV e os mapeamentos de canais. Grades HTML de terceiros não são armazenadas ou redistribuídas sem autorização expressa; `meuguia-br` e `guia-de-tv-br` estão desativadas até confirmação dessa permissão, e os horários HTML antigos dessas fontes são removidos pelo pipeline.
+
+A rotina de rádios também consulta o Radio Browser (dados públicos em domínio público) para preencher somente gêneros reconhecidos e favicons HTTPS do próprio domínio da estação, com correspondência exata e sem alterar streams ou metadados existentes.
