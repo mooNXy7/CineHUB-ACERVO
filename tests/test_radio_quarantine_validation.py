@@ -43,5 +43,15 @@ class RadioQuarantineValidationTests(unittest.TestCase):
 
 
 
+    def test_duplicate_active_radio_ids_are_rejected(self):
+        radios = {"radios": [
+            {"id": "radio-1", "name": "Station One", "stream_url": "https://one.example/live"},
+            {"id": "radio-1", "name": "Station Two", "stream_url": "https://two.example/live"},
+        ]}
+        errors = validate_catalog.validate_radio_catalog(radios, {"records": []})
+        self.assertTrue(any("ID ativo duplicado radio-1" in error for error in errors))
+
+
+
 if __name__ == "__main__":
     unittest.main()
