@@ -1,0 +1,1 @@
+Branch-only retry trigger after fixing the radio-candidate regression test fixture. The bounded metadata workflow remains configured for offsets 9000–13000. Do not merge this marker to main.
