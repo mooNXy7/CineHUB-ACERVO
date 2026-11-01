@@ -128,6 +128,11 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(update_radio_catalog.genre_from_tags("jpop, anime"), "J-Pop")
         self.assertEqual(update_radio_catalog.genre_from_tags("flash back, anos80"), "Flashback")
         self.assertEqual(update_radio_catalog.genre_from_tags("entrevistas, local news"), "Jornalismo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("pop dance"), "Pop")
+        self.assertEqual(update_radio_catalog.genre_from_tags("brasil"), "Música Brasileira")
+        self.assertEqual(update_radio_catalog.genre_from_tags("soft"), "Adulto Contemporâneo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("espiritismo, espiritual"), "Religiosa")
+        self.assertEqual(update_radio_catalog.genre_from_tags("radio espirita"), "Religiosa")
 
     def test_unclassified_station_tags_are_reported_for_followup_mapping(self):
         radios = [{
