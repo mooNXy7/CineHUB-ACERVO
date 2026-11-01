@@ -212,7 +212,7 @@ class _GuiaDeTvParser(HTMLParser):
             self.current_date = parsed_date
             self.last_clock_minutes = None
             self.pending_clock = None
-        if self.pending_start is None:
+        if self.pending_start is None and self.pending_clock is None:
             time_match = re.search(r"\b([01]?\d|2[0-3]):([0-5]\d)\b", data)
             if time_match:
                 self.pending_clock = (int(time_match.group(1)), int(time_match.group(2)))
