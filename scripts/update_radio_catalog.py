@@ -5,7 +5,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
 import unicodedata
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -67,13 +69,63 @@ GENRE_ALIASES = {
     "latin": "Latina",
     "metal": "Metal",
     "alternative": "Alternativa",
+    "alternative pop": "Indie",
+    "indie": "Indie",
+    "indie pop": "Indie",
+    "indie rock": "Rock Alternativo",
+    "dance pop": "Pop",
+    "dance music": "Eletrônica",
+    "edm": "Eletrônica",
+    "electro": "Eletrônica",
+    "disco": "Disco",
+    "classic hits": "Flashback",
+    "nostalgia": "Flashback",
+    "2000s": "Flashback",
+    "rock nacional": "Rock",
+    "pop brasileiro": "Pop",
+    "brazilian": "MPB",
+    "musica brasileira": "MPB",
+    "axe": "Axé",
+    "arrocha": "Arrocha",
+    "brega": "Brega",
+    "funk carioca": "Funk",
+    "funk brasileiro": "Funk",
+    "louvor": "Gospel",
+    "worship": "Gospel",
+    "christian music": "Gospel",
+    "evangelical": "Gospel",
+    "evangelica": "Gospel",
+    "catolica": "Religiosa",
+    "religion": "Religiosa",
+    "radio news": "Jornalismo",
+    "news/talk": "Jornalismo",
+    "noticias": "Jornalismo",
+    "politics": "Jornalismo",
+    "football": "Esportes",
+    "soccer": "Esportes",
+    "sports talk": "Esportes",
+    "culture": "Cultura",
+    "cultura": "Cultura",
+    "educational": "Educativa",
+    "education": "Educativa",
+    "community": "Regional",
+    "local": "Regional",
+    "world music": "Música Mundial",
+    "latin pop": "Latina",
+    "latin music": "Latina",
+    "instrumental": "Instrumental",
+    "ambient": "Ambiental",
+    "lounge": "Lounge",
+    "easy listening": "Adulto Contemporâneo",
 }
 GENRE_PRIORITY = [
     "Sertanejo", "MPB", "Gospel", "Jornalismo", "Esportes", "Pop/Rock",
     "Pop", "Rock Alternativo", "Rock", "Metal", "Eletrônica", "Flashback",
     "Jazz", "Blues", "Clássica", "Samba", "Pagode", "Forró", "Funk",
-    "Hip-Hop", "Rap", "Reggae", "Bossa Nova", "Country", "Regional",
-    "Latina", "Adulto Contemporâneo", "Alternativa", "Religiosa",
+    "Hip-Hop", "Rap", "Reggae", "Bossa Nova", "Axé", "Forró", "Arrocha",
+    "Brega", "Disco", "Indie", "Instrumental", "Ambiental", "Lounge",
+    "Country", "Regional", "Latina", "Música Mundial", "Cultura", "Educativa",
+    "Adulto Contemporâneo", "Alternativa", "Religiosa",
 ]
 
 
@@ -102,6 +154,25 @@ def normalize_stream_url(value: str) -> str:
     netloc = host if port in (None, 443) else f"{host}:{port}"
     path = parsed.path or "/"
     return urlunsplit(("https", netloc, path, parsed.query, ""))
+
+
+
+def fetch_radio_source(url: str, attempts: int = 3) -> str:
+    """Retry transient upstream resets without weakening URL validation."""
+    last_error: Exception | None = None
+    for attempt in range(max(1, attempts)):
+        try:
+            return fetch(url)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in {408, 425, 429, 500, 502, 503, 504}:
+                raise
+            last_error = exc
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as exc:
+            last_error = exc
+        if attempt + 1 < max(1, attempts):
+            time.sleep(1.5 * (2 ** attempt))
+    assert last_error is not None
+    raise last_error
 
 
 def parse_radio_source(text: str, source_id: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
@@ -366,7 +437,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
             failures.append(f"{source_id or '?'}: URL HTTPS ausente/inválida")
             continue
         try:
-            body = fetch(url)
+            body = fetch_radio_source(url)
             if source.get("format") == "pipe-delimited":
                 parsed, counts = parse_radio_source(body, source_id)
                 if not parsed:
