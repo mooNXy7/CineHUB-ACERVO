@@ -11,12 +11,12 @@ on:
       offset:
         description: "Stable starting offset among records with numeric TMDB IDs"
         required: true
-        default: "14000"
+        default: "16000"
         type: string
       batch_count:
         description: "Number of consecutive bounded batches (1–5)"
         required: true
-        default: "2"
+        default: "5"
         type: string
   push:
     branches:
