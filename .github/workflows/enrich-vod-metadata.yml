@@ -16,7 +16,7 @@ on:
       batch_count:
         description: "Number of consecutive bounded batches (1–5)"
         required: true
-        default: "5"
+        default: "2"
         type: string
   push:
     branches:
@@ -40,7 +40,7 @@ concurrency:
 jobs:
   build-patch:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -54,7 +54,7 @@ jobs:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '1000' }}
           OFFSET: ${{ inputs.offset || (github.event_name == 'push' && '14000' || '14000') }}
-          BATCH_COUNT: ${{ inputs.batch_count || '5' }}
+          BATCH_COUNT: ${{ inputs.batch_count || '2' }}
         run: |
           set -euo pipefail
           if [[ -z "$SUPABASE_ANON_KEY" ]]; then
