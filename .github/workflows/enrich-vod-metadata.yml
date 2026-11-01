@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Records with existing TMDB IDs to inspect per batch (1–1000)"
+        description: "Records with existing TMDB IDs to inspect per batch (1–5000)"
         required: true
-        default: "1000"
+        default: "5000"
         type: string
       offset:
         description: "Stable starting offset among records with numeric TMDB IDs"
@@ -14,9 +14,9 @@ on:
         default: "31000"
         type: string
       batch_count:
-        description: "Number of consecutive bounded batches (1–5)"
+        description: "Number of consecutive bounded batches (1–5; default 1)"
         required: true
-        default: "5"
+        default: "1"
         type: string
   push:
     branches:
