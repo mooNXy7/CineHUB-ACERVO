@@ -42,3 +42,5 @@ A extração HTML usa parsers testáveis sem rede e fuso `America/Sao_Paulo`. Um
 ## Fontes HTML e redistribuição
 
 As fontes `meuguia-br` e `guia-de-tv-br` estão desativadas enquanto não houver autorização expressa para armazenar e redistribuir as grades. O pipeline remove os horários HTML previamente publicados dessas fontes. Os códigos e slugs de mapeamento permanecem preservados, e as fontes XMLTV continuam ativas para associação de IDs e cobertura EPG.
+
+Os 64 códigos Meu Guia e 27 slugs Guia de TV permanecem preservados em `catalog/epg/disabled-html-channel-map.json`; `channel-map.json` mantém os mapas HTML vazios para impedir que o cliente CineHUB TV continue consultando essas páginas sem autorização.
