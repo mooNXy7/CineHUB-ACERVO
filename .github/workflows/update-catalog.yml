@@ -82,7 +82,7 @@ jobs:
           if [[ "$GITHUB_REF_NAME" == "audit/acervo-hardening-2026-10" ]]; then
             APPROVE_REFERENCE_IMPORT="true"
           fi
-          if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) || ! -f reports/radio-import-candidates.json ]]; then
+          if [[ "$REF_SHA" != "$LAST_SHA" || ! -f reports/radio-import-candidates.json ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
             git worktree add --detach /tmp/cinehub-acervo-import HEAD
             cleanup() {
