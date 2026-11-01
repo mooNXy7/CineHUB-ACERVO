@@ -1,56 +1,100 @@
-name: Build VOD TMDB ID review candidates
+name: Build and apply high-confidence VOD TMDB ID matches
 
 on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Maximum records without TMDB IDs to search (1–500)"
+        description: "Records without TMDB IDs to search per batch (1–500)"
         required: true
         default: "500"
         type: string
       offset:
         description: "Number of eligible records to skip before this batch"
         required: true
-        default: "1000"
+        default: "0"
         type: string
+      batch_count:
+        description: "Number of consecutive read-only search batches (1–9)"
+        required: true
+        default: "9"
+        type: string
+  push:
+    branches:
+      - audit/acervo-hardening-2026-10
+    paths:
+      - ".github/tmdb-id-review-trigger-*.txt"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: acervo-vod-id-review
+  group: acervo-catalog-update
   cancel-in-progress: false
 
 jobs:
-  suggest:
+  suggest-and-apply:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Generate review-only suggestions through CineHUB Supabase
+      - name: Generate bounded read-only TMDB ID candidate reports
         env:
           CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           LIMIT: ${{ inputs.limit || '500' }}
-          OFFSET: ${{ inputs.offset || '1000' }}
+          OFFSET: ${{ inputs.offset || '0' }}
+          BATCH_COUNT: ${{ inputs.batch_count || '9' }}
         run: |
           set -euo pipefail
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
             echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
             exit 1
           fi
-          python -m py_compile scripts/suggest_vod_tmdb_matches.py
-          python scripts/suggest_vod_tmdb_matches.py \
-            --limit "$LIMIT" \
-            --offset "$OFFSET" \
-            --output "$RUNNER_TEMP/vod-tmdb-id-candidates.json"
-      - name: Upload review-only suggestions
+          if ! [[ "$BATCH_COUNT" =~ ^[1-9]$ ]]; then
+            echo "::error::batch_count must be between 1 and 9."
+            exit 1
+          fi
+          python -m py_compile scripts/suggest_vod_tmdb_matches.py scripts/apply_vod_tmdb_id_candidates.py
+          mkdir -p "$RUNNER_TEMP/vod-tmdb-id-candidates"
+          for ((batch=0; batch<BATCH_COUNT; batch++)); do
+            current_offset=$((OFFSET + batch * LIMIT))
+            report="$RUNNER_TEMP/vod-tmdb-id-candidates/candidates-$current_offset.json"
+            echo "Searching records without TMDB IDs at stable offset $current_offset (limit $LIMIT)."
+            python scripts/suggest_vod_tmdb_matches.py --limit "$LIMIT" --offset "$current_offset" --output "$report"
+          done
+      - name: Apply only unique exact-title and exact-year candidates
+        run: |
+          set -euo pipefail
+          python scripts/apply_vod_tmdb_id_candidates.py \
+            --reports "$RUNNER_TEMP"/vod-tmdb-id-candidates/candidates-*.json \
+            --output reports/tmdb-id-application-summary.json
+          python scripts/validate_catalog.py
+          python -m unittest discover -s tests -v
+      - name: Commit verified TMDB ID assignments to audit branch
+        env:
+          TARGET_BRANCH: audit/acervo-hardening-2026-10
+        run: |
+          set -euo pipefail
+          git add catalog/vod reports/tmdb-id-application-summary.json
+          if git diff --cached --quiet; then
+            echo "No high-confidence TMDB IDs were safe to assign."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "data(vod): assign verified exact-title TMDB IDs"
+            git fetch origin "$TARGET_BRANCH:refs/remotes/origin/$TARGET_BRANCH"
+            git rebase "origin/$TARGET_BRANCH"
+            git push origin "HEAD:$TARGET_BRANCH"
+          fi
+      - name: Upload candidate reports and application summary
         uses: actions/upload-artifact@v4
         with:
-          name: cinehub-vod-tmdb-id-candidates
-          path: ${{ runner.temp }}/vod-tmdb-id-candidates.json
+          name: cinehub-vod-tmdb-id-candidates-and-assignments
+          path: |
+            ${{ runner.temp }}/vod-tmdb-id-candidates/*.json
+            reports/tmdb-id-application-summary.json
           if-no-files-found: error
           retention-days: 7
