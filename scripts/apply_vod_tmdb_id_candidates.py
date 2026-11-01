@@ -168,7 +168,9 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
             id_in_use = any(
                 str(item.get("tmdb_id") or "").strip() == tmdb_id
                 and str(item.get("id") or "") != record_id
-                for item in indexes[section] if isinstance(item, dict)
+                for other_section, other_entries in indexes.items()
+                if (other_section == "movies") == (section == "movies")
+                for item in other_entries if isinstance(item, dict)
             )
             if id_in_use:
                 counts["skipped_tmdb_id_already_used"] += 1
