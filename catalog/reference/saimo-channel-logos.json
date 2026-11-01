@@ -1,36 +1,168 @@
 {
   "schema_version": 1,
   "purpose": "Review-only reference for filling missing channel logos by exact normalized name.",
-  "source": "Authorized references: SaimoTV-Android offline.json and SaimoPlayer/catalogo.txt",
-  "source_note": "Only channel names and HTTPS logo URL references were extracted. The SaimoPlayer additions were limited to approved hosts (Saimo image host, Pluto TV, Claro, Rakuten TV, and UOL); no tv-logo repository assets, streams, headers, DRM, credentials, or playback data were imported. URLs are linked, not re-hosted. Exact-name suggestions are eligible for automatic application; ambiguous variants remain review-only.",
+  "source": "Authorized references: SaimoTV-Android offline.json, SaimoPlayer/catalogo.txt, and Saimo-TV/src/data/channels.ts",
+  "source_note": "Only channel names and HTTPS logo URL references were extracted from the authorized reference repositories. From Saimo-TV/src/data/channels.ts, only name and logo fields were used; streams, headers, DRM keys, credentials, and playback data were not imported. Third-party logo URLs remain external references and are not re-hosted. Existing CineHUB logos are never overwritten; exact normalized-name matching is required for automatic application.",
   "entries": [
+    {
+      "name": "24H Chaves",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Dragon Ball Z",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Friends",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Naruto Clássico",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Os Simpsons",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Pica Pau",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Todo Mundo Odeia o Cris",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "A Fazenda 18 1",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 2",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 3",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 4",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 5",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Feiticeira",
+      "logo_url": "https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png"
+    },
     {
       "name": "A&E",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/aee.png"
+    },
+    {
+      "name": "ABC News",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png"
+    },
+    {
+      "name": "AccuWeather",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/AccuWeather_Logo.svg/512px-AccuWeather_Logo.svg.png"
+    },
+    {
+      "name": "Acumuladores Obsessivos",
+      "logo_url": "https://images.pluto.tv/channels/656e2a4b4261ca00083aa99e/colorLogoPNG.png"
+    },
+    {
+      "name": "Adrenalina Pura TV",
+      "logo_url": "https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png"
     },
     {
       "name": "Adult Swim",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png"
     },
     {
+      "name": "Al Jazeera English",
+      "logo_url": "https://i.imgur.com/7bRVpnu.png"
+    },
+    {
+      "name": "Amazon Prime Video 01",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "Amazon Prime Video 02",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "Amazon Prime Video 04",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "Amazon Sat",
+      "logo_url": "https://i.imgur.com/7rjCS5i.png"
+    },
+    {
       "name": "AMC",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png"
+    },
+    {
+      "name": "AMC Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png"
+    },
+    {
+      "name": "Angel TV",
+      "logo_url": "https://i.imgur.com/qKLEGU7.png"
     },
     {
       "name": "Animal Planet",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/animal-planet.png"
     },
     {
+      "name": "Arte 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png"
+    },
+    {
       "name": "Arte1",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png"
+    },
+    {
+      "name": "Assombrações",
+      "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png"
     },
     {
       "name": "AXN",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png"
     },
     {
+      "name": "Babyfirst",
+      "logo_url": "https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png"
+    },
+    {
       "name": "Band",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png"
+    },
+    {
+      "name": "Band News",
+      "logo_url": "https://img.faz-o-eli.online/bandnews.png"
+    },
+    {
+      "name": "Band RJ",
+      "logo_url": "https://img.faz-o-eli.online/band.png"
+    },
+    {
+      "name": "Band RS",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png"
+    },
+    {
+      "name": "Band SP",
+      "logo_url": "https://img.faz-o-eli.online/band.png"
+    },
+    {
+      "name": "Band Sports",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-sports-br.png"
+    },
+    {
+      "name": "BAND SPORTS HD",
+      "logo_url": "https://img.faz-o-eli.online/bandsports.png"
     },
     {
       "name": "BandNews",
@@ -41,8 +173,52 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/band-sports.png"
     },
     {
+      "name": "BBB CAN 1",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 10",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 2",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 3",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 4",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 5",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 6",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 7",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 8",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
+      "name": "BBB CAN 9",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/bbb.png"
+    },
+    {
       "name": "BBC News",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/bbc-world-news.png"
+    },
+    {
+      "name": "BET Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1784064875197.png"
     },
     {
       "name": "BIS",
@@ -57,12 +233,28 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/bmec-news.png"
     },
     {
+      "name": "Bob Esponja Calça Quadrada",
+      "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png"
+    },
+    {
+      "name": "Boruto: Naruto Next Generations",
+      "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png"
+    },
+    {
       "name": "C3 TV",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/c3-tv.png"
     },
     {
       "name": "Canal Brasil",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png"
+    },
+    {
+      "name": "Canal do Inter",
+      "logo_url": "https://i.imgur.com/TQFWEIS.png"
+    },
+    {
+      "name": "Canal OFF",
+      "logo_url": "https://img.faz-o-eli.online/off.png"
     },
     {
       "name": "Canal Uol",
@@ -85,12 +277,32 @@
       "logo_url": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/s151990_lw_h8_aa._SL170_FMpng_.png"
     },
     {
+      "name": "CazeTV 1",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "CazeTV 2",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "CazeTV 3",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "CBS News New York",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/CBS_News.svg/512px-CBS_News.svg.png"
+    },
+    {
       "name": "CGTN",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cgtn.png"
     },
     {
       "name": "Cinemax",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png"
+    },
+    {
+      "name": "Classique TV",
+      "logo_url": "https://i.imgur.com/rHxcraT.png"
     },
     {
       "name": "CNBC",
@@ -109,16 +321,52 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png"
     },
     {
+      "name": "Combate",
+      "logo_url": "https://img.faz-o-eli.online/combate.png"
+    },
+    {
+      "name": "Comedy Central",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/comedy-central-br.png"
+    },
+    {
+      "name": "Comedy Central Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png"
+    },
+    {
+      "name": "Comedy Central South Park",
+      "logo_url": "https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png"
+    },
+    {
       "name": "Curta!",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/curta!.png"
+    },
+    {
+      "name": "CWB TV",
+      "logo_url": "https://i.imgur.com/S0ISpmU.png"
+    },
+    {
+      "name": "DAZN Combat",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_logo.svg/512px-DAZN_logo.svg.png"
+    },
+    {
+      "name": "Detetives Médicos",
+      "logo_url": "https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png"
     },
     {
       "name": "Discovery Channel",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery.png"
     },
     {
+      "name": "Discovery H&H",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/discovery-home-and-health-lam.png"
+    },
+    {
       "name": "Discovery Home & Health",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png"
+    },
+    {
+      "name": "Discovery ID",
+      "logo_url": "https://img.faz-o-eli.online/discoverychannel.png"
     },
     {
       "name": "Discovery Kids",
@@ -181,6 +429,10 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/dw.png"
     },
     {
+      "name": "DW English",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DW_-_English.svg/512px-DW_-_English.svg.png"
+    },
+    {
       "name": "E!",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/e!.png"
     },
@@ -209,16 +461,48 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/espn-6.png"
     },
     {
+      "name": "Estado Paranormal",
+      "logo_url": "https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG_1732041604478.png"
+    },
+    {
       "name": "Eurochannel",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/euro-channel.png"
+    },
+    {
+      "name": "Euronews",
+      "logo_url": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg"
+    },
+    {
+      "name": "Euronews English",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Euronews_2022.svg/512px-Euronews_2022.svg.png"
+    },
+    {
+      "name": "FailArmy",
+      "logo_url": "https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png"
     },
     {
       "name": "FashionTV",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/fashion-tv.png"
     },
     {
+      "name": "FIFA+",
+      "logo_url": "https://images.pluto.tv/channels/66997e8d3a4ad20008e50be9/colorLogoPNG_1749841306387.png"
+    },
+    {
+      "name": "FIFA+ Português",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png"
+    },
+    {
       "name": "Film & Arts",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png"
+    },
+    {
+      "name": "Filmelier TV",
+      "logo_url": "https://images.pluto.tv/channels/633dcebd80386500074a2461/colorLogoPNG.png"
+    },
+    {
+      "name": "Filmes Suspense",
+      "logo_url": "https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png"
     },
     {
       "name": "Fish TV",
@@ -227,6 +511,10 @@
     {
       "name": "Food Network",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/food-network.png"
+    },
+    {
+      "name": "Fox Sports",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fox_Sports_logo.svg/512px-Fox_Sports_logo.svg.png"
     },
     {
       "name": "France 24",
@@ -241,16 +529,60 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png"
     },
     {
+      "name": "Geekdot",
+      "logo_url": "https://i.imgur.com/jML1u4O.png"
+    },
+    {
+      "name": "Globo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo AM",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
       "name": "Globo Brasília",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo CE",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo DF",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo ES",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo GO",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo MG",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
     },
     {
       "name": "Globo Minas",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
     },
     {
+      "name": "Globo News",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-news-br.png"
+    },
+    {
       "name": "Globo Nordeste",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo PB",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo PE",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
     },
     {
       "name": "Globo RBS TV Porto Alegre",
@@ -261,12 +593,24 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
     },
     {
+      "name": "Globo RJ",
+      "logo_url": "https://img.faz-o-eli.online/globorj.png"
+    },
+    {
       "name": "Globo RPC Curitiba",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png"
     },
     {
+      "name": "Globo RS",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
       "name": "Globo São Paulo",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Globo SP",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
     },
     {
       "name": "GloboNews",
@@ -289,8 +633,20 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/gnt.png"
     },
     {
+      "name": "Gospel Cartoon",
+      "logo_url": "https://i.imgur.com/yxjPno5.png"
+    },
+    {
+      "name": "Gospel Movie TV",
+      "logo_url": "https://i.imgur.com/cQN3nWt.png"
+    },
+    {
       "name": "HBO",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/hbo.png"
+    },
+    {
+      "name": "HBO 2",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-2-br.png"
     },
     {
       "name": "HBO Family",
@@ -361,12 +717,28 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/history-2.png"
     },
     {
+      "name": "Homeful",
+      "logo_url": "https://images.pluto.tv/channels/67603668f433320008760af1/colorLogoPNG.png"
+    },
+    {
+      "name": "IMPD",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Logotipo_da_Rede_Mundial.jpg"
+    },
+    {
       "name": "Investigação Discovery",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png"
     },
     {
+      "name": "Investigation Discovery",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/investigation-discovery-int.png"
+    },
+    {
       "name": "Jovem Pan News",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/jp-news-vertical.png"
+    },
+    {
+      "name": "Kuriakos Kids",
+      "logo_url": "https://i.imgur.com/SRX6EPY.png"
     },
     {
       "name": "Lifetime",
@@ -377,6 +749,18 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/lmc-plus.png"
     },
     {
+      "name": "Mais MasterChef Brasil",
+      "logo_url": "https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png"
+    },
+    {
+      "name": "MasterChef",
+      "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png"
+    },
+    {
+      "name": "MAX 03",
+      "logo_url": "https://img.faz-o-eli.online/max.png"
+    },
+    {
       "name": "Megapix",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png"
     },
@@ -385,16 +769,40 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/mezzo-live-hd.png"
     },
     {
+      "name": "Mistérios sem Solução",
+      "logo_url": "https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png"
+    },
+    {
       "name": "Modo Viagem",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/modo-viagem.png"
+    },
+    {
+      "name": "MTV",
+      "logo_url": "https://img.faz-o-eli.online/mtv.png"
     },
     {
       "name": "MTV 00s",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/mtv-00s.png"
     },
     {
+      "name": "MTV Biggest Pop",
+      "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png"
+    },
+    {
       "name": "MTV Live",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/mtv-live-hd.png"
+    },
+    {
+      "name": "MTV Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png"
+    },
+    {
+      "name": "MTV Reality",
+      "logo_url": "https://images.pluto.tv/channels/6851bdfc9ac48fde5e07f5ae/colorLogoPNG_1783347653051.png"
+    },
+    {
+      "name": "MTV Rocks",
+      "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png"
     },
     {
       "name": "Multishow",
@@ -405,12 +813,76 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/music-boxbrazil.png"
     },
     {
+      "name": "MyTime Movie",
+      "logo_url": "https://i.imgur.com/aiGQtzI.png"
+    },
+    {
+      "name": "N SPORTS",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nat_Geo_Wild_logo.svg/512px-Nat_Geo_Wild_logo.svg.png"
+    },
+    {
+      "name": "National Geographic",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeo.svg/512px-Natgeo.svg.png"
+    },
+    {
+      "name": "NatureTime",
+      "logo_url": "https://images.pluto.tv/channels/681ba2ad93d3d19bcab47433/colorLogoPNG_1785430696843.png"
+    },
+    {
+      "name": "Nick Jr. Club",
+      "logo_url": "https://images.pluto.tv/channels/6824ce95f09106f4b18f4114/colorLogoPNG_1747935179470.png"
+    },
+    {
+      "name": "Nickelodeon",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/nickelodeon-lam.png"
+    },
+    {
+      "name": "Nickelodeon Clássico",
+      "logo_url": "https://images.pluto.tv/channels/6824ce10c5d53e1351ceb8d1/colorLogoPNG_1788384899252.png"
+    },
+    {
+      "name": "Nickelodeon iCarly",
+      "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png"
+    },
+    {
+      "name": "Nickelodeon Teen",
+      "logo_url": "https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png"
+    },
+    {
+      "name": "Nickelodeon Toons",
+      "logo_url": "https://images.pluto.tv/channels/645951c0e94c38000802d2cb/colorLogoPNG_1767888119852.png"
+    },
+    {
       "name": "NSports",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
     },
     {
+      "name": "O Homem que veio do Céu",
+      "logo_url": "https://images.pluto.tv/channels/62052d3b4eeb740007fbe125/colorLogoPNG_1732044609381.png"
+    },
+    {
+      "name": "O Reino Infantil",
+      "logo_url": "https://images.pluto.tv/channels/5f5c216df68f920007888315/colorLogoPNG.png"
+    },
+    {
+      "name": "O-la-la!",
+      "logo_url": "https://i.imgur.com/6aOmZs4.png"
+    },
+    {
       "name": "Off",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-off.png"
+    },
+    {
+      "name": "Paramount+",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/paramount-plus-int.png"
+    },
+    {
+      "name": "Paramount+ (Jogo 1)",
+      "logo_url": "https://img.faz-o-eli.online/paramountplus.png"
     },
     {
       "name": "Paramount+ 1",
@@ -429,452 +901,12 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-4.png"
     },
     {
-      "name": "Play TV",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/play-tv.png"
-    },
-    {
-      "name": "Premiere 2",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-2.png"
-    },
-    {
-      "name": "Premiere 3",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-3.png"
-    },
-    {
-      "name": "Premiere 4",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-4.png"
-    },
-    {
-      "name": "Premiere 5",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-5.png"
-    },
-    {
-      "name": "Premiere 6",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-6.png"
-    },
-    {
-      "name": "Premiere 7",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-7.png"
-    },
-    {
-      "name": "Premiere 8",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-8.png"
-    },
-    {
-      "name": "Premiere Clubes",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png"
-    },
-    {
-      "name": "Prime Box Brazil",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/prime-boxbrazil.png"
-    },
-    {
-      "name": "RAI Italia",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rai-italia.png"
-    },
-    {
-      "name": "Record News",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png"
-    },
-    {
-      "name": "Record TV São Paulo",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
-    },
-    {
-      "name": "Rede Vida",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rede-vida.png"
-    },
-    {
-      "name": "RedeTV!",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/redetv!.png"
-    },
-    {
-      "name": "Sabor & Arte",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png"
-    },
-    {
-      "name": "SBT",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png"
-    },
-    {
-      "name": "SBT News",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png"
-    },
-    {
-      "name": "Sony Channel",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sony.png"
-    },
-    {
-      "name": "Sony Movies",
-      "logo_url": "https://media.cdn.telefonica.com//storagearea0/IMAGES/00/14/89/14890843_FA36D119CE56B664.png"
-    },
-    {
-      "name": "Space",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png"
-    },
-    {
-      "name": "SporTV",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv.png"
-    },
-    {
-      "name": "SporTV 2",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-2.png"
-    },
-    {
-      "name": "SporTV 3",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-3.png"
-    },
-    {
-      "name": "SportyNet",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png"
-    },
-    {
-      "name": "SportyNet+ 1",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png"
-    },
-    {
-      "name": "SportyNet+ 2",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png"
-    },
-    {
-      "name": "SportyNet+ 3",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png"
-    },
-    {
-      "name": "Studio Universal",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png"
-    },
-    {
-      "name": "Telecine Action",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-action.png"
-    },
-    {
-      "name": "Telecine Cult",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-cult.png"
-    },
-    {
-      "name": "Telecine Fun",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-fun.png"
-    },
-    {
-      "name": "Telecine Pipoca",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-pipoca.png"
-    },
-    {
-      "name": "Telecine Premium",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-premium.png"
-    },
-    {
-      "name": "Telecine Touch",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-touch.png"
-    },
-    {
-      "name": "TLC",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tlc.png"
-    },
-    {
-      "name": "TNT",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png"
-    },
-    {
-      "name": "TNT Novelas",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png"
-    },
-    {
-      "name": "TNT Séries",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png"
-    },
-    {
-      "name": "Trace Brasil",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brasil.png"
-    },
-    {
-      "name": "Travel Box Brazil",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-boxbrazil.png"
-    },
-    {
-      "name": "Travel Food & Drinks",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-food-e-drinks.png"
-    },
-    {
-      "name": "Trip Brasil Channel",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trip-brasil-channel.png"
-    },
-    {
-      "name": "TV Aparecida",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png"
-    },
-    {
-      "name": "TV Brasil",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png"
-    },
-    {
-      "name": "TV Cultura",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png"
-    },
-    {
-      "name": "TV Gazeta",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png"
-    },
-    {
-      "name": "TV Rá-Tim-Bum",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-ra-tim-bum.png"
-    },
-    {
-      "name": "TV5Monde",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-5-monde.png"
-    },
-    {
-      "name": "TVE Internacional",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tve.png"
-    },
-    {
-      "name": "Universal Premiere",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-premiere.png"
-    },
-    {
-      "name": "Universal Reality",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png"
-    },
-    {
-      "name": "Universal TV",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal.png"
-    },
-    {
-      "name": "USA",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
-    },
-    {
-      "name": "Warner",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/warner-channel.png"
-    },
-    {
-      "name": "WooHoo",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/woohoo.png"
-    },
-    {
-      "name": "Xsports",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/xsports.png"
-    },
-    {
-      "name": "Canal OFF",
-      "logo_url": "https://img.faz-o-eli.online/off.png"
-    },
-    {
-      "name": "Globo SP",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
-    },
-    {
-      "name": "Record",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
-    },
-    {
-      "name": "AMC Séries",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png"
-    },
-    {
-      "name": "USA Network",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
-    },
-    {
-      "name": "Globo",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
-    },
-    {
-      "name": "Tooncast",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tooncast.png"
-    },
-    {
-      "name": "Arte 1",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png"
-    },
-    {
-      "name": "TCM",
-      "logo_url": "https://img.faz-o-eli.online/tcm.png"
-    },
-    {
-      "name": "Band News",
-      "logo_url": "https://img.faz-o-eli.online/bandnews.png"
-    },
-    {
-      "name": "BAND SPORTS HD",
-      "logo_url": "https://img.faz-o-eli.online/bandsports.png"
-    },
-    {
-      "name": "Discovery ID",
-      "logo_url": "https://img.faz-o-eli.online/discoverychannel.png"
-    },
-    {
-      "name": "X Sports",
-      "logo_url": "https://img.faz-o-eli.online/xsports.png"
-    },
-    {
-      "name": "N SPORTS",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
-    },
-    {
-      "name": "Band SP",
-      "logo_url": "https://img.faz-o-eli.online/band.png"
-    },
-    {
-      "name": "Band RS",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png"
-    },
-    {
-      "name": "SBT SP",
-      "logo_url": "https://img.faz-o-eli.online/sbt.png"
-    },
-    {
-      "name": "Record SP",
-      "logo_url": "https://img.faz-o-eli.online/record.png"
-    },
-    {
-      "name": "TV Pai Eterno",
-      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png"
-    },
-    {
-      "name": "Trace Brazuca",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png"
-    },
-    {
-      "name": "TV Justiça",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png"
-    },
-    {
-      "name": "Euronews",
-      "logo_url": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg"
-    },
-    {
-      "name": "A Feiticeira",
-      "logo_url": "https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png"
-    },
-    {
-      "name": "Acumuladores Obsessivos",
-      "logo_url": "https://images.pluto.tv/channels/656e2a4b4261ca00083aa99e/colorLogoPNG.png"
-    },
-    {
-      "name": "Adrenalina Pura TV",
-      "logo_url": "https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png"
-    },
-    {
-      "name": "Assombrações",
-      "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png"
-    },
-    {
-      "name": "BET Pluto TV",
-      "logo_url": "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1784064875197.png"
-    },
-    {
-      "name": "Babyfirst",
-      "logo_url": "https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png"
-    },
-    {
-      "name": "Bob Esponja Calça Quadrada",
-      "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png"
-    },
-    {
-      "name": "Boruto: Naruto Next Generations",
-      "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png"
-    },
-    {
-      "name": "Comedy Central Pluto TV",
-      "logo_url": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png"
-    },
-    {
-      "name": "Comedy Central South Park",
-      "logo_url": "https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png"
-    },
-    {
-      "name": "Detetives Médicos",
-      "logo_url": "https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png"
-    },
-    {
-      "name": "Estado Paranormal",
-      "logo_url": "https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG_1732041604478.png"
-    },
-    {
-      "name": "FIFA+",
-      "logo_url": "https://images.pluto.tv/channels/66997e8d3a4ad20008e50be9/colorLogoPNG_1749841306387.png"
-    },
-    {
-      "name": "FailArmy",
-      "logo_url": "https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png"
-    },
-    {
-      "name": "Filmelier TV",
-      "logo_url": "https://images.pluto.tv/channels/633dcebd80386500074a2461/colorLogoPNG.png"
-    },
-    {
-      "name": "Filmes Suspense",
-      "logo_url": "https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png"
-    },
-    {
-      "name": "Homeful",
-      "logo_url": "https://images.pluto.tv/channels/67603668f433320008760af1/colorLogoPNG.png"
-    },
-    {
-      "name": "MTV Biggest Pop",
-      "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png"
-    },
-    {
-      "name": "MTV Pluto TV",
-      "logo_url": "https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png"
-    },
-    {
-      "name": "MTV Reality",
-      "logo_url": "https://images.pluto.tv/channels/6851bdfc9ac48fde5e07f5ae/colorLogoPNG_1783347653051.png"
-    },
-    {
-      "name": "MTV Rocks",
-      "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png"
-    },
-    {
-      "name": "Mais MasterChef Brasil",
-      "logo_url": "https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png"
-    },
-    {
-      "name": "MasterChef",
-      "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png"
-    },
-    {
-      "name": "Mistérios sem Solução",
-      "logo_url": "https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png"
-    },
-    {
-      "name": "NatureTime",
-      "logo_url": "https://images.pluto.tv/channels/681ba2ad93d3d19bcab47433/colorLogoPNG_1785430696843.png"
-    },
-    {
-      "name": "Nick Jr. Club",
-      "logo_url": "https://images.pluto.tv/channels/6824ce95f09106f4b18f4114/colorLogoPNG_1747935179470.png"
-    },
-    {
-      "name": "Nickelodeon Clássico",
-      "logo_url": "https://images.pluto.tv/channels/6824ce10c5d53e1351ceb8d1/colorLogoPNG_1788384899252.png"
-    },
-    {
-      "name": "Nickelodeon Teen",
-      "logo_url": "https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png"
-    },
-    {
-      "name": "Nickelodeon Toons",
-      "logo_url": "https://images.pluto.tv/channels/645951c0e94c38000802d2cb/colorLogoPNG_1767888119852.png"
-    },
-    {
-      "name": "Nickelodeon iCarly",
-      "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png"
-    },
-    {
-      "name": "O Homem que veio do Céu",
-      "logo_url": "https://images.pluto.tv/channels/62052d3b4eeb740007fbe125/colorLogoPNG_1732044609381.png"
-    },
-    {
-      "name": "O Reino Infantil",
-      "logo_url": "https://images.pluto.tv/channels/5f5c216df68f920007888315/colorLogoPNG.png"
-    },
-    {
       "name": "PFL MMA",
       "logo_url": "https://images.pluto.tv/channels/64f6180130ab3300083d896b/colorLogoPNG.png"
+    },
+    {
+      "name": "Play TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/play-tv.png"
     },
     {
       "name": "Pluto TV Aliens",
@@ -957,20 +989,20 @@
       "logo_url": "https://images.pluto.tv/channels/5fa15ad6367e170007cdd098/colorLogoPNG.png"
     },
     {
-      "name": "Pluto TV Filmes Aventura",
-      "logo_url": "https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png"
-    },
-    {
       "name": "Pluto TV Filmes Ação",
       "logo_url": "https://images.pluto.tv/channels/5f120f41b7d403000783a6d6/colorLogoPNG.png"
     },
     {
-      "name": "Pluto TV Filmes Nacionais",
-      "logo_url": "https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png"
+      "name": "Pluto TV Filmes Aventura",
+      "logo_url": "https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png"
     },
     {
       "name": "Pluto TV Filmes de Luta",
       "logo_url": "https://images.pluto.tv/channels/6806d62369aec5b19cd628c0/colorLogoPNG_1746817781806.png"
+    },
+    {
+      "name": "Pluto TV Filmes Nacionais",
+      "logo_url": "https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png"
     },
     {
       "name": "Pluto TV História",
@@ -985,12 +1017,12 @@
       "logo_url": "https://images.pluto.tv/channels/5f12141b146d760007934ea7/colorLogoPNG.png"
     },
     {
-      "name": "Pluto TV KFOOD",
-      "logo_url": "https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png"
-    },
-    {
       "name": "Pluto TV Karaokê por Stingray",
       "logo_url": "https://images.pluto.tv/channels/604b99d633a72b00078e05ad/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV KFOOD",
+      "logo_url": "https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png"
     },
     {
       "name": "Pluto TV Kids",
@@ -1037,14 +1069,6 @@
       "logo_url": "https://images.pluto.tv/channels/5f1212ad1728050007a523b8/colorLogoPNG.png"
     },
     {
-      "name": "Pluto TV Shows por Stingray",
-      "logo_url": "https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png"
-    },
-    {
-      "name": "Pluto TV Star Trek",
-      "logo_url": "https://images.pluto.tv/channels/5f99ac4fded33000078f29ab/colorLogoPNG_1753988616763.png"
-    },
-    {
       "name": "Pluto TV Séries Ação",
       "logo_url": "https://images.pluto.tv/channels/6474ab1da51cb80008bfb5f4/colorLogoPNG.png"
     },
@@ -1069,6 +1093,14 @@
       "logo_url": "https://images.pluto.tv/channels/63d2ba2f60bc8f0008981a0e/colorLogoPNG.png"
     },
     {
+      "name": "Pluto TV Shows por Stingray",
+      "logo_url": "https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Star Trek",
+      "logo_url": "https://images.pluto.tv/channels/5f99ac4fded33000078f29ab/colorLogoPNG_1753988616763.png"
+    },
+    {
       "name": "Pluto TV Terror Trash",
       "logo_url": "https://images.pluto.tv/channels/66aa67493a4ad2000806d91b/colorLogoPNG.png"
     },
@@ -1085,148 +1117,48 @@
       "logo_url": "https://images.pluto.tv/channels/5f32d4d9ec194100070c7449/colorLogoPNG_1732044921019.png"
     },
     {
+      "name": "Premiere",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png"
+    },
+    {
+      "name": "Premiere 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-2.png"
+    },
+    {
+      "name": "Premiere 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-3.png"
+    },
+    {
+      "name": "Premiere 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-4.png"
+    },
+    {
+      "name": "Premiere 5",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-5.png"
+    },
+    {
+      "name": "Premiere 6",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-6.png"
+    },
+    {
+      "name": "Premiere 7",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-7.png"
+    },
+    {
+      "name": "Premiere 8",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere-8.png"
+    },
+    {
+      "name": "Premiere Clubes",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/premiere.png"
+    },
+    {
+      "name": "Prime Box Brazil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/prime-boxbrazil.png"
+    },
+    {
       "name": "Pronto-socorro: Histórias De Emergência",
       "logo_url": "https://images.pluto.tv/channels/61bb72a7bf8c520007a8fd27/colorLogoPNG.png"
-    },
-    {
-      "name": "RACER Brasil",
-      "logo_url": "https://images.pluto.tv/channels/65a6818c7bdc8d0008457b21/colorLogoPNG_1746817068891.png"
-    },
-    {
-      "name": "Realmadrid TV",
-      "logo_url": "https://images.pluto.tv/channels/63dac28760bc8f0008a7654b/colorLogoPNG.png"
-    },
-    {
-      "name": "Runtime",
-      "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png"
-    },
-    {
-      "name": "SFT Combat",
-      "logo_url": "https://images.pluto.tv/channels/6660b636cb3ea10008429c6a/colorLogoPNG.png"
-    },
-    {
-      "name": "Smithsonian Channel Pluto TV",
-      "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png"
-    },
-    {
-      "name": "South Park: Coleção Cartman",
-      "logo_url": "https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png"
-    },
-    {
-      "name": "South Park: Coleção Kenny",
-      "logo_url": "https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png"
-    },
-    {
-      "name": "South Park: Coleção Kyle",
-      "logo_url": "https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png"
-    },
-    {
-      "name": "Tastemade",
-      "logo_url": "https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png"
-    },
-    {
-      "name": "Tastemade Casa",
-      "logo_url": "https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png"
-    },
-    {
-      "name": "Tastemade Viagem",
-      "logo_url": "https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png"
-    },
-    {
-      "name": "The Pet Collective",
-      "logo_url": "https://images.pluto.tv/channels/5f515ebac01c0f00080e8439/colorLogoPNG.png"
-    },
-    {
-      "name": "Tokusato",
-      "logo_url": "https://images.pluto.tv/channels/5ff609de50ab210008025c1b/colorLogoPNG.png"
-    },
-    {
-      "name": "Top Barça",
-      "logo_url": "https://images.pluto.tv/channels/6888ee858f4a4aa11feb9430/colorLogoPNG_1753987309681.png"
-    },
-    {
-      "name": "UFC",
-      "logo_url": "https://images.pluto.tv/channels/69a20556814d27f4ae630a92/colorLogoPNG_1772226745279.png"
-    },
-    {
-      "name": "World Poker Tour",
-      "logo_url": "https://images.pluto.tv/channels/63eba66da8b2270008436b10/colorLogoPNG.png"
-    },
-    {
-      "name": "Yu-Gi-Oh",
-      "logo_url": "https://images.pluto.tv/channels/63988a50be012600070f5db3/colorLogoPNG.png"
-    },
-    {
-      "name": "Z Nation",
-      "logo_url": "https://images.pluto.tv/channels/66b3af48d2d50d00083d6936/colorLogoPNG_1785430432127.png"
-    },
-    {
-      "name": "Amazon Prime Video 01",
-      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
-    },
-    {
-      "name": "Amazon Prime Video 02",
-      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
-    },
-    {
-      "name": "Combate",
-      "logo_url": "https://img.faz-o-eli.online/combate.png"
-    },
-    {
-      "name": "Paramount+ (Jogo 1)",
-      "logo_url": "https://img.faz-o-eli.online/paramountplus.png"
-    },
-    {
-      "name": "SportyNet 01",
-      "logo_url": "https://img.faz-o-eli.online/sportynet.png"
-    },
-    {
-      "name": "UFC Fight Pass 01",
-      "logo_url": "https://img.faz-o-eli.online/ufcfightpass.png"
-    },
-    {
-      "name": "Band RJ",
-      "logo_url": "https://img.faz-o-eli.online/band.png"
-    },
-    {
-      "name": "SBT RJ",
-      "logo_url": "https://img.faz-o-eli.online/sbt.png"
-    },
-    {
-      "name": "24H Chaves",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Dragon Ball Z",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Naruto Clássico",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Os Simpsons",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Pica Pau",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Todo Mundo Odeia o Cris",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "24H Friends",
-      "logo_url": "https://img.faz-o-eli.online/24h.png"
-    },
-    {
-      "name": "CazeTV 1",
-      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
-    },
-    {
-      "name": "CazeTV 2",
-      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
     },
     {
       "name": "PT - A Bola",
@@ -1281,100 +1213,384 @@
       "logo_url": "https://img.faz-o-eli.online/sportv.png"
     },
     {
-      "name": "Globo AM",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "RACER Brasil",
+      "logo_url": "https://images.pluto.tv/channels/65a6818c7bdc8d0008457b21/colorLogoPNG_1746817068891.png"
     },
     {
-      "name": "Globo CE",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "RAI Italia",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rai-italia.png"
     },
     {
-      "name": "Globo ES",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "Realmadrid TV",
+      "logo_url": "https://images.pluto.tv/channels/63dac28760bc8f0008a7654b/colorLogoPNG.png"
     },
     {
-      "name": "Globo GO",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
-    },
-    {
-      "name": "Globo PB",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
-    },
-    {
-      "name": "Globo PE",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
-    },
-    {
-      "name": "Globo RJ",
-      "logo_url": "https://img.faz-o-eli.online/globorj.png"
-    },
-    {
-      "name": "Globo RS",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "Record",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
     },
     {
       "name": "Record GO",
       "logo_url": "https://img.faz-o-eli.online/record.png"
     },
     {
+      "name": "Record Internacional",
+      "logo_url": "https://i.imgur.com/sz9gTTr.png"
+    },
+    {
       "name": "Record MG",
       "logo_url": "https://img.faz-o-eli.online/record.png"
+    },
+    {
+      "name": "Record News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png"
     },
     {
       "name": "Record RJ",
       "logo_url": "https://img.faz-o-eli.online/record.png"
     },
     {
-      "name": "MTV",
-      "logo_url": "https://img.faz-o-eli.online/mtv.png"
+      "name": "Record SP",
+      "logo_url": "https://img.faz-o-eli.online/record.png"
     },
     {
-      "name": "A Fazenda 18 1",
-      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+      "name": "Record TV",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png"
     },
     {
-      "name": "A Fazenda 18 2",
-      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+      "name": "Record TV São Paulo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
     },
     {
-      "name": "A Fazenda 18 3",
-      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+      "name": "Red Bull TV",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/RedBullTV_logo.svg/512px-RedBullTV_logo.svg.png"
     },
     {
-      "name": "A Fazenda 18 4",
-      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+      "name": "Rede Gospel",
+      "logo_url": "https://i.imgur.com/mttSwgO.png"
     },
     {
-      "name": "A Fazenda 18 5",
-      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+      "name": "Rede Vida",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rede-vida.png"
     },
     {
-      "name": "CazeTV 3",
-      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+      "name": "RedeTV!",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/redetv!.png"
     },
     {
-      "name": "Globo DF",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "RT Documentary",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/RT_logo.svg"
     },
     {
-      "name": "Globo MG",
-      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+      "name": "Runtime",
+      "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png"
     },
     {
-      "name": "MAX 03",
-      "logo_url": "https://img.faz-o-eli.online/max.png"
+      "name": "Sabor & Arte",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png"
     },
     {
-      "name": "Amazon Prime Video 04",
-      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+      "name": "SBT",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png"
+    },
+    {
+      "name": "SBT Interior",
+      "logo_url": "https://i.imgur.com/IkZfa4j.png"
+    },
+    {
+      "name": "SBT News",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png"
+    },
+    {
+      "name": "SBT RJ",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png"
+    },
+    {
+      "name": "SBT SP",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png"
+    },
+    {
+      "name": "Sertão TV",
+      "logo_url": "https://i.imgur.com/b5xOCsC.png"
+    },
+    {
+      "name": "SFT Combat",
+      "logo_url": "https://images.pluto.tv/channels/6660b636cb3ea10008429c6a/colorLogoPNG.png"
+    },
+    {
+      "name": "Smithsonian Channel Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png"
+    },
+    {
+      "name": "Sony Channel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sony.png"
+    },
+    {
+      "name": "Sony Movies",
+      "logo_url": "https://media.cdn.telefonica.com//storagearea0/IMAGES/00/14/89/14890843_FA36D119CE56B664.png"
+    },
+    {
+      "name": "South Park: Coleção Cartman",
+      "logo_url": "https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png"
+    },
+    {
+      "name": "South Park: Coleção Kenny",
+      "logo_url": "https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png"
+    },
+    {
+      "name": "South Park: Coleção Kyle",
+      "logo_url": "https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png"
+    },
+    {
+      "name": "Space",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png"
+    },
+    {
+      "name": "SporTV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv.png"
+    },
+    {
+      "name": "SporTV 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-2.png"
+    },
+    {
+      "name": "SporTV 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportv-3.png"
     },
     {
       "name": "SporTV 4",
       "logo_url": "https://img.faz-o-eli.online/sportv4.png"
     },
     {
+      "name": "SportyNet",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png"
+    },
+    {
+      "name": "SportyNet 01",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png"
+    },
+    {
+      "name": "SportyNet+ 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png"
+    },
+    {
+      "name": "SportyNet+ 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png"
+    },
+    {
+      "name": "SportyNet+ 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png"
+    },
+    {
       "name": "Star Channel",
       "logo_url": "https://img.faz-o-eli.online/starchannel.png"
+    },
+    {
+      "name": "Studio Universal",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png"
+    },
+    {
+      "name": "STZ TV",
+      "logo_url": "https://i.imgur.com/SeF2I7q.png"
+    },
+    {
+      "name": "Tastemade",
+      "logo_url": "https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png"
+    },
+    {
+      "name": "Tastemade Casa",
+      "logo_url": "https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png"
+    },
+    {
+      "name": "Tastemade Viagem",
+      "logo_url": "https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png"
+    },
+    {
+      "name": "TCM",
+      "logo_url": "https://img.faz-o-eli.online/tcm.png"
+    },
+    {
+      "name": "Telecine Action",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-action.png"
+    },
+    {
+      "name": "Telecine Cult",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-cult.png"
+    },
+    {
+      "name": "Telecine Fun",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-fun.png"
+    },
+    {
+      "name": "Telecine Pipoca",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-pipoca.png"
+    },
+    {
+      "name": "Telecine Premium",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-premium.png"
+    },
+    {
+      "name": "Telecine Touch",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tc-touch.png"
+    },
+    {
+      "name": "The Pet Collective",
+      "logo_url": "https://images.pluto.tv/channels/5f515ebac01c0f00080e8439/colorLogoPNG.png"
+    },
+    {
+      "name": "TLC",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tlc.png"
+    },
+    {
+      "name": "TNT",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png"
+    },
+    {
+      "name": "TNT Novelas",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png"
+    },
+    {
+      "name": "TNT Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png"
+    },
+    {
+      "name": "Tokusato",
+      "logo_url": "https://images.pluto.tv/channels/5ff609de50ab210008025c1b/colorLogoPNG.png"
+    },
+    {
+      "name": "Tooncast",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tooncast.png"
+    },
+    {
+      "name": "Top Barça",
+      "logo_url": "https://images.pluto.tv/channels/6888ee858f4a4aa11feb9430/colorLogoPNG_1753987309681.png"
+    },
+    {
+      "name": "Trace Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brasil.png"
+    },
+    {
+      "name": "Trace Brazuca",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png"
+    },
+    {
+      "name": "Travel Box Brazil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-boxbrazil.png"
+    },
+    {
+      "name": "Travel Food & Drinks",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/travel-food-e-drinks.png"
+    },
+    {
+      "name": "Trip Brasil Channel",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trip-brasil-channel.png"
+    },
+    {
+      "name": "TV Aparecida",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png"
+    },
+    {
+      "name": "TV Brasil",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png"
+    },
+    {
+      "name": "TV Cultura",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png"
+    },
+    {
+      "name": "TV Gazeta",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png"
+    },
+    {
+      "name": "TV Justiça",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png"
+    },
+    {
+      "name": "TV Novo Tempo",
+      "logo_url": "https://i.postimg.cc/mgpGyqRg/novotempo.png"
+    },
+    {
+      "name": "TV Pai Eterno",
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png"
+    },
+    {
+      "name": "TV Rá-Tim-Bum",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-ra-tim-bum.png"
+    },
+    {
+      "name": "TV5Monde",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-5-monde.png"
+    },
+    {
+      "name": "TVE Internacional",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tve.png"
+    },
+    {
+      "name": "UFC",
+      "logo_url": "https://images.pluto.tv/channels/69a20556814d27f4ae630a92/colorLogoPNG_1772226745279.png"
+    },
+    {
+      "name": "UFC Fight Pass",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png"
+    },
+    {
+      "name": "UFC Fight Pass 01",
+      "logo_url": "https://img.faz-o-eli.online/ufcfightpass.png"
+    },
+    {
+      "name": "Universal Premiere",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-premiere.png"
+    },
+    {
+      "name": "Universal Reality",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png"
+    },
+    {
+      "name": "Universal TV",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/universal.png"
+    },
+    {
+      "name": "USA",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
+    },
+    {
+      "name": "USA Network",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
+    },
+    {
+      "name": "Viva",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png"
+    },
+    {
+      "name": "Warner",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/warner-channel.png"
+    },
+    {
+      "name": "Warner Channel",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png"
+    },
+    {
+      "name": "WooHoo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/woohoo.png"
+    },
+    {
+      "name": "World Poker Tour",
+      "logo_url": "https://images.pluto.tv/channels/63eba66da8b2270008436b10/colorLogoPNG.png"
+    },
+    {
+      "name": "X Sports",
+      "logo_url": "https://img.faz-o-eli.online/xsports.png"
+    },
+    {
+      "name": "Xsports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/xsports.png"
+    },
+    {
+      "name": "Yu-Gi-Oh",
+      "logo_url": "https://images.pluto.tv/channels/63988a50be012600070f5db3/colorLogoPNG.png"
+    },
+    {
+      "name": "Z Nation",
+      "logo_url": "https://images.pluto.tv/channels/66b3af48d2d50d00083d6936/colorLogoPNG_1785430432127.png"
     }
   ]
 }
