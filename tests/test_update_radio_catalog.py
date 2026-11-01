@@ -98,6 +98,24 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(counts["genres_filled"], 1)
         self.assertEqual(counts["logos_filled"], 1)
 
+    def test_radio_browser_never_overwrites_existing_genre_or_logo(self):
+        radios = [{
+            "id": "radio.radio-a", "name": "Rádio A FM",
+            "stream_url": "https://radio.example/live",
+            "genre": "Jazz", "logo_url": "https://existing.example/logo.png",
+        }]
+        stations = [{
+            "stationuuid": "station-a", "name": "Radio A",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "homepage": "https://radio.example", "favicon": "https://radio.example/new-logo.png",
+            "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1,
+        }]
+        counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        self.assertEqual(radios[0]["genre"], "Jazz")
+        self.assertEqual(radios[0]["logo_url"], "https://existing.example/logo.png")
+        self.assertEqual(counts["genres_filled"], 0)
+        self.assertEqual(counts["logos_filled"], 0)
+
     def test_radio_browser_ambiguous_name_is_not_used(self):
         radio = {"name": "Rádio A FM", "stream_url": "https://unmatched.example/live"}
         stations = [
