@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-01",
+  "decisions": [
+    {
+      "radio_id": "radio.radio-ziggy-blues-rock",
+      "radio_name": "Rádio Ziggy Blues Rock",
+      "assigned_genre": "Rock",
+      "decision": "manual_verified",
+      "rationale": "The primary segment is listed as Rock; independent station listings consistently describe Blues/Rock. The broader Rock genre is the common supported category.",
+      "evidence": [
+        {
+          "source": "Radios.com.br",
+          "url": "https://www.radios.com.br/aovivo/radio-ziggy-blues-rock/137345",
+          "reported_genre": "Rock"
+        },
+        {
+          "source": "radio.net",
+          "url": "https://br.radio.net/s/radio-ziggy-bluesrock",
+          "reported_genre": "Pop, Blues, Rock"
+        },
+        {
+          "source": "FullDial",
+          "url": "https://fulldial.com/r-dio-ziggy-blues-rock-br/playlist/",
+          "reported_genre": "Jazz and blues rock; classic rock"
+        }
+      ]
+    }
+  ]
+}
