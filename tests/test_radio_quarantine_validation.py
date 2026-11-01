@@ -32,5 +32,15 @@ class RadioQuarantineValidationTests(unittest.TestCase):
         self.assertTrue(any("IDs presentes" in error for error in errors))
 
 
+    def test_http_or_credentialed_radio_stream_is_rejected(self):
+        radios = {"radios": [
+            {"id": "radio-http", "name": "HTTP FM", "stream_url": "http://radio.example/live"},
+            {"id": "radio-auth", "name": "Auth FM", "stream_url": "https://user:pass@radio.example/live"},
+        ]}
+        errors = validate_catalog.validate_radio_catalog(radios, {"records": []})
+        self.assertEqual(sum("stream_url inseguro/inválido" in error for error in errors), 2)
+
+
+
 if __name__ == "__main__":
     unittest.main()
