@@ -116,6 +116,47 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(counts["genres_filled"], 0)
         self.assertEqual(counts["logos_filled"], 0)
 
+    def test_radio_browser_only_fallback_persists_metadata_when_stream_source_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "sources").mkdir(parents=True)
+            (root / "catalog/radios").mkdir(parents=True)
+            (root / "sources/sources.json").write_text(json.dumps({"sources": [
+                {"id": "saimoplayer-radio-reference", "category": "radio", "format": "pipe-delimited",
+                 "enabled": True, "priority": 10,
+                 "url": "https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/vod/radios.txt"},
+                {"id": "radio-browser-br-metadata", "category": "radio", "format": "radio-browser-json",
+                 "enabled": True, "priority": 20,
+                 "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/BR?hidebroken=true&limit=10000&order=name"},
+            ]}), encoding="utf-8")
+            (root / "catalog/radios/radios.json").write_text(json.dumps({
+                "schema_version": 1,
+                "radios": [{
+                    "id": "radio.radio-a", "name": "Rádio A FM",
+                    "stream_url": "https://radio.example/live", "genre": None, "logo_url": None,
+                }],
+            }), encoding="utf-8")
+
+            station = {
+                "stationuuid": "station-a", "name": "Radio A",
+                "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+                "homepage": "https://radio.example", "favicon": "https://radio.example/logo.png",
+                "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1,
+            }
+
+            def fake_fetch(url):
+                if "radio-browser.info" in url:
+                    return json.dumps([station])
+                raise OSError("authorized stream reference temporarily unavailable")
+
+            with patch.object(update_radio_catalog, "fetch", side_effect=fake_fetch):
+                report = update_radio_catalog.update(root)
+
+            saved = json.loads((root / "catalog/radios/radios.json").read_text(encoding="utf-8"))
+            self.assertTrue(report["catalog_mutated"])
+            self.assertEqual(saved["radios"][0]["genre"], "Sertanejo")
+            self.assertEqual(saved["radios"][0]["logo_url"], "https://radio.example/logo.png")
+
     def test_radio_browser_ambiguous_name_is_not_used(self):
         radio = {"name": "Rádio A FM", "stream_url": "https://unmatched.example/live"}
         stations = [
