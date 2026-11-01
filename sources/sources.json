@@ -32,7 +32,7 @@
       "enabled": true,
       "priority": 20,
       "license": "Dados de estações em domínio público conforme a página oficial Radio Browser — Free for ALL (data license: public domain). Favicons são apenas URLs de referência do site oficial da estação; não são copiados nem re-hospedados.",
-      "notes": "Fonte exclusivamente de metadados. Aplicar tags reconhecidas como gênero e favicon HTTPS apenas quando domínio do favicon corresponder ao homepage e houver correspondência exata e única por nome/stream. Nunca importar ou substituir stream_url, IDs, DRM, headers ou controles de reprodução."
+      "notes": "Fonte exclusivamente de metadados. Tags reconhecidas pela taxonomia CineHUB (incluindo gêneros brasileiros, regionais, flashback, jornalismo e esportes) preenchem apenas gênero ausente; tags desconhecidas são registradas para revisão. Favicon HTTPS só é aceito quando o domínio corresponde ao homepage e a correspondência por nome/stream é exata e única. Nunca importar ou substituir stream_url, IDs, DRM, Authorization, Cookie ou controles de reprodução."
     }
   ],
   "_instructions": "Add only sources with documented permission and provenance. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json|pipe-delimited|radio-browser-json), enabled, priority, license, notes."
