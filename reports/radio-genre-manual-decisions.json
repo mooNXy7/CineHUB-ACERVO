@@ -25,6 +25,44 @@
           "reported_genre": "Jazz and blues rock; classic rock"
         }
       ]
+    },
+    {
+      "radio_id": "radio.jovem-pan-news",
+      "radio_name": "Jovem Pan News",
+      "assigned_genre": "Notícias",
+      "decision": "manual_verified",
+      "rationale": "The broadcaster's official description identifies Jovem Pan News as a 24-hour news product and describes its News FM radio programming as news-led. The primary category is Notícias; Pop was not selected.",
+      "evidence": [
+        {
+          "source": "Jovem Pan — Sobre",
+          "url": "https://jovempan.com.br/sobre-a-jovem-pan/",
+          "reported_genre": "Jovem Pan News described as a 24-hour news channel"
+        },
+        {
+          "source": "Jovem Pan — lançamento da News FM",
+          "url": "https://jovempan.com.br/noticias/grupo-jovem-pan-lanca-nova-radio-fm-com-maior-abrangencia-e-faixa-estendida/",
+          "reported_genre": "News, public service, sports and entertainment"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.jovem-pan-news-100-3",
+      "radio_name": "Jovem Pan News 100.3",
+      "assigned_genre": "Notícias",
+      "decision": "manual_verified",
+      "rationale": "The broadcaster's official description identifies Jovem Pan News as a 24-hour news product and describes its News FM radio programming as news-led. The primary category is Notícias; Pop was not selected.",
+      "evidence": [
+        {
+          "source": "Jovem Pan — Sobre",
+          "url": "https://jovempan.com.br/sobre-a-jovem-pan/",
+          "reported_genre": "Jovem Pan News described as a 24-hour news channel"
+        },
+        {
+          "source": "Jovem Pan — lançamento da News FM",
+          "url": "https://jovempan.com.br/noticias/grupo-jovem-pan-lanca-nova-radio-fm-com-maior-abrangencia-e-faixa-estendida/",
+          "reported_genre": "News, public service, sports and entertainment"
+        }
+      ]
     }
   ]
 }
