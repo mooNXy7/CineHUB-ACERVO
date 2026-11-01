@@ -98,7 +98,10 @@ def validate_radio_catalog(radios, quarantine):
                 f"catalog/radios/radios.json: stream_url inseguro/inválido no registro {item.get('id', '?')}"
             )
         if item.get("id"):
-            active_ids.add(str(item["id"]))
+            ident = str(item["id"])
+            if ident in active_ids:
+                errors.append(f"catalog/radios/radios.json: ID ativo duplicado {ident}")
+            active_ids.add(ident)
     quarantine_ids = set()
     for item in quarantined:
         if not isinstance(item, dict) or not item.get("id"):
