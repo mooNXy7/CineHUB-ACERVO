@@ -64,6 +64,12 @@ class UpdateRadioCatalogTests(unittest.TestCase):
             "favicon": "https://third-party.example/logo.png",
         }))
 
+    def test_station_name_normalization_preserves_radio_brand_word(self):
+        self.assertNotEqual(
+            update_radio_catalog.normalize_station_name("Radio Disney"),
+            update_radio_catalog.normalize_station_name("Disney FM"),
+        )
+
     def test_radio_browser_match_requires_exact_name_and_stream_or_unique_name(self):
         radio = {"name": "Rádio A FM", "stream_url": "https://radio.example/live"}
         station = {
