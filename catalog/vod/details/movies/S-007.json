@@ -3434,13 +3434,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Doc e Zoe são dois sequestradores desafortunados encarregados do que parece ser um simples sequestro de aluguel, mas descobrem que não é nada disso e acabam no meio de uma conspiração política.",
+    "imdb_id": "tt4726640"
   },
   {
     "id": "movie-sequestro-elizabeth-smart",
     "title": "Sequestro: Elizabeth Smart",
     "type": "movie",
-    "year": null,
+    "year": "2026",
     "poster_url": "/jdjJZWxjmKACZtrebAcipm86cl3.jpg",
     "genres": [
       "Documentário",
@@ -3534,7 +3536,8 @@
       }
     ],
     "source_candidates_skipped": 4,
-    "imdb_id": "tt39140662"
+    "imdb_id": "tt39140662",
+    "overview": "Elizabeth Smart, de 14 anos, foi sequestrada em sua própria casa nos Estados Unidos. Este documentário examina o caso com depoimentos dela e materiais inéditos."
   },
   {
     "id": "movie-sequestro-inocencia-roubada-2021",
@@ -3629,13 +3632,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt14319068"
+    "imdb_id": "tt14319068",
+    "overview": "Uma mãe descobre que sua filha de 4 anos, Ola, foi sequestrada pela máfia russa, logo após a criança desaparecer de uma pequena cidade polonesa. Em busca de sua filha, ela é parada por excesso de velocidade por um policial, Robert Goc. Sua intervenção resulta na fuga dos sequestradores pela fronteira. Sentindo-se culpado por não ter impedido o sequestro, Robert se envolve em uma investigação internacional para encontrar a garota desaparecida."
   },
   {
     "id": "movie-sequestros-em-cleveland",
     "title": "Sequestros Em Cleveland",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/pzpH9VDFAFw2qOnY1ZZaHg6AaJA.jpg",
     "genres": [
       "Crime",
@@ -3698,7 +3702,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma mãe solteira, a primeira vítima do sequestrador Ariel Castro, se encontra presa em sua casa por 11 anos, onde ela acaba se tornando amiga e irmã de duas outras mulheres que foram capturadas por Castro. Baseado em uma história real.",
+    "imdb_id": "tt4262142"
   },
   {
     "id": "movie-sequestros-em-cleveland-2015",
@@ -3742,7 +3748,7 @@
     "id": "movie-ser-james-bond",
     "title": "Ser James Bond",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/ootlps6nqZgVVqrRl5GEIHJDTmj.jpg",
     "genres": [
       "Documentário"
@@ -3757,7 +3763,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Daniel Craig reflete abertamente sobre sua aventura de 15 anos como James Bond. Incluindo imagens de arquivo nunca antes vistas de Casino Royale ao 25º filme, No Time To Die, Craig compartilha suas memórias pessoais em uma conversa com os produtores de 007, Michael G. Wilson e Barbara Broccoli.",
+    "imdb_id": "tt15346636"
   },
   {
     "id": "movie-ser-madrasta-sem-querer",
@@ -3788,7 +3796,7 @@
     "id": "movie-ser-tao-velho-cerrado",
     "title": "Ser Tao Velho Cerrado",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/B3VXxQs57WvSrcuET2y5ZDSyFg.jpg",
     "genres": [
       "Documentário"
@@ -3849,7 +3857,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Este documentário retrata o impacto ambiental e social do cerrado brasileiro, que sofre com o desmatamento intenso.",
+    "imdb_id": "tt8820194"
   },
   {
     "id": "movie-ser-tao-velho-cerrado-2018",
@@ -3903,7 +3913,7 @@
     "id": "movie-sereia-predadora",
     "title": "Sereia Predadora",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/hQYhI7VE4OEzwnMF6pPTWQYla2I.jpg",
     "genres": [
       "Terror",
@@ -3919,7 +3929,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma despedida de solteiro se torna uma briga selvagem pela sobrevivência quando os padrinhos inadvertidamente soltam um lendário predador nas festividades.",
+    "imdb_id": "tt4667854"
   },
   {
     "id": "movie-sereia-predadora-2016",
@@ -3945,7 +3957,7 @@
     "id": "movie-sereias-elas-existem",
     "title": "Sereias - Elas Existem",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/ydje305YYUys5m0O1O95gm4mwCw.jpg",
     "genres": [
       "Fantasia",
@@ -4008,7 +4020,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A história gira em torno de uma garota chamada Siren Philips que, ao completar 12 anos, vê a sua vida mudar completamente ao descobrir que, na verdade, é filha de uma sereia chamada Emerald. Para piorar a situação, Siren vira alvo de caçadores mal intencionados e conta com a ajuda de seu amigo Adam para escapar.",
+    "imdb_id": "tt4526136"
   },
   {
     "id": "movie-sereias-elas-existem-2017",
@@ -4052,7 +4066,7 @@
     "id": "movie-seremos-historia",
     "title": "Seremos História?",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/roXAdppky4GRcwCi8JQ9GLhJDoq.jpg",
     "genres": [
       "Documentário"
@@ -4067,7 +4081,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um problema de longas datas está se mostrando cada vez mais grave. Mudanças de temperatura, inundações, e outros fenômenos semelhantes têm se tornado cada vez mais comum, e o que tem sido feito na tentativa de amenizar essa situação? É na busca por respostas para essas questões que Leonardo DiCaprio abraça a missão de testemunhar as mudanças climáticas em diversos países, e de uma forma nunca vista antes.",
+    "imdb_id": "tt5929776"
   },
   {
     "id": "movie-seremos-historia-2016",
@@ -4093,7 +4109,7 @@
     "id": "movie-serenity-a-luta-pelo-amanha",
     "title": "Serenity: A Luta Pelo Amanhã",
     "type": "movie",
-    "year": null,
+    "year": "2005",
     "poster_url": "/kSgX92jHIslBT1Qo2EliigXYOGR.jpg",
     "genres": [
       "Ficção científica",
@@ -4111,7 +4127,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O Capitão Malcolm Reynalds, um veterano da guerra civil galáctica, agora vive em sua nave, Serenity. Ele coordena uma pequena, mas elétrica equipe. Quando Malcom pega dois novos passageiros: um jovem doutor e sua telepática irmã, as surpresas são maiores do que ele poderia imaginar. A dupla é fugitiva da coalizão dominante do universo e assim Serenity se vê entre a imensa força militar da Aliança, a grande fúria de Reavers e outro perigo a espreita dentro de sua própria nave.",
+    "imdb_id": "tt0379786"
   },
   {
     "id": "movie-serenity-a-luta-pelo-amanha-2005",
@@ -4182,7 +4200,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Grant Grant (Michael Rooker) é um dos poucos bem-sucedidos homens de negócios da pequena cidade de Wheelsy. Ele é casado e completamente apaixonado por Starla (Elizabeth Banks), apesar dela não sentir a mesma afeição por ele. Apesar disto, Grant leva uma vida feliz. Entretanto sua vida muda por completo após conhecer Brenda Gutierrez (Brenda James), a irmã caçula de uma antiga namorada. Ao dar uma volta sob o luar eles encontram algo gosmento no meio do mato, que parece ter vindo de destroços de um meteoro. Subitamente esta massa ganha vida e penetra no corpo de Grant, tornando-o seu hospedeiro. Aos poucos o ser alienígena toma conta das ações de Grant, tornando-o uma criatura sedenta de sangue e com a necessidade de infectar outros humanos.",
+    "imdb_id": "tt0439815"
   },
   {
     "id": "movie-sergio-2020",
@@ -4276,13 +4296,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt8750570"
+    "imdb_id": "tt8750570",
+    "overview": "Paixões, ideais e uma terrível realidade ameaçam a vida do diplomata Sergio Vieira de Mello em sua missão no Iraque pela ONU."
   },
   {
     "id": "movie-serial-kelly",
     "title": "Serial Kelly",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/EcU2NlxIsIIjPfFxo0Z0qjnOKe.jpg",
     "genres": [
       "Comédia",
@@ -4344,7 +4365,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Enquanto cumpre uma agenda de shows em inferninhos pelo sertão, Kelly, uma cantora de forró eletrônico, também vai deixando um rastro de mortes pelo caminho. Em seu trajeto de consumo compulsivo e violência, ela atravessa um nordeste novo, espiral de um desenvolvimento também apocalíptico. Quando passa a ser investigada pelos assassinatos de três homens, sua turnê mambembe também se transforma uma estratégia de fuga. E de estrela ascendente ela se torna uma heroína marginal, a temida e procurada Serial Kelly, a primeira serial Killer mulher do Brasil.",
+    "imdb_id": "tt7685600"
   },
   {
     "id": "movie-serial-kelly-2022",
@@ -4387,7 +4410,7 @@
     "id": "movie-serpent-of-the-nile",
     "title": "Serpent of the Nile",
     "type": "movie",
-    "year": null,
+    "year": "1953",
     "poster_url": "/ffadat3nCgszpgtxLsBJLHQuG6z.jpg",
     "genres": [
       "História",
@@ -4403,7 +4426,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0046298"
   },
   {
     "id": "movie-serpent-of-the-nile-1953",
@@ -4429,7 +4453,7 @@
     "id": "movie-serpentes-a-bordo",
     "title": "Serpentes a Bordo",
     "type": "movie",
-    "year": null,
+    "year": "2006",
     "poster_url": "/1bP5SxPFU37G9zb7s2VtMKCnjnr.jpg",
     "genres": [
       "Ação",
@@ -4493,7 +4517,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Sean Jones é um adolescente que presenciou uma brutal execução ligada ao crime organizado, sendo a testemunha-chave daquele que a mídia chama como sendo o julgamento do século. Ele é encaminhado ao tribunal pelo agente do FBI Nelville Flynn, que o leva de avião até Los Angeles. Entretanto o que eles não sabem é que a máfia contratou Yakama, um assassino profissional, para impedir que Sean chegue ao seu destino. Para atingir seu objetivo ele decide liberar centenas de serpentes venenosas dentro do avião, o que logo faz com que tripulação e passageiros entrem em pânico.",
+    "imdb_id": "tt0417148"
   },
   {
     "id": "movie-serpentes-a-bordo-2006",
@@ -4538,7 +4564,7 @@
     "id": "movie-serpentine-pink",
     "title": "Serpentine Pink",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/aZECFmdTbrBwIkHqciMiNGDPntq.jpg",
     "genres": [
       "Drama",
@@ -4569,13 +4595,14 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt14063190"
   },
   {
     "id": "movie-serpico",
     "title": "Serpico",
     "type": "movie",
-    "year": null,
+    "year": "1973",
     "poster_url": "/kDEypdI3LUN1jiR1uGA6OARdGmv.jpg",
     "genres": [
       "Crime",
@@ -4650,6 +4677,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Frank Serpico, um policial idealista da cidade de Nova Iorque, se recusa a receber subornos, ao contrário do resto dos policiais. Por causa disso, ele acaba sempre sendo colocado em situações perigosas por seus parceiros. Quando seus superiores ignoram as acusações de corrupção de Frank, ele decide fazer suas acusações publicamente. Mesmo com a Comissão Knapp investigando o caso, Frank agora é um alvo. O filme é baseado em uma história verídica.",
+    "imdb_id": "tt0070666"
   }
 ]

@@ -225,7 +225,7 @@
     "id": "movie-intimo-pessoal",
     "title": "Íntimo & Pessoal",
     "type": "movie",
-    "year": null,
+    "year": "1996",
     "poster_url": "/fPLE2wKOvUQwpzqphfkptLLG25i.jpg",
     "genres": [
       "Drama",
@@ -280,7 +280,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Jovem mulher (Michelle Pfeiffer) munida apenas de uma fita de demonstração de produção caseira e uma grande vontade de pertencer ao mundo das notícias e da televisão bate de porta em porta, até conhecer um grande executivo e jornalista (Robert Redford) que acredita no seu potencial, apesar de ter consciência de que ela é inexperiente. Com o passar do tempo, ela gradativamente vai se firmando profissionalmente e o relacionamento entre ele e seu mentor torna-se uma grande paixão.",
+    "imdb_id": "tt0118055"
   },
   {
     "id": "movie-intimo-amp-pessoal-1996",

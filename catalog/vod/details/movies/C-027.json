@@ -431,7 +431,7 @@
     "id": "movie-casa-bonita-mi-amor",
     "title": "¡Casa Bonita Mi Amor!",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/nEktirdxkXk42NuM8WGlUcP9D28.jpg",
     "genres": [
       "Documentário",
@@ -493,6 +493,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Quando os criadores de South Park, Trey Parker e Matt Stone descobrem que a Casa Bonita (destaque em um episódio de 2003 da série) pode fechar suas portas, eles tentam preservar uma parte em ruínas de sua infância — e da história de Denver.",
+    "imdb_id": "tt32149731"
   }
 ]

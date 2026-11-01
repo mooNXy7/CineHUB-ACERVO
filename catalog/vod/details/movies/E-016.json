@@ -5413,7 +5413,7 @@
     "id": "movie-e-apenas-o-fim-do-mundo",
     "title": "É Apenas o Fim do Mundo",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/8w7mS1RL1KZNtURO6EltnY9NWLV.jpg",
     "genres": [
       "Drama"
@@ -5428,7 +5428,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um escritor vai ao encontro de sua família após 12 anos para informá-los que irá morrer em breve. O passado ressurge de maneira implacável e a situação acaba saindo do controle.",
+    "imdb_id": "tt4645368"
   },
   {
     "id": "movie-e-apenas-o-fim-do-mundo-2016",
@@ -5663,13 +5665,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Lily Bloom, uma mulher que supera uma infância traumática para começar uma nova vida em Boston e perseguir o sonho de sua vida de abrir seu próprio negócio. Um encontro casual com o charmoso neurocirurgião Ryle Kincaid desencadeia uma conexão intensa, mas à medida que os dois se apaixonam profundamente, Lily começa a ver lados de Ryle que a lembram do relacionamento de seus pais. Quando o primeiro amor de Lily, Atlas Corrigan, reaparece repentinamente em sua vida, seu relacionamento com Ryle é abalado, e Lily percebe que deve aprender a confiar em sua própria força para fazer uma escolha impossível para o seu futuro.",
+    "imdb_id": "tt10655524"
   },
   {
     "id": "movie-e-assim-que-eu-sou",
     "title": "É Assim Que Eu Sou",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/wEVN6PW7cBW4JytulTtQNtRV1T8.jpg",
     "genres": [
       "Drama",
@@ -5687,7 +5691,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Andy Nichol é um jovem de 12 anos, que tenta evitar confusão e motivos para não ser ridicularizado pelos colegas da escola. Adorado pelos alunos, Mr. Simon, coloca Andy e Stanley como dupla num projeto da escola. Stanley é perseguido por ser diferente, ruivo e  com “a cabeça e as orelhas grandes”. Nessa relação, Andy e Stanley aprenderão um sobre o outro, e Mr. Simon terá que enfrentar uma fofoca que envolve preconceitos e intolerância.",
+    "imdb_id": "tt1606180"
   },
   {
     "id": "movie-e-assim-que-eu-sou-2011",
@@ -5713,7 +5719,7 @@
     "id": "movie-e-como-se-ninguem-me-entendesse",
     "title": "É Como Se Ninguém Me Entendesse",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/6aBeF8TFqIOYjpEgPgKiGIST3wt.jpg",
     "genres": [
       "Drama"
@@ -5786,7 +5792,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "No cruel mundo da pré-adolescência, Edwin e seu amigo Flake sofrem bullying diariamente na escola e se sentem incompreendidos por suas famílias. Até que um dia eles planejam uma vingança que pode finalmente libertá-lo.",
+    "imdb_id": "tt2018111"
   },
   {
     "id": "movie-e-como-se-ninguem-me-entendesse-2017",

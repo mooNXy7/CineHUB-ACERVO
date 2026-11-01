@@ -1,1 +1,787 @@
-[{"id":"movie-vitima-319","title":"Vítima 319","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-vitima-x-suspeita","title":"Vítima X Suspeita","type":"movie","year":null,"poster_url":"/tGaFFNfqS6rH51LJS8a663OGwdO.jpg","genres":["Documentário"],"tmdb_id":"1058671","sources":[{"url":"https://mgeb.top/embed/1058671","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1058671","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_tima%20X%20Suspeita%20_2023_%20_tmdb_1058671_b32586b3.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1058671","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453245","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647988","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"196319","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"196319","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"196321","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"196321","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-vitima-x-suspeita-2023","title":"Vítima X Suspeita (2023)","type":"movie","year":"2023","poster_url":"/tGaFFNfqS6rH51LJS8a663OGwdO.jpg","genres":["Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1058671","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1058671","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1304949","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1304950","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-vitimas-da-inocencia","title":"Vítimas da Inocência","type":"movie","year":null,"poster_url":"/ydJixWfCXuBYuWOpKjAXO7lRJet.jpg","genres":["Drama"],"tmdb_id":"736263","sources":[{"url":"https://mgeb.top/embed/736263","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/736263","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20da%20Inoc_ncia%20_2019_%20_tmdb_736263_da81d859.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"736263","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457089","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652420","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"211623","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"211623","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"211624","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"211624","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-vitimas-da-inocencia-2019","title":"Vítimas da Inocência (2019)","type":"movie","year":"2019","poster_url":"/ydJixWfCXuBYuWOpKjAXO7lRJet.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/736263","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/736263","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1311089","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311090","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-vitimas-de-uma-paixao","title":"Vítimas de Uma Paixão","type":"movie","year":null,"poster_url":"/oBCsko3K8ZhoXsNbBIIUNaQfF2R.jpg","genres":["Crime","Drama","Romance"],"tmdb_id":"12150","sources":[],"provider_refs":[{"provider":"18","ref":"12150","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-vitimas-de-uma-paixao-1989","title":"Vítimas de Uma Paixão (1989)","type":"movie","year":"1989","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20de%20Uma%20Paix_o%20_1989_%20_tmdb_12150_d86fc25f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-vitimas-do-dia-2025","title":"Vítimas do Dia (2025)","type":"movie","year":"2025","poster_url":"/qoohRRRIH67NN7vORNeVDARr2SK.jpg","genres":["Drama","Crime","Suspense"],"tmdb_id":"1270339","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/13e978e3bad5ac05f26af8b2c9234693/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1270339","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1270339","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Vitimas%20do%20Dia%20_2025_%20_tmdb_1270339_224e4dd4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1270339","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450882","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450333","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670173","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"739624","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1502308","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"302751","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"302751","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"302750","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"302750","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"302752","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"302752","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3,"imdb_id":"tt32090596"},{"id":"movie-vitimas-do-silencio","title":"Vítimas do Silêncio","type":"movie","year":null,"poster_url":"/nmQRyvCUXoHzutgyONkg46i3Qg7.jpg","genres":["Terror","Suspense"],"tmdb_id":"834347","sources":[{"url":"https://mgeb.top/embed/834347","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/834347","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20do%20Sil_ncio%20_2021_%20_tmdb_834347_09da4345.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"834347","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448415","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451341","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654573","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"256952","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"256952","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"256953","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"256953","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-vitimas-do-silencio-2021","title":"Vítimas do Silêncio (2021)","type":"movie","year":"2021","poster_url":"/nmQRyvCUXoHzutgyONkg46i3Qg7.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/834347","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/834347","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1311346","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311347","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-vortex","title":"Vórtex","type":"movie","year":null,"poster_url":"/whm2iZLEqh7yMqDWwGVr3ooJX8Z.jpg","genres":["Drama"],"tmdb_id":"807070","sources":[],"provider_refs":[{"provider":"18","ref":"807070","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-voo-de-emergencia","title":"Vôo de Emergência","type":"movie","year":null,"poster_url":"/bsLgQvTOonpnUBtsMoOloVXQFbT.jpg","genres":["Ação"],"tmdb_id":"380111","sources":[],"provider_refs":[{"provider":"18","ref":"380111","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-voo-de-emergencia-2016","title":"Vôo de Emergência (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_o%20de%20Emerg_ncia%20_2016_%20_tmdb_380111_a5011a90.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-voo-sobre-o-everest","title":"Vôo Sobre o Everest","type":"movie","year":null,"poster_url":"/q5EU0FUeWxXbK6tRdPOt1Xjl7Ve.jpg","genres":["Ação"],"tmdb_id":"630094","sources":[],"provider_refs":[{"provider":"18","ref":"630094","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-voo-sobre-o-everest-2019","title":"Vôo Sobre o Everest (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_o%20Sobre%20o%20Everest%20_2019_%20_tmdb_630094_1f7ee4be.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-viva-maestro","title":"¡Viva Maestro!","type":"movie","year":null,"poster_url":"/uNkTGpXUcZY9R6g3koATX1Pe6yN.jpg","genres":["Documentário","Música"],"tmdb_id":"801690","sources":[{"url":"https://mgeb.top/embed/801690","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/801690","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"213964","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"213964","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-viva-maestro-2022","title":"¡Viva Maestro! (2022)","type":"movie","year":"2022","poster_url":"/uNkTGpXUcZY9R6g3koATX1Pe6yN.jpg","genres":["Documentário","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/801690","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/801690","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1311255","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-vs-vs-2020","title":"劇場版 騎士竜戦隊リュウソウジャーvsルパンレンジャーvsパトレンジャー (2020)","type":"movie","year":"2020","poster_url":"/rErUZW6oh2EJqYWEGpWmKqriqy.jpg","genres":["Ação","Aventura","Ficção científica","Fantasia","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/657227","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/657227","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308702","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-vitima-319",
+    "title": "Vítima 319",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-vitima-x-suspeita",
+    "title": "Vítima X Suspeita",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/tGaFFNfqS6rH51LJS8a663OGwdO.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1058671",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1058671",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1058671",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_tima%20X%20Suspeita%20_2023_%20_tmdb_1058671_b32586b3.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1058671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453245",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647988",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "196319",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "196319",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "196321",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "196321",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma jornalista decide investigar o caso de uma mulher acusada de denunciar um falso estupro, mas acaba descobrindo um padrão preocupante nos procedimentos da polícia.",
+    "imdb_id": "tt24079788"
+  },
+  {
+    "id": "movie-vitima-x-suspeita-2023",
+    "title": "Vítima X Suspeita (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/tGaFFNfqS6rH51LJS8a663OGwdO.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1058671",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1058671",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304949",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304950",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-vitimas-da-inocencia",
+    "title": "Vítimas da Inocência",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/ydJixWfCXuBYuWOpKjAXO7lRJet.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "736263",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/736263",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/736263",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20da%20Inoc_ncia%20_2019_%20_tmdb_736263_da81d859.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "736263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457089",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652420",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "211623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "211623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "211624",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "211624",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em um mundo de criminosos anônimos, Anna procura vingança pela morte de sua irmã, que cometeu suicídio devido a uma relação tóxica com um inescrupuloso cafetão. Durante sua busca, ela encontrará uma misteriosa mulher responsável por recrutar garotas jovens e vulneráveis.",
+    "imdb_id": "tt8506028"
+  },
+  {
+    "id": "movie-vitimas-da-inocencia-2019",
+    "title": "Vítimas da Inocência (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/ydJixWfCXuBYuWOpKjAXO7lRJet.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/736263",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/736263",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311089",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311090",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-vitimas-de-uma-paixao",
+    "title": "Vítimas de Uma Paixão",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": "/oBCsko3K8ZhoXsNbBIIUNaQfF2R.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "12150",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "12150",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O incomodado detetive de Nova York Frank Keller investiga uma assassina em série que procura por vítimas, usando anúncios pessoais em um revista e toca a música \"Sea of Love\" na cena do crime. Com a ajuda de seu parceiro, Sherman Touhey, Frank cria um plano para achar a assassina usando seus próprios anúncios. Mas quando Frank se apaixona por sua principal suspeita, Helen Cruger, ele luta para conciliar sua vida pessoal e seu dever profissional.",
+    "imdb_id": "tt0098273"
+  },
+  {
+    "id": "movie-vitimas-de-uma-paixao-1989",
+    "title": "Vítimas de Uma Paixão (1989)",
+    "type": "movie",
+    "year": "1989",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20de%20Uma%20Paix_o%20_1989_%20_tmdb_12150_d86fc25f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-vitimas-do-dia-2025",
+    "title": "Vítimas do Dia (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/qoohRRRIH67NN7vORNeVDARr2SK.jpg",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "1270339",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/13e978e3bad5ac05f26af8b2c9234693/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1270339",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1270339",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Vitimas%20do%20Dia%20_2025_%20_tmdb_1270339_224e4dd4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1270339",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450882",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450333",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670173",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "739624",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1502308",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "302751",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "302751",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "302750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "302750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "302752",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "302752",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt32090596",
+    "overview": "Elder e Daiane são um casal em meio a uma guerra urbana: enquanto ele luta para sobreviver, o primeiro filho deles está prestes a nascer."
+  },
+  {
+    "id": "movie-vitimas-do-silencio",
+    "title": "Vítimas do Silêncio",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/nmQRyvCUXoHzutgyONkg46i3Qg7.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "834347",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/834347",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/834347",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_timas%20do%20Sil_ncio%20_2021_%20_tmdb_834347_09da4345.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "834347",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448415",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451341",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654573",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "256952",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "256952",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "256953",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "256953",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um famoso e desiludido escritor, incapaz de falar após realizar uma cirurgia na mandíbula, é surpreendido pela inesperada visita de sua filha distante, que revela um perigoso segredo.",
+    "imdb_id": "tt9728962"
+  },
+  {
+    "id": "movie-vitimas-do-silencio-2021",
+    "title": "Vítimas do Silêncio (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/nmQRyvCUXoHzutgyONkg46i3Qg7.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/834347",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/834347",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311346",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311347",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-vortex",
+    "title": "Vórtex",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/whm2iZLEqh7yMqDWwGVr3ooJX8Z.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "807070",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "807070",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "A rotina de um casal idoso, acompanhada lado a lado. Quando a doença da mulher se agrava, o perigo da morte opõe-se à vontade da independência.",
+    "imdb_id": "tt14821150"
+  },
+  {
+    "id": "movie-voo-de-emergencia",
+    "title": "Vôo de Emergência",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/bsLgQvTOonpnUBtsMoOloVXQFbT.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "380111",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "380111",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um jovem piloto é demitido da força aérea depois de desobedecer uma ordem absurda. Ele recebe um emprego como co-piloto com uma companhia aérea civil. Sendo honesto e direto, ele não se enturma com seus novos colegas. Durante um voo para a Ásia, sua equipe recebe uma mensagem de socorro de uma ilha vulcânica e toma a decisão de tentar uma missão de resgate. Terão sucesso? Vão sobreviver ao desastre?",
+    "imdb_id": "tt5653294"
+  },
+  {
+    "id": "movie-voo-de-emergencia-2016",
+    "title": "Vôo de Emergência (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_o%20de%20Emerg_ncia%20_2016_%20_tmdb_380111_a5011a90.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-voo-sobre-o-everest",
+    "title": "Vôo Sobre o Everest",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/q5EU0FUeWxXbK6tRdPOt1Xjl7Ve.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "630094",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "630094",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quando um avião carregando documentos importantes cai na Zona da Morte do Monte Everest, dois homens que afirmam trabalhar no departamento de pesquisa e análise da Índia oferecem uma grande quantia em dinheiro à Equipe Wings para levá-los para recuperá-los.",
+    "imdb_id": "tt8761374"
+  },
+  {
+    "id": "movie-voo-sobre-o-everest-2019",
+    "title": "Vôo Sobre o Everest (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/V_o%20Sobre%20o%20Everest%20_2019_%20_tmdb_630094_1f7ee4be.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-viva-maestro",
+    "title": "¡Viva Maestro!",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/uNkTGpXUcZY9R6g3koATX1Pe6yN.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "801690",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/801690",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/801690",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "213964",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "213964",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um retrato do diretor musical e artístico da Filarmônica de Los Angeles, Gustavo Dudamel.",
+    "imdb_id": "tt14153448"
+  },
+  {
+    "id": "movie-viva-maestro-2022",
+    "title": "¡Viva Maestro! (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/uNkTGpXUcZY9R6g3koATX1Pe6yN.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/801690",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/801690",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311255",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-vs-vs-2020",
+    "title": "劇場版 騎士竜戦隊リュウソウジャーvsルパンレンジャーvsパトレンジャー (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/rErUZW6oh2EJqYWEGpWmKqriqy.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica",
+      "Fantasia",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/657227",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/657227",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308702",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  }
+]
