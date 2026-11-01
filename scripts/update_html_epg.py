@@ -131,7 +131,7 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     if sources_doc is None:
         # Fail closed: never scrape an HTML schedule without an explicit source registry.
         enabled_html_sources: set[str] = set()
-        disabled_html_sources: set[str] = set()
+        disabled_html_sources: set[str] = {"meuguia-br", "guia-de-tv-br"}
     else:
         html_sources = [s for s in sources_doc.get("sources", [])
                         if isinstance(s, dict) and s.get("format") == "html"]
