@@ -31,6 +31,14 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(len(records), 1)
         self.assertEqual(counts["accepted"], 1)
 
+    def test_parse_holds_same_name_with_different_streams_as_ambiguous(self):
+        records, counts = update_radio_catalog.parse_radio_source(
+            "Radio A|https://radio.example/one\\nRadio A|https://radio.example/two\\n",
+            "source",
+        )
+        self.assertEqual(records, [])
+        self.assertEqual(counts["ambiguous_names"], 1)
+
     def test_merge_adds_new_station_and_preserves_existing_metadata(self):
         existing = [{
             "id": "radio.radio-a", "name": "Radio A",
