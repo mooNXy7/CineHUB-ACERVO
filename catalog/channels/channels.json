@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T18:49:57Z",
+  "generated_at": "2026-11-01T18:53:12Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -38625,7 +38625,7 @@
       "id": "ch-x-sports-fhd",
       "name": "X Sports FHD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -38649,7 +38649,7 @@
       "id": "ch-x-sports-hd",
       "name": "X Sports HD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -38678,7 +38678,7 @@
       "id": "ch-x-sports-sd",
       "name": "X Sports SD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -40807,7 +40807,7 @@
       "id": "ch-canal-off-fhd",
       "name": "Canal OFF FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -40823,7 +40823,7 @@
       "id": "ch-canal-off-hd",
       "name": "Canal OFF HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -40839,7 +40839,7 @@
       "id": "ch-canal-off-sd",
       "name": "Canal OFF SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -44861,7 +44861,7 @@
       "id": "ch-record-sp-fhd",
       "name": "Record SP FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -44885,7 +44885,7 @@
       "id": "ch-record-sp-hd",
       "name": "Record SP HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -44909,7 +44909,7 @@
       "id": "ch-record-sp-sd",
       "name": "Record SP SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -45889,7 +45889,7 @@
       "id": "ch-tcm-fhd",
       "name": "TCM FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -45925,7 +45925,7 @@
       "id": "ch-tcm-hd",
       "name": "TCM HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -45961,7 +45961,7 @@
       "id": "ch-tcm-sd",
       "name": "TCM SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -46649,7 +46649,7 @@
       "id": "ch-tv-pai-eterno-hd",
       "name": "TV Pai Eterno HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
       "sources": [
         {
@@ -46673,7 +46673,7 @@
       "id": "ch-tv-pai-eterno-sd",
       "name": "TV Pai Eterno SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
       "sources": [
         {
@@ -46917,7 +46917,7 @@
       "id": "ch-usa-network-fhd",
       "name": "USA Network FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {
@@ -46933,7 +46933,7 @@
       "id": "ch-usa-network-hd",
       "name": "USA Network HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {
@@ -46949,7 +46949,7 @@
       "id": "ch-usa-network-sd",
       "name": "USA Network SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {

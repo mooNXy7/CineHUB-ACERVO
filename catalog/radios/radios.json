@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T18:38:05.098509+00:00",
+  "generated_at": "2026-11-01T18:53:12.452003+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -2767,7 +2767,7 @@
       "name": "Rádio Brazil Imperial",
       "stream_url": "https://hts03.brascast.com:8430/live",
       "logo_url": "https://spaceks.net/sites/webradiobrazilimperial.com.br/images/logo/logo_1681801929.png",
-      "genre": null,
+      "genre": "Jornalismo",
       "source_id": "upstream-import"
     },
     {
@@ -3119,7 +3119,7 @@
       "name": "Rádio Coringão",
       "stream_url": "https://s18.hstbr.net:8010/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio24914_1439401618.jpg",
-      "genre": null,
+      "genre": "Esportes",
       "source_id": "upstream-import"
     },
     {
@@ -4239,7 +4239,7 @@
       "name": "Rádio Olinda 105.3 FM",
       "stream_url": "https://radio.saopaulo01.com.br:10771/stream",
       "logo_url": "https://radioolinda.com.br/wp-content/uploads/2022/01/cropped-logo-radio-a2-1-180x180.png",
-      "genre": null,
+      "genre": "Religiosa",
       "source_id": "upstream-import"
     },
     {
@@ -4383,7 +4383,7 @@
       "name": "Rádio Quintanares",
       "stream_url": "https://stm2.srvif.com:8328/stream",
       "logo_url": "https://radioquintanares.art.br/images/logos/logo-quintanares-site.png",
-      "genre": null,
+      "genre": "Cultura",
       "source_id": "upstream-import"
     },
     {
@@ -4799,7 +4799,7 @@
       "name": "Rádio Tradição Católica",
       "stream_url": "https://servidor17-1.brlogic.com:7126/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/249876/logo/1a5a8ea6dccf097ac45790fd89678ca7.png",
-      "genre": null,
+      "genre": "Religiosa",
       "source_id": "upstream-import"
     },
     {
@@ -5935,7 +5935,7 @@
       "name": "Web Rádio Arauto da Imaculada",
       "stream_url": "https://servidor34-1.brlogic.com:8090/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/1132/mobileicon/74ac21590f8bb0c993ae13017baf357e.png",
-      "genre": null,
+      "genre": "Religiosa",
       "source_id": "upstream-import"
     },
     {
@@ -5943,7 +5943,7 @@
       "name": "Web Rádio CCB",
       "stream_url": "https://stm1.hoststreaming.com.br:7088/;",
       "logo_url": null,
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -6031,7 +6031,7 @@
       "name": "Zeno",
       "stream_url": "https://stream-169.zeno.fm/0anygxe1b1duv",
       "logo_url": null,
-      "genre": null,
+      "genre": "Instrumental",
       "source_id": "upstream-import"
     },
     {

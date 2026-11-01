@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": false,
+  "catalog_mutated": true,
   "active_sources": 2,
   "sources": [
     {
@@ -11,6 +11,10 @@
       "malformed": 0,
       "unsafe_streams": 1,
       "ambiguous_names": 6
+    },
+    {
+      "source_id": "radio-browser-br-metadata",
+      "stations": 1603
     }
   ],
   "merge": {
@@ -25,19 +29,26 @@
     ]
   },
   "radio_browser_metadata": {
-    "matched_by_stream": 0,
-    "matched_by_name": 0,
-    "unmatched": 0,
-    "ambiguous": 0,
-    "genres_filled": 0,
+    "matched_by_stream": 188,
+    "matched_by_name": 96,
+    "unmatched": 428,
+    "ambiguous": 41,
+    "genres_filled": 8,
     "logos_filled": 0,
-    "favicon_rejected": 0,
-    "genre_unclassified": 0,
-    "updated_radio_names": []
+    "favicon_rejected": 11,
+    "genre_unclassified": 142,
+    "updated_radio_names": [
+      "Rádio Brazil Imperial",
+      "Rádio Coringão",
+      "Rádio Olinda 105.3 FM",
+      "Rádio Quintanares",
+      "Rádio Tradição Católica",
+      "Web Rádio Arauto da Imaculada",
+      "Web Rádio CCB",
+      "Zeno"
+    ]
   },
-  "failures": [
-    "radio-browser-br-metadata: URLError: <urlopen error [Errno 104] Connection reset by peer>"
-  ],
+  "failures": [],
   "safety": [
     "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",
     "Radio Browser public-domain metadata is matched by exact normalized name and/or exact stream URL.",
