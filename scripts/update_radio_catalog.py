@@ -86,7 +86,9 @@ def slug(value: str) -> str:
 def normalize_station_name(value: str) -> str:
     value = normalize_key(value)
     value = re.sub(r"[^a-z0-9]+", " ", value)
-    tokens = [token for token in value.split() if token not in {"radio", "fm", "am", "web", "online"}]
+    tokens = value.split()
+    while tokens and tokens[-1] in {"fm", "am", "web", "online"}:
+        tokens.pop()
     return " ".join(tokens)
 
 
