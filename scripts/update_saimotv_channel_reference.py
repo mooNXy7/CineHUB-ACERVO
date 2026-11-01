@@ -112,11 +112,19 @@ def update(root: Path = ROOT, reference_file: Path | None = None) -> dict[str, A
             if existing:
                 counts["already_has_stream"] += 1
                 continue
-            target["sources"] = [{
+            source_entry = {
                 "url": str(stream["url"]).strip(),
                 "priority": 30,
                 "source_id": "saimotv-android-offline-reference",
-            }]
+            }
+            headers = stream.get("headers") if isinstance(stream.get("headers"), dict) else {}
+            user_agent = str(headers.get("user-agent") or headers.get("User-Agent") or "").strip()
+            referer = str(headers.get("referer") or headers.get("Referer") or "").strip()
+            if user_agent and len(user_agent) <= 512 and not re.search(r"[\\r\\n]", user_agent):
+                source_entry["user_agent"] = user_agent
+            if referer and safe_https_url(referer) and len(referer) <= 2048:
+                source_entry["referer"] = referer
+            target["sources"] = [source_entry]
             counts["streams_added"] += 1
             if len(counts["updated_channel_ids"]) < 100:
                 counts["updated_channel_ids"].append(str(target.get("id") or target.get("name") or ""))
@@ -135,7 +143,7 @@ def update(root: Path = ROOT, reference_file: Path | None = None) -> dict[str, A
             "Only HTTPS HLS playlists without embedded credentials or sensitive tokens are eligible.",
             "Records with ClearKey or Widevine DRM are never imported.",
             "Existing channel streams and all existing channel metadata are preserved.",
-            "Only stream URLs are imported; DRM keys and request headers are not copied.",
+            "Only User-Agent and Referer are copied when present; Authorization, Cookie, Origin, and other headers are not imported.",
         ],
     }
     report_path = root / "reports/saimotv-channel-stream-refresh.json"
