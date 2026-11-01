@@ -33,7 +33,7 @@ class UpdateRadioCatalogTests(unittest.TestCase):
 
     def test_parse_holds_same_name_with_different_streams_as_ambiguous(self):
         records, counts = update_radio_catalog.parse_radio_source(
-            "Radio A|https://radio.example/one\\nRadio A|https://radio.example/two\\n",
+            "Radio A|https://radio.example/one\nRadio A|https://radio.example/two\n",
             "source",
         )
         self.assertEqual(records, [])
