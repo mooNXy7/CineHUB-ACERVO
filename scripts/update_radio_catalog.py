@@ -155,23 +155,24 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     if active and failures and not collected:
         raise RuntimeError("Nenhuma fonte de rádio segura válida; catálogo anterior preservado: " + "; ".join(failures))
     if collected:
-        merged, merge_counts = merge_radio_records(current["radios"], collected)
-        if merged != current["radios"]:
+        original_radios = list(current["radios"])
+        merged, merge_counts = merge_radio_records(original_radios, collected)
+        catalog_mutated = merged != original_radios
+        if catalog_mutated:
             current["radios"] = merged
             current["generated_at"] = datetime.now(timezone.utc).isoformat()
             atomic_write_json(out_path, current)
-        else:
-            merge_counts["catalog_mutated"] = False
     else:
         merged = current["radios"]
+        catalog_mutated = False
         merge_counts = {"added": 0, "filled_stream": 0, "unchanged": 0,
                         "stream_conflicts": 0, "ambiguous_matches": 0,
-                        "stream_conflict_names": [], "catalog_mutated": False}
+                        "stream_conflict_names": []}
 
     report = {
         "schema_version": 1,
         "report_type": "radio_source_refresh",
-        "catalog_mutated": merged != current.get("radios", []) if not collected else bool(merge_counts.get("added") or merge_counts.get("filled_stream")),
+        "catalog_mutated": catalog_mutated,
         "active_sources": len(active),
         "sources": source_counts,
         "merge": merge_counts,
