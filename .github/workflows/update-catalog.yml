@@ -11,6 +11,7 @@ on:
       - "sources/m3u/**"
       - "catalog/epg/**"
       - "scripts/update_catalog.py"
+      - "scripts/update_radio_catalog.py"
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/apply_exact_channel_logo_suggestions.py"
@@ -147,6 +148,8 @@ jobs:
           fi
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Refresh authorized radio reference (preserve existing playback)
+        run: python scripts/update_radio_catalog.py
       - name: Refresh EPG health and channel mappings
         run: python scripts/update_epg.py
       - name: Refresh explicitly mapped HTML EPG schedules (guarded sidecar)
