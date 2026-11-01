@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import datetime, timezone
 import re
 from pathlib import Path
 from typing import Any
@@ -122,9 +123,7 @@ def update(root: Path = ROOT, reference_file: Path | None = None) -> dict[str, A
 
     changed = counts["streams_added"] > 0
     if changed:
-        current["generated_at"] = __import__("datetime").datetime.now(
-            __import__("datetime").timezone.utc
-        ).isoformat()
+        current["generated_at"] = datetime.now(timezone.utc).isoformat()
         atomic_write_json(channels_path, current)
     report = {
         "schema_version": 1,
