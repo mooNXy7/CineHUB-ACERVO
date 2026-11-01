@@ -113,7 +113,7 @@ def _job(source: str, name: str, code: str, fetcher: Callable[[str], str], refer
         parser = lambda document: parse_meuguia(document, reference_date=reference_date)
     else:
         url = "https://www.guiadetv.com/canal/" + urllib.parse.quote(code, safe="-")
-        parser = parse_guiadetv
+        parser = lambda document: parse_guiadetv(document, reference_date=reference_date)
     try:
         document = fetcher(url)
         programmes = parser(document)
