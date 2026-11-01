@@ -1,34 +1,39 @@
 # CineHUB ACERVO
 
-Repositório central de dados do CineHUB TV e CineHUB Mobile. Mantém fontes, índices e metadados versionados de forma independente dos aplicativos.
+Repositório de dados do **CineHUB TV**. Nesta fase, o ACERVO atende exclusivamente à versão TV; CineHUB Mobile e CineHUB Web mantêm seus próprios acervos e não fazem parte desta integração.
 
-> **Estado inicial:** estrutura de acervo e automação. As fontes de terceiros precisam ser validadas antes de entrar em produção; este repositório não presume que uma URL esteja funcional ou que haja autorização para redistribuir um conteúdo.
+> **Estado do projeto:** estrutura de catálogo e automações em auditoria. Fontes de terceiros precisam passar por validação técnica e revisão de permissão antes de serem consideradas prontas para produção. Uma URL cadastrada não é garantia de reprodução nem de autorização para redistribuição.
 
-## Objetivos
+## Escopo desta fase
 
-- Catálogo compartilhado para TV e Mobile, sem duplicar a lógica dos apps.
-- Canais ao vivo com fontes alternativas, grupos, logos e identificadores estáveis.
+- Catálogo de canais ao vivo com fontes alternativas, grupos, logos e identificadores estáveis.
 - Filmes, séries, animes e doramas por índices e metadados leves.
 - Rádios com nome, stream, estilo e logo.
-- Fontes M3U/M3U8, EPG/XMLTV e catálogos externos com origem e licença documentadas.
-- Normalização de nomes, logos, grupos e duplicatas.
-- Atualizações agendadas com validação, relatório de falhas e publicação apenas de resultados válidos.
-- Compatibilidade retroativa: manter os formatos consumidos pelos apps até cada integração ser testada.
+- Fontes M3U/M3U8, EPG/XMLTV e catálogos externos com proveniência e permissões documentadas.
+- Normalização de nomes, metadados e grupos, sem apagar registros ou alterar identificadores e fontes válidas.
+- Atualizações automatizadas com validação, relatórios e preservação da última versão válida em caso de falha.
+- Compatibilidade com o consumidor CineHUB TV, mantendo formatos existentes até a integração ser testada.
+
+## Fora do escopo desta fase
+
+- Não integrar nem alterar os acervos próprios do CineHUB Mobile ou CineHUB Web.
+- Não publicar OTA, release ou alteração nos aplicativos sem autorização explícita.
+- Não importar credenciais, cookies, tokens privados, cabeçalhos de autenticação ou material protegido por DRM.
 
 ## Estrutura
 
 ```text
 catalog/
-  channels/       catálogo normalizado de canais
+  channels/       catálogo de canais
   radios/         catálogo de rádios
   vod/            índices de filmes, séries, animes e doramas
   epg/            fontes e configuração de programação
-  logos/          logos próprios ou redistribuíveis, organizados por tipo
+  logos/          logos próprios ou redistribuíveis
 sources/
-  sources.json    registro de fontes, categoria, prioridade e última verificação
-  m3u/            listas de origem e listas consolidadas geradas
+  sources.json    registro de fontes, categoria, prioridade e proveniência
+  m3u/            listas de origem e listas consolidadas permitidas
 normalizer/
-  rules.json      aliases, regras de nomes e grupos
+  rules.json      aliases e regras de nomes/grupos
 scripts/
   update_catalog.py
   normalize_catalog.py
@@ -39,36 +44,33 @@ tests/
   update-catalog.yml
   validate.yml
 docs/
-  DATA_FORMATS.md
-  SOURCES_POLICY.md
-reports/          relatórios automáticos; sem segredos
+reports/          relatórios automáticos sem segredos
 ```
 
-## Formatos
+## Formatos e compatibilidade
 
-- Catálogo JSON versionado para TV e Mobile.
-- M3U/M3U8 preservados quando a fonte permitir redistribuição; não embutir listas privadas.
+- JSON versionado para o consumidor CineHUB TV.
+- M3U/M3U8 somente quando a fonte permitir redistribuição.
 - Rádio: `id`, `name`, `stream_url`, `logo_url`, `genre`, `source_id`.
 - Canal: `id`, `name`, `group`, `logo_url`, `epg_id`, `sources[]`.
-- VOD: metadados e identificadores públicos; URLs de reprodução só de fontes autorizadas e documentadas.
+- VOD: metadados e identificadores públicos; URLs de reprodução apenas de fontes autorizadas e documentadas.
 
 ## Atualização automática
 
-O GitHub Actions executará a rotina agendada e manualmente. A rotina deve:
-1. Baixar fontes com timeout e limite de tamanho.
-2. Validar HTTP, formato e conteúdo antes de processar.
-3. Normalizar nomes e identificadores sem apagar dados válidos.
-4. Detectar duplicatas, links mortos e alterações bruscas de volume.
-5. Preservar a última versão válida se uma fonte falhar.
-6. Gerar relatório e artefatos; publicar alterações somente após os testes.
-7. Evitar commits quando não houver mudanças.
+O GitHub Actions executa rotinas agendadas e manuais para:
 
-**Segurança:** nunca armazenar tokens, senhas ou URLs privadas com credenciais. Não usar fontes que exijam contornar DRM, autenticação ou controles de acesso.
+1. Buscar fontes registradas com timeout e limite de tamanho.
+2. Validar HTTP, formato, conteúdo e limites de qualidade.
+3. Normalizar textos e identificadores sem apagar dados válidos.
+4. Detectar duplicatas, links indisponíveis e alterações bruscas de volume.
+5. Preservar a última versão válida quando uma fonte falhar.
+6. Gerar relatórios e executar testes antes de gravar alterações.
+7. Evitar commits quando não houver mudanças reais.
 
-## Integração e proveniência
+## Segurança, proveniência e identidade
 
-A estrutura de dados foi adaptada a partir de um repositório de referência autorizado pelo mantenedor. O projeto CineHUB mantém nomenclatura, identidade, formatos e rotinas próprios. Dados importados passam por validação técnica e revisão de permissão antes de serem considerados prontos para produção.
+O projeto utiliza referências autorizadas como insumo técnico, mas mantém a identidade, nomenclatura e experiência CineHUB. Dados importados são submetidos a filtros de segurança, compatibilidade e revisão de permissões. Não são importados segredos, credenciais, cookies, mecanismos de autenticação ou fontes que exijam contornar DRM ou controles de acesso.
 
 ## Status
 
-Versão de estrutura: **0.1.0**. A integração com os aplicativos CineHUB TV/Mobile deve ser feita por URLs estáveis e validada em cada app antes de trocar a fonte atual.
+A auditoria, normalização e validação estão em andamento em branches de trabalho isolados. A branch `main` não deve ser considerada atualizada com as alterações em revisão. Nenhuma publicação OTA ou alteração nos aplicativos está autorizada por esta documentação.
