@@ -46,6 +46,7 @@ class SaimoTVChannelReferenceTests(unittest.TestCase):
 
             self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["url"], "https://cdn.example/caze/index.m3u8")
             self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["user_agent"], "CineHUB-Test")
+            self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["userAgent"], "CineHUB-Test")
             self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["referer"], "https://caze.example/")
             self.assertNotIn("origin", by_id["ch-cazetv-hd"]["sources"][0])
             self.assertNotIn("authorization", by_id["ch-cazetv-hd"]["sources"][0])
