@@ -15,6 +15,44 @@ from parse_html_epg import parse_guiadetv
 
 
 class UpdateHtmlEpgTests(unittest.TestCase):
+    def test_disabled_html_sources_remove_cached_schedules_without_fetching(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            epg = root / "catalog/epg"
+            epg.mkdir(parents=True)
+            (epg / "sources.json").write_text(json.dumps({
+                "sources": [
+                    {"id": "meuguia-br", "format": "html", "enabled": False},
+                    {"id": "guia-de-tv-br", "format": "html", "enabled": False},
+                    {"id": "xmltv-a", "format": "xmltv", "enabled": True},
+                ]
+            }), encoding="utf-8")
+            (epg / "channel-map.json").write_text(json.dumps({
+                "meuguia_codes": {"HBO": "HBO"},
+                "guiadetv_slugs": {"SONY Movies": "sony-movies"},
+            }), encoding="utf-8")
+            (epg / "html-programmes.json").write_text(json.dumps({
+                "schema_version": 1, "timezone": "America/Sao_Paulo",
+                "programmes": {
+                    "HBO": {"source_id": "meuguia-br", "programmes": [{"title": "Grade antiga"}]},
+                    "SONY Movies": {"source_id": "guia-de-tv-br", "programmes": [{"title": "Grade antiga"}]},
+                },
+                "health": {},
+            }), encoding="utf-8")
+
+            def forbidden_fetch(url):
+                raise AssertionError("disabled HTML source must never be fetched")
+
+            doc = update_document(root, forbidden_fetch, dt.datetime(2026, 11, 1, 12, tzinfo=dt.timezone.utc))
+            self.assertEqual(doc["programmes"], {})
+            self.assertEqual(doc["active_sources"], [])
+            self.assertEqual(doc["health"]["HBO"]["status"], "disabled")
+            self.assertEqual(doc["health"]["SONY Movies"]["status"], "disabled")
+            self.assertEqual(
+                set(doc["policy"]["disabled_sources"]),
+                {"meuguia-br", "guia-de-tv-br"},
+            )
+
     def test_successful_meuguia_schedule_is_published_in_sidecar(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
