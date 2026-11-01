@@ -20,6 +20,7 @@ on:
       - "scripts/parse_html_epg.py"
       - "docs/WORKLOG-2026-10-31.md"
       - ".github/workflows/update-catalog.yml"
+      - ".github/enrichment/**"
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
@@ -35,7 +36,7 @@ permissions:
 
 concurrency:
   group: acervo-catalog-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
