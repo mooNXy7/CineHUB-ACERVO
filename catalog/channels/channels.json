@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T18:04:42Z",
+  "generated_at": "2026-11-01T18:38:05Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -48523,7 +48523,7 @@
       "id": "ch-amc-series",
       "name": "AMC Series",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": null,
       "sources": [
         {
