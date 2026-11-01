@@ -3280,7 +3280,7 @@
     "id": "movie-estarei-de-volta-no-natal",
     "title": "Estarei de Volta no Natal",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/cHRieEBkLKEGnT8bAjSHNCA33Cj.jpg",
     "genres": [
       "Drama",
@@ -3354,7 +3354,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Simon é um famoso artista que retorna à sua casa de infância para celebrar o Natal ao lado de sua família. Ele concorda em participar do concerto que seu irmão está organizado, mas é assombrado por alguns segredos do passado.",
+    "imdb_id": "tt10504966"
   },
   {
     "id": "movie-estarei-em-casa-para-o-natal-2016",
@@ -3437,7 +3439,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt5860940"
+    "imdb_id": "tt5860940",
+    "overview": "Prestes a encerrar um importante caso, a advogada Jackie planeja passar o Natal ao lado de sua filha. Porém, uma visita inesperada acaba trazendo velhas feridas à tona."
   },
   {
     "id": "movie-estacao-das-chuvas-2019",
@@ -3474,7 +3477,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em meio a uma crise em seu casamento, uma professora de uma escola em Singapura desenvolve uma forte ligação com um solitário aluno chinês. Mas tudo pode acabar levando a um desfecho imprevisível quando a relação dos dois é descoberta.",
+    "imdb_id": "tt9822706"
   },
   {
     "id": "movie-estacao-espacial-internacional",
@@ -3537,13 +3542,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Num futuro próximo, as tensões crescem a bordo da Estação Espacial Internacional quando um conflito eclode na Terra. Revoltados, os astronautas americanos e russos recebem a ordem: assumir o controle da estação por qualquer meio possível.",
+    "imdb_id": "tt13655120"
   },
   {
     "id": "movie-estacao-polar-zebra",
     "title": "Estação Polar Zebra",
     "type": "movie",
-    "year": null,
+    "year": "1968",
     "poster_url": "/ss0Kdu3BTV1RXXmJ1q8gcbwqBRO.jpg",
     "genres": [
       "Suspense",
@@ -3611,13 +3618,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Esta espetacular produção de Martin Ransohoff, leva o submarino nuclear Tigerfish a uma perigosa viagem nas águas geladas do Pólo Norte, onde um satélite espião perdeu o controle e caiu. Dentro dele, um importante microfilme que pode desencadear um confronto nuclear entre os Estados Unidos e a União Soviética. Para resgatar o conteúdo do satélite, os serviços de espionagem dos dois países enviam agentes disfarçados, numa missão de vida ou morte. O submarino nuclear, sob o comando de James Ferraday (Rock Hudson), leva o agente inglês David Jones (Patrick McGoohan) até a Estação Polar Zebra, onde outros agentes já devem estar de posse do microfilme. Mas existe um agente duplo infiltrado no Tigerfish. Pior: uma frota soviética também está rumando para Zebra e o confronto entre as duas potencias está por um fio. Do mesmo diretor de “Sete Homens e um Destino” e “Fugindo do Inferno”.",
+    "imdb_id": "tt0063121"
   },
   {
     "id": "movie-estacao-rock",
     "title": "Estação Rock",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/aXG8IBEDg71jetn8dx16rNKBJPL.jpg",
     "genres": [
       "Drama"
@@ -3653,7 +3662,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Osso vive três grandes dilemas em sua vida: ao mesmo tempo que sonha em fazer sucesso em uma banda integradas por jovens instáveis e imaturos, também busca sua reaproximação com seus pais e a reconstrução de um relacionamento jovem.",
+    "imdb_id": "tt12252010"
   },
   {
     "id": "movie-estacao-rock-2020",
@@ -3837,13 +3848,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt1232200"
+    "imdb_id": "tt1232200",
+    "overview": "Na adolescência, Donny teve um filho, Todd, e o criou até completar 18 anos. Agora Donny ressurge pouco antes do casamento de Todd depois de anos separados, fazendo com que o mundo do futuro noivo desmorone."
   },
   {
     "id": "movie-este-velorio-e-uma-parada",
     "title": "Este Velório é uma Parada",
     "type": "movie",
-    "year": null,
+    "year": "1992",
     "poster_url": "/3qasbx678SK6HAStwys8pNHm9W8.jpg",
     "genres": [
       "Comédia"
@@ -3898,7 +3910,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A morte repentina de Jack Scanlan provoca uma reviravolta na família, que deseja oferecer ao patriarca um funeral apropriado. O filho mais velho tenta liderar o grupo, mas percebe que a tarefa é muito mais difícil do que parece.",
+    "imdb_id": "tt0105103"
   },
   {
     "id": "movie-ester-a-rainha-da-persia-1999",
@@ -3949,7 +3963,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Depois da conquista da Babilônia, a Pérsia torna-se um imenso Império. Para demonstrar sua glória e riqueza, o Rei Ahasuerus oferece um banquete ao seu povo. Mas orgulhosa, sua esposa Vashti se recusa a comparecer a festa. Irado, o Rei a substitui por uma jovem chamada Ester. Sem saber de sua herança judaica, Ahasuerus se apaixona por ela e a torna Rainha.",
+    "imdb_id": "tt0168331"
   },
   {
     "id": "movie-esteros-2016",
@@ -3986,13 +4002,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Matias e Jeronimo são dois grandes amigos que cresceram juntos em Paso de Los Libres, uma região simples e folclórica na Argentina. Durante sua adolescência, surgiu uma inesperada atração sexual entre os dois, que viveram os sentimentos com curiosidade. Mas a vida acabou separando seus destinos. Após anos afastados, eles lidam de maneiras totalmente distintas com as lembranças do passado. Mas, quando os dois se reencontram, o sentimento renascerá e se confrontará com todos os tipos de conflitos morais.",
+    "imdb_id": "tt5883632"
   },
   {
     "id": "movie-esticando-a-festa",
     "title": "Esticando a Festa",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/ygKMsqCscAnRl0F8utCh23w5M2C.jpg",
     "genres": [
       "Fantasia",
@@ -4067,7 +4085,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "A vida de Cassie é uma grande festa, até que ela morre em um acidente. Agora, essa jovem popular tem a chance de voltar à Terra e consertar seus erros.",
+    "imdb_id": "tt11742798"
   },
   {
     "id": "movie-esticando-a-festa-2021",
@@ -4154,7 +4174,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quatro homens sentenciados à morte conseguem escapar e sequestram uma mulher chamada Emma. Jim acha que eles são os criminosos que mataram sua mulher e quer vingança. Jim forma um grupo e começa caçar os bandidos, um a um, e acaba salvando Emma.",
+    "imdb_id": "tt0051433"
   },
   {
     "id": "movie-estilo-americano-forca-e-poder-1988",
@@ -4205,13 +4227,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Tony Stone (Robert Z'Dar), é um criminoso durão com um questionável critério para com seus capangas. Depois que ele e seus bandidos praticam um ataque a um depósito de carros de sorvete surpreendentemente bem-guardado, eles são pegos pelo Tenente Sunset (Jim Brown) e mandados para a prisão. Enquanto isso, o irmão de Stone-disfarçado como a mulher mais inconvincente de todos os tempos-salva a gangue e leva um tiro na barriga por isso. Em busca de ajuda médica, os caras maus invadem a casa de John Morgan (Harold Diamond). Morgan faz o jogo dos criminosos para salvar sua família, mas não demorará muito até ele decidir começar a matar.",
+    "imdb_id": "tt0293324"
   },
   {
     "id": "movie-estive-em-lisboa-e-lembrei-de-voce",
     "title": "Estive em Lisboa e Lembrei de Você",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/zjKkD0k3xr3chHAU3oxRx4fQk1j.jpg",
     "genres": [
       "Drama"
@@ -4226,7 +4250,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Cataguases, Minas Gerais, 2005. Depois de um casamento frustrado, que o faz perder o emprego e o contato com o filho, Sérgio de Souza Sampaio (Paulo Azevedo) decide emigrar para Lisboa, Portugal. Lá, corre a lenda, é possível recompor a vida e fazer um bom pé de meia para depois retornar à terra natal, viver de rendimentos e “subir na vida”.\r Cheio de sonhos, Sérgio parte para Lisboa, onde é confrontado com a dura realidade da imigração: o dia-a-dia, o submundo e as diferenças culturais vão revelar um lugar diferente daquele com que sonhara.\r Baseado no romance homônimo de Luiz Ruffato.",
+    "imdb_id": "tt4719202"
   },
   {
     "id": "movie-estive-em-lisboa-e-lembrei-de-voce-2015",
@@ -4296,7 +4322,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em 1973, um criminoso meia boca assalta o maior banco da capital sueca e faz alguns funcionários reféns e em troca pede para que seu amigo também bandido, preso, seja libertado em troca da libertação das pessoas.",
+    "imdb_id": "tt6474040"
   },
   {
     "id": "movie-estomago-2007",
@@ -4498,13 +4526,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt9786006"
+    "imdb_id": "tt9786006",
+    "overview": "A cada ano, mais de 20 milhões de jeans são produzidos em fábricas de fundo de quintal em Toritama, no agreste de Pernambuco. Os moradores locais trabalham sem parar, orgulhosos de serem os donos do seu próprio tempo. Durante o Carnaval, eles transgridem a lógica da acumulação de bens, vendem seus pertences sem arrependimentos e fogem para as praias em busca de uma felicidade efêmera."
   },
   {
     "id": "movie-estou-pensando-em-acabar-com-tudo",
     "title": "Estou Pensando em Acabar com Tudo",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/roRRTAzpLJSo32jRGPDuUKZDfC.jpg",
     "genres": [
       "Mistério",
@@ -4567,7 +4596,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Apesar de ter dúvidas sobre seu relacionamento, uma jovem faz uma viagem de carro com seu novo namorado, Jake para visitar a fazenda da família dele. Ela começa a questionar a natureza do que sabe sobre o mundo.",
+    "imdb_id": "tt7939766"
   },
   {
     "id": "movie-estou-pensando-em-acabar-com-tudo-2020",
@@ -4740,13 +4771,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt14992524"
+    "imdb_id": "tt14992524",
+    "overview": "A viagem de um jovem casal apaixonado acaba se transformando em um pesadelo quando eles passam a ser perseguidos por um homem misterioso."
   },
   {
     "id": "movie-estrada-de-sonhos",
     "title": "Estrada de Sonhos",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/12YpKqcJgeQGttX4D9P9L3p9S7E.jpg",
     "genres": [
       "Documentário"
@@ -4807,7 +4839,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O documentário traz à tona a história ferroviária do Brasil. Pensando além dos trilhos e das locomotivas, discorre sobre momentos, lembranças e registros de pessoas que vivenciaram e ainda vivem esse símbolo da modernidade e progresso no passado, revisitando não apenas a primeira ferrovia do Brasil, a Barão de Mauá, como outras abandonadas.",
+    "imdb_id": "tt4592408"
   },
   {
     "id": "movie-estrada-de-sonhos-2015",
@@ -4849,7 +4883,7 @@
     "id": "movie-estrada-do-apocalipse",
     "title": "Estrada do Apocalipse",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/lYmtsqt5r7wUZ5Kp7HpaZvjODoY.jpg",
     "genres": [
       "Ficção científica",
@@ -4865,7 +4899,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Duas irmãs que se perdem após um evento apocalíptico precisam lutar se quiserem sobreviver.",
+    "imdb_id": "tt4815204"
   },
   {
     "id": "movie-estrada-do-apocalipse-2016",
@@ -4891,7 +4927,7 @@
     "id": "movie-estrada-do-crime",
     "title": "Estrada do Crime",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/getO89cEumcc5Yl4ttJ0A40HqAi.jpg",
     "genres": [
       "Crime",
@@ -4973,7 +5009,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um dos últimos motoristas de caminhão de reboque decentes da cidade arrisca tudo em uma busca desesperada para se tornar o rei das estradas e sustentar sua família em dificuldades.",
+    "imdb_id": "tt5130442"
   },
   {
     "id": "movie-estrada-do-crime-2018",
@@ -5024,7 +5062,7 @@
     "id": "movie-estrada-florestal-825",
     "title": "Estrada Florestal 825",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/nvS6BB4s2v9bALGLWGXOIgdY7Na.jpg",
     "genres": [
       "Terror",
@@ -5106,7 +5144,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt15173952"
+    "imdb_id": "tt15173952",
+    "overview": "Após uma tragédia familiar, Chuck Wilson planeja uma nova vida, em Ashland Falls, junto a sua esposa e a sua irmã menor. Mas logo descobre que a cidade esconde um segredo obscuro."
   },
   {
     "id": "movie-estrada-maldita-2007",
@@ -5171,7 +5210,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Desesperada para ir à Delaware no Natal, a universitária pega carona com um estranho colega de classe. Logo após cortarem caminho por uma estrada deserta, eles são surpreendidos por uma terrível tempestade de neve, sendo que os dois jovens são forçados a sair da estrada por um carro misterioso. Assustados eles descobrem que o frio será a prova mais fácil que eles terão que enfrentar pela frente.",
+    "imdb_id": "tt0486051"
   },
   {
     "id": "movie-estrada-maldita-2019",
@@ -5209,7 +5250,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Durante uma viagem, um viúvo precisa proteger suas filhas de terríveis entidades sobrenaturais.",
+    "imdb_id": "tt9308456"
   },
   {
     "id": "movie-estrada-mortal-2018",
@@ -5261,13 +5304,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt6949498"
+    "imdb_id": "tt6949498",
+    "overview": "Em um futuro não muito distante, onde conglomerados de mineração transformaram o Canadá em um enorme deserto, dois irmãos precisam viajar por uma perigosa estrada para recuperar uma encomenda misteriosa."
   },
   {
     "id": "movie-estrada-para-a-gloria",
     "title": "Estrada Para a Glória",
     "type": "movie",
-    "year": null,
+    "year": "2006",
     "poster_url": "/l1Y9t2TDhkE8Q1sLThnsAJtmAnF.jpg",
     "genres": [
       "Drama",
@@ -5329,7 +5373,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A inspiradora história verídica de como um lendário treinador de basquete do Texas levou a primeira equipe constituída unicamente por afro-descendentes à vitória na final do Campeonato Universitário Nacional de 1966. Josh Lucas estrela como o técnico Don Haskins, obstinado e dedicado treinador de basquete estudantil que mudou a história desse esporte graças à vitória de seu time numa época de inocência.",
+    "imdb_id": "tt0385726"
   },
   {
     "id": "movie-estrada-para-a-gloria-2006",

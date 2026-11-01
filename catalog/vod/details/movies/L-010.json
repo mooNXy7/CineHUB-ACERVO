@@ -1,1 +1,2680 @@
-[{"id":"movie-lutadora-implacavel","title":"Lutadora Implacável","type":"movie","year":null,"poster_url":"/uHN4tw6WENLyXft9Ycu7ScTc4nj.jpg","genres":["Ação","Drama"],"tmdb_id":"1178734","sources":[],"provider_refs":[{"provider":"18","ref":"1178734","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutando-contra-o-tempo","title":"Lutando Contra o Tempo","type":"movie","year":null,"poster_url":"/6uUkYBOBMCRAa4ZiMf2l3c4PV93.jpg","genres":["Drama","Ação","Crime"],"tmdb_id":"546898","sources":[],"provider_refs":[{"provider":"18","ref":"546898","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"50765","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutando-contra-o-tempo-2017","title":"Lutando Contra o Tempo (2017)","type":"movie","year":"2017","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Contra%20o%20Tempo%20_2017_%20_tmdb_546898_f2b06435.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-lutando-pela-familia","title":"Lutando Pela Familia","type":"movie","year":null,"poster_url":"/xp9rn3X5obbSs1xCRayys5wKJMA.jpg","genres":["Comédia"],"tmdb_id":"445629","sources":[{"url":"https://mgeb.top/embed/445629","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/445629","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Pela%20Fam_lia%20_2019_%20_tmdb_445629_c6437b62.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"445629","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460074","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651552","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"26870","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"26870","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lutando-pela-familia-2019","title":"Lutando Pela Família (2019)","type":"movie","year":"2019","poster_url":"/xp9rn3X5obbSs1xCRayys5wKJMA.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/445629","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/445629","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1307755","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutando-pela-vida","title":"Lutando Pela Vida","type":"movie","year":null,"poster_url":"/1Ig2JUdWm4aNgzAkgRhz73VhyJ5.jpg","genres":["Drama"],"tmdb_id":"603055","sources":[{"url":"https://mgeb.top/embed/603055","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/603055","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Pela%20Vida%20_2019_%20_tmdb_603055_917a3aed.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"603055","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455786","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653848","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"41634","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"41634","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lutando-pela-vida-2019","title":"Lutando Pela Vida (2019)","type":"movie","year":"2019","poster_url":"/1Ig2JUdWm4aNgzAkgRhz73VhyJ5.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/603055","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/603055","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1297891","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutando-por-um-sonho","title":"Lutando Por Um Sonho","type":"movie","year":null,"poster_url":"/nj2Lq7YoMxXiFrIOv6mP7TuAupX.jpg","genres":["Drama"],"tmdb_id":"431261","sources":[{"url":"https://mgeb.top/embed/431261","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/431261","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Por%20Um%20Sonho%20_2017_%20_tmdb_431261_c6e69bdf.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"431261","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456396","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653963","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"383343","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"30561","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"383343","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"30561","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"383342","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"383342","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-lutando-por-um-sonho-2017","title":"Lutando Por Um Sonho (2017)","type":"movie","year":"2017","poster_url":"/nj2Lq7YoMxXiFrIOv6mP7TuAupX.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/431261","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/431261","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1307704","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutando-por-uma-chance-2014","title":"Lutando por uma Chance (2014)","type":"movie","year":"2014","poster_url":"/AhOvdIduD2kGySx0iiStJuy1v3V.jpg","genres":["Drama"],"tmdb_id":"227325","sources":[{"url":"https://mgeb.top/embed/227325","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/227325","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1309994","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1309995","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutar-ou-morrer","title":"Lutar ou Morrer","type":"movie","year":null,"poster_url":"/fgn7eFNxaE05jYIaFWoNaLZyfBn.jpg","genres":["Ação"],"tmdb_id":"17809","sources":[{"url":"https://mgeb.top/embed/17809","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17809","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutar%20ou%20Morrer%20_2021_%20_tmdb_821390_4e061e15.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutar%20ou%20Morrer%20_1994_%20_tmdb_17809_6f25d916.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"17809","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448163","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452430","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457981","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"266669","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"266669","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"266670","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"266670","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-lutar-ou-morrer-1994","title":"Lutar ou Morrer (1994)","type":"movie","year":"1994","poster_url":"/fgn7eFNxaE05jYIaFWoNaLZyfBn.jpg","genres":["Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/17809","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/17809","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1313814","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lutar-ou-morrer-2021","title":"Lutar ou Morrer (2021)","type":"movie","year":"2021","poster_url":"/yMBrpHHiNUGDc1AaowhVYR26tNp.jpg","genres":["Suspense","Terror"],"tmdb_id":"821390","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/07ea66e58ab201643549d862fd74bdb7/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/821390","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/821390","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"821390","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654530","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1305335","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt11392272"},{"id":"movie-lutar-lutar-lutar-2021","title":"Lutar, Lutar, Lutar (2021)","type":"movie","year":"2021","poster_url":"/mSqDWnzKPq7hHOlcBWp6LRkGAj2.jpg","genres":["Documentário"],"tmdb_id":"808734","sources":[{"url":"https://mgeb.top/embed/808734","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/808734","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"808734","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453201","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648036","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770248","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306552","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lute-por-sua-vida","title":"Lute por sua Vida","type":"movie","year":null,"poster_url":"/rNIuv9JMtFTXPAWtDXK1y1KcoFr.jpg","genres":["Drama"],"tmdb_id":"251994","sources":[],"provider_refs":[{"provider":"18","ref":"251994","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lute-por-sua-vida-2014","title":"Lute por sua Vida (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lute%20por%20sua%20Vida%20_2014_%20_tmdb_251994_49ffd1b2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-lutero","title":"Lutero","type":"movie","year":null,"poster_url":"/7gfNkXV9iXVhyHTPt5EVfpIBPPd.jpg","genres":["Drama","História"],"tmdb_id":"5653","sources":[{"url":"https://mgeb.top/embed/5653","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/5653","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutero%20_2003_%20_tmdb_5653_bd26db51.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"5653","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450749","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645917","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"21024","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"21024","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lutero-2003","title":"Lutero (2003)","type":"movie","year":"2003","poster_url":"/7gfNkXV9iXVhyHTPt5EVfpIBPPd.jpg","genres":["Drama","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/5653","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/5653","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1297299","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luther-o-cair-da-noite-2023","title":"Luther O Cair da Noite (2023)","type":"movie","year":"2023","poster_url":"/m0fiXXtld8KvMXnjCQvXYzD8gNA.jpg","genres":["Crime","Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/722149","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/722149","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1301019","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luther-o-cair-da-noite","title":"Luther: O Cair da Noite","type":"movie","year":null,"poster_url":"/m0fiXXtld8KvMXnjCQvXYzD8gNA.jpg","genres":["Crime","Mistério","Suspense"],"tmdb_id":"722149","sources":[{"url":"https://mgeb.top/embed/722149","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/722149","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luther_%20O%20Cair%20da%20Noite%20_2023_%20_tmdb_722149_600b599d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"722149","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445768","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647307","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"190771","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"190771","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"188902","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"188902","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"188901","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"188901","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-luxuria","title":"Luxúria","type":"movie","year":null,"poster_url":"/nIarbeqivH4XK9oNBZ1h81Hx3RA.jpg","genres":["Drama","Romance","Suspense","Guerra","História"],"tmdb_id":"30301","sources":[],"provider_refs":[{"provider":"18","ref":"30301","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luxuria-2002","title":"Luxúria (2002)","type":"movie","year":"2002","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lux_ria%20_2002_%20_tmdb_30301_30da6d1e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-luz-del-fuego","title":"Luz Del Fuego","type":"movie","year":null,"poster_url":"/ee4Jw4k1YdOfc0kURimO2hiFH46.jpg","genres":["Comédia","Drama"],"tmdb_id":"362589","sources":[{"url":"https://mgeb.top/embed/362589","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/362589","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2444165","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"386807","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"386807","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-luz-fantasma","title":"Luz Fantasma","type":"movie","year":null,"poster_url":"/tFUY5AkdWeyKh5uIzeyLp6lBSZw.jpg","genres":["Comédia","Drama"],"tmdb_id":"1214469","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/49e973528c7009aa6d42a9929353db3d/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1214469","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1214469","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz%20Fantasma%20_2024_%20_tmdb_1214469_ffca5bbf.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1214469","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444762","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"909095","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"371671","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"371671","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"371670","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"371670","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3,"imdb_id":"tt30321095"},{"id":"movie-luz-luz-luz","title":"Luz Luz Luz","type":"movie","year":null,"poster_url":"/rPNECWjucUMsnOeig0AEARa37Li.jpg","genres":["Drama","Romance"],"tmdb_id":"2012","sources":[{"url":"https://mgeb.top/embed/2012","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2012","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"394748","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"394748","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-luz-natural","title":"Luz Natural","type":"movie","year":null,"poster_url":"/4C8aCicw2v8HnL0wBvtxNMW5ys6.jpg","genres":["Guerra","Drama","História"],"tmdb_id":"669661","sources":[],"provider_refs":[{"provider":"18","ref":"669661","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-anima-acao","title":"Luz, Anima, Ação","type":"movie","year":null,"poster_url":"/1zgwv9FgKFrBPS7nCE5TdtrW79T.jpg","genres":["Documentário"],"tmdb_id":"341529","sources":[{"url":"https://mgeb.top/embed/341529","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/341529","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20Anima_%20Acao%20_2013_%20_tmdb_341529_aefa87b7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"341529","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452901","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"849243","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"329689","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"329689","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-carga-pesada-a-grande-viagem-o-filme","title":"Luz, Câmera, 50 Anos: Carga Pesada: A Grande Viagem - O Filme","type":"movie","year":null,"poster_url":"/9E7VL9FsCQyWvdzVbwMlW1uCCNA.jpg","genres":["Aventura","Comédia","Drama","Crime","TV"],"tmdb_id":"742671","sources":[],"provider_refs":[{"provider":"18","ref":"742671","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-carga-pesada-a-grande-viagem-o-filme-2015","title":"Luz, Câmera, 50 Anos: Carga Pesada: A Grande Viagem - O Filme (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20Carga%20Pesada_%20A%20Grande%20Viagem%20-%20O%20Filme%20_2015_%20_tmdb_742671_db5a4963.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-lampiao-e-maria-bonita-o-filme","title":"Luz, Câmera, 50 Anos: Lampião e Maria Bonita - O Filme","type":"movie","year":null,"poster_url":"/2IyFOceWfXV7eDWHyKLOPaEWnxm.jpg","genres":["Drama","Aventura","TV"],"tmdb_id":"327464","sources":[],"provider_refs":[{"provider":"18","ref":"327464","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-lampiao-e-maria-bonita-o-filme-2015","title":"Luz, Câmera, 50 Anos: Lampião e Maria Bonita - O Filme (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20Lampi_o%20e%20Maria%20Bonita%20-%20O%20Filme%20_2015_%20_tmdb_327464_09b07be4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-o-pagador-de-promessas-o-filme","title":"Luz, Câmera, 50 Anos: O Pagador de Promessas - O Filme","type":"movie","year":null,"poster_url":"/kDS1X4XKRK79qR9jQkQRxE5gdqZ.jpg","genres":["Drama","TV"],"tmdb_id":"779356","sources":[],"provider_refs":[{"provider":"18","ref":"779356","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-camera-50-anos-o-pagador-de-promessas-o-filme-2015","title":"Luz, Câmera, 50 Anos: O Pagador de Promessas - O Filme (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20O%20Pagador%20de%20Promessas%20-%20O%20Filme%20_2015_%20_tmdb_779356_03032417.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-luz-camera-assassinato","title":"Luz, Câmera, Assassinato!","type":"movie","year":null,"poster_url":"/cxmDKBPkBNYCNMhjbPE5DUuEEq0.jpg","genres":["Suspense","Terror"],"tmdb_id":"501495","sources":[{"url":"https://mgeb.top/embed/501495","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/501495","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%20Assassinato%20_2019_%20_tmdb_501495_379fdee2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"501495","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451692","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654414","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670432","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"295704","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"295704","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"295705","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"295705","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luz-camera-acao","title":"Luz, Câmera, Ação","type":"movie","year":null,"poster_url":"/iBFDnNVH0fLKU3SS93J88xN9J0c.jpg","genres":["Ação","Comédia"],"tmdb_id":"1117269","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/d24b8015f4a8100575314277849f381f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1117269","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1117269","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%20A_o%20_2023_%20_tmdb_1117269_53167b0f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1117269","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454702","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"803809","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"320688","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"320688","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"320687","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"320687","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt18115690"},{"id":"movie-luzes-da-cidade","title":"Luzes da Cidade","type":"movie","year":null,"poster_url":"/s0T1MpsDcQCmqOTJ47zASE1PevI.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"901","sources":[{"url":"https://mgeb.top/embed/901","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/901","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luzes%20da%20Cidade%20_1931_%20_tmdb_901_6d606c0d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"901","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460106","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650908","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"128630","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"128630","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-luzes-da-cidade-1931","title":"Luzes da Cidade (1931)","type":"movie","year":"1931","poster_url":"/s0T1MpsDcQCmqOTJ47zASE1PevI.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/901","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/901","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1301869","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luzes-da-ribalta-1952","title":"Luzes da Ribalta (1952)","type":"movie","year":"1952","poster_url":"/xDwPUEyvrf6BJe8xgPxCP5jmHty.jpg","genres":["Romance","Drama","Comédia"],"tmdb_id":"28971","sources":[{"url":"https://mgeb.top/embed/28971","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/28971","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1301874","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luzes-de-phoenix","title":"Luzes de Phoenix","type":"movie","year":null,"poster_url":"/3zPJDTbYNxjZnr8KlxV3mN6tN14.jpg","genres":["Terror","Mistério","Ficção científica"],"tmdb_id":"443319","sources":[],"provider_refs":[{"provider":"18","ref":"443319","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-luzes-de-phoenix-2017","title":"Luzes de Phoenix (2017)","type":"movie","year":"2017","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luzes%20de%20Phoenix%20_2017_%20_tmdb_443319_afe74723.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-luzes-camera-acao-2004","title":"LUZES, CAMERA, ACAO (2004)","type":"movie","year":"2004","poster_url":"/2Rm4xsJnrZaZL0qPO2wBP5MJJpE.jpg","genres":["Ação","Comédia"],"tmdb_id":"26486","sources":[{"url":"https://mgeb.top/embed/26486","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26486","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-luzia-homem","title":"Luzia Homem","type":"movie","year":null,"poster_url":"/7GYL46UXsbYQLLp2QDvp2SzCumq.jpg","genres":["Drama"],"tmdb_id":"265809","sources":[{"url":"https://mgeb.top/embed/265809","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/265809","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"378051","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"377236","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"378051","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"377236","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lycan-princess","title":"Lycan Princess","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-lying-and-stealing-legendado","title":"Lying and Stealing Legendado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"2","ref":"30609","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"30609","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-la-fora","title":"Lá Fora","type":"movie","year":null,"poster_url":"/2mRpZ01DFVmZARJBEKPa1RMCKn2.jpg","genres":["Terror","Suspense"],"tmdb_id":"1306764","sources":[{"url":"https://mgeb.top/embed/1306764","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1306764","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_%20Fora%20_2024_%20_tmdb_1306764_9a9b3855.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1306764","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448270","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451626","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654442","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670604","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"290774","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"290774","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"290775","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"290775","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-la-fora-2024","title":"Lá Fora (2024)","type":"movie","year":"2024","poster_url":"/2mRpZ01DFVmZARJBEKPa1RMCKn2.jpg","genres":["Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1306764","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1306764","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1312299","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-la-vem-os-pais","title":"Lá Vem os Pais","type":"movie","year":null,"poster_url":"/rUWXKRKsbInckc8h5k6Tte8V8Zl.jpg","genres":["Comédia"],"tmdb_id":"465109","sources":[{"url":"https://mgeb.top/embed/465109","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/465109","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_%20Vem%20os%20Pais%20_2018_%20_tmdb_465109_017dea99.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Os%20Pais%20_2023_%20_tmdb_1073659_7864d98b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"465109","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461100","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651844","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"397920","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"20646","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"397920","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"20646","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-la-vem-os-pais-2018","title":"Lá Vem os Pais (2018)","type":"movie","year":"2018","poster_url":"/rUWXKRKsbInckc8h5k6Tte8V8Zl.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/465109","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/465109","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1310498","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lagrimas-do-sol","title":"Lágrimas do Sol","type":"movie","year":null,"poster_url":"/cdc7y9p1SDa7riYOkyAevJTXxTC.jpg","genres":["Guerra","Ação","Drama"],"tmdb_id":"9567","sources":[{"url":"https://mgeb.top/embed/9567","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9567","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9567","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454928","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457737","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649544","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"44237","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"44237","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lamina-dos-47-ronins","title":"Lâmina Dos 47 Ronins","type":"movie","year":null,"poster_url":"/yCNloDOXFDMn2GnXFcbtjfn1i7z.jpg","genres":["Fantasia","Ação"],"tmdb_id":"732459","sources":[{"url":"https://mgeb.top/embed/732459","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/732459","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_mina%20dos%2047%20Ronins%20_2022_%20_tmdb_732459_92d3f419.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"732459","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454739","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648631","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"185824","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"185824","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"185830","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"185830","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-lamina-dos-47-ronins-2022","title":"Lâmina dos 47 Ronins (2022)","type":"movie","year":"2022","poster_url":"/yCNloDOXFDMn2GnXFcbtjfn1i7z.jpg","genres":["Fantasia","Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/732459","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/732459","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1306340","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306341","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-lirios-nao-sao-para-mim","title":"Lírios Não São Para Mim","type":"movie","year":null,"poster_url":"/kUYt0YYohZ7O4G6E7NO9FTKmJ2q.jpg","genres":["Drama","História"],"tmdb_id":"1315655","sources":[{"url":"https://mgeb.top/embed/1315655","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1315655","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"379423","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"379423","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-lucia-e-o-sexo","title":"Lúcia e o Sexo","type":"movie","year":null,"poster_url":"/zmQVUR8lExu4y357uWB2qWUkjZ4.jpg","genres":["Drama","Romance"],"tmdb_id":"1364","sources":[{"url":"https://mgeb.top/embed/1364","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1364","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_cia%20e%20o%20Sexo%20_2001_%20_tmdb_1364_690a2088.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1364","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"388689","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"388689","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"388688","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"388688","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-lucio-flavio-o-passageiro-da-agonia-1977","title":"Lúcio Flávio o Passageiro da Agonia (1977)","type":"movie","year":"1977","poster_url":"/qLnx7Y7IK1x9aZQM5AbtbsUSEPQ.jpg","genres":["Crime","Drama"],"tmdb_id":"178032","sources":[{"url":"https://mgeb.top/embed/178032","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/178032","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_cio%20Fl_vio_%20o%20Passageiro%20da%20Agonia%20_1977_%20_tmdb_178032_8d710101.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"178032","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1301248","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-l-attentat-de-la-secte-aum","title":"l’attentat de la secte Aum","type":"movie","year":null,"poster_url":"/1b5lHH2TfN7wE6PATMeKAxn1sW1.jpg","genres":["Documentário","TV"],"tmdb_id":"1403153","sources":[{"url":"https://mgeb.top/embed/1403153","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1403153","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-l-ete-dernier","title":"L’été dernier","type":"movie","year":null,"poster_url":"/8fa2IDcT0UGTArTee5BXZ63b5UM.jpg","genres":["Drama"],"tmdb_id":"812037","sources":[{"url":"https://mgeb.top/embed/812037","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/812037","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"246425","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"246425","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-le-chevalier-au-dragon-le-roman-disparu-de-la-table-ronde","title":"« Le Chevalier au dragon », le roman disparu de la Table ronde","type":"movie","year":null,"poster_url":"/4YzxIEDxMdQMPCAV5qzmqmD3N91.jpg","genres":["Documentário","TV","História"],"tmdb_id":"1206857","sources":[],"provider_refs":[{"provider":"18","ref":"1206857","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-le-chevalier-au-dragon-le-roman-disparu-de-la-table-ronde-2023","title":"« Le Chevalier au dragon », le roman disparu de la Table ronde (2023)","type":"movie","year":"2023","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Le%20Chevalier%20au%20dragon%20_%20le%20roman%20disparu%20de%20la%20Table%20ronde%20_2023_%20_tmdb_1206857_c89ac8fd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-lutadora-implacavel",
+    "title": "Lutadora Implacável",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/uHN4tw6WENLyXft9Ycu7ScTc4nj.jpg",
+    "genres": [
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "1178734",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1178734",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Uma promissora boxeadora arrisca sua vida para resgatar sua irmã de uma gangue do submundo do crime.",
+    "imdb_id": "tt29253563"
+  },
+  {
+    "id": "movie-lutando-contra-o-tempo",
+    "title": "Lutando Contra o Tempo",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/6uUkYBOBMCRAa4ZiMf2l3c4PV93.jpg",
+    "genres": [
+      "Drama",
+      "Ação",
+      "Crime"
+    ],
+    "tmdb_id": "546898",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "546898",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "50765",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um ex-boxeador em situação de rua e uma criança que mora no gueto criam uma amizade inusitada que os ajuda a encarar o futuro enquanto lutam com as tragédias do passado.",
+    "imdb_id": "tt4874350"
+  },
+  {
+    "id": "movie-lutando-contra-o-tempo-2017",
+    "title": "Lutando Contra o Tempo (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Contra%20o%20Tempo%20_2017_%20_tmdb_546898_f2b06435.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutando-pela-familia",
+    "title": "Lutando Pela Familia",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/xp9rn3X5obbSs1xCRayys5wKJMA.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "445629",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/445629",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/445629",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Pela%20Fam_lia%20_2019_%20_tmdb_445629_c6437b62.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "445629",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460074",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "26870",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "26870",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma jovem (Florence Pugh) deseja lutar na WWE, a associação estadunidense de wrestling, mas, para concretizar o seu sonho, precisará convencer seus pais e suportar uma dura rotina de treinamentos.",
+    "imdb_id": "tt6513120"
+  },
+  {
+    "id": "movie-lutando-pela-familia-2019",
+    "title": "Lutando Pela Família (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/xp9rn3X5obbSs1xCRayys5wKJMA.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/445629",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/445629",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1307755",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutando-pela-vida",
+    "title": "Lutando Pela Vida",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/1Ig2JUdWm4aNgzAkgRhz73VhyJ5.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "603055",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/603055",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/603055",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Pela%20Vida%20_2019_%20_tmdb_603055_917a3aed.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "603055",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455786",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653848",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "41634",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "41634",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Depois de sobreviver a uma explosão em combate no exterior, um jovem soldado da Unidade de Motocicleta do Exército recebe alta médica com as costas e a perna quebradas. Contra todas as probabilidades, ele treina para fazer um retorno impossível como um piloto de motocross, a fim de sustentar sua família.",
+    "imdb_id": "tt7370952"
+  },
+  {
+    "id": "movie-lutando-pela-vida-2019",
+    "title": "Lutando Pela Vida (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/1Ig2JUdWm4aNgzAkgRhz73VhyJ5.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/603055",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/603055",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1297891",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutando-por-um-sonho",
+    "title": "Lutando Por Um Sonho",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/nj2Lq7YoMxXiFrIOv6mP7TuAupX.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "431261",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/431261",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/431261",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutando%20Por%20Um%20Sonho%20_2017_%20_tmdb_431261_c6e69bdf.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "431261",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456396",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653963",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "383343",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "30561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "383343",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "30561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "383342",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "383342",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em 1980, um adolescente escapa da agitação no Irã e enfrenta ainda mais hostilidade na América, devido à crise dos reféns. Determinado a se adaptar, ele se junta à equipe de wrestling da sua escola.",
+    "imdb_id": "tt4303202"
+  },
+  {
+    "id": "movie-lutando-por-um-sonho-2017",
+    "title": "Lutando Por Um Sonho (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/nj2Lq7YoMxXiFrIOv6mP7TuAupX.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/431261",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/431261",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1307704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutando-por-uma-chance-2014",
+    "title": "Lutando por uma Chance (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/AhOvdIduD2kGySx0iiStJuy1v3V.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "227325",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/227325",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/227325",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309994",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1309995",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Sailor O'Connor é um boxeador aposentado, que nunca foi nocauteado em toda a sua carreira. Depois de enfrentar alguns traumas, ele decide aceitar uma última luta, contra um boxeador muito mais jovem do que ele. Todos ao redor insistem que este combate é desnecessário, mas Sailor quer retornar aos ringues. Logo, ele conta com a ajuda do antigo treinador para enfrentar o novo desafio.",
+    "imdb_id": "tt2854894"
+  },
+  {
+    "id": "movie-lutar-ou-morrer",
+    "title": "Lutar ou Morrer",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/fgn7eFNxaE05jYIaFWoNaLZyfBn.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "17809",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/17809",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17809",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutar%20ou%20Morrer%20_2021_%20_tmdb_821390_4e061e15.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutar%20ou%20Morrer%20_1994_%20_tmdb_17809_6f25d916.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "17809",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448163",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452430",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457981",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "266669",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "266669",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "266670",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "266670",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Chen Zhen, um estudante de engenharia chinês em Kyoto, enfrenta os insultos e abusos de seus colegas japoneses por seu amor local, Mitsuko Yamada, filha do diretor. Ele retorna em 1937 para sua terra natal, Shangai, sob o protetorado japonês - na verdade, ocupação militar - depois de ler sobre a morte de seu mestre de kung-fu Hou Ting-An em uma luta contra o campeão japonês Ryuichi Akutagawa.",
+    "imdb_id": "tt0110200"
+  },
+  {
+    "id": "movie-lutar-ou-morrer-1994",
+    "title": "Lutar ou Morrer (1994)",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/fgn7eFNxaE05jYIaFWoNaLZyfBn.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/17809",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/17809",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1313814",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutar-ou-morrer-2021",
+    "title": "Lutar ou Morrer (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/yMBrpHHiNUGDc1AaowhVYR26tNp.jpg",
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": "821390",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/07ea66e58ab201643549d862fd74bdb7/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/821390",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/821390",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "821390",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1305335",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt11392272",
+    "overview": "Um casal de lésbicas com um relacionamento difícil vai para um retiro pré-casamento e acaba lutando por suas vidas quando um grupo de assassinos em série militantes tenta assassiná-los."
+  },
+  {
+    "id": "movie-lutar-lutar-lutar-2021",
+    "title": "Lutar, Lutar, Lutar (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/mSqDWnzKPq7hHOlcBWp6LRkGAj2.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "808734",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/808734",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/808734",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "808734",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453201",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648036",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770248",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O documentário conta a história de um dos mais tradicionais times de Minas Gerais: o Atlético-MG. Acompanhe mais informações sobre os primeiros anos do clube mineiro e todas suas adversidades, até os momentos mais gloriosos de sua antiga trajetória.",
+    "imdb_id": "tt14687192"
+  },
+  {
+    "id": "movie-lute-por-sua-vida",
+    "title": "Lute por sua Vida",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/rNIuv9JMtFTXPAWtDXK1y1KcoFr.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "251994",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "251994",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Quando um antigo treinador de futebol americano escreve o livro de auto-ajuda \"Reach Me\", ele não imagina a grande influência que suas palavras terão na vida de várias pessoas, incluindo um policial que abusa de seu poder, uma prisioneira com histórico de atos violentos e uma mulher descontente com o trabalho.",
+    "imdb_id": "tt0959306"
+  },
+  {
+    "id": "movie-lute-por-sua-vida-2014",
+    "title": "Lute por sua Vida (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lute%20por%20sua%20Vida%20_2014_%20_tmdb_251994_49ffd1b2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lutero",
+    "title": "Lutero",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/7gfNkXV9iXVhyHTPt5EVfpIBPPd.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "5653",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/5653",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/5653",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lutero%20_2003_%20_tmdb_5653_bd26db51.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "5653",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450749",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645917",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "21024",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "21024",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Após quase ser atingido por um raio, Martim Lutero (Joseph Fiennes) acredita ter recebido um chamado. Ele se junta ao monastério, mas logo fica atormentado com as práticas adotadas pela Igreja Católica na época. Após pregar em uma igreja suas 95 teses, Lutero passa a ser perseguido. Pressionado para que se redima publicamente, Lutero se recusa a negar suas teses e desafia a Igreja Católica a provar que elas estejam erradas e contradigam o que prega a Bíblia. Excomungado, Lutero foge e inicia sua batalha para mostrar que seus ideais estão corretos e que eles permitem o acesso de todas as pessoas a Deus.",
+    "imdb_id": "tt0309820"
+  },
+  {
+    "id": "movie-lutero-2003",
+    "title": "Lutero (2003)",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/7gfNkXV9iXVhyHTPt5EVfpIBPPd.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/5653",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/5653",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1297299",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luther-o-cair-da-noite-2023",
+    "title": "Luther O Cair da Noite (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/m0fiXXtld8KvMXnjCQvXYzD8gNA.jpg",
+    "genres": [
+      "Crime",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/722149",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/722149",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luther-o-cair-da-noite",
+    "title": "Luther: O Cair da Noite",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/m0fiXXtld8KvMXnjCQvXYzD8gNA.jpg",
+    "genres": [
+      "Crime",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "722149",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/722149",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/722149",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luther_%20O%20Cair%20da%20Noite%20_2023_%20_tmdb_722149_600b599d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "722149",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445768",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647307",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "190771",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "190771",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "188902",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "188902",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "188901",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "188901",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Um terrível serial killer está aterrorizando Londres, enquanto o brilhante, mas desgraçado, detetive John Luther está atrás das grades. Assombrado por seu fracasso em capturar o psicopata cibernético que agora o provoca, Luther decide fugir da prisão para terminar o trabalho por qualquer meio necessário.",
+    "imdb_id": "tt3155298"
+  },
+  {
+    "id": "movie-luxuria",
+    "title": "Luxúria",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/nIarbeqivH4XK9oNBZ1h81Hx3RA.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Suspense",
+      "Guerra",
+      "História"
+    ],
+    "tmdb_id": "30301",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "30301",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Março de 1945. Asolo, Itália. Um carro aguarda do lado de fora. Livia (Anna Galiena), a sensual esposa de um oficial militar do alto escalão, entra sorrateiramente e o carro parte para Veneza, uma cidade devastada moralmente pela guerra. Lá, pretende encontrar seu jovem amante Helmut (Gabriel Garko), um tenente alemão atraentemente pervertido. Enquanto seus olhos percorrem a estrada, sua mente percorre excitantes lembranças de seus encontros secretos e sua violenta paixão. Quando chega a Veneza, porém, outra surpresa a aguarda...",
+    "imdb_id": "tt0267261"
+  },
+  {
+    "id": "movie-luxuria-2002",
+    "title": "Luxúria (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Lux_ria%20_2002_%20_tmdb_30301_30da6d1e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luz-del-fuego",
+    "title": "Luz Del Fuego",
+    "type": "movie",
+    "year": "1982",
+    "poster_url": "/ee4Jw4k1YdOfc0kURimO2hiFH46.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "362589",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/362589",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/362589",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2444165",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "386807",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "386807",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A biografia da controversa artista brasileira Luz del Fuego (seu nome artístico), destacando seu estilo de vida excêntrico e manifestações públicas. Como no filme, ela é mais lembrada por estar à frente de seu tempo e por seu clamor público (também o slogan do filme): Todo Mundo Nu! (Todo mundo fica nu!) Ela também foi uma fervorosa ativista do nudismo, numa época em que o nudismo não era exatamente adotado.",
+    "imdb_id": "tt0139440"
+  },
+  {
+    "id": "movie-luz-fantasma",
+    "title": "Luz Fantasma",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/tFUY5AkdWeyKh5uIzeyLp6lBSZw.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "1214469",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/49e973528c7009aa6d42a9929353db3d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1214469",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1214469",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz%20Fantasma%20_2024_%20_tmdb_1214469_ffca5bbf.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1214469",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444762",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "909095",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "371671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "371671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "371670",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "371670",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt30321095",
+    "overview": "Quando um operário da construção civil se junta inesperadamente à produção local de Romeu e Julieta, ao lado da sua filha adolescente de quem está afastado, o drama em palco começa a espelhar a sua própria vida."
+  },
+  {
+    "id": "movie-luz-luz-luz",
+    "title": "Luz Luz Luz",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/rPNECWjucUMsnOeig0AEARa37Li.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "2012",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2012",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2012",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "394748",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "394748",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-luz-natural",
+    "title": "Luz Natural",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4C8aCicw2v8HnL0wBvtxNMW5ys6.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "669661",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "669661",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Na União Soviética ocupada durante a Segunda Guerra Mundial, István Semetka é um fazendeiro húngaro que serve como cabo em uma unidade especial de reconhecimento de grupos da resistência. No caminho para uma aldeia distante, sua companhia é atingida por um ataque inimigo. Após a morte do comandante do agrupamento, Semetka vai precisar superar seus medos e assumir a liderança do grupo, enquanto é arrastado para dentro de uma sucessão de eventos caóticos que fogem do seu controle.",
+    "imdb_id": "tt11681056"
+  },
+  {
+    "id": "movie-luz-anima-acao",
+    "title": "Luz, Anima, Ação",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/1zgwv9FgKFrBPS7nCE5TdtrW79T.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "341529",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/341529",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/341529",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20Anima_%20Acao%20_2013_%20_tmdb_341529_aefa87b7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "341529",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452901",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "849243",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "329689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "329689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Documentário longa-metragem coproduzido pelo Canal Brasil, que resgata a fabulosa trajetória da animação brasileira desde o pioneiro “O Kaiser” ao boom produtivo que expande fronteiras!",
+    "imdb_id": "tt3543026"
+  },
+  {
+    "id": "movie-luz-camera-50-anos-carga-pesada-a-grande-viagem-o-filme",
+    "title": "Luz, Câmera, 50 Anos: Carga Pesada: A Grande Viagem - O Filme",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/9E7VL9FsCQyWvdzVbwMlW1uCCNA.jpg",
+    "genres": [
+      "Aventura",
+      "Comédia",
+      "Drama",
+      "Crime",
+      "TV"
+    ],
+    "tmdb_id": "742671",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "742671",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Adaptação da série exibida em 2003. Bino aconselha Pedro a se casar, mas ele reluta até receber a ligação de Rosa e marcar um encontro em Fortaleza. No percurso, as aventuras perseguem os caminhoneiros. Autores: Leopoldo Serran, Ivan Sant’Anna, Álvaro Ramos, Walther Negrão, Antonio Fagundes, George Moura, Mara Carvalho, Ecila Pedroso e José Carvalho de Azevedo."
+  },
+  {
+    "id": "movie-luz-camera-50-anos-carga-pesada-a-grande-viagem-o-filme-2015",
+    "title": "Luz, Câmera, 50 Anos: Carga Pesada: A Grande Viagem - O Filme (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20Carga%20Pesada_%20A%20Grande%20Viagem%20-%20O%20Filme%20_2015_%20_tmdb_742671_db5a4963.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luz-camera-50-anos-lampiao-e-maria-bonita-o-filme",
+    "title": "Luz, Câmera, 50 Anos: Lampião e Maria Bonita - O Filme",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/2IyFOceWfXV7eDWHyKLOPaEWnxm.jpg",
+    "genres": [
+      "Drama",
+      "Aventura",
+      "TV"
+    ],
+    "tmdb_id": "327464",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "327464",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Adaptação da série exibida em 1982. Os últimos dias de Lampião e Maria Bonita apresentados a partir do sequestro do geólogo inglês Steve Chandler e o pedido de resgate ao governador da Bahia. Em Salvador, um jornalista descobre que Argemiro, o irmão honesto e trabalhador de Lampião, pode ser preso para forçar o cangaceiro a soltar o inglês."
+  },
+  {
+    "id": "movie-luz-camera-50-anos-lampiao-e-maria-bonita-o-filme-2015",
+    "title": "Luz, Câmera, 50 Anos: Lampião e Maria Bonita - O Filme (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20Lampi_o%20e%20Maria%20Bonita%20-%20O%20Filme%20_2015_%20_tmdb_327464_09b07be4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luz-camera-50-anos-o-pagador-de-promessas-o-filme",
+    "title": "Luz, Câmera, 50 Anos: O Pagador de Promessas - O Filme",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/kDS1X4XKRK79qR9jQkQRxE5gdqZ.jpg",
+    "genres": [
+      "Drama",
+      "TV"
+    ],
+    "tmdb_id": "779356",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "779356",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Adaptação da série exibida em 1988. O humilde lavrador Zé do Burro faz promessa a Santa Bárbara para salvar da morte seu burro Nicolau. O pagamento é carregar uma pesada cruz do interior baiano até uma igreja de Salvador. Ao chegar às escadarias da igreja, com os ombros feridos, precisa lidar com a incompreensão de um padre conservador."
+  },
+  {
+    "id": "movie-luz-camera-50-anos-o-pagador-de-promessas-o-filme-2015",
+    "title": "Luz, Câmera, 50 Anos: O Pagador de Promessas - O Filme (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%2050%20Anos_%20O%20Pagador%20de%20Promessas%20-%20O%20Filme%20_2015_%20_tmdb_779356_03032417.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luz-camera-assassinato",
+    "title": "Luz, Câmera, Assassinato!",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/cxmDKBPkBNYCNMhjbPE5DUuEEq0.jpg",
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": "501495",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/501495",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/501495",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%20Assassinato%20_2019_%20_tmdb_501495_379fdee2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "501495",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451692",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654414",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670432",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "295704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "295704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "295705",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "295705",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Jack quer ser diretor de cinema. Mas tudo muda quando ele é obrigado a filmar um assassinato real.",
+    "imdb_id": "tt6798766"
+  },
+  {
+    "id": "movie-luz-camera-acao",
+    "title": "Luz, Câmera, Ação",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/iBFDnNVH0fLKU3SS93J88xN9J0c.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "1117269",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d24b8015f4a8100575314277849f381f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1117269",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1117269",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luz_%20C_mera_%20A_o%20_2023_%20_tmdb_1117269_53167b0f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1117269",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454702",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "803809",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "320688",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "320688",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "320687",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "320687",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt18115690",
+    "overview": "George, um orgulhoso dono de cinema deve defender seu negócio de construtores gananciosos ao lado de um lendário ator de ação, Claude Luc Hallyday."
+  },
+  {
+    "id": "movie-luzes-da-cidade",
+    "title": "Luzes da Cidade",
+    "type": "movie",
+    "year": "1931",
+    "poster_url": "/s0T1MpsDcQCmqOTJ47zASE1PevI.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "901",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/901",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/901",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luzes%20da%20Cidade%20_1931_%20_tmdb_901_6d606c0d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "901",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460106",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650908",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "128630",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "128630",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um vagabundo amável se apaixona por uma mulher cega que vende flores nas ruas e o confunde com um milionário. Ao descobrir que ela e a avó serão despejadas, o vagabundo faz uma série de tentativas para lhes proporcionar o dinheiro de que precisam, mas todas terminam em um fracasso humilhante.",
+    "imdb_id": "tt0021749"
+  },
+  {
+    "id": "movie-luzes-da-cidade-1931",
+    "title": "Luzes da Cidade (1931)",
+    "type": "movie",
+    "year": "1931",
+    "poster_url": "/s0T1MpsDcQCmqOTJ47zASE1PevI.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/901",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/901",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301869",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luzes-da-ribalta-1952",
+    "title": "Luzes da Ribalta (1952)",
+    "type": "movie",
+    "year": "1952",
+    "poster_url": "/xDwPUEyvrf6BJe8xgPxCP5jmHty.jpg",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "28971",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/28971",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/28971",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301874",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Deprimida com a sua carreira de dançarina, Terry tenta se suicidar, mas é salva por Calvero, um homem pobre que era um famoso palhaço. Calvero ajuda Terry e, no processo, também recupera sua autoestima. Quando Terry propõe casamento, Calvero acha que a diferença de idade é grande demais e vai embora para se tornar um palhaço de rua. Terry então começa um relacionamento com um compositor jovem e promissor.",
+    "imdb_id": "tt0044837"
+  },
+  {
+    "id": "movie-luzes-de-phoenix",
+    "title": "Luzes de Phoenix",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/3zPJDTbYNxjZnr8KlxV3mN6tN14.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Ficção científica"
+    ],
+    "tmdb_id": "443319",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "443319",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Vinte anos depois de três adolescentes terem desaparecido na sequência de misteriosas luzes no Arizona, imagens nunca vistas antes daquela noite são descobertas, relatando as últimas horas daquela expedição fatídica.",
+    "imdb_id": "tt6574272"
+  },
+  {
+    "id": "movie-luzes-de-phoenix-2017",
+    "title": "Luzes de Phoenix (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Luzes%20de%20Phoenix%20_2017_%20_tmdb_443319_afe74723.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-luzes-camera-acao-2004",
+    "title": "LUZES, CAMERA, ACAO (2004)",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/2Rm4xsJnrZaZL0qPO2wBP5MJJpE.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "tmdb_id": "26486",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26486",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26486",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "overview": "Joe Devine (Alec Baldwin) é um agente do FBI que elaborou um plano para prender o chefão da máfia John Gotti. Joe se faz passar por um produtor de Hollywood e conta as mentiras certas para recrutar um simplório que o ajude no seu plano. O sonhador Steven Schats (Matthew Broderick), que almeja muito dirigir um filme, cruza seu caminho e é facilmente iludido por Joe, que diz ter adorado o roteiro de \"Arizona\", escrito por Steven e seu irmão, Marshal Paris (Tim Blake Nelson). Steven cai na isca, sem imaginar que Joe quer apenas se infiltrar no meio cinematográfico e criar uma situação para pegar pelo menos outro mafioso, Tommy Sanz (Tony Shalhoub). Gradativamente o plano sai do controle, principalmente quando Emily French (Toni Collette), que já foi indicada ao Oscar mas está no ostracismo, se oferece para trabalhar de graça no filme.",
+    "imdb_id": "tt0357054"
+  },
+  {
+    "id": "movie-luzia-homem",
+    "title": "Luzia Homem",
+    "type": "movie",
+    "year": "1988",
+    "poster_url": "/7GYL46UXsbYQLLp2QDvp2SzCumq.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "265809",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/265809",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/265809",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "378051",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "377236",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "378051",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "377236",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Após presenciar o assassinato de seus pais, Luzia (Cláudia Ohana) é criada por um vaqueiro e adota os costumes masculinos do sertão. Quando se torna uma mulher procura o assassino de seus pais, para poder se vingar, mas acaba encontrando o amor.",
+    "imdb_id": "tt0093447"
+  },
+  {
+    "id": "movie-lycan-princess",
+    "title": "Lycan Princess",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-lying-and-stealing-legendado",
+    "title": "Lying and Stealing Legendado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "30609",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "30609",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-la-fora",
+    "title": "Lá Fora",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/2mRpZ01DFVmZARJBEKPa1RMCKn2.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "1306764",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1306764",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1306764",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_%20Fora%20_2024_%20_tmdb_1306764_9a9b3855.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1306764",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448270",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451626",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670604",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "290774",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "290774",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "290775",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "290775",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Uma família vai morar em uma fazenda isolada para escapar de uma epidemia zumbi, mas os segredos do passado vão ganhar consequências dolorosas nesse novo mundo desolado.",
+    "imdb_id": "tt32389619"
+  },
+  {
+    "id": "movie-la-fora-2024",
+    "title": "Lá Fora (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/2mRpZ01DFVmZARJBEKPa1RMCKn2.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1306764",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1306764",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1312299",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-la-vem-os-pais",
+    "title": "Lá Vem os Pais",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/rUWXKRKsbInckc8h5k6Tte8V8Zl.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "465109",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/465109",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/465109",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_%20Vem%20os%20Pais%20_2018_%20_tmdb_465109_017dea99.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Os%20Pais%20_2023_%20_tmdb_1073659_7864d98b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "465109",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461100",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651844",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "397920",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20646",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "397920",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20646",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Dois pais com ideias opostas para a festa de casamento dos filhos dão duro pra sobreviver à caótica semana de preparativos para o grande dia.",
+    "imdb_id": "tt6821012"
+  },
+  {
+    "id": "movie-la-vem-os-pais-2018",
+    "title": "Lá Vem os Pais (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/rUWXKRKsbInckc8h5k6Tte8V8Zl.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/465109",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/465109",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310498",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lagrimas-do-sol",
+    "title": "Lágrimas do Sol",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/cdc7y9p1SDa7riYOkyAevJTXxTC.jpg",
+    "genres": [
+      "Guerra",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "9567",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9567",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9567",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9567",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454928",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457737",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649544",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "44237",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "44237",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O governo nigeriano está falido e o país está à beira de uma guerra civil. O Tenente A.K. Waters é responsável por liderar uma equipe de soldados para a selva para resgatarem a Dra. Lena Kendricks. Quando Waters e sua equipe localizam Kendricks, ela conta que não deixará seus pacientes para serem abatidos por rebeldes. A equipe provoca a ira das forças dos Estados Unidos e da Nigéria quando lado a lado com Kendricks tenta proteger os refugiados.",
+    "imdb_id": "tt0314353"
+  },
+  {
+    "id": "movie-lamina-dos-47-ronins",
+    "title": "Lâmina Dos 47 Ronins",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/yCNloDOXFDMn2GnXFcbtjfn1i7z.jpg",
+    "genres": [
+      "Fantasia",
+      "Ação"
+    ],
+    "tmdb_id": "732459",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/732459",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/732459",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_mina%20dos%2047%20Ronins%20_2022_%20_tmdb_732459_92d3f419.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "732459",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454739",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648631",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "185824",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "185824",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "185830",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "185830",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nesta sequência de “47 Ronin”, uma nova classe de guerreiros surge entre os clãs Samurai para evitar que uma espada tão procurada caia em mãos erradas.",
+    "imdb_id": "tt12610794"
+  },
+  {
+    "id": "movie-lamina-dos-47-ronins-2022",
+    "title": "Lâmina dos 47 Ronins (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/yCNloDOXFDMn2GnXFcbtjfn1i7z.jpg",
+    "genres": [
+      "Fantasia",
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/732459",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/732459",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306340",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306341",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-lirios-nao-sao-para-mim",
+    "title": "Lírios Não São Para Mim",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/kUYt0YYohZ7O4G6E7NO9FTKmJ2q.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "1315655",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1315655",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1315655",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "379423",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "379423",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um romancista e a sua enfermeira psiquiátrica tornam-se íntimos durante as consultas prescritas para \"curar\" a sua homossexualidade. Ele conta-lhe como o seu antigo companheiro tentou uma operação arriscada para se tornar heterossexual.",
+    "imdb_id": "tt30700695"
+  },
+  {
+    "id": "movie-lucia-e-o-sexo",
+    "title": "Lúcia e o Sexo",
+    "type": "movie",
+    "year": "2001",
+    "poster_url": "/zmQVUR8lExu4y357uWB2qWUkjZ4.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1364",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1364",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1364",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_cia%20e%20o%20Sexo%20_2001_%20_tmdb_1364_690a2088.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1364",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "388689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "388689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "388688",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "388688",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Após o sumiço de seu noivo, o escritor Lorenzo (Tristán Ulloa), a bela e independente Lúcia (Paz Vega) decide ir até uma ilha do Mediterrâneo onde seu namorado nunca a quis levar, apesar de seus insistentes pedidos. Lá ela encontra detalhes sobre antigos relacionamentos dele, como se fossem passagens ocultas de seu passado que o autor, com sua ausência, agora a permitisse ler.",
+    "imdb_id": "tt0254455"
+  },
+  {
+    "id": "movie-lucio-flavio-o-passageiro-da-agonia-1977",
+    "title": "Lúcio Flávio o Passageiro da Agonia (1977)",
+    "type": "movie",
+    "year": "1977",
+    "poster_url": "/qLnx7Y7IK1x9aZQM5AbtbsUSEPQ.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "178032",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/178032",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/178032",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/L_cio%20Fl_vio_%20o%20Passageiro%20da%20Agonia%20_1977_%20_tmdb_178032_8d710101.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "178032",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1301248",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "O filme relata a trajetória do criminoso Lúcio Flávio, famoso bandido da década de 70 que tornou-se nacionalmente conhecido pelos roubos a banco e fugas espetaculares, embora algumas cenas do filme sejam diferentes em relação aos acontecimentos reais.",
+    "imdb_id": "tt0077878"
+  },
+  {
+    "id": "movie-l-attentat-de-la-secte-aum",
+    "title": "l’attentat de la secte Aum",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/1b5lHH2TfN7wE6PATMeKAxn1sW1.jpg",
+    "genres": [
+      "Documentário",
+      "TV"
+    ],
+    "tmdb_id": "1403153",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1403153",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1403153",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-l-ete-dernier",
+    "title": "L’été dernier",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/8fa2IDcT0UGTArTee5BXZ63b5UM.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "812037",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/812037",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/812037",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "246425",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "246425",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Acompanha Anne, uma brilhante advogada que vive com seu marido Pierre e suas filhas. Anne gradualmente se envolve em um relacionamento apaixonado com Theo, filho de Pierre de um casamento anterior.",
+    "imdb_id": "tt14550346"
+  },
+  {
+    "id": "movie-le-chevalier-au-dragon-le-roman-disparu-de-la-table-ronde",
+    "title": "« Le Chevalier au dragon », le roman disparu de la Table ronde",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/4YzxIEDxMdQMPCAV5qzmqmD3N91.jpg",
+    "genres": [
+      "Documentário",
+      "TV",
+      "História"
+    ],
+    "tmdb_id": "1206857",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1206857",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-le-chevalier-au-dragon-le-roman-disparu-de-la-table-ronde-2023",
+    "title": "« Le Chevalier au dragon », le roman disparu de la Table ronde (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Le%20Chevalier%20au%20dragon%20_%20le%20roman%20disparu%20de%20la%20Table%20ronde%20_2023_%20_tmdb_1206857_c89ac8fd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  }
+]

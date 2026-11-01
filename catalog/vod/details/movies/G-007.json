@@ -1,1 +1,4303 @@
-[{"id":"movie-guerra-sem-fim-a-espada-e-a-lei","title":"Guerra Sem Fim: A Espada é a Lei","type":"movie","year":null,"poster_url":"/vXpm14VfoKnwaWKbBQi3hpc4TGQ.jpg","genres":["Ação","Aventura"],"tmdb_id":"763484","sources":[{"url":"https://mgeb.top/embed/763484","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/763484","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sem%20Fim_%20A%20Espada%20_%20a%20Lei%20_2020_%20_tmdb_763484_cf061c47.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"763484","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453582","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649446","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"89506","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"89506","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerra-sem-fim-a-espada-e-a-lei-2020","title":"Guerra Sem Fim: A Espada é a Lei (2020)","type":"movie","year":"2020","poster_url":"/vXpm14VfoKnwaWKbBQi3hpc4TGQ.jpg","genres":["Ação","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/763484","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/763484","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308925","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerra-sem-regras","title":"Guerra Sem Regras","type":"movie","year":null,"poster_url":"/oVC6BPY8DlvjssARKyDVDEWFw27.jpg","genres":["Ação","Comédia","Guerra"],"tmdb_id":"799583","sources":[{"url":"https://mgeb.top/embed/799583","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/799583","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sem%20Regras%20_2024_%20_tmdb_799583_79e13d20.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"799583","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448044","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450628","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644958","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"276027","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"276027","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"276026","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"276026","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"276028","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"276028","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-guerra-sem-regras-2024","title":"Guerra Sem Regras (2024)","type":"movie","year":"2024","poster_url":"/oVC6BPY8DlvjssARKyDVDEWFw27.jpg","genres":["Ação","Comédia","Guerra"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/799583","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/799583","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1309178","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1309177","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerra-sob-a-terra","title":"Guerra Sob a Terra","type":"movie","year":null,"poster_url":"/gjyYCmMwQR86nXMSTGpNGnC8ceK.jpg","genres":["Guerra","Drama","História"],"tmdb_id":"810413","sources":[{"url":"https://mgeb.top/embed/810413","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/810413","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sob%20a%20Terra%20_2021_%20_tmdb_810413_632010bb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"810413","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455645","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653016","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"142429","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"142429","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"142434","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"142434","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-guerra-sob-a-terra-2021","title":"Guerra Sob a Terra (2021)","type":"movie","year":"2021","poster_url":"/gjyYCmMwQR86nXMSTGpNGnC8ceK.jpg","genres":["Guerra","Drama","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/810413","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/810413","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1304797","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1304798","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerra-e-guerra","title":"Guerra é Guerra!","type":"movie","year":null,"poster_url":"/t4NiK4gJEm6SGUsnSD6Je5IaH6i.jpg","genres":[],"tmdb_id":"481325","sources":[{"url":"https://mgeb.top/embed/481325","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/481325","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20_%20Guerra%20_2012_%20_tmdb_59962_eaaead13.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"20998","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455182","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"20998","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerra-e-guerra-2012","title":"Guerra é Guerra! (2012)","type":"movie","year":"2012","poster_url":"/Asc7LeNDpsZw16kWWkIrY3qczcD.jpg","genres":["Ação","Comédia","Romance"],"tmdb_id":"59962","sources":[{"url":"https://mgeb.top/embed/59962","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/59962","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/481325","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/481325","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"59962","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455182","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654280","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1303349","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerras-de-drones","title":"Guerras de Drones","type":"movie","year":null,"poster_url":"/jkj96RTf6JRwqwPkFWHwhq8N08X.jpg","genres":["Ação","Ficção científica","Suspense"],"tmdb_id":"429524","sources":[],"provider_refs":[{"provider":"18","ref":"429524","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerras-de-drones-2016","title":"Guerras de Drones (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerras%20de%20Drones%20_2016_%20_tmdb_429524_f8259a8d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-guerras-de-verao","title":"Guerras de Verão","type":"movie","year":null,"poster_url":"/eF1OVmCjHqpx7zqNrJq0NiKWSXR.jpg","genres":["Animação","Ficção científica"],"tmdb_id":"28874","sources":[{"url":"https://mgeb.top/embed/28874","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/28874","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"28874","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"374295","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"374295","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"374294","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"374294","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-guerreira-de-sangue","title":"Guerreira De Sangue","type":"movie","year":null,"poster_url":"/zCdFrkEcrSlwpVmpmtsHDQFGS8c.jpg","genres":["Ação","Suspense","Drama"],"tmdb_id":"289269","sources":[{"url":"https://mgeb.top/embed/289269","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/289269","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"289269","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453538","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649894","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"20037","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"20037","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerreira-de-sangue-2016","title":"Guerreira De Sangue (2016)","type":"movie","year":"2016","poster_url":"/zCdFrkEcrSlwpVmpmtsHDQFGS8c.jpg","genres":["Ação","Suspense","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/289269","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/289269","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1310117","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiras-da-yoga-2016","title":"Guerreiras Da Yoga (2016)","type":"movie","year":"2016","poster_url":"/uuOKqcBaGk97F0akjwYPeMBhqlr.jpg","genres":["Comédia","Fantasia","Terror","Ação"],"tmdb_id":"290825","sources":[{"url":"https://mgeb.top/embed/290825","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/290825","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1310123","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1310124","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiras-do-ar-2024","title":"Guerreiras do Ar (2024)","type":"movie","year":"2024","poster_url":"/tJBnfoUCCJA2BUoSh88vBFZdMb3.jpg","genres":["Guerra","Drama","História"],"tmdb_id":"598997","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/af9a784c43c5b459f85175b0882afcfb/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/598997","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/598997","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiras%20do%20Ar%20_2024_%20_tmdb_598997_b0c8bf3c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"598997","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445131","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900514","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"355550","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"355550","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"355549","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"355549","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt26505281"},{"id":"movie-guerreiras-do-k-pop-2025","title":"Guerreiras do K Pop (2025)","type":"movie","year":"2025","poster_url":"/gbdMa7woiuF7IiEB5Spwv5od4oo.jpg","genres":["Fantasia","Música","Comédia","Animação"],"tmdb_id":"803796","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/ba2b729987061c2d2eb907fe0af84b81/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/803796","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/803796","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiras%20do%20K-Pop%20_2025_%20_tmdb_803796_d6c44e02.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"803796","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444560","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448586","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884397","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1313613","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"341310","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"329431","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"341310","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"329431","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"341309","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"329430","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"341309","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"329430","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt14205554"},{"id":"movie-guerreiro","title":"Guerreiro","type":"movie","year":null,"poster_url":"/67jZoBQBz8LLeahRXTaOzD7IglQ.jpg","genres":["Drama","Ação"],"tmdb_id":"59440","sources":[{"url":"https://mgeb.top/embed/59440","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/59440","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20_2011_%20_tmdb_59440_08f495a9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"59440","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455066","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652734","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"171555","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"171555","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerreiro-2011","title":"Guerreiro (2011)","type":"movie","year":"2011","poster_url":"/67jZoBQBz8LLeahRXTaOzD7IglQ.jpg","genres":["Drama","Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/59440","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/59440","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1298876","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiro-da-escuridao-2017","title":"Guerreiro da Escuridao (2017)","type":"movie","year":"2017","poster_url":"/fYYmrNoy0BkgcYUoEHgg75BwtHU.jpg","genres":["Suspense","Ação","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/425298","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/425298","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1301911","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiro-da-escuridao","title":"Guerreiro da Escuridão","type":"movie","year":null,"poster_url":"/fYYmrNoy0BkgcYUoEHgg75BwtHU.jpg","genres":["Suspense","Ação","Drama"],"tmdb_id":"425298","sources":[{"url":"https://mgeb.top/embed/425298","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/425298","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20da%20Escurid_o%20_2017_%20_tmdb_425298_307187ca.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"425298","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453994","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649893","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"399661","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"20038","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"20038","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"399660","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerreiro-do-fogo","title":"Guerreiro do Fogo","type":"movie","year":null,"poster_url":"/cBiSemMUdnxcfIQs3A85U330YUs.jpg","genres":["Ação","Faroeste"],"tmdb_id":"14818","sources":[],"provider_refs":[{"provider":"18","ref":"14818","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiro-virtual-2022","title":"Guerreiro Virtual (2022)","type":"movie","year":"2022","poster_url":"/5ITRvcMqKUETNskzw2mcU6C9k6d.jpg","genres":["Ação","Ficção científica"],"tmdb_id":"875279","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/8c56a2533f3b6534578b08a893377d7d/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/875279","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/875279","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20Virtual%20_2022_%20_tmdb_875279_9327cd8c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"875279","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454986","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648541","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311438","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"215903","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"215903","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311439","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"215902","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"215902","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt18933046"},{"id":"movie-guerreiros-da-morte","title":"Guerreiros da Morte","type":"movie","year":null,"poster_url":"/jqAAiP1Yywb4BNMryecUKm6F2qQ.jpg","genres":["Ação","Suspense"],"tmdb_id":"25646","sources":[],"provider_refs":[{"provider":"18","ref":"25646","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-da-morte-2009","title":"Guerreiros da Morte (2009)","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20da%20Morte%20_2009_%20_tmdb_25646_546aec65.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-guerreiros-da-virtude","title":"Guerreiros da Virtude","type":"movie","year":null,"poster_url":"/imOcpaBQsDmvB5NL72aFIH2OUHg.jpg","genres":["Fantasia","Família","Ação"],"tmdb_id":"49478","sources":[],"provider_refs":[{"provider":"18","ref":"49478","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-da-virtude-1997","title":"Guerreiros da Virtude (1997)","type":"movie","year":"1997","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20da%20Virtude%20_1997_%20_tmdb_49478_3ebe9cf1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-guerreiros-de-fogo","title":"Guerreiros de Fogo","type":"movie","year":"2025","poster_url":"/uFRuBI7DnMzjOPzniD1Pos74OcL.jpg","genres":["Aventura","Fantasia","Ação"],"tmdb_id":"9626","sources":[{"url":"https://mgeb.top/embed/9626","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9626","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/c1ee11d5d9fcd5d7bceb61506270f031/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20de%20Fogo%20_1985_%20_tmdb_9626_f6724060.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2457916","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"9626","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"13494","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449169","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461810","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerreiros-do-amanha-2010","title":"Guerreiros do Amanhã (2010)","type":"movie","year":"2010","poster_url":"/by1Euf1ry1psyip7Y4w05PM0jZA.jpg","genres":["Ação","Aventura","Drama"],"tmdb_id":"43930","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/211dd88610f0238c09d0f21f099608b6/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/43930","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/43930","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Amanh%20_2010_%20_tmdb_43930_8e7502e6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"43930","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt1456941"},{"id":"movie-guerreiros-do-basquete","title":"Guerreiros do Basquete","type":"movie","year":null,"poster_url":"/rzN1OLd05lZqr3gqCz8EAEYE7SO.jpg","genres":["Drama"],"tmdb_id":"858414","sources":[{"url":"https://mgeb.top/embed/858414","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/858414","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Basquete%20_2024_%20_tmdb_858414_46aed311.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"858414","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449459","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457099","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652062","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"670685","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"288361","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"288361","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"288362","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"288362","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-guerreiros-do-basquete-2024","title":"Guerreiros do Basquete (2024)","type":"movie","year":"2024","poster_url":"/rzN1OLd05lZqr3gqCz8EAEYE7SO.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/858414","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/858414","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1312213","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1312212","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-do-ceu-e-da-terra-2003","title":"Guerreiros do Céu e da Terra (2003)","type":"movie","year":"2003","poster_url":"/iLm2G0bHxHxb9KsAWsvq4ILygSA.jpg","genres":["Drama","Ação","Aventura"],"tmdb_id":"14797","sources":[{"url":"https://mgeb.top/embed/14797","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14797","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1309832","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-do-futuro","title":"Guerreiros do Futuro","type":"movie","year":null,"poster_url":"/4wGb5BO3wBVVtnHY7ERdQIODjnl.jpg","genres":["Ficção científica"],"tmdb_id":"411135","sources":[{"url":"https://mgeb.top/embed/411135","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/411135","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Futuro%20_2018_%20_tmdb_411135_603eed4f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"411135","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458827","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646976","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"22577","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"22577","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerreiros-do-futuro-2018","title":"Guerreiros do Futuro (2018)","type":"movie","year":"2018","poster_url":"/4wGb5BO3wBVVtnHY7ERdQIODjnl.jpg","genres":["Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/411135","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/411135","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1302039","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-em-campo-2022","title":"Guerreiros em Campo (2022)","type":"movie","year":"2022","poster_url":"/q0BySGhTh4t5HW0gkCFFVVLoz8E.jpg","genres":["Documentário"],"tmdb_id":"997270","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/630888ed051b3e7512daa6871e7fb179/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/997270","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/997270","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1313200","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guerreiros-magicos-a-lenda-das-oito-luas","title":"Guerreiros Mágicos: A Lenda das Oito Luas","type":"movie","year":null,"poster_url":"/1NJHvzcoUXA6GGvlgr0usZhIPKK.jpg","genres":["Animação","Ação","Aventura","Fantasia","Ficção científica"],"tmdb_id":"1134424","sources":[{"url":"https://mgeb.top/embed/1134424","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1134424","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1134424","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448030","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1134424.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670853","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"282083","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"282083","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guerrilha-sem-face","title":"Guerrilha Sem Face","type":"movie","year":null,"poster_url":"/jG662jKzEf63fhcbbN3WiLlz5MX.jpg","genres":["Crime","Drama","Romance","Suspense"],"tmdb_id":"20689","sources":[{"url":"https://mgeb.top/embed/20689","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/20689","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerrilha%20Sem%20Face%20_2002_%20_tmdb_20689_14910b6b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"20689","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448625","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884629","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"330019","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"330019","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"330018","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"330018","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-gugu-o-bom-de-cama","title":"Gugu, o Bom de Cama","type":"movie","year":null,"poster_url":"/pCjkQRRIiIm8HhzJCgCYCv4BCIL.jpg","genres":["Comédia"],"tmdb_id":"320618","sources":[],"provider_refs":[{"provider":"18","ref":"320618","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gugu-o-bom-de-cama-1979","title":"Gugu, o Bom de Cama (1979)","type":"movie","year":"1979","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gugu_%20o%20Bom%20de%20Cama%20_1979_%20_tmdb_320618_88b630bf.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-guia-de-viagem-para-o-amor","title":"Guia de Viagem para o Amor","type":"movie","year":null,"poster_url":"/2nhTfuDkks0MZgx0gncPvz1L59p.jpg","genres":["Romance","Comédia"],"tmdb_id":"813726","sources":[{"url":"https://mgeb.top/embed/813726","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/813726","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guia%20de%20Viagem%20para%20o%20Amor%20_2023_%20_tmdb_813726_12803368.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"813726","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446472","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645458","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"390342","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"390342","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"192606","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"192606","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"192605","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"192605","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-guia-de-viagem-para-o-amor-2023","title":"Guia de Viagem para o Amor (2023)","type":"movie","year":"2023","poster_url":"/2nhTfuDkks0MZgx0gncPvz1L59p.jpg","genres":["Romance","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/813726","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/813726","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1301125","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guia-romantico-para-lugares-perdidos","title":"Guia Romântico para Lugares Perdidos","type":"movie","year":null,"poster_url":"/b4TvEzm8OTmpyVTxpzLFjgWaklN.jpg","genres":["Drama"],"tmdb_id":"727024","sources":[{"url":"https://mgeb.top/embed/727024","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/727024","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guia%20Rom_ntico%20para%20Lugares%20Perdidos%20_2020_%20_tmdb_727024_92203757.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"727024","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457411","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652832","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"161527","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"161521","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"161527","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"161521","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guia-romantico-para-lugares-perdidos-2020","title":"Guia Romântico para Lugares Perdidos (2020)","type":"movie","year":"2020","poster_url":"/b4TvEzm8OTmpyVTxpzLFjgWaklN.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/727024","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/727024","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1306329","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306330","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guiado-pelo-luar","title":"Guiado pelo Luar","type":"movie","year":null,"poster_url":"/6FDQWH4n3CbdXy6okehSVVenX02.jpg","genres":["Drama","Música","Família"],"tmdb_id":"1075969","sources":[{"url":"https://mgeb.top/embed/1075969","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1075969","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guiado%20pelo%20Luar%20_2022_%20_tmdb_1075969_ca7eb8b8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1075969","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456302","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652387","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"215885","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"215885","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"215880","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"215880","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-guiado-pelo-luar-2022","title":"Guiado pelo Luar (2022)","type":"movie","year":"2022","poster_url":"/6FDQWH4n3CbdXy6okehSVVenX02.jpg","genres":["Drama","Música","Família"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1075969","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1075969","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1309380","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1309381","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guiando-minha-familia-entre-pragas-e-caos","title":"GUIANDO MINHA FAMILIA ENTRE PRAGAS E CAOS","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-guigo-offline","title":"Guigo Offline","type":"movie","year":null,"poster_url":"/NfmmVjHuAIYWiomd1W7F7AjUuh.jpg","genres":["TV","Drama"],"tmdb_id":"488913","sources":[{"url":"https://mgeb.top/embed/488913","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/488913","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guigo%20Offline%20_2017_%20_tmdb_488913_f2fc4239.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"488913","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901413","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"353003","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"353003","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guilty-pleasure","title":"Guilty Pleasure","type":"movie","year":null,"poster_url":"/4G9uQJvSlcwswPaylRvrAXORJxK.jpg","genres":["Romance","Drama"],"tmdb_id":"1367099","sources":[],"provider_refs":[{"provider":"18","ref":"1367099","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guilty-pleasure-2024","title":"Guilty Pleasure (2024)","type":"movie","year":"2024","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guilty%20Pleasure%20_2024_%20_tmdb_1367099_1775b1dd.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-gulabo-sitabo","title":"Gulabo Sitabo","type":"movie","year":null,"poster_url":"/6ABuPqPqRv2iSDyLf9KJrLoNV2A.jpg","genres":["Drama","Comédia"],"tmdb_id":"611356","sources":[],"provider_refs":[{"provider":"18","ref":"611356","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gulabo-sitabo-2020","title":"Gulabo Sitabo (2020)","type":"movie","year":"2020","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gulabo%20Sitabo%20_2020_%20_tmdb_611356_fc8b7883.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-gump-2-aventura-em-dobro","title":"Gump 2 - Aventura em Dobro","type":"movie","year":null,"poster_url":"/3zjnqMQTdtJojKerQkMRDH2SOgk.jpg","genres":["Família","Aventura"],"tmdb_id":"1155690","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/c229b6a1eaa55e33b0b15f4fadef6fb9/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1155690","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1155690","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gump%202%20-%20Aventura%20em%20Dobro%20_2024_%20_tmdb_1155690_c36bd580.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1155690","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"907858","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"910025","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"370145","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"370145","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"370144","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"370144","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt31548492"},{"id":"movie-gump-uma-licao-de-vida-2021","title":"Gump: Uma Lição de Vida (2021)","type":"movie","year":"2021","poster_url":"/zG9ZQTyt2EiBNYyeJG4f1lsEyd3.jpg","genres":["Família","Aventura","Drama"],"tmdb_id":"725133","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/2fa96e2e30841be74715d8e3e003fa71/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/725133","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/725133","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gump_%20Uma%20Li_o%20de%20Vida%20_2021_%20_tmdb_725133_ac64fa97.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"725133","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455223","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449194","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"652197","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311050","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"254850","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"254850","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311051","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"254851","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"254851","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt13479414"},{"id":"movie-gun-city","title":"Gun City","type":"movie","year":null,"poster_url":"/bl8QscB46amHszOcZaL1vH43ei6.jpg","genres":["Drama","Crime","Suspense"],"tmdb_id":"529210","sources":[],"provider_refs":[{"provider":"18","ref":"529210","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gun-city-2018","title":"Gun City (2018)","type":"movie","year":"2018","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gun%20City%20_2018_%20_tmdb_529210_3514355f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-gunda","title":"Gunda","type":"movie","year":null,"poster_url":"/XMlouldLxRt0RkH34GdGst9pxo.jpg","genres":["Documentário"],"tmdb_id":"664601","sources":[{"url":"https://mgeb.top/embed/664601","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/664601","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2453200","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"340461","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"340461","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gundala","title":"Gundala","type":"movie","year":"2019","poster_url":"/6P8SA9p3AXw1C5byhJ85SBfTIgE.jpg","genres":["Ação","Aventura","Ficção científica"],"tmdb_id":"516700","sources":[{"url":"https://mgeb.top/embed/516700","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/516700","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gundala_%20A%20Ascens_o%20de%20um%20Her_i%20_2019_%20_tmdb_516700_283a00c6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"516700","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"63101","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"63101","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-gunslingers","title":"Gunslingers","type":"movie","year":null,"poster_url":"/7ZMPLrGRYEgyil6XpgiffNLRY7z.jpg","genres":["Ação","Suspense","Faroeste"],"tmdb_id":"1293286","sources":[{"url":"https://mgeb.top/embed/1293286","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1293286","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gunslingers%20_2024_%20_tmdb_1286535_a106b2ef.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Terra%20de%20Pistoleiros%20_2025_%20_tmdb_1293286_f3f2de93.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1286535","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1293286","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445533","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2462020","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"900677","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"931748","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"352371","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"352371","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"352370","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"352370","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-guru-do-amor","title":"Guru do Amor","type":"movie","year":null,"poster_url":"/A1EhaTVK2mNtedQ3UI5dxasvTLN.jpg","genres":["Comédia","Romance"],"tmdb_id":"12177","sources":[{"url":"https://mgeb.top/embed/12177","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12177","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guru%20do%20Amor%20_2008_%20_tmdb_12177_24726b54.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"12177","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461589","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650457","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"189985","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"189985","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guru-do-amor-2008","title":"Guru do Amor (2008)","type":"movie","year":"2008","poster_url":"/A1EhaTVK2mNtedQ3UI5dxasvTLN.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/12177","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/12177","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1305570","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-guru-guru-gokil","title":"Guru Guru Gokil","type":"movie","year":null,"poster_url":"/pwnZ24ODfAxMGzCzZET7GnxgtmI.jpg","genres":["Comédia","Drama"],"tmdb_id":"655832","sources":[{"url":"https://mgeb.top/embed/655832","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/655832","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"68448","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"68448","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guy-2018","title":"Guy (2018)","type":"movie","year":"2018","poster_url":"/rWe3P1RIiqjHKW65hF2GW2CGkwh.jpg","genres":["Comédia","Drama","Música"],"tmdb_id":"518668","sources":[{"url":"https://mgeb.top/embed/518668","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/518668","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"518668","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461513","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651448","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1308093","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-guy-manley-a-real-movie-2024","title":"Guy Manley: A Real Movie (2024)","type":"movie","year":"2024","poster_url":"/sQIElGaXYAnQZKt5FzGSLl4P4Kh.jpg","genres":["Ação","Comédia","Ficção científica","Suspense"],"tmdb_id":"1181214","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bce80a75444a2d0caf667c78a8b245db/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1181214","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1181214","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guy%20Manley_%20A%20Real%20Movie%20_2024_%20_tmdb_1181214_7156f2b9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1181214","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt29005580"},{"id":"movie-gwen-2018","title":"Gwen (2018)","type":"movie","year":"2018","poster_url":"/3VeWyKSyWjZ3fMh2VX1UX2dviQw.jpg","genres":["Drama","Mistério","Terror","História"],"tmdb_id":"543768","sources":[{"url":"https://mgeb.top/embed/543768","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/543768","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gwen%20_2018_%20_tmdb_543768_94e140ad.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"543768","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1308225","audio":"leg","source_id":"reference-catalog"},{"provider":"6","ref":"1312587","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gwen-legendado","title":"Gwen Legendado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"2","ref":"30610","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"30610","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-gemea-assassina","title":"Gêmea Assassina","type":"movie","year":null,"poster_url":"/8XEAgyirDGjuKqyoKxw48EZmGx7.jpg","genres":["TV","Suspense"],"tmdb_id":"705054","sources":[{"url":"https://mgeb.top/embed/705054","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/705054","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_mea%20Assassina%20_2020_%20_tmdb_705054_2867279d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"705054","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445543","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447973","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454172","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647229","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648871","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"230591","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"138838","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"230591","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"138838","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"230587","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"138850","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"230587","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"138850","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-gemea-assassina-2020","title":"Gêmea Assassina (2020)","type":"movie","year":"2020","poster_url":"/8XEAgyirDGjuKqyoKxw48EZmGx7.jpg","genres":["TV","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/705054","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/705054","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1304680","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1304681","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-gemeo-maligno","title":"Gêmeo Maligno","type":"movie","year":null,"poster_url":"/AgtdTpz7eVIQy6e3rxOWyQmezFi.jpg","genres":["Terror","Mistério"],"tmdb_id":"477462","sources":[{"url":"https://mgeb.top/embed/477462","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/477462","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_meo%20Maligno%20_2022_%20_tmdb_477462_485ed966.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"477462","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451481","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654873","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"178811","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"178811","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"178822","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"178822","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-genesis","title":"Gênesis","type":"movie","year":null,"poster_url":"/xmFGm5Earx8OOYEbgE3iuiNmQpu.jpg","genres":["Ficção científica","Ação","Suspense"],"tmdb_id":"87101","sources":[{"url":"https://mgeb.top/embed/87101","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/87101","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nesis%20_1994_%20_tmdb_2703_2715f31d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Genesis%20_2018_%20_tmdb_463325_baa9c761.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/O%20Exterminador%20do%20Futuro_%20G_nesis%20_2015_%20_tmdb_87101_92be6f7d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"87101","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457728","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458594","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647020","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"273057","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451075","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"273057","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-genesis-1994","title":"Gênesis (1994)","type":"movie","year":"1994","poster_url":"/lcpBFzhBhGCKS7tvKcwrxaL3AEQ.jpg","genres":["Aventura","Drama","Fantasia","História","TV"],"tmdb_id":"2703","sources":[{"url":"https://mgeb.top/embed/2703","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2703","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"2703","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"463325","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451075","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645824","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1301290","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-genesis-in-concert","title":"Gênesis In Concert","type":"movie","year":null,"poster_url":"/r9GiPE9huv99lU5D8YXwJloleeM.jpg","genres":["Música","Documentário"],"tmdb_id":"60714","sources":[{"url":"https://mgeb.top/embed/60714","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/60714","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Genesis_%20In%20Concert%20_1977_%20_tmdb_60714_70f70b08.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"60714","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452778","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648116","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"144896","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"144896","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-genio-desafiando-a-gravidade-e-o-amor","title":"Gênio Desafiando a Gravidade e o Amor","type":"movie","year":null,"poster_url":"/h53ESIVF4VboUgnyR1pWleXKqee.jpg","genres":["Família","Comédia","TV"],"tmdb_id":"73527","sources":[],"provider_refs":[{"provider":"18","ref":"73527","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-genio-desafiando-a-gravidade-e-o-amor-1999","title":"Gênio Desafiando a Gravidade e o Amor (1999)","type":"movie","year":"1999","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nio%20Desafiando%20a%20Gravidade%20e%20o%20Amor%20_1999_%20_tmdb_73527_b0e1188c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-genio-indomavel","title":"Gênio Indomável","type":"movie","year":null,"poster_url":"/dTe3EpJGnfUeR5swLbWv61iRyFc.jpg","genres":["Drama"],"tmdb_id":"489","sources":[{"url":"https://mgeb.top/embed/489","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/489","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nio%20Indom_vel%20_1997_%20_tmdb_489_aa89d876.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"489","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457168","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653679","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"352209","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"75686","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"352209","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"75686","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"352208","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"352208","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-genios-da-trapaca","title":"Gênios da Trapaça","type":"movie","year":null,"poster_url":"/h5hONXZ4hPgniv1DXMB1IZohhpO.jpg","genres":["Suspense","Drama"],"tmdb_id":"934866","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/243bd75f3965685ee1046b4585e2b1f1/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/934866","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/934866","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"376716","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"376716","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-genios-do-crime","title":"Gênios do Crime","type":"movie","year":null,"poster_url":"/oeGZwp0XPmtM08gA4ObdUT9OrGq.jpg","genres":["Ação","Comédia","Crime"],"tmdb_id":"213681","sources":[{"url":"https://mgeb.top/embed/213681","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/213681","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nios%20do%20Crime%20_2016_%20_tmdb_213681_30f6763f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"213681","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454399","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648579","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"198530","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"198530","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-genios-do-crime-2016","title":"Gênios do Crime (2016)","type":"movie","year":"2016","poster_url":"/oeGZwp0XPmtM08gA4ObdUT9OrGq.jpg","genres":["Ação","Comédia","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/213681","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/213681","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1305039","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-golgeler-ve-suretler","title":"Gölgeler ve Suretler","type":"movie","year":null,"poster_url":"/2VIkKj6XY7pZ45HnslVuc3IvAV.jpg","genres":["Drama","História"],"tmdb_id":"128015","sources":[{"url":"https://mgeb.top/embed/128015","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/128015","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Golgeler%20ve%20Suretler%20_2010_%20_tmdb_128015_da723ef6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"128015","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457722","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"128015.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"762572","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770474","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"313288","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"313288","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"313289","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"313289","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2}]
+[
+  {
+    "id": "movie-guerra-sem-fim-a-espada-e-a-lei",
+    "title": "Guerra Sem Fim: A Espada é a Lei",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/vXpm14VfoKnwaWKbBQi3hpc4TGQ.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "763484",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/763484",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/763484",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sem%20Fim_%20A%20Espada%20_%20a%20Lei%20_2020_%20_tmdb_763484_cf061c47.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "763484",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453582",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649446",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "89506",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "89506",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O Império Romano ocupou a Britânia (hoje, Grã-Bretanha) por quatro séculos, fornecendo proteção e paz em troca de submissão. Mesmo antes da chegada do Cristianismo, eles erradicaram muito da religião nativa, mas alguns druidas sobreviveram em um santuário escondido no Ocidente. Os romanos construíram a Muralha de Adriano na fronteira norte para impedir a entrada dos pictos, guerreiros ferozes e misteriosos que se pintavam de azul. No século 5, entretanto, os romanos partiram, deixando os britânicos sozinhos, sob a liderança do rei Vortigern, para se defenderem dos invasores.",
+    "imdb_id": "tt12484058"
+  },
+  {
+    "id": "movie-guerra-sem-fim-a-espada-e-a-lei-2020",
+    "title": "Guerra Sem Fim: A Espada é a Lei (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/vXpm14VfoKnwaWKbBQi3hpc4TGQ.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/763484",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/763484",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308925",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerra-sem-regras",
+    "title": "Guerra Sem Regras",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/oVC6BPY8DlvjssARKyDVDEWFw27.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Guerra"
+    ],
+    "tmdb_id": "799583",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/799583",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/799583",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sem%20Regras%20_2024_%20_tmdb_799583_79e13d20.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "799583",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448044",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450628",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "276027",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "276027",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "276026",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "276026",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "276028",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "276028",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "O Exército Britânico recruta um reduzido grupo de soldados altamente qualificados para lutar contra as forças alemãs durante a Segunda Guerra Mundial.",
+    "imdb_id": "tt5177120"
+  },
+  {
+    "id": "movie-guerra-sem-regras-2024",
+    "title": "Guerra Sem Regras (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/oVC6BPY8DlvjssARKyDVDEWFw27.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Guerra"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/799583",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/799583",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309178",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1309177",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerra-sob-a-terra",
+    "title": "Guerra Sob a Terra",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/gjyYCmMwQR86nXMSTGpNGnC8ceK.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "810413",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/810413",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/810413",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20Sob%20a%20Terra%20_2021_%20_tmdb_810413_632010bb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "810413",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455645",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653016",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "142429",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "142429",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "142434",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "142434",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Durante a Primeira Guerra Mundial, um grupo de mineiros britânicos é recrutado para construir um túnel sob a terra de ninguém e lançar bombas sob a frente alemã na esperança de quebrar o impasse mortal da Batalha de Messines.",
+    "imdb_id": "tt10381014"
+  },
+  {
+    "id": "movie-guerra-sob-a-terra-2021",
+    "title": "Guerra Sob a Terra (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/gjyYCmMwQR86nXMSTGpNGnC8ceK.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/810413",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/810413",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304797",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304798",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerra-e-guerra",
+    "title": "Guerra é Guerra!",
+    "type": "movie",
+    "year": "1977",
+    "poster_url": "/t4NiK4gJEm6SGUsnSD6Je5IaH6i.jpg",
+    "genres": [],
+    "tmdb_id": "481325",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/481325",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/481325",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerra%20_%20Guerra%20_2012_%20_tmdb_59962_eaaead13.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "20998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455182",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20998",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Típica comédia erótica com 3 (três) episódios:\r - Núpcias com futebol;\r - O Poderoso Cifrão;\r - Ver para crer.",
+    "imdb_id": "tt0254367"
+  },
+  {
+    "id": "movie-guerra-e-guerra-2012",
+    "title": "Guerra é Guerra! (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/Asc7LeNDpsZw16kWWkIrY3qczcD.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "59962",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/59962",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/59962",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/481325",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/481325",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "59962",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455182",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654280",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1303349",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Tuck e Frank são melhores amigos que trabalham juntos como agentes da CIA. Quando descobrem que estão saindo com a mesma mulher, entram em uma disputa que coloca em risco a amizade e a vida dos dois.",
+    "imdb_id": "tt1596350"
+  },
+  {
+    "id": "movie-guerras-de-drones",
+    "title": "Guerras de Drones",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/jkj96RTf6JRwqwPkFWHwhq8N08X.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "429524",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "429524",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um céu encoberto por fogo e fumaça é tomado por naves pilotadas em diversas direções para extração de recursos na Terra, enquanto Drones patrulham cidades em ruínas, apreendendo tudo o que eles considerem uma ameaça.",
+    "imdb_id": "tt5239972"
+  },
+  {
+    "id": "movie-guerras-de-drones-2016",
+    "title": "Guerras de Drones (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerras%20de%20Drones%20_2016_%20_tmdb_429524_f8259a8d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerras-de-verao",
+    "title": "Guerras de Verão",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/eF1OVmCjHqpx7zqNrJq0NiKWSXR.jpg",
+    "genres": [
+      "Animação",
+      "Ficção científica"
+    ],
+    "tmdb_id": "28874",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/28874",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/28874",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "28874",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "374295",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "374295",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "374294",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "374294",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A história centra-se no colegial Koiso Kenji, um garoto prodígio em matemática que passa o seu tempo trabalhando em Oz, um mundo virtual. Kenji é um gênio com números, mas mal adepto socialmente. Ele tem uma paixão secreta por Shinohara Natsuki, mas não tem coragem de dizer a ela. No início de suas férias de verão, ele é convidado por Natsuki para ajudar na celebração do 90º aniversário da sua avó. Embora Kenji não conheça os detalhes do plano, ele concorda e vai com Natsuki a casa da sua avó em Ueda, Nagano. Para grande surpresa de Kenji, ele é apresentado na casa da família Shinohara como noivo de Natsuki.",
+    "imdb_id": "tt1474276"
+  },
+  {
+    "id": "movie-guerreira-de-sangue",
+    "title": "Guerreira De Sangue",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/zCdFrkEcrSlwpVmpmtsHDQFGS8c.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "289269",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/289269",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/289269",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "289269",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453538",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649894",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20037",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20037",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Jane é uma jovem e problemática garota americana tentando sobreviver em Hong Kong. Quando impede uma tentativa de assalto acaba chamando a atenção de Shu, uma mestre das artes marciais que impressionada com as habilidades de luta da jovem decide ajuda-la a treinar para participar de um torneio underground conhecido como Kumite.",
+    "imdb_id": "tt4327752"
+  },
+  {
+    "id": "movie-guerreira-de-sangue-2016",
+    "title": "Guerreira De Sangue (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/zCdFrkEcrSlwpVmpmtsHDQFGS8c.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/289269",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/289269",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310117",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiras-da-yoga-2016",
+    "title": "Guerreiras Da Yoga (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/uuOKqcBaGk97F0akjwYPeMBhqlr.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia",
+      "Terror",
+      "Ação"
+    ],
+    "tmdb_id": "290825",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/290825",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/290825",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310123",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1310124",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Colleen Collette e Colleen McKenzie, duas jovens estudantes e funcionárias de uma loja de conveniência em Manitoba, se veem frente a um mal antigo que se ergue sob o solo canadense, ameaçando o convite das amigas-xarás para uma aguardada festa. Para combater esse inimigo, as Colleens irão unir suas forças com ninguém menos que a lenda Guy Lapointe.",
+    "imdb_id": "tt3838992"
+  },
+  {
+    "id": "movie-guerreiras-do-ar-2024",
+    "title": "Guerreiras do Ar (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/tJBnfoUCCJA2BUoSh88vBFZdMb3.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "598997",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/af9a784c43c5b459f85175b0882afcfb/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/598997",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/598997",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiras%20do%20Ar%20_2024_%20_tmdb_598997_b0c8bf3c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "598997",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445131",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900514",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "355550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "355550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "355549",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "355549",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt26505281",
+    "overview": "Em um mundo dominado por homens, jovens russas são recrutadas para pilotar aviões de caça e ajudar a conter o avanço alemão durante a Segunda Guerra Mundial. Elas amadurecem, se apaixonam e passam a enxergar o céu como uma segunda casa."
+  },
+  {
+    "id": "movie-guerreiras-do-k-pop-2025",
+    "title": "Guerreiras do K Pop (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/gbdMa7woiuF7IiEB5Spwv5od4oo.jpg",
+    "genres": [
+      "Fantasia",
+      "Música",
+      "Comédia",
+      "Animação"
+    ],
+    "tmdb_id": "803796",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ba2b729987061c2d2eb907fe0af84b81/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/803796",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/803796",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiras%20do%20K-Pop%20_2025_%20_tmdb_803796_d6c44e02.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "803796",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444560",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884397",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1313613",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "341310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "329431",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "341310",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "329431",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "341309",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "329430",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "341309",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "329430",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt14205554",
+    "overview": "Quando não estão lotando estádios, as estrelas do K-pop Rumi, Mira e Zoey usam seus poderes secretos para proteger os fãs contra ameaças sobrenaturais."
+  },
+  {
+    "id": "movie-guerreiro",
+    "title": "Guerreiro",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/67jZoBQBz8LLeahRXTaOzD7IglQ.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": "59440",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/59440",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/59440",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20_2011_%20_tmdb_59440_08f495a9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "59440",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455066",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652734",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "171555",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "171555",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Tommy Conlon é o filho mais novo de Paddy e voltou há pouco tempo para casa. Tommy supera os problemas do pai com bebida e passa a treinar com ele para poder participar de campeonatos de MMA (Mixed Martial Arts), o famoso vale-tudo. Só que sua trajetória faz com que tenha que enfrentar no ringue Brendan Conlon, seu próprio irmão.",
+    "imdb_id": "tt1291584"
+  },
+  {
+    "id": "movie-guerreiro-2011",
+    "title": "Guerreiro (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/67jZoBQBz8LLeahRXTaOzD7IglQ.jpg",
+    "genres": [
+      "Drama",
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/59440",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/59440",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1298876",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiro-da-escuridao-2017",
+    "title": "Guerreiro da Escuridao (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/fYYmrNoy0BkgcYUoEHgg75BwtHU.jpg",
+    "genres": [
+      "Suspense",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/425298",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/425298",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiro-da-escuridao",
+    "title": "Guerreiro da Escuridão",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/fYYmrNoy0BkgcYUoEHgg75BwtHU.jpg",
+    "genres": [
+      "Suspense",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "425298",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/425298",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/425298",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20da%20Escurid_o%20_2017_%20_tmdb_425298_307187ca.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "425298",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453994",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649893",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399661",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20038",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20038",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399660",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Zaid (Dar Salim) é um médico bem-sucedido que perde seu irmão mais novo durante um assalto relacionado a gangues. Ele desiste de sua vida privilegiada para se tornar um guerreiro mascarado e vingar a morte do seu irmão.",
+    "imdb_id": "tt5431082"
+  },
+  {
+    "id": "movie-guerreiro-do-fogo",
+    "title": "Guerreiro do Fogo",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/cBiSemMUdnxcfIQs3A85U330YUs.jpg",
+    "genres": [
+      "Ação",
+      "Faroeste"
+    ],
+    "tmdb_id": "14818",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "14818",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Após ver seus pais serem brutalmente assassinados, Jone, um jovem herói que rouba búfalos de comerciantes para dá-los a aldeões, promete não descansar enquanto não obter sua vingança. A única informação que ele tem sobre a identidade do assassino é a memória de um homem coberto de tatuagens que faz parte de um grupo organizado de ladrões de gadoApós uma longa busca, Jone acredita ter achado o tão procurado inimigo. Agora ele terá que usar suas brilhantes técnicas e habilidades em artes marciais e vencer esse perigoso feiticeiro cheio de poderes devastadores.",
+    "imdb_id": "tt0963915"
+  },
+  {
+    "id": "movie-guerreiro-virtual-2022",
+    "title": "Guerreiro Virtual (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/5ITRvcMqKUETNskzw2mcU6C9k6d.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "tmdb_id": "875279",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/8c56a2533f3b6534578b08a893377d7d/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/875279",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/875279",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiro%20Virtual%20_2022_%20_tmdb_875279_9327cd8c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "875279",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454986",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648541",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311438",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "215903",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "215903",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311439",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "215902",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "215902",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt18933046",
+    "overview": "Após a morte de sua esposa, o guarda-costas profissional Lung Wei foi para o exterior para encontrar médicos para sua filha, mas em vez disso encontrou um novo emprego como testador de realidade virtual."
+  },
+  {
+    "id": "movie-guerreiros-da-morte",
+    "title": "Guerreiros da Morte",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/jqAAiP1Yywb4BNMryecUKm6F2qQ.jpg",
+    "genres": [
+      "Ação",
+      "Suspense"
+    ],
+    "tmdb_id": "25646",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25646",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Filmes sobre torneios de vale-tudo ganham cada vez mais espaço junto ao público, e este Guerreiros da Morte une-se a este grupo apresentando o tema de forma original. Aqui, diversos lutadores são obrigados por um chefe do crime organizado a se enfrentarem até a morte em duelos violentíssimos. Contudo, um dos participantes do campeonato, Reinero, está disposto a conquistar sua liberdade e começa a planejar um modo de escapar deste inferno – desde que, claro, não perca sua vida nos ringues.",
+    "imdb_id": "tt1144797"
+  },
+  {
+    "id": "movie-guerreiros-da-morte-2009",
+    "title": "Guerreiros da Morte (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20da%20Morte%20_2009_%20_tmdb_25646_546aec65.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiros-da-virtude",
+    "title": "Guerreiros da Virtude",
+    "type": "movie",
+    "year": "1997",
+    "poster_url": "/imOcpaBQsDmvB5NL72aFIH2OUHg.jpg",
+    "genres": [
+      "Fantasia",
+      "Família",
+      "Ação"
+    ],
+    "tmdb_id": "49478",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "49478",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Numa distante terra mágica, o menino Ryan, ajuda os cinco guerreiros cangurus, guardiões do Reino de Tao, a defender a última fonte da vida das más intenções do diabólico Komodo.",
+    "imdb_id": "tt0120479"
+  },
+  {
+    "id": "movie-guerreiros-da-virtude-1997",
+    "title": "Guerreiros da Virtude (1997)",
+    "type": "movie",
+    "year": "1997",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20da%20Virtude%20_1997_%20_tmdb_49478_3ebe9cf1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiros-de-fogo",
+    "title": "Guerreiros de Fogo",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/uFRuBI7DnMzjOPzniD1Pos74OcL.jpg",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Ação"
+    ],
+    "tmdb_id": "9626",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9626",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9626",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c1ee11d5d9fcd5d7bceb61506270f031/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20de%20Fogo%20_1985_%20_tmdb_9626_f6724060.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2457916",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "9626",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "13494",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449169",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em um mundo de barbárie, a rainha Gedren deseja o poder absoluto. Ela invade a cidade de Hablac e mata o guardião de um talismã que lhe dará esse poder. É quando Red Sonja, a irmã do guardião, decide derrubar a rainha com sua espada mágica e com a ajuda de Kalidor, por quem se apaixona. Mas a sua força depende de uma condição: Que nunca se entregue para nenhum homem.",
+    "imdb_id": "tt0089893"
+  },
+  {
+    "id": "movie-guerreiros-do-amanha-2010",
+    "title": "Guerreiros do Amanhã (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/by1Euf1ry1psyip7Y4w05PM0jZA.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Drama"
+    ],
+    "tmdb_id": "43930",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/211dd88610f0238c09d0f21f099608b6/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/43930",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/43930",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Amanh%20_2010_%20_tmdb_43930_8e7502e6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "43930",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt1456941",
+    "overview": "A jornada de oito amigos numa remota cidade do interior, cujas vidas são súbita e violentamente abaladas por uma inesperada guerra. Separados dos amigos e familiares, estes oito extraordinários adolescentes têm de aprender a escapar, sobreviver e lutar contra uma força militar hostil."
+  },
+  {
+    "id": "movie-guerreiros-do-basquete",
+    "title": "Guerreiros do Basquete",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/rzN1OLd05lZqr3gqCz8EAEYE7SO.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "858414",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/858414",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/858414",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Basquete%20_2024_%20_tmdb_858414_46aed311.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "858414",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449459",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457099",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652062",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670685",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "288361",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "288361",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "288362",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "288362",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Depois de perder seu astro, um time de basquete juvenil composto por nativos norte-americanos precisa se unir para manter vivo o sonho de vencer o campeonato.",
+    "imdb_id": "tt15181360"
+  },
+  {
+    "id": "movie-guerreiros-do-basquete-2024",
+    "title": "Guerreiros do Basquete (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/rzN1OLd05lZqr3gqCz8EAEYE7SO.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/858414",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/858414",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1312213",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1312212",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiros-do-ceu-e-da-terra-2003",
+    "title": "Guerreiros do Céu e da Terra (2003)",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/iLm2G0bHxHxb9KsAWsvq4ILygSA.jpg",
+    "genres": [
+      "Drama",
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "14797",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14797",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14797",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309832",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Guerreiros do Céu e da Terra é um retrato de guerra, camaradagem e honra. Rodado no terrível deserto Gobi, conta a história do Tenente Li (Jiang Wen) e do emissário Japonês Lai Xi (Nakai Kiichi), ambos, guerreiros de elite e mestres da espada. Depois de três décadas ao serviço do Imperador da China, Lai Xi, anseia voltar ao Japão, mas em vez disso é enviado para o oeste para perseguir uns criminosos. O seu único passaporte para voltar ao Japão é executar o Tenente Li, um desertor que é procurado por liderar um motim quando se negou a matar mulheres e crianças feitas prisioneiras.",
+    "imdb_id": "tt0374330"
+  },
+  {
+    "id": "movie-guerreiros-do-futuro",
+    "title": "Guerreiros do Futuro",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/4wGb5BO3wBVVtnHY7ERdQIODjnl.jpg",
+    "genres": [
+      "Ficção científica"
+    ],
+    "tmdb_id": "411135",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/411135",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/411135",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerreiros%20do%20Futuro%20_2018_%20_tmdb_411135_603eed4f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "411135",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458827",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646976",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "22577",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "22577",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em um mundo pós-apocalíptico atormentado pelo calor, devastado pela doença e mutilado pela guerra crônica, um jovem de origem nobre embarca em uma viagem através do deserto, a fim de encontrar remédio para a sua mãe moribunda. Armado com seu fiel guarda-costas e apenas uma tênue esperança de que este medicamento realmente exista, ele deve forjar com coragem e enfrentar todos os perigos.",
+    "imdb_id": "tt5737536"
+  },
+  {
+    "id": "movie-guerreiros-do-futuro-2018",
+    "title": "Guerreiros do Futuro (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/4wGb5BO3wBVVtnHY7ERdQIODjnl.jpg",
+    "genres": [
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/411135",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/411135",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1302039",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guerreiros-em-campo-2022",
+    "title": "Guerreiros em Campo (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/q0BySGhTh4t5HW0gkCFFVVLoz8E.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "997270",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/630888ed051b3e7512daa6871e7fb179/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/997270",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/997270",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1313200",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Pelas lentes do esporte, Michael O'Loughlin, atleta lendário da Australian Football League, conta a história e a experiência do povo aborígene australiano. Michael Walters e Tarryn Thomas, atuais jogadores da AFL, se unem a O'Loughlin para revelar o racismo, a discriminação e o laço inquebrantável que eles compartilham com suas comunidades indígenas.",
+    "imdb_id": "tt14673378"
+  },
+  {
+    "id": "movie-guerreiros-magicos-a-lenda-das-oito-luas",
+    "title": "Guerreiros Mágicos: A Lenda das Oito Luas",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/1NJHvzcoUXA6GGvlgr0usZhIPKK.jpg",
+    "genres": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "Fantasia",
+      "Ficção científica"
+    ],
+    "tmdb_id": "1134424",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1134424",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1134424",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1134424",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448030",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1134424.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670853",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "282083",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "282083",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma história inspirada no RAMAYANA original, recontada em um universo futurista, envolvendo bravos guerreiros que possuem poderes antigos de outra dimensão.",
+    "imdb_id": "tt28959712"
+  },
+  {
+    "id": "movie-guerrilha-sem-face",
+    "title": "Guerrilha Sem Face",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/jG662jKzEf63fhcbbN3WiLlz5MX.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance",
+      "Suspense"
+    ],
+    "tmdb_id": "20689",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/20689",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/20689",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guerrilha%20Sem%20Face%20_2002_%20_tmdb_20689_14910b6b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "20689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448625",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884629",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "330019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "330019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "330018",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "330018",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A perseguição e captura de Abimael Guzman, líder do exército de guerrilheiros peruanos Sendero Luminoso, que durante 12 anos viveu na clandestinidade. Para contar essa história acompanhamos ascensão de Agustin Rejas (Javier Bardem, indicado ao Oscar® de Melhor Ator por \"Antes do Anoitecer\"), um ex-advogado que se torna o respeitado capitão da policia antiterrorista de um país governado pela corrupção e pelo desmando. Rejas assiste ao inicio de uma revolução silenciosa, que mais tarde torna-se furiosa. Enquanto o país mergulha no caos, a chama da paixão volta a queimar o coração do policial quando ele se aproxima de Yolanda (Laura Morante), a bela professora de balé de sua filha.",
+    "imdb_id": "tt0118926"
+  },
+  {
+    "id": "movie-gugu-o-bom-de-cama",
+    "title": "Gugu, o Bom de Cama",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": "/pCjkQRRIiIm8HhzJCgCYCv4BCIL.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "320618",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "320618",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Gugu (Agildo Ribeiro) é um estilista homossexual muito talentoso. Porém, sua mãe (Consuelo Leandro) quer ver o filho casado e realizar o sonho de ter um neto. Ela recorre a uma mística charlatona, mas, de qualquer maneira, a vida de Gugu acaba virando de ponta cabeça.",
+    "imdb_id": "tt0248052"
+  },
+  {
+    "id": "movie-gugu-o-bom-de-cama-1979",
+    "title": "Gugu, o Bom de Cama (1979)",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gugu_%20o%20Bom%20de%20Cama%20_1979_%20_tmdb_320618_88b630bf.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guia-de-viagem-para-o-amor",
+    "title": "Guia de Viagem para o Amor",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/2nhTfuDkks0MZgx0gncPvz1L59p.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "813726",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/813726",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/813726",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guia%20de%20Viagem%20para%20o%20Amor%20_2023_%20_tmdb_813726_12803368.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "813726",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446472",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645458",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "390342",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "390342",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "192606",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "192606",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "192605",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "192605",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "No Vietnã a trabalho, uma agente de viagens americana conhece um guia de turismo charmoso que mostra a ela o lado bom de uma vida de aventuras.",
+    "imdb_id": "tt20115096"
+  },
+  {
+    "id": "movie-guia-de-viagem-para-o-amor-2023",
+    "title": "Guia de Viagem para o Amor (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/2nhTfuDkks0MZgx0gncPvz1L59p.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/813726",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/813726",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301125",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guia-romantico-para-lugares-perdidos",
+    "title": "Guia Romântico para Lugares Perdidos",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/b4TvEzm8OTmpyVTxpzLFjgWaklN.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "727024",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/727024",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/727024",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guia%20Rom_ntico%20para%20Lugares%20Perdidos%20_2020_%20_tmdb_727024_92203757.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "727024",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457411",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652832",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "161527",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "161521",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "161527",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "161521",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Com Clive Owen e Irène Jacob. Dois estranhos, ambos presos numa vida de mentiras, partem juntos numa extraordinária viagem pela Europa explorando lugares esquecidos, enquanto se reconciliam com os seus próprios passados.",
+    "imdb_id": "tt12784484"
+  },
+  {
+    "id": "movie-guia-romantico-para-lugares-perdidos-2020",
+    "title": "Guia Romântico para Lugares Perdidos (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/b4TvEzm8OTmpyVTxpzLFjgWaklN.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/727024",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/727024",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306329",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306330",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guiado-pelo-luar",
+    "title": "Guiado pelo Luar",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/6FDQWH4n3CbdXy6okehSVVenX02.jpg",
+    "genres": [
+      "Drama",
+      "Música",
+      "Família"
+    ],
+    "tmdb_id": "1075969",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1075969",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1075969",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guiado%20pelo%20Luar%20_2022_%20_tmdb_1075969_ca7eb8b8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1075969",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456302",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652387",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "215885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "215885",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "215880",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "215880",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Depois que a esposa do cantor country Will Brown falece, sua dor o afasta tanto de sua carreira quanto de sua filha. Sua vida tem uma reviravolta quando um talentoso treinador de cavalos mostra a ele força, perdão e graça.",
+    "imdb_id": "tt15481802"
+  },
+  {
+    "id": "movie-guiado-pelo-luar-2022",
+    "title": "Guiado pelo Luar (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/6FDQWH4n3CbdXy6okehSVVenX02.jpg",
+    "genres": [
+      "Drama",
+      "Música",
+      "Família"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1075969",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1075969",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309380",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1309381",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guiando-minha-familia-entre-pragas-e-caos",
+    "title": "GUIANDO MINHA FAMILIA ENTRE PRAGAS E CAOS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-guigo-offline",
+    "title": "Guigo Offline",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/NfmmVjHuAIYWiomd1W7F7AjUuh.jpg",
+    "genres": [
+      "TV",
+      "Drama"
+    ],
+    "tmdb_id": "488913",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/488913",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/488913",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guigo%20Offline%20_2017_%20_tmdb_488913_f2fc4239.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "488913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901413",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "353003",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "353003",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Guigo é filho de pais separados e, um dia, ele e seu amigo Túlio viajam com seu pai, Roberto, e o amigo deste, Paulo. A viagem teria tudo para correr bem, se houvesse sinal de internet. A falta de comunicação deixa Guigo ansioso. Além disso, ele ainda terá que lidar com outra situação: Paulo é, na verdade, namorado de seu pai.",
+    "imdb_id": "tt7318752"
+  },
+  {
+    "id": "movie-guilty-pleasure",
+    "title": "Guilty Pleasure",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/4G9uQJvSlcwswPaylRvrAXORJxK.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "1367099",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1367099",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Três advogados enfrentam dilemas entre amor, traição e ambição. Alexis, lidando com casos difíceis e um romance passado, vê sua carreira e vida pessoal ameaçadas.",
+    "imdb_id": "tt32242331"
+  },
+  {
+    "id": "movie-guilty-pleasure-2024",
+    "title": "Guilty Pleasure (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guilty%20Pleasure%20_2024_%20_tmdb_1367099_1775b1dd.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-gulabo-sitabo",
+    "title": "Gulabo Sitabo",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/6ABuPqPqRv2iSDyLf9KJrLoNV2A.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "611356",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "611356",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Ambientado na atual Lucknow, Gulabo Sitabo é uma sátira social sobre dois seres humanos incrivelmente peculiares, Mirza Chunnan Nawab, que fica em uma mansão em ruínas e um dos inquilinos, Bankey Rastogi.",
+    "imdb_id": "tt10333912"
+  },
+  {
+    "id": "movie-gulabo-sitabo-2020",
+    "title": "Gulabo Sitabo (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gulabo%20Sitabo%20_2020_%20_tmdb_611356_fc8b7883.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-gump-2-aventura-em-dobro",
+    "title": "Gump 2 - Aventura em Dobro",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/3zjnqMQTdtJojKerQkMRDH2SOgk.jpg",
+    "genres": [
+      "Família",
+      "Aventura"
+    ],
+    "tmdb_id": "1155690",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/c229b6a1eaa55e33b0b15f4fadef6fb9/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1155690",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1155690",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gump%202%20-%20Aventura%20em%20Dobro%20_2024_%20_tmdb_1155690_c36bd580.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1155690",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "907858",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "910025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "370145",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "370145",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "370144",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "370144",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt31548492",
+    "overview": "Em busca de um novo dono, o cachorro Gump é obrigado a sair de casa. Durante sua jornada, ele reencontra sua irmã e precisará usar toda sua coragem e inteligência para salvá-la de monstros terríveis."
+  },
+  {
+    "id": "movie-gump-uma-licao-de-vida-2021",
+    "title": "Gump: Uma Lição de Vida (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/zG9ZQTyt2EiBNYyeJG4f1lsEyd3.jpg",
+    "genres": [
+      "Família",
+      "Aventura",
+      "Drama"
+    ],
+    "tmdb_id": "725133",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/2fa96e2e30841be74715d8e3e003fa71/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/725133",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/725133",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gump_%20Uma%20Li_o%20de%20Vida%20_2021_%20_tmdb_725133_ac64fa97.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "725133",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449194",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652197",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311050",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "254850",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "254850",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311051",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "254851",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "254851",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt13479414",
+    "overview": "Um cão de rua chamado Gump procura o seu lugar no mundo. Ele deseja ter um dono, mas para isso precisará enfrentar diversos desafios pelo caminho."
+  },
+  {
+    "id": "movie-gun-city",
+    "title": "Gun City",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/bl8QscB46amHszOcZaL1vH43ei6.jpg",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": "529210",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "529210",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Em 1921, anarquistas e a polícia se confrontam em Barcelona. E um policial faz jogo duplo para descobrir quem roubou armas que poderiam desencadear uma guerra civil.",
+    "imdb_id": "tt7104984"
+  },
+  {
+    "id": "movie-gun-city-2018",
+    "title": "Gun City (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gun%20City%20_2018_%20_tmdb_529210_3514355f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-gunda",
+    "title": "Gunda",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/XMlouldLxRt0RkH34GdGst9pxo.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "664601",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/664601",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/664601",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2453200",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "340461",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "340461",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt11464016"
+  },
+  {
+    "id": "movie-gundala",
+    "title": "Gundala",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/6P8SA9p3AXw1C5byhJ85SBfTIgE.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção científica"
+    ],
+    "tmdb_id": "516700",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/516700",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/516700",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gundala_%20A%20Ascens_o%20de%20um%20Her_i%20_2019_%20_tmdb_516700_283a00c6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "516700",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "63101",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "63101",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Sancaka vive nas ruas desde que seus pais o deixaram. Vivendo uma vida difícil, Sancaka sobrevive pensando em sua própria segurança. Quando a condição da cidade piora e a injustiça se espalha por todo o país, Sancaka deve decidir se ele continua a viver para cuidar de si mesmo ou se elevar para se tornar seu herói oprimido.",
+    "imdb_id": "tt8237172"
+  },
+  {
+    "id": "movie-gunslingers",
+    "title": "Gunslingers",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/7ZMPLrGRYEgyil6XpgiffNLRY7z.jpg",
+    "genres": [
+      "Ação",
+      "Suspense",
+      "Faroeste"
+    ],
+    "tmdb_id": "1293286",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1293286",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1293286",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gunslingers%20_2024_%20_tmdb_1286535_a106b2ef.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Terra%20de%20Pistoleiros%20_2025_%20_tmdb_1293286_f3f2de93.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1286535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1293286",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445533",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2462020",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "900677",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "931748",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352371",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352371",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352370",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352370",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um pistoleiro com um passado violento enfrenta o ataque brutal de uma multidão sedenta de sangue. O vencedor do Oscar Nicolas Cage, Stephen Dorff e Heather Graham estrelam.",
+    "imdb_id": "tt24850708"
+  },
+  {
+    "id": "movie-guru-do-amor",
+    "title": "Guru do Amor",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/A1EhaTVK2mNtedQ3UI5dxasvTLN.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "12177",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12177",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12177",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guru%20do%20Amor%20_2008_%20_tmdb_12177_24726b54.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "12177",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461589",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650457",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "189985",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "189985",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O guru Pikta (Mike Myers) é um canadense que foi criado em uma pequena cidade da Índia. Anos depois, ele se mudou para os Estados Unidos, onde trabalha como um guru de auto-ajuda, que apoia casais com problemas de relacionamento. Sonhando em aparecer no programa da Oprah, ele aceita aconselhar um famoso jogador de hóquei, que deseja reconquistar a mulher e enfrentar a mãe.",
+    "imdb_id": "tt0811138"
+  },
+  {
+    "id": "movie-guru-do-amor-2008",
+    "title": "Guru do Amor (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/A1EhaTVK2mNtedQ3UI5dxasvTLN.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/12177",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/12177",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1305570",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-guru-guru-gokil",
+    "title": "Guru Guru Gokil",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/pwnZ24ODfAxMGzCzZET7GnxgtmI.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "655832",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/655832",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/655832",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "68448",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "68448",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Quando os salários dos funcionários são roubados em sua escola, um novo professor relutante se propõe a recuperar o dinheiro e logo descobre as alegrias de ensinar.",
+    "imdb_id": "tt10643918"
+  },
+  {
+    "id": "movie-guy-2018",
+    "title": "Guy (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/rWe3P1RIiqjHKW65hF2GW2CGkwh.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "518668",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/518668",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/518668",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "518668",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651448",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1308093",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Gauthier, um jovem jornalista, descobre de sua mãe que ele é o filho ilegítimo de Guy Jamet, um artista francês que teve seu momento de glória entre os anos 60 e 90. Gauthier decide segui-lo, com a câmera na mão, em sua vida cotidiana e concertos, para fazer um retrato documental.",
+    "imdb_id": "tt7253216"
+  },
+  {
+    "id": "movie-guy-manley-a-real-movie-2024",
+    "title": "Guy Manley: A Real Movie (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/sQIElGaXYAnQZKt5FzGSLl4P4Kh.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "1181214",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bce80a75444a2d0caf667c78a8b245db/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1181214",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1181214",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Guy%20Manley_%20A%20Real%20Movie%20_2024_%20_tmdb_1181214_7156f2b9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1181214",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt29005580"
+  },
+  {
+    "id": "movie-gwen-2018",
+    "title": "Gwen (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/3VeWyKSyWjZ3fMh2VX1UX2dviQw.jpg",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Terror",
+      "História"
+    ],
+    "tmdb_id": "543768",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/543768",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/543768",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Gwen%20_2018_%20_tmdb_543768_94e140ad.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "543768",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1308225",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1312587",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Nas montanhas da Snowdonia do século XIX, Gwen (Eleanor Worthington-Cox) vive em uma fazenda com sua mãe e sua irmã mais nova. Com seu pai fora na guerra, sua mãe repentinamente caindo doente e a fazenda sofrendo com estranhas ocorrências, Gwen tem que lidar com a dificuldade de manter seu lar funcionando enquanto uma profunda escuridão parece rondar sua família.",
+    "imdb_id": "tt5149490"
+  },
+  {
+    "id": "movie-gwen-legendado",
+    "title": "Gwen Legendado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "30610",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "30610",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-gemea-assassina",
+    "title": "Gêmea Assassina",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/8XEAgyirDGjuKqyoKxw48EZmGx7.jpg",
+    "genres": [
+      "TV",
+      "Suspense"
+    ],
+    "tmdb_id": "705054",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/705054",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/705054",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_mea%20Assassina%20_2020_%20_tmdb_705054_2867279d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "705054",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445543",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447973",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454172",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647229",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648871",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "230591",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "138838",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "230591",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "138838",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "230587",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "138850",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "230587",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "138850",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Tess, uma estudante universitária, descobre que tem uma irmã gêmea chamada Sammy. Mas o feliz reencontro logo se transforma em um pesadelo quando ela percebe que a garota tem planos macabros.",
+    "imdb_id": "tt12311640"
+  },
+  {
+    "id": "movie-gemea-assassina-2020",
+    "title": "Gêmea Assassina (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/8XEAgyirDGjuKqyoKxw48EZmGx7.jpg",
+    "genres": [
+      "TV",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/705054",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/705054",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304680",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304681",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-gemeo-maligno",
+    "title": "Gêmeo Maligno",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/AgtdTpz7eVIQy6e3rxOWyQmezFi.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "477462",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/477462",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/477462",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_meo%20Maligno%20_2022_%20_tmdb_477462_485ed966.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "477462",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451481",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "178811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "178811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "178822",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "178822",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Traumatizada pela forma violenta com que um de seus gêmeos morreu, uma mulher tenta recomeçar sua vida junto de seu marido. Porém, existem alguns segredos tão aterradores que necessitam ser enterrados duas vezes.",
+    "imdb_id": "tt12390572"
+  },
+  {
+    "id": "movie-genesis",
+    "title": "Gênesis",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/xmFGm5Earx8OOYEbgE3iuiNmQpu.jpg",
+    "genres": [
+      "Ficção científica",
+      "Ação",
+      "Suspense"
+    ],
+    "tmdb_id": "87101",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/87101",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/87101",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nesis%20_1994_%20_tmdb_2703_2715f31d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Genesis%20_2018_%20_tmdb_463325_baa9c761.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/O%20Exterminador%20do%20Futuro_%20G_nesis%20_2015_%20_tmdb_87101_92be6f7d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "87101",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457728",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458594",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647020",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "273057",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451075",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "273057",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-genesis-1994",
+    "title": "Gênesis (1994)",
+    "type": "movie",
+    "year": "1994",
+    "poster_url": "/lcpBFzhBhGCKS7tvKcwrxaL3AEQ.jpg",
+    "genres": [
+      "Aventura",
+      "Drama",
+      "Fantasia",
+      "História",
+      "TV"
+    ],
+    "tmdb_id": "2703",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2703",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2703",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2703",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "463325",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451075",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645824",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1301290",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma escuridão envolvente. De repente, a voz de uma criança, assustada, perguntando, projeta-se na escuridão...Raios enfraquecidos de luz começam a esculpir formas misteriosas no meio da escuridão... Entre eles, um ancião. Ele conforta a criança, exortando-a a ver as maravilhas da terra. E é com os olhos desta criança que testemunhamos a criação do Mundo.A natureza se faz viva com o primeiro raio de luz do amanhecer, recriando os sete dias da Criação. Seguindo cada passo de seus primeiros personagens Adão e Eva e seus filhos Caim e Abel, que causaram a ira de Deus levando-o a começar tudo outra vez. O sol novamente nasce. Uma pomba carrega um galho de oliveira. Noé traz em sua arca a esperança de uma nova vida, sinal de aliança com Deus.",
+    "imdb_id": "tt0109884"
+  },
+  {
+    "id": "movie-genesis-in-concert",
+    "title": "Gênesis In Concert",
+    "type": "movie",
+    "year": "1977",
+    "poster_url": "/r9GiPE9huv99lU5D8YXwJloleeM.jpg",
+    "genres": [
+      "Música",
+      "Documentário"
+    ],
+    "tmdb_id": "60714",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/60714",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/60714",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Genesis_%20In%20Concert%20_1977_%20_tmdb_60714_70f70b08.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "60714",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452778",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648116",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "144896",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "144896",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0295278"
+  },
+  {
+    "id": "movie-genio-desafiando-a-gravidade-e-o-amor",
+    "title": "Gênio Desafiando a Gravidade e o Amor",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": "/h53ESIVF4VboUgnyR1pWleXKqee.jpg",
+    "genres": [
+      "Família",
+      "Comédia",
+      "TV"
+    ],
+    "tmdb_id": "73527",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "73527",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Charlie, wiz ciência, amante do hóquei, e todo gênio, está cansado de ficar sem amigos. É ruim o suficiente que ele está na faculdade antes que ele tem 14 anos ajudando um cientista que está no meio de tentar desafiar a gravidade. Assim, a fim de fazer a sua vida exatamente como ele quer, Charlie reinventa-se, assumindo a imagem de um preguiçoso / bad boy e se matricula na Jr. locais elevados. Mas malabarismo duas vidas é difícil, mesmo para um gênio.",
+    "imdb_id": "tt0193187"
+  },
+  {
+    "id": "movie-genio-desafiando-a-gravidade-e-o-amor-1999",
+    "title": "Gênio Desafiando a Gravidade e o Amor (1999)",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nio%20Desafiando%20a%20Gravidade%20e%20o%20Amor%20_1999_%20_tmdb_73527_b0e1188c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-genio-indomavel",
+    "title": "Gênio Indomável",
+    "type": "movie",
+    "year": "1997",
+    "poster_url": "/dTe3EpJGnfUeR5swLbWv61iRyFc.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "489",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/489",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/489",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nio%20Indom_vel%20_1997_%20_tmdb_489_aa89d876.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457168",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653679",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352209",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "75686",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352209",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "75686",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352208",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352208",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um professor do MIT descobre que um faxineiro da universidade é um gênio da matemática, e um psicólogo pouco ortodoxo ajuda o jovem a desenvolver seu potencial.",
+    "imdb_id": "tt0119217"
+  },
+  {
+    "id": "movie-genios-da-trapaca",
+    "title": "Gênios da Trapaça",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/h5hONXZ4hPgniv1DXMB1IZohhpO.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "934866",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/243bd75f3965685ee1046b4585e2b1f1/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/934866",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/934866",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "376716",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "376716",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um grupo de alunos do último ano do ensino médio de uma escola especializada em empreendedorismo se une para derrubar um sistema fraudulento de admissão em faculdades.",
+    "imdb_id": "tt17717416"
+  },
+  {
+    "id": "movie-genios-do-crime",
+    "title": "Gênios do Crime",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/oeGZwp0XPmtM08gA4ObdUT9OrGq.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "213681",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/213681",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/213681",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/G_nios%20do%20Crime%20_2016_%20_tmdb_213681_30f6763f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "213681",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454399",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648579",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "198530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "198530",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A história gira em torno de Dave Ghantt, um guarda noturno de uma companhia de carros blindados no sul dos Estados Unidos que organiza um dos mais ousados assaltos a banco da história norte-americana. Mesmo sem ter experiência e contando com a ajuda dos colegas mais atrapalhados, ele consegue roubar 17 milhões de dólares. Baseado em uma história real.",
+    "imdb_id": "tt2461150"
+  },
+  {
+    "id": "movie-genios-do-crime-2016",
+    "title": "Gênios do Crime (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/oeGZwp0XPmtM08gA4ObdUT9OrGq.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/213681",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/213681",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1305039",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-golgeler-ve-suretler",
+    "title": "Gölgeler ve Suretler",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/2VIkKj6XY7pZ45HnslVuc3IvAV.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "128015",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/128015",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/128015",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Golgeler%20ve%20Suretler%20_2010_%20_tmdb_128015_da723ef6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "128015",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457722",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "128015.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "762572",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770474",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "313288",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "313288",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "313289",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "313289",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt1834824"
+  }
+]
