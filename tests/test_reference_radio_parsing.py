@@ -89,9 +89,9 @@ class ReferenceRadioParsingTests(unittest.TestCase):
             vod = reference / "vod"
             vod.mkdir()
             (vod / "radios.txt").write_text(
-                "Known FM|https://radio.example/known\\n"
-                "New FM|https://radio.example/new|https://images.example/new.png\\n"
-                "Unsafe FM|javascript:alert(1)\\n",
+                "Known FM|https://radio.example/known\n"
+                "New FM|https://radio.example/new|https://images.example/new.png\n"
+                "Unsafe FM|javascript:alert(1)\n",
                 encoding="utf-8",
             )
             existing = {
