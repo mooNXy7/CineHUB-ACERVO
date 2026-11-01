@@ -165,6 +165,12 @@ GENRE_ALIASES = {
     "local radio": "Regional",
     "radio universitaria": "Educativa",
     "university radio": "Educativa",
+    "pop dance": "Pop",
+    "brasil": "Música Brasileira",
+    "soft": "Adulto Contemporâneo",
+    "espiritismo": "Religiosa",
+    "espiritual": "Religiosa",
+    "radio espirita": "Religiosa",
 }
 GENRE_PRIORITY = [
     "Sertanejo", "MPB", "Gospel", "Jornalismo", "Esportes", "Pop/Rock",
