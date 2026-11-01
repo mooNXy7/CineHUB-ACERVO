@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": true,
+  "catalog_mutated": false,
   "active_sources": 2,
   "sources": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "source_id": "radio-browser-br-metadata",
-      "stations": 1602
+      "stations": 1605
     }
   ],
   "merge": {
@@ -33,17 +33,12 @@
     "matched_by_name": 96,
     "unmatched": 428,
     "ambiguous": 41,
-    "genres_filled": 4,
+    "genres_filled": 0,
     "logos_filled": 0,
     "favicon_rejected": 11,
     "genre_unclassified": 97,
     "unclassified_tags": {},
-    "updated_radio_names": [
-      "Rádio C",
-      "Vintage Brasil",
-      "Vintage Soft",
-      "Web Rádio Fraternidade"
-    ]
+    "updated_radio_names": []
   },
   "failures": [],
   "safety": [
