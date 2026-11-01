@@ -15,3 +15,10 @@
 - O importador lê somente nome e URL HTTPS; não importa DRM, headers, tokens ou configurações de reprodução.
 - Streams existentes nunca são substituídos automaticamente. URLs diferentes para a mesma rádio são registradas para revisão.
 - Logos e gêneros existentes são preservados; a referência não é considerada fonte desses campos.
+
+## Grades HTML de terceiros
+
+- Fontes HTML de programação só podem ser ativadas quando houver autorização expressa para extração, armazenamento e redistribuição dos horários e títulos.
+- `meuguia-br` e `guia-de-tv-br` permanecem desativadas até comprovação dessa autorização. A fonte Guia de TV publica termos que restringem cópia, armazenamento e compartilhamento do conteúdo.
+- O pipeline remove grades HTML previamente armazenadas dessas fontes desativadas; falhas temporárias de fontes autorizadas continuam preservando o último dado válido.
+- Os mapeamentos de canal são mantidos para possível reativação autorizada; as fontes XMLTV continuam independentes.
