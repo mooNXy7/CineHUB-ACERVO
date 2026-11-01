@@ -32,8 +32,8 @@ class UpdateHtmlEpgTests(unittest.TestCase):
                 ]
             }), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
-                "meuguia_codes": {"HBO": "HBO", "Nickelodeon": "NIC"},
-                "guiadetv_slugs": {"SONY Movies": "sony-movies"},
+                "meuguia_codes": {},
+                "guiadetv_slugs": {},
             }), encoding="utf-8")
             (epg / "html-programmes.json").write_text(json.dumps({
                 "schema_version": 1, "timezone": "America/Sao_Paulo",
