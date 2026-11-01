@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Review-only reference for filling missing channel logos by exact normalized name.",
-  "source": "https://github.com/SaimoTV/SaimoTV-Android/blob/main/scripts/offline.json",
-  "source_note": "Derived only from name and logo fields. Stream URLs, headers, DRM fields, and playback data were intentionally excluded.",
+  "source": "Authorized references: SaimoTV-Android offline.json and SaimoPlayer/catalogo.txt",
+  "source_note": "Only channel names and HTTPS logo URL references were extracted. The SaimoPlayer additions were limited to approved hosts (Saimo image host, Pluto TV, Claro, Rakuten TV, and UOL); no tv-logo repository assets, streams, headers, DRM, credentials, or playback data were imported. URLs are linked, not re-hosted. Exact-name suggestions are eligible for automatic application; ambiguous variants remain review-only.",
   "entries": [
     {
       "name": "A&E",
@@ -655,6 +655,726 @@
     {
       "name": "Xsports",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/xsports.png"
+    },
+    {
+      "name": "Canal OFF",
+      "logo_url": "https://img.faz-o-eli.online/off.png"
+    },
+    {
+      "name": "Globo SP",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Record",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png"
+    },
+    {
+      "name": "AMC Séries",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png"
+    },
+    {
+      "name": "USA Network",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png"
+    },
+    {
+      "name": "Globo",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globo.png"
+    },
+    {
+      "name": "Tooncast",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tooncast.png"
+    },
+    {
+      "name": "Arte 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/arte1.png"
+    },
+    {
+      "name": "TCM",
+      "logo_url": "https://img.faz-o-eli.online/tcm.png"
+    },
+    {
+      "name": "Band News",
+      "logo_url": "https://img.faz-o-eli.online/bandnews.png"
+    },
+    {
+      "name": "BAND SPORTS HD",
+      "logo_url": "https://img.faz-o-eli.online/bandsports.png"
+    },
+    {
+      "name": "Discovery ID",
+      "logo_url": "https://img.faz-o-eli.online/discoverychannel.png"
+    },
+    {
+      "name": "X Sports",
+      "logo_url": "https://img.faz-o-eli.online/xsports.png"
+    },
+    {
+      "name": "N SPORTS",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
+    },
+    {
+      "name": "Band SP",
+      "logo_url": "https://img.faz-o-eli.online/band.png"
+    },
+    {
+      "name": "Band RS",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/band.png"
+    },
+    {
+      "name": "SBT SP",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png"
+    },
+    {
+      "name": "Record SP",
+      "logo_url": "https://img.faz-o-eli.online/record.png"
+    },
+    {
+      "name": "TV Pai Eterno",
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png"
+    },
+    {
+      "name": "Trace Brazuca",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png"
+    },
+    {
+      "name": "TV Justiça",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png"
+    },
+    {
+      "name": "Euronews",
+      "logo_url": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg"
+    },
+    {
+      "name": "A Feiticeira",
+      "logo_url": "https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png"
+    },
+    {
+      "name": "Acumuladores Obsessivos",
+      "logo_url": "https://images.pluto.tv/channels/656e2a4b4261ca00083aa99e/colorLogoPNG.png"
+    },
+    {
+      "name": "Adrenalina Pura TV",
+      "logo_url": "https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png"
+    },
+    {
+      "name": "Assombrações",
+      "logo_url": "https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png"
+    },
+    {
+      "name": "BET Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1784064875197.png"
+    },
+    {
+      "name": "Babyfirst",
+      "logo_url": "https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png"
+    },
+    {
+      "name": "Bob Esponja Calça Quadrada",
+      "logo_url": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png"
+    },
+    {
+      "name": "Boruto: Naruto Next Generations",
+      "logo_url": "https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png"
+    },
+    {
+      "name": "Comedy Central Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png"
+    },
+    {
+      "name": "Comedy Central South Park",
+      "logo_url": "https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png"
+    },
+    {
+      "name": "Detetives Médicos",
+      "logo_url": "https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png"
+    },
+    {
+      "name": "Estado Paranormal",
+      "logo_url": "https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG_1732041604478.png"
+    },
+    {
+      "name": "FIFA+",
+      "logo_url": "https://images.pluto.tv/channels/66997e8d3a4ad20008e50be9/colorLogoPNG_1749841306387.png"
+    },
+    {
+      "name": "FailArmy",
+      "logo_url": "https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png"
+    },
+    {
+      "name": "Filmelier TV",
+      "logo_url": "https://images.pluto.tv/channels/633dcebd80386500074a2461/colorLogoPNG.png"
+    },
+    {
+      "name": "Filmes Suspense",
+      "logo_url": "https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png"
+    },
+    {
+      "name": "Homeful",
+      "logo_url": "https://images.pluto.tv/channels/67603668f433320008760af1/colorLogoPNG.png"
+    },
+    {
+      "name": "MTV Biggest Pop",
+      "logo_url": "https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png"
+    },
+    {
+      "name": "MTV Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png"
+    },
+    {
+      "name": "MTV Reality",
+      "logo_url": "https://images.pluto.tv/channels/6851bdfc9ac48fde5e07f5ae/colorLogoPNG_1783347653051.png"
+    },
+    {
+      "name": "MTV Rocks",
+      "logo_url": "https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png"
+    },
+    {
+      "name": "Mais MasterChef Brasil",
+      "logo_url": "https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png"
+    },
+    {
+      "name": "MasterChef",
+      "logo_url": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png"
+    },
+    {
+      "name": "Mistérios sem Solução",
+      "logo_url": "https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png"
+    },
+    {
+      "name": "NatureTime",
+      "logo_url": "https://images.pluto.tv/channels/681ba2ad93d3d19bcab47433/colorLogoPNG_1785430696843.png"
+    },
+    {
+      "name": "Nick Jr. Club",
+      "logo_url": "https://images.pluto.tv/channels/6824ce95f09106f4b18f4114/colorLogoPNG_1747935179470.png"
+    },
+    {
+      "name": "Nickelodeon Clássico",
+      "logo_url": "https://images.pluto.tv/channels/6824ce10c5d53e1351ceb8d1/colorLogoPNG_1788384899252.png"
+    },
+    {
+      "name": "Nickelodeon Teen",
+      "logo_url": "https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png"
+    },
+    {
+      "name": "Nickelodeon Toons",
+      "logo_url": "https://images.pluto.tv/channels/645951c0e94c38000802d2cb/colorLogoPNG_1767888119852.png"
+    },
+    {
+      "name": "Nickelodeon iCarly",
+      "logo_url": "https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png"
+    },
+    {
+      "name": "O Homem que veio do Céu",
+      "logo_url": "https://images.pluto.tv/channels/62052d3b4eeb740007fbe125/colorLogoPNG_1732044609381.png"
+    },
+    {
+      "name": "O Reino Infantil",
+      "logo_url": "https://images.pluto.tv/channels/5f5c216df68f920007888315/colorLogoPNG.png"
+    },
+    {
+      "name": "PFL MMA",
+      "logo_url": "https://images.pluto.tv/channels/64f6180130ab3300083d896b/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Aliens",
+      "logo_url": "https://images.pluto.tv/channels/6806d65e84f24b70109485fa/colorLogoPNG_1746817107468.png"
+    },
+    {
+      "name": "Pluto TV Animais",
+      "logo_url": "https://images.pluto.tv/channels/6474aa984cfc2c0008883a92/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Anime",
+      "logo_url": "https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1785430875394.png"
+    },
+    {
+      "name": "Pluto TV Anime Ação",
+      "logo_url": "https://images.pluto.tv/channels/604b79c558393100078faeef/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Bang Bang",
+      "logo_url": "https://images.pluto.tv/channels/663b9dc7cb3ea10008f1a0ce/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Canal UOL",
+      "logo_url": "https://images.pluto.tv/channels/64b9370b409629000802d32b/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Cine Clássicos",
+      "logo_url": "https://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG_1733440556804.png"
+    },
+    {
+      "name": "Pluto TV Cine Comédia",
+      "logo_url": "https://images.pluto.tv/channels/5f12101f0b12f00007844c7c/colorLogoPNG_1732662798298.png"
+    },
+    {
+      "name": "Pluto TV Cine Comédia Romântica",
+      "logo_url": "https://images.pluto.tv/channels/62545ed3dab4380007582f7c/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Cine Crime",
+      "logo_url": "https://images.pluto.tv/channels/6479ff764f5ba5000878dfe2/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Cine Drama",
+      "logo_url": "https://images.pluto.tv/channels/5f1210d14ae1f80007bafb1d/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Cine Família",
+      "logo_url": "https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG_1788969213886.png"
+    },
+    {
+      "name": "Pluto TV Cine Inspiração",
+      "logo_url": "https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png"
+    },
+    {
+      "name": "Pluto TV Cine Romance",
+      "logo_url": "https://images.pluto.tv/channels/5f171f988ab9780007fa95ea/colorLogoPNG_1771344977802.png"
+    },
+    {
+      "name": "Pluto TV Cine Sucessos",
+      "logo_url": "https://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG_1785430162956.png"
+    },
+    {
+      "name": "Pluto TV Cine Terror",
+      "logo_url": "https://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Cozinha",
+      "logo_url": "https://images.pluto.tv/channels/5f1ef23020a5ac0007e5e8ea/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Desenhos Clássicos",
+      "logo_url": "https://images.pluto.tv/channels/655e5c4d2c46f3000877a54b/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Esportes",
+      "logo_url": "https://images.pluto.tv/channels/5f32d2db0af67400077f29c4/colorLogoPNG_1782950090441.png"
+    },
+    {
+      "name": "Pluto TV Ficção Científica",
+      "logo_url": "https://images.pluto.tv/channels/5fa15ad6367e170007cdd098/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Filmes Aventura",
+      "logo_url": "https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Filmes Ação",
+      "logo_url": "https://images.pluto.tv/channels/5f120f41b7d403000783a6d6/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Filmes Nacionais",
+      "logo_url": "https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png"
+    },
+    {
+      "name": "Pluto TV Filmes de Luta",
+      "logo_url": "https://images.pluto.tv/channels/6806d62369aec5b19cd628c0/colorLogoPNG_1746817781806.png"
+    },
+    {
+      "name": "Pluto TV História",
+      "logo_url": "https://images.pluto.tv/channels/5f1ef1a8cec6be00072a7ac9/colorLogoPNG_1754405659295.png"
+    },
+    {
+      "name": "Pluto TV Investigação",
+      "logo_url": "https://images.pluto.tv/channels/5f32cf37c9ff2b00082adbc8/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Junior",
+      "logo_url": "https://images.pluto.tv/channels/5f12141b146d760007934ea7/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV KFOOD",
+      "logo_url": "https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Karaokê por Stingray",
+      "logo_url": "https://images.pluto.tv/channels/604b99d633a72b00078e05ad/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Kids",
+      "logo_url": "https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Kids Club",
+      "logo_url": "https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Mistérios",
+      "logo_url": "https://images.pluto.tv/channels/5fac52f142044f00078e2a51/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Natureza",
+      "logo_url": "https://images.pluto.tv/channels/5f1213ba0ecebc00070e170f/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Negócio Fechado",
+      "logo_url": "https://images.pluto.tv/channels/64ad7394798def00087b2bfe/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Netmovies",
+      "logo_url": "https://images.pluto.tv/channels/663b9de4f999220008230fa8/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Novelas",
+      "logo_url": "https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG_1785430486083.png"
+    },
+    {
+      "name": "Pluto TV Paisagens por Stingray",
+      "logo_url": "https://images.pluto.tv/channels/604a8dedbca75b0007b1c753/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Policial",
+      "logo_url": "https://images.pluto.tv/channels/678fdf9e3de7c8cf948e8824/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Record News",
+      "logo_url": "https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Retrô",
+      "logo_url": "https://images.pluto.tv/channels/5f1212ad1728050007a523b8/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Shows por Stingray",
+      "logo_url": "https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Star Trek",
+      "logo_url": "https://images.pluto.tv/channels/5f99ac4fded33000078f29ab/colorLogoPNG_1753988616763.png"
+    },
+    {
+      "name": "Pluto TV Séries Ação",
+      "logo_url": "https://images.pluto.tv/channels/6474ab1da51cb80008bfb5f4/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Séries Comédia",
+      "logo_url": "https://images.pluto.tv/channels/655e5bc94261ca000810cb17/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Séries Criminais",
+      "logo_url": "https://images.pluto.tv/channels/6474ab5cdc7a760008745008/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Séries Drama",
+      "logo_url": "https://images.pluto.tv/channels/65f060d84e01740008d7421f/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Séries Novelescas",
+      "logo_url": "https://images.pluto.tv/channels/691627e4a29a6123e400b3e0/colorLogoPNG_1764878235665.png"
+    },
+    {
+      "name": "Pluto TV Séries Sci-Fi",
+      "logo_url": "https://images.pluto.tv/channels/63d2ba2f60bc8f0008981a0e/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Terror Trash",
+      "logo_url": "https://images.pluto.tv/channels/66aa67493a4ad2000806d91b/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Turbo",
+      "logo_url": "https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png"
+    },
+    {
+      "name": "Pluto TV Viagens",
+      "logo_url": "https://images.pluto.tv/channels/5f32d432d612e50007e56133/colorLogoPNG_1769016717502.png"
+    },
+    {
+      "name": "Pluto TV Vida Real",
+      "logo_url": "https://images.pluto.tv/channels/5f32d4d9ec194100070c7449/colorLogoPNG_1732044921019.png"
+    },
+    {
+      "name": "Pronto-socorro: Histórias De Emergência",
+      "logo_url": "https://images.pluto.tv/channels/61bb72a7bf8c520007a8fd27/colorLogoPNG.png"
+    },
+    {
+      "name": "RACER Brasil",
+      "logo_url": "https://images.pluto.tv/channels/65a6818c7bdc8d0008457b21/colorLogoPNG_1746817068891.png"
+    },
+    {
+      "name": "Realmadrid TV",
+      "logo_url": "https://images.pluto.tv/channels/63dac28760bc8f0008a7654b/colorLogoPNG.png"
+    },
+    {
+      "name": "Runtime",
+      "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png"
+    },
+    {
+      "name": "SFT Combat",
+      "logo_url": "https://images.pluto.tv/channels/6660b636cb3ea10008429c6a/colorLogoPNG.png"
+    },
+    {
+      "name": "Smithsonian Channel Pluto TV",
+      "logo_url": "https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png"
+    },
+    {
+      "name": "South Park: Coleção Cartman",
+      "logo_url": "https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png"
+    },
+    {
+      "name": "South Park: Coleção Kenny",
+      "logo_url": "https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png"
+    },
+    {
+      "name": "South Park: Coleção Kyle",
+      "logo_url": "https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png"
+    },
+    {
+      "name": "Tastemade",
+      "logo_url": "https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png"
+    },
+    {
+      "name": "Tastemade Casa",
+      "logo_url": "https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png"
+    },
+    {
+      "name": "Tastemade Viagem",
+      "logo_url": "https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png"
+    },
+    {
+      "name": "The Pet Collective",
+      "logo_url": "https://images.pluto.tv/channels/5f515ebac01c0f00080e8439/colorLogoPNG.png"
+    },
+    {
+      "name": "Tokusato",
+      "logo_url": "https://images.pluto.tv/channels/5ff609de50ab210008025c1b/colorLogoPNG.png"
+    },
+    {
+      "name": "Top Barça",
+      "logo_url": "https://images.pluto.tv/channels/6888ee858f4a4aa11feb9430/colorLogoPNG_1753987309681.png"
+    },
+    {
+      "name": "UFC",
+      "logo_url": "https://images.pluto.tv/channels/69a20556814d27f4ae630a92/colorLogoPNG_1772226745279.png"
+    },
+    {
+      "name": "World Poker Tour",
+      "logo_url": "https://images.pluto.tv/channels/63eba66da8b2270008436b10/colorLogoPNG.png"
+    },
+    {
+      "name": "Yu-Gi-Oh",
+      "logo_url": "https://images.pluto.tv/channels/63988a50be012600070f5db3/colorLogoPNG.png"
+    },
+    {
+      "name": "Z Nation",
+      "logo_url": "https://images.pluto.tv/channels/66b3af48d2d50d00083d6936/colorLogoPNG_1785430432127.png"
+    },
+    {
+      "name": "Amazon Prime Video 01",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "Amazon Prime Video 02",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "Combate",
+      "logo_url": "https://img.faz-o-eli.online/combate.png"
+    },
+    {
+      "name": "Paramount+ (Jogo 1)",
+      "logo_url": "https://img.faz-o-eli.online/paramountplus.png"
+    },
+    {
+      "name": "SportyNet 01",
+      "logo_url": "https://img.faz-o-eli.online/sportynet.png"
+    },
+    {
+      "name": "UFC Fight Pass 01",
+      "logo_url": "https://img.faz-o-eli.online/ufcfightpass.png"
+    },
+    {
+      "name": "Band RJ",
+      "logo_url": "https://img.faz-o-eli.online/band.png"
+    },
+    {
+      "name": "SBT RJ",
+      "logo_url": "https://img.faz-o-eli.online/sbt.png"
+    },
+    {
+      "name": "24H Chaves",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Dragon Ball Z",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Naruto Clássico",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Os Simpsons",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Pica Pau",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Todo Mundo Odeia o Cris",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "24H Friends",
+      "logo_url": "https://img.faz-o-eli.online/24h.png"
+    },
+    {
+      "name": "CazeTV 1",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "CazeTV 2",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "PT - A Bola",
+      "logo_url": "https://img.faz-o-eli.online/pt_abola.png"
+    },
+    {
+      "name": "PT - Benfica TV",
+      "logo_url": "https://img.faz-o-eli.online/pt_benficatv.prev.png"
+    },
+    {
+      "name": "PT - Canal 11",
+      "logo_url": "https://img.faz-o-eli.online/pt_canal11.prev.png"
+    },
+    {
+      "name": "PT - Eleven 1",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven1.prev.png"
+    },
+    {
+      "name": "PT - Eleven 2",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven2.prev.png"
+    },
+    {
+      "name": "PT - Eleven 3",
+      "logo_url": "https://img.faz-o-eli.online/pt_eleven3.prev.png"
+    },
+    {
+      "name": "PT - Sporttv 1",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 2",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 3",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 4",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 5",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 6",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "PT - Sporttv 7",
+      "logo_url": "https://img.faz-o-eli.online/sportv.png"
+    },
+    {
+      "name": "Globo AM",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo CE",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo ES",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo GO",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo PB",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo PE",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo RJ",
+      "logo_url": "https://img.faz-o-eli.online/globorj.png"
+    },
+    {
+      "name": "Globo RS",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Record GO",
+      "logo_url": "https://img.faz-o-eli.online/record.png"
+    },
+    {
+      "name": "Record MG",
+      "logo_url": "https://img.faz-o-eli.online/record.png"
+    },
+    {
+      "name": "Record RJ",
+      "logo_url": "https://img.faz-o-eli.online/record.png"
+    },
+    {
+      "name": "MTV",
+      "logo_url": "https://img.faz-o-eli.online/mtv.png"
+    },
+    {
+      "name": "A Fazenda 18 1",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 2",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 3",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 4",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "A Fazenda 18 5",
+      "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
+    },
+    {
+      "name": "CazeTV 3",
+      "logo_url": "https://img.faz-o-eli.online/cazetv.png"
+    },
+    {
+      "name": "Globo DF",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "Globo MG",
+      "logo_url": "https://img.faz-o-eli.online/globosp.png"
+    },
+    {
+      "name": "MAX 03",
+      "logo_url": "https://img.faz-o-eli.online/max.png"
+    },
+    {
+      "name": "Amazon Prime Video 04",
+      "logo_url": "https://img.faz-o-eli.online/primevideo.png"
+    },
+    {
+      "name": "SporTV 4",
+      "logo_url": "https://img.faz-o-eli.online/sportv4.png"
+    },
+    {
+      "name": "Star Channel",
+      "logo_url": "https://img.faz-o-eli.online/starchannel.png"
     }
   ]
 }
