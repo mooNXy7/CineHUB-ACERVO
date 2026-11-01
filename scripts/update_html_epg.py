@@ -144,6 +144,14 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     health_by_channel = dict(previous.get("health") or {})
     # A source explicitly disabled for redistribution is not a transient outage:
     # remove its cached schedules instead of preserving/re-publishing them.
+    for channel, old_health in list(health_by_channel.items()):
+        if isinstance(old_health, dict) and old_health.get("source_id") in disabled_html_sources:
+            health_by_channel[channel] = {
+                "source_id": old_health.get("source_id"),
+                "status": "disabled",
+                "programme_count": 0,
+                "error": "HTML schedule publication disabled until redistribution permission is confirmed",
+            }
     for channel, record in list(programmes_by_channel.items()):
         if isinstance(record, dict) and record.get("source_id") in disabled_html_sources:
             programmes_by_channel.pop(channel, None)
