@@ -17,13 +17,15 @@
     "anime_ambiguous_tmdb_id_records_skipped": 1,
     "doramas_ambiguous_tmdb_id_records_skipped": 46,
     "radios_updated": 0,
+    "radio_import_candidates": 0,
+    "radios_quarantined": 0,
     "movies": 40939,
     "series": 11665,
     "anime": 2750,
     "doramas": 896,
     "radios_added": 0,
     "channel_records_total": 2431,
-    "radio_records_total": 1022,
+    "radio_records_total": 753,
     "fichas_matched": 36146
   },
   "counter_semantics": {
@@ -37,5 +39,5 @@
     "Itens com IDs de provedores são preservados como referências para adaptadores futuros.",
     "A importação não testa reprodução durante a montagem do catálogo."
   ],
-  "generated_at": "2026-10-31T21:28:32.759930+00:00"
+  "generated_at": "2026-11-01T18:47:44.856238+00:00"
 }
