@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T19:31:40.395504+00:00",
+  "generated_at": "2026-11-01T20:04:14.477605+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -2783,7 +2783,7 @@
       "name": "Rádio C",
       "stream_url": "https://stm5.painelcast.com:7578/stream",
       "logo_url": "https://www.capital.it/wp-content/themes/network-capital/favicon.ico",
-      "genre": null,
+      "genre": "Pop",
       "source_id": "upstream-import"
     },
     {
@@ -5863,7 +5863,7 @@
       "name": "Vintage Brasil",
       "stream_url": "https://servidor37.brlogic.com:7094/live",
       "logo_url": "https://static.wixstatic.com/media/968b35_ed58ea50126a440db954ab28fe0b9217~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6.png",
-      "genre": null,
+      "genre": "Música Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -5887,7 +5887,7 @@
       "name": "Vintage Soft",
       "stream_url": "https://servidor37.brlogic.com:7020/live",
       "logo_url": "https://static.wixstatic.com/media/968b35_320d9822b87440c49c7cffdac32339e6~mv2.png/v1/fill/w_600,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20VINTAGE%20SOFT_arte%20web%20.png",
-      "genre": null,
+      "genre": "Adulto Contemporâneo",
       "source_id": "upstream-import"
     },
     {
@@ -5951,7 +5951,7 @@
       "name": "Web Rádio Fraternidade",
       "stream_url": "https://paineldj5.com.br:2100/stream",
       "logo_url": "https://www.radiofraternidade.com.br/imagens/mascote.png",
-      "genre": null,
+      "genre": "Religiosa",
       "source_id": "upstream-import"
     },
     {
