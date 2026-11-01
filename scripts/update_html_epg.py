@@ -153,6 +153,22 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
                 "programme_count": 0,
                 "error": "HTML schedule publication disabled until redistribution permission is confirmed",
             }
+    for source_id, channel_names in (
+        ("meuguia-br", (mapping.get("meuguia_codes") or {}).keys()),
+        ("guia-de-tv-br", (mapping.get("guiadetv_slugs") or {}).keys()),
+    ):
+        if source_id not in disabled_html_sources:
+            continue
+        for channel in channel_names:
+            cached = programmes_by_channel.get(channel) or {}
+            if cached and cached.get("source_id") not in disabled_html_sources:
+                continue
+            health_by_channel[channel] = {
+                "source_id": source_id,
+                "status": "disabled",
+                "programme_count": 0,
+                "error": "HTML schedule publication disabled until redistribution permission is confirmed",
+            }
     reference_now = now or dt.datetime.now(dt.timezone.utc)
     if reference_now.tzinfo is None:
         reference_now = reference_now.replace(tzinfo=dt.timezone.utc)
