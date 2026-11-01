@@ -23,7 +23,7 @@ SENSITIVE_PATH = re.compile(r"(?:token|auth|password|passwd|username|signature|s
 def normalize_channel_name(value: Any) -> str:
     value = normalize_key(value)
     value = QUALITY.sub(" ", value)
-    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+    return re.sub(r"[^a-z0-9]+", "", value)
 
 
 def source_is_safe(stream: dict[str, Any], channel: dict[str, Any]) -> bool:
