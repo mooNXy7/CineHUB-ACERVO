@@ -93,7 +93,11 @@ def validate_radio_catalog(radios, quarantine):
             errors.append(
                 f"catalog/radios/radios.json: URL no campo name do registro {item.get('id', '?')}"
             )
-        if item.get("stream_url") and not safe_radio_stream_url(item.get("stream_url")):
+        if not item.get("stream_url"):
+            errors.append(
+                f"catalog/radios/radios.json: stream_url ausente no registro {item.get('id', '?')}"
+            )
+        elif not safe_radio_stream_url(item.get("stream_url")):
             errors.append(
                 f"catalog/radios/radios.json: stream_url inseguro/inválido no registro {item.get('id', '?')}"
             )
