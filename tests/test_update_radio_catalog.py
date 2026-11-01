@@ -51,6 +51,29 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(update_radio_catalog.genre_from_tags("brazil, sertanejo, portuguese"), "Sertanejo")
         self.assertIsNone(update_radio_catalog.genre_from_tags("brazil, portuguese, online"))
 
+    def test_expanded_explicit_tags_cover_brazilian_radio_categories(self):
+        self.assertEqual(update_radio_catalog.genre_from_tags("funk carioca, brasil"), "Funk")
+        self.assertEqual(update_radio_catalog.genre_from_tags("louvor, worship"), "Gospel")
+        self.assertEqual(update_radio_catalog.genre_from_tags("news/talk, politics"), "Jornalismo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("indie pop"), "Indie")
+
+    def test_radio_source_fetch_retries_transient_connection_resets(self):
+        with patch.object(update_radio_catalog, "fetch", side_effect=[
+            OSError("connection reset by peer"), "[]"
+        ]) as mocked_fetch, patch.object(update_radio_catalog.time, "sleep") as mocked_sleep:
+            result = update_radio_catalog.fetch_radio_source("https://radio.example/metadata")
+        self.assertEqual(result, "[]")
+        self.assertEqual(mocked_fetch.call_count, 2)
+        mocked_sleep.assert_called_once_with(1.5)
+
+    def test_radio_source_fetch_does_not_retry_non_transient_http_errors(self):
+        import urllib.error
+        error = urllib.error.HTTPError("https://radio.example/metadata", 404, "not found", {}, None)
+        with patch.object(update_radio_catalog, "fetch", side_effect=error) as mocked_fetch:
+            with self.assertRaises(urllib.error.HTTPError):
+                update_radio_catalog.fetch_radio_source("https://radio.example/metadata")
+        self.assertEqual(mocked_fetch.call_count, 1)
+
     def test_station_favicon_must_belong_to_homepage_domain(self):
         self.assertEqual(
             update_radio_catalog.safe_station_favicon({
