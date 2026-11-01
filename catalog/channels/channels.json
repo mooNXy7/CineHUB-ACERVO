@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T00:52:24Z",
+  "generated_at": "2026-11-01T01:20:20Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -15732,7 +15732,7 @@
     },
     {
       "id": "ch-globo-tv-subae-hd",
-      "name": "Globo TV Subae  HD",
+      "name": "Globo TV Subae HD",
       "group": "Canais | Globos Nordeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
       "epg_id": null,
@@ -41077,7 +41077,7 @@
     },
     {
       "id": "ch-cdz-saga-do-santuario-24h",
-      "name": "CDZ Saga do Santuario  24H",
+      "name": "CDZ Saga do Santuario 24H",
       "group": "Outros",
       "logo_url": null,
       "epg_id": null,
@@ -46074,7 +46074,7 @@
     },
     {
       "id": "ch-tnt-fhd",
-      "name": "TNT  FHD",
+      "name": "TNT FHD",
       "group": "Outros",
       "logo_url": null,
       "epg_id": "TNT",
@@ -46110,7 +46110,7 @@
     },
     {
       "id": "ch-tnt-hd",
-      "name": "TNT  HD",
+      "name": "TNT HD",
       "group": "Outros",
       "logo_url": null,
       "epg_id": "TNT",
@@ -46146,7 +46146,7 @@
     },
     {
       "id": "ch-tnt-sd",
-      "name": "TNT  SD",
+      "name": "TNT SD",
       "group": "Outros",
       "logo_url": null,
       "epg_id": "TNT",
