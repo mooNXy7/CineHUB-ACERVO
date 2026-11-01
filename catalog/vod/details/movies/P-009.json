@@ -3913,7 +3913,7 @@
     "id": "movie-piratas-do-caribe-navegando-em-aguas-misteriosas",
     "title": "Piratas do Caribe: Navegando em Águas Misteriosas",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/blt7kBXEk1HgJjCTusaUMQ7BCTY.jpg",
     "genres": [
       "Aventura",
@@ -3976,13 +3976,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O passado do capitão Jack Sparrow volta a alcançá-lo quando ele cruza com Angelica, uma bonita pirata que Jack, um dia, amou e depois abandonou. Ela, então, o força a acompanhá-la ao navio Vingança da Rainha Ana, do famoso Barba Negra. Junto com uma tripulação de zumbis, o trio parte em busca da lendária Fonte da Juventude. Mas o rival de Jack, Barbossa, também cobiça a fonte, assim como um navio espanhol.",
+    "imdb_id": "tt1298650"
   },
   {
     "id": "movie-piratas-do-caribe-no-fim-do-mundo",
     "title": "Piratas do Caribe: No Fim do Mundo",
     "type": "movie",
-    "year": null,
+    "year": "2007",
     "poster_url": "/j15lZasREutscon6e61LSSNJoN7.jpg",
     "genres": [
       "Aventura",
@@ -4075,13 +4077,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Will Turner e Elizabeth Swann unem forças com o Capitão Barbossa para libertarem Jack Sparrow da prisão de Davy Jones. Enquanto isso, a tripulação do barco fantasma O Holandês Voador causa estragos nos Sete Mares. Os amigos devem navegar através de águas perigosas para enfrentarem o pirata chinês São Feng e, finalmente, eles devem escolher em que lado ficar na batalha, pois a vida do pirata está em jogo.",
+    "imdb_id": "tt0449088"
   },
   {
     "id": "movie-piratas-do-caribe-o-bau-da-morte",
     "title": "Piratas do Caribe: O Baú da Morte",
     "type": "movie",
-    "year": null,
+    "year": "2006",
     "poster_url": "/yvD1G41HwHgj8afCjmfGbyRmBBR.jpg",
     "genres": [
       "Aventura",
@@ -4144,13 +4148,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Will e Elizabeth estão prestes a se casar quando o lendário pirata Davy Jones, comandante do invencível navio assombrado O Holandês Voador, aparece para cobrar uma dívida do capitão Jack Sparrow, amigo do casal. A única chance de Sparrow se livrar de uma maldição de Jones é encontrando o baú da morte.",
+    "imdb_id": "tt0383574"
   },
   {
     "id": "movie-piratas-modernos",
     "title": "Piratas Modernos",
     "type": "movie",
-    "year": null,
+    "year": "2001",
     "poster_url": "/uCS0MVcn56ETYrbCe8YOczJ1xrQ.jpg",
     "genres": [
       "TV",
@@ -4168,7 +4174,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Michael pretende passar bons momentos com seu primo Tommy a bordo de um luxuoso iate até que descobre que o iate fretado é,na verdade,um velho barco de pesca enferrujado.Quando piratas modernos perseguem o barco,os garotos são forçados a pular do barco,ficando presos em uma ilha deserta com o capitão do barco, Jake Hunter.",
+    "imdb_id": "tt0271172"
   },
   {
     "id": "movie-piratas-modernos-2001",
@@ -4240,7 +4248,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O Pirata Capitão é um aventuresco, embora nem sempre bem sucedido, terror dos Sete Mares. Seu sonho: derrotar Black Bellamy e Cutlass Liz e levar o troféu de Pirata do Ano. Para conseguir, Capitão vai com sua tripulação da exótica Ilha de Sangue às ruas da Londres vitoriana, batalhando contra a Rainha Vitória e com a preciosa ajuda do jovem Charles Darwin.",
+    "imdb_id": "tt1430626"
   },
   {
     "id": "movie-piripkura-2018",
@@ -4291,13 +4301,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt8041618"
+    "imdb_id": "tt8041618",
+    "overview": "Dois dos últimos membros do povo indígena Piripkura ainda vivem como nômades na Amazônia, cercados por fazendas que estão se expandindo de forma violenta. A área só pode manter seu status de protegida com provas de que eles ainda vivem lá. Por isso, o servidor Jair Candor vai em busca deles."
   },
   {
     "id": "movie-pisando-na-bola",
     "title": "Pisando na Bola",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/boeBhvNICP3cvXQrHXNyAQAE3Zf.jpg",
     "genres": [
       "Comédia"
@@ -4389,7 +4400,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Rich é um astro de basquete mimado que foi suspenso pela liga e como punição é obrigado a excursionar com um time de voluntários. Enquanto viaja com sua nova equipe, ele aprenderá a dar valor para as coisas que realmente importam na vida.",
+    "imdb_id": "tt8334452"
   },
   {
     "id": "movie-pisando-na-bola-2020",
@@ -4532,7 +4545,8 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt10365998"
+    "imdb_id": "tt10365998",
+    "overview": "Enquanto ficam em um resort isolado na ilha, James e Em estão desfrutando de umas férias perfeitas de praias intocadas, funcionários excepcionais e tomando sol. Mas guiados pela sedutora e misteriosa Gabi, eles se aventuram fora dos terrenos do resort e se encontram em uma cultura cheia de violência, hedonismo e horror incalculável."
   },
   {
     "id": "movie-piscininha-de-motel-cena-01",
@@ -4670,13 +4684,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Este filme mostra a dedicação de um pai para com o seu filho, e a caminhada de um menino para se tornar o maior jogador de basquete de todos os tempos.",
+    "imdb_id": "tt0102674"
   },
   {
     "id": "movie-pistoleiros-maos-que-matam",
     "title": "Pistoleiros - Mãos que Matam",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/eNFL2RokVHXl1Mwv0oW6kaboAZN.jpg",
     "genres": [
       "Faroeste"
@@ -4763,7 +4779,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt23469212"
+    "imdb_id": "tt23469212",
+    "overview": "Reno, um pistoleiro recém-casado busca uma vida tranquila com sua noiva. Quando Reno mata um bandido em legítima defesa, ele descobre que os dois voltaram aos seus velhos hábitos. Clarence Bishop não deixará a morte de seu irmão impune."
   },
   {
     "id": "movie-pistoleiros-do-entardecer",
@@ -4873,7 +4890,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Depois da Guerra Civil Norte-Americana, Charles Holley volta para casa e descobre que sua família foi assassinada. Deste momento em diante, a missão de vida de Charles é executar sua vingança.Ao longo de sua jornada, ele encontra dois guias, o Reverendo MacKenzie, que está em busca de redenção enquanto peregrina pelo país, e o misterioso Carlo, que o leva até Animus Smite, o homem que controla, na base da violência, a cidade.  Smite é dono de um rentável negócio de apostas que acontece no saloon de propriedade de Miss Lorena.Holley chega ao local e entra no jogo, já suspeitando que Smite tenha algo a ver com o assassinato. As cartas estão na mesa e é hora da vingança!",
+    "imdb_id": "tt7493824"
   },
   {
     "id": "movie-pitada-do-amor-2017",
@@ -4925,13 +4944,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt6286216"
+    "imdb_id": "tt6286216",
+    "overview": "Quando uma aspirante a Chef, Nikki Turner consegue o emprego dos sonhos no restaurante da famosa Chef, Holly Hanson, ela se torna amiga do atraente Chef executivo, Paul Dellucci. Depois que ambos são erroneamente demitidos de lá, a dupla decide abrir seu próprio restaurante para provar que sua comida é melhor."
   },
   {
     "id": "movie-pitanga",
     "title": "Pitanga",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/zGDc4O9eQhTD9fcfSECNjAYTJtM.jpg",
     "genres": [
       "Documentário"
@@ -4967,13 +4987,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O documentário investiga o percurso estético, político e existencial do ator Antônio Pitanga, que, dirigido por grandes cineastas como Glauber Rocha, Cacá Diegues e Walter Lima Jr., foi destaque em alguns dos momentos de maior inquietação artística do cinema brasileiro.",
+    "imdb_id": "tt5801550"
   },
   {
     "id": "movie-pitbull-forca-bruta",
     "title": "Pitbull - Força Bruta",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/hwbw4Ng7dV9EBA136a3sNiFwVZw.jpg",
     "genres": [
       "Ação",
@@ -5048,7 +5070,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Esta história é contada ao longo de vários anos, uma parte da guerra sempre travada entre a polícia e os impérios criminosos que dominam o submundo da Europa Oriental. acompanhamos a vida de um jovem, sua infância e adolescência e, finalmente, sua descida ao submundo do crime. Seu caminho logo se cruza com um policial que não vai parar por nada para pegá-lo.",
+    "imdb_id": "tt15205194"
   },
   {
     "id": "movie-pitbull-forca-bruta-2021",
@@ -5092,7 +5116,7 @@
     "id": "movie-pittynando-as-suas-as-minhas-e-as-nossas-ao-vivo",
     "title": "PittyNando: As Suas, As Minhas e As Nossas Ao Vivo",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/eBzdCT2vwE36nnIlpCnrLnCG1Fb.jpg",
     "genres": [
       "Música"
@@ -5128,7 +5152,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O show da turnê PittyNando, que surgiu a partir do EP \"PittyNando - As suas, as minhas e as nossas\", celebra o encontro desses dois grandes artistas."
   },
   {
     "id": "movie-pittynando-as-suas-as-minhas-e-as-nossas-ao-vivo-2023",
@@ -5216,13 +5241,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Vovó aposta com um rico senhor chamado coronel Rimfire que seu canarinho, Piu-Piu, é mais inteligente que qualquer gato. Para isso Piu-Piu terá que dar a volta ao mundo em 80 dias, visitando países e colecionando “vistos” com as patas dos gatos.",
+    "imdb_id": "tt0248575"
   },
   {
     "id": "movie-pixel-a-garota-perfeita",
     "title": "Pixel: A Garota Perfeita",
     "type": "movie",
-    "year": null,
+    "year": "2004",
     "poster_url": "/ozYJ7QMI5jweoM2lQzWHGFbzaUh.jpg",
     "genres": [
       "Família",
@@ -5240,6 +5267,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Samantha é a líder de uma banda que luta para conseguir seu espaço. Quando seu amigo, Roscoe, cria uma cantora virtual, o grupo vira um sucesso. Mas tudo se complica quando Roscoe deve lidar com os sentimentos de Samantha e os de sua própria criação.",
+    "imdb_id": "tt0393596"
   }
 ]
