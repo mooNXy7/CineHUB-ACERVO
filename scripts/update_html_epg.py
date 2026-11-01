@@ -267,6 +267,18 @@ def main() -> int:
     statuses = {status: sum(1 for item in document["health"].values() if item.get("status") == status)
                 for status in ("healthy", "stale", "unavailable")}
     print(f"HTML EPG: {len(document['programmes'])} channel schedules retained; health={statuses}")
+    unresolved = [
+        {
+            "channel": name,
+            "source_id": item.get("source_id"),
+            "status": item.get("status"),
+            "error": item.get("error"),
+        }
+        for name, item in sorted(document["health"].items())
+        if item.get("status") in {"stale", "unavailable"}
+    ]
+    if unresolved:
+        print("HTML EPG unresolved source pages=" + json.dumps(unresolved, ensure_ascii=False, sort_keys=True))
     return 0
 
 
