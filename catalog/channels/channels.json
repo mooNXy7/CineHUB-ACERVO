@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T04:06:10Z",
+  "generated_at": "2026-11-01T16:22:24Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -1635,11 +1635,17 @@
       "name": "Record",
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
-      "epg_id": "RECORD HD.br",
+      "epg_id": "Record",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 4,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "RECORD HD.br",
