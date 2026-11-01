@@ -118,7 +118,7 @@ def _job(source: str, name: str, code: str, fetcher: Callable[[str], str], refer
         document = fetcher(url)
         programmes = parser(document)
         if not programmes:
-            raise ValueError("no programme entries parsed; keeping last known-good schedule")
+            raise ValueError("no programme entries parsed; preserving the last known-good schedule if available")
         return source, name, programmes, None
     except Exception as exc:
         return source, name, [], f"{type(exc).__name__}: {str(exc)[:240]}"
@@ -175,7 +175,7 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
             source, name, items, error = future.result()
             items = in_window(items)
             if not items and error is None:
-                error = "no programmes in the configured -6h/+72h window; keeping last known-good schedule"
+                error = "no programmes in the configured -6h/+72h window; preserving the last known-good schedule if available"
             results[(source, name)] = (items, error)
 
     meuguia_success: set[str] = set()
