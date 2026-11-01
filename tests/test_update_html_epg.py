@@ -221,5 +221,28 @@ class UpdateHtmlEpgTests(unittest.TestCase):
 
 
 
+    def test_guiadetv_visible_schedule_is_published_with_reference_date(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            epg = root / "catalog/epg"
+            epg.mkdir(parents=True)
+            (epg / "channel-map.json").write_text(json.dumps({
+                "meuguia_codes": {}, "guiadetv_slugs": {"SONY Movies": "sony-movies"},
+            }), encoding="utf-8")
+            html = """
+            <h2>Domingo, 25 de outubro</h2>
+            <div><span>17:40</span><span>1h35</span><a href="/programa/ameaca">Ameaça Pré-Histórica</a></div>
+            <div><span>19:15</span><span>1h40</span><a href="/programa/depois">Depois da Terra</a></div>
+            """
+            doc = update_document(
+                root, lambda url: html, dt.datetime(2026, 10, 25, 12, tzinfo=dt.timezone.utc)
+            )
+            items = doc["programmes"]["SONY Movies"]["programmes"]
+            self.assertEqual(doc["health"]["SONY Movies"]["status"], "healthy")
+            self.assertEqual(items[0]["start"], "2026-10-25T17:40:00-03:00")
+            self.assertEqual(items[1]["title"], "Depois da Terra")
+
+
+
 if __name__ == "__main__":
     unittest.main()
