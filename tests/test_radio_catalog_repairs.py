@@ -13,8 +13,10 @@ class RadioCatalogRepairTests(unittest.TestCase):
     def setUpClass(cls):
         cls.document = json.loads(RADIOS_PATH.read_text(encoding="utf-8"))
         cls.radios = {item["id"]: item for item in cls.document["radios"]}
-        cls.quarantine = json.loads(QUARANTINE_PATH.read_text(encoding="utf-8"))
-        cls.quarantined = {item["record"]["id"]: item for item in cls.quarantine["records"]}
+        cls.quarantine = json.loads((ROOT / "catalog/radios/quarantine.json").read_text(encoding="utf-8"))
+        cls.quarantined = {item["id"]: item for item in cls.quarantine["records"]}
+        cls.quarantine_report = json.loads(QUARANTINE_PATH.read_text(encoding="utf-8"))
+        cls.reported = {item["record"]["id"]: item for item in cls.quarantine_report["records"]}
 
     def test_explicit_genre_names_are_enriched_without_guessing_generic_fm(self):
         expected = {
@@ -48,14 +50,20 @@ class RadioCatalogRepairTests(unittest.TestCase):
             "radio-https-sv10-hdradios-net-6864-stream": "radio.radio-chaveco",
             "radio-https-streaming-radioempresabrasil-com-br-proxy-novainstrumental-stream": "radio.radio-nova-instrumental",
         }
-        self.assertEqual(len(self.document["radios"]), 1022)
-        self.assertTrue(self.quarantine["records_preserved"])
+        self.assertEqual(len(self.document["radios"]), 753)
+        self.assertEqual(len(self.quarantine["records"]), 269)
+        self.assertTrue(self.quarantine_report["records_preserved"])
+        self.assertTrue(all(
+            item.get("quarantine_reason") == "url_instead_of_radio_name"
+            for item in self.quarantine["records"]
+        ))
         for radio_id, duplicate_of in expected.items():
             with self.subTest(radio_id=radio_id):
                 self.assertNotIn(radio_id, self.radios)
-                self.assertEqual(self.quarantined[radio_id]["duplicate_of"], duplicate_of)
-                self.assertEqual(self.quarantined[radio_id]["action"], "quarantined_not_deleted")
-                self.assertIn(self.quarantined[radio_id]["duplicate_stream_url"],
+                self.assertTrue(self.quarantined[radio_id]["name"].startswith("https://"))
+                self.assertEqual(self.reported[radio_id]["duplicate_of"], duplicate_of)
+                self.assertEqual(self.reported[radio_id]["action"], "quarantined_not_deleted")
+                self.assertIn(self.reported[radio_id]["duplicate_stream_url"],
                               {item.get("stream_url") for item in self.document["radios"]})
 
     def test_no_live_radio_url_contains_known_imported_html_fragments(self):
