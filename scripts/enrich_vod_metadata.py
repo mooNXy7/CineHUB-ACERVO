@@ -20,7 +20,7 @@ SECTIONS = ("movies", "series", "anime", "doramas")
 DEFAULT_SUPABASE_URL = "https://qdheeiitzlvynshvkwcs.supabase.co"
 DEFAULT_FUNCTION_SLUG = "cinehub-catalog"
 DEFAULT_LIMIT = 100
-MAX_LIMIT = 1000
+MAX_LIMIT = 5000
 
 
 def load_json(path: Path) -> Any:
