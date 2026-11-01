@@ -121,6 +121,20 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(counts["genres_filled"], 1)
         self.assertEqual(counts["logos_filled"], 1)
 
+    def test_unclassified_station_tags_are_reported_for_followup_mapping(self):
+        radios = [{
+            "id": "radio.radio-a", "name": "Rádio A FM",
+            "stream_url": "https://radio.example/live", "genre": None, "logo_url": None,
+        }]
+        stations = [{
+            "stationuuid": "station-a", "name": "Radio A",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "tags": "online,music,portuguese", "countrycode": "BR", "lastcheckok": 1,
+        }]
+        counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        self.assertEqual(counts["genre_unclassified"], 1)
+        self.assertEqual(counts["unclassified_tags"], {"online": 1, "music": 1, "portuguese": 1})
+
     def test_radio_browser_never_overwrites_existing_genre_or_logo(self):
         radios = [{
             "id": "radio.radio-a", "name": "Rádio A FM",
