@@ -23,6 +23,7 @@ on:
       - audit/acervo-hardening-2026-10
     paths-ignore:
       - '.github/enrichment-checkpoint-*.txt'
+      - '.github/tmdb-id-review-trigger-*.txt'
       - 'catalog/**'
       - 'reports/**'
       - 'scripts/**'
