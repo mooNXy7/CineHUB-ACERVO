@@ -79,7 +79,7 @@ jobs:
           if [[ "$GITHUB_REF_NAME" == "audit/acervo-hardening-2026-10" && "$REF_SHA" != "$LAST_SHA" ]]; then
             APPROVE_REFERENCE_IMPORT="true"
           fi
-          if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) ]]; then
+          if [[ "$APPROVE_REFERENCE_IMPORT" == "true" || ( "$REF_SHA" != "$LAST_SHA" && "$REF_SHA" != "$LAST_PREVIEW_SHA" ) || ! -f reports/radio-import-candidates.json ]]; then
             git worktree add --detach /tmp/cinehub-acervo-before HEAD
             git worktree add --detach /tmp/cinehub-acervo-import HEAD
             cleanup() {
@@ -98,6 +98,11 @@ jobs:
               --after-root /tmp/cinehub-acervo-import \
               --import-report /tmp/cinehub-acervo-import/reports/reference-import.json \
               --output /tmp/reference-import-quality-gate.json
+
+            if [[ -f /tmp/cinehub-acervo-import/reports/radio-import-candidates.json ]]; then
+              mkdir -p reports
+              cp /tmp/cinehub-acervo-import/reports/radio-import-candidates.json reports/radio-import-candidates.json
+            fi
 
             if python - <<'PY'
           import json
