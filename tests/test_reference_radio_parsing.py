@@ -20,7 +20,8 @@ class ReferenceRadioParsingTests(unittest.TestCase):
                 "Bad FM|javascript:alert(1)|https://images.example/bad.png\n"
                 "Existing FM|https://radio.example/new-live|https://images.example/new.png\n"
                 "Needs Stream|https://radio.example/needs-stream\n"
-                "Malformed row only one field\n",
+                "Malformed row only one field\n"
+                "https://cast.example/live|https://images.example/wrong-name.png|https://images.example/wrong-logo.png\n",
                 encoding="utf-8",
             )
             existing = {
@@ -54,6 +55,32 @@ class ReferenceRadioParsingTests(unittest.TestCase):
         self.assertEqual(by_name["Existing FM"]["stream_url"], "https://radio.example/original-live")
         self.assertEqual(by_name["Existing FM"]["genre"], "Rock")
         self.assertEqual(by_name["Needs Stream"]["stream_url"], "https://radio.example/needs-stream")
+        self.assertNotIn("https://cast.example/live", by_name)
+
+
+    def test_quarantines_url_as_name_records_without_losing_original_fields(self):
+        radios = {
+            "schema_version": 1,
+            "radios": [
+                {"id": "radio-good", "name": "Good FM", "stream_url": "https://good.example/live"},
+                {"id": "radio-bad", "name": "https://bad.example/live", "stream_url": "https://images.example/logo.png"},
+            ],
+        }
+        quarantine = {"schema_version": 1, "records": []}
+
+        active, saved, moved = importer.quarantine_malformed_radio_records(radios, quarantine)
+
+        self.assertEqual(moved, 1)
+        self.assertEqual([item["name"] for item in active["radios"]], ["Good FM"])
+        self.assertEqual(len(saved["records"]), 1)
+        self.assertEqual(saved["records"][0]["id"], "radio-bad")
+        self.assertEqual(saved["records"][0]["stream_url"], "https://images.example/logo.png")
+        self.assertEqual(saved["records"][0]["quarantine_reason"], "url_instead_of_radio_name")
+
+        active, saved, moved_again = importer.quarantine_malformed_radio_records(active, saved)
+        self.assertEqual(moved_again, 0)
+        self.assertEqual(len(saved["records"]), 1)
+
 
 
 if __name__ == "__main__":
