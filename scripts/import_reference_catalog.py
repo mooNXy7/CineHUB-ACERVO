@@ -26,6 +26,7 @@ VOD_INDEX = ROOT / "catalog/vod/index.json"
 DETAILS = ROOT / "catalog/vod/details"
 REPORT = ROOT / "reports/reference-import.json"
 RADIO_QUARANTINE_FILE = ROOT / "catalog/radios/quarantine.json"
+RADIO_IMPORT_CANDIDATES_FILE = ROOT / "reports/radio-import-candidates.json"
 SOURCE_ID = "reference-catalog"
 SENSITIVE_QUERY = {
     "token", "access_token", "auth", "authorization", "password", "passwd",
@@ -1037,8 +1038,14 @@ def quarantine_malformed_radio_records(radios: dict, quarantine: dict) -> tuple[
     return radios, quarantine, moved
 
 
-def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, int]:
-    """Import radio rows in the documented name|stream[|logo] format, without replacing existing entries."""
+def import_reference_radios(
+    reference: Path,
+    radios: dict,
+    *,
+    allow_new: bool = True,
+    candidates: list[dict] | None = None,
+) -> tuple[dict, int, int]:
+    """Enrich known radios; optionally add new rows or collect them for review."""
     known_radio = {
         norm(item.get("name", "")): item
         for item in radios.get("radios", [])
@@ -1046,6 +1053,7 @@ def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, i
     }
     imported = 0
     updated = 0
+    candidate_keys: set[str] = set()
     radio_file = reference / "vod" / "radios.txt"
     for line in read_lines(radio_file) or ():
         fields = line.rstrip("\n").split("|")
@@ -1076,15 +1084,24 @@ def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, i
             if changed:
                 updated += 1
             continue
-        radio = {
-            "id": "radio-" + slug(radio_name), "name": radio_name,
+
+        candidate = {
+            "id": "radio-" + slug(radio_name),
+            "name": radio_name,
             "stream_url": stream if stream_is_safe else None,
             "logo_url": logo if logo_is_safe else None,
-            "genre": None, "source_id": SOURCE_ID,
+            "genre": None,
+            "source_id": SOURCE_ID,
             "stream_status": "imported" if stream_is_safe else "pending_review",
         }
-        radios.setdefault("radios", []).append(radio)
-        known_radio[key] = radio
+        if not allow_new:
+            if candidates is not None and key not in candidate_keys:
+                candidates.append(candidate)
+                candidate_keys.add(key)
+            continue
+
+        radios.setdefault("radios", []).append(candidate)
+        known_radio[key] = candidate
         imported += 1
     return radios, imported, updated
 
@@ -1214,8 +1231,18 @@ def main() -> None:
                 if relative_path not in written_detail_paths:
                     old_path.unlink()
 
-    radios, imported_radio_count, updated_radio_count = import_reference_radios(reference, radios)
+    radio_import_candidates: list[dict] = []
+    radios, imported_radio_count, updated_radio_count = import_reference_radios(
+        reference, radios, allow_new=False, candidates=radio_import_candidates
+    )
+    write_json(RADIO_IMPORT_CANDIDATES_FILE, {
+        "schema_version": 1,
+        "source": "authorized-public-reference",
+        "policy": "review_only_new_radios",
+        "records": radio_import_candidates,
+    })
     counters["radios_updated"] = updated_radio_count
+    counters["radio_import_candidates"] = len(radio_import_candidates)
     counters["radios_quarantined"] = quarantined_radio_count
     if imported_radio_count or updated_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
