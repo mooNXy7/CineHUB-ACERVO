@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 import re
 import time
 import unicodedata
@@ -318,8 +319,10 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0,
         "ambiguous": 0, "genres_filled": 0, "logos_filled": 0,
         "favicon_rejected": 0, "genre_unclassified": 0,
+        "unclassified_tags": {},
         "updated_radio_names": [],
     }
+    unclassified_tags: Counter[str] = Counter()
     for radio in radios:
         station, method = match_radio_browser_station(radio, stations)
         if not station:
@@ -342,6 +345,10 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
                 changed = True
             else:
                 counts["genre_unclassified"] += 1
+                for tag in str(station.get("tags") or "").split(","):
+                    normalized_tag = normalize_key(tag)
+                    if normalized_tag:
+                        unclassified_tags[normalized_tag] += 1
 
         if not str(radio.get("logo_url") or "").strip():
             favicon = safe_station_favicon(station)
@@ -354,6 +361,7 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
 
         if changed and len(counts["updated_radio_names"]) < 100:
             counts["updated_radio_names"].append(str(radio.get("name") or ""))
+    counts["unclassified_tags"] = dict(unclassified_tags.most_common(50))
     return counts
 
 
@@ -465,7 +473,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations) if radio_browser_stations else {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0, "ambiguous": 0,
         "genres_filled": 0, "logos_filled": 0, "favicon_rejected": 0,
-        "genre_unclassified": 0, "updated_radio_names": [],
+        "genre_unclassified": 0, "unclassified_tags": {}, "updated_radio_names": [],
     }
     catalog_mutated = merged != original_radios
     if catalog_mutated:
