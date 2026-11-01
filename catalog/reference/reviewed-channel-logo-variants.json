@@ -4,6 +4,142 @@
   "matching_policy": "Explicitly reviewed channel IDs whose names differ from one unique HTTPS reference logo only by broadcast-quality markers, punctuation, spacing, or case. Existing logos are never overwritten.",
   "reviewed_variants": [
     {
+      "channel_id": "ch-adult-swim-4k",
+      "reference_name": "Adult Swim"
+    },
+    {
+      "channel_id": "ch-adult-swim-fhd",
+      "reference_name": "Adult Swim"
+    },
+    {
+      "channel_id": "ch-adult-swim-hd",
+      "reference_name": "Adult Swim"
+    },
+    {
+      "channel_id": "ch-adult-swim-sd",
+      "reference_name": "Adult Swim"
+    },
+    {
+      "channel_id": "ch-amc-fhd",
+      "reference_name": "AMC"
+    },
+    {
+      "channel_id": "ch-amc-hd",
+      "reference_name": "AMC"
+    },
+    {
+      "channel_id": "ch-amc-sd",
+      "reference_name": "AMC"
+    },
+    {
+      "channel_id": "ch-axn-fhd",
+      "reference_name": "AXN"
+    },
+    {
+      "channel_id": "ch-axn-hd",
+      "reference_name": "AXN"
+    },
+    {
+      "channel_id": "ch-axn-sd",
+      "reference_name": "AXN"
+    },
+    {
+      "channel_id": "ch-canal-brasil-hd",
+      "reference_name": "Canal Brasil"
+    },
+    {
+      "channel_id": "ch-canal-brasil-sd",
+      "reference_name": "Canal Brasil"
+    },
+    {
+      "channel_id": "ch-canal-off-fhd",
+      "reference_name": "Canal OFF"
+    },
+    {
+      "channel_id": "ch-canal-off-hd",
+      "reference_name": "Canal OFF"
+    },
+    {
+      "channel_id": "ch-canal-off-sd",
+      "reference_name": "Canal OFF"
+    },
+    {
+      "channel_id": "ch-cancao-nova-hd",
+      "reference_name": "Canção Nova"
+    },
+    {
+      "channel_id": "ch-cancao-nova-sd",
+      "reference_name": "Canção Nova"
+    },
+    {
+      "channel_id": "ch-cinemax-fhd",
+      "reference_name": "Cinemax"
+    },
+    {
+      "channel_id": "ch-cinemax-hd",
+      "reference_name": "Cinemax"
+    },
+    {
+      "channel_id": "ch-cinemax-sd",
+      "reference_name": "Cinemax"
+    },
+    {
+      "channel_id": "ch-cnn-brasil-money-4k",
+      "reference_name": "CNN Brasil Money"
+    },
+    {
+      "channel_id": "ch-cnn-brasil-money-fhd",
+      "reference_name": "CNN Brasil Money"
+    },
+    {
+      "channel_id": "ch-cnn-brasil-money-hd",
+      "reference_name": "CNN Brasil Money"
+    },
+    {
+      "channel_id": "ch-cnn-brasil-money-sd",
+      "reference_name": "CNN Brasil Money"
+    },
+    {
+      "channel_id": "ch-cnn-international-hd",
+      "reference_name": "CNN International"
+    },
+    {
+      "channel_id": "ch-cnn-international-sd",
+      "reference_name": "CNN International"
+    },
+    {
+      "channel_id": "ch-discovery-home-health-fhd",
+      "reference_name": "Discovery Home & Health"
+    },
+    {
+      "channel_id": "ch-discovery-home-health-hd",
+      "reference_name": "Discovery Home & Health"
+    },
+    {
+      "channel_id": "ch-discovery-home-health-sd",
+      "reference_name": "Discovery Home & Health"
+    },
+    {
+      "channel_id": "ch-disney-5-hd",
+      "reference_name": "Disney+ 5"
+    },
+    {
+      "channel_id": "ch-disney-6-hd",
+      "reference_name": "Disney+ 6"
+    },
+    {
+      "channel_id": "ch-film-arts-fhd",
+      "reference_name": "Film & Arts"
+    },
+    {
+      "channel_id": "ch-film-arts-hd",
+      "reference_name": "Film & Arts"
+    },
+    {
+      "channel_id": "ch-film-arts-sd",
+      "reference_name": "Film & Arts"
+    },
+    {
       "channel_id": "ch-france-24-4k",
       "reference_name": "France 24"
     },
@@ -18,6 +154,86 @@
     {
       "channel_id": "ch-france-24-sd",
       "reference_name": "France 24"
+    },
+    {
+      "channel_id": "ch-globo-rpc-curitiba-fhd",
+      "reference_name": "Globo RPC Curitiba"
+    },
+    {
+      "channel_id": "ch-globo-rpc-curitiba-hd",
+      "reference_name": "Globo RPC Curitiba"
+    },
+    {
+      "channel_id": "ch-globonews-fhd",
+      "reference_name": "GloboNews"
+    },
+    {
+      "channel_id": "ch-globonews-hd",
+      "reference_name": "GloboNews"
+    },
+    {
+      "channel_id": "ch-globonews-sd",
+      "reference_name": "GloboNews"
+    },
+    {
+      "channel_id": "ch-megapix-fhd",
+      "reference_name": "Megapix"
+    },
+    {
+      "channel_id": "ch-megapix-hd",
+      "reference_name": "Megapix"
+    },
+    {
+      "channel_id": "ch-megapix-sd",
+      "reference_name": "Megapix"
+    },
+    {
+      "channel_id": "ch-nsports-fhd",
+      "reference_name": "NSports"
+    },
+    {
+      "channel_id": "ch-nsports-hd",
+      "reference_name": "NSports"
+    },
+    {
+      "channel_id": "ch-record-sp-fhd",
+      "reference_name": "Record SP"
+    },
+    {
+      "channel_id": "ch-record-sp-hd",
+      "reference_name": "Record SP"
+    },
+    {
+      "channel_id": "ch-record-sp-sd",
+      "reference_name": "Record SP"
+    },
+    {
+      "channel_id": "ch-sabor-arte-4k",
+      "reference_name": "Sabor & Arte"
+    },
+    {
+      "channel_id": "ch-sabor-arte-fhd",
+      "reference_name": "Sabor & Arte"
+    },
+    {
+      "channel_id": "ch-sabor-arte-hd",
+      "reference_name": "Sabor & Arte"
+    },
+    {
+      "channel_id": "ch-sabor-arte-sd",
+      "reference_name": "Sabor & Arte"
+    },
+    {
+      "channel_id": "ch-space-fhd",
+      "reference_name": "Space"
+    },
+    {
+      "channel_id": "ch-space-hd",
+      "reference_name": "Space"
+    },
+    {
+      "channel_id": "ch-space-sd",
+      "reference_name": "Space"
     },
     {
       "channel_id": "ch-sportynet-1-4k",
@@ -68,198 +284,6 @@
       "reference_name": "SportyNet+ 3"
     },
     {
-      "channel_id": "ch-sabor-arte-4k",
-      "reference_name": "Sabor & Arte"
-    },
-    {
-      "channel_id": "ch-sabor-arte-fhd",
-      "reference_name": "Sabor & Arte"
-    },
-    {
-      "channel_id": "ch-sabor-arte-hd",
-      "reference_name": "Sabor & Arte"
-    },
-    {
-      "channel_id": "ch-sabor-arte-sd",
-      "reference_name": "Sabor & Arte"
-    },
-    {
-      "channel_id": "ch-adult-swim-fhd",
-      "reference_name": "Adult Swim"
-    },
-    {
-      "channel_id": "ch-adult-swim-hd",
-      "reference_name": "Adult Swim"
-    },
-    {
-      "channel_id": "ch-adult-swim-sd",
-      "reference_name": "Adult Swim"
-    },
-    {
-      "channel_id": "ch-adult-swim-4k",
-      "reference_name": "Adult Swim"
-    },
-    {
-      "channel_id": "ch-cnn-brasil-money-fhd",
-      "reference_name": "CNN Brasil Money"
-    },
-    {
-      "channel_id": "ch-cnn-brasil-money-hd",
-      "reference_name": "CNN Brasil Money"
-    },
-    {
-      "channel_id": "ch-cnn-brasil-money-sd",
-      "reference_name": "CNN Brasil Money"
-    },
-    {
-      "channel_id": "ch-cnn-brasil-money-4k",
-      "reference_name": "CNN Brasil Money"
-    },
-    {
-      "channel_id": "ch-amc-fhd",
-      "reference_name": "AMC"
-    },
-    {
-      "channel_id": "ch-amc-hd",
-      "reference_name": "AMC"
-    },
-    {
-      "channel_id": "ch-amc-sd",
-      "reference_name": "AMC"
-    },
-    {
-      "channel_id": "ch-axn-fhd",
-      "reference_name": "AXN"
-    },
-    {
-      "channel_id": "ch-axn-hd",
-      "reference_name": "AXN"
-    },
-    {
-      "channel_id": "ch-axn-sd",
-      "reference_name": "AXN"
-    },
-    {
-      "channel_id": "ch-canal-brasil-hd",
-      "reference_name": "Canal Brasil"
-    },
-    {
-      "channel_id": "ch-canal-brasil-sd",
-      "reference_name": "Canal Brasil"
-    },
-    {
-      "channel_id": "ch-cancao-nova-hd",
-      "reference_name": "Canção Nova"
-    },
-    {
-      "channel_id": "ch-cancao-nova-sd",
-      "reference_name": "Canção Nova"
-    },
-    {
-      "channel_id": "ch-cinemax-fhd",
-      "reference_name": "Cinemax"
-    },
-    {
-      "channel_id": "ch-cinemax-hd",
-      "reference_name": "Cinemax"
-    },
-    {
-      "channel_id": "ch-cinemax-sd",
-      "reference_name": "Cinemax"
-    },
-    {
-      "channel_id": "ch-cnn-international-hd",
-      "reference_name": "CNN International"
-    },
-    {
-      "channel_id": "ch-cnn-international-sd",
-      "reference_name": "CNN International"
-    },
-    {
-      "channel_id": "ch-discovery-home-health-fhd",
-      "reference_name": "Discovery Home & Health"
-    },
-    {
-      "channel_id": "ch-discovery-home-health-hd",
-      "reference_name": "Discovery Home & Health"
-    },
-    {
-      "channel_id": "ch-discovery-home-health-sd",
-      "reference_name": "Discovery Home & Health"
-    },
-    {
-      "channel_id": "ch-disney-5-hd",
-      "reference_name": "Disney+ 5"
-    },
-    {
-      "channel_id": "ch-disney-6-hd",
-      "reference_name": "Disney+ 6"
-    },
-    {
-      "channel_id": "ch-film-arts-fhd",
-      "reference_name": "Film & Arts"
-    },
-    {
-      "channel_id": "ch-film-arts-hd",
-      "reference_name": "Film & Arts"
-    },
-    {
-      "channel_id": "ch-film-arts-sd",
-      "reference_name": "Film & Arts"
-    },
-    {
-      "channel_id": "ch-globo-rpc-curitiba-fhd",
-      "reference_name": "Globo RPC Curitiba"
-    },
-    {
-      "channel_id": "ch-globo-rpc-curitiba-hd",
-      "reference_name": "Globo RPC Curitiba"
-    },
-    {
-      "channel_id": "ch-globonews-fhd",
-      "reference_name": "GloboNews"
-    },
-    {
-      "channel_id": "ch-globonews-hd",
-      "reference_name": "GloboNews"
-    },
-    {
-      "channel_id": "ch-globonews-sd",
-      "reference_name": "GloboNews"
-    },
-    {
-      "channel_id": "ch-megapix-fhd",
-      "reference_name": "Megapix"
-    },
-    {
-      "channel_id": "ch-megapix-hd",
-      "reference_name": "Megapix"
-    },
-    {
-      "channel_id": "ch-megapix-sd",
-      "reference_name": "Megapix"
-    },
-    {
-      "channel_id": "ch-nsports-fhd",
-      "reference_name": "NSports"
-    },
-    {
-      "channel_id": "ch-nsports-hd",
-      "reference_name": "NSports"
-    },
-    {
-      "channel_id": "ch-space-fhd",
-      "reference_name": "Space"
-    },
-    {
-      "channel_id": "ch-space-hd",
-      "reference_name": "Space"
-    },
-    {
-      "channel_id": "ch-space-sd",
-      "reference_name": "Space"
-    },
-    {
       "channel_id": "ch-studio-universal-fhd",
       "reference_name": "Studio Universal"
     },
@@ -272,15 +296,23 @@
       "reference_name": "Studio Universal"
     },
     {
+      "channel_id": "ch-tcm-fhd",
+      "reference_name": "TCM"
+    },
+    {
+      "channel_id": "ch-tcm-hd",
+      "reference_name": "TCM"
+    },
+    {
+      "channel_id": "ch-tcm-sd",
+      "reference_name": "TCM"
+    },
+    {
       "channel_id": "ch-tnt-fhd",
       "reference_name": "TNT"
     },
     {
       "channel_id": "ch-tnt-hd",
-      "reference_name": "TNT"
-    },
-    {
-      "channel_id": "ch-tnt-sd",
       "reference_name": "TNT"
     },
     {
@@ -294,6 +326,10 @@
     {
       "channel_id": "ch-tnt-novelas-sd",
       "reference_name": "TNT Novelas"
+    },
+    {
+      "channel_id": "ch-tnt-sd",
+      "reference_name": "TNT"
     },
     {
       "channel_id": "ch-tnt-series-fhd",
@@ -330,6 +366,38 @@
     {
       "channel_id": "ch-tv-gazeta-sd",
       "reference_name": "TV Gazeta"
+    },
+    {
+      "channel_id": "ch-tv-pai-eterno-hd",
+      "reference_name": "TV Pai Eterno"
+    },
+    {
+      "channel_id": "ch-tv-pai-eterno-sd",
+      "reference_name": "TV Pai Eterno"
+    },
+    {
+      "channel_id": "ch-usa-network-fhd",
+      "reference_name": "USA Network"
+    },
+    {
+      "channel_id": "ch-usa-network-hd",
+      "reference_name": "USA Network"
+    },
+    {
+      "channel_id": "ch-usa-network-sd",
+      "reference_name": "USA Network"
+    },
+    {
+      "channel_id": "ch-x-sports-fhd",
+      "reference_name": "X Sports"
+    },
+    {
+      "channel_id": "ch-x-sports-hd",
+      "reference_name": "X Sports"
+    },
+    {
+      "channel_id": "ch-x-sports-sd",
+      "reference_name": "X Sports"
     }
   ]
 }
