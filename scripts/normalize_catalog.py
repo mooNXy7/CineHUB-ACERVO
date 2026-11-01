@@ -72,8 +72,9 @@ def write_json_if_changed(path, data, compact=False):
     return True
 
 
-def normalize_vod_titles():
-    manifest = json.loads(VOD_INDEX.read_text(encoding="utf-8"))
+def normalize_vod_titles(root=ROOT):
+    manifest_path = root / "catalog/vod/index.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     categories = manifest.get("categories", {})
     detail_paths = set()
     index_records = 0
@@ -83,7 +84,7 @@ def normalize_vod_titles():
         relative = category.get("index_path") if isinstance(category, dict) else None
         if not relative:
             continue
-        path = ROOT / relative
+        path = root / relative
         records = json.loads(path.read_text(encoding="utf-8"))
         index_records += len(records) if isinstance(records, list) else 0
         if isinstance(records, list):
@@ -94,7 +95,7 @@ def normalize_vod_titles():
         if normalize_title_records(records):
             changed_files += int(write_json_if_changed(path, records, compact=True))
     for relative in sorted(detail_paths):
-        path = ROOT / relative
+        path = root / relative
         records = json.loads(path.read_text(encoding="utf-8"))
         detail_records += len(records) if isinstance(records, list) else 0
         if normalize_title_records(records):
@@ -135,7 +136,7 @@ def main():
             item["genre"] = normalize_display_text(item["genre"])
     write_json_if_changed(RADIOS, radios)
 
-    index_records, detail_records, vod_files_changed = normalize_vod_titles()
+    index_records, detail_records, vod_files_changed = normalize_vod_titles(ROOT)
     if duplicates:
         print("Possíveis IDs duplicados (não removidos): " + ", ".join(sorted(set(duplicates))))
     print(
