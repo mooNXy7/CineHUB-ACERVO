@@ -1,4 +1,6 @@
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -36,6 +38,45 @@ class CatalogDisplayNormalizationTests(unittest.TestCase):
         self.assertEqual(records[0]["id"], "movie-1")
         self.assertEqual(records[0]["tmdb_id"], "123")
         self.assertEqual(records[0]["sources"], [{"url": "https://example.com/live"}])
+
+
+    def test_normalizes_vod_index_and_detail_titles_together(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_path = root / "catalog/vod/index/movies.json"
+            detail_path = root / "catalog/vod/details/movies/A-001.json"
+            manifest_path = root / "catalog/vod/index.json"
+            for path in (index_path, detail_path, manifest_path):
+                path.parent.mkdir(parents=True, exist_ok=True)
+            index_path.write_text(json.dumps([{
+                "id": "movie-1",
+                "title": "A&#039;  Test",
+                "detail_path": "catalog/vod/details/movies/A-001.json",
+                "tmdb_id": "123",
+            }]), encoding="utf-8")
+            detail_path.write_text(json.dumps([{
+                "id": "movie-1",
+                "title": "A&#039;  Test",
+                "tmdb_id": "123",
+                "sources": [{"url": "https://example.com/movie"}],
+            }]), encoding="utf-8")
+            manifest_path.write_text(json.dumps({
+                "schema_version": 1,
+                "categories": {
+                    "movies": {"index_path": "catalog/vod/index/movies.json"},
+                },
+            }), encoding="utf-8")
+
+            index_count, detail_count, changed_files = normalize_catalog.normalize_vod_titles(root)
+
+            index = json.loads(index_path.read_text(encoding="utf-8"))
+            detail = json.loads(detail_path.read_text(encoding="utf-8"))
+            self.assertEqual((index_count, detail_count, changed_files), (1, 1, 2))
+            self.assertEqual(index[0]["title"], "A' Test")
+            self.assertEqual(detail[0]["title"], "A' Test")
+            self.assertEqual(detail[0]["sources"], [{"url": "https://example.com/movie"}])
+            self.assertEqual(detail[0]["tmdb_id"], "123")
+
 
 
 if __name__ == "__main__":
