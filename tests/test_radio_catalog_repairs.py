@@ -51,7 +51,7 @@ class RadioCatalogRepairTests(unittest.TestCase):
             "radio-https-streaming-radioempresabrasil-com-br-proxy-novainstrumental-stream": "radio.radio-nova-instrumental",
         }
         self.assertEqual(len(self.document["radios"]), 753)
-        self.assertEqual(len(self.quarantine["records"]), 269)
+        self.assertEqual(len(self.quarantine["records"]), 273)
         self.assertTrue(self.quarantine_report["records_preserved"])
         self.assertTrue(all(
             item.get("quarantine_reason") == "url_instead_of_radio_name"
