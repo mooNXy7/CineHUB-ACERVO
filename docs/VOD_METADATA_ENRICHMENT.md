@@ -1,69 +1,48 @@
-# Plano seguro de enriquecimento de metadados VOD
+# Enriquecimento seguro de metadados VOD
 
-## Objetivo
+## Fluxo atual
 
-Completar metadados ausentes nos índices de filmes, séries, animes e doramas sem substituir informações válidas, alterar fontes de reprodução ou criar associações incertas. O plano e o relatório dry-run não executam enriquecimento.
+O ACERVO usa a API oficial do TMDB por meio da Edge Function `cinehub-catalog` do Supabase. O segredo `TMDB_TOKEN` permanece exclusivamente no Supabase. O repositório recebe apenas o segredo de acesso público `SUPABASE_ANON_KEY` via GitHub Actions.
 
-## Relatório dry-run disponível
+O script `scripts/enrich_vod_metadata.py`:
+- percorre as quatro categorias declaradas no manifesto (`movies`, `series`, `anime`, `doramas`);
+- usa a sequência estável dos registros com TMDB ID numérico existente;
+- consulta o ID exato, sem busca por título e sem atribuir novos IDs;
+- confirma o ID retornado, o título normalizado e eventual ano explícito;
+- considera apenas campos vazios: pôster, ano, gêneros e sinopse;
+- produz patches de revisão, sem modificar diretamente o catálogo;
+- usa cache SQLite por execução, timeout, intervalo e retries limitados.
 
-O comando `scripts/plan_vod_enrichment.py` inventaria registros com metadados ausentes e verifica a sintaxe óbvia dos IDs externos, além de agrupar IDs repetidos dentro de cada categoria. É somente leitura: não consulta rede, não altera os índices e não inclui URLs de fontes de reprodução no resultado.
+O workflow `.github/workflows/enrich-vod-metadata.yml` aplica os patches que passam pelas verificações de identidade, executa `validate_catalog.py` e a suíte de testes e só então publica os arquivos modificados na branch de auditoria. Campos preenchidos anteriormente e fontes de reprodução são preservados.
 
-```bash
-python scripts/plan_vod_enrichment.py > vod-enrichment-plan.json
-python scripts/plan_vod_enrichment.py --limit 100 --output /tmp/vod-enrichment-plan.json
-```
+## Checkpoints
 
-O limite controla apenas quantos exemplos são incluídos por categoria; as contagens representam o catálogo inteiro. O relatório observa campos ausentes de pôster, ano e gêneros nos índices. Sinopses não são incluídas nesta primeira versão porque exigem confirmar a estrutura dos arquivos de detalhe antes de auditar esse campo. IDs externos são lidos apenas de uma lista explícita de campos comuns.
+O offset é contado sobre a sequência estável de registros com TMDB ID numérico existente, atravessando as quatro categorias. Cada execução pode processar até cinco lotes consecutivos de 1.000 registros.
 
-### Como interpretar os candidatos
+Checkpoints concluídos e confirmados:
+- Offset 0: 913 registros atualizados; 1.533 campos preenchidos.
+- Offset 2.000: 38 registros atualizados.
+- Offset 3.000: 890 registros atualizados; 2.324 campos preenchidos nos dois lotes 2.000/3.000.
+- Offsets 4.000–8.000: 4.593 registros atualizados; 11.621 campos preenchidos.
+- Offsets 9.000–13.000: 4.562 registros atualizados; 11.363 campos preenchidos; 5.000 registros examinados e 5.000 requisições; zero conflito de campos e zero rejeição de identidade.
 
-- `provider_id_present`: há um ID externo no registro; ainda é necessário confirmar que ele corresponde à obra e à categoria.
-- `title_year_type_candidate`: título, ano e tipo existem; é candidato para futura consulta, não uma correspondência aprovada.
-- `manual_identity_review`: faltam evidências suficientes; revisão manual antes de consultar qualquer provedor.
-- `invalid_external_id_occurrences`: o valor não corresponde ao padrão sintático básico esperado para aquele campo. Pode ser um formato local legítimo ou dado legado; revisar antes de alterar.
-- `duplicate_external_id_groups`: o mesmo ID aparece em mais de um registro dentro da mesma categoria. É um alerta para revisão, não uma instrução para apagar ou mesclar registros.
+A execução 9.000–13.000 foi concluída com sucesso no workflow [41269624509](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/41269624509).
 
-Os testes de formato e duplicidade são heurísticos; **não provam** que um ID seja correto ou incorreto. O relatório não executa enriquecimento. Antes de qualquer consulta em lote, é necessário escolher um provedor autorizado, revisar os termos/licença e definir como IDs e procedência serão armazenados.
+O próximo checkpoint foi avançado para offset 14.000. Não repetir offsets já concluídos. Cada lote só deve ser contabilizado após sucesso da aplicação, validação, testes e commit.
 
-## Execução de enriquecimento em lotes
+## Tratamento de respostas TMDB
 
-O fluxo `Build VOD metadata review patch` já concluiu o primeiro lote de 1.000 registros elegíveis (offset 0). Foram aplicadas 913 correções em registros com ID TMDB existente e título compatível, preenchendo 1.533 campos ausentes; 84 casos com divergência de ano foram mantidos para revisão, 3 registros já estavam completos e nenhum erro de consulta ou conflito de identidade ocorreu. O aplicador preservou campos existentes e fontes de reprodução. O lote seguinte parte do offset 1.000. As sugestões de IDs TMDB para registros sem ID permanecem em relatório separado e nunca são aplicadas automaticamente.
+O cliente trata HTTP 404 como `not_found` terminal. A Edge Function Supabase v4 atualmente converte alguns 404 do TMDB em HTTP 500; o cliente reconhece somente a resposta explícita de recurso inexistente (`status_code=34` ou mensagem correspondente) como `not_found`, sem retry transitório. Outros HTTP 500/502/503/504 continuam sujeitos a retries limitados.
 
-## Próximas etapas seguras
+Uma correção definitiva no contrato HTTP da Edge Function exige atualização e deploy no Supabase. Isso permanece fora desta branch e não deve ser executado sem autorização explícita para alterar produção.
 
-1. **Definir provedor e licença:** preferir API oficial ou fonte com termos documentados. Registrar o nome do provedor, data da consulta, licença/termos e campos obtidos. Não copiar chaves de API de repositórios de referência nem incluir credenciais em arquivos, URLs ou logs.
-2. **Resolver identidade antes de enriquecer:** prioridade para ID externo existente; depois título normalizado + ano + tipo/categoria. Título sozinho nunca autoriza substituição automática quando há múltiplos resultados plausíveis.
-3. **Prévia em lote:** produzir um diff separado com valor atual, valor proposto, provedor e motivo da correspondência. Não incluir URLs de reprodução nem credenciais nesse relatório.
-4. **Aplicação conservadora:** preencher somente campos vazios por padrão. Não sobrescrever pôster, ano, sinopse, gêneros ou IDs já preenchidos sem revisão explícita. Não remover fontes, registros ou variantes de remake/temporada.
-5. **Publicação atômica:** escrever para temporário no mesmo diretório, validar JSON e esquema, então substituir o arquivo; se qualquer etapa falhar, preservar a versão anterior. Para índices grandes, publicar detalhes/fragmentos primeiro e atualizar o manifesto por último.
-6. **Validar antes de propor merge:** testar correspondências ambíguas, erros HTTP, limites de API, respostas vazias, interrupção durante escrita, contagem de registros e diffs inesperadamente grandes.
+## Segurança e critérios de aceite
 
-## Limites operacionais
-
-- Respeitar limites de requisição, termos de uso e política de cache do provedor.
-- Usar timeout, limite de tamanho, concorrência baixa e repetição limitada com espera.
-- Não consultar páginas privadas, contornar login/DRM/paywall nem reutilizar tokens encontrados em outras fontes.
-- Manter relatório de falhas por item sem despejar URLs sensíveis ou respostas completas de provedores.
-- Começar com um lote pequeno de teste por categoria e revisar o diff antes de escalar para dezenas de milhares de itens.
-
-## Critérios de aceite
-
-- Nenhum registro removido e nenhuma fonte de reprodução alterada pelo processo de metadados.
-- Nenhum campo preenchido por correspondência ambígua sem revisão.
-- Nenhum segredo no repositório, artefatos ou logs.
-- JSON e esquema válidos; contagens e IDs estáveis.
-- A versão anterior continua recuperável e uma falha de lote não publica estado parcial.
-- Os aplicativos consumidores continuam compatíveis com o formato atual; integração com TV/Mobile ocorre em trabalho separado e só após testes próprios.
-
-
-## Patch TMDB com revisão (28/10/2026)
-
-O script scripts/enrich_vod_metadata.py e o workflow manual .github/workflows/enrich-vod-metadata.yml adicionam um caminho opcional para enriquecer registros que **já possuem um TMDB ID numérico**.
-
-- O script consulta o endpoint exato de filme/série; não faz busca por título nem atribui IDs novos.
-- Exige confirmação do ID e correspondência de título normalizado. Divergência de título ou ano explícito no título vira revisão manual.
-- Só propõe poster_url, year e genres quando o campo está vazio; nunca substitui metadados preenchidos.
-- Usa cache SQLite durante a execução, timeout, tentativas limitadas e intervalo entre chamadas. Falhas transitórias não ficam cacheadas como resultado definitivo.
-- Produz um JSON de patch revisável como artefato; não modifica catalog/. Aplicar qualquer patch é uma etapa separada, após revisão.
-- O workflow é manual e limitado a 1–1000 registros por execução. Para habilitá-lo, adicione uma chave TMDB própria como secret TMDB_API_KEY em Settings → Secrets and variables → Actions. Não cole a chave no chat, não use nem copie a credencial encontrada no repositório de referência.
-- A nova rotina foi adicionada com testes unitários de patch, correspondência de identidade, conflito de ano e ausência de credencial. A validação CI deve passar antes da primeira execução com rede.
+- Nunca incluir `TMDB_TOKEN`, chaves ou URLs de reprodução em commits, relatórios ou logs.
+- Não preencher IDs TMDB novos automaticamente.
+- Não aceitar correspondência apenas por título quando a identidade for ambígua.
+- Não sobrescrever metadados existentes.
+- Não alterar fontes de reprodução.
+- Não publicar lotes se validação ou testes falharem.
+- Manter patches e resumos de execução como artefatos temporários do GitHub Actions.
+- Não fazer merge, deploy de produção, deploy Supabase ou OTA como parte deste fluxo.
