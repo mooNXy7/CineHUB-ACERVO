@@ -32,7 +32,7 @@ class UpdateHtmlEpgTests(unittest.TestCase):
                 ]
             }), encoding="utf-8")
             (epg / "channel-map.json").write_text(json.dumps({
-                "meuguia_codes": {"HBO": "HBO"},
+                "meuguia_codes": {"HBO": "HBO", "Nickelodeon": "NIC"},
                 "guiadetv_slugs": {"SONY Movies": "sony-movies"},
             }), encoding="utf-8")
             (epg / "html-programmes.json").write_text(json.dumps({
@@ -41,7 +41,7 @@ class UpdateHtmlEpgTests(unittest.TestCase):
                     "HBO": {"source_id": "meuguia-br", "programmes": [{"title": "Grade antiga"}]},
                     "SONY Movies": {"source_id": "guia-de-tv-br", "programmes": [{"title": "Grade antiga"}]},
                 },
-                "health": {},
+                "health": {"Nickelodeon": {"source_id": "meuguia-br", "status": "unavailable"}},
             }), encoding="utf-8")
 
             def forbidden_fetch(url):
@@ -52,6 +52,7 @@ class UpdateHtmlEpgTests(unittest.TestCase):
             self.assertEqual(doc["active_sources"], [])
             self.assertEqual(doc["health"]["HBO"]["status"], "disabled")
             self.assertEqual(doc["health"]["SONY Movies"]["status"], "disabled")
+            self.assertEqual(doc["health"]["Nickelodeon"]["status"], "disabled")
             self.assertEqual(
                 set(doc["policy"]["disabled_sources"]),
                 {"meuguia-br", "guia-de-tv-br"},
