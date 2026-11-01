@@ -38,3 +38,7 @@ A extração HTML usa parsers testáveis sem rede e fuso `America/Sao_Paulo`. Um
 - Usar aliases explícitos para nomes que mudam entre feeds.
 - Pluto TV: associar somente por ID Pluto encontrado no endereço do canal ou logo.
 - Preservar `epg_id` para compatibilidade e `epg_sources[]` para manter IDs alternativos de diferentes feeds.
+
+## Fontes HTML e redistribuição
+
+As fontes `meuguia-br` e `guia-de-tv-br` estão desativadas enquanto não houver autorização expressa para armazenar e redistribuir as grades. O pipeline remove os horários HTML previamente publicados dessas fontes. Os códigos e slugs de mapeamento permanecem preservados, e as fontes XMLTV continuam ativas para associação de IDs e cobertura EPG.
