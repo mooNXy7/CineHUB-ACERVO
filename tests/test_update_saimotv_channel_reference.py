@@ -28,7 +28,7 @@ class SaimoTVChannelReferenceTests(unittest.TestCase):
                 "data": [
                     {"name": "CazéTV", "drm_system": {"clearKey": "", "widevine": ""},
                      "streams": [{"url": "https://cdn.example/caze/index.m3u8", "quality": "HD",
-                                  "headers": {"user-agent": "ignored"}}]},
+                                  "headers": {"user-agent": "CineHUB-Test", "referer": "https://caze.example/", "origin": "https://caze.example", "authorization": "Bearer secret", "cookie": "session=secret"}}]},
                     {"name": "CNN Brasil", "drm_system": {"clearKey": "secret", "widevine": ""},
                      "streams": [{"url": "https://cdn.example/cnn/index.m3u8", "quality": "HD"}]},
                     {"name": "SBT", "drm_system": {"clearKey": "", "widevine": ""},
@@ -45,6 +45,11 @@ class SaimoTVChannelReferenceTests(unittest.TestCase):
             by_id = {item["id"]: item for item in saved["channels"]}
 
             self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["url"], "https://cdn.example/caze/index.m3u8")
+            self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["user_agent"], "CineHUB-Test")
+            self.assertEqual(by_id["ch-cazetv-hd"]["sources"][0]["referer"], "https://caze.example/")
+            self.assertNotIn("origin", by_id["ch-cazetv-hd"]["sources"][0])
+            self.assertNotIn("authorization", by_id["ch-cazetv-hd"]["sources"][0])
+            self.assertNotIn("cookie", by_id["ch-cazetv-hd"]["sources"][0])
             self.assertEqual(by_id["ch-cazetv-hd"]["logo_url"], "https://logos.example/caze.png")
             self.assertEqual(by_id["ch-cnn-brasil"]["sources"], [])
             self.assertEqual(by_id["ch-sbt"]["sources"], [])
