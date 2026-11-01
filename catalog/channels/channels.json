@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T18:53:12Z",
+  "generated_at": "2026-11-01T19:28:33Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -704,7 +704,16 @@
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png",
       "epg_id": "SBT",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://aovivo.maissbt.com/indexMobile.m3u8",
+          "priority": 30,
+          "source_id": "saimotv-android-offline-reference",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "referer": "https://mais.sbt.com.br/"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 11,
       "epg_sources": [
@@ -734,7 +743,16 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
       "epg_id": "SBT News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://sbtnews.maissbt.com/index.m3u8",
+          "priority": 30,
+          "source_id": "saimotv-android-offline-reference",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "referer": "https://mais.sbt.com.br/"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 7,
       "epg_sources": [
@@ -3379,7 +3397,7 @@
       "id": "br.nickelodeon",
       "name": "Nickelodeon",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/nickelodeon-lam.png",
       "epg_id": "NICKELODEON HD.br",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5313,7 +5331,7 @@
       "id": "br.ufc-fight-pass",
       "name": "UFC Fight Pass",
       "group": "PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5992,7 +6010,7 @@
       "id": "br.geekdot",
       "name": "Geekdot",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/jML1u4O.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -6032,7 +6050,7 @@
       "id": "br.kuriakos-kids",
       "name": "Kuriakos Kids",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/SRX6EPY.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -6042,7 +6060,7 @@
       "id": "br.gospel-cartoon",
       "name": "Gospel Cartoon",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/yxjPno5.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -14063,7 +14081,7 @@
       "name": "Globo Rede Amazonica Rio Branco FHD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131148.ts",
@@ -14072,14 +14090,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-amazonica-rio-branco-hd",
       "name": "Globo Rede Amazonica Rio Branco HD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131162.ts",
@@ -14088,14 +14114,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-amazonica-rio-branco-sd",
       "name": "Globo Rede Amazonica Rio Branco SD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131111.ts",
@@ -14104,7 +14138,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-bahia-fhd",
@@ -14731,7 +14773,7 @@
       "name": "Globo TV Anhanguera FHD",
       "group": "Canais | Globos Centro Oeste",
       "logo_url": "http://tvonhdbr.com/images/37974de0d1d16f3b56bec27eca38a765.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72043.ts",
@@ -14740,14 +14782,28 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-anhanguera-hd",
       "name": "Globo TV Anhanguera HD",
       "group": "Canais | Globos Centro Oeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131166.ts",
@@ -14756,14 +14812,28 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-anhanguera-sd",
       "name": "Globo TV Anhanguera SD",
       "group": "Canais | Globos Nordeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131124.ts",
@@ -14772,7 +14842,21 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-asa-branca-fhd",
@@ -25510,7 +25594,7 @@
       "name": "Telecine Action FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90668.ts",
@@ -25519,7 +25603,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-action-hd",
@@ -25567,7 +25671,7 @@
       "name": "Telecine Action HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90667.ts",
@@ -25576,7 +25680,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-action-sd",
@@ -25624,7 +25748,7 @@
       "name": "Telecine Action SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90666.ts",
@@ -25633,7 +25757,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-cult-4k",
@@ -26179,7 +26323,7 @@
       "name": "Telecine Pipoca FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90659.ts",
@@ -26188,7 +26332,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-pipoca-hd",
@@ -26236,7 +26400,7 @@
       "name": "Telecine Pipoca HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90658.ts",
@@ -26245,7 +26409,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-pipoca-sd",
@@ -26293,7 +26477,7 @@
       "name": "Telecine Pipoca SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90657.ts",
@@ -26302,7 +26486,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-4k",
@@ -26402,7 +26606,7 @@
       "name": "Telecine Premium FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90656.ts",
@@ -26411,7 +26615,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-hd",
@@ -26459,7 +26683,7 @@
       "name": "Telecine Premium HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90655.ts",
@@ -26468,7 +26692,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-sd",
@@ -26516,7 +26760,7 @@
       "name": "Telecine Premium SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90654.ts",
@@ -26525,7 +26769,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-touch-4k",
@@ -28217,7 +28481,7 @@
       "id": "ch-ufc-fight-pass-fhd",
       "name": "UFC Fight Pass FHD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -28241,7 +28505,7 @@
       "id": "ch-ufc-fight-pass-hd",
       "name": "UFC Fight Pass HD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -28265,7 +28529,7 @@
       "id": "ch-ufc-fight-pass-sd",
       "name": "UFC Fight Pass SD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -32362,7 +32626,7 @@
       "name": "[24H] Os Padrinhos Magicos",
       "group": "Canais | [24H] Desenhos",
       "logo_url": "http://24horas.cc:80/images/0e8515b81340f328f4fb962042f41c17.jpg",
-      "epg_id": null,
+      "epg_id": "63221e41af69b500076f84e7",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/135546.ts",
@@ -32371,7 +32635,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "63221e41af69b500076f84e7",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-24h-os-roni",
@@ -34271,7 +34543,7 @@
       "name": "[24H] Turma da Monica",
       "group": "Canais | [24H] Outros",
       "logo_url": "http://24horas.cc:80/images/f28ffaadfd02314ad8bf6ab09f06cca7.jpg",
-      "epg_id": null,
+      "epg_id": "5f997e44949bc70007a6941e",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/137612.ts",
@@ -34280,7 +34552,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "5f997e44949bc70007a6941e",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-24h-tv-quack-o-pato-donald-e-seus-sobrinhos",
@@ -40152,7 +40432,7 @@
       "name": "Avatar A Lenda de Aang 24H",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "6759eeb1bd523200083b4f29",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501795",
@@ -40161,7 +40441,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "6759eeb1bd523200083b4f29",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-axn-fhd",
@@ -44574,7 +44862,7 @@
       "name": "Prime Box Brasil FHD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501699",
@@ -44583,14 +44871,34 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-prime-box-brasil-hd",
       "name": "Prime Box Brasil HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501700",
@@ -44599,14 +44907,34 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-prime-box-brasil-sd",
       "name": "Prime Box Brasil SD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501701",
@@ -44615,7 +44943,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-rai-hd",
@@ -44670,7 +45018,7 @@
       "name": "Record Brasilia HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Record TV Brasília",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501983",
@@ -44679,7 +45027,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record TV Brasília",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-record-campinas-fhd",
@@ -44734,7 +45090,7 @@
       "name": "Record Goias HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Record TV Goiás",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501982",
@@ -44743,7 +45099,21 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record TV Goiás",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "RecordTVGoiás.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-record-manaus-hd",
@@ -46965,7 +47335,7 @@
       "id": "ch-viva-fhd",
       "name": "Viva FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -46995,7 +47365,7 @@
       "id": "ch-viva-hd",
       "name": "Viva HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -47025,7 +47395,7 @@
       "id": "ch-viva-sd",
       "name": "Viva SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -47055,7 +47425,7 @@
       "id": "ch-warner-channel-fhd",
       "name": "Warner Channel FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -47091,7 +47461,7 @@
       "id": "ch-warner-channel-hd",
       "name": "Warner Channel HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -47127,7 +47497,7 @@
       "id": "ch-warner-channel-sd",
       "name": "Warner Channel SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -49244,7 +49614,7 @@
       "name": "Os Padrinhos Mágicos - 24H",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "63221e41af69b500076f84e7",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1502831",
@@ -49253,7 +49623,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "63221e41af69b500076f84e7",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-supernatural-24h",
