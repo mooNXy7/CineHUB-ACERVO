@@ -129,8 +129,8 @@ def update_document(root: Path = ROOT, fetcher: Callable[[str], str] = fetch_htm
     mapping = read_json(epg_dir / "channel-map.json", {})
     sources_doc = read_json(epg_dir / "sources.json")
     if sources_doc is None:
-        # Test/legacy fixture compatibility only; production always has sources.json.
-        enabled_html_sources = {"meuguia-br", "guia-de-tv-br"}
+        # Fail closed: never scrape an HTML schedule without an explicit source registry.
+        enabled_html_sources: set[str] = set()
         disabled_html_sources: set[str] = set()
     else:
         html_sources = [s for s in sources_doc.get("sources", [])
