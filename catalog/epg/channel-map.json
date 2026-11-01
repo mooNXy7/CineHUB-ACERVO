@@ -62,8 +62,48 @@
     ],
     "Record SP": [
       "RecordTV SP"
+    ],
+    "Prime Box Brasil": [
+      "Prime Box Brazil",
+      "PrimeBoxBrazil.br",
+      "PRIME BOX BRAZIL.br"
+    ],
+    "Globo TV Anhanguera": [
+      "Globo Anhanguera",
+      "GloboAnhanguera.br"
+    ],
+    "Record Brasilia": [
+      "Record TV Brasília"
+    ],
+    "Globo Rede Amazonica Rio Branco": [
+      "Rede Amazônica Rio Branco"
+    ],
+    "Record Goias": [
+      "Record TV Goiás",
+      "RecordTVGoiás.br"
+    ],
+    "Telecine Premium LEG": [
+      "Telecine Premium",
+      "TelecinePremium.br",
+      "TELECINE PREMIUM.br"
+    ],
+    "Telecine Action LEG": [
+      "Telecine Action",
+      "TelecineAction.br",
+      "TELECINE ACTION.br"
+    ],
+    "Telecine Pipoca LEG": [
+      "Telecine Pipoca",
+      "TelecinePipoca.br",
+      "TELECINE PIPOCA.br"
     ]
   },
   "pluto_id_pattern": "(?:plu-|images\\\\.pluto\\\\.tv/channels/)([0-9a-f]{24})",
-  "intentional_shared_meuguia_codes": []
+  "intentional_shared_meuguia_codes": [],
+  "pluto_id_overrides": {
+    "ch-avatar-a-lenda-de-aang-24h": "6759eeb1bd523200083b4f29",
+    "ch-24h-os-padrinhos-magicos": "63221e41af69b500076f84e7",
+    "ch-os-padrinhos-magicos-24h": "63221e41af69b500076f84e7",
+    "ch-24h-turma-da-monica": "5f997e44949bc70007a6941e"
+  }
 }
