@@ -8,3 +8,10 @@
 - Testes de disponibilidade são limitados e respeitam o serviço de origem.
 - Remover prontamente fontes mediante pedido fundamentado ou quando a licença não permitir uso.
 - Metadados e imagens devem respeitar os termos de TMDB ou de outra API utilizada.
+
+## Referência de rádios
+
+- A referência autorizada `SaimoPlayer/vod/radios.txt` usa linhas `nome|stream`.
+- O importador lê somente nome e URL HTTPS; não importa DRM, headers, tokens ou configurações de reprodução.
+- Streams existentes nunca são substituídos automaticamente. URLs diferentes para a mesma rádio são registradas para revisão.
+- Logos e gêneros existentes são preservados; a referência não é considerada fonte desses campos.
