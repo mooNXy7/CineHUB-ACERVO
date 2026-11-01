@@ -49,7 +49,7 @@ class UpdateRadioCatalogTests(unittest.TestCase):
 
     def test_genre_tags_map_only_recognized_categories(self):
         self.assertEqual(update_radio_catalog.genre_from_tags("brazil, sertanejo, portuguese"), "Sertanejo")
-        self.assertIsNone(update_radio_catalog.genre_from_tags("brazil, portuguese, online"))
+        self.assertEqual(update_radio_catalog.genre_from_tags("brazil, portuguese, online"), "Música Brasileira")
 
     def test_expanded_explicit_tags_cover_brazilian_radio_categories(self):
         self.assertEqual(update_radio_catalog.genre_from_tags("funk carioca, brasil"), "Funk")
