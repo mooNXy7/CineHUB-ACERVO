@@ -25,6 +25,7 @@ RADIOS_FILE = ROOT / "catalog/radios/radios.json"
 VOD_INDEX = ROOT / "catalog/vod/index.json"
 DETAILS = ROOT / "catalog/vod/details"
 REPORT = ROOT / "reports/reference-import.json"
+RADIO_QUARANTINE_FILE = ROOT / "catalog/radios/quarantine.json"
 SOURCE_ID = "reference-catalog"
 SENSITIVE_QUERY = {
     "token", "access_token", "auth", "authorization", "password", "passwd",
@@ -1001,6 +1002,41 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     return current
 
 
+def is_http_url(value: str) -> bool:
+    try:
+        parsed = urlsplit(str(value or "").strip())
+        return parsed.scheme.casefold() in {"http", "https"} and bool(parsed.netloc)
+    except ValueError:
+        return False
+
+
+def quarantine_malformed_radio_records(radios: dict, quarantine: dict) -> tuple[dict, dict, int]:
+    """Move URL-as-name radio rows out of the active catalog without losing their original data."""
+    active = []
+    records = quarantine.setdefault("records", [])
+    known_ids = {
+        str(item.get("id")) for item in records
+        if isinstance(item, dict) and item.get("id")
+    }
+    moved = 0
+    for item in radios.get("radios", []):
+        if isinstance(item, dict) and is_http_url(item.get("name", "")):
+            record = dict(item)
+            record["quarantine_reason"] = "url_instead_of_radio_name"
+            record["quarantine_source"] = "catalog/radios/radios.json"
+            record_id = str(record.get("id") or "")
+            if not record_id or record_id not in known_ids:
+                records.append(record)
+                if record_id:
+                    known_ids.add(record_id)
+            moved += 1
+        else:
+            active.append(item)
+    radios["radios"] = active
+    quarantine.setdefault("schema_version", 1)
+    return radios, quarantine, moved
+
+
 def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, int]:
     """Import radio rows in the documented name|stream[|logo] format, without replacing existing entries."""
     known_radio = {
@@ -1018,7 +1054,7 @@ def import_reference_radios(reference: Path, radios: dict) -> tuple[dict, int, i
         radio_name = fields[0].strip()
         stream = fields[1].strip()
         logo = fields[2].strip() if len(fields) > 2 and fields[2].strip() else None
-        if not radio_name:
+        if not radio_name or is_http_url(radio_name):
             continue
         key = norm(radio_name)
         if not key:
@@ -1066,6 +1102,8 @@ def main() -> None:
     # stop the import rather than be replaced by a fallback document.
     current_channels = load_json(CHANNELS_FILE, {"schema_version": 1, "channels": []})
     radios = load_json(RADIOS_FILE, {"schema_version": 1, "radios": []})
+    radio_quarantine = load_json(RADIO_QUARANTINE_FILE, {"schema_version": 1, "records": []})
+    radios, radio_quarantine, quarantined_radio_count = quarantine_malformed_radio_records(radios, radio_quarantine)
     previous_report = load_json(REPORT, {})
     current_channels = import_channels(reference, current_channels, counters)
 
@@ -1178,8 +1216,12 @@ def main() -> None:
 
     radios, imported_radio_count, updated_radio_count = import_reference_radios(reference, radios)
     counters["radios_updated"] = updated_radio_count
+    counters["radios_quarantined"] = quarantined_radio_count
     if imported_radio_count or updated_radio_count or not radios.get("generated_at"):
         radios["generated_at"] = datetime.now(timezone.utc).isoformat()
+    if quarantined_radio_count:
+        radio_quarantine["generated_at"] = datetime.now(timezone.utc).isoformat()
+    write_json(RADIO_QUARANTINE_FILE, radio_quarantine)
     write_json(RADIOS_FILE, radios)
     write_json(CHANNELS_FILE, current_channels)
 
