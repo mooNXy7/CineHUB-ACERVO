@@ -16,6 +16,7 @@ class RadioQuarantineValidationTests(unittest.TestCase):
             {"id": "radio-bad", "name": "https://bad.example/live"},
         ]}
         self.assertEqual(validate_catalog.validate_radio_catalog(radios, quarantine), [])
+        self.assertTrue(validate_catalog.safe_radio_stream_url("https://radio.example:8000/stream"))
 
     def test_url_name_in_active_catalog_is_rejected(self):
         radios = {"radios": [
