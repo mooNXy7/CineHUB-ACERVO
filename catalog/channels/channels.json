@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T16:22:24Z",
+  "generated_at": "2026-11-01T18:04:42Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -12123,7 +12123,7 @@
       "id": "ch-france-24-4k",
       "name": "France 24 4K",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12153,7 +12153,7 @@
       "id": "ch-france-24-fhd",
       "name": "France 24 FHD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12199,7 +12199,7 @@
       "id": "ch-france-24-hd",
       "name": "France 24 HD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12229,7 +12229,7 @@
       "id": "ch-france-24-sd",
       "name": "France 24 SD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -20896,7 +20896,7 @@
       "id": "ch-sportynet-1-4k",
       "name": "SportyNet 1 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20920,7 +20920,7 @@
       "id": "ch-sportynet-1-fhd",
       "name": "SportyNet 1 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20960,7 +20960,7 @@
       "id": "ch-sportynet-1-hd",
       "name": "SportyNet 1 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20984,7 +20984,7 @@
       "id": "ch-sportynet-1-sd",
       "name": "SportyNet 1 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -21008,7 +21008,7 @@
       "id": "ch-sportynet-2-4k",
       "name": "SportyNet 2 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21032,7 +21032,7 @@
       "id": "ch-sportynet-2-fhd",
       "name": "SportyNet 2 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21072,7 +21072,7 @@
       "id": "ch-sportynet-2-hd",
       "name": "SportyNet 2 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21096,7 +21096,7 @@
       "id": "ch-sportynet-2-sd",
       "name": "SportyNet 2 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21120,7 +21120,7 @@
       "id": "ch-sportynet-3-4k",
       "name": "SportyNet 3 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21144,7 +21144,7 @@
       "id": "ch-sportynet-3-fhd",
       "name": "SportyNet 3 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21184,7 +21184,7 @@
       "id": "ch-sportynet-3-hd",
       "name": "SportyNet 3 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21208,7 +21208,7 @@
       "id": "ch-sportynet-3-sd",
       "name": "SportyNet 3 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -24262,7 +24262,7 @@
       "id": "ch-sabor-arte-4k",
       "name": "Sabor & Arte 4K",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24298,7 +24298,7 @@
       "id": "ch-sabor-arte-fhd",
       "name": "Sabor & Arte FHD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24350,7 +24350,7 @@
       "id": "ch-sabor-arte-hd",
       "name": "Sabor & Arte HD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24391,7 +24391,7 @@
       "id": "ch-sabor-arte-sd",
       "name": "Sabor & Arte SD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -35810,7 +35810,7 @@
       "id": "ch-adult-swim-fhd",
       "name": "Adult Swim FHD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35852,7 +35852,7 @@
       "id": "ch-adult-swim-hd",
       "name": "Adult Swim HD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35899,7 +35899,7 @@
       "id": "ch-adult-swim-sd",
       "name": "Adult Swim SD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35946,7 +35946,7 @@
       "id": "ch-adult-swim-4k",
       "name": "Adult Swim 4K",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -36580,7 +36580,7 @@
       "id": "ch-cnn-brasil-money-fhd",
       "name": "CNN Brasil Money FHD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36610,7 +36610,7 @@
       "id": "ch-cnn-brasil-money-hd",
       "name": "CNN Brasil Money HD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36640,7 +36640,7 @@
       "id": "ch-cnn-brasil-money-sd",
       "name": "CNN Brasil Money SD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36686,7 +36686,7 @@
       "id": "ch-cnn-brasil-money-4k",
       "name": "CNN Brasil Money 4K",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -39958,7 +39958,7 @@
       "id": "ch-amc-fhd",
       "name": "AMC FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -39994,7 +39994,7 @@
       "id": "ch-amc-hd",
       "name": "AMC HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -40030,7 +40030,7 @@
       "id": "ch-amc-sd",
       "name": "AMC SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -40167,7 +40167,7 @@
       "id": "ch-axn-fhd",
       "name": "AXN FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40203,7 +40203,7 @@
       "id": "ch-axn-hd",
       "name": "AXN HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40239,7 +40239,7 @@
       "id": "ch-axn-sd",
       "name": "AXN SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40575,7 +40575,7 @@
       "id": "ch-canal-brasil-hd",
       "name": "Canal Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png",
       "epg_id": "Canal Brasil",
       "sources": [
         {
@@ -40611,7 +40611,7 @@
       "id": "ch-canal-brasil-sd",
       "name": "Canal Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png",
       "epg_id": "Canal Brasil",
       "sources": [
         {
@@ -40903,7 +40903,7 @@
       "id": "ch-cancao-nova-hd",
       "name": "Canção Nova HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cancao-nova.png",
       "epg_id": "Canção Nova",
       "sources": [
         {
@@ -40933,7 +40933,7 @@
       "id": "ch-cancao-nova-sd",
       "name": "Canção Nova SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cancao-nova.png",
       "epg_id": "Canção Nova",
       "sources": [
         {
@@ -41351,7 +41351,7 @@
       "id": "ch-cinemax-fhd",
       "name": "Cinemax FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41387,7 +41387,7 @@
       "id": "ch-cinemax-hd",
       "name": "Cinemax HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41423,7 +41423,7 @@
       "id": "ch-cinemax-sd",
       "name": "Cinemax SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41459,7 +41459,7 @@
       "id": "ch-cnn-international-hd",
       "name": "CNN International HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png",
       "epg_id": "CNN International",
       "sources": [
         {
@@ -41489,7 +41489,7 @@
       "id": "ch-cnn-international-sd",
       "name": "CNN International SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png",
       "epg_id": "CNN International",
       "sources": [
         {
@@ -41599,7 +41599,7 @@
       "id": "ch-discovery-home-health-fhd",
       "name": "Discovery Home & Health FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41635,7 +41635,7 @@
       "id": "ch-discovery-home-health-hd",
       "name": "Discovery Home & Health HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41671,7 +41671,7 @@
       "id": "ch-discovery-home-health-sd",
       "name": "Discovery Home & Health SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41707,7 +41707,7 @@
       "id": "ch-disney-5-hd",
       "name": "Disney + 5 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png",
       "epg_id": null,
       "sources": [
         {
@@ -41723,7 +41723,7 @@
       "id": "ch-disney-6-hd",
       "name": "Disney + 6 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png",
       "epg_id": null,
       "sources": [
         {
@@ -42093,7 +42093,7 @@
       "id": "ch-film-arts-fhd",
       "name": "Film&Arts FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42129,7 +42129,7 @@
       "id": "ch-film-arts-hd",
       "name": "Film&Arts HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42165,7 +42165,7 @@
       "id": "ch-film-arts-sd",
       "name": "Film&Arts SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42526,7 +42526,7 @@
       "id": "ch-globo-rpc-curitiba-fhd",
       "name": "Globo - RPC Curitiba FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png",
       "epg_id": null,
       "sources": [
         {
@@ -42542,7 +42542,7 @@
       "id": "ch-globo-rpc-curitiba-hd",
       "name": "Globo - RPC Curitiba HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png",
       "epg_id": null,
       "sources": [
         {
@@ -42771,7 +42771,7 @@
       "id": "ch-globonews-fhd",
       "name": "GloboNews FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -42795,7 +42795,7 @@
       "id": "ch-globonews-hd",
       "name": "GloboNews HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -42819,7 +42819,7 @@
       "id": "ch-globonews-sd",
       "name": "GloboNews SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -43691,7 +43691,7 @@
       "id": "ch-megapix-fhd",
       "name": "Megapix FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -43727,7 +43727,7 @@
       "id": "ch-megapix-hd",
       "name": "Megapix HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -43763,7 +43763,7 @@
       "id": "ch-megapix-sd",
       "name": "Megapix SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -44213,7 +44213,7 @@
       "id": "ch-nsports-fhd",
       "name": "NSports FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": "NSports",
       "sources": [
         {
@@ -44249,7 +44249,7 @@
       "id": "ch-nsports-hd",
       "name": "NSports HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": "NSports",
       "sources": [
         {
@@ -45543,7 +45543,7 @@
       "id": "ch-space-fhd",
       "name": "Space FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
       "epg_id": "SPACE",
       "sources": [
         {
@@ -45585,7 +45585,7 @@
       "id": "ch-space-hd",
       "name": "Space HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
       "epg_id": "SPACE",
       "sources": [
         {
@@ -45627,7 +45627,7 @@
       "id": "ch-space-sd",
       "name": "Space SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
       "epg_id": "SPACE",
       "sources": [
         {
@@ -45717,7 +45717,7 @@
       "id": "ch-studio-universal-fhd",
       "name": "Studio Universal FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -45753,7 +45753,7 @@
       "id": "ch-studio-universal-hd",
       "name": "Studio Universal HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -45789,7 +45789,7 @@
       "id": "ch-studio-universal-sd",
       "name": "Studio Universal SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -46082,7 +46082,7 @@
       "id": "ch-tnt-fhd",
       "name": "TNT FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -46118,7 +46118,7 @@
       "id": "ch-tnt-hd",
       "name": "TNT HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -46154,7 +46154,7 @@
       "id": "ch-tnt-sd",
       "name": "TNT SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -46190,7 +46190,7 @@
       "id": "ch-tnt-novelas-fhd",
       "name": "TNT Novelas FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46220,7 +46220,7 @@
       "id": "ch-tnt-novelas-hd",
       "name": "TNT Novelas HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46250,7 +46250,7 @@
       "id": "ch-tnt-novelas-sd",
       "name": "TNT Novelas SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46312,7 +46312,7 @@
       "id": "ch-tnt-series-fhd",
       "name": "TNT Séries FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46348,7 +46348,7 @@
       "id": "ch-tnt-series-hd",
       "name": "TNT Séries HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46384,7 +46384,7 @@
       "id": "ch-tnt-series-sd",
       "name": "TNT Séries SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46441,7 +46441,7 @@
       "id": "ch-tv-brasil-sd",
       "name": "TV Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
       "epg_id": "TV Brasil",
       "sources": [
         {
@@ -46477,7 +46477,7 @@
       "id": "ch-tv-cultura-fhd",
       "name": "TV CULTURA FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46501,7 +46501,7 @@
       "id": "ch-tv-cultura-hd",
       "name": "TV Cultura HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46525,7 +46525,7 @@
       "id": "ch-tv-cultura-sd",
       "name": "TV Cultura SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46573,7 +46573,7 @@
       "id": "ch-tv-gazeta-hd",
       "name": "TV Gazeta HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png",
       "epg_id": "TV Gazeta",
       "sources": [
         {
@@ -46603,7 +46603,7 @@
       "id": "ch-tv-gazeta-sd",
       "name": "TV Gazeta SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png",
       "epg_id": "TV Gazeta",
       "sources": [
         {

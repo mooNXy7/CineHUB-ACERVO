@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "report_type": "radio_source_refresh",
+  "catalog_mutated": false,
+  "active_sources": 1,
+  "sources": [
+    {
+      "source_id": "saimoplayer-radio-reference",
+      "lines_seen": 755,
+      "accepted": 752,
+      "malformed": 0,
+      "unsafe_streams": 1,
+      "ambiguous_names": 1
+    }
+  ],
+  "merge": {
+    "added": 0,
+    "filled_stream": 0,
+    "unchanged": 749,
+    "stream_conflicts": 3,
+    "ambiguous_matches": 0,
+    "stream_conflict_names": [
+      "Clube FM 100.5",
+      "Rádio AMC",
+      "Rádio Nikey"
+    ]
+  },
+  "failures": [],
+  "safety": [
+    "Only name and HTTPS stream fields are read from the authorized reference.",
+    "Existing non-empty streams, logos, genres, and IDs are never overwritten.",
+    "Conflicting streams are reported for review and are not substituted.",
+    "No DRM, headers, credentials, or playback controls are imported."
+  ]
+}
