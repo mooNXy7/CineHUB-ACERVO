@@ -112,7 +112,7 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
             record_id = str(candidate.get("catalog_id") or "")
             title = str(candidate.get("catalog_title") or "")
             media_type = str(candidate.get("media_type") or "")
-            expected_type = "movie" if section == "movies" else "series"
+            expected_type = "movie" if section == "movies" else "tv"
             if not record_id or not title or media_type != expected_type or norm(title) != norm(option.get("matched_title")):
                 counts["skipped_catalog_identity_mismatch"] += 1
                 continue
