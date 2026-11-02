@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "report_type": "reviewed_radio_logo_application",
-  "generated_at": "2026-11-02T07:13:08.363Z",
+  "generated_at": "2026-11-02T07:15:21.902Z",
   "source": "Wikimedia Commons",
   "counts": {
-    "reference_logos": 12,
-    "requested_station_matches": 22,
-    "logos_applied": 22,
+    "reference_logos": 14,
+    "requested_station_matches": 34,
+    "logos_applied": 34,
     "skipped": 0
   },
   "applied": [
@@ -167,6 +167,102 @@
       "reference_name": "Rádio Itatiaia",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/R%C3%A1dio_Itatiaia_logo.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:R%C3%A1dio_Itatiaia_logo.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-89-9",
+      "radio_name": "Jovem Pan FM 89.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-91-1",
+      "radio_name": "Jovem Pan FM 91.1",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-91-3",
+      "radio_name": "Jovem Pan FM 91.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-94-3",
+      "radio_name": "Jovem Pan FM 94.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-99-1",
+      "radio_name": "Jovem Pan FM 99.1",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-100-9",
+      "radio_name": "Jovem Pan FM 100.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-103-3",
+      "radio_name": "Jovem Pan FM 103.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-106-3",
+      "radio_name": "Jovem Pan FM 106.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-106-9",
+      "radio_name": "Jovem Pan FM 106.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-belo-horizonte",
+      "radio_name": "Jovem Pan FM Belo Horizonte",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-blumenau",
+      "radio_name": "Jovem Pan FM Blumenau",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-news-100-3",
+      "radio_name": "Jovem Pan News 100.3",
+      "reference_name": "Jovem Pan News",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jovem_Pan_News_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_News_logo_2022.png",
       "license": "PD-textlogo"
     }
   ],

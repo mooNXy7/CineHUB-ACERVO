@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:13:08.363Z",
+  "generated_at": "2026-11-02T07:15:21.902Z",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -1534,7 +1534,7 @@
       "id": "radio.jovem-pan-fm-89-9",
       "name": "Jovem Pan FM 89.9",
       "stream_url": "https://paineldj5.com.br:20028/stream",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1542,7 +1542,7 @@
       "id": "radio.jovem-pan-fm-91-1",
       "name": "Jovem Pan FM 91.1",
       "stream_url": "https://cast2.hoost.com.br:8039/stream",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1550,7 +1550,7 @@
       "id": "radio.jovem-pan-fm-91-3",
       "name": "Jovem Pan FM 91.3",
       "stream_url": "https://shout25.crossradio.com.br:18022/1,%20https://shout25.crossradio.com.br:18022/1",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1558,7 +1558,7 @@
       "id": "radio.jovem-pan-fm-94-3",
       "name": "Jovem Pan FM 94.3",
       "stream_url": "https://r15.ciclano.io/proxy/radiomu1/stream",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1566,7 +1566,7 @@
       "id": "radio.jovem-pan-fm-99-1",
       "name": "Jovem Pan FM 99.1",
       "stream_url": "https://8062.brasilstream.com.br//stream",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1574,7 +1574,7 @@
       "id": "radio.jovem-pan-fm-100-9",
       "name": "Jovem Pan FM 100.9",
       "stream_url": "https://stream.zeno.fm/c45wbq2us3buv",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1582,7 +1582,7 @@
       "id": "radio.jovem-pan-fm-103-3",
       "name": "Jovem Pan FM 103.3",
       "stream_url": "https://shout25.crossradio.com.br:24030//1",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1590,7 +1590,7 @@
       "id": "radio.jovem-pan-fm-106-3",
       "name": "Jovem Pan FM 106.3",
       "stream_url": "https://shout25.crossradio.com.br:18022/1",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1598,7 +1598,7 @@
       "id": "radio.jovem-pan-fm-106-9",
       "name": "Jovem Pan FM 106.9",
       "stream_url": "https://radio.saopaulo01.com.br:10937/aac",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1606,7 +1606,7 @@
       "id": "radio.jovem-pan-fm-belo-horizonte",
       "name": "Jovem Pan FM Belo Horizonte",
       "stream_url": "https://8062.brasilstream.com.br/mp3",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1614,7 +1614,7 @@
       "id": "radio.jovem-pan-fm-blumenau",
       "name": "Jovem Pan FM Blumenau",
       "stream_url": "https://ice.fabricahost.com.br/jpblumenau",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1630,7 +1630,7 @@
       "id": "radio.jovem-pan-news-100-3",
       "name": "Jovem Pan News 100.3",
       "stream_url": "https://ssl.srvstm.com:6808/;",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jovem_Pan_News_logo_2022.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
