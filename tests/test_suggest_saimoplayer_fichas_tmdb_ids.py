@@ -42,8 +42,8 @@ class SaimoPlayerFichasTmdbIdTests(unittest.TestCase):
 
     def test_only_exact_title_type_unique_id_and_year_are_candidates(self):
         report = suggest.build_report(self.root, self.fichas)
-        self.assertEqual(report["summary"]["unique_id_and_exact_year_candidates"], 1)
-        self.assertEqual(len(report["candidates"]), 1)
+        self.assertEqual(report["summary"]["unique_id_and_exact_year_candidates"], 2)
+        self.assertEqual(len(report["candidates"]), 2)
         self.assertEqual(report["candidates"][0]["catalog_id"], "m1")
         self.assertEqual(report["candidates"][0]["candidates"][0]["tmdb_id_candidate"], "100")
 
@@ -54,9 +54,11 @@ class SaimoPlayerFichasTmdbIdTests(unittest.TestCase):
         self.assertEqual(counts["year_conflicts"], 1)
         self.assertEqual(counts["missing_catalog_or_reference_year"], 1)
 
-    def test_movie_reference_does_not_match_series_catalog_record(self):
+    def test_media_type_uses_matching_ficha_type(self):
         report = suggest.build_report(self.root, self.fichas)
-        self.assertNotIn("s1", {x["catalog_id"] for x in report["candidates"]})
+        series_candidate = next(x for x in report["candidates"] if x["catalog_id"] == "s1")
+        self.assertEqual(series_candidate["media_type"], "tv")
+        self.assertEqual(series_candidate["candidates"][0]["tmdb_id_candidate"], "600")
 
     def test_existing_tmdb_id_is_never_reproposed(self):
         report = suggest.build_report(self.root, self.fichas)
