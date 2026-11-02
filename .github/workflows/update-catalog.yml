@@ -237,3 +237,37 @@ jobs:
           else
             echo "Sem alterações no acervo."
           fi
+
+  logos-only:
+    if: ${{ github.event_name == 'push' && github.ref_name == 'audit/acervo-hardening-2026-10' && contains(github.event.head_commit.message, '[logos-only]') && !contains(github.event.head_commit.message, '[logos-applied]') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply exact verified-name logo references to blank channel records
+        run: python scripts/apply_exact_channel_logo_suggestions.py
+      - name: Apply explicitly reviewed channel-name variants
+        run: python scripts/apply_reviewed_channel_logo_variants.py
+      - name: Validate the resulting channel catalog
+        run: |
+          python scripts/validate_catalog.py
+          python scripts/audit_channel_logos.py --output "$RUNNER_TEMP/channel-logo-audit.json"
+          python -m unittest discover -s tests -v
+          python -m py_compile scripts/*.py
+      - name: Commit only effective logo catalog changes
+        run: |
+          if git diff --quiet -- catalog/channels/channels.json; then
+            echo "Nenhuma logo nova elegível; catálogo preservado sem commit vazio."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add catalog/channels/channels.json
+            git commit -m "fix(logos): apply reviewed channel logo mappings [logos-only] [logos-applied]"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
