@@ -124,5 +124,22 @@ class ProbeRadioStreamsTests(unittest.TestCase):
         self.assertNotIn("private", detail)
 
 
+
+    def test_probe_radio_uses_sanitized_exception_detail(self):
+        from unittest.mock import patch
+        from scripts.probe_radio_streams import probe_radio
+        with patch(
+            "scripts.probe_radio_streams.build_opener",
+            side_effect=ValueError("bad redirect https://example.com/live?token=secret"),
+        ):
+            result = probe_radio({
+                "id": "radio.test", "name": "Radio Test",
+                "stream_url": "https://stream.example/live",
+            })
+        self.assertEqual(result["status"], "unverified")
+        self.assertIn("<url>", result["detail"])
+        self.assertNotIn("secret", result["detail"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -122,7 +122,7 @@ def probe_radio(radio: dict[str, Any], timeout: float = 8.0) -> dict[str, Any]:
     except (URLError, TimeoutError, socket.timeout, ConnectionError, OSError):
         result.update(status="temporarily_unavailable", detail="network_or_timeout_error")
     except Exception as exc:
-        result.update(status="unverified", detail=f"probe_error_{type(exc).__name__}")
+        result.update(status="unverified", detail=f"probe_error_{type(exc).__name__}:{sanitize_probe_error(exc)}")
     return result
 
 
