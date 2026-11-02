@@ -13,6 +13,7 @@ on:
       - "catalog/reference/**"
       - "scripts/update_catalog.py"
       - "scripts/update_radio_catalog.py"
+      - "scripts/suggest_saimoplayer_fichas_tmdb_ids.py"
       - "scripts/update_saimotv_channel_reference.py"
       - "tests/test_update_saimotv_channel_reference.py"
       - "scripts/import_reference_catalog.py"
@@ -30,6 +31,7 @@ on:
       - "scripts/probe_catalogo_channel_sources.py"
       - "scripts/apply_catalogo_channel_sources.py"
       - "tests/test_suggest_catalogo_channel_sources.py"
+      - "tests/test_suggest_saimoplayer_fichas_tmdb_ids.py"
       - "tests/test_catalogo_channel_source_probe_apply.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
@@ -171,6 +173,15 @@ jobs:
           else
             echo "Nenhum novo commit na referência; importação pesada ignorada."
           fi
+      - name: Apply exact-title and exact-year TMDB IDs from authorized SaimoPlayer fichas
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/suggest_saimoplayer_fichas_tmdb_ids.py \
+            --reference-file /tmp/cinehub-reference/vod/fichas.txt \
+            --output "$RUNNER_TEMP/saimoplayer-fichas-tmdb-candidates.json"
+          python scripts/apply_vod_tmdb_id_candidates.py \
+            --reports "$RUNNER_TEMP/saimoplayer-fichas-tmdb-candidates.json" \
+            --output reports/tmdb-id-fichas-application-summary.json
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
       - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
