@@ -453,5 +453,37 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(stations[0]["lastcheckok"], 0)
 
 
+
+    def test_radio_browser_loose_name_match_only_drops_radio_prefix_with_two_identity_tokens(self):
+        radio = {"name": "Rádio Cidade Jundiaí FM", "stream_url": "https://catalog.example/live"}
+        station = {
+            "stationuuid": "station-city", "name": "Cidade Jundiai",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "countrycode": "BR", "lastcheckok": 0,
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, [station])
+        self.assertEqual(matched, station)
+        self.assertEqual(method, "loose_name")
+
+        brand_radio = {"name": "Radio Disney", "stream_url": "https://catalog.example/disney"}
+        brand_station = {
+            "stationuuid": "station-disney", "name": "Disney FM",
+            "url": "https://radio.example/disney", "countrycode": "BR",
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(brand_radio, [brand_station])
+        self.assertIsNone(matched)
+        self.assertEqual(method, "unmatched")
+
+    def test_radio_browser_loose_name_match_rejects_ambiguous_aliases(self):
+        radio = {"name": "Rádio Cidade Jundiaí FM", "stream_url": "https://catalog.example/live"}
+        stations = [
+            {"stationuuid": "one", "name": "Cidade Jundiai", "url": "https://one.example/live"},
+            {"stationuuid": "two", "name": "Radio Cidade Jundiai", "url": "https://two.example/live"},
+        ]
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, stations)
+        self.assertIsNone(matched)
+        self.assertEqual(method, "ambiguous_loose_name")
+
+
 if __name__ == "__main__":
     unittest.main()

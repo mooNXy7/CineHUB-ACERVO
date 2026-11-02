@@ -211,6 +211,16 @@ def normalize_station_name(value: str) -> str:
     return " ".join(tokens)
 
 
+def normalize_station_match_name(value: str) -> str:
+    """Conservative matching alias: drop a leading radio label only with two identity tokens."""
+    tokens = normalize_station_name(value).split()
+    if len(tokens) >= 4 and tokens[:2] == ["web", "radio"]:
+        tokens = tokens[2:]
+    elif len(tokens) >= 3 and tokens[0] in {"radio", "webradio"}:
+        tokens = tokens[1:]
+    return " ".join(tokens)
+
+
 def normalize_stream_url(value: str) -> str:
     value = str(value or "").strip()
     if not safe_https_url(value):
@@ -613,7 +623,7 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
     # An exact stream URL is the strongest identity signal. Do not require the
     # station display name to match first: Radio Browser commonly uses a legal
     # or abbreviated brand while the catalog uses the local on-air name.
-    # Radio Browser payloads are already restricted to healthy Brazilian stations.
+    # Radio Browser payloads contain Brazilian stations, including offline entries for metadata.
     candidates: dict[str, dict[str, Any]] = {}
     if stream_key:
         for station in stations:
@@ -634,6 +644,13 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
         ]
         if len(exact_name_candidates) == 1:
             return exact_name_candidates[0], "exact_stream_name"
+        loose_key = normalize_station_match_name(str(radio.get("name") or ""))
+        loose_name_candidates = [
+            station for station in candidates.values()
+            if normalize_station_match_name(str(station.get("name") or "")) == loose_key
+        ]
+        if len(loose_name_candidates) == 1 and loose_key:
+            return loose_name_candidates[0], "exact_stream_loose_name"
         return None, "ambiguous_stream"
 
     # Name-only fallback remains deliberately strict: one exact normalized
@@ -644,14 +661,24 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
         return by_name[0], "exact_name"
     if len(by_name) > 1:
         return None, "ambiguous_name"
+    loose_key = normalize_station_match_name(str(radio.get("name") or ""))
+    if loose_key:
+        loose_matches = [
+            station for station in stations
+            if normalize_station_match_name(str(station.get("name") or "")) == loose_key
+        ]
+        if len(loose_matches) == 1:
+            return loose_matches[0], "loose_name"
+        if len(loose_matches) > 1:
+            return None, "ambiguous_loose_name"
     return None, "unmatched"
 
 
 def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[dict[str, Any]], genre_review_hold_ids: set[str] | None = None) -> dict[str, Any]:
     genre_review_hold_ids = genre_review_hold_ids or set()
     counts = {
-        "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0,
-        "ambiguous": 0, "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0,
+        "matched_by_stream": 0, "matched_by_name": 0, "matched_by_loose_name": 0,
+        "unmatched": 0, "ambiguous": 0, "ambiguous_loose_name": 0, "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0,
         "favicon_rejected": 0, "homepage_favicon_filled": 0, "homepage_metadata_checked": 0,
         "homepage_genres_filled": 0, "homepage_logos_filled": 0, "genre_unclassified": 0,
         "unclassified_tags": {},
@@ -696,6 +723,8 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
         if not station:
             if method.startswith("ambiguous"):
                 counts["ambiguous"] += 1
+                if method == "ambiguous_loose_name":
+                    counts["ambiguous_loose_name"] += 1
             else:
                 counts["unmatched"] += 1
             continue
@@ -703,6 +732,8 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             counts["matched_by_stream"] += 1
         else:
             counts["matched_by_name"] += 1
+        if "loose_name" in method:
+            counts["matched_by_loose_name"] += 1
 
         changed = False
         station_key = str(
@@ -1010,7 +1041,8 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     # still detected as a catalog mutation when the stream-reference fetch fails.
     merged, merge_counts = merge_radio_records(original_radios, collected)
     metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations, genre_review_hold_ids) if radio_browser_stations else {
-        "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0, "ambiguous": 0,
+        "matched_by_stream": 0, "matched_by_name": 0, "matched_by_loose_name": 0,
+        "unmatched": 0, "ambiguous": 0, "ambiguous_loose_name": 0,
         "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0, "favicon_rejected": 0,
         "homepage_metadata_checked": 0, "homepage_genres_filled": 0, "homepage_logos_filled": 0,
         "genre_unclassified": 0, "unclassified_tags": {}, "updated_radio_names": [],
@@ -1036,7 +1068,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "failures": failures,
         "safety": [
             "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",
-            "Radio Browser public-domain metadata is matched by exact normalized name and/or exact stream URL.",
+            "Radio Browser metadata uses exact stream/name matches plus a unique leading-radio-prefix alias only when at least two identifying tokens remain.",
             "Only recognized tags fill missing genres; existing genres are never overwritten.",
             "Only HTTPS favicons hosted on the station homepage domain fill missing logos; existing logos are never overwritten.",
             "Streams, IDs, playback settings, headers, credentials, and DRM are never replaced or imported from Radio Browser.",
