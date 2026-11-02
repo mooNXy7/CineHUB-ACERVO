@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": true,
+  "catalog_mutated": false,
   "active_sources": 2,
   "sources": [
     {
@@ -34,6 +34,7 @@
     "unmatched": 158,
     "ambiguous": 104,
     "genres_filled": 0,
+    "genre_held_for_review": 0,
     "logos_filled": 0,
     "favicon_rejected": 32,
     "homepage_favicon_filled": 0,
@@ -64,24 +65,17 @@
     "updated": 0
   },
   "manual_genre_decisions": {
-    "applied": 12,
-    "already_classified": 3,
+    "applied": 0,
+    "already_classified": 14,
     "missing_radio": 0,
     "identity_mismatch": 0,
     "invalid_decision": 0,
-    "applied_radio_names": [
-      "Novabrasil FM 89.5",
-      "Novabrasil FM 89.7",
-      "Novabrasil FM 93.5",
-      "Novabrasil FM 94.3",
-      "Novabrasil FM 97.5",
-      "Novabrasil FM 106.5",
-      "Novabrasil FM Maceió",
-      "Novabrasil FM Salvador",
-      "Hunter FM 80s",
-      "Rádio Futebol Interior",
-      "Rádio Pampa",
-      "Rádio Regional Net"
+    "applied_radio_names": []
+  },
+  "genre_review_hold": {
+    "count": 1,
+    "radio_ids": [
+      "radio.novabrasil-fm-89-5"
     ]
   },
   "failures": [],
