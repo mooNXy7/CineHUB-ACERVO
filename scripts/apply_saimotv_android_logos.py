@@ -117,12 +117,15 @@ def apply(root: Path, reference_file: Path,
     candidates: dict[str, str] = {}
     ambiguous = 0
     unmatched = 0
+    invalid_candidates = 0
     for key in needed:
         urls = reference.get(key, set())
         if len(urls) == 1:
             url = next(iter(urls))
             if safe_https_image_url(url):
                 candidates[key] = url
+            else:
+                invalid_candidates += 1
         elif len(urls) > 1:
             ambiguous += 1
         else:
@@ -134,7 +137,7 @@ def apply(root: Path, reference_file: Path,
     live = dict(zip(unique_urls, live_results))
 
     applied = []
-    invalid = 0
+    invalid = invalid_candidates
     for channel in eligible:
         key = canonical_key(channel.get("name"))
         url = candidates.get(key)
