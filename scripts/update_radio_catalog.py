@@ -341,24 +341,29 @@ def safe_station_favicon(station: dict[str, Any]) -> str | None:
 def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
     name_key = normalize_station_name(str(radio.get("name") or ""))
     stream_key = normalize_stream_url(str(radio.get("stream_url") or ""))
+
+    # An exact stream URL is the strongest identity signal. Do not require the
+    # station display name to match first: Radio Browser commonly uses a legal
+    # or abbreviated brand while the catalog uses the local on-air name.
+    # Radio Browser payloads are already restricted to healthy Brazilian stations.
     candidates: dict[str, dict[str, Any]] = {}
-    for station in stations:
-        station_key = normalize_station_name(str(station.get("name") or ""))
-        if station_key != name_key:
-            continue
-        station_urls = {
-            normalize_stream_url(str(station.get("url") or "")),
-            normalize_stream_url(str(station.get("url_resolved") or "")),
-        }
-        station_urls.discard("")
-        station_id = str(station.get("stationuuid") or station.get("url") or station.get("name"))
-        if stream_key and stream_key in station_urls:
-            candidates[station_id] = station
+    if stream_key:
+        for station in stations:
+            station_urls = {
+                normalize_stream_url(str(station.get("url") or "")),
+                normalize_stream_url(str(station.get("url_resolved") or "")),
+            }
+            station_urls.discard("")
+            station_id = str(station.get("stationuuid") or station.get("url") or station.get("name"))
+            if stream_key in station_urls:
+                candidates[station_id] = station
     if len(candidates) == 1:
-        return next(iter(candidates.values())), "exact_stream_and_name"
+        return next(iter(candidates.values())), "exact_stream"
     if len(candidates) > 1:
         return None, "ambiguous_stream"
 
+    # Name-only fallback remains deliberately strict: one exact normalized
+    # station name must identify exactly one healthy Brazilian station.
     by_name = [station for station in stations
                if normalize_station_name(str(station.get("name") or "")) == name_key]
     if len(by_name) == 1:
@@ -385,7 +390,7 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             else:
                 counts["unmatched"] += 1
             continue
-        if method == "exact_stream_and_name":
+        if method.startswith("exact_stream"):
             counts["matched_by_stream"] += 1
         else:
             counts["matched_by_name"] += 1
