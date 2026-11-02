@@ -422,10 +422,11 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
     return None, "unmatched"
 
 
-def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[dict[str, Any]]) -> dict[str, Any]:
+def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[dict[str, Any]], genre_review_hold_ids: set[str] | None = None) -> dict[str, Any]:
+    genre_review_hold_ids = genre_review_hold_ids or set()
     counts = {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0,
-        "ambiguous": 0, "genres_filled": 0, "logos_filled": 0,
+        "ambiguous": 0, "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0,
         "favicon_rejected": 0, "homepage_favicon_filled": 0, "genre_unclassified": 0,
         "unclassified_tags": {},
         "updated_radio_names": [],
@@ -473,17 +474,20 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
 
         changed = False
         if not str(radio.get("genre") or "").strip():
-            genre = genre_from_tags(station.get("tags"))
-            if genre:
-                radio["genre"] = genre
-                counts["genres_filled"] += 1
-                changed = True
+            if str(radio.get("id") or "") in genre_review_hold_ids:
+                counts["genre_held_for_review"] += 1
             else:
-                counts["genre_unclassified"] += 1
-                for tag in str(station.get("tags") or "").split(","):
-                    normalized_tag = normalize_key(tag)
-                    if normalized_tag:
-                        unclassified_tags[normalized_tag] += 1
+                genre = genre_from_tags(station.get("tags"))
+                if genre:
+                    radio["genre"] = genre
+                    counts["genres_filled"] += 1
+                    changed = True
+                else:
+                    counts["genre_unclassified"] += 1
+                    for tag in str(station.get("tags") or "").split(","):
+                        normalized_tag = normalize_key(tag)
+                        if normalized_tag:
+                            unclassified_tags[normalized_tag] += 1
 
         if not str(radio.get("logo_url") or "").strip():
             station_key = str(
@@ -691,12 +695,28 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     manual_decision_counts = apply_reviewed_genre_decisions(
         original_radios, manual_document.get("decisions", [])
     )
+    manual_decision_counts = apply_reviewed_genre_decisions(
+        original_radios, manual_document.get("decisions", [])
+    )
+    genre_review_hold_ids = set()
+    for hold in manual_document.get("hold_for_review", []):
+        if not isinstance(hold, dict) or not hold.get("radio_id") or not hold.get("radio_name") or not hold.get("reason"):
+            continue
+        target = next((item for item in original_radios if str(item.get("id") or "") == str(hold["radio_id"])), None)
+        evidence = hold.get("evidence")
+        if (
+            target
+            and str(target.get("name") or "").strip() == str(hold["radio_name"]).strip()
+            and isinstance(evidence, list)
+            and any(isinstance(item, dict) and item.get("source") and item.get("url") for item in evidence)
+        ):
+            genre_review_hold_ids.add(str(hold["radio_id"]))
     # Always clone before applying metadata so a Radio Browser-only fallback is
     # still detected as a catalog mutation when the stream-reference fetch fails.
     merged, merge_counts = merge_radio_records(original_radios, collected)
-    metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations) if radio_browser_stations else {
+    metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations, genre_review_hold_ids) if radio_browser_stations else {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0, "ambiguous": 0,
-        "genres_filled": 0, "logos_filled": 0, "favicon_rejected": 0,
+        "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0, "favicon_rejected": 0,
         "genre_unclassified": 0, "unclassified_tags": {}, "updated_radio_names": [],
     }
     catalog_mutated = merged != catalog_before
@@ -715,6 +735,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "radio_browser_metadata": metadata_counts,
         "genre_normalization": {"updated": genre_normalized},
         "manual_genre_decisions": manual_decision_counts,
+        "genre_review_hold": {"count": len(genre_review_hold_ids), "radio_ids": sorted(genre_review_hold_ids)},
         "failures": failures,
         "safety": [
             "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",

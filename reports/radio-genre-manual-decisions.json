@@ -65,25 +65,6 @@
       ]
     },
     {
-      "radio_id": "radio.novabrasil-fm-89-5",
-      "radio_name": "Novabrasil FM 89.5",
-      "assigned_genre": "MPB",
-      "decision": "manual_verified",
-      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
-      "evidence": [
-        {
-          "source": "Novabrasil — Sobre",
-          "url": "https://novabrasilfm.com.br/sobre",
-          "reported_genre": "MPB"
-        },
-        {
-          "source": "Novabrasil — site oficial",
-          "url": "https://novabrasilfm.com.br/",
-          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
-        }
-      ]
-    },
-    {
       "radio_id": "radio.novabrasil-fm-89-7",
       "radio_name": "Novabrasil FM 89.7",
       "assigned_genre": "MPB",
@@ -284,6 +265,25 @@
           "source": "Rádio Regional Net — site oficial",
           "url": "https://www.radioregional.net/",
           "reported_genre": "Música sul-rio-grandense, programação regional e folclore"
+        }
+      ]
+    }
+  ],
+  "hold_for_review": [
+    {
+      "radio_id": "radio.novabrasil-fm-89-5",
+      "radio_name": "Novabrasil FM 89.5",
+      "reason": "A grade atual do site oficial lista Novaparadiso RJ 89.5, não Novabrasil; a página de diretório da antiga Novabrasil 89.5 aparece arquivada. A identidade/continuidade da marca e a classificação atual não estão suficientemente confirmadas. Preservar emissora e stream, mas não inferir gênero.",
+      "evidence": [
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "A frequência 89.5 no Rio aparece como Novaparadiso RJ, não Novabrasil"
+        },
+        {
+          "source": "Radios.com.br — Nova Brasil 89.5 FM",
+          "url": "https://www.radios.com.br/aovivo/radio-nova-brasil-895-fm/72019",
+          "reported_genre": "Registro arquivado; não foi encontrada transmissão ao vivo"
         }
       ]
     }

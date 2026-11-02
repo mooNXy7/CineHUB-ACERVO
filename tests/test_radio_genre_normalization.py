@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from scripts.update_radio_catalog import apply_reviewed_genre_decisions, canonical_genre, genre_from_tags, update
+from scripts.update_radio_catalog import apply_radio_browser_metadata, apply_reviewed_genre_decisions, canonical_genre, genre_from_tags, update
 
 
 class RadioGenreNormalizationTests(unittest.TestCase):
@@ -71,6 +71,27 @@ class RadioGenreNormalizationTests(unittest.TestCase):
         self.assertEqual(counts["identity_mismatch"], 1)
         self.assertEqual(counts["missing_radio"], 1)
         self.assertEqual(counts["invalid_decision"], 1)
+
+
+    def test_radio_browser_does_not_assign_genre_to_identity_hold(self):
+        radio = {
+            "id": "radio.hold",
+            "name": "Novabrasil FM 89.5",
+            "stream_url": "https://stream.example/live",
+            "logo_url": "https://stream.example/logo.png",
+            "genre": None,
+        }
+        station = {
+            "stationuuid": "station-1",
+            "name": "Novabrasil FM",
+            "url": "https://stream.example/live",
+            "url_resolved": "https://stream.example/live",
+            "tags": "mpb,brazilian music",
+        }
+        counts = apply_radio_browser_metadata([radio], [station], {"radio.hold"})
+        self.assertIsNone(radio["genre"])
+        self.assertEqual(counts["genre_held_for_review"], 1)
+        self.assertEqual(counts["genres_filled"], 0)
 
 
 if __name__ == "__main__":

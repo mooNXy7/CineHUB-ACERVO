@@ -2207,7 +2207,7 @@
       "name": "Novabrasil FM 89.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RIOAAC.aac",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": "MPB",
+      "genre": null,
       "source_id": "upstream-import"
     },
     {
