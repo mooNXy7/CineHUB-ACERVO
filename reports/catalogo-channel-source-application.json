@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "report_type": "applied_network_confirmed_catalogo_hls_sources",
+  "generated_at": "2026-11-02T20:00:24.963859+00:00",
+  "catalog_mutated": false,
+  "counts": {
+    "candidate_channels": 151,
+    "channels_updated": 0,
+    "hls_sources_added": 0,
+    "skipped_channel_missing": 0,
+    "skipped_channel_has_source": 0,
+    "skipped_no_healthy_hls": 151,
+    "skipped_unsafe": 0
+  },
+  "updated_channel_ids": [],
+  "safety": [
+    "Only exact-name channel candidates from the authorized catalogo.txt report are considered.",
+    "Only HTTPS sources that returned an HLS #EXTM3U playlist are applied.",
+    "Only channels with an empty sources array are updated; existing sources and metadata are never overwritten.",
+    "Only safe User-Agent and HTTPS Referer are copied; no authorization, cookie, or DRM data is imported.",
+    "A successful playlist probe is not a physical TV playback test; stream_status is not marked healthy."
+  ]
+}

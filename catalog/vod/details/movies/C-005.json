@@ -1,1 +1,3835 @@
-[{"id":"movie-casa-comigo-cara","title":"Casa Comigo, Cara","type":"movie","year":null,"poster_url":"/9PP5gusHiYiu22dFiBi6WFrC3jw.jpg","genres":["Comédia"],"tmdb_id":"432613","sources":[{"url":"https://mgeb.top/embed/432613","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/432613","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casa-comigo","title":"Casa Comigo?","type":"movie","year":null,"poster_url":"/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg","genres":["Romance","Comédia"],"tmdb_id":"25195","sources":[{"url":"https://mgeb.top/embed/25195","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/25195","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Comigo%20_2010_%20_tmdb_25195_d580a9db.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"25195","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446662","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645810","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-comigo-2010","title":"Casa Comigo? (2010)","type":"movie","year":"2010","poster_url":"/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg","genres":["Romance","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/25195","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/25195","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-comigo-2011","title":"Casa comigo? (2011)","type":"movie","year":"2011","poster_url":"/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg","genres":["Romance","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/25195","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/25195","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-da-mae-joana-2008","title":"Casa da Mae Joana (2008)","type":"movie","year":"2008","poster_url":"/kGUoy9Cb4KzAoRKp1dsxLcYV6Li.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/16821","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/16821","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-da-mae-joana-2","title":"Casa da Mae Joana 2","type":"movie","year":null,"poster_url":"/9jpaOJq1SZeABRRyXYFpL7VO7Cs.jpg","genres":["Comédia"],"tmdb_id":"227106","sources":[{"url":"https://mgeb.top/embed/227106","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/227106","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"227106","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460210","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651923","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-da-mae-joana-2-2013","title":"Casa da Mae Joana 2 (2013)","type":"movie","year":"2013","poster_url":"/9jpaOJq1SZeABRRyXYFpL7VO7Cs.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/227106","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/227106","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-da-mae-joana","title":"Casa da Mãe Joana","type":"movie","year":null,"poster_url":"/kGUoy9Cb4KzAoRKp1dsxLcYV6Li.jpg","genres":["Comédia"],"tmdb_id":"16821","sources":[{"url":"https://mgeb.top/embed/16821","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/16821","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"16821","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450930","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460163","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651922","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884943","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-das-armadilhas","title":"Casa das Armadilhas","type":"movie","year":null,"poster_url":"/xBtHKABg6AFGLh9OsHxnEYY1BN2.jpg","genres":["Ação"],"tmdb_id":"64260","sources":[],"provider_refs":[{"provider":"18","ref":"64260","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-das-armadilhas-1982","title":"Casa das Armadilhas (1982)","type":"movie","year":"1982","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20das%20Armadilhas%20_1982_%20_tmdb_64260_5546e258.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-das-trevas-2","title":"Casa das Trevas 2","type":"movie","year":null,"poster_url":"/ylMdiIu3CGFHd3yvvd0DqHTKcCl.jpg","genres":["Terror","TV"],"tmdb_id":"547131","sources":[{"url":"https://mgeb.top/embed/547131","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/547131","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20das%20Trevas%202%20_2018_%20_tmdb_547131_3d225dc0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"547131","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451749","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655442","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-das-trevas-2-2018","title":"Casa das Trevas 2 (2018)","type":"movie","year":"2018","poster_url":"/ylMdiIu3CGFHd3yvvd0DqHTKcCl.jpg","genres":["Terror","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/547131","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/547131","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-de-antiguidades","title":"Casa de Antiguidades","type":"movie","year":null,"poster_url":"/wsT4HzutHg8hfKdNmaQ4IE3v4kp.jpg","genres":["Fantasia","Drama"],"tmdb_id":"617097","sources":[{"url":"https://mgeb.top/embed/617097","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/617097","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Antiguidades%20_2022_%20_tmdb_617097_372cb9fb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"617097","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458677","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646871","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-de-antiguidades-2022","title":"Casa de Antiguidades (2022)","type":"movie","year":"2022","poster_url":"/wsT4HzutHg8hfKdNmaQ4IE3v4kp.jpg","genres":["Fantasia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/617097","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/617097","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-de-areia","title":"Casa de Areia","type":"movie","year":null,"poster_url":"/6pCen50dO4Eg2cMWBoGXGMrdPWX.jpg","genres":["Drama"],"tmdb_id":"29262","sources":[{"url":"https://mgeb.top/embed/29262","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/29262","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Areia%20_2005_%20_tmdb_29262_c2f1fea6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"29262","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451085","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884975","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-de-dinamite-2025","title":"Casa de Dinamite (2025)","type":"movie","year":"2025","poster_url":"/rXo2FotSlBMg1MynsV276QIskN9.jpg","genres":["Suspense","Drama"],"tmdb_id":"1290159","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/7e3bcb44092b9e8999f2a57b7c5b0339/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1290159","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1290159","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Dinamite%20_2025_%20_tmdb_1290159_92117c89.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1290159","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445517","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-casa-de-ga-039-a-2024","title":"Casa de Ga&#039;a (2024)","type":"movie","year":"2024","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Ga_a%20_2024_%20_tmdb_1311550_4e98df2a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-de-gaa-2024","title":"Casa de Gaa (2024)","type":"movie","year":"2024","poster_url":"/jtDAIoVst9Bj1VRcQKY2fj52VYe.jpg","genres":["Ação","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1311550","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1311550","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-de-ga-a","title":"Casa de Ga’a","type":"movie","year":null,"poster_url":"/jtDAIoVst9Bj1VRcQKY2fj52VYe.jpg","genres":["Ação","História"],"tmdb_id":"1311550","sources":[{"url":"https://mgeb.top/embed/1311550","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1311550","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1311550","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449722","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454112","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648381","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casa-do-carvalho-o-filme","title":"Casa do Carvalho - O Filme","type":"movie","year":null,"poster_url":"/ueYgWeUbaNTam7mtG8AXH9vt6Hk.jpg","genres":["Comédia","Drama"],"tmdb_id":"1128585","sources":[{"url":"https://mgeb.top/embed/1128585","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1128585","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1128585","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460782","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650288","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-do-carvalho-o-filme-2023","title":"Casa do Carvalho O Filme (2023)","type":"movie","year":"2023","poster_url":"/ueYgWeUbaNTam7mtG8AXH9vt6Hk.jpg","genres":["Comédia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1128585","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1128585","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-do-medo","title":"Casa do Medo","type":"movie","year":null,"poster_url":"/xjZa1WejtaTzokIEWqvEuAFAGWI.jpg","genres":["Suspense","Terror"],"tmdb_id":"235046","sources":[],"provider_refs":[{"provider":"18","ref":"235046","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-do-medo-2013","title":"Casa do Medo (2013)","type":"movie","year":"2013","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20do%20Medo%20_2013_%20_tmdb_235046_5a57d736.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-dos-sonhos","title":"Casa dos Sonhos","type":"movie","year":null,"poster_url":"/amWdiHrpieAAetf7Nxo1wkhwCgI.jpg","genres":["Documentário","TV"],"tmdb_id":"1129465","sources":[],"provider_refs":[{"provider":"18","ref":"1129465","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-dos-sonhos-2015","title":"Casa dos Sonhos (2015)","type":"movie","year":"2015","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20dos%20Sonhos%20_2015_%20_tmdb_1129465_769ef4d9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-encantada","title":"Casa Encantada","type":"movie","year":null,"poster_url":"/iiyOSugKVhuBCSVroVvvR0nLQaQ.jpg","genres":["Documentário"],"tmdb_id":"688730","sources":[],"provider_refs":[{"provider":"18","ref":"688730","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-encantada-2018","title":"Casa Encantada (2018)","type":"movie","year":"2018","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Encantada%20_2018_%20_tmdb_688730_0d61d177.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-escura-2014","title":"Casa Escura (2014)","type":"movie","year":"2014","poster_url":"/Y0WxJCKH2Hgr7yrGtN97kgo9ne.jpg","genres":["Terror","Suspense"],"tmdb_id":"257093","sources":[{"url":"https://mgeb.top/embed/257093","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/257093","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Escura%20_2014_%20_tmdb_257093_c2d1ceef.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"257093","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-fantasma-2017","title":"Casa Fantasma (2017)","type":"movie","year":"2017","poster_url":"/kclTPJ6sMaWyRe7Zs71YYA3Wq44.jpg","genres":["Terror","Suspense","Mistério"],"tmdb_id":"359228","sources":[{"url":"https://mgeb.top/embed/359228","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/359228","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Fantasma%20_2017_%20_tmdb_359228_cc13b30f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"359228","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casa-grande","title":"Casa Grande","type":"movie","year":null,"poster_url":"/mE9E4nsGM91Cf4b1s6nOOdUAE9P.jpg","genres":["Drama","Faroeste"],"tmdb_id":"1469164","sources":[{"url":"https://mgeb.top/embed/1469164","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1469164","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/268100","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/268100","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Grande%20_2014_%20_tmdb_268100_59c73f0b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casa-grande-2014","title":"Casa Grande (2014)","type":"movie","year":"2014","poster_url":"/hNsBCjQ3p1RSxZtEj9t38WSLAEV.jpg","genres":["Drama"],"tmdb_id":"268100","sources":[{"url":"https://mgeb.top/embed/268100","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/268100","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/1469164","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1469164","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"268100","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casa-gucci","title":"Casa Gucci","type":"movie","year":null,"poster_url":"/dAPdK3L2STpHo4DFKwtL2gdo89L.jpg","genres":["Drama","Crime","História"],"tmdb_id":"644495","sources":[{"url":"https://mgeb.top/embed/644495","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/644495","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"644495","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457746","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652931","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-casa-gucci-2021","title":"Casa Gucci (2021)","type":"movie","year":"2021","poster_url":"/dAPdK3L2STpHo4DFKwtL2gdo89L.jpg","genres":["Drama","Crime","História"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/644495","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/644495","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casa-se-comigo-quando-a-neve-derreter","title":"Casa se Comigo Quando a Neve Derreter","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casa-vazia","title":"Casa vazia","type":"movie","year":null,"poster_url":"/gvzoa4cz66ACqOUS79CnKgasaRM.jpg","genres":["Drama","Faroeste","Mistério"],"tmdb_id":"916102","sources":[{"url":"https://mgeb.top/embed/916102","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/916102","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2444066","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casablanca","title":"Casablanca","type":"movie","year":null,"poster_url":"/3XxWPlKMfSTDCpWRgjljm5Xw5zX.jpg","genres":["Drama","Romance"],"tmdb_id":"289","sources":[{"url":"https://mgeb.top/embed/289","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/289","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casablanca%20_1943_%20_tmdb_289_c1baf316.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"289","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"897098","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casablanca-1943","title":"Casablanca (1943)","type":"movie","year":"1943","poster_url":"/3XxWPlKMfSTDCpWRgjljm5Xw5zX.jpg","genres":["Drama","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/289","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/289","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casada-acidentalmente-com-um-bilionario","title":"CASADA ACIDENTALMENTE COM UM BILIONARIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-a-superestrela-aos-40","title":"CASADA COM A SUPERESTRELA AOS 40","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-o-chefe-do-meu-ex-marido","title":"Casada Com O Chefe Do Meu Ex Marido","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-o-inimigo-do-marido","title":"CASADA COM O INIMIGO DO MARIDO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-o-meu-assassino","title":"CASADA COM O MEU ASSASSINO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-o-meu-pesadelo","title":"CASADA COM O MEU PESADELO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casada-com-um-tiozao-quente","title":"CASADA COM UM TIOZAO QUENTE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casado-a-primeira-vista","title":"Casado a Primeira Vista","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casado-acidentalmente-com-o-bilionario-secreto","title":"CASADO ACIDENTALMENTE COM O BILIONARIO SECRETO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casado-insta","title":"CASADO INSTA","type":"movie","year":null,"poster_url":"/mKjXNWk2XDebMD7JMeag1Tx5Ltq.jpg","genres":[],"tmdb_id":"1542254","sources":[{"url":"https://mgeb.top/embed/1542254","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1542254","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casado-divorciado-reunido","title":"CASADO, DIVORCIADO, REUNIDO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casados-mas-nem-tanto","title":"Casados (mas nem tanto)","type":"movie","year":null,"poster_url":"/ozCWKIQisOfWFgJDLMggIeEFTLE.jpg","genres":["Comédia","Romance"],"tmdb_id":"585062","sources":[],"provider_refs":[{"provider":"18","ref":"585062","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casados-mas-nem-tanto-2019","title":"Casados (mas nem tanto) (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casados%20_mas%20nem%20tanto%20_2019_%20_tmdb_585062_672f346c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casados-num-flash-totalmente-mimados","title":"Casados Num Flash Totalmente Mimados","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casal-de-fachada","title":"Casal de Fachada","type":"movie","year":null,"poster_url":"/prYUfVvnq9tAMP4LRduyoQtQIjQ.jpg","genres":["Comédia","Romance"],"tmdb_id":"810171","sources":[{"url":"https://mgeb.top/embed/810171","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/810171","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casal%20de%20Fachada%20_2022_%20_tmdb_810171_726e6882.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"810171","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461101","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650676","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casal-de-fachada-2022","title":"Casal de Fachada (2022)","type":"movie","year":"2022","poster_url":"/prYUfVvnq9tAMP4LRduyoQtQIjQ.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/810171","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/810171","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casal-de-poder-supremo","title":"CASAL DE PODER SUPREMO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casal-improvavel","title":"Casal Improvavel","type":"movie","year":null,"poster_url":"/wt050OjvLsiP2pS39CvsKuNLwcp.jpg","genres":["Comédia","Romance"],"tmdb_id":"459992","sources":[{"url":"https://mgeb.top/embed/459992","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/459992","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casal%20Improv_vel%20_2019_%20_tmdb_459992_93818a0e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"459992","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461637","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651556","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casal-improvavel-2019","title":"Casal Improvavel (2019)","type":"movie","year":"2019","poster_url":"/wt050OjvLsiP2pS39CvsKuNLwcp.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/459992","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/459992","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-acidental-com-meu-ceo-pobre","title":"CASAMENTO ACIDENTAL COM MEU CEO POBRE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-casamento-acidental-com-o-ceo","title":"Casamento Acidental com o CEO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-apaixonado","title":"Casamento Apaixonado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-casamento-ardente","title":"CASAMENTO ARDENTE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-armado","title":"Casamento Armado","type":"movie","year":null,"poster_url":"/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg","genres":["Ação","Comédia","Romance"],"tmdb_id":"758009","sources":[{"url":"https://mgeb.top/embed/758009","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/758009","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Armado%20_2022_%20_tmdb_758009_748ab901.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"758009","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454617","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"648632","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-casamento-armado-2022","title":"Casamento Armado (2022)","type":"movie","year":"2022","poster_url":"/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg","genres":["Ação","Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/758009","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/758009","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-as-avessas-2010","title":"Casamento as Avessas (2010)","type":"movie","year":"2010","poster_url":"/snPOx2lI53IynPLmRe55PsEIxjF.jpg","genres":["Comédia","Drama"],"tmdb_id":"144539","sources":[{"url":"https://mgeb.top/embed/144539","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/144539","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20_s%20Avessas%20_2010_%20_tmdb_144539_71a62c85.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"144539","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casamento-as-cegas-brasil-depois-do-altar-2023","title":"Casamento as Cegas Brasil Depois do Altar (2023)","type":"movie","year":"2023","poster_url":"/qRNPA0pjTNEZuLEuhF1CeOzpwWS.jpg","genres":["Romance","Documentário"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1220450","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1220450","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-as-pressas-o-amor-de-andre-e-bianca","title":"CASAMENTO AS PRESSAS O AMOR DE ANDRE E BIANCA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-australiano","title":"Casamento Australiano","type":"movie","year":null,"poster_url":"/5LWuB9sNBqcz8z4U13AMxYpeNTw.jpg","genres":["Comédia"],"tmdb_id":"499573","sources":[{"url":"https://mgeb.top/embed/499573","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/499573","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Australiano%20_2019_%20_tmdb_499573_6b8de387.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"499573","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460704","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650891","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casamento-australiano-2019","title":"Casamento Australiano (2019)","type":"movie","year":"2019","poster_url":"/5LWuB9sNBqcz8z4U13AMxYpeNTw.jpg","genres":["Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/499573","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/499573","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-blindado-2014","title":"Casamento Blindado (2014)","type":"movie","year":"2014","poster_url":"/3jkd6GgbPr1s5bNNGGG1BHPsCxP.jpg","genres":["Comédia","Romance"],"tmdb_id":"636695","sources":[{"url":"https://mgeb.top/embed/636695","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/636695","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-blindado-um-contrato-de-natal","title":"CASAMENTO BLINDADO UM CONTRATO DE NATAL","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-contra-a-corrente","title":"Casamento Contra a Corrente","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-de-mentira-com-o-bilionario","title":"Casamento de Mentira com o Bilionario","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-de-natal-2021","title":"Casamento de Natal (2021)","type":"movie","year":"2021","poster_url":"/sVPDrDm225l1M836kblEZEjKBRr.jpg","genres":["Romance","TV","Drama","Fantasia"],"tmdb_id":"739518","sources":[{"url":"https://mgeb.top/embed/739518","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/739518","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Um%20Casamento%20de%20Natal%20_2020_%20_tmdb_739518_422e3369.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"739518","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-casamento-de-repente-filhos-do-segredo","title":"Casamento De Repente Filhos Do Segredo","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-de-verdade-2015","title":"Casamento de Verdade (2015)","type":"movie","year":"2015","poster_url":"/r5sYGmk3qThqPCCKShho1SzzhFk.jpg","genres":["Comédia","Drama"],"tmdb_id":"342474","sources":[{"url":"https://mgeb.top/embed/342474","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/342474","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-e-confusao","title":"Casamento e Confusão","type":"movie","year":null,"poster_url":"/h3lncTnK86R8XylpXgpe0JfU1wm.jpg","genres":["Romance","Comédia","Família"],"tmdb_id":"1248454","sources":[{"url":"https://mgeb.top/embed/1248454","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1248454","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-em-chamas-2017","title":"CASAMENTO EM CHAMAS (2017)","type":"movie","year":"2017","poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-casamento-em-cuba-2019","title":"Casamento em Cuba (2019)","type":"movie","year":"2019","poster_url":"/6PF2yTLShaenUceuWC0GwiO2Hz0.jpg","genres":["Comédia","Romance"],"tmdb_id":"541642","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/ae6b439d553e1fe20c53f9b40f0e3e15/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/541642","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/541642","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"541642","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casamento-em-familia","title":"Casamento em Família","type":"movie","year":null,"poster_url":"/1vi88La90aTwEtsRMNqXNwtTXn3.jpg","genres":["Comédia","Romance","Drama"],"tmdb_id":"972230","sources":[{"url":"https://mgeb.top/embed/972230","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/972230","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20em%20Fam_lia%20_2023_%20_tmdb_972230_3f91eabb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"972230","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460853","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650439","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casamento-em-familia-2023","title":"Casamento em Família (2023)","type":"movie","year":"2023","poster_url":"/1vi88La90aTwEtsRMNqXNwtTXn3.jpg","genres":["Comédia","Romance","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/972230","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/972230","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-errado-noivo-destinado","title":"CASAMENTO ERRADO, NOIVO DESTINADO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-forcado-a-paixao-do-tiago","title":"Casamento Forcado A Paixao do Tiago","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-forcado-com-meu-chefe","title":"CASAMENTO FORCADO COM MEU CHEFE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-grego","title":"Casamento Grego","type":"movie","year":null,"poster_url":"/7InkKCZeGemG0MVUi0JKJkJdb8s.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":"8346","sources":[{"url":"https://mgeb.top/embed/8346","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/8346","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%20_2002_%20_tmdb_8346_a0d299e0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"8346","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461169","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651361","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casamento-grego-2002","title":"Casamento Grego (2002)","type":"movie","year":"2002","poster_url":"/7InkKCZeGemG0MVUi0JKJkJdb8s.jpg","genres":["Comédia","Drama","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/8346","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/8346","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-grego-2","title":"Casamento Grego 2","type":"movie","year":null,"poster_url":"/5s5e5xTzUcpnRmFnPT1zXFnaJ5z.jpg","genres":["Comédia","Romance"],"tmdb_id":"302688","sources":[{"url":"https://mgeb.top/embed/302688","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/302688","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%202%20_2016_%20_tmdb_302688_5fa3efc1.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"302688","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461522","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651360","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casamento-grego-2-2016","title":"Casamento Grego 2 (2016)","type":"movie","year":"2016","poster_url":"/5s5e5xTzUcpnRmFnPT1zXFnaJ5z.jpg","genres":["Comédia","Romance"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/302688","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/302688","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-grego-3-2023","title":"Casamento Grego 3 (2023)","type":"movie","year":"2023","poster_url":"/hVmsjW1QEIJ8ixG0H6ymqBqaxEc.jpg","genres":["Comédia","Romance"],"tmdb_id":"1001811","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/bf61cab3be218f93eb1da71c9f02605e/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1001811","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1001811","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%203%20_2023_%20_tmdb_1001811_d5a62685.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1001811","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449579","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460397","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650245","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-casamento-imprevisto-com-meu-caso-de-uma-noite","title":"CASAMENTO IMPREVISTO COM MEU CASO DE UMA NOITE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-letal-nos-eua","title":"Casamento Letal nos EUA","type":"movie","year":null,"poster_url":"/ajoYbGEbI7Rffj1P695iAEmDUo7.jpg","genres":["Crime","Documentário"],"tmdb_id":"1466938","sources":[{"url":"https://mgeb.top/embed/1466938","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1466938","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Letal%20nos%20EUA%20_2025_%20_tmdb_1466938_6704ee09.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1466938","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453246","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447927","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"846487","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-casamento-mortal-2023","title":"Casamento Mortal (2023)","type":"movie","year":"2023","poster_url":"/jGlSDr8ETshHHJ1soHPkY7etPff.jpg","genres":["Crime","Drama","Suspense","TV"],"tmdb_id":"1082850","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/59adeb33a8e7c47bd1ef5b9511b09471/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1082850","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1082850","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Mortal%20_2023_%20_tmdb_1082850_80433094.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1082850","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450021","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644830","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-casamento-na-costa-rica-2025","title":"Casamento na Costa Rica (2025)","type":"movie","year":"2025","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20na%20Costa%20Rica%20_2025_%20_tmdb_1310505_b6759449.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas-2","title":"CASAMENTO OBRIGATORIO ME VIRO COM TRES DAMAS PERDIDAS! 2","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas","title":"Casamento Obrigatório? Me Viro com Três Damas Perdidas!","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas-ii","title":"Casamento Obrigatório? Me Viro com Três Damas Perdidas! II","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-por-contrato-1928","title":"CASAMENTO POR CONTRATO (1928)","type":"movie","year":"1928","poster_url":"/nCMadbMP1s2HutD1WSUF9xwzavZ.jpg","genres":["Drama"],"tmdb_id":"1582385","sources":[{"url":"https://mgeb.top/embed/1582385","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1582385","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-por-vinganca-doce-amor","title":"CASAMENTO POR VINGANCA, DOCE AMOR","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-rapido-com-o-ceo-bilionario","title":"Casamento Rapido Com O Ceo Bilionario","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-relampago","title":"CASAMENTO RELAMPAGO","type":"movie","year":null,"poster_url":"/4k3pwqUNLNo807G7GiPghkrRsGB.jpg","genres":["Romance","TV"],"tmdb_id":"778997","sources":[{"url":"https://mgeb.top/embed/778997","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/778997","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-relampago-com-esposa-legista","title":"CASAMENTO RELAMPAGO COM ESPOSA LEGISTA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-casamento-relampago-com-um-homem-de-fortuna","title":"CASAMENTO RELAMPAGO COM UM HOMEM DE FORTUNA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1}]
+[
+  {
+    "id": "movie-casa-comigo-cara",
+    "title": "Casa Comigo, Cara",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/9PP5gusHiYiu22dFiBi6WFrC3jw.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "432613",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/432613",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/432613",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "367030",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "367030",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "367029",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "367029",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Todos na vila de Yassine no Marrocos contribuíram para enviá-lo para estudar arquitetura em Paris. Ele teria um futuro brilhante, mas é inesperadamente reprovado em suas provas e perde seu visto estudantil. Para não desapontar sua família, decide se casar com seu melhor amigo Fred para obter documentos de imigração. Mas um inspetor desconfiado está disposto a descobrir seu casamento falso.",
+    "imdb_id": "tt6021478"
+  },
+  {
+    "id": "movie-casa-comigo",
+    "title": "Casa Comigo?",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "25195",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/25195",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/25195",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Comigo%20_2010_%20_tmdb_25195_d580a9db.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "25195",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446662",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "21552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "21552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Anna (Amy Adams) viaja a Dublin, Irlanda, para pedir o namorado Jeremy (Adam Scott) em casamento. Segundo a tradição local, o homem não pode recusar um pedido feito no dia 29 de fevereiro. Após contratempos na viagem, Anna vê-se obrigada a pegar carona com o charmoso e grosseiro Declan (Matthew Goode), dono de uma hospedaria. Logo, o que deveria ser uma simples travessia ganha rumos inesperados.",
+    "imdb_id": "tt1216492"
+  },
+  {
+    "id": "movie-casa-comigo-2010",
+    "title": "Casa Comigo? (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/25195",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/25195",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1298694",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-comigo-2011",
+    "title": "Casa comigo? (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/fsKP38fESXwpr8XbEuhnzJc4Yqp.jpg",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ],
+    "tmdb_id": "526189",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/25195",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/25195",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310623",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Numa deliciosa tarde de verão em Paris, na paisagem, o cartão postal mais romântico: a catedral de Notre Dame. SE entrepondo a esta visão: uma ponte cheia de cadeados, não pra prender motos. Velôs ou cachorrinhos, mas cadeados para prender o amor, aquele momento de amor. O Sena, os passantes, os desejos, os barcos. Os cadeados – uma obra de arte espontâneas e crescente, multiplicadora e ritualística."
+  },
+  {
+    "id": "movie-casa-da-mae-joana-2008",
+    "title": "Casa da Mae Joana (2008)",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/kGUoy9Cb4KzAoRKp1dsxLcYV6Li.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/16821",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/16821",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301519",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-da-mae-joana-2",
+    "title": "Casa da Mae Joana 2",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/9jpaOJq1SZeABRRyXYFpL7VO7Cs.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "227106",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/227106",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/227106",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "227106",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460210",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651923",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20551",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20551",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Montanha, Juca e PR são três grandes amigos que só se metem em confusões. Agora, o jornalista é um escritor bem-sucedido e tem muito a comemorar com o sucesso do seu livro Casa da Mãe Joana. Em contrapartida, Juca acaba preso por participar de uma maratona de cannabis, e PR usa, mais uma vez, seus encantos para tirar vantagem de uma viúva rica.",
+    "imdb_id": "tt3158456"
+  },
+  {
+    "id": "movie-casa-da-mae-joana-2-2013",
+    "title": "Casa da Mae Joana 2 (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/9jpaOJq1SZeABRRyXYFpL7VO7Cs.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/227106",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/227106",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-da-mae-joana",
+    "title": "Casa da Mãe Joana",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/kGUoy9Cb4KzAoRKp1dsxLcYV6Li.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "16821",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/16821",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/16821",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "16821",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450930",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460163",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651922",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884943",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "333429",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "333429",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Quatro amigos que só pensam em curtir a vida, com grandes farras, mulheres e bebidas, são surpreendidos com uma ação de despejo. Precisando de dinheiro, a turma é obrigada a pensar naquilo que mais abominam: trabalhar! A confusão está formada quando cada um busca um meio fácil de conseguir dinheiro, com o mínimo de esforço. Os dias se passam as confusões hilárias só aumentam!",
+    "imdb_id": "tt0831904"
+  },
+  {
+    "id": "movie-casa-das-armadilhas",
+    "title": "Casa das Armadilhas",
+    "type": "movie",
+    "year": "1982",
+    "poster_url": "/xBtHKABg6AFGLh9OsHxnEYY1BN2.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "64260",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "64260",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um príncipe conspira para uma rebelião, e guarda uma série de tesouros reais em sua \"Casa das Armadilhas\". Nisso, um oficial ordena que agentes se infiltrem entre os conspiradores para recuperar os artefatos e revelar o complô.",
+    "imdb_id": "tt0082174"
+  },
+  {
+    "id": "movie-casa-das-armadilhas-1982",
+    "title": "Casa das Armadilhas (1982)",
+    "type": "movie",
+    "year": "1982",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20das%20Armadilhas%20_1982_%20_tmdb_64260_5546e258.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-das-trevas-2",
+    "title": "Casa das Trevas 2",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/ylMdiIu3CGFHd3yvvd0DqHTKcCl.jpg",
+    "genres": [
+      "Terror",
+      "TV"
+    ],
+    "tmdb_id": "547131",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/547131",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/547131",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20das%20Trevas%202%20_2018_%20_tmdb_547131_3d225dc0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "547131",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451749",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "22005",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "22005",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O casal Kelly e Brian está passando por problemas conjugais. Ainda enquanto fazem terapia de casal, os dois decidem que é hora de tentar apimentar a relação e recomeçar a vida. Para isso, concluem que a melhor opção é deixar para trás a vida na cidade e se mudar para a zona rural, então optam por comprar uma propriedade com uma casa construída há mais de cem anos. O problema é que essa casa é assombrada por uma força sombria capaz de provocar uma enorme tragédia.",
+    "imdb_id": "tt8841060"
+  },
+  {
+    "id": "movie-casa-das-trevas-2-2018",
+    "title": "Casa das Trevas 2 (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/ylMdiIu3CGFHd3yvvd0DqHTKcCl.jpg",
+    "genres": [
+      "Terror",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/547131",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/547131",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310659",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-de-antiguidades",
+    "title": "Casa de Antiguidades",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/wsT4HzutHg8hfKdNmaQ4IE3v4kp.jpg",
+    "genres": [
+      "Fantasia",
+      "Drama"
+    ],
+    "tmdb_id": "617097",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/617097",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/617097",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Antiguidades%20_2022_%20_tmdb_617097_372cb9fb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "617097",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458677",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646871",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "100353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "100353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Cristovam sai do interior do Brasil em busca de melhores condições de trabalho no sul. Mas o contraste cultural e étnico da nova morada em relação à sua terra natal provoca no vaqueiro um processo de solidão e perda de identidade. O ambiente tradicionalista, conservador e violento o distancia da própria realidade. Sem saída, em um processo espiritual, ele renasce para enfrentar o presente.",
+    "imdb_id": "tt11640118"
+  },
+  {
+    "id": "movie-casa-de-antiguidades-2022",
+    "title": "Casa de Antiguidades (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/wsT4HzutHg8hfKdNmaQ4IE3v4kp.jpg",
+    "genres": [
+      "Fantasia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/617097",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/617097",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1302702",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-de-areia",
+    "title": "Casa de Areia",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/6pCen50dO4Eg2cMWBoGXGMrdPWX.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "29262",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/29262",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/29262",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Areia%20_2005_%20_tmdb_29262_c2f1fea6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "29262",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451085",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884975",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "320221",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "320221",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "1910. O português Vasco leva sua esposa grávida Áurea e a mãe dela, Dona Maria, em busca de um sonho: viver em terras prósperas, recentemente compradas por ele. O sonho se transforma em pesadelo quando, após uma longa e cansativa viagem junto a uma caravana, o trio descobre que as terras estão em um lugar totalmente inóspito, rodeado de areia por todos os lados e sem nenhum indício de civilização por perto.",
+    "imdb_id": "tt0373747"
+  },
+  {
+    "id": "movie-casa-de-dinamite-2025",
+    "title": "Casa de Dinamite (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/rXo2FotSlBMg1MynsV276QIskN9.jpg",
+    "genres": [
+      "Suspense",
+      "Drama"
+    ],
+    "tmdb_id": "1290159",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/7e3bcb44092b9e8999f2a57b7c5b0339/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1290159",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1290159",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Dinamite%20_2025_%20_tmdb_1290159_92117c89.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1290159",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445517",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1313942",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "349766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "349766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "349753",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "349753",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1313941",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "349752",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "349752",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt32376165",
+    "overview": "Depois que um míssil sem autoria identificada é lançado contra os Estados Unidos, começa uma corrida contra o tempo para encontrar o responsável e preparar uma resposta."
+  },
+  {
+    "id": "movie-casa-de-ga-039-a-2024",
+    "title": "Casa de Ga'a (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20de%20Ga_a%20_2024_%20_tmdb_1311550_4e98df2a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-de-gaa-2024",
+    "title": "Casa de Gaa (2024)",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/jtDAIoVst9Bj1VRcQKY2fj52VYe.jpg",
+    "genres": [
+      "Ação",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1311550",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1311550",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309185",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-de-ga-a",
+    "title": "Casa de Ga’a",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/jtDAIoVst9Bj1VRcQKY2fj52VYe.jpg",
+    "genres": [
+      "Ação",
+      "História"
+    ],
+    "tmdb_id": "1311550",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1311550",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1311550",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1311550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449722",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454112",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648381",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "276096",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "276096",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "276097",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "276097",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "No auge do império Oyo, o feroz Bashorun Ga'a tornou-se mais poderoso que os reis que ele mesmo coroou, mas foi derrubado por seu próprio sangue.",
+    "imdb_id": "tt31691318"
+  },
+  {
+    "id": "movie-casa-do-carvalho-o-filme",
+    "title": "Casa do Carvalho - O Filme",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/ueYgWeUbaNTam7mtG8AXH9vt6Hk.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "1128585",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1128585",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1128585",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1128585",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460782",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650288",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "227006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "227006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Casa do Carvalho é um filme de comédia do Absurdo que aborda a disputa de uma casa entre parentes, genros e empregados, iniciada quando o Carvalho recebe a notícia que está com câncer no coração e precisa decidir quem de seus filhos merece herdar a sua casa. Porém a concorrência pela casa , acaba gerando grandes armações criadas pelos seus genros e empregados que entram também na disputa para se tornarem proprietários da Casa do Carvalho, criando assim uma comédia que chega a verdadeira reflexão até o absurdo.",
+    "imdb_id": "tt28810265"
+  },
+  {
+    "id": "movie-casa-do-carvalho-o-filme-2023",
+    "title": "Casa do Carvalho O Filme (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/ueYgWeUbaNTam7mtG8AXH9vt6Hk.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1128585",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1128585",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1302810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-do-medo",
+    "title": "Casa do Medo",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/xjZa1WejtaTzokIEWqvEuAFAGWI.jpg",
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": "235046",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "235046",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Depois de um grave acidente de carro, em que três de seus amigos morreram, Michelle é enviada para uma clínica de reabilitação. Algum tempo depois, a jovem tenta retomar sua vida. A primeira coisa que ela procura é um emprego. Uma oportunidade surge quando uma amiga dá a Michelle o cartão da Darkroom Inc., uma agência de modelos que está buscando uma garota com o perfil dela para uma sessão de fotos. Michelle aceita e vai ao local combinado. Entretanto, tudo parece muito suspeito. É quando ela descobre que foi vítima de uma armadilha. Michelle se vê em um porão, trancada em uma cela, onde ela pode ver, através de uma TV, pessoas sendo torturadas. E logo chega a vez dela de passar por este inferno. Seria isso uma forma de Michelle pagar por seus erros ou apenas um psicopata que a escolheu ao acaso?",
+    "imdb_id": "tt1876283"
+  },
+  {
+    "id": "movie-casa-do-medo-2013",
+    "title": "Casa do Medo (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20do%20Medo%20_2013_%20_tmdb_235046_5a57d736.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-dos-sonhos",
+    "title": "Casa dos Sonhos",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/amWdiHrpieAAetf7Nxo1wkhwCgI.jpg",
+    "genres": [
+      "Documentário",
+      "TV"
+    ],
+    "tmdb_id": "1129465",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1129465",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Na procura por terras intocadas para comprar e construir imóveis, a equipe da Christmas e Associates descobre uma propriedade à beira de um lago no norte de Nova York. Eles tentam transformar o terreno inacessível no refúgio de uma família."
+  },
+  {
+    "id": "movie-casa-dos-sonhos-2015",
+    "title": "Casa dos Sonhos (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20dos%20Sonhos%20_2015_%20_tmdb_1129465_769ef4d9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-encantada",
+    "title": "Casa Encantada",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/iiyOSugKVhuBCSVroVvvR0nLQaQ.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "688730",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "688730",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt9454462"
+  },
+  {
+    "id": "movie-casa-encantada-2018",
+    "title": "Casa Encantada (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Encantada%20_2018_%20_tmdb_688730_0d61d177.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-escura-2014",
+    "title": "Casa Escura (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/Y0WxJCKH2Hgr7yrGtN97kgo9ne.jpg",
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": "257093",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/257093",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/257093",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Escura%20_2014_%20_tmdb_257093_c2d1ceef.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "257093",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1314058",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Nick Di Santo é um homem atormentado pelas visões que tem sobre o futuro. Quando Nick vai visitar sua mãe no hospício, ele descobre que seu pai, que julgava morto, está vivo e pode ajudá-lo sobre a origem de sua terrível habilidade. Nick, então, sai em uma viagem que o leva a uma misteriosa mansão abandonada, que pensava existir só em sua imaginação de infância.",
+    "imdb_id": "tt1385543"
+  },
+  {
+    "id": "movie-casa-fantasma-2017",
+    "title": "Casa Fantasma (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/kclTPJ6sMaWyRe7Zs71YYA3Wq44.jpg",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Mistério"
+    ],
+    "tmdb_id": "359228",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/359228",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/359228",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Fantasma%20_2017_%20_tmdb_359228_cc13b30f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "359228",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1307530",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um jovem casal de noivos em viagem a Tailândia  é  perseguido por um espírito maligno quando inadvertidamente entram numa casa mal-assombrada.",
+    "imdb_id": "tt4365566"
+  },
+  {
+    "id": "movie-casa-grande",
+    "title": "Casa Grande",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/mE9E4nsGM91Cf4b1s6nOOdUAE9P.jpg",
+    "genres": [
+      "Drama",
+      "Faroeste"
+    ],
+    "tmdb_id": "1469164",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1469164",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1469164",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/268100",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/268100",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casa%20Grande%20_2014_%20_tmdb_268100_59c73f0b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "385713",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "385713",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Uma filha pródiga se junta à família na fazenda em um período difícil, pois seu pai doente enfrenta um diagnóstico terminal e a crescente pressão dos concorrentes. Velhas feridas ressurgem à medida que eles enfrentam o que está por vir.",
+    "imdb_id": "tt35887288"
+  },
+  {
+    "id": "movie-casa-grande-2014",
+    "title": "Casa Grande (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/hNsBCjQ3p1RSxZtEj9t38WSLAEV.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "268100",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/268100",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/268100",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1469164",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1469164",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "268100",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1298364",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Sônia e Hugo são da alta burguesia carioca e levam uma vida bastante confortável. Aos poucos vão à falência, mas ninguém sabe de seus problemas financeiros, nem mesmo o filho Jean, que faz de tudo para se desvencilhar dos pais super protetores. Para se manter, o casal corta despesas e ele, que só se preocupava com garotas e vestibular, enfrenta pela primeira vez a realidade.",
+    "imdb_id": "tt3474994"
+  },
+  {
+    "id": "movie-casa-gucci",
+    "title": "Casa Gucci",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/dAPdK3L2STpHo4DFKwtL2gdo89L.jpg",
+    "genres": [
+      "Drama",
+      "Crime",
+      "História"
+    ],
+    "tmdb_id": "644495",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/644495",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/644495",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "644495",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457746",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652931",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "149246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "149246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "382597",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "149245",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "382597",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "149245",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "382596",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "149247",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "382596",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "149247",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "A verdadeira história de como Patrizia Reggiani planejou matar o marido Maurizio Gucci, neto do renomado estilista Guccio Gucci.",
+    "imdb_id": "tt11214590"
+  },
+  {
+    "id": "movie-casa-gucci-2021",
+    "title": "Casa Gucci (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/dAPdK3L2STpHo4DFKwtL2gdo89L.jpg",
+    "genres": [
+      "Drama",
+      "Crime",
+      "História"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/644495",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/644495",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casa-se-comigo-quando-a-neve-derreter",
+    "title": "Casa se Comigo Quando a Neve Derreter",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casa-vazia",
+    "title": "Casa vazia",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/gvzoa4cz66ACqOUS79CnKgasaRM.jpg",
+    "genres": [
+      "Drama",
+      "Faroeste",
+      "Mistério"
+    ],
+    "tmdb_id": "916102",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/916102",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/916102",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2444066",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "382388",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "378038",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "382388",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "378038",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Raúl é um peão desempregado e pai de família que vive numa casa isolada na imensidão solitária dos campos. A mão de obra tradicional da lida no campo já não serve mais aos patrões, donos das terras. A paisagem de imensas pastagens com o gado estão sendo sobrepostas por gigantescas lavouras de soja. Assolado pela pobreza e a falta de trabalho, ele se junta a outros peões para roubar gado durante a escuridão das noites no campo. Ao retornar de mais uma madrugada, encontra sua casa vazia. Sua mulher e filhos desapareceram.​",
+    "imdb_id": "tt22052704"
+  },
+  {
+    "id": "movie-casablanca",
+    "title": "Casablanca",
+    "type": "movie",
+    "year": "1943",
+    "poster_url": "/3XxWPlKMfSTDCpWRgjljm5Xw5zX.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "289",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/289",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/289",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casablanca%20_1943_%20_tmdb_289_c1baf316.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "289",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "897098",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352394",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352394",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "352393",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "352393",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Durante a Segunda Guerra Mundial, muitos fugitivos tentavam escapar dos nazistas por uma rota que passava pela cidade de Casablanca. O exilado americano Rick Blaine encontrou refúgio na cidade, dirigindo uma das principais casas noturnas da região. Clandestinamente, tentando despistar o Capitão Renault, ele ajuda refugiados, possibilitando que eles fujam para os Estados Unidos. Quando um casal pede sua ajuda para deixar o país, ele reencontra uma grande paixão do passado, a bela Ilsa. Este amor vai encontrar uma nova vida e eles vão lutar para fugir juntos.",
+    "imdb_id": "tt0034583"
+  },
+  {
+    "id": "movie-casablanca-1943",
+    "title": "Casablanca (1943)",
+    "type": "movie",
+    "year": "1943",
+    "poster_url": "/3XxWPlKMfSTDCpWRgjljm5Xw5zX.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/289",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/289",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1300424",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casada-acidentalmente-com-um-bilionario",
+    "title": "CASADA ACIDENTALMENTE COM UM BILIONARIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-a-superestrela-aos-40",
+    "title": "CASADA COM A SUPERESTRELA AOS 40",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-o-chefe-do-meu-ex-marido",
+    "title": "Casada Com O Chefe Do Meu Ex Marido",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-o-inimigo-do-marido",
+    "title": "CASADA COM O INIMIGO DO MARIDO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-o-meu-assassino",
+    "title": "CASADA COM O MEU ASSASSINO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-o-meu-pesadelo",
+    "title": "CASADA COM O MEU PESADELO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casada-com-um-tiozao-quente",
+    "title": "CASADA COM UM TIOZAO QUENTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casado-a-primeira-vista",
+    "title": "Casado a Primeira Vista",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casado-acidentalmente-com-o-bilionario-secreto",
+    "title": "CASADO ACIDENTALMENTE COM O BILIONARIO SECRETO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casado-insta",
+    "title": "CASADO INSTA",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/mKjXNWk2XDebMD7JMeag1Tx5Ltq.jpg",
+    "genres": [],
+    "tmdb_id": "1542254",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1542254",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1542254",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casado-divorciado-reunido",
+    "title": "CASADO, DIVORCIADO, REUNIDO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casados-mas-nem-tanto",
+    "title": "Casados (mas nem tanto)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/ozCWKIQisOfWFgJDLMggIeEFTLE.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "585062",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "585062",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um casal do interior passa por confusões infinitas para esconder a verdade de suas famílias moralistas: eles fingiram se casar para poderem morar juntos.",
+    "imdb_id": "tt8908002"
+  },
+  {
+    "id": "movie-casados-mas-nem-tanto-2019",
+    "title": "Casados (mas nem tanto) (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casados%20_mas%20nem%20tanto%20_2019_%20_tmdb_585062_672f346c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casados-num-flash-totalmente-mimados",
+    "title": "Casados Num Flash Totalmente Mimados",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casal-de-fachada",
+    "title": "Casal de Fachada",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/prYUfVvnq9tAMP4LRduyoQtQIjQ.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "810171",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/810171",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/810171",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casal%20de%20Fachada%20_2022_%20_tmdb_810171_726e6882.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "810171",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461101",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650676",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "160436",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "160436",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "160437",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "160437",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "A estrela de cinema mundialmente famosa Olivia enfrenta um desastre de relações públicas quando um paparazzi tira sua foto com seu amante casado, Vincent. O manobrista dedicado Antonio aparece acidentalmente na mesma foto e é contratado para posar como o novo namorado de Olivia como álibi. Essa armadilha com Olivia coloca Antonio no centro das atenções e o leva a um caos inesperado.",
+    "imdb_id": "tt4081630"
+  },
+  {
+    "id": "movie-casal-de-fachada-2022",
+    "title": "Casal de Fachada (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/prYUfVvnq9tAMP4LRduyoQtQIjQ.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/810171",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/810171",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299431",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casal-de-poder-supremo",
+    "title": "CASAL DE PODER SUPREMO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casal-improvavel",
+    "title": "Casal Improvavel",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/wt050OjvLsiP2pS39CvsKuNLwcp.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "459992",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/459992",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/459992",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casal%20Improv_vel%20_2019_%20_tmdb_459992_93818a0e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "459992",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461637",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651556",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "26578",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "26578",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O jornalista Fred Flarsky reencontra sua paixão de infância, Charlotte Field, agora uma das mulheres mais influentes do mundo. Enquanto se prepara para tentar a presidência, Charlotte contrata Fred como seu redator de discursos.",
+    "imdb_id": "tt2139881"
+  },
+  {
+    "id": "movie-casal-improvavel-2019",
+    "title": "Casal Improvavel (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/wt050OjvLsiP2pS39CvsKuNLwcp.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/459992",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/459992",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1297847",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-acidental-com-meu-ceo-pobre",
+    "title": "CASAMENTO ACIDENTAL COM MEU CEO POBRE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-casamento-acidental-com-o-ceo",
+    "title": "Casamento Acidental com o CEO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-apaixonado",
+    "title": "Casamento Apaixonado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "389513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "389513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-casamento-ardente",
+    "title": "CASAMENTO ARDENTE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-armado",
+    "title": "Casamento Armado",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "758009",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/758009",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/758009",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Armado%20_2022_%20_tmdb_758009_748ab901.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "758009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454617",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "648632",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "185816",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "185816",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "185817",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "185817",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "185815",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "185815",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Durante a cerimônia de casamento, Darcy e Tom estão reunidos com seus familiares para celebrar o grande momento, quando são surpreendidos por sequestradores. Agora, os noivos têm a missão de salvar as suas famílias do perigo, trazendo a lembrança de quando se apaixonaram um pelo outro.",
+    "imdb_id": "tt9686790"
+  },
+  {
+    "id": "movie-casamento-armado-2022",
+    "title": "Casamento Armado (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/758009",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/758009",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1300962",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-as-avessas-2010",
+    "title": "Casamento as Avessas (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/snPOx2lI53IynPLmRe55PsEIxjF.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "144539",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/144539",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/144539",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20_s%20Avessas%20_2010_%20_tmdb_144539_71a62c85.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "144539",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1300480",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Steve Thompson, um adorável anti-herói, é o filho mais novo da gloriosa família Thompson. Em uma tentativa de salvar-se da ruína financeira, Steve faz o impensável e concorda em se casar com Ana, uma mulher russa que busca residência em troca de uma enorme soma em dinheiro. Atrás de portas fechadas o negócio é feito, um casamento secreto é organizado e em nenhum momento a vida voltará ao normal, ou assim Steve pensa ... Até que um amigo intrometido da família fique sabendo dos planos de casamento e antes do pôr do sol toda a família Thompson preso pela febre do casamento. Embora a família de Steve pudesse usar alguma terapia construtiva para seus próprios relacionamentos, eles se uniram para apoiar Steve em preparação para o casamento mais ridículo do mundo. O que antes era um caso de registro privado é agora um espetáculo completo, já que a mentira de Steve assume vida própria.",
+    "imdb_id": "tt1465496"
+  },
+  {
+    "id": "movie-casamento-as-cegas-brasil-depois-do-altar-2023",
+    "title": "Casamento as Cegas Brasil Depois do Altar (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/qRNPA0pjTNEZuLEuhF1CeOzpwWS.jpg",
+    "genres": [
+      "Romance",
+      "Documentário"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1220450",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1220450",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1303020",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-as-pressas-o-amor-de-andre-e-bianca",
+    "title": "CASAMENTO AS PRESSAS O AMOR DE ANDRE E BIANCA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-australiano",
+    "title": "Casamento Australiano",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/5LWuB9sNBqcz8z4U13AMxYpeNTw.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "499573",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/499573",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/499573",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Australiano%20_2019_%20_tmdb_499573_6b8de387.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "499573",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460704",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650891",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "130255",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "130255",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "130204",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "130204",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Lauren e Ned estão noivos, estão apaixonados e têm apenas dez dias para encontrar a mãe de Lauren, que sumiu em algum lugar no remoto extremo norte da Austrália, reunir os pais e realizar o casamento dos sonhos.",
+    "imdb_id": "tt7555072"
+  },
+  {
+    "id": "movie-casamento-australiano-2019",
+    "title": "Casamento Australiano (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/5LWuB9sNBqcz8z4U13AMxYpeNTw.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/499573",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/499573",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301959",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-blindado-2014",
+    "title": "Casamento Blindado (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/3jkd6GgbPr1s5bNNGGG1BHPsCxP.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "636695",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/636695",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/636695",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1313083",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Antonio Carlos (Guilherme Berenguer) e Clarinha (Renata Dominguez) são um jovem e bonito casal, mas ele tem pouco tempo para a esposa, que está atarefada com os preparativos do casamento de seu irmão mais novo.",
+    "imdb_id": "tt4033752"
+  },
+  {
+    "id": "movie-casamento-blindado-um-contrato-de-natal",
+    "title": "CASAMENTO BLINDADO UM CONTRATO DE NATAL",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-contra-a-corrente",
+    "title": "Casamento Contra a Corrente",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-de-mentira-com-o-bilionario",
+    "title": "Casamento de Mentira com o Bilionario",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-de-natal-2021",
+    "title": "Casamento de Natal (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/sVPDrDm225l1M836kblEZEjKBRr.jpg",
+    "genres": [
+      "Romance",
+      "TV",
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "739518",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/739518",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/739518",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Um%20Casamento%20de%20Natal%20_2020_%20_tmdb_739518_422e3369.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "739518",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1298318",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-de-repente-filhos-do-segredo",
+    "title": "Casamento De Repente Filhos Do Segredo",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "389514",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "389514",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-de-verdade-2015",
+    "title": "Casamento de Verdade (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/r5sYGmk3qThqPCCKShho1SzzhFk.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "342474",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/342474",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/342474",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1301463",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Jenny Farrell (Katherine Heigl) tem uma vida feliz ao lado da namorada, Kitty (Alexis Bledel). Jenny quer se casar, mas sua família nem imagina que ela é lésbica. De volta à casa onde cresceu, Jenny tem a difícil tarefa de revelar sua homossexualidade e lidar com a forma como cada um de seus entes queridos reagem.",
+    "imdb_id": "tt3289712"
+  },
+  {
+    "id": "movie-casamento-e-confusao",
+    "title": "Casamento e Confusão",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/h3lncTnK86R8XylpXgpe0JfU1wm.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Família"
+    ],
+    "tmdb_id": "1248454",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1248454",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1248454",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "354110",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "354110",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Dois ex-namorados em Delhi tentam reacender a chama do amor, o que leva a confusões e enganos hilários. Em meio ao caos, um novo romance inesperado floresce. Quem encontrará a felicidade em meio a essa confusão?",
+    "imdb_id": "tt30742355"
+  },
+  {
+    "id": "movie-casamento-em-chamas-2017",
+    "title": "CASAMENTO EM CHAMAS (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-casamento-em-cuba-2019",
+    "title": "Casamento em Cuba (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/6PF2yTLShaenUceuWC0GwiO2Hz0.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "541642",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/ae6b439d553e1fe20c53f9b40f0e3e15/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/541642",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/541642",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "541642",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "396195",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "396195",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "396194",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "396194",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt8471716",
+    "overview": "Ao descobrir que a filha está namorando um cubano e planeja se casar com ele em Cuba, uma mãe superprotetora entra em desespero. Convencida de que esse casamento está fadado ao fracasso, ela embarca imediatamente para a ilha com uma missão: impedir a cerimônia a qualquer custo. Mas, ao chegar lá, ela pode descobrir que o amor da filha não é exatamente o que imaginava — e que talvez o verdadeiro desafio seja aprender a deixá-la seguir seu próprio caminho."
+  },
+  {
+    "id": "movie-casamento-em-familia",
+    "title": "Casamento em Família",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/1vi88La90aTwEtsRMNqXNwtTXn3.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "972230",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/972230",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/972230",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20em%20Fam_lia%20_2023_%20_tmdb_972230_3f91eabb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "972230",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460853",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650439",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "193464",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "193464",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "193463",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "193463",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um casal precisa definir os próximos passos de seu relacionamento depois que um momento embaraçoso acontece em um casamento de amigos que eles foram. Sem saberem, seus pais estão tendo um caso, uns com os outros, o que vai deixar as coisas ainda mais complicadas quando eles se reúnem para discutir se devem ou não se casarem com suas respectivas famílias.",
+    "imdb_id": "tt20879602"
+  },
+  {
+    "id": "movie-casamento-em-familia-2023",
+    "title": "Casamento em Família (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/1vi88La90aTwEtsRMNqXNwtTXn3.jpg",
+    "genres": [
+      "Comédia",
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/972230",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/972230",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306934",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306935",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-errado-noivo-destinado",
+    "title": "CASAMENTO ERRADO, NOIVO DESTINADO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-forcado-a-paixao-do-tiago",
+    "title": "Casamento Forcado A Paixao do Tiago",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-forcado-com-meu-chefe",
+    "title": "CASAMENTO FORCADO COM MEU CHEFE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-grego",
+    "title": "Casamento Grego",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/7InkKCZeGemG0MVUi0JKJkJdb8s.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "8346",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/8346",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/8346",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%20_2002_%20_tmdb_8346_a0d299e0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "8346",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461169",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651361",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "48223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "48223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "É a história de Toula, uma garota grega de 30 anos que ainda está \"encalhada\". Seus pais gostariam de vê-la casando-se com um rapaz que tivesse as mesmas origens, porém o coração de Toula bateu forte por Ian, um professor americano que não sabe nada sobre a Grécia, nem sobre os costumes e tradições de seu povo. Será que sua família vai deixá-los em paz?",
+    "imdb_id": "tt0259446"
+  },
+  {
+    "id": "movie-casamento-grego-2002",
+    "title": "Casamento Grego (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/7InkKCZeGemG0MVUi0JKJkJdb8s.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/8346",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/8346",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304172",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-grego-2",
+    "title": "Casamento Grego 2",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/5s5e5xTzUcpnRmFnPT1zXFnaJ5z.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "302688",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/302688",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/302688",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%202%20_2016_%20_tmdb_302688_5fa3efc1.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "302688",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461522",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651360",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "48224",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "48224",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A família Portokalos se reúne novamente, só que agora o motivo é o matrimônio dos pais de Toula, que acabaram de descobrir que seu casamento de tantos anos nunca foi oficializado.",
+    "imdb_id": "tt3760922"
+  },
+  {
+    "id": "movie-casamento-grego-2-2016",
+    "title": "Casamento Grego 2 (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/5s5e5xTzUcpnRmFnPT1zXFnaJ5z.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/302688",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/302688",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299770",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-grego-3-2023",
+    "title": "Casamento Grego 3 (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/hVmsjW1QEIJ8ixG0H6ymqBqaxEc.jpg",
+    "genres": [
+      "Comédia",
+      "Romance"
+    ],
+    "tmdb_id": "1001811",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/bf61cab3be218f93eb1da71c9f02605e/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1001811",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1001811",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Grego%203%20_2023_%20_tmdb_1001811_d5a62685.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1001811",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449579",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460397",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650245",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1302993",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "233494",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "233494",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "233495",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "233495",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "233492",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "233492",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt21103300",
+    "overview": "Os membros da família Portokalos se reúnem na Grécia para uma viagem hilária e emocionante, cheia de amor e reviravoltas."
+  },
+  {
+    "id": "movie-casamento-imprevisto-com-meu-caso-de-uma-noite",
+    "title": "CASAMENTO IMPREVISTO COM MEU CASO DE UMA NOITE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-letal-nos-eua",
+    "title": "Casamento Letal nos EUA",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/ajoYbGEbI7Rffj1P695iAEmDUo7.jpg",
+    "genres": [
+      "Crime",
+      "Documentário"
+    ],
+    "tmdb_id": "1466938",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1466938",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1466938",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Letal%20nos%20EUA%20_2025_%20_tmdb_1466938_6704ee09.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1466938",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447927",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "846487",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "320767",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "320767",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "320766",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "320766",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Assassinato ou legítima defesa? Mostrando as duas versões, este documentário analisa a morte de Jason Corbett durante um conflito com a esposa e o sogro.",
+    "imdb_id": "tt36592065"
+  },
+  {
+    "id": "movie-casamento-mortal-2023",
+    "title": "Casamento Mortal (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/jGlSDr8ETshHHJ1soHPkY7etPff.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": "1082850",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/59adeb33a8e7c47bd1ef5b9511b09471/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1082850",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1082850",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20Mortal%20_2023_%20_tmdb_1082850_80433094.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1082850",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450021",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644830",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304959",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "264468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "264468",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304960",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "264469",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "264469",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt26596484",
+    "overview": "Durante uma caminhada com seu marido na Riviera Francesa, uma mulher morre após uma queda fatal de um penhasco. Inicialmente considerado um acidente, o caso é reaberto quando uma testemunha questiona a verdadeira causa da queda. A verdade assustadora por trás do que parecia ser um casamento perfeito vem à tona."
+  },
+  {
+    "id": "movie-casamento-na-costa-rica-2025",
+    "title": "Casamento na Costa Rica (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Casamento%20na%20Costa%20Rica%20_2025_%20_tmdb_1310505_b6759449.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas-2",
+    "title": "CASAMENTO OBRIGATORIO ME VIRO COM TRES DAMAS PERDIDAS! 2",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas",
+    "title": "Casamento Obrigatório? Me Viro com Três Damas Perdidas!",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-casamento-obrigatorio-me-viro-com-tres-damas-perdidas-ii",
+    "title": "Casamento Obrigatório? Me Viro com Três Damas Perdidas! II",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-por-contrato-1928",
+    "title": "CASAMENTO POR CONTRATO (1928)",
+    "type": "movie",
+    "year": "1928",
+    "poster_url": "/nCMadbMP1s2HutD1WSUF9xwzavZ.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "1582385",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1582385",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1582385",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-por-vinganca-doce-amor",
+    "title": "CASAMENTO POR VINGANCA, DOCE AMOR",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-rapido-com-o-ceo-bilionario",
+    "title": "Casamento Rapido Com O Ceo Bilionario",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "389515",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "389515",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-relampago",
+    "title": "CASAMENTO RELAMPAGO",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/4k3pwqUNLNo807G7GiPghkrRsGB.jpg",
+    "genres": [
+      "Romance",
+      "TV"
+    ],
+    "tmdb_id": "778997",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/778997",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/778997",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt13357086"
+  },
+  {
+    "id": "movie-casamento-relampago-com-esposa-legista",
+    "title": "CASAMENTO RELAMPAGO COM ESPOSA LEGISTA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-casamento-relampago-com-um-homem-de-fortuna",
+    "title": "CASAMENTO RELAMPAGO COM UM HOMEM DE FORTUNA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  }
+]

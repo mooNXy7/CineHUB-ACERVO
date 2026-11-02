@@ -1,0 +1,916 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T20:00:49Z",
+  "timezone": "America/Sao_Paulo",
+  "policy": {
+    "priority": [],
+    "disabled_sources": [
+      "guia-de-tv-br",
+      "meuguia-br"
+    ],
+    "fallback": "preserve last known-good schedule only for enabled sources on transient fetch/parse failure; remove explicitly disabled sources",
+    "scope": "explicit channel-map mappings only",
+    "window_hours": {
+      "past": 6,
+      "future": 72
+    }
+  },
+  "active_sources": [],
+  "programmes": {},
+  "health": {
+    "Band": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Animal Planet": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "AXN": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "A&E": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Band Sports": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Canal Brasil": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Canal Off": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Combate": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Cartoon Network": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Cinemax": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery Home & Health": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery Channel": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery Turbo": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery Science": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery World": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Discovery Kids": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "ESPN": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "E!": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "ESPN 2": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "ESPN 3": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "ESPN 5": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "ESPN 4": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "GNT": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo SP": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo RJ": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "GloboNews": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO Plus": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Gloob": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO Family": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Multishow": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO2": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Megapix": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "History": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Record": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SBT": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Premiere Clubes": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Space": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Sony Channel": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SporTV": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SporTV 2": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Action": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Studio Universal": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SporTV 3": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Pipoca": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Premium": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TNT": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TNT Séries": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Viva": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Universal TV": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Arte 1": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Warner": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TLC": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SONY Movies": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "SBT News": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Terra Viva": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Box Kids TV": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "X Sports": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "N SPORTS": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Cult": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Touch": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Telecine Fun": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo MG": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo RS": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo AM": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Globo ES": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Nickelodeon": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "RedeTV!": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TCM": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Band News": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO Pop": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO Mundi": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "CNN Brasil": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Cartoonito": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HBO Xtreme": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "AMC": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TNT Novelas": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Food Network": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "History 2": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "HGTV": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "BIS": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Record News": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Jovem Pan News": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TV Brasil": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "TV Aparecida": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Premiere 2": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Premiere 4": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Premiere 3": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "Adult Swim": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-action": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-premium": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-pipoca": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-cult": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-fun": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.telecine-touch": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo2": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo-family": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo-plus": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-sp": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-rj": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-mg": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-rs": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-es": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.globo-am": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.sportv": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.espn": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.sbt": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.band": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.record": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.rede-tv": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.cartoon-network": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.discovery-kids": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.gloob": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.nickelodeon": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.history": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.animal-planet": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.discovery-science": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.discovery-turbo": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.discovery-world": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tlc": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.warner": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tnt": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tnt-series": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.axn": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.universal-tv": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tcm": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.space": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.cinemax": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.megapix": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.studio-universal": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.combate": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.gnt": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.band-news": {
+      "source_id": "meuguia-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo-pop": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo-xtreme": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hbo-mundi": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.cnn-brasil": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.cartoonito": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.amc": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tnt-novelas": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.food-network": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.hgtv": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.multishow": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.bis": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.record-news": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.jovem-pan-news": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.tv-brasil": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    },
+    "br.adult-swim": {
+      "source_id": "guia-de-tv-br",
+      "status": "disabled",
+      "programme_count": 0,
+      "error": "HTML schedule publication disabled until redistribution permission is confirmed"
+    }
+  }
+}

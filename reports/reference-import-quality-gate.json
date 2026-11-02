@@ -1,0 +1,2283 @@
+{
+  "schema_version": 1,
+  "report_type": "isolated_reference_import_preview",
+  "read_only_from_published_repository": true,
+  "catalog_published": false,
+  "network_sources_in_report": false,
+  "review_gate": {
+    "status": "manual_approval_required",
+    "automatic_approval_allowed": false,
+    "blocking_reasons": []
+  },
+  "before": {
+    "vod_counts": {
+      "movies": 40939,
+      "series": 11665,
+      "anime": 2750,
+      "doramas": 896
+    },
+    "vod_total": 56250,
+    "vod_missing_metadata": {
+      "poster_url": 7613,
+      "year": 13619,
+      "genres": 7968
+    },
+    "vod_duplicate_titles_by_category": {
+      "movies": {
+        "groups": 80,
+        "extra_records": 80
+      },
+      "series": {
+        "groups": 2,
+        "extra_records": 2
+      },
+      "anime": {
+        "groups": 0,
+        "extra_records": 0
+      },
+      "doramas": {
+        "groups": 1,
+        "extra_records": 1
+      }
+    },
+    "vod_duplicate_title_examples": {
+      "movies": [
+        {
+          "normalized_title": "a maldicao de raven s hollow 2022",
+          "items": [
+            {
+              "id": "movie-a-maldicao-de-raven-039-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-a-maldicao-de-raven-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "abercrombie fitch ascensao e queda 2022",
+          "items": [
+            {
+              "id": "movie-abercrombie-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-abercrombie-amp-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor gelato 2022",
+          "items": [
+            {
+              "id": "movie-amor-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-amp-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor sexo pandemia 2022",
+          "items": [
+            {
+              "id": "movie-amor-sexo-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-sexo-amp-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "apostas segredos 2025",
+          "items": [
+            {
+              "id": "movie-apostas-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-apostas-amp-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "as loucuras de dick jane 2005",
+          "items": [
+            {
+              "id": "movie-as-loucuras-de-dick-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-as-loucuras-de-dick-amp-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "avante nos bastidores de deadpool wolverine 2024",
+          "items": [
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": "1386628"
+            },
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-amp-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bang bang betty valerie s revenge 2023",
+          "items": [
+            {
+              "id": "movie-bang-bang-betty-valerie-039-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bang-bang-betty-valerie-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": "1126499"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "barron s cove 2025",
+          "items": [
+            {
+              "id": "movie-barron-039-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-barron-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": "1128546"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bebe s kids 1992",
+          "items": [
+            {
+              "id": "movie-bebe-039-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bebe-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "black 47 2018",
+          "items": [
+            {
+              "id": "movie-black-039-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-black-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bob esponja um heroi fora d agua 2015",
+          "items": [
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-agua-2015",
+              "title": "Bob Esponja: Um Heroi Fora D'Agua (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-039-agua-2015",
+              "title": "Bob Esponja: Um Herói Fora D'Água (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bobi wine the people s president 2023",
+          "items": [
+            {
+              "id": "movie-bobi-wine-the-people-039-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bobi-wine-the-people-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "coffee kareem 2020",
+          "items": [
+            {
+              "id": "movie-coffee-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-coffee-amp-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "como viajar com o mala do seu pai 2008",
+          "items": [
+            {
+              "id": "movie-como-viajar-com-o-039-mala-039-do-seu-pai-2008",
+              "title": "Como Viajar Com o 'Mala' do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-como-viajar-com-o-mala-do-seu-pai-2008",
+              "title": "Como Viajar Com o Mala do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": "13493"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "corisco dada 1996",
+          "items": [
+            {
+              "id": "movie-corisco-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-corisco-amp-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "d artagnan o 4o mosqueteiro 2022",
+          "items": [
+            {
+              "id": "movie-d-039-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-d-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let him find you 2024",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": "1396130"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let them in 2020",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": "683716"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t look a morte te aguarda 2018",
+          "items": [
+            {
+              "id": "movie-don-039-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis eu 2026",
+          "items": [
+            {
+              "id": "movie-elis-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": "1550019"
+            },
+            {
+              "id": "movie-elis-amp-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis tom so tinha de ser com voce 2023",
+          "items": [
+            {
+              "id": "movie-elis-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": "1030653"
+            },
+            {
+              "id": "movie-elis-amp-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis anabelle o despertar de um amor 2007",
+          "items": [
+            {
+              "id": "movie-elvis-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis nixon 2016",
+          "items": [
+            {
+              "id": "movie-elvis-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "em busca de ohana 2021",
+          "items": [
+            {
+              "id": "movie-em-busca-de-039-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-em-busca-de-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "series": [
+        {
+          "normalized_title": "fantasmas",
+          "items": [
+            {
+              "id": "series-fantasmas-2021",
+              "title": "Fantasmas",
+              "year": "2021",
+              "tmdb_id": "126027"
+            },
+            {
+              "id": "series-fantasmas-2024",
+              "title": "Fantasmas",
+              "year": "2024",
+              "tmdb_id": "253254"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "jogos copa do mundo",
+          "items": [
+            {
+              "id": "series-jogos-copa-do-mundo",
+              "title": "Jogos Copa do Mundo",
+              "year": "",
+              "tmdb_id": ""
+            },
+            {
+              "id": "series-jogos-copa-do-mundo-2022",
+              "title": "Jogos Copa do Mundo",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "anime": [],
+      "doramas": [
+        {
+          "normalized_title": "gto",
+          "items": [
+            {
+              "id": "series-gto",
+              "title": "Gto",
+              "year": "1998",
+              "tmdb_id": "62057"
+            },
+            {
+              "id": "series-gto-2026",
+              "title": "GTO",
+              "year": "2026",
+              "tmdb_id": "325022"
+            }
+          ],
+          "count": 2
+        }
+      ]
+    },
+    "vod_source_references_in_index": {
+      "source_count": 983024,
+      "provider_ref_count": 2118744
+    },
+    "channels": {
+      "channels": 2431,
+      "channels_with_source_list": 2110,
+      "channels_with_epg_id": 715,
+      "channels_with_logo": 1835
+    },
+    "radios": {
+      "radios": 753,
+      "radios_with_stream": 753,
+      "radios_with_logo": 284,
+      "radios_with_genre": 237
+    }
+  },
+  "after_preview": {
+    "vod_counts": {
+      "movies": 40939,
+      "series": 11665,
+      "anime": 2750,
+      "doramas": 896
+    },
+    "vod_total": 56250,
+    "vod_missing_metadata": {
+      "poster_url": 7613,
+      "year": 13546,
+      "genres": 7968
+    },
+    "vod_duplicate_titles_by_category": {
+      "movies": {
+        "groups": 80,
+        "extra_records": 80
+      },
+      "series": {
+        "groups": 2,
+        "extra_records": 2
+      },
+      "anime": {
+        "groups": 0,
+        "extra_records": 0
+      },
+      "doramas": {
+        "groups": 1,
+        "extra_records": 1
+      }
+    },
+    "vod_duplicate_title_examples": {
+      "movies": [
+        {
+          "normalized_title": "a maldicao de raven s hollow 2022",
+          "items": [
+            {
+              "id": "movie-a-maldicao-de-raven-039-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-a-maldicao-de-raven-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "abercrombie fitch ascensao e queda 2022",
+          "items": [
+            {
+              "id": "movie-abercrombie-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-abercrombie-amp-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor gelato 2022",
+          "items": [
+            {
+              "id": "movie-amor-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-amp-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor sexo pandemia 2022",
+          "items": [
+            {
+              "id": "movie-amor-sexo-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-sexo-amp-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "apostas segredos 2025",
+          "items": [
+            {
+              "id": "movie-apostas-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-apostas-amp-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "as loucuras de dick jane 2005",
+          "items": [
+            {
+              "id": "movie-as-loucuras-de-dick-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-as-loucuras-de-dick-amp-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "avante nos bastidores de deadpool wolverine 2024",
+          "items": [
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": "1386628"
+            },
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-amp-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bang bang betty valerie s revenge 2023",
+          "items": [
+            {
+              "id": "movie-bang-bang-betty-valerie-039-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bang-bang-betty-valerie-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": "1126499"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "barron s cove 2025",
+          "items": [
+            {
+              "id": "movie-barron-039-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-barron-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": "1128546"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bebe s kids 1992",
+          "items": [
+            {
+              "id": "movie-bebe-039-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bebe-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "black 47 2018",
+          "items": [
+            {
+              "id": "movie-black-039-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-black-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bob esponja um heroi fora d agua 2015",
+          "items": [
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-agua-2015",
+              "title": "Bob Esponja: Um Heroi Fora D'Agua (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-039-agua-2015",
+              "title": "Bob Esponja: Um Herói Fora D'Água (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bobi wine the people s president 2023",
+          "items": [
+            {
+              "id": "movie-bobi-wine-the-people-039-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bobi-wine-the-people-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "coffee kareem 2020",
+          "items": [
+            {
+              "id": "movie-coffee-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-coffee-amp-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "como viajar com o mala do seu pai 2008",
+          "items": [
+            {
+              "id": "movie-como-viajar-com-o-039-mala-039-do-seu-pai-2008",
+              "title": "Como Viajar Com o 'Mala' do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-como-viajar-com-o-mala-do-seu-pai-2008",
+              "title": "Como Viajar Com o Mala do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": "13493"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "corisco dada 1996",
+          "items": [
+            {
+              "id": "movie-corisco-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-corisco-amp-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "d artagnan o 4o mosqueteiro 2022",
+          "items": [
+            {
+              "id": "movie-d-039-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-d-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let him find you 2024",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": "1396130"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let them in 2020",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": "683716"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t look a morte te aguarda 2018",
+          "items": [
+            {
+              "id": "movie-don-039-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis eu 2026",
+          "items": [
+            {
+              "id": "movie-elis-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": "1550019"
+            },
+            {
+              "id": "movie-elis-amp-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis tom so tinha de ser com voce 2023",
+          "items": [
+            {
+              "id": "movie-elis-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": "1030653"
+            },
+            {
+              "id": "movie-elis-amp-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis anabelle o despertar de um amor 2007",
+          "items": [
+            {
+              "id": "movie-elvis-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis nixon 2016",
+          "items": [
+            {
+              "id": "movie-elvis-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "em busca de ohana 2021",
+          "items": [
+            {
+              "id": "movie-em-busca-de-039-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-em-busca-de-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "series": [
+        {
+          "normalized_title": "fantasmas",
+          "items": [
+            {
+              "id": "series-fantasmas-2021",
+              "title": "Fantasmas",
+              "year": "2021",
+              "tmdb_id": "126027"
+            },
+            {
+              "id": "series-fantasmas-2024",
+              "title": "Fantasmas",
+              "year": "2024",
+              "tmdb_id": "253254"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "jogos copa do mundo",
+          "items": [
+            {
+              "id": "series-jogos-copa-do-mundo",
+              "title": "Jogos Copa do Mundo",
+              "year": "",
+              "tmdb_id": ""
+            },
+            {
+              "id": "series-jogos-copa-do-mundo-2022",
+              "title": "Jogos Copa do Mundo",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "anime": [],
+      "doramas": [
+        {
+          "normalized_title": "gto",
+          "items": [
+            {
+              "id": "series-gto",
+              "title": "Gto",
+              "year": "1998",
+              "tmdb_id": "62057"
+            },
+            {
+              "id": "series-gto-2026",
+              "title": "GTO",
+              "year": "2026",
+              "tmdb_id": "325022"
+            }
+          ],
+          "count": 2
+        }
+      ]
+    },
+    "vod_source_references_in_index": {
+      "source_count": 983024,
+      "provider_ref_count": 2118744
+    },
+    "channels": {
+      "channels": 2431,
+      "channels_with_source_list": 2110,
+      "channels_with_epg_id": 715,
+      "channels_with_logo": 1835
+    },
+    "radios": {
+      "radios": 753,
+      "radios_with_stream": 753,
+      "radios_with_logo": 284,
+      "radios_with_genre": 237
+    }
+  },
+  "delta": {
+    "vod_total": 0,
+    "vod_counts": {
+      "movies": 0,
+      "series": 0,
+      "anime": 0,
+      "doramas": 0
+    },
+    "vod_missing_metadata": {
+      "poster_url": 0,
+      "year": -73,
+      "genres": 0
+    },
+    "channels": {
+      "channels_with_epg_id": 0,
+      "channels_with_logo": 0,
+      "channels_with_source_list": 0,
+      "channels": 0
+    },
+    "radios": {
+      "radios": 0,
+      "radios_with_genre": 0,
+      "radios_with_logo": 0,
+      "radios_with_stream": 0
+    },
+    "vod_source_references_in_index": {
+      "source_count": 0,
+      "provider_ref_count": 0
+    },
+    "vod_duplicate_titles_by_category": {
+      "movies": {
+        "groups": 0,
+        "extra_records": 0
+      },
+      "series": {
+        "groups": 0,
+        "extra_records": 0
+      },
+      "anime": {
+        "groups": 0,
+        "extra_records": 0
+      },
+      "doramas": {
+        "groups": 0,
+        "extra_records": 0
+      }
+    }
+  },
+  "duplicate_title_examples": {
+    "before": {
+      "movies": [
+        {
+          "normalized_title": "a maldicao de raven s hollow 2022",
+          "items": [
+            {
+              "id": "movie-a-maldicao-de-raven-039-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-a-maldicao-de-raven-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "abercrombie fitch ascensao e queda 2022",
+          "items": [
+            {
+              "id": "movie-abercrombie-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-abercrombie-amp-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor gelato 2022",
+          "items": [
+            {
+              "id": "movie-amor-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-amp-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor sexo pandemia 2022",
+          "items": [
+            {
+              "id": "movie-amor-sexo-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-sexo-amp-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "apostas segredos 2025",
+          "items": [
+            {
+              "id": "movie-apostas-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-apostas-amp-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "as loucuras de dick jane 2005",
+          "items": [
+            {
+              "id": "movie-as-loucuras-de-dick-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-as-loucuras-de-dick-amp-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "avante nos bastidores de deadpool wolverine 2024",
+          "items": [
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": "1386628"
+            },
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-amp-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bang bang betty valerie s revenge 2023",
+          "items": [
+            {
+              "id": "movie-bang-bang-betty-valerie-039-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bang-bang-betty-valerie-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": "1126499"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "barron s cove 2025",
+          "items": [
+            {
+              "id": "movie-barron-039-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-barron-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": "1128546"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bebe s kids 1992",
+          "items": [
+            {
+              "id": "movie-bebe-039-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bebe-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "black 47 2018",
+          "items": [
+            {
+              "id": "movie-black-039-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-black-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bob esponja um heroi fora d agua 2015",
+          "items": [
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-agua-2015",
+              "title": "Bob Esponja: Um Heroi Fora D'Agua (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-039-agua-2015",
+              "title": "Bob Esponja: Um Herói Fora D'Água (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bobi wine the people s president 2023",
+          "items": [
+            {
+              "id": "movie-bobi-wine-the-people-039-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bobi-wine-the-people-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "coffee kareem 2020",
+          "items": [
+            {
+              "id": "movie-coffee-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-coffee-amp-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "como viajar com o mala do seu pai 2008",
+          "items": [
+            {
+              "id": "movie-como-viajar-com-o-039-mala-039-do-seu-pai-2008",
+              "title": "Como Viajar Com o 'Mala' do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-como-viajar-com-o-mala-do-seu-pai-2008",
+              "title": "Como Viajar Com o Mala do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": "13493"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "corisco dada 1996",
+          "items": [
+            {
+              "id": "movie-corisco-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-corisco-amp-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "d artagnan o 4o mosqueteiro 2022",
+          "items": [
+            {
+              "id": "movie-d-039-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-d-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let him find you 2024",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": "1396130"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let them in 2020",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": "683716"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t look a morte te aguarda 2018",
+          "items": [
+            {
+              "id": "movie-don-039-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis eu 2026",
+          "items": [
+            {
+              "id": "movie-elis-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": "1550019"
+            },
+            {
+              "id": "movie-elis-amp-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis tom so tinha de ser com voce 2023",
+          "items": [
+            {
+              "id": "movie-elis-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": "1030653"
+            },
+            {
+              "id": "movie-elis-amp-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis anabelle o despertar de um amor 2007",
+          "items": [
+            {
+              "id": "movie-elvis-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis nixon 2016",
+          "items": [
+            {
+              "id": "movie-elvis-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "em busca de ohana 2021",
+          "items": [
+            {
+              "id": "movie-em-busca-de-039-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-em-busca-de-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "series": [
+        {
+          "normalized_title": "fantasmas",
+          "items": [
+            {
+              "id": "series-fantasmas-2021",
+              "title": "Fantasmas",
+              "year": "2021",
+              "tmdb_id": "126027"
+            },
+            {
+              "id": "series-fantasmas-2024",
+              "title": "Fantasmas",
+              "year": "2024",
+              "tmdb_id": "253254"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "jogos copa do mundo",
+          "items": [
+            {
+              "id": "series-jogos-copa-do-mundo",
+              "title": "Jogos Copa do Mundo",
+              "year": "",
+              "tmdb_id": ""
+            },
+            {
+              "id": "series-jogos-copa-do-mundo-2022",
+              "title": "Jogos Copa do Mundo",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "anime": [],
+      "doramas": [
+        {
+          "normalized_title": "gto",
+          "items": [
+            {
+              "id": "series-gto",
+              "title": "Gto",
+              "year": "1998",
+              "tmdb_id": "62057"
+            },
+            {
+              "id": "series-gto-2026",
+              "title": "GTO",
+              "year": "2026",
+              "tmdb_id": "325022"
+            }
+          ],
+          "count": 2
+        }
+      ]
+    },
+    "after_preview": {
+      "movies": [
+        {
+          "normalized_title": "a maldicao de raven s hollow 2022",
+          "items": [
+            {
+              "id": "movie-a-maldicao-de-raven-039-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-a-maldicao-de-raven-s-hollow-2022",
+              "title": "A Maldição de Raven's Hollow (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "abercrombie fitch ascensao e queda 2022",
+          "items": [
+            {
+              "id": "movie-abercrombie-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-abercrombie-amp-fitch-ascensao-e-queda-2022",
+              "title": "Abercrombie & Fitch: Ascensão e Queda (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor gelato 2022",
+          "items": [
+            {
+              "id": "movie-amor-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-amp-gelato-2022",
+              "title": "Amor & Gelato (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "amor sexo pandemia 2022",
+          "items": [
+            {
+              "id": "movie-amor-sexo-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-amor-sexo-amp-pandemia-2022",
+              "title": "Amor, Sexo & Pandemia (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "apostas segredos 2025",
+          "items": [
+            {
+              "id": "movie-apostas-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-apostas-amp-segredos-2025",
+              "title": "Apostas & Segredos (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "as loucuras de dick jane 2005",
+          "items": [
+            {
+              "id": "movie-as-loucuras-de-dick-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-as-loucuras-de-dick-amp-jane-2005",
+              "title": "As Loucuras de Dick & Jane (2005)",
+              "year": "2005",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "avante nos bastidores de deadpool wolverine 2024",
+          "items": [
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": "1386628"
+            },
+            {
+              "id": "movie-avante-nos-bastidores-de-deadpool-amp-wolverine-2024",
+              "title": "Avante: Nos Bastidores de Deadpool & Wolverine (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bang bang betty valerie s revenge 2023",
+          "items": [
+            {
+              "id": "movie-bang-bang-betty-valerie-039-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bang-bang-betty-valerie-s-revenge-2023",
+              "title": "Bang Bang Betty: Valerie's Revenge (2023)",
+              "year": "2023",
+              "tmdb_id": "1126499"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "barron s cove 2025",
+          "items": [
+            {
+              "id": "movie-barron-039-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-barron-s-cove-2025",
+              "title": "Barron's Cove (2025)",
+              "year": "2025",
+              "tmdb_id": "1128546"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bebe s kids 1992",
+          "items": [
+            {
+              "id": "movie-bebe-039-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bebe-s-kids-1992",
+              "title": "Bebe's Kids (1992)",
+              "year": "1992",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "black 47 2018",
+          "items": [
+            {
+              "id": "movie-black-039-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-black-47-2018",
+              "title": "Black '47 (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bob esponja um heroi fora d agua 2015",
+          "items": [
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-agua-2015",
+              "title": "Bob Esponja: Um Heroi Fora D'Agua (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bob-esponja-um-heroi-fora-d-039-agua-2015",
+              "title": "Bob Esponja: Um Herói Fora D'Água (2015)",
+              "year": "2015",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "bobi wine the people s president 2023",
+          "items": [
+            {
+              "id": "movie-bobi-wine-the-people-039-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-bobi-wine-the-people-s-president-2023",
+              "title": "Bobi Wine: The People's President (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "coffee kareem 2020",
+          "items": [
+            {
+              "id": "movie-coffee-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-coffee-amp-kareem-2020",
+              "title": "Coffee & Kareem (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "como viajar com o mala do seu pai 2008",
+          "items": [
+            {
+              "id": "movie-como-viajar-com-o-039-mala-039-do-seu-pai-2008",
+              "title": "Como Viajar Com o 'Mala' do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-como-viajar-com-o-mala-do-seu-pai-2008",
+              "title": "Como Viajar Com o Mala do Seu Pai (2008)",
+              "year": "2008",
+              "tmdb_id": "13493"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "corisco dada 1996",
+          "items": [
+            {
+              "id": "movie-corisco-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-corisco-amp-dada-1996",
+              "title": "Corisco & Dadá (1996)",
+              "year": "1996",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "d artagnan o 4o mosqueteiro 2022",
+          "items": [
+            {
+              "id": "movie-d-039-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-d-artagnan-o-4o-mosqueteiro-2022",
+              "title": "D'Artagnan - O 4º Mosqueteiro (2022)",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let him find you 2024",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-him-find-you-2024",
+              "title": "Don't Let Him Find You (2024)",
+              "year": "2024",
+              "tmdb_id": "1396130"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t let them in 2020",
+          "items": [
+            {
+              "id": "movie-don-039-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-let-them-in-2020",
+              "title": "Don't Let Them In (2020)",
+              "year": "2020",
+              "tmdb_id": "683716"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "don t look a morte te aguarda 2018",
+          "items": [
+            {
+              "id": "movie-don-039-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-don-t-look-a-morte-te-aguarda-2018",
+              "title": "Don't Look: A Morte te Aguarda (2018)",
+              "year": "2018",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis eu 2026",
+          "items": [
+            {
+              "id": "movie-elis-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": "1550019"
+            },
+            {
+              "id": "movie-elis-amp-eu-2026",
+              "title": "Elis & Eu (2026)",
+              "year": "2026",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elis tom so tinha de ser com voce 2023",
+          "items": [
+            {
+              "id": "movie-elis-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": "1030653"
+            },
+            {
+              "id": "movie-elis-amp-tom-so-tinha-de-ser-com-voce-2023",
+              "title": "Elis & Tom: Só Tinha de Ser com Você (2023)",
+              "year": "2023",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis anabelle o despertar de um amor 2007",
+          "items": [
+            {
+              "id": "movie-elvis-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-anabelle-o-despertar-de-um-amor-2007",
+              "title": "Elvis & Anabelle: O Despertar de Um Amor (2007)",
+              "year": "2007",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "elvis nixon 2016",
+          "items": [
+            {
+              "id": "movie-elvis-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-elvis-amp-nixon-2016",
+              "title": "Elvis & Nixon (2016)",
+              "year": "2016",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "em busca de ohana 2021",
+          "items": [
+            {
+              "id": "movie-em-busca-de-039-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            },
+            {
+              "id": "movie-em-busca-de-ohana-2021",
+              "title": "Em Busca de 'Ohana (2021)",
+              "year": "2021",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "series": [
+        {
+          "normalized_title": "fantasmas",
+          "items": [
+            {
+              "id": "series-fantasmas-2021",
+              "title": "Fantasmas",
+              "year": "2021",
+              "tmdb_id": "126027"
+            },
+            {
+              "id": "series-fantasmas-2024",
+              "title": "Fantasmas",
+              "year": "2024",
+              "tmdb_id": "253254"
+            }
+          ],
+          "count": 2
+        },
+        {
+          "normalized_title": "jogos copa do mundo",
+          "items": [
+            {
+              "id": "series-jogos-copa-do-mundo",
+              "title": "Jogos Copa do Mundo",
+              "year": "",
+              "tmdb_id": ""
+            },
+            {
+              "id": "series-jogos-copa-do-mundo-2022",
+              "title": "Jogos Copa do Mundo",
+              "year": "2022",
+              "tmdb_id": ""
+            }
+          ],
+          "count": 2
+        }
+      ],
+      "anime": [],
+      "doramas": [
+        {
+          "normalized_title": "gto",
+          "items": [
+            {
+              "id": "series-gto",
+              "title": "Gto",
+              "year": "1998",
+              "tmdb_id": "62057"
+            },
+            {
+              "id": "series-gto-2026",
+              "title": "GTO",
+              "year": "2026",
+              "tmdb_id": "325022"
+            }
+          ],
+          "count": 2
+        }
+      ]
+    }
+  },
+  "new_records_missing_metadata": {
+    "movies": {
+      "new_record_count": 0,
+      "records_with_missing_metadata": 0,
+      "missing_field_counts": {},
+      "examples_included": 0,
+      "examples_truncated": false,
+      "examples": []
+    },
+    "series": {
+      "new_record_count": 0,
+      "records_with_missing_metadata": 0,
+      "missing_field_counts": {},
+      "examples_included": 0,
+      "examples_truncated": false,
+      "examples": []
+    },
+    "anime": {
+      "new_record_count": 0,
+      "records_with_missing_metadata": 0,
+      "missing_field_counts": {},
+      "examples_included": 0,
+      "examples_truncated": false,
+      "examples": []
+    },
+    "doramas": {
+      "new_record_count": 0,
+      "records_with_missing_metadata": 0,
+      "missing_field_counts": {},
+      "examples_included": 0,
+      "examples_truncated": false,
+      "examples": []
+    }
+  },
+  "import_counters": {
+    "channel_sources_added": 0,
+    "skipped_urls": 316560,
+    "source_urls_merged_into_reference_candidates": 774373,
+    "provider_refs_merged_into_reference_candidates": 1136577,
+    "movies_tmdb_id_sources_merged_into_existing": 348,
+    "movies_ambiguous_tmdb_id_records_skipped": 2113,
+    "movies_existing_id_metadata_collisions_quarantined": 9092,
+    "movies_held_incomplete_metadata": 755,
+    "series_ambiguous_tmdb_id_records_skipped": 1094,
+    "series_tmdb_id_sources_merged_into_existing": 98,
+    "series_existing_id_metadata_collisions_quarantined": 7,
+    "series_held_incomplete_metadata": 40,
+    "series_held_title_collision": 7,
+    "anime_ambiguous_tmdb_id_records_skipped": 1,
+    "doramas_ambiguous_tmdb_id_records_skipped": 46,
+    "radios_updated": 0,
+    "radio_import_candidates": 0,
+    "radios_quarantined": 0,
+    "movies": 40939,
+    "series": 11665,
+    "anime": 2750,
+    "doramas": 896,
+    "radios_added": 0,
+    "channel_records_total": 2431,
+    "radio_records_total": 753,
+    "fichas_matched": 36146
+  },
+  "import_counter_semantics": {
+    "source_urls_merged_into_reference_candidates": "Parser-level unique URL merges before identity reconciliation; not the net number added to the final catalog.",
+    "provider_refs_merged_into_reference_candidates": "Parser-level provider-reference merges before identity reconciliation; not the net number added to the final catalog.",
+    "net_catalog_reference_changes": "Use the before/after delta in the reference import preview for net source_count and provider_ref_count changes in generated indexes."
+  },
+  "notes": [
+    "Preview ran in a detached temporary worktree; no catalog files were published or committed.",
+    "Counts contain no titles, stream URLs, logos, credentials, or provider response bodies.",
+    "Source references are counted from the published VOD indexes; this does not prove playback.",
+    "A positive or negative metadata delta is a review signal; existing catalog records must not be removed solely because they are absent from a reference."
+  ]
+}

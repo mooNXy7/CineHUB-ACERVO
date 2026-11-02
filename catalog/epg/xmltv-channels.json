@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T15:17:21Z",
+  "generated_at": "2026-11-02T20:00:47Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-10-26T15:17:21Z",
+      "fetched_at": "2026-11-02T20:00:47Z",
       "channel_count": 179,
       "channels": [
         {
@@ -716,7 +716,8 @@
         {
           "id": "6888ee858f4a4aa11feb9430",
           "display_names": [
-            "Top Barça"
+            "Top Barça",
+            "Barça 24H"
           ]
         },
         {
@@ -1089,7 +1090,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-10-26T15:17:21Z",
+      "fetched_at": "2026-11-02T20:00:47Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2051,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-10-26T15:17:21Z",
+      "fetched_at": "2026-11-02T20:00:47Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,8 +3150,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-10-26T15:17:21Z",
-      "channel_count": 494,
+      "fetched_at": "2026-11-02T20:00:47Z",
+      "channel_count": 505,
       "channels": [
         {
           "id": "A&E",
@@ -6114,6 +6115,72 @@
           "id": "Villa Kids",
           "display_names": [
             "Villa Kids"
+          ]
+        },
+        {
+          "id": "Band News",
+          "display_names": [
+            "Band News"
+          ]
+        },
+        {
+          "id": "Band Sports",
+          "display_names": [
+            "Band Sports"
+          ]
+        },
+        {
+          "id": "OFF HD",
+          "display_names": [
+            "OFF HD"
+          ]
+        },
+        {
+          "id": "SPACE",
+          "display_names": [
+            "SPACE"
+          ]
+        },
+        {
+          "id": "Box kids",
+          "display_names": [
+            "Box kids"
+          ]
+        },
+        {
+          "id": "Canal UOL",
+          "display_names": [
+            "Canal UOL"
+          ]
+        },
+        {
+          "id": "GETV",
+          "display_names": [
+            "GETV"
+          ]
+        },
+        {
+          "id": "NSports",
+          "display_names": [
+            "NSports"
+          ]
+        },
+        {
+          "id": "Sony Movies",
+          "display_names": [
+            "Sony Movies"
+          ]
+        },
+        {
+          "id": "Band RJ HD",
+          "display_names": [
+            "Band RJ HD"
+          ]
+        },
+        {
+          "id": "Record",
+          "display_names": [
+            "Record"
           ]
         }
       ]

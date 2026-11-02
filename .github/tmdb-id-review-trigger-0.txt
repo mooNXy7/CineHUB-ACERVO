@@ -1,0 +1,3 @@
+One-shot trigger for the bounded TMDB-ID candidate workflow.
+Expected inputs: limit=500, offset=0, batch_count=9 (workflow defaults).
+Read-only candidate search; only unique exact-title + exact-year matches may be assigned by the guarded applier.

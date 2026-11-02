@@ -1,21 +1,47 @@
+# Retry EPG refresh after correcting the reference-mapping test's channel-list shape.
+# Retry after correcting the series-reference fixture's string season key.
+# Audit-branch reference sync: re-run only after catalog/test corrections are committed.
 name: Update catalog
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, audit/acervo-hardening-2026-10]
     paths:
       - "sources/sources.json"
       - "sources/m3u/**"
       - "catalog/epg/**"
+      - "catalog/reference/**"
       - "scripts/update_catalog.py"
+      - "scripts/update_radio_catalog.py"
+      - "scripts/update_saimotv_channel_reference.py"
+      - "tests/test_update_saimotv_channel_reference.py"
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
+      - "scripts/apply_exact_channel_logo_suggestions.py"
+      - "scripts/apply_reviewed_channel_logo_variants.py"
       - "scripts/validate_catalog.py"
+      - "scripts/audit_vod_metadata_windows.py"
+      - "tests/test_audit_vod_metadata_windows.py"
       - "scripts/update_epg.py"
+      - "scripts/update_html_epg.py"
+      - "scripts/parse_html_epg.py"
+      - "docs/WORKLOG-2026-10-31.md"
+      - "scripts/suggest_catalogo_channel_sources.py"
+      - "scripts/probe_catalogo_channel_sources.py"
+      - "scripts/apply_catalogo_channel_sources.py"
+      - "tests/test_suggest_catalogo_channel_sources.py"
+      - "tests/test_catalogo_channel_source_probe_apply.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
-    - cron: "23 8 * * *"
+    # Depois da atualização diária de referência do SaimoPlayer (11:17 BRT).
+    - cron: "37 14 * * *"
   workflow_dispatch:
+    inputs:
+      approve_reference_import:
+        description: "Aplicar a importação VOD de referência somente após revisar o relatório de qualidade."
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,42 +55,159 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Sync branch head before catalog mutation
+        run: |
+          git fetch --no-tags origin "refs/heads/${GITHUB_REF_NAME}:refs/remotes/origin/${GITHUB_REF_NAME}"
+          git merge --ff-only "refs/remotes/origin/${GITHUB_REF_NAME}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Fetch only the reference catalog files
+        id: reference
         run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference
-          git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
-            '/vod/filmes-*.txt' \
-            '/vod/series-*-*.txt' \
-            '/vod/fichas.txt' \
-            '/vod/busca.txt' \
-            '/vod/destaques.txt' \
-            '/vod/radios.txt' \
-            '/vod/mgeb/links-*.txt' \
-            '/vod/redeflix/links-*.txt' \
-            '/1.m3u' \
-            '/3.m3u'
-      - name: Import new reference data only when needed
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoPlayer.git /tmp/cinehub-reference; then
+            git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
+              '/vod/filmes-*.txt' \
+              '/vod/series-*-*.txt' \
+              '/vod/fichas.txt' \
+              '/vod/busca.txt' \
+              '/vod/destaques.txt' \
+              '/vod/radios.txt' \
+              '/vod/mgeb/links-*.txt' \
+              '/vod/redeflix/links-*.txt' \
+              '/catalogo.txt' \
+              '/1.m3u' \
+              '/3.m3u'
+            echo "REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
+          else
+            echo "REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
+            echo "::warning::Catálogo de referência indisponível nesta execução; a importação será ignorada e os dados atuais serão preservados."
+          fi
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoTV-Android.git /tmp/cinehub-saimo-tv; then
+            git -C /tmp/cinehub-saimo-tv sparse-checkout set --no-cone '/scripts/offline.json'
+            echo "SAIMOTV_REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
+          else
+            echo "SAIMOTV_REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
+            echo "::warning::Referência SaimoTV-Android indisponível; atualização de streams será ignorada."
+          fi
+      - name: Import reference data with an isolated quality gate
+        if: env.REFERENCE_AVAILABLE == 'true'
         run: |
+          set -euo pipefail
           REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
           LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
-            python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
-            printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
-            echo "Catálogo de referência atualizado: $REF_SHA"
+          LAST_PREVIEW_SHA="$(cat .github/reference-preview.sha 2>/dev/null || true)"
+          APPROVE_REFERENCE_IMPORT="${{ github.event.inputs.approve_reference_import || 'false' }}"
+          # The user explicitly authorized the reference repositories and their catalog
+          # assets for the isolated CineHUB audit branch. Apply the full reference import
+          # on every audit-branch refresh; production branches retain manual approval.
+          if [[ "$GITHUB_REF_NAME" == "audit/acervo-hardening-2026-10" ]]; then
+            APPROVE_REFERENCE_IMPORT="true"
+          fi
+          if [[ "$REF_SHA" != "$LAST_SHA" || ! -f reports/radio-import-candidates.json ]]; then
+            git worktree add --detach /tmp/cinehub-acervo-before HEAD
+            git worktree add --detach /tmp/cinehub-acervo-import HEAD
+            cleanup() {
+              git worktree remove --force /tmp/cinehub-acervo-import || true
+              git worktree remove --force /tmp/cinehub-acervo-before || true
+            }
+            trap cleanup EXIT
+
+            (
+              cd /tmp/cinehub-acervo-import
+              python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
+              python scripts/validate_catalog.py
+            )
+            python scripts/summarize_reference_import_preview.py \
+              --before-root /tmp/cinehub-acervo-before \
+              --after-root /tmp/cinehub-acervo-import \
+              --import-report /tmp/cinehub-acervo-import/reports/reference-import.json \
+              --output /tmp/reference-import-quality-gate.json
+            mkdir -p reports
+            cp /tmp/reference-import-quality-gate.json reports/reference-import-quality-gate.json
+
+            if [[ -f /tmp/cinehub-acervo-import/reports/radio-import-candidates.json ]]; then
+              mkdir -p reports
+              cp /tmp/cinehub-acervo-import/reports/radio-import-candidates.json reports/radio-import-candidates.json
+            fi
+
+            if python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("/tmp/reference-import-quality-gate.json").read_text(encoding="utf-8"))
+          gate = report.get("review_gate", {})
+          reasons = gate.get("blocking_reasons", [])
+          print(json.dumps({
+              "status": gate.get("status"),
+              "blocking_reasons": reasons,
+              "catalog_published": False,
+          }, ensure_ascii=False))
+          if reasons:
+              print("::warning::Reference import held back by quality gate. Other independent catalog/EPG updates will continue.")
+              raise SystemExit(2)
+          PY
+            then
+              GATE_STATUS=0
+            else
+              GATE_STATUS=$?
+            fi
+            printf '%s\n' "$REF_SHA" > .github/reference-preview.sha
+            if [[ "$GATE_STATUS" -eq 0 && "$APPROVE_REFERENCE_IMPORT" == "true" ]]; then
+              cp /tmp/cinehub-acervo-import/catalog/channels/channels.json catalog/channels/channels.json
+              cp /tmp/cinehub-acervo-import/catalog/radios/radios.json catalog/radios/radios.json
+              cp /tmp/cinehub-acervo-import/catalog/vod/index.json catalog/vod/index.json
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/index/ catalog/vod/index/
+              rsync -a --delete /tmp/cinehub-acervo-import/catalog/vod/details/ catalog/vod/details/
+              cp /tmp/cinehub-acervo-import/reports/reference-import.json reports/reference-import.json
+              printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
+              echo "Catálogo de referência passou pelos controles e foi aplicado após aprovação manual: $REF_SHA"
+            elif [[ "$GATE_STATUS" -eq 0 ]]; then
+              echo "::warning::Quality gate passed, but manual approval is required. No reference catalog changes were applied. Dispatch this workflow with approve_reference_import=true after reviewing the preview."
+            elif [[ "$GATE_STATUS" -eq 2 ]]; then
+              echo "Importação de referência bloqueada pela qualidade; nenhuma alteração de referência aplicada. Atualizações independentes continuarão."
+            else
+              exit "$GATE_STATUS"
+            fi
           else
             echo "Nenhum novo commit na referência; importação pesada ignorada."
           fi
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
+        if: env.SAIMOTV_REFERENCE_AVAILABLE == 'true'
+        run: python scripts/update_saimotv_channel_reference.py --reference-file /tmp/cinehub-saimo-tv/scripts/offline.json
+      - name: Build read-only channel source candidates from catalogo.txt
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/suggest_catalogo_channel_sources.py \
+            --reference-file /tmp/cinehub-reference/catalogo.txt \
+            --output reports/catalogo-channel-source-candidates.json
+      - name: Probe HTTPS channel candidates as bounded HLS requests
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/probe_catalogo_channel_sources.py \
+            --input reports/catalogo-channel-source-candidates.json \
+            --output reports/catalogo-channel-source-health.json
+      - name: Apply only network-confirmed HLS sources on the isolated audit branch
+        if: env.REFERENCE_AVAILABLE == 'true' && github.ref_name == 'audit/acervo-hardening-2026-10'
+        run: |
+          python scripts/apply_catalogo_channel_sources.py \
+            --candidates reports/catalogo-channel-source-candidates.json \
+            --health reports/catalogo-channel-source-health.json \
+            --output reports/catalogo-channel-source-application.json
+      - name: Refresh authorized radio reference (preserve existing playback)
+        run: python scripts/update_radio_catalog.py
       - name: Refresh EPG health and channel mappings
         run: python scripts/update_epg.py
+      - name: Refresh explicitly mapped HTML EPG schedules (guarded sidecar)
+        run: python scripts/update_html_epg.py
       - name: Normalize and validate
         run: |
           python scripts/normalize_catalog.py
+          python scripts/apply_exact_channel_logo_suggestions.py
+          python scripts/apply_reviewed_channel_logo_variants.py
           python scripts/validate_catalog.py
+          python scripts/audit_vod_metadata_windows.py --output reports/vod-metadata-window-audit.json
           python -m unittest discover -s tests -v
           python -m py_compile scripts/*.py
       - name: Commit changes when needed
@@ -72,7 +215,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add catalog reports .github/reference-sync.sha
+            git add catalog reports .github/reference-sync.sha .github/reference-preview.sha
             git commit -m "chore(acervo): discover and merge catalog updates"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "report_type": "reviewed_radio_logo_application",
+  "generated_at": "2026-11-02T07:20:49.813Z",
+  "source": "Wikimedia Commons",
+  "counts": {
+    "reference_logos": 19,
+    "requested_station_matches": 43,
+    "logos_applied": 43,
+    "skipped": 0
+  },
+  "applied": [
+    {
+      "radio_id": "radio.92-fm-porto-alegre",
+      "radio_name": "92 FM Porto Alegre",
+      "reference_name": "92 FM Porto Alegre",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Logotipo_da_92_FM_%28Porto_Alegre%29.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_92_FM_(Porto_Alegre).png"
+    },
+    {
+      "radio_id": "radio.antena-1-sorocaba",
+      "radio_name": "Antena 1 Sorocaba",
+      "reference_name": "Antena 1",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Antena_1_logo.png"
+    },
+    {
+      "radio_id": "radio.98-fm-belo-horizonte",
+      "radio_name": "98 FM Belo Horizonte",
+      "reference_name": "98 FM Belo Horizonte",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/98_FM_BH_logo.svg/500px-98_FM_BH_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:98_FM_BH_logo.svg"
+    },
+    {
+      "radio_id": "radio.bandnews-fm-sao-paulo",
+      "radio_name": "BandNews FM São Paulo",
+      "reference_name": "BandNews FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/BandNews_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png"
+    },
+    {
+      "radio_id": "radio.energia-97-fm",
+      "radio_name": "Energia 97 FM",
+      "reference_name": "Energia 97 FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Energia_97_logo.png"
+    },
+    {
+      "radio_id": "radio.jbfm-99-9",
+      "radio_name": "JBFM 99.9",
+      "reference_name": "JB FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/JB_FM_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JB_FM_logo.png"
+    },
+    {
+      "radio_id": "radio.massa-fm-97-7",
+      "radio_name": "Massa FM 97.7",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.massa-fm-99-7",
+      "radio_name": "Massa FM 99.7",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.massa-fm-101-1",
+      "radio_name": "Massa FM 101.1",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-5",
+      "radio_name": "Novabrasil FM 89.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-7",
+      "radio_name": "Novabrasil FM 89.7",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-93-5",
+      "radio_name": "Novabrasil FM 93.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-94-3",
+      "radio_name": "Novabrasil FM 94.3",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-97-5",
+      "radio_name": "Novabrasil FM 97.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-106-5",
+      "radio_name": "Novabrasil FM 106.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-maceio",
+      "radio_name": "Novabrasil FM Maceió",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-salvador",
+      "radio_name": "Novabrasil FM Salvador",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.cbn-belo-horizonte",
+      "radio_name": "CBN Belo Horizonte",
+      "reference_name": "CBN Belo Horizonte",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-belo-horizonte-106-1",
+      "radio_name": "CBN Belo Horizonte 106.1",
+      "reference_name": "CBN Belo Horizonte",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.radio-evangelizar-fm-99-5",
+      "radio_name": "Rádio Evangelizar FM 99.5",
+      "reference_name": "Evangelizar FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evangelizar_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Evangelizar_FM_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.fm-dom-bosco-96-1",
+      "radio_name": "FM Dom Bosco 96.1",
+      "reference_name": "FM Dom Bosco",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/FM_Dom_Bosco_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:FM_Dom_Bosco_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.radio-itatiaia-fm-95-7",
+      "radio_name": "Rádio Itatiaia FM 95.7",
+      "reference_name": "Rádio Itatiaia",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/R%C3%A1dio_Itatiaia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:R%C3%A1dio_Itatiaia_logo.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-89-9",
+      "radio_name": "Jovem Pan FM 89.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-91-1",
+      "radio_name": "Jovem Pan FM 91.1",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-91-3",
+      "radio_name": "Jovem Pan FM 91.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-94-3",
+      "radio_name": "Jovem Pan FM 94.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-99-1",
+      "radio_name": "Jovem Pan FM 99.1",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-100-9",
+      "radio_name": "Jovem Pan FM 100.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-103-3",
+      "radio_name": "Jovem Pan FM 103.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-106-3",
+      "radio_name": "Jovem Pan FM 106.3",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-106-9",
+      "radio_name": "Jovem Pan FM 106.9",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-belo-horizonte",
+      "radio_name": "Jovem Pan FM Belo Horizonte",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-fm-blumenau",
+      "radio_name": "Jovem Pan FM Blumenau",
+      "reference_name": "Jovem Pan FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_FM_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jovem-pan-news-100-3",
+      "radio_name": "Jovem Pan News 100.3",
+      "reference_name": "Jovem Pan News",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jovem_Pan_News_logo_2022.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_News_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-amazonia-102-3",
+      "radio_name": "CBN Amazônia 102.3",
+      "reference_name": "CBN Amazônia",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Amaz%C3%B4nia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Amaz%C3%B4nia_logo.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-rio-de-janeiro-92-5",
+      "radio_name": "CBN Rio de Janeiro 92.5",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-rio-de-janeiro-92-5-fm",
+      "radio_name": "CBN Rio de Janeiro 92.5 FM",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-salvador",
+      "radio_name": "CBN Salvador",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-sao-paulo",
+      "radio_name": "CBN São Paulo",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-vale-90-7",
+      "radio_name": "CBN Vale 90.7",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jangadeiro-fm-88-9",
+      "radio_name": "Jangadeiro FM 88.9",
+      "reference_name": "Jangadeiro FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangadeiro_FM_logo_2023.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jangadeiro_FM_logo_2023.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.bh-fm-102-1",
+      "radio_name": "BH FM 102.1",
+      "reference_name": "BH FM",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/BH_FM_logo.svg/960px-BH_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BH_FM_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.bahia-fm-88-7",
+      "radio_name": "Bahia FM 88.7",
+      "reference_name": "Bahia FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Logotipo_da_Bahia_FM.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_Bahia_FM.png",
+      "license": "PD-textlogo"
+    }
+  ],
+  "skipped": [],
+  "safety": [
+    "Only explicit radio IDs were updated.",
+    "Only previously empty logo_url fields were filled.",
+    "Existing radio logos, stream_url, genre, IDs and playback data were preserved.",
+    "All logo URLs are HTTPS and each source file page identifies the image as PD-textlogo; trademarks may still apply."
+  ]
+}

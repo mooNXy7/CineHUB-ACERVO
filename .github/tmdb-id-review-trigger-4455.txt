@@ -1,0 +1,1 @@
+One-shot continuation after the first 4,500 eligible records were examined and 45 exact-title/type/year IDs were safely assigned. Start next stable window at offset 4,455 to account for the 45 records removed from the no-ID queue. Inputs: limit=500, offset=4455, batch_count=7.

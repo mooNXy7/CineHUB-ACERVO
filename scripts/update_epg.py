@@ -3,9 +3,13 @@
 import concurrent.futures
 import datetime as dt
 import io
+import ipaddress
 import json
+import os
+import tempfile
 import re
 import unicodedata
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -30,8 +34,22 @@ def read_json(path, default=None):
 
 
 def write_json(path, value):
+    """Atomically replace JSON so interrupted runs preserve the last valid file."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    payload = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(payload)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temp_name, path)
+    except BaseException:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
 
 
 def normalise(value):
@@ -42,9 +60,57 @@ def normalise(value):
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
+SENSITIVE_QUERY_KEYS = {
+    "token", "access_token", "auth", "authorization", "password", "passwd",
+    "username", "user", "key", "signature", "sig", "session",
+}
+
+
+def safe_https_url(url):
+    """Reject non-HTTPS, credential-bearing, local, and private-IP source URLs."""
+    try:
+        parsed = urllib.parse.urlsplit(str(url).strip())
+        if parsed.scheme.lower() != "https" or not parsed.hostname:
+            return False
+        if parsed.username is not None or parsed.password is not None:
+            return False
+        if parsed.port not in (None, 443):
+            return False
+        if any(key.lower() in SENSITIVE_QUERY_KEYS
+               for key, _ in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)):
+            return False
+        host = parsed.hostname.rstrip(".").lower()
+        if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
+            return False
+        try:
+            address = ipaddress.ip_address(host)
+        except ValueError:
+            address = None
+        if address is not None and (
+            address.is_private or address.is_loopback or address.is_link_local
+            or address.is_reserved or address.is_multicast or address.is_unspecified
+        ):
+            return False
+        return True
+    except (TypeError, ValueError):
+        return False
+
+
+class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Revalidate every redirect before following it."""
+    def redirect_request(self, request, file_pointer, code, message, headers, new_url):
+        target = urllib.parse.urljoin(request.full_url, new_url)
+        if not safe_https_url(target):
+            raise ValueError("redirection target rejected by HTTPS/source URL policy")
+        return super().redirect_request(request, file_pointer, code, message, headers, target)
+
+
 def get_url(url):
+    if not safe_https_url(url):
+        raise ValueError("source URL rejected by HTTPS/source URL policy")
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,text/html,*/*"})
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+    opener = urllib.request.build_opener(SafeRedirectHandler())
+    with opener.open(request, timeout=TIMEOUT) as response:
         status = getattr(response, "status", 200)
         content_type = response.headers.get("Content-Type", "")
         chunks, size = [], 0
@@ -130,6 +196,44 @@ def pluto_id(text):
     return match.group(1).lower() if match else None
 
 
+def pluto_id_for_channel(channel: dict, overrides: dict | None = None):
+    channel_id = str(channel.get("id") or "")
+    override = str((overrides or {}).get(channel_id) or "").strip()
+    if re.fullmatch(r"[0-9a-f]{24}", override, re.I):
+        return override.lower()
+    return pluto_id(" ".join([
+        str(channel.get("logo_url") or ""),
+        " ".join(str(x.get("url", "")) for x in channel.get("sources", []) if isinstance(x, dict)),
+    ]))
+
+
+def merge_xmltv_channels(previous: list[dict], incoming: list[dict]) -> list[dict]:
+    """Keep previously indexed XMLTV IDs when a fresh feed omits them; merge display names by stable ID."""
+    merged: dict[str, dict] = {}
+    for item in previous + incoming:
+        if not isinstance(item, dict):
+            continue
+        ident = str(item.get("id") or "").strip()
+        if not ident:
+            continue
+        if ident not in merged:
+            merged[ident] = {**item}
+            names = item.get("display_names", [])
+            merged[ident]["display_names"] = list(dict.fromkeys(
+                str(name).strip() for name in names if str(name).strip()
+            )) if isinstance(names, list) else []
+            continue
+        target = merged[ident]
+        names = item.get("display_names", [])
+        if isinstance(names, list):
+            existing_names = target.setdefault("display_names", [])
+            target["display_names"] = list(dict.fromkeys(
+                [str(name).strip() for name in existing_names if str(name).strip()]
+                + [str(name).strip() for name in names if str(name).strip()]
+            ))
+    return list(merged.values())
+
+
 def main():
     sources_doc = read_json(SOURCES_FILE, {})
     map_doc = read_json(MAP_FILE, {})
@@ -138,8 +242,23 @@ def main():
     health_by_id = old_health.get("sources", {})
     index_by_id = old_indexes.get("sources", {})
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    xmltv_sources = [s for s in sources_doc.get("sources", []) if s.get("enabled") and s.get("format") == "xmltv"]
-    html_sources = [s for s in sources_doc.get("sources", []) if s.get("enabled") and s.get("format") == "html"]
+    all_sources = [s for s in sources_doc.get("sources", []) if isinstance(s, dict)]
+    xmltv_sources = [s for s in all_sources if s.get("enabled") and s.get("format") == "xmltv"]
+    html_sources = [s for s in all_sources if s.get("enabled") and s.get("format") == "html"]
+    disabled_html_sources = [s for s in all_sources if not s.get("enabled") and s.get("format") == "html"]
+    for source in disabled_html_sources:
+        sid = str(source.get("id") or "")
+        previous = health_by_id.get(sid, {})
+        health_by_id[sid] = {
+            "source_id": sid,
+            "checked_at": now,
+            "priority": source.get("priority"),
+            "url": source.get("url") or source.get("probe_url"),
+            "status": "disabled",
+            "last_success_at": previous.get("last_success_at"),
+            "consecutive_failures": int(previous.get("consecutive_failures", 0)),
+            "error": "HTML schedule publication disabled until redistribution permission is confirmed",
+        }
     tasks = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for source in xmltv_sources:
@@ -166,7 +285,29 @@ def main():
                         "programme_count_total": programmes, "programme_count_window_78h": window_programmes,
                         "last_success_at": now, "consecutive_failures": 0, "error": None,
                     })
-                    index_by_id[sid] = {"source_id": sid, "fetched_at": now, "channel_count": len(channels), "channels": channels}
+                    previous_index = index_by_id.get(sid, {})
+                    previous_channels = previous_index.get("channels", [])
+                    preserved_channels = merge_xmltv_channels(
+                        previous_channels if isinstance(previous_channels, list) else [],
+                        channels,
+                    )
+                    omitted_count = max(0, len(preserved_channels) - len(channels))
+                    if omitted_count:
+                        entry["feed_channel_count"] = len(channels)
+                        entry["retained_previously_indexed_channels"] = omitted_count
+                        entry["warning"] = (
+                            "Fresh XMLTV feed omitted previously indexed channel IDs; "
+                            "old IDs were retained for review."
+                        )
+                        print(
+                            f"WARNING: EPG source {sid} omitted {omitted_count} previously indexed channel ID(s); "
+                            "retaining them in the index."
+                        )
+                    index_by_id[sid] = {
+                        "source_id": sid, "fetched_at": now,
+                        "channel_count": len(preserved_channels),
+                        "channels": preserved_channels,
+                    }
                 else:
                     entry.update(future.result())
                     entry.update({"status": "healthy", "last_success_at": now, "consecutive_failures": 0, "error": None})
@@ -187,6 +328,7 @@ def main():
     channel_doc = read_json(CHANNELS_FILE, {})
     channels = channel_doc.get("channels", [])
     aliases = map_doc.get("xmltv_aliases", {})
+    pluto_id_overrides = map_doc.get("pluto_id_overrides", {})
     aliases_norm = {normalise(k): [normalise(x) for x in v] for k, v in aliases.items()}
     by_source_names = {}
     for source in xmltv_sources:
@@ -205,10 +347,7 @@ def main():
         if not name:
             continue
         current_sources = []
-        pid = pluto_id(" ".join([
-            str(channel.get("logo_url") or ""),
-            " ".join(str(x.get("url", "")) for x in channel.get("sources", []) if isinstance(x, dict)),
-        ]))
+        pid = pluto_id_for_channel(channel, pluto_id_overrides)
         for source in xmltv_sources:
             sid = source["id"]
             if sid == "pluto-br-xmltv":

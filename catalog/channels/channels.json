@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T15:17:21Z",
+  "generated_at": "2026-11-02T20:00:47Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -188,7 +188,15 @@
       "group": "Notícias",
       "logo_url": "https://img.faz-o-eli.online/cnnbrasil.png",
       "epg_id": "CNN Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
+          "priority": 34,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 25,
       "epg_sources": [
@@ -218,7 +226,15 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 16,
       "epg_sources": [
@@ -422,7 +438,15 @@
       "group": "Notícias",
       "logo_url": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
       "epg_id": "Jovem Pan News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 20,
       "epg_sources": [
@@ -704,7 +728,16 @@
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt.png",
       "epg_id": "SBT",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://aovivo.maissbt.com/indexMobile.m3u8",
+          "priority": 30,
+          "source_id": "saimotv-android-offline-reference",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "referer": "https://mais.sbt.com.br/"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 11,
       "epg_sources": [
@@ -734,7 +767,16 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
       "epg_id": "SBT News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://sbtnews.maissbt.com/index.m3u8",
+          "priority": 30,
+          "source_id": "saimotv-android-offline-reference",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          "referer": "https://mais.sbt.com.br/"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 7,
       "epg_sources": [
@@ -1086,7 +1128,18 @@
       "group": "Variedades",
       "logo_url": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1464410885_b2691072.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 3
     },
@@ -1635,11 +1688,17 @@
       "name": "Record",
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
-      "epg_id": "RECORD HD.br",
+      "epg_id": "Record",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 4,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "RECORD HD.br",
@@ -1653,11 +1712,17 @@
       "name": "Space",
       "group": "Filmes e Séries",
       "logo_url": "https://img.faz-o-eli.online/space.png",
-      "epg_id": "Space",
+      "epg_id": "SPACE",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 18,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -1907,6 +1972,12 @@
           "channel_id": "SONY Movies",
           "priority": 25,
           "match": "exact_or_alias"
+        },
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Sony Movies",
+          "priority": 25,
+          "match": "exact_or_alias"
         }
       ]
     },
@@ -2131,11 +2202,17 @@
       "name": "Band News",
       "group": "Notícias",
       "logo_url": "https://img.faz-o-eli.online/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 22,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -2155,7 +2232,7 @@
       "name": "BAND SPORTS HD",
       "group": "Esportes",
       "logo_url": "https://img.faz-o-eli.online/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71803.ts",
@@ -2171,6 +2248,12 @@
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 25,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -2203,7 +2286,18 @@
       "group": "TV Aberta",
       "logo_url": "https://img.faz-o-eli.online/cultura.png",
       "epg_id": "TV Cultura",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+          "priority": 35,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 12,
       "epg_sources": [
@@ -2323,7 +2417,18 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
       "epg_id": "Record News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "priority": 59,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 21,
       "epg_sources": [
@@ -2377,7 +2482,13 @@
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
       "epg_id": "TV Aparecida",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
+          "priority": 57,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 17,
       "epg_sources": [
@@ -2671,7 +2782,18 @@
       "group": "Variedades",
       "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
+          "priority": 53,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 11,
       "epg_sources": [
@@ -2689,7 +2811,13 @@
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/Ikrj3lk.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 4
     },
@@ -2699,7 +2827,13 @@
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 3,
       "epg_sources": [
@@ -2723,7 +2857,18 @@
       "group": "Variedades",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
       "epg_id": "Rede Gospel",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 15,
       "epg_sources": [
@@ -2753,7 +2898,13 @@
       "group": "Variedades",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
       "epg_id": "Trace Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 16,
       "epg_sources": [
@@ -2975,7 +3126,18 @@
       "group": "Variedades",
       "logo_url": "https://i.imgur.com/GrjGwKM.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
@@ -2995,7 +3157,13 @@
       "group": "Notícias",
       "logo_url": "https://i.imgur.com/vstHOYx.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
@@ -3122,11 +3290,23 @@
       "name": "Canal UOL",
       "group": "Notícias",
       "logo_url": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
-      "epg_id": "Canal Uol",
-      "sources": [],
+      "epg_id": "Canal UOL",
+      "sources": [
+        {
+          "url": "https://video24.mais.uol.com.br/live/6146.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal UOL",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Canal Uol",
@@ -3251,7 +3431,13 @@
       "group": "Variedades",
       "logo_url": "https://i.imgur.com/Tf0vweF.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3315,7 +3501,13 @@
       "group": "Filmes e Séries",
       "logo_url": "https://i.imgur.com/aiGQtzI.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3335,7 +3527,13 @@
       "group": "Infantil",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3343,9 +3541,15 @@
       "id": "br.nickelodeon",
       "name": "Nickelodeon",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/nickelodeon-lam.png",
       "epg_id": "NICKELODEON HD.br",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1,
       "epg_sources": [
@@ -3423,7 +3627,13 @@
       "group": "Filmes e Séries",
       "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
       "epg_id": "62c5d32e2c48f9000715b6e9",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1,
       "epg_sources": [
@@ -4040,6 +4250,12 @@
           "match": "exact_or_alias"
         },
         {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band RJ HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
           "source_id": "iptv-epg-br",
           "channel_id": "BandRJ.br",
           "priority": 30,
@@ -4101,7 +4317,13 @@
       "group": "TV Aberta",
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
@@ -5029,7 +5251,7 @@
       "id": "br.film-arts",
       "name": "Film&Arts",
       "group": "Filmes e Séries",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5069,7 +5291,7 @@
       "id": "br.france-24",
       "name": "France 24",
       "group": "Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5151,7 +5373,7 @@
       "id": "br.sportynet",
       "name": "SportyNet",
       "group": "Esportes",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png",
       "epg_id": "SportyNet",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5241,7 +5463,7 @@
       "id": "br.sabor-arte",
       "name": "Sabor & Arte",
       "group": "Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5271,7 +5493,7 @@
       "id": "br.ufc-fight-pass",
       "name": "UFC Fight Pass",
       "group": "PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5289,7 +5511,7 @@
       "id": "br.zoomoo",
       "name": "Zoomoo",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png",
       "epg_id": "ZooMoo",
       "sources": [],
       "stream_status": "pending_validation",
@@ -5950,7 +6172,7 @@
       "id": "br.geekdot",
       "name": "Geekdot",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/jML1u4O.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -5990,7 +6212,7 @@
       "id": "br.kuriakos-kids",
       "name": "Kuriakos Kids",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/SRX6EPY.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -6000,7 +6222,7 @@
       "id": "br.gospel-cartoon",
       "name": "Gospel Cartoon",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/yxjPno5.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -6753,7 +6975,7 @@
       "name": "Band News 4K",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/103526.ts",
@@ -6764,6 +6986,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6783,7 +7011,7 @@
       "name": "Band News FHD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71789.ts",
@@ -6799,6 +7027,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6834,7 +7068,7 @@
       "name": "Band News HD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandnews.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71791.ts",
@@ -6850,6 +7084,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -6869,7 +7109,7 @@
       "name": "Band News SD",
       "group": "Canais | Notícias",
       "logo_url": "http://tvonhdbr.com/images/abb329697106ebb6f051ab5ab2d39dfd.png",
-      "epg_id": "BandNews.br",
+      "epg_id": "Band News",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71792.ts",
@@ -6885,6 +7125,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band News",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "iptv-epg-br",
           "channel_id": "BandNews.br",
@@ -7007,7 +7253,7 @@
       "name": "Band Sports 4K",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/103525.ts",
@@ -7018,6 +7264,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -7031,7 +7283,7 @@
       "name": "Band Sports FHD",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71801.ts",
@@ -7047,6 +7299,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -7076,7 +7334,7 @@
       "name": "Band Sports SD",
       "group": "Canais | Esportes",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/bandsports.png",
-      "epg_id": "BAND SPORTS HD.br",
+      "epg_id": "Band Sports",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/71804.ts",
@@ -7092,6 +7350,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Band Sports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "open-epg-br",
           "channel_id": "BAND SPORTS HD.br",
@@ -12039,7 +12303,7 @@
       "id": "ch-france-24-4k",
       "name": "France 24 4K",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12069,7 +12333,7 @@
       "id": "ch-france-24-fhd",
       "name": "France 24 FHD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12099,7 +12363,7 @@
       "id": "ch-france-24-fhd-h265",
       "name": "France 24 FHD [H265]",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": null,
       "sources": [
         {
@@ -12115,7 +12379,7 @@
       "id": "ch-france-24-hd",
       "name": "France 24 HD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -12145,7 +12409,7 @@
       "id": "ch-france-24-sd",
       "name": "France 24 SD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": "France 24",
       "sources": [
         {
@@ -13979,7 +14243,7 @@
       "name": "Globo Rede Amazonica Rio Branco FHD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131148.ts",
@@ -13988,14 +14252,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-amazonica-rio-branco-hd",
       "name": "Globo Rede Amazonica Rio Branco HD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131162.ts",
@@ -14004,14 +14276,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-amazonica-rio-branco-sd",
       "name": "Globo Rede Amazonica Rio Branco SD",
       "group": "Canais | Globos Norte",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Rede Amazônica Rio Branco",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131111.ts",
@@ -14020,7 +14300,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Rede Amazônica Rio Branco",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-rede-bahia-fhd",
@@ -14647,7 +14935,7 @@
       "name": "Globo TV Anhanguera FHD",
       "group": "Canais | Globos Centro Oeste",
       "logo_url": "http://tvonhdbr.com/images/37974de0d1d16f3b56bec27eca38a765.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72043.ts",
@@ -14656,14 +14944,28 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-anhanguera-hd",
       "name": "Globo TV Anhanguera HD",
       "group": "Canais | Globos Centro Oeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131166.ts",
@@ -14672,14 +14974,28 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-anhanguera-sd",
       "name": "Globo TV Anhanguera SD",
       "group": "Canais | Globos Nordeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
-      "epg_id": null,
+      "epg_id": "Globo Anhanguera",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/131124.ts",
@@ -14688,7 +15004,21 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Globo Anhanguera",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "GloboAnhanguera.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-globo-tv-asa-branca-fhd",
@@ -15654,7 +15984,7 @@
     },
     {
       "id": "ch-globo-tv-subae-hd",
-      "name": "Globo TV Subae  HD",
+      "name": "Globo TV Subae HD",
       "group": "Canais | Globos Nordeste",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/globo.png",
       "epg_id": null,
@@ -20812,7 +21142,7 @@
       "id": "ch-sportynet-1-4k",
       "name": "SportyNet 1 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20836,7 +21166,7 @@
       "id": "ch-sportynet-1-fhd",
       "name": "SportyNet 1 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20860,7 +21190,7 @@
       "id": "ch-sportynet-1-fhd-h265",
       "name": "SportyNet 1 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": null,
       "sources": [
         {
@@ -20876,7 +21206,7 @@
       "id": "ch-sportynet-1-hd",
       "name": "SportyNet 1 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20900,7 +21230,7 @@
       "id": "ch-sportynet-1-sd",
       "name": "SportyNet 1 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": "SportyNet + 1",
       "sources": [
         {
@@ -20924,7 +21254,7 @@
       "id": "ch-sportynet-2-4k",
       "name": "SportyNet 2 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -20948,7 +21278,7 @@
       "id": "ch-sportynet-2-fhd",
       "name": "SportyNet 2 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -20972,7 +21302,7 @@
       "id": "ch-sportynet-2-fhd-h265",
       "name": "SportyNet 2 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": null,
       "sources": [
         {
@@ -20988,7 +21318,7 @@
       "id": "ch-sportynet-2-hd",
       "name": "SportyNet 2 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21012,7 +21342,7 @@
       "id": "ch-sportynet-2-sd",
       "name": "SportyNet 2 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": "SportyNet + 2",
       "sources": [
         {
@@ -21036,7 +21366,7 @@
       "id": "ch-sportynet-3-4k",
       "name": "SportyNet 3 4K",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21060,7 +21390,7 @@
       "id": "ch-sportynet-3-fhd",
       "name": "SportyNet 3 FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21084,7 +21414,7 @@
       "id": "ch-sportynet-3-fhd-h265",
       "name": "SportyNet 3 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": null,
       "sources": [
         {
@@ -21100,7 +21430,7 @@
       "id": "ch-sportynet-3-hd",
       "name": "SportyNet 3 HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21124,7 +21454,7 @@
       "id": "ch-sportynet-3-sd",
       "name": "SportyNet 3 SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": "SportyNet + 3",
       "sources": [
         {
@@ -21164,7 +21494,7 @@
       "id": "ch-sportynet-fhd-h265",
       "name": "SportyNet FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png",
       "epg_id": null,
       "sources": [
         {
@@ -21213,7 +21543,7 @@
       "name": "OFF 4K",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90240.ts",
@@ -21224,6 +21554,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21249,7 +21585,7 @@
       "name": "OFF FHD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72209.ts",
@@ -21260,6 +21596,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21301,7 +21643,7 @@
       "name": "OFF HD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72211.ts",
@@ -21312,6 +21654,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -21337,7 +21685,7 @@
       "name": "OFF SD",
       "group": "Canais | Variedades",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/off.png",
-      "epg_id": "Off",
+      "epg_id": "OFF HD",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/72212.ts",
@@ -21348,6 +21696,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "OFF HD",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Off",
@@ -24154,7 +24508,7 @@
       "id": "ch-sabor-arte-4k",
       "name": "Sabor & Arte 4K",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24190,7 +24544,7 @@
       "id": "ch-sabor-arte-fhd",
       "name": "Sabor & Arte FHD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24226,7 +24580,7 @@
       "id": "ch-sabor-arte-fhd-h265",
       "name": "Sabor & Arte FHD [H265]",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": null,
       "sources": [
         {
@@ -24242,7 +24596,7 @@
       "id": "ch-sabor-arte-hd",
       "name": "Sabor & Arte HD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -24283,7 +24637,7 @@
       "id": "ch-sabor-arte-sd",
       "name": "Sabor & Arte SD",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": "Sabor & Arte",
       "sources": [
         {
@@ -25402,7 +25756,7 @@
       "name": "Telecine Action FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90668.ts",
@@ -25411,7 +25765,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-action-hd",
@@ -25459,7 +25833,7 @@
       "name": "Telecine Action HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90667.ts",
@@ -25468,7 +25842,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-action-sd",
@@ -25516,7 +25910,7 @@
       "name": "Telecine Action SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecineaction.png",
-      "epg_id": null,
+      "epg_id": "Telecine Action",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90666.ts",
@@ -25525,7 +25919,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Action",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecineAction.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE ACTION.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-cult-4k",
@@ -26071,7 +26485,7 @@
       "name": "Telecine Pipoca FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90659.ts",
@@ -26080,7 +26494,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-pipoca-hd",
@@ -26128,7 +26562,7 @@
       "name": "Telecine Pipoca HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90658.ts",
@@ -26137,7 +26571,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-pipoca-sd",
@@ -26185,7 +26639,7 @@
       "name": "Telecine Pipoca SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepipoca.png",
-      "epg_id": null,
+      "epg_id": "Telecine Pipoca",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90657.ts",
@@ -26194,7 +26648,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Pipoca",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePipoca.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PIPOCA.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-4k",
@@ -26294,7 +26768,7 @@
       "name": "Telecine Premium FHD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90656.ts",
@@ -26303,7 +26777,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-hd",
@@ -26351,7 +26845,7 @@
       "name": "Telecine Premium HD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90655.ts",
@@ -26360,7 +26854,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-premium-sd",
@@ -26408,7 +26922,7 @@
       "name": "Telecine Premium SD [LEG]",
       "group": "Canais | Legendados",
       "logo_url": "http://tvonhdbr.com/static/logos/canais/telecinepremium.png",
-      "epg_id": null,
+      "epg_id": "Telecine Premium",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/90654.ts",
@@ -26417,7 +26931,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Telecine Premium",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "TelecinePremium.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "TELECINE PREMIUM.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-telecine-touch-4k",
@@ -28109,7 +28643,7 @@
       "id": "ch-ufc-fight-pass-fhd",
       "name": "UFC Fight Pass FHD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -28133,7 +28667,7 @@
       "id": "ch-ufc-fight-pass-hd",
       "name": "UFC Fight Pass HD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -28157,7 +28691,7 @@
       "id": "ch-ufc-fight-pass-sd",
       "name": "UFC Fight Pass SD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/ufc-us.png",
       "epg_id": "UFC Fight Pass",
       "sources": [
         {
@@ -28516,7 +29050,7 @@
       "id": "ch-zoomoo-4k",
       "name": "Zoomoo 4K",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png",
       "epg_id": "ZooMoo",
       "sources": [
         {
@@ -32254,7 +32788,7 @@
       "name": "[24H] Os Padrinhos Magicos",
       "group": "Canais | [24H] Desenhos",
       "logo_url": "http://24horas.cc:80/images/0e8515b81340f328f4fb962042f41c17.jpg",
-      "epg_id": null,
+      "epg_id": "63221e41af69b500076f84e7",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/135546.ts",
@@ -32263,7 +32797,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "63221e41af69b500076f84e7",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-24h-os-roni",
@@ -34163,7 +34705,7 @@
       "name": "[24H] Turma da Monica",
       "group": "Canais | [24H] Outros",
       "logo_url": "http://24horas.cc:80/images/f28ffaadfd02314ad8bf6ab09f06cca7.jpg",
-      "epg_id": null,
+      "epg_id": "5f997e44949bc70007a6941e",
       "sources": [
         {
           "url": "http://tvonhdbr.com:80/493754/NqCxf1/137612.ts",
@@ -34172,7 +34714,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "5f997e44949bc70007a6941e",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-24h-tv-quack-o-pato-donald-e-seus-sobrinhos",
@@ -35702,7 +36252,7 @@
       "id": "ch-adult-swim-fhd",
       "name": "Adult Swim FHD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35744,7 +36294,7 @@
       "id": "ch-adult-swim-hd",
       "name": "Adult Swim HD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35791,7 +36341,7 @@
       "id": "ch-adult-swim-sd",
       "name": "Adult Swim SD",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35838,7 +36388,7 @@
       "id": "ch-adult-swim-4k",
       "name": "Adult Swim 4K",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": "Adult Swim",
       "sources": [
         {
@@ -35880,7 +36430,7 @@
       "id": "ch-adult-swim-h265",
       "name": "Adult Swim H265",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": null,
       "sources": [
         {
@@ -36472,7 +37022,7 @@
       "id": "ch-cnn-brasil-money-fhd",
       "name": "CNN Brasil Money FHD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36502,7 +37052,7 @@
       "id": "ch-cnn-brasil-money-hd",
       "name": "CNN Brasil Money HD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36532,7 +37082,7 @@
       "id": "ch-cnn-brasil-money-sd",
       "name": "CNN Brasil Money SD",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -36562,7 +37112,7 @@
       "id": "ch-cnn-brasil-money-fhd-h265",
       "name": "CNN Brasil Money FHD [H265]",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": null,
       "sources": [
         {
@@ -36578,7 +37128,7 @@
       "id": "ch-cnn-brasil-money-4k",
       "name": "CNN Brasil Money 4K",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
       "sources": [
         {
@@ -38517,7 +39067,7 @@
       "id": "ch-x-sports-fhd",
       "name": "X Sports FHD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -38541,7 +39091,7 @@
       "id": "ch-x-sports-hd",
       "name": "X Sports HD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -38570,7 +39120,7 @@
       "id": "ch-x-sports-sd",
       "name": "X Sports SD",
       "group": "Canais | Esportes",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/xsports.png",
       "epg_id": "X Sports",
       "sources": [
         {
@@ -39850,7 +40400,7 @@
       "id": "ch-amc-fhd",
       "name": "AMC FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -39886,7 +40436,7 @@
       "id": "ch-amc-hd",
       "name": "AMC HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -39922,7 +40472,7 @@
       "id": "ch-amc-sd",
       "name": "AMC SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": "AMC",
       "sources": [
         {
@@ -40044,7 +40594,7 @@
       "name": "Avatar A Lenda de Aang 24H",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "6759eeb1bd523200083b4f29",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501795",
@@ -40053,13 +40603,21 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "6759eeb1bd523200083b4f29",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-axn-fhd",
       "name": "AXN FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40095,7 +40653,7 @@
       "id": "ch-axn-hd",
       "name": "AXN HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40131,7 +40689,7 @@
       "id": "ch-axn-sd",
       "name": "AXN SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/axn.png",
       "epg_id": "AXN",
       "sources": [
         {
@@ -40467,7 +41025,7 @@
       "id": "ch-canal-brasil-hd",
       "name": "Canal Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png",
       "epg_id": "Canal Brasil",
       "sources": [
         {
@@ -40503,7 +41061,7 @@
       "id": "ch-canal-brasil-sd",
       "name": "Canal Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png",
       "epg_id": "Canal Brasil",
       "sources": [
         {
@@ -40603,7 +41161,7 @@
       "id": "ch-canal-futura-fhd",
       "name": "Canal Futura FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -40619,7 +41177,7 @@
       "id": "ch-canal-futura-hd",
       "name": "Canal Futura HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -40635,7 +41193,7 @@
       "id": "ch-canal-futura-sd",
       "name": "Canal Futura SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -40699,7 +41257,7 @@
       "id": "ch-canal-off-fhd",
       "name": "Canal OFF FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -40715,7 +41273,7 @@
       "id": "ch-canal-off-hd",
       "name": "Canal OFF HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -40731,7 +41289,7 @@
       "id": "ch-canal-off-sd",
       "name": "Canal OFF SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/off.png",
       "epg_id": null,
       "sources": [
         {
@@ -40795,7 +41353,7 @@
       "id": "ch-cancao-nova-hd",
       "name": "Canção Nova HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cancao-nova.png",
       "epg_id": "Canção Nova",
       "sources": [
         {
@@ -40825,7 +41383,7 @@
       "id": "ch-cancao-nova-sd",
       "name": "Canção Nova SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cancao-nova.png",
       "epg_id": "Canção Nova",
       "sources": [
         {
@@ -40975,7 +41533,7 @@
     },
     {
       "id": "ch-cdz-saga-do-santuario-24h",
-      "name": "CDZ Saga do Santuario  24H",
+      "name": "CDZ Saga do Santuario 24H",
       "group": "Outros",
       "logo_url": null,
       "epg_id": null,
@@ -41243,7 +41801,7 @@
       "id": "ch-cinemax-fhd",
       "name": "Cinemax FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41279,7 +41837,7 @@
       "id": "ch-cinemax-hd",
       "name": "Cinemax HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41315,7 +41873,7 @@
       "id": "ch-cinemax-sd",
       "name": "Cinemax SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cinemax.png",
       "epg_id": "Cinemax",
       "sources": [
         {
@@ -41351,7 +41909,7 @@
       "id": "ch-cnn-international-hd",
       "name": "CNN International HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png",
       "epg_id": "CNN International",
       "sources": [
         {
@@ -41381,7 +41939,7 @@
       "id": "ch-cnn-international-sd",
       "name": "CNN International SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-internacional.png",
       "epg_id": "CNN International",
       "sources": [
         {
@@ -41491,7 +42049,7 @@
       "id": "ch-discovery-home-health-fhd",
       "name": "Discovery Home & Health FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41527,7 +42085,7 @@
       "id": "ch-discovery-home-health-hd",
       "name": "Discovery Home & Health HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41563,7 +42121,7 @@
       "id": "ch-discovery-home-health-sd",
       "name": "Discovery Home & Health SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-home-and-health.png",
       "epg_id": "Discovery Home & Health",
       "sources": [
         {
@@ -41599,7 +42157,7 @@
       "id": "ch-disney-5-hd",
       "name": "Disney + 5 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png",
       "epg_id": null,
       "sources": [
         {
@@ -41615,7 +42173,7 @@
       "id": "ch-disney-6-hd",
       "name": "Disney + 6 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png",
       "epg_id": null,
       "sources": [
         {
@@ -41985,7 +42543,7 @@
       "id": "ch-film-arts-fhd",
       "name": "Film&Arts FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42021,7 +42579,7 @@
       "id": "ch-film-arts-hd",
       "name": "Film&Arts HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42057,7 +42615,7 @@
       "id": "ch-film-arts-sd",
       "name": "Film&Arts SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/film-e-arts.png",
       "epg_id": "Film & Arts",
       "sources": [
         {
@@ -42418,7 +42976,7 @@
       "id": "ch-globo-rpc-curitiba-fhd",
       "name": "Globo - RPC Curitiba FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png",
       "epg_id": null,
       "sources": [
         {
@@ -42434,7 +42992,7 @@
       "id": "ch-globo-rpc-curitiba-hd",
       "name": "Globo - RPC Curitiba HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/rpc.png",
       "epg_id": null,
       "sources": [
         {
@@ -42663,7 +43221,7 @@
       "id": "ch-globonews-fhd",
       "name": "GloboNews FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -42687,7 +43245,7 @@
       "id": "ch-globonews-hd",
       "name": "GloboNews HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -42711,7 +43269,7 @@
       "id": "ch-globonews-sd",
       "name": "GloboNews SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/globonews.png",
       "epg_id": "GloboNews.br",
       "sources": [
         {
@@ -43583,7 +44141,7 @@
       "id": "ch-megapix-fhd",
       "name": "Megapix FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -43619,7 +44177,7 @@
       "id": "ch-megapix-hd",
       "name": "Megapix HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -43655,7 +44213,7 @@
       "id": "ch-megapix-sd",
       "name": "Megapix SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/megapix.png",
       "epg_id": "Megapix",
       "sources": [
         {
@@ -44041,7 +44599,7 @@
       "id": "ch-novo-tempo-hd",
       "name": "Novo Tempo HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -44057,7 +44615,7 @@
       "id": "ch-novo-tempo-sd",
       "name": "Novo Tempo SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -44105,8 +44663,8 @@
       "id": "ch-nsports-fhd",
       "name": "NSports FHD",
       "group": "Outros",
-      "logo_url": null,
-      "epg_id": "Nsports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "epg_id": "NSports",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501921",
@@ -44117,6 +44675,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "NSports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Nsports",
@@ -44135,8 +44699,8 @@
       "id": "ch-nsports-hd",
       "name": "NSports HD",
       "group": "Outros",
-      "logo_url": null,
-      "epg_id": "Nsports",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "epg_id": "NSports",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501922",
@@ -44147,6 +44711,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "NSports",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Nsports",
@@ -44454,7 +45024,7 @@
       "name": "Prime Box Brasil FHD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501699",
@@ -44463,14 +45033,34 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-prime-box-brasil-hd",
       "name": "Prime Box Brasil HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501700",
@@ -44479,14 +45069,34 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-prime-box-brasil-sd",
       "name": "Prime Box Brasil SD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Prime Box Brazil",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501701",
@@ -44495,7 +45105,27 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Prime Box Brazil",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "PrimeBoxBrazil.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "open-epg-br",
+          "channel_id": "PRIME BOX BRAZIL.br",
+          "priority": 40,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-rai-hd",
@@ -44550,7 +45180,7 @@
       "name": "Record Brasilia HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Record TV Brasília",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501983",
@@ -44559,7 +45189,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record TV Brasília",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-record-campinas-fhd",
@@ -44614,7 +45252,7 @@
       "name": "Record Goias HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Record TV Goiás",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501982",
@@ -44623,7 +45261,21 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Record TV Goiás",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
+        {
+          "source_id": "iptv-epg-br",
+          "channel_id": "RecordTVGoiás.br",
+          "priority": 30,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-record-manaus-hd",
@@ -44741,7 +45393,7 @@
       "id": "ch-record-sp-fhd",
       "name": "Record SP FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -44765,7 +45417,7 @@
       "id": "ch-record-sp-hd",
       "name": "Record SP HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -44789,7 +45441,7 @@
       "id": "ch-record-sp-sd",
       "name": "Record SP SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/record.png",
       "epg_id": "RecordTVSP.br",
       "sources": [
         {
@@ -44813,7 +45465,7 @@
       "id": "ch-rede-brasil-hd",
       "name": "Rede Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
       "sources": [
         {
@@ -44843,7 +45495,7 @@
       "id": "ch-rede-brasil-sd",
       "name": "Rede Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
       "sources": [
         {
@@ -45009,7 +45661,7 @@
       "id": "ch-rede-tv-fhd",
       "name": "Rede TV FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -45039,7 +45691,7 @@
       "id": "ch-rede-tv-hd",
       "name": "Rede TV HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -45069,7 +45721,7 @@
       "id": "ch-rede-tv-sd",
       "name": "Rede TV SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -45423,8 +46075,8 @@
       "id": "ch-space-fhd",
       "name": "Space FHD",
       "group": "Outros",
-      "logo_url": null,
-      "epg_id": "Space",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501702",
@@ -45435,6 +46087,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -45459,8 +46117,8 @@
       "id": "ch-space-hd",
       "name": "Space HD",
       "group": "Outros",
-      "logo_url": null,
-      "epg_id": "Space",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501703",
@@ -45471,6 +46129,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -45495,8 +46159,8 @@
       "id": "ch-space-sd",
       "name": "Space SD",
       "group": "Outros",
-      "logo_url": null,
-      "epg_id": "Space",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/space.png",
+      "epg_id": "SPACE",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501704",
@@ -45507,6 +46171,12 @@
       "stream_status": "imported",
       "source_candidates_pending_review": 0,
       "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "SPACE",
+          "priority": 25,
+          "match": "exact_or_alias"
+        },
         {
           "source_id": "brazil-tv-epg",
           "channel_id": "Space",
@@ -45579,7 +46249,7 @@
       "id": "ch-studio-universal-fhd",
       "name": "Studio Universal FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -45615,7 +46285,7 @@
       "id": "ch-studio-universal-hd",
       "name": "Studio Universal HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -45651,7 +46321,7 @@
       "id": "ch-studio-universal-sd",
       "name": "Studio Universal SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/studio-universal.png",
       "epg_id": "Studio Universal",
       "sources": [
         {
@@ -45751,7 +46421,7 @@
       "id": "ch-tcm-fhd",
       "name": "TCM FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -45787,7 +46457,7 @@
       "id": "ch-tcm-hd",
       "name": "TCM HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -45823,7 +46493,7 @@
       "id": "ch-tcm-sd",
       "name": "TCM SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tcm.png",
       "epg_id": "TCM",
       "sources": [
         {
@@ -45859,7 +46529,7 @@
       "id": "ch-terra-viva-hd",
       "name": "Terra Viva HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
       "epg_id": "Terra Viva",
       "sources": [
         {
@@ -45883,7 +46553,7 @@
       "id": "ch-terra-viva-sd",
       "name": "Terra Viva SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
       "epg_id": "Terra Viva",
       "sources": [
         {
@@ -45942,9 +46612,9 @@
     },
     {
       "id": "ch-tnt-fhd",
-      "name": "TNT  FHD",
+      "name": "TNT FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -45978,9 +46648,9 @@
     },
     {
       "id": "ch-tnt-hd",
-      "name": "TNT  HD",
+      "name": "TNT HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -46014,9 +46684,9 @@
     },
     {
       "id": "ch-tnt-sd",
-      "name": "TNT  SD",
+      "name": "TNT SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt.png",
       "epg_id": "TNT",
       "sources": [
         {
@@ -46052,7 +46722,7 @@
       "id": "ch-tnt-novelas-fhd",
       "name": "TNT Novelas FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46082,7 +46752,7 @@
       "id": "ch-tnt-novelas-hd",
       "name": "TNT Novelas HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46112,7 +46782,7 @@
       "id": "ch-tnt-novelas-sd",
       "name": "TNT Novelas SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-novelas.png",
       "epg_id": "TNT Novelas",
       "sources": [
         {
@@ -46174,7 +46844,7 @@
       "id": "ch-tnt-series-fhd",
       "name": "TNT Séries FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46210,7 +46880,7 @@
       "id": "ch-tnt-series-hd",
       "name": "TNT Séries HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46246,7 +46916,7 @@
       "id": "ch-tnt-series-sd",
       "name": "TNT Séries SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tnt-series.png",
       "epg_id": "TNT Séries",
       "sources": [
         {
@@ -46303,7 +46973,7 @@
       "id": "ch-tv-brasil-sd",
       "name": "TV Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
       "epg_id": "TV Brasil",
       "sources": [
         {
@@ -46339,7 +47009,7 @@
       "id": "ch-tv-cultura-fhd",
       "name": "TV CULTURA FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46363,7 +47033,7 @@
       "id": "ch-tv-cultura-hd",
       "name": "TV Cultura HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46387,7 +47057,7 @@
       "id": "ch-tv-cultura-sd",
       "name": "TV Cultura SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cultura.png",
       "epg_id": "TV Cultura",
       "sources": [
         {
@@ -46411,7 +47081,7 @@
       "id": "ch-tv-evangelizar-hd",
       "name": "TV Evangelizar HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/IrYR7Kp.png",
       "epg_id": "TV Evangelizar",
       "sources": [
         {
@@ -46435,7 +47105,7 @@
       "id": "ch-tv-gazeta-hd",
       "name": "TV Gazeta HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png",
       "epg_id": "TV Gazeta",
       "sources": [
         {
@@ -46465,7 +47135,7 @@
       "id": "ch-tv-gazeta-sd",
       "name": "TV Gazeta SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/gazeta.png",
       "epg_id": "TV Gazeta",
       "sources": [
         {
@@ -46511,7 +47181,7 @@
       "id": "ch-tv-pai-eterno-hd",
       "name": "TV Pai Eterno HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
       "sources": [
         {
@@ -46535,7 +47205,7 @@
       "id": "ch-tv-pai-eterno-sd",
       "name": "TV Pai Eterno SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
       "sources": [
         {
@@ -46575,7 +47245,7 @@
       "id": "ch-tv-senado-fhd",
       "name": "TV SENADO FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
       "epg_id": "TV Senado",
       "sources": [
         {
@@ -46605,7 +47275,7 @@
       "id": "ch-tv-senado-hd",
       "name": "TV SENADO HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
       "epg_id": "TV Senado",
       "sources": [
         {
@@ -46779,7 +47449,7 @@
       "id": "ch-usa-network-fhd",
       "name": "USA Network FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {
@@ -46795,7 +47465,7 @@
       "id": "ch-usa-network-hd",
       "name": "USA Network HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {
@@ -46811,7 +47481,7 @@
       "id": "ch-usa-network-sd",
       "name": "USA Network SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/usa.png",
       "epg_id": null,
       "sources": [
         {
@@ -46827,7 +47497,7 @@
       "id": "ch-viva-fhd",
       "name": "Viva FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -46857,7 +47527,7 @@
       "id": "ch-viva-hd",
       "name": "Viva HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -46887,7 +47557,7 @@
       "id": "ch-viva-sd",
       "name": "Viva SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Canal_Viva_2018_wordmark.svg/960px-Canal_Viva_2018_wordmark.svg.png",
       "epg_id": "Viva.br",
       "sources": [
         {
@@ -46917,7 +47587,7 @@
       "id": "ch-warner-channel-fhd",
       "name": "Warner Channel FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -46953,7 +47623,7 @@
       "id": "ch-warner-channel-hd",
       "name": "Warner Channel HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -46989,7 +47659,7 @@
       "id": "ch-warner-channel-sd",
       "name": "Warner Channel SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/warner-channel-br.png",
       "epg_id": "Warner Channel",
       "sources": [
         {
@@ -48385,7 +49055,7 @@
       "id": "ch-amc-series",
       "name": "AMC Series",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/amc.png",
       "epg_id": null,
       "sources": [
         {
@@ -49106,7 +49776,7 @@
       "name": "Os Padrinhos Mágicos - 24H",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "63221e41af69b500076f84e7",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1502831",
@@ -49115,7 +49785,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "pluto-br-xmltv",
+          "channel_id": "63221e41af69b500076f84e7",
+          "priority": 5,
+          "match": "pluto_id"
+        }
+      ]
     },
     {
       "id": "ch-supernatural-24h",

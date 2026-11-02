@@ -1,1 +1,4551 @@
-[{"id":"movie-regras-do-amor-na-cidade-grande","title":"Regras do Amor na Cidade Grande","type":"movie","year":"2024","poster_url":"/5mVzzCVU0AkxM2zuBmu5mGbaHlR.jpg","genres":["Romance","Drama"],"tmdb_id":"1154154","sources":[{"url":"https://mgeb.top/embed/1154154","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1154154","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20do%20Amor%20na%20Cidade%20Grande%20_2024_%20_tmdb_1154154_ff912137.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1154154","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2472325","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448406","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"930999","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-regras-do-jogo","title":"Regras do Jogo","type":"movie","year":null,"poster_url":"/j3dQpblRIDHk2TWtJew4jqPW0n3.jpg","genres":["Guerra","Drama","Suspense"],"tmdb_id":"10479","sources":[{"url":"https://mgeb.top/embed/10479","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/10479","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20do%20Jogo%20_2000_%20_tmdb_10479_03d861b6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"10479","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"911641","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-regras-nao-se-aplicam","title":"Regras Nao Se Aplicam","type":"movie","year":null,"poster_url":"/1B1XdQFc1Q05ATFnydN2EJ84s0.jpg","genres":["Romance","Comédia","Drama"],"tmdb_id":"291328","sources":[{"url":"https://mgeb.top/embed/291328","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/291328","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20N_o%20Se%20Aplicam%20_2016_%20_tmdb_291328_fba53c60.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"291328","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446694","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645769","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-regras-nao-se-aplicam-2016","title":"Regras Nao Se Aplicam (2016)","type":"movie","year":"2016","poster_url":"/1B1XdQFc1Q05ATFnydN2EJ84s0.jpg","genres":["Romance","Comédia","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/291328","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/291328","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-regresso-a-halloweentown-2006","title":"Regresso a Halloweentown (2006)","type":"movie","year":"2006","poster_url":"/2mWboWDHtq1H3NdZXy4Kfpyr0ig.jpg","genres":["Fantasia","Comédia","Ação"],"tmdb_id":"34204","sources":[{"url":"https://mgeb.top/embed/34204","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/34204","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regresso%20a%20Halloweentown%20_2006_%20_tmdb_34204_0297038d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"34204","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-regresso-do-mal","title":"Regresso do Mal","type":"movie","year":null,"poster_url":"/Ah2e9jcm2ySJq6pFvIgIX4KcVvi.jpg","genres":["Terror","Mistério"],"tmdb_id":"290637","sources":[{"url":"https://mgeb.top/embed/290637","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/290637","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regresso%20do%20Mal%20_2015_%20_tmdb_290637_aacdc45d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"290637","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448730","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451760","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458307","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646835","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"846510","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-regresso-do-mal-2015","title":"Regresso do Mal (2015)","type":"movie","year":"2015","poster_url":"/Ah2e9jcm2ySJq6pFvIgIX4KcVvi.jpg","genres":["Terror","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/290637","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/290637","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-regressao","title":"Regressão","type":"movie","year":null,"poster_url":"/ogfTGAY6fUOSAFaKvAtNsCnrRM.jpg","genres":["Terror","Mistério","Suspense"],"tmdb_id":"241257","sources":[],"provider_refs":[{"provider":"18","ref":"227700","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"241257","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-regressao-2013","title":"Regressão (2013)","type":"movie","year":"2013","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regress_o%20_2013_%20_tmdb_227700_10b25c56.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-rei-arthur","title":"Rei Arthur","type":"movie","year":null,"poster_url":"/6ZvrFx5oTxabIikuBh2XJq6Rc3u.jpg","genres":["Aventura","Guerra","História","Ação","Drama"],"tmdb_id":"9477","sources":[{"url":"https://mgeb.top/embed/9477","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9477","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur%20_2004_%20_tmdb_9477_58bca0e6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9477","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454098","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649266","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-arthur-2004","title":"Rei Arthur (2004)","type":"movie","year":"2004","poster_url":"/6ZvrFx5oTxabIikuBh2XJq6Rc3u.jpg","genres":["Aventura","Guerra","História","Ação","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/9477","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9477","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-rei-arthur-a-volta-da-excalibur","title":"Rei Arthur - A Volta da Excalibur","type":"movie","year":null,"poster_url":"/2cA8mUyU2p6DeKxchE6KsUFfuko.jpg","genres":["Ação"],"tmdb_id":"447427","sources":[{"url":"https://mgeb.top/embed/447427","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/447427","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur%20-%20A%20Volta%20da%20Excalibur%20_2017_%20_tmdb_447427_a1315f04.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"447427","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-rei-arthur-a-lenda-da-espada-2017","title":"Rei Arthur: A Lenda da Espada (2017)","type":"movie","year":"2017","poster_url":"/vVvc4XRnUMGBMAhtWVzHdySIJzm.jpg","genres":["Ação","Drama","Fantasia"],"tmdb_id":"274857","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/be6feeb59f915bf97e47dedf2f12e5bd/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/274857","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/274857","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur_%20A%20Lenda%20da%20Espada%20_2017_%20_tmdb_274857_42b33495.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"274857","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453770","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649025","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-bastardo-da-luta","title":"REI BASTARDO DA LUTA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":2},{"id":"movie-rei-charles-iii","title":"Rei Charles III","type":"movie","year":null,"poster_url":"/4Gzutk4mrOBPQgg9nQHu79cR7AY.jpg","genres":["Drama","TV"],"tmdb_id":"456187","sources":[{"url":"https://mgeb.top/embed/456187","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/456187","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Charles%20III%20_2017_%20_tmdb_456187_6da30e8c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"456187","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455550","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653973","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-charles-iii-2017","title":"Rei Charles III (2017)","type":"movie","year":"2017","poster_url":"/4Gzutk4mrOBPQgg9nQHu79cR7AY.jpg","genres":["Drama","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/456187","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/456187","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-rei-da-prisao-disfarcado","title":"Rei da Prisao Disfarcado","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-rei-davi-o-filme","title":"Rei Davi O Filme","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"10","ref":"2451160","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644532","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-david","title":"Rei David","type":"movie","year":null,"poster_url":"/l7IVgnaZtnT7K0I7jsaZUAq90dy.jpg","genres":["Ação","Aventura","História","Drama"],"tmdb_id":"42040","sources":[{"url":"https://mgeb.top/embed/42040","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/42040","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20David%20_1985_%20_tmdb_42040_f4709733.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"42040","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"896603","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-rei-do-ringue-a-historia-de-jem-belcher","title":"Rei do Ringue: A História de Jem Belcher","type":"movie","year":null,"poster_url":"/vi6VoqcsfmrwD0uXzyxXRsjcwU5.jpg","genres":["História","Drama"],"tmdb_id":"943822","sources":[{"url":"https://mgeb.top/embed/943822","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/943822","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20do%20Ringue_%20A%20Hist_ria%20de%20Jem%20Belcher%20_2022_%20_tmdb_943822_8a74e442.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"943822","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455965","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652597","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-rei-do-ringue-a-historia-de-jem-belcher-2022","title":"Rei do Ringue: A História de Jem Belcher (2022)","type":"movie","year":"2022","poster_url":"/vi6VoqcsfmrwD0uXzyxXRsjcwU5.jpg","genres":["História","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/943822","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/943822","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-rei-do-rio","title":"Rei do Rio","type":"movie","year":null,"poster_url":"/wNopuJNWAHbOxWOt2xwyXMdZ1iO.jpg","genres":["Drama","Crime"],"tmdb_id":"186100","sources":[{"url":"https://mgeb.top/embed/186100","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/186100","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20do%20Rio%20_1985_%20_tmdb_186100_c8624152.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"186100","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455497","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"770520","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-dos-ladroes-2018","title":"Rei dos Ladroes (2018)","type":"movie","year":"2018","poster_url":"/hkI8oBMIOAnCEJFbgFgI7IZ302G.jpg","genres":["Crime","Drama"],"tmdb_id":"520360","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/4c7ec2733b06b27242b73f5983133d92/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/520360","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/520360","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20dos%20Ladr_es%20_2018_%20_tmdb_520360_3d8479d7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"520360","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456827","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653761","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-rei-dos-punhos","title":"REI DOS PUNHOS","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-rei-dos-truques-a-vinganca-comeca","title":"REI DOS TRUQUES A VINGANCA COMECA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-rei-noturno-de-volta-ao-setimo-ceu","title":"REI NOTURNO DE VOLTA AO SETIMO CEU","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-reine-sobre-mim","title":"Reine Sobre Mim","type":"movie","year":null,"poster_url":"/ql93FK6AdUdX5cPNmwaHdp7diey.jpg","genres":["Drama"],"tmdb_id":"2355","sources":[{"url":"https://mgeb.top/embed/2355","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2355","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reine%20Sobre%20Mim%20_2007_%20_tmdb_2355_422b7b20.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"2355","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456383","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653617","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-reine-sobre-mim-2007","title":"Reine Sobre Mim (2007)","type":"movie","year":"2007","poster_url":"/ql93FK6AdUdX5cPNmwaHdp7diey.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/2355","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/2355","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-animal","title":"Reino Animal","type":"movie","year":null,"poster_url":"/69ZVRhrnIeF68XX2Piu8qkc5tRZ.jpg","genres":["Crime","Drama"],"tmdb_id":"44629","sources":[{"url":"https://mgeb.top/embed/44629","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/44629","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20Animal%20_2010_%20_tmdb_44629_f019e675.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"44629","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447873","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-reino-de-fogo","title":"Reino de Fogo","type":"movie","year":null,"poster_url":"/4XiWjJv1A5wV0REkJzcnalZIFgx.jpg","genres":["Aventura","Ação","Fantasia"],"tmdb_id":"6278","sources":[{"url":"https://mgeb.top/embed/6278","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/6278","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20de%20Fogo%20_2002_%20_tmdb_6278_37184f77.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"6278","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"889755","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-reino-de-fogo-2002","title":"Reino de Fogo (2002)","type":"movie","year":"2002","poster_url":"/4XiWjJv1A5wV0REkJzcnalZIFgx.jpg","genres":["Aventura","Ação","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/6278","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/6278","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-do-superman","title":"Reino do Superman","type":"movie","year":null,"poster_url":"/u4rWHJLzM8CrsdtcTOLGY58ef4j.jpg","genres":["Ficção científica","Animação","Ação","Fantasia","Drama","Aventura"],"tmdb_id":"487672","sources":[{"url":"https://mgeb.top/embed/487672","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/487672","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20do%20Superman%20_2019_%20_tmdb_487672_ad7d9336.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"487672","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458272","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459434","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646569","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-reino-do-superman-2019","title":"Reino do Superman (2019)","type":"movie","year":"2019","poster_url":"/u4rWHJLzM8CrsdtcTOLGY58ef4j.jpg","genres":["Ficção científica","Animação","Ação","Fantasia","Drama","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/487672","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/487672","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-dos-assassinos","title":"Reino Dos Assassinos","type":"movie","year":null,"poster_url":"/94y7IU9SIw3btpQJuBQrywwV2Q1.jpg","genres":["Ação","Aventura"],"tmdb_id":"44092","sources":[{"url":"https://mgeb.top/embed/44092","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/44092","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"44092","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2453328","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649606","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-reino-dos-assassinos-2010","title":"Reino dos Assassinos (2010)","type":"movie","year":"2010","poster_url":"/94y7IU9SIw3btpQJuBQrywwV2Q1.jpg","genres":["Ação","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/44092","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/44092","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-dos-felinos","title":"Reino dos Felinos","type":"movie","year":null,"poster_url":"/93FP6NeQv6tD9WzrmqrJfheszQ2.jpg","genres":["Documentário","Aventura"],"tmdb_id":"57586","sources":[],"provider_refs":[{"provider":"18","ref":"57586","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-reino-dos-felinos-2011","title":"Reino dos Felinos (2011)","type":"movie","year":"2011","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20dos%20Felinos%20_2011_%20_tmdb_57586_12f28ba8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-escondido","title":"Reino Escondido","type":"movie","year":null,"poster_url":"/pwtlAQWMXLosi1gLBbdBqy5VT76.jpg","genres":["Animação","Aventura","Família","Fantasia"],"tmdb_id":"116711","sources":[{"url":"https://mgeb.top/embed/116711","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/116711","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20Escondido%20_2013_%20_tmdb_116711_43c823b8.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"116711","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2459378","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"646608","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-reino-escondido-2013","title":"Reino Escondido (2013)","type":"movie","year":"2013","poster_url":"/pwtlAQWMXLosi1gLBbdBqy5VT76.jpg","genres":["Animação","Aventura","Família","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/116711","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/116711","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reino-quebrado-sangue-sagrado","title":"REINO QUEBRADO SANGUE SAGRADO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-reinventing-elvis-the-68-comeback","title":"Reinventing Elvis: The 68' Comeback","type":"movie","year":null,"poster_url":"/q4JSk4L5BX4uFvFtu8DOdMYZ8ks.jpg","genres":["Documentário","Música"],"tmdb_id":"1146570","sources":[{"url":"https://mgeb.top/embed/1146570","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1146570","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1146570","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448939","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1146570.mp4?lang=leg","audio":"leg","source_id":"reference-catalog"},{"provider":"18","ref":"670157","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-reis-e-ratos","title":"Reis e Ratos","type":"movie","year":null,"poster_url":"/oIFmoxu4TbrsNvIKdJDg9iyYG3S.jpg","genres":["Drama","Comédia"],"tmdb_id":"132608","sources":[],"provider_refs":[{"provider":"18","ref":"132608","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-reis-e-ratos-2012","title":"Reis e Ratos (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reis%20e%20Ratos%20_2012_%20_tmdb_132608_76d7fd27.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reis-magos-vs-papai-noel","title":"Reis Magos vs. Papai Noel","type":"movie","year":null,"poster_url":"/qvDJbZYs2p4eOdyJ8R2dfdJp2Qq.jpg","genres":["Comédia","Fantasia"],"tmdb_id":"987758","sources":[{"url":"https://mgeb.top/embed/987758","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/987758","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reis%20Magos%20vs.%20Papai%20Noel%20_2022_%20_tmdb_987758_d60e895c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"987758","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461545","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650513","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-reis-magos-vs-papai-noel-2022","title":"Reis Magos vs. Papai Noel (2022)","type":"movie","year":"2022","poster_url":"/qvDJbZYs2p4eOdyJ8R2dfdJp2Qq.jpg","genres":["Comédia","Fantasia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/987758","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/987758","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reivindicada-pelo-alfa-que-eu-odeio","title":"REIVINDICADA PELO ALFA QUE EU ODEIO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-rejeitados-pelo-diabo","title":"Rejeitados pelo Diabo","type":"movie","year":null,"poster_url":"/pqjwhIQTsDcCbJQ135MzJ3jlgUN.jpg","genres":["Drama","Terror","Crime"],"tmdb_id":"1696","sources":[{"url":"https://mgeb.top/embed/1696","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1696","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rejeitados%20pelo%20Diabo%20_2005_%20_tmdb_1696_70f48263.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1696","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-rejeitados-pelo-diabo-2005","title":"Rejeitados pelo Diabo (2005)","type":"movie","year":"2005","poster_url":"/pqjwhIQTsDcCbJQ135MzJ3jlgUN.jpg","genres":["Drama","Terror","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/1696","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1696","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-rejeitando-meu-companheiro-lycan","title":"REJEITANDO MEU COMPANHEIRO LYCAN","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-rejeito","title":"Rejeito","type":"movie","year":null,"poster_url":"/8HqU65UxAT9xUjeBxLG0EoizsHR.jpg","genres":["Documentário"],"tmdb_id":"1106590","sources":[{"url":"https://mgeb.top/embed/1106590","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1106590","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rejeito%20_2023_%20_tmdb_1106590_bbe8e246.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1106590","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444184","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"921098","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-relacao-clandestina-com-meu-marido-bilionario","title":"Relacao Clandestina Com Meu Marido Bilionario","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-relacao-mortal-2011","title":"Relacao Mortal (2011)","type":"movie","year":"2011","poster_url":"/gbnK2IiWEnu7MpigFmi3EOhCMhp.jpg","genres":["Terror","Mistério"],"tmdb_id":"91549","sources":[{"url":"https://mgeb.top/embed/91549","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/91549","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relacionamento-aberto","title":"Relacionamento Aberto","type":"movie","year":null,"poster_url":"/t65peFW0W66f36g7oiPK9O9a04o.jpg","genres":["Drama"],"tmdb_id":"938508","sources":[{"url":"https://mgeb.top/embed/938508","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/938508","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relacionamento%20Aberto%20_2023_%20_tmdb_938508_06b984ab.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"938508","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449817","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455780","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652138","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-relacionamento-aberto-2023","title":"Relacionamento Aberto (2023)","type":"movie","year":"2023","poster_url":"/t65peFW0W66f36g7oiPK9O9a04o.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/938508","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/938508","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relacionamento-fora-de-controle","title":"Relacionamento Fora de Controle","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-relatos-de-guerra","title":"Relatos de Guerra","type":"movie","year":null,"poster_url":"/mY8lGn9h379WmPbBSdhKZiV6F2n.jpg","genres":["Guerra","Drama","Suspense","Ação"],"tmdb_id":"316042","sources":[{"url":"https://mgeb.top/embed/316042","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/316042","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20de%20Guerra%20_2015_%20_tmdb_316042_e0eabcb6.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"316042","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450489","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644943","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-relatos-de-um-assassino-2025","title":"Relatos de um Assassino (2025)","type":"movie","year":"2025","poster_url":"/czgoPOZbgT03sCuRIjV6HkLwFUx.jpg","genres":["Drama","Suspense"],"tmdb_id":"1151766","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/a9bd56e3b8bbb4389d3c31f433f0b25b/master.txt","audio":"dub","priority":20,"source_id":"reference-redeflix","source_type":"direct"},{"url":"https://mgeb.top/embed/1151766","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1151766","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20de%20um%20Assassino%20_2025_%20_tmdb_1151766_398c5123.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1151766","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2467337","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"927191","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-relatos-do-mundo-2020","title":"Relatos do Mundo (2020)","type":"movie","year":"2020","poster_url":"/cLqg9BjcecdzYGqURSdWgBUO3rX.jpg","genres":["Drama","Faroeste","Aventura"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/581032","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/581032","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relatos-selvagens","title":"Relatos Selvagens","type":"movie","year":null,"poster_url":"/bkhHsHoa5PYBmhT93mYOC28Hhd2.jpg","genres":["Drama","Suspense","Comédia"],"tmdb_id":"265195","sources":[{"url":"https://mgeb.top/embed/265195","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/265195","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20Selvagens%20_2014_%20_tmdb_265195_4614795a.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"265195","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457109","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654161","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-relatos-selvagens-2014","title":"Relatos Selvagens (2014)","type":"movie","year":"2014","poster_url":"/bkhHsHoa5PYBmhT93mYOC28Hhd2.jpg","genres":["Drama","Suspense","Comédia"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/265195","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/265195","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relaxe-eu-sou-do-futuro-2023","title":"Relaxe, Eu Sou do Futuro (2023)","type":"movie","year":"2023","poster_url":"/cBo8zNyQImMt3O8ESXf49bL1Kx7.jpg","genres":["Comédia","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/994133","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/994133","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relay","title":"Relay","type":"movie","year":"2025","poster_url":"/hhIvC2zTlh84Ij4brEI84sZFuq4.jpg","genres":["Ação","Drama","Suspense"],"tmdb_id":"1088166","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/cd838af85931810243ec2de7e12f2f78/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1088166","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1088166","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relay%20_2025_%20_tmdb_1575009_8c32643d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relay_%20Contrato%20Perigoso%20_2025_%20_tmdb_1088166_dbaab2de.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1575009","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1088166","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445354","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"901274","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-relacao-em-risco","title":"Relação em Risco","type":"movie","year":null,"poster_url":"/968EbINo97rHeWDBkRPA5eYwofM.jpg","genres":["Drama"],"tmdb_id":"97006","sources":[{"url":"https://mgeb.top/embed/97006","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/97006","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"97006","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456535","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654162","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-relacao-em-risco-2013","title":"Relação em Risco (2013)","type":"movie","year":"2013","poster_url":"/968EbINo97rHeWDBkRPA5eYwofM.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/97006","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/97006","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relacoes-de-familia","title":"Relações de Família","type":"movie","year":null,"poster_url":"/ofY9Va4ezV0Y8Q9iSkicL5Xpu0B.jpg","genres":["Drama","Comédia"],"tmdb_id":"462313","sources":[],"provider_refs":[{"provider":"18","ref":"462313","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-relacoes-de-familia-2019","title":"Relações de Família (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rela_es%20de%20Fam_lia%20_2019_%20_tmdb_462313_c91963eb.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relacoes-perigosas","title":"Relações Perigosas","type":"movie","year":null,"poster_url":"/5p9VqPTdiYkdO9NF0oe7bBhJcIF.jpg","genres":["Suspense"],"tmdb_id":"620561","sources":[],"provider_refs":[{"provider":"18","ref":"620561","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-relacoes-perigosas-2019","title":"Relações Perigosas (2019)","type":"movie","year":"2019","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rela_es%20Perigosas%20_2019_%20_tmdb_620561_74416b09.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-relic","title":"Relic","type":"movie","year":null,"poster_url":"/fAG4nKPUWEIwGBpP38H64GGV8kl.jpg","genres":["Terror","Mistério","Suspense","Ficção científica"],"tmdb_id":"11015","sources":[{"url":"https://mgeb.top/embed/11015","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/11015","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-reliquia-macabra","title":"Relíquia Macabra","type":"movie","year":null,"poster_url":"/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg","genres":["Terror","Mistério"],"tmdb_id":"539181","sources":[{"url":"https://mgeb.top/embed/539181","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/539181","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reliquia%20Macabra%20_2020_%20_tmdb_539181_70106f14.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"539181","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446021","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451441","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647465","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655169","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-reliquia-macabra-1941","title":"Relíquia Macabra (1941)","type":"movie","year":"1941","poster_url":"/3RC0zHss6LSxVpdCs59nCkwkQT4.jpg","genres":["Mistério","Crime","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/963","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/963","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-reliquia-macabra-2020","title":"Relíquia Macabra (2020)","type":"movie","year":"2020","poster_url":"/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg","genres":["Terror","Mistério"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/539181","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/539181","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-remando-para-o-ouro-2023","title":"Remando para o Ouro (2023)","type":"movie","year":"2023","poster_url":"/ytmcHHnOgzGwAkCy7fNaSjGrz7i.jpg","genres":["Drama","História"],"tmdb_id":"823452","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/64c612767061880468f7dbe120023ee4/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/823452","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/823452","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remando%20para%20o%20Ouro%20_2023_%20_tmdb_823452_59c33149.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"823452","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2450272","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456561","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652230","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-remanescentes-esquecidos-por-deus","title":"Remanescentes - Esquecidos Por Deus","type":"movie","year":null,"poster_url":"/uVZY6gS3qWxsLrQIOB8e2FelyC0.jpg","genres":["Suspense","Terror"],"tmdb_id":"280002","sources":[{"url":"https://mgeb.top/embed/280002","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/280002","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remanescentes_%20Esquecidos%20por%20Deus%20_2014_%20_tmdb_280002_c8c7a872.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"280002","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445849","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647647","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-remanescentes-esquecidos-por-deus-2014","title":"Remanescentes: Esquecidos por Deus (2014)","type":"movie","year":"2014","poster_url":"/uVZY6gS3qWxsLrQIOB8e2FelyC0.jpg","genres":["Suspense","Terror"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/280002","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/280002","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-remastered-massacre-no-estadio","title":"ReMastered: Massacre no Estádio","type":"movie","year":null,"poster_url":"/lNN98FpeYM7hjcVy1tR74K7Rpbt.jpg","genres":["Documentário"],"tmdb_id":"553651","sources":[],"provider_refs":[{"provider":"18","ref":"553651","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-remastered-quem-matou-jam-master-jay","title":"ReMastered: Quem matou Jam Master Jay?","type":"movie","year":null,"poster_url":"/aJdXK8VpbLmRuVeO1yh1t5gzrfK.jpg","genres":["Documentário","Música"],"tmdb_id":"553648","sources":[],"provider_refs":[{"provider":"18","ref":"553648","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-remember-2022","title":"Remember (2022)","type":"movie","year":"2022","poster_url":"/9Q6QdgwXQheiVKeJUTTvQ0chJyT.jpg","genres":["Drama","Romance"],"tmdb_id":"1087756","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/d0d3d88c86ed8b625f9b8587015b6ec4/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1087756","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1087756","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1358272","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"600138","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452709","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654839","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2},{"id":"movie-remp-it-2","title":"Remp-It 2","type":"movie","year":null,"poster_url":"/g1A1dtk1iLksWfsPT2F5MnkyicK.jpg","genres":["Ação","Drama","Suspense"],"tmdb_id":"1051056","sources":[],"provider_refs":[{"provider":"18","ref":"1051056","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-remp-it-2-2022","title":"Remp-It 2 (2022)","type":"movie","year":"2022","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remp-It%202%20_2022_%20_tmdb_1051056_4e5853fc.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-remedio-amargo-2020","title":"Remédio Amargo (2020)","type":"movie","year":"2020","poster_url":"/sKXMGJ9gSf9QKbvKParlEVcYjus.jpg","genres":["Suspense","Drama","Crime"],"tmdb_id":"701175","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e20b12c169b15af507aea635f518aaea/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/701175","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/701175","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rem_dio%20Amargo%20_2020_%20_tmdb_701175_ebc5275d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"701175","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445792","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647532","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-renasce-filho-e-nora-surtam","title":"RENASCE, FILHO E NORA SURTAM","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascendo-das-cinzas","title":"RENASCENDO DAS CINZAS","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascer-2023","title":"ReNascer (2023)","type":"movie","year":"2023","poster_url":"/qjjwYBk21klwdD86bxPro54qqaC.jpg","genres":["Drama","Terror","Mistério"],"tmdb_id":"1058638","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/e8c531295e7f43d06baefd6f691324e5/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/1058638","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1058638","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Re_Nascer%20_2023_%20_tmdb_1058638_5d144784.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1058638","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654596","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-renascer-da-terra","title":"Renascer da Terra","type":"movie","year":null,"poster_url":"/4AfARQNiPT2p8jW2LKHYHm4eWye.jpg","genres":["Documentário"],"tmdb_id":"1679036","sources":[{"url":"https://mgeb.top/embed/1679036","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1679036","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascer-para-terminar-os-tres-casamentos","title":"Renascer para Terminar os Três Casamentos","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascer-s01e-1914","title":"Renascer S01E (1914)","type":"movie","year":"1914","poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"11","ref":"2311223","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-renasceu-como-a-queridinha-do-ceo","title":"RENASCEU COMO A QUERIDINHA DO CEO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renasci-aos-8-anos-para-fazer-meu-pai-rico-e-feliz","title":"RENASCI AOS 8 ANOS PARA FAZER MEU PAI RICO E FELIZ","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renasci-como-o-amor-perdido-do-magnata","title":"Renasci Como O Amor Perdido Do Magnata","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-da-herdeira","title":"Renascida Da Herdeira","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":3},{"id":"movie-renascida-das-trevas-2018","title":"Renascida das Trevas (2018)","type":"movie","year":"2018","poster_url":"/gx6eZTOV6fQ7H49muQOwAZegc28.jpg","genres":["Terror"],"tmdb_id":"554636","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/79688c3355863579fe97bd777c150268/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/554636","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/554636","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Renascida%20das%20Trevas%20_2018_%20_tmdb_554636_e15cd797.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"554636","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-renascida-do-inferno","title":"Renascida do Inferno","type":"movie","year":null,"poster_url":"/7ioygTHhBTbzipBRuzCnb9OqI3p.jpg","genres":["Terror","Ficção científica","Suspense"],"tmdb_id":"243940","sources":[{"url":"https://mgeb.top/embed/243940","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/243940","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Renascida%20do%20Inferno%20_2015_%20_tmdb_243940_7fce6112.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"243940","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2452404","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"655366","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-renascida-do-inferno-2015","title":"Renascida do Inferno (2015)","type":"movie","year":"2015","poster_url":"/7ioygTHhBTbzipBRuzCnb9OqI3p.jpg","genres":["Terror","Ficção científica","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/243940","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/243940","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-renascida-mae-poderosa-e-imbativel","title":"RENASCIDA MAE PODEROSA E IMBATIVEL","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-nos-anos-80-o-sucesso-da-esposa-de-tamanho-grande","title":"RENASCIDA NOS ANOS 80 O SUCESSO DA ESPOSA DE TAMANHO GRANDE","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-para-a-gloria","title":"RENASCIDA PARA A GLORIA","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-para-brilhar","title":"Renascida para Brilhar","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-para-o-rei-licantropo","title":"RENASCIDA PARA O REI LICANTROPO","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1},{"id":"movie-renascida-rompendo-com-meu-ex","title":"RENASCIDA ROMPENDO COM MEU EX","type":"movie","year":null,"poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[],"source_candidates_skipped":1}]
+[
+  {
+    "id": "movie-regras-do-amor-na-cidade-grande",
+    "title": "Regras do Amor na Cidade Grande",
+    "type": "movie",
+    "year": "2024",
+    "poster_url": "/5mVzzCVU0AkxM2zuBmu5mGbaHlR.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "tmdb_id": "1154154",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1154154",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1154154",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20do%20Amor%20na%20Cidade%20Grande%20_2024_%20_tmdb_1154154_ff912137.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1154154",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2472325",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448406",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "930999",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399219",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399218",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "338677",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "338677",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O filme retrata o amor e a separação da jovem geração de espírito livre, Jae Hee e seu melhor amigo gay, Heung Soo, que dividem uma casa juntos.",
+    "imdb_id": "tt33022813"
+  },
+  {
+    "id": "movie-regras-do-jogo",
+    "title": "Regras do Jogo",
+    "type": "movie",
+    "year": "2000",
+    "poster_url": "/j3dQpblRIDHk2TWtJew4jqPW0n3.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "10479",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/10479",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/10479",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20do%20Jogo%20_2000_%20_tmdb_10479_03d861b6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "10479",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "911641",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "363911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "363911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "363910",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "363910",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Quando a embaixada americana no Iêmen é cercada por uma multidão de manifestantes, o Coronel Terry Childers recebe a ordem de levar um esquadrão de soldados para o local, a fim de garantir a segurança. Ele tem ordens para evacuar o embaixador e sua família, caso a situação torne-se violenta. Algumas horas após o início da missão de Childers, o embaixador está a salvo, mas três de seus homens morreram, além de mais de 80 homens, mulheres e crianças, que foram mortas por disparos vindos de seu esquadrão. Childers enfrenta então uma corte marcial sob a acusação de ter desrespeitado as regras militares por matar civis desarmados. Ele contesta a acusação, alegando que os civis estavam armados e abriram fogo contra a embaixada americana. Mas parece que o governo americano quer que Childers seja o bode expiatório de uma das mais graves crises diplomáticas dos Estados Unidos.",
+    "imdb_id": "tt0160797"
+  },
+  {
+    "id": "movie-regras-nao-se-aplicam",
+    "title": "Regras Nao Se Aplicam",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/1B1XdQFc1Q05ATFnydN2EJ84s0.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "291328",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/291328",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/291328",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regras%20N_o%20Se%20Aplicam%20_2016_%20_tmdb_291328_fba53c60.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "291328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446694",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645769",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "23933",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "23933",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Hollywood, 1958. A devota batista Marla chega em Los Angeles para trabalhar com Howard Hughes. Lá, ela conhece seu motorista Frank, que está noivo e é um metodista extremamente religioso. Além de pôr à prova suas convicções religiosas, a atração dos dois também desafia a principal regra de Hughes.",
+    "imdb_id": "tt1974420"
+  },
+  {
+    "id": "movie-regras-nao-se-aplicam-2016",
+    "title": "Regras Nao Se Aplicam (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/1B1XdQFc1Q05ATFnydN2EJ84s0.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/291328",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/291328",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299948",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-regresso-a-halloweentown-2006",
+    "title": "Regresso a Halloweentown (2006)",
+    "type": "movie",
+    "year": "2006",
+    "poster_url": "/2mWboWDHtq1H3NdZXy4Kfpyr0ig.jpg",
+    "genres": [
+      "Fantasia",
+      "Comédia",
+      "Ação"
+    ],
+    "tmdb_id": "34204",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/34204",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/34204",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regresso%20a%20Halloweentown%20_2006_%20_tmdb_34204_0297038d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "34204",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1300281",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Marnie está totalmente empolgada com a possibilidade de encontrar a sua identidade como uma verdadeira bruxa. Para realizar seu sonho, ela ganhou uma bolsa integral para a renomada Universidade de Halloweentown. Mas a escola, que agora segue novas regras, irá mostrá-la que ser uma bruxa é um cargo difícil e de muita responsabilidade. Agora, a jovem terá que passar por muitas aventuras para fazer tal descoberta.",
+    "imdb_id": "tt0816520"
+  },
+  {
+    "id": "movie-regresso-do-mal",
+    "title": "Regresso do Mal",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/Ah2e9jcm2ySJq6pFvIgIX4KcVvi.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "290637",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/290637",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/290637",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regresso%20do%20Mal%20_2015_%20_tmdb_290637_aacdc45d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "290637",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448730",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451760",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458307",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "846510",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "328171",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "128550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "328171",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "128550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "328170",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "328170",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Durante um desfile na noite de Halloween, um menino de oito anos desaparece misteriosamente. Depois de um ano sem qualquer pista, os pais do garoto começam a sentir presenças estranhas. O casal decide se unir para procurar seu filho em toda a cidade de Nova York. O que ninguém esperava é a descoberta de um espírito vingativo, cheio de segredos antigos que colocam a vida do menino em perigo.",
+    "imdb_id": "tt3733778"
+  },
+  {
+    "id": "movie-regresso-do-mal-2015",
+    "title": "Regresso do Mal (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/Ah2e9jcm2ySJq6pFvIgIX4KcVvi.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/290637",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/290637",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1303801",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-regressao",
+    "title": "Regressão",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/ogfTGAY6fUOSAFaKvAtNsCnrRM.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": "241257",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "227700",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "241257",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Em Minnesota na década de 1980, um homem (Ethan Hawke) é preso por abusar sexualmente da própria filha (Emma Watson). Embora não se lembre do evento, ele se declara culpado. Auxiliado por psicólogos, ele revive os momentos e até acusa um policial de ter participado do crime, porém, ele começa a desconfiar da existência de uma conspiração nacional.",
+    "imdb_id": "tt3319920"
+  },
+  {
+    "id": "movie-regressao-2013",
+    "title": "Regressão (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": "227700",
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Regress_o%20_2013_%20_tmdb_227700_10b25c56.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-rei-arthur",
+    "title": "Rei Arthur",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/6ZvrFx5oTxabIikuBh2XJq6Rc3u.jpg",
+    "genres": [
+      "Aventura",
+      "Guerra",
+      "História",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": "9477",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9477",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9477",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur%20_2004_%20_tmdb_9477_58bca0e6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9477",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454098",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649266",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "97599",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "97599",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Arthur é um líder relutante, que deseja deixar a Bretanha e retornar a Roma para viver em paz. Porém, antes que possa realizar esta viagem, ele parte em missão ao lado dos Cavaleiros da Távola Redonda, formado por Lancelot, Galahad, Bors, Tristan e Gawain. Nesta missão Arthur toma consciência de que, quando Roma cair, a Bretanha precisará de alguém que guie a ilha aos novos tempos e a defenda das ameaças externas. Com a orientação do mago Merlin e o apoio da corajosa Guinevere ao seu lado, Arthur decide permanecer no país para liderá-lo.",
+    "imdb_id": "tt0349683"
+  },
+  {
+    "id": "movie-rei-arthur-2004",
+    "title": "Rei Arthur (2004)",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/6ZvrFx5oTxabIikuBh2XJq6Rc3u.jpg",
+    "genres": [
+      "Aventura",
+      "Guerra",
+      "História",
+      "Ação",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9477",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9477",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1303616",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-rei-arthur-a-volta-da-excalibur",
+    "title": "Rei Arthur - A Volta da Excalibur",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/2cA8mUyU2p6DeKxchE6KsUFfuko.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "447427",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/447427",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/447427",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur%20-%20A%20Volta%20da%20Excalibur%20_2017_%20_tmdb_447427_a1315f04.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "447427",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "390432",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "390432",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "390431",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "390431",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em seu últimos momentos, o Rei Arthur, ferido mortalmente por seu filho Mordred, revela a Sir Bedivere que tem outro filho e que será tarefa do cavaleiro protegê-lo. Além disso, o rei moribundo pede ao amigo que leve Excalibur de volta ao lago para mantê-la segura. Anos depois, o destino coloca Bedivere e Owain, o filho perdido de Arthur, frente a frente. Eles terão que trabalhar juntos para recuperar o trono, usurpado por Mordred, e contarão com a ajuda de Merlin e de Excalibur para lutar.",
+    "imdb_id": "tt5988966"
+  },
+  {
+    "id": "movie-rei-arthur-a-lenda-da-espada-2017",
+    "title": "Rei Arthur: A Lenda da Espada (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/vVvc4XRnUMGBMAhtWVzHdySIJzm.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Fantasia"
+    ],
+    "tmdb_id": "274857",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/be6feeb59f915bf97e47dedf2f12e5bd/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/274857",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/274857",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Arthur_%20A%20Lenda%20da%20Espada%20_2017_%20_tmdb_274857_42b33495.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "274857",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453770",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649025",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1297911",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "112989",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "112989",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt1972591",
+    "overview": "Arthur é um jovem das ruas que controla os becos de Londonium e desconhece sua predestinação até o momento em que entra em contato pela primeira vez com a Excalibur. Desafiado pela espada, ele precisa tomar difíceis decisões, enfrentar seus demônios e aprender a dominar o poder que possui para conseguir, enfim, unir seu povo e partir para a luta contra o tirano Vortigern, que destruiu sua família."
+  },
+  {
+    "id": "movie-rei-bastardo-da-luta",
+    "title": "REI BASTARDO DA LUTA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-rei-charles-iii",
+    "title": "Rei Charles III",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/4Gzutk4mrOBPQgg9nQHu79cR7AY.jpg",
+    "genres": [
+      "Drama",
+      "TV"
+    ],
+    "tmdb_id": "456187",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/456187",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/456187",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20Charles%20III%20_2017_%20_tmdb_456187_6da30e8c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "456187",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455550",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653973",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "30441",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "30441",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O príncipe Charles esperou toda a sua vida para ascender ao trono britânico. Mas depois da morte da rainha, ele acaba detonando uma crise constitucional.",
+    "imdb_id": "tt6253522"
+  },
+  {
+    "id": "movie-rei-charles-iii-2017",
+    "title": "Rei Charles III (2017)",
+    "type": "movie",
+    "year": "2017",
+    "poster_url": "/4Gzutk4mrOBPQgg9nQHu79cR7AY.jpg",
+    "genres": [
+      "Drama",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/456187",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/456187",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1307804",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-rei-da-prisao-disfarcado",
+    "title": "Rei da Prisao Disfarcado",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rei-davi-o-filme",
+    "title": "Rei Davi O Filme",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2451160",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644532",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "22590",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "22590",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rei-david",
+    "title": "Rei David",
+    "type": "movie",
+    "year": "1985",
+    "poster_url": "/l7IVgnaZtnT7K0I7jsaZUAq90dy.jpg",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "42040",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/42040",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/42040",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20David%20_1985_%20_tmdb_42040_f4709733.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "42040",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "896603",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "350949",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "350949",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "350948",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "350948",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Por volta do ano 1000 a.C., o humilde pastor de ovelhas Davi recebe uma profecia divina e é informado que se tornará o novo rei de Israel, substituindo Saul, que está desobedecendo às ordens do Senhor. O quarto filho de Jessé começa a se destacar quando consegue derrotar o gigante Golias, fazendo o povo acreditar que ele pode ser o novo soberano. Para manter seu posto, então, Saul toma medidas drásticas contra Davi.",
+    "imdb_id": "tt0089420"
+  },
+  {
+    "id": "movie-rei-do-ringue-a-historia-de-jem-belcher",
+    "title": "Rei do Ringue: A História de Jem Belcher",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/vi6VoqcsfmrwD0uXzyxXRsjcwU5.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": "943822",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/943822",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/943822",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20do%20Ringue_%20A%20Hist_ria%20de%20Jem%20Belcher%20_2022_%20_tmdb_943822_8a74e442.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "943822",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455965",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652597",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "186810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "186810",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "186809",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "186809",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Inspirado em uma história real, o filme mostra a jonada de Jem Belcher para se tornar o mais jovem campeão mundial de boxe, em 1800.",
+    "imdb_id": "tt4471908"
+  },
+  {
+    "id": "movie-rei-do-ringue-a-historia-de-jem-belcher-2022",
+    "title": "Rei do Ringue: A História de Jem Belcher (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/vi6VoqcsfmrwD0uXzyxXRsjcwU5.jpg",
+    "genres": [
+      "História",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/943822",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/943822",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306890",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306891",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-rei-do-rio",
+    "title": "Rei do Rio",
+    "type": "movie",
+    "year": "1985",
+    "poster_url": "/wNopuJNWAHbOxWOt2xwyXMdZ1iO.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "186100",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/186100",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/186100",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20do%20Rio%20_1985_%20_tmdb_186100_c8624152.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "186100",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455497",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "770520",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "309887",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "309887",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Baseado na peça O Rei de Ramos, de autoria de Dias Gomes. Tucão e Nico Sabonete são dois velhos amigos, empregados do bicheiro Cacareco. Buscando melhorar de vida, o ambicioso Tucão convence seu amigo a tomar alguns pontos de Cacareco para começarem suas próprias carreiras no jogo do bicho. No entanto, Cacareco vai se provar duro na queda.",
+    "imdb_id": "tt0089896"
+  },
+  {
+    "id": "movie-rei-dos-ladroes-2018",
+    "title": "Rei dos Ladroes (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/hkI8oBMIOAnCEJFbgFgI7IZ302G.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "520360",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4c7ec2733b06b27242b73f5983133d92/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/520360",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/520360",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rei%20dos%20Ladr_es%20_2018_%20_tmdb_520360_3d8479d7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "520360",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456827",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653761",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1297950",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "47443",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "47443",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt5789976",
+    "overview": "Baseado em fatos reais, o filme traz a história de uma equipe de ladrões aposentados que decidem realizar um grande assalto no distrito de joias de Londres. Em 2015, uma quadrilha realizou um roubo no Hatton Garden Safe Deposit Company, uma instalação subterrânea de depósito seguro na área de Hatton Garden, em Londres. A mídia acreditava que o roubo tinha sido realizado por um grupo de criminosos atuais. Na verdade, os autores reais eram aposentados de 60 e 70 anos, e com diversas doenças. A invasão foi feita através de um poço do elevador, e o valor do roubo foi estimado em torno de 200 milhões de libras."
+  },
+  {
+    "id": "movie-rei-dos-punhos",
+    "title": "REI DOS PUNHOS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rei-dos-truques-a-vinganca-comeca",
+    "title": "REI DOS TRUQUES A VINGANCA COMECA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rei-noturno-de-volta-ao-setimo-ceu",
+    "title": "REI NOTURNO DE VOLTA AO SETIMO CEU",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-reine-sobre-mim",
+    "title": "Reine Sobre Mim",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/ql93FK6AdUdX5cPNmwaHdp7diey.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "2355",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2355",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2355",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reine%20Sobre%20Mim%20_2007_%20_tmdb_2355_422b7b20.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "2355",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456383",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653617",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "394796",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "363913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "91273",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "394796",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "363913",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "91273",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "394795",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "363912",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "394795",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "363912",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Charlie Fineman perdeu sua família nos atentados de 11 de setembro de 2001 em Nova York. Ele procura apoio em um antigo amigo da faculdade, o dentista bem sucedido Alan Johnson, que também passa por problemas. Mesmo tendo família e emprego, muitas vezes Alan se sente bastante sozinho. Ao se ajudarem mutuamente, a vida de Charlie começa a melhorar bastante e o vínculo entre eles, perdido há algum tempo, volta a se fortalecer.",
+    "imdb_id": "tt0490204"
+  },
+  {
+    "id": "movie-reine-sobre-mim-2007",
+    "title": "Reine Sobre Mim (2007)",
+    "type": "movie",
+    "year": "2007",
+    "poster_url": "/ql93FK6AdUdX5cPNmwaHdp7diey.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/2355",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/2355",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299516",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-animal",
+    "title": "Reino Animal",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/69ZVRhrnIeF68XX2Piu8qkc5tRZ.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "44629",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/44629",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/44629",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20Animal%20_2010_%20_tmdb_44629_f019e675.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "44629",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Um jovem de 17 anos, Joshua \"J\" Cody, vive em uma conturbada família, cheia de problemas com a justiça. Comovido com a situação do garoto, um detetive decide lutar para tirá-lo desse ambiente, dando-lhe a possibilidade de ter uma vida melhor.",
+    "imdb_id": "tt1313092"
+  },
+  {
+    "id": "movie-reino-de-fogo",
+    "title": "Reino de Fogo",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/4XiWjJv1A5wV0REkJzcnalZIFgx.jpg",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Fantasia"
+    ],
+    "tmdb_id": "6278",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/6278",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/6278",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20de%20Fogo%20_2002_%20_tmdb_6278_37184f77.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "6278",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "889755",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "345128",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "345128",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Acidentalmente uma engenheira desperta um perigoso dragão, que estava adormecido há séculos. 20 anos depois o mundo foi devastado pela ação do dragão e o filho da engenheira, Quinn, é um dos responsáveis por derrotá-lo. Até que surge Van Zan, um misterioso homem que afirma saber como derrotar o animal e que se oferece a ajudar Quinn em sua batalha.",
+    "imdb_id": "tt0253556"
+  },
+  {
+    "id": "movie-reino-de-fogo-2002",
+    "title": "Reino de Fogo (2002)",
+    "type": "movie",
+    "year": "2002",
+    "poster_url": "/4XiWjJv1A5wV0REkJzcnalZIFgx.jpg",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/6278",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/6278",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1300120",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-do-superman",
+    "title": "Reino do Superman",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/u4rWHJLzM8CrsdtcTOLGY58ef4j.jpg",
+    "genres": [
+      "Ficção científica",
+      "Animação",
+      "Ação",
+      "Fantasia",
+      "Drama",
+      "Aventura"
+    ],
+    "tmdb_id": "487672",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/487672",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/487672",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20do%20Superman%20_2019_%20_tmdb_487672_ad7d9336.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "487672",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458272",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459434",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646569",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "354271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "22081",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "354271",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "22081",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "354270",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "354270",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "O mundo lamenta a morte do Homem de Aço e, enquanto isso, surgem novos heróis, cada um alegando ser o verdadeiro Superman renascido. Os poderes de todos são testados quando uma ameaça mortal atinge a Terra.",
+    "imdb_id": "tt7167686"
+  },
+  {
+    "id": "movie-reino-do-superman-2019",
+    "title": "Reino do Superman (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/u4rWHJLzM8CrsdtcTOLGY58ef4j.jpg",
+    "genres": [
+      "Ficção científica",
+      "Animação",
+      "Ação",
+      "Fantasia",
+      "Drama",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/487672",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/487672",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1307937",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-dos-assassinos",
+    "title": "Reino Dos Assassinos",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/94y7IU9SIw3btpQJuBQrywwV2Q1.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": "44092",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/44092",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/44092",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "44092",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2453328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649606",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "31750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "31750",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A história se passa na China Antiga e segue Zeng Jing, uma experiente assassina que encontra os restos de um mítico monge budista. Ela inicia uma busca para recolocar os restos em seu legítimo local. No entanto, um grupo de assassinos está de olho nos restos, que guardam um antigo e poderoso segredo.",
+    "imdb_id": "tt1460743"
+  },
+  {
+    "id": "movie-reino-dos-assassinos-2010",
+    "title": "Reino dos Assassinos (2010)",
+    "type": "movie",
+    "year": "2010",
+    "poster_url": "/94y7IU9SIw3btpQJuBQrywwV2Q1.jpg",
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/44092",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/44092",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310443",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-dos-felinos",
+    "title": "Reino dos Felinos",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/93FP6NeQv6tD9WzrmqrJfheszQ2.jpg",
+    "genres": [
+      "Documentário",
+      "Aventura"
+    ],
+    "tmdb_id": "57586",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "57586",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Passada em um dos lugares mais selvagens da Terra, esta incrível aventura apresenta duas famílias que lutam para conseguir um lar em uma terra indomável.",
+    "imdb_id": "tt1223236"
+  },
+  {
+    "id": "movie-reino-dos-felinos-2011",
+    "title": "Reino dos Felinos (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20dos%20Felinos%20_2011_%20_tmdb_57586_12f28ba8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-escondido",
+    "title": "Reino Escondido",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/pwtlAQWMXLosi1gLBbdBqy5VT76.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": "116711",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/116711",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/116711",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reino%20Escondido%20_2013_%20_tmdb_116711_43c823b8.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "116711",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2459378",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "646608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "20442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "20442",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A adolescente Mary Katherine é magicamente transportada para um universo secreto e vai precisar contar com a ajuda dos seres fantásticos que o habitam para conseguir salvar o mundo dos humanos e este novo reino descoberto de uma força maligna, que ameaça destruir a Terra.",
+    "imdb_id": "tt0848537"
+  },
+  {
+    "id": "movie-reino-escondido-2013",
+    "title": "Reino Escondido (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/pwtlAQWMXLosi1gLBbdBqy5VT76.jpg",
+    "genres": [
+      "Animação",
+      "Aventura",
+      "Família",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/116711",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/116711",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1300892",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reino-quebrado-sangue-sagrado",
+    "title": "REINO QUEBRADO SANGUE SAGRADO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-reinventing-elvis-the-68-comeback",
+    "title": "Reinventing Elvis: The 68' Comeback",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/q4JSk4L5BX4uFvFtu8DOdMYZ8ks.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "1146570",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1146570",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1146570",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1146570",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448939",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1146570.mp4?lang=leg",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "670157",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "304586",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "304586",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt12525482"
+  },
+  {
+    "id": "movie-reis-e-ratos",
+    "title": "Reis e Ratos",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/oIFmoxu4TbrsNvIKdJDg9iyYG3S.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "132608",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "132608",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "No Rio de Janeiro de 1963, a história de vários personagens se interliga em meio ao cenário político da época. Um deles é Troy, um agente da CIA residente no Brasil que planeja uma armadilha para o Presidente.",
+    "imdb_id": "tt2182085"
+  },
+  {
+    "id": "movie-reis-e-ratos-2012",
+    "title": "Reis e Ratos (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reis%20e%20Ratos%20_2012_%20_tmdb_132608_76d7fd27.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reis-magos-vs-papai-noel",
+    "title": "Reis Magos vs. Papai Noel",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/qvDJbZYs2p4eOdyJ8R2dfdJp2Qq.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "987758",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/987758",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/987758",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reis%20Magos%20vs.%20Papai%20Noel%20_2022_%20_tmdb_987758_d60e895c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "987758",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461545",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650513",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "183746",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "183746",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "183732",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "183732",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Segue-se Os Três Reis Magos, que estão fartos de o Papai Noel ter cada vez mais destaque deles. Eles decidem enfrentá-lo sem saber que esta guerra despertará um inimigo comum muito mais perigoso: o Krampus.",
+    "imdb_id": "tt18953258"
+  },
+  {
+    "id": "movie-reis-magos-vs-papai-noel-2022",
+    "title": "Reis Magos vs. Papai Noel (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/qvDJbZYs2p4eOdyJ8R2dfdJp2Qq.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/987758",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/987758",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306954",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306955",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reivindicada-pelo-alfa-que-eu-odeio",
+    "title": "REIVINDICADA PELO ALFA QUE EU ODEIO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rejeitados-pelo-diabo",
+    "title": "Rejeitados pelo Diabo",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/pqjwhIQTsDcCbJQ135MzJ3jlgUN.jpg",
+    "genres": [
+      "Drama",
+      "Terror",
+      "Crime"
+    ],
+    "tmdb_id": "1696",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1696",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1696",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rejeitados%20pelo%20Diabo%20_2005_%20_tmdb_1696_70f48263.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1696",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "384718",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "384718",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "384717",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "384717",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Emboscados em sua própria casa pelo xerife Wydell, a família Firefly revida o fogo, mas só Otis e sua irmã Baby conseguem escapar. Num motel de beira de estrada, os irmãos chamam seu velho parceiro Capitão Spaulding e chacinam quem lhes atrapalhar o caminho. A violência aumenta e Wydell decide cruzar a linha e fazer justiça com as próprias mãos.",
+    "imdb_id": "tt0395584"
+  },
+  {
+    "id": "movie-rejeitados-pelo-diabo-2005",
+    "title": "Rejeitados pelo Diabo (2005)",
+    "type": "movie",
+    "year": "2005",
+    "poster_url": "/pqjwhIQTsDcCbJQ135MzJ3jlgUN.jpg",
+    "genres": [
+      "Drama",
+      "Terror",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1696",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1696",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1297071",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-rejeitando-meu-companheiro-lycan",
+    "title": "REJEITANDO MEU COMPANHEIRO LYCAN",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-rejeito",
+    "title": "Rejeito",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/8HqU65UxAT9xUjeBxLG0EoizsHR.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1106590",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1106590",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1106590",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rejeito%20_2023_%20_tmdb_1106590_bbe8e246.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1106590",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444184",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "921098",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "385847",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "385847",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Após os maiores rompimentos de barragens de rejeito da história, novas barragens ameaçam romper sobre milhões de pessoas em Minas Gerais. Uma conselheira ambiental do Estado confronta o modus operandi do governo e mineradoras, enquanto moradores resistem em suas comunidades ameaçadas.",
+    "imdb_id": "tt27480252"
+  },
+  {
+    "id": "movie-relacao-clandestina-com-meu-marido-bilionario",
+    "title": "Relacao Clandestina Com Meu Marido Bilionario",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-relacao-mortal-2011",
+    "title": "Relacao Mortal (2011)",
+    "type": "movie",
+    "year": "2011",
+    "poster_url": "/gbnK2IiWEnu7MpigFmi3EOhCMhp.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "91549",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/91549",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/91549",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1299597",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Rebecca, de 16 anos, entra para um colégio interno após o suicídio de seu pai. Rapidamente ela se encanta com a sua colega de quarto Lucy, mas não entende o fascínio que Ernessa, uma figura pálida, enigmática, melancólica e com olhos hipnotizantes e fascinantes, exerce sobre ela. Aos poucos Rebecca registra tudo o que acontece num diário e convence-se de que Ernessa é uma vampira.",
+    "imdb_id": "tt1407065"
+  },
+  {
+    "id": "movie-relacionamento-aberto",
+    "title": "Relacionamento Aberto",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/t65peFW0W66f36g7oiPK9O9a04o.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "938508",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/938508",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/938508",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relacionamento%20Aberto%20_2023_%20_tmdb_938508_06b984ab.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "938508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449817",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455780",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652138",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "265321",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "265321",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "265322",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "265322",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Julia tinha uma promissora carreira na política e um casamento perfeito com Matias, até o dia em que ela descobre que o seu marido possui uma amante. Para salvar o casamento, os dois decidem abrir a relação e se aventurar no mundo da poligamia.",
+    "imdb_id": "tt13868030"
+  },
+  {
+    "id": "movie-relacionamento-aberto-2023",
+    "title": "Relacionamento Aberto (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/t65peFW0W66f36g7oiPK9O9a04o.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/938508",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/938508",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304197",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relacionamento-fora-de-controle",
+    "title": "Relacionamento Fora de Controle",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-relatos-de-guerra",
+    "title": "Relatos de Guerra",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/mY8lGn9h379WmPbBSdhKZiV6F2n.jpg",
+    "genres": [
+      "Guerra",
+      "Drama",
+      "Suspense",
+      "Ação"
+    ],
+    "tmdb_id": "316042",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/316042",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/316042",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20de%20Guerra%20_2015_%20_tmdb_316042_e0eabcb6.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "316042",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450489",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644943",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "296888",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "296888",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um atirador de elite que nunca se permitiu em pensar os alvos como humanos começa a se incomodar com um deles. Um oficial da inteligência que nunca se contemplou em matar, se torna um motor de um complô para assassinatos. E um lendário engenheiro que havia colocado a guerra para trás, agora é o centro de uma zona de batalha. Três homens diferentes de três mundos diferentes estão na intersecção da guerra moderna. Para cada um deles, a guerra tem significados singulares e suas realidades, muitas vezes obscuras de moralidade, demonstram que nem tudo é o que parece.",
+    "imdb_id": "tt4034452"
+  },
+  {
+    "id": "movie-relatos-de-um-assassino-2025",
+    "title": "Relatos de um Assassino (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/czgoPOZbgT03sCuRIjV6HkLwFUx.jpg",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "1151766",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/a9bd56e3b8bbb4389d3c31f433f0b25b/master.txt",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-redeflix",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1151766",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1151766",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20de%20um%20Assassino%20_2025_%20_tmdb_1151766_398c5123.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1151766",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2467337",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "927191",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1502846",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "394241",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "394241",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "394243",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "394243",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt37718411",
+    "overview": "Sun-Joo, uma jornalista experiente, recebe um convite para entrevistar um psiquiatra que alega ter assassinado várias pessoas. Ela aceita a entrevista, mas, no decorrer da conversa, mergulha numa espiral de medo e é forçada a confrontar seu lado mais sombrio. Será que Sun-Joo conseguirá deter o homem ou seguirá em frente como uma jornalista que está totalmente envolvida nessa reportagem exclusiva?"
+  },
+  {
+    "id": "movie-relatos-do-mundo-2020",
+    "title": "Relatos do Mundo (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/cLqg9BjcecdzYGqURSdWgBUO3rX.jpg",
+    "genres": [
+      "Drama",
+      "Faroeste",
+      "Aventura"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/581032",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/581032",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1298263",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relatos-selvagens",
+    "title": "Relatos Selvagens",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/bkhHsHoa5PYBmhT93mYOC28Hhd2.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Comédia"
+    ],
+    "tmdb_id": "265195",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/265195",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/265195",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relatos%20Selvagens%20_2014_%20_tmdb_265195_4614795a.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "265195",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457109",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654161",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "21146",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "21146",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "375936",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "375936",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Seis contos que exploram os extremos do comportamento humano envolvendo pessoas em desespero.",
+    "imdb_id": "tt3011894"
+  },
+  {
+    "id": "movie-relatos-selvagens-2014",
+    "title": "Relatos Selvagens (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/bkhHsHoa5PYBmhT93mYOC28Hhd2.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Comédia"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/265195",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/265195",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1303642",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relaxe-eu-sou-do-futuro-2023",
+    "title": "Relaxe, Eu Sou do Futuro (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/cBo8zNyQImMt3O8ESXf49bL1Kx7.jpg",
+    "genres": [
+      "Comédia",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/994133",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/994133",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311734",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311735",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relay",
+    "title": "Relay",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/hhIvC2zTlh84Ij4brEI84sZFuq4.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "1088166",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/cd838af85931810243ec2de7e12f2f78/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1088166",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1088166",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relay%20_2025_%20_tmdb_1575009_8c32643d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Relay_%20Contrato%20Perigoso%20_2025_%20_tmdb_1088166_dbaab2de.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1575009",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1088166",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445354",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "901274",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "343977",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "343977",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nenhuma ligação é identificada. Nenhuma conversa é gravada. Nenhum registro telefônico é mantido. Agora fale claramente e, quando terminar, diga: \"prossiga\".\r Um lucrativo corretor de suborno entre empresas corruptas e indivíduos que as ameaçam quebra suas próprias regras quando um novo cliente busca sua proteção para se manter vivo.",
+    "imdb_id": "tt11539996"
+  },
+  {
+    "id": "movie-relacao-em-risco",
+    "title": "Relação em Risco",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/968EbINo97rHeWDBkRPA5eYwofM.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "97006",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/97006",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/97006",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "97006",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654162",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "358845",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "21145",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "358845",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "21145",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "358844",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "358844",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Judith trabalha em uma grande empresa responsável por encontrar o par ideal para importantes empresários. Ela é casada há muitos anos com Brice, mas a relação entre os dois não vive os seus melhores momentos. Sua situação complica quando ela passa a ser seduzida por um cliente, Harley, que não mede esforços para conquistá-la. Porém, aos poucos Judith passa a perceber que essa tentação pode se tornar um engano.",
+    "imdb_id": "tt2070862"
+  },
+  {
+    "id": "movie-relacao-em-risco-2013",
+    "title": "Relação em Risco (2013)",
+    "type": "movie",
+    "year": "2013",
+    "poster_url": "/968EbINo97rHeWDBkRPA5eYwofM.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/97006",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/97006",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311669",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relacoes-de-familia",
+    "title": "Relações de Família",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/ofY9Va4ezV0Y8Q9iSkicL5Xpu0B.jpg",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "tmdb_id": "462313",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "462313",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Henry vive um drama comum da classe média americana: ele enfrenta problemas financeiros e teme a influência que isso pode causar no estilo de vida de sua família, sustentado por ele. O homem de meia idade precisa encontrar uma solução para conciliar sua falta de dinheiro com as demandas de sua esposa, de sua filha adolescente e dos caçulas. Quando ele trava uma amizade com um jovem rapaz, o destino de todos parece estar atrelado.",
+    "imdb_id": "tt3221910"
+  },
+  {
+    "id": "movie-relacoes-de-familia-2019",
+    "title": "Relações de Família (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rela_es%20de%20Fam_lia%20_2019_%20_tmdb_462313_c91963eb.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relacoes-perigosas",
+    "title": "Relações Perigosas",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/5p9VqPTdiYkdO9NF0oe7bBhJcIF.jpg",
+    "genres": [
+      "Suspense"
+    ],
+    "tmdb_id": "620561",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "620561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Antes de conhecer George, Sonny era apenas um vagabundo perdido com um passado conturbado flutuando de cidade em cidade, procurando trabalho. Como o destino queria, Sonny acaba salvando a vida de George de um assalto. Como agradecimento, George dá a Sonny uma casa e um emprego como mecânico em sua fazenda no solitário Bayou da Louisiana. Sonny rapidamente se instala e se torna útil em todo o lugar, mas depois Sonny conhece Larissa, a atraente esposa de George. Ela tem um passado misterioso e os dois são irresistivelmente atraídos um pelo outro. Os dois começam um caso apaixonado, que os leva a construir uma trama distorcida para tirar a vida de George a sangue frio, a fim de ficarem juntos. À medida que seu plano desprezível se desenrola, eles aprendem até onde estão dispostos a ir para cobrir seus crimes.",
+    "imdb_id": "tt6023242"
+  },
+  {
+    "id": "movie-relacoes-perigosas-2019",
+    "title": "Relações Perigosas (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rela_es%20Perigosas%20_2019_%20_tmdb_620561_74416b09.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-relic",
+    "title": "Relic",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/fAG4nKPUWEIwGBpP38H64GGV8kl.jpg",
+    "genres": [
+      "Terror",
+      "Mistério",
+      "Suspense",
+      "Ficção científica"
+    ],
+    "tmdb_id": "11015",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/11015",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/11015",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "62576",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "62576",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-reliquia-macabra",
+    "title": "Relíquia Macabra",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "539181",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/539181",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/539181",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Reliquia%20Macabra%20_2020_%20_tmdb_539181_70106f14.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "539181",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446021",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451441",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647465",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655169",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399693",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "112406",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "108131",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "112406",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "108131",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Quando a velha mãe Edna inexplicavelmente some, cabe à filha Kay e à neta Sam viajar para a decrépita casa de campo da família para encontrar pistas de sua demência espalhadas pela casa.",
+    "imdb_id": "tt9072352"
+  },
+  {
+    "id": "movie-reliquia-macabra-1941",
+    "title": "Relíquia Macabra (1941)",
+    "type": "movie",
+    "year": "1941",
+    "poster_url": "/3RC0zHss6LSxVpdCs59nCkwkQT4.jpg",
+    "genres": [
+      "Mistério",
+      "Crime",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/963",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/963",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309052",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-reliquia-macabra-2020",
+    "title": "Relíquia Macabra (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/3wZ0gxLqsPleneFSTZILmM3BE8Q.jpg",
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/539181",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/539181",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308194",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1308195",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-remando-para-o-ouro-2023",
+    "title": "Remando para o Ouro (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/ytmcHHnOgzGwAkCy7fNaSjGrz7i.jpg",
+    "genres": [
+      "Drama",
+      "História"
+    ],
+    "tmdb_id": "823452",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/64c612767061880468f7dbe120023ee4/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/823452",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/823452",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remando%20para%20o%20Ouro%20_2023_%20_tmdb_823452_59c33149.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "823452",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2450272",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456561",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652230",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1303167",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "265873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "265873",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "249246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "249246",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "249247",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "249247",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "imdb_id": "tt1856080",
+    "overview": "A história triunfante da equipe masculina de remo da Universidade de Washington, que surpreendeu o mundo ao ganhar o ouro nas Olimpíadas de Berlim em 1936."
+  },
+  {
+    "id": "movie-remanescentes-esquecidos-por-deus",
+    "title": "Remanescentes - Esquecidos Por Deus",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/uVZY6gS3qWxsLrQIOB8e2FelyC0.jpg",
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": "280002",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/280002",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/280002",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remanescentes_%20Esquecidos%20por%20Deus%20_2014_%20_tmdb_280002_c8c7a872.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "280002",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445849",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647647",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "21664",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "21664",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A cerimônia de casamento de um casal de amigos é interrompida pelo apocalipse e eles são obrigados a examinar a vida, o amor e a fé, enquanto devem escolher entre a redenção e a sobrevivência.",
+    "imdb_id": "tt2714380"
+  },
+  {
+    "id": "movie-remanescentes-esquecidos-por-deus-2014",
+    "title": "Remanescentes: Esquecidos por Deus (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/uVZY6gS3qWxsLrQIOB8e2FelyC0.jpg",
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/280002",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/280002",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1297635",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-remastered-massacre-no-estadio",
+    "title": "ReMastered: Massacre no Estádio",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/lNN98FpeYM7hjcVy1tR74K7Rpbt.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "553651",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "553651",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Depois de assassinado, em 1973, o cantor Víctor Jara virou símbolo da luta contra a ditadura no Chile. Décadas depois, tem início uma inesperada busca por justiça.",
+    "imdb_id": "tt9046562"
+  },
+  {
+    "id": "movie-remastered-quem-matou-jam-master-jay",
+    "title": "ReMastered: Quem matou Jam Master Jay?",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/aJdXK8VpbLmRuVeO1yh1t5gzrfK.jpg",
+    "genres": [
+      "Documentário",
+      "Música"
+    ],
+    "tmdb_id": "553648",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "553648",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Integrante do Run-DMC, um dos grupos de Hip-Hop mais influentes da década de 80, Jam Master Jay foi assassinado no dia 30 de outubro de 2002, enquanto gravava uma nova música em seu estúdio no Queens, na cidade de Nova Iorque.",
+    "imdb_id": "tt9046560"
+  },
+  {
+    "id": "movie-remember-2022",
+    "title": "Remember (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/9Q6QdgwXQheiVKeJUTTvQ0chJyT.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "1087756",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d0d3d88c86ed8b625f9b8587015b6ec4/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1087756",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1087756",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1358272",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "600138",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452709",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654839",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1300986",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "187563",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "187563",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "187578",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "187578",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2
+  },
+  {
+    "id": "movie-remp-it-2",
+    "title": "Remp-It 2",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/g1A1dtk1iLksWfsPT2F5MnkyicK.jpg",
+    "genres": [
+      "Ação",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "1051056",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1051056",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt23141154"
+  },
+  {
+    "id": "movie-remp-it-2-2022",
+    "title": "Remp-It 2 (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Remp-It%202%20_2022_%20_tmdb_1051056_4e5853fc.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-remedio-amargo-2020",
+    "title": "Remédio Amargo (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/sKXMGJ9gSf9QKbvKParlEVcYjus.jpg",
+    "genres": [
+      "Suspense",
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "701175",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e20b12c169b15af507aea635f518aaea/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/701175",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/701175",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Rem_dio%20Amargo%20_2020_%20_tmdb_701175_ebc5275d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "701175",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445792",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647532",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1308809",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "73012",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "73012",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt11127690",
+    "overview": "Ángel (Mario Casas) trabalha como paramédico em serviços emergenciais. Após sofrer um terrível acidente, sua vida ao lado de Vane (Déborah François) começa a sucumbir. Obcecado com a ideia de que ela está sendo infiel, ele entrará numa espiral de paranoia da qual será difícil sair."
+  },
+  {
+    "id": "movie-renasce-filho-e-nora-surtam",
+    "title": "RENASCE, FILHO E NORA SURTAM",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascendo-das-cinzas",
+    "title": "RENASCENDO DAS CINZAS",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascer-2023",
+    "title": "ReNascer (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/qjjwYBk21klwdD86bxPro54qqaC.jpg",
+    "genres": [
+      "Drama",
+      "Terror",
+      "Mistério"
+    ],
+    "tmdb_id": "1058638",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/e8c531295e7f43d06baefd6f691324e5/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/1058638",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1058638",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Re_Nascer%20_2023_%20_tmdb_1058638_5d144784.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1058638",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654596",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1303376",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1303375",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-renascer-da-terra",
+    "title": "Renascer da Terra",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/4AfARQNiPT2p8jW2LKHYHm4eWye.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1679036",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1679036",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1679036",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "381785",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "381785",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "O capítulo final de uma trilogia inovadora, que sucede Solo Fértil e Solo de Todos, uma jornada cinematográfica por 5 continentes mostrando soluções de agricultura regenerativa que estão se consolidando, beneficiando a saúde humana e trazendo esperança de renovação global.",
+    "imdb_id": "tt31849590"
+  },
+  {
+    "id": "movie-renascer-para-terminar-os-tres-casamentos",
+    "title": "Renascer para Terminar os Três Casamentos",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascer-s01e-1914",
+    "title": "Renascer S01E (1914)",
+    "type": "movie",
+    "year": "1914",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "11",
+        "ref": "2311223",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-renasceu-como-a-queridinha-do-ceo",
+    "title": "RENASCEU COMO A QUERIDINHA DO CEO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renasci-aos-8-anos-para-fazer-meu-pai-rico-e-feliz",
+    "title": "RENASCI AOS 8 ANOS PARA FAZER MEU PAI RICO E FELIZ",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renasci-como-o-amor-perdido-do-magnata",
+    "title": "Renasci Como O Amor Perdido Do Magnata",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-da-herdeira",
+    "title": "Renascida Da Herdeira",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "389638",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "389638",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-renascida-das-trevas-2018",
+    "title": "Renascida das Trevas (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/gx6eZTOV6fQ7H49muQOwAZegc28.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "554636",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/79688c3355863579fe97bd777c150268/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/554636",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/554636",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Renascida%20das%20Trevas%20_2018_%20_tmdb_554636_e15cd797.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "554636",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1299507",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt7975674",
+    "overview": "Uma menina natimorta é levada do necrotério por um dos atendentes. Trazida de volta à vida por energia eletrocinética, agora, ela cresce normalmente. Mas no seu aniversário de 16 anos, a garota escapa do cativeiro e parte para procurar sua mãe biológica, deixando um rastro de destruição para trás."
+  },
+  {
+    "id": "movie-renascida-do-inferno",
+    "title": "Renascida do Inferno",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/7ioygTHhBTbzipBRuzCnb9OqI3p.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "243940",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/243940",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/243940",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Renascida%20do%20Inferno%20_2015_%20_tmdb_243940_7fce6112.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "243940",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2452404",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "655366",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "33407",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "33407",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Um grupo de cientistas está fazendo uma pesquisa sobre o cérebro humano, buscando uma fórmula capaz de reanimar animais que acabam de morrer. Durante um dos experimentos, a pesquisadora Zoe sofre uma descarga elétrica e morre dentro do laboratório. Desesperados para trazê-la de volta à vida, eles aplicam o medicamento experimental na colega, fazendo com que ela acorde. Apesar de estar viva, Zoe manifesta um comportamento estranho, como se estivesse possuída por forças malignas. Enquanto tentam se proteger do perigo, eles também devem impedir que a amiga fuja do laboratório e mate as pessoas ao redor.",
+    "imdb_id": "tt2918436"
+  },
+  {
+    "id": "movie-renascida-do-inferno-2015",
+    "title": "Renascida do Inferno (2015)",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/7ioygTHhBTbzipBRuzCnb9OqI3p.jpg",
+    "genres": [
+      "Terror",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/243940",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/243940",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1300435",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-renascida-mae-poderosa-e-imbativel",
+    "title": "RENASCIDA MAE PODEROSA E IMBATIVEL",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-nos-anos-80-o-sucesso-da-esposa-de-tamanho-grande",
+    "title": "RENASCIDA NOS ANOS 80 O SUCESSO DA ESPOSA DE TAMANHO GRANDE",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-para-a-gloria",
+    "title": "RENASCIDA PARA A GLORIA",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-para-brilhar",
+    "title": "Renascida para Brilhar",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-para-o-rei-licantropo",
+    "title": "RENASCIDA PARA O REI LICANTROPO",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-renascida-rompendo-com-meu-ex",
+    "title": "RENASCIDA ROMPENDO COM MEU EX",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [],
+    "source_candidates_skipped": 1
+  }
+]

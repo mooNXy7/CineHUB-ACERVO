@@ -33,11 +33,11 @@
       "format": "html",
       "url_template": "https://meuguia.tv/programacao/canal/{code}",
       "priority": 10,
-      "enabled": true,
+      "enabled": false,
       "match_strategy": "explicit_code",
       "mapping_file": "catalog/epg/channel-map.json",
       "probe_url": "https://meuguia.tv/programacao/canal/HBO",
-      "notes": "Primary schedule for explicitly mapped channels."
+      "notes": "Desativado: não publicar nem armazenar grades HTML até existir autorização expressa de redistribuição. Os códigos/slugs de mapeamento ficam preservados para eventual reativação autorizada."
     },
     {
       "id": "guia-de-tv-br",
@@ -46,11 +46,11 @@
       "format": "html",
       "url_template": "https://www.guiadetv.com/canal/{slug}",
       "priority": 20,
-      "enabled": true,
+      "enabled": false,
       "match_strategy": "explicit_slug",
       "mapping_file": "catalog/epg/channel-map.json",
       "probe_url": "https://www.guiadetv.com/canal/sony-movies",
-      "notes": "Fallback for explicitly mapped channels missing from the primary HTML schedule."
+      "notes": "Desativado: não publicar nem armazenar grades HTML até existir autorização expressa de redistribuição. Os códigos/slugs de mapeamento ficam preservados para eventual reativação autorizada."
     },
     {
       "id": "brazil-tv-epg",

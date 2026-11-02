@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "report_type": "authorized_saimotv_channel_stream_refresh",
+  "catalog_mutated": false,
+  "counts": {
+    "reference_channels": 163,
+    "safe_hls_candidates": 8,
+    "matched_unique_channels": 8,
+    "streams_added": 0,
+    "skipped_drm": 90,
+    "skipped_unsafe": 36,
+    "already_has_stream": 8,
+    "unmatched": 29,
+    "ambiguous": 0,
+    "updated_channel_ids": []
+  },
+  "safety": [
+    "Only exact normalized channel names are matched; quality variants must match the source quality.",
+    "Only HTTPS HLS playlists without embedded credentials or sensitive tokens are eligible.",
+    "Records with ClearKey or Widevine DRM are never imported.",
+    "Existing channel streams and all existing channel metadata are preserved.",
+    "Only User-Agent and Referer are copied when present; Authorization, Cookie, Origin, and other headers are not imported."
+  ]
+}
