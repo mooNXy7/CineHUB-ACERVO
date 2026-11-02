@@ -434,6 +434,58 @@
     {
       "channel_id": "ch-x-sports-sd",
       "reference_name": "X Sports"
+    },
+    {
+      "channel_id": "ch-canal-futura-fhd",
+      "reference_name": "Canal Futura"
+    },
+    {
+      "channel_id": "ch-canal-futura-hd",
+      "reference_name": "Canal Futura"
+    },
+    {
+      "channel_id": "ch-canal-futura-sd",
+      "reference_name": "Canal Futura"
+    },
+    {
+      "channel_id": "ch-rede-brasil-hd",
+      "reference_name": "Rede Brasil"
+    },
+    {
+      "channel_id": "ch-rede-brasil-sd",
+      "reference_name": "Rede Brasil"
+    },
+    {
+      "channel_id": "ch-rede-tv-fhd",
+      "reference_name": "Rede TV!"
+    },
+    {
+      "channel_id": "ch-rede-tv-hd",
+      "reference_name": "Rede TV!"
+    },
+    {
+      "channel_id": "ch-rede-tv-sd",
+      "reference_name": "Rede TV!"
+    },
+    {
+      "channel_id": "ch-terra-viva-hd",
+      "reference_name": "Terra Viva"
+    },
+    {
+      "channel_id": "ch-terra-viva-sd",
+      "reference_name": "Terra Viva"
+    },
+    {
+      "channel_id": "ch-tv-evangelizar-hd",
+      "reference_name": "TV Evangelizar"
+    },
+    {
+      "channel_id": "ch-tv-senado-fhd",
+      "reference_name": "TV Senado"
+    },
+    {
+      "channel_id": "ch-tv-senado-hd",
+      "reference_name": "TV Senado"
     }
   ]
 }
