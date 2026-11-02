@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "report_type": "vod_tmdb_metadata_window_audit",
+  "read_only": true,
+  "network_accessed": false,
+  "catalog_mutated": false,
+  "window_size": 5000,
+  "offset_semantics": "stable position among index entries with numeric tmdb_id, in movies/series/anime/doramas order",
+  "summary": {
+    "eligible_records": 39863,
+    "records_with_missing_metadata": 6295,
+    "complete_records": 33568,
+    "identity_mismatches": 0,
+    "missing_field_counts": {
+      "poster_url": 223,
+      "year": 2558,
+      "genres": 563,
+      "overview": 5933
+    }
+  },
+  "windows": [
+    {
+      "offset": 0,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 1437,
+      "complete_records": 3563,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 30,
+        "year": 877,
+        "genres": 55,
+        "overview": 1412
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 1437,
+          "complete_records": 3563,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 30,
+            "year": 877,
+            "genres": 55,
+            "overview": 1412
+          }
+        }
+      }
+    },
+    {
+      "offset": 5000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 716,
+      "complete_records": 4284,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 34,
+        "year": 242,
+        "genres": 56,
+        "overview": 687
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 716,
+          "complete_records": 4284,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 34,
+            "year": 242,
+            "genres": 56,
+            "overview": 687
+          }
+        }
+      }
+    },
+    {
+      "offset": 10000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 734,
+      "complete_records": 4266,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 30,
+        "year": 259,
+        "genres": 67,
+        "overview": 707
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 734,
+          "complete_records": 4266,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 30,
+            "year": 259,
+            "genres": 67,
+            "overview": 707
+          }
+        }
+      }
+    },
+    {
+      "offset": 15000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 505,
+      "complete_records": 4495,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 33,
+        "year": 228,
+        "genres": 56,
+        "overview": 471
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 505,
+          "complete_records": 4495,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 33,
+            "year": 228,
+            "genres": 56,
+            "overview": 471
+          }
+        }
+      }
+    },
+    {
+      "offset": 20000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 734,
+      "complete_records": 4266,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 36,
+        "year": 195,
+        "genres": 50,
+        "overview": 711
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 734,
+          "complete_records": 4266,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 36,
+            "year": 195,
+            "genres": 50,
+            "overview": 711
+          }
+        }
+      }
+    },
+    {
+      "offset": 25000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 757,
+      "complete_records": 4243,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 22,
+        "year": 299,
+        "genres": 133,
+        "overview": 646
+      },
+      "categories": {
+        "movies": {
+          "eligible_records": 171,
+          "records_with_missing_metadata": 35,
+          "complete_records": 136,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 0,
+            "year": 5,
+            "genres": 3,
+            "overview": 32
+          }
+        },
+        "series": {
+          "eligible_records": 4829,
+          "records_with_missing_metadata": 722,
+          "complete_records": 4107,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 22,
+            "year": 294,
+            "genres": 130,
+            "overview": 614
+          }
+        }
+      }
+    },
+    {
+      "offset": 30000,
+      "eligible_records": 5000,
+      "records_with_missing_metadata": 694,
+      "complete_records": 4306,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 22,
+        "year": 259,
+        "genres": 122,
+        "overview": 596
+      },
+      "categories": {
+        "series": {
+          "eligible_records": 5000,
+          "records_with_missing_metadata": 694,
+          "complete_records": 4306,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 22,
+            "year": 259,
+            "genres": 122,
+            "overview": 596
+          }
+        }
+      }
+    },
+    {
+      "offset": 35000,
+      "eligible_records": 4863,
+      "records_with_missing_metadata": 718,
+      "complete_records": 4145,
+      "identity_mismatches": 0,
+      "missing_field_counts": {
+        "poster_url": 16,
+        "year": 199,
+        "genres": 24,
+        "overview": 703
+      },
+      "categories": {
+        "anime": {
+          "eligible_records": 2750,
+          "records_with_missing_metadata": 338,
+          "complete_records": 2412,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 6,
+            "year": 133,
+            "genres": 4,
+            "overview": 337
+          }
+        },
+        "doramas": {
+          "eligible_records": 896,
+          "records_with_missing_metadata": 209,
+          "complete_records": 687,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 2,
+            "year": 5,
+            "genres": 4,
+            "overview": 208
+          }
+        },
+        "series": {
+          "eligible_records": 1217,
+          "records_with_missing_metadata": 171,
+          "complete_records": 1046,
+          "identity_mismatches": 0,
+          "missing_field_counts": {
+            "poster_url": 8,
+            "year": 61,
+            "genres": 16,
+            "overview": 158
+          }
+        }
+      }
+    }
+  ],
+  "notes": [
+    "This report uses the same eligible-record sequence and offset semantics as enrich_vod_metadata.py.",
+    "A missing field count is not a guarantee that TMDB can safely supply it; provider identity checks still apply.",
+    "Identity mismatches are excluded from automatic enrichment and require separate review."
+  ]
+}

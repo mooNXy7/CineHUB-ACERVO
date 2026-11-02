@@ -17,11 +17,11 @@
     "exact_unique_matches": 324,
     "ambiguous_matches": 0,
     "unmatched_reference_blocks": 148,
-    "matched_channels_without_streams": 290,
-    "channels_with_candidates": 152,
-    "eligible_unverified_urls": 156,
-    "rejected_urls": 3988,
-    "channels_with_existing_streams": 34,
+    "matched_channels_without_streams": 289,
+    "channels_with_candidates": 151,
+    "eligible_unverified_urls": 155,
+    "rejected_urls": 3987,
+    "channels_with_existing_streams": 35,
     "missing_logo_candidates": 0
   },
   "candidates": [
@@ -1987,26 +1987,6 @@
           "source_type": "hls",
           "quality": null,
           "source_order": 4,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.sbt-ba",
-      "channel_name": "SBT BA",
-      "category": "TV Aberta",
-      "reference_category": "TV Aberta",
-      "sources": [
-        {
-          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
-          "host": "cdn.live.br1.jmvstream.com",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 2,
           "headers": {},
           "status": "eligible_unverified"
         }
