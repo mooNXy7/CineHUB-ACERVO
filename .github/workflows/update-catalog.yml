@@ -13,6 +13,10 @@ on:
       - "catalog/reference/**"
       - "scripts/update_catalog.py"
       - "scripts/update_radio_catalog.py"
+      - "scripts/probe_radio_streams.py"
+      - "tests/test_probe_radio_streams.py"
+      - "tests/test_radio_genre_normalization.py"
+      - "catalog/radios/**"
       - "scripts/apply_vod_poster_artwork_to_channels.py"
       - "scripts/suggest_saimoplayer_fichas_tmdb_ids.py"
       - "scripts/update_saimotv_channel_reference.py"
@@ -66,7 +70,7 @@ concurrency:
 
 jobs:
   update:
-    if: ${{ !contains(github.event.head_commit.message, '[logos-only]') }}
+    if: ${{ !contains(github.event.head_commit.message, '[logos-only]') && !contains(github.event.head_commit.message, '[radios-only]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -356,5 +360,40 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add catalog/channels/channels.json
             git commit -m "fix(logos): apply reviewed channel logo mappings [logos-only] [logos-applied]"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+  
+  radio-only:
+    if: ${{ github.event_name == 'push' && github.ref_name == 'audit/acervo-hardening-2026-10' && contains(github.event.head_commit.message, '[radios-only]') && !contains(github.event.head_commit.message, '[radios-applied]') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh only radio metadata from authorized public sources
+        run: python scripts/update_radio_catalog.py
+      - name: Probe radio streams with audio-aware checks
+        run: python scripts/probe_radio_streams.py --workers 16 --timeout 8
+      - name: Validate radio catalog and quarantine integrity
+        run: python scripts/validate_catalog.py
+      - name: Run complete regression suite
+        run: |
+          python -m unittest discover -s tests -v
+          python -m py_compile scripts/*.py
+      - name: Commit only radio catalog and radio reports
+        run: |
+          git add catalog/radios/radios.json reports/radio-source-refresh.json reports/radio-stream-health.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração efetiva no catálogo ou nos relatórios de rádio."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "fix(radios): enrich metadata and validate audio streams [radios-applied]"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

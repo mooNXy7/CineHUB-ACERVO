@@ -174,6 +174,13 @@ GENRE_ALIASES = {
     "espiritismo": "Religiosa",
     "espiritual": "Religiosa",
     "radio espirita": "Religiosa",
+    "eclectic programming": "Eclética",
+    "musica popular brasileira": "MPB",
+    "gospel music": "Gospel",
+    "gospel evangelica": "Gospel",
+    "light classics": "Clássica",
+    "nativista": "Regional",
+    "miscellaneous": "Variedades",
 }
 GENRE_PRIORITY = [
     "Sertanejo", "MPB", "Gospel", "Jornalismo", "Esportes", "Pop/Rock",
@@ -315,8 +322,8 @@ def genre_from_tags(tags: Any) -> str | None:
                 found.append(genre)
     for genre in GENRE_PRIORITY:
         if genre in found:
-            return genre
-    return found[0] if found else None
+            return canonical_genre(genre)
+    return canonical_genre(found[0]) if found else None
 
 
 @lru_cache(maxsize=256)
@@ -557,6 +564,26 @@ def merge_radio_records(existing: list[dict[str, Any]], incoming: list[dict[str,
     }
 
 
+GENRE_CANONICAL_ALIASES = {
+    "jornalismo": "Notícias",
+    "noticia": "Notícias",
+    "noticias": "Notícias",
+    "brasileira": "Música Brasileira",
+    "musica brasileira": "Música Brasileira",
+    "rap hip hop": "Hip-Hop",
+    "hip hop": "Hip-Hop",
+    "classica": "Clássica",
+}
+
+
+def canonical_genre(value: Any) -> str:
+    """Normalize only known spelling/category aliases; preserve unknown labels."""
+    original = str(value or "").strip()
+    key = normalize_key(original)
+    key = re.sub(r"[^a-z0-9]+", " ", key).strip()
+    return GENRE_CANONICAL_ALIASES.get(key, original)
+
+
 def update(root: Path = ROOT) -> dict[str, Any]:
     sources_path = root / "sources/sources.json"
     out_path = root / "catalog/radios/radios.json"
@@ -602,6 +629,14 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         raise RuntimeError("Nenhuma fonte de rádio segura válida; catálogo anterior preservado: " + "; ".join(failures))
 
     original_radios = [dict(item) for item in current["radios"] if isinstance(item, dict)]
+    genre_normalized = 0
+    for radio in original_radios:
+        existing_genre = radio.get("genre")
+        if str(existing_genre or "").strip():
+            normalized_genre = canonical_genre(existing_genre)
+            if normalized_genre != existing_genre:
+                radio["genre"] = normalized_genre
+                genre_normalized += 1
     # Always clone before applying metadata so a Radio Browser-only fallback is
     # still detected as a catalog mutation when the stream-reference fetch fails.
     merged, merge_counts = merge_radio_records(original_radios, collected)
@@ -624,6 +659,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "sources": source_counts,
         "merge": merge_counts,
         "radio_browser_metadata": metadata_counts,
+        "genre_normalization": {"updated": genre_normalized},
         "failures": failures,
         "safety": [
             "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",
