@@ -51,7 +51,7 @@ jobs:
         run: |
           set -euo pipefail
           if [[ "$EVENT_NAME" == "push" ]]; then
-            marker_path="$(git ls-tree -r --name-only "$GITHUB_SHA" | grep -E '^\\.github/tmdb-id-review-trigger-[0-9]+\\.txt$' | sort -V | tail -n 1 || true)"
+            marker_path="$(git ls-tree -r --name-only "$GITHUB_SHA" | grep -E '^\.github/tmdb-id-review-trigger-[0-9]+\.txt$' | sort -V | tail -n 1 || true)"
             if [[ -z "$marker_path" ]]; then
               echo "::error::Push trigger did not include a numbered TMDB-ID review marker."
               exit 1
