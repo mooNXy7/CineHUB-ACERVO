@@ -17,19 +17,19 @@ SECTIONS = ("movies", "series")
 def norm(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or "")).casefold()
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
-    value = re.sub(r"\\s*\\(((?:19|20)\\d{2})\\)\\s*$", "", value)
+    value = re.sub(r"\s*\(((?:19|20)\d{2})\)\s*$", "", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
 def extract_year(value: Any) -> str:
-    match = re.search(r"\\(((?:19|20)\\d{2})\\)\\s*$", str(value or ""))
+    match = re.search(r"\(((?:19|20)\d{2})\)\s*$", str(value or ""))
     return match.group(1) if match else ""
 
 
 def read_fichas(path: Path) -> dict[tuple[str, str], list[dict[str, str]]]:
     result: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
-        fields = line.split("\\t")
+        fields = line.split("\t")
         if len(fields) < 3 or fields[0] not in {"f", "s"}:
             continue
         title = fields[1].strip()
@@ -143,7 +143,7 @@ def main() -> int:
     args = parser.parse_args()
     report = build_report(args.root, args.reference_file)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"summary": report["summary"], "catalog_mutated": False}, ensure_ascii=False))
     return 0
 
