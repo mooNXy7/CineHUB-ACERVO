@@ -58,8 +58,8 @@ class TvLogosBrazilTests(unittest.TestCase):
 
     def test_ambiguous_source_matches_are_not_applied(self):
         root, index = self.make_root(
-            [{"id": "c1", "name": "Record", "logo_url": None}],
-            [self.entry("record-br.png"), self.entry("rede-record-br.png")],
+            [{"id": "c1", "name": "Band", "logo_url": None}],
+            [self.entry("band-br.png"), self.entry("band-br.svg")],
         )
         self.assertEqual(apply(root, index)["ambiguous"], 1)
 
