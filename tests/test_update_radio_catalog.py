@@ -475,10 +475,10 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(method, "unmatched")
 
     def test_radio_browser_loose_name_match_rejects_ambiguous_aliases(self):
-        radio = {"name": "Rádio Cidade Jundiaí FM", "stream_url": "https://catalog.example/live"}
+        radio = {"name": "Web Rádio Cidade Jundiaí FM", "stream_url": "https://catalog.example/live"}
         stations = [
             {"stationuuid": "one", "name": "Cidade Jundiai", "url": "https://one.example/live"},
-            {"stationuuid": "two", "name": "Radio Cidade Jundiai", "url": "https://two.example/live"},
+            {"stationuuid": "two", "name": "Rádio Cidade Jundiai", "url": "https://two.example/live"},
         ]
         matched, method = update_radio_catalog.match_radio_browser_station(radio, stations)
         self.assertIsNone(matched)

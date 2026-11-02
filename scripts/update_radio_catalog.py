@@ -214,6 +214,7 @@ def normalize_station_name(value: str) -> str:
 def normalize_station_match_name(value: str) -> str:
     """Conservative matching alias: drop a leading radio label only with two identity tokens."""
     tokens = normalize_station_name(value).split()
+    # Prefix removal is deliberately narrow; brand names such as "Radio Disney" stay intact.
     if len(tokens) >= 4 and tokens[:2] == ["web", "radio"]:
         tokens = tokens[2:]
     elif len(tokens) >= 3 and tokens[0] in {"radio", "webradio"}:
