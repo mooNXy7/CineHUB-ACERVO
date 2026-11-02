@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source": "Wikimedia Commons — Category:FM radio station logos of Brazil and linked file pages",
+  "license_basis": "Each listed file page labels the logo as PD-textlogo/public domain; trademark rights may still apply. Logos are used only to identify the corresponding radio station.",
+  "entries": [
+    {
+      "reference_name": "92 FM Porto Alegre",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Logotipo_da_92_FM_%28Porto_Alegre%29.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_92_FM_(Porto_Alegre).png"
+    },
+    {
+      "reference_name": "Antena 1",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Antena_1_logo.png"
+    },
+    {
+      "reference_name": "98 FM Belo Horizonte",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/98_FM_BH_logo.svg/500px-98_FM_BH_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:98_FM_BH_logo.svg"
+    },
+    {
+      "reference_name": "BandNews FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/BandNews_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png"
+    },
+    {
+      "reference_name": "Energia 97 FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Energia_97_logo.png"
+    },
+    {
+      "reference_name": "JB FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/JB_FM_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JB_FM_logo.png"
+    },
+    {
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    }
+  ]
+}

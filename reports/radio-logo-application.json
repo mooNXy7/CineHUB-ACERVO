@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "report_type": "reviewed_radio_logo_application",
+  "generated_at": "2026-11-02T07:09:41.127Z",
+  "source": "Wikimedia Commons",
+  "counts": {
+    "reference_logos": 8,
+    "requested_station_matches": 17,
+    "logos_applied": 17,
+    "skipped": 0
+  },
+  "applied": [
+    {
+      "radio_id": "radio.92-fm-porto-alegre",
+      "radio_name": "92 FM Porto Alegre",
+      "reference_name": "92 FM Porto Alegre",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Logotipo_da_92_FM_%28Porto_Alegre%29.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_92_FM_(Porto_Alegre).png"
+    },
+    {
+      "radio_id": "radio.antena-1-sorocaba",
+      "radio_name": "Antena 1 Sorocaba",
+      "reference_name": "Antena 1",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Antena_1_logo.png"
+    },
+    {
+      "radio_id": "radio.98-fm-belo-horizonte",
+      "radio_name": "98 FM Belo Horizonte",
+      "reference_name": "98 FM Belo Horizonte",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/98_FM_BH_logo.svg/500px-98_FM_BH_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:98_FM_BH_logo.svg"
+    },
+    {
+      "radio_id": "radio.bandnews-fm-sao-paulo",
+      "radio_name": "BandNews FM São Paulo",
+      "reference_name": "BandNews FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/BandNews_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png"
+    },
+    {
+      "radio_id": "radio.energia-97-fm",
+      "radio_name": "Energia 97 FM",
+      "reference_name": "Energia 97 FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Energia_97_logo.png"
+    },
+    {
+      "radio_id": "radio.jbfm-99-9",
+      "radio_name": "JBFM 99.9",
+      "reference_name": "JB FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/JB_FM_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JB_FM_logo.png"
+    },
+    {
+      "radio_id": "radio.massa-fm-97-7",
+      "radio_name": "Massa FM 97.7",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.massa-fm-99-7",
+      "radio_name": "Massa FM 99.7",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.massa-fm-101-1",
+      "radio_name": "Massa FM 101.1",
+      "reference_name": "Massa FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Massa_FM_logo.svg"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-5",
+      "radio_name": "Novabrasil FM 89.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-7",
+      "radio_name": "Novabrasil FM 89.7",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-93-5",
+      "radio_name": "Novabrasil FM 93.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-94-3",
+      "radio_name": "Novabrasil FM 94.3",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-97-5",
+      "radio_name": "Novabrasil FM 97.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-106-5",
+      "radio_name": "Novabrasil FM 106.5",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-maceio",
+      "radio_name": "Novabrasil FM Maceió",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-salvador",
+      "radio_name": "Novabrasil FM Salvador",
+      "reference_name": "Novabrasil FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    }
+  ],
+  "skipped": [],
+  "safety": [
+    "Only explicit radio IDs were updated.",
+    "Only previously empty logo_url fields were filled.",
+    "Existing radio logos, stream_url, genre, IDs and playback data were preserved.",
+    "All logo URLs are HTTPS and each source file page identifies the image as PD-textlogo; trademarks may still apply."
+  ]
+}

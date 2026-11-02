@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T20:04:14.477605+00:00",
+  "generated_at": "2026-11-02T07:09:41.127Z",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -46,7 +46,7 @@
       "id": "radio.92-fm-porto-alegre",
       "name": "92 FM Porto Alegre",
       "stream_url": "https://1592747t.ha.azioncdn.net/primary/92fm.sdp/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Logotipo_da_92_FM_%28Porto_Alegre%29.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -134,7 +134,7 @@
       "id": "radio.98-fm-belo-horizonte",
       "name": "98 FM Belo Horizonte",
       "stream_url": "https://9554.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/98_FM_BH_logo.svg/500px-98_FM_BH_logo.svg.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -302,7 +302,7 @@
       "id": "radio.antena-1-sorocaba",
       "name": "Antena 1 Sorocaba",
       "stream_url": "https://antenaone.crossradio.com.br/stream/1;",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -446,7 +446,7 @@
       "id": "radio.bandnews-fm-sao-paulo",
       "name": "BandNews FM São Paulo",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC.m3u8",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/BandNews_FM_logo_2019.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -1078,7 +1078,7 @@
       "id": "radio.energia-97-fm",
       "name": "Energia 97 FM",
       "stream_url": "https://streaming.inweb.com.br/energia",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -1518,7 +1518,7 @@
       "id": "radio.jbfm-99-9",
       "name": "JBFM 99.9",
       "stream_url": "https://26573.live.streamtheworld.com/JBFMAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/JB_FM_logo.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1750,7 +1750,7 @@
       "id": "radio.massa-fm-97-7",
       "name": "Massa FM 97.7",
       "stream_url": "https://stm01.virtualcast.com.br:8000/massasaopaulo",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1758,7 +1758,7 @@
       "id": "radio.massa-fm-99-7",
       "name": "Massa FM 99.7",
       "stream_url": "https://paineldj.com.br:20004/live",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1766,7 +1766,7 @@
       "id": "radio.massa-fm-101-1",
       "name": "Massa FM 101.1",
       "stream_url": "https://live.virtualcast.com.br/massapontagrossa",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2206,7 +2206,7 @@
       "id": "radio.novabrasil-fm-89-5",
       "name": "Novabrasil FM 89.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RIOAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2214,7 +2214,7 @@
       "id": "radio.novabrasil-fm-89-7",
       "name": "Novabrasil FM 89.7",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_SPAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2222,7 +2222,7 @@
       "id": "radio.novabrasil-fm-93-5",
       "name": "Novabrasil FM 93.5",
       "stream_url": "https://24273.live.streamtheworld.com/NOVABRASIL_ARACAJUAAC_SC",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2230,7 +2230,7 @@
       "id": "radio.novabrasil-fm-94-3",
       "name": "Novabrasil FM 94.3",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RECAAC_SC",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2238,7 +2238,7 @@
       "id": "radio.novabrasil-fm-97-5",
       "name": "Novabrasil FM 97.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_BSBAAC_SC",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2246,7 +2246,7 @@
       "id": "radio.novabrasil-fm-106-5",
       "name": "Novabrasil FM 106.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_FORAAC_SC",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2254,7 +2254,7 @@
       "id": "radio.novabrasil-fm-maceio",
       "name": "Novabrasil FM Maceió",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_MACAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2262,7 +2262,7 @@
       "id": "radio.novabrasil-fm-salvador",
       "name": "Novabrasil FM Salvador",
       "stream_url": "https://stream.zeno.fm/gkbgs81xvfztv",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": null,
       "source_id": "upstream-import"
     },
