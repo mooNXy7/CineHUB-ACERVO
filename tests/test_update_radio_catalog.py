@@ -155,6 +155,20 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertIsNone(matched)
         self.assertEqual(method, "ambiguous_stream")
 
+    def test_radio_browser_ambiguous_stream_can_use_one_exact_name_match(self):
+        radio = {"name": "Rádio A FM", "stream_url": "https://radio.example/live"}
+        exact = {
+            "stationuuid": "station-exact", "name": "Radio A FM",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+        }
+        other = {
+            "stationuuid": "station-other", "name": "Radio A Região",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, [exact, other])
+        self.assertEqual(matched, exact)
+        self.assertEqual(method, "exact_stream_name")
+
     def test_radio_browser_metadata_fills_only_missing_genre_and_logo(self):
         radios = [{
             "id": "radio.radio-a", "name": "Rádio A FM",

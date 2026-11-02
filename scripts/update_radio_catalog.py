@@ -409,6 +409,12 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
     if len(candidates) == 1:
         return next(iter(candidates.values())), "exact_stream"
     if len(candidates) > 1:
+        exact_name_candidates = [
+            station for station in candidates.values()
+            if normalize_station_name(str(station.get("name") or "")) == name_key
+        ]
+        if len(exact_name_candidates) == 1:
+            return exact_name_candidates[0], "exact_stream_name"
         return None, "ambiguous_stream"
 
     # Name-only fallback remains deliberately strict: one exact normalized
