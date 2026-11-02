@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply Brazil TV logos only from files listed by the authorized tv-logos GitHub API."""
+"""Apply logos from authorized Brazil and international tv-logos GitHub indexes."""
 from __future__ import annotations
 
 import argparse
@@ -54,8 +54,9 @@ def safe_logo_entry(item: Any) -> tuple[str, str] | None:
     except (TypeError, ValueError):
         return None
     parsed = urlsplit(url)
+    expected_prefix = f"/tv-logo/tv-logos/main/countries/{parts[1]}/"
     if (parsed.scheme != "https" or parsed.hostname != ALLOWED_HOST
-            or not parsed.path.startswith("/tv-logo/tv-logos/main/countries/brazil/")):
+            or not parsed.path.startswith(expected_prefix)):
         return None
     stem = Path(name).stem
     for suffix in ("-br", "-int", "-us", "-lam", "-lat"):
