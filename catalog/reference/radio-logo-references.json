@@ -24,6 +24,18 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png"
     },
     {
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "reference_name": "CBN Amazônia",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Amaz%C3%B4nia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Amaz%C3%B4nia_logo.png",
+      "license": "PD-textlogo"
+    },
+    {
       "reference_name": "CBN Belo Horizonte",
       "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
@@ -44,6 +56,12 @@
       "reference_name": "FM Dom Bosco",
       "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/FM_Dom_Bosco_logo_2019.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:FM_Dom_Bosco_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "reference_name": "Jangadeiro FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangadeiro_FM_logo_2023.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jangadeiro_FM_logo_2023.png",
       "license": "PD-textlogo"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:15:21.902Z",
+  "generated_at": "2026-11-02T07:17:45.006Z",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -614,7 +614,7 @@
       "id": "radio.cbn-amazonia-102-3",
       "name": "CBN Amazônia 102.3",
       "stream_url": "https://stream2.cbnamazonia.com.br/cbn-mao",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Amaz%C3%B4nia_logo.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -646,7 +646,7 @@
       "id": "radio.cbn-rio-de-janeiro-92-5",
       "name": "CBN Rio de Janeiro 92.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -654,7 +654,7 @@
       "id": "radio.cbn-rio-de-janeiro-92-5-fm",
       "name": "CBN Rio de Janeiro 92.5 FM",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJ_ADP.m3u8",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -662,7 +662,7 @@
       "id": "radio.cbn-salvador",
       "name": "CBN Salvador",
       "stream_url": "https://sv1.audiostream.com.br/radio/8030/stream",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -670,7 +670,7 @@
       "id": "radio.cbn-sao-paulo",
       "name": "CBN São Paulo",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC_SC",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -678,7 +678,7 @@
       "id": "radio.cbn-vale-90-7",
       "name": "CBN Vale 90.7",
       "stream_url": "https://8018.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -1510,7 +1510,7 @@
       "id": "radio.jangadeiro-fm-88-9",
       "name": "Jangadeiro FM 88.9",
       "stream_url": "https://stream-173.zeno.fm/xuh02vfzurhvv",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangadeiro_FM_logo_2023.png",
       "genre": null,
       "source_id": "upstream-import"
     },

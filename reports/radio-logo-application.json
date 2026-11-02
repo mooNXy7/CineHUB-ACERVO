@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "report_type": "reviewed_radio_logo_application",
-  "generated_at": "2026-11-02T07:15:21.902Z",
+  "generated_at": "2026-11-02T07:17:45.006Z",
   "source": "Wikimedia Commons",
   "counts": {
-    "reference_logos": 14,
-    "requested_station_matches": 34,
-    "logos_applied": 34,
+    "reference_logos": 17,
+    "requested_station_matches": 41,
+    "logos_applied": 41,
     "skipped": 0
   },
   "applied": [
@@ -263,6 +263,62 @@
       "reference_name": "Jovem Pan News",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jovem_Pan_News_logo_2022.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:Jovem_Pan_News_logo_2022.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-amazonia-102-3",
+      "radio_name": "CBN Amazônia 102.3",
+      "reference_name": "CBN Amazônia",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Amaz%C3%B4nia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Amaz%C3%B4nia_logo.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-rio-de-janeiro-92-5",
+      "radio_name": "CBN Rio de Janeiro 92.5",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-rio-de-janeiro-92-5-fm",
+      "radio_name": "CBN Rio de Janeiro 92.5 FM",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-salvador",
+      "radio_name": "CBN Salvador",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-sao-paulo",
+      "radio_name": "CBN São Paulo",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-vale-90-7",
+      "radio_name": "CBN Vale 90.7",
+      "reference_name": "CBN",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.jangadeiro-fm-88-9",
+      "radio_name": "Jangadeiro FM 88.9",
+      "reference_name": "Jangadeiro FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangadeiro_FM_logo_2023.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jangadeiro_FM_logo_2023.png",
       "license": "PD-textlogo"
     }
   ],
