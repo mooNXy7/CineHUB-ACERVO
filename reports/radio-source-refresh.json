@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": false,
+  "catalog_mutated": true,
   "active_sources": 2,
   "sources": [
     {
@@ -29,16 +29,16 @@
     ]
   },
   "radio_browser_metadata": {
-    "matched_by_stream": 404,
+    "matched_by_stream": 424,
     "matched_by_name": 87,
     "unmatched": 158,
-    "ambiguous": 104,
+    "ambiguous": 84,
     "genres_filled": 0,
     "genre_held_for_review": 0,
-    "logos_filled": 0,
-    "favicon_rejected": 32,
-    "homepage_favicon_filled": 0,
-    "genre_unclassified": 166,
+    "logos_filled": 1,
+    "favicon_rejected": 33,
+    "homepage_favicon_filled": 1,
+    "genre_unclassified": 172,
     "unclassified_tags": {
       "popular": 3,
       "samba pagode": 1,
@@ -59,7 +59,9 @@
       "torroes": 1,
       "mp3": 1
     },
-    "updated_radio_names": []
+    "updated_radio_names": [
+      "Kacopi Web Rádio"
+    ]
   },
   "genre_normalization": {
     "updated": 0
