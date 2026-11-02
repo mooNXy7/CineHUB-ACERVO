@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = "catalog/channels/channels.json"
-ALLOWED_PREFIX = "countries/brazil/"
+ALLOWED_COUNTRIES = {"brazil", "international", "united-states", "world-latin-america"}
 ALLOWED_HOST = "raw.githubusercontent.com"
 IMAGE_SUFFIXES = (".png", ".svg", ".webp", ".jpg", ".jpeg")
 QUALITY = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|1080p|720p|h265|hevc)\b", re.I)
@@ -44,7 +44,9 @@ def safe_logo_entry(item: Any) -> tuple[str, str] | None:
     path = str(item.get("path") or "")
     name = str(item.get("name") or Path(path).name)
     url = str(item.get("download_url") or "").strip()
-    if not path.startswith(ALLOWED_PREFIX) or not name.lower().endswith(IMAGE_SUFFIXES):
+    parts = path.split("/")
+    if (len(parts) < 3 or parts[0] != "countries" or parts[1] not in ALLOWED_COUNTRIES
+            or not name.lower().endswith(IMAGE_SUFFIXES)):
         return None
     try:
         if int(item.get("size") or 0) <= 0:
@@ -56,8 +58,10 @@ def safe_logo_entry(item: Any) -> tuple[str, str] | None:
             or not parsed.path.startswith("/tv-logo/tv-logos/main/countries/brazil/")):
         return None
     stem = Path(name).stem
-    if stem.lower().endswith("-br"):
-        stem = stem[:-3]
+    for suffix in ("-br", "-int", "-us", "-lam", "-lat"):
+        if stem.lower().endswith(suffix):
+            stem = stem[:-len(suffix)]
+            break
     key = match_key(stem.replace("-", " "))
     return (key, url) if key else None
 
