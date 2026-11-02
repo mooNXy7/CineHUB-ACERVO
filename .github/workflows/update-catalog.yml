@@ -21,6 +21,8 @@ on:
       - "scripts/normalize_catalog.py"
       - "scripts/apply_exact_channel_logo_suggestions.py"
       - "scripts/apply_reviewed_channel_logo_variants.py"
+      - "scripts/apply_tv_logos_brazil.py"
+      - "tests/test_apply_tv_logos_brazil.py"
       - "scripts/validate_catalog.py"
       - "scripts/audit_vod_metadata_windows.py"
       - "tests/test_audit_vod_metadata_windows.py"
@@ -250,6 +252,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Fetch official Brazil TV logo index and apply unique matches
+        run: |
+          curl --fail --silent --show-error --location \
+            https://api.github.com/repos/tv-logo/tv-logos/contents/countries/brazil \
+            --output "$RUNNER_TEMP/tv-logos-brazil.json"
+          python scripts/apply_tv_logos_brazil.py --logo-index-file "$RUNNER_TEMP/tv-logos-brazil.json"
       - name: Apply exact verified-name logo references to blank channel records
         run: python scripts/apply_exact_channel_logo_suggestions.py
       - name: Apply explicitly reviewed channel-name variants
