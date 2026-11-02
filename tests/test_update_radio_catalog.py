@@ -428,5 +428,20 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(parser.logo_images, ["/assets/radio-logo.png"])
 
 
+
+    def test_radio_browser_metadata_keeps_temporarily_unavailable_stations(self):
+        payload = [
+            {"countrycode": "BR", "lastcheckok": 0, "name": "Radio Offline",
+             "url": "https://offline.example/live", "tags": "sertanejo"},
+            {"countrycode": "BR", "lastcheckok": 1, "name": "Radio Online",
+             "url": "https://online.example/live", "tags": "rock"},
+            {"countrycode": "US", "lastcheckok": 1, "name": "Foreign Radio",
+             "url": "https://foreign.example/live", "tags": "jazz"},
+        ]
+        stations = update_radio_catalog.parse_radio_browser_payload(payload)
+        self.assertEqual([item["name"] for item in stations], ["Radio Offline", "Radio Online"])
+        self.assertEqual(stations[0]["lastcheckok"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -299,8 +299,8 @@ def parse_radio_browser_payload(payload: Any) -> list[dict[str, Any]]:
             continue
         if str(item.get("countrycode") or "").upper() != "BR":
             continue
-        if item.get("lastcheckok") not in (1, True, "1"):
-            continue
+        # Keep offline/temporarily unavailable stations for metadata only.
+        # Stream health is measured independently; this list never replaces stream_url.
         if not str(item.get("name") or "").strip():
             continue
         stations.append(item)
