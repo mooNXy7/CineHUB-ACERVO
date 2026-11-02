@@ -9,6 +9,7 @@ import re
 import time
 import unicodedata
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 import urllib.error
 from datetime import datetime, timezone
@@ -334,7 +335,7 @@ def probe_homepage_favicon(homepage: str) -> str | None:
     )
     opener = urllib.request.build_opener(SafeRedirectHandler())
     try:
-        with opener.open(request, timeout=6) as response:
+        with opener.open(request, timeout=3) as response:
             final_url = response.geturl()
             final_host = (urlsplit(final_url).hostname or "").lower()
             if not safe_https_url(final_url) or final_host != homepage_host:
@@ -423,8 +424,35 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
         "updated_radio_names": [],
     }
     unclassified_tags: Counter[str] = Counter()
+    matched: list[tuple[dict[str, Any], dict[str, Any] | None, str]] = []
+    stations_to_probe: dict[str, dict[str, Any]] = {}
+
+    # Resolve identities once, then probe official homepages concurrently. This
+    # keeps slow favicon hosts from serially blocking the full radio refresh.
     for radio in radios:
         station, method = match_radio_browser_station(radio, stations)
+        matched.append((radio, station, method))
+        if station and not str(radio.get("logo_url") or "").strip():
+            station_key = str(
+                station.get("stationuuid")
+                or station.get("url_resolved")
+                or station.get("url")
+                or station.get("name")
+            )
+            stations_to_probe.setdefault(station_key, station)
+
+    probe_items = list(stations_to_probe.items())
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        probe_results = list(executor.map(
+            safe_station_favicon,
+            [station for _, station in probe_items],
+        ))
+    favicon_by_station = {
+        station_key: favicon
+        for (station_key, _), favicon in zip(probe_items, probe_results)
+    }
+
+    for radio, station, method in matched:
         if not station:
             if method.startswith("ambiguous"):
                 counts["ambiguous"] += 1
@@ -451,7 +479,13 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
                         unclassified_tags[normalized_tag] += 1
 
         if not str(radio.get("logo_url") or "").strip():
-            favicon = safe_station_favicon(station)
+            station_key = str(
+                station.get("stationuuid")
+                or station.get("url_resolved")
+                or station.get("url")
+                or station.get("name")
+            )
+            favicon = favicon_by_station.get(station_key)
             if favicon:
                 radio["logo_url"] = favicon
                 counts["logos_filled"] += 1
@@ -465,7 +499,6 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             counts["updated_radio_names"].append(str(radio.get("name") or ""))
     counts["unclassified_tags"] = dict(unclassified_tags.most_common(50))
     return counts
-
 
 def merge_radio_records(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     result = [dict(item) for item in existing if isinstance(item, dict)]
