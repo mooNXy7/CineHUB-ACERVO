@@ -629,6 +629,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         raise RuntimeError("Nenhuma fonte de rádio segura válida; catálogo anterior preservado: " + "; ".join(failures))
 
     original_radios = [dict(item) for item in current["radios"] if isinstance(item, dict)]
+    catalog_before = [dict(item) for item in original_radios]
     genre_normalized = 0
     for radio in original_radios:
         existing_genre = radio.get("genre")
@@ -645,7 +646,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "genres_filled": 0, "logos_filled": 0, "favicon_rejected": 0,
         "genre_unclassified": 0, "unclassified_tags": {}, "updated_radio_names": [],
     }
-    catalog_mutated = merged != original_radios
+    catalog_mutated = merged != catalog_before
     if catalog_mutated:
         current["radios"] = merged
         current["generated_at"] = datetime.now(timezone.utc).isoformat()

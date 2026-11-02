@@ -54,7 +54,7 @@ class UpdateRadioCatalogTests(unittest.TestCase):
     def test_expanded_explicit_tags_cover_brazilian_radio_categories(self):
         self.assertEqual(update_radio_catalog.genre_from_tags("funk carioca, brasil"), "Funk")
         self.assertEqual(update_radio_catalog.genre_from_tags("louvor, worship"), "Gospel")
-        self.assertEqual(update_radio_catalog.genre_from_tags("news/talk, politics"), "Jornalismo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("news/talk, politics"), "Notícias")
         self.assertEqual(update_radio_catalog.genre_from_tags("indie pop"), "Indie")
 
     def test_radio_source_fetch_retries_transient_connection_resets(self):
@@ -178,7 +178,7 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(update_radio_catalog.genre_from_tags("futebol, live sports"), "Esportes")
         self.assertEqual(update_radio_catalog.genre_from_tags("jpop, anime"), "J-Pop")
         self.assertEqual(update_radio_catalog.genre_from_tags("flash back, anos80"), "Flashback")
-        self.assertEqual(update_radio_catalog.genre_from_tags("entrevistas, local news"), "Jornalismo")
+        self.assertEqual(update_radio_catalog.genre_from_tags("entrevistas, local news"), "Notícias")
         self.assertEqual(update_radio_catalog.genre_from_tags("pop dance"), "Pop")
         self.assertEqual(update_radio_catalog.genre_from_tags("brasil"), "Música Brasileira")
         self.assertEqual(update_radio_catalog.genre_from_tags("soft"), "Adulto Contemporâneo")
