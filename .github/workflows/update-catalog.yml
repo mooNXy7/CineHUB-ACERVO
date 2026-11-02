@@ -53,6 +53,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Sync branch head before catalog mutation
+        run: |
+          git fetch --no-tags origin "refs/heads/${GITHUB_REF_NAME}:refs/remotes/origin/${GITHUB_REF_NAME}"
+          git reset --hard "refs/remotes/origin/${GITHUB_REF_NAME}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
