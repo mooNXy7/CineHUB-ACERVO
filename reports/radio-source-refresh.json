@@ -35,15 +35,17 @@
     "unmatched": 148,
     "ambiguous": 80,
     "ambiguous_loose_name": 0,
-    "genres_filled": 7,
+    "genres_filled": 0,
     "genre_held_for_review": 0,
-    "logos_filled": 8,
+    "logos_filled": 0,
     "favicon_rejected": 22,
-    "homepage_favicon_filled": 1,
-    "homepage_metadata_checked": 103,
-    "homepage_genres_filled": 3,
-    "homepage_logos_filled": 7,
+    "homepage_favicon_filled": 0,
+    "homepage_metadata_checked": 97,
+    "homepage_genres_filled": 0,
+    "homepage_logos_filled": 0,
     "genre_unclassified": 156,
+    "alternative_sources_added": 79,
+    "alternative_sources_existing": 0,
     "unclassified_tags": {
       "popular": 3,
       "samba pagode": 1,
@@ -66,18 +68,7 @@
       "cooee": 1,
       "mp3": 1
     },
-    "updated_radio_names": [
-      "Atlântico Sul FM",
-      "Rádio Aquele Rock",
-      "Rádio Clube FM 98.3",
-      "Rádio Jaraguá FM 101.3",
-      "Rádio Mistura Certa",
-      "Rádio Musical FM 105.7",
-      "Rádio Portal da Tradição",
-      "Rádio Tupanci AM",
-      "TMC 100.1 FM",
-      "Vinha FM 91.9"
-    ]
+    "updated_radio_names": []
   },
   "genre_normalization": {
     "updated": 0

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T22:22:01.528118+00:00",
+  "generated_at": "2026-11-02T22:28:56.737309+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -120,7 +120,15 @@
       "stream_url": "https://streaming.ei3.com.br/radio/8000/mp3",
       "logo_url": "https://96fmbauru.com.br/wp-content/uploads/2020/06/logo96.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://streaming.ei3.com.br/radio/8000/mp3?cb=1708358237473",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.97-fm-natal",
@@ -160,7 +168,15 @@
       "stream_url": "https://stm41.stmsrv.com:16614/stream",
       "logo_url": "https://cdn.stmsrv.com/multi/16614/logo_r1dbkqc.png",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm41.stmsrv.com:16614/stream?type=http&nocache=1897905694",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.102-3-fm",
@@ -208,7 +224,15 @@
       "stream_url": "https://ice.fabricahost.com.br/107fm",
       "logo_url": "https://static.wixstatic.com/media/37804f_ed9032a0826e40efa33fefcbf9fb882b~mv2.png/v1/fill/w_141,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png",
       "genre": "MPB",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/107fm?f=1793569613N01M6CH8T3XNA9RKE597EQ241ZG&tid=01M6CH8T3XYX3EKVCTFSQY4CG4",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.a-sertaneja-106-7-fm",
@@ -376,7 +400,15 @@
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ATL_BLU.mp3",
       "logo_url": "https://atlantidasc.com.br/favicon.ico",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://26493.live.streamtheworld.com:443/ATL_BLU.mp3",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.atos-fm",
@@ -400,7 +432,15 @@
       "stream_url": "https://ice.fabricahost.com.br/bahiafmsul",
       "logo_url": "https://www.ibahia.com/themes/default/assets/img/favicon.png",
       "genre": "MPB",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/bahiafmsul?f=1793558651N01M6C6T8FQSQY01ZX2E5D7F5SP&tid=01M6C6T8FQQW8XGK5EPKH52KQM",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.band-fm-campinas-106-7",
@@ -648,7 +688,15 @@
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJAAC.aac",
       "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/CBN_logo.svg/960px-CBN_logo.svg.png",
       "genre": "Notícias",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJ_ADP.m3u8",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.cbn-rio-de-janeiro-92-5-fm",
@@ -800,7 +848,15 @@
       "stream_url": "https://servidor37-2.brlogic.com:8066/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/23914/cover/3c5997fe2d907398b689858e9686ac0d.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor37-2.brlogic.com:8066/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.clube-fm-96-5",
@@ -824,7 +880,15 @@
       "stream_url": "https://sc4s.cdn.upx.com:8069/stream",
       "logo_url": "https://assets.clubefm.com.br/uploads/site/og_image/1/logocompartilha.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://sc4s.cdn.upx.com:8069/stream%22%20data-turbolinks-permanent",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.clube-fm-brasilia",
@@ -1112,7 +1176,15 @@
       "stream_url": "https://ice.fabricahost.com.br/estereosom",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/estereosom?f=1793560886N01M6C8YF61HYEJ5PK8M8MJM8WN&tid=01M6C8YF61RZ4N5FTCRHCXBAAY",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.estilo-fm",
@@ -1176,7 +1248,15 @@
       "stream_url": "https://ice.fabricahost.com.br/fmvaleverde",
       "logo_url": null,
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/fmvaleverde?f=1793525243N01M6B6YQMZJY270JA8BQ2M2039&tid=01M6B6YQMZ113YK6NH1B5GGV23",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.freestyle-brasil",
@@ -1264,7 +1344,15 @@
       "stream_url": "https://ice.fabricahost.com.br/graunafm",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/graunafm?f=1793498650N01M6ADK65Z18WN8HKNBFR5B5BQ&tid=01M6ADK65ZCA3ZJ11BBABWQZGD",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.groovewave-lounge",
@@ -1472,7 +1560,15 @@
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ITA_FLO.mp3",
       "logo_url": null,
       "genre": "Clássica",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://27393.live.streamtheworld.com:443/ITA_FLO.mp3",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.itapema-fm-93-7",
@@ -1616,7 +1712,15 @@
       "stream_url": "https://ice.fabricahost.com.br/jpblumenau",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jovem_Pan_FM_logo_2022.png",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/jpblumenau?f=1793537054N01M6BJ75Q48PWWG1A5ZJWZ4PAH&tid=01M6BJ75Q4721FEAJXBVAGDT0J",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.jovem-pan-news",
@@ -1712,7 +1816,15 @@
       "stream_url": "https://stm37.stmsrv.com:30976/stream",
       "logo_url": "https://radiolitoral.fm.br/img/icon.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm37.stmsrv.com:30976/stream?type=http&nocache=83470439",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.litoral-sul-fm-95-9",
@@ -1768,7 +1880,15 @@
       "stream_url": "https://live.virtualcast.com.br/massapontagrossa",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Massa_FM_logo.svg/500px-Massa_FM_logo.svg.png",
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm01.virtualcast.com.br:8160/massapontagrossa",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.mega-fm-92-3",
@@ -1960,7 +2080,15 @@
       "stream_url": "https://paineldj6.com.br:20066/stream",
       "logo_url": "https://radiomirador.com.br/favicon.ico",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://paineldj6.com.br:20066/stream?1707585400268",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.mix-fm-juiz-de-fora-88-9",
@@ -2064,7 +2192,15 @@
       "stream_url": "https://s25.maxcast.com.br:8108/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio62729_1627756599.jpeg",
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s25.maxcast.com.br:8108/live?1771879594681",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.multihuman-entheomusic",
@@ -2128,7 +2264,15 @@
       "stream_url": "https://ice.fabricahost.com.br/musirama",
       "logo_url": "https://i.postimg.cc/MHW7KnTn/04008009698.png",
       "genre": "MPB",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f100.fabricahost.com.br/musirama?f=1793540065N01M6BN31R6MKXF1DD5J5NK77AJ&tid=01M6BN31R6AVSBM2GS169N0H0S",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.no-mundo-do-rock",
@@ -2176,7 +2320,15 @@
       "stream_url": "https://stm2.streamproarte.com.br:7358/stream",
       "logo_url": "https://novafmtapejara.com.br/favicon.ico",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm2.streamproarte.com.br:7358/stream/",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.nova-onda-fm-99-3",
@@ -2264,7 +2416,15 @@
       "stream_url": "https://stream.zeno.fm/gkbgs81xvfztv",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "genre": "MPB",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-177.surfernetwork.com/gkbgs81xvfztv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJna2JnczgxeHZmenR2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkU1OHFjajJKU0NPZGpROGRqV01ieHciLCJpYXQiOjE3OTM1NDE1NjUsImV4cCI6MTc5MzU0MTYyNX0.hMKdqR6sfBxDcEJTcS39UJhNGY_qqT5TaShBdqNyICc",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.novos-horizontes-fm-104-7",
@@ -2296,7 +2456,15 @@
       "stream_url": "https://ice.fabricahost.com.br/otimafm891",
       "logo_url": "https://otimafm.com.br/favicon.ico",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f100.fabricahost.com.br/otimafm891?f=1793502470N01M6AH7R8H61SMBE3A44YTR67M&tid=01M6AH7R8HH20TM6V2ETHD6271",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.otima-fm-90-3",
@@ -2376,7 +2544,15 @@
       "stream_url": "https://stream-159.zeno.fm/33vspum02t9vv",
       "logo_url": "https://img.radios.com.br/radio/lg/radio26768_1729224001.png",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-159.zeno.fm/33vspum02t9vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzM3ZzcHVtMDJ0OXZ2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ijc0YjU2cGhtUkRDSnlZbVNES0J1NlEiLCJpYXQiOjE3NzE5MzUxMDEsImV4cCI6MTc3MTkzNTE2MX0.GKwXmd0dg93XdTj8Q2ceMuAVLVdDuKZmSWtg48Jhlos&1771935100853",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.plus-fm-sobral-105-1",
@@ -2448,7 +2624,15 @@
       "stream_url": "https://stream-012.zeno.fm/3x2dtz84qzzuv",
       "logo_url": "https://www.radio100.com.br/favicon.ico",
       "genre": "Variedades",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-282.surfernetwork.com/3x2dtz84qzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzeDJkdHo4NHF6enV2IiwiaG9zdCI6InN0cmVhbS0yODIuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlBsaUJfOVFjUXQ2Z0Rya3FVSHJJNXciLCJpYXQiOjE3OTM1Mzk2OTEsImV4cCI6MTc5MzUzOTc1MX0.9cO4Jvpcd5XHvhTXdcsQTA7L9Xwc6MU_Gfk5kuGR9-I&803368.5984383549",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-100-fm-100-9",
@@ -2512,7 +2696,15 @@
       "stream_url": "https://servidor40-5.brlogic.com:8086/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/3701/logo/cb85946c363e933e2136276bf03efb42.jpg",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor40-5.brlogic.com:8086/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-alianca-fm",
@@ -2550,7 +2742,7 @@
           "url": "https://radioamc.com.br/stream/amcplus",
           "priority": 60,
           "source_id": "reference-catalog",
-          "status": "pending_validation"
+          "status": "functional"
         }
       ]
     },
@@ -2592,7 +2784,15 @@
       "stream_url": "https://stm25.srvaudio.com.br:11358/;",
       "logo_url": "https://www.wix.com/favicon.ico",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm1.stmsrv.com:8768/;",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-amigos-do-sertanejo",
@@ -2720,7 +2920,15 @@
       "stream_url": "https://s24.maxcast.com.br:8636/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio43819_1519927670.jpg",
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s24.maxcast.com.br:8636/live?1771864141808",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-bla-rock",
@@ -2808,7 +3016,15 @@
       "stream_url": "https://servidor34-3.brlogic.com:8164/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/1952/favicon/bb8a3d7a6f6907b67bfd0b31ab9f1ff0.png",
       "genre": "Regional",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor34-3.brlogic.com:8164/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-cancao-nova",
@@ -2888,7 +3104,15 @@
       "stream_url": "https://s05.maxcast.com.br:8012/live",
       "logo_url": "https://radiocavera.com/imagens/5b50661e095ae037eb352ee03582e483.png",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s05.maxcast.com.br:8012/live?id=692006007223",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-central-870-am",
@@ -3000,7 +3224,15 @@
       "stream_url": "https://stream.zeno.fm/casz1sl1ufivv",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-178.surfernetwork.com/casz1sl1ufivv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjYXN6MXNsMXVmaXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjJNeEN0WFVjUkhlMnJ1TUpKazN5U1EiLCJpYXQiOjE3OTM1NTM4NTYsImV4cCI6MTc5MzU1MzkxNn0.Wj5-0nilYleHjvu4vE1gym3EgpvJS-ZurjmPToH7vjc",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-cidade-verde-93-5-fm",
@@ -3072,7 +3304,15 @@
       "stream_url": "https://stream.zeno.fm/m3ytuubv0uhvv",
       "logo_url": "https://zeno.fm/favicon.ico",
       "genre": "Religiosa",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-178.surfernetwork.com/m3ytuubv0uhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtM3l0dXVidjB1aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Im5HbjhZc0RvUzhhdjh0U0JqVFZEbHciLCJpYXQiOjE3OTM1Mzg2MDksImV4cCI6MTc5MzUzODY2OX0.8mXqsSaZWbIuHmmdw-lE2P1dfgD6dvHMckNY6yJxQ80",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-cnn",
@@ -3120,7 +3360,15 @@
       "stream_url": "https://s18.hstbr.net:8010/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio24914_1439401618.jpg",
       "genre": "Esportes",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s18.maxcast.com.br:8010/live",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-coroados-1310-am",
@@ -3384,7 +3632,15 @@
       "stream_url": "https://s46.hstbr.net:8026/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio29801_1439401712.jpg",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s46.maxcast.com.br:8026/live?1771884575757",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-estadio",
@@ -3448,7 +3704,15 @@
       "stream_url": "https://servidor24-1.brlogic.com:7516/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/111279/mobileicon/d5b82a5ec287583c0d89eaa8726c323fx192.png",
       "genre": "Eletrônica",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor24-1.brlogic.com:7516/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-futebol-fm",
@@ -3456,7 +3720,15 @@
       "stream_url": "https://stm14.xcast.com.br:9116/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio89770_1736166164.png",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm14.xcast.com.br:9116/stream?1771935389390",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-futebol-interior",
@@ -3504,7 +3776,15 @@
       "stream_url": "https://s41.maxcast.com.br:8258/live",
       "logo_url": "https://radiogauderiadasmissoes.com/imagens/thumbs/06e22116c1e42e6a0f5390cc19b7536d.png",
       "genre": "Regional",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s41.maxcast.com.br:8258/live?id=319843422524",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-gazeta-linhares",
@@ -3544,7 +3824,15 @@
       "stream_url": "https://stm3.xcast.com.br:11480/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio42444_1589543490.jpg",
       "genre": "Romântica",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm3.xcast.com.br:11480/stream?1771880605743",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-grafith",
@@ -3552,7 +3840,15 @@
       "stream_url": "https://stream-152.zeno.fm/qxabz8qwfzzuv",
       "logo_url": "https://img.radios.com.br/radio/lg/radio204427_1661165152.png",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-177.surfernetwork.com/qxabz8qwfzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxeGFiejhxd2Z6enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ii1LdnlyWF9oVFJxSFk3c3ZIOWhhc2ciLCJpYXQiOjE3OTM1NDU3NDksImV4cCI6MTc5MzU0NTgwOX0.Uq8DMEj7OQhbuUSNdi-ZW411lH05mZqBSx7thdN2MeY",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-graviola",
@@ -3576,7 +3872,15 @@
       "stream_url": "https://grenal.audiostream.com.br:20000/mp3",
       "logo_url": "https://img.radios.com.br/radio/lg/radio14075_1506599378.png",
       "genre": "Notícias",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://grenal.audiostream.com.br:20000/aac?1771934582309",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-guajuvira",
@@ -3616,7 +3920,15 @@
       "stream_url": "https://servidor26-3.brlogic.com:8004/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/2608/featured/1a481265b4ffbdbf7104c77e82365e5f.jpg",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor26-3.brlogic.com:8004/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-impacto-web",
@@ -3624,7 +3936,15 @@
       "stream_url": "https://s19.maxcast.com.br:8746/live",
       "logo_url": "https://radioimpactoweb.com.br/imagens/feaab285c027d58febc6d3178f652580.png",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s19.maxcast.com.br:8746/live?id=981443262354",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-instrumental-gospel",
@@ -3728,7 +4048,15 @@
       "stream_url": "https://stream.zeno.fm/3hgez706e3quv",
       "logo_url": "https://img.radios.com.br/radio/lg/radio111501_1560523801.png",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream.zeno.fm/3hgez706e3quv?zs",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-joli-mpb",
@@ -3944,7 +4272,15 @@
       "stream_url": "https://stm19.srvstm.com:7080/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio269259_1752093044.png",
       "genre": "Gospel",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm19.srvstm.com:7080/stream?1771884971836",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-maravilha-fm",
@@ -4016,7 +4352,15 @@
       "stream_url": "https://26573.live.streamtheworld.com/MELODIAFMAAC.aac",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13848_1439401456.jpg",
       "genre": "Gospel",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://26573.live.streamtheworld.com/MELODIAFMAAC.aac?1771864900231",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-melodia-fm",
@@ -4032,7 +4376,15 @@
       "stream_url": "https://www.radioking.com/play/radio-metropole",
       "logo_url": "https://www.metro1.com.br/apple-icon-180x180.png",
       "genre": "Notícias",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://listen.radioking.com/radio/268642/stream/313975",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-metropole-101-3-fm",
@@ -4152,7 +4504,15 @@
       "stream_url": "https://servidor39-3.brlogic.com:8238/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/2394/favicon/cf142ec34caac98a91eee2060a98afcf.jpeg",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor39-3.brlogic.com:8238/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-nikey",
@@ -4160,7 +4520,15 @@
       "stream_url": "https://stm8.voxhd.com.br:7996/stream",
       "logo_url": "https://www.radionikkeyweb.com.br/public/18419-2023-12-27.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm8.voxhd.com.br:7996/stream%22",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-nordeste-fm",
@@ -4192,7 +4560,15 @@
       "stream_url": "https://virtues.live:8138/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio32447_1722586805.png",
       "genre": "Gospel",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://virtues.live:8138/stream?1771933686426",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-nova-instrumental",
@@ -4208,7 +4584,15 @@
       "stream_url": "https://servidor31-4.brlogic.com:8332/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/14233/favicon/19fe14d0fbfdb5cbad966097808a6d04.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor31-4.brlogic.com:8332/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-nova-onda-104-9-fm",
@@ -4352,7 +4736,15 @@
       "stream_url": "https://stm14.xcast.com.br:10110/;",
       "logo_url": "https://img.radios.com.br/radio/lg/radio36252_1586963115.jpg",
       "genre": "Gospel",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm14.xcast.com.br:10110/;?1771935594982",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-progresso-de-ijui",
@@ -4408,7 +4800,15 @@
       "stream_url": "https://stm35.srvstm.com:6806/;",
       "logo_url": "https://www.rapadurarockweb.com.br/admin/assets/img/logo.png",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm35.srvstm.com:6806/;?type=http&amp;nocache=1",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-rbn-digital",
@@ -4496,7 +4896,15 @@
       "stream_url": "https://stream-159.zeno.fm/bd9p0p44puquv",
       "logo_url": "https://pbs.twimg.com/media/ElF46QUXgAEtJk9?format=png&name=small",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-159.zeno.fm/bd9p0p44puquv?zs=V_zU2Gc-TXGWa_BXm42cMA",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-roquette-pinto-94-1-fm",
@@ -4512,7 +4920,15 @@
       "stream_url": "https://live9.livemus.com.br:27802/stream",
       "logo_url": "https://www.radios.com.br/aovivo/radio-rural-de-natal-919-fm/78700",
       "genre": "MPB",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://live9.livemus.com.br:27802/stream?1732977845423",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-sabia-92-1-fm",
@@ -4560,7 +4976,15 @@
       "stream_url": "https://stream.zeno.fm/6cvqc50b568uv",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-178.surfernetwork.com/6cvqc50b568uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2Y3ZxYzUwYjU2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InltYjIzQ1RMUmRPSmRxdjV3Z3BuOHciLCJpYXQiOjE3OTM1NzYwMDYsImV4cCI6MTc5MzU3NjA2Nn0.r2WkDWQ7ZDaQXtJX2G0N2vxg7QSvMh0Z9YL0mZY0xwE",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-senado",
@@ -4592,7 +5016,15 @@
       "stream_url": "https://stream03.dghost.com.br:8260/stream",
       "logo_url": "https://www.radioserranamix.com.br/public/24456-2024-06-25.png",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream03.dghost.com.br:8260/stream?1725121241607",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-sertaneja",
@@ -4608,7 +5040,15 @@
       "stream_url": "https://radiosertanejatop.stream.laut.fm/radiosertanejatop",
       "logo_url": "https://img.radios.com.br/radio/lg/radio25503_1725610340.jpg",
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://radiosertanejatop.stream.laut.fm/radiosertanejatop?1771935991274",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-shekinah-so-louvor",
@@ -4630,7 +5070,7 @@
           "url": "https://srv1.braudio.com.br:7008/stream",
           "priority": 60,
           "source_id": "reference-catalog",
-          "status": "pending_validation"
+          "status": "functional"
         }
       ]
     },
@@ -4656,7 +5096,15 @@
       "stream_url": "https://servidor22-3.brlogic.com:9670/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/108515/favicon/9eb7b5e02983c9e20ed0990db2e90f86.jpg",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor22-3.brlogic.com:9670/live?source=app_pwa",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-studio-bala",
@@ -4672,7 +5120,15 @@
       "stream_url": "https://stream-163.zeno.fm/6gv76f1xruquv",
       "logo_url": "https://pbs.twimg.com/media/GE7jNgZWQAEcxNb?format=png&name=240x240",
       "genre": "Flashback",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-163.zeno.fm/6gv76f1xruquv?zs=SvdWy-tsTtCXPZ9IZC0ASA",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-studio-souto-rap-nacional",
@@ -4712,7 +5168,15 @@
       "stream_url": "https://servidor32-2.brlogic.com:8200/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/3477/favicon/d65de0370c9deb1e7ae28fb3a721cb52.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor32-2.brlogic.com:8200/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-tapejara-101-5-fm",
@@ -4792,7 +5256,15 @@
       "stream_url": "https://stm2.aovivodigital.com.br:10642/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio275580_1761048505.jpg",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm2.aovivodigital.com.br:10642/stream?1771933020259",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-tradicao-catolica",
@@ -4832,7 +5304,15 @@
       "stream_url": "https://ice.fabricahost.com.br/radiotropicalvix",
       "logo_url": "https://radiotropicalvix.com.br/favicon.ico",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/radiotropicalvix?f=1793521877N01M6B3R0H3G0BPQTH1G4GJ0EXF&tid=01M6B3R0H3GGTZYN515EJHKDBB",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.radio-tupanci-am",
@@ -4848,7 +5328,15 @@
       "stream_url": "https://sonic1.transmissaodigital.com/8026/stream",
       "logo_url": null,
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://sonic1.transmissaodigital.com/8026/stream?1737234940690",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-ubatuba-surf",
@@ -4856,7 +5344,15 @@
       "stream_url": "https://servidor18-2.brlogic.com:7544/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/167299/cover/0525548e624d96ad59fd36bb73ca4d1a.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor18-2.brlogic.com:7544/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-uenf-87-1-fm",
@@ -4912,7 +5408,15 @@
       "stream_url": "https://servidor38-2.brlogic.com:8134/live",
       "logo_url": "https://www.upf.br/_uploads/de96ed99-0829-412c-b2ca-7d214255ef6b.png",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor38-2.brlogic.com:8134/live?source=app_pwa",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-usp-93-7-fm",
@@ -4984,7 +5488,15 @@
       "stream_url": "https://servidor24-1.brlogic.com:7096/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/244925/mobileicon/b7bd804a12ac4ca5abbca6c78f220b92x192.png",
       "genre": "Clássica",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor24-1.brlogic.com:7096/live?source=",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-voz-do-povo-104-9-fm",
@@ -5024,7 +5536,15 @@
       "stream_url": "https://s37.maxcast.com.br:8042/live",
       "logo_url": "https://img.radios.com.br/radio/lg/radio24351_1439401613.jpg",
       "genre": "Flashback",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://s37.maxcast.com.br:8042/live?1771880828083",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-web-luna-87-9-fm",
@@ -5032,7 +5552,15 @@
       "stream_url": "https://stream.zeno.fm/1qxe7gsah0hvv",
       "logo_url": "https://zeno.fm/favicon.ico",
       "genre": "Eclética",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-178.surfernetwork.com/1qxe7gsah0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIxcXhlN2dzYWgwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlBjRXVQWXZUVEdLTW9pMFZwSGg2TEEiLCJpYXQiOjE3OTM1Mzk2ODMsImV4cCI6MTc5MzUzOTc0M30.MGqlfhLXjZ0thCAJYFl4SPoeLFEOT5onHbdPXFRbuGw",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.radio-web-nas-ondas-do-saber",
@@ -5152,7 +5680,15 @@
       "stream_url": "https://player.transmissaodigital.com/proxy/7434",
       "logo_url": "https://rcfm.com.br/img/favicon.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://player.transmissaodigital.com/proxy/7434/",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.rede-3-16",
@@ -5216,7 +5752,15 @@
       "stream_url": "https://s19.maxcast.com.br:8182/live",
       "logo_url": "https://static.wixstatic.com/media/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/1cf649_94d7175b59cc43d4ba0c0c9b9a025dac%7emv2.png",
       "genre": "Rock",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://player.maxcast.com.br/rocknateia/itunes.pls",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.rock-no-pinheiro",
@@ -5472,7 +6016,15 @@
       "stream_url": "https://servidor36.brlogic.com:8300/live",
       "logo_url": null,
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor36.brlogic.com:8300/live?1696916321806",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.sucesso-fm-91-9",
@@ -5512,7 +6064,15 @@
       "stream_url": "https://servidor39-2.brlogic.com:7006/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/247571/logo/678415afe6081abf2f5c881f6ad9cd2d.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor39-2.brlogic.com:7006/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "temporarily_unavailable"
+        }
+      ]
     },
     {
       "id": "radio.super-mix-gospel",
@@ -5576,7 +6136,15 @@
       "stream_url": "https://ice.fabricahost.com.br/ternurafm",
       "logo_url": null,
       "genre": "Notícias",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f108.fabricahost.com.br/ternurafm?f=1793537540N01M6BJP0W0GBVDJWPCE7X7HPJ0&tid=01M6BJP0W0TVJ92TARAGR57REN",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.terra-fm-94-7",
@@ -5584,7 +6152,15 @@
       "stream_url": "https://ice.fabricahost.com.br/terrafm94",
       "logo_url": "https://terrafm94.com.br/wp-content/themes/terrafm/favicon.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f100.fabricahost.com.br/terrafm94?f=1793552394N01M6C0VA8VHHN9M7FM9C2TWSS4&tid=01M6C0VA8VY8PSH3NCYC0GYS6A",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.terra-fm-98-5",
@@ -5744,7 +6320,15 @@
       "stream_url": "https://s26.maxcast.com.br:8280/live",
       "logo_url": null,
       "genre": "Regional",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://player.hstbr.net/universidadefm/winamp.pls",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.universitaria-fm-102-1",
@@ -5792,7 +6376,15 @@
       "stream_url": "https://ice.fabricahost.com.br/valeverdefm",
       "logo_url": "https://valeverdefm.com.br/img/b1477f6674fb80a945ea178ecb46e51c.png",
       "genre": "Pop",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://f100.fabricahost.com.br/valeverdefm?f=1793491112N01M6A6D4YVZC4G33E7FNARNDCT&tid=01M6A6D4YV0W6W1TPENCPEPE68",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.vatos-millo-hr",
@@ -5944,7 +6536,15 @@
       "stream_url": "https://stm1.hoststreaming.com.br:7088/;",
       "logo_url": null,
       "genre": "Gospel",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://player.hoststreaming.com.br/player/7088/winamp.pls",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "unverified"
+        }
+      ]
     },
     {
       "id": "radio.web-radio-fraternidade",
@@ -5952,7 +6552,15 @@
       "stream_url": "https://paineldj5.com.br:2100/stream",
       "logo_url": "https://www.radiofraternidade.com.br/imagens/mascote.png",
       "genre": "Religiosa",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://paineldj5.com.br:2100/stream?type=.mp3",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.web-radio-ijui",
@@ -5984,7 +6592,15 @@
       "stream_url": "https://stm16.voxhd.com.br:8852/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio198185_1648563107.png",
       "genre": "Sertanejo",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.web-radio-rama",
@@ -6008,7 +6624,15 @@
       "stream_url": "https://servidor37-1.brlogic.com:8068/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/1945/favicon/0490911fa0a9dcb9c6d091f5befa7809.png",
       "genre": null,
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://servidor37-1.brlogic.com:8068/live?source=website",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.web-vintage-radio",
@@ -6032,7 +6656,15 @@
       "stream_url": "https://stream-169.zeno.fm/0anygxe1b1duv",
       "logo_url": null,
       "genre": "Instrumental",
-      "source_id": "upstream-import"
+      "source_id": "upstream-import",
+      "sources": [
+        {
+          "url": "https://stream-169.zeno.fm/0anygxe1b1duv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwYW55Z3hlMWIxZHV2IiwiaG9zdCI6InN0cmVhbS0xNjkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InZMNHZGcFJuU0YtWjFsSlV1WEtFdkEiLCJpYXQiOjE",
+          "priority": 50,
+          "source_id": "radio-browser-exact-match",
+          "status": "functional"
+        }
+      ]
     },
     {
       "id": "radio.ztop",
