@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only, audio-aware health checks for CineHUB radio stream URLs."""
+"""Audio-aware health checks and safe fallback promotion for CineHUB radio sources."""
 from __future__ import annotations
 import argparse, json, socket, ssl
 from concurrent.futures import ThreadPoolExecutor
@@ -111,31 +111,209 @@ def probe_radio(radio: dict[str, Any], timeout: float = 8.0) -> dict[str, Any]:
     return result
 
 
+
+def apply_alternative_probe_results(
+    radios: list[dict[str, Any]],
+    primary_results: list[dict[str, Any]],
+    alternative_results: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], bool]:
+    """Update alternative health and promote only verified audio after definitive primary failure."""
+    by_id = {str(radio.get("id") or ""): radio for radio in radios}
+    primary_by_id = {str(result.get("id") or ""): dict(result) for result in primary_results}
+    alternatives_by_id: dict[str, list[dict[str, Any]]] = {}
+    mutated = False
+
+    for result in alternative_results:
+        radio_id = str(result.get("id") or "")
+        radio = by_id.get(radio_id)
+        source_index = result.get("source_index")
+        sources = radio.get("sources") if radio else None
+        if not isinstance(sources, list) or not isinstance(source_index, int):
+            continue
+        if source_index < 0 or source_index >= len(sources):
+            continue
+        source = sources[source_index]
+        if not isinstance(source, dict):
+            continue
+        if source.get("status") != result.get("status"):
+            source["status"] = result.get("status")
+            mutated = True
+        alternatives_by_id.setdefault(radio_id, []).append(result)
+
+    promotions: list[dict[str, Any]] = []
+    promotable_primary_statuses = {
+        "permanently_unavailable", "non_audio", "invalid_url",
+    }
+    for radio_id, radio in by_id.items():
+        primary = primary_by_id.get(radio_id)
+        if not primary or primary.get("status") not in promotable_primary_statuses:
+            continue
+        sources = radio.get("sources")
+        if not isinstance(sources, list) or not sources:
+            continue
+        functional_alternatives = [
+            item for item in alternatives_by_id.get(radio_id, [])
+            if item.get("status") == "functional" and item.get("url")
+        ]
+        if not functional_alternatives:
+            continue
+        functional_alternatives.sort(
+            key=lambda item: int(item.get("priority") or 0), reverse=True
+        )
+        chosen = functional_alternatives[0]
+        new_url = str(chosen["url"])
+        old_url = str(radio.get("stream_url") or "")
+        if not new_url or new_url == old_url:
+            continue
+
+        old_status = str(primary.get("status") or "unverified")
+        old_source_id = str(radio.get("source_id") or "previous-primary")
+        previous_entry = next(
+            (item for item in sources if isinstance(item, dict) and str(item.get("url") or "") == old_url),
+            None,
+        )
+        if previous_entry:
+            previous_entry["status"] = old_status
+        elif old_url:
+            sources.append({
+                "url": old_url,
+                "priority": 10,
+                "source_id": old_source_id,
+                "status": old_status,
+            })
+
+        radio["sources"] = [
+            item for item in sources
+            if not (
+                isinstance(item, dict)
+                and str(item.get("url") or "") == new_url
+            )
+        ]
+        radio["stream_url"] = new_url
+        promoted_source_id = str(chosen.get("source_id") or "validated-alternative")
+        radio["source_id"] = promoted_source_id
+        promotions.append({
+            "radio_id": radio_id,
+            "radio_name": str(radio.get("name") or ""),
+            "previous_primary_status": old_status,
+            "new_source_id": promoted_source_id,
+            "new_primary_host": str(chosen.get("host") or ""),
+        })
+        primary_by_id[radio_id] = {
+            "id": radio_id,
+            "name": str(radio.get("name") or ""),
+            "status": "functional",
+            "detail": str(chosen.get("detail") or "verified_alternative_audio"),
+            "http_status": chosen.get("http_status"),
+            "content_type": chosen.get("content_type"),
+            "host": str(chosen.get("host") or ""),
+            "recovered_from": old_status,
+            "recovered_source_id": promoted_source_id,
+        }
+        mutated = True
+
+    final_primary_results = [
+        primary_by_id.get(str(result.get("id") or ""), result)
+        for result in primary_results
+    ]
+    return final_primary_results, promotions, mutated
+
+
+def probe_alternative_source(
+    radio: dict[str, Any], source: dict[str, Any], source_index: int, timeout: float
+) -> dict[str, Any]:
+    result = probe_radio({
+        "id": str(radio.get("id") or ""),
+        "name": str(radio.get("name") or ""),
+        "stream_url": str(source.get("url") or ""),
+    }, timeout)
+    result.update(
+        source_id=str(source.get("source_id") or "alternative"),
+        priority=int(source.get("priority") or 0),
+        source_index=source_index,
+        url=str(source.get("url") or ""),
+    )
+    return result
+
+
 def build_report(root: Path = ROOT, timeout: float = 8.0, workers: int = 16) -> dict[str, Any]:
     document = json.loads((root / "catalog/radios/radios.json").read_text(encoding="utf-8"))
     radios = [item for item in document.get("radios", []) if isinstance(item, dict)]
     with ThreadPoolExecutor(max_workers=max(1, workers)) as executor:
-        results = list(executor.map(lambda item: probe_radio(item, timeout), radios))
-    statuses = (
+        primary_results = list(executor.map(lambda item: probe_radio(item, timeout), radios))
+
+    alternative_tasks = [
+        (radio, index, source)
+        for radio in radios
+        for index, source in enumerate(radio.get("sources", []) if isinstance(radio.get("sources"), list) else [])
+        if isinstance(source, dict) and source.get("url")
+    ]
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as executor:
+        alternative_results = list(executor.map(
+            lambda task: probe_alternative_source(task[0], task[2], task[1], timeout),
+            alternative_tasks,
+        ))
+
+    primary_statuses = (
         "functional", "temporarily_unavailable", "permanently_unavailable",
         "non_audio", "unverified", "invalid_url",
     )
-    counts = {status: sum(item["status"] == status for item in results) for status in statuses}
+    pre_promotion_counts = {
+        status: sum(item["status"] == status for item in primary_results)
+        for status in primary_statuses
+    }
+    results, promotions, catalog_mutated = apply_alternative_probe_results(
+        radios, primary_results, alternative_results
+    )
+    counts = {
+        status: sum(item["status"] == status for item in results)
+        for status in primary_statuses
+    }
+    alternative_counts = {
+        status: sum(item["status"] == status for item in alternative_results)
+        for status in primary_statuses
+    }
+
+    if catalog_mutated:
+        document["radios"] = radios
+        (root / "catalog/radios/radios.json").write_text(
+            json.dumps(document, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    public_alternative_results = [
+        {
+            "radio_id": item["id"],
+            "radio_name": item["name"],
+            "source_id": item["source_id"],
+            "priority": item["priority"],
+            "status": item["status"],
+            "detail": item["detail"],
+            "http_status": item["http_status"],
+            "content_type": item["content_type"],
+            "host": item["host"],
+        }
+        for item in alternative_results
+    ]
     return {
         "schema_version": 1,
         "report_type": "radio_stream_audio_probe",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "read_only": True,
-        "catalog_mutated": False,
+        "catalog_mutated": catalog_mutated,
         "total_radios": len(radios),
         "counts": counts,
-        "method": "HTTPS GET with bounded Range read; validates audio MIME, known audio signatures or HLS playlist markers; HTTP success alone is not accepted.",
+        "pre_promotion_counts": pre_promotion_counts,
+        "alternative_sources_tested": len(alternative_results),
+        "alternative_source_counts": alternative_counts,
+        "promotions": promotions,
+        "method": "HTTPS GET with bounded Range read; validates audio MIME, known audio signatures or HLS playlist markers; promotes an alternative only when it is audio-verified and the primary is permanently unavailable, invalid or non-audio.",
         "limitations": [
             "A successful probe confirms an audio-like response or HLS playlist at probe time, not uninterrupted playback or every codec/device combination.",
-            "Temporary network failures are not treated as permanent station failures and never remove catalog records.",
-            "Only hostnames are recorded; stream query strings and credentials are not copied into the report.",
+            "Temporary network failures and unverified responses never trigger primary replacement; all catalog records are preserved.",
+            "Only hostnames are recorded in reports; stream query strings and credentials are not copied into the report.",
         ],
         "results": results,
+        "alternative_results": public_alternative_results,
     }
 
 
@@ -154,6 +332,9 @@ def main() -> int:
         "output": str(output),
         "total_radios": report["total_radios"],
         "counts": report["counts"],
+        "alternative_sources_tested": report["alternative_sources_tested"],
+        "promotions": len(report["promotions"]),
+        "catalog_mutated": report["catalog_mutated"],
     }, ensure_ascii=False))
     return 0
 

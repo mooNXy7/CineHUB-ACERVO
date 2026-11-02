@@ -485,5 +485,49 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(method, "ambiguous_loose_name")
 
 
+
+    def test_radio_browser_exact_match_adds_only_safe_pending_alternative(self):
+        radio = {
+            "id": "radio.test", "name": "Radio Test",
+            "stream_url": "https://old.example/live", "genre": "Rock",
+            "logo_url": "https://old.example/logo.png", "sources": [],
+        }
+        station = {
+            "stationuuid": "station-test", "name": "Radio Test",
+            "url": "http://new.example/live", "url_resolved": "https://new.example/live",
+            "lastcheckok": 1, "tags": "rock",
+        }
+        counts = update_radio_catalog.apply_radio_browser_metadata([radio], [station])
+        self.assertEqual(radio["sources"], [{
+            "url": "https://new.example/live", "priority": 50,
+            "source_id": "radio-browser-exact-match", "status": "pending_validation",
+        }])
+        self.assertEqual(counts["alternative_sources_added"], 1)
+
+    def test_radio_browser_does_not_add_alternatives_for_offline_or_loose_matches(self):
+        radio = {
+            "id": "radio.test", "name": "Rádio Cidade Jundiaí FM",
+            "stream_url": "https://old.example/live", "genre": "Rock",
+            "logo_url": "https://old.example/logo.png",
+        }
+        offline = {
+            "stationuuid": "offline", "name": "Radio Cidade Jundiai",
+            "url": "https://new.example/live", "lastcheckok": 0,
+        }
+        loose_radio = {
+            "id": "radio.test", "name": "Rádio Cidade Jundiaí FM",
+            "stream_url": "https://old.example/live", "genre": "Rock",
+            "logo_url": "https://old.example/logo.png",
+        }
+        loose_station = {
+            "stationuuid": "loose", "name": "Cidade Jundiai",
+            "url": "https://new.example/live", "lastcheckok": 1,
+        }
+        update_radio_catalog.apply_radio_browser_metadata([radio], [offline])
+        update_radio_catalog.apply_radio_browser_metadata([loose_radio], [loose_station])
+        self.assertFalse(radio.get("sources"))
+        self.assertFalse(loose_radio.get("sources"))
+
+
 if __name__ == "__main__":
     unittest.main()

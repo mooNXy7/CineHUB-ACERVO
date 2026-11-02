@@ -675,6 +675,50 @@ def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, 
     return None, "unmatched"
 
 
+
+def add_radio_browser_alternative(
+    radio: dict[str, Any], station: dict[str, Any], method: str
+) -> str:
+    """Store only HTTPS alternatives from healthy, exact-identity Radio Browser matches."""
+    if method not in {"exact_stream", "exact_stream_name", "exact_name"}:
+        return "ignored"
+    if station.get("lastcheckok") not in (1, True, "1"):
+        return "ignored"
+    candidate = next(
+        (
+            str(value).strip()
+            for value in (station.get("url_resolved"), station.get("url"))
+            if safe_https_url(str(value or "").strip())
+        ),
+        "",
+    )
+    if not candidate:
+        return "ignored"
+    current = normalize_stream_url(str(radio.get("stream_url") or ""))
+    if normalize_stream_url(candidate) == current:
+        return "ignored"
+    sources = radio.get("sources")
+    if sources is None:
+        sources = []
+    if not isinstance(sources, list):
+        return "ignored"
+    candidate_key = normalize_stream_url(candidate)
+    if any(
+        isinstance(item, dict)
+        and normalize_stream_url(str(item.get("url") or "")) == candidate_key
+        for item in sources
+    ):
+        return "existing"
+    sources.append({
+        "url": candidate,
+        "priority": 50,
+        "source_id": "radio-browser-exact-match",
+        "status": "pending_validation",
+    })
+    radio["sources"] = sources
+    return "added"
+
+
 def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[dict[str, Any]], genre_review_hold_ids: set[str] | None = None) -> dict[str, Any]:
     genre_review_hold_ids = genre_review_hold_ids or set()
     counts = {
@@ -682,6 +726,7 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
         "unmatched": 0, "ambiguous": 0, "ambiguous_loose_name": 0, "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0,
         "favicon_rejected": 0, "homepage_favicon_filled": 0, "homepage_metadata_checked": 0,
         "homepage_genres_filled": 0, "homepage_logos_filled": 0, "genre_unclassified": 0,
+        "alternative_sources_added": 0, "alternative_sources_existing": 0,
         "unclassified_tags": {},
         "updated_radio_names": [],
     }
@@ -735,6 +780,12 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             counts["matched_by_name"] += 1
         if "loose_name" in method:
             counts["matched_by_loose_name"] += 1
+
+        alternative_result = add_radio_browser_alternative(radio, station, method)
+        if alternative_result == "added":
+            counts["alternative_sources_added"] += 1
+        elif alternative_result == "existing":
+            counts["alternative_sources_existing"] += 1
 
         changed = False
         station_key = str(
