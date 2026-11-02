@@ -291,6 +291,7 @@ def parse_radio_source(text: str, source_id: str) -> tuple[list[dict[str, Any]],
 
 
 def parse_radio_browser_payload(payload: Any) -> list[dict[str, Any]]:
+    """Keep unavailable BR stations for metadata; stream health is probed separately."""
     if not isinstance(payload, list):
         raise ValueError("Radio Browser API response must be a JSON array")
     stations = []

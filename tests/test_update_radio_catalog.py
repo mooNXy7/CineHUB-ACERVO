@@ -112,8 +112,9 @@ class UpdateRadioCatalogTests(unittest.TestCase):
             "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1,
         }]
         with patch.object(
-            update_radio_catalog, "probe_homepage_favicon",
-            return_value="https://radio.example/favicon.ico",
+            update_radio_catalog, "fetch_station_homepage_metadata",
+            return_value={"logo_url": "https://radio.example/favicon.ico",
+                          "logo_source": "homepage_favicon"},
         ):
             counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
         self.assertEqual(radios[0]["logo_url"], "https://radio.example/favicon.ico")
@@ -180,7 +181,12 @@ class UpdateRadioCatalogTests(unittest.TestCase):
             "homepage": "https://radio.example", "favicon": "https://radio.example/logo.png",
             "tags": "sertanejo,brazil", "countrycode": "BR", "lastcheckok": 1,
         }]
-        counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        with patch.object(
+            update_radio_catalog, "fetch_station_homepage_metadata",
+            return_value={"logo_url": "https://radio.example/logo.png",
+                          "logo_source": "radio_browser_favicon"},
+        ):
+            counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
         self.assertEqual(radios[0]["genre"], "Sertanejo")
         self.assertEqual(radios[0]["logo_url"], "https://radio.example/logo.png")
         self.assertEqual(counts["genres_filled"], 1)
@@ -242,7 +248,7 @@ class UpdateRadioCatalogTests(unittest.TestCase):
                  "url": "https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/vod/radios.txt"},
                 {"id": "radio-browser-br-metadata", "category": "radio", "format": "radio-browser-json",
                  "enabled": True, "priority": 20,
-                 "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/BR?hidebroken=true&limit=10000&order=name"},
+                 "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/BR?hidebroken=false&limit=10000&order=name"},
             ]}), encoding="utf-8")
             (root / "catalog/radios/radios.json").write_text(json.dumps({
                 "schema_version": 1,
@@ -264,7 +270,11 @@ class UpdateRadioCatalogTests(unittest.TestCase):
                     return json.dumps([station])
                 raise OSError("authorized stream reference temporarily unavailable")
 
-            with patch.object(update_radio_catalog, "fetch", side_effect=fake_fetch):
+            with patch.object(update_radio_catalog, "fetch", side_effect=fake_fetch), patch.object(
+                update_radio_catalog, "fetch_station_homepage_metadata",
+                return_value={"logo_url": "https://radio.example/logo.png",
+                              "logo_source": "radio_browser_favicon"},
+            ):
                 report = update_radio_catalog.update(root)
 
             saved = json.loads((root / "catalog/radios/radios.json").read_text(encoding="utf-8"))
