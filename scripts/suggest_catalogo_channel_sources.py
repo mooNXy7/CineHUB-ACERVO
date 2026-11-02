@@ -141,7 +141,11 @@ def build_report(channels_path: Path, reference_file: Path, output: Path) -> dic
             continue
         counts["matched_channels_without_streams"] += 1
         safe_sources = []
+        seen_source_urls = set()
         for source in block["sources"]:
+            if source["url"] in seen_source_urls:
+                continue
+            seen_source_urls.add(source["url"])
             ok, reason = safe_reference_stream(source["url"])
             if not ok:
                 counts["rejected_urls"] += 1
