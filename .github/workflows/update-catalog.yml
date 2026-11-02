@@ -25,6 +25,8 @@ on:
       - "tests/test_apply_tv_logos_brazil.py"
       - "scripts/apply_saimoplayer_catalog_logos.py"
       - "tests/test_apply_saimoplayer_catalog_logos.py"
+      - "scripts/apply_saimoplayer_m3u_logos.py"
+      - "tests/test_apply_saimoplayer_m3u_logos.py"
       - "scripts/validate_catalog.py"
       - "scripts/audit_vod_metadata_windows.py"
       - "tests/test_audit_vod_metadata_windows.py"
@@ -254,6 +256,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Fetch SaimoPlayer M3U logo metadata only
+        run: |
+          curl --fail --silent --show-error --location --retry 2 --max-time 180 \
+            https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/1.m3u \
+            --output "$RUNNER_TEMP/saimoplayer-1.m3u"
+          python scripts/apply_saimoplayer_m3u_logos.py --m3u-file "$RUNNER_TEMP/saimoplayer-1.m3u"
       - name: Fetch authorized SaimoPlayer channel logo catalog
         run: |
           curl --fail --silent --show-error --location \
