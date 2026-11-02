@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:23:48Z",
+  "generated_at": "2026-11-02T20:26:03Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -3815,7 +3815,7 @@
       "id": "br.n-sports-jogo-1",
       "name": "N Sports (Jogo 1)",
       "group": "Esportes",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": null,
       "sources": [],
       "stream_status": "pending_validation",
@@ -12022,7 +12022,7 @@
       "id": "ch-caze-tv-fhd",
       "name": "Caze TV FHD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -42514,7 +42514,7 @@
       "id": "ch-caze-tv-2-fhd",
       "name": "Caze TV 2 FHD",
       "group": "Canais | PPV",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -43876,7 +43876,7 @@
       "id": "ch-caze-tv-1-hd",
       "name": "Caze TV 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -43892,7 +43892,7 @@
       "id": "ch-caze-tv-2-hd",
       "name": "Caze TV 2 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -43908,7 +43908,7 @@
       "id": "ch-caze-tv-3-hd",
       "name": "Caze TV 3 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -43924,7 +43924,7 @@
       "id": "ch-caze-tv-4-hd",
       "name": "Caze TV 4 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
       "epg_id": null,
       "sources": [
         {
@@ -47057,7 +47057,7 @@
       "id": "ch-nsports-2-hd",
       "name": "NSports 2 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": null,
       "sources": [
         {
@@ -47073,7 +47073,7 @@
       "id": "ch-nsports-3-hd",
       "name": "NSports 3 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
       "epg_id": null,
       "sources": [
         {
