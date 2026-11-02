@@ -322,5 +322,61 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(counts["ambiguous_matches"], 1)
 
 
+
+    def test_homepage_metadata_extracts_only_one_explicit_genre(self):
+        metadata = {
+            "keywords": "sertanejo, música ao vivo",
+            "title": "Rádio do Interior",
+            "description": "A programação da emissora.",
+        }
+        self.assertEqual(update_radio_catalog.genre_from_homepage_metadata(metadata), "Sertanejo")
+        self.assertIsNone(update_radio_catalog.genre_from_homepage_metadata({
+            "keywords": "sertanejo, rock",
+            "title": "Rádio do Interior",
+            "description": "Música para todos.",
+        }))
+        self.assertIsNone(update_radio_catalog.genre_from_homepage_metadata({
+            "keywords": "brazil, online, music",
+            "title": "Rádio Brasil",
+            "description": "A melhor rádio.",
+        }))
+
+    def test_station_name_genre_requires_one_explicit_category(self):
+        self.assertEqual(update_radio_catalog.genre_from_station_name("BandNews FM"), "Notícias")
+        self.assertEqual(update_radio_catalog.genre_from_station_name("Rádio Sertanejo 98"), "Sertanejo")
+        self.assertIsNone(update_radio_catalog.genre_from_station_name("Alpha FM"))
+        self.assertIsNone(update_radio_catalog.genre_from_station_name("Bossa Jazz Brasil"))
+
+    def test_homepage_metadata_enrichment_fills_missing_fields_without_overwriting(self):
+        radios = [
+            {"id": "radio.radio-a", "name": "Radio A", "stream_url": "https://radio.example/live",
+             "genre": None, "logo_url": None},
+            {"id": "radio.radio-b", "name": "Radio B", "stream_url": "https://radio.example/b",
+             "genre": "Jazz", "logo_url": "https://existing.example/logo.png"},
+        ]
+        stations = [
+            {"stationuuid": "station-a", "name": "Radio A", "url": "https://radio.example/live",
+             "url_resolved": "https://radio.example/live", "homepage": "https://radio.example",
+             "tags": "online,music", "countrycode": "BR", "lastcheckok": 1},
+            {"stationuuid": "station-b", "name": "Radio B", "url": "https://radio.example/b",
+             "url_resolved": "https://radio.example/b", "homepage": "https://radio.example",
+             "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1},
+        ]
+        def fake_metadata(homepage):
+            return {"genre": "Sertanejo", "logo_url": "https://cdn.example/radio-a.png"} if homepage else {}
+        with patch.object(update_radio_catalog, "fetch_station_homepage_metadata", side_effect=fake_metadata):
+            counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        self.assertEqual(radios[0]["genre"], "Sertanejo")
+        self.assertEqual(radios[0]["logo_url"], "https://cdn.example/radio-a.png")
+        self.assertEqual(radios[1]["genre"], "Jazz")
+        self.assertEqual(radios[1]["logo_url"], "https://existing.example/logo.png")
+        self.assertEqual(counts["homepage_genres_filled"], 1)
+        self.assertEqual(counts["homepage_logos_filled"], 1)
+
+    def test_homepage_image_probe_rejects_non_image_and_unsafe_urls(self):
+        self.assertIsNone(update_radio_catalog.verify_station_image("http://radio.example/logo.png"))
+        self.assertIsNone(update_radio_catalog.verify_station_image("https://user:pass@radio.example/logo.png"))
+
+
 if __name__ == "__main__":
     unittest.main()

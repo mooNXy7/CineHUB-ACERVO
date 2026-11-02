@@ -15,7 +15,8 @@ import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urljoin, urlsplit, urlunsplit
+from html.parser import HTMLParser
 
 try:
     from .update_catalog import ROOT, fetch, safe_https_url, safe_source_url, atomic_write_json, normalize_key, SafeRedirectHandler
@@ -368,6 +369,191 @@ def probe_homepage_favicon(homepage: str) -> str | None:
         return None
 
 
+
+class RadioHomepageParser(HTMLParser):
+    """Extract only public descriptive metadata and image references from a station homepage."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.title_parts: list[str] = []
+        self.in_title = False
+        self.meta: dict[str, str] = {}
+        self.images: list[str] = []
+        self.base_href: str | None = None
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = {str(k).lower(): str(v or "").strip() for k, v in attrs}
+        if tag.lower() == "title":
+            self.in_title = True
+        elif tag.lower() == "base" and values.get("href") and not self.base_href:
+            self.base_href = values["href"]
+        elif tag.lower() == "meta":
+            key = (values.get("property") or values.get("name") or "").lower()
+            if key in {"description", "keywords", "og:title", "og:description", "og:image",
+                       "twitter:title", "twitter:description", "twitter:image"} and values.get("content"):
+                self.meta[key] = values["content"]
+        elif tag.lower() == "link":
+            rel = set(values.get("rel", "").lower().split())
+            href = values.get("href")
+            if href and rel.intersection({"icon", "shortcut", "apple-touch-icon", "mask-icon"}):
+                self.images.append(href)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "title":
+            self.in_title = False
+
+    def handle_data(self, data: str) -> None:
+        if self.in_title and data.strip():
+            self.title_parts.append(data.strip())
+
+
+def verify_station_image(url: str) -> str | None:
+    """Accept a referenced image only after a small HTTPS image-response probe."""
+    if not safe_source_url(url):
+        return None
+    try:
+        original_host = (urlsplit(url).hostname or "").lower()
+        request = urllib.request.Request(
+            url,
+            headers={"User-Agent": "CineHUB-ACERVO/0.2 (+radio metadata)", "Accept": "image/*"},
+        )
+        opener = urllib.request.build_opener(SafeRedirectHandler())
+        with opener.open(request, timeout=4) as response:
+            final_url = response.geturl()
+            final_host = (urlsplit(final_url).hostname or "").lower()
+            if not safe_source_url(final_url) or final_host != original_host:
+                return None
+            if not 200 <= int(getattr(response, "status", 200)) < 300:
+                return None
+            content_type = str(response.headers.get("Content-Type", "")).split(";", 1)[0].lower()
+            if not content_type.startswith("image/"):
+                return None
+            sample = response.read(2048)
+            if not sample or sample.lstrip().lower().startswith((b"<!doctype html", b"<html")):
+                return None
+            image_signature = (
+                sample.startswith(b"\x00\x00\x01\x00")
+                or sample.startswith(b"\x89PNG")
+                or sample.startswith(b"\xff\xd8")
+                or sample.startswith((b"GIF87a", b"GIF89a"))
+                or (sample.startswith(b"RIFF") and b"WEBP" in sample[:16])
+                or b"<svg" in sample[:512].lower()
+            )
+            return url if image_signature else None
+    except (OSError, ValueError, urllib.error.URLError):
+        return None
+
+
+def genre_from_homepage_metadata(metadata: dict[str, Any]) -> str | None:
+    """Use a homepage classification only when it names exactly one recognizable genre."""
+    candidates: set[str] = set()
+    keywords = str(metadata.get("keywords") or "")
+    for part in re.split(r"[,;|/]+", keywords):
+        genre = genre_from_tags([part])
+        if genre and normalize_key(part) not in {"brazil", "brazilian", "brasil"}:
+            candidates.add(genre)
+
+    text = " ".join(
+        str(metadata.get(key) or "")
+        for key in ("title", "description", "og_title", "og_description")
+    )
+    normalized = re.sub(r"[^a-z0-9]+", " ", normalize_key(text)).strip()
+    # Broad country/language tags are intentionally excluded: they do not prove a genre.
+    excluded = {"brazil", "brazilian", "brasil", "brazilian music", "music", "radio"}
+    for alias, genre in GENRE_ALIASES.items():
+        if alias in excluded or len(alias) < 3:
+            continue
+        phrase = re.sub(r"[^a-z0-9]+", " ", normalize_key(alias)).strip()
+        if phrase and re.search(rf"(?<![a-z0-9]){re.escape(phrase)}(?![a-z0-9])", normalized):
+            candidates.add(genre)
+    return canonical_genre(next(iter(candidates))) if len(candidates) == 1 else None
+
+
+@lru_cache(maxsize=512)
+def fetch_station_homepage_metadata(homepage: str) -> dict[str, Any]:
+    """Read public HTML metadata from the station's own HTTPS homepage; never follow unsafe redirects."""
+    if not safe_source_url(homepage):
+        return {}
+    homepage_host = (urlsplit(homepage).hostname or "").lower()
+    if not homepage_host:
+        return {}
+    request = urllib.request.Request(
+        homepage,
+        headers={"User-Agent": "CineHUB-ACERVO/0.2 (+radio metadata)", "Accept": "text/html"},
+    )
+    opener = urllib.request.build_opener(SafeRedirectHandler())
+    try:
+        with opener.open(request, timeout=4) as response:
+            final_url = response.geturl()
+            final_host = (urlsplit(final_url).hostname or "").lower()
+            content_type = str(response.headers.get("Content-Type", "")).lower()
+            if not safe_source_url(final_url) or final_host != homepage_host:
+                return {}
+            if not content_type.startswith("text/html") and "application/xhtml+xml" not in content_type:
+                return {}
+            body = response.read(512 * 1024 + 1)
+            if len(body) > 512 * 1024:
+                body = body[:512 * 1024]
+        parser = RadioHomepageParser()
+        parser.feed(body.decode("utf-8", errors="replace"))
+        base_url = final_url
+        if parser.base_href:
+            candidate_base = urljoin(final_url, parser.base_href)
+            if safe_source_url(candidate_base) and (urlsplit(candidate_base).hostname or "").lower() == homepage_host:
+                base_url = candidate_base
+        title = " ".join(parser.title_parts).strip()
+        description = parser.meta.get("description", "")
+        keywords = parser.meta.get("keywords", "")
+        og_title = parser.meta.get("og:title", parser.meta.get("twitter:title", ""))
+        og_description = parser.meta.get("og:description", parser.meta.get("twitter:description", ""))
+        image_candidates = [
+            parser.meta.get("og:image", ""),
+            parser.meta.get("twitter:image", ""),
+            *parser.images,
+        ]
+        logo_url = None
+        for candidate in image_candidates:
+            resolved = urljoin(base_url, candidate) if candidate else ""
+            if safe_source_url(resolved):
+                logo_url = verify_station_image(resolved)
+                if logo_url:
+                    break
+        metadata = {
+            "title": title,
+            "description": description,
+            "keywords": keywords,
+            "og_title": og_title,
+            "og_description": og_description,
+            "logo_url": logo_url,
+        }
+        metadata["genre"] = genre_from_homepage_metadata(metadata)
+        return metadata
+    except (OSError, ValueError, urllib.error.URLError):
+        return {}
+
+
+def genre_from_station_name(name: str) -> str | None:
+    """Infer a genre only from an explicit, unambiguous genre term in the station's own name."""
+    normalized = re.sub(r"[^a-z0-9]+", " ", normalize_key(name)).strip()
+    explicit = {
+        "alternative rock": "Rock Alternativo", "classic rock": "Rock",
+        "rock": "Rock", "sertanejo": "Sertanejo", "sertaneja": "Sertanejo",
+        "gospel": "Gospel", "news": "Notícias", "noticias": "Notícias",
+        "jornalismo": "Notícias", "sports": "Esportes", "esportes": "Esportes",
+        "jazz": "Jazz", "blues": "Blues", "classical": "Clássica",
+        "classica": "Clássica", "flashback": "Flashback", "nostalgia": "Flashback",
+        "oldies": "Flashback", "reggae": "Reggae", "samba": "Samba",
+        "pagode": "Pagode", "forro": "Forró", "funk": "Funk", "hip hop": "Hip-Hop",
+        "rap": "Rap", "country": "Country", "eletronica": "Eletrônica",
+        "electronic": "Eletrônica", "dance": "Eletrônica",
+    }
+    found: set[str] = set()
+    for phrase, genre in explicit.items():
+        if re.search(rf"(?<![a-z0-9]){re.escape(phrase)}(?![a-z0-9])", normalized):
+            found.add(genre)
+    return canonical_genre(next(iter(found))) if len(found) == 1 else None
+
+
 def safe_station_favicon(station: dict[str, Any]) -> str | None:
     favicon = str(station.get("favicon") or "").strip()
     homepage = str(station.get("homepage") or "").strip()
@@ -433,7 +619,8 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     counts = {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0,
         "ambiguous": 0, "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0,
-        "favicon_rejected": 0, "homepage_favicon_filled": 0, "genre_unclassified": 0,
+        "favicon_rejected": 0, "homepage_favicon_filled": 0, "homepage_metadata_checked": 0,
+        "homepage_genres_filled": 0, "homepage_logos_filled": 0, "genre_unclassified": 0,
         "unclassified_tags": {},
         "updated_radio_names": [],
     }
@@ -446,7 +633,10 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     for radio in radios:
         station, method = match_radio_browser_station(radio, stations)
         matched.append((radio, station, method))
-        if station and not str(radio.get("logo_url") or "").strip():
+        if station and (
+            not str(radio.get("logo_url") or "").strip()
+            or not str(radio.get("genre") or "").strip()
+        ):
             station_key = str(
                 station.get("stationuuid")
                 or station.get("url_resolved")
@@ -458,12 +648,12 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     probe_items = list(stations_to_probe.items())
     with ThreadPoolExecutor(max_workers=8) as executor:
         probe_results = list(executor.map(
-            safe_station_favicon,
+            lambda station: fetch_station_homepage_metadata(str(station.get("homepage") or "")),
             [station for _, station in probe_items],
         ))
-    favicon_by_station = {
-        station_key: favicon
-        for (station_key, _), favicon in zip(probe_items, probe_results)
+    homepage_metadata_by_station = {
+        station_key: metadata
+        for (station_key, _), metadata in zip(probe_items, probe_results)
     }
 
     for radio, station, method in matched:
@@ -479,14 +669,28 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             counts["matched_by_name"] += 1
 
         changed = False
+        station_key = str(
+            station.get("stationuuid")
+            or station.get("url_resolved")
+            or station.get("url")
+            or station.get("name")
+        )
+        homepage_metadata = homepage_metadata_by_station.get(station_key, {})
+        if homepage_metadata:
+            counts["homepage_metadata_checked"] += 1
+
         if not str(radio.get("genre") or "").strip():
             if str(radio.get("id") or "") in genre_review_hold_ids:
                 counts["genre_held_for_review"] += 1
             else:
                 genre = genre_from_tags(station.get("tags"))
+                if not genre:
+                    genre = homepage_metadata.get("genre") or genre_from_station_name(str(radio.get("name") or ""))
                 if genre:
-                    radio["genre"] = genre
+                    radio["genre"] = canonical_genre(genre)
                     counts["genres_filled"] += 1
+                    if homepage_metadata.get("genre") == genre:
+                        counts["homepage_genres_filled"] += 1
                     changed = True
                 else:
                     counts["genre_unclassified"] += 1
@@ -496,17 +700,15 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
                             unclassified_tags[normalized_tag] += 1
 
         if not str(radio.get("logo_url") or "").strip():
-            station_key = str(
-                station.get("stationuuid")
-                or station.get("url_resolved")
-                or station.get("url")
-                or station.get("name")
-            )
-            favicon = favicon_by_station.get(station_key)
-            if favicon:
-                radio["logo_url"] = favicon
+            logo = homepage_metadata.get("logo_url")
+            if not logo:
+                logo = safe_station_favicon(station)
+            if logo:
+                radio["logo_url"] = logo
                 counts["logos_filled"] += 1
-                if favicon != str(station.get("favicon") or "").strip():
+                if homepage_metadata.get("logo_url") == logo:
+                    counts["homepage_logos_filled"] += 1
+                elif logo != str(station.get("favicon") or "").strip():
                     counts["homepage_favicon_filled"] += 1
                 changed = True
             elif station.get("favicon"):
@@ -701,9 +903,6 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     manual_decision_counts = apply_reviewed_genre_decisions(
         original_radios, manual_document.get("decisions", [])
     )
-    manual_decision_counts = apply_reviewed_genre_decisions(
-        original_radios, manual_document.get("decisions", [])
-    )
     genre_review_hold_ids = set()
     for hold in manual_document.get("hold_for_review", []):
         if not isinstance(hold, dict) or not hold.get("radio_id") or not hold.get("radio_name") or not hold.get("reason"):
@@ -723,6 +922,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     metadata_counts = apply_radio_browser_metadata(merged, radio_browser_stations, genre_review_hold_ids) if radio_browser_stations else {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0, "ambiguous": 0,
         "genres_filled": 0, "genre_held_for_review": 0, "logos_filled": 0, "favicon_rejected": 0,
+        "homepage_metadata_checked": 0, "homepage_genres_filled": 0, "homepage_logos_filled": 0,
         "genre_unclassified": 0, "unclassified_tags": {}, "updated_radio_names": [],
     }
     catalog_mutated = merged != catalog_before
