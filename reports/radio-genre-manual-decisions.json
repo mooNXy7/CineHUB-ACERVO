@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-01",
+  "reviewed_on": "2026-11-02",
   "decisions": [
     {
       "radio_id": "radio.radio-ziggy-blues-rock",
@@ -61,6 +61,229 @@
           "source": "Jovem Pan — lançamento da News FM",
           "url": "https://jovempan.com.br/noticias/grupo-jovem-pan-lanca-nova-radio-fm-com-maior-abrangencia-e-faixa-estendida/",
           "reported_genre": "News, public service, sports and entertainment"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-5",
+      "radio_name": "Novabrasil FM 89.5",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-89-7",
+      "radio_name": "Novabrasil FM 89.7",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-93-5",
+      "radio_name": "Novabrasil FM 93.5",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-94-3",
+      "radio_name": "Novabrasil FM 94.3",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-97-5",
+      "radio_name": "Novabrasil FM 97.5",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-106-5",
+      "radio_name": "Novabrasil FM 106.5",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-maceio",
+      "radio_name": "Novabrasil FM Maceió",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.novabrasil-fm-salvador",
+      "radio_name": "Novabrasil FM Salvador",
+      "assigned_genre": "MPB",
+      "decision": "manual_verified",
+      "rationale": "A página oficial da emissora afirma que a MPB é o alicerce da programação; a classificação é aplicada às afiliadas identificadas pela marca Novabrasil.",
+      "evidence": [
+        {
+          "source": "Novabrasil — Sobre",
+          "url": "https://novabrasilfm.com.br/sobre",
+          "reported_genre": "MPB"
+        },
+        {
+          "source": "Novabrasil — site oficial",
+          "url": "https://novabrasilfm.com.br/",
+          "reported_genre": "O próprio site identifica a marca como canal de MPB e brasilidade"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.hunter-fm-80s",
+      "radio_name": "Hunter FM 80s",
+      "assigned_genre": "Flashback",
+      "decision": "manual_verified",
+      "rationale": "O canal oficial é dedicado aos sucessos dos anos 80 e se apresenta explicitamente como rádio de flashbacks; a categoria CineHUB equivalente é Flashback.",
+      "evidence": [
+        {
+          "source": "Hunter.FM — O Canal 80",
+          "url": "https://hunter.fm/80s/",
+          "reported_genre": "Anos 80, pop, rock, new wave e synthpop; canal dedicado à década"
+        },
+        {
+          "source": "Rádios.com.br — Hunter FM 80s",
+          "url": "https://www.radios.com.br/aovivo/hunter-fm-80s/91345",
+          "reported_genre": "Flashback Anos 80"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.radio-futebol-interior",
+      "radio_name": "Rádio Futebol Interior",
+      "assigned_genre": "Esportes",
+      "decision": "manual_verified",
+      "rationale": "A programação é centrada em futebol e a classificação de diretório independente identifica os gêneros Esportes/Futebol.",
+      "evidence": [
+        {
+          "source": "Frequência Brasil — Rádio Futebol Interior",
+          "url": "https://www.frequenciabrasil.com.br/radio/radio-futebol-interior/",
+          "reported_genre": "Esportes, Futebol"
+        },
+        {
+          "source": "Futebol Interior — Rádio",
+          "url": "https://www.futebolinterior.com.br/radio/",
+          "reported_genre": "Página oficial da rádio"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.radio-pampa",
+      "radio_name": "Rádio Pampa",
+      "assigned_genre": "Notícias",
+      "decision": "manual_verified",
+      "rationale": "A grade oficial diária é predominantemente jornalística, com Show de Notícias, Debate Show e Pampa News em faixas recorrentes.",
+      "evidence": [
+        {
+          "source": "Rede Pampa — Rádio Pampa FM",
+          "url": "https://www.pampa.com.br/radios/radio-pampa-fm/",
+          "reported_genre": "Show de Notícias, Debate Show e Pampa News"
+        },
+        {
+          "source": "Rádio Pampa — Programação",
+          "url": "https://www.radiopampa.com.br/programacao/",
+          "reported_genre": "Programação jornalística recorrente"
+        }
+      ]
+    },
+    {
+      "radio_id": "radio.radio-regional-net",
+      "radio_name": "Rádio Regional Net",
+      "assigned_genre": "Regional",
+      "decision": "manual_verified",
+      "rationale": "A programação oficial destaca música sul-rio-grandense, cultura regional e folclore, correspondendo diretamente à categoria Regional.",
+      "evidence": [
+        {
+          "source": "Rádio Regional Net — site oficial",
+          "url": "https://www.radioregional.net/",
+          "reported_genre": "Música sul-rio-grandense, programação regional e folclore"
         }
       ]
     }

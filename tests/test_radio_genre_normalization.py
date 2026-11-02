@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from scripts.update_radio_catalog import canonical_genre, genre_from_tags, update
+from scripts.update_radio_catalog import apply_reviewed_genre_decisions, canonical_genre, genre_from_tags, update
 
 
 class RadioGenreNormalizationTests(unittest.TestCase):
@@ -47,6 +47,30 @@ class RadioGenreNormalizationTests(unittest.TestCase):
         self.assertEqual(saved["logo_url"], original["radios"][0]["logo_url"])
         self.assertEqual(saved["custom_metadata"], {"keep": True})
         self.assertEqual(report["genre_normalization"]["updated"], 1)
+
+    def test_reviewed_genre_decisions_require_exact_identity_and_preserve_existing_genres(self):
+        radios = [
+            {"id": "r1", "name": "Nova FM", "genre": None},
+            {"id": "r2", "name": "News FM", "genre": "Notícias"},
+            {"id": "r3", "name": "Different Name", "genre": None},
+        ]
+        evidence = [{"source": "Official station page", "url": "https://example.org/about", "reported_genre": "MPB"}]
+        decisions = [
+            {"radio_id": "r1", "radio_name": "Nova FM", "assigned_genre": "MPB", "decision": "manual_verified", "evidence": evidence},
+            {"radio_id": "r2", "radio_name": "News FM", "assigned_genre": "Rock", "decision": "manual_verified", "evidence": evidence},
+            {"radio_id": "r3", "radio_name": "Wrong Name", "assigned_genre": "Jazz", "decision": "manual_verified", "evidence": evidence},
+            {"radio_id": "missing", "radio_name": "Missing FM", "assigned_genre": "Jazz", "decision": "manual_verified", "evidence": evidence},
+            {"radio_id": "r1", "radio_name": "Nova FM", "assigned_genre": "Rock", "decision": "guess", "evidence": evidence},
+        ]
+        counts = apply_reviewed_genre_decisions(radios, decisions)
+        self.assertEqual(radios[0]["genre"], "MPB")
+        self.assertEqual(radios[1]["genre"], "Notícias")
+        self.assertIsNone(radios[2]["genre"])
+        self.assertEqual(counts["applied"], 1)
+        self.assertEqual(counts["already_classified"], 1)
+        self.assertEqual(counts["identity_mismatch"], 1)
+        self.assertEqual(counts["missing_radio"], 1)
+        self.assertEqual(counts["invalid_decision"], 1)
 
 
 if __name__ == "__main__":

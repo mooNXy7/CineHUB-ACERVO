@@ -584,6 +584,54 @@ def canonical_genre(value: Any) -> str:
     return GENRE_CANONICAL_ALIASES.get(key, original)
 
 
+def apply_reviewed_genre_decisions(
+    radios: list[dict[str, Any]], decisions: list[dict[str, Any]]
+) -> dict[str, Any]:
+    """Apply only evidence-backed decisions with exact stable-ID and name matches."""
+    by_id = {str(radio.get("id") or ""): radio for radio in radios if radio.get("id")}
+    counts = {
+        "applied": 0,
+        "already_classified": 0,
+        "missing_radio": 0,
+        "identity_mismatch": 0,
+        "invalid_decision": 0,
+        "applied_radio_names": [],
+    }
+    for decision in decisions:
+        if not isinstance(decision, dict):
+            counts["invalid_decision"] += 1
+            continue
+        evidence = decision.get("evidence")
+        if (
+            decision.get("decision") != "manual_verified"
+            or not isinstance(evidence, list)
+            or not any(
+                isinstance(item, dict) and item.get("source") and item.get("url")
+                for item in evidence
+            )
+            or not decision.get("radio_id")
+            or not decision.get("radio_name")
+            or not decision.get("assigned_genre")
+        ):
+            counts["invalid_decision"] += 1
+            continue
+        target = by_id.get(str(decision["radio_id"]))
+        if not target:
+            counts["missing_radio"] += 1
+            continue
+        if str(target.get("name") or "").strip() != str(decision["radio_name"]).strip():
+            counts["identity_mismatch"] += 1
+            continue
+        if str(target.get("genre") or "").strip():
+            counts["already_classified"] += 1
+            continue
+        target["genre"] = canonical_genre(decision["assigned_genre"])
+        counts["applied"] += 1
+        if len(counts["applied_radio_names"]) < 100:
+            counts["applied_radio_names"].append(str(target.get("name") or ""))
+    return counts
+
+
 def update(root: Path = ROOT) -> dict[str, Any]:
     sources_path = root / "sources/sources.json"
     out_path = root / "catalog/radios/radios.json"
@@ -638,6 +686,11 @@ def update(root: Path = ROOT) -> dict[str, Any]:
             if normalized_genre != existing_genre:
                 radio["genre"] = normalized_genre
                 genre_normalized += 1
+    manual_path = root / "reports/radio-genre-manual-decisions.json"
+    manual_document = json.loads(manual_path.read_text(encoding="utf-8")) if manual_path.exists() else {}
+    manual_decision_counts = apply_reviewed_genre_decisions(
+        original_radios, manual_document.get("decisions", [])
+    )
     # Always clone before applying metadata so a Radio Browser-only fallback is
     # still detected as a catalog mutation when the stream-reference fetch fails.
     merged, merge_counts = merge_radio_records(original_radios, collected)
@@ -661,6 +714,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "merge": merge_counts,
         "radio_browser_metadata": metadata_counts,
         "genre_normalization": {"updated": genre_normalized},
+        "manual_genre_decisions": manual_decision_counts,
         "failures": failures,
         "safety": [
             "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",
@@ -669,6 +723,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
             "Only HTTPS favicons hosted on the station homepage domain fill missing logos; existing logos are never overwritten.",
             "Streams, IDs, playback settings, headers, credentials, and DRM are never replaced or imported from Radio Browser.",
             "Ambiguous station matches and untrusted favicon hosts are skipped for review.",
+            "Manual genres are applied only from reviewed evidence with exact radio ID and exact name; existing genres are never overwritten.",
         ],
     }
     report_path = root / "reports/radio-source-refresh.json"
