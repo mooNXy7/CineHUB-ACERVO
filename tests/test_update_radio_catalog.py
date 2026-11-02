@@ -39,13 +39,13 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(records, [])
         self.assertEqual(counts["ambiguous_names"], 1)
 
-    def test_radio_browser_payload_keeps_only_working_brazilian_stations(self):
+    def test_radio_browser_payload_keeps_all_brazilian_stations_for_metadata(self):
         stations = update_radio_catalog.parse_radio_browser_payload([
             {"name": "Radio A", "countrycode": "BR", "lastcheckok": 1},
             {"name": "Radio B", "countrycode": "US", "lastcheckok": 1},
             {"name": "Radio C", "countrycode": "BR", "lastcheckok": 0},
         ])
-        self.assertEqual([x["name"] for x in stations], ["Radio A"])
+        self.assertEqual([x["name"] for x in stations], ["Radio A", "Radio C"])
 
     def test_genre_tags_map_only_recognized_categories(self):
         self.assertEqual(update_radio_catalog.genre_from_tags("brazil, sertanejo, portuguese"), "Sertanejo")
