@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:00:47.052692+00:00",
+  "generated_at": "2026-11-02T20:23:36.060958+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -62,7 +62,7 @@
       "id": "radio.93-fm-alagoinhas",
       "name": "93 FM Alagoinhas",
       "stream_url": "https://cast.radiu.live:9346/stream",
-      "logo_url": null,
+      "logo_url": "https://www.radios.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -262,7 +262,7 @@
       "id": "radio.alpha-fm-90-1",
       "name": "Alpha FM 90.1",
       "stream_url": "https://radio901.webnimbus.cloud/radioalpha/icecast.audio",
-      "logo_url": null,
+      "logo_url": "https://radioalphacuritiba.com.br/favicon.ico",
       "genre": "Adulto Contemporâneo",
       "source_id": "upstream-import"
     },
@@ -342,7 +342,7 @@
       "id": "radio.atlantida-fm-94-3",
       "name": "Atlântida FM 94.3",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RBS_RADIOSAAC.m3u8",
-      "logo_url": null,
+      "logo_url": "https://atl.clicrbs.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -374,7 +374,7 @@
       "id": "radio.atlantida-fm-blumenau",
       "name": "Atlântida FM Blumenau",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ATL_BLU.mp3",
-      "logo_url": null,
+      "logo_url": "https://atlantidasc.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -510,7 +510,7 @@
       "id": "radio.boa-fm-94-1",
       "name": "Boa FM 94.1",
       "stream_url": "https://cast.radiu.live:9304/stream",
-      "logo_url": null,
+      "logo_url": "https://www.instagram.com/favicon.ico",
       "genre": "Eclética",
       "source_id": "upstream-import"
     },
@@ -870,7 +870,7 @@
       "id": "radio.conda-fm-98-9",
       "name": "Condá FM 98.9",
       "stream_url": "https://stm10.virtualcast.com.br:8292/conda",
-      "logo_url": null,
+      "logo_url": "https://condafm.clicrdc.com.br/favicon.ico",
       "genre": "Esportes",
       "source_id": "upstream-import"
     },
@@ -926,7 +926,7 @@
       "id": "radio.cultura-fm-100-9",
       "name": "Cultura FM 100.9",
       "stream_url": "https://ssl1.transmissaodigital.com:20028/live",
-      "logo_url": null,
+      "logo_url": "https://www.google.com/favicon.ico",
       "genre": "Clássica/Instrumental",
       "source_id": "upstream-import"
     },
@@ -1278,7 +1278,7 @@
       "id": "radio.guaruja-fm-104-5",
       "name": "Guarujá FM 104.5",
       "stream_url": "https://01.megadinamica.com:7166/stream",
-      "logo_url": null,
+      "logo_url": "https://www.guarujafm.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1526,7 +1526,7 @@
       "id": "radio.joinville-cultural-fm-105-1",
       "name": "Joinville Cultural FM 105.1",
       "stream_url": "https://cast.youngtech.radio.br/listen/fundacaoculturaljlle/radio",
-      "logo_url": null,
+      "logo_url": "https://www.joinville.sc.gov.br/favicon.ico",
       "genre": "Jornalismo",
       "source_id": "upstream-import"
     },
@@ -1646,7 +1646,7 @@
       "id": "radio.kboing-fm-100-3",
       "name": "Kboing FM 100.3",
       "stream_url": "https://stream.knbcdn.com.br/kboing-fm/kbostream/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://www.kboingfm.com.br/favicon.ico",
       "genre": "Pop/Rock",
       "source_id": "upstream-import"
     },
@@ -1670,7 +1670,7 @@
       "id": "radio.liberdade-fm-92-9",
       "name": "Liberdade FM 92.9",
       "stream_url": "https://8335.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://radioliberdade.com.br/favicon.ico",
       "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
@@ -1678,7 +1678,7 @@
       "id": "radio.liga-fm-95-1",
       "name": "Liga FM 95.1",
       "stream_url": "https://radio.saopaulo01.com.br:10839/stream",
-      "logo_url": null,
+      "logo_url": "https://manaus.radionorte.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1694,7 +1694,7 @@
       "id": "radio.lightness-of-rock",
       "name": "Lightness of Rock",
       "stream_url": "https://stream.zeno.fm/n0dt87vrnd0uv",
-      "logo_url": null,
+      "logo_url": "https://zeno.fm/favicon.ico",
       "genre": "Rock",
       "source_id": "upstream-import"
     },
@@ -1718,7 +1718,7 @@
       "id": "radio.litoral-sul-fm-95-9",
       "name": "Litoral Sul FM 95.9",
       "stream_url": "https://str1.streamhostpg.com.br:8020/stream",
-      "logo_url": null,
+      "logo_url": "https://litoralsulfm.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1886,7 +1886,7 @@
       "id": "radio.mgt-radio-dance-hits",
       "name": "MGT Rádio Dance Hits",
       "stream_url": "https://cast.mgtradio.net/radio/8080/aac",
-      "logo_url": null,
+      "logo_url": "https://www.mgtradio.net/favicon.ico",
       "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
@@ -1958,7 +1958,7 @@
       "id": "radio.mirador-fm-98-5",
       "name": "Mirador FM 98.5",
       "stream_url": "https://paineldj6.com.br:20066/stream",
-      "logo_url": null,
+      "logo_url": "https://radiomirador.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -1982,7 +1982,7 @@
       "id": "radio.mix-fm-recife-97-1",
       "name": "Mix FM Recife 97.1",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_RECIFE971AAC.aac",
-      "logo_url": null,
+      "logo_url": "https://radiomixfm.com.br/favicon.ico",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -2038,7 +2038,7 @@
       "id": "radio.morena-fm-98",
       "name": "Morena FM 98",
       "stream_url": "https://ssl1.transmissaodigital.com:2692/stream",
-      "logo_url": null,
+      "logo_url": "https://www.morenafm.com/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -2070,7 +2070,7 @@
       "id": "radio.multihuman-entheomusic",
       "name": "MultiHuman EntheoMusic",
       "stream_url": "https://libretime.multihuman.com.br:8443/main",
-      "logo_url": null,
+      "logo_url": "https://multihuman.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2158,7 +2158,7 @@
       "id": "radio.nova-difusora-79-9-fm",
       "name": "Nova Difusora 79.9 FM",
       "stream_url": "https://cast.hoost.com.br:8314/stream",
-      "logo_url": null,
+      "logo_url": "https://www.novadifusora.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2174,7 +2174,7 @@
       "id": "radio.nova-fm-tapejara",
       "name": "Nova FM Tapejara",
       "stream_url": "https://stm2.streamproarte.com.br:7358/stream",
-      "logo_url": null,
+      "logo_url": "https://novafmtapejara.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2198,7 +2198,7 @@
       "id": "radio.nova-tupa-fm-100-3",
       "name": "Nova Tupã FM 100.3",
       "stream_url": "https://media01.bitfibra.com.br/listen/nova_tupa_fm/radio.mp3",
-      "logo_url": null,
+      "logo_url": "https://www.radiotupa.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2294,7 +2294,7 @@
       "id": "radio.otima-fm-89-1",
       "name": "Ótima FM 89.1",
       "stream_url": "https://ice.fabricahost.com.br/otimafm891",
-      "logo_url": null,
+      "logo_url": "https://otimafm.com.br/favicon.ico",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -2302,7 +2302,7 @@
       "id": "radio.otima-fm-90-3",
       "name": "Ótima FM 90.3",
       "stream_url": "https://ice.fabricahost.com.br/otimafm903",
-      "logo_url": null,
+      "logo_url": "https://www.otimafm.com.br/favicon.ico",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -2310,7 +2310,7 @@
       "id": "radio.otima-fm-95-5",
       "name": "Ótima FM 95.5",
       "stream_url": "https://ice.fabricahost.com.br/otimafm955",
-      "logo_url": null,
+      "logo_url": "https://www.otimafm.com.br/favicon.ico",
       "genre": "Pop",
       "source_id": "upstream-import"
     },
@@ -2446,7 +2446,7 @@
       "id": "radio.radio-100-fm",
       "name": "Rádio 100 FM",
       "stream_url": "https://stream-012.zeno.fm/3x2dtz84qzzuv",
-      "logo_url": null,
+      "logo_url": "https://www.radio100.com.br/favicon.ico",
       "genre": "Variedades",
       "source_id": "upstream-import"
     },
@@ -2462,7 +2462,7 @@
       "id": "radio.radio-102-fm",
       "name": "Rádio 102 FM",
       "stream_url": "https://radio.saopaulo01.com.br:10948/stream",
-      "logo_url": null,
+      "logo_url": "https://102fm.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -2862,7 +2862,7 @@
       "id": "radio.radio-catedral-fm-102-3",
       "name": "Rádio Catedral FM 102.3",
       "stream_url": "https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://www.radiocatedraljf.com.br/favicon.ico",
       "genre": "Religiosa",
       "source_id": "upstream-import"
     },
@@ -2974,7 +2974,7 @@
       "id": "radio.radio-cidade-fm-matao",
       "name": "Rádio Cidade FM Matão",
       "stream_url": "https://virtues.live:8330/stream",
-      "logo_url": null,
+      "logo_url": "https://www.radiocidadematao.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -3198,7 +3198,7 @@
       "id": "radio.radio-dance-music-2000",
       "name": "Rádio Dance Music 2000",
       "stream_url": "https://cloud1.cdnseguro.com:2190/;",
-      "logo_url": null,
+      "logo_url": "https://www.dancemusic2000.com/favicon.ico",
       "genre": "Eletrônica",
       "source_id": "upstream-import"
     },
@@ -3262,7 +3262,7 @@
       "id": "radio.radio-dorminhoca",
       "name": "Radio Dorminhoca",
       "stream_url": "https://stream.zeno.fm/dkyrn1814k0uv",
-      "logo_url": null,
+      "logo_url": "https://zeno.fm/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -3494,7 +3494,7 @@
       "id": "radio.radio-gaucha-serra",
       "name": "Rádio Gaúcha Serra",
       "stream_url": "https://liverdgauserra.rbsdirect.com.br/primary/gau_serra.sdp/chunklist_b32baa2b-bdde-45e8-bf11-b64cac697b0a.m3u8",
-      "logo_url": null,
+      "logo_url": "https://gauchazh.clicrbs.com.br/favicon.ico",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -3702,7 +3702,7 @@
       "id": "radio.radio-jauense",
       "name": "Rádio Jauense",
       "stream_url": "https://s38.maxcast.com.br:8091/live",
-      "logo_url": null,
+      "logo_url": "https://www.radiojauense.com.br/favicon.ico",
       "genre": "Jornalismo",
       "source_id": "upstream-import"
     },
@@ -3878,7 +3878,7 @@
       "id": "radio.radio-mania-fm-95-5",
       "name": "Rádio Mania FM 95.5",
       "stream_url": "https://webradio.amsolution.com.br/radio/8050/mania",
-      "logo_url": null,
+      "logo_url": "https://www.radiomaniafm.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -3950,7 +3950,7 @@
       "id": "radio.radio-maravilha-fm",
       "name": "Rádio Maravilha FM",
       "stream_url": "https://stm39.srvstm.com:8758/stream",
-      "logo_url": null,
+      "logo_url": "https://radiomaravilhafm.com/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -4086,7 +4086,7 @@
       "id": "radio.radio-nacional-da-amazonia",
       "name": "Rádio Nacional da Amazônia",
       "stream_url": "https://radionacionalamazonia-stream.ebc.com.br/ebc/radionacionalamazonia/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4094,7 +4094,7 @@
       "id": "radio.radio-nacional-de-brasilia-980-am",
       "name": "Rádio Nacional de Brasília 980 AM",
       "stream_url": "https://radionacionalbrasilia-stream.ebc.com.br/index.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4102,7 +4102,7 @@
       "id": "radio.radio-nacional-do-alto-solimoes",
       "name": "Rádio Nacional do Alto Solimões",
       "stream_url": "https://radionacionalaltosolimoes-stream.ebc.com.br/ebc/radionacionalaltosolimoes/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4110,7 +4110,7 @@
       "id": "radio.radio-nacional-do-rio-de-janeiro",
       "name": "Rádio Nacional do Rio de Janeiro",
       "stream_url": "https://radionacionalrio-stream.ebc.com.br/ebc/radionacionalriodejaneiro/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4118,7 +4118,7 @@
       "id": "radio.radio-nacional-fm-96-1",
       "name": "Rádio Nacional FM 96.1",
       "stream_url": "https://radionacionalfm-stream.ebc.com.br/ebc/radionacionalfm/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4126,7 +4126,7 @@
       "id": "radio.radio-nacional-fm-sao-luis",
       "name": "Rádio Nacional FM São Luís",
       "stream_url": "https://radionacionalfmsl-stream.ebc.com.br/index.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4134,7 +4134,7 @@
       "id": "radio.radio-nacional-fm-sao-paulo",
       "name": "Rádio Nacional FM São Paulo",
       "stream_url": "https://radionacionalfmsp-stream.ebc.com.br/ebc/radionacionalfmsp/playlist.m3u8",
-      "logo_url": null,
+      "logo_url": "https://radios.ebc.com.br/favicon.ico",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -4174,7 +4174,7 @@
       "id": "radio.radio-norte-100-3-fm",
       "name": "Radio Norte 100.3 FM",
       "stream_url": "https://servidor17.brlogic.com:9394/live",
-      "logo_url": null,
+      "logo_url": "https://radionortelondrina.com.br/favicon.ico",
       "genre": "Eclética",
       "source_id": "upstream-import"
     },
@@ -4310,7 +4310,7 @@
       "id": "radio.radio-planeta-rei",
       "name": "Rádio Planeta Rei",
       "stream_url": "https://s42.maxcast.com.br:8343/live",
-      "logo_url": null,
+      "logo_url": "https://s42.maxcast.com.br:8343/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -4542,7 +4542,7 @@
       "id": "radio.radio-sao-francisco-97-7-fm",
       "name": "Rádio São Francisco 97.7 FM",
       "stream_url": "https://cast.hoost.com.br:20150/stream",
-      "logo_url": null,
+      "logo_url": "https://radiosaochico.com.br/favicon.ico",
       "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
@@ -4830,7 +4830,7 @@
       "id": "radio.radio-tropical-103-7-fm",
       "name": "Rádio Tropical 103.7 FM",
       "stream_url": "https://ice.fabricahost.com.br/radiotropicalvix",
-      "logo_url": null,
+      "logo_url": "https://radiotropicalvix.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -4886,7 +4886,7 @@
       "id": "radio.radio-uirapuru-102-5-fm",
       "name": "Rádio Uirapuru 102.5 FM",
       "stream_url": "https://radio.saopaulo01.com.br:7002/stream",
-      "logo_url": null,
+      "logo_url": "https://rduirapuru.com.br/favicon.ico",
       "genre": "Jornalismo",
       "source_id": "upstream-import"
     },
@@ -4934,7 +4934,7 @@
       "id": "radio.radio-usp-fm",
       "name": "Rádio USP FM",
       "stream_url": "https://flow.emm.usp.br:8008/radiousp-rp-64.mp3",
-      "logo_url": null,
+      "logo_url": "https://jornal.usp.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -4942,7 +4942,7 @@
       "id": "radio.radio-vale-feliz-96-3-fm",
       "name": "Rádio Vale Feliz 96.3 FM",
       "stream_url": "https://stream02.ouveai.com.br/8066/stream",
-      "logo_url": null,
+      "logo_url": "https://www.radiovalefeliz.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -5030,7 +5030,7 @@
       "id": "radio.radio-web-luna-87-9-fm",
       "name": "Rádio Web Luna 87.9 FM",
       "stream_url": "https://stream.zeno.fm/1qxe7gsah0hvv",
-      "logo_url": null,
+      "logo_url": "https://zeno.fm/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -5038,7 +5038,7 @@
       "id": "radio.radio-web-nas-ondas-do-saber",
       "name": "Rádio Web Nas Ondas do Saber",
       "stream_url": "https://s06.maxcast.com.br:8090/live",
-      "logo_url": null,
+      "logo_url": "https://s06.maxcast.com.br:8090/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -5206,7 +5206,7 @@
       "id": "radio.rm-cast",
       "name": "RM Cast",
       "stream_url": "https://stm1.mxcast.com.br:7154/stream",
-      "logo_url": null,
+      "logo_url": "https://rmcast.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -5438,7 +5438,7 @@
       "id": "radio.sp-rio-mais",
       "name": "SP Rio Mais",
       "stream_url": "https://s09.maxcast.com.br:8046/live",
-      "logo_url": null,
+      "logo_url": "https://spriomais.com.br/favicon.ico",
       "genre": "Jornalismo",
       "source_id": "upstream-import"
     },
@@ -5646,7 +5646,7 @@
       "id": "radio.torres-fm-101-1",
       "name": "Torres FM 101.1",
       "stream_url": "https://cast4.audiostream.com.br:2661/mp3",
-      "logo_url": null,
+      "logo_url": "https://www.redepampa.com.br/favicon.ico",
       "genre": "Flashback",
       "source_id": "upstream-import"
     },
@@ -5814,7 +5814,7 @@
       "id": "radio.venenos-do-rock",
       "name": "Venenos do Rock",
       "stream_url": "https://stream.zeno.fm/dy417tqqmd0uv",
-      "logo_url": null,
+      "logo_url": "https://zeno.fm/favicon.ico",
       "genre": "Rock",
       "source_id": "upstream-import"
     },
@@ -5830,7 +5830,7 @@
       "id": "radio.vibe-mundial-fm",
       "name": "Vibe Mundial FM",
       "stream_url": "https://servidor13.brlogic.com:7262/live",
-      "logo_url": null,
+      "logo_url": "https://vibemundialfm.com.br/favicon.ico",
       "genre": "Jornalismo",
       "source_id": "upstream-import"
     },

@@ -7,41 +7,41 @@
   "window_size": 5000,
   "offset_semantics": "stable position among index entries with numeric tmdb_id, in movies/series/anime/doramas order",
   "summary": {
-    "eligible_records": 39948,
-    "records_with_missing_metadata": 5497,
+    "eligible_records": 39949,
+    "records_with_missing_metadata": 5498,
     "complete_records": 34451,
     "identity_mismatches": 0,
     "missing_field_counts": {
       "poster_url": 231,
       "year": 1934,
       "genres": 571,
-      "overview": 5132
+      "overview": 5133
     }
   },
   "windows": [
     {
       "offset": 0,
       "eligible_records": 5000,
-      "records_with_missing_metadata": 592,
-      "complete_records": 4408,
+      "records_with_missing_metadata": 593,
+      "complete_records": 4407,
       "identity_mismatches": 0,
       "missing_field_counts": {
         "poster_url": 21,
         "year": 255,
         "genres": 46,
-        "overview": 563
+        "overview": 564
       },
       "categories": {
         "movies": {
           "eligible_records": 5000,
-          "records_with_missing_metadata": 592,
-          "complete_records": 4408,
+          "records_with_missing_metadata": 593,
+          "complete_records": 4407,
           "identity_mismatches": 0,
           "missing_field_counts": {
             "poster_url": 21,
             "year": 255,
             "genres": 46,
-            "overview": 563
+            "overview": 564
           }
         }
       }
@@ -130,26 +130,26 @@
     {
       "offset": 20000,
       "eligible_records": 5000,
-      "records_with_missing_metadata": 759,
-      "complete_records": 4241,
+      "records_with_missing_metadata": 758,
+      "complete_records": 4242,
       "identity_mismatches": 0,
       "missing_field_counts": {
         "poster_url": 46,
         "year": 200,
         "genres": 60,
-        "overview": 736
+        "overview": 735
       },
       "categories": {
         "movies": {
           "eligible_records": 5000,
-          "records_with_missing_metadata": 759,
-          "complete_records": 4241,
+          "records_with_missing_metadata": 758,
+          "complete_records": 4242,
           "identity_mismatches": 0,
           "missing_field_counts": {
             "poster_url": 46,
             "year": 200,
             "genres": 60,
-            "overview": 736
+            "overview": 735
           }
         }
       }
@@ -157,32 +157,32 @@
     {
       "offset": 25000,
       "eligible_records": 5000,
-      "records_with_missing_metadata": 755,
-      "complete_records": 4245,
+      "records_with_missing_metadata": 756,
+      "complete_records": 4244,
       "identity_mismatches": 0,
       "missing_field_counts": {
         "poster_url": 22,
         "year": 296,
         "genres": 131,
-        "overview": 646
+        "overview": 647
       },
       "categories": {
         "movies": {
-          "eligible_records": 256,
-          "records_with_missing_metadata": 50,
+          "eligible_records": 257,
+          "records_with_missing_metadata": 51,
           "complete_records": 206,
           "identity_mismatches": 0,
           "missing_field_counts": {
             "poster_url": 0,
             "year": 9,
             "genres": 3,
-            "overview": 47
+            "overview": 48
           }
         },
         "series": {
-          "eligible_records": 4744,
+          "eligible_records": 4743,
           "records_with_missing_metadata": 705,
-          "complete_records": 4039,
+          "complete_records": 4038,
           "identity_mismatches": 0,
           "missing_field_counts": {
             "poster_url": 22,
@@ -222,9 +222,9 @@
     },
     {
       "offset": 35000,
-      "eligible_records": 4948,
+      "eligible_records": 4949,
       "records_with_missing_metadata": 736,
-      "complete_records": 4212,
+      "complete_records": 4213,
       "identity_mismatches": 0,
       "missing_field_counts": {
         "poster_url": 17,
@@ -258,9 +258,9 @@
           }
         },
         "series": {
-          "eligible_records": 1302,
+          "eligible_records": 1303,
           "records_with_missing_metadata": 189,
-          "complete_records": 1113,
+          "complete_records": 1114,
           "identity_mismatches": 0,
           "missing_field_counts": {
             "poster_url": 9,
