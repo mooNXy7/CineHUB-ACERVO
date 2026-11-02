@@ -9,13 +9,14 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = "catalog/channels/channels.json"
 ALLOWED_PREFIX = "countries/brazil/"
 ALLOWED_HOST = "raw.githubusercontent.com"
 IMAGE_SUFFIXES = (".png", ".svg", ".webp", ".jpg", ".jpeg")
-QUALITY = re.compile(r"\\b(?:hd|sd|fhd|uhd|4k|1080p|720p|h265|hevc)\\b", re.I)
+QUALITY = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|1080p|720p|h265|hevc)\b", re.I)
 
 # Explicit spelling/brand aliases only; no fuzzy or edit-distance matching.
 ALIASES = {
@@ -23,7 +24,6 @@ ALIASES = {
     "arte 1": "arte1",
     "globo news": "globonews",
     "globo news hd": "globonews",
-    "band sports": "band sports",
 }
 
 
@@ -34,7 +34,7 @@ def normalize(value: Any) -> str:
 
 
 def match_key(value: Any) -> str:
-    key = re.sub(r"\\s+", " ", QUALITY.sub(" ", normalize(value))).strip()
+    key = re.sub(r"\s+", " ", QUALITY.sub(" ", normalize(value))).strip()
     return ALIASES.get(key, key)
 
 
@@ -46,11 +46,14 @@ def safe_logo_entry(item: Any) -> tuple[str, str] | None:
     url = str(item.get("download_url") or "").strip()
     if not path.startswith(ALLOWED_PREFIX) or not name.lower().endswith(IMAGE_SUFFIXES):
         return None
-    if int(item.get("size") or 0) <= 0 or not url.startswith("https://"):
+    try:
+        if int(item.get("size") or 0) <= 0:
+            return None
+    except (TypeError, ValueError):
         return None
-    from urllib.parse import urlsplit
     parsed = urlsplit(url)
-    if parsed.hostname != ALLOWED_HOST or not parsed.path.startswith("/tv-logo/tv-logos/main/countries/brazil/"):
+    if (parsed.scheme != "https" or parsed.hostname != ALLOWED_HOST
+            or not parsed.path.startswith("/tv-logo/tv-logos/main/countries/brazil/")):
         return None
     stem = Path(name).stem
     if stem.lower().endswith("-br"):
@@ -98,7 +101,7 @@ def apply(root: Path, index_file: Path) -> dict[str, Any]:
             missing += 1
 
     if applied:
-        catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return {
         "report_type": "tv_logos_brazil_application",
         "catalog_mutated": bool(applied),
