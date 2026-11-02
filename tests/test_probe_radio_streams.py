@@ -113,5 +113,16 @@ class ProbeRadioStreamsTests(unittest.TestCase):
         self.assertEqual(pls, ("unverified", "playlist_requires_target_audio_validation"))
 
 
+
+    def test_probe_error_detail_redacts_urls_and_query_values(self):
+        from scripts.probe_radio_streams import sanitize_probe_error
+        detail = sanitize_probe_error(
+            ValueError("bad redirect https://example.com/live?token=secret&key=private")
+        )
+        self.assertIn("<url>", detail)
+        self.assertNotIn("secret", detail)
+        self.assertNotIn("private", detail)
+
+
 if __name__ == "__main__":
     unittest.main()

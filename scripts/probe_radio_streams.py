@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audio-aware health checks and safe fallback promotion for CineHUB radio sources."""
 from __future__ import annotations
-import argparse, json, socket, ssl
+import argparse, json, re, socket, ssl
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -63,6 +63,14 @@ def classify_http_error(status: int) -> tuple[str, str]:
     if status in {404, 410}:
         return "permanently_unavailable", f"http_{status}_not_found"
     return "unverified", f"http_{status}"
+
+
+def sanitize_probe_error(error: Exception) -> str:
+    """Keep actionable parser details while redacting URLs and query values."""
+    message = " ".join(str(error).split())
+    message = re.sub(r"https?://[^\\s'\"<>]+", "<url>", message, flags=re.IGNORECASE)
+    message = re.sub(r"([?&][A-Za-z0-9_.-]+)=([^&\\s]+)", r"\\1=<redacted>", message)
+    return message[:120] or "unspecified"
 
 
 def host_only(url: str) -> str:
