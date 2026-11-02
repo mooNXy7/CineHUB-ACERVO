@@ -24,6 +24,19 @@ class PlutoIdOverrideTests(unittest.TestCase):
             "6759eeb1bd523200083b4f29",
         )
 
+    def test_normalise_removes_codec_and_quality_markers_but_keeps_channel_number(self):
+        self.assertEqual(update_epg.normalise("A&E FHD [H265]"), update_epg.normalise("A&E"))
+        self.assertEqual(update_epg.normalise("AXN HD [LEG]"), update_epg.normalise("AXN"))
+        self.assertNotEqual(update_epg.normalise("SporTV 2 FHD"), update_epg.normalise("SporTV 3 FHD"))
+
+    def test_unique_xmltv_ids_skips_ambiguous_name_within_a_source(self):
+        ids, ambiguous = update_epg.unique_xmltv_ids({
+            "history": ["history.br"],
+            "space": ["space.one", "space.two"],
+        }, ["history", "space"])
+        self.assertEqual(ids, ["history.br"])
+        self.assertEqual(ambiguous, ["space"])
+
     def test_unknown_channel_without_override_or_embedded_id_returns_none(self):
         self.assertIsNone(update_epg.pluto_id_for_channel({"id": "ch-unknown", "name": "Unknown"}, {}))
 
