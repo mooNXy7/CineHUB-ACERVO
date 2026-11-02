@@ -82,10 +82,43 @@ class UpdateRadioCatalogTests(unittest.TestCase):
             }),
             "https://www.radio.example/logo.png",
         )
-        self.assertIsNone(update_radio_catalog.safe_station_favicon({
-            "homepage": "https://radio.example",
-            "favicon": "https://third-party.example/logo.png",
-        }))
+        with patch.object(update_radio_catalog, "probe_homepage_favicon", return_value=None):
+            self.assertIsNone(update_radio_catalog.safe_station_favicon({
+                "homepage": "https://radio.example",
+                "favicon": "https://third-party.example/logo.png",
+            }))
+
+    def test_rejected_external_favicon_falls_back_to_verified_homepage_favicon(self):
+        with patch.object(
+            update_radio_catalog, "probe_homepage_favicon",
+            return_value="https://radio.example/favicon.ico",
+        ) as probe:
+            result = update_radio_catalog.safe_station_favicon({
+                "homepage": "https://radio.example",
+                "favicon": "https://third-party.example/logo.png",
+            })
+        self.assertEqual(result, "https://radio.example/favicon.ico")
+        probe.assert_called_once_with("https://radio.example")
+
+    def test_homepage_favicon_fills_only_missing_logo_and_is_reported(self):
+        radios = [{
+            "id": "radio.radio-a", "name": "Rádio A FM",
+            "stream_url": "https://radio.example/live", "genre": "Jazz", "logo_url": None,
+        }]
+        stations = [{
+            "stationuuid": "station-a", "name": "Radio A",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+            "homepage": "https://radio.example", "favicon": "",
+            "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1,
+        }]
+        with patch.object(
+            update_radio_catalog, "probe_homepage_favicon",
+            return_value="https://radio.example/favicon.ico",
+        ):
+            counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
+        self.assertEqual(radios[0]["logo_url"], "https://radio.example/favicon.ico")
+        self.assertEqual(counts["logos_filled"], 1)
+        self.assertEqual(counts["homepage_favicon_filled"], 1)
 
     def test_station_name_normalization_preserves_radio_brand_word(self):
         self.assertNotEqual(
