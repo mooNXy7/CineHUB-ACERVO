@@ -34,9 +34,16 @@ def classify_payload(content_type: str, sample: bytes) -> tuple[str, str]:
         return "non_audio", "html_response"
     if data.lstrip().startswith(b"#EXTM3U"):
         playlist = data.upper()
-        if any(tag in playlist for tag in (b"#EXTINF", b"#EXT-X-STREAM-INF", b"#EXT-X-TARGETDURATION")):
+        if any(tag in playlist for tag in (
+            b"#EXT-X-STREAM-INF", b"#EXT-X-TARGETDURATION",
+            b"#EXT-X-MEDIA-SEQUENCE", b"#EXT-X-ENDLIST",
+        )):
             return "functional", "hls_playlist"
+        if b"#EXTINF" in playlist:
+            return "unverified", "m3u_playlist_requires_target_audio_validation"
         return "unverified", "incomplete_hls_playlist"
+    if mime in {"audio/x-scpls", "audio/x-mpegurl"} or lowered.startswith(b"[playlist]"):
+        return "unverified", "playlist_requires_target_audio_validation"
     if mime.startswith("audio/") or mime in AUDIO_MIME_TYPES:
         return "functional", "audio_content_type"
     if (

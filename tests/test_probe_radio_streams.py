@@ -99,5 +99,19 @@ class ProbeRadioStreamsTests(unittest.TestCase):
             self.assertTrue(mutated)
 
 
+
+    def test_plain_m3u_and_pls_are_not_misclassified_as_audio_streams(self):
+        m3u = classify_payload(
+            "audio/x-mpegurl",
+            b"#EXTM3U\n#EXTINF:-1,Example Radio\nhttps://stream.example/live\n",
+        )
+        pls = classify_payload(
+            "audio/x-scpls",
+            b"[playlist]\nNumberOfEntries=1\nFile1=https://stream.example/live\n",
+        )
+        self.assertEqual(m3u, ("unverified", "m3u_playlist_requires_target_audio_validation"))
+        self.assertEqual(pls, ("unverified", "playlist_requires_target_audio_validation"))
+
+
 if __name__ == "__main__":
     unittest.main()
