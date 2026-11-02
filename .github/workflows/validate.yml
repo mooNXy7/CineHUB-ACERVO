@@ -149,6 +149,8 @@ jobs:
         run: python scripts/suggest_epg_near_matches.py --output epg-near-match-candidates.json
       - name: Build exact-name channel logo suggestions (read-only)
         run: python scripts/suggest_channel_logo_matches.py --output channel-logo-suggestions.json
+      - name: Audit applied channel logos, manifests and duplicate mappings (read-only)
+        run: python scripts/audit_channel_logos.py --output channel-logo-audit.json
       - name: Build conservative radio genre suggestions (read-only)
         run: python scripts/suggest_radio_genres.py --output radio-genre-suggestions.json
       - name: Build actionable catalog quality report (read-only; URLs redacted)
@@ -223,6 +225,7 @@ jobs:
             epg-mapping-candidates.json
             epg-near-match-candidates.json
             channel-logo-suggestions.json
+            channel-logo-audit.json
             radio-genre-suggestions.json
             catalog-quality-report.json
             vod-enrichment-plan.json
