@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:23:36.060958+00:00",
+  "generated_at": "2026-11-02T21:38:59.147987+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -207,7 +207,7 @@
       "name": "107 FM Tatuí",
       "stream_url": "https://ice.fabricahost.com.br/107fm",
       "logo_url": "https://static.wixstatic.com/media/37804f_ed9032a0826e40efa33fefcbf9fb882b~mv2.png/v1/fill/w_141,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -415,7 +415,7 @@
       "name": "Band FM Triângulo",
       "stream_url": "https://stm28.xcast.com.br:11364/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -791,7 +791,7 @@
       "name": "Clock FM 94.1",
       "stream_url": "https://azura4.cmaudioevideo.com:8040/radio.aac",
       "logo_url": "https://www.clockfm.com.br/images/logo-clockfm-941.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -1103,7 +1103,7 @@
       "name": "Estação FM 89.5",
       "stream_url": "https://play.radio.br:8089/estacaofm/estacaofm/icecast.audio",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -1527,7 +1527,7 @@
       "name": "Joinville Cultural FM 105.1",
       "stream_url": "https://cast.youngtech.radio.br/listen/fundacaoculturaljlle/radio",
       "logo_url": "https://www.joinville.sc.gov.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -1687,7 +1687,7 @@
       "name": "Light FM 103.9",
       "stream_url": "https://8231.brasilstream.com.br/stream",
       "logo_url": "https://lightfm1039.com.br/wp-content/uploads/2022/09/cropped-favicon-180x180.png",
-      "genre": null,
+      "genre": "Clássica",
       "source_id": "upstream-import"
     },
     {
@@ -2351,7 +2351,7 @@
       "name": "Piatã FM 94.3",
       "stream_url": "https://streaming.livespanel.com:9430/stream",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2479,7 +2479,7 @@
       "name": "Rádio 107.5 FM",
       "stream_url": "https://cast2.youngtech.radio.br/radio/8290/radio",
       "logo_url": "https://rtvmaastricht.nl/rtvmaastricht_nl/images/logo-xs.png",
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -2647,7 +2647,7 @@
       "name": "Rádio Assunção Cearense",
       "stream_url": "https://str.7br.com.br/radio/8170/stream",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2655,7 +2655,7 @@
       "name": "Rádio Baiana FM 89.3",
       "stream_url": "https://cast.radiu.live:8903/stream",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2663,7 +2663,7 @@
       "name": "Rádio Banda B",
       "stream_url": "https://ice.fabricahost.com.br/bandabctb",
       "logo_url": "https://www.bandab.com.br/wp-content/themes/bandab/assets/img/icons/apple-touch-icon.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -2767,7 +2767,7 @@
       "name": "Rádio Brazil Imperial",
       "stream_url": "https://hts03.brascast.com:8430/live",
       "logo_url": "https://spaceks.net/sites/webradiobrazilimperial.com.br/images/logo/logo_1681801929.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3047,7 +3047,7 @@
       "name": "Rádio Clube do Pará",
       "stream_url": "https://carajas2.jmvstream.com/live",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3183,7 +3183,7 @@
       "name": "Rádio Dádiva",
       "stream_url": "https://stm47.stmsrv.com:16180/stream",
       "logo_url": "https://dadiva.net/logo.png",
-      "genre": null,
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
@@ -3287,7 +3287,7 @@
       "name": "Rádio Educadora FM",
       "stream_url": "https://5a57bda70564a.streamlock.net/educadoraonline/educadoraonline.stream/playlist.m3u8",
       "logo_url": "https://www.educadoraonline.com.br/site/wp-content/uploads/2023/06/cropped-ico-2-180x180.jpg",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3479,7 +3479,7 @@
       "name": "Rádio Galera",
       "stream_url": "https://stream.zeno.fm/hwuwmm0dvp8uv",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3575,7 +3575,7 @@
       "name": "Rádio Grenal 95.9 FM",
       "stream_url": "https://grenal.audiostream.com.br:20000/mp3",
       "logo_url": "https://img.radios.com.br/radio/lg/radio14075_1506599378.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3679,7 +3679,7 @@
       "name": "Rádio Jaguarão FM 87.9",
       "stream_url": "https://stm19.xcast.com.br:11526/stream",
       "logo_url": null,
-      "genre": null,
+      "genre": "Eclética",
       "source_id": "upstream-import"
     },
     {
@@ -3703,7 +3703,7 @@
       "name": "Rádio Jauense",
       "stream_url": "https://s38.maxcast.com.br:8091/live",
       "logo_url": "https://www.radiojauense.com.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3775,7 +3775,7 @@
       "name": "Rádio Justiça 104.7 FM",
       "stream_url": "https://server01.ouvir.radio.br:8036/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13550_1698435410.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3919,7 +3919,7 @@
       "name": "Rádio Marajá 660 AM",
       "stream_url": "https://servidor28-1.brlogic.com:8028/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Regional",
       "source_id": "upstream-import"
     },
     {
@@ -3935,7 +3935,7 @@
       "name": "Rádio Marano FM",
       "stream_url": "https://streaming.livespanel.com:21023/maranofm",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13806_1509363062.jpg",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4255,7 +4255,7 @@
       "name": "Rádio Osório FM 106.9",
       "stream_url": "https://stm19.voxhd.com.br:9324/stream",
       "logo_url": "https://radioosorio.com.br/public/80229-2024-10-18.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4263,7 +4263,7 @@
       "name": "Radio Paiquerê 91.7 FM",
       "stream_url": "https://ice.fabricahost.com.br/paiquere917",
       "logo_url": "https://www.paiquere.com.br/wp-content/uploads/2024/02/fav.jpeg#170",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4303,7 +4303,7 @@
       "name": "Radio Piratininga 1070 AM",
       "stream_url": "https://s35.maxcast.com.br:8002/live",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4367,7 +4367,7 @@
       "name": "Rádio PT",
       "stream_url": "https://s39.maxcast.com.br:8072/live",
       "logo_url": "https://radioptuj.svet24.si/images/RadioPtuj_logo.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4391,7 +4391,7 @@
       "name": "Radio Rap A Voz do Gueto",
       "stream_url": "https://bissau.radio/listen/10047",
       "logo_url": null,
-      "genre": "Rap/Hip-hop",
+      "genre": "Hip-Hop",
       "source_id": "upstream-import"
     },
     {
@@ -4399,7 +4399,7 @@
       "name": "Rádio Rap Brasil",
       "stream_url": "https://stream.zeno.fm/7c83b37e32quv",
       "logo_url": null,
-      "genre": "Rap/Hip-hop",
+      "genre": "Hip-Hop",
       "source_id": "upstream-import"
     },
     {
@@ -4431,7 +4431,7 @@
       "name": "Rádio Record 1000 AM",
       "stream_url": "https://stm10.voxhd.com.br:9702/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio14193_1680012587.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4639,7 +4639,7 @@
       "name": "Rádio Som Brega",
       "stream_url": "https://stm5.painelcast.com:7588/stream",
       "logo_url": "https://cordeiroplasticos.com.br/sombrega1.png",
-      "genre": "Brasileira",
+      "genre": "Música Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -4679,7 +4679,7 @@
       "name": "Radio Studio Souto - Rap Nacional",
       "stream_url": "https://centova5.transmissaodigital.com:20031/stream",
       "logo_url": null,
-      "genre": "Rap/Hip-hop",
+      "genre": "Hip-Hop",
       "source_id": "upstream-import"
     },
     {
@@ -4839,7 +4839,7 @@
       "name": "Rádio Tupanci AM",
       "stream_url": "https://casthttps.suaradionanet.net/10024/stream",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4887,7 +4887,7 @@
       "name": "Rádio Uirapuru 102.5 FM",
       "stream_url": "https://radio.saopaulo01.com.br:7002/stream",
       "logo_url": "https://rduirapuru.com.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5031,7 +5031,7 @@
       "name": "Rádio Web Luna 87.9 FM",
       "stream_url": "https://stream.zeno.fm/1qxe7gsah0hvv",
       "logo_url": "https://zeno.fm/favicon.ico",
-      "genre": null,
+      "genre": "Eclética",
       "source_id": "upstream-import"
     },
     {
@@ -5183,7 +5183,7 @@
       "name": "Rede Conexão FM 98.1",
       "stream_url": "https://ssl1.transmissaodigital.com:20441/stream",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5303,7 +5303,7 @@
       "name": "Sensação FM 105.5",
       "stream_url": "https://sv10.hdradios.net:8226/stream",
       "logo_url": "https://img.radios.com.br/radio/lg/radio31977_1607423966.jpeg",
-      "genre": null,
+      "genre": "Variedades",
       "source_id": "upstream-import"
     },
     {
@@ -5319,7 +5319,7 @@
       "name": "Sete Colinas FM",
       "stream_url": "https://streaming.livespanel.com:20107/setecolinas",
       "logo_url": "https://img.radios.com.br/radio/lg/radio69_1715670180.jpg",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5391,7 +5391,7 @@
       "name": "Só Brega",
       "stream_url": "https://stm18.xcast.com.br:8290/;",
       "logo_url": null,
-      "genre": "Brasileira",
+      "genre": "Música Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -5439,7 +5439,7 @@
       "name": "SP Rio Mais",
       "stream_url": "https://s09.maxcast.com.br:8046/live",
       "logo_url": "https://spriomais.com.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5575,7 +5575,7 @@
       "name": "Ternura FM 93.9",
       "stream_url": "https://ice.fabricahost.com.br/ternurafm",
       "logo_url": null,
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5623,7 +5623,7 @@
       "name": "TMC Belo Horizonte",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_BH.mp3",
       "logo_url": "https://static.mytuner.mobi/media/tvos_radios/790/transamerica-belo-horizonte.15dd3e62.png",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5727,7 +5727,7 @@
       "name": "Udesc FM 91.9",
       "stream_url": "https://icecast.loopert.com/81",
       "logo_url": "https://www.udesc.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5831,7 +5831,7 @@
       "name": "Vibe Mundial FM",
       "stream_url": "https://servidor13.brlogic.com:7262/live",
       "logo_url": "https://vibemundialfm.com.br/favicon.ico",
-      "genre": "Jornalismo",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5895,7 +5895,7 @@
       "name": "Viola Viva Caipira",
       "stream_url": "https://centova.euroti.com.br:20055/stream",
       "logo_url": "http://violaviva.com.br/wp-content/uploads/2024/12/4.png",
-      "genre": "Brasileira",
+      "genre": "Música Brasileira",
       "source_id": "upstream-import"
     },
     {

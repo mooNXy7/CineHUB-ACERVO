@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": false,
+  "catalog_mutated": true,
   "active_sources": 2,
   "sources": [
     {
@@ -33,24 +33,19 @@
     "matched_by_name": 87,
     "unmatched": 158,
     "ambiguous": 104,
-    "genres_filled": 0,
+    "genres_filled": 8,
     "logos_filled": 0,
     "favicon_rejected": 32,
     "homepage_favicon_filled": 0,
-    "genre_unclassified": 177,
+    "genre_unclassified": 169,
     "unclassified_tags": {
       "popular": 3,
-      "eclectic programming": 2,
-      "popular music": 2,
-      "musica popular brasileira": 1,
       "samba pagode": 1,
-      "light classics": 1,
       "entertainment": 1,
       "music": 1,
       "light": 1,
       "undefined": 1,
       "musicas nacionais e internacionais": 1,
-      "gospel music": 1,
       "autonomia": 1,
       "tecnologica": 1,
       "comunitaria": 1,
@@ -62,13 +57,21 @@
       "servico integrado de saude": 1,
       "sitio das palmeiras": 1,
       "torroes": 1,
-      "gospel evangelica": 1,
-      "radio comunitaria": 1,
-      "nativista": 1,
-      "mp3": 1,
-      "miscellaneous": 1
+      "mp3": 1
     },
-    "updated_radio_names": []
+    "updated_radio_names": [
+      "Band FM Triângulo",
+      "Light FM 103.9",
+      "Rádio 107.5 FM",
+      "Rádio Dádiva",
+      "Rádio Jaguarão FM 87.9",
+      "Rádio Marajá 660 AM",
+      "Rádio Web Luna 87.9 FM",
+      "Sensação FM 105.5"
+    ]
+  },
+  "genre_normalization": {
+    "updated": 36
   },
   "failures": [],
   "safety": [
