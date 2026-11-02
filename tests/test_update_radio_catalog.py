@@ -378,5 +378,41 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertIsNone(update_radio_catalog.verify_station_image("https://user:pass@radio.example/logo.png"))
 
 
+
+    def test_reviewed_genre_corrections_require_exact_previous_value_and_identity(self):
+        radios = [
+            {"id": "radio.a", "name": "Radio A", "genre": "Notícias"},
+            {"id": "radio.b", "name": "Radio B", "genre": "Jazz"},
+        ]
+        corrections = [
+            {"decision": "manual_verified_override", "radio_id": "radio.a", "radio_name": "Radio A",
+             "previous_genre": "Notícias", "assigned_genre": "Adulto Contemporâneo",
+             "evidence": [{"source": "official", "url": "https://radio.example"}]},
+            {"decision": "manual_verified_override", "radio_id": "radio.b", "radio_name": "Radio B",
+             "previous_genre": "Notícias", "assigned_genre": "Rock",
+             "evidence": [{"source": "official", "url": "https://radio.example"}]},
+            {"decision": "manual_verified_override", "radio_id": "radio.a", "radio_name": "Wrong Name",
+             "previous_genre": "Notícias", "assigned_genre": "Rock",
+             "evidence": [{"source": "official", "url": "https://radio.example"}]},
+        ]
+        counts = update_radio_catalog.apply_reviewed_genre_corrections(radios, corrections)
+        self.assertEqual(radios[0]["genre"], "Adulto Contemporâneo")
+        self.assertEqual(radios[1]["genre"], "Jazz")
+        self.assertEqual(counts["applied"], 1)
+        self.assertEqual(counts["previous_genre_mismatch"], 1)
+        self.assertEqual(counts["identity_mismatch"], 1)
+
+    def test_music_genres_take_precedence_over_secondary_news_tags(self):
+        self.assertEqual(
+            update_radio_catalog.genre_from_tags("adult contemporary, news"),
+            "Adulto Contemporâneo",
+        )
+        self.assertEqual(
+            update_radio_catalog.genre_from_tags("rock, news"),
+            "Rock",
+        )
+        self.assertEqual(update_radio_catalog.genre_from_tags("news,talk"), "Notícias")
+
+
 if __name__ == "__main__":
     unittest.main()

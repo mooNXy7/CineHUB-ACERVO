@@ -267,6 +267,60 @@
           "reported_genre": "Música sul-rio-grandense, programação regional e folclore"
         }
       ]
+    },
+    {
+      "decision": "manual_verified",
+      "radio_id": "radio.a-tarde-fm",
+      "radio_name": "A Tarde FM",
+      "assigned_genre": "Adulto Contemporâneo",
+      "evidence": [
+        {
+          "source": "A TARDE FM — site oficial e programação",
+          "url": "https://atardefm.com.br/",
+          "reported_genre": "Emissora identificada pelo site oficial; programação de música e informação"
+        },
+        {
+          "source": "Tudo Rádio — formato da A Tarde FM 103.9",
+          "url": "https://tudoradio.com/noticias/ver/31796-a-tarde-fm-lanca-novos-programas-e-anuncia-a-contratacao-do-comunicador-ildazio-jr-em-salvador",
+          "reported_genre": "Identifica explicitamente a emissora de Salvador como formato adulto-contemporâneo"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified",
+      "radio_id": "radio.anos-dourados-fm",
+      "radio_name": "Anos Dourados FM",
+      "assigned_genre": "Flashback",
+      "evidence": [
+        {
+          "source": "Anos Dourados FM — site oficial",
+          "url": "https://anosdouradosfm.com/",
+          "reported_genre": "Slogan 24 horas de nostalgia"
+        },
+        {
+          "source": "Radios.com.br — Anos Dourados FM Salvador",
+          "url": "https://www.radios.com.br/aovivo/anos-dourados-fm/18865",
+          "reported_genre": "Segmentos Oldies e Nostalgia"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified",
+      "radio_id": "radio.alpha-fm",
+      "radio_name": "Alpha FM",
+      "assigned_genre": "Adulto Contemporâneo",
+      "evidence": [
+        {
+          "source": "Alpha FM — site oficial",
+          "url": "https://alphafm.com.br/",
+          "reported_genre": "Marca oficial da emissora paulista associada ao stream RADIO_ALPHAFM_ADP"
+        },
+        {
+          "source": "Brasil Rádio FM — Alpha FM 101.7",
+          "url": "https://brasilradiofm.com/alpha-fm",
+          "reported_genre": "Formato musical adulto contemporâneo; frequência 101.7 MHz"
+        }
+      ]
     }
   ],
   "hold_for_review": [
@@ -284,6 +338,41 @@
           "source": "Radios.com.br — Nova Brasil 89.5 FM",
           "url": "https://www.radios.com.br/aovivo/radio-nova-brasil-895-fm/72019",
           "reported_genre": "Registro arquivado; não foi encontrada transmissão ao vivo"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.antena-1",
+      "radio_name": "Antena 1",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Adulto Contemporâneo",
+      "evidence": [
+        {
+          "source": "Antena 1 — página oficial Quem Somos",
+          "url": "https://www.antena1.com.br/quem-somos",
+          "reported_genre": "Programação musical especializada e sucessos internacionais"
+        },
+        {
+          "source": "Antena 1 — balanço oficial de 2025",
+          "url": "https://www.antena1.com.br/noticias/2025-um-ano-historico-para-a-antena-1-em-seus",
+          "reported_genre": "A própria emissora se identifica como líder no segmento adulto contemporâneo"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.107-fm-tatui",
+      "radio_name": "107 FM Tatuí",
+      "previous_genre": "Notícias",
+      "assigned_genre": "MPB",
+      "evidence": [
+        {
+          "source": "107 FM Tatuí — site oficial",
+          "url": "https://www.107fm.net/",
+          "reported_genre": "A programação musical é descrita como predominantemente MPB e Flash Back nacional/internacional; MPB é o primeiro formato declarado"
         }
       ]
     }

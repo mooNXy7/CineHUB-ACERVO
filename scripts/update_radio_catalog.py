@@ -184,14 +184,15 @@ GENRE_ALIASES = {
     "miscellaneous": "Variedades",
 }
 GENRE_PRIORITY = [
-    "Sertanejo", "MPB", "Gospel", "Jornalismo", "Esportes", "Pop/Rock",
-    "Pop", "Rock Alternativo", "Rock", "Metal", "Eletrônica", "Flashback",
-    "Jazz", "Blues", "Clássica", "Samba", "Pagode", "Forró", "Funk",
-    "Hip-Hop", "Rap", "Reggae", "Bossa Nova", "Axé", "Forró", "Arrocha",
-    "Brega", "Disco", "Indie", "Instrumental", "Ambiental", "Lounge",
-    "Country", "Regional", "Latina", "Música Mundial", "Cultura", "Educativa",
-    "Adulto Contemporâneo", "Alternativa", "Religiosa", "Eclética",
-    "Romântica", "J-Pop", "Anime", "Música Brasileira", "Internacional", "Variedades",
+    # Prefer explicit musical formats over secondary news inserts on music stations.
+    "Sertanejo", "MPB", "Gospel", "Adulto Contemporâneo", "Pop/Rock", "Pop",
+    "Rock Alternativo", "Rock", "Metal", "Eletrônica", "Flashback", "Jazz",
+    "Blues", "Clássica", "Samba", "Pagode", "Forró", "Funk", "Hip-Hop", "Rap",
+    "Reggae", "Bossa Nova", "Axé", "Arrocha", "Brega", "Disco", "Indie",
+    "Instrumental", "Ambiental", "Lounge", "Country", "Latina", "Música Mundial",
+    "Música Brasileira", "Alternativa", "J-Pop", "Anime", "Regional", "Cultura",
+    "Educativa", "Religiosa", "Romântica", "Eclética", "Variedades", "Esportes",
+    "Jornalismo",
 ]
 
 
@@ -846,6 +847,59 @@ def apply_reviewed_genre_decisions(
     return counts
 
 
+
+def apply_reviewed_genre_corrections(
+    radios: list[dict[str, Any]], corrections: list[dict[str, Any]]
+) -> dict[str, Any]:
+    """Apply evidence-backed genre overrides only when the exact previous value still matches."""
+    by_id = {str(radio.get("id") or ""): radio for radio in radios if radio.get("id")}
+    counts = {
+        "applied": 0,
+        "already_at_target": 0,
+        "previous_genre_mismatch": 0,
+        "missing_radio": 0,
+        "identity_mismatch": 0,
+        "invalid_correction": 0,
+        "corrected_radio_names": [],
+    }
+    for correction in corrections:
+        if not isinstance(correction, dict):
+            counts["invalid_correction"] += 1
+            continue
+        evidence = correction.get("evidence")
+        if (
+            correction.get("decision") != "manual_verified_override"
+            or not isinstance(evidence, list)
+            or not any(isinstance(item, dict) and item.get("source") and item.get("url") for item in evidence)
+            or not correction.get("radio_id")
+            or not correction.get("radio_name")
+            or not correction.get("previous_genre")
+            or not correction.get("assigned_genre")
+        ):
+            counts["invalid_correction"] += 1
+            continue
+        target = by_id.get(str(correction["radio_id"]))
+        if not target:
+            counts["missing_radio"] += 1
+            continue
+        if str(target.get("name") or "").strip() != str(correction["radio_name"]).strip():
+            counts["identity_mismatch"] += 1
+            continue
+        current_genre = str(target.get("genre") or "").strip()
+        desired_genre = canonical_genre(correction["assigned_genre"])
+        if current_genre == desired_genre:
+            counts["already_at_target"] += 1
+            continue
+        if current_genre != str(correction["previous_genre"]).strip():
+            counts["previous_genre_mismatch"] += 1
+            continue
+        target["genre"] = desired_genre
+        counts["applied"] += 1
+        if len(counts["corrected_radio_names"]) < 100:
+            counts["corrected_radio_names"].append(str(target.get("name") or ""))
+    return counts
+
+
 def update(root: Path = ROOT) -> dict[str, Any]:
     sources_path = root / "sources/sources.json"
     out_path = root / "catalog/radios/radios.json"
@@ -905,6 +959,9 @@ def update(root: Path = ROOT) -> dict[str, Any]:
     manual_decision_counts = apply_reviewed_genre_decisions(
         original_radios, manual_document.get("decisions", [])
     )
+    manual_correction_counts = apply_reviewed_genre_corrections(
+        original_radios, manual_document.get("corrections", [])
+    )
     genre_review_hold_ids = set()
     for hold in manual_document.get("hold_for_review", []):
         if not isinstance(hold, dict) or not hold.get("radio_id") or not hold.get("radio_name") or not hold.get("reason"):
@@ -943,6 +1000,7 @@ def update(root: Path = ROOT) -> dict[str, Any]:
         "radio_browser_metadata": metadata_counts,
         "genre_normalization": {"updated": genre_normalized},
         "manual_genre_decisions": manual_decision_counts,
+        "manual_genre_corrections": manual_correction_counts,
         "genre_review_hold": {"count": len(genre_review_hold_ids), "radio_ids": sorted(genre_review_hold_ids)},
         "failures": failures,
         "safety": [
