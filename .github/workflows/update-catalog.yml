@@ -24,6 +24,11 @@ on:
       - "scripts/update_html_epg.py"
       - "scripts/parse_html_epg.py"
       - "docs/WORKLOG-2026-10-31.md"
+      - "scripts/suggest_catalogo_channel_sources.py"
+      - "scripts/probe_catalogo_channel_sources.py"
+      - "scripts/apply_catalogo_channel_sources.py"
+      - "tests/test_suggest_catalogo_channel_sources.py"
+      - "tests/test_catalogo_channel_source_probe_apply.py"
       - ".github/workflows/update-catalog.yml"
   schedule:
     # Depois da atualização diária de referência do SaimoPlayer (11:17 BRT).
@@ -85,6 +90,19 @@ jobs:
           python scripts/suggest_catalogo_channel_sources.py \
             --reference-file /tmp/cinehub-reference/catalogo.txt \
             --output reports/catalogo-channel-source-candidates.json
+      - name: Probe HTTPS channel candidates as bounded HLS requests
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/probe_catalogo_channel_sources.py \
+            --input reports/catalogo-channel-source-candidates.json \
+            --output reports/catalogo-channel-source-health.json
+      - name: Apply only network-confirmed HLS sources on the isolated audit branch
+        if: env.REFERENCE_AVAILABLE == 'true' && github.ref_name == 'audit/acervo-hardening-2026-10'
+        run: |
+          python scripts/apply_catalogo_channel_sources.py \
+            --candidates reports/catalogo-channel-source-candidates.json \
+            --health reports/catalogo-channel-source-health.json \
+            --output reports/catalogo-channel-source-application.json
       - name: Import reference data with an isolated quality gate
         if: env.REFERENCE_AVAILABLE == 'true'
         run: |
