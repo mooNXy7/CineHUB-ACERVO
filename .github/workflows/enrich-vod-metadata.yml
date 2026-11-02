@@ -14,7 +14,7 @@ on:
         default: "36000"
         type: string
       batch_count:
-        description: "Number of consecutive bounded batches (1–5; default 1)"
+        description: "Number of consecutive bounded batches (1–8; default 1)"
         required: true
         default: "1"
         type: string
@@ -68,8 +68,8 @@ jobs:
             echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
             exit 1
           fi
-          if ! [[ "$BATCH_COUNT" =~ ^[1-5]$ ]]; then
-            echo "::error::batch_count must be between 1 and 5."
+          if ! [[ "$BATCH_COUNT" =~ ^[1-8]$ ]]; then
+            echo "::error::batch_count must be between 1 and 8."
             exit 1
           fi
           python -m py_compile scripts/enrich_vod_metadata.py
