@@ -78,6 +78,12 @@ jobs:
             echo "SAIMOTV_REFERENCE_AVAILABLE=false" >> "$GITHUB_ENV"
             echo "::warning::Referência SaimoTV-Android indisponível; atualização de streams será ignorada."
           fi
+      - name: Build read-only channel source candidates from catalogo.txt
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/suggest_catalogo_channel_sources.py \\
+            --reference-file /tmp/cinehub-reference/catalogo.txt \\
+            --output reports/catalogo-channel-source-candidates.json
       - name: Import reference data with an isolated quality gate
         if: env.REFERENCE_AVAILABLE == 'true'
         run: |
