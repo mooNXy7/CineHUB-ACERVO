@@ -23,7 +23,7 @@
     "id": "movie-a-onda-perfeita",
     "title": "A Onda Perfeita",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/a2EV69EJWEemzDEUZ7t0yyQuAJu.jpg",
     "genres": [
       "Romance",
@@ -40,7 +40,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O surfista Ian McCormack é um jovem rebelde à procura do sentido da vida, viajando com o seu melhor amigo pela Austrália, Sudeste Asiático e África. No entanto, uma experiência de quase morte de McCormack muda a sua vida para sempre.",
+    "imdb_id": "tt2414822"
   },
   {
     "id": "movie-a-onda-perfeita-2014",
@@ -66,7 +68,7 @@
     "id": "movie-a-opiniao-publica",
     "title": "A Opinião Pública",
     "type": "movie",
-    "year": null,
+    "year": "1967",
     "poster_url": "/4Qya3rRIb0uci6khXrAaLisJwKC.jpg",
     "genres": [
       "Documentário"
@@ -102,13 +104,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Documentário sobre a classe média carioca, examinada através dos depoimentos dos seus próprios membros, que abordam assuntos como a juventude, a família burguesa, fenômenos sensacionalistas, misticismo, política e meios de comunicação de massa. Filme de tese, gravado segundo as regras do cinema-verdade da década de 60.",
+    "imdb_id": "tt0144542"
   },
   {
     "id": "movie-a-oportunidade-quase-perfeita",
     "title": "A Oportunidade quase Perfeita",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/lh5P7CbEW9jST998llS9SLZHU6a.jpg",
     "genres": [
       "Comédia",
@@ -182,7 +186,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um assassino de aluguel desempregado encontra emprego como zelador na escola primária local.",
+    "imdb_id": "tt9379530"
   },
   {
     "id": "movie-a-oportunidade-quase-perfeita-2021",
@@ -267,7 +273,7 @@
     "id": "movie-a-oracao-nao-falha",
     "title": "A Oração Não Falha",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/pP4c1hBnWFbjEOLsHtzCdi1sCWW.jpg",
     "genres": [
       "Família"
@@ -321,7 +327,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um emergente treinador de basquete do Ensino Médio, que está alcançando um número recorde de vitórias, é demitido depois de arriscar tudo ao orar com um jogador que sofre em casa. Diante dessa adversidade, o treinador luta para saber se deve enfrentar o Conselho da escola ou afastar-se de sua amada equipe. Quase falido, ele contrata um talentoso advogado, o qual é viciado em apostas. Ambos se tornam amigos. O treinador é levado à decisão certa sobre lutar por seus alunos, e o advogado vive um renascimento pessoal. A oração não falha narra como, da rescisão contratual à redenção, o ato de orar nos ensina que um homem é capaz de fazer qualquer coisa por seus queridos alunos, e que, ao mesmo tempo, esse mesmo ato redimirá outro homem que perdeu a direção.",
+    "imdb_id": "tt4575782"
   },
   {
     "id": "movie-a-ordem-2024",
@@ -452,13 +460,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt26625693"
+    "imdb_id": "tt26625693",
+    "overview": "Em 1983, uma série de assaltos a banco cada vez mais violentos, operações de falsificação e assaltos a carros blindados assustam as comunidades em todo o Noroeste do Pacífico. Enquanto os perplexos agentes da lei lutam por respostas, um solitário investigador do FBI acredita que os crimes não são obra de criminosos tradicionais com motivação financeira, mas de um grupo de perigosos terroristas domésticos, inspirados por um líder radical e carismático."
   },
   {
     "id": "movie-a-ordem-do-tempo",
     "title": "A Ordem do Tempo",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/7fhJmL6WL4mtI7JcqC4BpSqIxkV.jpg",
     "genres": [
       "Drama"
@@ -506,13 +515,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um grupo de amigos se encontra todos os anos para celebrar um aniversário. Este ano, em uma vila à beira-mar, algo está diferente: eles descobrem que o mundo vai acabar em apenas algumas horas. Após a notícia bombástica, estranhamente, o tempo que lhes resta parece acelerar e, ao mesmo tempo, permanecer interminável.",
+    "imdb_id": "tt15205344"
   },
   {
     "id": "movie-a-orfa",
     "title": "A Orfa",
     "type": "movie",
-    "year": null,
+    "year": "2009",
     "poster_url": "/9tdcvT3ZyPBluzmQTevgn503jpg.jpg",
     "genres": [
       "Terror",
@@ -574,7 +585,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Kate e John Coleman ficam arrasados devido a um trágico aborto. Apesar de já ter 2filhos, o casal decide adotar uma criança. Eles se encantam pela pequena Esther e optam rapidamente por sua adoção. O que eles não sabiam é que estranhos acontecimentos fazem parte do histórico da menina que passa a se tornar, dia após dia, mais misteriosa. Intrigada, Kate desconfia que Esther não é quem aparenta ser, mas devido ao alcoolismo tem dificuldades de provar sua teoria.",
+    "imdb_id": "tt1148204"
   },
   {
     "id": "movie-a-orfa-2009",
@@ -734,7 +747,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Cobb é um ladrão habilidoso que comete espionagem corporativa infiltrando-se no subconsciente de seus alvos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
+    "imdb_id": "tt1375666"
   },
   {
     "id": "movie-a-origem-de-frankenstein-2020",
@@ -771,13 +786,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em 1816, um grupo de escritores aceita o desafio de escrever uma história sobre fantasmas. Mary Shelley cria o personagem Frankenstein, superando os homens alfa que criavam as histórias de ficção e revelando um trauma que a inspirou na lendária invenção.",
+    "imdb_id": "tt5607098"
   },
   {
     "id": "movie-a-origem-do-dragao",
     "title": "A Origem do Dragão",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/89PrfqYkqafUrSK8YhWqyMt4E3M.jpg",
     "genres": [
       "Ação",
@@ -793,7 +810,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O ator chinês Philip Ng viverá Bruce Lee em Birth of the Dragon, longa focado na maior luta da carreira do falecido ator/lutador.  Coproduzida entre China e EUA, a cinebiografia vai retratar o lendário duelo de Bruce Lee com o mestre de Kung Fu Wong Jack Man, em 1964.  O filme vai misturar fatos reais com uma dose de ficção, já que depois do confronto, Bruce Lee e Wong Jack Man formam parceria para derrubar a máfia chinesa na Chinatown de San Francisco – evento que não ocorreu na vida real.",
+    "imdb_id": "tt2720826"
   },
   {
     "id": "movie-a-origem-do-dragao-2017",
@@ -859,7 +878,7 @@
     "id": "movie-a-origem-dos-guardioes",
     "title": "A Origem dos Guardiões",
     "type": "movie",
-    "year": null,
+    "year": "2012",
     "poster_url": "/hLiI13YstciHqiuHCkD786wpIYn.jpg",
     "genres": [
       "Ação",
@@ -923,13 +942,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "As crianças do mundo inteiro são protegidas por um seleto grupo de guardiões: Papai Noel, Fada do Dente, Coelho da Páscoa e Sandman. São eles que garantem a inocência e as lendas infantis. Mas um espírito maligno, o Breu, pretende transformar todos os sonhos em pesadelo, despertando medo em todas as crianças. Para combater este adversário poderoso, a Lua designa um novo guardião para ajudar o grupo: Jack Frost, um garotinho invisível que controla o inverno. Sem conhecer sua própria vocação de guardião, ele embarca em uma aventura na qual vai descobrir tanto sobre as crianças quanto sobre seu próprio passado.",
+    "imdb_id": "tt1446192"
   },
   {
     "id": "movie-a-origem-dos-red-hot-chili-peppers-nosso-irmao-hillel",
     "title": "A Origem dos Red Hot Chili Peppers: Nosso Irmão Hillel",
     "type": "movie",
-    "year": null,
+    "year": "2026",
     "poster_url": "/5yaZn7arwlDSdiEH8aAxSArVJ0t.jpg",
     "genres": [
       "Documentário",
@@ -972,7 +993,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Este documentário revisita os primeiros anos do Red Hot Chili Peppers e a influência decisiva do guitarrista original da banda, Hillel Slovak.",
+    "imdb_id": "tt36971084"
   },
   {
     "id": "movie-a-outra",
@@ -1230,7 +1253,7 @@
     "id": "movie-a-outra-face-de-dorian-gray",
     "title": "A Outra Face de Dorian Gray",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/wKZW3o3QwpC5sQMrd9lJDAhEKcU.jpg",
     "genres": [
       "Drama",
@@ -1306,13 +1329,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma versão moderna da história de Oscar Wilde. Aspirante a atriz Dorian é orientada pela reclusa Lady Amelia Wotton. Quando a neta de Wotton fotografa Dorian, as meninas ficam próximas e isso desencadeia uma série de eventos misteriosos.",
+    "imdb_id": "tt21411206"
   },
   {
     "id": "movie-a-outra-filha",
     "title": "A Outra Filha",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/haEmcKQbGeIyrEVQMmWK2dtSM0A.jpg",
     "genres": [
       "Fantasia",
@@ -1356,7 +1381,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt37594504"
   },
   {
     "id": "movie-a-outra-filha-2018",
@@ -1425,13 +1451,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Elizabeth Marshall está concorrendo ao governo do estado da Pensilvânia quando sua filha que foi roubada da maternidade reaparece. Uma sensação na mídia, a situação é muito favorável a campanha. Porém, as coisas se complicam quando Terri, a outra filha de Elizabeth, se sente ameaçada pela chegada da nova irmã.",
+    "imdb_id": "tt6748984"
   },
   {
     "id": "movie-a-outra-historia-americana",
     "title": "A Outra Historia Americana",
     "type": "movie",
-    "year": null,
+    "year": "1998",
     "poster_url": "/hgvKHv8d9bQEiQV5JE8nx0I2zhr.jpg",
     "genres": [
       "Drama"
@@ -1492,7 +1520,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Derek busca vazão para suas agruras tornando-se líder de uma gangue de racistas. A violência o leva a um assassinato, e ele é condenado pelo crime. Três anos mais tarde, ele sai da prisão e tem que convencer seu irmão, que está prestes a assumir a liderança do grupo, a não trilhar o mesmo caminho.",
+    "imdb_id": "tt0120586"
   },
   {
     "id": "movie-a-outra-historia-americana-1998",
@@ -1540,7 +1570,7 @@
     "id": "movie-a-outra-mae",
     "title": "A Outra Mae",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/euFKwcZBWOjXRfyT6cvxtBzTEpv.jpg",
     "genres": [
       "Drama",
@@ -1603,7 +1633,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma mulher divorciada tenta desesperadamente se reconectar com a filha, temendo que a nova esposa do ex-marido esteja intencionalmente manipulando sua família.",
+    "imdb_id": "tt6028604"
   },
   {
     "id": "movie-a-outra-mulher-2018",
@@ -1654,7 +1686,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Daniel é apaixonado por sua esposa, mas também é conhecido por sua imaginação fértil e muitas vezes tem que lidar com um melhor amigo que é um peso na sua vida. Quando o esse amigo insiste em organizar um jantar entre casais, com a intenção de apresentar sua nova namorada, Daniel se encontra `preso´ entre sua esposa e as fantasias que começa a ter.",
+    "imdb_id": "tt7654872"
   },
   {
     "id": "movie-a-outra-mae-2017",
@@ -1698,7 +1732,7 @@
     "id": "movie-a-outra-terra",
     "title": "A Outra Terra",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/93p5eYeAYc2sFXCaLSV5eapk9z1.jpg",
     "genres": [
       "Drama",
@@ -1760,7 +1794,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Rhoda Williams, uma mulher jovem e brilhante recentemente aceita no programa de astrofísica do MIT, pretende explorar o cosmos. John Burroughs, um compositor brilhante, acaba de atingir o auge de sua profissão, e está prestes a ter um segundo filho com sua esposa amorosa. Na véspera da descoberta de um novo planeta no espaço, aparentemente escondido atrás do sol (um segundo planeta Terra), a tragédia, e as vidas desses estranhos tornam-se irremediavelmente entrelaçadas. Distante do mundo e os seres que eles conheciam, os dois jovens começam um caso de amor improvável, que vai despertá-los para a vida. Mas quando um deles é apresentado com a oportunidade de viajar para a Terra, outros abraçam uma realidade alternativa. Que vida nova eles vão escolher?",
+    "imdb_id": "tt1549572"
   },
   {
     "id": "movie-a-outra-terra-2011",
@@ -1803,7 +1839,7 @@
     "id": "movie-a-outra-zoey",
     "title": "A Outra Zoey",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/p6veNTkmZ5PuQZOY1AboPotz2Yk.jpg",
     "genres": [
       "Romance",
@@ -1890,7 +1926,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Zoey Miller, uma estudante com especialização em computação, superinteligente e desinteressada no amor romântico, tem sua vida virada de cabeça para baixo quando Zach, um popular jogador de futebol universitário, fica com amnésia e confunde Zoey com a sua namorada.",
+    "imdb_id": "tt11951276"
   },
   {
     "id": "movie-a-outra-zoey-2023",
@@ -1934,7 +1972,7 @@
     "id": "movie-a-ouvinte",
     "title": "A Ouvinte",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/dnkZEcD7VuCHoqhkaAuAGrXhpAd.jpg",
     "genres": [
       "Drama"
@@ -2021,13 +2059,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt15669314"
+    "imdb_id": "tt15669314",
+    "overview": "Acompanha uma voluntária da central de ajuda que faz parte do pequeno exército que atende ao telefone todas as noites, recebendo ligações de todos os tipos de pessoas que se sentem sozinhas, desamparadas."
   },
   {
     "id": "movie-a-ovelha-negra",
     "title": "A Ovelha Negra",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/i39l8ypKLtJKE41YApJTIvmo7A4.jpg",
     "genres": [
       "Drama"
@@ -2048,15 +2087,19 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Na Islândia, a população de ovelhas é maior que a de seres humanos. Os animais têm grande importância no país, em boa parte composto por grandes fazendas destinadas a criá-los. Um dia, após ser derrotado no concurso anual do melhor cordeiro, o fazendeiro Gummi (Sigurour Sigurjónsson) decide investigar o animal vencedor e logo desconfia que ele tenha scrapie, uma doença contagiosa entre os animais. Quando a ameaça se confirma, todas as fazendas das redondezas são obrigadas a matar suas ovelhas, o que para muitos é considerado uma verdadeira tragédia. Só que, decidido a proteger seus animais prediletos, Gummi elabora um plano para que eles escapem da matança.",
+    "imdb_id": "tt3296658"
   },
   {
     "id": "movie-a-ovelha-negra-1996",
     "title": "A Ovelha Negra (1996)",
     "type": "movie",
     "year": "1996",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/ihGI8Gldygi49hV62mKa850H3Gf.jpg",
+    "genres": [
+      "Comédia"
+    ],
     "tmdb_id": "13997",
     "sources": [
       {
@@ -2068,7 +2111,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Candidato ao governo do estado, Al (Tim Matheson) tem uma grande pedra no caminho: seu irmão Mike (Chris Farley), um trapalhão de primeira. É quando o comitê decide encontrar alguém para levar Mike para longe, durante a campanha. Para mantê-lo longe de problemas, Al obriga um de seus assessores, Steve Dodds (David Spade), a ficar de olho nele durante a eleição. Mas a concorrente de Al sabe que só precisa trazer Mike de volta, para vencer o pleito.",
+    "imdb_id": "tt0115697"
   },
   {
     "id": "movie-a-paisana-2025",
@@ -2163,7 +2208,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt27550504"
+    "imdb_id": "tt27550504",
+    "overview": "Durante a festa de Ano-Novo de sua mãe, Lucas, um jovem policial, perde uma carta que nunca deveria ser lida. Em meio ao sufocante ambiente familiar, a busca por essa mensagem desperta memórias de um passado que ele tenta deixar para trás. Meses antes, Lucas trabalhava disfarçado no banheiro de um shopping e prendia homens depois de seduzi-los. Porém, quando conhece Andrew, tudo muda. O que seria uma armadilha para prendê-lo acaba se transformando em algo muito mais inquietante e profundo. Esse vínculo secreto entre os dois se intensifica enquanto a pressão da polícia para realizar novas prisões aumenta, deixando Lucas dividido entre o dever e o desejo. Com o tempo se esgotando e o passado em seu encalço, a celebração de Ano-Novo vira um acerto de contas no qual tudo o que foi reprimido ameaça vir à tona."
   },
   {
     "id": "movie-a-paixao-de-cristo-2004",
@@ -2262,13 +2308,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt0335345"
+    "imdb_id": "tt0335345",
+    "overview": "As últimas 12 horas da vida de Jesus de Nazaré. No meio da noite, Jesus é traído por Judas e preso por soldados no Monte das Oliveiras, sob o comando de religiosos hebreus, liderados por Caifás. Após ser severamente espancado pelos seus captores, Jesus é entregue para o governador romano na Judéia, Poncio Pilatos, que não entende o que aquele homem possa ter feito de tão horrível para pedirem a pena máxima."
   },
   {
     "id": "movie-a-paixao-de-billu",
     "title": "A Paixão de Billu",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/qKHZwJ6RoklVq1pWWJ3XfxBZ3Ub.jpg",
     "genres": [
       "Drama"
@@ -2283,7 +2330,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma loja vira um grande sucesso quando rapazes vão até lá atrás de uma garota. O dono está cheio de grana, mas seu coração está partido.",
+    "imdb_id": "tt8747450"
   },
   {
     "id": "movie-a-paixao-de-billu-2020",
@@ -2309,7 +2358,7 @@
     "id": "movie-a-paixao-de-jacobina",
     "title": "A Paixão de Jacobina",
     "type": "movie",
-    "year": null,
+    "year": "2002",
     "poster_url": "/rULAqgi2xhmUAtQDaTp9GPoxccN.jpg",
     "genres": [
       "Drama"
@@ -2345,13 +2394,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Em meados de 1870, Jacobina, filha de imigrantes alemães, se torna líder de uma seita que acredita na cura do corpo pela da limpeza da alma. Após ter uma visão divina e ter falado com Jesus, ela muda a sua aparência e seus modos, incomodando a população conservadora do local. Após a morte de opositores à sua seita, as autoridades locais decidem agir contra ela e seus seguidores.",
+    "imdb_id": "tt0293484"
   },
   {
     "id": "movie-a-paixao-de-jl",
     "title": "A Paixão de JL",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/eFvErfLXK0ADRWwNpbmmcVptWW6.jpg",
     "genres": [
       "Documentário"
@@ -2387,13 +2438,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O artista José Leonilson começou em 1990 a narrar em fitas cassetes um diário sobre a sua vida e os acontecimentos no Brasil e no mundo, como a queda do Muro de Berlim. À Princípio, sem intenções, os registros tomam outra urgência quando José descobre que é portador do HIV.",
+    "imdb_id": "tt5523168"
   },
   {
     "id": "movie-a-paixao-segundo-g-h",
     "title": "A Paixão Segundo G.H.",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/wC7UzQaGQ7rKyMAC4Umx6gqglK.jpg",
     "genres": [
       "Drama"
@@ -2468,13 +2521,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt11687126"
+    "imdb_id": "tt11687126",
+    "overview": "G.H. é uma mulher moradora de Copacabana, no Rio de Janeiro. Quando demite sua empregada, ela decide imediatamente fazer uma limpeza no quarto de serviço, presumindo que o encontrará sujo e cheio de tralhas. Lá ela mata uma barata e acaba mergulhando em uma reflexão existencial, contemplando a perda de sua identidade."
   },
   {
     "id": "movie-a-palavra",
     "title": "A Palavra",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/sSFtJytLcrQp21jaLDi845e8Ecs.jpg",
     "genres": [
       "Drama"
@@ -2541,7 +2595,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A história bíblica de Eliseu e Elias nos dias de hoje e tem como palco o sertão Pernambucano. Personagens do Antigo Testamento são envolvidos em dilemas do Brasil de hoje, como esquemas de corrupção, jogos de intrigas e ambição.  Português - Brasil",
+    "imdb_id": "tt4433630"
   },
   {
     "id": "movie-a-palavra-2025",
@@ -2583,7 +2639,7 @@
     "id": "movie-a-palavra-de-pablo",
     "title": "A Palavra de Pablo",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/4fSD3wa1FNDIwBwAXjlUImjk7dq.jpg",
     "genres": [
       "Suspense",
@@ -2638,7 +2694,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Inspirado no Otelo de Shakespeare, esse drama com toques de filme noir traz mistura instigante de luxúria, engano e morte para contar a história de uma família quebrada. Pablo, um homem contrariado e consumido pela inveja, se enreda em mentiras para convencer o pai da infidelidade de sua jovem namorada, arrastando todos ao seu redor para um desfecho trágico e destrutivo.",
+    "imdb_id": "tt5594352"
   },
   {
     "id": "movie-a-palavra-de-pablo-2017",
@@ -2786,7 +2844,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt17495872"
+    "imdb_id": "tt17495872",
+    "overview": "Jennifer Ashgrove é uma cientista tentando encontrar a cura para um vírus que infectou a água do planeta. Mas o futuro da humanidade depende de sua capacidade em salvar o seu casamento."
   },
   {
     "id": "movie-a-pantera-cor-de-rosa-2006",
@@ -2839,7 +2898,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Jacques Clouseau é um atrapalhado policial francês, que trabalha em uma pequena cidade. Após ser chamado a Paris pelo inspetor-chefe Dreyfus, Clouseau é promovido a inspetor e fica encarregado de investigar a morte de Yves Gluant, técnico de um time de futebol local. Logo após a morte de Gluant, foi roubado dele o diamante conhecido como Pantera Cor-de-Rosa, que estava em um anel. O plano de Dreyfus é usar Clouseau para que ele chame a atenção da mídia, enquanto que outros inspetores, mais gabaritados, trabalhem para resolver o caso. Entretanto, juntamente com seu parceiro Gilbert Ponton e sua secretária Nicole, Clouseau inesperadamente chega perto do assassino.",
+    "imdb_id": "tt0383216"
   },
   {
     "id": "movie-a-pantera-cor-de-rosa-2-2009",
@@ -2889,13 +2950,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quando famosos tesouros ao redor do mundo são roubados, entre eles o lendário diamante Pantera Cor-de-Rosa, o inspetor-chefe Dreyfus (John Cleese) é obrigado a convocar o inspetor Jacques Clouseau (Steve Martin) para integrar uma equipe internacional de investigação. Para realizar o trabalho Clouseau conta com a ajuda de seu parceiro Ponton (Jean Reno) e de Nicole (Emily Mortimer), por quem sente-se atraído.",
+    "imdb_id": "tt0838232"
   },
   {
     "id": "movie-a-paranoia-de-lulu",
     "title": "A Paranoia de Lulu",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/pZtTmf67sxOyYBSjX9TGIZXQpeD.jpg",
     "genres": [
       "Suspense"
@@ -2962,13 +3025,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após uma festa, Lulu acaba no hospital e, enquanto está lá, vê uma garota chorando. Quando ela desperta, percebe que a menina desapareceu. A partir desse momento, a vida de Lulu muda, como se algo estivesse sempre a perseguindo.",
+    "imdb_id": "tt29734011"
   },
   {
     "id": "movie-a-paris-errada",
     "title": "A Paris Errada",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/nMhG3Gt2qyQWoKRqsaXWQ1tnlL4.jpg",
     "genres": [
       "Romance",
@@ -3072,7 +3137,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 4
+    "source_candidates_skipped": 4,
+    "overview": "Dawn entra em um reality achando que será em Paris, na França, mas descobre que é em Paris, no Texas. Ela faz de tudo para sair, mas um caubói atrapalha os planos.",
+    "imdb_id": "tt33039440"
   },
   {
     "id": "movie-a-paris-errada-2025",
@@ -3121,7 +3188,7 @@
     "id": "movie-a-parte-do-mundo-que-me-pertence",
     "title": "A Parte do Mundo Que Me Pertence",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/urmVhbXiks2LEcahbVLhcnasZyn.jpg",
     "genres": [
       "Documentário"
@@ -3163,13 +3230,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um documentário sobre os sonhos e desejos de pessoas comuns. Este filme mostra o dia a dia de várias pessoas, pensando no que nos move diariamente: felicidade, reconhecimento, estabilidade financeira, casamento, saúde, diversão, alguns quilos a menos, prazer, ambição ou até mesmo uma simples pipa.",
+    "imdb_id": "tt7656170"
   },
   {
     "id": "movie-a-partida-do-seculo",
     "title": "A Partida do Século",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/texn1rrcVo6P04jXd3QOvIl56gc.jpg",
     "genres": [
       "Drama"
@@ -3230,13 +3299,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Em 1978, o jovem e ambicioso campeão de xadrez soviético Anatoly Karpov deve defender seu título contra um ex-mentor e desertor do Ocidente, Viktor Korchnoi. O confronto se torna a partida de campeonato mais dramática da história do xadrez.",
+    "imdb_id": "tt13930782"
   },
   {
     "id": "movie-a-partida-final",
     "title": "A Partida Final",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/k58OkwuRjQRnjeKtNySAsSY8o3Y.jpg",
     "genres": [
       "Documentário"
@@ -3251,7 +3322,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Diante do fim inevitável, pacientes terminais conhecem profissionais de saúde extraordinários determinados a mudar a nossa percepção sobre a vida e a morte.",
+    "imdb_id": "tt7879350"
   },
   {
     "id": "movie-a-partida-final-2018",
@@ -3277,7 +3350,7 @@
     "id": "movie-a-partilha",
     "title": "A Partilha",
     "type": "movie",
-    "year": null,
+    "year": "2001",
     "poster_url": "/iRJo3MdzhfS4dkiMjGv2zdOZfFG.jpg",
     "genres": [
       "Comédia",
@@ -3346,7 +3419,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Reunidas para o enterro da mãe, quatro irmãs - Selma (Glória Pires), Regina (Andréa Beltrão), Laura (Paloma Duarte) e Lúcia (Lílian Cabral) - se vêem obrigadas a discutir a divisão entre elas de um amplo apartamento em Copacabana e os móveis contidos nele. A partir da discussão em torno da partilha de bens as quatro irmãs passam a confrontar entre si suas opções de vida, já que todas seguiram caminhos bem diferentes. Selma, casada com um militar (Herson Capri), vive uma vida disciplinada na Tijuca, seu bairro do coração, enquanto que Regina é liberada e exotérica, tendo uma visão alto astral da vida. Já Lúcia teve a coragem de abandonar um casamento convencional e seu filho (Thiago Fragoso) a fim de viver um grande amor em Paris, enquanto que Laura se tornou uma intelectual sisuda e que surpreende as irmãs com suas opções. Juntas, as quatro fazem um balanço do passado e dos bons momentos que tiveram juntas, sendo obrigadas ainda a enfrentar as novas situações que o cotidiano lhe impõe.",
+    "imdb_id": "tt0287625"
   },
   {
     "id": "movie-a-partilha-2022",
@@ -3427,13 +3502,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Martin é um pragmático que fez todas as escolhas para ter uma vida aceitável, mas se sente desconectado, especialmente de seu pai, Kenneth, um homem distante que Martin nunca conseguiu entender. O relacionamento deles ficou mais complicado quando Kenneth se assumiu gay depois que sua esposa morreu.",
+    "imdb_id": "tt8740320"
   },
   {
     "id": "movie-a-passagem",
     "title": "A Passagem",
     "type": "movie",
-    "year": null,
+    "year": "2005",
     "poster_url": "/1DY1nYZEgVCBux3dqdNk3fnlIM6.jpg",
     "genres": [
       "Mistério",
@@ -3532,7 +3609,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "O psicólogo Sam Foster estuda o caso de um paciente que pretende se suicidar. As terríveis profecias do rapaz começam a se realizar e, enquanto tenta salvá-lo, Sam também lida com questões pessoais e dolorosas.",
+    "imdb_id": "tt0371257"
   },
   {
     "id": "movie-a-passagem-2005",
@@ -3576,7 +3655,7 @@
     "id": "movie-a-passarela-da-rainha",
     "title": "A Passarela da Rainha",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/tbfDbnGnGfoKJJAGbJU4SH19FU0.jpg",
     "genres": [
       "Documentário"
@@ -3624,13 +3703,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Por trás da coroa e longe dos holofotes, jovens ambiciosas encaram uma competição acirrada e grandes sacrifícios para se tornar a próxima Miss Universo Filipinas.",
+    "imdb_id": "tt30868885"
   },
   {
     "id": "movie-a-pata-de-um-milhao-de-dolares",
     "title": "A Pata de Um Milhão de Dólares",
     "type": "movie",
-    "year": null,
+    "year": "1971",
     "poster_url": "/8pFtpO9XKMEvKyieLNOjxqBHypz.jpg",
     "genres": [
       "Comédia",
@@ -3692,7 +3773,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A esposa de um cientista fracassado e endividado vive fazendo maravilhosos quitutes pra vender. Sua especialidade é uma espécie de torta de maçã. Certo dia, uma pata \"passeava\" pelo laboratório do cientista e \"prova\" o tal doce de maçã e, misteriosamente, começa a botar ovos de ouro.",
+    "imdb_id": "tt0066728"
   },
   {
     "id": "movie-a-pata-de-um-milhao-de-dolares-1971",
@@ -3735,7 +3818,7 @@
     "id": "movie-a-patinadora",
     "title": "A Patinadora",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/82aAFlpqfnsxCkignoyyshIgtfB.jpg",
     "genres": [
       "Suspense",
@@ -3821,13 +3904,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma jovem patinadora é encontrada desacordada em uma rodovia da Finlândia. Apesar de ter um futuro brilhante pela frente, ela descobrirá que não é possível fugir de seu passado.",
+    "imdb_id": "tt9587950"
   },
   {
     "id": "movie-a-patrulha-das-almas",
     "title": "A Patrulha das Almas",
     "type": "movie",
-    "year": null,
+    "year": "2002",
     "poster_url": "/maAQ6mCdqZW0bRgWo5HL7mmZgQQ.jpg",
     "genres": [
       "Fantasia",
@@ -3844,7 +3929,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Os irmãos Ian e Claire Carlyle fazem uma triste viagem para Steeple Falls, para arrumar as coisas de seu falecido avô. Lá eles descobrem que a cidade é o lar de fantasmas que não podem ir para o céu até se redimirem.",
+    "imdb_id": "tt0313634"
   },
   {
     "id": "movie-a-patrulha-das-almas-2002",
@@ -3907,7 +3994,7 @@
     "id": "movie-a-pedra-da-serpente",
     "title": "A Pedra da Serpente",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/8c8pMd6M6zBsOqF82lG7niLB9xt.jpg",
     "genres": [
       "Ficção científica",
@@ -3984,7 +4071,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Após ter perdido um bebê nos últimos meses de gestação, Joana tira férias em Peruíbe, uma pequena cidade litorânea conhecida por aparições de discos voadores. Depois de uma noite de sexo com um desconhecido, ela atropela e mata um homem. Joana inicia uma estranha relação com Maria, esposa do homem que atropelou, e se vê envolvida em uma trama sobre uma abdução alienígena.",
+    "imdb_id": "tt8356674"
   },
   {
     "id": "movie-a-pedra-da-serpente-2019",
@@ -4030,7 +4119,7 @@
     "id": "movie-a-pedra-magica",
     "title": "A Pedra Mágica",
     "type": "movie",
-    "year": null,
+    "year": "2009",
     "poster_url": "/ry3eJ1mfV5fqe0I7dIi5c5VENjh.jpg",
     "genres": [
       "Família",
@@ -4049,7 +4138,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A grande maioria da população de Black Falls trabalha na Black Box Unlimited Worldwide Industries Incorporated, cujo aparelho Black Box tornou-se uma febre no mundo inteiro. Entretanto esta situação pouco afeta Toe Thompson (Jimmy Bennett), um garoto de 11 anos que apenas deseja ter alguns amigos. Um dia ele encontra uma pedra com as cores do arco-íris, que misteriosamente caiu do céu. A partir de então tudo muda para Toe, já que a pedra permite que os desejos de quem a segure sejam realizados. Logo ela roda pela vizinhança, tornando-se perigosa quando chega às mãos dos adultos.",
+    "imdb_id": "tt1100119"
   },
   {
     "id": "movie-a-pedra-magica-2009",

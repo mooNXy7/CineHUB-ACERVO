@@ -362,7 +362,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um grupo de estudantes universitários se aventuram na floresta de Black Hills para desvendar os mistérios que cercam o desaparecimento da irmã de James, que muitos acreditam estar ligado à lenda da Bruxa de Blair. No início, o grupo está esperançoso, especialmente quando uma dupla de moradores se oferecem para guia-los na floresta. Mas com o cair da noite, o grupo é surpreendido por uma presença ameaçadora e lentamente, eles começam a perceber que a lenda é real e muito mais sinistra do que imaginaram.",
+    "imdb_id": "tt1540011"
   },
   {
     "id": "movie-bruxarias",
@@ -4023,8 +4025,11 @@
     "title": "Busca Alucinante (2013)",
     "type": "movie",
     "year": "2013",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/kvsfS8BvCslGATSc4vzVlxfCFkG.jpg",
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
     "tmdb_id": "199420",
     "sources": [
       {
@@ -4036,7 +4041,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em busca de uma aliança de casamento perdida, um homem acaba se envolvendo em uma aventura inesperada envolvendo anões, palhaços com arco e flecha, drogados, skinheads, mulheres zumbis e um cover de Elvis.",
+    "imdb_id": "tt1741243"
   },
   {
     "id": "movie-busca-de-vinganca",

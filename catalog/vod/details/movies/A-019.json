@@ -40,7 +40,7 @@
     "id": "movie-a-maldicao-de-chucky",
     "title": "A Maldicao De Chucky",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/uR9Pa7yed4fL73oxqd0xW3K1gDH.jpg",
     "genres": [
       "Terror",
@@ -108,7 +108,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Depois do suicídio de sua mãe, Nica recebe a visita de sua autoritária irmã Barb, que pretende ajudar nos arranjos do funeral. Sua filha traz um boneco ruivo que chegou curiosamente pelos correios. Quando uma série de assassinatos aterrorizam a vizinhança, Nica começa a suspeitar que o brinquedo tenha alguma relação com estes fatos, mas não sabe que Chucky está de volta para resolver casos pessoais de mais de vinte anos atrás.",
+    "imdb_id": "tt2230358"
   },
   {
     "id": "movie-a-maldicao-de-isabelle-2019",
@@ -301,7 +303,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Jane Marple resolve o mistério de quando uma mulher local é envenenado e uma estrela de cinema visitante parece ter sido a vítima.",
+    "imdb_id": "tt0081163"
   },
   {
     "id": "movie-a-maldicao-do-espelho-2019",
@@ -636,7 +640,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Billy Halleck é um advogado influente que leva uma vida perfeita - com exceção da dificuldade em emagrecer. Um dia, ele atropela e mata uma cigana e, sendo absolvido do crime por suas ligações profissionais, é amaldiçoado pelo pai da vítima a emagrecer cada vez mais até morrer.",
+    "imdb_id": "tt0117894"
   },
   {
     "id": "movie-a-maldicao-2021",
@@ -698,7 +704,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt5737388"
+    "imdb_id": "tt5737388",
+    "overview": "Inspirado no folclore do Leste Europeu, uma traição impensável leva a uma maldição maléfica colocada sobre a linhagem de uma família. Décadas depois, um casamento une a próxima geração de famílias distantes. Quando um deles desperta inconscientemente uma força negra que começa a eliminá-los um por um, Hana, a matriarca da linhagem de hoje, deve descobrir quem está trabalhando contra eles antes que a maldição sangrenta tome conta deles para sempre."
   },
   {
     "id": "movie-a-maldicao-2022",
@@ -804,7 +811,7 @@
     "id": "movie-a-maldicao-da-bruxa",
     "title": "A Maldição da Bruxa",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/eNZmedLm117ei3nTiYI0BZ3v7NI.jpg",
     "genres": [
       "Terror",
@@ -885,7 +892,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Paranoia e Superstição na Europa no Século 15.  Um jovem criador de cabras nos Alpes do século XV, após a morte traumatizante de sua mãe, começa a sentir uma presença na escuridão.",
+    "imdb_id": "tt7323600"
   },
   {
     "id": "movie-a-maldicao-da-bruxa-2018",
@@ -929,7 +938,7 @@
     "id": "movie-a-maldicao-da-casa-do-lago",
     "title": "A Maldição da Casa do Lago",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/paYn2J2lcrMwkYK6Uqq7KHTUxc2.jpg",
     "genres": [
       "Terror"
@@ -944,7 +953,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma família se muda para uma casa no lago que não foi vendida devido ao brutal e ritualístico assassinato de uma família anos atrás. Logo, eles percebem que um mal adormecido despertou, uma força possessiva que tem predado famílias desavisadas como a deles por séculos.",
+    "imdb_id": "tt6333200"
   },
   {
     "id": "movie-a-maldicao-da-casa-do-lago-2017",
@@ -970,7 +981,7 @@
     "id": "movie-a-maldicao-da-casa-usher",
     "title": "A Maldição da Casa Usher",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/876Hnx0M7rXHcoDaAG92dN58CbQ.jpg",
     "genres": [
       "Terror",
@@ -1044,7 +1055,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "A família Usher foi amaldiçoada pela loucura e pelo amor não correspondido. Roderick Usher retorna a casa de sua família ao saber que seu pai está doente. Mas as coisas começam a sair do controle após receber a visita de sua namorada, que fará de tudo para tirá-lo daquele lugar macabro.",
+    "imdb_id": "tt10657992"
   },
   {
     "id": "movie-a-maldicao-da-casa-usher-2021",
@@ -1130,7 +1143,7 @@
     "id": "movie-a-maldicao-da-fazenda-grady",
     "title": "A Maldição da Fazenda Grady",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/fja6GIKIhgH0z27j49v5OIOApkg.jpg",
     "genres": [
       "Terror"
@@ -1235,7 +1248,7 @@
     "id": "movie-a-maldicao-da-floresta",
     "title": "A Maldição da Floresta",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/g0jIXTio4LMMSjppTHbcYPawews.jpg",
     "genres": [
       "Terror",
@@ -1291,7 +1304,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O longa conta a história de uma família inglesa que vai morar em uma parte isolada da Irlanda. O intuito do pai é estudar a floresta para futuras construções. Mas sua ação acaba perturbando seres demoníacos que vivem no local e começam uma série de ataques contra a família.",
+    "imdb_id": "tt2474976"
   },
   {
     "id": "movie-a-maldicao-da-freira-2018",
@@ -1397,13 +1412,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt21962086"
+    "imdb_id": "tt21962086",
+    "overview": "Um grupo de alunos testa um jogo de terror de realidade aumentada em uma universidade supostamente assombrada, liberando algo sinistro e extremamente real."
   },
   {
     "id": "movie-a-maldicao-da-primeira-colheita",
     "title": "A Maldição da Primeira Colheita",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/eOPXRsQjIZ4Fm6TWpG5V5VP4zJp.jpg",
     "genres": [
       "Drama",
@@ -1491,13 +1507,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt10042482"
+    "imdb_id": "tt10042482",
+    "overview": "Na primeira noite da colheita, três irmãos vão para o deserto para ver o cadáver de uma bruxa, mas acidentalmente profanam o corpo, trazendo terríveis consequências."
   },
   {
     "id": "movie-a-maldicao-da-sereia",
     "title": "A Maldição da Sereia",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/2cjgA1jdZXfDhLx7mdfNW22Eua2.jpg",
     "genres": [
       "Terror",
@@ -1561,7 +1578,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma sereia é arrancada do Pacífico, seu rabo é cortado e ela é jogada em um lar psíquico, onde ninguém acredita que ela é uma sereia.",
+    "imdb_id": "tt3584496"
   },
   {
     "id": "movie-a-maldicao-da-sereia-2019",
@@ -1606,7 +1625,7 @@
     "id": "movie-a-maldicao-da-torre",
     "title": "A Maldição da Torre",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/jqzTf5VxtmJ3YMX6ScgWAQcwNTc.jpg",
     "genres": [
       "Terror",
@@ -1686,7 +1705,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando os restos mortais de dois príncipes assassinados são descobertos na Torre de Londres, um padre perturbado deve deixar suas crenças de lado para fazer amizade com um prisioneiro misterioso, que tem poderes sobrenaturais para se comunicar com os mortos. Juntos, eles devem resolver o mistério de quem assassinou os príncipes, enquanto os prisioneiros na masmorra do castelo encontram seus destinos sangrentos nas mãos dos fantasmas dos príncipes, que continuam a assombrar o castelo em busca de vingança.",
+    "imdb_id": "tt15007046"
   },
   {
     "id": "movie-a-maldicao-da-torre-2022",
@@ -1735,7 +1756,7 @@
     "id": "movie-a-maldicao-das-aranhas",
     "title": "A Maldição das Aranhas",
     "type": "movie",
-    "year": null,
+    "year": "1977",
     "poster_url": "/jSS5ldDBddLLcq7uZ5T976ehJmz.jpg",
     "genres": [
       "Terror",
@@ -1751,7 +1772,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Numa pacata cidade do Texas, um veterinário e um bióloga lutam para conter o avanço de uma infestação de tarântulas que passaram a ter seu comportamento alterado devido a ação humana. Elas passaram a avançar sobre a cidade e a atacar humanos e animais causando pavor e morte por onde passam.",
+    "imdb_id": "tt0076271"
   },
   {
     "id": "movie-a-maldicao-das-aranhas-1977",
@@ -1777,7 +1800,7 @@
     "id": "movie-a-maldicao-das-bruxas",
     "title": "A Maldição das Bruxas",
     "type": "movie",
-    "year": null,
+    "year": "1996",
     "poster_url": "/uX8gPqlnhJYGtMwQ3IeLk5ffJ8r.jpg",
     "genres": [
       "Drama",
@@ -1793,7 +1816,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0116897"
   },
   {
     "id": "movie-a-maldicao-das-bruxas-1996",
@@ -1819,7 +1843,7 @@
     "id": "movie-a-maldicao-de-audrey",
     "title": "A Maldição de Audrey",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/wHN7gvTBvqFiM4nhEjjqFpR0JV7.jpg",
     "genres": [
       "Terror",
@@ -1899,7 +1923,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Em 1973, Audrey, uma jovem bela e enigmática, e Agatha, sua mãe dominadora, vivem secretamente como ocultistas nos arredores de uma remota aldeia de devotos protestantes.",
+    "imdb_id": "tt7157146"
   },
   {
     "id": "movie-a-maldicao-de-audrey-2020",
@@ -1942,7 +1968,7 @@
     "id": "movie-a-maldicao-de-bridge-hollow",
     "title": "A Maldição de Bridge Hollow",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/f4hdxB3gErjNJtfWBU9rMdhiNbU.jpg",
     "genres": [
       "Comédia",
@@ -2003,13 +2029,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Pai e filha unem forças para salvar a cidade quando um espírito travesso faz com que as decorações de Halloween ganhem vida e espalhem o caos.",
+    "imdb_id": "tt15289240"
   },
   {
     "id": "movie-a-maldicao-de-carrie",
     "title": "A Maldição de Carrie",
     "type": "movie",
-    "year": null,
+    "year": "1999",
     "poster_url": "/cYyVRSZZohW9lxXU1XTTzde6Vca.jpg",
     "genres": [
       "Terror",
@@ -2026,7 +2054,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Há vinte e três anos a telecinética Carrie White foi humilhada em um baile no seu colégio. Carrie foi tomada de um ódio tão intenso que imaginou que todos debochavam dela, quando na verdade apenas alguns a estavam humilhando. Usando seus poderes paranormais, ela fechou as portas e incendeou o ginásio, matando todos, com exceção de Sue Snell (Amy Irving). Em 1999, a situação começa a se repetir, quando Rachel Lang (Emily Bergl), a meia-irmã de Carrie que também telecinética e menosprezada por seus colegas, está prestes a ir em um baile sem que ninguém tenha idéia de seus poderes. Entretanto, Sue Snell, que agora conselheira da escola, desconfia que Rachel tem o mesmo dom de Carrie e teme que uma tragédia similar possa acontecer, tentando inutilmente advertir Rachel sobre isto. Paralelamente, alguns alunos do colégio planejam para a noite do baile algo que Rachel nunca vai esquecer, sem imaginar que eles vão morrer antes que esta mesma noite termine.",
+    "imdb_id": "tt0144814"
   },
   {
     "id": "movie-a-maldicao-de-carrie-1999",
@@ -2141,13 +2171,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt27819388"
+    "imdb_id": "tt27819388",
+    "overview": "Baseado no mesmo conto popular que a Disney atualizou e popularizou para crianças na década de 1950. Desta vez, uma pequena adaptação da história coloca Cinderela e todos ao seu redor dentro de uma bola sangrenta que eles nunca esquecerão."
   },
   {
     "id": "movie-a-maldicao-de-downers-grove",
     "title": "A Maldição de Downers Grove",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/fTpYTV0a23Diw344tE199bIHo7l.jpg",
     "genres": [
       "Suspense",
@@ -2165,7 +2196,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Nesse suspense angustiante, uma escola de ensino médio parece ser vítima de uma maldição que reivindica a vida de um formando a cada ano. Em sua última semana de aulas no lugar, Chrissie, uma aluna que sempre foi cética sobre o assunto, começa a temer que ela seja a próxima vítima das mortes que se repetem anualmente.",
+    "imdb_id": "tt1772261"
   },
   {
     "id": "movie-a-maldicao-de-downers-grove-2015",
@@ -2191,7 +2224,7 @@
     "id": "movie-a-maldicao-de-frankenstein",
     "title": "A Maldição de Frankenstein",
     "type": "movie",
-    "year": null,
+    "year": "1957",
     "poster_url": "/rDqHrCas6D6mDyqUCBTJi7ZL5zX.jpg",
     "genres": [
       "Terror",
@@ -2207,7 +2240,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Enquanto aguarda execução por assassinato, o Barão Victor Frankenstein conta a história de uma criatura que ele construiu e deu vida, mas ela não se comportou como ele pretendia.",
+    "imdb_id": "tt0050280"
   },
   {
     "id": "movie-a-maldicao-de-frankenstein-1957",
@@ -2233,7 +2268,7 @@
     "id": "movie-a-maldicao-de-hannah-stevenson",
     "title": "A Maldição de Hannah Stevenson",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/uCOMiPwygEPSuUjatADcLMDoRnL.jpg",
     "genres": [
       "Fantasia",
@@ -2313,7 +2348,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Hannah e Matt, um jovem casal em suas primeiras férias juntos, descobrem rapidamente que podem não concordar. Sentindo-se como se tivesse decepcionado o namorado, Hannah pede a ajuda de uma misteriosa cigana, na esperança de que os problemas do casal possam ser superados. No entanto, quando Matt acorda e descobre que sua namorada desapareceu, as intenções sinistras da cigana tornam-se muito claras.",
+    "imdb_id": "tt11959452"
   },
   {
     "id": "movie-a-maldicao-de-hannah-stevenson-2022",
@@ -2356,7 +2393,7 @@
     "id": "movie-a-maldicao-de-helena",
     "title": "A Maldição De Helena",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/iB8rf8FYHGlrbmLybCo6Mpg8hNt.jpg",
     "genres": [
       "Terror",
@@ -2372,7 +2409,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Após passar por um divorcio, Sophia (Harriet MacMasters-Green) se muda para uma nova casa com a filha pequena, Helena (Sabrina Jolie Perez), com o objetivo de começar uma nova vida. Dentro do novo lar, elas encontram um armário com o desenho de uma bailarina, pelo qual Helena fica apaixonada. Na mesma época, a menina começa a perder seus dentes de leite e uma estranha presença passa a assombrá-las. Logo, Sophia descobre que a casa esconde uma história obscura e ela terá que lutar para salvar sua filha e manter sua sanidade.",
+    "imdb_id": "tt2378191"
   },
   {
     "id": "movie-a-maldicao-de-helena-2013",
@@ -2398,7 +2437,7 @@
     "id": "movie-a-maldicao-de-humpty-dumpty",
     "title": "A Maldição de Humpty Dumpty",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/qWIaoxdlJY83EPtWn7ykxavsLp9.jpg",
     "genres": [
       "Terror"
@@ -2413,7 +2452,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma boneca velha aparentemente volta à vida para causar estragos.",
+    "imdb_id": "tt13563580"
   },
   {
     "id": "movie-a-maldicao-de-humpty-dumpty-2021",
@@ -2439,7 +2480,7 @@
     "id": "movie-a-maldicao-de-isabelle",
     "title": "A Maldição de Isabelle",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/j45giQ0qy2rnzPuVDfP13QYIydg.jpg",
     "genres": [
       "Terror"
@@ -2512,13 +2553,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "O sonho de um jovem casal de começar uma família se quebra enquanto eles caem nas profundezas da paranóia e precisam lutar para sobreviver a uma presença maligna que não quer nada além de suas próprias vidas.",
+    "imdb_id": "tt6098380"
   },
   {
     "id": "movie-a-maldicao-de-lizzie-borden",
     "title": "A Maldição de Lizzie Borden",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/yD5z6Ha9tlgjT2EjIZeimuMH5cq.jpg",
     "genres": [
       "Documentário",
@@ -2598,13 +2641,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma maldição levou aos mais infames assassinatos a machadada da história.",
+    "imdb_id": "tt15293106"
   },
   {
     "id": "movie-a-maldicao-de-medeia",
     "title": "A Maldição de Medeia",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/iU21ibI24tpl1spmMYDlM72zELv.jpg",
     "genres": [],
     "tmdb_id": "1025186",
@@ -2706,13 +2751,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Liza, uma mãe divorciada com duas crianças para criar, conhece uma misteriosa mulher que diz que sua família é amaldiçoada e seus dois filhos correm um grande perigo. Liza se recusa a acreditar na mulher, mas após ser atormentada por estranhas visões, começa a buscar uma maneira de salvar a vida dos garotos.",
+    "imdb_id": "tt3522094"
   },
   {
     "id": "movie-a-maldicao-de-ouro",
     "title": "A Maldição De Ouro",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/61AmNxfiS5wscJuCrGkYqdwgOG2.jpg",
     "genres": [
       "Terror"
@@ -2760,13 +2807,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando uma mina de ouro assombrada é reaberta após 150 anos, uma criatura sobrenatural e horripilante foge e resolve se vingar dos habitantes de uma pequena cidade. Emitindo uma névoa capaz de paralisar suas vítimas com medo, o monstro as destrói, deixando para trás um rastro de sangue. E enquanto os moradores indefesos são assassinados e o reino do terror começa, um xerife e uma legista unem forças para encontrar um jeito de destruir a criatura antes que ela destrua a cidade.",
+    "imdb_id": "tt2327319"
   },
   {
     "id": "movie-a-maldicao-de-raven-s-hollow",
     "title": "A Maldição de Raven's Hollow",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/8N9qjYLujTFwawY95mHxQUPO1sj.jpg",
     "genres": [
       "Mistério",
@@ -2840,7 +2889,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "O cadete de West Point, Edgar Allan Poe, e quatro outros cadetes em um exercício de treinamento no interior do estado de Nova York são atraídos por uma descoberta horrível em uma comunidade esquecida, onde encontram um local que guarda um segredo assustador.",
+    "imdb_id": "tt15245390"
   },
   {
     "id": "movie-a-maldicao-de-raven-039-s-hollow-2022",
@@ -2910,7 +2961,7 @@
     "id": "movie-a-maldicao-de-rose",
     "title": "A Maldição de Rose",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/17fqc7EvBTAvc0xqrOwjgiuLa3p.jpg",
     "genres": [
       "Terror",
@@ -2984,7 +3035,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após o brutal assassinato de sua família pelas mãos de seu pai, uma veterana de guerra, Rose é enviada para morar em um convento no nordeste dos Estados Unidos. No entanto, os demônios que atormentavam seu pai, seguem despertando os pesadelos de seu passado.",
+    "imdb_id": "tt7461372"
   },
   {
     "id": "movie-a-maldicao-de-rose-2019",
@@ -3033,7 +3086,7 @@
     "id": "movie-a-maldicao-de-samantha",
     "title": "A Maldição de Samantha",
     "type": "movie",
-    "year": null,
+    "year": "1986",
     "poster_url": "/lASH7BmOwFauqVR9NHysgOS08Xr.jpg",
     "genres": [
       "Terror",
@@ -3095,7 +3148,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "No centro desta trama está o jovem Paul Conway, um pequeno gênio da ciência, recém-chegado a uma cidadezinha para estudar formas de inteligência artificial na universidade local. Uma de suas realizações de alta tecnologia chama-se \"Bee-Bee\", seu incrível robô de estimação, dotado até de voz. E uma de suas novas amigas é a encantadora vizinha Samantha. Quando trágicos acidentes lhe arrebatam \"Bee Bee\" e Samantha de uma só vez, Paul, com seu talento, decide recuperar o amor perdido. E como um moderno Dr, Frankstein, ele, descobre tarde demais que criou um monstro alucinado. Samantha vai deixando por onde passa sua marca registrada: Terror, Medo... e sangue! Tudo isso numa espirituosa combinação de susto e divertimento!",
+    "imdb_id": "tt0090917"
   },
   {
     "id": "movie-a-maldicao-de-samantha-1986",
@@ -3138,7 +3193,7 @@
     "id": "movie-a-maldicao-de-savannah",
     "title": "A Maldição de Savannah",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/dLoIGT1rCQ9IM1Oa38gwx1GFD00.jpg",
     "genres": [
       "Terror",
@@ -3225,7 +3280,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após a filha de um casal morrer afogada em sua própria casa, a família decide se mudar para Savannah, uma pequena cidade da Geórgia. Consumida pela culpa, a mãe começa a presenciar estranhos fenômenos paranormais que ela acredita serem causados pelo fantasma de sua filha.",
+    "imdb_id": "tt12574708"
   },
   {
     "id": "movie-a-maldicao-de-savannah-2022",
@@ -3275,7 +3332,7 @@
     "id": "movie-a-maldicao-de-sharon-tate",
     "title": "A Maldição de Sharon Tate",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/g6HBnMsznUcAZuGIdAAwlGxfdZF.jpg",
     "genres": [
       "Terror",
@@ -3361,13 +3418,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Sharon Tate estava no melhor momento de sua vida: tinha sido indicada ao Globo de Ouro por sua atuação no filme “O Vale da Bonecas”, era casada com um dos maiores diretores de Hollywood, Roman Polanski, e carregava na barriga seu primeiro filho. Tudo mudou quando seguidores de um culto macabro liderado por Charles Manson invadiram sua casa em Los Angeles e a esfaquearam dezesseis vezes, sem nenhuma piedade. Minutos antes de morrer, Sharon tomou consciência de todas as atrocidades que ela e seu filho estavam prestes a sofrer.",
+    "imdb_id": "tt7976208"
   },
   {
     "id": "movie-a-maldicao-de-valburga",
     "title": "A Maldição de Valburga",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/hBPCankcTQci3ZYxnuzkfPtZ2Qr.jpg",
     "genres": [
       "Terror",
@@ -3447,7 +3506,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Bojan e Marjan organizam um passeio turístico em uma mansão de Valburga, que teoricamente pertenceu ao primo do Conde Drácula. Durante a primeira visita, um personagem misterioso aparece.",
+    "imdb_id": "tt10739214"
   },
   {
     "id": "movie-a-maldicao-de-valburga-2019",
@@ -3490,7 +3551,7 @@
     "id": "movie-a-maldicao-de-villisca",
     "title": "A Maldição de Villisca",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/zqWyPODcqBGvw6FOoCWtJt6bP8T.jpg",
     "genres": [
       "Terror"
@@ -3505,7 +3566,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Na noite de junho de 1912, oito pessoas foram mortas a machadadas na pequena cidade de Villisca. Mais de um século depois, três amigos obcecados por histórias de fantasmas visitam a casa à procura de respostas.",
+    "imdb_id": "tt3320500"
   },
   {
     "id": "movie-a-maldicao-de-villisca-2017",
@@ -3531,7 +3594,7 @@
     "id": "movie-a-maldicao-do-boneco",
     "title": "A Maldição do Boneco",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/gvzB7AyfhaGzJ4aRDbEAjf2ZjdN.jpg",
     "genres": [
       "Suspense",
@@ -3605,7 +3668,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Depois da morte do pai, uma jovem problemática se muda com a família e encontra na nova casa um boneco amaldiçoado que aterroriza a vida de todos.",
+    "imdb_id": "tt9149982"
   },
   {
     "id": "movie-a-maldicao-do-boneco-2018",
@@ -3654,7 +3719,7 @@
     "id": "movie-a-maldicao-do-boneco-robert",
     "title": "A Maldição do Boneco Robert",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/gA435Cf8C3Mu9Gjqfs4IZPnSNQ.jpg",
     "genres": [
       "Terror"
@@ -3746,7 +3811,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A estudante Emily (Tiffany Ceri) tenta ganhar dinheiro trabalhando no turno da noite como faxineira no East Falls Museum. Mas, o que era tranquilo se transforma em momentos de terror quando coisas misteriosas começam a acontecer, como escutar sons de passos nos corredores vazios. Emily suspeita que uma das exposições, a assustadora boneca chamada Robert, está viva e causando todos os problemas.",
+    "imdb_id": "tt5001436"
   },
   {
     "id": "movie-a-maldicao-do-boneco-robert-2022",
@@ -3782,7 +3849,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Robert é o boneco mais assombrado do mundo. Por mais de um século, ele aterrorizou Key West, na Flórida, com uma maldição poderosa. Agora, a médium Cindy Kaza revelará os mistérios de sua origem e de sua força maligna.",
+    "imdb_id": "tt21967800"
   },
   {
     "id": "movie-a-maldicao-do-casamento-2026",
@@ -3870,13 +3939,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt29540862"
+    "imdb_id": "tt29540862",
+    "overview": "Um homem planeja realizar o casamento da irmã no palácio que herdou. Mas o passado sombrio do lugar pode acabar com a festa."
   },
   {
     "id": "movie-a-maldicao-do-colar",
     "title": "A Maldição do Colar",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/stU9sQl1DBMrGMFuExnIIOrbdWs.jpg",
     "genres": [
       "Terror",
@@ -3963,7 +4033,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Este filme de terror sobrenatural ambientado nos anos 60 acompanha os Davis, uma família aterrorizada por uma relíquia indestrutível que guarda a alma de um menino perverso, determinado a eliminar cada um de seus integrantes.",
+    "imdb_id": "tt32276246"
   },
   {
     "id": "movie-a-maldicao-do-cuco-2023",
@@ -4069,13 +4141,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt12748562"
+    "imdb_id": "tt12748562",
+    "overview": "Anna e Marc estão esperando o nascimento de seu primeiro filho e decidem trocar de casa com Olga e Hans, um casal alemão que conheceram na internet. Mas aos poucos, a vida de Anna e Marc se transforma em um pesadelo e eles começam a duvidar das reais intenções de Olga e Hans."
   },
   {
     "id": "movie-a-maldicao-do-espelho",
     "title": "A Maldição do Espelho",
     "type": "movie",
-    "year": null,
+    "year": "1985",
     "poster_url": "/yIolMf9VRsEOzLok8H808pODNJy.jpg",
     "genres": [
       "Mistério",
@@ -4131,7 +4204,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt0089640"
   },
   {
     "id": "movie-a-maldicao-do-poco-2020",
@@ -4182,13 +4256,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Na Índia, um espírito com sede de vingança assombra um vilarejo com um passado obscuro. Agora, só uma menina de dez anos pode acabar com a maldição.",
+    "imdb_id": "tt10235600"
   },
   {
     "id": "movie-a-maldicao-do-quarto-203",
     "title": "A Maldição do Quarto 203",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/rVMZU956t7UASJ564shWckwFboJ.jpg",
     "genres": [
       "Terror"
@@ -4261,7 +4337,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Duas melhores amigas e colegas de quarto estão aterrorizadas com os espíritos vingativos que moram em seu apartamento.",
+    "imdb_id": "tt12283036"
   },
   {
     "id": "movie-a-maldicao-do-quarto-203-2022",
@@ -4410,13 +4488,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt3463938"
+    "imdb_id": "tt3463938",
+    "overview": "Explora os incidentes misteriosos e violentos que ocorreram durante o cruzeiro de uma família na noite de Halloween em 1938, e como esses eventos se conectam ao destino de outra família no mesmo navio até os dias atuais."
   },
   {
     "id": "movie-a-maldicao-do-titanic",
     "title": "A Maldição do Titanic",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/rA4irW4Pf9kntxTqv9rtlYZFzD9.jpg",
     "genres": [
       "Mistério",
@@ -4497,13 +4576,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Depois que um navio de cruzeiro gigante navega sobre o local do desastre do Titanic, eventos sombrios e mortais começam a ocorrer a bordo. Quando o capitão do navio investiga as trágicas ocorrências, torna-se claro que os passageiros do Titanic original voltaram.",
+    "imdb_id": "tt18394428"
   },
   {
     "id": "movie-a-maldicao-do-tubarao",
     "title": "A Maldição do Tubarão",
     "type": "movie",
-    "year": null,
+    "year": "2026",
     "poster_url": "/8dnJvqZ2e2C2MxfBlq0E9FjKPsY.jpg",
     "genres": [
       "Terror",
@@ -4577,7 +4658,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando uma equipe de biologia marinha explora a atividade incomum de tubarões na América Central, eles descobrem a terrível verdade por trás de uma lenda da ilha.",
+    "imdb_id": "tt43706619"
   },
   {
     "id": "movie-a-maldicao-dos-brinquedos",
@@ -4644,13 +4727,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Nesta quinta parte da série, o jovem cientista Rick Myers e os sobreviventes do filme anterior lutam contra demônios vindos de uma dimensão paralela, ajudados pelos bonecos assassinos, agora bonzinhos, e pelo espírito do \"mestre dos brinquedos\" Toulon.",
+    "imdb_id": "tt0132451"
   },
   {
     "id": "movie-a-maldicao-dos-esquecidos",
     "title": "A Maldição dos Esquecidos",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/3LSwj9bxaNCPVIBShpgwzTZNalt.jpg",
     "genres": [
       "Terror"
@@ -4741,13 +4826,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Dois irmãos, Angela e Jackson, formam uma parceria aplicando golpes como \"caça-fantasmas\". Em explorando o sofrimento e vulnerabilidade dos enlutados, a dupla convence seus alvos de que Angela tem a capacidade de fazer contato com os mortos.",
+    "imdb_id": "tt2386237"
   },
   {
     "id": "movie-a-maldicao-dos-minimoys",
     "title": "A Maldição dos Minimoys",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/4wCq8o9ucebeYhPpspGUoRkJov5.jpg",
     "genres": [
       "Terror",
@@ -4835,13 +4922,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt19783626"
+    "imdb_id": "tt19783626",
+    "overview": "Alex é fã da saga - Arthur e os Minimoys - desde criança. No seu aniversário, seus amigos decidem surpreendê-lo com uma visita à casa onde o filme foi gravado, sem saber que a aventura rapidamente se transformará em uma armadilha mortal."
   },
   {
     "id": "movie-a-maldicao-dos-templarios",
     "title": "A Maldição dos Templários",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/tzIWVbyWldJKxL9J9YWNLknrqAq.jpg",
     "genres": [
       "Terror"
@@ -4914,7 +5002,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "No século XIV, um grupo de cavaleiros templários é capturado durante um ritual satanista e juram vingança antes de serem executados pelos moradores locas.",
+    "imdb_id": "tt7802180"
   },
   {
     "id": "movie-a-maldicao-dos-templarios-2019",
@@ -4962,7 +5052,7 @@
     "id": "movie-a-maldicao-tropical",
     "title": "A Maldição Tropical",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/nUFOTMGDKHgkToHpM4fjZsrYdTA.jpg",
     "genres": [],
     "tmdb_id": "463136",
@@ -4975,7 +5065,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma ficção científica do passado. Uma fricção entre dois projetos de nação forjados para o Brasil em meados do século XX: um imaginário tropical, personificado por Carmen Miranda e um modernismo tardio que se instaurou no Brasil no fim dos anos 50 e no início dos 60, corporificado no Rio de Janeiro pelo Parque do Flamengo.",
+    "imdb_id": "tt6866390"
   },
   {
     "id": "movie-a-maldicao-tropical-2016",
@@ -5001,7 +5093,7 @@
     "id": "movie-a-maldicao-despertar-dos-mortos",
     "title": "A Maldição: Despertar dos Mortos",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/k3IgF9W8ZD6BBdz2bljQAHydFCe.jpg",
     "genres": [
       "Suspense",
@@ -5076,13 +5168,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma série de assassinatos é cometida por mortos-vivos. No primeiro caso, o corpo do suspeito é encontrado ao lado da vítima na cena do crime, mas a polícia descobre que ele morreu há três meses. Enquanto isso, a jornalista Lim Jin-hee recebe uma ligação misteriosa de um homem que assume a autoria do crime. O suspeito alerta que três novos assassinatos ocorrerão, executados por cadáveres ressuscitados conhecidos como Jaechaui. No dia do primeiro ataque anunciado, a polícia se prepara para capturar o culpado, mas é surpreendida por um exército de mortos-vivos. Quem está por trás desses eventos e qual o seu verdadeiro motivo?",
+    "imdb_id": "tt17640714"
   },
   {
     "id": "movie-a-man-called-horse",
     "title": "A Man Called Horse",
     "type": "movie",
-    "year": null,
+    "year": "1970",
     "poster_url": "/5TO2o7hp96glEs8wX0yIrt6ZY3G.jpg",
     "genres": [
       "Faroeste",
@@ -5119,13 +5213,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Richard Harris estrela esta épica e maravilhosa história, que retrata realisticamente a vida dos índios Sioux americanos no início do século XIX. Quando um senhor inglês é capturado por uma tribo indígena Sioux, e é dado de presente à mãe do chefe (Dame Judith Anderson) para ser seu criado. Gradualmente, ele abraça o modo de vida da tribo e apaixona-se pela irmã do Chefe. Mas antes, ele deverá ser aceito com honra e coragem como um guerreiro da tribo. Então, deverá suportar o 'Voto do Sol' - um ritual selvagem com um sacrifício muito além do que qualquer um possa sonhar no mundo civilizado. Um faroeste ímpar, com uma interpretação irretocável de Harris e um figurino perfeito criado pela melhor equipe de pesquisa de arte de Hollywood.",
+    "imdb_id": "tt0066049"
   },
   {
     "id": "movie-a-manha-seguinte",
     "title": "A Manhã Seguinte",
     "type": "movie",
-    "year": null,
+    "year": "1986",
     "poster_url": "/kxuR1RpAUWRHKzCwbjg2bw6RTGI.jpg",
     "genres": [
       "Suspense",
@@ -5196,13 +5292,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Alex Sternberg é uma atriz alcoólatra que um dia acorda com uma ressaca e sem nenhuma lembrança de como ela foi parar em uma cama com um homem morto ao seu lado. Sem saber o que fazer, primeiramente ela pede ajuda a seu ex-marido para se desfazer do corpo, até conhecer Turner Kendall, um ex-policial que é o único que pode ajudá-la a descobrir o que realmente aconteceu.",
+    "imdb_id": "tt0091554"
   },
   {
     "id": "movie-a-manobra-da-tartaruga",
     "title": "A Manobra da Tartaruga",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/3xh0rHHptz1P1DL4deG1cK9NZap.jpg",
     "genres": [
       "Suspense",
@@ -5282,7 +5380,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "O policial Manuel Bianquetti é transferido de Madri para o sul da Espanha. Ele acaba se envolvendo em uma investigação criminal envolvendo a morte de uma jovem mulher, que o faz lembrar de um terrível acontecimento do passado.",
+    "imdb_id": "tt6378536"
   },
   {
     "id": "movie-a-mansao-2021",
@@ -5384,7 +5484,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Trovão, um pequeno gatinho que foi abandonado pela sua família, refugia-se numa misteriosa mansão onde vive um excêntrico mágico reformado, Lorenzo, e o seu divertido grupo de animais e autómatos, com poderes surpreendentes, que lhe fazem companhia. No seguimento de um acidente de bicicleta, o mágico é hospitalizado, e o seu ambicioso sobrinho, aproveita-se da situação para tentar vender a mansão, sem o seu consentimento. É então que o Trovão tem uma ideia fantástica: transformar a mansão numa casa assombrada!",
+    "imdb_id": "tt3148834"
   },
   {
     "id": "movie-a-mansao",
@@ -5514,7 +5616,7 @@
     "id": "movie-a-mansao-do-horror",
     "title": "A Mansão do Horror",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/sIA26QzQv15rD61qgQbzBVwQZYN.jpg",
     "genres": [
       "Terror",
@@ -5582,13 +5684,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando uma família se muda para uma pacata cidade do interior, eles descobrem uma casa mal-assombrada. O local viralizou na internet, atraindo turistas curiosos em busca de uma experiência assustadora. No entanto, a família percebe um detalhe perturbador: nem todos que entram na casa saem de lá.",
+    "imdb_id": "tt14221522"
   },
   {
     "id": "movie-a-mansao-do-inferno",
     "title": "A Mansão do Inferno",
     "type": "movie",
-    "year": null,
+    "year": "1980",
     "poster_url": "/bqP9xdwenNFboFjwaB5L5nSSWod.jpg",
     "genres": [
       "Terror",
@@ -5664,7 +5768,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt0080923"
+    "imdb_id": "tt0080923",
+    "overview": "Uma poetisa passa a acreditar que sua casa foi o lar de uma das mães do inferno descritas em um livro. Amedrontada, chama o irmão, que estuda em Roma, para morar com ela, mas descobre que a faculdade também está relacionada ao mistério."
   },
   {
     "id": "movie-a-mao-assassina-1999",
@@ -5715,6 +5820,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma cidade está em pânico com uma onda de crimes. Anton, 17 anos, é preguiçoso, só come, ouve música e não vai à escola. Quando seus pais são mortos, ele percebe que tem um problema: sua mão direita está possuída e é capaz de cometer atrocidades.",
+    "imdb_id": "tt0138510"
   }
 ]

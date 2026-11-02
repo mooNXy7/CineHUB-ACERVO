@@ -3,7 +3,7 @@
     "id": "movie-a-mao-esquerda-do-diabo",
     "title": "A Mao Esquerda do Diabo",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/b9eqnotTZSVc4a4KzpISHfSMUKC.jpg",
     "genres": [
       "Terror",
@@ -54,7 +54,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma médium é possuída por uma entidade demoníaca em uma festa. Após a comemoração, a entidade começa a perseguir os convidados. Eles tentam revidar, mas não sabem em quem confiar, pois o demônio pode mudar de forma.",
+    "imdb_id": "tt26491631"
   },
   {
     "id": "movie-a-mao-que-balanca-o-berco-1992",
@@ -169,7 +171,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Quando é agredida por seu médico, Claire Bartel o denuncia à polícia. Mas em vez de ir para a prisão, o acusado comete suicídio. O choque provoca em Peyton, a esposa do médico, um aborto espontâneo. Enlouquecida de raiva pela dupla perda, ela se passa por babá na casa da família Bartel. Peyton trama acabar com a vida de Claire seduzindo seu marido para finalmente matar a mulher que ela acredita ter arruinado sua vida.",
+    "imdb_id": "tt0104389"
   },
   {
     "id": "movie-a-mao-que-balanca-o-berco-2025",
@@ -244,13 +248,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt33502160"
+    "imdb_id": "tt33502160",
+    "overview": "O casal suburbano Caitlin e Miguel Morales contrata a aparentemente doce Polly para cuidar de seu bebê recém-nascido. Mas os verdadeiros motivos de Polly têm pouco a ver com cantar canções de ninar — para o horror do casal."
   },
   {
     "id": "movie-a-maquina-de-lembrancas",
     "title": "A Maquina de Lembrancas",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/vZ3CUbcm17EXsO0k3Clv378hkqs.jpg",
     "genres": [
       "Ficção científica",
@@ -313,7 +318,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Carolyn Dunn (Julia Ormond), uma viúva, acaba encontrando uma das invenções que o seu marido, um sábio professor assombrado pelo passado que criou um dispositivo capaz de gravar as memórias de uma pessoa. Este mistério obscuro explora as maneiras pelas quais a memória define o presente.",
+    "imdb_id": "tt2331047"
   },
   {
     "id": "movie-a-maquina-de-lembrancas-2017",
@@ -458,7 +465,8 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt11040844"
+    "imdb_id": "tt11040844",
+    "overview": "O passado de bebedeiras de Bert o alcança 20 anos depois, quando ele e seu pai são sequestrados por aqueles que Bert ofendeu há 20 anos enquanto estava em uma excursão de faculdade na Rússia."
   },
   {
     "id": "movie-a-maquina-do-tempo-2002",
@@ -527,7 +535,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Desesperado pelo assassinato de sua noiva, o inventor Alexander não consegue reverter a morte da amada alterando o tempo. Porém, em um futuro em que a humanidade está dividida entre espécies pacíficas e predatórias, o cientista precisa enfrentar os carnívoros Morlocks para salvar seus novos amigos.",
+    "imdb_id": "tt0268695"
   },
   {
     "id": "movie-a-maquina-infernal-2022",
@@ -570,7 +580,7 @@
     "id": "movie-a-maratona-de-brittany",
     "title": "A Maratona de Brittany",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/m1GuMAd5l6IJXfUrovDnjAQPRj9.jpg",
     "genres": [
       "Comédia",
@@ -632,7 +642,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Aos 27 anos, Brittany só quer saber de curtir a vida. No dia a dia, ela fica em festas até tarde da noite e volta para casa apenas de manhã —o que a faz quase sempre se atrasar para o trabalho. Em uma ida ao médico, porém, a jovem mulher descobre que a rotina desregrada e sedentária que leva tem seu preço: ela tem pressão e colesterol altos, batimento cardíaco acelerado... Brittany, então, começa a correr. Animada, ela decide treinar para participar da Maratona de Nova York.",
+    "imdb_id": "tt7671064"
   },
   {
     "id": "movie-a-maratona-de-brittany-2019",
@@ -707,13 +719,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Mickey Mouse e todos os seus amigos vão explorar a promessa da tão esperada primavera, através de um documentário incrível e único sobre a nossa natureza.",
+    "imdb_id": "tt18344724"
   },
   {
     "id": "movie-a-marca-da-corrupcao",
     "title": "A Marca da Corrupção",
     "type": "movie",
-    "year": null,
+    "year": "1987",
     "poster_url": "/w46kS0OyjVS9IqWiWVJyra2Rd5O.jpg",
     "genres": [
       "Ação",
@@ -795,7 +809,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um matador quer transformar sua história de vida em um livro,e para isso se aproxima de um veterano policial que se tornou escritor.",
+    "imdb_id": "tt0092641"
   },
   {
     "id": "movie-a-marca-da-corrupcao-1987",
@@ -840,7 +856,7 @@
     "id": "movie-a-marca-da-forca",
     "title": "A Marca da Forca",
     "type": "movie",
-    "year": null,
+    "year": "1968",
     "poster_url": "/qr6qgHSrptVH3D3Iy03XEVb8LcZ.jpg",
     "genres": [
       "Faroeste",
@@ -908,13 +924,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Na Oklahoma de 1873, Jed Cooper é confundido com um trapaceiro, linchado e levado à forca. Mas o grupo de justiceiros liderado pelo Capitão Wilson cometeu um erro fatal: Cooper foi deixado vivo, e agora vai cobrar caro por tudo o que sofreu.",
+    "imdb_id": "tt0061747"
   },
   {
     "id": "movie-a-marca-da-maldade",
     "title": "A Marca da Maldade",
     "type": "movie",
-    "year": null,
+    "year": "1958",
     "poster_url": "/1R5UICWr3ygzRWZKejySivuJ2Hv.jpg",
     "genres": [
       "Crime",
@@ -970,13 +988,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Ao investigar um assassinato, chefe de polícia mexicano em lua-de-mel em uma pequena cidade da fronteira dos Estados Unidos com o México, entra em choque com detetive americano corrupto.",
+    "imdb_id": "tt0052311"
   },
   {
     "id": "movie-a-marca-do-demonio",
     "title": "A Marca do Demonio",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/pGQLuX6yIouFM2R62Dls72PMdW4.jpg",
     "genres": [
       "Terror"
@@ -1037,7 +1057,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Duas jovens irmãs abrem um livro antigo que traz ao mundo uma criatura diabólica. Sua única salvação é um padre possuído que luta contra seus próprios demônios.",
+    "imdb_id": "tt7263040"
   },
   {
     "id": "movie-a-marca-do-demonio-2020",
@@ -1079,7 +1101,7 @@
     "id": "movie-a-marca-do-dragao",
     "title": "A Marca do Dragao",
     "type": "movie",
-    "year": null,
+    "year": "1977",
     "poster_url": "/5F8cRQoDkdbgTTvwxnL15OkyScH.jpg",
     "genres": [
       "Ação",
@@ -1141,7 +1163,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um menino é o único sobrevivente do massacre a toda sua família. Já adulto Cao Lei, que foi poupado por Ding, o chefe dos malfeitores que assassinou os seus familiares, tenta se redimir dos males que causou ao jovem, ensinando-lhe toda sua técnica em artes marciais. Cao Lei, torna-se o exército de um homem só, e parte em busca de vingança.",
+    "imdb_id": "tt0076227"
   },
   {
     "id": "movie-a-marca-do-dragao-1977",
@@ -1290,13 +1314,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt33098637"
+    "imdb_id": "tt33098637",
+    "overview": "Durante uma visita escolar a um sítio arqueológico, um grupo de crianças encontra o cadáver de uma mulher no lugar da réplica de um neandertal. A inspetora Silvia Guzmán e o ex-policial Daniel Velarde, que trabalharam em um caso muito parecido seis anos antes, são chamados para solucionar o mistério."
   },
   {
     "id": "movie-a-marca-do-medo",
     "title": "A Marca do Medo",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/oXn36a7EdPRQy4BZFqYWWF9QrtC.jpg",
     "genres": [
       "Terror"
@@ -1375,7 +1400,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Durante uma aula na universidade, um professor (Jared Harris) pergunta a seus alunos o que são fenômenos sobrenaturais e se é possível provar que eles existem. Como ninguém consegue responder, ele decide formar uma equipe com três alunos para investigar o estranho caso de Jane Harper (Olivia Cooke), garota aparentemente possuída por demônios. O experimento consiste em isolar Jane dentro de um casarão e fazer uma série de testes, na esperança que os poderes paranormais na garota se manifestem diante das câmeras.",
+    "imdb_id": "tt2235779"
   },
   {
     "id": "movie-a-marca-do-medo-2014",
@@ -1417,7 +1444,7 @@
     "id": "movie-a-marca-negra",
     "title": "A Marca Negra",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/5Mmd9L8hWbnYQlRbxmnmNswEVYW.jpg",
     "genres": [
       "Suspense",
@@ -1472,7 +1499,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Em plena guerra-fria um míssil soviético é misteriosamente direcionado a atacar os Estados Unidos. Com apenas setenta e duas horas para evitar uma crise ainda maior, um engenheiro e um comandante desafiarão a poderosa indústria bélica.",
+    "imdb_id": "tt4360924"
   },
   {
     "id": "movie-a-marca-negra-2018",
@@ -1515,7 +1544,7 @@
     "id": "movie-a-marcha",
     "title": "A Marcha",
     "type": "movie",
-    "year": null,
+    "year": "1972",
     "poster_url": "/ott7rlHegTTMrd1t4xdQaQKtq4g.jpg",
     "genres": [
       "Drama",
@@ -1552,7 +1581,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um estudante luta pela abolição da escravatura, auxiliado por um escravo alforriado, embora na fazenda de seu pai um feitor maltrate os trabalhadores cruelmente. Enfrentando o pai com o auxílio da mãe, o estudante aguarda a marcha dos escravos.",
+    "imdb_id": "tt0198717"
   },
   {
     "id": "movie-a-margem",
@@ -1625,7 +1656,7 @@
     "id": "movie-a-marginal",
     "title": "A Marginal",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/xSVRiLvaEGo6Wxsi52YtKMMx3vM.jpg",
     "genres": [
       "Comédia",
@@ -1705,7 +1736,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Michèle, uma mulher que vive no aeroporto de Orly, cruza-se regularmente com o jovem Théo. Um dia, ela faz uma descoberta inesperada que a leva a convencer Théo a levá-la no seu carro sem licença até Lisboa para encontrar o seu filho. Embarcam então em uma viagem comovente, cheia de armadilhas, pelas estradas rurais.",
+    "imdb_id": "tt17974446"
   },
   {
     "id": "movie-a-marginal-2023",
@@ -1748,7 +1781,7 @@
     "id": "movie-a-marvada-carne",
     "title": "A Marvada Carne",
     "type": "movie",
-    "year": null,
+    "year": "1985",
     "poster_url": "/qdRIErtsWV0QgbI3U4fRQ4eLg8t.jpg",
     "genres": [
       "Comédia"
@@ -1803,7 +1836,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Nhô Quim perambula com seu cachorro pelo interior paulista sonhando com duas coisas: encontrar uma noiva e comer carne de vaca. Ele conhece a jovem Carula, que mora numa aldeia e reza todos os dias para Santo Antônio pedindo um marido. Para fisgar Quim ela o engana dizendo que seu pai, Nhô Totó, possui um boi que será carneado no dia do casamento. Entretanto, antes de casar, Quim deve cumprir uma série de provas.",
+    "imdb_id": "tt0138596"
   },
   {
     "id": "movie-a-mascara-da-morte-2023",
@@ -1897,7 +1932,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt21158854"
+    "imdb_id": "tt21158854",
+    "overview": "Julio herda uma máscara como a que seu pai usava para matar. Um grupo de jovens chega à sua cidade e cruza seu caminho. Julio deve decidir se quer continuar a tradição da família ou abraçar o amor que acabou de conhecer."
   },
   {
     "id": "movie-a-mascara-de-ferro-2019",
@@ -1991,7 +2027,7 @@
     "id": "movie-a-mata-negra",
     "title": "A Mata Negra",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/i4EeisK9rW6AdX6oOzOXVWsXapC.jpg",
     "genres": [
       "Terror"
@@ -2006,7 +2042,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em uma mata, no interior brasileiro, uma garota encontra o Livro de Cipriano, o qual permite que seu portador realize magias poderosas. Se cair em mãos maléficas, no entanto, um grande perigo pode ameaçar o planeta.",
+    "imdb_id": "tt8702008"
   },
   {
     "id": "movie-a-mata-negra-2018",
@@ -2032,7 +2070,7 @@
     "id": "movie-a-matriarca",
     "title": "A Matriarca",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/ziDXGs2Up7o51Lp55zAeyrQo6JH.jpg",
     "genres": [
       "Drama",
@@ -2112,7 +2150,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Adolescente autodestrutivo volta para casa do internato e descobre que sua avó alcoólatra se mudou para lá. No início, os dois entram em conflito, mas logo desenvolvem um vínculo inesperado e comovente.",
+    "imdb_id": "tt11599576"
   },
   {
     "id": "movie-a-matriarca-2022",
@@ -2149,13 +2189,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Após sobreviver a uma overdose, uma mulher retorna à casa onde cresceu para enfrentar seus demônios interiores, mas descobre a presença de uma entidade real.",
+    "imdb_id": "tt17202326"
   },
   {
     "id": "movie-a-materia-noturna",
     "title": "A Matéria Noturna",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/uZiPbcLAQ15b8SeZC9KlliSamx6.jpg",
     "genres": [
       "Drama"
@@ -2170,7 +2212,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Jaiane trabalha como motorista por aplicativo em Vitória, Espírito Santo. Ela atravessa um período difícil, rejeitando companhias, até conhecer Aissa, um homem de Moçambique que trabalha embarcado, mas passa alguns dias pela cidade. Aos poucos, os dois solitários se aproximam.",
+    "imdb_id": "tt15458722"
   },
   {
     "id": "movie-a-materia-noturna-2021",
@@ -2284,13 +2328,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt13446168"
+    "imdb_id": "tt13446168",
+    "overview": "Uma história horripilante sobre a herança de um xamã na região de Isan, na Tailândia, onde a Deusa que parece ter possuído um membro da família acaba não sendo tão benevolente quanto pensavam ser."
   },
   {
     "id": "movie-a-megera-domada",
     "title": "A Megera Domada",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/murrfrqgaetHayjBmA0V1SMFFyh.jpg",
     "genres": [
       "Romance",
@@ -2377,7 +2422,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma cientista de coração partido volta para casa em busca de um recomeço. Mas seu irmão picareta contrata um bonitão para convencê-la a vender as terras da família.",
+    "imdb_id": "tt18970380"
   },
   {
     "id": "movie-a-megera-domada-2022",
@@ -2514,7 +2561,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt30225700"
+    "imdb_id": "tt30225700",
+    "overview": "O romance de Kasia e Patryk é colocado à prova quando os dois suspeitam de traição. Para piorar, a vizinhança não para de se meter em suas vidas."
   },
   {
     "id": "movie-a-meia-irma-feia-2025",
@@ -2570,7 +2618,7 @@
     "id": "movie-a-meia-irma-feia",
     "title": "A Meia-Irmã Feia",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/2dEoQ2eWk3evQQBNUxPnZsPDq1N.jpg",
     "genres": [
       "Terror",
@@ -2658,7 +2706,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Elvira, meia-irmã de Cinderela, vive com a família em um poderoso reino onde poucas coisas são tão importantes quanto a beleza. Ela recorre a medidas extremas para cativar o príncipe, em meio a uma competição implacável pela perfeição física.",
+    "imdb_id": "tt29344903"
   },
   {
     "id": "movie-a-melbourne-match",
@@ -2714,7 +2764,7 @@
     "id": "movie-a-melhor-cartada",
     "title": "A Melhor Cartada",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/7ERTRd45TnRUjNRptxjUIU7jQSE.jpg",
     "genres": [
       "Suspense",
@@ -2812,7 +2862,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Uma policial pragmática se vê envolvida na rivalidade sombria entre duas irmãs gêmeas e o homem volátil pelo qual são apaixonadas.",
+    "imdb_id": "tt28075881"
   },
   {
     "id": "movie-a-melhor-cartada-2024",
@@ -2855,7 +2907,7 @@
     "id": "movie-a-melhor-casa-suspeita-do-texas",
     "title": "A Melhor Casa Suspeita do Texas",
     "type": "movie",
-    "year": null,
+    "year": "1982",
     "poster_url": "/sYXQM4TgoTrY8alZX2BtUC91Tpa.jpg",
     "genres": [
       "Comédia"
@@ -2916,7 +2968,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "O fechamento do Chicken Ranch da vida real inspirou a peça musical e, agora, a versão para a telona é protagonizada por Burt Reynolds como o xerife Ed Earl Dodd e por Dolly Parton como a proprietária do Chicken Ranch, Miss Mona.",
+    "imdb_id": "tt0083642"
   },
   {
     "id": "movie-a-melhor-cidade-para-o-natal-2019",
@@ -2953,13 +3007,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um concurso da Nova Inglaterra procura a cidade com o maior espírito natalino e os prefeitos de East e West Riverton fazem de tudo para colocar suas cidades no topo da lista.",
+    "imdb_id": "tt10952042"
   },
   {
     "id": "movie-a-melhor-de-todos-os-tempos",
     "title": "A Melhor de Todos os Tempos",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/jk7QSxBaKOIiDVh4z2g5d4ar3lz.jpg",
     "genres": [
       "Comédia"
@@ -3026,13 +3082,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "A vida não está fácil para Tina, e quando ela pensa que as coisas não poderiam piorar, ela é despejada. Enquanto se afunda na tristeza, ela decide seguir um conselho de sua professora de ioga. Ela só não deveria levá-lo tão ao pé da letra.",
+    "imdb_id": "tt14899028"
   },
   {
     "id": "movie-a-melhor-escolha",
     "title": "A Melhor Escolha",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/kM39QLCMDqcdxg4LsPvalv9s2dO.jpg",
     "genres": [
       "Drama",
@@ -3087,7 +3145,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Trinta anos após servirem juntos no Vietnã, o ex-marinheiro Larry Doc Shepherd se reúne com seus velhos amigos, Sal Nealon e o reverendo Richard Mueller, para enterrar seu filho, um jovem marinheiro morto na guerra do Iraque.",
+    "imdb_id": "tt6018306"
   },
   {
     "id": "movie-a-melhor-esposa-nao-fuja",
@@ -3160,7 +3220,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Todo mundo tem uma historia para contar sobre a noite do baile de formatura e elas quase sempre são diferentes entre si, embora parecidas em sua essência. Nova Prescott (Aimee Teegarden) se vê atraída por um jovem (Thomas McDonell) da escola, enquanto as amigas veteranas Mei (Yin Chang) e Tyler (De’Vaughn Nixon) guardam segredos, mas está chegando a hora do evento mais importante do colegial. Será que vai dar tudo certo?",
+    "imdb_id": "tt1604171"
   },
   {
     "id": "movie-a-melhor-ideia-2021",
@@ -3289,13 +3351,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt35453979"
+    "imdb_id": "tt35453979",
+    "overview": "Uma catadora de materiais recicláveis que decide prestar queixa em uma delegacia da mulher após sofrer abusos do marido, mas não encontra lá a proteção e ajuda que procura. Determinada a dar uma nova vida e um lar seguro para seus dois filhos, ela decide abandonar a sua casa, levando as crianças na sua carroça."
   },
   {
     "id": "movie-a-melhor-noite-de-nossas-vidas",
     "title": "A Melhor Noite de Nossas Vidas",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/eOFlD6pPtpeaZUfVxBL4KjdM2Un.jpg",
     "genres": [
       "Comédia",
@@ -3395,13 +3458,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt7383628"
+    "imdb_id": "tt7383628",
+    "overview": "Ruby esperava ser pedida em casamento, mas o seu namorado decide terminar com tudo. Suas melhores amigas acham que ela precisa sair para se divertir e promovem uma noite da qual elas jamais se esquecerão."
   },
   {
     "id": "movie-a-memoria-infinita",
     "title": "A MEMORIA INFINITA",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/v1Qebin5eJ1xpSycFBbx74ccaME.jpg",
     "genres": [
       "Documentário"
@@ -3480,7 +3544,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Conta uma história de amor profunda e comovente que equilibra a vibrante memória individual e coletiva com a longevidade de um vínculo humano inquebrável.",
+    "imdb_id": "tt24082488"
   },
   {
     "id": "movie-a-memoria-infinita-2023",
@@ -3522,7 +3588,7 @@
     "id": "movie-a-memoria-do-cheiro-das-coisas",
     "title": "A Memória do Cheiro das Coisas",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/2CO17K4kQVec8Gpja07iC8xNbkJ.jpg",
     "genres": [
       "Drama"
@@ -3583,7 +3649,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Diante da vulnerabilidade da velhice, Arménio é obrigado a encarar os fantasmas do passado, enquanto uma amizade inesperada floresce entre ele e Hermínia. Retrato poético e intimista de um idoso em um asilo, explorando a fragilidade da condição humana, a inevitabilidade da morte e a busca por redenção. Aborda questões urgentes da nossa sociedade, como o envelhecimento da população e o racismo estrutural.",
+    "imdb_id": "tt32430402"
   },
   {
     "id": "movie-a-memoria-que-me-contam-2013",
@@ -3619,7 +3687,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A ex-guerrilhera Ana (Simone Spoladore), í­cone do movimento de esquerda, é o último elo entre um grupo de amigos que resistiu à ditadura militar no Brasil. Com a iminente morte da amiga, eles se reencontram na sala de espera de um hospital. Entre eles está Irene (Irene Ravache), uma diretora de cinema que sente-se perdida diante da iminente morte da amiga e que precisa ainda lidar com a inesperada prisão de Paolo (Franco Nero), seu marido, acusado de ter matado duas pessoas em um atentado terrorista ocorrido décadas atrás na Itália.",
+    "imdb_id": "tt2476186"
   },
   {
     "id": "movie-a-menina-chamada-passarinha",
@@ -3681,7 +3751,7 @@
     "id": "movie-a-menina-do-chale",
     "title": "A Menina do Chalé",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/vlJMPo5YYIDToguMtjGs7VTFYFG.jpg",
     "genres": [
       "Comédia",
@@ -3697,7 +3767,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Após a morte da mãe, a campeã de skate Kim quer ganhar mais dinheiro. Para isso, ela se junta a uma sofisticada companhia de serviços que a envia para a Áustria.",
+    "imdb_id": "tt1487118"
   },
   {
     "id": "movie-a-menina-do-chale-2011",
@@ -3723,7 +3795,7 @@
     "id": "movie-a-menina-do-lado",
     "title": "A Menina do Lado",
     "type": "movie",
-    "year": null,
+    "year": "1987",
     "poster_url": "/qD3QRfAqBfh8ZyY7XFqxRFRot3n.jpg",
     "genres": [
       "Drama",
@@ -3779,7 +3851,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Mauro (Reginaldo Faria) é um jornalista de 45 anos de idade aluga uma casa na praia, em Búzios, para terminar de escrever seu livro sobre o estado brasileiro nos últimos 20 anos. Ele se apaixona pela adolescente Alice (Flávia Montenegro) de 14 anos, que está sem os pais em uma casa vizinha a sua.",
+    "imdb_id": "tt0235578"
   },
   {
     "id": "movie-a-menina-do-mar-2024",
@@ -3899,13 +3973,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt6632018"
+    "imdb_id": "tt6632018",
+    "overview": "Depois que o prefeito de um idílico vilarejo insular descobre uma criança com poderes misteriosos em sua costa, a comunidade, antes pacífica, entra em guerra civil, dividida pela crença de que a criança é o próximo salvador."
   },
   {
     "id": "movie-a-menina-dos-meus-olhos",
     "title": "A Menina dos Meus Olhos",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/c4Be1Ph4t3xo33tH2Ve0gdjhYHl.jpg",
     "genres": [
       "Romance",
@@ -3994,13 +4069,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt33381920"
+    "imdb_id": "tt33381920",
+    "overview": "A trama, uma refilmagem homônima de um filme taiwanês lançado em 2011, acompanha um grupo de amigos que frequentam uma escola particular e são apaixonados pela mesma garota, Sun-ah (Dahyun). Jin Young interpreta o único do grupo que afirma não ter sentimentos pela aluna popular."
   },
   {
     "id": "movie-a-menina-e-o-dragao",
     "title": "A Menina e o Dragão",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/m6Hc2Ta5PiMaqMLeudG9dOIAAOp.jpg",
     "genres": [
       "Animação",
@@ -4083,7 +4159,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "No passado, dragões e humanos já foram amigos, mas a ganância dos homens destruiu essa aliança, fazendo com que as criaturas mágicas fossem caçadas e aprisionadas. Anos depois, a jovem Ping encontra o último dos dragões imperiais e decide ajudá-lo. Perseguidos pelo exército do Imperador, essa dupla improvável embarca numa aventura cheia de magia e amizade, onde Ping precisa buscar dentro de si um poder adormecido para salvar os dragões e proteger aqueles que ama.",
+    "imdb_id": "tt7093904"
   },
   {
     "id": "movie-a-menina-e-o-dragao-2024",
@@ -4200,7 +4278,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Mia (Daniah De Villiers) é uma jovem de 14 anos que desde pequena tem uma profunda amizade com Charlie, um leão branco da fazenda de sua família. Quando seu pai decide vender Charlie para caçadores de troféus, Mia não vê outra opção além de fugir com o leão para salvá-lo.",
+    "imdb_id": "tt4844148"
   },
   {
     "id": "movie-a-menina-e-o-leao",
@@ -4254,7 +4334,7 @@
     "id": "movie-a-menina-e-o-porquinho",
     "title": "A Menina e o Porquinho",
     "type": "movie",
-    "year": null,
+    "year": "2006",
     "poster_url": "/5c8JKbiVLWLKMCNior7bfijRYry.jpg",
     "genres": [
       "Comédia",
@@ -4317,7 +4397,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A clássica história de lealdade, confiança e sacrifício ganha vida nesta adaptação de A Menina e o Porquinho. Fern (Dakota Fanning) logo percebe que Wilbur é um animal especial, e vai criando o menor porquinho do chiqueiro para virar um fantástico e radiante porco. Quando vai para um novo celeiro, Wilbur começa outra amizade profunda com a mais improvável das criaturas - uma aranha chamada Charlotte - e a ligação dos dois inspira os outros animais ao redor deles a se unirem como uma família. Quando se espalha a notícia de que os dias de Wilbur estão contados, parece que só um milagre poderá salvar sua vida. Uma decidida Charlotte - que enxerga milagres nos lugares mais comuns - tece palavras em sua teia, num esforço para convencer o fazendeiro de que Wilbur é o porco e que vale a pena poupá-lo.",
+    "imdb_id": "tt0413895"
   },
   {
     "id": "movie-a-menina-e-o-porquinho-2006",
@@ -4361,7 +4443,7 @@
     "id": "movie-a-menina-invisivel",
     "title": "A Menina Invisível",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/ki7rdw9z0RR131eNy67xvI2bl3Q.jpg",
     "genres": [
       "Aventura",
@@ -4435,7 +4517,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Sue, de 12 anos, é uma garota perfeitamente normal, como ela diz de si mesma. Ela adora quadrinhos e super-heróis. Nem mesmo em seus sonhos mais malucos ela teria pensado em possuir seus próprios superpoderes. Quando ela entra em contato com um líquido que sua mãe, uma cientista, desenvolveu em seu laboratório secreto, no entanto, Sue fica repentinamente invisível. Quando sua mãe é sequestrada, Sue, junto com seus amigos App e Tobi, deve usar seu dom para encontrar os sequestradores.",
+    "imdb_id": "tt7689532"
   },
   {
     "id": "movie-a-menina-invisivel-2019",
@@ -4484,7 +4568,7 @@
     "id": "movie-a-menina-que-acredita-em-milagres",
     "title": "A Menina que Acredita em Milagres",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/jhVnf6QmiRujRx2cYIZOnI8cPZ9.jpg",
     "genres": [
       "Família",
@@ -4594,7 +4678,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quando Sara ouve um pregador dizer que a fé pode mover montanhas, ela começa a orar. De repente, as pessoas em sua cidade são curadas misteriosamente! Mas a fama logo cobra seu preço - a família de Sara pode salvá-la antes que seja tarde demais?",
+    "imdb_id": "tt9098454"
   },
   {
     "id": "movie-a-menina-que-acredita-em-milagres-2021",
@@ -4637,7 +4723,7 @@
     "id": "movie-a-menina-que-matou-os-pais",
     "title": "A Menina Que Matou os Pais",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/rARhJwdW2cAeh8tgdc7WZqs2nZ1.jpg",
     "genres": [
       "Crime",
@@ -4707,7 +4793,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Apresenta a visão de Daniel Cravinhos sobre os acontecimentos que levaram à morte do casal Richthofen, pais da sua então namorada Suzane von Richthofen. Um drama de crime real sobre um dos casos de assassinato mais chocantes do Brasil.",
+    "imdb_id": "tt10605812"
   },
   {
     "id": "movie-a-menina-que-matou-os-pais-2021",
@@ -4837,13 +4925,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt25153888"
+    "imdb_id": "tt25153888",
+    "overview": "Veja o que Suzane von Richthofen, Daniel Cravinhos e Cristian Cravinhos fizeram nos dias que sucederam o crime brutal que levou o casal Richthofen à morte. Este filme revela momentos cruciais da investigação policial, depoimentos e a confissão do crime."
   },
   {
     "id": "movie-a-menina-que-roubava-livros",
     "title": "A Menina que Roubava Livros",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/2ey60A2E4bTJAWSLapYhGkVrmCY.jpg",
     "genres": [
       "Drama"
@@ -4904,7 +4993,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Durante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger sobrevive fora de Munique através dos livros que ela rouba. Ajudada por seu pai adotivo, ela aprende a ler e partilhar livros com seus amigos, incluindo um homem judeu que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela realiza algumas tarefas para a mãe e brinca com o amigo Rudy.",
+    "imdb_id": "tt0816442"
   },
   {
     "id": "movie-a-menina-que-roubava-livros-2013",
@@ -4946,7 +5037,7 @@
     "id": "movie-a-menina-silenciosa",
     "title": "A Menina Silenciosa",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/lfbNy7pp7v2WQNMOqwY9zTVCfz2.jpg",
     "genres": [
       "Drama"
@@ -4961,7 +5052,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Garota retraída e negligenciada é enviada para longe de sua família disfuncional para morar com pais adotivos no verão. Ela floresce sob seus cuidados mas, nesta casa onde não há segredos, ela descobre um.",
+    "imdb_id": "tt15109082"
   },
   {
     "id": "movie-a-menina-silenciosa-2022",
@@ -4987,7 +5080,7 @@
     "id": "movie-a-menininha",
     "title": "A Menininha",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/oSmvE4dceUUo6hHC2v533M3k2Vs.jpg",
     "genres": [
       "Terror"
@@ -5002,7 +5095,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma casa guarda mais que segredos. Guarda uma estranha Menininha, que consegue alterar para sempre a vida e a morte de quem chegar para ser o novo residente do local.",
+    "imdb_id": "tt5127206"
   },
   {
     "id": "movie-a-menininha-2020",
@@ -5028,7 +5123,7 @@
     "id": "movie-a-mensageira",
     "title": "A Mensageira",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/jE6QFRd48IzAxAubOE9HKB8sTjP.jpg",
     "genres": [
       "Ação",
@@ -5061,7 +5156,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma mensageira londrina descobre que seu último pacote é uma bomba de gás, apontada para a testemunha do assassinato de um lorde do crime.",
+    "imdb_id": "tt8075016"
   },
   {
     "id": "movie-a-mensageira-2019",
@@ -5106,7 +5203,7 @@
     "id": "movie-a-mente-de-um-monstro-robert-hansen-o-cacador",
     "title": "A Mente de Um Monstro: Robert Hansen, o Caçador",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/rS1RhHcwJGunzlMav233anqnKyl.jpg",
     "genres": [
       "Documentário"
@@ -5203,13 +5300,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Na década de 1980, um pai de família e dono de uma padaria em Anchorage, Alasca, caça dezenas de mulheres como se fossem animais selvagens.",
+    "imdb_id": "tt13460336"
   },
   {
     "id": "movie-a-mentira",
     "title": "A Mentira",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/5ThseiB0z6fz1hyw2Ofv9o8frmD.jpg",
     "genres": [
       "Comédia"
@@ -5318,7 +5417,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Estimulada pela popular melhor amiga a revelar detalhes de seu fim de semana entediante, Olive (Emma Stone), uma adolescente certinha, decide apimentar um pouco os detalhes contando uma pequena mentira sobre a perda de sua virgindade. Quando a bisbilhoteira da escola ouve a conversa e espalha para todo o campus, Olive fica famosa repentinamente, mas pelas razões erradas.",
+    "imdb_id": "tt1282140"
   },
   {
     "id": "movie-a-mentira-2010",
@@ -5415,13 +5516,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Documentário que apresenta o treino e a rotina do ciclista Lance Armstrond durante a sua volta ao esporte, e a preparação para o seu oitavo Tour da France.",
+    "imdb_id": "tt1638364"
   },
   {
     "id": "movie-a-mesma-parte-de-um-homem",
     "title": "A Mesma Parte de Um Homem",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/wHo4jsDrVGFYFFV2qiG8Etl9KP3.jpg",
     "genres": [
       "Drama"
@@ -5524,7 +5627,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Renata vive isolada no interior com sua filha adolescente e seu marido, compreendendo o medo como um sentimento comum. A chegada de um desconhecido desperta nela o desejo por tudo o que estava adormecido.",
+    "imdb_id": "tt10441878"
   },
   {
     "id": "movie-a-mesma-parte-de-um-homem-2022",
@@ -5578,7 +5683,7 @@
     "id": "movie-a-metade-de-nos",
     "title": "A Metade de Nós",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/6yx6Tp46q2CKrcllKo3UWLvfd3F.jpg",
     "genres": [
       "Drama"
@@ -5639,13 +5744,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Francisca e Carlos lutam para se adaptar à nova realidade após o suicídio do único filho.",
+    "imdb_id": "tt14795302"
   },
   {
     "id": "movie-a-metade-negra",
     "title": "A Metade Negra",
     "type": "movie",
-    "year": null,
+    "year": "1993",
     "poster_url": "/rBH1QWc2SAaX4xzV7UbLUB3qfjU.jpg",
     "genres": [
       "Mistério",
@@ -5761,13 +5868,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um escritor bestseller, Thad Beaumont (Hutton) é chantageado por um vigarista que ameaça lhe delatar o pseudônimo que usa nos livros, George Stark. Disposto a não aceitar as ameaças do meliante, Beaumont decide ele mesmo revelar-se publicamente, até mesmo com um “enterro” simbólico de Stark. A partir daí estranhos e violentos assassinatos são cometidos (a começar pelo jornalista e fotógrafo que se encarregaram da reportagem), sempre precedidos de uma revoada de pardais.",
+    "imdb_id": "tt0106664"
   },
   {
     "id": "movie-a-metamorfose-dos-passaros",
     "title": "A Metamorfose dos Pássaros",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/quAcjurYntxpVVerkYxz7d7xgbe.jpg",
     "genres": [
       "Documentário",
@@ -5829,7 +5938,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "No longa de estreia da portuguesa Catarina Vasconcelos, os mistérios habitam os detalhes. A passagem do tempo é sentida nas imagens da memória, presentificadas nos corpos e paisagens rigorosamente encenados para a câmera. Neste filme-ensaio afetivo, a escrita de si feminina, consciente de seu próprio caráter fabular, desdobra-se nas brechas de um caleidoscópio familiar: entre pai e filha, avó e neta, com a ausência espaçosa da palavra mãe. À narração over, também partilhada poeticamente, cabe o gesto de alinhavar instantes perdidos, resgatar a História de um país que reluta em mudar, forjar novos laços e genealogias por meio (e por causa) do cinema.",
+    "imdb_id": "tt11625100"
   },
   {
     "id": "movie-a-metamorfose-dos-passaros-2021",

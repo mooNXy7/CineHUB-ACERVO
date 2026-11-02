@@ -5124,8 +5124,13 @@
     "title": "Justiça a Qualquer Preço (1996)",
     "type": "movie",
     "year": "1996",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/9Gxna4KkMKQc59xSgnUQRv1qurL.jpg",
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Ação",
+      "Cinema TV"
+    ],
     "tmdb_id": "291613",
     "sources": [
       {
@@ -5137,6 +5142,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Policial honesto é testemunha de um homicídio onde o acusado foi preso por ele. Num julgamento cheio de farsas e intervenções maliciosas do advogado de defesa, o suspeito é absolvido. Revoltado, o policial, num momento de insanidade, prende todos os participantes do julgamento no tribunal e conduz outro julgamento, onde ele faz o papel de juiz.",
+    "imdb_id": "tt0117061"
   }
 ]

@@ -3,7 +3,7 @@
     "id": "movie-a-hora-do-terror",
     "title": "A Hora do Terror",
     "type": "movie",
-    "year": null,
+    "year": "1985",
     "poster_url": "/v2VSSxmkIWNfUMspGC81HSJnRHB.jpg",
     "genres": [
       "Comédia",
@@ -21,7 +21,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um grupo de jovens se juntam no dia das bruxas para roubar um antigo baú, na intenção de ressuscitar os mortos. O que eles não sabem é que estão libertando criaturas malignas dispostas a destruir tudo. Agora a cidade está cheia de mortos que vão celebrar o dia das bruxas de uma forma bem diferente.",
+    "imdb_id": "tt0089593"
   },
   {
     "id": "movie-a-hora-do-terror-1985",
@@ -164,13 +166,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt10245072"
+    "imdb_id": "tt10245072",
+    "overview": "Ben Mears (David Soul) é um romancista natural da pequena cidade de Jerusalem's Lot - ou, como os habitantes locais a chamavam, Salem's Lot. Enquanto volta para casa em busca de inspiração para sua próxima obra, ele descobre que há um novo morador em uma casa que permaneceu vazia por décadas, um vendedor de antiguidades chamado Barlow. Nenhum dos habitantes da cidade conhece o tal Barlow, e sim o seu charmoso representante, Straker. Mas quando pessoas começam a morrer de repente, as coisas ficam ainda mais estranhas."
   },
   {
     "id": "movie-a-hora-dos-valentes",
     "title": "A Hora dos Valentes",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/dXa93VNH1uF3IJyOIKyxsHooAIY.jpg",
     "genres": [
       "Comédia",
@@ -269,7 +272,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Um psicanalista prestando serviço comunitário ajuda um agente a superar uma infidelidade. Juntos, eles enfrentam uma série de perigos e descobrem que existem segundas chances.",
+    "imdb_id": "tt37961727"
   },
   {
     "id": "movie-a-hora-dos-valentes-2025",
@@ -312,7 +317,7 @@
     "id": "movie-a-hora-e-a-vez-de-augusto-matraga",
     "title": "A Hora e a Vez de Augusto Matraga",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/u95OLyTTOElKPxRfHBUbLzh3Hn3.jpg",
     "genres": [
       "Drama",
@@ -375,13 +380,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Augusto Matraga é um fazendeiro orgulhoso, valente e mulherengo, que está à beira da falência. Sua esposa Dionóra resolve abandoná-lo com a filha do casal, ao receber uma proposta feita por Ouvídio Moura. A situação faz com que Augusto fique enfurecido e parta para a casa de Ouvídio, em busca de vingança. Lá ele é espancado pelos capangas de Consilva, que o marcam com ferro e o atiram em um precipício para morrer. À beira da morte, Augusto é encontrado por um casal, que cuida de sua recuperação. Cinco anos depois ele deixa o local, completamente mudado e agora temente a Deus.",
+    "imdb_id": "tt3455238"
   },
   {
     "id": "movie-a-hora-mais-escura",
     "title": "A Hora Mais Escura",
     "type": "movie",
-    "year": null,
+    "year": "2012",
     "poster_url": "/fWpjkM77R5o4MV0nxO2cnywkCoJ.jpg",
     "genres": [
       "Suspense",
@@ -455,7 +462,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Maya é uma agente da CIA que está por trás dos principais esforços em capturar Osama bin Laden, por ter descoberto os interlocutores do líder do grupo terrorista. Com isso ela participa da operação que levou militares americanos a invadir o território paquistanês, com o objetivo de capturar e matar bin Laden.",
+    "imdb_id": "tt1790885"
   },
   {
     "id": "movie-a-hora-mais-escura-2012",
@@ -498,7 +507,7 @@
     "id": "movie-a-hora-negra",
     "title": "A Hora Negra",
     "type": "movie",
-    "year": null,
+    "year": "2006",
     "poster_url": "/duw7e4ZQej2w6zRCc6wQUGSCr3z.jpg",
     "genres": [
       "Terror",
@@ -562,13 +571,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Em um mundo pós-apocalíptico, nove sobreviventes encontram refúgio em um bunker subterrâneo. Quando os suprimentos estão acabando, eles precisam voltar à superfície.",
+    "imdb_id": "tt0484273"
   },
   {
     "id": "movie-a-hospedeira",
     "title": "A Hospedeira",
     "type": "movie",
-    "year": null,
+    "year": "2013",
     "poster_url": "/7Wj9NLJaEUF9Cf0ovhuK0J7rJG0.jpg",
     "genres": [
       "Ação",
@@ -668,7 +679,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "A Terra foi colonizada por uma raça alienígena que controla a mente dos humanos e usa seus corpos como hospedeiros. A maioria da humanidade foi erradicada, mas quando Melanie se recusa a aceitar sua nova alma, uma caçada se inicia.",
+    "imdb_id": "tt1517260"
   },
   {
     "id": "movie-a-hospedeira-2013",
@@ -776,13 +789,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt8316568"
+    "imdb_id": "tt8316568",
+    "overview": "Uma oportunidade de oportunidade surge para Robert Atkinson, um banqueiro de Londres que arrisca o dinheiro de seu banco para deixar o mundano para trás e começar uma nova vida. Para aproveitar, ele involuntariamente se inscreve em um cartel chinês para transportar uma maleta para Amsterdã. Mas nem tudo é o que parece em uma cidade velada por segredos sombrios. Alimentado por jogadores poderosos, drogas, sedução e violência, Robert aguarda sua vez em um jogo mortal de escolha e conseqüência."
   },
   {
     "id": "movie-a-ideia-mais-magnifica-do-mundo",
     "title": "A Ideia Mais Magnífica do Mundo",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/A6U4TVaLkQKcOlZD9FMFzlv520n.jpg",
     "genres": [
       "Animação",
@@ -838,7 +852,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma garota normal tenta fazer algo magnífico, mas o processo criativo se mostra mais desafiador do que o esperado.",
+    "imdb_id": "tt9129818"
   },
   {
     "id": "movie-a-identidade",
@@ -929,7 +945,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Baseado na novela de Milan Kundera"
   },
   {
     "id": "movie-a-identidade-secreta-do-meu-marido",
@@ -1151,7 +1168,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt0399201"
+    "imdb_id": "tt0399201",
+    "overview": "Um homem que vive em uma colônia estéril futurista começa a questionar sua existência quando sua amiga é escolhida para ir à ilha, o último lugar não contaminado do mundo."
   },
   {
     "id": "movie-a-ilha-2019",
@@ -1194,13 +1212,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um jovem pai é acusado de assassinato e deve provar sua inocência, relembrando uma noite muito distorcida e escura de eventos.",
+    "imdb_id": "tt8380776"
   },
   {
     "id": "movie-a-ilha-alienigena",
     "title": "A Ilha Alienígena",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/8gFqDGynfejfbcrQWsBm0hfwISo.jpg",
     "genres": [
       "Documentário"
@@ -1242,7 +1262,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Na década de 1980, durante a ditadura militar chilena, um grupo de entusiastas do rádio começou a se comunicar com seres misteriosos que afirmavam viver na “Ilha da Amizade” e ter relações estreitas com uma raça extraterrestre.",
+    "imdb_id": "tt27904948"
   },
   {
     "id": "movie-a-ilha-alienigena-2023",
@@ -1284,7 +1306,7 @@
     "id": "movie-a-ilha-da-boa-esperanca",
     "title": "A Ilha da Boa Esperança",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/6w2c7gdPucFCMDtX8REjrputVcb.jpg",
     "genres": [
       "Drama"
@@ -1363,13 +1385,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um homem decide morar em uma cabana que construiu com seu pai anos atrás em uma pequena ilha da Hungria. Mas o que começa como uma simples aventura, se transforma em um desafio, obrigando-o a enfrentar momentos de solidão, fraqueza e medo.",
+    "imdb_id": "tt23159976"
   },
   {
     "id": "movie-a-ilha-da-fantasia",
     "title": "A Ilha da Fantasia",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/dzYhGrMNk8EHH6jIFnBEnklpjTe.jpg",
     "genres": [
       "Aventura",
@@ -1433,7 +1457,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Uma ilha mágica no meio do Oceano Pacífico oferece aos seus visitantes a possibilidade de realizar seus sonhos e viver aventuras que parecem impossíveis em qualquer outro lugar. Porém, como avisa o anfitrião da ilha, Sr. Roarke, realizar seus desejos pode não acontecer da maneira esperada.",
+    "imdb_id": "tt0983946"
   },
   {
     "id": "movie-a-ilha-da-fantasia-2020",
@@ -1478,7 +1504,7 @@
     "id": "movie-a-ilha-da-garganta-cortada",
     "title": "A Ilha da Garganta Cortada",
     "type": "movie",
-    "year": null,
+    "year": "1995",
     "poster_url": "/arv8NOL2eOKcOs54PCXj7EsOiZ6.jpg",
     "genres": [
       "Ação",
@@ -1542,7 +1568,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Morgan é a filha de um pirata que segue os passos do pai. Quando ele morre, ela herda o navio, uma tripulação de bandidos e um terço de um mapa do tesouro. Ela parte pelo Caribe em busca das riquezas, mas o mapa está em latim.",
+    "imdb_id": "tt0112760"
   },
   {
     "id": "movie-a-ilha-da-garganta-cortada-1995",
@@ -1641,7 +1669,8 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt0410377"
+    "imdb_id": "tt0410377",
+    "overview": "Nim Rusoe é uma garota que vive com seu pai, Jack, em uma ilha isolada. Nim vive feliz, divertindo-se com seus amigos animais e usando a imaginação nos livros, em especial os do aventureiro Alex Rover, seu herói preferido. Um dia Jack parte em uma expedição a um atol em busca do protozoário Nim, deixando a filha sozinha na ilha. A previsão é que ele retorne dois dias depois, mas uma inesperada onda danifica seu barco e o deixa à deriva. Neste período Jack recebe um e-mail de Alex Rover, a autora dos livros do personagem. Empolgada, Nim logo o responde, sem saber que seu ídolo é na verdade uma mulher. Alex deseja informações sobre o vulcão da ilha em que Nim vive, para usá-las na confecção de seu novo livro com o personagem. Quando descobre que ela é apenas uma criança e está sozinha em uma ilha isolada, Alex enfrenta a maior dúvida de sua vida: deve enfrentar a fobia que tem para sair de casa e tentar ajudá-la?"
   },
   {
     "id": "movie-a-ilha-da-morte",
@@ -1788,13 +1817,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um esquadrão militar é designado a uma missão em uma ilha no meio do Oceano Pacífico para investigar o desaparecimento de uma equipe científica que realizava experimentos no local. Chegando lá, eles se deparam com uma enorme quantidade de zumbis e descobrem que na década anterior, um grande desastre biológico ocorreu ali.",
+    "imdb_id": "tt5108168"
   },
   {
     "id": "movie-a-ilha-das-sombras",
     "title": "A Ilha das Sombras",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/o7ZmcfeNCnUMUQ5mWjs2Kvu4XtX.jpg",
     "genres": [
       "Suspense",
@@ -1882,13 +1913,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt9458220"
+    "imdb_id": "tt9458220",
+    "overview": "David, um aspirante a meteorologista, viaja para uma ilha deserta em busca da verdade sobre a morte de seu pai. No entanto, eventos estranhos começam a assombrá-lo, fazendo-o se questionar se realmente está sozinho."
   },
   {
     "id": "movie-a-ilha-de-bergman",
     "title": "A Ilha de Bergman",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/wLCC07DcrOQUEt5njoVxorrsVmi.jpg",
     "genres": [
       "Drama",
@@ -1904,7 +1936,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um casal de cineastas viaja para a ilha sueca de Fårö, onde o diretor Ingmar Bergman viveu e filmou. Eles entram em contato com o lugar e, enquanto tocam seus projetos, os limites entre ficção e realidade passam a se confundir.",
+    "imdb_id": "tt6910282"
   },
   {
     "id": "movie-a-ilha-de-bergman-2021",
@@ -1930,7 +1964,7 @@
     "id": "movie-a-ilha-de-monstros",
     "title": "A Ilha de Monstros",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/lGZxXo4zb0XxkUigd7Sew6Pjtnn.jpg",
     "genres": [
       "Animação",
@@ -1963,7 +1997,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quando o jovem Lucas descobre que não é realmente um humano, a notícia muda seu mundo inteiro. Especialmente desde a sua primeira transformação em monstro que aconteceu na frente das crianças mais populares na escola!",
+    "imdb_id": "tt6269658"
   },
   {
     "id": "movie-a-ilha-do-crime-2023",
@@ -2027,13 +2063,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt27154163"
+    "imdb_id": "tt27154163",
+    "overview": "Quando duas jovens são atacadas enquanto acampavam, apenas uma consegue sair viva. Agora, de volta à ilha de seus pais e sofrendo de amnésia, ela procura respostas sobre o que realmente aconteceu."
   },
   {
     "id": "movie-a-ilha-do-dr-moreau",
     "title": "A Ilha do Dr Moreau",
     "type": "movie",
-    "year": null,
+    "year": "1977",
     "poster_url": "/JGeUd5jtzgeKR9SqAD8FXbA3VS.jpg",
     "genres": [
       "Ficção científica",
@@ -2056,15 +2093,20 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um sobrevivente de naufrágio descobre uma ilha remota de propriedade de um cientista louco que está realizando experiências sinistras nos habitantes da ilha.",
+    "imdb_id": "tt0076210"
   },
   {
     "id": "movie-a-ilha-do-dr-moreau-1996",
     "title": "A Ilha do Dr. Moreau (1996)",
     "type": "movie",
     "year": "1996",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/2T1KubGn9DaJ9WgTp3mevltqUyJ.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror"
+    ],
     "tmdb_id": "9306",
     "sources": [
       {
@@ -2076,13 +2118,15 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em um futuro próximo, um homem (David Thewlis) em missão militar sofre um acidente no seu avião e, depois de vários dias, é resgatado por um cientista que o leva a uma remota ilha, onde um famoso geneticista (Marlon Brando), vencedor do prêmio Nobel, faz experiências com DNA e tenta criar uma raça perfeita, transformando animais selvagens em seres humanos. Porém, esta estranha mutação vai criar situações imprevisíveis.",
+    "imdb_id": "tt0116654"
   },
   {
     "id": "movie-a-ilha-do-inverno",
     "title": "A Ilha do Inverno",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/k0pLmn2Wp0GBToAhA9Gdk1qclYb.jpg",
     "genres": [
       "Terror",
@@ -2167,13 +2211,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt15133756"
+    "imdb_id": "tt15133756",
+    "overview": "Quando Abby é encontrada morta em uma ilha, seu irmão Galen começa a ter visões perturbadoras da jovem, o que o leva a descobrir uma presença maligna ligada à sua família."
   },
   {
     "id": "movie-a-ilha-do-mal",
     "title": "A Ilha do Mal",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/iGC0yHG8HRBeMikVA6GQBs1ry6y.jpg",
     "genres": [
       "Aventura",
@@ -2190,7 +2235,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Abby é uma jovem em busca de liberdade e quer sair da rotina. Ela e seus amigos, de mochilas nas costas, partem para uma viagem à paradisíaca Tailândia, para curtir praias, festas e relaxar. Tudo vai bem até que Abby encontra um vídeo em que uma garota que ela conhece – e que está desaparecida – aparece sendo torturada por um maníaco usando máscara de palhaço.",
+    "imdb_id": "tt3421124"
   },
   {
     "id": "movie-a-ilha-do-mal-2017",
@@ -2216,7 +2263,7 @@
     "id": "movie-a-ilha-do-monstros",
     "title": "A Ilha do Monstros",
     "type": "movie",
-    "year": null,
+    "year": "1987",
     "poster_url": "/rmi6F3qtYnP0NdLiL0zkABtg1MY.jpg",
     "genres": [
       "Terror"
@@ -2231,7 +2278,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Os bebês mutantes foram colocados por ordem do tribunal em um resort afastado de todos. Chocados pelo cinismo e a exploração de crianças, o sistema legal responsável por eles, manda alguns homens em uma busca para livrá-los da ilha.",
+    "imdb_id": "tt0093286"
   },
   {
     "id": "movie-a-ilha-do-monstros-1987",
@@ -2257,7 +2306,7 @@
     "id": "movie-a-ilha-do-tesouro",
     "title": "A Ilha do Tesouro",
     "type": "movie",
-    "year": null,
+    "year": "1950",
     "poster_url": "/3fnyLPpW6wE9zAGMyEA2o7qTGJY.jpg",
     "genres": [
       "Aventura",
@@ -2319,13 +2368,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Após receber o mapa do tesouro escondido pelo capitão Flint, o garoto Jim Hawkins embarca num barco pirata rumo a uma ilha do Caribe. E vive uma incrível quando, entre outros perigos, tem de encarar velhos companheiros do bucaneiro como o nada simpático Long John Silver.",
+    "imdb_id": "tt0043067"
   },
   {
     "id": "movie-a-ilha-dos-ilus",
     "title": "A Ilha dos Ilús",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/azL93T4sQgKnxhel3VPHQuz9xP7.jpg",
     "genres": [
       "Animação"
@@ -2394,13 +2445,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt11020826"
+    "imdb_id": "tt11020826",
+    "overview": "Pocó está pronto para nascer e viver o melhor dia da sua vida de cachorro! Porém, é enviado para uma família errada obrigando ele a voltar para a Ilha dos Ilús, local mítico onde todos os animais vivem antes de nascerem. Inconformado, Pocó quer conhecer sua verdadeira família, mesmo que, para isso, precise descobrir a todo custo uma passagem secreta, que somente Rinco, o lider do clã dos animais rejeitados, sabe encontrar. Sua melhor amiga Oli o ajuda nessa jornada, mesmo Pocó nem imaginando que ela é uma espiã da Gakra, uma réptil maligna que pretende invadir a ilha e sacudir com todo o reino animal."
   },
   {
     "id": "movie-a-ilha-dos-mortos",
     "title": "A Ilha dos Mortos",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/c8TRqLQ7Y80ysuY4fqHAbCdHXoe.jpg",
     "genres": [
       "Terror",
@@ -2464,7 +2516,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Na Ilha Plum, localizada na costa marítima norte-americana, vivem duas famílias que travam uma briga histórica. De um lado está o patriarca Capitão Patrick O'Flynn (Kenneth Welsh), que deseja acabar com os zumbis, e do outro lado está Seamus Muldoon (Richard Fitzpatrick), que faz de tudo para não deixar ninguém exterminar seus parentes mortos-vivos antes deles se curarem.",
+    "imdb_id": "tt1134854"
   },
   {
     "id": "movie-a-ilha-dos-mortos-2010",
@@ -2509,7 +2563,7 @@
     "id": "movie-a-ilha-dos-prazeres-proibidos",
     "title": "A Ilha dos Prazeres Proibidos",
     "type": "movie",
-    "year": null,
+    "year": "1979",
     "poster_url": "/7nRatm6xajryic8xTU4B7rW6P46.jpg",
     "genres": [
       "Drama",
@@ -2559,13 +2613,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Ana, falsa jornalista e assassina profissional, é designada pela organização de extrema direita para qual trabalha, para uma audaciosa missão na Ilha dos Prazeres. Usando como guia o ex-jornalista Sérgio, Ana deverá conseguir entrar no local e eliminar dois refugiados subversivos : o teórico reichniano William Solanas e o anarquista Nilo Baleeiro. Em contato direto com o hedonismo do paradisíaco reduto de renegados, a sicária descobre, à duras penas, a função revolucionária do prazer.",
+    "imdb_id": "tt0197573"
   },
   {
     "id": "movie-a-imensidao",
     "title": "A Imensidão",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/rsz7QDn6r6HpWjaGJrDoU4EYHym.jpg",
     "genres": [
       "Drama"
@@ -2632,7 +2688,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Na Roma da década de 1970, Clara e Felice acabam de se mudar para um novo apartamento. Eles não se amam mais, mas também não conseguem se separar e a criação dos filhos parece ser a única coisa que os mantêm juntos.",
+    "imdb_id": "tt13051724"
   },
   {
     "id": "movie-a-imperatriz-2023",
@@ -2662,7 +2720,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "É madrugada. Quando Melina entra no Café Insônia, ela não imagina que está prestes a reencontrar alguém de seu passado. O destino parece uni-los novamente por uma única noite que irá mudar o rumo de um deles para sempre."
   },
   {
     "id": "movie-a-imperatriz-virou-minha-madrasta",
@@ -2734,7 +2793,7 @@
     "id": "movie-a-incrivel-historia-da-ilha-das-rosas",
     "title": "A Incrivel Historia Da Ilha Das Rosas",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/4nQkSXRwun0dLk4EKvU2LfpgZhG.jpg",
     "genres": [
       "Comédia",
@@ -2796,13 +2855,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um engenheiro idealista constrói sua própria ilha na costa italiana e a declara uma nação, atraindo a atenção do mundo. Os valores são testados quando o governo italiano o declara inimigo, mas para mudar o mundo é preciso correr riscos.",
+    "imdb_id": "tt10287954"
   },
   {
     "id": "movie-a-incrivel-historia-de-adaline",
     "title": "A Incrivel Historia de Adaline",
     "type": "movie",
-    "year": null,
+    "year": "2015",
     "poster_url": "/gU84OUm9c4R44Zx8U1YPbCzKqIo.jpg",
     "genres": [
       "Romance",
@@ -2865,7 +2926,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Adaline Bowman nasceu na virada do século XX e levava uma vida normal até sofrer um grave acidente de carro. Desde então, ela milagrosamente parou de envelhecer e acabou se tornando um ser imortal com eterna aparência de 29 anos. Adaline vive uma existência solitária, nunca se permitindo criar laços com ninguém para não ter seu segredo revelado. Mas tudo muda quando ela conhece o jovem e belo Ellis Jones, um filantropo por quem pode valer a pena arriscar sua imortalidade.",
+    "imdb_id": "tt1655441"
   },
   {
     "id": "movie-a-incrivel-historia-de-adaline-2015",
@@ -2998,7 +3061,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Chance é um Buldog trapalhão e tem como melhores amigos Sassy, uma charmosa e engraçada gatinha que se comporta como uma princesa, e Shadow, um dócil e esperto cão da raça Golden Retriever. A incrível aventura começa quando estes irresistíveis animais de estimação decidem voltar para casa sozinhos, sem a ajuda de ninguém, depois de terem sido separados de seus donos, os quais adoram. Nessa incrível aventura de volta para casa, o trio atravessa montanhas, enfrenta grandes perigos, animais ferozes e as dificuldades do caminho proporcionadas pela natureza.",
+    "imdb_id": "tt0107131"
   },
   {
     "id": "movie-a-incrivel-jornada-2-perdidos-em-sao-francisco-1996",
@@ -3049,7 +3114,7 @@
     "id": "movie-a-incrivel-eleanor",
     "title": "A Incrível Eleanor",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/1BKfPBPVGfLAIIDu8RRJqaIglLU.jpg",
     "genres": [
       "Drama"
@@ -3140,7 +3205,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Eleanor Morgenstein, uma mulher de 94 anos, está tentando reconstruir sua vida após a perda de sua melhor amiga. Depois de décadas na Flórida, ela regressa a Nova York para um novo começo. O longa é o primeiro trabalho da renomada atriz Scarlett Johansson como diretora.",
+    "imdb_id": "tt30268321"
   },
   {
     "id": "movie-a-incrivel-elisa-2022",
@@ -3218,7 +3285,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt9336032"
+    "imdb_id": "tt9336032",
+    "overview": "Elisa é uma garota de doze que tenta convencer seu pai de que possui os mesmos superpoderes de sua heroína favorita e de que está pronta para se vingar dos responsáveis pela morte de sua mãe."
   },
   {
     "id": "movie-a-incrivel-historia-da-ilha-das-rosas-2020",
@@ -3261,7 +3329,7 @@
     "id": "movie-a-incrivel-historia-da-pera-gigante",
     "title": "A Incrível História da Pera Gigante",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/yFfWd5TkLOLemoqf0tdO4kGz71Y.jpg",
     "genres": [
       "Animação",
@@ -3324,7 +3392,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Mitcho e Sebastian encontram uma mensagem misteriosa dentro de uma garrafa e embarcam em uma grande jornada para encontrar o prefeito desaparecido de sua cidade.",
+    "imdb_id": "tt7006206"
   },
   {
     "id": "movie-a-incrivel-historia-da-pera-gigante-2017",
@@ -3368,7 +3438,7 @@
     "id": "movie-a-incrivel-historia-de-henry-sugar",
     "title": "A Incrível História de Henry Sugar",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/azRL9bmByicPRzP0ljDNzFCwyUX.jpg",
     "genres": [
       "Fantasia",
@@ -3467,13 +3537,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Wes Anderson dirige esta adaptação do conto de Roald Dahl sobre um homem rico determinado a dominar uma técnica extraordinária para trapacear no jogo.",
+    "imdb_id": "tt16968450"
   },
   {
     "id": "movie-a-incrivel-historia-de-henry-sugar-e-outros-tres-contos",
     "title": "A Incrível História de Henry Sugar e Outros Três Contos",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/8gBOtLTs0GNMEZnisAK132o5V67.jpg",
     "genres": [
       "Comédia",
@@ -3560,13 +3632,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Wes Anderson adapta quatro contos de Roald Dahl nesta antologia que destaca a história vencedora do Oscar® de um homem rico determinado a dominar uma habilidade extraordinária.",
+    "imdb_id": "tt31800329"
   },
   {
     "id": "movie-a-incrivel-historia-de-mario-capecchi",
     "title": "A Incrível História de Mario Capecchi",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/72wOmD7phuSYvun5NrYA8Js7VDk.jpg",
     "genres": [
       "Drama",
@@ -3654,7 +3728,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt13848274"
+    "imdb_id": "tt13848274",
+    "overview": "Na Itália, durante a Segunda Guerra Mundial, a mãe do pequeno Mario Capecchi é presa e o garoto é obrigado a passar sua infância nas ruas. Os dois se reencontram após o fim da guerra e decidem começar uma nova vida nos Estados Unidos."
   },
   {
     "id": "movie-a-incrivel-jornada-ii-perdidos-em-sao-francisco-1996",
@@ -3680,7 +3755,7 @@
     "id": "movie-a-incrivel-mulher-que-encolheu",
     "title": "A Incrível Mulher Que Encolheu",
     "type": "movie",
-    "year": null,
+    "year": "1981",
     "poster_url": "/cyVWzXAGbj5b76k8XYOB4mZzUMn.jpg",
     "genres": [
       "Comédia",
@@ -3718,13 +3793,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Lily Tomlin estrela esta comédia descontraída sobre uma mãe e dona de casa comum, Pat Kramer (Tomlin), que é exposta a uma mistura química bizarra e desenvolve uma estranha doença: ela começa a encolher. Surpreendendo médicos e batalhando para cuidar de sua família, seu encolhimento chama a atenção não apenas do povo americano, mas também de um grupo de cientistas do mal que estão planejando dominar o mundo!",
+    "imdb_id": "tt0082558"
   },
   {
     "id": "movie-a-indefectivel-missao-de-renildo-salvador",
     "title": "A Indefectível Missão de Renildo Salvador",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/lntQIIhGVrvt3KiPpFtyqiRg15A.jpg",
     "genres": [
       "Comédia"
@@ -3785,7 +3862,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Marilda, uma mulher neurótica e moralista, rapta e pressiona o idealista Renildo para que ele, com sua experiência terapêutica com pacientes desajustados, cure sua neta de suas ideias transgressoras.",
+    "imdb_id": "tt13299798"
   },
   {
     "id": "movie-a-indefectivel-missao-de-renildo-salvador-2019",
@@ -3827,7 +3906,7 @@
     "id": "movie-a-indestrutivel-tatiana-suarez",
     "title": "A Indestrutível Tatiana Suarez",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/1zHMAk0ad4g0pYCBQEz5aLvyCIk.jpg",
     "genres": [
       "Documentário"
@@ -3882,7 +3961,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O espírito indomável da lutadora de MMA Tatiana Suarez é explorado neste filme que acompanha seu retorno após quatro anos de afastamento por lesão.",
+    "imdb_id": "tt30955308"
   },
   {
     "id": "movie-a-indestrutivel-tatiana-suarez-2024",
@@ -3924,7 +4005,7 @@
     "id": "movie-a-industria-do-vicio",
     "title": "A Indústria do Vício",
     "type": "movie",
-    "year": null,
+    "year": "2024",
     "poster_url": "/jytXj7LMo5JHZqhDeUy1o0xrJKr.jpg",
     "genres": [
       "Drama",
@@ -3940,7 +4021,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A atual epidemia de opioides é contada a partir da perspectiva de três pessoas: Um empresário, um paciente e uma médica.",
+    "imdb_id": "tt9046896"
   },
   {
     "id": "movie-a-industria-do-vicio-2025",
@@ -4009,7 +4092,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A Infância de um Líder é uma visão alegórica e arrepiante sobre a ascensão do fascismo no Século XX. Conta a história de um jovem rapaz americano que vive em França em 1918 e cujo pai trabalha para o governo dos Estados Unidos na criação do Tratado de Versalhes. O que ele testemunha acabar por lhe moldar os seus ideais e personalidade, fazendo nascer um ego aterrador. Vagamente inspirado na experiência de infância de muitos dos grandes ditadores do século XX e impregnado com uma realidade assustadora, A Infância de um Líder é um retrato realista da emergência do mal.",
+    "imdb_id": "tt2815902"
   },
   {
     "id": "movie-a-influencer-2024",
@@ -4072,13 +4157,14 @@
       }
     ],
     "source_candidates_skipped": 3,
-    "imdb_id": "tt30749092"
+    "imdb_id": "tt30749092",
+    "overview": "Após descobrir a traição de seu namorado, a estrela influencer Zosia foge para os exclusivos destinos da Europa, mergulhando em um mundo de fama, ciúmes e escândalos. Disposta a fazer qualquer coisa por um \"like\", segredos e desejos ameaçam destruir sua nova vida glamourosa."
   },
   {
     "id": "movie-a-influencer-divina",
     "title": "A Influencer Divina",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/saP1nYtwwp9umyHeUUSKNyuBLbj.jpg",
     "genres": [
       "Drama",
@@ -4172,13 +4258,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt23032876"
+    "imdb_id": "tt23032876",
+    "overview": "Uma influenciadora acostumada ao luxo perde o apoio financeiro dos pais e aceita trabalhar em um abrigo. Lá, ela enfrenta desafios que a levam a descobrir o verdadeiro significado de servir ao próximo e um propósito maior."
   },
   {
     "id": "movie-a-influenciadora",
     "title": "A Influenciadora",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/mpBHwg365CHxp9O1uhlyUan6pnT.jpg",
     "genres": [
       "Comédia",
@@ -4259,7 +4346,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Abbie Rose é uma popular influenciadora de mídias sociais, que produz vídeos sobre moda, estilo de vida e maquiagem. Depois que ela assina um contrato com uma empresa de cosméticos conhecida por desrespeitar os direitos humanos, sua casa é invadida por um grupo de ativistas que a obrigam a gravar um vídeo sobre um misterioso produto.",
+    "imdb_id": "tt10868922"
   },
   {
     "id": "movie-a-influenciadora-2021",
@@ -4309,7 +4398,7 @@
     "id": "movie-a-informante",
     "title": "A Informante",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/kl6YxKVrAXhEmRHbElKQ2klwsM7.jpg",
     "genres": [
       "Drama",
@@ -4409,7 +4498,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Adaptação para longa-metragem das experiências de Kathryn Bolkova (Rachel Weisz), uma policial do Nebraska que serviu nas forças de manutenção de paz na Bósnia do pós-guerra, e que expôs a hierarquia militar das Nações Unidas por ter encoberto um escândalo de tráfico sexual.",
+    "imdb_id": "tt0896872"
   },
   {
     "id": "movie-a-informante-2010",
@@ -4521,7 +4612,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt14316486"
+    "imdb_id": "tt14316486",
+    "overview": "River, uma jovem mãe flagrada em uma pequena apreensão de drogas, é forçada a trabalhar para a polícia como informante secreta e é enviada para uma perigosa operação encoberta que pode lhe custar tudo, até mesmo sua filha."
   },
   {
     "id": "movie-a-informante-2024",
@@ -4569,7 +4661,7 @@
     "id": "movie-a-infancia-perdida",
     "title": "A Infância Perdida",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/iRq7MlpGUvmhMcm9E9LrhnJlY1t.jpg",
     "genres": [
       "Suspense",
@@ -4651,7 +4743,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Quatro irmãos acordam em uma casa remota na floresta e descobrem que o pai deles desapareceu. Eles tentam voltar para casa, mas a floresta é um ciclo sem fim e uma presença obscura começa a persegui-los.",
+    "imdb_id": "tt28642176"
   },
   {
     "id": "movie-a-inocente-amante-da-mafia",
@@ -4669,7 +4763,7 @@
     "id": "movie-a-inocente-face-do-terror",
     "title": "A Inocente Face do Terror",
     "type": "movie",
-    "year": null,
+    "year": "1972",
     "poster_url": "/j7cHl1ZnC6AYULZnXjsl2XuhRAk.jpg",
     "genres": [
       "Drama",
@@ -4713,13 +4807,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Numa comunidade rural americana, as brincadeiras de dois irmãos gêmeos tornam-se cada vez mais perigosas, chegando a ameaçar a vida dos parentes e vizinhos.  Filme de terror ambientado em 1935, onde os gêmeos Niles e Holland acabam se dividindo na personificação do bem e do mal. Enquanto Holland cada vez mais brinca com o medo e o perigo, inclusive podendo ferir outras pessoas, seu irmão Niles que acompanha tudo, não gosta do que vê, mas ao mesmo tempo alguma coisa faz com o que garoto não denuncie o irmão.",
+    "imdb_id": "tt0069050"
   },
   {
     "id": "movie-a-inocencia-do-primeiro-amor",
     "title": "A Inocência do Primeiro Amor",
     "type": "movie",
-    "year": null,
+    "year": "1986",
     "poster_url": "/mEpbtvhgLC8agFc1eDo7uG1nETa.jpg",
     "genres": [
       "Comédia",
@@ -4794,13 +4890,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Durante suas férias de verão, Lucas (Corey Haim) um menino super inteligente, conhece Maggie (Kerri Green) uma garota mais velha que recentemente se mudou para a cidade. Eles rapidamente se tornam grandes amigos, companheiros inseparáveis. Lucas não pode evitar, o garoto solitário se apaixona por ela.  Mas as aulas recomeçam, e Maggie fica atraída por Cappie (Charlie Sheen), atleta do time de futebol. Isso será visto como traição por Lucas e o fará tomar uma decisão extrema: Entrar também para a equipe de futebol.",
+    "imdb_id": "tt0091445"
   },
   {
     "id": "movie-a-inquilina",
     "title": "A Inquilina",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/3mP1QlSlDNaBcrwRIrI864hs0OB.jpg",
     "genres": [
       "Suspense",
@@ -4855,7 +4953,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Juliet Devereau, uma jovem médica, acredita ter encontrado o lugar perfeito para morar, ela se muda para um apartamento no Brooklyn, em Nova York. Após algum tempo, Juliet começa a perceber que coisas misteriosas estão ocorrendo e passa a acreditar que não está sozinha no apartamento. As coisas se complicam ainda mais com a crescente obsessão do senhorio do prédio pela jovem.",
+    "imdb_id": "tt1334102"
   },
   {
     "id": "movie-a-inquilina-2011",
@@ -4991,13 +5091,14 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt13495458"
+    "imdb_id": "tt13495458",
+    "overview": "Ellis French é um jovem gay negro, rejeitado por sua mãe e com poucas opções para o futuro, decide ingressar na Marinha, fazendo o que for preciso para ter sucesso em um sistema que o deixaria de lado. Mas mesmo enquanto ele luta contra o preconceito arraigado e as rotinas extenuantes do treinamento básico, ele encontra camaradagem, força e apoio inesperados nesta nova comunidade, dando a ele um senso de pertencimento conquistado com muito esforço que moldará sua identidade e mudará sua vida para sempre. ."
   },
   {
     "id": "movie-a-interrupcao",
     "title": "A Interrupção",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/lxVmsbP4eLXirdMRXZDwg1r1mCF.jpg",
     "genres": [
       "Ficção científica",
@@ -5013,7 +5114,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em 2034, o sudeste da Ásia não vê a luz do sol há três anos, como resultado da erupção de vulcões. No escuro, homens loucos controlam países, comunidades, enclaves e novas cidades. Milhões de pessoas morreram e inúmeras fugiram.",
+    "imdb_id": "tt10244756"
   },
   {
     "id": "movie-a-interrupcao-2019",
@@ -5039,7 +5142,7 @@
     "id": "movie-a-intervencao",
     "title": "A Intervenção",
     "type": "movie",
-    "year": null,
+    "year": "2016",
     "poster_url": "/jeoi4ZrN94Qhyd87OFzYPyKMx7Y.jpg",
     "genres": [
       "Comédia",
@@ -5055,7 +5158,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quatro casais planejam reunir-se para uma \"intervenção de casamento\" disfarçada num divertido fim de semana em uma casa de veraneio à beira do lago. Numa tentativa de empurrar Ruby (Cobie Smulders) e seu marido Peter (Vincent Piazza) para o divórcio Annie (Melanie Lynskey) e seu noivo Matt (Jason Ritter) reúnem a família e amigos para abordar a falência do casamento deles. A irmã de Ruby Jessie (Clea DuVall) sua namorada Sarah (Natasha Lyonne) seu velho amigo Jack (Ben Schwartz) e Lola \"com fobia de estranhos\" (Alia Shawkat) empenham-se em várias manobras enquanto tentam manter a ilusão de um divertido fim de semana juntos. Quando tudo se desmorona num ambiente restrito antigas questões vem à tona.",
+    "imdb_id": "tt4872078"
   },
   {
     "id": "movie-a-intervencao-2016",
@@ -5131,13 +5236,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Para Marnie Minervini (Susan Sarandon) a maternidade não é um dever, mas sim uma vocação. Mesmo após a recente morte do marido, ela não deixa de ser alegre, sempre mandando mensagens, ligando e aparecendo sem avisar na casa da filha, Lori (Rose Byrne). Almejando algum controle sobre sua vida, principalmente após o término de um relacionamento, Lori tenta sair das asas da mãe, mas Marnie segue a filha até Los Angeles e acaba desenvolvendo uma conexão com um policial (J.K. Simmons).",
+    "imdb_id": "tt4501454"
   },
   {
     "id": "movie-a-interprete",
     "title": "A Intérprete",
     "type": "movie",
-    "year": null,
+    "year": "2005",
     "poster_url": "/g5IoLdiNHVHgC3OeLzh4Rx3iXRe.jpg",
     "genres": [
       "Crime",
@@ -5153,7 +5260,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Houve uma ameaça de morte ao chefe de estado africano, e a intérprete, Silvia, ouviu tudo. A ameaça foi feita em uma língua africana pouco conhecida, e Silvia se vê em uma conspiração internacional em que todos desconfiam dela.",
+    "imdb_id": "tt0373926"
   },
   {
     "id": "movie-a-interprete-2005",
@@ -5217,7 +5326,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um pequeno grupo de moradores de uma cidade tem que se unir após uma invasão devastadora da sua área. Enquanto lutam para sobreviver, eles percebem que devem ficar um passo à frente de seus agressores e trabalhar juntos para ter chance de atacar.",
+    "imdb_id": "tt6774786"
   },
   {
     "id": "movie-a-invasao-2020",
@@ -5343,6 +5454,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Sobreviventes de uma praga zumbi fogem de seu refúgio na Ilha de Alcatraz quando ele é tomado pelos mortos-vivos, se arriscando no mundo exterior para encontrar um cientista que, de acordo com rumores, encontrou a cura para a doença.",
+    "imdb_id": "tt2236182"
   }
 ]

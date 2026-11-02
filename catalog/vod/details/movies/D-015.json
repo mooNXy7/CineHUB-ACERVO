@@ -34,7 +34,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Nova York, Estados Unidos. Connor Ludlow (James McAvoy) e Eleanor Rigby (Jessica Chastain) são casados, mas a incurável dor de um trágico acontecimento a faz deixar repentinamente o marido e a vida que levava até então. Enquanto ela tenta recomeçar e busca novos interesses, ele tenta reencontrar o amor desaparecido e entender o que de fato aconteceu.",
+    "imdb_id": "tt3729920"
   },
   {
     "id": "movie-dois-lados-do-amor-ela",
@@ -3654,7 +3656,7 @@
     "title": "Don't Let Go (2002)",
     "type": "movie",
     "year": "2002",
-    "poster_url": null,
+    "poster_url": "/2BpmAOrEt2M7YTVKjPqZ7TSes7G.jpg",
     "genres": [],
     "tmdb_id": "256218",
     "sources": [
@@ -3674,7 +3676,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0250804"
   },
   {
     "id": "movie-don-039-t-let-him-find-you-2024",

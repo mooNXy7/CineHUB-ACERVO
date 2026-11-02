@@ -1285,8 +1285,12 @@
     "title": "Argentina 1985 (2022)",
     "type": "movie",
     "year": "2022",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/isLWtcB9TK3wLlTzEny2dPH6beh.jpg",
+    "genres": [
+      "Drama",
+      "História",
+      "Crime"
+    ],
     "tmdb_id": "714888",
     "sources": [
       {
@@ -1298,7 +1302,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "“Argentina, 1985” é inspirado na história verídica de Julio Strassera, Luis Moreno Ocampo e sua equipe de jovens juristas, heróis improváveis que travam uma batalha de Davi e Golias na qual, sob ameaças constantes e contra toda as possibilidades, ousam processar a ditadura militar mais sangrenta da Argentina e embrenham-se numa corrida contra o tempo para fazer justiça às vítimas dos militares.",
+    "imdb_id": "tt15301048"
   },
   {
     "id": "movie-argentina-1985",

@@ -934,7 +934,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um guarda-costas é encarregado de proteger a filha de um importante cientista, para que a pesquisa de sua empresa não caia em mãos erradas. Quando um grupo de mercenários surge para roubar o material, será preciso lutar para sobreviver.",
+    "imdb_id": "tt18298628"
   },
   {
     "id": "movie-guardioes-da-galaxia-2014",
@@ -4848,8 +4850,13 @@
     "title": "Guerra nas Ruas (2011)",
     "type": "movie",
     "year": "2011",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/paN95Qo93vXK9pOOTseScUHcM2B.jpg",
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Ação",
+      "Crime"
+    ],
     "tmdb_id": "273817",
     "sources": [
       {
@@ -4861,7 +4868,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Quando o policial Elijah Kane e sua equipe de policiais disfarçados descobrem uma nova droga do laboratório inundando as casas noturnas de Seattle, eles lutam para eliminá-lo das ruas imediatamente. Como se lidar com uma dúzia de ravers mortos não fosse suficiente, os policiais começaram a agir como guardas de segurança para um documentarista detestável. Eles rapidamente ficam a par da arrogância do cineasta quando ele tenta fazer um filme sobre o ventre de Seattle.",
+    "imdb_id": "tt1702925"
   },
   {
     "id": "movie-guerra-no-pacifico",

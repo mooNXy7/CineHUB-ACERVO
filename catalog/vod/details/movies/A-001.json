@@ -2222,7 +2222,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0184246"
   },
   {
     "id": "movie-a-banana-mecanica-1974",
@@ -5305,7 +5306,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma visão mais dark do conto de amor proibido entre a delicada Bela e a mais temida besta da floresta, a Fera. Quando os aldeões estão sendo brutalmente assassinados, a Fera é caçada como sendo responsável pelas mortes. A Bela e a Fera se juntam para descobrir e combater o responsável pelos crimes. (e 16 - Estimado 16 Anos)",
+    "imdb_id": "tt1410295"
   },
   {
     "id": "movie-a-bela-e-a-fera-2014",

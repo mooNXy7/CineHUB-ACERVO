@@ -1582,7 +1582,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt0110186"
   },
   {
     "id": "movie-a-face-da-verdade-2019",
@@ -2465,7 +2466,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Para ir de mal a pior, a Família Addams precisa se preparar para receber uma visita de parentes ainda mais arrepiantes. Mas a misteriosa mansão deles parece estar com os dias de maldade contados. Prepare-se para estalar os dedos! O clã assustador mais querido dos cinemas está de volta nessa animação baseada nos quadrinhos de Charles Addams.",
+    "imdb_id": "tt1620981"
   },
   {
     "id": "movie-a-familia-addams-2-1993",

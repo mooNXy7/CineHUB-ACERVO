@@ -3713,8 +3713,12 @@
     "title": "Anjo da Vingança (1988)",
     "type": "movie",
     "year": "1988",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/g5H5CVyfQIMBJCK0UaVog3fapmn.jpg",
+    "genres": [
+      "Ação",
+      "Thriller",
+      "Crime"
+    ],
     "tmdb_id": "67392",
     "sources": [
       {
@@ -3726,7 +3730,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Ex-prostituta e agora fotógrafa, Angel reencontra sua mãe depois de anos. Esta lhe conta que sua irmã corre perigo e morre assassinada logo depois. Para tirar a irmã das mãos de traficantes de escravas brancas, Angel volta à vida de prostituição.",
+    "imdb_id": "tt0094656"
   },
   {
     "id": "movie-anjo-de-natal-2021",
@@ -3912,7 +3918,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Lizzie tem dificuldade em aceitar a morte da filha, mas uma esperança surge quando ela conhece Lola, uma garotinha de sete anos. Acreditando que a menina é a criança falecida, Lizzie fica obcecada, colocando todos em perigo.",
+    "imdb_id": "tt7058080"
   },
   {
     "id": "movie-anjo-negro",

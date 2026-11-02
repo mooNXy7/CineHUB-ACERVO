@@ -1079,8 +1079,10 @@
     "title": "Jogo Duro (1986)",
     "type": "movie",
     "year": "1986",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/6A0LAngzGv1NmcXKHJdI71tOBeU.jpg",
+    "genres": [
+      "Drama"
+    ],
     "tmdb_id": "351373",
     "sources": [
       {
@@ -1092,7 +1094,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0140296"
   },
   {
     "id": "movie-jogo-entre-ladroes-2009",

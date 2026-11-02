@@ -1601,8 +1601,11 @@
     "title": "A Criatura (1985)",
     "type": "movie",
     "year": "1985",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/zVUKwxHEwQE0jwNLXr3WrEWvHmn.jpg",
+    "genres": [
+      "Ficção científica",
+      "Terror"
+    ],
     "tmdb_id": "58903",
     "sources": [
       {
@@ -1614,7 +1617,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma equipe de cientistas chega a um frio e distante planeta para examinar artefatos arcaicos de origem desconhecida. Eles descobrem que seus inimigos alemães já pousaram lá. Quando eles procuram ajuda após um pouso fracassado, apenas encontram os corpos dos alemães, obviamente massacrados por uma arcaica criatura. Agora essa criatura está atrás deles.",
+    "imdb_id": "tt0088961"
   },
   {
     "id": "movie-a-criatura-da-destruicao",
@@ -2118,7 +2123,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt6197400"
   },
   {
     "id": "movie-a-cruz-3-2019",
@@ -2790,7 +2796,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Nascida com um poder energético para absorver o medo dos outros, uma mulher jovem precisa encontrar o amor para equilibrar os seus próprios medos e lutar contra uma tempestade cada vez maior de energia negativa.",
+    "imdb_id": "tt5583554"
   },
   {
     "id": "movie-a-cura-pela-graca",

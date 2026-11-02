@@ -73,7 +73,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Jerry Welbach é um gângster atrapalhado que recebe dois ultimatos de uma vez só. O primeiro vem de seu chefe mafioso, que quer que ele vá ao México para recuperar uma pistola antiga e inestimável. Já o segundo vem de sua namorada Samantha, que exige que ele rompa sua associação com a máfia. Entre perder a vida ou a namorada, Jerry resolve ir ao México, ainda mais depois de saber que Samantha será mantida refém pelos mafiosos até que ele retorne com a lendária pistola.",
+    "imdb_id": "tt0236493"
   },
   {
     "id": "movie-a-milhoes-de-quilometros-2023",
@@ -173,15 +175,19 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt21940010"
+    "imdb_id": "tt21940010",
+    "overview": "Inspirado na história real do engenheiro da Nasa, José Hernández, este filme acompanha sua família de fazendeiros migrantes em sua jornada desde uma vila rural em Michoacán, no México, para mais de 300 quilômetros acima da Terra na Estação Espacial Internacional. Com o apoio da família, o foco e a determinação de José culminam na oportunidade de alcançar esse objetivo impossível."
   },
   {
     "id": "movie-a-milicia-2026",
     "title": "A Milícia (2026)",
     "type": "movie",
     "year": "2026",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/2rQ71qs5zgevc241I8riBGiWrwr.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "tmdb_id": "1759875",
     "sources": [
       {
@@ -193,7 +199,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Daniel sonha em se juntar à milícia local com seu pai. Mas, quando seu pai se torna alvo do xerife, Daniel e seus amigos se unem para formar sua própria milícia em uma tentativa desesperada de salvá-lo.",
+    "imdb_id": "tt34992230"
   },
   {
     "id": "movie-a-minha-bebe-doce-fuga",
@@ -211,7 +219,7 @@
     "id": "movie-a-minha-cancao-de-amor",
     "title": "A Minha Canção de Amor",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/6NinqC5LqovNjZJXDaabuT0xD8A.jpg",
     "genres": [
       "Comédia",
@@ -272,13 +280,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Jane é uma cantora que perde a vontade de viver após sofrer um acidente e ficar paraplégica. Seu filho entra em contato para convidá-la para sua primeira comunhão e Joey, seu melhor amigo, inventa uma mentira e a convence a cruzar os Estados Unidos para rever o menino.",
+    "imdb_id": "tt1193507"
   },
   {
     "id": "movie-a-minha-casa-caiu",
     "title": "A Minha Casa Caiu",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/rboN1WdG2O7ZvZul6RHMwRvkiAr.jpg",
     "genres": [
       "Comédia"
@@ -339,7 +349,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Meghan Miles (Elizabeth Banks) é uma repórter que sonha em assumir a função de âncora de um telejornal. E o sonho está prestes a ser realizado. Entretanto, uma louca e romântica noite lhe deixa vagando sozinha pelo centro de Los Angeles, sem telefone, identidade, carro ou dinheiro. Ela possui apenas oito horas para superar todos os problemas e comparecer à uma importante entrevista de emprego, que pode mudar sua vida.",
+    "imdb_id": "tt2463288"
   },
   {
     "id": "movie-a-minha-casa-caiu-2014",
@@ -430,7 +442,7 @@
     "id": "movie-a-missy-errada",
     "title": "A Missy Errada",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/kvPMOqOQqYiJhwll5TZV0OTDOcv.jpg",
     "genres": [
       "Comédia",
@@ -492,7 +504,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Tim acha que convidou a garota dos sonhos para uma temporada no Havaí. Só que ele mandou a mensagem para a pessoa errada.",
+    "imdb_id": "tt9619798"
   },
   {
     "id": "movie-a-missy-errada-2020",
@@ -681,7 +695,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "No final do século XVIII Mendoza, um mercador de escravos, fica com crise de consciência por ter matado Felipe, seu irmão, num duelo, pois Felipe se envolveu com Carlotta. Ela havia se apaixonado por Felipe e Mendoza não aceitou isto, pois ela tinha um relacionamento com ele. Para tentar se penitenciar Mendoza se torna um padre e se une a Gabriel, um jesuíta bem intencionado que luta para defender os índios, mas se depara com interesses econômicos.",
+    "imdb_id": "tt0091530"
   },
   {
     "id": "movie-a-missao-de-sandy-bochechas-2024",
@@ -777,7 +793,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt23063732"
+    "imdb_id": "tt23063732",
+    "overview": "A Fenda do Biquíni é retirada do oceano, levando a cientista-esquilo Sandy Bochechas e seu amigo Bob Esponja ao Texas para salvar a cidade."
   },
   {
     "id": "movie-a-mistake-2024",
@@ -882,7 +899,7 @@
     "id": "movie-a-misteriosa-morte-de-perola",
     "title": "A Misteriosa Morte de Pérola",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/qKsOMyOMzaEub69J0d1NZTw1jdb.jpg",
     "genres": [
       "Mistério",
@@ -921,13 +938,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Pérola é uma jovem brasileira que se muda para uma pequena cidade da França para estudar numa escola de arte. Longe de casa e de seu namorado, vivendo sozinha em um apartamento antigo e sombrio, Pérola sente os efeitos de um tempo que passa pesado e mordaz, sendo cada vez mais tomada por nostalgia e medo, solidão e pavor, a um ponto onde sonho, fantasia e realidade perdem suas fronteiras. Depois da misteriosa morte de Pérola, o namorado ausente se torna presente e busca por sua alma. Exercício filmado excelente sobre a solidão aplicada ao espaço.",
+    "imdb_id": "tt4334720"
   },
   {
     "id": "movie-a-misteriosa-tumba-de-tutancamon",
     "title": "A Misteriosa Tumba de Tutancâmon",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/bx3UBNjbmxCrHZWve7Jz3sEnggB.jpg",
     "genres": [
       "Documentário",
@@ -989,7 +1008,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A paleoantropóloga Ella Al-Shamahi explora a fascinante ciência por trás de uma lenda egípcia enquanto investiga se as toxinas dentro da tumba de Tutancâmon e entre os tesouros do faraó poderiam explicar várias mortes misteriosas e amaldiçoadas.",
+    "imdb_id": "tt23574976"
   },
   {
     "id": "movie-a-misteriosa-tumba-de-tutancamon-2022",
@@ -1148,13 +1169,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "De um passado imoral para uma vida de princípios e fé em Deus. Essa é a trajetória de Clay (Rik Swartzwelder). Agora um novo homem, ele abandona sua vida de farras para gerenciar um antiquário em uma pequena cidade. De outro lado, chega Amber (Elizabeth Roberts), uma mulher de mente aberta que se encanta com as ideias de Clay sobre o amor. Ambos aprenderão que superar o medo e as feridas do passado pode ser uma tarefa difícil, mas vital na construção de uma relação sólida que honre a Deus.",
+    "imdb_id": "tt2048824"
   },
   {
     "id": "movie-a-modelo-e-o-fotografo",
     "title": "A Modelo e o Fotógrafo",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/pwWAzpOGbO9quvzOjmE5ledaqUA.jpg",
     "genres": [
       "Suspense",
@@ -1228,7 +1251,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Kai é um talentoso fotógrafo, que possui aversão às mulheres. Ao conhecer Kyoko, uma bonita modelo que sofre de dismorfia corporal, eles dão início a um romance.",
+    "imdb_id": "tt13129114"
   },
   {
     "id": "movie-a-modelo-e-o-fotografo-2020",
@@ -1337,7 +1362,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Tony e Tia Malone são órfãos com dons especiais. Suas habilidades motivam o cruel milionário Aristotle Bolt a atraí-los para sua mansão e explorar seus poderes mágicos. Quando tentam escapar, os irmãos começam a desvendar o mistério sobre seu nascimento.",
+    "imdb_id": "tt0072951"
   },
   {
     "id": "movie-a-montanha-enfeiticada-2009",
@@ -1384,7 +1411,7 @@
     "id": "movie-a-montanha-enfeiticada",
     "title": "A Montanha Enfeitiçada",
     "type": "movie",
-    "year": null,
+    "year": "2009",
     "poster_url": "/ej1pY47zGJwFlywEgfITT1HJDR6.jpg",
     "genres": [
       "Aventura",
@@ -1437,13 +1464,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Jack Bruno, um taxista de Las Vegas, esforçando-se para permanecer no caminho certo, recebe incentivos de outro mundo quando dois alienígenas disfarçados de adolescentes aparecem no seu táxi repentinamente. Em uma corrida contra o tempo, agentes do governo e um caçador de alienígenas, Jack tem que ajudar as crianças a recuperarem sua espaçonave perdida para que elas possam voltar para casa e salvar o seu planeta e a Terra também.",
+    "imdb_id": "tt1075417"
   },
   {
     "id": "movie-a-morada-dos-lobisomens",
     "title": "A Morada dos Lobisomens",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/uBDVCOmPK3ETFereVgo6WGymxjZ.jpg",
     "genres": [
       "Terror",
@@ -1523,7 +1552,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Um grupo de jovens cineastas se aventura para encontrar locações na zona rural da Pensilvânia. Mas não demora muito para tropeçarem em um covil de lobisomens e o pesadelo começar.",
+    "imdb_id": "tt14297962"
   },
   {
     "id": "movie-a-morada-dos-lobisomens-2023",
@@ -1566,7 +1597,7 @@
     "id": "movie-a-morte-anda-a-cavalo",
     "title": "A Morte Anda a Cavalo",
     "type": "movie",
-    "year": null,
+    "year": "1967",
     "poster_url": "/wDmw7D6zt65bBWQs2Cnx1j05EB2.jpg",
     "genres": [
       "Faroeste"
@@ -1581,7 +1612,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Ainda criança, Bill é a única testemunha do assassinato de toda a sua família por quatro assaltantes. Quinze anos depois, ele vai atrás dos assassinos em busca de vingança. Durante sua jornada, ele cruza o caminho de Ryan, um ex-condenado que acabou de sair da cadeia, e também quer se vingar dos bandidos que o colocaram na cadeia. Juntos os dois formam uma dupla nada comum em busca do mesmo objetivo.",
+    "imdb_id": "tt0064208"
   },
   {
     "id": "movie-a-morte-anda-a-cavalo-1967",
@@ -1607,7 +1640,7 @@
     "id": "movie-a-morte-branca-do-feiticeiro-negro",
     "title": "A Morte Branca do Feiticeiro Negro",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/r09FElMQkdkprhTvMWH048P3x34.jpg",
     "genres": [
       "Documentário"
@@ -1643,7 +1676,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Memórias do passado escravagista brasileiro transbordam em paisagens etéreas e ruídos angustiantes. Confira um poético ensaio visual, uma reflexão sobre silenciamento e invisibilização do povo preto em diáspora, en uma jornada íntima e sensorial.",
+    "imdb_id": "tt13266220"
   },
   {
     "id": "movie-a-morte-convida-para-dancar-2008",
@@ -1687,7 +1722,7 @@
     "id": "movie-a-morte-convida-para-dancar",
     "title": "A Morte Convida para Dançar",
     "type": "movie",
-    "year": null,
+    "year": "2008",
     "poster_url": "/dm5nzY058hitaLxvMY6fdNzD5Tw.jpg",
     "genres": [
       "Terror",
@@ -1756,7 +1791,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Há três anos, Donna passou pela traumática experiência de ver seu psicótico e obcecado professor Richard Fenton matar sua família. Ainda perturbada pelo passado, ela chegou na época do seu baile de formatura e está animada para celebrar a conquista apesar das perdas. O que ela não esperava era que seu professor pertubado conseguiria escapar do hospício para ir atrás dela.",
+    "imdb_id": "tt0926129"
   },
   {
     "id": "movie-a-morte-de-branca-de-neve-2025",
@@ -1809,7 +1846,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt31022851"
+    "imdb_id": "tt31022851",
+    "overview": "Perseguida pela madrasta em busca de beleza eterna, Branca de Neve foge para uma floresta aterrorizante e se alia a sete anões sanguinários — assassinos de sangue frio com talento para assassinatos brutais. Seu espírito é testado neste conto de fadas sombrio."
   },
   {
     "id": "movie-a-morte-de-jesus-uma-investigacao-medica",
@@ -1992,13 +2030,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Atormentado pelas cicatrizes de uma vida marcada pelo crime, Robin Hood sobrevive por pouco àquela que acreditava ser sua batalha final. Gravemente ferido, ele é encontrado por uma mulher misteriosa que o recolhe das sombras e passa a cuidar de seus ferimentos. Com o corpo fora de combate, cada erro cometido no passado volta para assombrá-lo.",
+    "imdb_id": "tt32273171"
   },
   {
     "id": "movie-a-morte-de-stalin",
     "title": "A Morte de Stalin",
     "type": "movie",
-    "year": null,
+    "year": "2017",
     "poster_url": "/2cFqFJEG60iKX1Z9f5GD1bboHac.jpg",
     "genres": [
       "Comédia",
@@ -2061,7 +2101,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "União Soviética, 1953. Após a inesperada morte do ícone Josef Stalin, o alto escalão do comitê do Partido Comunista se vê em momentos caóticos para decidir quem será o sucessor do líder soviético e quais rumos a nação seguirá a partir de então, uma enorme disputa que envolve até os complexos herdeiros do político.",
+    "imdb_id": "tt4686844"
   },
   {
     "id": "movie-a-morte-de-stalin-2017",
@@ -2188,7 +2230,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt28443655"
+    "imdb_id": "tt28443655",
+    "overview": "Elliot, funcionário de uma empresa farmacêutica, viaja com sua filha Ridley para uma reunião de emergência com seu chefe ultra-rico. Ao longo do caminho, eles acidentalmente atingem um unicórnio, e logo descobrem que o sangue, o corpo e o chifre do animal têm propriedades milagrosamente restaurativas."
   },
   {
     "id": "movie-a-morte-do-demonio-2013",
@@ -2269,7 +2312,8 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt1288558"
+    "imdb_id": "tt1288558",
+    "overview": "Um chalé abandonado. Uma antiga maldição. Um mal implacável. Os produtores originais se reúnem para apresentar uma genuinamente aterrorizante reinvenção de suas obras-primas de horror. Para ajudar Mia a se livrar das drogas, cinco amigos se isolam em um chalé na floresta. Quando descobrem o Livro dos Mortos, eles inconscientemente invocam demônios adormecidos. A partir deste acontecimento, os jovens, um após outro, vão sendo possuídos. Cabe a David, irmão de Mia, lutar pela sua sobrevivência e de sua irmã."
   },
   {
     "id": "movie-a-morte-do-demonio-a-ascensao-2023",
@@ -2318,7 +2362,7 @@
     "id": "movie-a-morte-do-demonio-a-ascensao",
     "title": "A Morte do Demônio: A Ascensão",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/pYHypEGMKtFTSQqfWC6IJFeaz1J.jpg",
     "genres": [
       "Terror",
@@ -2437,7 +2481,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 3
+    "source_candidates_skipped": 3,
+    "overview": "Duas irmãs distantes cujo reencontro é interrompido por demônios devoradores de carne que aparecem de repente, levando-as a uma batalha primal pela sobrevivência, enfrentando a versão mais assustadora que se possa imaginar de uma família.",
+    "imdb_id": "tt13345606"
   },
   {
     "id": "movie-a-morte-do-demonio-em-chamas",
@@ -2552,13 +2598,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 4
+    "source_candidates_skipped": 4,
+    "overview": "Após a perda do marido, uma mulher busca consolo com seus sogros em sua casa isolada. À medida que, um a um, eles são transformados em Deadites — transformando o encontro em uma reunião familiar infernal —, ela descobre que os votos que fez em vida... continuam vivos mesmo após a morte.",
+    "imdb_id": "tt31170389"
   },
   {
     "id": "movie-a-morte-do-incrivel-hulk",
     "title": "A Morte do Incrível Hulk",
     "type": "movie",
-    "year": null,
+    "year": "1990",
     "poster_url": "/sJ1OQMuVbmpqqFHTRbFENdkbj1n.jpg",
     "genres": [
       "Ação",
@@ -2652,13 +2700,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Em sua última tentativa de se livrar da maldição do Hulk, o Dr. David Banner se envolve em uma perigosa missão de espionagem internacional que pode finalmente levá-lo à cura. Com o cerco se fechando e os riscos aumentando, Banner enfrenta um sacrifício final, encerrando sua trajetória de forma trágica e definitiva.",
+    "imdb_id": "tt0099387"
   },
   {
     "id": "movie-a-morte-do-super-homem",
     "title": "A Morte do Super-Homem",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/k3ifJ3buflF3xGQbOcBhMngUBZ5.jpg",
     "genres": [
       "Drama"
@@ -2673,7 +2723,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt11212462"
   },
   {
     "id": "movie-a-morte-do-super-homem-2021",
@@ -2811,7 +2862,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt7167658"
+    "imdb_id": "tt7167658",
+    "overview": "Um monstro gigantesco batizado de Doomsday surge do mundo subterrâneo para começar uma destruição em massa na cidade de Metropolis. A Liga da Justiça precisa intervir imediatamente, mas parece que só os poderes do Superman são compatíveis com o do terrível monstro. Em uma luta mortal, o destino do super-herói torna-se incerto."
   },
   {
     "id": "movie-a-morte-do-superman-2007",
@@ -2861,7 +2913,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Quando a Lexcorp acidentalmente liberta o assassino serial intergaláctico Doomsday, Superman enfrenta a criatura mano a mano na batalha de sua vida… Literalmente. O mundo inteiro lamenta a queda do herói e a humanidade percebe que nunca mais se sentirá segura novamente. Os inimigos do Superman regozijam de felicidade, menos Lex Luthor, que lamenta a perda a sua maneira, desencadeando uma sequência de fatos marcantes que nem mesmo ele poderia prever.",
+    "imdb_id": "tt0934706"
   },
   {
     "id": "movie-a-morte-e-a-donzela-1994",
@@ -2904,13 +2958,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Em um país sul-americano recém saído de um regime ditatorial, Paulina Escobar fica sabendo pelo rádio que seu esposo, o famoso advogado Gerardo Escobar, deverá chefiar as investigações das mortes ocorridas no antigo regime. Em seguida Gerardo chega em casa, acompanhado de um estranho que o socorreu na estrada. Pela voz ela identifica o desconhecido como Roberto Miranda, homem que a torturou e estuprou durante sua atuação na resistência ao regime. Paulina decide então \"julgá-lo\" ali mesmo apesar dos protestos do marido.",
+    "imdb_id": "tt0109579"
   },
   {
     "id": "movie-a-morte-e-a-vida-de-bobby-z",
     "title": "A Morte e a Vida de Bobby Z",
     "type": "movie",
-    "year": null,
+    "year": "2007",
     "poster_url": "/xQMv6Lp7IYzfHMNxivaQ1SA3EBf.jpg",
     "genres": [
       "Drama",
@@ -2928,7 +2984,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Militar preso recebe uma oferta para conseguir sua liberdade: ele deve se passar por um importante traficante de drogas morto recentemente. O plano não sai como esperado e ele acaba tendo que fugir com o filho do traficante.",
+    "imdb_id": "tt0473188"
   },
   {
     "id": "movie-a-morte-e-a-vida-de-bobby-z-2007",
@@ -2954,7 +3012,7 @@
     "id": "movie-a-morte-e-o-retorno-do-superman",
     "title": "A Morte e o Retorno do Superman",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/wSyRR0OyYg9i1dHrdelmM64Y3Yw.jpg",
     "genres": [
       "Ficção científica",
@@ -2973,7 +3031,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "A Morte Do Superman (2018) e Reino do Superman (2019) agora são apresentados como um recurso animado de mais de duas horas de duração e sem interrupções. Testemunhe a batalha sem limites entre a Liga da Justiça e uma força alienígena imparável conhecida apenas como Doomsday, uma batalha que apenas o Super-Homem pode terminar e mudará para sempre a face de Metropolis."
   },
   {
     "id": "movie-a-morte-e-o-retorno-do-superman-2019",
@@ -2999,7 +3058,7 @@
     "id": "movie-a-morte-e-vida-de-charlie",
     "title": "A Morte e Vida de Charlie",
     "type": "movie",
-    "year": null,
+    "year": "2010",
     "poster_url": "/jvdcrtVBHaaYchjdGzVyDdiLRnh.jpg",
     "genres": [
       "Drama",
@@ -3043,7 +3102,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Adorado pela mãe e pelo irmãozinho Sam, Charlie St. Cloud é um velejador de sucesso e universitário com um futuro brilhante. Quando Sam morre em um um terrível acidente, os sonhos de Charlie também morrem. Mas a ligação entre os dois irmãos é tão forte que, todo entardecer, eles se encontram. A volta de uma ex-colega de escola obriga Charlie a tomar uma decisão difícil: permanecer preso ao passado ou deixar que o amor lhe mostre o futuro.",
+    "imdb_id": "tt1438254"
   },
   {
     "id": "movie-a-morte-e-vida-de-john-f-donovan-2019",
@@ -3085,7 +3146,7 @@
     "id": "movie-a-morte-fria",
     "title": "A Morte Fria",
     "type": "movie",
-    "year": null,
+    "year": "1979",
     "poster_url": "/4LXtVvX3GLwE2N8JU57iKKqR78g.jpg",
     "genres": [
       "Suspense",
@@ -3101,7 +3162,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Uma cidade é aterrorizada por um psicopata que sai noite a dentro matando prostitutas. E o detetive indicado para o caso só tem uma pista para seguir: o criminoso fotografa suas vítimas no exato momento de sua morte, usando uma câmera acoplada ao rifle.",
+    "imdb_id": "tt0081563"
   },
   {
     "id": "movie-a-morte-fria-1979",
@@ -3127,7 +3190,7 @@
     "id": "movie-a-morte-habita-a-noite",
     "title": "A Morte Habita à Noite",
     "type": "movie",
-    "year": null,
+    "year": "2022",
     "poster_url": "/a1jjEOP59fiHQRvlIucmqvDEx7A.jpg",
     "genres": [
       "Drama"
@@ -3188,7 +3251,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Aos cinquenta anos, alcoólatra e desempregado, a tábua de equilíbrio de Raul é a paixão por Lígia que nos últimos anos foi sua parceira de vida sem regras. Após ser abandonado por ela, deseja a bebida com mais vigor, contrai tuberculose e entre Postos de Saúde e trabalhos transitórios como o de faxineiro de uma Peixaria, constrói uma doce relação com Cássia, uma garota de dezesseis anos. É a primeira vez que ela apega-se de verdade a alguém. Porém, Raul ainda fragilizado pelo sumiço de Lígia e pela doença, não assume um contato mais sério com ela, que está a um passo da autodestruição. Já com o corpo e a mente bastante corroídos pela doença, surge Inês, a mulher mais triste que ele já conheceu. Um cadáver, que foi parar no quarto da Pensão onde mora. Ele parte com Inês em direção à praia do Janga em Olinda. Essa “viagem” faz nascer uma inesperada relação entre Raul e a “mulher triste” que será jogada ao mar.",
+    "imdb_id": "tt12077826"
   },
   {
     "id": "movie-a-morte-habita-a-noite-2022",
@@ -3347,13 +3412,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma famosa atriz egocêntrica (Meryl Streep) rouba de uma aspirante a escritora (Goldie Hawn) seu noivo (Bruce Willis), um famoso cirurgião plástico. A noiva rejeitada se torna extremamente complexada e gorda, mas após 14 anos, lança o livro “Eternamente Jovem” e na noite de autógrafos está mais linda do que nunca. Ela desperta a atenção de todos, principalmente da atriz que, sentindo-se cada dia mais velha, acaba indo se consultar com uma mulher sensual, bela e misteriosa (Isabella Rossellini), que tem uma poção da juventude que proporciona resultados inimagináveis.",
+    "imdb_id": "tt0104070"
   },
   {
     "id": "movie-a-morte-lhe-cai-bem-o-filme",
     "title": "A Morte lhe Cai Bem - O Filme",
     "type": "movie",
-    "year": null,
+    "year": "2009",
     "poster_url": "/1WfsWyhhP2g0pIY4VE0W0poqJ8M.jpg",
     "genres": [
       "Drama",
@@ -3416,7 +3483,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Quando um acidente repentino tira sua vida, George (Ellen Mutch) acha que todos os seus problemas acabaram, mas, ao chegar no além, ao invés do descanso eterno, ela ganha a árdua tarefa de recolher as almas das pessoas que morrem.",
+    "imdb_id": "tt1079444"
   },
   {
     "id": "movie-a-morte-lhe-cai-bem-o-filme-2009",
@@ -3460,7 +3529,7 @@
     "id": "movie-a-morte-mora-aqui",
     "title": "A Morte Mora Aqui",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/yy87C4cn6MLNJR4RC1BDNnJPXIK.jpg",
     "genres": [
       "Terror"
@@ -3545,7 +3614,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Sarah, uma adolescente com distúrbios psiquiátricos, sofre com alucinações arrepiantes. Ela vê a morte violenta de seus amigos de escola durante uma festa do pijama em sua casa. Os amigos começam a se virar uns contra os outros e logo suas premonições sangrentas parecem estar se tornando realidade. Agora Sarah precisa lidar com as dúvidas sobre a natureza de suas visões.",
+    "imdb_id": "tt1964630"
   },
   {
     "id": "movie-a-morte-mora-aqui-2011",
@@ -3701,15 +3772,20 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt0455960"
+    "imdb_id": "tt0455960",
+    "overview": "Grace Andrews (Sophia Bush) e Jim Halsey (Zachary Knighton) estão viajando a bordo de um carro antigo, dispostos a aproveitar o feriado de primavera. Até que encontram John Ryder (Sean Bean), que está pedindo carona à beira da estrada. O 1º contato de Ryder com Grace e Jim não é dos melhores, mas eles conseguem se defender de seu ataque. Entretanto a partir de então Ryder passa a persegui-los, fazendo da estrada seu campo de batalha"
   },
   {
     "id": "movie-a-morte-pede-carona-2-2003",
     "title": "A Morte Pede Carona 2 (2003)",
     "type": "movie",
     "year": "2003",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/614QvlJdCG5SWNGQ84JZCgGNCpd.jpg",
+    "genres": [
+      "Ação",
+      "Terror",
+      "Thriller"
+    ],
     "tmdb_id": "20381",
     "sources": [
       {
@@ -3722,13 +3798,14 @@
     ],
     "provider_refs": [],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt0299988"
+    "imdb_id": "tt0299988",
+    "overview": "Jim Halsey é um policial que acaba de ser suspenso por abusar da violência no trabalho. Ele volta ao Texas e conversa com o Capitão Esteridge, sobrevivente de um serial killer que deixou um rastro de morte e quase destruiu a vida de Jim."
   },
   {
     "id": "movie-a-morte-salvou-minha-vida",
     "title": "A Morte Salvou Minha Vida",
     "type": "movie",
-    "year": null,
+    "year": "2021",
     "poster_url": "/os9Qiys7Gj4B4It55t2aNIJLInV.jpg",
     "genres": [
       "Drama",
@@ -3791,7 +3868,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Superficialmente, parece que Jade tem tudo, incluindo uma carreira de marketing de sucesso, um marido admirado e respeitado na comunidade e uma filha que ambos amam. No entanto, a portas fechadas, sua vida está longe de ser perfeita.",
+    "imdb_id": "tt13646412"
   },
   {
     "id": "movie-a-morte-salvou-minha-vida-2021",
@@ -3954,7 +4033,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt5308322"
+    "imdb_id": "tt5308322",
+    "overview": "No longa, a personagem Tree Gelbman (Jessica Rothe), é assassinada por uma pessoa mascarada no dia de seu aniversário. Para descobrir o responsável pelo crime, ela ressuscita várias vezes e se vê presa em um ciclo entre vida e morte até conseguir solucionar seu próprio assassinato. Ela só conseguirá escapar de um destino trágico, quando compreender as reais causas de sua morte."
   },
   {
     "id": "movie-a-morte-te-da-parabens-2-2019",
@@ -4037,13 +4117,14 @@
       }
     ],
     "source_candidates_skipped": 1,
-    "imdb_id": "tt8155288"
+    "imdb_id": "tt8155288",
+    "overview": "A Colegial Tree Gelbman acorda horrorizada ao saber que está presa em um universo paralelo. Seu namorado Carter está agora com outra pessoa, e seus amigos e colegas parecem ser versões completamente diferentes de si mesmos. Quando Tree descobre que o colega de quarto de Carter está alterando o tempo, ela se vê mais uma vez como alvo de um matador mascarado. Quando o psicopata começa a ir atrás de seu círculo íntimo, Tree logo percebe que ela deve morrer repetidamente para salvar a todos."
   },
   {
     "id": "movie-a-morte-veste-vermelho",
     "title": "A Morte Veste Vermelho",
     "type": "movie",
-    "year": null,
+    "year": "1990",
     "poster_url": "/rAmi2JAjUtjWZCnzvVRXS9hSc9a.jpg",
     "genres": [
       "Terror",
@@ -4106,13 +4187,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Um manto encontrado em milenar altar asteca enlouquece as pessoas que o tocam. Transformado em vestido, provoca diversas mortes em uma pequena cidade norte-americana. Filme produzido para a TV e baseado num conto de Cornell Woolrich.",
+    "imdb_id": "tt0099822"
   },
   {
     "id": "movie-a-mosca",
     "title": "A Mosca",
     "type": "movie",
-    "year": null,
+    "year": "1986",
     "poster_url": "/dQWmNTzZBRuxDGiLsuKuPXJQES1.jpg",
     "genres": [
       "Terror",
@@ -4238,7 +4321,8 @@
       }
     ],
     "source_candidates_skipped": 2,
-    "imdb_id": "tt0091064"
+    "imdb_id": "tt0091064",
+    "overview": "Seth Brundie é um cientista excêntrico que trabalha numa nova invenção, uma máquina de teletransporte - a TelePod. Ao seu lado, tem Veronica, uma jornalista que acompanha seus projetos acreditando ser essa a história do ano. Ao experimentar seu novo invento, Seth não percebe que uma mosca entrou na cabine do teletransporte. O imprevisto faz com que os padrões moleculares do homem e do inseto se misturem e, pouco a pouco, o cientista vai sofrendo terríveis transformações."
   },
   {
     "id": "movie-a-mosca-1986",
@@ -4327,13 +4411,14 @@
       }
     ],
     "source_candidates_skipped": 0,
-    "imdb_id": "tt0097368"
+    "imdb_id": "tt0097368",
+    "overview": "Sob uma aparência comum, Martin (Eric Stoltz) é a pessoa mais extraordinária que vive sobre a face da Terra. Apesar de ter apenas 5 anos de idade, ele é um adulto plenamente maduro. E ele também é o filho de uma mosca humana! Agora é apenas uma questão de tempo até seus genes mutantes acordarem de seu estado de dormência. Com os mais incríveis efeitos especiais, A Mosca 2 é uma sequência inesquecível, tão assustadora e cativante quanto o primeiro filme."
   },
   {
     "id": "movie-a-moca-da-limpeza",
     "title": "A Moça da Limpeza",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/vMYkgqMznYihU5OuyfOQCm39h0M.jpg",
     "genres": [
       "Terror",
@@ -4419,7 +4504,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Uma mulher se torna amiga de uma faxineira desfigurada por queimaduras. Logo ela descobre da pior maneira possível que as cicatrizes escondem algo assustador.",
+    "imdb_id": "tt7044076"
   },
   {
     "id": "movie-a-moca-da-limpeza-2018",
@@ -4462,7 +4549,7 @@
     "id": "movie-a-mula",
     "title": "A Mula",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/kE9pO1utmOD5nQAcn7tyoUAldkX.jpg",
     "genres": [
       "Crime",
@@ -4579,7 +4666,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 4
+    "source_candidates_skipped": 4,
+    "overview": "Um homem de quase 90 anos com problemas econômicos aceita trabalhar no transporte de drogas para um cartel mexicano em Illinois. Com o dinheiro fácil que consegue, ele tenta ajudar seus parentes, mas um agente da Narcóticos o acompanha.",
+    "imdb_id": "tt7959026"
   },
   {
     "id": "movie-a-mula-2018",
@@ -4635,7 +4724,7 @@
     "id": "movie-a-mulher-da-fila",
     "title": "A Mulher da Fila",
     "type": "movie",
-    "year": null,
+    "year": "2025",
     "poster_url": "/pBN7Ff8KRCsx9nExi4xIRqCWgYY.jpg",
     "genres": [
       "Drama"
@@ -4708,7 +4797,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Para libertar o filho preso, uma mãe enfrenta um sistema de justiça corrupto e encontra outras mulheres vivendo batalhas semelhantes. Baseado em uma história real.",
+    "imdb_id": "tt27698095"
   },
   {
     "id": "movie-a-mulher-da-fila-2025",
@@ -4750,7 +4841,7 @@
     "id": "movie-a-mulher-de-preto",
     "title": "A Mulher De Preto",
     "type": "movie",
-    "year": null,
+    "year": "2012",
     "poster_url": "/g167H1JgOLAVx7YgHctBIq5kHeI.jpg",
     "genres": [
       "Drama",
@@ -4813,7 +4904,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "O jovem advogado Arthur Kipps viaja para um remoto vilarejo para tratar dos papéis de um cliente recém-falecido. Na cidade pequena e mal-assombrada, ele vê uma mulher misteriosa vestida apenas de preto, uma aparição que o leva a descobrir um terrível segredo.",
+    "imdb_id": "tt1596365"
   },
   {
     "id": "movie-a-mulher-de-preto-2012",
@@ -4857,7 +4950,7 @@
     "id": "movie-a-mulher-de-preto-2-anjo-da-morte",
     "title": "A Mulher de Preto 2: Anjo da Morte",
     "type": "movie",
-    "year": null,
+    "year": "2014",
     "poster_url": "/kGIZGAwgpMcYXrAZfX8QCfcFMiv.jpg",
     "genres": [
       "Suspense",
@@ -4913,7 +5006,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Durante a Segunda Guerra Mundial, um bombardeio destrói a cidade de Londres, forçando diversas crianças a buscarem abrigo em cidades menores da Inglaterra. Edward é uma destas crianças traumatizadas, que acaba de perder os pais e não pronuncia uma palavra sequer. Ele é acolhido pela governanta Jean e pela professora Eve na Mansão do Pântano. O abrigo está caindo aos pedaços, mas serve como refúgio ao pequeno grupo. Aos poucos, no entanto, uma série de acontecimentos assustadores passam a afetar os novos hóspedes.",
+    "imdb_id": "tt2339741"
   },
   {
     "id": "movie-a-mulher-de-preto-2-anjo-da-morte-2014",
@@ -4957,7 +5052,7 @@
     "id": "movie-a-mulher-de-um-espiao",
     "title": "A Mulher de um Espião",
     "type": "movie",
-    "year": null,
+    "year": "2020",
     "poster_url": "/kuPmxWrkajRgbfLaVLScAmbkHMb.jpg",
     "genres": [
       "Drama",
@@ -4974,7 +5069,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "É 1940, e a população do Japão está dividida com a entrada do país na Segunda Guerra Mundial. Satoko, a esposa dedicada de um comerciante de tecidos, começa a suspeitar que ele está tramando algo. Logo ela é arrastada para dentro de um jogo, escondendo enigmaticamente suas intenções.",
+    "imdb_id": "tt11917942"
   },
   {
     "id": "movie-a-mulher-do-lago-2019",
@@ -5024,13 +5121,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Tom aluga uma cabana em um lago isolado, marcado por uma lenda local de um espírito de uma mulher que afoga qualquer um que se aproxime. Ele acaba se apaixonando pela aparentemente humana Nina, que sente o mesmo por ele, mas deve lutar para reprimir seus instintos demoníacos. Enquanto isso, Al, cujo marido foi assassinado pela mulher, se aproxima dos dois em busca de vingança.",
+    "imdb_id": "tt7144200"
   },
   {
     "id": "movie-a-mulher-do-meu-irmao",
     "title": "A Mulher do Meu Irmão",
     "type": "movie",
-    "year": null,
+    "year": "2005",
     "poster_url": "/1caPOZ8N9HXVUMTKKLxh6svLm0T.jpg",
     "genres": [
       "Romance",
@@ -5098,13 +5197,15 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Zoe, uma jovem entediada com o casamento, sente uma incontrolável paixão pelo cunhado Gonzalo. Quando ele retorna à cidade, deixa-se envolver num jogo amoroso que irá desencadear uma tragédia familiar, ameaçando a relação entre os irmãos.",
+    "imdb_id": "tt0463345"
   },
   {
     "id": "movie-a-mulher-do-meu-marido",
     "title": "A Mulher do Meu Marido",
     "type": "movie",
-    "year": null,
+    "year": "2019",
     "poster_url": "/lXINvoevUcoQwD69CwI1aAzibCs.jpg",
     "genres": [
       "Comédia",
@@ -5165,7 +5266,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Depois de alguns anos de casamento com Pedro (Paulo Tiefenthaler), Joana (Luana Piovani) descobre que está sendo traída, mas decide fingir que não sabe de nada para prosseguir com a relação de maneira tranquila. Depois de descobrir que o caso extraconjugal de Pedro é com Pilar (Aylin Prandi), ela começa a se relacionar com o marido da amante secreta.",
+    "imdb_id": "tt7524558"
   },
   {
     "id": "movie-a-mulher-do-meu-marido-2019",
@@ -5208,7 +5311,7 @@
     "id": "movie-a-mulher-do-pantano",
     "title": "A Mulher do Pântano",
     "type": "movie",
-    "year": null,
+    "year": "2011",
     "poster_url": "/aKq0nyZDOPoXaFhoYYnUOHlZKHy.jpg",
     "genres": [
       "Drama",
@@ -5263,7 +5366,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "A história gira em torno de Chris Cleek, um oficial de justiça de uma pequena e pacata cidade do Maine, EUA. Quando Chris percebe uma mulher selvagem vagando pelas matas ele decide trazer a moça para dentro de sua casa. Seu objetivo de civilizar a mulher não dá muito certo à medida que sua família começa a utilizar métodos cada vez mais extremos e violentos para ensinar sua hóspede.",
+    "imdb_id": "tt1714208"
   },
   {
     "id": "movie-a-mulher-do-pantano-2011",
@@ -5306,7 +5411,7 @@
     "id": "movie-a-mulher-faz-o-homem",
     "title": "A Mulher Faz o Homem",
     "type": "movie",
-    "year": null,
+    "year": "1939",
     "poster_url": "/PtXGsDjqys9RytZp8JoabKEwiS.jpg",
     "genres": [
       "Comédia",
@@ -5361,7 +5466,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "Ingênuo homem do interior (James Stewart) é convidado para preencher uma vaga no Senado dos Estados Unidos. Aos poucos vai descobrindo o mar de lama que é o ambiente político dos comandantes de seu país. Tudo em que acredita está ameaçado. Como enfrentar esses poderosos Senadores e dirigentes políticos?",
+    "imdb_id": "tt0031679"
   },
   {
     "id": "movie-a-mulher-invisivel-2009",
@@ -5403,7 +5510,7 @@
     "id": "movie-a-mulher-invisivel",
     "title": "A Mulher Invisível",
     "type": "movie",
-    "year": null,
+    "year": "2009",
     "poster_url": "/kcmKSsjIJFHgvOmP0bkst8odCHX.jpg",
     "genres": [
       "Comédia"
@@ -5464,7 +5571,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "overview": "Após ser traído por sua esposa, Pedro encontra a mulher ideal, Amanda, e se apaixona. No entanto, ela existe somente em sua imaginação. Enquanto isso, sua vizinha fica viúva e tenta conquistar Pedro, deixando-o ainda mais confuso.",
+    "imdb_id": "tt1236397"
   },
   {
     "id": "movie-a-mulher-invisivel-2019",
@@ -5507,7 +5616,7 @@
     "id": "movie-a-mulher-mais-assassinada-do-mundo",
     "title": "A Mulher Mais Assassinada do Mundo",
     "type": "movie",
-    "year": null,
+    "year": "2018",
     "poster_url": "/nZDuCGdw4Nq059aXHpovA6ZdjUo.jpg",
     "genres": [
       "Mistério",
@@ -5523,7 +5632,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Na década de 1930, em Paris, uma atriz famosa por suas assustadoras cenas de morte no Teatro Grand Guignol enfrenta um misterioso perseguidor e fantasmas de seu passado.",
+    "imdb_id": "tt6186696"
   },
   {
     "id": "movie-a-mulher-mais-assassinada-do-mundo-2018",
@@ -5549,7 +5660,7 @@
     "id": "movie-a-mulher-mais-bonita-de-saigon",
     "title": "A Mulher Mais Bonita de Saigon",
     "type": "movie",
-    "year": null,
+    "year": "2023",
     "poster_url": "/aplFM9u5lye78Xz5d6FokE8dyKq.jpg",
     "genres": [
       "Suspense",
@@ -5635,7 +5746,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 2
+    "source_candidates_skipped": 2,
+    "overview": "No Vietnã do começo do Século XX, uma jovem prostituta se aproxima de uma rica mulher na esperança de mudar de vida. Mas o que começa como uma amizade fraternal entre as duas logo se transforma em uma intensa briga por fama e poder.",
+    "imdb_id": "tt26427329"
   },
   {
     "id": "movie-a-mulher-mais-bonita-de-saigon-2023",

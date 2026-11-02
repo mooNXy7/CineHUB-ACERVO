@@ -3529,8 +3529,12 @@
     "title": "Ana e Vitória (2018)",
     "type": "movie",
     "year": "2018",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/mp9lN79uTCiq2fQQLilzdCRWAlN.jpg",
+    "genres": [
+      "Romance",
+      "Comédia",
+      "Música"
+    ],
     "tmdb_id": "531122",
     "sources": [
       {
@@ -3542,7 +3546,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Ana e Vitória se conhecem em uma festa e decidem cantar juntas. São descobertas por um empresário carioca e chegam ao estrelato, recebendo um disco de platina. Ana está em busca do amor de sua vida e Vitória em busca de um amor livre e sem amarras. Será que conseguirão viver um grande amor?",
+    "imdb_id": "tt8583378"
   },
   {
     "id": "movie-ana-uma-adaptacao-da-serie-reis",

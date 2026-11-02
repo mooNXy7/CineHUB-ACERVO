@@ -1032,7 +1032,9 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um alcoólatra chega numa cidadezinha bem tranquila. Mas lá, acaba se tornando alvo de um grupo de caçadores. O hobby desse grupo é assassinar qualquer um que chegue no lugar.",
+    "imdb_id": "tt5189770"
   },
   {
     "id": "movie-a-caca-2024",
@@ -3848,7 +3850,8 @@
         "source_id": "reference-catalog"
       }
     ],
-    "source_candidates_skipped": 1
+    "source_candidates_skipped": 1,
+    "imdb_id": "tt7766092"
   },
   {
     "id": "movie-a-christmas-carol-goes-wrong-2017",

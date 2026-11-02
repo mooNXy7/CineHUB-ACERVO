@@ -1479,8 +1479,12 @@
     "title": "Fantasia 2000 (2000)",
     "type": "movie",
     "year": "2000",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/b9KkELlbgobWyb0dyTUrZar9Aaw.jpg",
+    "genres": [
+      "Animação",
+      "Família",
+      "Música"
+    ],
     "tmdb_id": "49948",
     "sources": [
       {
@@ -1492,7 +1496,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "O clássico de 1940 da Walt Disney Pictures, Fantasia, retorna com um um toque a mais de magia tecnológica. Combinando animação tradicional com gerada por computador, este musical de gala apresenta seis novos segmentos, cada um criado por diretores e equipes criativas diferentes.",
+    "imdb_id": "tt0120910"
   },
   {
     "id": "movie-fantasias-de-princesa",

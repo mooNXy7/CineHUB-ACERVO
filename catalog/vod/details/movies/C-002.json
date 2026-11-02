@@ -2199,8 +2199,11 @@
     "title": "Camuflagem (2014)",
     "type": "movie",
     "year": "2014",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/iANAMsTvFpQWsidw536t6RwsE1p.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "tmdb_id": "351984",
     "sources": [
       {
@@ -2212,7 +2215,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Um policial sem escrúpulos encurrala o principal suspeito de um assassinato para executar um plano sinistro.",
+    "imdb_id": "tt3382280"
   },
   {
     "id": "movie-can-you-ever-forgive-me-legendado",

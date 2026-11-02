@@ -3972,8 +3972,11 @@
     "title": "Blade Runner 2049 (2017)",
     "type": "movie",
     "year": "2017",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/49pANIZXRAdHUiWjjBv4vxPeqRC.jpg",
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
     "tmdb_id": "335984",
     "sources": [
       {
@@ -3985,7 +3988,9 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "overview": "Trinta anos após os acontecimentos do primeiro filme, um novo blade runner, o oficial K da polícia de Los Angeles, desenterra um segredo há muito enterrado que tem o potencial de mergulhar o que resta da sociedade no caos. A descoberta de K o leva a uma busca para encontrar Rick Deckard, um ex-blade runner do LAPD que está desaparecido há 30 anos.",
+    "imdb_id": "tt1856101"
   },
   {
     "id": "movie-blade-runner-o-cacador-de-androides-1982",

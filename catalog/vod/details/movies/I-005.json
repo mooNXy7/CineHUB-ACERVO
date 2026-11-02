@@ -3563,8 +3563,13 @@
     "title": "Invincible: Atom Eve (2023)",
     "type": "movie",
     "year": "2023",
-    "poster_url": null,
-    "genres": [],
+    "poster_url": "/z6znx4Zmd0teHg904V1kFbDo1Xc.jpg",
+    "genres": [
+      "Animação",
+      "Ação",
+      "Ficção científica",
+      "Drama"
+    ],
     "tmdb_id": "1813228",
     "sources": [
       {
@@ -3576,7 +3581,8 @@
       }
     ],
     "provider_refs": [],
-    "source_candidates_skipped": 0
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt28452191"
   },
   {
     "id": "movie-invisiveis",
