@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:09:41.127Z",
+  "generated_at": "2026-11-02T07:13:08.363Z",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -622,7 +622,7 @@
       "id": "radio.cbn-belo-horizonte",
       "name": "CBN Belo Horizonte",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_BHAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -630,7 +630,7 @@
       "id": "radio.cbn-belo-horizonte-106-1",
       "name": "CBN Belo Horizonte 106.1",
       "stream_url": "https://27423.live.streamtheworld.com/CBN_SPAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -1142,7 +1142,7 @@
       "id": "radio.fm-dom-bosco-96-1",
       "name": "FM Dom Bosco 96.1",
       "stream_url": "https://stream-148.zeno.fm/wb1ptm05dkhvv",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/FM_Dom_Bosco_logo_2019.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -3406,7 +3406,7 @@
       "id": "radio.radio-evangelizar-fm-99-5",
       "name": "Rádio Evangelizar FM 99.5",
       "stream_url": "https://8239.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evangelizar_FM_logo_2019.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -3654,7 +3654,7 @@
       "id": "radio.radio-itatiaia-fm-95-7",
       "name": "Rádio Itatiaia FM 95.7",
       "stream_url": "https://8903.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/R%C3%A1dio_Itatiaia_logo.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },

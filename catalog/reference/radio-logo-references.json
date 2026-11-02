@@ -9,14 +9,14 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_92_FM_(Porto_Alegre).png"
     },
     {
-      "reference_name": "Antena 1",
-      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Antena_1_logo.png"
-    },
-    {
       "reference_name": "98 FM Belo Horizonte",
       "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/98_FM_BH_logo.svg/500px-98_FM_BH_logo.svg.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:98_FM_BH_logo.svg"
+    },
+    {
+      "reference_name": "Antena 1",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antena_1_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Antena_1_logo.png"
     },
     {
       "reference_name": "BandNews FM",
@@ -24,9 +24,27 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:BandNews_FM_logo_2019.png"
     },
     {
+      "reference_name": "CBN Belo Horizonte",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
       "reference_name": "Energia 97 FM",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:Energia_97_logo.png"
+    },
+    {
+      "reference_name": "Evangelizar FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evangelizar_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Evangelizar_FM_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "reference_name": "FM Dom Bosco",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/FM_Dom_Bosco_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:FM_Dom_Bosco_logo_2019.png",
+      "license": "PD-textlogo"
     },
     {
       "reference_name": "JB FM",
@@ -42,6 +60,12 @@
       "reference_name": "Novabrasil FM",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "reference_name": "Rádio Itatiaia",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/R%C3%A1dio_Itatiaia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:R%C3%A1dio_Itatiaia_logo.png",
+      "license": "PD-textlogo"
     }
   ]
 }

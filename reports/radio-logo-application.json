@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "report_type": "reviewed_radio_logo_application",
-  "generated_at": "2026-11-02T07:09:41.127Z",
+  "generated_at": "2026-11-02T07:13:08.363Z",
   "source": "Wikimedia Commons",
   "counts": {
-    "reference_logos": 8,
-    "requested_station_matches": 17,
-    "logos_applied": 17,
+    "reference_logos": 12,
+    "requested_station_matches": 22,
+    "logos_applied": 22,
     "skipped": 0
   },
   "applied": [
@@ -128,6 +128,46 @@
       "reference_name": "Novabrasil FM",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:Novabrasil_FM_logo_2020.png"
+    },
+    {
+      "radio_id": "radio.cbn-belo-horizonte",
+      "radio_name": "CBN Belo Horizonte",
+      "reference_name": "CBN Belo Horizonte",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.cbn-belo-horizonte-106-1",
+      "radio_name": "CBN Belo Horizonte 106.1",
+      "reference_name": "CBN Belo Horizonte",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBN_Belo_Horizonte_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CBN_Belo_Horizonte_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.radio-evangelizar-fm-99-5",
+      "radio_name": "Rádio Evangelizar FM 99.5",
+      "reference_name": "Evangelizar FM",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evangelizar_FM_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Evangelizar_FM_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.fm-dom-bosco-96-1",
+      "radio_name": "FM Dom Bosco 96.1",
+      "reference_name": "FM Dom Bosco",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/FM_Dom_Bosco_logo_2019.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:FM_Dom_Bosco_logo_2019.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.radio-itatiaia-fm-95-7",
+      "radio_name": "Rádio Itatiaia FM 95.7",
+      "reference_name": "Rádio Itatiaia",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/R%C3%A1dio_Itatiaia_logo.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:R%C3%A1dio_Itatiaia_logo.png",
+      "license": "PD-textlogo"
     }
   ],
   "skipped": [],
