@@ -35,7 +35,7 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         run: |
           set +e
-          if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference-preview; then
+          if ! git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoPlayer.git /tmp/cinehub-reference-preview; then
             printf '{"schema_version":1,"status":"reference_unavailable","catalog_published":false,"network_sources_in_report":false}\n' > reference-import-preview.json
             exit 0
           fi
