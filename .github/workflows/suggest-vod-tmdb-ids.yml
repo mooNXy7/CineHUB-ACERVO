@@ -59,6 +59,9 @@ jobs:
             marker_name="${marker_path##*/}"
             OFFSET="${marker_name#tmdb-id-review-trigger-}"
             OFFSET="${OFFSET%.txt}"
+            # Explicit marker offsets allow gap recovery without deleting old markers.
+            marker_offset="$(sed -n 's/^offset=\([0-9][0-9]*\)$/\1/p' "$marker_path" | head -n 1)"
+            if [[ -n "$marker_offset" ]]; then OFFSET="$marker_offset"; fi
             marker_batches="$(sed -n 's/^.*batch_count=\([1-9]\).*$/\1/p' "$marker_path" | head -n 1)"
             if [[ -n "$marker_batches" ]]; then BATCH_COUNT="$marker_batches"; fi
           fi
