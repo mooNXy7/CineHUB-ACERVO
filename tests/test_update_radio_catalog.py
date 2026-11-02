@@ -96,13 +96,31 @@ class UpdateRadioCatalogTests(unittest.TestCase):
     def test_radio_browser_match_requires_exact_name_and_stream_or_unique_name(self):
         radio = {"name": "Rádio A FM", "stream_url": "https://radio.example/live"}
         station = {
-            "stationuuid": "station-a", "name": "Radio A",
+            "stationuuid": "station-a", "name": "Rádio A Região",
             "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
             "countrycode": "BR", "lastcheckok": 1,
         }
         matched, method = update_radio_catalog.match_radio_browser_station(radio, [station])
         self.assertEqual(matched, station)
-        self.assertEqual(method, "exact_stream_and_name")
+        self.assertEqual(method, "exact_stream")
+
+    def test_radio_browser_stream_match_ignores_display_name_but_rejects_ambiguous_streams(self):
+        radio = {"name": "Rádio A FM", "stream_url": "https://radio.example/live"}
+        first = {
+            "stationuuid": "station-a", "name": "Radio A Região",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, [first])
+        self.assertEqual(matched, first)
+        self.assertEqual(method, "exact_stream")
+
+        second = {
+            "stationuuid": "station-b", "name": "Radio A Outra",
+            "url": "https://radio.example/live", "url_resolved": "https://radio.example/live",
+        }
+        matched, method = update_radio_catalog.match_radio_browser_station(radio, [first, second])
+        self.assertIsNone(matched)
+        self.assertEqual(method, "ambiguous_stream")
 
     def test_radio_browser_metadata_fills_only_missing_genre_and_logo(self):
         radios = [{
