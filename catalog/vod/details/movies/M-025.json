@@ -1,1 +1,3349 @@
-[{"id":"movie-mystery-island-winner-takes-all","title":"Mystery Island: Winner Takes All","type":"movie","year":"2025","poster_url":"/sfFlXsgxnoQWePsb4UY6R27opVE.jpg","genres":["Mistério","TV"],"tmdb_id":"1428262","sources":[],"provider_refs":[{"provider":"18","ref":"1428262","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt35660815"},{"id":"movie-mystery-island-winner-takes-all-2025","title":"Mystery Island: Winner Takes All (2025)","type":"movie","year":"2025","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mystery%20Island_%20Winner%20Takes%20All%20_2025_%20_tmdb_1428262_45f225b9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-ma-educacao","title":"Má Educação","type":"movie","year":"2004","poster_url":"/79NMLGZJ4IRpWstdO2mXN2qD2pA.jpg","genres":["Drama","Crime"],"tmdb_id":"140","sources":[{"url":"https://mgeb.top/embed/140","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/140","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"140","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460723","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651332","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"196771","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"196771","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"69945","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"69945","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Nos anos 1960, dois meninos descobrem o amor, o medo e o abuso num internato católico. O diretor da escola presencia e faz parte das descobertas. Os três se reencontram muitos anos depois, e suas ações passadas e novas vidas se entrelaçam de formas criativas e destrutivas.","imdb_id":"tt0275491"},{"id":"movie-ma-educacao-2019","title":"Má Educação (2019)","type":"movie","year":"2019","poster_url":"/79NMLGZJ4IRpWstdO2mXN2qD2pA.jpg","genres":["Drama","Crime"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/140","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/140","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1305126","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mafia-de-mumbai-policia-contra-o-crime-organizado","title":"Máfia de Mumbai: Polícia Contra o Crime Organizado","type":"movie","year":"2023","poster_url":"/x8KYZWt1nraPdRSkNfxdrxFdjim.jpg","genres":["Documentário"],"tmdb_id":"1066719","sources":[{"url":"https://mgeb.top/embed/1066719","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1066719","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mafia%20de%20Mumbai_%20Policia%20Contra%20o%20Crime%20Organizado%20_2023_%20_tmdb_1066719_11fe8f62.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1066719","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2466086","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444200","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444216","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"925508","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"393158","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"393158","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"392304","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"392304","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"392302","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"392302","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3,"overview":"Na década de 90, um chefe do crime organizado e sua máfia têm controle total de Mumbai... até a ascensão de um destemido esquadrão de policiais que atira para matar. Assista o quanto quiser.","imdb_id":"tt24224996"},{"id":"movie-mafia-digital-2019","title":"Máfia Digital (2019)","type":"movie","year":"2019","poster_url":"/dgjNKd3LueeMyMBci7WwzuyKIfV.jpg","genres":["Suspense","Crime","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/567733","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/567733","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308334","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mafia-no-diva","title":"Máfia no Divã","type":"movie","year":"1999","poster_url":"/avZDalXvozcwYXINCm7q5MvIcDC.jpg","genres":["Comédia","Crime"],"tmdb_id":"9535","sources":[{"url":"https://mgeb.top/embed/9535","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9535","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mafia%20no%20Diva%20_1999_%20_tmdb_9535_09777f09.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9535","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2447663","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460505","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884515","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"399670","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"332689","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"332689","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"399669","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"332688","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"332688","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Paul Vitti (Robert De Niro), o chefe de uma \"família\", tem repentinamente ataques de ansiedade por causa de problemas do passado. Assim, decide consultar secretamente Ben Sobel (Billy Crystal), um psiquiatra, pois se a história se espalhar vão dizer que ele está \"frouxo\". Mas o pior é que Vitti deseja estar curado em apenas duas semanas, quando acontecerá um grande reunião da Máfia, e Sobel está viajando para Miami, onde pretende se casar com Laura MacNamara (Lisa Kudrow). Vitti é o tipo de pessoa que está acostumado em ter qualquer pessoa que trabalhe para ele a disposição vinte e quatro horas por dia, assim Sobel passa a ser \"requisitado\" pelos capangas de Vitti nos horários e lugares mais impróprios, inclusive na hora de seu casamento. Paralelamente, os agentes federais até forjam provas para que Sobel torne-se seu informante e diga quando e aonde será esta reunião das \"famílias\".","imdb_id":"tt0122933"},{"id":"movie-mafia-s-a","title":"Máfia S.A","type":"movie","year":"2020","poster_url":"/dQOs0FbJFvh4AgNmzzEkv6GXrfk.jpg","genres":["Crime","Drama"],"tmdb_id":"622469","sources":[{"url":"https://mgeb.top/embed/622469","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/622469","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_fia%20S.A%20_2020_%20_tmdb_622469_ae2e3476.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"622469","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456065","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652941","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"148658","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"148658","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"148651","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"148651","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Em Montreal, na década de 1990, a família siciliana Paternò comanda o violento submundo do narcotráfico canadense com mão de ferro. O patriarca, Don Frank, busca consolidar sua riqueza investindo na construção de uma ponte na Itália, e convoca Vince Gamache, filho de seu antigo alfaiate Henri, para ajudar a extorquir os investidores. Subindo rapidamente na hierarquia da máfia, Vince logo vira inimigo do filho ciumento de Don Paternò, Giaco, resultando em uma guerra sangrenta entre as duas famílias.","imdb_id":"tt6980960"},{"id":"movie-mafia-s-a-2020","title":"Máfia S.A (2020)","type":"movie","year":"2020","poster_url":"/dQOs0FbJFvh4AgNmzzEkv6GXrfk.jpg","genres":["Crime","Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/622469","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/622469","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1306051","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306052","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mafia-1998","title":"Máfia! (1998)","type":"movie","year":"1998","poster_url":"/gGgirOcInrfjWgemKMjvZc3fGtU.jpg","genres":["Comédia","Crime"],"tmdb_id":"9835","sources":[{"url":"https://mgeb.top/embed/9835","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9835","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9835","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"932247","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"157107","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461198","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651179","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1309066","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Depois de sofrer uma tentativa de assassinato, o Grande Chefão escolhe o filho caçula para cuidar dos negócios da família e se vingar dos inimigos em meio a muita confusão. Uma sátira dos famosos filmes de máfia.","imdb_id":"tt0120741"},{"id":"movie-maquina-da-vinganca","title":"Máquina da Vingança","type":"movie","year":"2019","poster_url":"/fqhHSSndJwdk0Pzv7CFs5wHnqXV.jpg","genres":["Ação","Terror","Suspense","Ficção científica"],"tmdb_id":"573560","sources":[{"url":"https://mgeb.top/embed/573560","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/573560","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"573560","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2454880","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"649584","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"36059","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"36059","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Em um futuro distópico, o promotor público Caddock é brutalmente assassinado por um grupo de criminosos. Ao ser arremessado de um prédio e morrer em cima do próprio carro, o espírito de Caddock reencarna no veículo e deseja vingança.","imdb_id":"tt9382596"},{"id":"movie-maquina-da-vinganca-2019","title":"Máquina da Vingança (2019)","type":"movie","year":"2019","poster_url":"/fqhHSSndJwdk0Pzv7CFs5wHnqXV.jpg","genres":["Ação","Terror","Suspense","Ficção científica"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/573560","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/573560","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308362","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-maquina-de-guerra","title":"Máquina de Guerra","type":"movie","year":"2026","poster_url":"/48h40o6Q97hZaqH0g7bOiXOrImX.jpg","genres":["Ação","Ficção científica","Suspense"],"tmdb_id":"1265609","sources":[{"url":"https://mgeb.top/embed/1265609","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/1265609","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://embedplayer2.xyz/cdn/hls/4b6799bcfb83259b1730b11c08576781/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Maquina%20de%20Guerra%20_2026_%20_tmdb_1265609_f70090c9.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_quina%20de%20Guerra%20_1998_%20_tmdb_14439_224b57c2.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/14439","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14439","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2445138","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458835","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461675","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"1265609","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1314373","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1314372","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"371902","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"368948","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"127434","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"371902","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"368948","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"127434","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"371901","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"368947","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"371901","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"368947","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt15940132","overview":"Em sua última missão de treinamento, um engenheiro de combate precisa liderar sua equipe de elite em uma luta pela sobrevivência contra uma máquina mortal."},{"id":"movie-maquina-de-guerra-1998","title":"Máquina de Guerra (1998)","type":"movie","year":"1998","poster_url":"/h9d4kafpsC4Wgd9qUro3QXDT00Q.jpg","genres":["Comédia","Drama","Guerra","TV"],"tmdb_id":"14439","sources":[{"url":"https://mgeb.top/embed/14439","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/14439","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"14439","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650931","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"907197","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1305018","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"História de um encobrimento nas forças armadas.","imdb_id":"tt0144550"},{"id":"movie-maquina-do-desejo","title":"Máquina do Desejo","type":"movie","year":"2021","poster_url":"/5ULM0iHxL2oLTKidcgFfELrOKhl.jpg","genres":["Documentário"],"tmdb_id":"810212","sources":[{"url":"https://mgeb.top/embed/810212","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/810212","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Maquina%20do%20Desejo%20_2021_%20_tmdb_810212_aad83397.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"810212","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444989","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"902493","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"363459","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"363459","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Em seis décadas, o Teatro Oficina fez mais que revolucionar a linguagem teatral no país: a influência estética da companhia de José Celso Martinez Corrêa estende-se do Tropicalismo à renovação das linguagens audiovisuais brasileiras a partir dos anos 1960. O filme revisita uma história que envolve personalidades como Caetano Veloso, Glauber Rocha, Lina Bo Bardi, Chico Buarque e Zé do Caixão, aproxima arte cênica, ecologia, arquitetura e sexualidade, e mistura arte e vida na busca de uma linguagem verdadeiramente brasileira.","imdb_id":"tt14432716"},{"id":"movie-maquina-quase-mortifera-1993","title":"Máquina Quase Mortífera (1993)","type":"movie","year":"1993","poster_url":"/sagFSgq5RPU9glBgOEN42AyFnIC.jpg","genres":["Comédia","Crime","Ação"],"tmdb_id":"9644","sources":[{"url":"https://mgeb.top/embed/9644","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9644","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1311657","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"Eles são uma dupla de políciais que não combina em nada, mas vão ter que se unir de um jeito ou de outro para resolver um caso muito arriscado e tirar uma gangue de criminosos das ruas da cidade. Parece \" Máquina Mortífera\"? Na verdade, é \"Máquina Mortífera\"! Depois do assassinato de sua parceira, o sargento Wes Luger (Samuel L. Jackson) acaba fazendo uma explosiva parceria com o policial esquentadinho Jack Colt (Emilio Estevez) para impedir que um grupo de bandidos liderado pelo General Curtis Mortars (William Shatner) consiga a tão sonhada fórmula que transforma cocaína em... Biscoitos!","imdb_id":"tt0107659"},{"id":"movie-mario-e-leon-no-amor-e-no-jogo","title":"Mário e Leon: No Amor e no Jogo","type":"movie","year":"2018","poster_url":"/v7YILAHLXFPYJ5sm9Z6l5iP8XSF.jpg","genres":["Drama","Romance"],"tmdb_id":"500259","sources":[{"url":"https://mgeb.top/embed/500259","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/500259","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_rio%20e%20Leon_%20No%20Amor%20e%20no%20Jogo%20_2018_%20_tmdb_500259_e6d02529.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"500259","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456780","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652684","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"179818","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"179818","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"179817","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"179817","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Mario luta por destaque no futebol há anos, até se apaixonar pela primeira vez, e por outro jogador, então vê como é difícil conciliar as duas coisas.","imdb_id":"tt6999052"},{"id":"movie-martires","title":"Mártires","type":"movie","year":"2008","poster_url":"/969mH6AnksRNWMHhGxVbFa6l9qj.jpg","genres":["Terror","Drama","Suspense"],"tmdb_id":"9539","sources":[{"url":"https://mgeb.top/embed/9539","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9539","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_rtires%20_2008_%20_tmdb_9539_3e8763df.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"9539","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449199","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884986","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"344505","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"344505","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"344504","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"344504","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Duas jovens que foram vítimas de abuso quando crianças embarcam em uma sangrenta jornada de vingança e acabam envolvidas em um caminho obscuro.","imdb_id":"tt1029234"},{"id":"movie-mas-intencoes","title":"Más Intenções","type":"movie","year":"2018","poster_url":"/h0Oe0k6uv8eyGJDFcPOD7yuKPm0.jpg","genres":["Suspense","TV"],"tmdb_id":"546228","sources":[{"url":"https://mgeb.top/embed/546228","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/546228","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_s%20Inten_es%20_2018_%20_tmdb_546228_b17f81f0.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"546228","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461388","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651440","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"35951","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"35951","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Patricia está prestes a dar à luz, mas uma complicação inesperada coloca a gravidez em risco e a força ficar de repouso. Quando o marido precisa se ausentar, duas enfermeiras são colocadas à disposição de Patricia, mas uma delas esconde um passado perigoso.","imdb_id":"tt8107258"},{"id":"movie-mas-intencoes-2018","title":"Más Intenções (2018)","type":"movie","year":"2018","poster_url":"/h0Oe0k6uv8eyGJDFcPOD7yuKPm0.jpg","genres":["Suspense","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/546228","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/546228","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308230","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mascara-negra","title":"Máscara Negra","type":"movie","year":"1996","poster_url":"/nosYkSFmC7AjCSkKPpxsPNKYq8f.jpg","genres":["Ação"],"tmdb_id":"9460","sources":[{"url":"https://mgeb.top/embed/9460","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9460","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"10","ref":"2457932","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"Ex-membro do esquadrão 701, grupo de elite de assassinos formados num lugar desconhecido ao norte da China, Tsui teve seu centro nervoso removido cirurgicamente, deixando de sentir qualquer dor física e emocional. Desmoralizado pelas mudanças dramáticas a que foi forçado, Tsui foge para o anonimato e dá vida a um novo personagem. Ele agora é o Máscara Negra, um misterioso lutador que transformou-se numa verdadeira arma letal contra o império das drogas.","imdb_id":"tt0115693"},{"id":"movie-mascara-negra-1996","title":"Máscara Negra (1996)","type":"movie","year":"1996","poster_url":"/nosYkSFmC7AjCSkKPpxsPNKYq8f.jpg","genres":["Ação"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/9460","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/9460","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1312770","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-matria","title":"Mátria","type":"movie","year":"2023","poster_url":"/oZyib5v9fnT8ahucfVkrf1EKcna.jpg","genres":["Drama"],"tmdb_id":"936368","sources":[{"url":"https://mgeb.top/embed/936368","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/936368","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"936368","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"346712","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"346712","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Ramona vive em uma vila de pescadores, na Galícia, onde tem dois empregos. Sua rotina é puxada, mas ela se esforça para garantir um bom futuro à filha de 18 anos, embora a garota quase nunca a visite. Quando o patrão de Ramona decide forçar as mulheres a receberem um salário mínimo, ela começa a procurar um novo emprego. Porém, acaba partindo em uma jornada de autoconhecimento e passa a questionar a maneira como tem levado a vida.","imdb_id":"tt13866630"},{"id":"movie-maxima-precisao","title":"Máxima Precisão","type":"movie","year":"2015","poster_url":"/cYtFjerOJXfATmMmSofNtoDytUr.jpg","genres":["Drama","Suspense","Guerra"],"tmdb_id":"253626","sources":[{"url":"https://mgeb.top/embed/253626","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/253626","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_xima%20Precis_o%20_2015_%20_tmdb_253626_9573f225.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"253626","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"393693","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"393693","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"393692","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"393692","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"O major Tommy Egan (Ethan Hawke) é um oficial da Força Aérea americana encarregado de dirigir ataques aéreos na guerra no Afeganistão. Após pilotar drones de controle remoto contra os talibãs por 8 horas, todos os dias, ele volta para sua casaem Las Vegas, onde vive com sua esposa (January Jones) e filhos. Mas, a cada nova missão, sua moral fica mais conturbada. Tommy começa a se desligar da vida real, vendo sua rotina familiar cair aos pedaços enquanto o caos da guerra só cresce cada vez mais.","imdb_id":"tt3297330"},{"id":"movie-mae-de-aluguel","title":"Mãe de Aluguel","type":"movie","year":"2021","poster_url":"/de9xsSD1fLOJs8B1il2DZ9cQS7j.jpg","genres":["Drama"],"tmdb_id":"681461","sources":[{"url":"https://mgeb.top/embed/681461","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/681461","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20de%20Aluguel%20_2021_%20_tmdb_681461_6973e707.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"681461","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448486","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457638","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652196","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"254852","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"254852","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"254853","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"254853","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Jess está emocionada por ser a barriga de aluguel de seu melhor amigo e seu marido, mas quando um teste de pré-natal volta, cria um dilema moral que ameaça sua amizade.","imdb_id":"tt10239320"},{"id":"movie-mae-de-aluguel-2021","title":"Mãe de Aluguel (2021)","type":"movie","year":"2021","poster_url":"/de9xsSD1fLOJs8B1il2DZ9cQS7j.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/681461","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/681461","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1310966","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1310967","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mae-e-filha","title":"Mãe e Filha","type":"movie","year":"2009","poster_url":null,"genres":[],"tmdb_id":"944966","sources":[{"url":"https://mgeb.top/embed/944966","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/944966","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20e%20Filha%20_2021_%20_tmdb_694843_47c69d9b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"160614","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457539","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"160614","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-mae-e-filha-2021","title":"Mãe e Filha (2021)","type":"movie","year":"2021","poster_url":"/tUcRAy9rgRRX4PxYVVdRMxH1er7.jpg","genres":["Drama"],"tmdb_id":"694843","sources":[{"url":"https://mgeb.top/embed/694843","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/694843","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://mgeb.top/embed/944966","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/944966","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"694843","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"256186","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2457539","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652841","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306270","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Asia tornou-se mãe muito cedo, o que moldou o relacionamento complicado que tem com sua filha adolescente Vika. Apesar de viverem juntas, elas mal interagem uma com a outra. Asia se concentra em seu trabalho como enfermeira, enquanto Vika passa o tempo andando de skate com as amigas. Mas a rotina da mãe é abalada quando a saúde da filha se deteriora rapidamente. Agora, Asia precisa tomar coragem e se tornar a mãe de que Vika tanto precisa.","imdb_id":"tt10032266"},{"id":"movie-mae-e-muito-mais","title":"Mãe e Muito Mais","type":"movie","year":"2019","poster_url":"/zmxpmxuxHCPAKo3anxdFuyu294I.jpg","genres":["Comédia"],"tmdb_id":"531509","sources":[{"url":"https://mgeb.top/embed/531509","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/531509","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"531509","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460014","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651553","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"193281","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"193281","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"26864","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"26864","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Três grandes amigas que se sentem abandonadas no Dia das Mães viajam até Nova York para surpreender seus filhos adultos.","imdb_id":"tt4180560"},{"id":"movie-mae-e-pai-2018","title":"Mãe e Pai (2018)","type":"movie","year":"2018","poster_url":"/8Yr4gZCPGcqx4LskxEe7wlOQm43.jpg","genres":["Comédia","Terror","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/401561","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/401561","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1307615","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mae-em-furia-2021","title":"Mãe em Fúria (2021)","type":"movie","year":"2021","poster_url":"/6ejm4Sx3rp44awUE0qyG1APBvpI.jpg","genres":["Mistério","Suspense","Terror","Drama","Crime"],"tmdb_id":"828305","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/22e8e9b2f1e7d97df5e5a38e54e8949f/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/828305","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/828305","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20em%20F_ria%20_2021_%20_tmdb_828305_8a337b19.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"828305","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448287","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2451574","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"654581","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311328","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"256851","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"256851","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311329","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"256852","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"256852","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt10430850","overview":"Barbara O'Brien é uma mãe católica irlandesa que tem sua vida destruída depois que o seu filho é morto durante um trote universitário. Sentindo que as autoridades deram pouca importância ao caso, ela decide lutar até as últimas consequências por justiça."},{"id":"movie-mae-obsessiva","title":"Mãe Obsessiva","type":"movie","year":"2019","poster_url":"/suPWmUus9t3sArNPmOz9Z2MiJGx.jpg","genres":["Suspense","TV"],"tmdb_id":"584643","sources":[{"url":"https://mgeb.top/embed/584643","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/584643","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20Obsessiva%20_2019_%20_tmdb_584643_d6ba048f.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"584643","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2445775","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"647552","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"48192","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"48192","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Amber (Victoria Diamond) é uma jovem mulher que, depois de muitos relacionamentos falhos, está noiva e animada de finalmente poder se casar. Sua sogra, Jill (Kari Matchett), é sua melhor amiga e a vê como a filha que ela nunca teve. Porém, quando sua mãe, Sharon (Romy Rosemont), chega para uma visita, sua personalidade forte e disciplinada transforma um fim de semana entre famílias em uma competição.","imdb_id":"tt8488340"},{"id":"movie-mae-obsessiva-2019","title":"Mãe Obsessiva (2019)","type":"movie","year":"2019","poster_url":"/suPWmUus9t3sArNPmOz9Z2MiJGx.jpg","genres":["Suspense","TV"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/584643","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/584643","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1308427","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mae-so-ha-uma","title":"Mãe Só Há Uma","type":"movie","year":null,"poster_url":null,"genres":["Drama"],"tmdb_id":"572652","sources":[{"url":"https://mgeb.top/embed/572652","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/572652","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"130261","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456374","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"130261","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1},{"id":"movie-mae-terra","title":"Mãe Terra","type":"movie","year":null,"poster_url":"/jgfLFgPjWZzxYMtkQYtiZApjjJT.jpg","genres":["Documentário"],"tmdb_id":"555400","sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20Terra%20_2023_%20_tmdb_980537_ec4f9ac4.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0,"overview":"Mini documentário sobre o Instituto Terra produzido pela atriz Mariana Ximenes.","imdb_id":"tt0488256"},{"id":"movie-mae-terra-2023","title":"Mãe Terra (2023)","type":"movie","year":"2023","poster_url":"/qC54MsfnOMnQ8U9fsOONvNs7j7B.jpg","genres":["Drama"],"tmdb_id":"980537","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/05358178f4a049d32c5b9e4e6408b0e9/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/980537","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/980537","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"980537","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2448611","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455479","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652190","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311699","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"255565","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"255565","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1311700","audio":"leg","source_id":"reference-catalog"},{"provider":"2","ref":"255566","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"255566","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt18382328","overview":"Gia é uma jovem mãe solteira que está grávida novamente. Tentando superar as dificuldades de uma vida marginalizada, ela luta para recuperar seus filhos de um abrigo e garantir uma vida melhor para eles."},{"id":"movie-mae-x-androides","title":"Mãe x Androides","type":"movie","year":"2021","poster_url":"/hfEuG7GkU2LOiT2O32OEfynRJqV.jpg","genres":["Ficção científica","Suspense"],"tmdb_id":"739413","sources":[{"url":"https://mgeb.top/embed/739413","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/739413","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20x%20Androides%20_2021_%20_tmdb_739413_1c097848.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"739413","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2458970","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"644712","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"148654","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"148654","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"145958","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"145958","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"145954","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"145954","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Em um mundo pós-apocalíptico assolado pela revolta dos androides, uma jovem grávida e o namorado buscam desesperadamente um lugar seguro.","imdb_id":"tt13029044"},{"id":"movie-mae-e-mae-1996","title":"Mãe é Mãe (1996)","type":"movie","year":"1996","poster_url":"/mxJJ0IEOOdvMo5yO7rcJBqyZ11n.jpg","genres":["Comédia","Drama"],"tmdb_id":"27265","sources":[{"url":"https://mgeb.top/embed/27265","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/27265","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"27265","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2461777","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"651163","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1307376","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Depois de dois casamentos fracassados, o escritor de ficção científica John Henderson (Albert Brooks) decide se aproximar mais da mãe. O motivo de sua ação, no entanto, não é nada nobre. Para John, se ele receber uma polpuda herança, poderá ser mais bem-sucedido nos relacionamentos. Determinado em reaproximar-se, ele se muda para a casa da mãe (Debbie Reynolds) e desencadeia uma série de situações hilárias.","imdb_id":"tt0117091"},{"id":"movie-maes-paralelas","title":"Mães Paralelas","type":"movie","year":"2021","poster_url":"/bgMm0ljPditQRxFLzLcGigSDwQW.jpg","genres":["Drama"],"tmdb_id":"766798","sources":[{"url":"https://mgeb.top/embed/766798","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/766798","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_es%20Paralelas%20_2021_%20_tmdb_766798_7f5e18a7.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"766798","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2456831","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"652920","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"150141","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"150141","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"150142","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"150142","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Duas mulheres, Janis e Ana, dividem o quarto de hospital onde vão dar à luz. As duas são solteiras e ficaram grávidas acidentalmente. Janis, de meia-idade, não se arrepende e nas horas prévias ao parto sente-se pletórica, a outra, Ana, é uma adolescente e está assustada, arrependida e traumatizada. Janis tenta animá-la enquanto passeiam como sonâmbulas pelo corredor do hospital. As poucas palavras que trocam nessas horas vão criar um vínculo muito profundo entre as duas, e esse acaso vai encarregar-se de desenvolver e complicar de forma tão retumbante que mudará a vida de ambas para sempre.","imdb_id":"tt12618926"},{"id":"movie-mao-na-cabeca-2019","title":"Mão na Cabeça (2019)","type":"movie","year":"2019","poster_url":"/ptEiKa281TiK7FTBGinLunfQFbm.jpg","genres":["Crime","Drama"],"tmdb_id":"807089","sources":[{"url":"https://embedplayer2.xyz/cdn/hls/76b85b9c74f60a1c69a24dc2d894144b/master.txt","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"},{"url":"https://mgeb.top/embed/807089","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/807089","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mao%20na%20Cabeca%20_2019_%20_tmdb_807089_86cd3859.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"807089","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2449251","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"884639","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"326978","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"326978","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"326977","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"326977","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"imdb_id":"tt10558950","overview":"Depois de sofrer um atentado a tiros e levado para o hospital, os destinos se cruzam e Leonardo conhece Clarissa, a enfermeira que é uma das vítimas da chacina de Vigário Geral há exatos 25 anos atrás. Eles descobrem a possibilidade de uma história de amor impossível, com destino surpreendente."},{"id":"movie-mao-na-luva","title":"Mão na Luva","type":"movie","year":"2014","poster_url":"/AqLTnLqECbD7KVKH7281S7ekIQG.jpg","genres":["Drama"],"tmdb_id":"298343","sources":[{"url":"https://mgeb.top/embed/298343","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/298343","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"2","ref":"386250","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"386250","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"Lucio e Silvia decidem se separar depois de treze anos morando juntos. A última noite sob o mesmo teto é marcada por acusações, revelações e memórias de um casal tão apaixonado como um acordo perfeito. Eles vivem em uma noite o dilema do grande amor: não podem viver juntos nem separados. Adaptado da peça “Acordo Perfeito”, de Oduvaldo Vianna Filho.","imdb_id":"tt5529600"},{"id":"movie-maos-talentosas-a-historia-de-ben-carson-2009","title":"Mãos Talentosas: A História de Ben Carson (2009)","type":"movie","year":"2009","poster_url":"/yB5uqHCLCDASMOO2YIWXJVqt4o0.jpg","genres":["Drama"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/22683","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/22683","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1309992","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-mexico-1986","title":"México (1986)","type":"movie","year":"1986","poster_url":"/mCYDOIwBG7oDJ8DDgiYhdv1mpYp.jpg","genres":["Crime","Drama"],"tmdb_id":"673984","sources":[{"url":"https://mgeb.top/embed/673984","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/673984","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"1530510","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2444015","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"918464","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"381790","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"381790","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"381789","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"381789","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":3},{"id":"movie-mexico-1986-2026","title":"México 1986 (2026)","type":"movie","year":"2026","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_xico%201986%20_2026_%20_tmdb_1530510_a10d1a3d.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-monica-e-cebolinha-no-mundo-de-romeu-e-julieta","title":"Mônica e Cebolinha no Mundo de Romeu e Julieta","type":"movie","year":"1979","poster_url":"/4svqB619gTyGn1VfDTmJQ6iI2km.jpg","genres":["Comédia","Fantasia"],"tmdb_id":"299290","sources":[],"provider_refs":[{"provider":"18","ref":"299290","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"Mônica e Cebolinha – No Mundo de Romeu e Julieta é uma adaptação de Romeu e Julieta, de William Shakespeare, estrelada pela Turma da Mônica. Foi originalmente encenada no teatro em 1978, com uma adaptação em quadrinhos e outra em LP pela Editora Abril saindo no mesmo ano. Em 1979 foi lançada uma adaptação em longa-metragem da peça, filmada em Ouro Preto, como um especial de Dia das Crianças na Rede Bandeirantes. Junto com A Rádio do Chico Bento, é um dos dois únicos filmes inspirados em Maurício de Sousa feito completamente em live-action. A história é tanto uma adaptação quanto uma paródia - a cena do balcão é interrompida pelos roncos do pai Capuleto, e Mônica não gosta do final trágico usado por Shakespeare, e vai atrás do Príncipe de Verona para conseguir um final feliz.","imdb_id":"tt1971478"},{"id":"movie-monica-e-cebolinha-no-mundo-de-romeu-e-julieta-1979","title":"Mônica e Cebolinha no Mundo de Romeu e Julieta (1979)","type":"movie","year":"1979","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_nica%20e%20Cebolinha%20no%20Mundo%20de%20Romeu%20e%20Julieta%20_1979_%20_tmdb_299290_2c2f7c35.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-monica-o-my-darling-2022","title":"Mônica, O My Darling (2022)","type":"movie","year":"2022","poster_url":"/hiXLk6vdFBI8mVslso1VqzJEe45.jpg","genres":["Crime","Comédia","Drama","Mistério","Suspense"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/915831","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/915831","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1306833","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1306834","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-motley-crue-greatest-video-hits","title":"Mötley Crüe | Greatest Video Hits","type":"movie","year":"2003","poster_url":"/aLLrZaeNgq3cm2DkCB7g4Y0gAvJ.jpg","genres":["Música"],"tmdb_id":"31495","sources":[],"provider_refs":[{"provider":"18","ref":"31495","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"imdb_id":"tt0410336"},{"id":"movie-motley-crue-hellfest-2023","title":"Mötley Crüe | Hellfest 2023","type":"movie","year":"2023","poster_url":"/sV7IsYKmqrmIXgo5ejCPdZyFSpt.jpg","genres":["Música"],"tmdb_id":"1129995","sources":[],"provider_refs":[{"provider":"18","ref":"1129995","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-motley-crue-hellfest-2023-2023","title":"Mötley Crüe | Hellfest 2023 (2023)","type":"movie","year":"2023","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_tley%20Cr_e%20_%20Hellfest%202023%20_2023_%20_tmdb_1129995_29874158.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-mumia-a-ressurreicao","title":"Múmia: A Ressurreição","type":"movie","year":"2014","poster_url":"/dA0ezQSl0qJrkhieHNRUviFJBav.jpg","genres":["Terror"],"tmdb_id":"268508","sources":[],"provider_refs":[{"provider":"18","ref":"268508","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"Em meio as areias do Egito, um grupo de arqueologistas descobrem uma múmia antiga. No processo, elese acabam desencadeando uma praga mortal da sua tumba eterna.","imdb_id":"tt3382842"},{"id":"movie-mumia-a-ressurreicao-2014","title":"Múmia: A Ressurreição (2014)","type":"movie","year":"2014","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_mia_%20A%20Ressurrei_o%20_2014_%20_tmdb_268508_9367430e.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-musica-a-bordo","title":"Música a Bordo","type":"movie","year":"2019","poster_url":"/sBJ5gFjeGDMjAbqpAZBva8tyhGo.jpg","genres":["Comédia","Drama","Música"],"tmdb_id":"559713","sources":[{"url":"https://mgeb.top/embed/559713","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/559713","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20a%20Bordo%20_2019_%20_tmdb_559713_8e624521.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"559713","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2460017","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"650869","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"133019","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"133019","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"133025","audio":"leg","source_id":"reference-catalog"},{"provider":"8","ref":"133025","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":2,"overview":"Um grupo de pescadores e cantores da Cornualha chega ao top 10 após assinar um contrato com um executivo musical de Londres.","imdb_id":"tt1648186"},{"id":"movie-musica-a-bordo-2019","title":"Música a Bordo (2019)","type":"movie","year":"2019","poster_url":"/sBJ5gFjeGDMjAbqpAZBva8tyhGo.jpg","genres":["Comédia","Drama","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/559713","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/559713","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1304516","audio":"dub","source_id":"reference-catalog"},{"provider":"6","ref":"1304517","audio":"leg","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-musica-da-alma","title":"Música da Alma","type":"movie","year":"2012","poster_url":"/c35nwimeDzZSofgNAcginNLtW8k.jpg","genres":["Comédia","Drama"],"tmdb_id":"110146","sources":[],"provider_refs":[{"provider":"18","ref":"110146","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"É 1968 e quatro jovens aborígines australianas talentosas aprendem sobre amor, amizade e guerra quando seu grupo feminino The Sapphires entretém as tropas americanas no Vietnã.","imdb_id":"tt1673697"},{"id":"movie-musica-da-alma-2012","title":"Música da Alma (2012)","type":"movie","year":"2012","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20da%20Alma%20_2012_%20_tmdb_110146_ec74936b.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-musica-do-coracao","title":"Música do Coração","type":"movie","year":"1999","poster_url":"/knbONQ6d24XtWpRv9Q9D2DyHogo.jpg","genres":["Drama","Música"],"tmdb_id":"26149","sources":[{"url":"https://mgeb.top/embed/26149","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26149","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"26149","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2455880","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"653192","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"129574","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"129574","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"A história da luta de uma professora (Roberta Guaspari) para ensinar violino para crianças no Harlem em NY.","imdb_id":"tt0166943"},{"id":"movie-musica-do-coracao-1999","title":"Música do Coração (1999)","type":"movie","year":"1999","poster_url":"/knbONQ6d24XtWpRv9Q9D2DyHogo.jpg","genres":["Drama","Música"],"tmdb_id":null,"sources":[{"url":"https://mgeb.top/embed/26149","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/26149","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"}],"provider_refs":[{"provider":"6","ref":"1304353","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0},{"id":"movie-musica-para-morrer-de-amor","title":"Música Para Morrer de Amor","type":"movie","year":"2019","poster_url":"/g7IQdTQ5tWzAvzgzJdn0CalW3GH.jpg","genres":["Drama","Romance"],"tmdb_id":"643286","sources":[{"url":"https://mgeb.top/embed/643286","audio":"dub","priority":20,"source_id":"reference-mgeb","source_type":"embed"},{"url":"https://nhdapi.com/embed/movie/643286","audio":"leg","priority":20,"source_id":"reference-mgeb","source_type":"direct"},{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20Para%20Morrer%20de%20Amor%20_2019_%20_tmdb_643286_684b5d8c.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[{"provider":"18","ref":"643286","audio":"dub","source_id":"reference-catalog"},{"provider":"10","ref":"2446962","audio":"dub","source_id":"reference-catalog"},{"provider":"18","ref":"645706","audio":"dub","source_id":"reference-catalog"},{"provider":"2","ref":"75044","audio":"dub","source_id":"reference-catalog"},{"provider":"8","ref":"75044","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":1,"overview":"As histórias amorosas de três jovens se desenrolam com a intensidade das músicas para cortar os pulsos. Isabela sofre porque foi abandonada, Felipe quer se apaixonar e Ricardo, seu amigo, está apaixonado por ele. Esses três corações entrelaçados estão prestes a se partir.","imdb_id":"tt8390616"},{"id":"movie-musica-para-quando-as-luzes-se-apagam","title":"Música para Quando as Luzes Se Apagam","type":"movie","year":"2016","poster_url":"/hJA1Nj9aSxJaH7vFQ9U6SV8RxEG.jpg","genres":["Documentário"],"tmdb_id":"469950","sources":[],"provider_refs":[{"provider":"18","ref":"469950","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0,"overview":"Desde que era pequena, Rebecca tinha uma porção de medos, especialmente quando as luzes se apagavam. Ela acreditava ser perseguida pela figura de uma mulher e anos mais tarde seu irmão mais novo começa a sofrer do mesmo problema. Juntos eles descobrem que a aparição está ligada à mãe deles, Rebecca começa a investigar o caso e chega perto de conhecer a terrível verdade.","imdb_id":"tt7449594"},{"id":"movie-musica-para-quando-as-luzes-se-apagam-2016","title":"Música para Quando as Luzes Se Apagam (2016)","type":"movie","year":"2016","poster_url":null,"genres":[],"tmdb_id":null,"sources":[{"url":"https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20para%20Quando%20as%20Luzes%20Se%20Apagam%20_2016_%20_tmdb_469950_46927d35.mp4","audio":"dub","priority":50,"source_id":"reference-catalog","source_type":"direct"}],"provider_refs":[],"source_candidates_skipped":0},{"id":"movie-maktub-2026","title":"المهايط Maktub (2026)","type":"movie","year":"2026","poster_url":null,"genres":[],"tmdb_id":null,"sources":[],"provider_refs":[{"provider":"10","ref":"2472338","audio":"dub","source_id":"reference-catalog"}],"source_candidates_skipped":0}]
+[
+  {
+    "id": "movie-mystery-island-winner-takes-all",
+    "title": "Mystery Island: Winner Takes All",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": "/sfFlXsgxnoQWePsb4UY6R27opVE.jpg",
+    "genres": [
+      "Mistério",
+      "TV"
+    ],
+    "tmdb_id": "1428262",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1428262",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt35660815"
+  },
+  {
+    "id": "movie-mystery-island-winner-takes-all-2025",
+    "title": "Mystery Island: Winner Takes All (2025)",
+    "type": "movie",
+    "year": "2025",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mystery%20Island_%20Winner%20Takes%20All%20_2025_%20_tmdb_1428262_45f225b9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-ma-educacao",
+    "title": "Má Educação",
+    "type": "movie",
+    "year": "2004",
+    "poster_url": "/79NMLGZJ4IRpWstdO2mXN2qD2pA.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "140",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/140",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/140",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "140",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460723",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651332",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "196771",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "196771",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "69945",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "69945",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Nos anos 1960, dois meninos descobrem o amor, o medo e o abuso num internato católico. O diretor da escola presencia e faz parte das descobertas. Os três se reencontram muitos anos depois, e suas ações passadas e novas vidas se entrelaçam de formas criativas e destrutivas.",
+    "imdb_id": "tt0275491"
+  },
+  {
+    "id": "movie-ma-educacao-2019",
+    "title": "Má Educação (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/79NMLGZJ4IRpWstdO2mXN2qD2pA.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/140",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/140",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1305126",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mafia-de-mumbai-policia-contra-o-crime-organizado",
+    "title": "Máfia de Mumbai: Polícia Contra o Crime Organizado",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/x8KYZWt1nraPdRSkNfxdrxFdjim.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "1066719",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1066719",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1066719",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mafia%20de%20Mumbai_%20Policia%20Contra%20o%20Crime%20Organizado%20_2023_%20_tmdb_1066719_11fe8f62.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1066719",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2466086",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444200",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444216",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "925508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "393158",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "393158",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "392304",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "392304",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "392302",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "392302",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3,
+    "overview": "Na década de 90, um chefe do crime organizado e sua máfia têm controle total de Mumbai... até a ascensão de um destemido esquadrão de policiais que atira para matar. Assista o quanto quiser.",
+    "imdb_id": "tt24224996"
+  },
+  {
+    "id": "movie-mafia-digital-2019",
+    "title": "Máfia Digital (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/dgjNKd3LueeMyMBci7WwzuyKIfV.jpg",
+    "genres": [
+      "Suspense",
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/567733",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/567733",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308334",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mafia-no-diva",
+    "title": "Máfia no Divã",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": "/avZDalXvozcwYXINCm7q5MvIcDC.jpg",
+    "genres": [
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "9535",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9535",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9535",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mafia%20no%20Diva%20_1999_%20_tmdb_9535_09777f09.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9535",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2447663",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460505",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884515",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399670",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "332689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "332689",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "399669",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "332688",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "332688",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Paul Vitti (Robert De Niro), o chefe de uma \"família\", tem repentinamente ataques de ansiedade por causa de problemas do passado. Assim, decide consultar secretamente Ben Sobel (Billy Crystal), um psiquiatra, pois se a história se espalhar vão dizer que ele está \"frouxo\". Mas o pior é que Vitti deseja estar curado em apenas duas semanas, quando acontecerá um grande reunião da Máfia, e Sobel está viajando para Miami, onde pretende se casar com Laura MacNamara (Lisa Kudrow). Vitti é o tipo de pessoa que está acostumado em ter qualquer pessoa que trabalhe para ele a disposição vinte e quatro horas por dia, assim Sobel passa a ser \"requisitado\" pelos capangas de Vitti nos horários e lugares mais impróprios, inclusive na hora de seu casamento. Paralelamente, os agentes federais até forjam provas para que Sobel torne-se seu informante e diga quando e aonde será esta reunião das \"famílias\".",
+    "imdb_id": "tt0122933"
+  },
+  {
+    "id": "movie-mafia-s-a",
+    "title": "Máfia S.A",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/dQOs0FbJFvh4AgNmzzEkv6GXrfk.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "622469",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/622469",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/622469",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_fia%20S.A%20_2020_%20_tmdb_622469_ae2e3476.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "622469",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456065",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652941",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "148658",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "148658",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "148651",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "148651",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em Montreal, na década de 1990, a família siciliana Paternò comanda o violento submundo do narcotráfico canadense com mão de ferro. O patriarca, Don Frank, busca consolidar sua riqueza investindo na construção de uma ponte na Itália, e convoca Vince Gamache, filho de seu antigo alfaiate Henri, para ajudar a extorquir os investidores. Subindo rapidamente na hierarquia da máfia, Vince logo vira inimigo do filho ciumento de Don Paternò, Giaco, resultando em uma guerra sangrenta entre as duas famílias.",
+    "imdb_id": "tt6980960"
+  },
+  {
+    "id": "movie-mafia-s-a-2020",
+    "title": "Máfia S.A (2020)",
+    "type": "movie",
+    "year": "2020",
+    "poster_url": "/dQOs0FbJFvh4AgNmzzEkv6GXrfk.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/622469",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/622469",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306051",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306052",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mafia-1998",
+    "title": "Máfia! (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/gGgirOcInrfjWgemKMjvZc3fGtU.jpg",
+    "genres": [
+      "Comédia",
+      "Crime"
+    ],
+    "tmdb_id": "9835",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9835",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9835",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "932247",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "157107",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461198",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651179",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1309066",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Depois de sofrer uma tentativa de assassinato, o Grande Chefão escolhe o filho caçula para cuidar dos negócios da família e se vingar dos inimigos em meio a muita confusão. Uma sátira dos famosos filmes de máfia.",
+    "imdb_id": "tt0120741"
+  },
+  {
+    "id": "movie-maquina-da-vinganca",
+    "title": "Máquina da Vingança",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/fqhHSSndJwdk0Pzv7CFs5wHnqXV.jpg",
+    "genres": [
+      "Ação",
+      "Terror",
+      "Suspense",
+      "Ficção científica"
+    ],
+    "tmdb_id": "573560",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/573560",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/573560",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "573560",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2454880",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "649584",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "36059",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "36059",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em um futuro distópico, o promotor público Caddock é brutalmente assassinado por um grupo de criminosos. Ao ser arremessado de um prédio e morrer em cima do próprio carro, o espírito de Caddock reencarna no veículo e deseja vingança.",
+    "imdb_id": "tt9382596"
+  },
+  {
+    "id": "movie-maquina-da-vinganca-2019",
+    "title": "Máquina da Vingança (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/fqhHSSndJwdk0Pzv7CFs5wHnqXV.jpg",
+    "genres": [
+      "Ação",
+      "Terror",
+      "Suspense",
+      "Ficção científica"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/573560",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/573560",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308362",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-maquina-de-guerra",
+    "title": "Máquina de Guerra",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": "/48h40o6Q97hZaqH0g7bOiXOrImX.jpg",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "1265609",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/1265609",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/1265609",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/4b6799bcfb83259b1730b11c08576781/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Maquina%20de%20Guerra%20_2026_%20_tmdb_1265609_f70090c9.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_quina%20de%20Guerra%20_1998_%20_tmdb_14439_224b57c2.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/14439",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14439",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2445138",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458835",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461675",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "1265609",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1314373",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1314372",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "371902",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "368948",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "127434",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "371902",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "368948",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "127434",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "371901",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "368947",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "371901",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "368947",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt15940132",
+    "overview": "Em sua última missão de treinamento, um engenheiro de combate precisa liderar sua equipe de elite em uma luta pela sobrevivência contra uma máquina mortal."
+  },
+  {
+    "id": "movie-maquina-de-guerra-1998",
+    "title": "Máquina de Guerra (1998)",
+    "type": "movie",
+    "year": "1998",
+    "poster_url": "/h9d4kafpsC4Wgd9qUro3QXDT00Q.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Guerra",
+      "TV"
+    ],
+    "tmdb_id": "14439",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/14439",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/14439",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "14439",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650931",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "907197",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1305018",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "História de um encobrimento nas forças armadas.",
+    "imdb_id": "tt0144550"
+  },
+  {
+    "id": "movie-maquina-do-desejo",
+    "title": "Máquina do Desejo",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/5ULM0iHxL2oLTKidcgFfELrOKhl.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "810212",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/810212",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/810212",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Maquina%20do%20Desejo%20_2021_%20_tmdb_810212_aad83397.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "810212",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444989",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "902493",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "363459",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "363459",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Em seis décadas, o Teatro Oficina fez mais que revolucionar a linguagem teatral no país: a influência estética da companhia de José Celso Martinez Corrêa estende-se do Tropicalismo à renovação das linguagens audiovisuais brasileiras a partir dos anos 1960. O filme revisita uma história que envolve personalidades como Caetano Veloso, Glauber Rocha, Lina Bo Bardi, Chico Buarque e Zé do Caixão, aproxima arte cênica, ecologia, arquitetura e sexualidade, e mistura arte e vida na busca de uma linguagem verdadeiramente brasileira.",
+    "imdb_id": "tt14432716"
+  },
+  {
+    "id": "movie-maquina-quase-mortifera-1993",
+    "title": "Máquina Quase Mortífera (1993)",
+    "type": "movie",
+    "year": "1993",
+    "poster_url": "/sagFSgq5RPU9glBgOEN42AyFnIC.jpg",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Ação"
+    ],
+    "tmdb_id": "9644",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9644",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9644",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1311657",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Eles são uma dupla de políciais que não combina em nada, mas vão ter que se unir de um jeito ou de outro para resolver um caso muito arriscado e tirar uma gangue de criminosos das ruas da cidade. Parece \" Máquina Mortífera\"? Na verdade, é \"Máquina Mortífera\"! Depois do assassinato de sua parceira, o sargento Wes Luger (Samuel L. Jackson) acaba fazendo uma explosiva parceria com o policial esquentadinho Jack Colt (Emilio Estevez) para impedir que um grupo de bandidos liderado pelo General Curtis Mortars (William Shatner) consiga a tão sonhada fórmula que transforma cocaína em... Biscoitos!",
+    "imdb_id": "tt0107659"
+  },
+  {
+    "id": "movie-mario-e-leon-no-amor-e-no-jogo",
+    "title": "Mário e Leon: No Amor e no Jogo",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/v7YILAHLXFPYJ5sm9Z6l5iP8XSF.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "500259",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/500259",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/500259",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_rio%20e%20Leon_%20No%20Amor%20e%20no%20Jogo%20_2018_%20_tmdb_500259_e6d02529.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "500259",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456780",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652684",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "179818",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "179818",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "179817",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "179817",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Mario luta por destaque no futebol há anos, até se apaixonar pela primeira vez, e por outro jogador, então vê como é difícil conciliar as duas coisas.",
+    "imdb_id": "tt6999052"
+  },
+  {
+    "id": "movie-martires",
+    "title": "Mártires",
+    "type": "movie",
+    "year": "2008",
+    "poster_url": "/969mH6AnksRNWMHhGxVbFa6l9qj.jpg",
+    "genres": [
+      "Terror",
+      "Drama",
+      "Suspense"
+    ],
+    "tmdb_id": "9539",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9539",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9539",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_rtires%20_2008_%20_tmdb_9539_3e8763df.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "9539",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449199",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884986",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "344505",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "344505",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "344504",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "344504",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Duas jovens que foram vítimas de abuso quando crianças embarcam em uma sangrenta jornada de vingança e acabam envolvidas em um caminho obscuro.",
+    "imdb_id": "tt1029234"
+  },
+  {
+    "id": "movie-mas-intencoes",
+    "title": "Más Intenções",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/h0Oe0k6uv8eyGJDFcPOD7yuKPm0.jpg",
+    "genres": [
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": "546228",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/546228",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/546228",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_s%20Inten_es%20_2018_%20_tmdb_546228_b17f81f0.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "546228",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461388",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651440",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "35951",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "35951",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Patricia está prestes a dar à luz, mas uma complicação inesperada coloca a gravidez em risco e a força ficar de repouso. Quando o marido precisa se ausentar, duas enfermeiras são colocadas à disposição de Patricia, mas uma delas esconde um passado perigoso.",
+    "imdb_id": "tt8107258"
+  },
+  {
+    "id": "movie-mas-intencoes-2018",
+    "title": "Más Intenções (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/h0Oe0k6uv8eyGJDFcPOD7yuKPm0.jpg",
+    "genres": [
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/546228",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/546228",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308230",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mascara-negra",
+    "title": "Máscara Negra",
+    "type": "movie",
+    "year": "1996",
+    "poster_url": "/nosYkSFmC7AjCSkKPpxsPNKYq8f.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": "9460",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9460",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9460",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2457932",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Ex-membro do esquadrão 701, grupo de elite de assassinos formados num lugar desconhecido ao norte da China, Tsui teve seu centro nervoso removido cirurgicamente, deixando de sentir qualquer dor física e emocional. Desmoralizado pelas mudanças dramáticas a que foi forçado, Tsui foge para o anonimato e dá vida a um novo personagem. Ele agora é o Máscara Negra, um misterioso lutador que transformou-se numa verdadeira arma letal contra o império das drogas.",
+    "imdb_id": "tt0115693"
+  },
+  {
+    "id": "movie-mascara-negra-1996",
+    "title": "Máscara Negra (1996)",
+    "type": "movie",
+    "year": "1996",
+    "poster_url": "/nosYkSFmC7AjCSkKPpxsPNKYq8f.jpg",
+    "genres": [
+      "Ação"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/9460",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/9460",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1312770",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-matria",
+    "title": "Mátria",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/oZyib5v9fnT8ahucfVkrf1EKcna.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "936368",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/936368",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/936368",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "936368",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "346712",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "346712",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Ramona vive em uma vila de pescadores, na Galícia, onde tem dois empregos. Sua rotina é puxada, mas ela se esforça para garantir um bom futuro à filha de 18 anos, embora a garota quase nunca a visite. Quando o patrão de Ramona decide forçar as mulheres a receberem um salário mínimo, ela começa a procurar um novo emprego. Porém, acaba partindo em uma jornada de autoconhecimento e passa a questionar a maneira como tem levado a vida.",
+    "imdb_id": "tt13866630"
+  },
+  {
+    "id": "movie-maxima-precisao",
+    "title": "Máxima Precisão",
+    "type": "movie",
+    "year": "2015",
+    "poster_url": "/cYtFjerOJXfATmMmSofNtoDytUr.jpg",
+    "genres": [
+      "Drama",
+      "Suspense",
+      "Guerra"
+    ],
+    "tmdb_id": "253626",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/253626",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/253626",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_xima%20Precis_o%20_2015_%20_tmdb_253626_9573f225.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "253626",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "393693",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "393693",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "393692",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "393692",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "O major Tommy Egan (Ethan Hawke) é um oficial da Força Aérea americana encarregado de dirigir ataques aéreos na guerra no Afeganistão. Após pilotar drones de controle remoto contra os talibãs por 8 horas, todos os dias, ele volta para sua casaem Las Vegas, onde vive com sua esposa (January Jones) e filhos. Mas, a cada nova missão, sua moral fica mais conturbada. Tommy começa a se desligar da vida real, vendo sua rotina familiar cair aos pedaços enquanto o caos da guerra só cresce cada vez mais.",
+    "imdb_id": "tt3297330"
+  },
+  {
+    "id": "movie-mae-de-aluguel",
+    "title": "Mãe de Aluguel",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/de9xsSD1fLOJs8B1il2DZ9cQS7j.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "681461",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/681461",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/681461",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20de%20Aluguel%20_2021_%20_tmdb_681461_6973e707.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "681461",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448486",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457638",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652196",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "254852",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "254852",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "254853",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "254853",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Jess está emocionada por ser a barriga de aluguel de seu melhor amigo e seu marido, mas quando um teste de pré-natal volta, cria um dilema moral que ameaça sua amizade.",
+    "imdb_id": "tt10239320"
+  },
+  {
+    "id": "movie-mae-de-aluguel-2021",
+    "title": "Mãe de Aluguel (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/de9xsSD1fLOJs8B1il2DZ9cQS7j.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/681461",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/681461",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1310966",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1310967",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mae-e-filha",
+    "title": "Mãe e Filha",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": "944966",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/944966",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/944966",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20e%20Filha%20_2021_%20_tmdb_694843_47c69d9b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "160614",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457539",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "160614",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-mae-e-filha-2021",
+    "title": "Mãe e Filha (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/tUcRAy9rgRRX4PxYVVdRMxH1er7.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "694843",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/694843",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/694843",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/944966",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/944966",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "694843",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "256186",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2457539",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652841",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306270",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Asia tornou-se mãe muito cedo, o que moldou o relacionamento complicado que tem com sua filha adolescente Vika. Apesar de viverem juntas, elas mal interagem uma com a outra. Asia se concentra em seu trabalho como enfermeira, enquanto Vika passa o tempo andando de skate com as amigas. Mas a rotina da mãe é abalada quando a saúde da filha se deteriora rapidamente. Agora, Asia precisa tomar coragem e se tornar a mãe de que Vika tanto precisa.",
+    "imdb_id": "tt10032266"
+  },
+  {
+    "id": "movie-mae-e-muito-mais",
+    "title": "Mãe e Muito Mais",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/zmxpmxuxHCPAKo3anxdFuyu294I.jpg",
+    "genres": [
+      "Comédia"
+    ],
+    "tmdb_id": "531509",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/531509",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/531509",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "531509",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460014",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651553",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "193281",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "193281",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "26864",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "26864",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Três grandes amigas que se sentem abandonadas no Dia das Mães viajam até Nova York para surpreender seus filhos adultos.",
+    "imdb_id": "tt4180560"
+  },
+  {
+    "id": "movie-mae-e-pai-2018",
+    "title": "Mãe e Pai (2018)",
+    "type": "movie",
+    "year": "2018",
+    "poster_url": "/8Yr4gZCPGcqx4LskxEe7wlOQm43.jpg",
+    "genres": [
+      "Comédia",
+      "Terror",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/401561",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/401561",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1307615",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mae-em-furia-2021",
+    "title": "Mãe em Fúria (2021)",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/6ejm4Sx3rp44awUE0qyG1APBvpI.jpg",
+    "genres": [
+      "Mistério",
+      "Suspense",
+      "Terror",
+      "Drama",
+      "Crime"
+    ],
+    "tmdb_id": "828305",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/22e8e9b2f1e7d97df5e5a38e54e8949f/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/828305",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/828305",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20em%20F_ria%20_2021_%20_tmdb_828305_8a337b19.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "828305",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448287",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2451574",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "654581",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311328",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "256851",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "256851",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311329",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "256852",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "256852",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt10430850",
+    "overview": "Barbara O'Brien é uma mãe católica irlandesa que tem sua vida destruída depois que o seu filho é morto durante um trote universitário. Sentindo que as autoridades deram pouca importância ao caso, ela decide lutar até as últimas consequências por justiça."
+  },
+  {
+    "id": "movie-mae-obsessiva",
+    "title": "Mãe Obsessiva",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/suPWmUus9t3sArNPmOz9Z2MiJGx.jpg",
+    "genres": [
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": "584643",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/584643",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/584643",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20Obsessiva%20_2019_%20_tmdb_584643_d6ba048f.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "584643",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2445775",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "647552",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "48192",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "48192",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Amber (Victoria Diamond) é uma jovem mulher que, depois de muitos relacionamentos falhos, está noiva e animada de finalmente poder se casar. Sua sogra, Jill (Kari Matchett), é sua melhor amiga e a vê como a filha que ela nunca teve. Porém, quando sua mãe, Sharon (Romy Rosemont), chega para uma visita, sua personalidade forte e disciplinada transforma um fim de semana entre famílias em uma competição.",
+    "imdb_id": "tt8488340"
+  },
+  {
+    "id": "movie-mae-obsessiva-2019",
+    "title": "Mãe Obsessiva (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/suPWmUus9t3sArNPmOz9Z2MiJGx.jpg",
+    "genres": [
+      "Suspense",
+      "TV"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/584643",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/584643",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1308427",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mae-so-ha-uma",
+    "title": "Mãe Só Há Uma",
+    "type": "movie",
+    "year": null,
+    "poster_url": null,
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "572652",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/572652",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/572652",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "130261",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456374",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "130261",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1
+  },
+  {
+    "id": "movie-mae-terra",
+    "title": "Mãe Terra",
+    "type": "movie",
+    "year": null,
+    "poster_url": "/jgfLFgPjWZzxYMtkQYtiZApjjJT.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "555400",
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20Terra%20_2023_%20_tmdb_980537_ec4f9ac4.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0,
+    "overview": "Mini documentário sobre o Instituto Terra produzido pela atriz Mariana Ximenes.",
+    "imdb_id": "tt0488256"
+  },
+  {
+    "id": "movie-mae-terra-2023",
+    "title": "Mãe Terra (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/qC54MsfnOMnQ8U9fsOONvNs7j7B.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "980537",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/05358178f4a049d32c5b9e4e6408b0e9/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/980537",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/980537",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "980537",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2448611",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455479",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652190",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311699",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "255565",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "255565",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1311700",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "255566",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "255566",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt18382328",
+    "overview": "Gia é uma jovem mãe solteira que está grávida novamente. Tentando superar as dificuldades de uma vida marginalizada, ela luta para recuperar seus filhos de um abrigo e garantir uma vida melhor para eles."
+  },
+  {
+    "id": "movie-mae-x-androides",
+    "title": "Mãe x Androides",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/hfEuG7GkU2LOiT2O32OEfynRJqV.jpg",
+    "genres": [
+      "Ficção científica",
+      "Suspense"
+    ],
+    "tmdb_id": "739413",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/739413",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/739413",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_e%20x%20Androides%20_2021_%20_tmdb_739413_1c097848.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "739413",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2458970",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "644712",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "148654",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "148654",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "145958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "145958",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "145954",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "145954",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Em um mundo pós-apocalíptico assolado pela revolta dos androides, uma jovem grávida e o namorado buscam desesperadamente um lugar seguro.",
+    "imdb_id": "tt13029044"
+  },
+  {
+    "id": "movie-mae-e-mae-1996",
+    "title": "Mãe é Mãe (1996)",
+    "type": "movie",
+    "year": "1996",
+    "poster_url": "/mxJJ0IEOOdvMo5yO7rcJBqyZ11n.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "27265",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/27265",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/27265",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "27265",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2461777",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "651163",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1307376",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Depois de dois casamentos fracassados, o escritor de ficção científica John Henderson (Albert Brooks) decide se aproximar mais da mãe. O motivo de sua ação, no entanto, não é nada nobre. Para John, se ele receber uma polpuda herança, poderá ser mais bem-sucedido nos relacionamentos. Determinado em reaproximar-se, ele se muda para a casa da mãe (Debbie Reynolds) e desencadeia uma série de situações hilárias.",
+    "imdb_id": "tt0117091"
+  },
+  {
+    "id": "movie-maes-paralelas",
+    "title": "Mães Paralelas",
+    "type": "movie",
+    "year": "2021",
+    "poster_url": "/bgMm0ljPditQRxFLzLcGigSDwQW.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "766798",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/766798",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/766798",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_es%20Paralelas%20_2021_%20_tmdb_766798_7f5e18a7.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "766798",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2456831",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "652920",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "150141",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "150141",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "150142",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "150142",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Duas mulheres, Janis e Ana, dividem o quarto de hospital onde vão dar à luz. As duas são solteiras e ficaram grávidas acidentalmente. Janis, de meia-idade, não se arrepende e nas horas prévias ao parto sente-se pletórica, a outra, Ana, é uma adolescente e está assustada, arrependida e traumatizada. Janis tenta animá-la enquanto passeiam como sonâmbulas pelo corredor do hospital. As poucas palavras que trocam nessas horas vão criar um vínculo muito profundo entre as duas, e esse acaso vai encarregar-se de desenvolver e complicar de forma tão retumbante que mudará a vida de ambas para sempre.",
+    "imdb_id": "tt12618926"
+  },
+  {
+    "id": "movie-mao-na-cabeca-2019",
+    "title": "Mão na Cabeça (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/ptEiKa281TiK7FTBGinLunfQFbm.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "807089",
+    "sources": [
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/76b85b9c74f60a1c69a24dc2d894144b/master.txt",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://mgeb.top/embed/807089",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/807089",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/Mao%20na%20Cabeca%20_2019_%20_tmdb_807089_86cd3859.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "807089",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2449251",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "884639",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "326978",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "326978",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "326977",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "326977",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "imdb_id": "tt10558950",
+    "overview": "Depois de sofrer um atentado a tiros e levado para o hospital, os destinos se cruzam e Leonardo conhece Clarissa, a enfermeira que é uma das vítimas da chacina de Vigário Geral há exatos 25 anos atrás. Eles descobrem a possibilidade de uma história de amor impossível, com destino surpreendente."
+  },
+  {
+    "id": "movie-mao-na-luva",
+    "title": "Mão na Luva",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/AqLTnLqECbD7KVKH7281S7ekIQG.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": "298343",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/298343",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/298343",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "2",
+        "ref": "386250",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "386250",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "Lucio e Silvia decidem se separar depois de treze anos morando juntos. A última noite sob o mesmo teto é marcada por acusações, revelações e memórias de um casal tão apaixonado como um acordo perfeito. Eles vivem em uma noite o dilema do grande amor: não podem viver juntos nem separados. Adaptado da peça “Acordo Perfeito”, de Oduvaldo Vianna Filho.",
+    "imdb_id": "tt5529600"
+  },
+  {
+    "id": "movie-maos-talentosas-a-historia-de-ben-carson-2009",
+    "title": "Mãos Talentosas: A História de Ben Carson (2009)",
+    "type": "movie",
+    "year": "2009",
+    "poster_url": "/yB5uqHCLCDASMOO2YIWXJVqt4o0.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/22683",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/22683",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1309992",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mexico-1986",
+    "title": "México (1986)",
+    "type": "movie",
+    "year": "1986",
+    "poster_url": "/mCYDOIwBG7oDJ8DDgiYhdv1mpYp.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdb_id": "673984",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/673984",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/673984",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1530510",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2444015",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "918464",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "381790",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "381790",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "381789",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "381789",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 3
+  },
+  {
+    "id": "movie-mexico-1986-2026",
+    "title": "México 1986 (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": "1530510",
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_xico%201986%20_2026_%20_tmdb_1530510_a10d1a3d.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-monica-e-cebolinha-no-mundo-de-romeu-e-julieta",
+    "title": "Mônica e Cebolinha no Mundo de Romeu e Julieta",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": "/4svqB619gTyGn1VfDTmJQ6iI2km.jpg",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "tmdb_id": "299290",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "299290",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Mônica e Cebolinha – No Mundo de Romeu e Julieta é uma adaptação de Romeu e Julieta, de William Shakespeare, estrelada pela Turma da Mônica. Foi originalmente encenada no teatro em 1978, com uma adaptação em quadrinhos e outra em LP pela Editora Abril saindo no mesmo ano. Em 1979 foi lançada uma adaptação em longa-metragem da peça, filmada em Ouro Preto, como um especial de Dia das Crianças na Rede Bandeirantes. Junto com A Rádio do Chico Bento, é um dos dois únicos filmes inspirados em Maurício de Sousa feito completamente em live-action. A história é tanto uma adaptação quanto uma paródia - a cena do balcão é interrompida pelos roncos do pai Capuleto, e Mônica não gosta do final trágico usado por Shakespeare, e vai atrás do Príncipe de Verona para conseguir um final feliz.",
+    "imdb_id": "tt1971478"
+  },
+  {
+    "id": "movie-monica-e-cebolinha-no-mundo-de-romeu-e-julieta-1979",
+    "title": "Mônica e Cebolinha no Mundo de Romeu e Julieta (1979)",
+    "type": "movie",
+    "year": "1979",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_nica%20e%20Cebolinha%20no%20Mundo%20de%20Romeu%20e%20Julieta%20_1979_%20_tmdb_299290_2c2f7c35.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-monica-o-my-darling-2022",
+    "title": "Mônica, O My Darling (2022)",
+    "type": "movie",
+    "year": "2022",
+    "poster_url": "/hiXLk6vdFBI8mVslso1VqzJEe45.jpg",
+    "genres": [
+      "Crime",
+      "Comédia",
+      "Drama",
+      "Mistério",
+      "Suspense"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/915831",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/915831",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1306833",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1306834",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-motley-crue-greatest-video-hits",
+    "title": "Mötley Crüe | Greatest Video Hits",
+    "type": "movie",
+    "year": "2003",
+    "poster_url": "/aLLrZaeNgq3cm2DkCB7g4Y0gAvJ.jpg",
+    "genres": [
+      "Música"
+    ],
+    "tmdb_id": "31495",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "31495",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "imdb_id": "tt0410336"
+  },
+  {
+    "id": "movie-motley-crue-hellfest-2023",
+    "title": "Mötley Crüe | Hellfest 2023",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": "/sV7IsYKmqrmIXgo5ejCPdZyFSpt.jpg",
+    "genres": [
+      "Música"
+    ],
+    "tmdb_id": "1129995",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "1129995",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-motley-crue-hellfest-2023-2023",
+    "title": "Mötley Crüe | Hellfest 2023 (2023)",
+    "type": "movie",
+    "year": "2023",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_tley%20Cr_e%20_%20Hellfest%202023%20_2023_%20_tmdb_1129995_29874158.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-mumia-a-ressurreicao",
+    "title": "Múmia: A Ressurreição",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": "/dA0ezQSl0qJrkhieHNRUviFJBav.jpg",
+    "genres": [
+      "Terror"
+    ],
+    "tmdb_id": "268508",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "268508",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Em meio as areias do Egito, um grupo de arqueologistas descobrem uma múmia antiga. No processo, elese acabam desencadeando uma praga mortal da sua tumba eterna.",
+    "imdb_id": "tt3382842"
+  },
+  {
+    "id": "movie-mumia-a-ressurreicao-2014",
+    "title": "Múmia: A Ressurreição (2014)",
+    "type": "movie",
+    "year": "2014",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_mia_%20A%20Ressurrei_o%20_2014_%20_tmdb_268508_9367430e.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-musica-a-bordo",
+    "title": "Música a Bordo",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/sBJ5gFjeGDMjAbqpAZBva8tyhGo.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "559713",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/559713",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/559713",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20a%20Bordo%20_2019_%20_tmdb_559713_8e624521.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "559713",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2460017",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "650869",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "133019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "133019",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "133025",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "133025",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 2,
+    "overview": "Um grupo de pescadores e cantores da Cornualha chega ao top 10 após assinar um contrato com um executivo musical de Londres.",
+    "imdb_id": "tt1648186"
+  },
+  {
+    "id": "movie-musica-a-bordo-2019",
+    "title": "Música a Bordo (2019)",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/sBJ5gFjeGDMjAbqpAZBva8tyhGo.jpg",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/559713",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/559713",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304516",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "6",
+        "ref": "1304517",
+        "audio": "leg",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-musica-da-alma",
+    "title": "Música da Alma",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": "/c35nwimeDzZSofgNAcginNLtW8k.jpg",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "tmdb_id": "110146",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "110146",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "É 1968 e quatro jovens aborígines australianas talentosas aprendem sobre amor, amizade e guerra quando seu grupo feminino The Sapphires entretém as tropas americanas no Vietnã.",
+    "imdb_id": "tt1673697"
+  },
+  {
+    "id": "movie-musica-da-alma-2012",
+    "title": "Música da Alma (2012)",
+    "type": "movie",
+    "year": "2012",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20da%20Alma%20_2012_%20_tmdb_110146_ec74936b.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-musica-do-coracao",
+    "title": "Música do Coração",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": "/knbONQ6d24XtWpRv9Q9D2DyHogo.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": "26149",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26149",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26149",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "26149",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2455880",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "653192",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "129574",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "129574",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "A história da luta de uma professora (Roberta Guaspari) para ensinar violino para crianças no Harlem em NY.",
+    "imdb_id": "tt0166943"
+  },
+  {
+    "id": "movie-musica-do-coracao-1999",
+    "title": "Música do Coração (1999)",
+    "type": "movie",
+    "year": "1999",
+    "poster_url": "/knbONQ6d24XtWpRv9Q9D2DyHogo.jpg",
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/26149",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/26149",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "6",
+        "ref": "1304353",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-musica-para-morrer-de-amor",
+    "title": "Música Para Morrer de Amor",
+    "type": "movie",
+    "year": "2019",
+    "poster_url": "/g7IQdTQ5tWzAvzgzJdn0CalW3GH.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "tmdb_id": "643286",
+    "sources": [
+      {
+        "url": "https://mgeb.top/embed/643286",
+        "audio": "dub",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "embed"
+      },
+      {
+        "url": "https://nhdapi.com/embed/movie/643286",
+        "audio": "leg",
+        "priority": 20,
+        "source_id": "reference-mgeb",
+        "source_type": "direct"
+      },
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20Para%20Morrer%20de%20Amor%20_2019_%20_tmdb_643286_684b5d8c.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "643286",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "10",
+        "ref": "2446962",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "18",
+        "ref": "645706",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "2",
+        "ref": "75044",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      },
+      {
+        "provider": "8",
+        "ref": "75044",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 1,
+    "overview": "As histórias amorosas de três jovens se desenrolam com a intensidade das músicas para cortar os pulsos. Isabela sofre porque foi abandonada, Felipe quer se apaixonar e Ricardo, seu amigo, está apaixonado por ele. Esses três corações entrelaçados estão prestes a se partir.",
+    "imdb_id": "tt8390616"
+  },
+  {
+    "id": "movie-musica-para-quando-as-luzes-se-apagam",
+    "title": "Música para Quando as Luzes Se Apagam",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": "/hJA1Nj9aSxJaH7vFQ9U6SV8RxEG.jpg",
+    "genres": [
+      "Documentário"
+    ],
+    "tmdb_id": "469950",
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "18",
+        "ref": "469950",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0,
+    "overview": "Desde que era pequena, Rebecca tinha uma porção de medos, especialmente quando as luzes se apagavam. Ela acreditava ser perseguida pela figura de uma mulher e anos mais tarde seu irmão mais novo começa a sofrer do mesmo problema. Juntos eles descobrem que a aparição está ligada à mãe deles, Rebecca começa a investigar o caso e chega perto de conhecer a terrível verdade.",
+    "imdb_id": "tt7449594"
+  },
+  {
+    "id": "movie-musica-para-quando-as-luzes-se-apagam-2016",
+    "title": "Música para Quando as Luzes Se Apagam (2016)",
+    "type": "movie",
+    "year": "2016",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [
+      {
+        "url": "https://pub-bda823ef358c448ea310cdf9539f9628.r2.dev/m/M_sica%20para%20Quando%20as%20Luzes%20Se%20Apagam%20_2016_%20_tmdb_469950_46927d35.mp4",
+        "audio": "dub",
+        "priority": 50,
+        "source_id": "reference-catalog",
+        "source_type": "direct"
+      }
+    ],
+    "provider_refs": [],
+    "source_candidates_skipped": 0
+  },
+  {
+    "id": "movie-maktub-2026",
+    "title": "المهايط Maktub (2026)",
+    "type": "movie",
+    "year": "2026",
+    "poster_url": null,
+    "genres": [],
+    "tmdb_id": null,
+    "sources": [],
+    "provider_refs": [
+      {
+        "provider": "10",
+        "ref": "2472338",
+        "audio": "dub",
+        "source_id": "reference-catalog"
+      }
+    ],
+    "source_candidates_skipped": 0
+  }
+]

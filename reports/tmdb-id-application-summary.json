@@ -1,22 +1,24 @@
 {
   "report_type": "applied_exact_title_year_tmdb_id_candidates",
-  "catalog_mutated": false,
+  "catalog_mutated": true,
   "read_only": false,
   "counts": {
     "reports_received": 7,
-    "candidates_seen": 2416,
-    "unique_exact_year_candidates": 2237,
-    "ids_assigned": 0,
+    "candidates_seen": 2319,
+    "unique_exact_year_candidates": 2232,
+    "ids_assigned": 47,
     "skipped_not_exact": 0,
-    "skipped_multiple_candidates": 115,
-    "skipped_missing_or_conflicting_year": 64,
-    "skipped_duplicate_title": 2102,
-    "skipped_tmdb_id_already_used": 135,
+    "skipped_multiple_candidates": 48,
+    "skipped_missing_or_conflicting_year": 39,
+    "skipped_duplicate_title": 2036,
+    "skipped_tmdb_id_already_used": 149,
     "skipped_existing_id": 0,
     "skipped_catalog_identity_mismatch": 0
   },
-  "updated_index_files": [],
-  "updated_detail_shards": 0,
+  "updated_index_files": [
+    "movies"
+  ],
+  "updated_detail_shards": 34,
   "safety": [
     "Only one TMDB candidate with exact normalized title, exact media type, and exact non-empty year was eligible.",
     "Records with duplicate normalized title/year, an already-used TMDB ID, or any existing provider ID were skipped.",

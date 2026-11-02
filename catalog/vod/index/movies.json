@@ -287642,7 +287642,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1125851"
   },
   {
     "id": "movie-malibu-crush",
@@ -287709,7 +287710,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/M-002.json",
     "year": "2021",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "803405"
   },
   {
     "id": "movie-maligno",
@@ -297444,7 +297446,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "642208"
   },
   {
     "id": "movie-memorias-de-um-assassino",
@@ -297966,7 +297969,8 @@
       "Comédia"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "673593"
   },
   {
     "id": "movie-meninas-malvadas-2",
@@ -305993,7 +305997,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/M-016.json",
     "year": "2020",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "699280"
   },
   {
     "id": "movie-minha-irma-arrasa",
@@ -312511,7 +312516,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/M-021.json",
     "year": "1993",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "12187"
   },
   {
     "id": "movie-morrer-mil-vezes",
@@ -313113,7 +313119,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "520023"
   },
   {
     "id": "movie-morte-na-fronteira-2023",
@@ -316504,7 +316511,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "586101"
   },
   {
     "id": "movie-music-2023",
@@ -316520,7 +316528,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "666942"
   },
   {
     "id": "movie-musica-2024",
@@ -318070,7 +318079,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/M-025.json",
     "year": "2026",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1530510"
   },
   {
     "id": "movie-monica-e-cebolinha-no-mundo-de-romeu-e-julieta",
@@ -318995,7 +319005,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "82485"
   },
   {
     "id": "movie-na-mira-dos-assassinos-2022",
@@ -321650,7 +321661,8 @@
       "Mistério"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "948333"
   },
   {
     "id": "movie-nas-profundezas-do-abismo",
@@ -321813,7 +321825,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "463322"
   },
   {
     "id": "movie-nasa-60-anos-jornada-para-o-futuro-2018",
@@ -324208,7 +324221,8 @@
       "Mistério"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "625814"
   },
   {
     "id": "movie-ned-kelly",
@@ -326035,7 +326049,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "10197"
   },
   {
     "id": "movie-ninfomaniaca-volume-2-2013",
@@ -326345,7 +326360,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "788933"
   },
   {
     "id": "movie-ninguem-sabe-que-estou-aqui-2020",
@@ -326580,7 +326596,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "25602"
   },
   {
     "id": "movie-ninja-2-a-vinganca-2013",
@@ -328693,7 +328710,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/N-007.json",
     "year": "2013",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "228676"
   },
   {
     "id": "movie-noite-de-ano-novo",
@@ -341966,7 +341984,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1062323"
   },
   {
     "id": "movie-o-campeao-sumido-que-detonou-no-pedaco",
@@ -342045,7 +342064,8 @@
       "Comédia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "517331"
   },
   {
     "id": "movie-o-candidato-honesto",
@@ -347575,7 +347595,8 @@
       "Ação"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "339988"
   },
   {
     "id": "movie-o-codigo",
@@ -348774,7 +348795,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-010.json",
     "year": "2022",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1007205"
   },
   {
     "id": "movie-o-despertar-do-psicopata",
@@ -350348,7 +350370,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-011.json",
     "year": "2025",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1147546"
   },
   {
     "id": "movie-o-direito-de-viver",
@@ -351468,7 +351491,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "1094605"
   },
   {
     "id": "movie-o-duelo-dos-fora-da-lei",
@@ -362889,7 +362913,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-020.json",
     "year": "1998",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "65485"
   },
   {
     "id": "movie-o-jantar-esta-servido",
@@ -363892,7 +363917,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "49057"
   },
   {
     "id": "movie-o-julgamento-de-paris",
@@ -366652,7 +366678,8 @@
       "Terror"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "430912"
   },
   {
     "id": "movie-o-massacre-2",
@@ -367498,7 +367525,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "929569"
   },
   {
     "id": "movie-o-melhor-do-mundo-2025",
@@ -374489,7 +374517,8 @@
       "Ação"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "519674"
   },
   {
     "id": "movie-o-passado-bate-a-porta-2024",
@@ -378826,7 +378855,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "359790"
   },
   {
     "id": "movie-o-protetor-2",
@@ -379316,7 +379346,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "725239"
   },
   {
     "id": "movie-o-publico",
@@ -380812,7 +380843,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-034.json",
     "year": "2014",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "289198"
   },
   {
     "id": "movie-o-reencontro-2025",
@@ -381045,7 +381077,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "504949"
   },
   {
     "id": "movie-o-rei-alfa-e-seu-amor-rejeitado",
@@ -381674,7 +381707,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "420818"
   },
   {
     "id": "movie-o-rei-leao-1",
@@ -381937,7 +381971,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-034.json",
     "year": "2012",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "471282"
   },
   {
     "id": "movie-o-reino-animal",
@@ -383177,7 +383212,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-035.json",
     "year": "1994",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "18009"
   },
   {
     "id": "movie-o-retorno-do-heroi",
@@ -384253,7 +384289,8 @@
       "Aventura"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "984324"
   },
   {
     "id": "movie-o-salsicha-campeao",
@@ -386823,7 +386860,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-038.json",
     "year": "1993",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1644"
   },
   {
     "id": "movie-o-silencio-do-pantano-2019",
@@ -388796,7 +388834,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-039.json",
     "year": "2026",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1623256"
   },
   {
     "id": "movie-o-teorema-zero",
@@ -389472,7 +389511,8 @@
       "Ação"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "159932"
   },
   {
     "id": "movie-o-tiro-que-nao-saiu-pela-culatra",
@@ -390464,7 +390504,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-041.json",
     "year": "2015",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "301846"
   },
   {
     "id": "movie-o-uivo-da-gaita-2013",
@@ -390770,7 +390811,8 @@
       "Guerra"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "547116"
   },
   {
     "id": "movie-o-ultimo-hotel",
@@ -394397,7 +394439,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/O-043.json",
     "year": "2002",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "26955"
   },
   {
     "id": "movie-obcecada",
@@ -394721,7 +394764,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "82390"
   },
   {
     "id": "movie-obsessao-2019",
@@ -394829,7 +394873,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "332672"
   },
   {
     "id": "movie-obsessao-fatal",
@@ -404853,7 +404898,8 @@
       "Terror"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "931466"
   },
   {
     "id": "movie-os-invasores-de-corpos-1978",
@@ -408855,7 +408901,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "281778"
   },
   {
     "id": "movie-os-sonhadores-2003",
