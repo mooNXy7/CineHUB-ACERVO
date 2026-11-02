@@ -1,18 +1,20 @@
 {
   "schema_version": 1,
   "report_type": "applied_network_confirmed_catalogo_hls_sources",
-  "generated_at": "2026-11-02T01:45:12.978122+00:00",
-  "catalog_mutated": false,
+  "generated_at": "2026-11-02T01:52:33.103175+00:00",
+  "catalog_mutated": true,
   "counts": {
     "candidate_channels": 152,
-    "channels_updated": 0,
-    "hls_sources_added": 0,
+    "channels_updated": 1,
+    "hls_sources_added": 1,
     "skipped_channel_missing": 0,
     "skipped_channel_has_source": 0,
-    "skipped_no_healthy_hls": 152,
+    "skipped_no_healthy_hls": 151,
     "skipped_unsafe": 0
   },
-  "updated_channel_ids": [],
+  "updated_channel_ids": [
+    "br.sbt-ba"
+  ],
   "safety": [
     "Only exact-name channel candidates from the authorized catalogo.txt report are considered.",
     "Only HTTPS sources that returned an HLS #EXTM3U playlist are applied.",

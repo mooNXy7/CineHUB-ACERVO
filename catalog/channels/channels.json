@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T01:45:27Z",
+  "generated_at": "2026-11-02T01:52:44Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -4317,7 +4317,13 @@
       "group": "TV Aberta",
       "logo_url": "http://www.fontedecanais.me/logos/canais/sbt.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
