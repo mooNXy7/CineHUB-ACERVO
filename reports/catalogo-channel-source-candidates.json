@@ -1,0 +1,4197 @@
+{
+  "schema_version": 1,
+  "report_type": "review_only_catalogo_channel_source_candidates",
+  "read_only": true,
+  "catalog_mutated": false,
+  "source": "authorized SaimoPlayer/catalogo.txt",
+  "matching": "exact normalized channel name only; no fuzzy matching",
+  "policy": [
+    "Only channels already present in CineHUB and without a stream are considered.",
+    "Only HTTPS sources without embedded credentials, sensitive query keys, private hosts, credential paths, encoded IPTV credentials, or opaque hex path tokens are listed.",
+    "Source order is preserved; headers are included only when safe.",
+    "Candidates are not active playback sources until a separate network probe and review succeeds.",
+    "Existing channel streams, metadata, EPG associations, and playback settings are never changed."
+  ],
+  "counts": {
+    "reference_channel_blocks": 472,
+    "exact_unique_matches": 324,
+    "ambiguous_matches": 0,
+    "unmatched_reference_blocks": 148,
+    "matched_channels_without_streams": 310,
+    "channels_with_candidates": 172,
+    "eligible_unverified_urls": 190,
+    "rejected_urls": 4205,
+    "channels_with_existing_streams": 14,
+    "missing_logo_candidates": 0
+  },
+  "candidates": [
+    {
+      "channel_id": "br.a-e",
+      "channel_name": "A&E",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/ae/ae.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "channel_name": "Adult Swim",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/adultswim/adultswim.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.amc",
+      "channel_name": "AMC",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/amc/amc.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "channel_name": "Animal Planet",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/animalplanet/animalplanet.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.band",
+      "channel_name": "Band",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://media.cdntvms.com.br/band_sat/index.m3u8",
+          "host": "media.cdntvms.com.br",
+          "source_type": "hls",
+          "quality": "SD · 1024x576",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cartoon-network",
+      "channel_name": "Cartoon Network",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cartoonnetwork/cartoonnetwork.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cnn-brasil",
+      "channel_name": "CNN Brasil",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cnnbrasil/cnnbrasil.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+          },
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
+          "host": "amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv",
+          "source_type": "hls",
+          "quality": "Qualidade não informada",
+          "source_order": 4,
+          "headers": {
+            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cnn-brasil-money",
+      "channel_name": "CNN Brasil Money",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8",
+          "host": "amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv",
+          "source_type": "hls",
+          "quality": "Qualidade não informada",
+          "source_order": 2,
+          "headers": {
+            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.e",
+      "channel_name": "E!",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://video49.mais.uol.com.br/live/4503.mpd",
+          "host": "video49.mais.uol.com.br",
+          "source_type": "dash",
+          "quality": "Qualidade não informada",
+          "source_order": 2,
+          "headers": {
+            "referer": "https://painel.play.uol.com.br/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globonews",
+      "channel_name": "GloboNews",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globonews/globonews.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globoplay-novelas",
+      "channel_name": "Globoplay Novelas",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globonovelas/globonovelas.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 34,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.gnt",
+      "channel_name": "GNT",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/gnt/gnt.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.history",
+      "channel_name": "History",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/history/history.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 31,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.history-2",
+      "channel_name": "History 2",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/history2/history2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 23,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.jovem-pan-news",
+      "channel_name": "Jovem Pan News",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
+          "host": "amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv",
+          "source_type": "hls",
+          "quality": "Qualidade não informada",
+          "source_order": 2,
+          "headers": {
+            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+          },
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 3,
+          "headers": {
+            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.megapix",
+      "channel_name": "Megapix",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/megapix/megapix.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.multishow",
+      "channel_name": "Multishow",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/multishow/multishow.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-2",
+      "channel_name": "Premiere 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere2/premiere2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere/premiere.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 31,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-3",
+      "channel_name": "Premiere 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere3/premiere3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-4",
+      "channel_name": "Premiere 4",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere4/premiere4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-5",
+      "channel_name": "Premiere 5",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere5/premiere5.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-6",
+      "channel_name": "Premiere 6",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere6/premiere6.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-7",
+      "channel_name": "Premiere 7",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere7/premiere7.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.premiere-8",
+      "channel_name": "Premiere 8",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/premiere8/premiere8.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sony-channel",
+      "channel_name": "Sony Channel",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sonychannel/sonychannel.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sportv",
+      "channel_name": "SporTV",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sportv/sportv.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sportv-2",
+      "channel_name": "SporTV 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sportv2/sportv2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sportv-3",
+      "channel_name": "SporTV 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sportv3/sportv3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.primevideo.com/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.canal-off",
+      "channel_name": "Canal OFF",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/off/off.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-action",
+      "channel_name": "Telecine Action",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecineaction/telecineaction.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-pipoca",
+      "channel_name": "Telecine Pipoca",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecinepipoca/telecinepipoca.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-premium",
+      "channel_name": "Telecine Premium",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecinepremium/telecinepremium.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.warner",
+      "channel_name": "Warner",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/warnerchannel/warnerchannel.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.impd",
+      "channel_name": "IMPD",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1464410885_b2691072.m3u8",
+          "host": "68882bdaf156a.streamlock.net",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
+          "host": "igrejamundial.nuvemplay.live",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-sp",
+      "channel_name": "Globo SP",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globosp/globosp.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cartoonito",
+      "channel_name": "Cartoonito",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cartoonito/cartoonito.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cinemax",
+      "channel_name": "Cinemax",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cinemax/cinemax.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-channel",
+      "channel_name": "Discovery Channel",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoverychannel/discoverychannel.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 32,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-kids",
+      "channel_name": "Discovery Kids",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoverykids/discoverykids.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 27,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-theater",
+      "channel_name": "Discovery Theater",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoverytheather/discoverytheather.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 29,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn",
+      "channel_name": "ESPN",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn/espn.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn-2",
+      "channel_name": "ESPN 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn2/espn2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn-4",
+      "channel_name": "ESPN 4",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn4/espn4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn-5",
+      "channel_name": "ESPN 5",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn5/espn5.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn-6",
+      "channel_name": "ESPN 6",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn6/espn6.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo",
+      "channel_name": "HBO",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hbo/hbo.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo2",
+      "channel_name": "HBO2",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hbo2/hbo2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo-family",
+      "channel_name": "HBO Family",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hbofamily/hbofamily.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo-mundi",
+      "channel_name": "HBO Mundi",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hbomundi/hbomundi.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo-plus",
+      "channel_name": "HBO Plus",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hboplus/hboplus.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo-pop",
+      "channel_name": "HBO Pop",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hbopop/hbopop.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hbo-xtreme",
+      "channel_name": "HBO Xtreme",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hboxtreme/hboxtreme.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 38,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record",
+      "channel_name": "Record",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://media.cdntvms.com.br/record_nacional_sat/index.m3u8",
+          "host": "media.cdntvms.com.br",
+          "source_type": "hls",
+          "quality": "SD · 1024x576",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.space",
+      "channel_name": "Space",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/space/space.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tnt",
+      "channel_name": "TNT",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tnt/tnt.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tnt-series",
+      "channel_name": "TNT Séries",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tntseries/tntseries.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "SD · 1024x576",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.universal-tv",
+      "channel_name": "Universal TV",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/universaltv/universaltv.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {
+            "referer": "https://www.clarotvmais.com.br/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://getcdn.clarocdn.com.br/Content/Channel/SPOUNVHD/dsc3/manifest.mpd",
+          "host": "getcdn.clarocdn.com.br",
+          "source_type": "dash",
+          "quality": "Qualidade não informada",
+          "source_order": 4,
+          "headers": {
+            "referer": "https://www.clarotvmais.com.br/",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+          },
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-turbo",
+      "channel_name": "Discovery Turbo",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoveryturbo/discoveryturbo.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 34,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-fun",
+      "channel_name": "Telecine Fun",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecinefun/telecinefun.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-cult",
+      "channel_name": "Telecine Cult",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecinecult/telecinecult.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.telecine-touch",
+      "channel_name": "Telecine Touch",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/telecinetouch/telecinetouch.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo",
+      "channel_name": "Globo",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8",
+          "host": "media2.cdntvms.com.br",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tlc",
+      "channel_name": "TLC",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tlc/tlc.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 29,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tnt-novelas",
+      "channel_name": "TNT Novelas",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tntnovelas/tntnovelas.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-science",
+      "channel_name": "Discovery Science",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoveryscience/discoveryscience.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 29,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.axn",
+      "channel_name": "AXN",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/axn/axn.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tcm",
+      "channel_name": "TCM",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tcm/tcm.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 5,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.band-news",
+      "channel_name": "Band News",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/bandnews/bandnews.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tv-cultura",
+      "channel_name": "TV Cultura",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cultura/cultura.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
+          "host": "v-us-01.wisestream.io",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 4,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+          "host": "player-tvcultura.stream.uol.com.br",
+          "source_type": "hls",
+          "quality": "SD · 960x540",
+          "source_order": 5,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.espn-3",
+      "channel_name": "ESPN 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/espn3/espn3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record-news",
+      "channel_name": "Record News",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "host": "rnw-rn.otteravision.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "host": "rnw-rn-soultv.otteravision.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 29,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cancao-nova",
+      "channel_name": "Canção Nova",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/cancaonova/cancaonova.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8",
+          "host": "5c65286fc6ace.streamlock.net",
+          "source_type": "hls",
+          "quality": "HD",
+          "source_order": 4,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tv-aparecida",
+      "channel_name": "TV Aparecida",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/aparecida/aparecida.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 26,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
+          "host": "cdn.jmvstream.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 27,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.rede-vida",
+      "channel_name": "Rede Vida",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/redevida/redevida.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-id",
+      "channel_name": "Discovery ID",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoveryid/discoveryid.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 24,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.x-sports",
+      "channel_name": "X Sports",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/xsports/xsports.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.n-sports",
+      "channel_name": "N SPORTS",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8",
+          "host": "ogc-nsprt-tcl-roku-syndication.otteravision.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.band-sp",
+      "channel_name": "Band SP",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/bandsp/bandsp.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sbt-sp",
+      "channel_name": "SBT SP",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sbtsp/sbtsp.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record-sp",
+      "channel_name": "Record SP",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/recordsp/recordsp.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tv-pai-eterno",
+      "channel_name": "TV Pai Eterno",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/tvpaieterno/tvpaieterno.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
+          "host": "video09.logicahost.com.br",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
+          "host": "video09.logicahost.com.br",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 23,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.playtv",
+      "channel_name": "PlayTV",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
+          "host": "isaocorp.cloudecast.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.rede-brasil",
+      "channel_name": "Rede Brasil",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
+          "host": "redebrasil.nuvemplay.live",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.rede-gospel",
+      "channel_name": "Rede Gospel",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
+          "host": "cdn.live.br1.jmvstream.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
+          "host": "redegospel-aovivo.nuvemplay.live",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
+          "host": "cdn.jmvstream.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 25,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.trace-brazuca",
+      "channel_name": "Trace Brazuca",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
+          "host": "cdn-uw2-prod.tsv2.amagi.tv",
+          "source_type": "hls",
+          "quality": "Qualidade não informada",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-home-health",
+      "channel_name": "Discovery Home & Health",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoveryhh/discoveryhh.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 30,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.blits-tv",
+      "channel_name": "Blits TV",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8",
+          "host": "stmv1.transmissaodigital.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cnbc",
+      "channel_name": "CNBC",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-679a973a97782f0008ff4bb6.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.com-brasil",
+      "channel_name": "Com Brasil",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
+          "host": "br5093.streamingdevideo.com.br",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
+          "host": "dfr80qz435crc.cloudfront.net",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.tvideonews",
+      "channel_name": "TVideoNews",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
+          "host": "video01.logicahost.com.br",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.assombracoes",
+      "channel_name": "Assombrações",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-620d1512c7986a0007220213.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.bob-esponja-calca-quadrada",
+      "channel_name": "Bob Esponja Calça Quadrada",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.boruto-naruto-next-generations",
+      "channel_name": "Boruto: Naruto Next Generations",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-656f389c3944b60008e5bdab.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.canal-uol",
+      "channel_name": "Canal UOL",
+      "category": "Notícias",
+      "reference_category": "Notícias",
+      "sources": [
+        {
+          "url": "https://video24.mais.uol.com.br/live/6146.m3u8",
+          "host": "video24.mais.uol.com.br",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.kpoptv-play",
+      "channel_name": "KpopTV Play",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+          "host": "giatv.bozztv.com",
+          "source_type": "hls",
+          "quality": "Qualidade não informada",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.mtv-biggest-pop",
+      "channel_name": "MTV Biggest Pop",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.mtv-rocks",
+      "channel_name": "MTV Rocks",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.masterchef",
+      "channel_name": "MasterChef",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/masterchef/masterchef.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.mytime-movie-network",
+      "channel_name": "MyTime Movie Network",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
+          "host": "appletree-mytime-samsungbrazil.amagi.tv",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.nickonline",
+      "channel_name": "NickOnline",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://x1colegal.com/hls/stream.m3u8",
+          "host": "x1colegal.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.nicktoons-brasil",
+      "channel_name": "NickToons Brasil",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
+          "host": "stmv2.srvif.com",
+          "source_type": "hls",
+          "quality": "SD · 854x480",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.nickelodeon",
+      "channel_name": "Nickelodeon",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+          "host": "stmv2.srvif.com",
+          "source_type": "hls",
+          "quality": "SD · 854x480",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.nickelodeon-icarly",
+      "channel_name": "Nickelodeon iCarly",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pluto-tv-anime",
+      "channel_name": "Pluto TV Anime",
+      "category": "Pluto TV",
+      "reference_category": "Pluto TV",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.runtime",
+      "channel_name": "Runtime",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "SD · 1216x684",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        },
+        {
+          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153",
+          "host": "stream.ads.ottera.tv",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.smithsonian-channel-pluto-tv",
+      "channel_name": "Smithsonian Channel Pluto TV",
+      "category": "Pluto TV",
+      "reference_category": "Pluto TV",
+      "sources": [
+        {
+          "url": "https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8",
+          "host": "jmp2.uk",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.amazon-prime-video-01",
+      "channel_name": "Amazon Prime Video 01",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/primevideo/primevideo.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.amazon-prime-video-02",
+      "channel_name": "Amazon Prime Video 02",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/primevideo2/primevideo2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.combate",
+      "channel_name": "Combate",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/combate/combate.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 32,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.max-01",
+      "channel_name": "MAX 01",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/max1/max1.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 12,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.max-02",
+      "channel_name": "MAX 02",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/max2/max2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 12,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.studio-universal",
+      "channel_name": "Studio Universal",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/studiouniversal/studiouniversal.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.gloob",
+      "channel_name": "Gloob",
+      "category": "Infantil",
+      "reference_category": "Infantil",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/gloob/gloob.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.band-rj",
+      "channel_name": "Band RJ",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/bandrj/bandrj.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 4,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sbt-ba",
+      "channel_name": "SBT BA",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
+          "host": "cdn.live.br1.jmvstream.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sbt-rj",
+      "channel_name": "SBT RJ",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sbtrj/sbtrj.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.food-network",
+      "channel_name": "Food Network",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/foodnetwork/foodnetwork.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-chaves",
+      "channel_name": "24H Chaves",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_chaves/24h_chaves.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 25,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-dragon-ball-z",
+      "channel_name": "24H Dragon Ball Z",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_dragonball/24h_dragonball.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-naruto-classico",
+      "channel_name": "24H Naruto Clássico",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_naruto/24h_naruto.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-os-simpsons",
+      "channel_name": "24H Os Simpsons",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_simpsons/24h_simpsons.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 99,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-todo-mundo-odeia-o-cris",
+      "channel_name": "24H Todo Mundo Odeia o Cris",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_odeiachris/24h_odeiachris.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 15,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.24h-friends",
+      "channel_name": "24H Friends",
+      "category": "24 Horas",
+      "reference_category": "24 Horas",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/24h_friends/24h_friends.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 32,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.discovery-world",
+      "channel_name": "Discovery World",
+      "category": "Documentários",
+      "reference_category": "Documentários",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/discoveryworld/discoveryworld.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 27,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cazetv-1",
+      "channel_name": "CazeTV 1",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/caze1/caze1.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cazetv-2",
+      "channel_name": "CazeTV 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/caze2/caze2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-a-bola",
+      "channel_name": "PT - A Bola",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_abola/pt_abola.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-benfica-tv",
+      "channel_name": "PT - Benfica TV",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_benficatv/pt_benficatv.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-canal-11",
+      "channel_name": "PT - Canal 11",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_canal11/pt_canal11.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-eleven-1",
+      "channel_name": "PT - Eleven 1",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_eleven1/pt_eleven1.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-eleven-2",
+      "channel_name": "PT - Eleven 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_eleven2/pt_eleven2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-eleven-3",
+      "channel_name": "PT - Eleven 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_eleven3/pt_eleven3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-1",
+      "channel_name": "PT - Sporttv 1",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv1/pt_sportv1.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-2",
+      "channel_name": "PT - Sporttv 2",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv2/pt_sportv2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-3",
+      "channel_name": "PT - Sporttv 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv3/pt_sportv3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-4",
+      "channel_name": "PT - Sporttv 4",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv4/pt_sportv4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-5",
+      "channel_name": "PT - Sporttv 5",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv5/pt_sportv5.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-6",
+      "channel_name": "PT - Sporttv 6",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv6/pt_sportv6.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.pt-sporttv-7",
+      "channel_name": "PT - Sporttv 7",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/pt_sportv7/pt_sportv7.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-am",
+      "channel_name": "Globo AM",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globoam/globoam.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-ce",
+      "channel_name": "Globo CE",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globoce/globoce.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-es",
+      "channel_name": "Globo ES",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globoes/globoes.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-go",
+      "channel_name": "Globo GO",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globogo/globogo.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-pb",
+      "channel_name": "Globo PB",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globopb/globopb.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-pe",
+      "channel_name": "Globo PE",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globope/globope.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-rj",
+      "channel_name": "Globo RJ",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globorj/globorj.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-rs",
+      "channel_name": "Globo RS",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globors/globors.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record-go",
+      "channel_name": "Record GO",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/recordgo/recordgo.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 10,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record-mg",
+      "channel_name": "Record MG",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/recordmg/recordmg.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.record-rj",
+      "channel_name": "Record RJ",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/recordrj/recordrj.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.hgtv",
+      "channel_name": "HGTV",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/hgtv/hgtv.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 24,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.mtv",
+      "channel_name": "MTV",
+      "category": "Variedades",
+      "reference_category": "Variedades",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/mtv/mtv.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1536x1024",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.a-fazenda-18-1",
+      "channel_name": "A Fazenda 18 1",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/afazenda/afazenda.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.a-fazenda-18-2",
+      "channel_name": "A Fazenda 18 2",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/afazenda2/afazenda2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.a-fazenda-18-3",
+      "channel_name": "A Fazenda 18 3",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/afazenda3/afazenda3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.a-fazenda-18-4",
+      "channel_name": "A Fazenda 18 4",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/afazenda4/afazenda4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.a-fazenda-18-5",
+      "channel_name": "A Fazenda 18 5",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/afazenda5/afazenda5.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 3,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.cazetv-3",
+      "channel_name": "CazeTV 3",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/caze3/caze3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-df",
+      "channel_name": "Globo DF",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globodf/globodf.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "HD · 1280x720",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.globo-mg",
+      "channel_name": "Globo MG",
+      "category": "TV Aberta",
+      "reference_category": "TV Aberta",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/globomg/globomg.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.max-03",
+      "channel_name": "MAX 03",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/max3/max3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.amazon-prime-video-04",
+      "channel_name": "Amazon Prime Video 04",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/primevideo4/primevideo4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": "FHD · 1920x1080",
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sportv-4",
+      "channel_name": "SporTV 4",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sportv4/sportv4.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 22,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.star-channel",
+      "channel_name": "Star Channel",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/starchannel/starchannel.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 2,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.sportynet",
+      "channel_name": "SportyNet",
+      "category": "Esportes",
+      "reference_category": "Esportes",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/sportynetplus3/sportynetplus3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 5,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.ufc-fight-pass",
+      "channel_name": "UFC Fight Pass",
+      "category": "PPV",
+      "reference_category": "PPV",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/ufcfightpass/ufcfightpass.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 10,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.disney-plus-1",
+      "channel_name": "Disney Plus 1",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/disneyplus1/disneyplus1.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.disney-plus-2",
+      "channel_name": "Disney Plus 2",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/disneyplus2/disneyplus2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.disney-plus-3",
+      "channel_name": "Disney Plus 3",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/disneyplus3/disneyplus3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.paramount-plus-1",
+      "channel_name": "Paramount Plus 1",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/paramountplus/paramountplus.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.paramount-plus-2",
+      "channel_name": "Paramount Plus 2",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/paramountplus2/paramountplus2.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    },
+    {
+      "channel_id": "br.prime-video-3",
+      "channel_name": "Prime Video 3",
+      "category": "Filmes e Séries",
+      "reference_category": "Filmes e Séries",
+      "sources": [
+        {
+          "url": "https://nexustvplay.bbroot.com/nxs/stream/primevideo3/primevideo3.m3u8",
+          "host": "nexustvplay.bbroot.com",
+          "source_type": "hls",
+          "quality": null,
+          "source_order": 1,
+          "headers": {},
+          "status": "eligible_unverified"
+        }
+      ],
+      "logo_candidate": null,
+      "requires_network_probe_before_import": true,
+      "automatic_update": false
+    }
+  ],
+  "rejected_examples": [
+    {
+      "channel_id": "br.a-e",
+      "reason": "encoded_credential_path",
+      "source_order": 2
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "opaque_path_token",
+      "source_order": 3
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 4
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 5
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 6
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "encoded_credential_path",
+      "source_order": 7
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "encoded_credential_path",
+      "source_order": 8
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "encoded_credential_path",
+      "source_order": 9
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 10
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 11
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 12
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 13
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 14
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 15
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 16
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 17
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 18
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 19
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 20
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 21
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 22
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 23
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 24
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 25
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 26
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 27
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 28
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 29
+    },
+    {
+      "channel_id": "br.a-e",
+      "reason": "not_https",
+      "source_order": 30
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "encoded_credential_path",
+      "source_order": 2
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "opaque_path_token",
+      "source_order": 3
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 4
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 5
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 6
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "encoded_credential_path",
+      "source_order": 7
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "encoded_credential_path",
+      "source_order": 8
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "encoded_credential_path",
+      "source_order": 9
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 10
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 11
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 12
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 13
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 14
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 15
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 16
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 17
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 18
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 19
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 20
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 21
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 22
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 23
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 24
+    },
+    {
+      "channel_id": "br.adult-swim",
+      "reason": "not_https",
+      "source_order": 25
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "encoded_credential_path",
+      "source_order": 2
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "opaque_path_token",
+      "source_order": 3
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 4
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 5
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "encoded_credential_path",
+      "source_order": 6
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "encoded_credential_path",
+      "source_order": 7
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "encoded_credential_path",
+      "source_order": 8
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 9
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 10
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 11
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 12
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 13
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 14
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 15
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 16
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 17
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 18
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 19
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 20
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 21
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 22
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 23
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 24
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 25
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 26
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 27
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 28
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 29
+    },
+    {
+      "channel_id": "br.amc",
+      "reason": "not_https",
+      "source_order": 30
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "encoded_credential_path",
+      "source_order": 2
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "opaque_path_token",
+      "source_order": 3
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 4
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 5
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 6
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 7
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "encoded_credential_path",
+      "source_order": 8
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "encoded_credential_path",
+      "source_order": 9
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "encoded_credential_path",
+      "source_order": 10
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 11
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 12
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 13
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 14
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 15
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 16
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 17
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 18
+    },
+    {
+      "channel_id": "br.animal-planet",
+      "reason": "not_https",
+      "source_order": 19
+    }
+  ]
+}
