@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:04:11Z",
+  "generated_at": "2026-11-02T07:06:27Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -12363,7 +12363,7 @@
       "id": "ch-france-24-fhd-h265",
       "name": "France 24 FHD [H265]",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
       "epg_id": null,
       "sources": [
         {
@@ -21190,7 +21190,7 @@
       "id": "ch-sportynet-1-fhd-h265",
       "name": "SportyNet 1 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus.png",
       "epg_id": null,
       "sources": [
         {
@@ -21302,7 +21302,7 @@
       "id": "ch-sportynet-2-fhd-h265",
       "name": "SportyNet 2 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-2.png",
       "epg_id": null,
       "sources": [
         {
@@ -21414,7 +21414,7 @@
       "id": "ch-sportynet-3-fhd-h265",
       "name": "SportyNet 3 FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynetplus-3.png",
       "epg_id": null,
       "sources": [
         {
@@ -21494,7 +21494,7 @@
       "id": "ch-sportynet-fhd-h265",
       "name": "SportyNet FHD [H265]",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sportynet.png",
       "epg_id": null,
       "sources": [
         {
@@ -24580,7 +24580,7 @@
       "id": "ch-sabor-arte-fhd-h265",
       "name": "Sabor & Arte FHD [H265]",
       "group": "Canais | Variedades",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
       "epg_id": null,
       "sources": [
         {
@@ -36430,7 +36430,7 @@
       "id": "ch-adult-swim-h265",
       "name": "Adult Swim H265",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/adult-swim.png",
       "epg_id": null,
       "sources": [
         {
