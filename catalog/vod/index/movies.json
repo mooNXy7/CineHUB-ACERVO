@@ -159582,7 +159582,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "1153366"
   },
   {
     "id": "movie-de-frente-com-meu-ex",
@@ -175055,7 +175056,8 @@
       "Guerra"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "768"
   },
   {
     "id": "movie-do-inferno-ao-paraiso",
@@ -176552,7 +176554,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 3
+    "provider_ref_count": 3,
+    "tmdb_id": "810657"
   },
   {
     "id": "movie-dois-dois-2021",
@@ -176857,7 +176860,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "157829"
   },
   {
     "id": "movie-dois-lados-do-amor-ela",
@@ -177870,7 +177874,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/D-015.json",
     "year": "2002",
-    "source_count": 2
+    "source_count": 2,
+    "tmdb_id": "256218"
   },
   {
     "id": "movie-don-039-t-let-him-find-you-2024",
@@ -192682,7 +192687,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "728526"
   },
   {
     "id": "movie-encontros-ao-acaso",
@@ -195279,7 +195285,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "672489"
   },
   {
     "id": "movie-entre-meus-legados-ela-tambem-ficou",
@@ -197061,7 +197068,8 @@
       "Faroeste"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "39393"
   },
   {
     "id": "movie-era-uma-vez-um-baile-de-natal",
@@ -199815,7 +199823,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "491854"
   },
   {
     "id": "movie-esquadrao-de-elite-home-run-2023",
@@ -205821,7 +205830,8 @@
       "Aventura"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "950394"
   },
   {
     "id": "movie-explorer-labirintos-subterraneos",
@@ -208351,7 +208361,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/F-001.json",
     "year": "2000",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "49948"
   },
   {
     "id": "movie-fantasias-de-princesa",
@@ -216313,7 +216324,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1116585"
   },
   {
     "id": "movie-forever-rich",
@@ -218476,7 +218488,8 @@
       "Mistério"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "1022411"
   },
   {
     "id": "movie-frente-a-frente",
@@ -230268,7 +230281,8 @@
       "Fantasia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "822264"
   },
   {
     "id": "movie-guardioes-da-galaxia-2014",
@@ -231248,7 +231262,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/G-006.json",
     "year": "2011",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "273817"
   },
   {
     "id": "movie-guerra-no-pacifico",
@@ -235379,7 +235394,8 @@
       "Ação"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "456740"
   },
   {
     "id": "movie-hellboy-2",
@@ -236732,7 +236748,8 @@
       "História"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "16450"
   },
   {
     "id": "movie-heroi-da-liberdade-2020",
@@ -248391,7 +248408,8 @@
       "Terror"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "520905"
   },
   {
     "id": "movie-insano",
@@ -250624,7 +250642,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/I-005.json",
     "year": "2023",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1813228"
   },
   {
     "id": "movie-invisiveis",
@@ -256700,7 +256719,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "157919"
   },
   {
     "id": "movie-jogo-de-intrigas",
@@ -256984,7 +257004,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/J-003.json",
     "year": "1986",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "351373"
   },
   {
     "id": "movie-jogo-entre-ladroes-2009",
@@ -262170,7 +262191,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/J-006.json",
     "year": "1996",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "291613"
   },
   {
     "id": "movie-justica-brutal",
@@ -265493,7 +265515,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1124838"
   },
   {
     "id": "movie-kingdom-3-a-chama-do-destino-2023",
@@ -269448,7 +269471,8 @@
       "Fantasia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "576281"
   },
   {
     "id": "movie-lara-croft-tomb-raider-a-origem-da-vida-2003",
@@ -273440,7 +273464,8 @@
       "Aventura"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "997776"
   },
   {
     "id": "movie-liga-da-justica-x-rwby-super-herois-e-cacadores-parte-2-2023",
@@ -275993,7 +276018,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1091181"
   },
   {
     "id": "movie-lobisomens-do-terceiro-reich-2018",
