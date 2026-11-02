@@ -1,12 +1,12 @@
 # CineHUB ACERVO — checklist de conclusão
 
-Atualizado em 2026-11-01. Este checklist registra entregas verificadas e limitações reais. Não confundir associação estrutural com reprodução funcional.
+Atualizado em 2026-11-02. Este checklist registra entregas verificadas e limitações reais. Não confundir associação estrutural com reprodução funcional.
 
 ## Escopo e segurança
 
 - [x] Trabalho isolado em `audit/acervo-hardening-2026-10`.
 - [x] PR #1 aberta; branch contém a `main` atual (zero commits atrás).
-- [x] TV, MOBILE e PLAYER fora do escopo desta branch.
+- [x] O ACERVO é compartilhado por CineHUB TV, Mobile e Web. Os aplicativos consumidores não são alterados nesta fase.
 - [x] Nenhum merge, deploy de produção, deploy de Edge Function Supabase ou OTA executado.
 - [x] Importação de referência executada em worktree temporária, com aprovação automática desabilitada.
 - [x] Nenhuma fusão automática de títulos semelhantes.
