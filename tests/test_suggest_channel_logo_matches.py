@@ -115,5 +115,32 @@ class SuggestChannelLogoMatchesTests(unittest.TestCase):
         self.assertEqual(by_id["c3"]["stream_url"], "https://stream.example/3")
 
 
+    def test_codec_markers_are_removed_for_reviewed_quality_variants(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "catalog/channels").mkdir(parents=True)
+            (root / "catalog/reference").mkdir(parents=True)
+            (root / "catalog/channels/channels.json").write_text(json.dumps({
+                "channels": [{
+                    "id": "c1",
+                    "name": "CNN Brasil Money FHD [H265]",
+                    "logo_url": None,
+                }]
+            }), encoding="utf-8")
+            (root / "catalog/reference/saimo-channel-logos.json").write_text(json.dumps({
+                "entries": [{
+                    "name": "CNN Brasil Money",
+                    "logo_url": "https://logos.example/cnn-brasil-money.png",
+                }]
+            }), encoding="utf-8")
+            report = build_report(root)
+
+        self.assertEqual(report["counts"]["candidate_channels"], 1)
+        self.assertEqual(report["counts"]["lower_confidence_quality_marker_candidates"], 1)
+        self.assertEqual(report["suggestions"][0]["reference_name"], "CNN Brasil Money")
+        self.assertEqual(report["suggestions"][0]["confidence"], "lower")
+        self.assertFalse(report["suggestions"][0]["automatic_update"])
+
+
 if __name__ == "__main__":
     unittest.main()

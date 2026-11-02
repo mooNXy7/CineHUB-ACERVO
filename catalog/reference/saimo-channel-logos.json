@@ -2,7 +2,7 @@
   "schema_version": 1,
   "purpose": "Review-only reference for filling missing channel logos by exact normalized name.",
   "source": "Authorized references: SaimoTV-Android offline.json, SaimoPlayer/catalogo.txt, and Saimo-TV/src/data/channels.ts",
-  "source_note": "Only channel names and HTTPS logo URL references were extracted from the authorized reference repositories. From Saimo-TV/src/data/channels.ts, only name and logo fields were used; streams, headers, DRM keys, credentials, and playback data were not imported. Third-party logo URLs remain external references and are not re-hosted. Existing CineHUB logos are never overwritten; exact normalized-name matching is required for automatic application. Additional missing-name entries were extracted from the authorized SaimoPlayer catalogo.txt using only channel name and HTTPS logo fields; stream/source/playback data were excluded.",
+  "source_note": "Only channel names and HTTPS logo URL references were extracted from the authorized reference repositories. From Saimo-TV/src/data/channels.ts, only name and logo fields were used; streams, headers, DRM keys, credentials, and playback data were not imported. Third-party logo URLs remain external references and are not re-hosted. Existing CineHUB logos are never overwritten; exact normalized-name matching is required for automatic application. Additional missing-name entries were extracted from the authorized SaimoPlayer catalogo.txt using only channel name and HTTPS logo fields; stream/source/playback data were excluded. Added two further Brazilian channel-logo references from the public tv-logo/tv-logos Brazil collection, also used as a logo base by the authorized Saimo-TV source; only logo URLs and channel names were imported.",
   "entries": [
     {
       "name": "24H Chaves",
@@ -33,10 +33,6 @@
       "logo_url": "https://img.faz-o-eli.online/24h.png"
     },
     {
-      "name": "A&E",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/aee.png"
-    },
-    {
       "name": "A Fazenda 18 1",
       "logo_url": "https://img.faz-o-eli.online/afazenda2.png"
     },
@@ -63,6 +59,10 @@
     {
       "name": "A Feiticeira",
       "logo_url": "https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png"
+    },
+    {
+      "name": "A&E",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/aee.png"
     },
     {
       "name": "ABC News",
@@ -437,6 +437,18 @@
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/discovery-world.png"
     },
     {
+      "name": "Disney Plus 1",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png"
+    },
+    {
+      "name": "Disney Plus 2",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png"
+    },
+    {
+      "name": "Disney Plus 3",
+      "logo_url": "https://vipcanais.net/images/disneyplus.png"
+    },
+    {
       "name": "Disney+ 1",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
     },
@@ -463,18 +475,6 @@
     {
       "name": "Disney+ 7",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/disney-plus.png"
-    },
-    {
-      "name": "Disney Plus 1",
-      "logo_url": "https://vipcanais.net/images/disneyplus.png"
-    },
-    {
-      "name": "Disney Plus 2",
-      "logo_url": "https://vipcanais.net/images/disneyplus.png"
-    },
-    {
-      "name": "Disney Plus 3",
-      "logo_url": "https://vipcanais.net/images/disneyplus.png"
     },
     {
       "name": "Dog TV",
@@ -973,6 +973,10 @@
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png"
     },
     {
+      "name": "Novo Tempo",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png"
+    },
+    {
       "name": "NSports",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png"
     },
@@ -981,36 +985,28 @@
       "logo_url": "https://images.pluto.tv/channels/62052d3b4eeb740007fbe125/colorLogoPNG_1732044609381.png"
     },
     {
-      "name": "O-la-la!",
-      "logo_url": "https://i.imgur.com/6aOmZs4.png"
-    },
-    {
       "name": "O Reino Infantil",
       "logo_url": "https://images.pluto.tv/channels/5f5c216df68f920007888315/colorLogoPNG.png"
+    },
+    {
+      "name": "O-la-la!",
+      "logo_url": "https://i.imgur.com/6aOmZs4.png"
     },
     {
       "name": "Off",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/canal-off.png"
     },
     {
+      "name": "Paramount Plus 1",
+      "logo_url": "https://vipcanais.net/images/paramountplus.png"
+    },
+    {
+      "name": "Paramount Plus 2",
+      "logo_url": "https://vipcanais.net/images/paramountplus.png"
+    },
+    {
       "name": "Paramount+",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/paramount-plus-int.png"
-    },
-    {
-      "name": "Paramount+ 1",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-1.png"
-    },
-    {
-      "name": "Paramount+ 2",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-2.png"
-    },
-    {
-      "name": "Paramount+ 3",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-3.png"
-    },
-    {
-      "name": "Paramount+ 4",
-      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-4.png"
     },
     {
       "name": "Paramount+ (Jogo 1)",
@@ -1029,12 +1025,20 @@
       "logo_url": "https://logos.appscms.xyz/logos/2025/Paramount.png"
     },
     {
-      "name": "Paramount Plus 1",
-      "logo_url": "https://vipcanais.net/images/paramountplus.png"
+      "name": "Paramount+ 1",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-1.png"
     },
     {
-      "name": "Paramount Plus 2",
-      "logo_url": "https://vipcanais.net/images/paramountplus.png"
+      "name": "Paramount+ 2",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-2.png"
+    },
+    {
+      "name": "Paramount+ 3",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-3.png"
+    },
+    {
+      "name": "Paramount+ 4",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/paramountplus-4.png"
     },
     {
       "name": "PFL MMA",
@@ -1771,6 +1775,10 @@
     {
       "name": "Z Nation",
       "logo_url": "https://images.pluto.tv/channels/66b3af48d2d50d00083d6936/colorLogoPNG_1785430432127.png"
+    },
+    {
+      "name": "Zoomoo",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png"
     }
   ]
 }

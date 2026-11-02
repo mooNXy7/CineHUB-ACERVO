@@ -18,7 +18,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = "catalog/channels/channels.json"
 REFERENCE_FILE = "catalog/reference/saimo-channel-logos.json"
-QUALITY_MARKERS = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|br)\b")
+QUALITY_MARKERS = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|br|h265|hevc)\b")
 
 
 def norm(value: Any) -> str:

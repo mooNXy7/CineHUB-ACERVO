@@ -486,6 +486,22 @@
     {
       "channel_id": "ch-tv-senado-hd",
       "reference_name": "TV Senado"
+    },
+    {
+      "channel_id": "ch-zoomoo-4k",
+      "reference_name": "Zoomoo"
+    },
+    {
+      "channel_id": "ch-novo-tempo-hd",
+      "reference_name": "Novo Tempo"
+    },
+    {
+      "channel_id": "ch-novo-tempo-sd",
+      "reference_name": "Novo Tempo"
+    },
+    {
+      "channel_id": "ch-cnn-brasil-money-fhd-h265",
+      "reference_name": "CNN Brasil Money"
     }
   ]
 }
