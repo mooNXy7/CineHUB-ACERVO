@@ -415141,7 +415141,8 @@
       "Família"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "72570"
   },
   {
     "id": "movie-para-sempre-alice",
@@ -415368,7 +415369,8 @@
       "Romance"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1660940"
   },
   {
     "id": "movie-para-sempre-voce",
@@ -419702,7 +419704,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/P-005.json",
     "year": "2026",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1732857"
   },
   {
     "id": "movie-pepe",
@@ -420655,7 +420658,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/P-006.json",
     "year": "2026",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1424965"
   },
   {
     "id": "movie-perdido-em-marte",
@@ -422216,7 +422220,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "257521"
   },
   {
     "id": "movie-perseguicao-2022",
@@ -422230,7 +422235,8 @@
       "Aventura"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "871799"
   },
   {
     "id": "movie-perseguicao-criminosa-2018",
@@ -422374,7 +422380,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "241765"
   },
   {
     "id": "movie-perseguicao-mortal",
@@ -431258,7 +431265,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "548257"
   },
   {
     "id": "movie-predadores-assassinos-2019",
@@ -432022,7 +432030,8 @@
       "TV"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "771002"
   },
   {
     "id": "movie-presente-maldito-2025",
@@ -432611,7 +432620,8 @@
       "Fantasia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "784500"
   },
   {
     "id": "movie-pretty-thing",
@@ -434180,7 +434190,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "594265"
   },
   {
     "id": "movie-professor-aloprado-2-a-famila-klump",
@@ -439347,7 +439358,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "10053"
   },
   {
     "id": "movie-quando-um-homem-ama-uma-mulher",
@@ -446476,7 +446488,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "872150"
   },
   {
     "id": "movie-rebecca-a-mulher-inesquecivel",
@@ -448961,7 +448974,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/R-004.json",
     "year": "2013",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "227700"
   },
   {
     "id": "movie-rei-arthur",
@@ -454651,7 +454665,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1000475"
   },
   {
     "id": "movie-riverdance-uma-aventura-dancante",
@@ -459771,7 +459786,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/S-000.json",
     "year": "1998",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "24584"
   },
   {
     "id": "movie-saint-clare",
@@ -466047,7 +466063,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "666624"
   },
   {
     "id": "movie-seguranca-de-shopping",
@@ -467720,7 +467737,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "1075540"
   },
   {
     "id": "movie-sem-rastros",
@@ -469062,7 +469080,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/S-007.json",
     "year": "2024",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "1147710"
   },
   {
     "id": "movie-sequestro-em-cleveland",
@@ -487643,7 +487662,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/S-021.json",
     "year": "2020",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "778873"
   },
   {
     "id": "movie-surpresa-o-pai-do-bebe-e-o-ceo-surprise-baby-daddy-is-the-ceo",
@@ -488062,7 +488082,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/S-021.json",
     "year": "2018",
-    "source_count": 2
+    "source_count": 2,
+    "tmdb_id": "771034"
   },
   {
     "id": "movie-sweet-sour-2021",
@@ -497899,7 +497920,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "942321"
   },
   {
     "id": "movie-the-ghostmaker",
@@ -501611,7 +501633,8 @@
       "Aventura"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "401898"
   },
   {
     "id": "movie-thelma-o-unicornio-2024",
@@ -502359,7 +502382,8 @@
       "Comédia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "209185"
   },
   {
     "id": "movie-tico-e-teco-defensores-da-lei",
@@ -505736,7 +505760,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/T-012.json",
     "year": "1993",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "22582"
   },
   {
     "id": "movie-tom-jerry-o-quebra-nozes-2007",
@@ -508286,7 +508311,8 @@
       "Terror"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "392818"
   },
   {
     "id": "movie-transformers",
@@ -508320,7 +508346,8 @@
       "Família"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "1858"
   },
   {
     "id": "movie-transformers-o-filme",
@@ -513303,7 +513330,8 @@
       "Comédia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "786573"
   },
   {
     "id": "movie-tudo-ou-nada-a-vinganca-da-noiva",
@@ -513686,7 +513714,8 @@
       "Suspense"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "14556"
   },
   {
     "id": "movie-tudo-por-jojo",
@@ -515254,7 +515283,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "11045"
   },
   {
     "id": "movie-taxi-velocidade-nas-ruas",
@@ -522402,7 +522432,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/U-004.json",
     "year": "2013",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "108726"
   },
   {
     "id": "movie-um-homem-contra-a-mafia",
@@ -523535,7 +523566,8 @@
       "Ficção científica"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "598896"
   },
   {
     "id": "movie-um-lugar-bem-longe-daqui-2022",
@@ -524363,7 +524395,8 @@
       "Crime"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "590118"
   },
   {
     "id": "movie-um-misterio-de-aurora-teagarden-o-jogo-do-desaparecimento",
