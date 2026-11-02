@@ -276,12 +276,24 @@ jobs:
             https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/catalogo.txt \
             --output "$RUNNER_TEMP/saimoplayer-catalogo.txt"
           python scripts/apply_saimoplayer_catalog_logos.py --source-file "$RUNNER_TEMP/saimoplayer-catalogo.txt"
-      - name: Fetch official Brazil TV logo index and apply unique matches
+      - name: Fetch authorized TV logo indexes and apply unique matches
         run: |
-          curl --fail --silent --show-error --location \
-            https://api.github.com/repos/tv-logo/tv-logos/contents/countries/brazil \
-            --output "$RUNNER_TEMP/tv-logos-brazil.json"
-          python scripts/apply_tv_logos_brazil.py --logo-index-file "$RUNNER_TEMP/tv-logos-brazil.json"
+          for country in brazil international united-states world-latin-america; do
+            curl --fail --silent --show-error --location \
+              "https://api.github.com/repos/tv-logo/tv-logos/contents/countries/$country" \
+              --output "$RUNNER_TEMP/tv-logos-$country.json"
+          done
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path(os.environ["RUNNER_TEMP"])
+          entries = []
+          for country in ("brazil", "international", "united-states", "world-latin-america"):
+              entries.extend(json.loads((root / f"tv-logos-{country}.json").read_text()))
+          (root / "tv-logos-all.json").write_text(json.dumps(entries), encoding="utf-8")
+          print(f"TV logo source entries: {len(entries)}")
+          PY
+          python scripts/apply_tv_logos_brazil.py --logo-index-file "$RUNNER_TEMP/tv-logos-all.json"
       - name: Apply exact verified-name logo references to blank channel records
         run: python scripts/apply_exact_channel_logo_suggestions.py
       - name: Apply explicitly reviewed channel-name variants
