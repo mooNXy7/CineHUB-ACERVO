@@ -29,19 +29,21 @@
     ]
   },
   "radio_browser_metadata": {
-    "matched_by_stream": 425,
-    "matched_by_name": 87,
-    "unmatched": 157,
-    "ambiguous": 84,
-    "genres_filled": 1,
+    "matched_by_stream": 429,
+    "matched_by_name": 96,
+    "matched_by_loose_name": 13,
+    "unmatched": 148,
+    "ambiguous": 80,
+    "ambiguous_loose_name": 0,
+    "genres_filled": 7,
     "genre_held_for_review": 0,
-    "logos_filled": 5,
+    "logos_filled": 8,
     "favicon_rejected": 22,
     "homepage_favicon_filled": 1,
-    "homepage_metadata_checked": 106,
-    "homepage_genres_filled": 1,
-    "homepage_logos_filled": 4,
-    "genre_unclassified": 152,
+    "homepage_metadata_checked": 103,
+    "homepage_genres_filled": 3,
+    "homepage_logos_filled": 7,
+    "genre_unclassified": 156,
     "unclassified_tags": {
       "popular": 3,
       "samba pagode": 1,
@@ -60,49 +62,42 @@
       "servico integrado de saude": 1,
       "sitio das palmeiras": 1,
       "torroes": 1,
+      "club cooee": 1,
+      "cooee": 1,
       "mp3": 1
     },
     "updated_radio_names": [
-      "Dixie Rebel Radio",
-      "Piatã FM 94.3",
-      "Rádio Cidade Jundiaí",
-      "Vatos Millo HR",
-      "Voz do Esporte 2",
-      "Voz do Esporte 4"
+      "Atlântico Sul FM",
+      "Rádio Aquele Rock",
+      "Rádio Clube FM 98.3",
+      "Rádio Jaraguá FM 101.3",
+      "Rádio Mistura Certa",
+      "Rádio Musical FM 105.7",
+      "Rádio Portal da Tradição",
+      "Rádio Tupanci AM",
+      "TMC 100.1 FM",
+      "Vinha FM 91.9"
     ]
   },
   "genre_normalization": {
     "updated": 0
   },
   "manual_genre_decisions": {
-    "applied": 3,
-    "already_classified": 14,
+    "applied": 0,
+    "already_classified": 17,
     "missing_radio": 0,
     "identity_mismatch": 0,
     "invalid_decision": 0,
-    "applied_radio_names": [
-      "A Tarde FM",
-      "Anos Dourados FM",
-      "Alpha FM"
-    ]
+    "applied_radio_names": []
   },
   "manual_genre_corrections": {
-    "applied": 8,
-    "already_at_target": 0,
+    "applied": 0,
+    "already_at_target": 8,
     "previous_genre_mismatch": 0,
     "missing_radio": 0,
     "identity_mismatch": 0,
     "invalid_correction": 0,
-    "corrected_radio_names": [
-      "Antena 1",
-      "107 FM Tatuí",
-      "Rádio USP FM",
-      "Udesc FM 91.9",
-      "Guarujá FM 104.5",
-      "Piatã FM 94.3",
-      "BestRadio Brasil",
-      "Rádio Marano FM"
-    ]
+    "corrected_radio_names": []
   },
   "genre_review_hold": {
     "count": 1,
@@ -113,7 +108,7 @@
   "failures": [],
   "safety": [
     "Only names and HTTPS streams are read from the authorized SaimoPlayer reference.",
-    "Radio Browser public-domain metadata is matched by exact normalized name and/or exact stream URL.",
+    "Radio Browser metadata uses exact stream/name matches plus a unique leading-radio-prefix alias only when at least two identifying tokens remain.",
     "Only recognized tags fill missing genres; existing genres are never overwritten.",
     "Only HTTPS favicons hosted on the station homepage domain fill missing logos; existing logos are never overwritten.",
     "Streams, IDs, playback settings, headers, credentials, and DRM are never replaced or imported from Radio Browser.",

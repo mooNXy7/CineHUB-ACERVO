@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T22:16:42.727947+00:00",
+  "generated_at": "2026-11-02T22:22:01.528118+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -327,7 +327,7 @@
       "name": "Atlântico Sul FM",
       "stream_url": "https://streaming.livespanel.com:21057/stream",
       "logo_url": "https://gcmais.com.br/wp-content/uploads/2022/05/atlantico-sul.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2622,7 +2622,7 @@
       "id": "radio.radio-aquele-rock",
       "name": "Rádio Aquele Rock",
       "stream_url": "https://azura.servercast.com.br/listen/radio_leandro/radio.mp3",
-      "logo_url": null,
+      "logo_url": "https://aquelerock.com/wp-content/uploads/2023/01/Radio-Aquele-Rock.jpg",
       "genre": "Rock",
       "source_id": "upstream-import"
     },
@@ -3054,8 +3054,8 @@
       "id": "radio.radio-clube-fm-98-3",
       "name": "Rádio Clube FM 98.3",
       "stream_url": "https://9061.brasilstream.com.br/stream",
-      "logo_url": null,
-      "genre": null,
+      "logo_url": "https://radioclube98.com/images/logo.png",
+      "genre": "Sertanejo",
       "source_id": "upstream-import"
     },
     {
@@ -3694,8 +3694,8 @@
       "id": "radio.radio-jaragua-fm-101-3",
       "name": "Rádio Jaraguá FM 101.3",
       "stream_url": "https://cast.hoost.com.br:9701/stream",
-      "logo_url": null,
-      "genre": null,
+      "logo_url": "https://www.diariodajaragua.com.br/application/themes/diariodajaragua.com.br/gfx/logoJaraguaV2.png",
+      "genre": "Regional",
       "source_id": "upstream-import"
     },
     {
@@ -4046,8 +4046,8 @@
       "id": "radio.radio-mistura-certa",
       "name": "Rádio Mistura Certa",
       "stream_url": "https://stm16.xcast.com.br:9496/stream",
-      "logo_url": null,
-      "genre": null,
+      "logo_url": "https://radiomisturacerta.com.br/admin/assets/img/logo.png",
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4070,7 +4070,7 @@
       "id": "radio.radio-musical-fm-105-7",
       "name": "Rádio Musical FM 105.7",
       "stream_url": "https://9176.brasilstream.com.br/stream",
-      "logo_url": null,
+      "logo_url": "https://fmmusical.com.br/forbesradio.png",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -4318,8 +4318,8 @@
       "id": "radio.radio-portal-da-tradicao",
       "name": "Rádio Portal da Tradição",
       "stream_url": "https://servidor18-3.brlogic.com:8486/live",
-      "logo_url": null,
-      "genre": null,
+      "logo_url": "https://platform-upload.cdn-brlogic.com/128515/fbplayer/57070ed89887d3eb8c98fed2941eb5ac.png",
+      "genre": "Regional",
       "source_id": "upstream-import"
     },
     {
@@ -4838,7 +4838,7 @@
       "id": "radio.radio-tupanci-am",
       "name": "Rádio Tupanci AM",
       "stream_url": "https://casthttps.suaradionanet.net/10024/stream",
-      "logo_url": null,
+      "logo_url": "https://manager.suaradionanet.net/storage/radios/tupanci/site_basic/6a060f73169674.23445005.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -5615,7 +5615,7 @@
       "name": "TMC 100.1 FM",
       "stream_url": "https://24373.live.streamtheworld.com/RT_SP.mp3",
       "logo_url": "https://img.radios.com.br/radio/lg/radio8803_1760319906.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -5846,8 +5846,8 @@
       "id": "radio.vinha-fm-91-9",
       "name": "Vinha FM 91.9",
       "stream_url": "https://streaming.vinhafm.com.br/stream",
-      "logo_url": null,
-      "genre": null,
+      "logo_url": "https://www.vinhafm.com.br/favicon.ico",
+      "genre": "Gospel",
       "source_id": "upstream-import"
     },
     {
