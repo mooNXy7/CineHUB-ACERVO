@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Review-only reference for filling missing channel logos by exact normalized name.",
-  "source": "Authorized references: SaimoTV-Android offline.json, SaimoPlayer/catalogo.txt, and Saimo-TV/src/data/channels.ts",
-  "source_note": "Only channel names and HTTPS logo URL references were extracted from the authorized reference repositories. From Saimo-TV/src/data/channels.ts, only name and logo fields were used; streams, headers, DRM keys, credentials, and playback data were not imported. Third-party logo URLs remain external references and are not re-hosted. Existing CineHUB logos are never overwritten; exact normalized-name matching is required for automatic application. Additional missing-name entries were extracted from the authorized SaimoPlayer catalogo.txt using only channel name and HTTPS logo fields; stream/source/playback data were excluded. Added two further Brazilian channel-logo references from the public tv-logo/tv-logos Brazil collection, also used as a logo base by the authorized Saimo-TV source; only logo URLs and channel names were imported.",
+  "source": "Authorized references: SaimoTV-Android offline.json, SaimoPlayer/catalogo.txt, Saimo-TV/src/data/channels.ts; upstream logo files referenced by Saimo-TV from tv-logo/tv-logos.",
+  "source_note": "Curated exact channel-brand mappings only. Quality variants and regional affiliates share the same verified network logo; no stream, DRM, headers, or playback fields are imported. Logo files remain externally hosted and retain their respective owners' rights.",
   "entries": [
     {
       "name": "24H Chaves",
@@ -1779,6 +1779,432 @@
     {
       "name": "Zoomoo",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png"
+    },
+    {
+      "name": "TV Câmara 2",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-camara-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-camara-br.png"
+    },
+    {
+      "name": "TV Gazeta SP 4K",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-gazeta-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-gazeta-br.png"
+    },
+    {
+      "name": "TV Gazeta SP [H265]",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-gazeta-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-gazeta-br.png"
+    },
+    {
+      "name": "Band Campinas FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/band-br.png"
+    },
+    {
+      "name": "Band Campinas HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/band-br.png"
+    },
+    {
+      "name": "Band Campinas SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/band-br.png"
+    },
+    {
+      "name": "Canal Sony FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sony-channel-br.png"
+    },
+    {
+      "name": "Canal Sony HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sony-channel-br.png"
+    },
+    {
+      "name": "Canal Sony SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sony-channel-br.png"
+    },
+    {
+      "name": "Dazn 3 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dazn-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/dazn-int.png"
+    },
+    {
+      "name": "Dazn 4 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dazn-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/dazn-int.png"
+    },
+    {
+      "name": "Eleven Sports 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-1-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-1-int.png"
+    },
+    {
+      "name": "Eleven Sports 2 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-2-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-2-int.png"
+    },
+    {
+      "name": "Eleven Sports 3 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-3-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-3-int.png"
+    },
+    {
+      "name": "Eleven Sports 4 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-4-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-4-int.png"
+    },
+    {
+      "name": "Eleven Sports 5 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-5-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-5-int.png"
+    },
+    {
+      "name": "Eleven Sports 6 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-6-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/eleven-sports-6-int.png"
+    },
+    {
+      "name": "ESPN 1 FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/espn-int.png"
+    },
+    {
+      "name": "ESPN 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/espn-int.png"
+    },
+    {
+      "name": "ESPN 1 SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/international/espn-int.png"
+    },
+    {
+      "name": "Globo - Nacional HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "Globo - Recife HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "Globo - Sergipe HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "Globo - TV Bahia FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "Globo - TV Bahia HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "Globo - TV Fronteira HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/globo-br.png"
+    },
+    {
+      "name": "HBO 1 FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/hbo-br.png"
+    },
+    {
+      "name": "HBO 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/hbo-br.png"
+    },
+    {
+      "name": "HBO 1 SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/hbo-br.png"
+    },
+    {
+      "name": "History Channel FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/world-latin-america/history-channel-lam.png"
+    },
+    {
+      "name": "History Channel HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/world-latin-america/history-channel-lam.png"
+    },
+    {
+      "name": "History Channel SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/world-latin-america/history-channel-lam.png"
+    },
+    {
+      "name": "Polishop TV HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/polishop-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/polishop-br.png"
+    },
+    {
+      "name": "Polishop TV SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/polishop-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/polishop-br.png"
+    },
+    {
+      "name": "Premiere 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/premiere-br.png"
+    },
+    {
+      "name": "Premiere 1 SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/premiere-br.png"
+    },
+    {
+      "name": "Prime Box Brasil FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/prime-box-brazil-br.png"
+    },
+    {
+      "name": "Prime Box Brasil HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/prime-box-brazil-br.png"
+    },
+    {
+      "name": "Prime Box Brasil SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/prime-box-brazil-br.png"
+    },
+    {
+      "name": "Record Belem HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Brasilia HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Campinas FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Campinas HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Campinas SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Goias HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Manaus HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record MT HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record Nacional HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record PR HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record RN HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record RS HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Record SC HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/record-br.png"
+    },
+    {
+      "name": "Rá Tim Bum FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-ra-tim-bum-br.png"
+    },
+    {
+      "name": "Rá Tim Bum HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-ra-tim-bum-br.png"
+    },
+    {
+      "name": "Rá Tim Bum SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/tv-ra-tim-bum-br.png"
+    },
+    {
+      "name": "SBT Campinas FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sbt-br.png"
+    },
+    {
+      "name": "SBT Campinas HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sbt-br.png"
+    },
+    {
+      "name": "SBT CAMPINAS SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sbt-br.png"
+    },
+    {
+      "name": "SporTV 1 FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sportv-br.png"
+    },
+    {
+      "name": "SporTV 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sportv-br.png"
+    },
+    {
+      "name": "SporTV 1 SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sportv-br.png"
+    },
+    {
+      "name": "TNT Sports 1 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/tnt-sports-lam.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/world-latin-america/tnt-sports-lam.png"
+    },
+    {
+      "name": "TNT Sports 2 HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/tnt-sports-lam.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/world-latin-america/tnt-sports-lam.png"
+    },
+    {
+      "name": "Universal Channel FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/universal-tv-br.png"
+    },
+    {
+      "name": "Universal Channel HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/universal-tv-br.png"
+    },
+    {
+      "name": "Universal Channel SD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/universal-tv-br.png"
+    },
+    {
+      "name": "XXX SexPrive HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexprive-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sexprive-br.png"
+    },
+    {
+      "name": "XXX Sexy Hot FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexy-hot-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sexy-hot-br.png"
+    },
+    {
+      "name": "XXX Sexy Hot HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexy-hot-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/sexy-hot-br.png"
+    },
+    {
+      "name": "XXX Venus FHD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/venus-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/venus-br.png"
+    },
+    {
+      "name": "XXX Venus HD",
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/venus-br.png",
+      "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
+      "upstream_logo_path": "countries/brazil/venus-br.png"
     }
   ]
 }
