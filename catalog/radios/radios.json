@@ -5758,7 +5758,7 @@
           "url": "https://player.maxcast.com.br/rocknateia/itunes.pls",
           "priority": 50,
           "source_id": "radio-browser-exact-match",
-          "status": "functional"
+          "status": "unverified"
         }
       ]
     },
@@ -6326,7 +6326,7 @@
           "url": "https://player.hstbr.net/universidadefm/winamp.pls",
           "priority": 50,
           "source_id": "radio-browser-exact-match",
-          "status": "functional"
+          "status": "unverified"
         }
       ]
     },

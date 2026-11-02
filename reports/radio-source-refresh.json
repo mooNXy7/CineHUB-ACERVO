@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_type": "radio_source_refresh",
-  "catalog_mutated": true,
+  "catalog_mutated": false,
   "active_sources": 2,
   "sources": [
     {
@@ -40,12 +40,12 @@
     "logos_filled": 0,
     "favicon_rejected": 22,
     "homepage_favicon_filled": 0,
-    "homepage_metadata_checked": 97,
+    "homepage_metadata_checked": 102,
     "homepage_genres_filled": 0,
     "homepage_logos_filled": 0,
     "genre_unclassified": 156,
-    "alternative_sources_added": 79,
-    "alternative_sources_existing": 0,
+    "alternative_sources_added": 0,
+    "alternative_sources_existing": 79,
     "unclassified_tags": {
       "popular": 3,
       "samba pagode": 1,
