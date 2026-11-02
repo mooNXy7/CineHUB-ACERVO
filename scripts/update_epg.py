@@ -60,6 +60,19 @@ def normalise(value):
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
+def unique_xmltv_ids(name_to_ids, keys):
+    """Return only unambiguous IDs for each exact normalized name/alias key."""
+    ids = []
+    ambiguous_keys = []
+    for key in keys:
+        matches = list(dict.fromkeys(name_to_ids.get(key, [])))
+        if len(matches) == 1:
+            ids.append(matches[0])
+        elif len(matches) > 1:
+            ambiguous_keys.append(key)
+    return list(dict.fromkeys(ids)), ambiguous_keys
+
+
 SENSITIVE_QUERY_KEYS = {
     "token", "access_token", "auth", "authorization", "password", "passwd",
     "username", "user", "key", "signature", "sig", "session",
@@ -342,6 +355,7 @@ def main():
         by_source_names[sid] = name_to_ids
 
     updated = 0
+    ambiguous_name_matches = 0
     for channel in channels:
         name = str(channel.get("name", "")).strip()
         if not name:
@@ -359,7 +373,8 @@ def main():
                 continue
             name_to_ids = by_source_names.get(sid, {})
             keys = [normalise(name), *aliases_norm.get(normalise(name), [])]
-            ids = list(dict.fromkeys(ident for key in keys for ident in name_to_ids.get(key, [])))
+            ids, ambiguous_keys = unique_xmltv_ids(name_to_ids, keys)
+            ambiguous_name_matches += len(ambiguous_keys)
             if ids:
                 for ident in ids:
                     current_sources.append({"source_id": sid, "channel_id": ident, "priority": source["priority"], "match": "exact_or_alias"})
@@ -376,7 +391,7 @@ def main():
     overall = "healthy" if any(health_by_id.get(sid, {}).get("status") == "healthy" for sid in xmltv_ids) else "degraded"
     write_json(HEALTH_FILE, {
         "schema_version": 1, "generated_at": now, "overall_status": overall,
-        "matched_channel_records": updated, "sources": health_by_id,
+        "matched_channel_records": updated, "ambiguous_name_matches": ambiguous_name_matches, "sources": health_by_id,
     })
     print(f"EPG: {overall}; {updated} channel records mapped; statuses=" +
           str({k: v.get("status") for k, v in health_by_id.items()}))
