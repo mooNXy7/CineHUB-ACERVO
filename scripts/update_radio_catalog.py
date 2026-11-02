@@ -537,7 +537,8 @@ def genre_from_station_name(name: str) -> str | None:
     normalized = re.sub(r"[^a-z0-9]+", " ", normalize_key(name)).strip()
     explicit = {
         "alternative rock": "Rock Alternativo", "classic rock": "Rock",
-        "rock": "Rock", "sertanejo": "Sertanejo", "sertaneja": "Sertanejo",
+        "rock": "Rock", "bossa": "Bossa Nova", "bandnews": "Notícias",
+        "sertanejo": "Sertanejo", "sertaneja": "Sertanejo",
         "gospel": "Gospel", "news": "Notícias", "noticias": "Notícias",
         "jornalismo": "Notícias", "sports": "Esportes", "esportes": "Esportes",
         "jazz": "Jazz", "blues": "Blues", "classical": "Clássica",
