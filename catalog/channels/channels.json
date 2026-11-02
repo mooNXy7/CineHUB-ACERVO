@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T01:33:22Z",
+  "generated_at": "2026-11-02T01:38:15Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -188,7 +188,15 @@
       "group": "Notícias",
       "logo_url": "https://img.faz-o-eli.online/cnnbrasil.png",
       "epg_id": "CNN Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
+          "priority": 34,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 25,
       "epg_sources": [
@@ -218,7 +226,15 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": "CNN Brasil Money",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 16,
       "epg_sources": [
@@ -422,7 +438,15 @@
       "group": "Notícias",
       "logo_url": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
       "epg_id": "Jovem Pan News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo",
+          "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258",
+          "userAgent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 20,
       "epg_sources": [
@@ -1104,7 +1128,18 @@
       "group": "Variedades",
       "logo_url": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1464410885_b2691072.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 3
     },
@@ -2251,7 +2286,18 @@
       "group": "TV Aberta",
       "logo_url": "https://img.faz-o-eli.online/cultura.png",
       "epg_id": "TV Cultura",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+          "priority": 35,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 12,
       "epg_sources": [
@@ -2371,7 +2417,18 @@
       "group": "Notícias",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
       "epg_id": "Record News",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "priority": 59,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 21,
       "epg_sources": [
@@ -2425,7 +2482,13 @@
       "group": "TV Aberta",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
       "epg_id": "TV Aparecida",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
+          "priority": 57,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 17,
       "epg_sources": [
@@ -2719,7 +2782,18 @@
       "group": "Variedades",
       "logo_url": "https://img.faz-o-eli.online/tvpaieterno.png",
       "epg_id": "TV Pai Eterno",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
+          "priority": 53,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 11,
       "epg_sources": [
@@ -2737,7 +2811,13 @@
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/Ikrj3lk.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 4
     },
@@ -2747,7 +2827,13 @@
       "group": "TV Aberta",
       "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 3,
       "epg_sources": [
@@ -2771,7 +2857,18 @@
       "group": "Variedades",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
       "epg_id": "Rede Gospel",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
+          "priority": 33,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 15,
       "epg_sources": [
@@ -2801,7 +2898,13 @@
       "group": "Variedades",
       "logo_url": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
       "epg_id": "Trace Brasil",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 16,
       "epg_sources": [
@@ -3023,7 +3126,18 @@
       "group": "Variedades",
       "logo_url": "https://i.imgur.com/GrjGwKM.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        },
+        {
+          "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
@@ -3043,7 +3157,13 @@
       "group": "Notícias",
       "logo_url": "https://i.imgur.com/vstHOYx.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2
     },
@@ -3171,7 +3291,13 @@
       "group": "Notícias",
       "logo_url": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
       "epg_id": "Canal UOL",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://video24.mais.uol.com.br/live/6146.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 2,
       "epg_sources": [
@@ -3305,7 +3431,13 @@
       "group": "Variedades",
       "logo_url": "https://i.imgur.com/Tf0vweF.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3369,7 +3501,13 @@
       "group": "Filmes e Séries",
       "logo_url": "https://i.imgur.com/aiGQtzI.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3389,7 +3527,13 @@
       "group": "Infantil",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png",
       "epg_id": null,
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1
     },
@@ -3399,7 +3543,13 @@
       "group": "Infantil",
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/nickelodeon-lam.png",
       "epg_id": "NICKELODEON HD.br",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+          "priority": 31,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1,
       "epg_sources": [
@@ -3477,7 +3627,13 @@
       "group": "Filmes e Séries",
       "logo_url": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
       "epg_id": "62c5d32e2c48f9000715b6e9",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153",
+          "priority": 32,
+          "source_id": "saimoplayer-catalogo"
+        }
+      ],
       "stream_status": "pending_validation",
       "source_candidates_pending_review": 1,
       "epg_sources": [
