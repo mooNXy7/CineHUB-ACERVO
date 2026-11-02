@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:59:13Z",
+  "generated_at": "2026-11-02T07:01:07Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -41161,7 +41161,7 @@
       "id": "ch-canal-futura-fhd",
       "name": "Canal Futura FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -41177,7 +41177,7 @@
       "id": "ch-canal-futura-hd",
       "name": "Canal Futura HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -41193,7 +41193,7 @@
       "id": "ch-canal-futura-sd",
       "name": "Canal Futura SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LgynEBC.png",
       "epg_id": null,
       "sources": [
         {
@@ -45465,7 +45465,7 @@
       "id": "ch-rede-brasil-hd",
       "name": "Rede Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
       "sources": [
         {
@@ -45495,7 +45495,7 @@
       "id": "ch-rede-brasil-sd",
       "name": "Rede Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/TXJKwzZ.png",
       "epg_id": "Rede Brasil",
       "sources": [
         {
@@ -45661,7 +45661,7 @@
       "id": "ch-rede-tv-fhd",
       "name": "Rede TV FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -45691,7 +45691,7 @@
       "id": "ch-rede-tv-hd",
       "name": "Rede TV HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -45721,7 +45721,7 @@
       "id": "ch-rede-tv-sd",
       "name": "Rede TV SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/ZJgD38F.png",
       "epg_id": "Rede TV",
       "sources": [
         {
@@ -46529,7 +46529,7 @@
       "id": "ch-terra-viva-hd",
       "name": "Terra Viva HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
       "epg_id": "Terra Viva",
       "sources": [
         {
@@ -46553,7 +46553,7 @@
       "id": "ch-terra-viva-sd",
       "name": "Terra Viva SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://www.tvlogo.org/brazil/terraviva-br.png",
       "epg_id": "Terra Viva",
       "sources": [
         {
@@ -47081,7 +47081,7 @@
       "id": "ch-tv-evangelizar-hd",
       "name": "TV Evangelizar HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/IrYR7Kp.png",
       "epg_id": "TV Evangelizar",
       "sources": [
         {
@@ -47245,7 +47245,7 @@
       "id": "ch-tv-senado-fhd",
       "name": "TV SENADO FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
       "epg_id": "TV Senado",
       "sources": [
         {
@@ -47275,7 +47275,7 @@
       "id": "ch-tv-senado-hd",
       "name": "TV SENADO HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
       "epg_id": "TV Senado",
       "sources": [
         {
