@@ -13,6 +13,7 @@ on:
       - "catalog/reference/**"
       - "scripts/update_catalog.py"
       - "scripts/update_radio_catalog.py"
+      - "scripts/apply_vod_poster_artwork_to_channels.py"
       - "scripts/suggest_saimoplayer_fichas_tmdb_ids.py"
       - "scripts/update_saimotv_channel_reference.py"
       - "tests/test_update_saimotv_channel_reference.py"
@@ -217,6 +218,7 @@ jobs:
           python scripts/normalize_catalog.py
           python scripts/apply_exact_channel_logo_suggestions.py
           python scripts/apply_reviewed_channel_logo_variants.py
+          python scripts/apply_vod_poster_artwork_to_channels.py --output reports/channel-vod-artwork-application.json
           python scripts/validate_catalog.py
           python scripts/audit_vod_metadata_windows.py --output reports/vod-metadata-window-audit.json
           python -m unittest discover -s tests -v
