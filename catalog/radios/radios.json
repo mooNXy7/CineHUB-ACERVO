@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:17:45.006Z",
+  "generated_at": "2026-11-02T07:20:49.813Z",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -390,7 +390,7 @@
       "id": "radio.bahia-fm-88-7",
       "name": "Bahia FM 88.7",
       "stream_url": "https://ice.fabricahost.com.br/radiobahiafm",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Logotipo_da_Bahia_FM.png",
       "genre": "MPB",
       "source_id": "upstream-import"
     },
@@ -478,7 +478,7 @@
       "id": "radio.bh-fm-102-1",
       "name": "BH FM 102.1",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BHFMAAC.aac",
-      "logo_url": null,
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/BH_FM_logo.svg/960px-BH_FM_logo.svg.png",
       "genre": null,
       "source_id": "upstream-import"
     },

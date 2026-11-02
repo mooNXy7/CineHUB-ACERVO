@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "report_type": "reviewed_radio_logo_application",
-  "generated_at": "2026-11-02T07:17:45.006Z",
+  "generated_at": "2026-11-02T07:20:49.813Z",
   "source": "Wikimedia Commons",
   "counts": {
-    "reference_logos": 17,
-    "requested_station_matches": 41,
-    "logos_applied": 41,
+    "reference_logos": 19,
+    "requested_station_matches": 43,
+    "logos_applied": 43,
     "skipped": 0
   },
   "applied": [
@@ -319,6 +319,22 @@
       "reference_name": "Jangadeiro FM",
       "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jangadeiro_FM_logo_2023.png",
       "source_page": "https://commons.wikimedia.org/wiki/File:Jangadeiro_FM_logo_2023.png",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.bh-fm-102-1",
+      "radio_name": "BH FM 102.1",
+      "reference_name": "BH FM",
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/BH_FM_logo.svg/960px-BH_FM_logo.svg.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BH_FM_logo.svg",
+      "license": "PD-textlogo"
+    },
+    {
+      "radio_id": "radio.bahia-fm-88-7",
+      "radio_name": "Bahia FM 88.7",
+      "reference_name": "Bahia FM",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Logotipo_da_Bahia_FM.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Logotipo_da_Bahia_FM.png",
       "license": "PD-textlogo"
     }
   ],
