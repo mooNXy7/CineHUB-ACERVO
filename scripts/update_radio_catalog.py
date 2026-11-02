@@ -344,9 +344,9 @@ def probe_homepage_favicon(homepage: str) -> str | None:
             content_type = str(response.headers.get("Content-Type", "")).lower()
             sample = response.read(1024)
             image_signature = (
-                sample.startswith(b"\x00\x00\\x01\x00")
+                sample.startswith(b"\x00\x00\x01\x00")
                 or sample.startswith(b"\x89PNG")
-                or sample.startswith(b"\xff\\xd8")
+                or sample.startswith(b"\xff\xd8")
                 or sample.startswith((b"GIF87a", b"GIF89a"))
                 or (sample.startswith(b"RIFF") and b"WEBP" in sample[:16])
                 or b"<svg" in sample[:512].lower()
