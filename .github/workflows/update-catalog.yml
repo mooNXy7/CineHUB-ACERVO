@@ -56,7 +56,7 @@ jobs:
       - name: Sync branch head before catalog mutation
         run: |
           git fetch --no-tags origin "refs/heads/${GITHUB_REF_NAME}:refs/remotes/origin/${GITHUB_REF_NAME}"
-          git reset --hard "refs/remotes/origin/${GITHUB_REF_NAME}"
+          git merge --ff-only "refs/remotes/origin/${GITHUB_REF_NAME}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
