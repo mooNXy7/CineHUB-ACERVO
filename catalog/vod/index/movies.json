@@ -541701,7 +541701,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/V-002.json",
     "year": "2018",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "501630"
   },
   {
     "id": "movie-verao-da-lata",
@@ -546595,7 +546596,8 @@
       "Terror"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "636971"
   },
   {
     "id": "movie-vivendo-e-morrendo",
@@ -546944,7 +546946,8 @@
       "Comédia"
     ],
     "source_count": 2,
-    "provider_ref_count": 1
+    "provider_ref_count": 1,
+    "tmdb_id": "818502"
   },
   {
     "id": "movie-vizinhos-2",
@@ -549798,7 +549801,8 @@
       "Drama"
     ],
     "source_count": 2,
-    "provider_ref_count": 2
+    "provider_ref_count": 2,
+    "tmdb_id": "840892"
   },
   {
     "id": "movie-wander-darkly-sem-rumo-2020",
@@ -551649,7 +551653,8 @@
     "type": "movie",
     "detail_path": "catalog/vod/details/movies/W-001.json",
     "year": "1967",
-    "source_count": 1
+    "source_count": 1,
+    "tmdb_id": "320919"
   },
   {
     "id": "movie-winchester-73",
