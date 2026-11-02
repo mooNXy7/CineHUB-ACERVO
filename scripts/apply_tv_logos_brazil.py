@@ -82,6 +82,7 @@ def apply(root: Path, index_file: Path) -> dict[str, Any]:
     ambiguous = 0
     missing = 0
     skipped_existing = 0
+    unmatched_sample = []
     for channel in channels:
         if not isinstance(channel, dict):
             continue
@@ -99,6 +100,8 @@ def apply(root: Path, index_file: Path) -> dict[str, Any]:
             ambiguous += 1
         else:
             missing += 1
+            if len(unmatched_sample) < 100:
+                unmatched_sample.append({"channel_id": str(channel.get("id") or ""), "channel_name": str(channel.get("name") or "")})
 
     if applied:
         catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -110,6 +113,7 @@ def apply(root: Path, index_file: Path) -> dict[str, Any]:
         "applied": len(applied),
         "ambiguous": ambiguous,
         "no_verified_source_match": missing,
+        "unmatched_sample": unmatched_sample,
         "skipped_existing": skipped_existing,
         "updated_channels": applied,
         "matching_policy": "Unique exact normalized brand or explicit alias; quality markers removed; existing logos untouched.",
