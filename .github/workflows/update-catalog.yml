@@ -197,6 +197,41 @@ jobs:
             --output reports/tmdb-id-fichas-application-summary.json
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Preserve verified channel logos after catalog refresh
+        run: |
+          curl --fail --silent --show-error --location \
+            https://iptv-org.github.io/api/logos.json \
+            --output "$RUNNER_TEMP/iptv-org-logos.json"
+          python scripts/apply_iptv_org_logos.py --reference-file "$RUNNER_TEMP/iptv-org-logos.json"
+
+          curl --fail --silent --show-error --location \
+            https://raw.githubusercontent.com/fki1976/SaimoTV-Android/main/scripts/offline.json \
+            --output "$RUNNER_TEMP/saimotv-offline.json"
+          python scripts/apply_saimotv_android_logos.py --reference-file "$RUNNER_TEMP/saimotv-offline.json"
+
+          curl --fail --silent --show-error --location \
+            https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/catalogo.txt \
+            --output "$RUNNER_TEMP/saimoplayer-catalogo.txt"
+          python scripts/apply_saimoplayer_catalog_logos.py --source-file "$RUNNER_TEMP/saimoplayer-catalogo.txt"
+
+          for country in brazil international united-states world-latin-america; do
+            curl --fail --silent --show-error --location \
+              "https://api.github.com/repos/tv-logo/tv-logos/contents/countries/$country" \
+              --output "$RUNNER_TEMP/tv-logos-$country.json"
+          done
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path(os.environ["RUNNER_TEMP"])
+          entries = []
+          for country in ("brazil", "international", "united-states", "world-latin-america"):
+              entries.extend(json.loads((root / f"tv-logos-{country}.json").read_text()))
+          (root / "tv-logos-all.json").write_text(json.dumps(entries), encoding="utf-8")
+          PY
+          python scripts/apply_tv_logos_brazil.py --logo-index-file "$RUNNER_TEMP/tv-logos-all.json"
+
+          python scripts/apply_exact_channel_logo_suggestions.py
+          python scripts/apply_reviewed_channel_logo_variants.py
       - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
         if: env.SAIMOTV_REFERENCE_AVAILABLE == 'true'
         run: python scripts/update_saimotv_channel_reference.py --reference-file /tmp/cinehub-saimo-tv/scripts/offline.json
