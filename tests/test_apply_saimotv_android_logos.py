@@ -56,7 +56,7 @@ class SaimoTvAndroidLogoTests(unittest.TestCase):
         )
         result = apply(root, source, verify_image=lambda _: True)
         self.assertEqual(result["applied"], 0)
-        self.assertEqual(result["unmatched_catalog_keys"], 1)
+        self.assertEqual(result["invalid_or_unreachable_images"], 1)
 
 
 if __name__ == "__main__":
