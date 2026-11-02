@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:01:07Z",
+  "generated_at": "2026-11-02T07:04:11Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -5511,7 +5511,7 @@
       "id": "br.zoomoo",
       "name": "Zoomoo",
       "group": "Infantil",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png",
       "epg_id": "ZooMoo",
       "sources": [],
       "stream_status": "pending_validation",
@@ -29050,7 +29050,7 @@
       "id": "ch-zoomoo-4k",
       "name": "Zoomoo 4K",
       "group": "Canais | Infantis",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/zoomoo-br.png",
       "epg_id": "ZooMoo",
       "sources": [
         {
@@ -37112,7 +37112,7 @@
       "id": "ch-cnn-brasil-money-fhd-h265",
       "name": "CNN Brasil Money FHD [H265]",
       "group": "Canais | Notícias",
-      "logo_url": null,
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
       "epg_id": null,
       "sources": [
         {
@@ -44599,7 +44599,7 @@
       "id": "ch-novo-tempo-hd",
       "name": "Novo Tempo HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -44615,7 +44615,7 @@
       "id": "ch-novo-tempo-sd",
       "name": "Novo Tempo SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
       "epg_id": null,
       "sources": [
         {
