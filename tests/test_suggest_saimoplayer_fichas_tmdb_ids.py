@@ -27,13 +27,13 @@ class SaimoPlayerFichasTmdbIdTests(unittest.TestCase):
         self.fichas = self.root / "fichas.txt"
         self.fichas.write_text(
             "# cabeçalho\n"
-            "f\\tFilme Exato (2020)\\t100\\t/poster.jpg\\tDrama\n"
-            "f\\tRemake (2018)\\t200\\t/poster.jpg\\tDrama\n"
-            "f\\tAmbíguo (2019)\\t300\\t/poster.jpg\\tDrama\n"
-            "f\\tAmbíguo (2019)\\t301\\t/poster2.jpg\\tDrama\n"
-            "f\\tSem Ano\\t400\\t/poster.jpg\\tDrama\n"
-            "f\\tSérie com Mesmo Nome (2020)\\t500\\t/poster.jpg\\tDrama\n"
-            "s\\tSérie com Mesmo Nome (2020)\\t600\\t/poster.jpg\\tDrama\n",
+            "f\tFilme Exato (2020)\t100\t/poster.jpg\tDrama\n"
+            "f\tRemake (2018)\t200\t/poster.jpg\tDrama\n"
+            "f\tAmbíguo (2019)\t300\t/poster.jpg\tDrama\n"
+            "f\tAmbíguo (2019)\t301\t/poster2.jpg\tDrama\n"
+            "f\tSem Ano\t400\t/poster.jpg\tDrama\n"
+            "f\tSérie com Mesmo Nome (2020)\t500\t/poster.jpg\tDrama\n"
+            "s\tSérie com Mesmo Nome (2020)\t600\t/poster.jpg\tDrama\n",
             encoding="utf-8",
         )
 
