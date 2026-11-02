@@ -70,6 +70,28 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
         indexes[section] = entries
         index_paths[section] = index_path
 
+    index_lookup: dict[str, dict[str, list[dict]]] = {}
+    title_year_counts: dict[str, dict[tuple[str, str], int]] = {}
+    tmdb_ids_in_use: dict[str, set[str]] = {"movie": set(), "tv": set()}
+    for section, entries in indexes.items():
+        by_id: dict[str, list[dict]] = {}
+        title_counts: dict[tuple[str, str], int] = {}
+        media_group = "movie" if section == "movies" else "tv"
+        for item in entries:
+            if not isinstance(item, dict):
+                continue
+            record_id = str(item.get("id") or "")
+            if record_id:
+                by_id.setdefault(record_id, []).append(item)
+            key = (norm(item.get("title")), str(item.get("year") or "").strip())
+            title_counts[key] = title_counts.get(key, 0) + 1
+            tmdb_id = str(item.get("tmdb_id") or "").strip()
+            if tmdb_id:
+                tmdb_ids_in_use[media_group].add(tmdb_id)
+        index_lookup[section] = by_id
+        title_year_counts[section] = title_counts
+
+    shard_id_lookup: dict[str, dict[str, list[dict]]] = {}
     counts = {
         "reports_received": len(report_paths), "candidates_seen": 0,
         "unique_exact_year_candidates": 0, "ids_assigned": 0,
@@ -118,10 +140,7 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
                 continue
             counts["unique_exact_year_candidates"] += 1
 
-            matching_indexes = [
-                item for item in indexes[section]
-                if isinstance(item, dict) and str(item.get("id") or "") == record_id
-            ]
+            matching_indexes = index_lookup[section].get(record_id, [])
             if len(matching_indexes) != 1:
                 counts["skipped_catalog_identity_mismatch"] += 1
                 continue
@@ -141,10 +160,12 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
                     raise ValueError(f"VOD detail shard is not a list: {detail_rel}")
                 shards[shard_key] = shard
                 shard_paths[shard_key] = detail_path
-            matching_details = [
-                item for item in shards[shard_key]
-                if isinstance(item, dict) and str(item.get("id") or "") == record_id
-            ]
+                by_detail_id: dict[str, list[dict]] = {}
+                for item in shard:
+                    if isinstance(item, dict) and str(item.get("id") or ""):
+                        by_detail_id.setdefault(str(item["id"]), []).append(item)
+                shard_id_lookup[shard_key] = by_detail_id
+            matching_details = shard_id_lookup[shard_key].get(record_id, [])
             if len(matching_details) != 1:
                 counts["skipped_catalog_identity_mismatch"] += 1
                 continue
@@ -156,29 +177,19 @@ def apply_reports(root: Path, report_paths: list[Path], output: Path) -> dict[st
             if str(index_record.get("tmdb_id") or detail_record.get("tmdb_id") or "").strip():
                 counts["skipped_existing_id"] += 1
                 continue
-            duplicate_titles = [
-                item for item in indexes[section]
-                if isinstance(item, dict)
-                and norm(item.get("title")) == norm(title)
-                and str(item.get("year") or "").strip() == catalog_year
-            ]
-            if len(duplicate_titles) != 1:
+            title_key = (norm(title), catalog_year)
+            if title_year_counts[section].get(title_key, 0) != 1:
                 counts["skipped_duplicate_title"] += 1
                 continue
-            id_in_use = any(
-                str(item.get("tmdb_id") or "").strip() == tmdb_id
-                and str(item.get("id") or "") != record_id
-                for other_section, other_entries in indexes.items()
-                if (other_section == "movies") == (section == "movies")
-                for item in other_entries if isinstance(item, dict)
-            )
-            if id_in_use:
+            media_group = "movie" if section == "movies" else "tv"
+            if tmdb_id in tmdb_ids_in_use[media_group]:
                 counts["skipped_tmdb_id_already_used"] += 1
                 continue
 
             index_record["tmdb_id"] = tmdb_id
             detail_record["tmdb_id"] = tmdb_id
             counts["ids_assigned"] += 1
+            tmdb_ids_in_use[media_group].add(tmdb_id)
             changed_indexes.add(section)
             changed_shards.add(shard_key)
 
