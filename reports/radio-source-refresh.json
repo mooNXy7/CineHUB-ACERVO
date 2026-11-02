@@ -33,11 +33,11 @@
     "matched_by_name": 87,
     "unmatched": 158,
     "ambiguous": 104,
-    "genres_filled": 8,
+    "genres_filled": 0,
     "logos_filled": 0,
     "favicon_rejected": 32,
     "homepage_favicon_filled": 0,
-    "genre_unclassified": 169,
+    "genre_unclassified": 166,
     "unclassified_tags": {
       "popular": 3,
       "samba pagode": 1,
@@ -45,7 +45,6 @@
       "music": 1,
       "light": 1,
       "undefined": 1,
-      "musicas nacionais e internacionais": 1,
       "autonomia": 1,
       "tecnologica": 1,
       "comunitaria": 1,
@@ -59,19 +58,31 @@
       "torroes": 1,
       "mp3": 1
     },
-    "updated_radio_names": [
-      "Band FM Triângulo",
-      "Light FM 103.9",
-      "Rádio 107.5 FM",
-      "Rádio Dádiva",
-      "Rádio Jaguarão FM 87.9",
-      "Rádio Marajá 660 AM",
-      "Rádio Web Luna 87.9 FM",
-      "Sensação FM 105.5"
-    ]
+    "updated_radio_names": []
   },
   "genre_normalization": {
-    "updated": 36
+    "updated": 0
+  },
+  "manual_genre_decisions": {
+    "applied": 12,
+    "already_classified": 3,
+    "missing_radio": 0,
+    "identity_mismatch": 0,
+    "invalid_decision": 0,
+    "applied_radio_names": [
+      "Novabrasil FM 89.5",
+      "Novabrasil FM 89.7",
+      "Novabrasil FM 93.5",
+      "Novabrasil FM 94.3",
+      "Novabrasil FM 97.5",
+      "Novabrasil FM 106.5",
+      "Novabrasil FM Maceió",
+      "Novabrasil FM Salvador",
+      "Hunter FM 80s",
+      "Rádio Futebol Interior",
+      "Rádio Pampa",
+      "Rádio Regional Net"
+    ]
   },
   "failures": [],
   "safety": [
@@ -80,6 +91,7 @@
     "Only recognized tags fill missing genres; existing genres are never overwritten.",
     "Only HTTPS favicons hosted on the station homepage domain fill missing logos; existing logos are never overwritten.",
     "Streams, IDs, playback settings, headers, credentials, and DRM are never replaced or imported from Radio Browser.",
-    "Ambiguous station matches and untrusted favicon hosts are skipped for review."
+    "Ambiguous station matches and untrusted favicon hosts are skipped for review.",
+    "Manual genres are applied only from reviewed evidence with exact radio ID and exact name; existing genres are never overwritten."
   ]
 }

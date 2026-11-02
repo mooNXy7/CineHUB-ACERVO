@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T21:38:59.147987+00:00",
+  "generated_at": "2026-11-02T21:44:21.117565+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -1319,7 +1319,7 @@
       "name": "Hunter FM 80s",
       "stream_url": "https://live.hunter.fm/80s_high",
       "logo_url": null,
-      "genre": null,
+      "genre": "Flashback",
       "source_id": "upstream-import"
     },
     {
@@ -2207,7 +2207,7 @@
       "name": "Novabrasil FM 89.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RIOAAC.aac",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2215,7 +2215,7 @@
       "name": "Novabrasil FM 89.7",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_SPAAC.aac",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2223,7 +2223,7 @@
       "name": "Novabrasil FM 93.5",
       "stream_url": "https://24273.live.streamtheworld.com/NOVABRASIL_ARACAJUAAC_SC",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2231,7 +2231,7 @@
       "name": "Novabrasil FM 94.3",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RECAAC_SC",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2239,7 +2239,7 @@
       "name": "Novabrasil FM 97.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_BSBAAC_SC",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2247,7 +2247,7 @@
       "name": "Novabrasil FM 106.5",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_FORAAC_SC",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2255,7 +2255,7 @@
       "name": "Novabrasil FM Maceió",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_MACAAC.aac",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -2263,7 +2263,7 @@
       "name": "Novabrasil FM Salvador",
       "stream_url": "https://stream.zeno.fm/gkbgs81xvfztv",
       "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Novabrasil_FM_logo_2020.png",
-      "genre": null,
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -3463,7 +3463,7 @@
       "name": "Rádio Futebol Interior",
       "stream_url": "https://servidor27.brlogic.com:8482/live",
       "logo_url": null,
-      "genre": null,
+      "genre": "Esportes",
       "source_id": "upstream-import"
     },
     {
@@ -4271,7 +4271,7 @@
       "name": "Rádio Pampa",
       "stream_url": "https://cast4.audiostream.com.br:2653/mp3",
       "logo_url": "https://www.radiopampa.com.br/wp-content/uploads/2021/10/radiopamap-300x300.png",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -4463,7 +4463,7 @@
       "name": "Rádio Regional Net",
       "stream_url": "https://servidor26-2.brlogic.com:8280/live",
       "logo_url": "https://public-rf-upload.minhawebradio.net/10288/program/145d508260633fedc793f542d1ae7fc6.jpg",
-      "genre": null,
+      "genre": "Regional",
       "source_id": "upstream-import"
     },
     {
