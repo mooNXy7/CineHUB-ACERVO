@@ -197,6 +197,28 @@ jobs:
             --output reports/tmdb-id-fichas-application-summary.json
       - name: Refresh other registered M3U sources
         run: python scripts/update_catalog.py
+      - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
+        if: env.SAIMOTV_REFERENCE_AVAILABLE == 'true'
+        run: python scripts/update_saimotv_channel_reference.py --reference-file /tmp/cinehub-saimo-tv/scripts/offline.json
+      - name: Build read-only channel source candidates from catalogo.txt
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/suggest_catalogo_channel_sources.py \
+            --reference-file /tmp/cinehub-reference/catalogo.txt \
+            --output reports/catalogo-channel-source-candidates.json
+      - name: Probe HTTPS channel candidates as bounded HLS requests
+        if: env.REFERENCE_AVAILABLE == 'true'
+        run: |
+          python scripts/probe_catalogo_channel_sources.py \
+            --input reports/catalogo-channel-source-candidates.json \
+            --output reports/catalogo-channel-source-health.json
+      - name: Apply only network-confirmed HLS sources on the isolated audit branch
+        if: env.REFERENCE_AVAILABLE == 'true' && github.ref_name == 'audit/acervo-hardening-2026-10'
+        run: |
+          python scripts/apply_catalogo_channel_sources.py \
+            --candidates reports/catalogo-channel-source-candidates.json \
+            --health reports/catalogo-channel-source-health.json \
+            --output reports/catalogo-channel-source-application.json
       - name: Preserve verified channel logos after catalog refresh
         run: |
           curl --fail --silent --show-error --location \
@@ -232,28 +254,6 @@ jobs:
 
           python scripts/apply_exact_channel_logo_suggestions.py
           python scripts/apply_reviewed_channel_logo_variants.py
-      - name: Fill missing channels from authorized non-DRM SaimoTV HLS references
-        if: env.SAIMOTV_REFERENCE_AVAILABLE == 'true'
-        run: python scripts/update_saimotv_channel_reference.py --reference-file /tmp/cinehub-saimo-tv/scripts/offline.json
-      - name: Build read-only channel source candidates from catalogo.txt
-        if: env.REFERENCE_AVAILABLE == 'true'
-        run: |
-          python scripts/suggest_catalogo_channel_sources.py \
-            --reference-file /tmp/cinehub-reference/catalogo.txt \
-            --output reports/catalogo-channel-source-candidates.json
-      - name: Probe HTTPS channel candidates as bounded HLS requests
-        if: env.REFERENCE_AVAILABLE == 'true'
-        run: |
-          python scripts/probe_catalogo_channel_sources.py \
-            --input reports/catalogo-channel-source-candidates.json \
-            --output reports/catalogo-channel-source-health.json
-      - name: Apply only network-confirmed HLS sources on the isolated audit branch
-        if: env.REFERENCE_AVAILABLE == 'true' && github.ref_name == 'audit/acervo-hardening-2026-10'
-        run: |
-          python scripts/apply_catalogo_channel_sources.py \
-            --candidates reports/catalogo-channel-source-candidates.json \
-            --health reports/catalogo-channel-source-health.json \
-            --output reports/catalogo-channel-source-application.json
       - name: Refresh authorized radio reference (preserve existing playback)
         run: python scripts/update_radio_catalog.py
       - name: Refresh EPG health and channel mappings
