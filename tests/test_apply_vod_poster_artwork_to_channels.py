@@ -37,8 +37,6 @@ class ChannelVodPosterArtworkTests(unittest.TestCase):
              "poster_url": "/friends.jpg"},
             {"id": "series-addams", "title": "A Família Addams", "year": "1964",
              "poster_url": "/series-addams.jpg"},
-            {"id": "series-year", "title": "Filme Exato", "year": "2021",
-             "poster_url": "/series-year.jpg"},
         ]), encoding="utf-8")
         (self.root / "catalog/vod/index/anime.json").write_text(json.dumps([
             {"id": "series-friends", "title": "Friends", "year": "1994",
