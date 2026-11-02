@@ -6194,7 +6194,7 @@
       "id": "ch-canal-libras",
       "name": "Canal Libras",
       "group": "Públicos",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/LnWWKzP.png",
       "epg_id": "CanalLibras.br@SD",
       "sources": [
         {
@@ -30841,7 +30841,7 @@
       "id": "ch-tv-uniao-fortaleza-fhd",
       "name": "TV Uniao Fortaleza FHD",
       "group": "Canais | Abertos",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/Ec90iw0.png",
       "epg_id": null,
       "sources": [
         {
@@ -30881,7 +30881,7 @@
       "id": "ch-tv-uniao-fortaleza-hd",
       "name": "TV Uniao Fortaleza HD",
       "group": "Canais | Abertos",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/Ec90iw0.png",
       "epg_id": null,
       "sources": [
         {
@@ -30897,7 +30897,7 @@
       "id": "ch-tv-uniao-fortaleza-sd",
       "name": "TV Uniao Fortaleza SD",
       "group": "Canais | Abertos",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/Ec90iw0.png",
       "epg_id": null,
       "sources": [
         {
@@ -38409,7 +38409,7 @@
       "id": "ch-tve-bahia-fhd",
       "name": "TVE Bahia FHD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png",
       "epg_id": "TVE Bahia",
       "sources": [
         {
@@ -38433,7 +38433,7 @@
       "id": "ch-tve-bahia-hd",
       "name": "TVE Bahia HD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png",
       "epg_id": "TVE Bahia",
       "sources": [
         {
@@ -38457,7 +38457,7 @@
       "id": "ch-tve-bahia-sd",
       "name": "TVE Bahia SD",
       "group": "Canais | Campeonatos Estaduais",
-      "logo_url": null,
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png",
       "epg_id": "TVE Bahia",
       "sources": [
         {
@@ -43403,7 +43403,7 @@
       "id": "ch-boa-vontade-tv-hd",
       "name": "Boa Vontade TV HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/Ms5tSgu.png",
       "epg_id": "Boa Vontade TV",
       "sources": [
         {
@@ -43427,7 +43427,7 @@
       "id": "ch-boa-vontade-tv-sd",
       "name": "Boa Vontade TV SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/Ms5tSgu.png",
       "epg_id": "Boa Vontade TV",
       "sources": [
         {
@@ -46511,7 +46511,7 @@
       "id": "ch-loading-hd",
       "name": "Loading HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/R0aflu1.png",
       "epg_id": "Loading",
       "sources": [
         {
@@ -47927,7 +47927,7 @@
       "id": "ch-rede-familia-hd",
       "name": "Rede Familia HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/7KVFCrQ.png",
       "epg_id": "Rede Familia",
       "sources": [
         {
@@ -47951,7 +47951,7 @@
       "id": "ch-rede-familia-sd",
       "name": "Rede Familia SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/7KVFCrQ.png",
       "epg_id": "Rede Familia",
       "sources": [
         {
@@ -47991,7 +47991,7 @@
       "id": "ch-rede-super-hd",
       "name": "Rede Super HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/X75qTEm.png",
       "epg_id": "Rede Super",
       "sources": [
         {
@@ -48015,7 +48015,7 @@
       "id": "ch-rede-super-sd",
       "name": "Rede Super SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/X75qTEm.png",
       "epg_id": "Rede Super",
       "sources": [
         {
@@ -48273,7 +48273,7 @@
       "id": "ch-sic-internacional-hd",
       "name": "SIC Internacional HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/H0ZiaUd.png",
       "epg_id": "SIC Internacional",
       "sources": [
         {
@@ -48303,7 +48303,7 @@
       "id": "ch-sic-internacional-sd",
       "name": "SIC Internacional SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/H0ZiaUd.png",
       "epg_id": "SIC Internacional",
       "sources": [
         {
@@ -48397,7 +48397,7 @@
       "id": "ch-sky5",
       "name": "SKY5",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/4JWJzYP.png",
       "epg_id": null,
       "sources": [
         {
@@ -49531,7 +49531,7 @@
       "id": "ch-tv-mais-brasil-hd",
       "name": "TV Mais Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://i.imgur.com/CUHZhGc.png",
       "epg_id": null,
       "sources": [
         {
