@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T22:02:47.308705+00:00",
+  "generated_at": "2026-11-02T22:16:42.727947+00:00",
   "radios": [
     {
       "id": "radio.012-rock-news",
@@ -207,7 +207,7 @@
       "name": "107 FM Tatuí",
       "stream_url": "https://ice.fabricahost.com.br/107fm",
       "logo_url": "https://static.wixstatic.com/media/37804f_ed9032a0826e40efa33fefcbf9fb882b~mv2.png/v1/fill/w_141,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png",
-      "genre": "Notícias",
+      "genre": "MPB",
       "source_id": "upstream-import"
     },
     {
@@ -223,7 +223,7 @@
       "name": "A Tarde FM",
       "stream_url": "https://stm35.srvstm.com:7920/stream",
       "logo_url": "https://atardefm.com.br/themes/default/assets/img/fallback/atarde-fm-fallback.png",
-      "genre": null,
+      "genre": "Adulto Contemporâneo",
       "source_id": "upstream-import"
     },
     {
@@ -255,7 +255,7 @@
       "name": "Alpha FM",
       "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALPHAFM_ADP.aac",
       "logo_url": "https://goiania.alphafm.com.br/assets/site/v2/images/logo/logo_novo.png",
-      "genre": null,
+      "genre": "Adulto Contemporâneo",
       "source_id": "upstream-import"
     },
     {
@@ -287,7 +287,7 @@
       "name": "Anos Dourados FM",
       "stream_url": "https://stm1.xcast.com.br:7882/stream",
       "logo_url": "https://anosdouradosfm.com/public/56898-2023-10-16.png",
-      "genre": null,
+      "genre": "Flashback",
       "source_id": "upstream-import"
     },
     {
@@ -295,7 +295,7 @@
       "name": "Antena 1",
       "stream_url": "https://antenaone.crossradio.com.br/stream/2;",
       "logo_url": "https://cdn-radiotime-logos.tunein.com/s87639g.png",
-      "genre": "Notícias",
+      "genre": "Adulto Contemporâneo",
       "source_id": "upstream-import"
     },
     {
@@ -471,7 +471,7 @@
       "name": "BestRadio Brasil",
       "stream_url": "https://best.viaflux.com/listen/bestradio_brasil_public/1",
       "logo_url": "https://bestradiobrasil.com/logo_bola.png",
-      "genre": "Notícias",
+      "genre": "Variedades",
       "source_id": "upstream-import"
     },
     {
@@ -1014,7 +1014,7 @@
       "id": "radio.dixie-rebel-radio",
       "name": "Dixie Rebel Radio",
       "stream_url": "https://servidor36.brlogic.com:8572/live",
-      "logo_url": null,
+      "logo_url": "https://www.dixierebel.com.br/img/logotipo-webradio-dixierebel.png",
       "genre": "Rock",
       "source_id": "upstream-import"
     },
@@ -1279,7 +1279,7 @@
       "name": "Guarujá FM 104.5",
       "stream_url": "https://01.megadinamica.com:7166/stream",
       "logo_url": "https://www.guarujafm.com.br/favicon.ico",
-      "genre": "Notícias",
+      "genre": "Variedades",
       "source_id": "upstream-import"
     },
     {
@@ -2350,8 +2350,8 @@
       "id": "radio.piata-fm-94-3",
       "name": "Piatã FM 94.3",
       "stream_url": "https://streaming.livespanel.com:9430/stream",
-      "logo_url": null,
-      "genre": "Notícias",
+      "logo_url": "https://piatafm.com.br/wp-content/uploads/2023/08/logomarca-300x210-1.png",
+      "genre": "Música Brasileira",
       "source_id": "upstream-import"
     },
     {
@@ -2991,7 +2991,7 @@
       "name": "Rádio Cidade Jundiaí",
       "stream_url": "https://r18.ciclano.io:9693/stream",
       "logo_url": "https://www.facebook.com/favicon.ico",
-      "genre": null,
+      "genre": "Notícias",
       "source_id": "upstream-import"
     },
     {
@@ -3935,7 +3935,7 @@
       "name": "Rádio Marano FM",
       "stream_url": "https://streaming.livespanel.com:21023/maranofm",
       "logo_url": "https://img.radios.com.br/radio/lg/radio13806_1509363062.jpg",
-      "genre": "Notícias",
+      "genre": "Variedades",
       "source_id": "upstream-import"
     },
     {
@@ -4935,7 +4935,7 @@
       "name": "Rádio USP FM",
       "stream_url": "https://flow.emm.usp.br:8008/radiousp-rp-64.mp3",
       "logo_url": "https://jornal.usp.br/favicon.ico",
-      "genre": "Notícias",
+      "genre": "Educativa",
       "source_id": "upstream-import"
     },
     {
@@ -5727,7 +5727,7 @@
       "name": "Udesc FM 91.9",
       "stream_url": "https://icecast.loopert.com/81",
       "logo_url": "https://www.udesc.br/favicon.ico",
-      "genre": "Notícias",
+      "genre": "Educativa",
       "source_id": "upstream-import"
     },
     {
@@ -5798,7 +5798,7 @@
       "id": "radio.vatos-millo-hr",
       "name": "Vatos Millo HR",
       "stream_url": "https://jpdofunk3.com.br:8004/stream",
-      "logo_url": null,
+      "logo_url": "https://jpdofunk3.com.br/favicon.ico",
       "genre": null,
       "source_id": "upstream-import"
     },
@@ -5902,7 +5902,7 @@
       "id": "radio.voz-do-esporte-2",
       "name": "Voz do Esporte 2",
       "stream_url": "https://paineldj.com.br:20172/stream",
-      "logo_url": null,
+      "logo_url": "https://vozdoesporte.com.br/radio/wp-content/uploads/2023/08/logo-2.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },
@@ -5910,7 +5910,7 @@
       "id": "radio.voz-do-esporte-4",
       "name": "Voz do Esporte 4",
       "stream_url": "https://paineldj.com.br:20193/stream",
-      "logo_url": null,
+      "logo_url": "https://vozdoesporte.com.br/radio/wp-content/uploads/2023/08/logo-2.png",
       "genre": "Notícias",
       "source_id": "upstream-import"
     },

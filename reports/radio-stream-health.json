@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "report_type": "radio_stream_audio_probe",
-  "generated_at": "2026-11-02T22:03:22.397478+00:00",
+  "generated_at": "2026-11-02T22:17:14.730355+00:00",
   "read_only": true,
   "catalog_mutated": false,
   "total_radios": 753,
   "counts": {
-    "functional": 723,
-    "temporarily_unavailable": 11,
+    "functional": 722,
+    "temporarily_unavailable": 12,
     "permanently_unavailable": 3,
     "non_audio": 2,
     "unverified": 14,
@@ -54,7 +54,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.91-rock",
@@ -306,7 +306,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24453.live.streamtheworld.com"
+      "host": "24363.live.streamtheworld.com"
     },
     {
       "id": "radio.alpha-fm-90-1",
@@ -333,7 +333,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/mpeg",
-      "host": "27613.live.streamtheworld.com"
+      "host": "27413.live.streamtheworld.com"
     },
     {
       "id": "radio.anos-dourados-fm",
@@ -405,7 +405,7 @@
       "detail": "hls_playlist",
       "http_status": 206,
       "content_type": "application/vnd.apple.mpegurl",
-      "host": "24423.live.streamtheworld.com"
+      "host": "26453.live.streamtheworld.com"
     },
     {
       "id": "radio.atlantida-fm-97-3",
@@ -432,7 +432,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26583.live.streamtheworld.com"
+      "host": "26673.live.streamtheworld.com"
     },
     {
       "id": "radio.atlantida-fm-blumenau",
@@ -459,7 +459,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.bahia-fm-sul-102-1",
@@ -504,7 +504,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27443.live.streamtheworld.com"
+      "host": "24233.live.streamtheworld.com"
     },
     {
       "id": "radio.bandnews-fm-salvador",
@@ -522,7 +522,7 @@
       "detail": "hls_playlist",
       "http_status": 206,
       "content_type": "application/vnd.apple.mpegurl",
-      "host": "24363.live.streamtheworld.com"
+      "host": "24283.live.streamtheworld.com"
     },
     {
       "id": "radio.bavarian-radio",
@@ -558,7 +558,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27573.live.streamtheworld.com"
+      "host": "27363.live.streamtheworld.com"
     },
     {
       "id": "radio.biblia-em-audio-radio-web",
@@ -720,7 +720,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27353.live.streamtheworld.com"
+      "host": "24443.live.streamtheworld.com"
     },
     {
       "id": "radio.cbn-belo-horizonte-106-1",
@@ -747,7 +747,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24223.live.streamtheworld.com"
+      "host": "24483.live.streamtheworld.com"
     },
     {
       "id": "radio.cbn-rio-de-janeiro-92-5-fm",
@@ -756,7 +756,7 @@
       "detail": "hls_playlist",
       "http_status": 206,
       "content_type": "application/vnd.apple.mpegurl",
-      "host": "24253.live.streamtheworld.com"
+      "host": "27363.live.streamtheworld.com"
     },
     {
       "id": "radio.cbn-salvador",
@@ -774,7 +774,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26573.live.streamtheworld.com"
+      "host": "27573.live.streamtheworld.com"
     },
     {
       "id": "radio.cbn-vale-90-7",
@@ -891,7 +891,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/mpeg",
-      "host": "stream-284.surfernetwork.com"
+      "host": "stream-290.surfernetwork.com"
     },
     {
       "id": "radio.classic-pan-belo-horizonte",
@@ -1026,7 +1026,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.criatividade-fm-98-3",
@@ -1269,7 +1269,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.estilo-fm",
@@ -1292,10 +1292,10 @@
     {
       "id": "radio.fm-cultura-107-7",
       "name": "FM Cultura 107.7",
-      "status": "functional",
-      "detail": "hls_playlist",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
+      "status": "temporarily_unavailable",
+      "detail": "network_or_timeout_error",
+      "http_status": null,
+      "content_type": null,
       "host": "streaming.procergs.com.br"
     },
     {
@@ -1341,7 +1341,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.freestyle-brasil",
@@ -1440,7 +1440,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.groovewave-lounge",
@@ -1674,7 +1674,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/mpeg",
-      "host": "27393.live.streamtheworld.com"
+      "host": "26493.live.streamtheworld.com"
     },
     {
       "id": "radio.itapema-fm-93-7",
@@ -1791,7 +1791,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "stream-287.surfernetwork.com"
+      "host": "stream-291.surfernetwork.com"
     },
     {
       "id": "radio.jovem-pan-fm-103-3",
@@ -1836,7 +1836,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.jovem-pan-news",
@@ -1845,7 +1845,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "stream-291.surfernetwork.com"
+      "host": "stream-290.surfernetwork.com"
     },
     {
       "id": "radio.jovem-pan-news-100-3",
@@ -2061,7 +2061,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f108.fabricahost.com.br"
+      "host": "f100.fabricahost.com.br"
     },
     {
       "id": "radio.metropolitana-fm-light",
@@ -2070,7 +2070,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f108.fabricahost.com.br"
+      "host": "f100.fabricahost.com.br"
     },
     {
       "id": "radio.metropolitana-fm-pop",
@@ -2079,7 +2079,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f108.fabricahost.com.br"
+      "host": "f100.fabricahost.com.br"
     },
     {
       "id": "radio.metropolitana-mpb",
@@ -2088,7 +2088,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f108.fabricahost.com.br"
+      "host": "f100.fabricahost.com.br"
     },
     {
       "id": "radio.metropolitana-sertanejo",
@@ -2097,7 +2097,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f108.fabricahost.com.br"
+      "host": "f100.fabricahost.com.br"
     },
     {
       "id": "radio.mex-fm-brasil",
@@ -2241,7 +2241,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27383.live.streamtheworld.com"
+      "host": "26483.live.streamtheworld.com"
     },
     {
       "id": "radio.mix-fm-recife-97-1",
@@ -2250,7 +2250,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27423.live.streamtheworld.com"
+      "host": "26573.live.streamtheworld.com"
     },
     {
       "id": "radio.mix-fm-rio-102-1",
@@ -2268,7 +2268,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24443.live.streamtheworld.com"
+      "host": "26573.live.streamtheworld.com"
     },
     {
       "id": "radio.mix-fm-teresina-91-5",
@@ -2475,7 +2475,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.nova-paradiso-fm-89-5",
@@ -2511,7 +2511,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27583.live.streamtheworld.com"
+      "host": "24283.live.streamtheworld.com"
     },
     {
       "id": "radio.novabrasil-fm-93-5",
@@ -2529,7 +2529,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27323.live.streamtheworld.com"
+      "host": "24493.live.streamtheworld.com"
     },
     {
       "id": "radio.novabrasil-fm-97-5",
@@ -2538,7 +2538,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26653.live.streamtheworld.com"
+      "host": "24493.live.streamtheworld.com"
     },
     {
       "id": "radio.novabrasil-fm-106-5",
@@ -2547,7 +2547,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24423.live.streamtheworld.com"
+      "host": "27373.live.streamtheworld.com"
     },
     {
       "id": "radio.novabrasil-fm-maceio",
@@ -2556,7 +2556,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27363.live.streamtheworld.com"
+      "host": "27613.live.streamtheworld.com"
     },
     {
       "id": "radio.novabrasil-fm-salvador",
@@ -2727,7 +2727,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/mpeg",
-      "host": "26653.live.streamtheworld.com"
+      "host": "24483.live.streamtheworld.com"
     },
     {
       "id": "radio.power-web-radio",
@@ -2799,7 +2799,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aacp",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.radio-107-5-fm",
@@ -2871,7 +2871,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "27583.live.streamtheworld.com"
+      "host": "27363.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-amc",
@@ -3015,7 +3015,7 @@
       "detail": "hls_playlist",
       "http_status": 206,
       "content_type": "application/vnd.apple.mpegurl",
-      "host": "26453.live.streamtheworld.com"
+      "host": "27343.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-bandeirantes-campinas",
@@ -3267,7 +3267,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/mpeg",
-      "host": "27573.live.streamtheworld.com"
+      "host": "27613.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-chaveco",
@@ -3285,7 +3285,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24443.live.streamtheworld.com"
+      "host": "27593.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-cidade-drop-80",
@@ -3294,7 +3294,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24283.live.streamtheworld.com"
+      "host": "26573.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-cidade-stereo-zero",
@@ -3303,7 +3303,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26503.live.streamtheworld.com"
+      "host": "14073.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-cidade-101-1-fm",
@@ -3321,7 +3321,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24383.live.streamtheworld.com"
+      "host": "26583.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-cidade-670-am",
@@ -3654,7 +3654,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24253.live.streamtheworld.com"
+      "host": "24223.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-do-comercio",
@@ -3960,7 +3960,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26563.live.streamtheworld.com"
+      "host": "27403.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-germanica",
@@ -3978,7 +3978,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "26673.live.streamtheworld.com"
+      "host": "24403.live.streamtheworld.com"
     },
     {
       "id": "radio.radio-goioere-fm-97-5",
@@ -5904,7 +5904,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "17653.live.streamtheworld.com"
+      "host": "14613.live.streamtheworld.com"
     },
     {
       "id": "radio.sad-music-radio",
@@ -5949,7 +5949,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24503.live.streamtheworld.com"
+      "host": "26573.live.streamtheworld.com"
     },
     {
       "id": "radio.saudades-fm",
@@ -6273,7 +6273,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.terra-fm-94-7",
@@ -6327,7 +6327,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/mpeg",
-      "host": "27423.live.streamtheworld.com"
+      "host": "14073.live.streamtheworld.com"
     },
     {
       "id": "radio.top-fm-104-1",
@@ -6372,7 +6372,7 @@
       "detail": "audio_content_type",
       "http_status": 206,
       "content_type": "audio/aacp",
-      "host": "24253.live.streamtheworld.com"
+      "host": "27363.live.streamtheworld.com"
     },
     {
       "id": "radio.transamerica-hits-97-7-fm",
@@ -6399,7 +6399,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/aac",
-      "host": "f100.fabricahost.com.br"
+      "host": "f108.fabricahost.com.br"
     },
     {
       "id": "radio.tropical-fm-95-7",
@@ -6786,7 +6786,7 @@
       "detail": "audio_content_type",
       "http_status": 200,
       "content_type": "audio/mpeg",
-      "host": "stream-290.surfernetwork.com"
+      "host": "stream-291.surfernetwork.com"
     },
     {
       "id": "radio.ztop",
