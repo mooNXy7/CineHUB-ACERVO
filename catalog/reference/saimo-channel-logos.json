@@ -2205,9 +2205,75 @@
       "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/venus-br.png",
       "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
       "upstream_logo_path": "countries/brazil/venus-br.png"
+    },
+    {
+      "name": "Avatar A Lenda de Aang 24H",
+      "logo_url": "https://images.pluto.tv/channels/6759eeb1bd523200083b4f29/colorLogoPNG.png",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais_24h_arquivados.txt",
+      "upstream_logo_path": "Pluto TV official channel artwork"
+    },
+    {
+      "name": "Os Padrinhos Mágicos - 24H",
+      "logo_url": "https://images.pluto.tv/channels/63221e41af69b500076f84e7/colorLogoPNG.png",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais_24h_arquivados.txt",
+      "upstream_logo_path": "Pluto TV official channel artwork"
+    },
+    {
+      "name": "Caze TV FHD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "Caze TV 1 HD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "Caze TV 2 FHD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "Caze TV 2 HD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "Caze TV 3 HD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "Caze TV 4 HD",
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for CazéTV"
+    },
+    {
+      "name": "N Sports (Jogo 1)",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for N SPORTS"
+    },
+    {
+      "name": "NSports 2 HD",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for N SPORTS"
+    },
+    {
+      "name": "NSports 3 HD",
+      "logo_url": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+      "source_page": "https://github.com/fki1976/SaimoPlayer/blob/main/canais.txt",
+      "upstream_logo_path": "tvg-logo for N SPORTS"
     }
   ],
   "curated_mapping_policy": "Only exact channel IDs/brands manually mapped from the authorized Saimo-TV channel definitions to the logo paths already used by that project; no fuzzy matching and no stream/DRM/header import.",
-  "curated_brand_mapping_count": 71,
+  "curated_brand_mapping_count": 82,
   "last_curated_review": "2026-11-02"
 }
