@@ -50,6 +50,7 @@ class CatalogoChannelApplyTests(unittest.TestCase):
             ]}), encoding="utf-8")
             report = apply_verified_sources(channels, candidates, health, output)
             saved = json.loads(channels.read_text(encoding="utf-8"))
+            self.assertTrue(output.exists())
         self.assertTrue(report["catalog_mutated"])
         self.assertEqual(report["counts"]["channels_updated"], 1)
         self.assertEqual(report["counts"]["hls_sources_added"], 1)
@@ -57,7 +58,6 @@ class CatalogoChannelApplyTests(unittest.TestCase):
         self.assertEqual(saved["channels"][0]["logo_url"], "https://img.example/ae.png")
         self.assertEqual(saved["channels"][0]["epg_id"], "A&E")
         self.assertEqual(saved["channels"][1]["sources"][0]["url"], "https://old.example/amc.m3u8")
-        self.assertTrue(output.exists())
 
 
 if __name__ == "__main__":
