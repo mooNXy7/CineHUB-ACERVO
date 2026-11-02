@@ -85,10 +85,11 @@ class CatalogoChannelSourceTests(unittest.TestCase):
                 encoding="utf-8",
             )
             report = build_report(channels, reference, output)
+            self.assertTrue(output.exists())
         self.assertFalse(report["catalog_mutated"])
         self.assertEqual(report["counts"]["channels_with_candidates"], 1)
         self.assertEqual(report["candidates"][0]["channel_id"], "a")
-        self.assertTrue(output.exists())
+
 
 
 if __name__ == "__main__":
