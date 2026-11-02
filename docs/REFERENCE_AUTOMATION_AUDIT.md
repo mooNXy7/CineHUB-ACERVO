@@ -1,4 +1,4 @@
-# Auditoria da automação de referência — plataforma TV
+# Auditoria da automação de referência — plataforma CineHUB
 
 Data da auditoria: 2026-11-02
 
@@ -6,8 +6,8 @@ Data da auditoria: 2026-11-02
 
 - Referência central autorizada: `fki1976/SaimoPlayer`.
 - Referência complementar Android TV: `fki1976/SaimoTV-Android`.
-- Destino desta fase: somente `mooNXy7/CineHUB-ACERVO` para CineHUB TV.
-- Esta auditoria não autoriza alterações nos aplicativos nem publicação OTA.
+- Destino: `mooNXy7/CineHUB-ACERVO`, catálogo central compartilhado por CineHUB TV, Mobile e Web.
+- Esta auditoria não altera os aplicativos consumidores nem autoriza publicação OTA; os três consumidores devem buscar os dados no ACERVO central.
 
 ## O que foi confirmado no SaimoPlayer
 
