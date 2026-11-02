@@ -27,7 +27,10 @@ class ChannelLogoAuditTests(unittest.TestCase):
                 {"name": "Gamma", "logo_url": "https://cdn.example/gamma.png"},
             ]
         }
-        variants = {"reviewed_variants": [{"channel_id": "one", "reference_name": "Alpha TV"}]}
+        variants = {"reviewed_variants": [
+            {"channel_id": "one", "reference_name": "Alpha TV"},
+            {"channel_id": "two", "reference_name": "Beta"},
+        ]}
         (self.root / "catalog/channels/channels.json").write_text(json.dumps(catalog), encoding="utf-8")
         (self.root / "catalog/reference/saimo-channel-logos.json").write_text(json.dumps(refs), encoding="utf-8")
         (self.root / "catalog/reference/reviewed-channel-logo-variants.json").write_text(json.dumps(variants), encoding="utf-8")
@@ -47,7 +50,10 @@ class ChannelLogoAuditTests(unittest.TestCase):
         self.assertEqual(counts["exact_name_matches_with_same_url"], 1)
         self.assertEqual(counts["exact_name_matches_with_different_url"], 1)
         self.assertEqual(counts["missing_channels_with_exact_reference"], 1)
-        self.assertEqual(counts["reviewed_variants_with_catalog_logo_applied"], 1)
+        self.assertEqual(counts["reviewed_variants_with_catalog_logo_applied"], 2)
+        self.assertEqual(counts["reviewed_variants_with_exact_reference_logo_applied"], 1)
+        self.assertEqual(counts["reviewed_variants_with_nonmatching_catalog_logo"], 1)
+        self.assertEqual(counts["reviewed_variants_with_missing_reference"], 0)
 
     def test_shared_logo_urls_are_informational_not_invalid(self):
         report = build_report(self.root)

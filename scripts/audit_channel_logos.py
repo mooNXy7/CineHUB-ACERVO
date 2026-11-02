@@ -145,6 +145,7 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         if isinstance(channel, dict) and channel.get("id"):
             channel_by_id[str(channel["id"])].append(channel)
     variants_applied = variants_missing_logo = variants_invalid_id = 0
+    variants_exact_logo_applied = variants_nonmatching_logo = variants_missing_reference = 0
     for item in variants:
         if not isinstance(item, dict):
             variants_invalid_id += 1
@@ -152,10 +153,20 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
         matches = channel_by_id.get(str(item.get("channel_id") or ""), [])
         if len(matches) != 1:
             variants_invalid_id += 1
-        elif str(matches[0].get("logo_url") or "").strip():
-            variants_applied += 1
-        else:
+            continue
+        channel = matches[0]
+        current_logo = str(channel.get("logo_url") or "").strip()
+        if not current_logo:
             variants_missing_logo += 1
+            continue
+        variants_applied += 1
+        reference_matches = reference_by_name.get(normalize_name(item.get("reference_name")), [])
+        if len(reference_matches) != 1:
+            variants_missing_reference += 1
+        elif current_logo == str(reference_matches[0].get("logo_url") or "").strip():
+            variants_exact_logo_applied += 1
+        else:
+            variants_nonmatching_logo += 1
 
     return {
         "schema_version": 1,
@@ -185,6 +196,9 @@ def build_report(root: Path = ROOT) -> dict[str, Any]:
             "ambiguous_exact_name_reference_matches": ambiguous,
             "reviewed_variants": len(variants),
             "reviewed_variants_with_catalog_logo_applied": variants_applied,
+            "reviewed_variants_with_exact_reference_logo_applied": variants_exact_logo_applied,
+            "reviewed_variants_with_nonmatching_catalog_logo": variants_nonmatching_logo,
+            "reviewed_variants_with_missing_reference": variants_missing_reference,
             "reviewed_variants_still_missing_logo": variants_missing_logo,
             "reviewed_variants_with_missing_or_duplicate_channel_id": variants_invalid_id,
             "duplicate_variant_channel_ids": sum(1 for count in variant_ids.values() if count > 1),
