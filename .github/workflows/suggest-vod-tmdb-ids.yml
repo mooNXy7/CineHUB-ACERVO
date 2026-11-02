@@ -51,56 +51,7 @@ jobs:
         run: |
           set -euo pipefail
           if [[ "$EVENT_NAME" == "push" ]]; then
-            marker_path="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^\.github/tmdb-id-review-trigger-[0-9]+\.txt
-            echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
-            exit 1
-          fi
-          if ! [[ "$BATCH_COUNT" =~ ^[1-9]$ ]]; then
-            echo "::error::batch_count must be between 1 and 9."
-            exit 1
-          fi
-          python -m py_compile scripts/suggest_vod_tmdb_matches.py scripts/apply_vod_tmdb_id_candidates.py
-          mkdir -p "$RUNNER_TEMP/vod-tmdb-id-candidates"
-          for ((batch=0; batch<BATCH_COUNT; batch++)); do
-            current_offset=$((OFFSET + batch * LIMIT))
-            report="$RUNNER_TEMP/vod-tmdb-id-candidates/candidates-$current_offset.json"
-            echo "Searching records without TMDB IDs at stable offset $current_offset (limit $LIMIT)."
-            python scripts/suggest_vod_tmdb_matches.py --limit "$LIMIT" --offset "$current_offset" --output "$report"
-          done
-      - name: Apply only unique exact-title and exact-year candidates
-        run: |
-          set -euo pipefail
-          python scripts/apply_vod_tmdb_id_candidates.py \
-            --reports "$RUNNER_TEMP"/vod-tmdb-id-candidates/candidates-*.json \
-            --output reports/tmdb-id-application-summary.json
-          python scripts/validate_catalog.py
-          python -m unittest discover -s tests -v
-      - name: Commit verified TMDB ID assignments to audit branch
-        env:
-          TARGET_BRANCH: audit/acervo-hardening-2026-10
-        run: |
-          set -euo pipefail
-          git add catalog/vod reports/tmdb-id-application-summary.json
-          if git diff --cached --quiet; then
-            echo "No high-confidence TMDB IDs were safe to assign."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "data(vod): assign verified exact-title TMDB IDs"
-            git fetch origin "$TARGET_BRANCH:refs/remotes/origin/$TARGET_BRANCH"
-            git rebase "origin/$TARGET_BRANCH"
-            git push origin "HEAD:$TARGET_BRANCH"
-          fi
-      - name: Upload candidate reports and application summary
-        uses: actions/upload-artifact@v4
-        with:
-          name: cinehub-vod-tmdb-id-candidates-and-assignments
-          path: |
-            ${{ runner.temp }}/vod-tmdb-id-candidates/*.json
-            reports/tmdb-id-application-summary.json
-          if-no-files-found: error
-          retention-days: 7
- | tail -n 1 || true)"
+            marker_path="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^\.github/tmdb-id-review-trigger-[0-9]+\.txt$' | tail -n 1 || true)"
             if [[ -z "$marker_path" ]]; then
               echo "::error::Push trigger did not include a numbered TMDB-ID review marker."
               exit 1
@@ -114,6 +65,14 @@ jobs:
           echo "Resolved TMDB-ID review window: offset=$OFFSET limit=$LIMIT batches=$BATCH_COUNT"
           if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
             echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
+            exit 1
+          fi
+          if ! [[ "$LIMIT" =~ ^([1-9][0-9]{0,2}|500)$ ]] || (( LIMIT > 500 )); then
+            echo "::error::limit must be between 1 and 500."
+            exit 1
+          fi
+          if ! [[ "$OFFSET" =~ ^[0-9]+$ ]]; then
+            echo "::error::offset must be a non-negative integer."
             exit 1
           fi
           if ! [[ "$BATCH_COUNT" =~ ^[1-9]$ ]]; then
