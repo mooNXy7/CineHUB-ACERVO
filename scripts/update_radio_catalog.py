@@ -629,7 +629,8 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     matched: list[tuple[dict[str, Any], dict[str, Any] | None, str]] = []
     stations_to_probe: dict[str, dict[str, Any]] = {}
 
-    # Resolve identities once, then probe official homepages concurrently. This
+    # Resolve identities once; only exact matched stations may supply homepage metadata.
+    # Probe official homepages concurrently so slow hosts do not block the whole refresh.
     # keeps slow favicon hosts from serially blocking the full radio refresh.
     for radio in radios:
         station, method = match_radio_browser_station(radio, stations)
