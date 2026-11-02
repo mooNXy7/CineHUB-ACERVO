@@ -2206,5 +2206,8 @@
       "source_page": "https://github.com/fki1976/Saimo-TV/blob/main/src/data/channels.ts",
       "upstream_logo_path": "countries/brazil/venus-br.png"
     }
-  ]
+  ],
+  "curated_mapping_policy": "Only exact channel IDs/brands manually mapped from the authorized Saimo-TV channel definitions to the logo paths already used by that project; no fuzzy matching and no stream/DRM/header import.",
+  "curated_brand_mapping_count": 71,
+  "last_curated_review": "2026-11-02"
 }
