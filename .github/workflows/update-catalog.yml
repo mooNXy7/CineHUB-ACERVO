@@ -20,6 +20,8 @@ on:
       - "scripts/apply_exact_channel_logo_suggestions.py"
       - "scripts/apply_reviewed_channel_logo_variants.py"
       - "scripts/validate_catalog.py"
+      - "scripts/audit_vod_metadata_windows.py"
+      - "tests/test_audit_vod_metadata_windows.py"
       - "scripts/update_epg.py"
       - "scripts/update_html_epg.py"
       - "scripts/parse_html_epg.py"
@@ -115,6 +117,7 @@ jobs:
               cd /tmp/cinehub-acervo-import
               python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
               python scripts/validate_catalog.py
+          python scripts/audit_vod_metadata_windows.py --output reports/vod-metadata-window-audit.json
             )
             python scripts/summarize_reference_import_preview.py \
               --before-root /tmp/cinehub-acervo-before \
