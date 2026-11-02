@@ -7,6 +7,8 @@ CHANNEL_MAP = json.loads((ROOT / "catalog/epg/channel-map.json").read_text(encod
 ARCHIVED_HTML_MAP = json.loads((ROOT / "catalog/epg/disabled-html-channel-map.json").read_text(encoding="utf-8"))
 CHANNEL_DATA = json.loads((ROOT / "catalog/channels/channels.json").read_text(encoding="utf-8"))
 CHANNELS = CHANNEL_DATA.get("channels", CHANNEL_DATA)
+SOURCES = json.loads((ROOT / "catalog/epg/sources.json").read_text(encoding="utf-8"))
+IMPORT_REPORT = json.loads((ROOT / "reports/saimo-epg-mapping-import.json").read_text(encoding="utf-8"))
 
 
 class AuthorizedReferenceEPGMappingsTests(unittest.TestCase):
@@ -60,9 +62,24 @@ class AuthorizedReferenceEPGMappingsTests(unittest.TestCase):
                 self.assertIn(name, names)
                 self.assertEqual(ARCHIVED_HTML_MAP["guiadetv_slugs"].get(name), slug)
 
-    def test_active_html_maps_are_empty_until_redistribution_permission(self):
-        self.assertEqual(CHANNEL_MAP.get("meuguia_codes"), {})
-        self.assertEqual(CHANNEL_MAP.get("guiadetv_slugs"), {})
+    def test_html_maps_are_stored_but_sources_remain_disabled_until_permission(self):
+        meuguia = CHANNEL_MAP.get("meuguia_codes") or {}
+        guiadetv = CHANNEL_MAP.get("guiadetv_slugs") or {}
+        channel_ids = {channel.get("id") for channel in CHANNELS}
+
+        self.assertTrue(meuguia)
+        self.assertTrue(guiadetv)
+        self.assertTrue(set(meuguia).issubset(channel_ids))
+        self.assertTrue(set(guiadetv).issubset(channel_ids))
+
+        sources = {source.get("id"): source for source in SOURCES.get("sources", [])}
+        self.assertFalse(sources["meuguia-br"].get("enabled"))
+        self.assertFalse(sources["guia-de-tv-br"].get("enabled"))
+        self.assertEqual(IMPORT_REPORT.get("status"), "stored_pending_redistribution_permission")
+        self.assertEqual(
+            IMPORT_REPORT["counts"]["imported_total"],
+            len(meuguia) + len(guiadetv),
+        )
 
     def test_shared_globo_code_is_explicitly_documented(self):
         expected = {"Globo RJ", "Globo SP", "Globo MG", "Globo RS", "Globo ES", "Globo AM"}
