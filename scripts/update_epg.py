@@ -56,7 +56,7 @@ def normalise(value):
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).casefold()
     value = re.sub(r"^[a-z]{2}\s*[-|]\s*", "", value)
-    value = re.sub(r"\b(?:hd|sd|fhd|uhd|4k|br)\b", " ", value)
+    value = re.sub(r"\b(?:hd|sd|fhd|uhd|4k|br|h265|hevc|h264|leg|legendado|dublado|1080p|720p|1080|720)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
