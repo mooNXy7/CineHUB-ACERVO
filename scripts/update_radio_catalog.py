@@ -380,6 +380,7 @@ class RadioHomepageParser(HTMLParser):
         self.in_title = False
         self.meta: dict[str, str] = {}
         self.images: list[str] = []
+        self.logo_images: list[str] = []
         self.base_href: str | None = None
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
@@ -398,6 +399,17 @@ class RadioHomepageParser(HTMLParser):
             href = values.get("href")
             if href and rel.intersection({"icon", "shortcut", "apple-touch-icon", "mask-icon"}):
                 self.images.append(href)
+        elif tag.lower() == "img":
+            src = (
+                values.get("src") or values.get("data-src")
+                or values.get("data-lazy-src") or values.get("data-original")
+            )
+            signal = " ".join((
+                values.get("class", ""), values.get("id", ""),
+                values.get("alt", ""), values.get("title", ""), src or "",
+            )).lower()
+            if src and ("logo" in signal or "brand" in signal):
+                self.logo_images.append(src)
 
     def handle_endtag(self, tag: str) -> None:
         if tag.lower() == "title":
@@ -510,6 +522,7 @@ def fetch_station_homepage_metadata(homepage: str, station_favicon: str = "") ->
         image_candidates = [
             (parser.meta.get("og:image", ""), "og_image"),
             (parser.meta.get("twitter:image", ""), "twitter_image"),
+            *((candidate, "homepage_logo_image") for candidate in parser.logo_images),
             *((candidate, "homepage_icon") for candidate in parser.images),
         ]
         if station_favicon and safe_https_url(station_favicon):
@@ -725,7 +738,7 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             if logo:
                 radio["logo_url"] = logo
                 counts["logos_filled"] += 1
-                if homepage_metadata.get("logo_source") in {"og_image", "twitter_image"}:
+                if homepage_metadata.get("logo_source") in {"og_image", "twitter_image", "homepage_logo_image"}:
                     counts["homepage_logos_filled"] += 1
                 elif homepage_metadata.get("logo_source"):
                     counts["homepage_favicon_filled"] += 1

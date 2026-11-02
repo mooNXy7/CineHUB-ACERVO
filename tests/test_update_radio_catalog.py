@@ -415,5 +415,18 @@ class UpdateRadioCatalogTests(unittest.TestCase):
         self.assertEqual(update_radio_catalog.genre_from_tags("news,talk"), "Notícias")
 
 
+
+    def test_homepage_parser_prefers_explicit_logo_images_not_arbitrary_images(self):
+        parser = update_radio_catalog.RadioHomepageParser()
+        parser.feed(
+            '<html><head><title>Radio A</title></head><body>'
+            '<img class="header-logo" src="/assets/radio-logo.png" alt="Radio A">'
+            '<img src="/assets/ad-banner.jpg" alt="Publicidade">'
+            '</body></html>'
+        )
+        self.assertEqual(parser.title_parts, ["Radio A"])
+        self.assertEqual(parser.logo_images, ["/assets/radio-logo.png"])
+
+
 if __name__ == "__main__":
     unittest.main()
