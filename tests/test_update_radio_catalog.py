@@ -362,8 +362,9 @@ class UpdateRadioCatalogTests(unittest.TestCase):
              "url_resolved": "https://radio.example/b", "homepage": "https://radio.example",
              "tags": "sertanejo", "countrycode": "BR", "lastcheckok": 1},
         ]
-        def fake_metadata(homepage):
-            return {"genre": "Sertanejo", "logo_url": "https://cdn.example/radio-a.png"} if homepage else {}
+        def fake_metadata(homepage, favicon=""):
+            return {"genre": "Sertanejo", "logo_url": "https://cdn.example/radio-a.png",
+                    "logo_source": "og_image"} if homepage else {}
         with patch.object(update_radio_catalog, "fetch_station_homepage_metadata", side_effect=fake_metadata):
             counts = update_radio_catalog.apply_radio_browser_metadata(radios, stations)
         self.assertEqual(radios[0]["genre"], "Sertanejo")

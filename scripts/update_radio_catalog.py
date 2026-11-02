@@ -471,7 +471,7 @@ def genre_from_homepage_metadata(metadata: dict[str, Any]) -> str | None:
 
 
 @lru_cache(maxsize=512)
-def fetch_station_homepage_metadata(homepage: str) -> dict[str, Any]:
+def fetch_station_homepage_metadata(homepage: str, station_favicon: str = "") -> dict[str, Any]:
     """Read public HTML metadata from the station's own HTTPS homepage; never follow unsafe redirects."""
     if not safe_source_url(homepage):
         return {}
@@ -508,17 +508,32 @@ def fetch_station_homepage_metadata(homepage: str) -> dict[str, Any]:
         og_title = parser.meta.get("og:title", parser.meta.get("twitter:title", ""))
         og_description = parser.meta.get("og:description", parser.meta.get("twitter:description", ""))
         image_candidates = [
-            parser.meta.get("og:image", ""),
-            parser.meta.get("twitter:image", ""),
-            *parser.images,
+            (parser.meta.get("og:image", ""), "og_image"),
+            (parser.meta.get("twitter:image", ""), "twitter_image"),
+            *((candidate, "homepage_icon") for candidate in parser.images),
         ]
+        if station_favicon and safe_https_url(station_favicon):
+            favicon_host = (urlsplit(station_favicon).hostname or "").lower()
+            same_host = (
+                favicon_host == homepage_host
+                or favicon_host.endswith("." + homepage_host)
+                or homepage_host.endswith("." + favicon_host)
+            )
+            if same_host:
+                image_candidates.append((station_favicon, "radio_browser_favicon"))
+        image_candidates.append((urljoin(homepage, "/favicon.ico"), "homepage_favicon"))
         logo_url = None
-        for candidate in image_candidates:
+        logo_source = None
+        seen_images: set[str] = set()
+        for candidate, source in image_candidates:
             resolved = urljoin(base_url, candidate) if candidate else ""
-            if safe_source_url(resolved):
-                logo_url = verify_station_image(resolved)
-                if logo_url:
-                    break
+            if not resolved or resolved in seen_images or not safe_source_url(resolved):
+                continue
+            seen_images.add(resolved)
+            logo_url = verify_station_image(resolved)
+            if logo_url:
+                logo_source = source
+                break
         metadata = {
             "title": title,
             "description": description,
@@ -526,6 +541,7 @@ def fetch_station_homepage_metadata(homepage: str) -> dict[str, Any]:
             "og_title": og_title,
             "og_description": og_description,
             "logo_url": logo_url,
+            "logo_source": logo_source,
         }
         metadata["genre"] = genre_from_homepage_metadata(metadata)
         return metadata
@@ -651,7 +667,9 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     probe_items = list(stations_to_probe.items())
     with ThreadPoolExecutor(max_workers=8) as executor:
         probe_results = list(executor.map(
-            lambda station: fetch_station_homepage_metadata(str(station.get("homepage") or "")),
+            lambda station: fetch_station_homepage_metadata(
+                str(station.get("homepage") or ""), str(station.get("favicon") or "")
+            ),
             [station for _, station in probe_items],
         ))
     homepage_metadata_by_station = {
@@ -704,14 +722,12 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
 
         if not str(radio.get("logo_url") or "").strip():
             logo = homepage_metadata.get("logo_url")
-            if not logo:
-                logo = safe_station_favicon(station)
             if logo:
                 radio["logo_url"] = logo
                 counts["logos_filled"] += 1
-                if homepage_metadata.get("logo_url") == logo:
+                if homepage_metadata.get("logo_source") in {"og_image", "twitter_image"}:
                     counts["homepage_logos_filled"] += 1
-                elif logo != str(station.get("favicon") or "").strip():
+                elif homepage_metadata.get("logo_source"):
                     counts["homepage_favicon_filled"] += 1
                 changed = True
             elif station.get("favicon"):
