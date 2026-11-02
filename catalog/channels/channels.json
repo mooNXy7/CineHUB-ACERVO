@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:00:47Z",
+  "generated_at": "2026-11-02T20:05:44Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -6258,7 +6258,7 @@
       "id": "ch-tv-camara-2",
       "name": "TV Câmara 2",
       "group": "Públicos",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-camara-br.png",
       "epg_id": "TVCamara2.br@SD",
       "sources": [
         {
@@ -28179,7 +28179,7 @@
       "id": "ch-tv-gazeta-sp-4k",
       "name": "TV Gazeta SP 4K",
       "group": "Canais | Abertos",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-gazeta-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -28243,7 +28243,7 @@
       "id": "ch-tv-gazeta-sp-h265",
       "name": "TV Gazeta SP [H265]",
       "group": "Canais | Abertos",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-gazeta-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -40741,7 +40741,7 @@
       "id": "ch-band-campinas-fhd",
       "name": "Band Campinas FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
       "epg_id": "BandCampinas.br",
       "sources": [
         {
@@ -40765,7 +40765,7 @@
       "id": "ch-band-campinas-hd",
       "name": "Band Campinas HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
       "epg_id": "BandCampinas.br",
       "sources": [
         {
@@ -40789,7 +40789,7 @@
       "id": "ch-band-campinas-sd",
       "name": "Band Campinas SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/band-br.png",
       "epg_id": "BandCampinas.br",
       "sources": [
         {
@@ -41305,7 +41305,7 @@
       "id": "ch-canal-sony-fhd",
       "name": "Canal Sony FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -41321,7 +41321,7 @@
       "id": "ch-canal-sony-hd",
       "name": "Canal Sony HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -41337,7 +41337,7 @@
       "id": "ch-canal-sony-sd",
       "name": "Canal Sony SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sony-channel-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -42017,7 +42017,7 @@
       "id": "ch-dazn-3-hd",
       "name": "Dazn 3 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dazn-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42033,7 +42033,7 @@
       "id": "ch-dazn-4-hd",
       "name": "Dazn 4 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dazn-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42290,7 +42290,7 @@
       "id": "ch-eleven-sports-1-hd",
       "name": "Eleven Sports 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-1-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42306,7 +42306,7 @@
       "id": "ch-eleven-sports-2-hd",
       "name": "Eleven Sports 2 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-2-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42322,7 +42322,7 @@
       "id": "ch-eleven-sports-3-hd",
       "name": "Eleven Sports 3 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-3-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42338,7 +42338,7 @@
       "id": "ch-eleven-sports-4-hd",
       "name": "Eleven Sports 4 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-4-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42354,7 +42354,7 @@
       "id": "ch-eleven-sports-5-hd",
       "name": "Eleven Sports 5 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-5-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42370,7 +42370,7 @@
       "id": "ch-eleven-sports-6-hd",
       "name": "Eleven Sports 6 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/eleven-sports-6-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42458,7 +42458,7 @@
       "id": "ch-espn-1-fhd",
       "name": "ESPN 1 FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42474,7 +42474,7 @@
       "id": "ch-espn-1-hd",
       "name": "ESPN 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42490,7 +42490,7 @@
       "id": "ch-espn-1-sd",
       "name": "ESPN 1 SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/espn-int.png",
       "epg_id": null,
       "sources": [
         {
@@ -42856,7 +42856,7 @@
       "id": "ch-globo-nacional-hd",
       "name": "Globo - Nacional HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -42952,7 +42952,7 @@
       "id": "ch-globo-recife-hd",
       "name": "Globo - Recife HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": "Globo Recife",
       "sources": [
         {
@@ -43061,7 +43061,7 @@
       "id": "ch-globo-sergipe-hd",
       "name": "Globo - Sergipe HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -43093,7 +43093,7 @@
       "id": "ch-globo-tv-bahia-fhd",
       "name": "Globo - TV Bahia FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": "Globo TV Bahia",
       "sources": [
         {
@@ -43117,7 +43117,7 @@
       "id": "ch-globo-tv-bahia-hd",
       "name": "Globo - TV Bahia HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": "Globo TV Bahia",
       "sources": [
         {
@@ -43157,7 +43157,7 @@
       "id": "ch-globo-tv-fronteira-hd",
       "name": "Globo - TV Fronteira HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -43293,7 +43293,7 @@
       "id": "ch-hbo-1-fhd",
       "name": "HBO 1 FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -43309,7 +43309,7 @@
       "id": "ch-hbo-1-hd",
       "name": "HBO 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -43325,7 +43325,7 @@
       "id": "ch-hbo-1-sd",
       "name": "HBO 1 SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/hbo-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -43357,7 +43357,7 @@
       "id": "ch-history-channel-fhd",
       "name": "History Channel FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
       "epg_id": "HistoryChannel.br",
       "sources": [
         {
@@ -43381,7 +43381,7 @@
       "id": "ch-history-channel-hd",
       "name": "History Channel HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
       "epg_id": "HistoryChannel.br",
       "sources": [
         {
@@ -43405,7 +43405,7 @@
       "id": "ch-history-channel-sd",
       "name": "History Channel SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/history-channel-lam.png",
       "epg_id": "HistoryChannel.br",
       "sources": [
         {
@@ -44943,7 +44943,7 @@
       "id": "ch-polishop-tv-hd",
       "name": "Polishop TV HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/polishop-br.png",
       "epg_id": "PolishopTV.br",
       "sources": [
         {
@@ -44967,7 +44967,7 @@
       "id": "ch-polishop-tv-sd",
       "name": "Polishop TV SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/polishop-br.png",
       "epg_id": "PolishopTV.br",
       "sources": [
         {
@@ -44991,7 +44991,7 @@
       "id": "ch-premiere-1-hd",
       "name": "Premiere 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45007,7 +45007,7 @@
       "id": "ch-premiere-1-sd",
       "name": "Premiere 1 SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45023,7 +45023,7 @@
       "id": "ch-prime-box-brasil-fhd",
       "name": "Prime Box Brasil FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
       "epg_id": "Prime Box Brazil",
       "sources": [
         {
@@ -45059,7 +45059,7 @@
       "id": "ch-prime-box-brasil-hd",
       "name": "Prime Box Brasil HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
       "epg_id": "Prime Box Brazil",
       "sources": [
         {
@@ -45095,7 +45095,7 @@
       "id": "ch-prime-box-brasil-sd",
       "name": "Prime Box Brasil SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/prime-box-brazil-br.png",
       "epg_id": "Prime Box Brazil",
       "sources": [
         {
@@ -45163,7 +45163,7 @@
       "id": "ch-record-belem-hd",
       "name": "Record Belem HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45179,7 +45179,7 @@
       "id": "ch-record-brasilia-hd",
       "name": "Record Brasilia HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": "Record TV Brasília",
       "sources": [
         {
@@ -45203,7 +45203,7 @@
       "id": "ch-record-campinas-fhd",
       "name": "Record Campinas FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45219,7 +45219,7 @@
       "id": "ch-record-campinas-hd",
       "name": "Record Campinas HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45235,7 +45235,7 @@
       "id": "ch-record-campinas-sd",
       "name": "Record Campinas SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45251,7 +45251,7 @@
       "id": "ch-record-goias-hd",
       "name": "Record Goias HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": "Record TV Goiás",
       "sources": [
         {
@@ -45281,7 +45281,7 @@
       "id": "ch-record-manaus-hd",
       "name": "Record Manaus HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45297,7 +45297,7 @@
       "id": "ch-record-mt-hd",
       "name": "Record MT HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45313,7 +45313,7 @@
       "id": "ch-record-nacional-hd",
       "name": "Record Nacional HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45329,7 +45329,7 @@
       "id": "ch-record-pr-hd",
       "name": "Record PR HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45345,7 +45345,7 @@
       "id": "ch-record-rn-hd",
       "name": "Record RN HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45361,7 +45361,7 @@
       "id": "ch-record-rs-hd",
       "name": "Record RS HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45377,7 +45377,7 @@
       "id": "ch-record-sc-hd",
       "name": "Record SC HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/record-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45751,7 +45751,7 @@
       "id": "ch-ra-tim-bum-fhd",
       "name": "Rá Tim Bum FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
       "epg_id": "RA TIM BUM",
       "sources": [
         {
@@ -45775,7 +45775,7 @@
       "id": "ch-ra-tim-bum-hd",
       "name": "Rá Tim Bum HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
       "epg_id": "RA TIM BUM",
       "sources": [
         {
@@ -45799,7 +45799,7 @@
       "id": "ch-ra-tim-bum-sd",
       "name": "Rá Tim Bum SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-ra-tim-bum-br.png",
       "epg_id": "RA TIM BUM",
       "sources": [
         {
@@ -45823,7 +45823,7 @@
       "id": "ch-sbt-campinas-fhd",
       "name": "SBT Campinas FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45839,7 +45839,7 @@
       "id": "ch-sbt-campinas-hd",
       "name": "SBT Campinas HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -45855,7 +45855,7 @@
       "id": "ch-sbt-campinas-sd",
       "name": "SBT CAMPINAS SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sbt-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -46201,7 +46201,7 @@
       "id": "ch-sportv-1-fhd",
       "name": "SporTV 1 FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -46217,7 +46217,7 @@
       "id": "ch-sportv-1-hd",
       "name": "SporTV 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -46233,7 +46233,7 @@
       "id": "ch-sportv-1-sd",
       "name": "SporTV 1 SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sportv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -46812,7 +46812,7 @@
       "id": "ch-tnt-sports-1-hd",
       "name": "TNT Sports 1 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/tnt-sports-lam.png",
       "epg_id": null,
       "sources": [
         {
@@ -46828,7 +46828,7 @@
       "id": "ch-tnt-sports-2-hd",
       "name": "TNT Sports 2 HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/tnt-sports-lam.png",
       "epg_id": null,
       "sources": [
         {
@@ -47401,7 +47401,7 @@
       "id": "ch-universal-channel-fhd",
       "name": "Universal Channel FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -47417,7 +47417,7 @@
       "id": "ch-universal-channel-hd",
       "name": "Universal Channel HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -47433,7 +47433,7 @@
       "id": "ch-universal-channel-sd",
       "name": "Universal Channel SD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/universal-tv-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -48943,7 +48943,7 @@
       "id": "ch-xxx-sexprive-hd",
       "name": "XXX SexPrive HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexprive-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -48991,7 +48991,7 @@
       "id": "ch-xxx-sexy-hot-fhd",
       "name": "XXX Sexy Hot FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexy-hot-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -49007,7 +49007,7 @@
       "id": "ch-xxx-sexy-hot-hd",
       "name": "XXX Sexy Hot HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/sexy-hot-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -49023,7 +49023,7 @@
       "id": "ch-xxx-venus-fhd",
       "name": "XXX Venus FHD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/venus-br.png",
       "epg_id": null,
       "sources": [
         {
@@ -49039,7 +49039,7 @@
       "id": "ch-xxx-venus-hd",
       "name": "XXX Venus HD",
       "group": "Outros",
-      "logo_url": null,
+      "logo_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/venus-br.png",
       "epg_id": null,
       "sources": [
         {
