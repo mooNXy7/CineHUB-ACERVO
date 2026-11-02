@@ -82,8 +82,8 @@ jobs:
       - name: Build read-only channel source candidates from catalogo.txt
         if: env.REFERENCE_AVAILABLE == 'true'
         run: |
-          python scripts/suggest_catalogo_channel_sources.py \\
-            --reference-file /tmp/cinehub-reference/catalogo.txt \\
+          python scripts/suggest_catalogo_channel_sources.py \
+            --reference-file /tmp/cinehub-reference/catalogo.txt \
             --output reports/catalogo-channel-source-candidates.json
       - name: Import reference data with an isolated quality gate
         if: env.REFERENCE_AVAILABLE == 'true'
