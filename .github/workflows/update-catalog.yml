@@ -26,7 +26,8 @@ on:
       - "docs/WORKLOG-2026-10-31.md"
       - ".github/workflows/update-catalog.yml"
   schedule:
-    - cron: "23 8 * * *"
+    # Depois da atualização diária de referência do SaimoPlayer (11:17 BRT).
+    - cron: "37 14 * * *"
   workflow_dispatch:
     inputs:
       approve_reference_import:
@@ -53,7 +54,7 @@ jobs:
       - name: Fetch only the reference catalog files
         id: reference
         run: |
-          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fkuller/SaimoPlayer.git /tmp/cinehub-reference; then
+          if git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoPlayer.git /tmp/cinehub-reference; then
             git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
               '/vod/filmes-*.txt' \
               '/vod/series-*-*.txt' \
