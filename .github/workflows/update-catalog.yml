@@ -23,6 +23,8 @@ on:
       - "scripts/apply_reviewed_channel_logo_variants.py"
       - "scripts/apply_tv_logos_brazil.py"
       - "tests/test_apply_tv_logos_brazil.py"
+      - "scripts/apply_saimoplayer_catalog_logos.py"
+      - "tests/test_apply_saimoplayer_catalog_logos.py"
       - "scripts/validate_catalog.py"
       - "scripts/audit_vod_metadata_windows.py"
       - "tests/test_audit_vod_metadata_windows.py"
@@ -252,6 +254,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Fetch authorized SaimoPlayer channel logo catalog
+        run: |
+          curl --fail --silent --show-error --location \
+            https://raw.githubusercontent.com/fki1976/SaimoPlayer/main/catalogo.txt \
+            --output "$RUNNER_TEMP/saimoplayer-catalogo.txt"
+          python scripts/apply_saimoplayer_catalog_logos.py --source-file "$RUNNER_TEMP/saimoplayer-catalogo.txt"
       - name: Fetch official Brazil TV logo index and apply unique matches
         run: |
           curl --fail --silent --show-error --location \
