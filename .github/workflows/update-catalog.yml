@@ -51,7 +51,8 @@ permissions:
 
 concurrency:
   group: acervo-catalog-update
-  cancel-in-progress: false
+  # New commits supersede stale catalog runs; only the newest audit snapshot may mutate the branch.
+  cancel-in-progress: true
 
 jobs:
   update:
