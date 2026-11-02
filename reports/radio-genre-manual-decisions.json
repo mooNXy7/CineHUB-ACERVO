@@ -375,6 +375,110 @@
           "reported_genre": "A programação musical é descrita como predominantemente MPB e Flash Back nacional/internacional; MPB é o primeiro formato declarado"
         }
       ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.radio-usp-fm",
+      "radio_name": "Rádio USP FM",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Educativa",
+      "evidence": [
+        {
+          "source": "USP — Rádio USP: nas ondas da educação e da cultura",
+          "url": "https://www5.usp.br/noticias/institucional/nas-ondas-da-educacao-e-da-cultura/",
+          "reported_genre": "A universidade descreve a emissora como programação educativa, baseada em jornalismo e música"
+        },
+        {
+          "source": "USP — Anais do Congresso Internacional de Emissoras Públicas",
+          "url": "https://emissoraspublicas.usp.br/wp-content/uploads/2025/11/Oficial_Anais-do-1o-Congresso-Internacional-de-Emissoras-Publicas_final-ISBN-DOI.pdf",
+          "reported_genre": "Identifica a Rádio USP FM Ribeirão como emissora educativa universitária"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.udesc-fm-91-9",
+      "radio_name": "Udesc FM 91.9",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Educativa",
+      "evidence": [
+        {
+          "source": "Rádio Udesc FM — página institucional da emissora",
+          "url": "https://udescfm.blogspot.com/",
+          "reported_genre": "Identifica a emissora como rádio da Universidade do Estado de Santa Catarina, voltada a informação e cultura"
+        },
+        {
+          "source": "UDESC — Rádio Udesc FM integrada ao Núcleo de Comunicação",
+          "url": "https://www.udesc.br/noticia/udesc_joinville_amplia_equipe_de_jornalistas_e_cria_nucleo_de_comunicacao",
+          "reported_genre": "Confirma a integração institucional da emissora à estrutura de comunicação universitária"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.guaruja-fm-104-5",
+      "radio_name": "Guarujá FM 104.5",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Variedades",
+      "evidence": [
+        {
+          "source": "Guarujá FM — site oficial",
+          "url": "https://www.guarujafm.com.br/",
+          "reported_genre": "A página oficial apresenta programação musical e repertório diversificado, sem perfil de rádio all-news"
+        },
+        {
+          "source": "Guarujá FM — programação oficial",
+          "url": "https://www.guarujafm.com.br/programacao",
+          "reported_genre": "Grade inclui forró, sertanejo, samba, pagode e programação musical variada"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.piata-fm-94-3",
+      "radio_name": "Piatã FM 94.3",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Música Brasileira",
+      "evidence": [
+        {
+          "source": "Piatã FM — site oficial",
+          "url": "https://piatafm.com.br/piata-fm-e-1o-lugar-em-audiencia-em-salvador/",
+          "reported_genre": "A emissora descreve programação diversificada que alia informação e música e destaca samba de roda"
+        },
+        {
+          "source": "Puro Rádio — Piatã FM 94.3 Salvador",
+          "url": "https://puroradio.com.br/radio/piata-fm",
+          "reported_genre": "Lista Axé, Música Brasileira, Samba e Pagode entre os segmentos musicais"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.bestradio-brasil",
+      "radio_name": "BestRadio Brasil",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Variedades",
+      "evidence": [
+        {
+          "source": "BestRadio Brasil — programação oficial",
+          "url": "https://bestradiobrasil.com/br/programacao/",
+          "reported_genre": "Programação centrada em música e hits, com informação complementar; não é emissora all-news"
+        }
+      ]
+    },
+    {
+      "decision": "manual_verified_override",
+      "radio_id": "radio.radio-marano-fm",
+      "radio_name": "Rádio Marano FM",
+      "previous_genre": "Notícias",
+      "assigned_genre": "Variedades",
+      "evidence": [
+        {
+          "source": "Rádio Marano FM — grade oficial",
+          "url": "https://radiomaranofm.com/timetable",
+          "reported_genre": "Grade combina programação alternativa, sertanejo, Top Mix, música romântica e conteúdo religioso"
+        }
+      ]
     }
   ]
 }
