@@ -40,6 +40,21 @@ class TvLogosBrazilTests(unittest.TestCase):
         self.assertEqual(channel["logo_url"], "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-brasil-br.png")
         self.assertEqual(channel["sources"], [{"url": "https://stream.example/live"}])
 
+    def test_accepts_international_logo_index_entries(self):
+        root, index = self.make_root(
+            [{"id": "c1", "name": "CNN International", "logo_url": None}],
+            [{
+                "name": "cnn-international-int.png",
+                "path": "countries/international/cnn-international-int.png",
+                "size": 100,
+                "download_url": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cnn-international-int.png",
+            }],
+        )
+        result = apply(root, index)
+        channel = json.loads((root / "catalog/channels/channels.json").read_text())["channels"][0]
+        self.assertEqual(result["applied"], 1)
+        self.assertIn("/countries/international/", channel["logo_url"])
+
     def test_explicit_alias_handles_a_and_e(self):
         root, index = self.make_root(
             [{"id": "c1", "name": "A&E", "logo_url": None}],
