@@ -21,23 +21,15 @@ on:
   push:
     branches:
       - audit/acervo-hardening-2026-10
-    paths-ignore:
-      - 'README.md'
+    paths:
       - '.github/enrichment-checkpoint-*.txt'
-      - '.github/tmdb-id-review-trigger-*.txt'
-      - 'catalog/**'
-      - 'reports/**'
-      - 'scripts/**'
-      - 'tests/**'
-      - 'docs/**'
-      - '.github/workflows/**'
 
 permissions:
   contents: write
 
 concurrency:
   group: acervo-catalog-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-patch:
@@ -54,6 +46,131 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Resolve bounded batch settings from manual inputs or checkpoint marker
+        env:
+          INPUT_LIMIT: ${{ inputs.limit || '5000' }}
+          INPUT_OFFSET: ${{ inputs.offset || '36000' }}
+          INPUT_BATCH_COUNT: ${{ inputs.batch_count || '1' }}
+        run: |
+          set -euo pipefail
+          LIMIT="$INPUT_LIMIT"
+          OFFSET="$INPUT_OFFSET"
+          BATCH_COUNT="$INPUT_BATCH_COUNT"
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            marker="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^\\.github/enrichment-checkpoint-[0-9]+\\.txt        run: python scripts/normalize_catalog.py
+      - name: Build bounded review patches through CineHUB Supabase
+        env:
+          CINEHUB_CATALOG_FUNCTION_URL: https://qdheeiitzlvynshvkwcs.supabase.co/functions/v1/cinehub-catalog
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$SUPABASE_ANON_KEY" ]]; then
+            echo "::error::Add SUPABASE_ANON_KEY under repository Actions secrets. TMDB_TOKEN stays in Supabase."
+            exit 1
+          fi
+          if ! [[ "$BATCH_COUNT" =~ ^[1-8]$ ]]; then
+            echo "::error::batch_count must be between 1 and 8."
+            exit 1
+          fi
+          python -m py_compile scripts/enrich_vod_metadata.py
+          mkdir -p "$RUNNER_TEMP/vod-metadata-batches"
+          for ((batch=0; batch<BATCH_COUNT; batch++)); do
+            current_offset=$((OFFSET + batch * LIMIT))
+            patch="$RUNNER_TEMP/vod-metadata-batches/patch-$current_offset.json"
+            echo "Building TMDB metadata batch at stable offset $current_offset (limit $LIMIT)."
+            python scripts/enrich_vod_metadata.py --limit "$LIMIT" --offset "$current_offset" --output "$patch" --cache "$RUNNER_TEMP/tmdb-metadata-cache.sqlite3"
+          done
+      - name: Apply verified missing-field patches and validate catalog
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/apply_vod_metadata_patch.py
+          for patch in "$RUNNER_TEMP"/vod-metadata-batches/patch-*.json; do
+            offset=$(basename "$patch" .json | sed 's/^patch-//')
+            summary="$RUNNER_TEMP/vod-metadata-batches/summary-$offset.json"
+            python scripts/apply_vod_metadata_patch.py --patch "$patch" --output "$summary"
+          done
+          python - "$RUNNER_TEMP/vod-metadata-batches" "$RUNNER_TEMP/vod-metadata-apply-summary.json" <<'PY'
+          import json
+          import pathlib
+          import sys
+
+          folder = pathlib.Path(sys.argv[1])
+          output = pathlib.Path(sys.argv[2])
+          patch_files = sorted(folder.glob("patch-*.json"), key=lambda p: int(p.stem.split("-")[-1]))
+          summary_files = sorted(folder.glob("summary-*.json"), key=lambda p: int(p.stem.split("-")[-1]))
+          summaries = [json.loads(path.read_text(encoding="utf-8")) for path in summary_files]
+          patches = [json.loads(path.read_text(encoding="utf-8")) for path in patch_files]
+          keys = ("patches_received", "records_updated", "fields_updated", "identity_rejected", "field_conflict", "already_filled")
+          counts = {key: sum(item["counts"].get(key, 0) for item in summaries) for key in keys}
+          result = {
+              "report_type": "applied_vod_metadata_patch_summary",
+              "catalog_mutated": any(item.get("catalog_mutated") for item in summaries),
+              "read_only": False,
+              "records_examined": sum(item.get("records_examined", 0) for item in patches),
+              "network_requests": sum(item.get("network_requests", 0) for item in patches),
+              "counts": counts,
+              "updated_index_files": sorted({name for item in summaries for name in item.get("updated_index_files", [])}),
+              "batches": [
+                  {
+                      "offset": patch.get("offset"),
+                      "records_examined": patch.get("records_examined", 0),
+                      "network_requests": patch.get("network_requests", 0),
+                      "patch_summary": patch.get("summary", {}),
+                      "apply_counts": summary.get("counts", {}),
+                  }
+                  for patch, summary in zip(patches, summaries)
+              ],
+              "safety": summaries[0].get("safety", []) if summaries else [],
+          }
+          output.parent.mkdir(parents=True, exist_ok=True)
+          output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
+          print(json.dumps(result, ensure_ascii=False))
+          PY
+          python scripts/validate_catalog.py
+          python -m unittest discover -s tests -v
+      - name: Commit safe metadata repairs to audit branch
+        env:
+          TARGET_BRANCH: audit/acervo-hardening-2026-10
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- catalog/vod catalog/channels/channels.json catalog/radios/radios.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add catalog/vod catalog/channels/channels.json catalog/radios/radios.json
+            git commit -m "data: enrich verified VOD metadata batches"
+            git fetch origin "$TARGET_BRANCH:refs/remotes/origin/$TARGET_BRANCH"
+            git rebase "origin/$TARGET_BRANCH"
+            git push origin "HEAD:$TARGET_BRANCH"
+          else
+            echo "No safe missing-field metadata changes to commit."
+          fi
+      - name: Upload batch patches and aggregate application summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinehub-vod-metadata-review-patches
+          path: |
+            ${{ runner.temp }}/vod-metadata-batches/*.json
+            ${{ runner.temp }}/vod-metadata-apply-summary.json
+          if-no-files-found: error
+          retention-days: 7
+ | sort -V | tail -n1 || true)"
+            if [[ -z "$marker" || ! -f "$marker" ]]; then
+              echo "::error::Checkpoint marker not found in this push."
+              exit 1
+            fi
+            LIMIT="$(awk -F= '$1=="limit"{print $2}' "$marker" | tail -n1)"
+            OFFSET="$(awk -F= '$1=="offset"{print $2}' "$marker" | tail -n1)"
+            BATCH_COUNT="$(awk -F= '$1=="batch_count"{print $2}' "$marker" | tail -n1)"
+          fi
+          [[ "$LIMIT" =~ ^[1-9][0-9]*$ ]] && (( LIMIT <= 5000 )) || { echo "::error::limit must be 1–5000"; exit 1; }
+          [[ "$OFFSET" =~ ^[0-9]+$ ]] || { echo "::error::offset must be zero or greater"; exit 1; }
+          [[ "$BATCH_COUNT" =~ ^[1-8]$ ]] || { echo "::error::batch_count must be 1–8"; exit 1; }
+          {
+            echo "LIMIT=$LIMIT"
+            echo "OFFSET=$OFFSET"
+            echo "BATCH_COUNT=$BATCH_COUNT"
+          } >> "$GITHUB_ENV"
+          echo "Resolved metadata checkpoint: offset=$OFFSET limit=$LIMIT batch_count=$BATCH_COUNT"
       - name: Normalize catalog display text before TMDB identity checks
         run: python scripts/normalize_catalog.py
       - name: Build bounded review patches through CineHUB Supabase
