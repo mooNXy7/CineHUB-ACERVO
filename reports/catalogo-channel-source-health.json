@@ -1,13 +1,14 @@
 {
   "schema_version": 1,
   "report_type": "catalogo_channel_source_probe",
-  "generated_at": "2026-11-02T07:13:58.449764+00:00",
+  "generated_at": "2026-11-02T07:16:16.237141+00:00",
   "catalog_mutated": false,
   "probes": 155,
   "counts": {
     "http_error": 140,
     "unsafe_redirect": 10,
-    "network_error": 4,
+    "network_error": 3,
+    "dash_ok": 1,
     "invalid_playlist": 1
   },
   "policy": [
@@ -29,7 +30,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 63,
+      "elapsed_ms": 86,
       "final_host": null,
       "error": "http_403"
     },
@@ -43,7 +44,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 82,
+      "elapsed_ms": 151,
       "final_host": null,
       "error": "http_403"
     },
@@ -71,7 +72,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 75,
+      "elapsed_ms": 97,
       "final_host": null,
       "error": "http_403"
     },
@@ -85,7 +86,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 65,
+      "elapsed_ms": 78,
       "final_host": null,
       "error": "http_403"
     },
@@ -99,7 +100,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 84,
       "final_host": null,
       "error": "http_403"
     },
@@ -113,7 +114,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 347,
+      "elapsed_ms": 528,
       "final_host": null,
       "error": "http_403"
     },
@@ -127,7 +128,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 112,
+      "elapsed_ms": 79,
       "final_host": null,
       "error": "http_403"
     },
@@ -141,7 +142,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 139,
       "final_host": null,
       "error": "http_403"
     },
@@ -155,7 +156,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 83,
+      "elapsed_ms": 101,
       "final_host": null,
       "error": "http_403"
     },
@@ -169,7 +170,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 89,
+      "elapsed_ms": 123,
       "final_host": null,
       "error": "http_403"
     },
@@ -183,7 +184,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 121,
+      "elapsed_ms": 153,
       "final_host": null,
       "error": "http_403"
     },
@@ -197,7 +198,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 347,
+      "elapsed_ms": 532,
       "final_host": null,
       "error": "http_403"
     },
@@ -211,7 +212,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 64,
+      "elapsed_ms": 72,
       "final_host": null,
       "error": "http_403"
     },
@@ -225,7 +226,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 44,
+      "elapsed_ms": 62,
       "final_host": null,
       "error": "http_403"
     },
@@ -239,7 +240,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 132,
       "final_host": null,
       "error": "http_403"
     },
@@ -253,7 +254,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 356,
+      "elapsed_ms": 496,
       "final_host": null,
       "error": "http_403"
     },
@@ -267,7 +268,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 363,
+      "elapsed_ms": 489,
       "final_host": null,
       "error": "http_403"
     },
@@ -281,7 +282,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 679,
+      "elapsed_ms": 534,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -295,7 +296,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 99,
+      "elapsed_ms": 78,
       "final_host": null,
       "error": "http_403"
     },
@@ -309,7 +310,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 746,
+      "elapsed_ms": 1062,
       "final_host": null,
       "error": "http_404"
     },
@@ -337,7 +338,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 64,
+      "elapsed_ms": 82,
       "final_host": null,
       "error": "http_403"
     },
@@ -351,7 +352,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 89,
+      "elapsed_ms": 111,
       "final_host": null,
       "error": "http_403"
     },
@@ -365,7 +366,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 221,
+      "elapsed_ms": 411,
       "final_host": null,
       "error": "RemoteDisconnected"
     },
@@ -379,7 +380,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 56,
+      "elapsed_ms": 542,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -393,7 +394,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 743,
+      "elapsed_ms": 528,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -407,7 +408,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 257,
+      "elapsed_ms": 122,
       "final_host": null,
       "error": "http_403"
     },
@@ -421,7 +422,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 82,
+      "elapsed_ms": 122,
       "final_host": null,
       "error": "http_403"
     },
@@ -435,7 +436,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 687,
+      "elapsed_ms": 962,
       "final_host": null,
       "error": "http_404"
     },
@@ -449,7 +450,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 345,
+      "elapsed_ms": 483,
       "final_host": null,
       "error": "http_403"
     },
@@ -463,7 +464,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 63,
+      "elapsed_ms": 105,
       "final_host": null,
       "error": "http_403"
     },
@@ -477,7 +478,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 82,
+      "elapsed_ms": 74,
       "final_host": null,
       "error": "http_403"
     },
@@ -491,7 +492,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 66,
+      "elapsed_ms": 63,
       "final_host": null,
       "error": "http_403"
     },
@@ -505,7 +506,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 119,
+      "elapsed_ms": 162,
       "final_host": null,
       "error": "http_403"
     },
@@ -519,7 +520,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 69,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -533,7 +534,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 746,
+      "elapsed_ms": 534,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -547,7 +548,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 71,
+      "elapsed_ms": 102,
       "final_host": null,
       "error": "http_403"
     },
@@ -561,7 +562,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 106,
+      "elapsed_ms": 98,
       "final_host": null,
       "error": "http_403"
     },
@@ -575,7 +576,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 60,
       "final_host": null,
       "error": "http_403"
     },
@@ -589,7 +590,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 72,
+      "elapsed_ms": 140,
       "final_host": null,
       "error": "http_403"
     },
@@ -603,7 +604,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 107,
       "final_host": null,
       "error": "http_403"
     },
@@ -617,7 +618,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -631,7 +632,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 97,
+      "elapsed_ms": 89,
       "final_host": null,
       "error": "http_403"
     },
@@ -645,7 +646,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 101,
+      "elapsed_ms": 115,
       "final_host": null,
       "error": "http_403"
     },
@@ -659,7 +660,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 57,
+      "elapsed_ms": 67,
       "final_host": null,
       "error": "http_403"
     },
@@ -673,7 +674,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 87,
+      "elapsed_ms": 113,
       "final_host": null,
       "error": "http_403"
     },
@@ -687,7 +688,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 77,
+      "elapsed_ms": 95,
       "final_host": null,
       "error": "http_403"
     },
@@ -701,7 +702,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 112,
       "final_host": null,
       "error": "http_403"
     },
@@ -711,13 +712,13 @@
       "url": "https://video49.mais.uol.com.br/live/4503.mpd",
       "host": "video49.mais.uol.com.br",
       "source_type": "dash",
-      "probe_status": "network_error",
-      "http_status": null,
-      "content_type": null,
-      "bytes_read": 0,
-      "elapsed_ms": 8211,
-      "final_host": null,
-      "error": "URLError"
+      "probe_status": "dash_ok",
+      "http_status": 200,
+      "content_type": "application/dash+xml",
+      "bytes_read": 8192,
+      "elapsed_ms": 978,
+      "final_host": "video49.mais.uol.com.br",
+      "error": null
     },
     {
       "channel_id": "br.espn",
@@ -729,7 +730,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 151,
+      "elapsed_ms": 155,
       "final_host": null,
       "error": "http_403"
     },
@@ -743,7 +744,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 114,
+      "elapsed_ms": 130,
       "final_host": null,
       "error": "http_403"
     },
@@ -757,7 +758,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 74,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -771,7 +772,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 111,
+      "elapsed_ms": 116,
       "final_host": null,
       "error": "http_403"
     },
@@ -785,7 +786,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 114,
+      "elapsed_ms": 117,
       "final_host": null,
       "error": "http_403"
     },
@@ -799,7 +800,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 106,
+      "elapsed_ms": 107,
       "final_host": null,
       "error": "http_403"
     },
@@ -813,7 +814,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 94,
       "final_host": null,
       "error": "http_403"
     },
@@ -827,7 +828,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 675,
+      "elapsed_ms": 959,
       "final_host": null,
       "error": "http_404"
     },
@@ -841,7 +842,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 90,
+      "elapsed_ms": 126,
       "final_host": null,
       "error": "http_403"
     },
@@ -855,7 +856,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 76,
+      "elapsed_ms": 130,
       "final_host": null,
       "error": "http_403"
     },
@@ -869,7 +870,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 97,
+      "elapsed_ms": 102,
       "final_host": null,
       "error": "http_403"
     },
@@ -883,7 +884,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 94,
       "final_host": null,
       "error": "http_403"
     },
@@ -897,7 +898,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 100,
+      "elapsed_ms": 142,
       "final_host": null,
       "error": "http_403"
     },
@@ -911,7 +912,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 110,
+      "elapsed_ms": 100,
       "final_host": null,
       "error": "http_403"
     },
@@ -925,7 +926,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 108,
+      "elapsed_ms": 131,
       "final_host": null,
       "error": "http_403"
     },
@@ -939,7 +940,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 85,
+      "elapsed_ms": 92,
       "final_host": null,
       "error": "http_403"
     },
@@ -953,7 +954,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 92,
+      "elapsed_ms": 97,
       "final_host": null,
       "error": "http_403"
     },
@@ -967,7 +968,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 92,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -981,7 +982,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 82,
       "final_host": null,
       "error": "http_403"
     },
@@ -995,7 +996,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 335,
+      "elapsed_ms": 469,
       "final_host": null,
       "error": "http_403"
     },
@@ -1009,7 +1010,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 355,
+      "elapsed_ms": 468,
       "final_host": null,
       "error": "http_403"
     },
@@ -1023,7 +1024,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 60,
+      "elapsed_ms": 105,
       "final_host": null,
       "error": "http_403"
     },
@@ -1037,7 +1038,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 343,
+      "elapsed_ms": 470,
       "final_host": null,
       "error": "http_403"
     },
@@ -1051,7 +1052,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 105,
+      "elapsed_ms": 101,
       "final_host": null,
       "error": "http_403"
     },
@@ -1065,7 +1066,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 82,
+      "elapsed_ms": 134,
       "final_host": null,
       "error": "http_403"
     },
@@ -1093,7 +1094,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 79,
+      "elapsed_ms": 85,
       "final_host": null,
       "error": "http_403"
     },
@@ -1107,7 +1108,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -1121,7 +1122,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 82,
+      "elapsed_ms": 105,
       "final_host": null,
       "error": "http_403"
     },
@@ -1135,7 +1136,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 96,
+      "elapsed_ms": 65,
       "final_host": null,
       "error": "http_403"
     },
@@ -1149,7 +1150,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 66,
+      "elapsed_ms": 64,
       "final_host": null,
       "error": "http_403"
     },
@@ -1163,7 +1164,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 333,
+      "elapsed_ms": 463,
       "final_host": null,
       "error": "http_403"
     },
@@ -1177,7 +1178,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 330,
+      "elapsed_ms": 460,
       "final_host": null,
       "error": "http_403"
     },
@@ -1191,7 +1192,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 660,
+      "elapsed_ms": 544,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1205,7 +1206,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 71,
+      "elapsed_ms": 68,
       "final_host": null,
       "error": "http_403"
     },
@@ -1219,7 +1220,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 66,
+      "elapsed_ms": 85,
       "final_host": null,
       "error": "http_403"
     },
@@ -1233,7 +1234,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 93,
+      "elapsed_ms": 65,
       "final_host": null,
       "error": "http_403"
     },
@@ -1247,7 +1248,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 252,
       "final_host": null,
       "error": "http_403"
     },
@@ -1261,7 +1262,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 108,
+      "elapsed_ms": 198,
       "final_host": null,
       "error": "http_403"
     },
@@ -1275,7 +1276,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 75,
+      "elapsed_ms": 128,
       "final_host": null,
       "error": "http_403"
     },
@@ -1303,7 +1304,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 691,
+      "elapsed_ms": 55,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1317,7 +1318,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 106,
+      "elapsed_ms": 121,
       "final_host": null,
       "error": "http_403"
     },
@@ -1331,7 +1332,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 87,
       "final_host": null,
       "error": "URLError"
     },
@@ -1345,7 +1346,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 33,
+      "elapsed_ms": 487,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1359,7 +1360,7 @@
       "http_status": 218,
       "content_type": "application/vnd.apple.mpegurl",
       "bytes_read": 83,
-      "elapsed_ms": 111,
+      "elapsed_ms": 283,
       "final_host": "x1colegal.com",
       "error": null
     },
@@ -1373,7 +1374,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 89,
+      "elapsed_ms": 71,
       "final_host": null,
       "error": "http_403"
     },
@@ -1387,7 +1388,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 129,
+      "elapsed_ms": 74,
       "final_host": null,
       "error": "http_403"
     },
@@ -1401,7 +1402,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 34,
+      "elapsed_ms": 504,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1415,7 +1416,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 136,
+      "elapsed_ms": 135,
       "final_host": null,
       "error": "http_403"
     },
@@ -1429,7 +1430,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 111,
+      "elapsed_ms": 153,
       "final_host": null,
       "error": "http_403"
     },
@@ -1443,7 +1444,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 138,
+      "elapsed_ms": 133,
       "final_host": null,
       "error": "http_403"
     },
@@ -1457,7 +1458,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 122,
+      "elapsed_ms": 139,
       "final_host": null,
       "error": "http_403"
     },
@@ -1471,7 +1472,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 157,
+      "elapsed_ms": 166,
       "final_host": null,
       "error": "http_403"
     },
@@ -1485,7 +1486,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 124,
+      "elapsed_ms": 121,
       "final_host": null,
       "error": "http_403"
     },
@@ -1499,7 +1500,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 109,
+      "elapsed_ms": 96,
       "final_host": null,
       "error": "http_403"
     },
@@ -1513,7 +1514,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 144,
+      "elapsed_ms": 98,
       "final_host": null,
       "error": "http_403"
     },
@@ -1527,7 +1528,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 100,
+      "elapsed_ms": 90,
       "final_host": null,
       "error": "http_403"
     },
@@ -1541,7 +1542,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 65,
+      "elapsed_ms": 81,
       "final_host": null,
       "error": "http_403"
     },
@@ -1555,7 +1556,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 65,
+      "elapsed_ms": 55,
       "final_host": null,
       "error": "http_403"
     },
@@ -1569,7 +1570,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 62,
+      "elapsed_ms": 119,
       "final_host": null,
       "error": "http_403"
     },
@@ -1583,7 +1584,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 76,
+      "elapsed_ms": 118,
       "final_host": null,
       "error": "http_403"
     },
@@ -1597,7 +1598,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 90,
+      "elapsed_ms": 118,
       "final_host": null,
       "error": "http_403"
     },
@@ -1611,7 +1612,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 74,
+      "elapsed_ms": 97,
       "final_host": null,
       "error": "http_403"
     },
@@ -1625,7 +1626,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 109,
+      "elapsed_ms": 102,
       "final_host": null,
       "error": "http_403"
     },
@@ -1639,7 +1640,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 99,
+      "elapsed_ms": 101,
       "final_host": null,
       "error": "http_403"
     },
@@ -1653,7 +1654,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 144,
       "final_host": null,
       "error": "http_403"
     },
@@ -1667,7 +1668,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 79,
+      "elapsed_ms": 133,
       "final_host": null,
       "error": "http_403"
     },
@@ -1681,7 +1682,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 140,
       "final_host": null,
       "error": "http_403"
     },
@@ -1695,7 +1696,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 144,
+      "elapsed_ms": 77,
       "final_host": null,
       "error": "http_403"
     },
@@ -1709,7 +1710,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 97,
+      "elapsed_ms": 106,
       "final_host": null,
       "error": "http_403"
     },
@@ -1723,7 +1724,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 678,
+      "elapsed_ms": 815,
       "final_host": null,
       "error": "http_404"
     },
@@ -1737,7 +1738,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 84,
+      "elapsed_ms": 88,
       "final_host": null,
       "error": "http_403"
     },
@@ -1751,7 +1752,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 86,
+      "elapsed_ms": 114,
       "final_host": null,
       "error": "http_403"
     },
@@ -1765,7 +1766,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 84,
+      "elapsed_ms": 94,
       "final_host": null,
       "error": "http_403"
     },
@@ -1779,7 +1780,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 71,
+      "elapsed_ms": 85,
       "final_host": null,
       "error": "http_403"
     },
@@ -1793,7 +1794,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 71,
+      "elapsed_ms": 87,
       "final_host": null,
       "error": "http_403"
     },
@@ -1807,7 +1808,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 70,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -1821,7 +1822,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 70,
+      "elapsed_ms": 56,
       "final_host": null,
       "error": "http_403"
     },
@@ -1835,7 +1836,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 37,
+      "elapsed_ms": 32,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1849,7 +1850,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 74,
       "final_host": null,
       "error": "http_403"
     },
@@ -1863,7 +1864,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 134,
+      "elapsed_ms": 133,
       "final_host": null,
       "error": "http_403"
     },
@@ -1877,7 +1878,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 132,
+      "elapsed_ms": 154,
       "final_host": null,
       "error": "http_403"
     },
@@ -1891,7 +1892,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 137,
+      "elapsed_ms": 116,
       "final_host": null,
       "error": "http_403"
     },
@@ -1905,7 +1906,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 125,
+      "elapsed_ms": 128,
       "final_host": null,
       "error": "http_403"
     },
@@ -1919,7 +1920,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 79,
+      "elapsed_ms": 94,
       "final_host": null,
       "error": "http_403"
     },
@@ -1933,7 +1934,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 117,
       "final_host": null,
       "error": "http_403"
     },
@@ -1947,7 +1948,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 79,
+      "elapsed_ms": 120,
       "final_host": null,
       "error": "http_403"
     },
@@ -1961,7 +1962,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 70,
       "final_host": null,
       "error": "http_403"
     },
@@ -1975,7 +1976,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 68,
+      "elapsed_ms": 81,
       "final_host": null,
       "error": "http_403"
     },
@@ -1989,7 +1990,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 139,
       "final_host": null,
       "error": "http_403"
     },
@@ -2003,7 +2004,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 84,
+      "elapsed_ms": 74,
       "final_host": null,
       "error": "http_403"
     },
@@ -2017,7 +2018,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 129,
+      "elapsed_ms": 71,
       "final_host": null,
       "error": "http_403"
     },
@@ -2031,7 +2032,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 119,
+      "elapsed_ms": 135,
       "final_host": null,
       "error": "http_403"
     },
@@ -2045,7 +2046,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 97,
+      "elapsed_ms": 111,
       "final_host": null,
       "error": "http_403"
     },
@@ -2059,7 +2060,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 112,
+      "elapsed_ms": 90,
       "final_host": null,
       "error": "http_403"
     },
@@ -2073,7 +2074,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 55,
+      "elapsed_ms": 101,
       "final_host": null,
       "error": "http_403"
     },
@@ -2087,7 +2088,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 101,
+      "elapsed_ms": 98,
       "final_host": null,
       "error": "http_403"
     },
@@ -2115,7 +2116,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 110,
+      "elapsed_ms": 105,
       "final_host": null,
       "error": "http_403"
     },
@@ -2129,7 +2130,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 92,
+      "elapsed_ms": 81,
       "final_host": null,
       "error": "http_403"
     },
@@ -2143,7 +2144,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 108,
+      "elapsed_ms": 116,
       "final_host": null,
       "error": "http_403"
     },
@@ -2157,7 +2158,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 8465,
+      "elapsed_ms": 8551,
       "final_host": null,
       "error": "URLError"
     },
@@ -2171,7 +2172,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 81,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -2185,7 +2186,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 74,
+      "elapsed_ms": 95,
       "final_host": null,
       "error": "http_403"
     }
