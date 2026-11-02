@@ -1,16 +1,15 @@
 {
   "schema_version": 1,
   "report_type": "catalogo_channel_source_probe",
-  "generated_at": "2026-11-02T01:38:00.440276+00:00",
+  "generated_at": "2026-11-02T01:43:51.845856+00:00",
   "catalog_mutated": false,
-  "probes": 190,
+  "probes": 156,
   "counts": {
-    "http_error": 144,
-    "unsafe_redirect": 13,
+    "http_error": 140,
+    "unsafe_redirect": 10,
     "network_error": 3,
-    "hls_ok": 26,
     "dash_ok": 1,
-    "invalid_playlist": 3
+    "invalid_playlist": 2
   },
   "policy": [
     "Only HTTPS candidates from the read-only exact-name report are probed.",
@@ -31,7 +30,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 135,
+      "elapsed_ms": 133,
       "final_host": null,
       "error": "http_403"
     },
@@ -45,7 +44,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 75,
+      "elapsed_ms": 116,
       "final_host": null,
       "error": "http_403"
     },
@@ -59,7 +58,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 90,
+      "elapsed_ms": 127,
       "final_host": null,
       "error": "http_403"
     },
@@ -73,7 +72,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 93,
+      "elapsed_ms": 139,
       "final_host": null,
       "error": "http_403"
     },
@@ -87,7 +86,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 113,
       "final_host": null,
       "error": "http_403"
     },
@@ -101,7 +100,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 156,
+      "elapsed_ms": 121,
       "final_host": null,
       "error": "http_403"
     },
@@ -115,7 +114,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 477,
+      "elapsed_ms": 709,
       "final_host": null,
       "error": "http_403"
     },
@@ -129,7 +128,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 141,
+      "elapsed_ms": 171,
       "final_host": null,
       "error": "http_403"
     },
@@ -143,7 +142,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 114,
+      "elapsed_ms": 116,
       "final_host": null,
       "error": "http_403"
     },
@@ -157,7 +156,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 75,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -171,7 +170,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 143,
+      "elapsed_ms": 94,
       "final_host": null,
       "error": "http_403"
     },
@@ -185,7 +184,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 113,
+      "elapsed_ms": 114,
       "final_host": null,
       "error": "http_403"
     },
@@ -199,7 +198,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 473,
+      "elapsed_ms": 746,
       "final_host": null,
       "error": "http_403"
     },
@@ -213,7 +212,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 117,
+      "elapsed_ms": 106,
       "final_host": null,
       "error": "http_403"
     },
@@ -227,7 +226,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 76,
+      "elapsed_ms": 72,
       "final_host": null,
       "error": "http_403"
     },
@@ -241,7 +240,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 217,
+      "elapsed_ms": 162,
       "final_host": null,
       "error": "http_403"
     },
@@ -255,7 +254,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 572,
+      "elapsed_ms": 707,
       "final_host": null,
       "error": "http_403"
     },
@@ -269,7 +268,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 448,
+      "elapsed_ms": 740,
       "final_host": null,
       "error": "http_403"
     },
@@ -283,7 +282,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 520,
+      "elapsed_ms": 868,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -297,7 +296,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 96,
+      "elapsed_ms": 133,
       "final_host": null,
       "error": "http_403"
     },
@@ -311,7 +310,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 1068,
+      "elapsed_ms": 930,
       "final_host": null,
       "error": "http_404"
     },
@@ -325,7 +324,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 255,
+      "elapsed_ms": 110,
       "final_host": null,
       "error": "http_403"
     },
@@ -339,7 +338,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 69,
+      "elapsed_ms": 98,
       "final_host": null,
       "error": "http_403"
     },
@@ -353,7 +352,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 78,
+      "elapsed_ms": 148,
       "final_host": null,
       "error": "http_403"
     },
@@ -367,7 +366,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 500,
+      "elapsed_ms": 286,
       "final_host": null,
       "error": "RemoteDisconnected"
     },
@@ -381,7 +380,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 46,
+      "elapsed_ms": 219,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -395,7 +394,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 253,
+      "elapsed_ms": 476,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -409,23 +408,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 156,
+      "elapsed_ms": 109,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.canal-uol",
-      "source_order": 1,
-      "url": "https://video24.mais.uol.com.br/live/6146.m3u8",
-      "host": "video24.mais.uol.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/x-mpegURL",
-      "bytes_read": 423,
-      "elapsed_ms": 725,
-      "final_host": "video24.mais.uol.com.br",
-      "error": null
     },
     {
       "channel_id": "br.cancao-nova",
@@ -437,7 +422,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 92,
       "final_host": null,
       "error": "http_403"
     },
@@ -451,7 +436,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 1023,
+      "elapsed_ms": 1344,
       "final_host": null,
       "error": "http_404"
     },
@@ -465,7 +450,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 562,
+      "elapsed_ms": 706,
       "final_host": null,
       "error": "http_403"
     },
@@ -479,7 +464,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 116,
+      "elapsed_ms": 156,
       "final_host": null,
       "error": "http_403"
     },
@@ -493,7 +478,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 70,
+      "elapsed_ms": 117,
       "final_host": null,
       "error": "http_403"
     },
@@ -507,7 +492,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 254,
+      "elapsed_ms": 84,
       "final_host": null,
       "error": "http_403"
     },
@@ -521,7 +506,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 160,
+      "elapsed_ms": 125,
       "final_host": null,
       "error": "http_403"
     },
@@ -535,7 +520,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 146,
+      "elapsed_ms": 181,
       "final_host": null,
       "error": "http_403"
     },
@@ -549,79 +534,9 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 514,
+      "elapsed_ms": 890,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
-    },
-    {
-      "channel_id": "br.cnn-brasil",
-      "source_order": 1,
-      "url": "https://nexustvplay.bbroot.com/nxs/stream/cnnbrasil/cnnbrasil.m3u8",
-      "host": "nexustvplay.bbroot.com",
-      "source_type": "hls",
-      "probe_status": "http_error",
-      "http_status": 403,
-      "content_type": "text/plain;charset=UTF-8",
-      "bytes_read": 0,
-      "elapsed_ms": 426,
-      "final_host": null,
-      "error": "http_403"
-    },
-    {
-      "channel_id": "br.cnn-brasil",
-      "source_order": 4,
-      "url": "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
-      "host": "amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 5996,
-      "elapsed_ms": 572,
-      "final_host": "amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv",
-      "error": null
-    },
-    {
-      "channel_id": "br.cnn-brasil-money",
-      "source_order": 2,
-      "url": "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8",
-      "host": "amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 1887,
-      "elapsed_ms": 281,
-      "final_host": "amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv",
-      "error": null
-    },
-    {
-      "channel_id": "br.com-brasil",
-      "source_order": 1,
-      "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
-      "host": "br5093.streamingdevideo.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 138,
-      "elapsed_ms": 1070,
-      "final_host": "br5093.streamingdevideo.com.br",
-      "error": null
-    },
-    {
-      "channel_id": "br.com-brasil",
-      "source_order": 2,
-      "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
-      "host": "dfr80qz435crc.cloudfront.net",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 677,
-      "elapsed_ms": 131,
-      "final_host": "dfr80qz435crc.cloudfront.net",
-      "error": null
     },
     {
       "channel_id": "br.combate",
@@ -633,7 +548,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 72,
+      "elapsed_ms": 130,
       "final_host": null,
       "error": "http_403"
     },
@@ -647,7 +562,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 97,
+      "elapsed_ms": 190,
       "final_host": null,
       "error": "http_403"
     },
@@ -661,7 +576,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 87,
+      "elapsed_ms": 131,
       "final_host": null,
       "error": "http_403"
     },
@@ -675,7 +590,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 115,
+      "elapsed_ms": 132,
       "final_host": null,
       "error": "http_403"
     },
@@ -689,7 +604,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 101,
+      "elapsed_ms": 136,
       "final_host": null,
       "error": "http_403"
     },
@@ -703,7 +618,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 104,
+      "elapsed_ms": 200,
       "final_host": null,
       "error": "http_403"
     },
@@ -717,7 +632,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 90,
+      "elapsed_ms": 118,
       "final_host": null,
       "error": "http_403"
     },
@@ -731,7 +646,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 133,
+      "elapsed_ms": 155,
       "final_host": null,
       "error": "http_403"
     },
@@ -745,7 +660,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 158,
+      "elapsed_ms": 190,
       "final_host": null,
       "error": "http_403"
     },
@@ -759,7 +674,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 87,
+      "elapsed_ms": 129,
       "final_host": null,
       "error": "http_403"
     },
@@ -773,7 +688,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 105,
+      "elapsed_ms": 109,
       "final_host": null,
       "error": "http_403"
     },
@@ -787,7 +702,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 133,
+      "elapsed_ms": 104,
       "final_host": null,
       "error": "http_403"
     },
@@ -801,7 +716,7 @@
       "http_status": 200,
       "content_type": "application/dash+xml",
       "bytes_read": 8192,
-      "elapsed_ms": 1690,
+      "elapsed_ms": 830,
       "final_host": "video49.mais.uol.com.br",
       "error": null
     },
@@ -815,7 +730,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 69,
+      "elapsed_ms": 122,
       "final_host": null,
       "error": "http_403"
     },
@@ -829,7 +744,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 160,
+      "elapsed_ms": 126,
       "final_host": null,
       "error": "http_403"
     },
@@ -843,7 +758,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 91,
+      "elapsed_ms": 117,
       "final_host": null,
       "error": "http_403"
     },
@@ -857,7 +772,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 162,
+      "elapsed_ms": 131,
       "final_host": null,
       "error": "http_403"
     },
@@ -871,7 +786,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 122,
+      "elapsed_ms": 166,
       "final_host": null,
       "error": "http_403"
     },
@@ -885,7 +800,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 125,
+      "elapsed_ms": 170,
       "final_host": null,
       "error": "http_403"
     },
@@ -899,7 +814,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 57,
+      "elapsed_ms": 82,
       "final_host": null,
       "error": "http_403"
     },
@@ -913,7 +828,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 982,
+      "elapsed_ms": 841,
       "final_host": null,
       "error": "http_404"
     },
@@ -927,7 +842,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 75,
+      "elapsed_ms": 164,
       "final_host": null,
       "error": "http_403"
     },
@@ -941,7 +856,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 130,
+      "elapsed_ms": 181,
       "final_host": null,
       "error": "http_403"
     },
@@ -955,7 +870,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 148,
+      "elapsed_ms": 165,
       "final_host": null,
       "error": "http_403"
     },
@@ -969,7 +884,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 130,
+      "elapsed_ms": 156,
       "final_host": null,
       "error": "http_403"
     },
@@ -983,7 +898,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 112,
+      "elapsed_ms": 139,
       "final_host": null,
       "error": "http_403"
     },
@@ -997,7 +912,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 148,
+      "elapsed_ms": 113,
       "final_host": null,
       "error": "http_403"
     },
@@ -1011,7 +926,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 127,
+      "elapsed_ms": 185,
       "final_host": null,
       "error": "http_403"
     },
@@ -1025,7 +940,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 104,
+      "elapsed_ms": 155,
       "final_host": null,
       "error": "http_403"
     },
@@ -1039,7 +954,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 103,
+      "elapsed_ms": 138,
       "final_host": null,
       "error": "http_403"
     },
@@ -1053,7 +968,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 96,
+      "elapsed_ms": 137,
       "final_host": null,
       "error": "http_403"
     },
@@ -1067,7 +982,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 168,
       "final_host": null,
       "error": "http_403"
     },
@@ -1081,7 +996,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 551,
+      "elapsed_ms": 689,
       "final_host": null,
       "error": "http_403"
     },
@@ -1095,7 +1010,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 430,
+      "elapsed_ms": 736,
       "final_host": null,
       "error": "http_403"
     },
@@ -1109,7 +1024,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 62,
+      "elapsed_ms": 124,
       "final_host": null,
       "error": "http_403"
     },
@@ -1123,7 +1038,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 272,
+      "elapsed_ms": 684,
       "final_host": null,
       "error": "http_403"
     },
@@ -1137,7 +1052,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 107,
+      "elapsed_ms": 225,
       "final_host": null,
       "error": "http_403"
     },
@@ -1151,7 +1066,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 206,
       "final_host": null,
       "error": "http_403"
     },
@@ -1165,7 +1080,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 213,
       "final_host": null,
       "error": "http_403"
     },
@@ -1179,7 +1094,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 101,
+      "elapsed_ms": 208,
       "final_host": null,
       "error": "http_403"
     },
@@ -1193,7 +1108,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 183,
+      "elapsed_ms": 129,
       "final_host": null,
       "error": "http_403"
     },
@@ -1207,7 +1122,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 120,
+      "elapsed_ms": 196,
       "final_host": null,
       "error": "http_403"
     },
@@ -1221,7 +1136,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 146,
+      "elapsed_ms": 157,
       "final_host": null,
       "error": "http_403"
     },
@@ -1235,7 +1150,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 201,
       "final_host": null,
       "error": "http_403"
     },
@@ -1249,7 +1164,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 135,
+      "elapsed_ms": 721,
       "final_host": null,
       "error": "http_403"
     },
@@ -1263,79 +1178,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 196,
+      "elapsed_ms": 718,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.impd",
-      "source_order": 1,
-      "url": "https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1464410885_b2691072.m3u8",
-      "host": "68882bdaf156a.streamlock.net",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 1670,
-      "elapsed_ms": 475,
-      "final_host": "68882bdaf156a.streamlock.net",
-      "error": null
-    },
-    {
-      "channel_id": "br.impd",
-      "source_order": 2,
-      "url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
-      "host": "igrejamundial.nuvemplay.live",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 406,
-      "elapsed_ms": 688,
-      "final_host": "igrejamundial.nuvemplay.live",
-      "error": null
-    },
-    {
-      "channel_id": "br.jovem-pan-news",
-      "source_order": 2,
-      "url": "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
-      "host": "amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 5964,
-      "elapsed_ms": 218,
-      "final_host": "amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv",
-      "error": null
-    },
-    {
-      "channel_id": "br.jovem-pan-news",
-      "source_order": 3,
-      "url": "https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8",
-      "host": "jmp2.uk",
-      "source_type": "hls",
-      "probe_status": "unsafe_redirect",
-      "http_status": null,
-      "content_type": null,
-      "bytes_read": 0,
-      "elapsed_ms": 692,
-      "final_host": null,
-      "error": "unsafe_redirect:opaque_path_token"
-    },
-    {
-      "channel_id": "br.kpoptv-play",
-      "source_order": 1,
-      "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-      "host": "giatv.bozztv.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 138,
-      "elapsed_ms": 240,
-      "final_host": "giatv.bozztv.com",
-      "error": null
     },
     {
       "channel_id": "br.masterchef",
@@ -1347,7 +1192,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 515,
+      "elapsed_ms": 773,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1361,7 +1206,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 72,
+      "elapsed_ms": 88,
       "final_host": null,
       "error": "http_403"
     },
@@ -1375,7 +1220,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 65,
+      "elapsed_ms": 99,
       "final_host": null,
       "error": "http_403"
     },
@@ -1389,7 +1234,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 76,
+      "elapsed_ms": 91,
       "final_host": null,
       "error": "http_403"
     },
@@ -1403,7 +1248,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 163,
+      "elapsed_ms": 158,
       "final_host": null,
       "error": "http_403"
     },
@@ -1417,7 +1262,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 115,
+      "elapsed_ms": 169,
       "final_host": null,
       "error": "http_403"
     },
@@ -1431,7 +1276,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 124,
+      "elapsed_ms": 143,
       "final_host": null,
       "error": "http_403"
     },
@@ -1445,7 +1290,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 58,
+      "elapsed_ms": 839,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1459,7 +1304,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 37,
+      "elapsed_ms": 799,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1473,23 +1318,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 113,
+      "elapsed_ms": 201,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.mytime-movie-network",
-      "source_order": 1,
-      "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
-      "host": "appletree-mytime-samsungbrazil.amagi.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 497,
-      "elapsed_ms": 306,
-      "final_host": "appletree-mytime-samsungbrazil.amagi.tv",
-      "error": null
     },
     {
       "channel_id": "br.n-sports",
@@ -1501,23 +1332,9 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 90,
+      "elapsed_ms": 111,
       "final_host": null,
       "error": "URLError"
-    },
-    {
-      "channel_id": "br.nickelodeon",
-      "source_order": 1,
-      "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
-      "host": "stmv2.srvif.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 389,
-      "elapsed_ms": 261,
-      "final_host": "stmv2.srvif.com",
-      "error": null
     },
     {
       "channel_id": "br.nickelodeon-icarly",
@@ -1529,7 +1346,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 521,
+      "elapsed_ms": 681,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1543,22 +1360,8 @@
       "http_status": 218,
       "content_type": "application/vnd.apple.mpegurl",
       "bytes_read": 83,
-      "elapsed_ms": 278,
+      "elapsed_ms": 120,
       "final_host": "x1colegal.com",
-      "error": null
-    },
-    {
-      "channel_id": "br.nicktoons-brasil",
-      "source_order": 1,
-      "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
-      "host": "stmv2.srvif.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 404,
-      "elapsed_ms": 290,
-      "final_host": "stmv2.srvif.com",
       "error": null
     },
     {
@@ -1571,7 +1374,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 251,
+      "elapsed_ms": 119,
       "final_host": null,
       "error": "http_403"
     },
@@ -1585,23 +1388,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 108,
+      "elapsed_ms": 147,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.playtv",
-      "source_order": 1,
-      "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
-      "host": "isaocorp.cloudecast.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 183,
-      "elapsed_ms": 794,
-      "final_host": "isaocorp.cloudecast.com",
-      "error": null
     },
     {
       "channel_id": "br.pluto-tv-anime",
@@ -1613,7 +1402,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 534,
+      "elapsed_ms": 665,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -1627,7 +1416,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 177,
       "final_host": null,
       "error": "http_403"
     },
@@ -1641,7 +1430,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 116,
+      "elapsed_ms": 190,
       "final_host": null,
       "error": "http_403"
     },
@@ -1655,7 +1444,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 153,
+      "elapsed_ms": 248,
       "final_host": null,
       "error": "http_403"
     },
@@ -1669,7 +1458,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 134,
+      "elapsed_ms": 173,
       "final_host": null,
       "error": "http_403"
     },
@@ -1683,7 +1472,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 133,
+      "elapsed_ms": 194,
       "final_host": null,
       "error": "http_403"
     },
@@ -1697,7 +1486,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 155,
+      "elapsed_ms": 157,
       "final_host": null,
       "error": "http_403"
     },
@@ -1711,7 +1500,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 131,
+      "elapsed_ms": 183,
       "final_host": null,
       "error": "http_403"
     },
@@ -1725,7 +1514,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 105,
+      "elapsed_ms": 211,
       "final_host": null,
       "error": "http_403"
     },
@@ -1739,7 +1528,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 88,
+      "elapsed_ms": 135,
       "final_host": null,
       "error": "http_403"
     },
@@ -1753,7 +1542,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 99,
+      "elapsed_ms": 140,
       "final_host": null,
       "error": "http_403"
     },
@@ -1767,7 +1556,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 129,
+      "elapsed_ms": 134,
       "final_host": null,
       "error": "http_403"
     },
@@ -1781,7 +1570,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 92,
+      "elapsed_ms": 147,
       "final_host": null,
       "error": "http_403"
     },
@@ -1795,7 +1584,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 65,
+      "elapsed_ms": 123,
       "final_host": null,
       "error": "http_403"
     },
@@ -1809,7 +1598,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 85,
+      "elapsed_ms": 91,
       "final_host": null,
       "error": "http_403"
     },
@@ -1823,7 +1612,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 66,
+      "elapsed_ms": 119,
       "final_host": null,
       "error": "http_403"
     },
@@ -1837,7 +1626,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 103,
+      "elapsed_ms": 143,
       "final_host": null,
       "error": "http_403"
     },
@@ -1851,7 +1640,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 136,
+      "elapsed_ms": 113,
       "final_host": null,
       "error": "http_403"
     },
@@ -1865,7 +1654,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 88,
+      "elapsed_ms": 130,
       "final_host": null,
       "error": "http_403"
     },
@@ -1879,7 +1668,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 88,
+      "elapsed_ms": 183,
       "final_host": null,
       "error": "http_403"
     },
@@ -1893,7 +1682,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 79,
+      "elapsed_ms": 184,
       "final_host": null,
       "error": "http_403"
     },
@@ -1907,7 +1696,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 98,
+      "elapsed_ms": 161,
       "final_host": null,
       "error": "http_403"
     },
@@ -1921,7 +1710,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 68,
+      "elapsed_ms": 161,
       "final_host": null,
       "error": "http_403"
     },
@@ -1935,7 +1724,7 @@
       "http_status": 404,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 980,
+      "elapsed_ms": 867,
       "final_host": null,
       "error": "http_404"
     },
@@ -1949,7 +1738,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 139,
+      "elapsed_ms": 203,
       "final_host": null,
       "error": "http_403"
     },
@@ -1963,37 +1752,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 144,
+      "elapsed_ms": 167,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.record-news",
-      "source_order": 2,
-      "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
-      "host": "rnw-rn.otteravision.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 731,
-      "elapsed_ms": 242,
-      "final_host": "rnw-rn.otteravision.com",
-      "error": null
-    },
-    {
-      "channel_id": "br.record-news",
-      "source_order": 29,
-      "url": "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
-      "host": "rnw-rn-soultv.otteravision.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 731,
-      "elapsed_ms": 266,
-      "final_host": "rnw-rn-soultv.otteravision.com",
-      "error": null
     },
     {
       "channel_id": "br.record-rj",
@@ -2005,7 +1766,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 238,
+      "elapsed_ms": 193,
       "final_host": null,
       "error": "http_403"
     },
@@ -2019,65 +1780,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 98,
+      "elapsed_ms": 95,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.rede-brasil",
-      "source_order": 1,
-      "url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
-      "host": "redebrasil.nuvemplay.live",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 406,
-      "elapsed_ms": 589,
-      "final_host": "redebrasil.nuvemplay.live",
-      "error": null
-    },
-    {
-      "channel_id": "br.rede-gospel",
-      "source_order": 2,
-      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-      "host": "cdn.live.br1.jmvstream.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 127,
-      "elapsed_ms": 2714,
-      "final_host": "cdn.live.br1.jmvstream.com",
-      "error": null
-    },
-    {
-      "channel_id": "br.rede-gospel",
-      "source_order": 3,
-      "url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
-      "host": "redegospel-aovivo.nuvemplay.live",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 406,
-      "elapsed_ms": 903,
-      "final_host": "redegospel-aovivo.nuvemplay.live",
-      "error": null
-    },
-    {
-      "channel_id": "br.rede-gospel",
-      "source_order": 25,
-      "url": "https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-      "host": "cdn.jmvstream.com",
-      "source_type": "hls",
-      "probe_status": "invalid_playlist",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 138,
-      "elapsed_ms": 2498,
-      "final_host": "cdn.live.br1.jmvstream.com",
-      "error": null
     },
     {
       "channel_id": "br.rede-vida",
@@ -2089,37 +1794,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 148,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.runtime",
-      "source_order": 1,
-      "url": "https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8",
-      "host": "jmp2.uk",
-      "source_type": "hls",
-      "probe_status": "unsafe_redirect",
-      "http_status": null,
-      "content_type": null,
-      "bytes_read": 0,
-      "elapsed_ms": 47,
-      "final_host": null,
-      "error": "unsafe_redirect:opaque_path_token"
-    },
-    {
-      "channel_id": "br.runtime",
-      "source_order": 2,
-      "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153",
-      "host": "stream.ads.ottera.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 955,
-      "elapsed_ms": 421,
-      "final_host": "stream.ads.ottera.tv",
-      "error": null
     },
     {
       "channel_id": "br.sbt-ba",
@@ -2131,7 +1808,7 @@
       "http_status": 200,
       "content_type": "application/vnd.apple.mpegurl",
       "bytes_read": 139,
-      "elapsed_ms": 1008,
+      "elapsed_ms": 2434,
       "final_host": "cdn.live.br1.jmvstream.com",
       "error": null
     },
@@ -2145,7 +1822,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 99,
+      "elapsed_ms": 92,
       "final_host": null,
       "error": "http_403"
     },
@@ -2159,7 +1836,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 86,
+      "elapsed_ms": 135,
       "final_host": null,
       "error": "http_403"
     },
@@ -2173,7 +1850,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 514,
+      "elapsed_ms": 687,
       "final_host": null,
       "error": "unsafe_redirect:opaque_path_token"
     },
@@ -2187,7 +1864,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 129,
+      "elapsed_ms": 117,
       "final_host": null,
       "error": "http_403"
     },
@@ -2201,7 +1878,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 103,
+      "elapsed_ms": 145,
       "final_host": null,
       "error": "http_403"
     },
@@ -2215,7 +1892,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 115,
+      "elapsed_ms": 206,
       "final_host": null,
       "error": "http_403"
     },
@@ -2229,7 +1906,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 135,
+      "elapsed_ms": 132,
       "final_host": null,
       "error": "http_403"
     },
@@ -2243,7 +1920,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 128,
+      "elapsed_ms": 247,
       "final_host": null,
       "error": "http_403"
     },
@@ -2257,7 +1934,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 120,
+      "elapsed_ms": 121,
       "final_host": null,
       "error": "http_403"
     },
@@ -2271,7 +1948,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 93,
+      "elapsed_ms": 145,
       "final_host": null,
       "error": "http_403"
     },
@@ -2285,7 +1962,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 128,
+      "elapsed_ms": 170,
       "final_host": null,
       "error": "http_403"
     },
@@ -2299,7 +1976,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 78,
+      "elapsed_ms": 131,
       "final_host": null,
       "error": "http_403"
     },
@@ -2313,7 +1990,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 266,
+      "elapsed_ms": 129,
       "final_host": null,
       "error": "http_403"
     },
@@ -2327,7 +2004,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 191,
       "final_host": null,
       "error": "http_403"
     },
@@ -2341,7 +2018,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 136,
+      "elapsed_ms": 177,
       "final_host": null,
       "error": "http_403"
     },
@@ -2355,7 +2032,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 94,
+      "elapsed_ms": 157,
       "final_host": null,
       "error": "http_403"
     },
@@ -2369,7 +2046,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 121,
+      "elapsed_ms": 152,
       "final_host": null,
       "error": "http_403"
     },
@@ -2383,7 +2060,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 122,
+      "elapsed_ms": 170,
       "final_host": null,
       "error": "http_403"
     },
@@ -2397,7 +2074,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 119,
+      "elapsed_ms": 185,
       "final_host": null,
       "error": "http_403"
     },
@@ -2411,7 +2088,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 115,
+      "elapsed_ms": 208,
       "final_host": null,
       "error": "http_403"
     },
@@ -2425,7 +2102,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 134,
+      "elapsed_ms": 136,
       "final_host": null,
       "error": "http_403"
     },
@@ -2439,7 +2116,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 325,
+      "elapsed_ms": 169,
       "final_host": null,
       "error": "http_403"
     },
@@ -2453,163 +2130,9 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 102,
+      "elapsed_ms": 127,
       "final_host": null,
       "error": "http_403"
-    },
-    {
-      "channel_id": "br.trace-brazuca",
-      "source_order": 2,
-      "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
-      "host": "cdn-uw2-prod.tsv2.amagi.tv",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 3434,
-      "elapsed_ms": 394,
-      "final_host": "amg01131-tracetv-tracebrazuca-samsungbr-rfenz.amagi.tv",
-      "error": null
-    },
-    {
-      "channel_id": "br.tv-aparecida",
-      "source_order": 26,
-      "url": "https://nexustvplay.bbroot.com/nxs/stream/aparecida/aparecida.m3u8",
-      "host": "nexustvplay.bbroot.com",
-      "source_type": "hls",
-      "probe_status": "http_error",
-      "http_status": 403,
-      "content_type": "text/plain;charset=UTF-8",
-      "bytes_read": 0,
-      "elapsed_ms": 107,
-      "final_host": null,
-      "error": "http_403"
-    },
-    {
-      "channel_id": "br.tv-aparecida",
-      "source_order": 27,
-      "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
-      "host": "cdn.jmvstream.com",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 128,
-      "elapsed_ms": 3199,
-      "final_host": "cdn.live.br1.jmvstream.com",
-      "error": null
-    },
-    {
-      "channel_id": "br.tv-cultura",
-      "source_order": 1,
-      "url": "https://nexustvplay.bbroot.com/nxs/stream/cultura/cultura.m3u8",
-      "host": "nexustvplay.bbroot.com",
-      "source_type": "hls",
-      "probe_status": "http_error",
-      "http_status": 403,
-      "content_type": "text/plain;charset=UTF-8",
-      "bytes_read": 0,
-      "elapsed_ms": 152,
-      "final_host": null,
-      "error": "http_403"
-    },
-    {
-      "channel_id": "br.tv-cultura",
-      "source_order": 3,
-      "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
-      "host": "v-us-01.wisestream.io",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 200,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 196,
-      "elapsed_ms": 338,
-      "final_host": "v-us-01.wisestream.io",
-      "error": null
-    },
-    {
-      "channel_id": "br.tv-cultura",
-      "source_order": 4,
-      "url": "https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8",
-      "host": "jmp2.uk",
-      "source_type": "hls",
-      "probe_status": "unsafe_redirect",
-      "http_status": null,
-      "content_type": null,
-      "bytes_read": 0,
-      "elapsed_ms": 510,
-      "final_host": null,
-      "error": "unsafe_redirect:opaque_path_token"
-    },
-    {
-      "channel_id": "br.tv-cultura",
-      "source_order": 5,
-      "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
-      "host": "player-tvcultura.stream.uol.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 169,
-      "elapsed_ms": 1470,
-      "final_host": "player-tvcultura.stream.uol.com.br",
-      "error": null
-    },
-    {
-      "channel_id": "br.tv-pai-eterno",
-      "source_order": 1,
-      "url": "https://nexustvplay.bbroot.com/nxs/stream/tvpaieterno/tvpaieterno.m3u8",
-      "host": "nexustvplay.bbroot.com",
-      "source_type": "hls",
-      "probe_status": "http_error",
-      "http_status": 403,
-      "content_type": "text/plain;charset=UTF-8",
-      "bytes_read": 0,
-      "elapsed_ms": 110,
-      "final_host": null,
-      "error": "http_403"
-    },
-    {
-      "channel_id": "br.tv-pai-eterno",
-      "source_order": 3,
-      "url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
-      "host": "video09.logicahost.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 153,
-      "elapsed_ms": 1242,
-      "final_host": "video09.logicahost.com.br",
-      "error": null
-    },
-    {
-      "channel_id": "br.tv-pai-eterno",
-      "source_order": 23,
-      "url": "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
-      "host": "video09.logicahost.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 229,
-      "elapsed_ms": 1220,
-      "final_host": "video09.logicahost.com.br",
-      "error": null
-    },
-    {
-      "channel_id": "br.tvideonews",
-      "source_order": 1,
-      "url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
-      "host": "video01.logicahost.com.br",
-      "source_type": "hls",
-      "probe_status": "hls_ok",
-      "http_status": 206,
-      "content_type": "application/vnd.apple.mpegurl",
-      "bytes_read": 153,
-      "elapsed_ms": 1243,
-      "final_host": "video01.logicahost.com.br",
-      "error": null
     },
     {
       "channel_id": "br.ufc-fight-pass",
@@ -2621,7 +2144,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 134,
+      "elapsed_ms": 143,
       "final_host": null,
       "error": "http_403"
     },
@@ -2635,7 +2158,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 120,
+      "elapsed_ms": 125,
       "final_host": null,
       "error": "http_403"
     },
@@ -2649,7 +2172,7 @@
       "http_status": null,
       "content_type": null,
       "bytes_read": 0,
-      "elapsed_ms": 8549,
+      "elapsed_ms": 8501,
       "final_host": null,
       "error": "URLError"
     },
@@ -2663,7 +2186,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 140,
+      "elapsed_ms": 132,
       "final_host": null,
       "error": "http_403"
     },
@@ -2677,7 +2200,7 @@
       "http_status": 403,
       "content_type": "text/plain;charset=UTF-8",
       "bytes_read": 0,
-      "elapsed_ms": 117,
+      "elapsed_ms": 176,
       "final_host": null,
       "error": "http_403"
     }

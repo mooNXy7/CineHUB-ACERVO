@@ -17,11 +17,11 @@
     "exact_unique_matches": 324,
     "ambiguous_matches": 0,
     "unmatched_reference_blocks": 148,
-    "matched_channels_without_streams": 310,
-    "channels_with_candidates": 172,
-    "eligible_unverified_urls": 190,
-    "rejected_urls": 4205,
-    "channels_with_existing_streams": 14,
+    "matched_channels_without_streams": 290,
+    "channels_with_candidates": 152,
+    "eligible_unverified_urls": 156,
+    "rejected_urls": 3988,
+    "channels_with_existing_streams": 34,
     "missing_logo_candidates": 0
   },
   "candidates": [
@@ -138,61 +138,6 @@
           "quality": "HD · 1280x720",
           "source_order": 1,
           "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.cnn-brasil",
-      "channel_name": "CNN Brasil",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://nexustvplay.bbroot.com/nxs/stream/cnnbrasil/cnnbrasil.m3u8",
-          "host": "nexustvplay.bbroot.com",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {
-            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
-          },
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
-          "host": "amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv",
-          "source_type": "hls",
-          "quality": "Qualidade não informada",
-          "source_order": 4,
-          "headers": {
-            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
-          },
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.cnn-brasil-money",
-      "channel_name": "CNN Brasil Money",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8",
-          "host": "amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv",
-          "source_type": "hls",
-          "quality": "Qualidade não informada",
-          "source_order": 2,
-          "headers": {
-            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
-          },
           "status": "eligible_unverified"
         }
       ],
@@ -325,39 +270,6 @@
           "quality": null,
           "source_order": 23,
           "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.jovem-pan-news",
-      "channel_name": "Jovem Pan News",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
-          "host": "amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv",
-          "source_type": "hls",
-          "quality": "Qualidade não informada",
-          "source_order": 2,
-          "headers": {
-            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
-          },
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8",
-          "host": "jmp2.uk",
-          "source_type": "hls",
-          "quality": "SD · 1216x684",
-          "source_order": 3,
-          "headers": {
-            "user_agent": "Mozilla/5.0 (Linux; U; Android 13; T610K Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36 OPR/87.0.2254.75258"
-          },
           "status": "eligible_unverified"
         }
       ],
@@ -762,35 +674,6 @@
           "source_type": "hls",
           "quality": "HD · 1280x720",
           "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.impd",
-      "channel_name": "IMPD",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1464410885_b2691072.m3u8",
-          "host": "68882bdaf156a.streamlock.net",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
-          "host": "igrejamundial.nuvemplay.live",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 2,
           "headers": {},
           "status": "eligible_unverified"
         }
@@ -1495,53 +1378,6 @@
       "automatic_update": false
     },
     {
-      "channel_id": "br.tv-cultura",
-      "channel_name": "TV Cultura",
-      "category": "TV Aberta",
-      "reference_category": "TV Aberta",
-      "sources": [
-        {
-          "url": "https://nexustvplay.bbroot.com/nxs/stream/cultura/cultura.m3u8",
-          "host": "nexustvplay.bbroot.com",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
-          "host": "v-us-01.wisestream.io",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 3,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8",
-          "host": "jmp2.uk",
-          "source_type": "hls",
-          "quality": "SD · 1216x684",
-          "source_order": 4,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
-          "host": "player-tvcultura.stream.uol.com.br",
-          "source_type": "hls",
-          "quality": "SD · 960x540",
-          "source_order": 5,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
       "channel_id": "br.espn-3",
       "channel_name": "ESPN 3",
       "category": "Esportes",
@@ -1553,35 +1389,6 @@
           "source_type": "hls",
           "quality": "HD · 1280x720",
           "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.record-news",
-      "channel_name": "Record News",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
-          "host": "rnw-rn.otteravision.com",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 2,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
-          "host": "rnw-rn-soultv.otteravision.com",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 29,
           "headers": {},
           "status": "eligible_unverified"
         }
@@ -1611,35 +1418,6 @@
           "source_type": "hls",
           "quality": "HD",
           "source_order": 4,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.tv-aparecida",
-      "channel_name": "TV Aparecida",
-      "category": "TV Aberta",
-      "reference_category": "TV Aberta",
-      "sources": [
-        {
-          "url": "https://nexustvplay.bbroot.com/nxs/stream/aparecida/aparecida.m3u8",
-          "host": "nexustvplay.bbroot.com",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 26,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
-          "host": "cdn.jmvstream.com",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 27,
           "headers": {},
           "status": "eligible_unverified"
         }
@@ -1789,142 +1567,6 @@
       "automatic_update": false
     },
     {
-      "channel_id": "br.tv-pai-eterno",
-      "channel_name": "TV Pai Eterno",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://nexustvplay.bbroot.com/nxs/stream/tvpaieterno/tvpaieterno.m3u8",
-          "host": "nexustvplay.bbroot.com",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
-          "host": "video09.logicahost.com.br",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 3,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
-          "host": "video09.logicahost.com.br",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 23,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.playtv",
-      "channel_name": "PlayTV",
-      "category": "TV Aberta",
-      "reference_category": "TV Aberta",
-      "sources": [
-        {
-          "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
-          "host": "isaocorp.cloudecast.com",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.rede-brasil",
-      "channel_name": "Rede Brasil",
-      "category": "TV Aberta",
-      "reference_category": "TV Aberta",
-      "sources": [
-        {
-          "url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
-          "host": "redebrasil.nuvemplay.live",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.rede-gospel",
-      "channel_name": "Rede Gospel",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-          "host": "cdn.live.br1.jmvstream.com",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 2,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
-          "host": "redegospel-aovivo.nuvemplay.live",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 3,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-          "host": "cdn.jmvstream.com",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 25,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.trace-brazuca",
-      "channel_name": "Trace Brazuca",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
-          "host": "cdn-uw2-prod.tsv2.amagi.tv",
-          "source_type": "hls",
-          "quality": "Qualidade não informada",
-          "source_order": 2,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
       "channel_id": "br.discovery-home-health",
       "channel_name": "Discovery Home & Health",
       "category": "Documentários",
@@ -1985,55 +1627,6 @@
       "automatic_update": false
     },
     {
-      "channel_id": "br.com-brasil",
-      "channel_name": "Com Brasil",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
-          "host": "br5093.streamingdevideo.com.br",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8",
-          "host": "dfr80qz435crc.cloudfront.net",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 2,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.tvideonews",
-      "channel_name": "TVideoNews",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
-          "host": "video01.logicahost.com.br",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
       "channel_id": "br.assombracoes",
       "channel_name": "Assombrações",
       "category": "24 Horas",
@@ -2084,46 +1677,6 @@
           "host": "jmp2.uk",
           "source_type": "hls",
           "quality": "SD · 1216x684",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.canal-uol",
-      "channel_name": "Canal UOL",
-      "category": "Notícias",
-      "reference_category": "Notícias",
-      "sources": [
-        {
-          "url": "https://video24.mais.uol.com.br/live/6146.m3u8",
-          "host": "video24.mais.uol.com.br",
-          "source_type": "hls",
-          "quality": "FHD · 1920x1080",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.kpoptv-play",
-      "channel_name": "KpopTV Play",
-      "category": "Variedades",
-      "reference_category": "Variedades",
-      "sources": [
-        {
-          "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-          "host": "giatv.bozztv.com",
-          "source_type": "hls",
-          "quality": "Qualidade não informada",
           "source_order": 1,
           "headers": {},
           "status": "eligible_unverified"
@@ -2203,26 +1756,6 @@
       "automatic_update": false
     },
     {
-      "channel_id": "br.mytime-movie-network",
-      "channel_name": "MyTime Movie Network",
-      "category": "Filmes e Séries",
-      "reference_category": "Filmes e Séries",
-      "sources": [
-        {
-          "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
-          "host": "appletree-mytime-samsungbrazil.amagi.tv",
-          "source_type": "hls",
-          "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
       "channel_id": "br.nickonline",
       "channel_name": "NickOnline",
       "category": "Infantil",
@@ -2233,46 +1766,6 @@
           "host": "x1colegal.com",
           "source_type": "hls",
           "quality": "HD · 1280x720",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.nicktoons-brasil",
-      "channel_name": "NickToons Brasil",
-      "category": "Infantil",
-      "reference_category": "Infantil",
-      "sources": [
-        {
-          "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8",
-          "host": "stmv2.srvif.com",
-          "source_type": "hls",
-          "quality": "SD · 854x480",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.nickelodeon",
-      "channel_name": "Nickelodeon",
-      "category": "Infantil",
-      "reference_category": "Infantil",
-      "sources": [
-        {
-          "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
-          "host": "stmv2.srvif.com",
-          "source_type": "hls",
-          "quality": "SD · 854x480",
           "source_order": 1,
           "headers": {},
           "status": "eligible_unverified"
@@ -2314,35 +1807,6 @@
           "source_type": "hls",
           "quality": "SD · 1216x684",
           "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        }
-      ],
-      "logo_candidate": null,
-      "requires_network_probe_before_import": true,
-      "automatic_update": false
-    },
-    {
-      "channel_id": "br.runtime",
-      "channel_name": "Runtime",
-      "category": "Filmes e Séries",
-      "reference_category": "Filmes e Séries",
-      "sources": [
-        {
-          "url": "https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8",
-          "host": "jmp2.uk",
-          "source_type": "hls",
-          "quality": "SD · 1216x684",
-          "source_order": 1,
-          "headers": {},
-          "status": "eligible_unverified"
-        },
-        {
-          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153",
-          "host": "stream.ads.ottera.tv",
-          "source_type": "hls",
-          "quality": null,
-          "source_order": 2,
           "headers": {},
           "status": "eligible_unverified"
         }
