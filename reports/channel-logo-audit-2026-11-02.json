@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "report_type": "channel_logo_audit_and_safe_https_repair",
+  "generated_at": "2026-11-02",
+  "branch": "audit/acervo-hardening-2026-10",
+  "base_commit": "fff33c5af655252e672f7a7998e8c7e39363c50d",
+  "catalog_mutated": true,
+  "counts": {
+    "channels_total": 2431,
+    "channels_with_logo": 2081,
+    "channels_missing_logo": 350,
+    "logo_urls_https_after": 680,
+    "logo_urls_http_after": 1401,
+    "manifest_entries": 526,
+    "manifest_unique_normalized_names": 526,
+    "exact_reference_candidates_for_missing_channels": 0,
+    "quality_marker_candidate_for_missing_channels": 1,
+    "quality_marker_candidate_rejected": 1,
+    "exact_name_matches_in_authorized_saimo_sources": 234,
+    "safe_https_repairs_applied": 9
+  },
+  "updates": [
+    {
+      "id": "br.canal-brasil",
+      "name": "Canal Brasil",
+      "from": "http://www.imgu.top/logos/CANAL%20BRASIL.jpg",
+      "to": "https://mondrian.claro.com.br/channels/inverse/canal-brasil.png"
+    },
+    {
+      "id": "br.lifetime",
+      "name": "Lifetime",
+      "from": "http://www.fontedecanais.me/logos/canais/lifetime.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/lifetime.png"
+    },
+    {
+      "id": "br.bis",
+      "name": "BIS",
+      "from": "http://www.fontedecanais.me/logos/canais/bis.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/bis.png"
+    },
+    {
+      "id": "br.modo-viagem",
+      "name": "Modo Viagem",
+      "from": "http://www.fontedecanais.me/logos/canais/modoviagem.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/modo-viagem.png"
+    },
+    {
+      "id": "br.curta",
+      "name": "Curta",
+      "from": "http://tvonhdbr.com/static/logos/canais/curta.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/curta!.png"
+    },
+    {
+      "id": "br.dog-tv",
+      "name": "DOG TV",
+      "from": "http://tvonhdbr.com/images/2ecd0b43c0ba5f0fac0f9fbb98bb79cd.jpg",
+      "to": "https://mondrian.claro.com.br/channels/inverse/dog-tv.png"
+    },
+    {
+      "id": "br.eurochannel",
+      "name": "Eurochannel",
+      "from": "http://tvonhdbr.com/images/e319732e23a51cafb209d07c7a26c615.jpg",
+      "to": "https://mondrian.claro.com.br/channels/inverse/euro-channel.png"
+    },
+    {
+      "id": "br.paramount-4",
+      "name": "Paramount + 4",
+      "from": "http://tvonhdbr.com/images/a2297e25c35601bed705a676d70e41df.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/paramountplus-4.png"
+    },
+    {
+      "id": "br.prime-box-brazil",
+      "name": "Prime Box Brazil",
+      "from": "http://tvonhdbr.com/static/logos/canais/primeboxbrazil.png",
+      "to": "https://mondrian.claro.com.br/channels/inverse/prime-boxbrazil.png"
+    }
+  ],
+  "limitations": [
+    "Logo endpoints were not live-probed in this run; HTTPS scheme and exact normalized brand mapping were checked structurally.",
+    "The single relaxed 'Loading HD' -> 'Loading' candidate was rejected as a generic loading placeholder, not a channel brand.",
+    "No missing channel received a guessed or fuzzy logo.",
+    "HTTP logos not covered by an exact HTTPS reference remain unchanged; HTTP does not prove the image is dead, but remains a transport-security and compatibility risk.",
+    "Repeated logo URLs may be legitimate shared network branding across regional or quality variants and were not treated as duplicates automatically."
+  ]
+}

@@ -39,7 +39,7 @@ Atualizado em 2026-11-02. Este checklist registra entregas verificadas e limita�
 
 - [x] 2.431 canais no catálogo.
 - [x] 2.110 canais com pelo menos uma referência de transmissão; 321 sem fonte ativa.
-- [x] 1.752 canais com logo; 679 sem logo.
+- [x] 2.081 canais com logo; 350 sem logo, conforme catálogo na branch em 2026-11-02.
 - [x] 715 canais com `epg_id`; 713 IDs encontrados no índice XMLTV e dois não encontrados.
 - [x] Seis fontes XMLTV saudáveis na última atualização registrada.
 - [x] Parser HTML executado contra páginas reais: 87 programações saudáveis e duas páginas indisponíveis.
@@ -52,10 +52,15 @@ Atualizado em 2026-11-02. Este checklist registra entregas verificadas e limita�
 
 ## 4. Logotipos de canais
 
-- [x] Referência SaimoTV-Android sanitizada para nome e logo, sem importar DRM, headers ou URLs de reprodução.
-- [x] Correspondência exata normalizada executada: zero novos candidatos seguros.
-- [x] 82 candidatos que dependem de remover marcadores de qualidade permanecem somente para revisão.
-- [ ] Não aplicar logos por aproximação; procurar outra fonte com correspondência exata e proveniência verificável.
+- [x] Referência sanitizada de 526 entradas; 526 nomes normalizados únicos, sem duplicidade de chave no manifesto.
+- [x] Auditoria do catálogo atual: 2.431 canais, 2.081 com logo e 350 sem logo.
+- [x] Antes da correção, 1.410 dos 2.081 endereços preenchidos usavam HTTP e 671 HTTPS.
+- [x] Comparação com referências autorizadas SaimoPlayer/Saimo-TV: 234 correspondências exatas; nenhuma das 350 lacunas tinha logo exata disponível.
+- [x] Um candidato relaxado (`Loading HD` → `Loading`) foi rejeitado por ser placeholder genérico.
+- [x] Nove logos HTTP substituídas por referências HTTPS do manifesto, com nome de canal exato após normalização: Canal Brasil, Lifetime, BIS, Modo Viagem, Curta, DOG TV, Eurochannel, Paramount + 4 e Prime Box Brazil.
+- [ ] Permanecem 1.401 logos HTTP sem substituto HTTPS exato no manifesto; não converter esquema automaticamente nem inventar endpoints.
+- [ ] Permanecem 350 canais sem logo; precisam de fontes com identidade de marca exata.
+- [ ] A disponibilidade HTTP da imagem não foi testada nesta auditoria; HTTPS foi verificado estruturalmente, não por download.
 
 ## 5. Rádios
 
