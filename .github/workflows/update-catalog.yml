@@ -64,6 +64,7 @@ jobs:
               '/vod/radios.txt' \
               '/vod/mgeb/links-*.txt' \
               '/vod/redeflix/links-*.txt' \
+              '/catalogo.txt' \\
               '/1.m3u' \
               '/3.m3u'
             echo "REFERENCE_AVAILABLE=true" >> "$GITHUB_ENV"
