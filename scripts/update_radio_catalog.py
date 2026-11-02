@@ -8,6 +8,8 @@ from collections import Counter
 import re
 import time
 import unicodedata
+import urllib.request
+from functools import lru_cache
 import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,9 +17,9 @@ from typing import Any
 from urllib.parse import urlsplit, urlunsplit
 
 try:
-    from .update_catalog import ROOT, fetch, safe_https_url, safe_source_url, atomic_write_json, normalize_key
+    from .update_catalog import ROOT, fetch, safe_https_url, safe_source_url, atomic_write_json, normalize_key, SafeRedirectHandler
 except ImportError:
-    from update_catalog import ROOT, fetch, safe_https_url, safe_source_url, atomic_write_json, normalize_key
+    from update_catalog import ROOT, fetch, safe_https_url, safe_source_url, atomic_write_json, normalize_key, SafeRedirectHandler
 
 MAX_SOURCE_RECORDS = 10000
 
@@ -316,26 +318,65 @@ def genre_from_tags(tags: Any) -> str | None:
     return found[0] if found else None
 
 
+@lru_cache(maxsize=256)
+def probe_homepage_favicon(homepage: str) -> str | None:
+    """Accept only an image favicon served over HTTPS by the station's own homepage host."""
+    if not safe_https_url(homepage):
+        return None
+    parsed = urlsplit(homepage)
+    homepage_host = (parsed.hostname or "").lower()
+    if not homepage_host:
+        return None
+    candidate = urlunsplit((parsed.scheme, parsed.netloc, "/favicon.ico", "", ""))
+    request = urllib.request.Request(
+        candidate,
+        headers={"User-Agent": "CineHUB-ACERVO/0.2 (+radio metadata)", "Accept": "image/*"},
+    )
+    opener = urllib.request.build_opener(SafeRedirectHandler())
+    try:
+        with opener.open(request, timeout=6) as response:
+            final_url = response.geturl()
+            final_host = (urlsplit(final_url).hostname or "").lower()
+            if not safe_https_url(final_url) or final_host != homepage_host:
+                return None
+            if not 200 <= int(getattr(response, "status", 200)) < 300:
+                return None
+            content_type = str(response.headers.get("Content-Type", "")).lower()
+            sample = response.read(1024)
+            image_signature = (
+                sample.startswith(b"\\x00\\x00\\x01\\x00")
+                or sample.startswith(b"\\x89PNG")
+                or sample.startswith(b"\\xff\\xd8")
+                or sample.startswith((b"GIF87a", b"GIF89a"))
+                or (sample.startswith(b"RIFF") and b"WEBP" in sample[:16])
+                or b"<svg" in sample[:512].lower()
+            )
+            if not content_type.startswith("image/") and not image_signature:
+                return None
+            if not image_signature and not content_type.startswith("image/"):
+                return None
+            return candidate
+    except (OSError, ValueError, urllib.error.URLError):
+        return None
+
+
 def safe_station_favicon(station: dict[str, Any]) -> str | None:
     favicon = str(station.get("favicon") or "").strip()
     homepage = str(station.get("homepage") or "").strip()
-    if not safe_https_url(favicon) or not safe_https_url(homepage):
-        return None
-    favicon_host = (urlsplit(favicon).hostname or "").lower()
-    homepage_host = (urlsplit(homepage).hostname or "").lower()
-    if not favicon_host or not homepage_host:
-        return None
-    if not (
-        favicon_host == homepage_host
-        or favicon_host.endswith("." + homepage_host)
-        or homepage_host.endswith("." + favicon_host)
-    ):
-        return None
-    blocked = {"google.com", "googleusercontent.com", "favicon.io", "faviconkit.com",
-               "duckduckgo.com", "gravatar.com", "cloudflare.com"}
-    if any(favicon_host == host or favicon_host.endswith("." + host) for host in blocked):
-        return None
-    return favicon
+    if safe_https_url(favicon) and safe_https_url(homepage):
+        favicon_host = (urlsplit(favicon).hostname or "").lower()
+        homepage_host = (urlsplit(homepage).hostname or "").lower()
+        blocked = {"google.com", "googleusercontent.com", "favicon.io", "faviconkit.com",
+                   "duckduckgo.com", "gravatar.com", "cloudflare.com"}
+        same_host = (
+            favicon_host == homepage_host
+            or favicon_host.endswith("." + homepage_host)
+            or homepage_host.endswith("." + favicon_host)
+        )
+        is_blocked = any(favicon_host == host or favicon_host.endswith("." + host) for host in blocked)
+        if favicon_host and homepage_host and same_host and not is_blocked:
+            return favicon
+    return probe_homepage_favicon(homepage)
 
 
 def match_radio_browser_station(radio: dict[str, Any], stations: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
@@ -377,7 +418,7 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
     counts = {
         "matched_by_stream": 0, "matched_by_name": 0, "unmatched": 0,
         "ambiguous": 0, "genres_filled": 0, "logos_filled": 0,
-        "favicon_rejected": 0, "genre_unclassified": 0,
+        "favicon_rejected": 0, "homepage_favicon_filled": 0, "genre_unclassified": 0,
         "unclassified_tags": {},
         "updated_radio_names": [],
     }
@@ -414,6 +455,8 @@ def apply_radio_browser_metadata(radios: list[dict[str, Any]], stations: list[di
             if favicon:
                 radio["logo_url"] = favicon
                 counts["logos_filled"] += 1
+                if favicon != str(station.get("favicon") or "").strip():
+                    counts["homepage_favicon_filled"] += 1
                 changed = True
             elif station.get("favicon"):
                 counts["favicon_rejected"] += 1
