@@ -1,12 +1,12 @@
 # CineHUB ACERVO
 
-Repositório central de dados do CineHUB TV e CineHUB Mobile. Mantém fontes, índices e metadados versionados de forma independente dos aplicativos.
+Repositório central de dados do CineHUB TV, CineHUB Mobile e CineHUB Web. Mantém fontes, índices e metadados versionados de forma independente dos aplicativos.
 
 > **Estado inicial:** estrutura de acervo e automação. As fontes de terceiros precisam ser validadas antes de entrar em produção; este repositório não presume que uma URL esteja funcional ou que haja autorização para redistribuir um conteúdo.
 
 ## Objetivos
 
-- Catálogo compartilhado para TV e Mobile, sem duplicar a lógica dos apps.
+- Catálogo compartilhado para TV, Mobile e Web; os aplicativos consultam este repositório e não mantêm cópias internas dos catálogos.
 - Canais ao vivo com fontes alternativas, grupos, logos e identificadores estáveis.
 - Filmes, séries, animes e doramas por índices e metadados leves.
 - Rádios com nome, stream, estilo e logo.
@@ -46,7 +46,7 @@ reports/          relatórios automáticos; sem segredos
 
 ## Formatos
 
-- Catálogo JSON versionado para TV e Mobile.
+- Catálogo JSON versionado e consumido por TV, Mobile e Web.
 - M3U/M3U8 preservados quando a fonte permitir redistribuição; não embutir listas privadas.
 - Rádio: `id`, `name`, `stream_url`, `logo_url`, `genre`, `source_id`.
 - Canal: `id`, `name`, `group`, `logo_url`, `epg_id`, `sources[]`.
@@ -93,7 +93,7 @@ python scripts/validate_catalog.py
 
 ## Status
 
-Versão de estrutura: **0.1.0**. A integração com os aplicativos CineHUB TV/Mobile deve ser feita por URLs estáveis e validada em cada app antes de trocar a fonte atual.
+Versão de estrutura: **0.1.0**. A integração com CineHUB TV, Mobile e Web deve ser feita por URLs estáveis e validada em cada consumidor antes de trocar a fonte atual.
 
 
 ## Enriquecimento VOD via Supabase (somente revisão)
