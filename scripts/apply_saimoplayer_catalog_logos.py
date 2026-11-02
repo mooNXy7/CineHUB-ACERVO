@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = "catalog/channels/channels.json"
 SENSITIVE_QUERY_KEYS = {"token", "access_token", "auth", "authorization", "key",
                         "password", "passwd", "signature", "sig", "session"}
-QUALITY = re.compile(r"\\b(?:hd|sd|fhd|uhd|4k|1080p|720p|h265|hevc)\\b", re.I)
+QUALITY = re.compile(r"\b(?:hd|sd|fhd|uhd|4k|1080p|720p|h265|hevc)\b", re.I)
 
 # Alias table taken from the authorized SaimoPlayer channel canonicalizer.
 ALIASES = {
@@ -52,13 +52,13 @@ ALIASES = {
 def normalize(value: Any) -> str:
     value = unicodedata.normalize("NFKD", str(value or ""))
     value = "".join(char for char in value if not unicodedata.combining(char))
-    value = re.sub(r"^24\\s*h\\s*", "", value, flags=re.I)
+    value = re.sub(r"^24\s*h\s*", "", value, flags=re.I)
     value = QUALITY.sub(" ", value)
     return re.sub(r"[^a-z0-9+]+", " ", value.casefold()).strip()
 
 
 def canonical_key(value: Any) -> str:
-    key = re.sub(r"\\s+", " ", normalize(value)).strip()
+    key = re.sub(r"\s+", " ", normalize(value)).strip()
     return ALIASES.get(key, key)
 
 
