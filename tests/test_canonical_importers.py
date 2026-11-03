@@ -85,7 +85,8 @@ class CanonicalParserTests(unittest.TestCase):
         self.assertEqual(len(series), 1)
         self.assertEqual([x["season"] for x in series[0]["seasons"]], [1, 2])
         self.assertEqual(len(series[0]["seasons"][0]["episodes"][0]["sources"]), 1)
-        self.assertEqual(series[0]["seasons"][0]["episodes"][0]["provider_refs"][0]["ref"], "provider-episode-10")
+        leg_episode = next(x for x in series[0]["seasons"][0]["episodes"] if x["audio"] == "leg")
+        self.assertEqual(leg_episode["provider_refs"][0]["ref"], "provider-episode-10")
         self.assertEqual(q_series, [])
 
     def test_xmltv_preserves_child_text_and_timezone_and_quarantines_invalid_programmes(self):
