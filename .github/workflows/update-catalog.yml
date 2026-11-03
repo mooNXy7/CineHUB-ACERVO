@@ -6,13 +6,11 @@ on:
     paths:
       - "sources/sources.json"
       - "sources/m3u/**"
-      - "catalog/epg/**"
       - "scripts/update_catalog.py"
       - "scripts/import_reference_catalog.py"
       - "scripts/normalize_catalog.py"
       - "scripts/validate_catalog.py"
       - "scripts/update_epg.py"
-      - ".github/workflows/update-catalog.yml"
   schedule:
     - cron: "23 8 * * *"
   workflow_dispatch:
