@@ -91,13 +91,13 @@ Nenhuma alteração funcional em catálogo/workflows, consumidores ou OTA. A bra
 ## 2026-11-03 — Fase A concluída
 
 ### Execução
-- GitHub Actions: Validate catalog, run 921, run ID 41573214240.
+- GitHub Actions: Validate catalog, run 930, run ID 41573383428.
 - Resultado final: success.
 - validate_catalog.py: success.
 - audit_baseline.py: success.
 - unittest: 25 testes, 0 falhas.
 - py_compile scripts/*.py: success.
-- Artefato ID 13202222754, com baseline.json, baseline.md e catalog-snapshot.sha256.
+- Artefato ID 13202372616, com baseline.json, baseline.md e catalog-snapshot.sha256.
 
 ### Inventário executado
 - catalog/: 728 arquivos, 314.213.984 bytes.
@@ -126,8 +126,31 @@ Nenhuma alteração funcional em catálogo/workflows, consumidores ou OTA. A bra
 - 731 arquivos em catalog/ e sources/.
 - Total: 314.216.337 bytes.
 - SHA-256 agregado: bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
-- Manifesto individual disponível no artefato do run 921.
+- Manifesto individual disponível no artefato 13202372616.
 - Nenhum catálogo ativo foi modificado durante a Fase A.
 
 ### Encerramento
 Critérios da Fase A atendidos: inventário real; workflows/scripts verificados; testes implementados e executados; problemas confirmados separados de hipóteses; proteção documentada; histórico e próxima tarefa atualizados. Próxima etapa: Fase B, conforme NEXT_TASK.md.
+
+
+## 2026-11-03 — Reconciliação técnica/documental da Fase A
+
+### Identificadores reconciliados
+- Branch auditada: develop/acervo-v2.
+- HEAD real da branch: 3c4d2f7b2c4177e09745f6979860c95ffc8f39a3.
+- Commit temporário de integração do runner: d6266bbe5679546e39a63e2724b1460c5465ed4f.
+- Comparação com main c2176962dccc218cd17622f0acd786ff76b18a6d: 34 commits à frente, zero atrás.
+- Arquivos catalog/ ou sources/ na diferença: zero.
+
+### Execução e artefato canônicos
+- Workflow Validate catalog, run 930, ID 41573383428: success.
+- Job validate: success.
+- Validador do catálogo, auditor baseline, suíte unittest (25/25), py_compile e upload do artefato: success.
+- Artefato ID 13202372616.
+- Nome: acervo-v2-baseline-d6266bbe5679546e39a63e2724b1460c5465ed4f.
+- Digest SHA-256 do ZIP: f7474e0132200ff522e8c82e2b85a20494c3776f4bd0c88b66a835a3c27ae690.
+- SHA-256 agregado do snapshot de 731 arquivos: bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
+- O baseline.json dentro do artefato registra git_head=d6266bbe..., que é o merge commit temporário do runner. Não confundir com o HEAD da branch 3c4d2f7....
+
+### Fechamento
+Relatórios, status, handoff e próxima tarefa reconciliados para os identificadores corretos da execução 930. PR #2 permanece aberto como draft, não mesclado. Nenhum catálogo, consumidor, segredo, configuração TMDB ou repositório de referência foi alterado. Fase B não iniciada.

@@ -1,21 +1,42 @@
 {
   "date": "2026-11-03",
   "branch": "develop/acervo-v2",
-  "branch_head": "6f7c01240da3cf263875cddcb5ef006acce15a7c",
+  "branch_head": "3c4d2f7b2c4177e09745f6979860c95ffc8f39a3",
+  "integration_commit": "d6266bbe5679546e39a63e2724b1460c5465ed4f",
+  "comparison_with_main": {
+    "main": "c2176962dccc218cd17622f0acd786ff76b18a6d",
+    "branch_head": "3c4d2f7b2c4177e09745f6979860c95ffc8f39a3",
+    "ahead_by": 34,
+    "behind_by": 0,
+    "changed_files": 15,
+    "catalog_or_sources_files_changed": 0
+  },
   "workflow": {
     "name": "Validate catalog",
-    "run_number": 921,
-    "run_id": 41573214240,
+    "run_number": 930,
+    "run_id": 41573383428,
     "conclusion": "success",
+    "branch": "develop/acervo-v2",
+    "branch_head": "3c4d2f7b2c4177e09745f6979860c95ffc8f39a3",
+    "integration_commit": "d6266bbe5679546e39a63e2724b1460c5465ed4f",
+    "job": "validate",
+    "job_conclusion": "success",
+    "steps": {
+      "checkout": "success",
+      "setup_python_3_12": "success",
+      "catalog_validator": "success",
+      "baseline_audit": "success",
+      "unittest": "success",
+      "py_compile": "success",
+      "upload_artifact": "success"
+    },
     "tests": {
       "passed": 25,
       "failed": 0
     },
-    "catalog_validator": "success",
-    "baseline_audit": "success",
-    "py_compile": "success",
-    "artifact_id": 13202222754,
-    "artifact_name": "acervo-v2-baseline-a4387ac51b4baa8124fae0b8d48da06b9b52988f"
+    "artifact_id": 13202372616,
+    "artifact_name": "acervo-v2-baseline-d6266bbe5679546e39a63e2724b1460c5465ed4f",
+    "artifact_zip_sha256": "f7474e0132200ff522e8c82e2b85a20494c3776f4bd0c88b66a835a3c27ae690"
   },
   "inventory": {
     "directories": {
@@ -40,8 +61,8 @@
         "bytes": 12713
       },
       "reports/": {
-        "files": 1,
-        "bytes": 782
+        "files": 3,
+        "bytes": 7600
       },
       ".github/workflows/": {
         "files": 4,
@@ -70,6 +91,7 @@
     "epg_sources": 6,
     "epg_channel_map_exists": true,
     "source_registry_entries": 1,
+    "local_logo_directory_files": 3,
     "local_logo_image_files": 0,
     "dependency_manifests_found": []
   },
@@ -86,9 +108,11 @@
     "tmdb_secret_names_in_workflows": []
   },
   "snapshot": {
+    "artifact_id": 13202372616,
     "files": 731,
     "bytes": 314216337,
-    "aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e"
+    "aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e",
+    "manifest": "catalog-snapshot.sha256"
   },
   "conclusion": "phase_a_complete",
   "limitations": [
