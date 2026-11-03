@@ -34,3 +34,15 @@ Os registros abaixo descrevem o estado observado em cada data/execução; SHAs e
 
 ## Restrições mantidas
 Nenhum catálogo ou fonte foi alterado; nenhum consumidor, segredo, configuração TMDB ou repositório de referência foi modificado; PR #2 não foi mesclado; Fase B não foi iniciada.
+
+
+---
+
+## Retomada documental — 2026-11-03
+- HEAD remoto confirmado de `develop/acervo-v2`: `3d8d143ae387f3340c1efb285fb3199393c25a99`.
+- `main`: `c2176962dccc218cd17622f0acd786ff76b18a6d`.
+- Comparação: 45 commits à frente, 0 atrás; 15 arquivos reportados; zero alterações em `catalog/` e `sources/` nesta comparação.
+- PR #1 e PR #2: ambos abertos, draft e não mesclados.
+- Fase A continua encerrada. Fase B continua sem implementação iniciada; recebeu autorização explícita do responsável para o executor começar.
+- Esta atualização apenas corrige a passagem operacional; não representa implementação, validação de código nem execução de workflow da Fase B.
+- Não reutilizar os SHAs acima sem revalidar. Ver `NEXT_TASK.md` para o roteiro e os limites da execução.
