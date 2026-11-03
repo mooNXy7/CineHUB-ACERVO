@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
       - name: Fetch only the reference catalog files
         run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/gabrielsaimo/SaimoPlayer.git /tmp/cinehub-reference
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoPlayer.git /tmp/cinehub-reference
           git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
             '/vod/filmes-*.txt' \
             '/vod/series-*-*.txt' \
