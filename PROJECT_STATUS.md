@@ -40,7 +40,7 @@ A Fase B é a próxima tarefa planejada, conforme NEXT_TASK.md. Continua não in
 ## Plano mestre integral — continuidade obrigatória
 O plano completo do início ao aceite final está em [ROADMAP_V2.md](ROADMAP_V2.md). Este é o documento mestre de fases, arquitetura, dependências, critérios de aceite e retomada. Leia-o integralmente antes de iniciar qualquer nova tarefa.
 - Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
-- HEAD atual após consolidação: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
+- Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`. Para o HEAD atual, consultar a branch diretamente; não reutilizar SHA histórico como se fosse atual.
 - Fase A: CONCLUÍDA conforme evidências históricas acima.
 - Fase B: PRÓXIMA, NÃO INICIADA.
 - O roadmap preserva os achados, motores, armazenamento próprio, ingestão de arquivos, independência de repositórios externos, domínios e fases até o aceite final.
