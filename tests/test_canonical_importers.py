@@ -149,6 +149,109 @@ class CanonicalParserTests(unittest.TestCase):
                 parse_vod_catalog(root)
 
 
+    def test_vod_identity_merges_duplicate_provider_entities_and_splits_conflicting_ids(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for section in ("series", "anime", "doramas"):
+                (root / f"catalog/vod/index/{section}.json").parent.mkdir(parents=True, exist_ok=True)
+                (root / f"catalog/vod/details/{section}").mkdir(parents=True, exist_ok=True)
+            (root / "catalog/vod/index.json").write_text(json.dumps({
+                "categories": {
+                    "series": {"index_path": "catalog/vod/index/series.json"},
+                    "anime": {"index_path": "catalog/vod/index/anime.json"},
+                    "doramas": {"index_path": "catalog/vod/index/doramas.json"},
+                }
+            }), encoding="utf-8")
+            entries = {
+                "series": [
+                    {"id": "series-shared", "title": "Título Original", "subtype": "anime",
+                     "year": "2020", "tmdb_id": "100", "detail_path": "catalog/vod/details/series/A.json"},
+                    {"id": "series-my-name", "title": "My Name", "subtype": "dorama",
+                     "year": "2021", "tmdb_id": "110356", "detail_path": "catalog/vod/details/series/M.json"},
+                ],
+                "anime": [
+                    {"id": "series-shared", "title": "Título Original", "subtype": "anime",
+                     "year": "2020", "tmdb_id": "100", "detail_path": "catalog/vod/details/anime/A.json"},
+                    {"id": "series-translated", "title": "Translated Title", "subtype": "anime",
+                     "year": "2020", "tmdb_id": "100", "detail_path": "catalog/vod/details/anime/T.json"},
+                ],
+                "doramas": [
+                    {"id": "series-my-name", "title": "My Name", "subtype": "dorama",
+                     "year": "2021", "tmdb_id": "2317", "detail_path": "catalog/vod/details/doramas/M.json"},
+                ],
+            }
+            for section, rows in entries.items():
+                (root / f"catalog/vod/index/{section}.json").write_text(json.dumps(rows), encoding="utf-8")
+
+            def detail(ident, title, tmdb, source_url, extra=None):
+                value = {
+                    "id": ident, "title": title, "type": "series",
+                    "subtype": "anime" if tmdb == "100" else "dorama",
+                    "year": "2020" if tmdb == "100" else "2021", "tmdb_id": tmdb,
+                    "sources": [{"url": source_url, "audio": "dub", "source_id": "provider-a"}],
+                    "seasons": [{"season": 1, "episodes": [{
+                        "episode": 1, "audio": "dub",
+                        "sources": [{"url": "https://vod.example.test/shared.m3u8",
+                                     "audio": "dub", "source_id": "provider-a"}],
+                        "provider_refs": [{"provider": "p", "ref": f"{tmdb}/1/1"}],
+                    }]}],
+                }
+                if extra:
+                    value.update(extra)
+                return value
+
+            (root / "catalog/vod/details/series/A.json").write_text(json.dumps([
+                detail("series-shared", "Título Original", "100",
+                       "https://vod.example.test/shared.m3u8", {"unknown_field": {"keep": 1}})
+            ]), encoding="utf-8")
+            (root / "catalog/vod/details/anime/A.json").write_text(json.dumps([
+                detail("series-shared", "Título Original", "100",
+                       "https://vod.example.test/shared.m3u8", {"other_unknown": "preserve"})
+            ]), encoding="utf-8")
+            (root / "catalog/vod/details/anime/T.json").write_text(json.dumps([
+                detail("series-translated", "Translated Title", "100",
+                       "https://vod.example.test/translated.m3u8")
+            ]), encoding="utf-8")
+            (root / "catalog/vod/details/series/M.json").write_text(json.dumps([
+                detail("series-my-name", "My Name", "110356",
+                       "https://vod.example.test/my-name-110356.m3u8")
+            ]), encoding="utf-8")
+            (root / "catalog/vod/details/doramas/M.json").write_text(json.dumps([
+                detail("series-my-name", "My Name", "2317",
+                       "https://vod.example.test/my-name-2317.m3u8")
+            ]), encoding="utf-8")
+
+            first, quarantine = parse_vod_catalog(root)
+            second, _ = parse_vod_catalog(root)
+            self.assertEqual(quarantine, [])
+            self.assertEqual([item["id"] for item in first], [item["id"] for item in second])
+            self.assertEqual(len(first), 3)
+            shared = next(item for item in first if item["external_ids"]["tmdb"] == "100")
+            self.assertEqual(shared["id"], "series-shared")
+            self.assertEqual(shared["legacy_ids"], ["series-shared", "series-translated"])
+            self.assertEqual(shared["catalog_sections"], ["series", "anime"])
+            self.assertIn("Translated Title", shared["aliases"])
+            self.assertEqual(len(shared["provenance"]), 3)
+            self.assertEqual({item["url"] for item in shared["sources"]}, {
+                "https://vod.example.test/shared.m3u8",
+                "https://vod.example.test/translated.m3u8",
+            })
+            self.assertTrue(shared["raw"]["detail"]["unknown_field"]["keep"])
+            self.assertTrue(any(x["detail"].get("other_unknown") == "preserve"
+                                for x in shared["raw"].get("alternate_details", [])))
+            episode = shared["seasons"][0]["episodes"][0]
+            self.assertEqual(len(episode["provider_refs"]), 1)
+            all_variants = list(shared["sources"]) + list(episode["sources"])
+            self.assertEqual(len({x["id"] for x in all_variants}), len(all_variants))
+            self.assertEqual({x["entity_id"] for x in all_variants}, {shared["id"]})
+            self.assertNotEqual(shared["sources"][0]["id"], episode["sources"][0]["id"])
+
+            my_names = [item for item in first if item["title"] == "My Name"]
+            self.assertEqual({item["external_ids"]["tmdb"] for item in my_names}, {"110356", "2317"})
+            self.assertEqual(len({item["id"] for item in my_names}), 2)
+            self.assertIn("series-my-name", {item["id"] for item in my_names})
+            self.assertTrue(any(item["id"].startswith("series-my-name~") for item in my_names))
+
     def test_import_canonical_cli_resolves_package_from_external_working_directory(self):
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp) / "candidate.json"

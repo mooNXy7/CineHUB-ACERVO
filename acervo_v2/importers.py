@@ -74,8 +74,16 @@ def is_image_url(value: object) -> bool:
     return bool(re.search(r"\.(?:png|jpe?g|webp|gif|svg|ico|avif)(?:$|/)", path))
 
 
+def _variant_internal_id(entity_id: str, source_id: str, url: str, audio: object = None,
+                          scope: str = "entity", source_type: object = None) -> str:
+    identity = json.dumps([entity_id, scope, url, str(audio or ""), str(source_type or "")],
+                          ensure_ascii=False, separators=(",", ":"))
+    return stable_id("stream", source_id, identity)
+
+
 def _stream_variant(item: dict, entity_id: str, source_id: str, provenance: dict,
-                    quarantine: list, domain: str = "stream") -> dict | None:
+                    quarantine: list, domain: str = "stream",
+                    scope: str = "entity") -> dict | None:
     url = str(item.get("url") or item.get("stream_url") or "").strip()
     ok, reason = safe_stream_url(url)
     if not ok:
@@ -94,18 +102,19 @@ def _stream_variant(item: dict, entity_id: str, source_id: str, provenance: dict
     status = str(item.get("status") or "unverified")
     if status not in {"unverified", "imported", "validated", "reachable", "unavailable", "quarantined", "unknown"}:
         status = "unknown"
-    return {
-        "id": str(item.get("id") or stable_id("stream", variant_source, url + "|" + str(item.get("audio") or ""))),
-        "entity_id": entity_id,
-        "source_id": variant_source,
-        "url": url,
-        "protocol": urlsplit(url).scheme.lower(),
-        "priority": priority,
-        "audio": item.get("audio"),
-        "status": status,
-        "provenance": [provenance],
-        "raw": item,
+    audio, source_type = item.get("audio"), item.get("source_type")
+    result = {
+        "id": _variant_internal_id(entity_id, variant_source, url, audio, scope, source_type),
+        "entity_id": entity_id, "source_id": variant_source, "url": url,
+        "protocol": urlsplit(url).scheme.lower(), "priority": priority,
+        "audio": audio, "scope": scope, "status": status,
+        "provenance": [provenance], "raw": item,
     }
+    if source_type is not None:
+        result["source_type"] = source_type
+    if item.get("id") is not None:
+        result["provider_variant_id"] = str(item["id"])
+    return result
 
 
 def _record_id(domain: str, item: dict, source_id: str, key: str) -> str:
@@ -113,13 +122,135 @@ def _record_id(domain: str, item: dict, source_id: str, key: str) -> str:
 
 
 def _unique_variants(streams: list[dict]) -> list[dict]:
-    result, seen = [], set()
+    """Collapse exact same owner/scope/source/URL/audio variants without losing provenance."""
+    result, by_key = [], {}
     for stream in streams:
-        key = (stream.get("source_id"), stream.get("url"), stream.get("audio"))
-        if key not in seen:
-            seen.add(key)
+        key = (stream.get("entity_id"), stream.get("scope", "entity"),
+               stream.get("source_id"), stream.get("url"), stream.get("audio"),
+               stream.get("source_type"))
+        existing = by_key.get(key)
+        if existing is None:
+            by_key[key] = stream
             result.append(stream)
+            continue
+        for provenance in stream.get("provenance", []):
+            if provenance not in existing.setdefault("provenance", []):
+                existing["provenance"].append(provenance)
+        existing["priority"] = min(int(existing.get("priority", 100)),
+                                   int(stream.get("priority", 100)))
+        provider_ids = set(existing.get("provider_variant_ids", []))
+        if existing.get("provider_variant_id"):
+            provider_ids.add(existing["provider_variant_id"])
+        if stream.get("provider_variant_id"):
+            provider_ids.add(stream["provider_variant_id"])
+        if provider_ids:
+            existing["provider_variant_ids"] = sorted(provider_ids)
+        raw_variants = list(existing.get("raw_variants", []))
+        if stream.get("raw") != existing.get("raw") and stream.get("raw") not in raw_variants:
+            raw_variants.append(stream.get("raw"))
+        if raw_variants:
+            existing["raw_variants"] = raw_variants
     return result
+
+
+def _merge_values(primary: list, incoming: list) -> list:
+    result = list(primary or [])
+    for value in incoming or []:
+        if value not in result:
+            result.append(value)
+    return result
+
+
+def _merge_vod_seasons(primary: list, incoming: list) -> list:
+    seasons = {int(item["season"]): item for item in (primary or [])}
+    for source_season in incoming or []:
+        number = int(source_season["season"])
+        target = seasons.get(number)
+        if target is None:
+            seasons[number] = source_season
+            continue
+        if source_season.get("raw") != target.get("raw") and source_season.get("raw") is not None:
+            target["raw_alternates"] = _merge_values(target.get("raw_alternates", []), [source_season["raw"]])
+        episodes = {(int(item["episode"]), item.get("audio")): item for item in target.get("episodes", [])}
+        for source_episode in source_season.get("episodes", []):
+            key = (int(source_episode["episode"]), source_episode.get("audio"))
+            episode = episodes.get(key)
+            if episode is None:
+                target.setdefault("episodes", []).append(source_episode)
+                episodes[key] = source_episode
+                continue
+            episode["sources"] = _unique_variants(
+                list(episode.get("sources", [])) + list(source_episode.get("sources", [])))
+            episode["provider_refs"] = _merge_values(
+                episode.get("provider_refs", []), source_episode.get("provider_refs", []))
+            if source_episode.get("raw") != episode.get("raw") and source_episode.get("raw") is not None:
+                episode["raw_alternates"] = _merge_values(
+                    episode.get("raw_alternates", []), [source_episode["raw"]])
+    result = sorted(seasons.values(), key=lambda item: int(item["season"]))
+    for season in result:
+        season["episodes"] = sorted(
+            season.get("episodes", []),
+            key=lambda item: (int(item["episode"]), str(item.get("audio") or "")))
+    return result
+
+
+def _merge_vod_records(primary: dict, incoming: dict) -> dict:
+    """Merge records already resolved to the same provider-backed VOD identity."""
+    if primary["id"] != incoming["id"]:
+        raise ValueError("cannot merge VOD records with different canonical IDs")
+    if incoming.get("title") and incoming["title"] != primary.get("title"):
+        primary["aliases"] = _merge_values(primary.get("aliases", []), [incoming["title"]])
+    primary["aliases"] = _merge_values(primary.get("aliases", []), incoming.get("aliases", []))
+    primary["genres"] = _merge_values(primary.get("genres", []), incoming.get("genres", []))
+    primary["sources"] = _unique_variants(list(primary.get("sources", [])) + list(incoming.get("sources", [])))
+    primary["provider_refs"] = _merge_values(primary.get("provider_refs", []), incoming.get("provider_refs", []))
+    primary["seasons"] = _merge_vod_seasons(primary.get("seasons", []), incoming.get("seasons", []))
+    primary["provenance"] = _merge_values(primary.get("provenance", []), incoming.get("provenance", []))
+    primary["legacy_ids"] = _merge_values(primary.get("legacy_ids", []), incoming.get("legacy_ids", []))
+    primary["catalog_sections"] = _merge_values(primary.get("catalog_sections", []), incoming.get("catalog_sections", []))
+    primary_external = primary.setdefault("external_ids", {})
+    incoming_external = incoming.get("external_ids", {})
+    for provider in ("tmdb", "imdb"):
+        value, current = incoming_external.get(provider), primary_external.get(provider)
+        if value and not current:
+            primary_external[provider] = value
+        elif value and current and str(value) != str(current):
+            alternates = primary_external.setdefault("alternates", [])
+            candidate = {"provider": provider, "id": str(value)}
+            if candidate not in alternates:
+                alternates.append(candidate)
+    for field in ("year", "overview", "poster_url"):
+        value, current = incoming.get(field), primary.get(field)
+        if value not in (None, "") and current in (None, ""):
+            primary[field] = value
+        elif value not in (None, "") and current not in (None, "") and value != current:
+            conflicts = primary.setdefault("raw", {}).setdefault("metadata_conflicts", [])
+            conflict = {"field": field, "primary": current, "alternate": value,
+                        "alternate_source_refs": [p.get("source_ref") for p in incoming.get("provenance", [])]}
+            if conflict not in conflicts:
+                conflicts.append(conflict)
+    primary_raw, incoming_raw = primary.setdefault("raw", {}), incoming.get("raw", {})
+    if incoming_raw.get("index") is not None:
+        alternate_index = {"catalog_section": incoming_raw.get("catalog_section"), "index": incoming_raw["index"]}
+        primary_raw["alternate_indexes"] = _merge_values(primary_raw.get("alternate_indexes", []), [alternate_index])
+    if incoming_raw.get("detail") is not None and incoming_raw.get("detail") != primary_raw.get("detail"):
+        alternate_detail = {"catalog_section": incoming_raw.get("catalog_section"), "detail": incoming_raw["detail"]}
+        primary_raw["alternate_details"] = _merge_values(primary_raw.get("alternate_details", []), [alternate_detail])
+    return primary
+
+
+def _rekey_vod_variants(record: dict, entity_id: str) -> None:
+    record["id"] = entity_id
+    for variant in record.get("sources", []):
+        variant["entity_id"] = entity_id
+        variant["id"] = _variant_internal_id(entity_id, variant["source_id"], variant["url"],
+            variant.get("audio"), variant.get("scope", "entity"), variant.get("source_type"))
+    for season in record.get("seasons", []):
+        for episode in season.get("episodes", []):
+            for variant in episode.get("sources", []):
+                variant["entity_id"] = entity_id
+                variant["id"] = _variant_internal_id(entity_id, variant["source_id"], variant["url"],
+                    variant.get("audio"), variant.get("scope", "entity"), variant.get("source_type"))
 
 
 def parse_channels_json(document: dict, source_id: str = "catalog-existing",
@@ -272,15 +403,16 @@ def parse_radios_json(document: dict, source_id: str = "catalog-existing",
 
 
 def _reference_sources(value: str, entity_id: str, source_id: str, prov: dict,
-                       quarantine: list, domain: str) -> tuple[list, list]:
+                       quarantine: list, domain: str, audio: str | None = None,
+                       scope: str = "entity") -> tuple[list, list]:
     streams, refs = [], []
     for token in (value or "").split(","):
         token = token.strip()
         if not token:
             continue
         if token.lower().startswith(("http://", "https://")):
-            variant = _stream_variant({"url": token, "source_id": source_id}, entity_id,
-                                      source_id, prov, quarantine, domain=domain)
+            variant = _stream_variant({"url": token, "source_id": source_id, "audio": audio},
+                                      entity_id, source_id, prov, quarantine, domain=domain, scope=scope)
             if variant:
                 streams.append(variant)
         elif re.match(r"^\d+:[A-Za-z0-9._/?=&%+-]+$", token):
@@ -321,10 +453,9 @@ def parse_vod_reference_movies(text: str, source_id: str, source_ref: str = "vod
             audio, value = field.split("=", 1)
             if audio not in {"dub", "leg", "legendado", "dublado"}:
                 continue
-            streams, refs = _reference_sources(value, record["id"], source_id, prov, quarantine, "vod")
+            streams, refs = _reference_sources(value, record["id"], source_id, prov, quarantine, "vod", audio=audio)
             for stream in streams:
                 stream["audio"] = audio
-                stream["id"] = stable_id("stream", source_id, stream["url"] + "|" + audio)
                 if all((x["url"], x.get("audio")) != (stream["url"], audio) for x in record["sources"]):
                     record["sources"].append(stream)
             record["provider_refs"].extend(x for x in refs if x not in record["provider_refs"])
@@ -374,10 +505,10 @@ def parse_vod_reference_series(text: str, source_id: str, source_ref: str = "vod
         if episode is None:
             episode = {"episode": episode_no, "audio": audio, "sources": [], "provider_refs": []}
             season["episodes"].append(episode)
-        streams, refs = _reference_sources(fields[3], current["id"], source_id, prov, quarantine, "vod")
+        streams, refs = _reference_sources(fields[3], current["id"], source_id, prov, quarantine, "vod", audio=audio,
+                                               scope=f"season:{season_no}:episode:{episode_no}:audio:{audio or 'unknown'}")
         for stream in streams:
             stream["audio"] = audio
-            stream["id"] = stable_id("stream", source_id, stream["url"] + "|" + audio)
             if all((x["url"], x.get("audio")) != (stream["url"], audio) for x in episode["sources"]):
                 episode["sources"].append(stream)
         episode["provider_refs"].extend(x for x in refs if x not in episode["provider_refs"])
@@ -401,12 +532,56 @@ def _safe_path(root: Path, relative: str) -> Path:
     return target
 
 
+def _vod_identity_key(entry: dict, section: str) -> str:
+    kind = str(entry.get("subtype") or "").strip().lower()
+    if kind not in {"movie", "series", "anime", "dorama"}:
+        kind = {"movies": "movie", "series": "series", "anime": "anime", "doramas": "dorama"}.get(section, "series")
+    external = entry.get("external_ids") if isinstance(entry.get("external_ids"), dict) else {}
+    tmdb = str(entry.get("tmdb_id") or external.get("tmdb") or "").strip()
+    imdb = str(entry.get("imdb_id") or external.get("imdb") or "").strip()
+    if tmdb:
+        return f"{kind}|tmdb:{tmdb}"
+    if imdb:
+        return f"{kind}|imdb:{imdb}"
+    return f"{kind}|legacy:{entry.get('id')}|{normalize_name(entry.get('title'))}|{str(entry.get('year') or '').strip()}"
+
+
+def _allocate_vod_identity_ids(identity_groups: dict, all_legacy_ids: set) -> dict:
+    keys_by_legacy_id = {}
+    for identity_key, references in identity_groups.items():
+        for _, _, _, entry in references:
+            keys_by_legacy_id.setdefault(str(entry["id"]), set()).add(identity_key)
+    allocated, result = set(), {}
+    for identity_key in sorted(identity_groups):
+        legacy_ids = sorted({str(ref[3]["id"]) for ref in identity_groups[identity_key]})
+        preferred = sorted(legacy_ids, key=lambda ident: (len(keys_by_legacy_id[ident]) > 1, ident))
+        canonical = None
+        for ident in preferred:
+            owners = keys_by_legacy_id[ident]
+            if ident not in allocated and (len(owners) == 1 or identity_key == min(owners)):
+                canonical = ident
+                break
+        if canonical is None:
+            base = legacy_ids[0]
+            digest, size = hashlib.sha256(identity_key.encode("utf-8")).hexdigest(), 12
+            canonical = f"{base}~{digest[:size]}"
+            while canonical in allocated or canonical in all_legacy_ids:
+                size += 4
+                canonical = f"{base}~{digest[:size]}"
+        if canonical in allocated:
+            raise ValueError("deterministic VOD identity allocation collision: " + canonical)
+        allocated.add(canonical)
+        result[identity_key] = canonical
+    return result
+
+
 def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     quarantine: list | None = None):
-    """Yield canonical VOD records one detail shard at a time."""
+    """Yield canonical VOD entities, merging repeated index references by provider identity."""
     quarantine = quarantine if quarantine is not None else []
     manifest = _load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {})
+    section_entries, identity_groups, all_legacy_ids = [], {}, set()
     for section in ("movies", "series", "anime", "doramas"):
         info = categories.get(section)
         if not isinstance(info, dict):
@@ -415,9 +590,6 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
         entries = _load_json(_safe_path(root, index_rel))
         if not isinstance(entries, list):
             raise ValueError("VOD index is not a list: " + index_rel)
-
-        # Group index references by detail shard so only one parsed shard stays
-        # resident in memory. Sorting also makes candidate order reproducible.
         entries_by_detail = {}
         for entry in entries:
             if not isinstance(entry, dict) or not entry.get("id"):
@@ -428,8 +600,25 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                 quarantine.append({"domain": "vod", "reason": "missing_detail_path",
                                    "record_id": entry.get("id"), "raw": entry})
                 continue
+            _safe_path(root, detail_rel)
             entries_by_detail.setdefault(detail_rel, []).append(entry)
+            all_legacy_ids.add(str(entry["id"]))
+            identity_key = _vod_identity_key(entry, section)
+            identity_groups.setdefault(identity_key, []).append((section, index_rel, detail_rel, entry))
+        section_entries.append((section, index_rel, entries_by_detail))
 
+    final_ids = _allocate_vod_identity_ids(identity_groups, all_legacy_ids)
+    keys_by_legacy_id = {}
+    for identity_key, references in identity_groups.items():
+        for _, _, _, entry in references:
+            keys_by_legacy_id.setdefault(str(entry["id"]), set()).add(identity_key)
+    aggregate_keys = {
+        key for key, references in identity_groups.items()
+        if len(references) > 1 or any(len(keys_by_legacy_id[str(ref[3]["id"])]) > 1 for ref in references)
+    }
+    aggregated = {}
+
+    for section, index_rel, entries_by_detail in section_entries:
         for detail_rel in sorted(entries_by_detail):
             detail_records = _load_json(_safe_path(root, detail_rel))
             if not isinstance(detail_records, list):
@@ -444,56 +633,56 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     quarantine.append({"domain": "vod", "reason": "detail_record_missing",
                                        "record_id": entry["id"], "raw": entry})
                     continue
-                raw = {"index": entry, "detail": detail}
+                raw = {"index": entry, "detail": detail, "catalog_section": section}
                 prov = input_provenance(source_id, "existing-vod-index-and-detail-json",
-                                        json.dumps(raw, ensure_ascii=False, sort_keys=True),
-                                        index_rel + " + " + detail_rel)
-                kind = str(detail.get("subtype") or "")
+                    json.dumps(raw, ensure_ascii=False, sort_keys=True), index_rel + " + " + detail_rel)
+                kind = str(detail.get("subtype") or entry.get("subtype") or "").strip().lower()
                 if kind not in {"movie", "series", "anime", "dorama"}:
-                    kind = {"movies": "movie", "series": "series",
-                            "anime": "anime", "doramas": "dorama"}.get(section, "series")
+                    kind = {"movies": "movie", "series": "series", "anime": "anime", "doramas": "dorama"}.get(section, "series")
+                canonical_id = final_ids[_vod_identity_key(entry, section)]
                 tmdb_id = str(detail.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
                 imdb_id = str(detail.get("imdb_id") or entry.get("imdb_id") or "").strip()
                 raw_sources = detail.get("sources") if isinstance(detail.get("sources"), list) else []
                 streams = []
                 for source in raw_sources:
                     if isinstance(source, dict):
-                        variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
+                        variant = _stream_variant(source, canonical_id, source_id, prov, quarantine,
+                                                  "vod", scope="entity")
                         if variant:
                             streams.append(variant)
                 streams = _unique_variants(streams)
-                seasons = detail.get("seasons", []) if isinstance(detail.get("seasons"), list) else []
                 normalized_seasons = []
-                for season in seasons:
+                for season in detail.get("seasons", []) if isinstance(detail.get("seasons"), list) else []:
                     if not isinstance(season, dict) or not str(season.get("season", "")).isdigit():
                         quarantine.append({"domain": "vod", "reason": "invalid_season_number",
                                            "record_id": entry["id"], "raw": season})
                         continue
+                    season_number = int(season.get("season"))
                     episodes = []
                     for episode in season.get("episodes", []) if isinstance(season.get("episodes"), list) else []:
                         if not isinstance(episode, dict) or not str(episode.get("episode", "")).isdigit():
                             quarantine.append({"domain": "vod", "reason": "invalid_episode_number",
                                                "record_id": entry["id"], "raw": episode})
                             continue
+                        episode_number, episode_audio = int(episode.get("episode")), episode.get("audio")
+                        scope = f"season:{season_number}:episode:{episode_number}:audio:{episode_audio or 'unknown'}"
                         episode_sources = []
                         for source in episode.get("sources", []) if isinstance(episode.get("sources"), list) else []:
                             if isinstance(source, dict):
-                                variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
+                                variant = _stream_variant(source, canonical_id, source_id, prov, quarantine,
+                                                          "vod", scope=scope)
                                 if variant:
                                     episode_sources.append(variant)
                         episodes.append({
-                            "episode": int(episode.get("episode")),
-                            "audio": episode.get("audio"),
+                            "episode": episode_number, "audio": episode_audio,
                             "sources": _unique_variants(episode_sources),
                             "provider_refs": episode.get("provider_refs", [])
                                 if isinstance(episode.get("provider_refs"), list) else [],
                             "raw": episode,
                         })
-                    normalized_seasons.append({
-                        "season": int(season.get("season")), "episodes": episodes, "raw": season,
-                    })
-                yield {
-                    "id": str(entry["id"]), "type": kind,
+                    normalized_seasons.append({"season": season_number, "episodes": episodes, "raw": season})
+                record = {
+                    "id": canonical_id, "type": kind,
                     "title": str(detail.get("title") or entry.get("title") or ""),
                     "year": str(detail.get("year") or entry.get("year"))
                         if (detail.get("year") or entry.get("year")) is not None else None,
@@ -504,8 +693,21 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     "poster_url": detail.get("poster_url"), "sources": streams,
                     "provider_refs": detail.get("provider_refs", [])
                         if isinstance(detail.get("provider_refs"), list) else [],
-                    "seasons": normalized_seasons, "provenance": [prov], "raw": raw,
+                    "seasons": normalized_seasons, "provenance": [prov],
+                    "legacy_ids": [str(entry["id"])], "catalog_sections": [section], "raw": raw,
                 }
+                identity_key = _vod_identity_key(entry, section)
+                if identity_key in aggregate_keys:
+                    current = aggregated.get(identity_key)
+                    if current is None:
+                        aggregated[identity_key] = record
+                    else:
+                        _merge_vod_records(current, record)
+                else:
+                    yield record
+
+    for identity_key in sorted(aggregated, key=lambda key: final_ids[key]):
+        yield aggregated[identity_key]
 
 
 def parse_vod_catalog(root: Path, source_id: str = "catalog-existing") -> tuple[list, list]:
