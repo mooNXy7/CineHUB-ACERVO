@@ -235,6 +235,8 @@ def main() -> None:
     output.mkdir(parents=True, exist_ok=True)
     (output / "baseline.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (output / "baseline.md").write_text(render_markdown(report), encoding="utf-8")
+    snapshot_lines = [item["sha256"] + "  " + item["path"] for item in report["catalog_snapshot"]["files"]]
+    (output / "catalog-snapshot.sha256").write_text("\\n".join(snapshot_lines) + "\\n", encoding="utf-8")
     print(render_markdown(report))
     if report["missing_workflow_scripts"]:
         print("Missing workflow scripts: " + ", ".join(report["missing_workflow_scripts"]))
