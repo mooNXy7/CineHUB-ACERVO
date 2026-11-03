@@ -149,7 +149,7 @@ class CanonicalParserTests(unittest.TestCase):
             )
             document = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(document["domain"], "channels")
-            self.assertEqual(len(document["records"]), 2)
+            self.assertEqual(len(document["records"]), 3)
             self.assertGreaterEqual(len(document["quarantine"]), 1)
 
 class CandidateBuildTests(unittest.TestCase):
