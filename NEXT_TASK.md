@@ -1,30 +1,34 @@
 # Próxima Tarefa — CineHUB-ACERVO
 
 ## Tarefa atual
-**Fase A — estabelecer baseline executável do ACERVO V2.**
+**Concluir a Fase A — baseline executável e protegida.**
 
-A autorização para construir o cérebro foi concedida. A especificação e o blueprint estão registrados em:
-- `ACERVO_V2_SPEC.md`
-- `ACERVO_V2_BLUEPRINT.md`
+## Trabalho já iniciado
+- Parser de rádios agora aceita nome|stream e mantém compatibilidade com o formato legado.
+- Fixture real representativa e testes de regressão adicionados.
+- Auditoria executável somente de leitura criada para inventariar catálogos, workflows, scripts ausentes, dependências externas e referências TMDB.
+- Workflow de validação preparado para executar na branch develop/acervo-v2 e publicar artefato do baseline.
 
-## Execução imediata
-1. Confirmar HEAD e estado da branch `develop/acervo-v2`.
-2. Inventariar catálogo, scripts, workflows, formatos e dependências existentes.
-3. Executar validações disponíveis e registrar falhas reais, sem mascarar scripts ausentes.
-4. Criar fixtures representativas dos formatos existentes (começando por rádios e VOD) e testes de regressão.
-5. Definir baseline reproduzível e lista fechada de bloqueios antes de refatorar o pipeline.
+## Próximos passos executáveis
+1. Verificar resultado real do GitHub Actions após o commit desta etapa.
+2. Corrigir falhas dos testes sem reescrever catálogos.
+3. Registrar o relatório completo gerado pelo auditor, incluindo contagens reais de canais/VOD/logos e referências de scripts por workflow.
+4. Revisar proteção/backup: snapshot lógico e hash dos catálogos antes de qualquer migração de dados.
+5. Fechar a lista de bloqueios e atualizar o handoff.
 
-## Ordem de construção
-Baseline → contratos/importadores → núcleo canônico → enriquecimento/qualidade → build/publicação/rollback → automação autônoma → integração dos consumidores autorizada separadamente.
+## Bloqueios já confirmados
+- Quatro entrypoints VOD referenciados por workflows não existem na branch.
+- Workflows VOD ainda usam branch fixa antiga.
+- Atualizador principal ainda depende do clone da referência para concluir a etapa de importação.
+- Catálogo de rádios contém URLs com extensão de imagem no campo de stream e metadados incompletos; nenhuma correção em massa deve ser aplicada sem proveniência/backup.
 
-## Regras de segurança
-- Não alterar `main`.
-- Não alterar TV, Mobile ou Web nesta fase.
+## Regras
+- Não alterar main, TV, Mobile ou Web.
 - Não publicar OTA.
-- Não apagar ou substituir dados em massa sem backup, diff e validação.
-- Não aplicar automaticamente correspondências TMDB ambíguas.
-- Não declarar tarefa concluída sem alteração, teste e evidência.
-- A falha de uma fonte não pode apagar a última versão válida do catálogo.
+- Não remover streams/fontes por falha pontual.
+- Não aplicar TMDB ambíguo.
+- Não sobrescrever catálogo ativo.
+- Registrar cada execução, resultado e SHA.
 
-## Definição de concluído
-Cada fase precisa produzir uma saída executável e verificável. A fase A termina com baseline reproduzível, testes iniciais e inventário fechado de falhas. Não criar apenas documentação ou diretórios vazios.
+## Depois da Fase A
+Avançar para **Fase B — schemas e importadores compatíveis com os formatos reais**, usando a baseline como referência e mantendo o catálogo atual como fonte protegida.
