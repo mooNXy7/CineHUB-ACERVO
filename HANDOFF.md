@@ -48,3 +48,19 @@ Depois leia ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md, ARCHITECTUR
 - Fase B: PRÓXIMA, NÃO INICIADA.
 - O executor deve receber somente a próxima etapa liberada. Não deve reconstruir o plano por conta própria, pular fases, alterar arquitetura ou mexer em consumidores/main sem aprovação.
 - Esta alteração apenas documenta continuidade; não inicia Fase B, não altera catálogos e não publica nada.
+> **RETOMADA VIGENTE — 2026-11-03 (autoridade sobre registros históricos abaixo)**  
+> Branch: `develop/acervo-v2`  
+> HEAD confirmado no GitHub: `3d8d143ae387f3340c1efb285fb3199393c25a99`  
+> `main`: `c2176962dccc218cd17622f0acd786ff76b18a6d`  
+> Comparação atual: **45 commits à frente, 0 atrás**, 15 arquivos no diff reportado; a comparação não mostra alterações em `catalog/` ou `sources/`.  
+> PR #1 e PR #2 estão abertos em estado draft; nenhum está mesclado. Não alterar nem mesclar nenhum deles nesta etapa.  
+> Fase A: CONCLUÍDA. Fase B: **NÃO INICIADA; AUTORIZADA PELO RESPONSÁVEL PARA INÍCIO PELO EXECUTOR**. Esta atualização é apenas documental e não conta como implementação da Fase B.  
+> Próxima execução autorizada: somente Fase B — auditoria complementar, contratos canônicos, parsers/importadores, fixtures e testes. Não iniciar Fase C.  
+> Sempre revalidar HEAD, main, comparação, PRs e workflows no início da execução; estes SHAs são fotografia desta retomada, não valores permanentes.  
+> Escopo protegido: não alterar `main`, consumidores TV/Mobile/Web/Player, repositórios de referência, segredos, produção Supabase/Cloudflare, OTA ou publicação oficial. Não promover/substituir catálogo ativo.  
+> Fontes de verdade: ler integralmente `ROADMAP_V2.md`, `ACERVO_V2_SPEC.md`, `ACERVO_V2_BLUEPRINT.md`, `DECISIONS.md`, `ARCHITECTURE.md` (se existir), `PROJECT_STATUS.md`, `NEXT_TASK.md`, `EXECUTION_LOG.md` e `HANDOFF.md`.  
+> PR #1: https://github.com/mooNXy7/CineHUB-ACERVO/pull/1 — “Hardening, normalização e enriquecimento seguro do CineHUB ACERVO”, draft, aberto, não mesclado.  
+> PR #2: https://github.com/mooNXy7/CineHUB-ACERVO/pull/2 — “[DRAFT] ACERVO V2 — Fase A: baseline executável”, draft, aberto, não mesclado. Verificar seus SHAs/diffs ao executar; não assumir que qualquer PR representa a branch de trabalho.  
+> 
+## Instrução direta ao executor
+O responsável autorizou o início da Fase B. Execute a Fase B integralmente conforme o escopo e os critérios de `ROADMAP_V2.md` e `NEXT_TASK.md`, sem solicitar que o responsável repita o plano. A autorização não abrange Fase C, merge, consumidores ou publicação. Revalidar o estado remoto antes de editar.
