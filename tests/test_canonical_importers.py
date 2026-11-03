@@ -11,8 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from acervo_v2.importers import (
-    parse_channels_json, parse_epg_channel_index, parse_m3u, parse_radios_json, parse_radios_text,
-    parse_vod_catalog, iter_vod_catalog, parse_vod_reference_movies, parse_vod_reference_series,
+    apply_radio_reference_recovery, parse_channels_json, parse_epg_channel_index, parse_m3u,
+    parse_radios_json, parse_radios_text, parse_vod_catalog, iter_vod_catalog,
+    parse_vod_reference_movies, parse_vod_reference_series,
 )
 from acervo_v2.xmltv import parse_xmltv
 import build_candidate_catalog
@@ -84,6 +85,44 @@ class CanonicalParserTests(unittest.TestCase):
                             for item in quarantine))
         missing = next(item for item in quarantine if item["reason"] == "missing_stream_url")
         self.assertEqual(missing["raw"]["name"], "https://audio.example.test/live")
+
+    def test_radio_reference_recovery_uses_exact_match_and_preserves_original_fields(self):
+        document = {"radios": [
+            {"id": "radio.image", "name": "https://audio.example.test/live",
+             "stream_url": "https://assets.example.test/station.png"},
+            {"id": "radio.missing", "name": "https://audio.example.test/other", "stream_url": ""},
+        ]}
+        records, quarantine = parse_radios_json(document)
+        reference = {
+            "source": {"source_id": "reference-radio-catalog",
+                       "source_ref": "https://github.com/fki1976/SaimoPlayer/blob/pinned/vod/radios.txt",
+                       "commit": "pinned", "blob_sha": "blob"},
+            "records": [
+                {"record_id": "radio.image", "source_name_url": "https://audio.example.test/live",
+                 "name": "Station One", "stream_url": "https://audio.example.test/live",
+                 "original_stream_url": "https://assets.example.test/station.png",
+                 "logo_url_candidate": "https://assets.example.test/station.png",
+                 "match_method": "casefold_and_trim_trailing_slash", "match_count": 1},
+                {"record_id": "radio.missing", "source_name_url": "https://audio.example.test/other",
+                 "name": "Station Two", "stream_url": "https://audio.example.test/other",
+                 "original_stream_url": None, "logo_url_candidate": None,
+                 "match_method": "casefold_and_trim_trailing_slash", "match_count": 1},
+            ],
+        }
+        result = apply_radio_reference_recovery(records, quarantine, reference)
+        self.assertEqual(result["applied_records"], 2)
+        self.assertEqual(result["streams_added"], 2)
+        self.assertEqual(result["logo_candidates_promoted"], 1)
+        self.assertEqual(result["quarantine_items_resolved"], 2)
+        first = next(item for item in records if item["id"] == "radio.image")
+        self.assertEqual(first["name"], "Station One")
+        self.assertEqual(first["raw"]["name"], "https://audio.example.test/live")
+        self.assertEqual(first["raw"]["stream_url"], "https://assets.example.test/station.png")
+        self.assertEqual(first["logo_url"], "https://assets.example.test/station.png")
+        self.assertEqual(first["reference_recovery"]["logo_status"], "unverified")
+        self.assertEqual(first["streams"][0]["url"], "https://audio.example.test/live")
+        self.assertTrue(all(item.get("resolution", {}).get("status") == "recovered_from_pinned_reference"
+                            for item in quarantine))
 
     def test_vod_reference_movie_and_series_formats_keep_variants_and_provider_refs(self):
         movies, q_movies = parse_vod_reference_movies(
@@ -252,7 +291,7 @@ class CanonicalParserTests(unittest.TestCase):
             self.assertEqual(identity_report["legacy_ids_reused_across_distinct_identities"], 1)
             self.assertEqual(identity_report["identity_groups_affected_by_legacy_id_conflict"], 2)
             self.assertEqual(identity_report["output_records"], 3)
-            self.assertEqual(identity_report["identity_audit_version"], 1)
+            self.assertEqual(identity_report["identity_audit_version"], 2)
             self.assertEqual(len(identity_report["consolidations"]), 1)
             self.assertEqual(identity_report["consolidations"][0]["canonical_id"], "series-shared")
             self.assertEqual(identity_report["consolidations"][0]["index_reference_count"], 3)
@@ -288,6 +327,79 @@ class CanonicalParserTests(unittest.TestCase):
             self.assertIn("series-my-name", {item["id"] for item in my_names})
             self.assertTrue(any(item["id"].startswith("series-my-name~") for item in my_names))
             self.assertTrue(all(item["identity_resolution"]["legacy_id_conflict"] for item in my_names))
+
+    def test_vod_identity_override_corrects_only_exact_reference_scope(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for section in ("series", "doramas"):
+                (root / f"catalog/vod/index/{section}.json").parent.mkdir(parents=True, exist_ok=True)
+                (root / f"catalog/vod/details/{section}").mkdir(parents=True, exist_ok=True)
+            (root / "catalog/vod/index.json").write_text(json.dumps({
+                "categories": {
+                    "series": {"index_path": "catalog/vod/index/series.json"},
+                    "doramas": {"index_path": "catalog/vod/index/doramas.json"},
+                }
+            }), encoding="utf-8")
+            entries = {
+                "series": [
+                    {"id": "series-meu-nome-e", "title": "Meu Nome é", "subtype": "dorama",
+                     "year": "2021", "tmdb_id": "2317", "detail_path": "catalog/vod/details/series/M-007.json"},
+                    {"id": "series-my-name", "title": "My Name", "subtype": "dorama",
+                     "year": "2021", "tmdb_id": "110356", "detail_path": "catalog/vod/details/series/M-013.json"},
+                ],
+                "doramas": [
+                    {"id": "series-my-name", "title": "My Name", "subtype": "dorama",
+                     "year": "2021", "tmdb_id": "2317", "detail_path": "catalog/vod/details/doramas/M-000.json"},
+                ],
+            }
+            for section, rows in entries.items():
+                (root / f"catalog/vod/index/{section}.json").write_text(json.dumps(rows), encoding="utf-8")
+
+            def detail(ident, title, tmdb):
+                return [{
+                    "id": ident, "title": title, "subtype": "dorama", "year": "2021", "tmdb_id": tmdb,
+                    "seasons": [{"season": 1, "episodes": [{
+                        "episode": 1, "audio": "dub",
+                        "sources": [{"url": "https://vod.example.test/my-name/1", "source_id": "provider-a"}],
+                        "provider_refs": [{"provider": "p", "ref": "110356/1/1"}],
+                    }]}],
+                }]
+
+            (root / "catalog/vod/details/series/M-007.json").write_text(json.dumps(detail("series-meu-nome-e", "Meu Nome é", "2317")), encoding="utf-8")
+            (root / "catalog/vod/details/series/M-013.json").write_text(json.dumps(detail("series-my-name", "My Name", "110356")), encoding="utf-8")
+            (root / "catalog/vod/details/doramas/M-000.json").write_text(json.dumps(detail("series-my-name", "My Name", "2317")), encoding="utf-8")
+            override_doc = {
+                "source": {"source_id": "reference-vod-identity",
+                           "files": [{"source_ref": "https://reference.example/catalogo-series.txt"}],
+                           "commit": "pinned"},
+                "overrides": [{
+                    "id": "my-name-2021-tmdb-correction", "expected_matches": 2,
+                    "match": {"titles": ["Meu Nome é", "My Name"], "media_type": "dorama",
+                              "year": "2021", "tmdb_id": "2317",
+                              "catalog_sections": ["series", "doramas"],
+                              "legacy_ids": ["series-meu-nome-e", "series-my-name"]},
+                    "canonical": {"tmdb_id": "110356", "title": "My Name", "year": "2021"},
+                    "reason": "Pinned reference confirms TMDB 110356 for My Name 2021.",
+                    "evidence": [{"path": "catalogo-series.txt", "line": 1, "text": "110356\\tMy Name\\t2021\\t8"}],
+                }],
+            }
+            identity_report, quarantine = {}, []
+            records = list(iter_vod_catalog(root, quarantine=quarantine,
+                                            identity_report=identity_report,
+                                            identity_overrides=override_doc))
+            self.assertEqual(quarantine, [])
+            self.assertEqual(len(records), 1)
+            record = records[0]
+            self.assertEqual(record["external_ids"]["tmdb"], "110356")
+            self.assertEqual(set(record["legacy_ids"]), {"series-meu-nome-e", "series-my-name"})
+            self.assertEqual(set(record["catalog_sections"]), {"series", "doramas"})
+            self.assertEqual(record["raw"]["detail"]["tmdb_id"], "2317")
+            self.assertEqual(record["identity_resolution"]["identity_override"]["source_tmdb_id"], "2317")
+            self.assertEqual(identity_report["legacy_id_conflicts"], [])
+            self.assertEqual(identity_report["identity_overrides"][0]["applied_index_reference_count"], 2)
+            self.assertEqual(identity_report["consolidations"][0]["index_reference_count"], 3)
+            self.assertEqual(identity_report["canonical_identity_groups"], 1)
+            self.assertEqual(identity_report["output_records"], 1)
 
     def test_vod_identity_requires_matching_year_and_scopes_variants_to_owner(self):
         with tempfile.TemporaryDirectory() as tmp:

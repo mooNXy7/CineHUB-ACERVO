@@ -213,6 +213,17 @@ def _merge_vod_records(primary: dict, incoming: dict) -> dict:
     primary_identity["legacy_id_conflict"] = bool(
         primary_identity.get("legacy_id_conflict") or incoming_identity.get("legacy_id_conflict")
     )
+    identity_overrides = []
+    for identity in (primary_identity, incoming_identity):
+        values = list(identity.get("identity_overrides", []))
+        if identity.get("identity_override"):
+            values.append(identity["identity_override"])
+        for value in values:
+            if value not in identity_overrides:
+                identity_overrides.append(value)
+    if identity_overrides:
+        primary_identity["identity_overrides"] = identity_overrides
+        primary_identity["identity_override"] = identity_overrides[0]
     primary_external = primary.setdefault("external_ids", {})
     incoming_external = incoming.get("external_ids", {})
     for provider in ("tmdb", "imdb"):
@@ -237,9 +248,13 @@ def _merge_vod_records(primary: dict, incoming: dict) -> dict:
     primary_raw, incoming_raw = primary.setdefault("raw", {}), incoming.get("raw", {})
     if incoming_raw.get("index") is not None:
         alternate_index = {"catalog_section": incoming_raw.get("catalog_section"), "index": incoming_raw["index"]}
+        if incoming_raw.get("identity_override"):
+            alternate_index["identity_override"] = incoming_raw["identity_override"]
         primary_raw["alternate_indexes"] = _merge_values(primary_raw.get("alternate_indexes", []), [alternate_index])
     if incoming_raw.get("detail") is not None and incoming_raw.get("detail") != primary_raw.get("detail"):
         alternate_detail = {"catalog_section": incoming_raw.get("catalog_section"), "detail": incoming_raw["detail"]}
+        if incoming_raw.get("identity_override"):
+            alternate_detail["identity_override"] = incoming_raw["identity_override"]
         primary_raw["alternate_details"] = _merge_values(primary_raw.get("alternate_details", []), [alternate_detail])
     return primary
 
@@ -410,6 +425,125 @@ def parse_radios_json(document: dict, source_id: str = "catalog-existing",
                         "language": item.get("language"), "logo_url": item.get("logo_url") if item.get("logo_url") and safe_stream_url(item.get("logo_url"))[0] else None,
                         "streams": streams, "provenance": [prov], "raw": item})
     return records, quarantine
+
+
+
+def apply_radio_reference_recovery(records: list, quarantine: list, document: dict,
+                                   source_ref: str = "sources/reference/radio-recovery.json") -> dict:
+    """Recover misaligned radio name/stream fields from an exact, pinned reference snapshot."""
+    if not isinstance(document, dict) or not isinstance(document.get("records"), list):
+        return {"reference_records": 0, "applied_records": 0, "streams_added": 0,
+                "logo_candidates_promoted": 0, "quarantine_items_resolved": 0,
+                "unmatched_reference_records": 0, "records_without_reference_match": len(records)}
+    source = document.get("source") if isinstance(document.get("source"), dict) else {}
+    source_id = str(source.get("source_id") or "reference-radio-catalog")
+    source_external_ref = str(source.get("source_ref") or "")
+    payload = json.dumps(document, ensure_ascii=False, sort_keys=True)
+    provenance = input_provenance(source_id, "radio-reference-recovery-json", payload, source_ref)
+
+    def normalized_url(value):
+        return str(value or "").strip().rstrip("/").casefold()
+
+    by_id, seen_urls = {}, set()
+    for item in document.get("records", []):
+        if not isinstance(item, dict) or not item.get("record_id"):
+            raise ValueError("radio reference recovery entry is missing record_id")
+        record_id = str(item["record_id"])
+        source_url = normalized_url(item.get("source_name_url"))
+        if record_id in by_id or not source_url or source_url in seen_urls:
+            raise ValueError("radio reference recovery contains duplicate IDs or source URLs")
+        if int(item.get("match_count", 0)) != 1:
+            raise ValueError("radio reference recovery contains a non-unique match")
+        by_id[record_id] = item
+        seen_urls.add(source_url)
+
+    applied_ids, invalid_match_ids = set(), []
+    streams_added = logo_candidates_promoted = quarantine_items_resolved = 0
+    for record in records:
+        record_id = str(record.get("id") or "")
+        reference = by_id.get(record_id)
+        if reference is None:
+            continue
+        raw = record.get("raw") if isinstance(record.get("raw"), dict) else {}
+        original_name_url = str(raw.get("name") or "").strip()
+        if normalized_url(original_name_url) != normalized_url(reference.get("source_name_url")):
+            invalid_match_ids.append(record_id)
+            quarantine.append({
+                "domain": "radios", "reason": "radio_reference_source_mismatch",
+                "entity_id": record_id, "source_id": source_id,
+                "provenance": [provenance], "raw": reference,
+            })
+            continue
+        recovered_name = str(reference.get("name") or "").strip()
+        recovered_url = str(reference.get("stream_url") or "").strip()
+        if not recovered_name:
+            invalid_match_ids.append(record_id)
+            quarantine.append({
+                "domain": "radios", "reason": "radio_reference_missing_name",
+                "entity_id": record_id, "source_id": source_id,
+                "provenance": [provenance], "raw": reference,
+            })
+            continue
+        valid, reason = safe_stream_url(recovered_url)
+        if not valid:
+            invalid_match_ids.append(record_id)
+            quarantine.append({
+                "domain": "radios", "reason": "radio_reference_invalid_stream_url",
+                "entity_id": record_id, "source_id": source_id,
+                "provenance": [provenance], "raw": reference, "validation_reason": reason,
+            })
+            continue
+        variant = _stream_variant(
+            {"url": recovered_url, "source_id": source_id, "source_type": "reference-recovery"},
+            record_id, source_id, provenance, quarantine, domain="radio",
+        )
+        existing_urls = {str(item.get("url") or "") for item in record.get("streams", [])}
+        stream_added = bool(variant and variant.get("url") not in existing_urls)
+        if stream_added:
+            record.setdefault("streams", []).append(variant)
+            streams_added += 1
+        record["name"] = recovered_name
+        logo_candidate = str(reference.get("logo_url_candidate") or "").strip()
+        logo_status = None
+        if logo_candidate and is_image_url(logo_candidate) and safe_stream_url(logo_candidate)[0]:
+            if not record.get("logo_url"):
+                record["logo_url"] = logo_candidate
+                logo_candidates_promoted += 1
+            logo_status = "unverified"
+        record.setdefault("provenance", [])
+        if provenance not in record["provenance"]:
+            record["provenance"].append(provenance)
+        record["reference_recovery"] = {
+            "source_id": source_id, "source_ref": source_external_ref,
+            "source_commit": source.get("commit"), "source_blob_sha": source.get("blob_sha"),
+            "reference_line": reference.get("reference_line"),
+            "match_method": reference.get("match_method"), "match_count": reference.get("match_count"),
+            "original_name_url": original_name_url,
+            "original_stream_url": reference.get("original_stream_url"),
+            "recovered_name": recovered_name, "recovered_stream_url": recovered_url,
+            "stream_added": stream_added, "logo_url_candidate": logo_candidate or None,
+            "logo_status": logo_status,
+        }
+        applied_ids.add(record_id)
+        for rejected in quarantine:
+            if (rejected.get("domain") in {"radio", "radios"}
+                    and str(rejected.get("entity_id") or "") == record_id
+                    and not rejected.get("resolution")):
+                rejected["resolution"] = {
+                    "status": "recovered_from_pinned_reference", "reference_id": record_id,
+                    "source_ref": source_external_ref, "source_commit": source.get("commit"),
+                    "recovered_stream_url": recovered_url,
+                }
+                quarantine_items_resolved += 1
+    return {
+        "reference_records": len(by_id), "applied_records": len(applied_ids),
+        "streams_added": streams_added, "logo_candidates_promoted": logo_candidates_promoted,
+        "quarantine_items_resolved": quarantine_items_resolved,
+        "unmatched_reference_records": len(set(by_id) - applied_ids),
+        "records_without_reference_match": sum(str(item.get("id") or "") not in by_id for item in records),
+        "invalid_match_ids": sorted(invalid_match_ids), "source_id": source_id,
+        "source_ref": source_external_ref, "source_commit": source.get("commit"),
+    }
 
 
 def _reference_sources(value: str, entity_id: str, source_id: str, prov: dict,
@@ -595,12 +729,58 @@ def _allocate_vod_identity_ids(identity_groups: dict, all_legacy_ids: set) -> di
 
 def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     quarantine: list | None = None,
-                    identity_report: dict | None = None):
+                    identity_report: dict | None = None,
+                    identity_overrides: dict | None = None):
     """Yield canonical VOD entities, merging repeated index references by provider identity."""
     quarantine = quarantine if quarantine is not None else []
+    identity_report = identity_report if identity_report is not None else {}
+    override_document = identity_overrides if isinstance(identity_overrides, dict) else {}
+    override_source = override_document.get("source") if isinstance(override_document.get("source"), dict) else {}
+    override_rules = override_document.get("overrides", []) if isinstance(override_document.get("overrides"), list) else []
+    override_input_path = "sources/reference/vod-identity-overrides.json"
+    override_payload = json.dumps(override_document, ensure_ascii=False, sort_keys=True)
+    override_provenance = input_provenance(
+        str(override_source.get("source_id") or "reference-vod-identity"),
+        "explicit-vod-identity-overrides-json", override_payload, override_input_path,
+    ) if override_rules else None
+    applied_override_refs = {}
     manifest = _load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {})
     section_entries, identity_groups, all_legacy_ids = [], {}, set()
+
+    def find_identity_override(entry, section):
+        external = entry.get("external_ids") if isinstance(entry.get("external_ids"), dict) else {}
+        source_tmdb = str(entry.get("tmdb_id") or external.get("tmdb") or "").strip()
+        title_key = normalize_name(entry.get("title"))
+        year = str(entry.get("year") or "").strip()
+        media_type = str(entry.get("subtype") or "").strip().lower()
+        legacy_id = str(entry.get("id") or "")
+        for rule in override_rules:
+            match = rule.get("match") if isinstance(rule.get("match"), dict) else {}
+            titles = match.get("titles") if isinstance(match.get("titles"), list) else ([match["title"]] if match.get("title") else [])
+            allowed_sections = match.get("catalog_sections") if isinstance(match.get("catalog_sections"), list) else []
+            allowed_legacy_ids = match.get("legacy_ids") if isinstance(match.get("legacy_ids"), list) else []
+            if (title_key not in {normalize_name(value) for value in titles}
+                    or year != str(match.get("year") or "").strip()
+                    or source_tmdb != str(match.get("tmdb_id") or "").strip()
+                    or media_type != str(match.get("media_type") or "").strip().lower()
+                    or section not in allowed_sections
+                    or (allowed_legacy_ids and legacy_id not in allowed_legacy_ids)):
+                continue
+            canonical = rule.get("canonical") if isinstance(rule.get("canonical"), dict) else {}
+            canonical_tmdb = str(canonical.get("tmdb_id") or "").strip()
+            if not canonical_tmdb:
+                raise ValueError("VOD identity override has no canonical TMDB ID: " + str(rule.get("id")))
+            source_files = override_source.get("files") if isinstance(override_source.get("files"), list) else []
+            external_ref = next((item.get("source_ref") for item in source_files if item.get("source_ref")), None)
+            return {
+                "id": str(rule.get("id") or ""), "source_tmdb_id": source_tmdb,
+                "canonical_tmdb_id": canonical_tmdb,
+                "canonical_title": str(canonical.get("title") or ""),
+                "source_ref": external_ref, "source_commit": override_source.get("commit"),
+                "reason": rule.get("reason"), "evidence": rule.get("evidence", []),
+            }
+        return None
     for section in ("movies", "series", "anime", "doramas"):
         info = categories.get(section)
         if not isinstance(info, dict):
@@ -620,12 +800,35 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                                    "record_id": entry.get("id"), "raw": entry})
                 continue
             _safe_path(root, detail_rel)
-            entries_by_detail.setdefault(detail_rel, []).append(entry)
-            all_legacy_ids.add(str(entry["id"]))
-            identity_key = _vod_identity_key(entry, section)
-            identity_groups.setdefault(identity_key, []).append((section, index_rel, detail_rel, entry))
+            identity_entry = dict(entry)
+            override_info = find_identity_override(entry, section)
+            if override_info:
+                identity_entry["_source_entry"] = entry
+                identity_entry["_identity_override"] = override_info
+                identity_entry["tmdb_id"] = override_info["canonical_tmdb_id"]
+                external_ids = dict(entry.get("external_ids") or {})
+                external_ids["tmdb"] = override_info["canonical_tmdb_id"]
+                identity_entry["external_ids"] = external_ids
+                applied_override_refs.setdefault(override_info["id"], []).append({
+                    "catalog_section": section, "index_path": index_rel, "detail_path": detail_rel,
+                    "legacy_id": str(entry["id"]), "source_tmdb_id": override_info["source_tmdb_id"],
+                    "canonical_tmdb_id": override_info["canonical_tmdb_id"],
+                })
+            entries_by_detail.setdefault(detail_rel, []).append(identity_entry)
+            all_legacy_ids.add(str(identity_entry["id"]))
+            identity_key = _vod_identity_key(identity_entry, section)
+            identity_groups.setdefault(identity_key, []).append((section, index_rel, detail_rel, identity_entry))
         section_entries.append((section, index_rel, entries_by_detail))
 
+    for rule in override_rules:
+        expected_matches = rule.get("expected_matches")
+        actual_matches = len(applied_override_refs.get(str(rule.get("id") or ""), []))
+        if expected_matches is not None and actual_matches != int(expected_matches):
+            raise ValueError(
+                "VOD identity override match count changed for "
+                + str(rule.get("id")) + ": expected " + str(expected_matches)
+                + ", got " + str(actual_matches)
+            )
     final_ids = _allocate_vod_identity_ids(identity_groups, all_legacy_ids)
     keys_by_legacy_id = {}
     for identity_key, references in identity_groups.items():
@@ -670,16 +873,14 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                               "anime": "anime", "doramas": "dorama"}.get(section, "series")
             tmdb_id = str(entry.get("tmdb_id") or external.get("tmdb") or "").strip()
             imdb_id = str(entry.get("imdb_id") or external.get("imdb") or "").strip()
+            override_info = entry.get("_identity_override") if isinstance(entry.get("_identity_override"), dict) else {}
             index_references.append({
-                "catalog_section": section,
-                "index_path": index_rel,
-                "detail_path": detail_rel,
-                "legacy_id": str(entry.get("id") or ""),
-                "title": str(entry.get("title") or ""),
-                "media_type": media_type,
-                "year": str(entry.get("year") or "").strip() or None,
+                "catalog_section": section, "index_path": index_rel, "detail_path": detail_rel,
+                "legacy_id": str(entry.get("id") or ""), "title": str(entry.get("title") or ""),
+                "media_type": media_type, "year": str(entry.get("year") or "").strip() or None,
                 "tmdb_id": tmdb_id or None,
-                "imdb_id": imdb_id or None,
+                "source_tmdb_id": str(override_info.get("source_tmdb_id") or tmdb_id or "").strip() or None,
+                "identity_override_id": override_info.get("id"), "imdb_id": imdb_id or None,
             })
         index_references.sort(key=lambda item: (
             item["catalog_section"], item["index_path"], item["detail_path"],
@@ -694,13 +895,31 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
             "media_types": sorted({item["media_type"] for item in index_references}),
             "years": sorted({item["year"] for item in index_references if item["year"]}),
             "tmdb_ids": sorted({item["tmdb_id"] for item in index_references if item["tmdb_id"]}),
+            "source_tmdb_ids": sorted({item["source_tmdb_id"] for item in index_references if item["source_tmdb_id"]}),
+            "identity_override_ids": sorted({item["identity_override_id"] for item in index_references if item["identity_override_id"]}),
             "imdb_ids": sorted({item["imdb_id"] for item in index_references if item["imdb_id"]}),
             "index_reference_count": len(index_references),
             "entries_consolidated": max(0, len(index_references) - 1),
             "index_references": index_references,
         }
 
-    identity_report["identity_audit_version"] = 1
+    identity_report["identity_audit_version"] = 2
+    identity_report["identity_override_rules"] = len(override_rules)
+    identity_report["identity_override_index_references"] = sum(len(value) for value in applied_override_refs.values())
+    identity_report["identity_overrides"] = [
+        {
+            "id": str(rule.get("id") or ""), "source": override_source,
+            "match": rule.get("match", {}), "canonical": rule.get("canonical", {}),
+            "evidence": rule.get("evidence", []), "candidate_evidence": rule.get("candidate_evidence", {}),
+            "reason": rule.get("reason"), "expected_matches": rule.get("expected_matches"),
+            "applied_index_reference_count": len(applied_override_refs.get(str(rule.get("id") or ""), [])),
+            "applied_index_references": sorted(
+                applied_override_refs.get(str(rule.get("id") or ""), []),
+                key=lambda item: (item["catalog_section"], item["index_path"], item["detail_path"], item["legacy_id"]),
+            ),
+        }
+        for rule in override_rules
+    ]
     identity_report["consolidations"] = [
         audit_identity_group(identity_key, references)
         for identity_key, references in sorted(identity_groups.items())
@@ -730,14 +949,28 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                 if isinstance(item, dict) and item.get("id")
             }
             for entry in entries_by_detail[detail_rel]:
-                detail = detail_by_id.get(str(entry["id"]))
-                if not isinstance(detail, dict):
+                source_entry = entry.get("_source_entry", entry)
+                override_info = entry.get("_identity_override") if isinstance(entry.get("_identity_override"), dict) else None
+                source_detail = detail_by_id.get(str(entry["id"]))
+                if not isinstance(source_detail, dict):
                     quarantine.append({"domain": "vod", "reason": "detail_record_missing",
-                                       "record_id": entry["id"], "raw": entry})
+                                       "record_id": entry["id"], "raw": source_entry})
                     continue
-                raw = {"index": entry, "detail": detail, "catalog_section": section}
+                detail = source_detail
+                if override_info:
+                    detail = dict(source_detail)
+                    detail["tmdb_id"] = override_info["canonical_tmdb_id"]
+                    detail_external_ids = dict(source_detail.get("external_ids") or {})
+                    detail_external_ids["tmdb"] = override_info["canonical_tmdb_id"]
+                    detail["external_ids"] = detail_external_ids
+                raw = {"index": source_entry, "detail": source_detail, "catalog_section": section}
                 prov = input_provenance(source_id, "existing-vod-index-and-detail-json",
                     json.dumps(raw, ensure_ascii=False, sort_keys=True), index_rel + " + " + detail_rel)
+                if override_info:
+                    raw["identity_override"] = override_info
+                record_provenance = [prov]
+                if override_info and override_provenance:
+                    record_provenance.append(override_provenance)
                 kind = str(detail.get("subtype") or entry.get("subtype") or "").strip().lower()
                 if kind not in {"movie", "series", "anime", "dorama"}:
                     kind = {"movies": "movie", "series": "series", "anime": "anime", "doramas": "dorama"}.get(section, "series")
@@ -754,6 +987,9 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                         if variant:
                             streams.append(variant)
                 streams = _unique_variants(streams)
+                if override_info and override_provenance:
+                    for variant in streams:
+                        variant["provenance"] = _merge_values(variant.get("provenance", []), [override_provenance])
                 normalized_seasons = []
                 for season in detail.get("seasons", []) if isinstance(detail.get("seasons"), list) else []:
                     if not isinstance(season, dict) or not str(season.get("season", "")).isdigit():
@@ -783,6 +1019,10 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                                 if isinstance(episode.get("provider_refs"), list) else [],
                             "raw": episode,
                         })
+                    if override_info and override_provenance:
+                        for episode_record in episodes:
+                            for variant in episode_record.get("sources", []):
+                                variant["provenance"] = _merge_values(variant.get("provenance", []), [override_provenance])
                     normalized_seasons.append({"season": season_number, "episodes": episodes, "raw": season})
                 record = {
                     "id": canonical_id, "type": kind,
@@ -796,7 +1036,7 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     "poster_url": detail.get("poster_url"), "sources": streams,
                     "provider_refs": detail.get("provider_refs", [])
                         if isinstance(detail.get("provider_refs"), list) else [],
-                    "seasons": normalized_seasons, "provenance": [prov],
+                    "seasons": normalized_seasons, "provenance": record_provenance,
                     "legacy_ids": [str(entry["id"])], "catalog_sections": [section], "raw": raw,
                     "identity_resolution": {
                         "strategy": (
@@ -814,6 +1054,9 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                         "legacy_id_conflict": len(keys_by_legacy_id[str(entry["id"])]) > 1,
                     },
                 }
+                if override_info:
+                    record["identity_resolution"]["identity_override"] = override_info
+                    record["identity_resolution"]["identity_overrides"] = [override_info]
                 if identity_key in aggregate_keys:
                     current = aggregated.get(identity_key)
                     if current is None:

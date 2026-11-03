@@ -20,7 +20,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from datetime import datetime, timezone
 
 from acervo_v2.importers import (
-    parse_channels_json, parse_epg_channel_index, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry, iter_vod_catalog,
+    apply_radio_reference_recovery, parse_channels_json, parse_epg_channel_index, parse_epg_mapping,
+    parse_epg_sources, parse_logo_references, parse_source_registry, iter_vod_catalog,
     parse_m3u, parse_radios_json, parse_vod_catalog, normalize_name,
 )
 
@@ -102,6 +103,9 @@ def main() -> int:
     radios_doc = read_json(root / "catalog/radios/radios.json")
     channels, q_channels = parse_channels_json(channels_doc)
     radios, q_radios = parse_radios_json(radios_doc)
+    radio_recovery_path = root / "sources/reference/radio-recovery.json"
+    radio_recovery_doc = read_json(radio_recovery_path) if radio_recovery_path.exists() else {}
+    radio_recovery_report = apply_radio_reference_recovery(radios, q_radios, radio_recovery_doc)
     if args.m3u:
         m3u_path = args.m3u if args.m3u.is_absolute() else root / args.m3u
         if m3u_path.exists():
@@ -112,7 +116,12 @@ def main() -> int:
 
     q_vod = []
     vod_identity_report = {}
-    vod_records = iter_vod_catalog(root, "catalog-existing", q_vod, vod_identity_report)
+    vod_identity_override_path = root / "sources/reference/vod-identity-overrides.json"
+    vod_identity_override_doc = read_json(vod_identity_override_path) if vod_identity_override_path.exists() else {}
+    vod_records = iter_vod_catalog(
+        root, "catalog-existing", q_vod, vod_identity_report,
+        identity_overrides=vod_identity_override_doc,
+    )
     epg_sources_doc = read_json(root / "catalog/epg/sources.json")
     epg_map_doc = read_json(root / "catalog/epg/channel-map.json")
     epg_sources, q_epg_sources = parse_epg_sources(epg_sources_doc)
@@ -148,6 +157,30 @@ def main() -> int:
             mapping["channel_id"] = matches[0]
     source_registry_doc = read_json(root / "sources/sources.json")
     source_registry, q_source_registry = parse_source_registry(source_registry_doc)
+    reference_source_records = [
+        {
+            "id": "reference-radio-catalog", "domain": "radios",
+            "name": "Radio reference recovery snapshot", "format": "json-reference",
+            "url": None, "priority": 0, "enabled": False, "license": None,
+            "match_strategy": "exact_stream_url_reference",
+            "raw": radio_recovery_doc.get("source", {}),
+        },
+        {
+            "id": "reference-vod-identity", "domain": "vod",
+            "name": "VOD identity override snapshot", "format": "json-reference",
+            "url": None, "priority": 0, "enabled": False, "license": None,
+            "match_strategy": "explicit_tmdb_identity_override",
+            "raw": vod_identity_override_doc.get("source", {}),
+        },
+    ]
+    known_source_ids = {item.get("id") for item in source_registry}
+    for reference_source in reference_source_records:
+        if reference_source["id"] not in known_source_ids and (
+            (reference_source["id"] == "reference-radio-catalog" and radio_recovery_doc)
+            or (reference_source["id"] == "reference-vod-identity" and vod_identity_override_doc)
+        ):
+            source_registry.append(reference_source)
+            known_source_ids.add(reference_source["id"])
     logos, q_logos = parse_logo_references(channels, radios)
 
     docs = {
@@ -212,6 +245,8 @@ def main() -> int:
             "quarantine_count": len(q_radios),
             "quarantine_reason_counts": radio_quarantine_reasons,
             "quarantine_items_with_provenance": sum(bool(item.get("provenance")) for item in q_radios),
+            "quarantine_items_with_resolution": sum(bool(item.get("resolution")) for item in q_radios),
+            "reference_recovery": radio_recovery_report,
         },
         "epg": {
             "sources": [
@@ -264,6 +299,23 @@ def main() -> int:
             "license_documented_count": sum(bool(item.get("license")) for item in logos),
         },
     }
+    reference_inputs = []
+    for reference_path in (radio_recovery_path, vod_identity_override_path):
+        if reference_path.exists():
+            reference_document = read_json(reference_path)
+            reference_source = reference_document.get("source", {}) if isinstance(reference_document, dict) else {}
+            reference_inputs.append({
+                "path": reference_path.relative_to(root).as_posix(),
+                "sha256": hashlib.sha256(reference_path.read_bytes()).hexdigest(),
+                "source_id": reference_source.get("source_id"),
+                "repository": reference_source.get("repository"),
+                "commit": reference_source.get("commit"),
+                "source_paths": (
+                    [reference_source.get("path")] if reference_source.get("path")
+                    else [item.get("path") for item in reference_source.get("files", []) if item.get("path")]
+                ),
+            })
+    reference_inputs.sort(key=lambda item: item["path"])
     report = {
         "schema_version": 1, "report_type": "phase_b_candidate_build",
         "generated_at": generated_at, "catalog_mutated": False,
@@ -271,17 +323,20 @@ def main() -> int:
         "domains": file_entries,
         "vod_identity": vod_identity_report,
         "quality_audit": quality_audit,
+        "reference_inputs": reference_inputs,
         "notes": [
             "Candidates are isolated from catalog/ and sources/; no active record was written.",
             "EPG channels are normalized from the repository-owned xmltv-channels.json index; no local XMLTV programme payload is present, so programme records remain empty until an authorized local feed payload is ingested.",
-            "Source registry candidates are normalized from sources/sources.json; external source adapters remain optional."
-            "Logo records reference existing catalog URLs only; MIME and image bytes remain unverified.",
+            "Source registry candidates are normalized from sources/sources.json; external source adapters remain optional.",
+            "Pinned radio and VOD reference snapshots are local build inputs only; no external network calls or active catalog mutations occur.",
+            "Logo records reference external URLs; local image bytes, MIME and license remain unverified.",
         ],
     }
     report_hash = write_json(output / "report.json", report)
     manifest = {"schema_version": 1, "generated_at": generated_at,
                 "base_ref": __import__("os").environ.get("GITHUB_SHA"),
-                "files": file_entries, "report_sha256": report_hash}
+                "files": file_entries, "report_sha256": report_hash,
+                "reference_inputs": reference_inputs}
     write_json(output / "manifest.json", manifest)
     identity_log_summary = {
         key: value for key, value in vod_identity_report.items()
@@ -292,6 +347,8 @@ def main() -> int:
     quality_log_summary = {
         "radio_quarantine_count": quality_audit["radios"]["quarantine_count"],
         "radio_records_without_valid_streams": quality_audit["radios"]["records_without_valid_streams"],
+        "radio_reference_recovered": radio_recovery_report.get("applied_records", 0),
+        "vod_identity_override_references": vod_identity_report.get("identity_override_index_references", 0),
         "epg_channel_records": quality_audit["epg"]["channel_records"],
         "epg_mapping_status_counts": quality_audit["epg"]["mappings"]["status_counts"],
         "logo_associations": quality_audit["logos"]["logical_associations"],
