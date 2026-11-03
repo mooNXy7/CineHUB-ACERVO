@@ -76,15 +76,17 @@ def validate_candidate_document(path: Path, schema: dict, registry: Registry) ->
         if error.absolute_path and error.absolute_path[0] not in {"records", "quarantine"}:
             errors.append("header: " + error.message)
 
+    root_validator = Draft202012Validator(schema, format_checker=FormatChecker(), registry=registry)
     record_schema = schema["properties"]["records"]["items"]
-    record_validator = Draft202012Validator(record_schema, format_checker=FormatChecker(), registry=registry)
+    # evolve() retains the root schema's resolver/base URI for relative $refs.
+    record_validator = root_validator.evolve(schema=record_schema)
     for index, record in enumerate(iter_records(path)):
         for error in record_validator.iter_errors(record):
             location = "/".join(str(part) for part in error.absolute_path)
             errors.append(f"records[{index}]/{location}: {error.message}")
 
     quarantine_schema = schema["properties"]["quarantine"]["items"]
-    quarantine_validator = Draft202012Validator(quarantine_schema, format_checker=FormatChecker(), registry=registry)
+    quarantine_validator = root_validator.evolve(schema=quarantine_schema)
     for index, record in enumerate(iter_quarantine(path)):
         for error in quarantine_validator.iter_errors(record):
             errors.append(f"quarantine[{index}]: {error.message}")
