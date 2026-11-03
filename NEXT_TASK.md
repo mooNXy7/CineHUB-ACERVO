@@ -29,3 +29,13 @@ A Fase B é a próxima etapa do projeto. **Não foi iniciada nesta correção**.
 
 ## Regras permanentes
 Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMDB; não excluir streams por falha pontual; não aplicar correspondência TMDB ambígua; não substituir catálogo ativo sem backup e validação.
+
+
+## Fonte mestre de verdade e retomada
+**Antes de executar qualquer tarefa, leia integralmente [ROADMAP_V2.md](ROADMAP_V2.md).** Ele contém o plano integral, arquitetura, todos os domínios, decisões, fases futuras, critérios de aceite e regras de continuidade.
+- HEAD após consolidação do roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
+- Fase A: CONCLUÍDA.
+- Fase B: próxima; NÃO INICIADA.
+- A Fase B deve seguir o escopo descrito em ROADMAP_V2.md, especialmente auditoria complementar, schemas canônicos, parsers/importadores, fixtures e testes.
+- Não iniciar Fase C nem qualquer etapa posterior automaticamente.
+- Não tratar esta consolidação documental como implementação da Fase B.
