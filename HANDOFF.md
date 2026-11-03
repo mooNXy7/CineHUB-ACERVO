@@ -37,3 +37,14 @@ A Fase B é a próxima tarefa planejada e permanece não iniciada nesta correç�
 
 ## Limites
 Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não duplicar token TMDB; não inserir branding externo; não remover conteúdo em massa; não promover candidato sem quality gate e rollback. PR #2 permanece aberto como draft e não mesclado.
+
+
+## INSTRUÇÃO OBRIGATÓRIA PARA QUALQUER NOVA CONVERSA
+Leia primeiro e integralmente [ROADMAP_V2.md](ROADMAP_V2.md). Esse documento guarda o cérebro arquitetural e o plano mestre completo do CineHUB-ACERVO V2, incluindo independência operacional, internalização e armazenamento dos dados autorizados, motores, contratos, fontes, todos os domínios, infraestrutura, fases e critérios para chegar a 100%.
+Depois leia ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md, ARCHITECTURE.md (se existir), PROJECT_STATUS.md, NEXT_TASK.md e EXECUTION_LOG.md.
+- Commit de criação do plano mestre: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
+- HEAD conhecido após a consolidação: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
+- Fase A: CONCLUÍDA.
+- Fase B: PRÓXIMA, NÃO INICIADA.
+- O executor deve receber somente a próxima etapa liberada. Não deve reconstruir o plano por conta própria, pular fases, alterar arquitetura ou mexer em consumidores/main sem aprovação.
+- Esta alteração apenas documenta continuidade; não inicia Fase B, não altera catálogos e não publica nada.
