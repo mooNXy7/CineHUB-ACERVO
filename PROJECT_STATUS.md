@@ -30,7 +30,8 @@ Transformar o CineHUB-ACERVO na plataforma central, independente e confiável de
 
 - [x] Confirmar repositório e branch principal.
 - [x] Criar branch isolada `develop/acervo-v2` a partir de `main`.
-- [x] Criar documentos permanentes de continuidade.
+- [x] Criar documentos permanentes de continuidade e verificar sua leitura no GitHub.
+- [x] Registrar o HEAD confirmado da branch: `ccdbe570e082f633b2b7207fe1fa208e83ae3bfe`.
 - [ ] Discutir e aprovar a especificação funcional/arquitetural do ACERVO V2.
 - [ ] Auditar novamente o estado real da branch de trabalho.
 - [ ] Definir etapas de implementação, testes e critérios de aceite.
