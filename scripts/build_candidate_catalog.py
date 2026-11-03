@@ -294,8 +294,10 @@ def main() -> int:
             "external_url_count": sum(bool(item.get("url")) for item in logos),
             "url_scheme_counts": logo_scheme_counts,
             "local_image_files": len(local_logo_files),
-            "mime_verified_count": sum(bool(item.get("mime_type")) for item in logos),
-            "content_verified_count": sum(item.get("status") == "verified" for item in logos),
+            "mime_type_present_count": sum(bool(item.get("mime_type")) for item in logos),
+            "mime_verified_count": sum(bool(item.get("mime_type")) and item.get("mime_verified") is True for item in logos),
+            "content_hash_present_count": sum(bool(item.get("content_sha256")) for item in logos),
+            "content_verified_count": sum(item.get("content_verified") is True and bool(item.get("content_sha256")) for item in logos),
             "license_documented_count": sum(bool(item.get("license")) for item in logos),
         },
     }

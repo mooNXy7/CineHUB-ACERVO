@@ -456,6 +456,12 @@ def apply_radio_reference_recovery(records: list, quarantine: list, document: di
             raise ValueError("radio reference recovery contains a non-unique match")
         by_id[record_id] = item
         seen_urls.add(source_url)
+    expected_reference_records = source.get("expected_records")
+    if expected_reference_records is not None and len(by_id) != int(expected_reference_records):
+        raise ValueError(
+            "radio reference record count changed: expected "
+            + str(expected_reference_records) + ", got " + str(len(by_id))
+        )
 
     applied_ids, invalid_match_ids = set(), []
     streams_added = logo_candidates_promoted = quarantine_items_resolved = 0
@@ -544,6 +550,12 @@ def apply_radio_reference_recovery(records: list, quarantine: list, document: di
                     "recovered_stream_url": recovered_url,
                 }
                 quarantine_items_resolved += 1
+    expected_applied_records = source.get("expected_applied_records")
+    if expected_applied_records is not None and len(applied_ids) != int(expected_applied_records):
+        raise ValueError(
+            "radio reference applied count changed: expected "
+            + str(expected_applied_records) + ", got " + str(len(applied_ids))
+        )
     return {
         "reference_records": len(by_id), "applied_records": len(applied_ids),
         "streams_added": streams_added, "logo_candidates_promoted": logo_candidates_promoted,

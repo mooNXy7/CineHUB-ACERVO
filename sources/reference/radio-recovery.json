@@ -8,7 +8,9 @@
     "blob_sha": "66ea80d3b4e0dc8d5945c67e9c8b3f8c76ebd654",
     "source_ref": "https://github.com/fki1976/SaimoPlayer/blob/41b2c62769fdf049165b2fedb19cc70473fe2c2d/vod/radios.txt",
     "license_file_found": false,
-    "match_strategy": "casefold_and_trim_trailing_slash"
+    "match_strategy": "casefold_and_trim_trailing_slash",
+    "expected_records": 255,
+    "expected_applied_records": 255
   },
   "records": [
     {
