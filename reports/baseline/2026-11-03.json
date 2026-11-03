@@ -5,8 +5,8 @@
   "integration_commit": "d6266bbe5679546e39a63e2724b1460c5465ed4f",
   "comparison_with_main": {
     "main": "c2176962dccc218cd17622f0acd786ff76b18a6d",
-    "branch_head": "3c4d2f7b2c4177e09745f6979860c95ffc8f39a3",
-    "ahead_by": 34,
+    "branch_head": "9c938ed08cc771fb33d4ff49aba8e5fd2503074d",
+    "ahead_by": 36,
     "behind_by": 0,
     "changed_files": 15,
     "catalog_or_sources_files_changed": 0
@@ -112,7 +112,11 @@
     "files": 731,
     "bytes": 314216337,
     "aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e",
-    "manifest": "catalog-snapshot.sha256"
+    "manifest": "catalog-snapshot.sha256",
+    "origin_run_number": 930,
+    "origin_run_id": 41573383428,
+    "manifest_artifact_id": 13202372616,
+    "recalculated_in_final_alignment": false
   },
   "conclusion": "phase_a_complete",
   "limitations": [
@@ -139,5 +143,56 @@
     "artifact_name": "acervo-v2-baseline-4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f",
     "artifact_zip_sha256": "9909dc289a4782a4a6eddf852578143afe27415efa20f53f104a0aade9f44000",
     "snapshot_aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e"
-  }
+  },
+  "final_validation": {
+    "workflow": "Validate catalog",
+    "run_number": 933,
+    "run_id": 41574703366,
+    "event": "push",
+    "branch": "develop/acervo-v2",
+    "branch_head": "9c938ed08cc771fb33d4ff49aba8e5fd2503074d",
+    "conclusion": "success",
+    "job": "validate",
+    "job_conclusion": "success",
+    "steps": {
+      "checkout": "success",
+      "setup_python_3_12": "success",
+      "catalog_validator": "success",
+      "baseline_audit": "success",
+      "unittest": "success",
+      "py_compile": "success",
+      "upload_artifact": "success"
+    },
+    "tests": {
+      "passed": 25,
+      "failed": 0
+    },
+    "artifact_id": 13202777349,
+    "artifact_name": "acervo-v2-baseline-9c938ed08cc771fb33d4ff49aba8e5fd2503074d",
+    "artifact_zip_sha256": "cc351b109dbb050b02a095b224da5ba58718c420ffa8bbd42d1ce43c22bdde76",
+    "artifact_url": "https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/41574703366/artifacts/13202777349"
+  },
+  "validation_history": [
+    {
+      "run_number": 930,
+      "run_id": 41573383428,
+      "role": "original_baseline_and_inventory",
+      "conclusion": "success",
+      "artifact_id": 13202372616
+    },
+    {
+      "run_number": 931,
+      "run_id": 41574547389,
+      "role": "intermediate_document_reconciliation_validation",
+      "conclusion": "success",
+      "artifact_id": 13202359615
+    },
+    {
+      "run_number": 933,
+      "run_id": 41574703366,
+      "role": "final_validation_of_head_9c938ed",
+      "conclusion": "success",
+      "artifact_id": 13202777349
+    }
+  ]
 }

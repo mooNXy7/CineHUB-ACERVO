@@ -165,3 +165,17 @@ Relatórios, status, handoff e próxima tarefa reconciliados para os identificad
 - Digest SHA-256 do ZIP: 9909dc289a4782a4a6eddf852578143afe27415efa20f53f104a0aade9f44000.
 - Snapshot: 731 arquivos; SHA-256 agregado bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
 - Esta execução confirma que os seis documentos reconciliados passaram pela validação automatizada.
+
+
+## 2026-11-03 — Alinhamento documental final da Fase A (execução 933)
+
+### Escopo executado
+- Atualizados exclusivamente os seis documentos de baseline, status, log, próxima tarefa e handoff.
+- Comparação atual registrada: main `c2176962dccc218cd17622f0acd786ff76b18a6d`; develop/acervo-v2 `9c938ed08cc771fb33d4ff49aba8e5fd2503074d`; 36 à frente, 0 atrás.
+- Nenhum arquivo `catalog/` ou `sources/` alterado na comparação.
+- Run 930 preservado como baseline original; run 931 como validação intermediária; run 933 como validação final disponível do HEAD `9c938ed...`.
+- Run 933: ID 41574703366, push, success; 25 testes aprovados, 0 falhas; validador, auditor, py_compile e upload success.
+- Artefato 13202777349; ZIP SHA-256 `cc351b109dbb050b02a095b224da5ba58718c420ffa8bbd42d1ce43c22bdde76`.
+- Snapshot original preservado, não recalculado: 731 arquivos, 314.216.337 bytes, SHA-256 agregado `bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e`; manifesto individual no artefato do baseline 930, ID 13202372616.
+- Este alinhamento não altera catálogos, consumidores, segredos/configurações TMDB ou repositórios de referência. PR #2 não foi mesclado.
+- Fase A permanece encerrada; Fase B não iniciada.
