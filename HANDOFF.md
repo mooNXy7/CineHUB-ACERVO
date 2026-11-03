@@ -1,37 +1,46 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
-Use este arquivo para retomar o trabalho em uma conversa nova ou após uma interrupção.
+Este arquivo permite retomar o trabalho em nova conversa sem recomeçar auditorias nem inverter a ordem.
 
 ## Repositório e branch
 - Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
-- Branch de desenvolvimento: `develop/acervo-v2`
-- Branch estável: `main`
-- Branch V2 criada a partir do commit `c2176962dccc218cd17622f0acd786ff76b18a6d` de `main`.
+- Desenvolvimento: `develop/acervo-v2`
+- Linha estável: `main` (não alterar nesta fase).
+- Consumidores: CineHUB-TV, CineHUB Mobile e CineHUB-WEB (não alterar nesta fase).
 
 ## Leia nesta ordem
-1. `PROJECT_STATUS.md` — situação geral e progresso.
-2. `DECISIONS.md` — decisões aprovadas; não reabrir sem motivo técnico e autorização.
-3. `ARCHITECTURE.md` — princípios arquiteturais.
-4. `EXECUTION_LOG.md` — histórico comprovado de execução.
-5. `NEXT_TASK.md` — próxima ação autorizada.
-6. Este arquivo — instruções de retomada.
+1. `PROJECT_STATUS.md`
+2. `DECISIONS.md`
+3. `ACERVO_V2_SPEC.md`
+4. `ACERVO_V2_BLUEPRINT.md`
+5. `ARCHITECTURE.md`
+6. `EXECUTION_LOG.md`
+7. `NEXT_TASK.md`
+8. Este arquivo.
 
 ## Protocolo obrigatório de retomada
-1. Confirmar que o repositório correto é `mooNXy7/CineHUB-ACERVO`.
-2. Consultar a branch atual e seu HEAD real no GitHub.
-3. Ler os seis documentos acima na própria branch.
-4. Verificar commits recentes, alterações não reconciliadas e estado dos workflows.
-5. Comparar o estado atual com a última entrada de `EXECUTION_LOG.md`.
-6. Retomar somente a próxima tarefa descrita em `NEXT_TASK.md`.
-7. Se houver divergência, registrar e investigar antes de sobrescrever ou repetir alterações.
+1. Confirmar repositório e consultar HEAD real de `develop/acervo-v2`.
+2. Ler os documentos na ordem acima.
+3. Ler a última entrada de `EXECUTION_LOG.md` e comparar com commits/workflows atuais.
+4. Executar apenas a próxima tarefa em `NEXT_TASK.md`; não repetir etapas comprovadas.
+5. Antes de modificar qualquer dado, inspecionar o estado real, criar backup/diff e preparar rollback.
+6. Registrar arquivos alterados, testes executados, resultados e SHA do commit.
 
-## Regras para toda sessão
-- Não afirmar que trabalho está em andamento em segundo plano quando não há execução confirmada.
-- Não declarar sucesso sem resposta confirmatória da ferramenta e validação adequada.
-- Registrar mudanças e testes no log.
-- Atualizar status e próxima tarefa ao final de cada unidade de trabalho.
-- Preferir commits pequenos e identificáveis.
-- Não fazer push/merge em `main`, alterar consumidores ou publicar OTA sem autorização explícita.
+## Contexto técnico já levantado (revalidar no código, não presumir)
+- Há um pipeline de catálogo existente e importador de referência que precisa ser desacoplado.
+- O formato de rádios da referência não é compatível diretamente com o importador atual.
+- A amostra auditada de rádios apresentou registros sem gênero/logo e URLs de imagem em campo de stream; validar novamente na branch.
+- Workflows VOD apontaram para scripts ausentes na branch auditada; confirmar antes de corrigir.
+- Um cliente TV ainda foi identificado consultando índice do repositório de referência para resolver referências de VOD. Não tocar no consumidor agora; eliminar essa necessidade no contrato próprio antes da futura integração.
+- TMDB já possui token integrado ao Supabase conforme informação do responsável; não duplicar segredo.
+- Recursos Cloudflare/Supabase devem ser inventariados antes de assumir que Pages, Workers, R2, tabelas ou funções específicas estão ativos.
 
-## Situação na criação deste handoff
-A branch e os documentos de continuidade estão sendo inicializados. A especificação completa do ACERVO V2 ainda depende de conversa e aprovação do responsável pelo projeto.
+## Decisões permanentes
+- Fontes independentes são primárias; repositórios de referência são adaptadores opcionais.
+- ACERVO mantém seus próprios IDs, metadados, fontes, índices, versões e histórico.
+- Não usar branding Saimo em produto/documentação pública.
+- Nenhuma alteração em TV/Mobile/Web, nenhuma integração em produção e nenhuma OTA sem autorização expressa.
+- Falha temporária não é motivo para remover conteúdo; publicação exige quality gate e rollback.
+
+## Regra de continuidade
+Não voltar ao planejamento do zero. Usar a especificação aprovada como contrato, atualizar somente quando evidência técnica demonstrar necessidade, registrar a razão e preservar decisões já aprovadas.
