@@ -67,12 +67,16 @@ O responsável autorizou o início da Fase B. Execute a Fase B integralmente con
 
 
 ## HANDOFF VIGENTE — Fase B (2026-11-03)
-- HEAD registrado: `cf2148d6dbfa229e5e7fcda25def8aec779c567a`.
-- 13 schemas validados; 39 testes aprovados na última execução observada.
-- Construção integral do candidato passou; validação integral estava em andamento no run 980 / 41590601634.
+- HEAD registrado: `9b869cd1705cd70550b87e7db95a8024496327af`.
+- 13 schemas validados; 40 testes aprovados na última execução observada.
+- Construção integral do candidato passou; validação integral estava em andamento no run 983 / 41590601634.
 - O VOD é processado por shard e o validador lê documentos grandes de forma incremental.
 - EPG: 1.014 canais do índice local; sem payload local de programas.
 - Assets: associação de logos por canal/rádio; sem imagens locais para MIME/conteúdo/licença.
 - Quatro scripts VOD implementados; não executar workflows TMDB online sem a autorização/secret já existente, não alterar segredos.
 - Nenhum catálogo ativo, consumidor, main, repositório Fki ou configuração de produção foi modificado. Nenhum merge, publicação ou OTA.
 - Próxima ação: confirmar CI integral, idempotência, smoke tests dos quatro entrypoints, artefato completo e métricas. Encerrar somente Fase B; aguardar aprovação antes de Fase C.
+
+
+### Evidência mais recente
+Commit `9b869cd1705cd70550b87e7db95a8024496327af`: 40 testes (incluindo idempotência e CLI offline VOD), artefato configurado para incluir todos os documentos candidatos. Run 983 / 41591165169 passou testes, compilação e build integral; validação integral ainda pendente.

@@ -60,18 +60,18 @@ Nenhum catálogo ou fonte ativa foi alterado; nenhum consumidor, segredo, config
 - `638722caf78ffa5709bdf61d7fc2ebad661552c1`: import regex no validador.
 - `98d77f89f6468c688fcd104473ecb9f78726677c`: construção VOD incremental por shard.
 - `02b695f035de64ab68119915b88b22cbd7c8740a`: validação incremental via ijson.
-- `cf2148d6dbfa229e5e7fcda25def8aec779c567a`: resolver de schemas relativo preservado.
+- `9b869cd1705cd70550b87e7db95a8024496327af`: resolver de schemas relativo preservado.
 
 ### Runs e evidências
 - Runs 960–965 falharam por expectativas de teste e importação de pacote; correções registradas nos commits correspondentes.
 - Runs 976/977: construção integral do candidato passou; validação subsequente foi cancelada por atualização da branch.
 - Runs 978/979: falha na resolução de referências relativas dos sub-schemas durante validação incremental; corrigida em `cf2148d`.
-- Run 980 / `41590601634`: 39 testes offline aprovados, compilação Python aprovada, build integral do candidato aprovado; validação integral em andamento na última consulta.
+- Run 980 / `41590601634`: 40 testes offline aprovados, compilação Python aprovada, build integral do candidato aprovado; validação integral em andamento na última consulta.
 - Artifact 13209354445 (run 976), ZIP SHA-256 `19d59e0b5a5ec3404b4d7182d156b9c50ded0525640d6ca5a34ec9772b26cdf9`, 69.908 bytes; incluía baseline, manifest e report, ainda sem os documentos candidatos completos. O workflow foi alterado para incluir a pasta integral do candidato em runs seguintes.
 
 ### Cobertura e limitações
 - 13 schemas versionados.
-- 39 testes aprovados; cinco domínios cobertos por fixtures/parsers e validação de integridade.
+- 40 testes aprovados; cinco domínios cobertos por fixtures/parsers e validação de integridade.
 - Índice EPG local: 1.014 canais em quatro feeds normalizados. Sem payload XMLTV local de programas; programmes permanece vazio.
 - Logos/assets: associações de canais e rádios; sem arquivos de imagem locais para validar MIME, conteúdo ou licença. Referências externas ficam não verificadas.
 - Quatro entrypoints VOD existem; aplicação TMDB permanece em overlays/candidatos. Workflows online não foram executados, nem segredos foram alterados.
@@ -79,3 +79,9 @@ Nenhum catálogo ou fonte ativa foi alterado; nenhum consumidor, segredo, config
 
 ### Próximas ações
 Concluir validação integral, comprovar idempotência, executar smoke tests CLI dos quatro scripts VOD, guardar o conjunto completo de artefatos e atualizar métricas reais/quarentena. Fase B continua EM ANDAMENTO; Fase C não iniciada.
+
+
+## Atualização — commit `9b869cd1705cd70550b87e7db95a8024496327af`
+- 40 testes na suíte: idempotência byte a byte do build com timestamp fixo e smoke test offline dos quatro entrypoints VOD.
+- `.github/workflows/validate.yml` agora inclui a pasta completa do candidato no artefato.
+- Run 983 / 41591165169: offline tests success; py_compile success; full candidate build success; candidate schema/integrity validation em andamento na última consulta.

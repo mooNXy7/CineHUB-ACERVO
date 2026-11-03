@@ -79,10 +79,14 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 
 
 ## Estado de execução e pendências vigentes — 2026-11-03
-- HEAD registrado: `cf2148d6dbfa229e5e7fcda25def8aec779c567a`.
-- 13 schemas validados; 39 testes aprovados na última execução observada.
-- Construção integral do candidato aprovada na etapa do workflow; validação integral em processamento no run 980 (41590601634).
+- HEAD registrado: `9b869cd1705cd70550b87e7db95a8024496327af`.
+- 13 schemas validados; 40 testes aprovados na última execução observada.
+- Construção integral do candidato aprovada na etapa do workflow; validação integral em processamento no run 983 (41591165169).
 - Correção recente do validador preserva o resolver de referências relativas em sub-schemas.
-- Próximas ações: confirmar run 980 ou execução sucessora; comprovar idempotência do build; testar `--help` dos quatro entrypoints VOD fora do diretório do repositório; garantir artefato de CI com todos os documentos candidatos; registrar contagens reais e quarentena.
+- Próximas ações: confirmar run 983 ou execução sucessora; comprovar idempotência do build; testar `--help` dos quatro entrypoints VOD fora do diretório do repositório; garantir artefato de CI com todos os documentos candidatos; registrar contagens reais e quarentena.
 - Limites ainda não comprovados: MIME/licença de imagens (não há imagens locais); programação EPG completa (não há payload XMLTV local); workflows TMDB online (não foram disparados e não se alteraram segredos).
 - Nenhuma alteração em main, catálogos/fontes ativos, consumidores, repositórios de referência ou produção. Não publicar e não iniciar Fase C.
+
+
+### Última evidência — run 983
+40 testes offline aprovados, compilação Python aprovada e construção integral do candidato aprovada. A validação integral de schemas/relações e o upload do artefato completo ainda precisam concluir. Não fechar Fase B antes disso.

@@ -64,7 +64,7 @@ Os quatro entrypoints VOD foram implementados e estão em auditoria/testes; os w
 
 
 ## Estado técnico vigente — Fase B (2026-11-03)
-- Branch: `develop/acervo-v2`; último commit registrado nesta atualização: `cf2148d6dbfa229e5e7fcda25def8aec779c567a`.
+- Branch: `develop/acervo-v2`; último commit registrado nesta atualização: `9b869cd1705cd70550b87e7db95a8024496327af`.
 - Schemas: 13/13 validados.
 - Testes: 39 aprovados na última execução observada.
 - Construção integral: etapa aprovada em runs 976/977; validação foi interrompida por atualização subsequente. Run 980 repetiu os testes e build com sucesso; validação integral ainda estava em andamento.
@@ -74,3 +74,9 @@ Os quatro entrypoints VOD foram implementados e estão em auditoria/testes; os w
 - Segurança: sem alterações em main, catálogos/fontes ativos, consumidores, segredos ou produção; nenhuma publicação.
 - Estado da Fase B: EM ANDAMENTO (~65%); não declarar 100%.
 - Próxima tarefa: fechar validação integral, comprovar idempotência e smoke tests dos quatro entrypoints, atualizar evidências/artefatos e encerrar somente a Fase B.
+
+
+### Atualização de execução — commit `9b869cd1705cd70550b87e7db95a8024496327af`
+- Testes ampliados para 40, incluindo idempotência byte a byte do candidato e CLI offline dos quatro entrypoints VOD.
+- Workflow passou a arquivar todos os documentos candidatos.
+- Run 983 / 41591165169: testes, compilação e build integral aprovados; validação integral pendente.

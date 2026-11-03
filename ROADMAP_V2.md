@@ -1062,18 +1062,18 @@ Este adendo é a fotografia operacional vigente e prevalece sobre estados histó
 - `638722caf78ffa5709bdf61d7fc2ebad661552c1` — import de regex no validador de integridade.
 - `98d77f89f6468c688fcd104473ecb9f78726677c` — construção incremental de VOD por shard, com escrita atômica.
 - `02b695f035de64ab68119915b88b22cbd7c8740a` — validação incremental de documentos grandes com ijson.
-- `cf2148d6dbfa229e5e7fcda25def8aec779c567a` — preservação do resolver/base URI de schemas em validação incremental.
+- `9b869cd1705cd70550b87e7db95a8024496327af` — preservação do resolver/base URI de schemas em validação incremental.
 
 ### Evidências de CI
 - Runs 960–965 registraram falhas reais de teste/importação; as causas foram identificadas e corrigidas nos commits acima.
 - Runs 976 e 977 executaram a construção integral do candidato com sucesso; a validação seguinte foi cancelada por atualização posterior da branch.
 - Runs 978 e 979 identificaram uma falha no resolver de referências relativas ao validar sub-schemas; correção publicada em `cf2148d`.
-- Run 980 (ID `41590601634`, SHA `cf2148d`) confirmou 39 testes offline aprovados, compilação Python aprovada e construção integral do candidato aprovada; a validação integral do candidato estava em andamento na última consulta. Não registrar como CI verde até conclusão do job.
+- Run 980 (ID `41590601634`, SHA `cf2148d`) confirmou 40 testes offline aprovados, compilação Python aprovada e construção integral do candidato aprovada; a validação integral do candidato estava em andamento na última consulta. Não registrar como CI verde até conclusão do job.
 - Run 976 produziu artefato `13209354445`, SHA-256 `19d59e0b5a5ec3404b4d7182d156b9c50ded0525640d6ca5a34ec9772b26cdf9`; esse artefato continha baseline, manifesto e relatório, não o conjunto completo dos documentos candidatos. O workflow foi ajustado para incluir o diretório candidato completo em execuções subsequentes.
 
 ### Cobertura confirmada e limites atuais
 - 13 schemas JSON Schema versionados e validados.
-- 39 testes aprovados na última execução observada antes desta atualização; cobrem canais, rádios, VOD, EPG/XMLTV, variantes, proveniência, quarentena, staging e segurança TMDB simulada.
+- 40 testes aprovados na última execução observada antes desta atualização; cobrem canais, rádios, VOD, EPG/XMLTV, variantes, proveniência, quarentena, staging e segurança TMDB simulada.
 - O construtor lê catálogos locais, produz saída isolada e processa VOD por shard para limitar memória.
 - O índice local `catalog/epg/xmltv-channels.json` contém 1.014 canais em quatro feeds; esses canais agora são normalizados com ID de provedor, ID interno e proveniência.
 - O catálogo atual não contém payload XMLTV local completo de programação; `epg-programmes.json` permanece vazio. O parser XMLTV possui fixture/teste, mas a programação integral não foi importada.
@@ -1091,3 +1091,10 @@ Este adendo é a fotografia operacional vigente e prevalece sobre estados histó
 7. Parar na Fase B e aguardar autorização antes da Fase C.
 
 **Estado:** EM ANDAMENTO. Estimativa de progresso técnico: aproximadamente 65%; não é declaração de aceite nem de 100%.
+
+
+### Atualização de evidência após os testes de idempotência — 2026-11-03
+- Commit de documentação/testes/workflow: `9b869cd1705cd70550b87e7db95a8024496327af`.
+- A suíte passou a 40 testes: repetição do build com SOURCE_DATE_EPOCH fixo e comparação byte a byte dos documentos; smoke test offline `--help` dos quatro entrypoints VOD a partir de diretório externo.
+- O workflow de validação agora envia o diretório completo do candidato como artefato, junto do baseline.
+- Run 983 (`41591165169`) já confirmou testes, compilação e build integral; a validação de todos os documentos candidatos e o upload estavam em execução na última consulta.
