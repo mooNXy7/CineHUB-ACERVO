@@ -70,6 +70,21 @@ class CanonicalParserTests(unittest.TestCase):
         self.assertTrue(records[0]["raw"]["custom_unknown"]["keep"])
         self.assertEqual(quarantine, [])
 
+    def test_radio_json_quarantine_retains_provenance_and_flags_missing_stream(self):
+        doc = {"radios": [
+            {"id": "radio.image", "name": "Estação com logo", "stream_url": "https://assets.example.test/logo.png",
+             "source_id": "reference-catalog"},
+            {"id": "radio.missing", "name": "https://audio.example.test/live", "stream_url": ""},
+        ]}
+        records, quarantine = parse_radios_json(doc, "radio-fixture")
+        self.assertEqual(len(records), 2)
+        self.assertEqual({item["reason"] for item in quarantine},
+                         {"image_url_in_audio_stream", "missing_stream_url"})
+        self.assertTrue(all(item["provenance"][0]["source_ref"] == "catalog/radios/radios.json"
+                            for item in quarantine))
+        missing = next(item for item in quarantine if item["reason"] == "missing_stream_url")
+        self.assertEqual(missing["raw"]["name"], "https://audio.example.test/live")
+
     def test_vod_reference_movie_and_series_formats_keep_variants_and_provider_refs(self):
         movies, q_movies = parse_vod_reference_movies(
             (FIXTURES / "vod-movies.txt").read_text(encoding="utf-8"),
@@ -237,6 +252,16 @@ class CanonicalParserTests(unittest.TestCase):
             self.assertEqual(identity_report["legacy_ids_reused_across_distinct_identities"], 1)
             self.assertEqual(identity_report["identity_groups_affected_by_legacy_id_conflict"], 2)
             self.assertEqual(identity_report["output_records"], 3)
+            self.assertEqual(identity_report["identity_audit_version"], 1)
+            self.assertEqual(len(identity_report["consolidations"]), 1)
+            self.assertEqual(identity_report["consolidations"][0]["canonical_id"], "series-shared")
+            self.assertEqual(identity_report["consolidations"][0]["index_reference_count"], 3)
+            self.assertEqual(len(identity_report["legacy_id_conflicts"]), 1)
+            self.assertEqual(identity_report["legacy_id_conflicts"][0]["legacy_id"], "series-my-name")
+            self.assertEqual(
+                {group["tmdb_ids"][0] for group in identity_report["legacy_id_conflicts"][0]["identity_groups"]},
+                {"110356", "2317"},
+            )
             shared = next(item for item in first if item["external_ids"]["tmdb"] == "100")
             self.assertEqual(shared["id"], "series-shared")
             self.assertEqual(shared["legacy_ids"], ["series-shared", "series-translated"])
@@ -398,8 +423,13 @@ class CandidateBuildTests(unittest.TestCase):
             epg_mappings = json.loads((output / "epg-mappings.json").read_text())["records"]
             self.assertEqual(len(epg_channels), 1)
             self.assertEqual(epg_channels[0]["provider_channel_id"], "CT")
+            self.assertEqual(epg_channels[0]["source_priority"], 1)
             self.assertEqual(epg_mappings[0]["channel_id"], "ch.test")
+            self.assertEqual(epg_mappings[0]["candidate_channel_ids"], ["ch.test"])
             self.assertEqual(epg_mappings[0]["match_status"], "matched")
+            quality_audit = json.loads((output / "report.json").read_text())["quality_audit"]
+            self.assertEqual(quality_audit["epg"]["channel_records"], 1)
+            self.assertEqual(quality_audit["logos"]["local_image_files"], 0)
             from validate_schemas import validate_candidate_integrity
             integrity_errors, metrics = validate_candidate_integrity(output)
             self.assertEqual(integrity_errors, [])

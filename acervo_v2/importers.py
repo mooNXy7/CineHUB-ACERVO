@@ -88,11 +88,11 @@ def _stream_variant(item: dict, entity_id: str, source_id: str, provenance: dict
     ok, reason = safe_stream_url(url)
     if not ok:
         quarantine.append({"domain": domain, "reason": reason, "entity_id": entity_id,
-                           "source_id": source_id, "raw": item})
+                           "source_id": source_id, "provenance": [provenance], "raw": item})
         return None
     if domain == "radio" and is_image_url(url):
         quarantine.append({"domain": domain, "reason": "image_url_in_audio_stream", "entity_id": entity_id,
-                           "source_id": source_id, "raw": item})
+                           "source_id": source_id, "provenance": [provenance], "raw": item})
         return None
     variant_source = str(item.get("source_id") or source_id)
     try:
@@ -386,6 +386,11 @@ def parse_radios_json(document: dict, source_id: str = "catalog-existing",
         raw_streams = list(item.get("streams", [])) if isinstance(item.get("streams"), list) else []
         if item.get("stream_url"):
             raw_streams.append({"url": item["stream_url"], "source_id": item.get("source_id") or source_id})
+        if not raw_streams:
+            quarantine.append({
+                "domain": "radios", "reason": "missing_stream_url", "entity_id": ident,
+                "source_id": source_id, "provenance": [prov], "raw": item,
+            })
         streams = []
         seen = set()
         for raw in raw_streams:
@@ -654,6 +659,64 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
             if any(str(ref[3]["id"]) in reused_legacy_ids for ref in references)
         ),
     })
+
+    def audit_identity_group(identity_key: str, references: list) -> dict:
+        index_references = []
+        for section, index_rel, detail_rel, entry in references:
+            external = entry.get("external_ids") if isinstance(entry.get("external_ids"), dict) else {}
+            media_type = str(entry.get("subtype") or "").strip().lower()
+            if media_type not in {"movie", "series", "anime", "dorama"}:
+                media_type = {"movies": "movie", "series": "series",
+                              "anime": "anime", "doramas": "dorama"}.get(section, "series")
+            tmdb_id = str(entry.get("tmdb_id") or external.get("tmdb") or "").strip()
+            imdb_id = str(entry.get("imdb_id") or external.get("imdb") or "").strip()
+            index_references.append({
+                "catalog_section": section,
+                "index_path": index_rel,
+                "detail_path": detail_rel,
+                "legacy_id": str(entry.get("id") or ""),
+                "title": str(entry.get("title") or ""),
+                "media_type": media_type,
+                "year": str(entry.get("year") or "").strip() or None,
+                "tmdb_id": tmdb_id or None,
+                "imdb_id": imdb_id or None,
+            })
+        index_references.sort(key=lambda item: (
+            item["catalog_section"], item["index_path"], item["detail_path"],
+            item["legacy_id"], item["title"],
+        ))
+        return {
+            "canonical_id": final_ids[identity_key],
+            "identity_key": identity_key,
+            "identity_key_sha256": hashlib.sha256(identity_key.encode("utf-8")).hexdigest(),
+            "legacy_ids": sorted({item["legacy_id"] for item in index_references if item["legacy_id"]}),
+            "catalog_sections": sorted({item["catalog_section"] for item in index_references}),
+            "media_types": sorted({item["media_type"] for item in index_references}),
+            "years": sorted({item["year"] for item in index_references if item["year"]}),
+            "tmdb_ids": sorted({item["tmdb_id"] for item in index_references if item["tmdb_id"]}),
+            "imdb_ids": sorted({item["imdb_id"] for item in index_references if item["imdb_id"]}),
+            "index_reference_count": len(index_references),
+            "entries_consolidated": max(0, len(index_references) - 1),
+            "index_references": index_references,
+        }
+
+    identity_report["identity_audit_version"] = 1
+    identity_report["consolidations"] = [
+        audit_identity_group(identity_key, references)
+        for identity_key, references in sorted(identity_groups.items())
+        if len(references) > 1
+    ]
+    identity_report["legacy_id_conflicts"] = [
+        {
+            "legacy_id": legacy_id,
+            "identity_groups": [
+                audit_identity_group(identity_key, identity_groups[identity_key])
+                for identity_key in sorted(keys_by_legacy_id[legacy_id])
+            ],
+        }
+        for legacy_id in sorted(reused_legacy_ids)
+    ]
+
     aggregated = {}
     output_records = 0
 

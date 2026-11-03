@@ -7,7 +7,9 @@ import hashlib
 import json
 import os
 import tempfile
+from collections import Counter, defaultdict
 from pathlib import Path
+from urllib.parse import urlsplit
 
 # Direct script execution sets sys.path[0] to scripts/, not the repository root.
 # Keep checkout-local imports working without requiring network or editable installs.
@@ -123,6 +125,12 @@ def main() -> int:
             read_json(epg_channel_index_path), "catalog/epg/xmltv-channels.json")
     else:
         epg_channels, q_epg_channels = [], []
+    source_priorities = {
+        str(source["id"]): int(source.get("priority", 100))
+        for source in epg_sources if source.get("id")
+    }
+    for epg_channel in epg_channels:
+        epg_channel["source_priority"] = source_priorities.get(epg_channel.get("source_id"))
     # Attach legacy name-based EPG mappings to a CineHUB channel only when the
     # normalized name resolves uniquely. Ambiguous/unmatched mappings remain visible.
     channel_names = {}
@@ -134,6 +142,7 @@ def main() -> int:
     for mapping in epg_mappings:
         key = normalize_name(mapping.get("channel_name"))
         matches = sorted(channel_names.get(key, set()))
+        mapping["candidate_channel_ids"] = matches
         mapping["match_status"] = "matched" if len(matches) == 1 else ("ambiguous" if matches else "unmatched")
         if len(matches) == 1:
             mapping["channel_id"] = matches[0]
@@ -163,12 +172,105 @@ def main() -> int:
         digest = write_json(output / name, document)
         file_entries[name] = {"sha256": digest, "records": len(document["records"]),
                               "quarantine": len(document["quarantine"])}
+    radio_quarantine_reasons = dict(sorted(Counter(
+        str(item.get("reason") or "unknown") for item in q_radios
+    ).items()))
+    radio_records_without_streams = sum(not item.get("streams") for item in radios)
+    epg_channels_by_source = Counter(str(item.get("source_id") or "") for item in epg_channels)
+    epg_provider_id_sources = defaultdict(set)
+    epg_display_name_sources = defaultdict(set)
+    for item in epg_channels:
+        provider_id = str(item.get("provider_channel_id") or "")
+        if provider_id:
+            epg_provider_id_sources[provider_id].add(str(item.get("source_id") or ""))
+        for display_name in item.get("display_names", []):
+            key = normalize_name(display_name)
+            if key:
+                epg_display_name_sources[key].add(str(item.get("source_id") or ""))
+    epg_mapping_statuses = dict(sorted(Counter(
+        str(item.get("match_status") or "unclassified") for item in epg_mappings
+    ).items()))
+    epg_mapping_types = dict(sorted(Counter(
+        str(item.get("mapping_type") or "unknown") for item in epg_mappings
+    ).items()))
+    logo_kind_counts = dict(sorted(Counter(str(item.get("kind") or "unknown") for item in logos).items()))
+    logo_status_counts = dict(sorted(Counter(str(item.get("status") or "unknown") for item in logos).items()))
+    logo_scheme_counts = dict(sorted(Counter(
+        urlsplit(str(item.get("url") or "")).scheme.lower()
+        for item in logos if item.get("url")
+    ).items()))
+    image_suffixes = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".ico", ".avif", ".bmp"}
+    logo_root = root / "catalog/logos"
+    local_logo_files = [
+        path for path in logo_root.rglob("*")
+        if path.is_file() and path.suffix.lower() in image_suffixes
+    ] if logo_root.exists() else []
+    quality_audit = {
+        "radios": {
+            "records": len(radios),
+            "records_without_valid_streams": radio_records_without_streams,
+            "quarantine_count": len(q_radios),
+            "quarantine_reason_counts": radio_quarantine_reasons,
+            "quarantine_items_with_provenance": sum(bool(item.get("provenance")) for item in q_radios),
+        },
+        "epg": {
+            "sources": [
+                {
+                    "id": source.get("id"),
+                    "format": source.get("format"),
+                    "priority": source.get("priority"),
+                    "indexed_channels": epg_channels_by_source.get(str(source.get("id") or ""), 0),
+                }
+                for source in sorted(epg_sources, key=lambda item: (int(item.get("priority", 100)), str(item.get("id") or "")))
+            ],
+            "channel_records": len(epg_channels),
+            "unique_source_provider_id_pairs": len({
+                (str(item.get("source_id") or ""), str(item.get("provider_channel_id") or ""))
+                for item in epg_channels
+            }),
+            "provider_ids_reused_across_feeds": sum(
+                1 for source_ids in epg_provider_id_sources.values() if len(source_ids) > 1
+            ),
+            "normalized_display_names_reused_across_feeds": sum(
+                1 for source_ids in epg_display_name_sources.values() if len(source_ids) > 1
+            ),
+            "mappings": {
+                "total": len(epg_mappings),
+                "status_counts": epg_mapping_statuses,
+                "type_counts": epg_mapping_types,
+                "ambiguous": [
+                    {
+                        "id": item.get("id"),
+                        "channel_name": item.get("channel_name"),
+                        "mapping_type": item.get("mapping_type"),
+                        "value": item.get("value"),
+                        "candidate_channel_ids": item.get("candidate_channel_ids", []),
+                    }
+                    for item in epg_mappings if item.get("match_status") == "ambiguous"
+                ],
+            },
+            "programme_records": 0,
+            "local_programme_payload_present": False,
+        },
+        "logos": {
+            "logical_associations": len(logos),
+            "kind_counts": logo_kind_counts,
+            "status_counts": logo_status_counts,
+            "external_url_count": sum(bool(item.get("url")) for item in logos),
+            "url_scheme_counts": logo_scheme_counts,
+            "local_image_files": len(local_logo_files),
+            "mime_verified_count": sum(bool(item.get("mime_type")) for item in logos),
+            "content_verified_count": sum(item.get("status") == "verified" for item in logos),
+            "license_documented_count": sum(bool(item.get("license")) for item in logos),
+        },
+    }
     report = {
         "schema_version": 1, "report_type": "phase_b_candidate_build",
         "generated_at": generated_at, "catalog_mutated": False,
         "reference_network_used": False, "active_catalogs_modified": False,
         "domains": file_entries,
         "vod_identity": vod_identity_report,
+        "quality_audit": quality_audit,
         "notes": [
             "Candidates are isolated from catalog/ and sources/; no active record was written.",
             "EPG channels are normalized from the repository-owned xmltv-channels.json index; no local XMLTV programme payload is present, so programme records remain empty until an authorized local feed payload is ingested.",
