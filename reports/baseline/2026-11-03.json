@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-03",
+  "branch": "develop/acervo-v2",
+  "branch_head": "6f7c01240da3cf263875cddcb5ef006acce15a7c",
+  "workflow": {
+    "name": "Validate catalog",
+    "run_number": 921,
+    "run_id": 41573214240,
+    "conclusion": "success",
+    "tests": {
+      "passed": 25,
+      "failed": 0
+    },
+    "catalog_validator": "success",
+    "baseline_audit": "success",
+    "py_compile": "success",
+    "artifact_id": 13202222754,
+    "artifact_name": "acervo-v2-baseline-a4387ac51b4baa8124fae0b8d48da06b9b52988f"
+  },
+  "inventory": {
+    "directories": {
+      "catalog/": {
+        "files": 728,
+        "bytes": 314213984
+      },
+      "sources/": {
+        "files": 3,
+        "bytes": 2353
+      },
+      "normalizer/": {
+        "files": 1,
+        "bytes": 311
+      },
+      "scripts/": {
+        "files": 6,
+        "bytes": 79560
+      },
+      "tests/": {
+        "files": 3,
+        "bytes": 12713
+      },
+      "reports/": {
+        "files": 1,
+        "bytes": 782
+      },
+      ".github/workflows/": {
+        "files": 4,
+        "bytes": 16460
+      }
+    },
+    "channels": 2431,
+    "vod": {
+      "movies": 40938,
+      "series": 11665,
+      "anime": 2749,
+      "doramas": 896,
+      "index_counts_match": true
+    },
+    "radios": {
+      "records": 1026,
+      "missing_id": 0,
+      "missing_name": 0,
+      "missing_stream": 2,
+      "missing_logo": 754,
+      "missing_genre": 1026,
+      "duplicate_ids": 0,
+      "probable_image_stream_urls": 252,
+      "non_https_logos": 10
+    },
+    "epg_sources": 6,
+    "epg_channel_map_exists": true,
+    "source_registry_entries": 1,
+    "local_logo_image_files": 0,
+    "dependency_manifests_found": []
+  },
+  "workflows": {
+    "count": 4,
+    "missing_scripts": [
+      "scripts/enrich_vod_metadata.py",
+      "scripts/apply_vod_metadata_patch.py",
+      "scripts/suggest_vod_tmdb_matches.py",
+      "scripts/apply_vod_tmdb_id_candidates.py"
+    ],
+    "external_clone": "https://github.com/fki1976/SaimoPlayer.git",
+    "supabase_function_references": 2,
+    "tmdb_secret_names_in_workflows": []
+  },
+  "snapshot": {
+    "files": 731,
+    "bytes": 314216337,
+    "aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e"
+  },
+  "conclusion": "phase_a_complete",
+  "limitations": [
+    "Supabase secret values not inspected",
+    "EPG health not probed live",
+    "no catalog content modified"
+  ]
+}
