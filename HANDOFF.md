@@ -1,41 +1,39 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
-## Repositório e branch
-- Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
-- Desenvolvimento: develop/acervo-v2
-- Linha estável: main (não alterar).
-- Consumidores: CineHUB-TV, CineHUB Mobile e CineHUB-WEB (não alterar).
+## Repositório
+- https://github.com/mooNXy7/CineHUB-ACERVO
+- Branch de execução: develop/acervo-v2
+- main preservada em c2176962dccc218cd17622f0acd786ff76b18a6d.
+- TV, Mobile e WEB não foram modificados.
 
 ## Documentos normativos
-Leia PROJECT_STATUS.md, DECISIONS.md, ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, ARCHITECTURE.md, NEXT_TASK.md, EXECUTION_LOG.md e este arquivo. Não reiniciar o planejamento.
+Ler ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md e ARCHITECTURE.md antes de mudar contratos. NEXT_TASK.md define a próxima tarefa; EXECUTION_LOG.md mantém evidências.
 
-## Estado técnico confirmado em 2026-11-03
-- HEAD inicial da branch: 2e430447866d9d3e3f042fda4cc0338efa1cfe68.
-- main: c2176962dccc218cd17622f0acd786ff76b18a6d; branch V2 15 commits à frente e 0 atrás.
-- Comparação líquida com main: oito documentos V2; catálogos não divergiam na comparação.
-- Referência autorizada consultada: fki1976/SaimoPlayer, arquivo vod/radios.txt. Formato observado: nome|stream.
-- O importador antigo exigia 3 campos e lia nome/stream em posições incompatíveis. Parser foi corrigido na branch V2 para duas colunas e formato legado.
-- Rádios na branch: 1.026; 1.026 sem gênero; 754 sem logo; 2 sem stream; 253 URLs com extensão de imagem no campo stream; zero IDs duplicados; 10 logos não HTTPS.
-- Manifesto VOD declara 56.248 itens distribuídos em filmes/séries/animes/doramas. Conferir contagens reais com auditor.
-- EPG registry tem seis fontes; health report versionado em 2026-10-26 não é health atual.
-- sources/sources.json declara uma fonte independente de canais.
-- Workflows VOD têm quatro referências a scripts ausentes e branch fixa audit/acervo-hardening-2026-10.
-- Workflow de atualização ainda clona a referência externa antes de importar. Isso é dependência operacional do job, embora exista uma fonte M3U independente cadastrada.
-- Workflows TMDB apontam para função Supabase e usam SUPABASE_ANON_KEY; não copiar nem criar token TMDB. O segredo não foi lido.
+## Fase A — concluída
+- HEAD de branch antes do registro final: 6f7c01240da3cf263875cddcb5ef006acce15a7c.
+- GitHub Actions run 921, ID 41573214240: success.
+- 25 testes passaram; validador, auditor e py_compile passaram.
+- Relatório permanente: reports/baseline/2026-11-03.md e .json.
+- Artefato de snapshot: ID 13202222754; contém baseline.json, baseline.md e catalog-snapshot.sha256.
+- Snapshot: 731 arquivos de catalog/ e sources/, 314.216.337 bytes, SHA-256 agregado bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
 
-## Arquivos adicionados/alterados na baseline
-- scripts/import_reference_catalog.py: parser de rádios compatível com o formato real e proteção contra extensão de imagem em stream.
-- tests/fixtures/radios_reference.txt: amostra curta real.
-- tests/test_baseline.py: testes de contrato do importador.
-- scripts/audit_baseline.py: auditor somente leitura.
-- .github/workflows/validate.yml: CI também em develop, relatório como artefato.
+## Inventário e achados
+- 2.431 canais.
+- VOD: 40.938 filmes, 11.665 séries, 2.749 animes e 896 doramas; todos os índices existem e contagens conferem.
+- 1.026 rádios; 2 sem stream; 754 sem logo; 1.026 sem gênero; 252 URLs com extensão de imagem em stream_url; 10 logos não HTTPS; zero IDs duplicados.
+- EPG: 6 fontes; channel-map.json existe.
+- Registry de fontes: uma fonte.
+- Logos locais: zero imagens, apenas README e dois .gitkeep.
+- Quatro workflows; dois workflows VOD chamam quatro scripts ausentes (dois cada).
+- update-catalog ainda clona a referência fki1976/SaimoPlayer.
+- Workflows referenciam duas funções Supabase; nenhum secret TMDB direto declarado. Não inspecionar nem duplicar valores de segredos.
+- Nenhum manifesto de dependências/configuração padrão foi encontrado entre os nomes raiz verificados.
 
-## Protocolo de continuidade
-1. Consultar HEAD real antes de qualquer gravação.
-2. Conferir Actions e recuperar o artefato de baseline.
-3. Corrigir falhas de testes sem mexer nos dados ativos.
-4. Gerar e registrar snapshot/hash de proteção antes de qualquer migração.
-5. Atualizar log/status/próxima tarefa com evidência e SHA.
+## Correção feita
+Importador de rádios aceita o formato real nome|stream e o formato legado. URLs com extensão de imagem são rejeitadas como streams importados e ficam em revisão. Catálogos existentes não foram reescritos.
 
-## Limites permanentes
-Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não inserir branding externo; não excluir grandes volumes; não promover catálogo candidato sem quality gate e rollback.
+## Próxima etapa
+Fase B: schemas e importadores canônicos. Seguir NEXT_TASK.md. Construir entrypoints VOD faltantes com base nos contratos reais, corrigir workflows, tornar referência externa opcional e criar pipeline próprio de logos. Preservar dados ativos e snapshot.
+
+## Limites
+Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não inserir branding externo; não remover conteúdo em massa; não promover candidato sem quality gate e rollback.
