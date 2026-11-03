@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import json
 import os
+import tempfile
 from pathlib import Path
 
 # Direct script execution sets sys.path[0] to scripts/, not the repository root.
@@ -17,7 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from datetime import datetime, timezone
 
 from acervo_v2.importers import (
-    parse_channels_json, parse_epg_channel_index, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry,
+    parse_channels_json, parse_epg_channel_index, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry, iter_vod_catalog,
     parse_m3u, parse_radios_json, parse_vod_catalog, normalize_name,
 )
 
@@ -53,6 +54,40 @@ def merge_channel_candidates(existing: list, incoming: list) -> list:
     return existing
 
 
+def write_vod_document(path: Path, records, quarantine: list) -> tuple[str, int, int]:
+    """Write a potentially large VOD document incrementally and atomically."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temporary = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    digest = hashlib.sha256()
+    count = 0
+    try:
+        with os.fdopen(fd, "wb") as stream:
+            def emit(value: str):
+                data = value.encode("utf-8")
+                stream.write(data)
+                digest.update(data)
+
+            emit('{"schema_version":1,"domain":"vod","records":[')
+            for record in records:
+                if count:
+                    emit(",")
+                emit(json.dumps(record, ensure_ascii=False, separators=(",", ":")))
+                count += 1
+            emit('],"quarantine":')
+            emit(json.dumps(quarantine, ensure_ascii=False, separators=(",", ":")))
+            emit("}\n")
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    except BaseException:
+        try:
+            os.unlink(temporary)
+        except FileNotFoundError:
+            pass
+        raise
+    return digest.hexdigest(), count, len(quarantine)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
@@ -73,7 +108,8 @@ def main() -> int:
             channels = merge_channel_candidates(channels, incoming)
             q_channels.extend(rejected)
 
-    vod, q_vod = parse_vod_catalog(root)
+    q_vod = []
+    vod_records = iter_vod_catalog(root, "catalog-existing", q_vod)
     epg_sources_doc = read_json(root / "catalog/epg/sources.json")
     epg_map_doc = read_json(root / "catalog/epg/channel-map.json")
     epg_sources, q_epg_sources = parse_epg_sources(epg_sources_doc)
@@ -105,7 +141,6 @@ def main() -> int:
     logos, q_logos = parse_logo_references(channels, radios)
 
     docs = {
-        "vod.json": {"schema_version": 1, "domain": "vod", "records": vod, "quarantine": q_vod},
         "channels.json": {"schema_version": 1, "domain": "channels", "records": channels, "quarantine": q_channels},
         "radios.json": {"schema_version": 1, "domain": "radios", "records": radios, "quarantine": q_radios},
         "logos.json": {"schema_version": 1, "domain": "logos", "records": logos, "quarantine": q_logos},
@@ -119,6 +154,10 @@ def main() -> int:
                     .replace(microsecond=0).isoformat().replace("+00:00", "Z")
                     if os.environ.get("SOURCE_DATE_EPOCH", "").isdigit() else None)
     file_entries = {}
+    vod_digest, vod_count, vod_quarantine_count = write_vod_document(
+        output / "vod.json", vod_records, q_vod)
+    file_entries["vod.json"] = {"sha256": vod_digest, "records": vod_count,
+                                "quarantine": vod_quarantine_count}
     for name, document in docs.items():
         digest = write_json(output / name, document)
         file_entries[name] = {"sha256": digest, "records": len(document["records"]),

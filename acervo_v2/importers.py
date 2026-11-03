@@ -401,87 +401,116 @@ def _safe_path(root: Path, relative: str) -> Path:
     return target
 
 
-def parse_vod_catalog(root: Path, source_id: str = "catalog-existing") -> tuple[list, list]:
-    manifest_path = root / "catalog/vod/index.json"
-    manifest = _load_json(manifest_path)
-    records, quarantine = [], []
+def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
+                    quarantine: list | None = None):
+    """Yield canonical VOD records one detail shard at a time."""
+    quarantine = quarantine if quarantine is not None else []
+    manifest = _load_json(root / "catalog/vod/index.json")
     categories = manifest.get("categories", {})
     for section in ("movies", "series", "anime", "doramas"):
         info = categories.get(section)
         if not isinstance(info, dict):
             continue
         index_rel = str(info.get("index_path") or ("catalog/vod/index/" + section + ".json"))
-        index_path = _safe_path(root, index_rel)
-        entries = _load_json(index_path)
+        entries = _load_json(_safe_path(root, index_rel))
         if not isinstance(entries, list):
             raise ValueError("VOD index is not a list: " + index_rel)
-        detail_cache = {}
+
+        # Group index references by detail shard so only one parsed shard stays
+        # resident in memory. Sorting also makes candidate order reproducible.
+        entries_by_detail = {}
         for entry in entries:
             if not isinstance(entry, dict) or not entry.get("id"):
                 quarantine.append({"domain": "vod", "reason": "invalid_index_entry", "raw": entry})
                 continue
             detail_rel = str(entry.get("detail_path") or "")
             if not detail_rel:
-                quarantine.append({"domain": "vod", "reason": "missing_detail_path", "record_id": entry.get("id"), "raw": entry})
+                quarantine.append({"domain": "vod", "reason": "missing_detail_path",
+                                   "record_id": entry.get("id"), "raw": entry})
                 continue
-            detail_path = _safe_path(root, detail_rel)
-            if detail_rel not in detail_cache:
-                detail_records = _load_json(detail_path)
-                if not isinstance(detail_records, list):
-                    raise ValueError("VOD detail shard is not a list: " + detail_rel)
-                detail_cache[detail_rel] = {str(x.get("id")): x for x in detail_records if isinstance(x, dict) and x.get("id")}
-            detail = detail_cache[detail_rel].get(str(entry["id"]))
-            if not isinstance(detail, dict):
-                quarantine.append({"domain": "vod", "reason": "detail_record_missing", "record_id": entry["id"], "raw": entry})
-                continue
-            raw = {"index": entry, "detail": detail}
-            prov = input_provenance(source_id, "existing-vod-index-and-detail-json",
-                                    json.dumps(raw, ensure_ascii=False, sort_keys=True),
-                                    index_rel + " + " + detail_rel)
-            kind = str(detail.get("subtype") or "")
-            if kind not in {"movie", "series", "anime", "dorama"}:
-                kind = {"movies": "movie", "series": "series", "anime": "anime", "doramas": "dorama"}.get(section, "series")
-            tmdb_id = str(detail.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
-            imdb_id = str(detail.get("imdb_id") or entry.get("imdb_id") or "").strip()
-            raw_sources = detail.get("sources") if isinstance(detail.get("sources"), list) else []
-            streams = []
-            for source in raw_sources:
-                if isinstance(source, dict):
-                    variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
-                    if variant:
-                        streams.append(variant)
-            streams = _unique_variants(streams)
-            seasons = detail.get("seasons", []) if isinstance(detail.get("seasons"), list) else []
-            normalized_seasons = []
-            for season in seasons:
-                if not isinstance(season, dict) or not str(season.get("season", "")).isdigit():
-                    quarantine.append({"domain": "vod", "reason": "invalid_season_number", "record_id": entry["id"], "raw": season})
+            entries_by_detail.setdefault(detail_rel, []).append(entry)
+
+        for detail_rel in sorted(entries_by_detail):
+            detail_records = _load_json(_safe_path(root, detail_rel))
+            if not isinstance(detail_records, list):
+                raise ValueError("VOD detail shard is not a list: " + detail_rel)
+            detail_by_id = {
+                str(item.get("id")): item for item in detail_records
+                if isinstance(item, dict) and item.get("id")
+            }
+            for entry in entries_by_detail[detail_rel]:
+                detail = detail_by_id.get(str(entry["id"]))
+                if not isinstance(detail, dict):
+                    quarantine.append({"domain": "vod", "reason": "detail_record_missing",
+                                       "record_id": entry["id"], "raw": entry})
                     continue
-                eps = []
-                for episode in season.get("episodes", []) if isinstance(season.get("episodes"), list) else []:
-                    if not isinstance(episode, dict) or not str(episode.get("episode", "")).isdigit():
-                        quarantine.append({"domain": "vod", "reason": "invalid_episode_number", "record_id": entry["id"], "raw": episode})
+                raw = {"index": entry, "detail": detail}
+                prov = input_provenance(source_id, "existing-vod-index-and-detail-json",
+                                        json.dumps(raw, ensure_ascii=False, sort_keys=True),
+                                        index_rel + " + " + detail_rel)
+                kind = str(detail.get("subtype") or "")
+                if kind not in {"movie", "series", "anime", "dorama"}:
+                    kind = {"movies": "movie", "series": "series",
+                            "anime": "anime", "doramas": "dorama"}.get(section, "series")
+                tmdb_id = str(detail.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
+                imdb_id = str(detail.get("imdb_id") or entry.get("imdb_id") or "").strip()
+                raw_sources = detail.get("sources") if isinstance(detail.get("sources"), list) else []
+                streams = []
+                for source in raw_sources:
+                    if isinstance(source, dict):
+                        variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
+                        if variant:
+                            streams.append(variant)
+                streams = _unique_variants(streams)
+                seasons = detail.get("seasons", []) if isinstance(detail.get("seasons"), list) else []
+                normalized_seasons = []
+                for season in seasons:
+                    if not isinstance(season, dict) or not str(season.get("season", "")).isdigit():
+                        quarantine.append({"domain": "vod", "reason": "invalid_season_number",
+                                           "record_id": entry["id"], "raw": season})
                         continue
-                    ep_sources = []
-                    for source in episode.get("sources", []) if isinstance(episode.get("sources"), list) else []:
-                        if isinstance(source, dict):
-                            variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
-                            if variant:
-                                ep_sources.append(variant)
-                    ep_sources = _unique_variants(ep_sources)
-                    eps.append({"episode": int(episode.get("episode")), "audio": episode.get("audio"),
-                                "sources": ep_sources, "provider_refs": episode.get("provider_refs", []) if isinstance(episode.get("provider_refs"), list) else [],
-                                "raw": episode})
-                normalized_seasons.append({"season": int(season.get("season")), "episodes": eps, "raw": season})
-            records.append({
-                "id": str(entry["id"]), "type": kind, "title": str(detail.get("title") or entry.get("title") or ""),
-                "year": str(detail.get("year") or entry.get("year")) if (detail.get("year") or entry.get("year")) is not None else None,
-                "aliases": detail.get("aliases", []) if isinstance(detail.get("aliases"), list) else [], "external_ids": {"tmdb": tmdb_id or None, "imdb": imdb_id or None},
-                "overview": str(detail.get("overview")) if detail.get("overview") is not None else None, "genres": detail.get("genres", []) if isinstance(detail.get("genres"), list) else [],
-                "poster_url": detail.get("poster_url"), "sources": streams,
-                "provider_refs": detail.get("provider_refs", []) if isinstance(detail.get("provider_refs"), list) else [], "seasons": normalized_seasons,
-                "provenance": [prov], "raw": raw,
-            })
+                    episodes = []
+                    for episode in season.get("episodes", []) if isinstance(season.get("episodes"), list) else []:
+                        if not isinstance(episode, dict) or not str(episode.get("episode", "")).isdigit():
+                            quarantine.append({"domain": "vod", "reason": "invalid_episode_number",
+                                               "record_id": entry["id"], "raw": episode})
+                            continue
+                        episode_sources = []
+                        for source in episode.get("sources", []) if isinstance(episode.get("sources"), list) else []:
+                            if isinstance(source, dict):
+                                variant = _stream_variant(source, str(entry["id"]), source_id, prov, quarantine, "vod")
+                                if variant:
+                                    episode_sources.append(variant)
+                        episodes.append({
+                            "episode": int(episode.get("episode")),
+                            "audio": episode.get("audio"),
+                            "sources": _unique_variants(episode_sources),
+                            "provider_refs": episode.get("provider_refs", [])
+                                if isinstance(episode.get("provider_refs"), list) else [],
+                            "raw": episode,
+                        })
+                    normalized_seasons.append({
+                        "season": int(season.get("season")), "episodes": episodes, "raw": season,
+                    })
+                yield {
+                    "id": str(entry["id"]), "type": kind,
+                    "title": str(detail.get("title") or entry.get("title") or ""),
+                    "year": str(detail.get("year") or entry.get("year"))
+                        if (detail.get("year") or entry.get("year")) is not None else None,
+                    "aliases": detail.get("aliases", []) if isinstance(detail.get("aliases"), list) else [],
+                    "external_ids": {"tmdb": tmdb_id or None, "imdb": imdb_id or None},
+                    "overview": str(detail.get("overview")) if detail.get("overview") is not None else None,
+                    "genres": detail.get("genres", []) if isinstance(detail.get("genres"), list) else [],
+                    "poster_url": detail.get("poster_url"), "sources": streams,
+                    "provider_refs": detail.get("provider_refs", [])
+                        if isinstance(detail.get("provider_refs"), list) else [],
+                    "seasons": normalized_seasons, "provenance": [prov], "raw": raw,
+                }
+
+
+def parse_vod_catalog(root: Path, source_id: str = "catalog-existing") -> tuple[list, list]:
+    quarantine = []
+    records = list(iter_vod_catalog(root, source_id, quarantine))
     return records, quarantine
 
 
