@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -51,6 +53,53 @@ def radio_inventory(path: Path) -> dict:
     }
 
 
+def directory_inventory() -> dict:
+    requested = ("catalog", "sources", "normalizer", "scripts", "tests", "reports", ".github/workflows")
+    inventory = {}
+    for name in requested:
+        folder = ROOT / name
+        files = sorted(path for path in folder.rglob("*") if path.is_file()) if folder.exists() else []
+        inventory[name] = {
+            "exists": folder.is_dir(),
+            "file_count": len(files),
+            "total_bytes": sum(path.stat().st_size for path in files),
+            "examples": [path.relative_to(ROOT).as_posix() for path in files[:40]],
+        }
+    return inventory
+
+
+def snapshot_catalogs() -> dict:
+    entries = []
+    for name in ("catalog", "sources"):
+        folder = ROOT / name
+        if not folder.exists():
+            continue
+        for path in sorted(item for item in folder.rglob("*") if item.is_file()):
+            payload = path.read_bytes()
+            entries.append({
+                "path": path.relative_to(ROOT).as_posix(),
+                "bytes": len(payload),
+                "sha256": hashlib.sha256(payload).hexdigest(),
+            })
+    canonical = "\\n".join(str(item["sha256"]) + "  " + str(item["path"]) for item in entries)
+    return {
+        "file_count": len(entries),
+        "aggregate_sha256": hashlib.sha256(canonical.encode("utf-8")).hexdigest(),
+        "files": entries,
+    }
+
+
+def configuration_inventory() -> list:
+    candidates = (
+        "pyproject.toml", "requirements.txt", "requirements-dev.txt", "Pipfile",
+        "Pipfile.lock", "poetry.lock", "uv.lock", "setup.cfg", "tox.ini",
+        "Makefile", "package.json", "package-lock.json", ".python-version",
+    )
+    return [
+        {"path": name, "bytes": (ROOT / name).stat().st_size}
+        for name in candidates if (ROOT / name).is_file()
+    ]
+
 def build_report() -> dict:
     workflows = []
     external_clones = []
@@ -95,8 +144,13 @@ def build_report() -> dict:
     channels = read_json(ROOT / "catalog/channels/channels.json")
     channel_rows = channels.get("channels", []) if isinstance(channels, dict) else []
     workflow_text = "\n".join(p.read_text(encoding="utf-8") for p in WORKFLOW_DIR.glob("*.y*ml"))
+    git_head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=False).stdout.strip()
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "git_head": git_head or None,
+        "repository_layout": directory_inventory(),
+        "configuration_files": configuration_inventory(),
+        "catalog_snapshot": snapshot_catalogs(),
         "scope": "read-only; no catalog mutation or network probes",
         "inventory": {
             "channels": {"records": len(channel_rows), "path": "catalog/channels/channels.json"},
