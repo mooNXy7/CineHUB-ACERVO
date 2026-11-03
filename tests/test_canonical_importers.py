@@ -124,6 +124,28 @@ class CanonicalParserTests(unittest.TestCase):
         self.assertTrue(all(item.get("resolution", {}).get("status") == "recovered_from_pinned_reference"
                             for item in quarantine))
 
+    def test_radio_reference_recovery_rejects_a_different_stream_url(self):
+        records, quarantine = parse_radios_json({"radios": [
+            {"id": "radio.mismatch", "name": "https://audio.example.test/live",
+             "stream_url": "https://assets.example.test/logo.png"},
+        ]})
+        reference = {
+            "source": {"source_id": "reference-radio-catalog"},
+            "records": [{
+                "record_id": "radio.mismatch",
+                "source_name_url": "https://audio.example.test/live",
+                "name": "Station",
+                "stream_url": "https://different.example.test/live",
+                "match_count": 1,
+            }],
+        }
+        result = apply_radio_reference_recovery(records, quarantine, reference)
+        self.assertEqual(result["applied_records"], 0)
+        self.assertEqual(result["invalid_match_ids"], ["radio.mismatch"])
+        self.assertTrue(any(item["reason"] == "radio_reference_stream_mismatch" for item in quarantine))
+        self.assertEqual(records[0]["name"], "https://audio.example.test/live")
+        self.assertEqual(records[0]["streams"], [])
+
     def test_vod_reference_movie_and_series_formats_keep_variants_and_provider_refs(self):
         movies, q_movies = parse_vod_reference_movies(
             (FIXTURES / "vod-movies.txt").read_text(encoding="utf-8"),

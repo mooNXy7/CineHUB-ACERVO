@@ -484,6 +484,14 @@ def apply_radio_reference_recovery(records: list, quarantine: list, document: di
                 "provenance": [provenance], "raw": reference,
             })
             continue
+        if normalized_url(recovered_url) != normalized_url(original_name_url):
+            invalid_match_ids.append(record_id)
+            quarantine.append({
+                "domain": "radios", "reason": "radio_reference_stream_mismatch",
+                "entity_id": record_id, "source_id": source_id,
+                "provenance": [provenance], "raw": reference,
+            })
+            continue
         valid, reason = safe_stream_url(recovered_url)
         if not valid:
             invalid_match_ids.append(record_id)
