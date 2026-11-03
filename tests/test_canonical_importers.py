@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from acervo_v2.importers import (
-    parse_channels_json, parse_m3u, parse_radios_json, parse_radios_text,
+    parse_channels_json, parse_epg_channel_index, parse_m3u, parse_radios_json, parse_radios_text,
     parse_vod_catalog, parse_vod_reference_movies, parse_vod_reference_series,
 )
 from acervo_v2.xmltv import parse_xmltv
@@ -89,6 +89,18 @@ class CanonicalParserTests(unittest.TestCase):
         leg_episode = next(x for x in series[0]["seasons"][0]["episodes"] if x["audio"] == "leg")
         self.assertEqual(leg_episode["provider_refs"][0]["ref"], "provider-episode-10")
         self.assertEqual(q_series, [])
+
+    def test_epg_channel_index_preserves_provider_ids_and_is_deterministic(self):
+        document = {"sources": {"feed-a": {"fetched_at": "2026-10-26T15:17:21Z",
+            "channel_count": 1, "channels": [{"id": "provider-123",
+            "display_names": ["Canal Exemplo"], "future_field": "preserved"}]}}}
+        first, quarantine = parse_epg_channel_index(document)
+        second, _ = parse_epg_channel_index(document)
+        self.assertEqual(first[0]["id"], second[0]["id"])
+        self.assertEqual(first[0]["provider_channel_id"], "provider-123")
+        self.assertEqual(first[0]["raw"]["channel"]["future_field"], "preserved")
+        self.assertEqual(first[0]["source_id"], "feed-a")
+        self.assertEqual(quarantine, [])
 
     def test_xmltv_preserves_child_text_and_timezone_and_quarantines_invalid_programmes(self):
         channels, programmes, quarantine = parse_xmltv(
@@ -189,6 +201,10 @@ class CandidateBuildTests(unittest.TestCase):
             (root / "catalog/epg/channel-map.json").write_text(json.dumps({
                 "meuguia_codes": {"Canal Teste": "CT"}, "guiadetv_slugs": {}, "xmltv_aliases": {}
             }), encoding="utf-8")
+            (root / "catalog/epg/xmltv-channels.json").write_text(json.dumps({
+                "sources": {"epg.test": {"fetched_at": "2026-10-26T15:17:21Z", "channel_count": 1,
+                "channels": [{"id": "CT", "display_names": ["Canal Teste"]}]}}
+            }), encoding="utf-8")
             (root / "sources/m3u/public-brazil.m3u").write_text("#EXTM3U\n", encoding="utf-8")
             protected = {p: (root / p).read_bytes() for p in [
                 "catalog/channels/channels.json", "catalog/radios/radios.json",
@@ -208,6 +224,12 @@ class CandidateBuildTests(unittest.TestCase):
                 self.assertEqual((root / path).read_bytes(), content)
             self.assertTrue((output / "manifest.json").exists())
             self.assertFalse(json.loads((output / "report.json").read_text())["active_catalogs_modified"])
+            epg_channels = json.loads((output / "epg-channels.json").read_text())["records"]
+            epg_mappings = json.loads((output / "epg-mappings.json").read_text())["records"]
+            self.assertEqual(len(epg_channels), 1)
+            self.assertEqual(epg_channels[0]["provider_channel_id"], "CT")
+            self.assertEqual(epg_mappings[0]["channel_id"], "ch.test")
+            self.assertEqual(epg_mappings[0]["match_status"], "matched")
             with patch("sys.argv", ["validate_schemas.py", "--candidate-dir", str(output)]):
                 from validate_schemas import main as validate_schemas_main
                 validate_schemas_main()

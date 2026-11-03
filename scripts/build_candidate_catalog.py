@@ -17,7 +17,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from datetime import datetime, timezone
 
 from acervo_v2.importers import (
-    parse_channels_json, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry,
+    parse_channels_json, parse_epg_channel_index, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry,
     parse_m3u, parse_radios_json, parse_vod_catalog,
 )
 
@@ -80,6 +80,26 @@ def main() -> int:
     for source in epg_sources:
         source["domain"] = "epg"
     epg_mappings, q_epg_map = parse_epg_mapping(epg_map_doc)
+    epg_channel_index_path = root / "catalog/epg/xmltv-channels.json"
+    if epg_channel_index_path.exists():
+        epg_channels, q_epg_channels = parse_epg_channel_index(
+            read_json(epg_channel_index_path), "catalog/epg/xmltv-channels.json")
+    else:
+        epg_channels, q_epg_channels = [], []
+    # Attach legacy name-based EPG mappings to a CineHUB channel only when the
+    # normalized name resolves uniquely. Ambiguous/unmatched mappings remain visible.
+    channel_names = {}
+    for channel in channels:
+        for name in [channel.get("name"), *(channel.get("aliases") or [])]:
+            key = __import__("acervo_v2.importers", fromlist=["normalize_name"]).normalize_name(name)
+            if key:
+                channel_names.setdefault(key, set()).add(channel["id"])
+    for mapping in epg_mappings:
+        key = __import__("acervo_v2.importers", fromlist=["normalize_name"]).normalize_name(mapping.get("channel_name"))
+        matches = sorted(channel_names.get(key, set()))
+        mapping["match_status"] = "matched" if len(matches) == 1 else ("ambiguous" if matches else "unmatched")
+        if len(matches) == 1:
+            mapping["channel_id"] = matches[0]
     source_registry_doc = read_json(root / "sources/sources.json")
     source_registry, q_source_registry = parse_source_registry(source_registry_doc)
     logos, q_logos = parse_logo_references(channels, radios)
@@ -92,7 +112,7 @@ def main() -> int:
         "sources.json": {"schema_version": 1, "domain": "sources", "records": source_registry, "quarantine": q_source_registry},
         "epg-sources.json": {"schema_version": 1, "domain": "epg-sources", "records": epg_sources, "quarantine": q_epg_sources},
         "epg-mappings.json": {"schema_version": 1, "domain": "epg-mappings", "records": epg_mappings, "quarantine": q_epg_map},
-        "epg-channels.json": {"schema_version": 1, "domain": "epg-channels", "records": [], "quarantine": []},
+        "epg-channels.json": {"schema_version": 1, "domain": "epg-channels", "records": epg_channels, "quarantine": q_epg_channels},
         "epg-programmes.json": {"schema_version": 1, "domain": "epg-programmes", "records": [], "quarantine": []},
     }
     generated_at = (datetime.fromtimestamp(int(os.environ["SOURCE_DATE_EPOCH"]), timezone.utc)
@@ -110,7 +130,7 @@ def main() -> int:
         "domains": file_entries,
         "notes": [
             "Candidates are isolated from catalog/ and sources/; no active record was written.",
-            "Current repository contains EPG source and mapping metadata but no local XMLTV programme payload; XMLTV channel/programme parsing is available through import_canonical.py.",
+            "EPG channels are normalized from the repository-owned xmltv-channels.json index; no local XMLTV programme payload is present, so programme records remain empty until an authorized local feed payload is ingested.",
             "Source registry candidates are normalized from sources/sources.json; external source adapters remain optional."
             "Logo records reference existing catalog URLs only; MIME and image bytes remain unverified.",
         ],

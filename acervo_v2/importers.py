@@ -516,6 +516,56 @@ def parse_epg_mapping(document: dict, source_id: str = "catalog-existing") -> tu
     return records, []
 
 
+def parse_epg_channel_index(document: dict, source_ref: str = "catalog/epg/xmltv-channels.json") -> tuple[list, list]:
+    """Normalize the repository-owned compact XMLTV channel index without network access."""
+    payload = json.dumps(document, ensure_ascii=False, sort_keys=True)
+    records, quarantine = [], []
+    sources = document.get("sources", {}) if isinstance(document, dict) else {}
+    if not isinstance(sources, dict):
+        return [], [{"domain": "epg", "reason": "invalid_xmltv_channel_sources", "raw": sources}]
+    for source_id, source in sorted(sources.items()):
+        if not isinstance(source, dict):
+            quarantine.append({"domain": "epg", "reason": "invalid_xmltv_source", "source_id": source_id, "raw": source})
+            continue
+        provenance = input_provenance(str(source_id), "xmltv-channel-index-json", payload, source_ref)
+        channels = source.get("channels", [])
+        if not isinstance(channels, list):
+            quarantine.append({"domain": "epg", "reason": "invalid_xmltv_channel_list", "source_id": source_id, "raw": channels})
+            continue
+        seen = set()
+        for channel in channels:
+            if not isinstance(channel, dict) or not str(channel.get("id") or "").strip():
+                quarantine.append({"domain": "epg", "reason": "missing_xmltv_channel_id", "source_id": source_id, "raw": channel})
+                continue
+            provider_id = str(channel["id"]).strip()
+            if provider_id in seen:
+                quarantine.append({"domain": "epg", "reason": "duplicate_xmltv_channel_id", "source_id": source_id,
+                                   "provider_channel_id": provider_id, "raw": channel})
+                continue
+            seen.add(provider_id)
+            names = channel.get("display_names", [])
+            if not isinstance(names, list):
+                names = []
+            names = list(dict.fromkeys(str(name).strip() for name in names if str(name).strip()))
+            if not names:
+                quarantine.append({"domain": "epg", "reason": "missing_xmltv_display_name", "source_id": source_id,
+                                   "provider_channel_id": provider_id, "raw": channel})
+            records.append({
+                "id": stable_id("epgchannel", str(source_id), provider_id),
+                "provider_channel_id": provider_id,
+                "display_names": names,
+                "source_id": str(source_id),
+                "fetched_at": source.get("fetched_at"),
+                "provenance": [provenance],
+                "raw": {"source": source, "channel": channel},
+            })
+        declared_count = source.get("channel_count")
+        if isinstance(declared_count, int) and declared_count != len(channels):
+            quarantine.append({"domain": "epg", "reason": "xmltv_channel_count_mismatch",
+                               "source_id": source_id, "declared": declared_count, "actual": len(channels)})
+    return records, quarantine
+
+
 def parse_xmltv(payload: bytes | str, source_id: str, source_ref: str = "input.xml",
                 default_timezone=timezone.utc) -> tuple[list, list, list]:
     raw = payload.encode("utf-8") if isinstance(payload, str) else payload
