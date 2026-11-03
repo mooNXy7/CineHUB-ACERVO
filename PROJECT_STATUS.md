@@ -57,3 +57,12 @@ A Fase B continua apenas como próxima tarefa planejada, conforme NEXT_TASK.md. 
 
 ## Limites permanentes
 Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não duplicar TMDB token; não remover conteúdo por falha pontual; não aplicar correspondências TMDB ambíguas; não promover catálogo candidato sem quality gate, snapshot e rollback.
+
+
+## Validação da reconciliação documental
+- GitHub Actions run 931, ID 41574547389, evento push na branch develop/acervo-v2.
+- HEAD validado: 4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- Conclusão success; validador, auditor, 25 testes, py_compile e upload aprovados.
+- Artefato ID 13202359615, nome acervo-v2-baseline-4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- Digest ZIP SHA-256: 9909dc289a4782a4a6eddf852578143afe27415efa20f53f104a0aade9f44000.
+- O baseline.json desse artefato confirma o HEAD 4e64a79... e o snapshot SHA-256 agregado bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.

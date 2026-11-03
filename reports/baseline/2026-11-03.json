@@ -119,5 +119,25 @@
     "Supabase secret values not inspected",
     "EPG health not probed live",
     "no catalog content modified"
-  ]
+  ],
+  "reconciliation_validation": {
+    "workflow": "Validate catalog",
+    "run_number": 931,
+    "run_id": 41574547389,
+    "event": "push",
+    "branch": "develop/acervo-v2",
+    "branch_head": "4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f",
+    "conclusion": "success",
+    "tests": {
+      "passed": 25,
+      "failed": 0
+    },
+    "catalog_validator": "success",
+    "baseline_audit": "success",
+    "py_compile": "success",
+    "artifact_id": 13202359615,
+    "artifact_name": "acervo-v2-baseline-4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f",
+    "artifact_zip_sha256": "9909dc289a4782a4a6eddf852578143afe27415efa20f53f104a0aade9f44000",
+    "snapshot_aggregate_sha256": "bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e"
+  }
 }

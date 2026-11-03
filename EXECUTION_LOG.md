@@ -154,3 +154,14 @@ Critérios da Fase A atendidos: inventário real; workflows/scripts verificados;
 
 ### Fechamento
 Relatórios, status, handoff e próxima tarefa reconciliados para os identificadores corretos da execução 930. PR #2 permanece aberto como draft, não mesclado. Nenhum catálogo, consumidor, segredo, configuração TMDB ou repositório de referência foi alterado. Fase B não iniciada.
+
+
+## 2026-11-03 — Validação pós-reconciliação documental (run 931)
+- Run ID: 41574547389; evento push em develop/acervo-v2.
+- HEAD validado: 4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- Resultado: success.
+- Validador de catálogo, auditor baseline, 25 testes (0 falhas), py_compile e upload de artefato: success.
+- Artefato ID 13202359615; nome acervo-v2-baseline-4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- Digest SHA-256 do ZIP: 9909dc289a4782a4a6eddf852578143afe27415efa20f53f104a0aade9f44000.
+- Snapshot: 731 arquivos; SHA-256 agregado bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
+- Esta execução confirma que os seis documentos reconciliados passaram pela validação automatizada.

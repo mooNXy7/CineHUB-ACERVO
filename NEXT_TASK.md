@@ -32,3 +32,11 @@ Quando houver autorização para avançar, implementar contratos e adaptadores c
 
 ## Regras permanentes
 Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar TMDB token; não excluir streams por falha pontual; não aplicar correspondência TMDB ambígua; não substituir catálogo ativo sem backup e validação.
+
+
+## Verificação da reconciliação
+- Run 931 / ID 41574547389: success.
+- HEAD validado: 4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- 25 testes aprovados; validador, auditor, py_compile e upload aprovados.
+- Artefato ID 13202359615; snapshot SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
+- A Fase B não foi iniciada.

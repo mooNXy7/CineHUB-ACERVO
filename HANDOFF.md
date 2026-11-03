@@ -47,3 +47,11 @@ Fase B permanece planejada, mas **não foi iniciada**. Consultar NEXT_TASK.md qu
 
 ## Limites
 Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não duplicar token TMDB; não inserir branding externo; não remover conteúdo em massa; não promover candidato sem quality gate e rollback. PR #2 permanece aberto como draft e não mesclado.
+
+
+## Validação da reconciliação documental
+- Run 931, ID 41574547389, evento push, conclusão success.
+- HEAD validado: 4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- 25 testes aprovados; validador, auditor, compilação e upload aprovados.
+- Artefato ID 13202359615: acervo-v2-baseline-4e64a79adfcc1b5d88f0b1eeb153b41f0d6ed59f.
+- SHA-256 do snapshot: bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
