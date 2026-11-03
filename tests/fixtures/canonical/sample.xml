@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="canal.exemplo.br"><display-name>Canal Exemplo</display-name><display-name>Canal Exemplo HD</display-name></channel>
+  <programme start="20261103090000 -0300" stop="20261103100000 -0300" channel="canal.exemplo.br">
+    <title>Jornal da Manhã</title><desc>Programa de notícias.</desc>
+  </programme>
+  <programme start="20261103110000 -0300" stop="20261103100000 -0300" channel="canal.exemplo.br">
+    <title>Intervalo inválido</title>
+  </programme>
+</tv>

@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/vod/v1.schema.json",
+  "title": "CineHUB vod candidate v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "domain",
+    "records",
+    "quarantine"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "domain": {
+      "const": "vod"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title",
+          "provenance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "movie",
+              "series",
+              "anime",
+              "dorama"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "external_ids": {
+            "type": "object",
+            "properties": {
+              "tmdb": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "imdb": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": true
+          },
+          "overview": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "genres": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "poster_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "../common/stream-variant-v1.schema.json"
+            }
+          },
+          "provider_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "seasons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "season",
+                "episodes"
+              ],
+              "properties": {
+                "season": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "episodes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "episode",
+                      "sources"
+                    ],
+                    "properties": {
+                      "episode": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "audio": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "sources": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "../common/stream-variant-v1.schema.json"
+                        }
+                      },
+                      "provider_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": true
+                        }
+                      },
+                      "raw": {
+                        "type": "object"
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "raw": {
+                  "type": "object"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "provenance": {
+            "type": "array",
+            "items": {
+              "$ref": "../common/provenance-v1.schema.json"
+            }
+          },
+          "raw": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "quarantine": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

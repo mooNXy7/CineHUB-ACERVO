@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/common/asset-v1.schema.json",
+  "title": "CineHUB asset v1",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "url",
+    "status",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "channel_logo",
+        "radio_logo",
+        "poster",
+        "backdrop",
+        "other"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mime_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "width": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "height": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "unverified",
+        "validated",
+        "unavailable",
+        "quarantined",
+        "unknown"
+      ]
+    },
+    "is_primary": {
+      "type": "boolean"
+    },
+    "validated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "$ref": "provenance-v1.schema.json"
+      }
+    },
+    "raw": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
