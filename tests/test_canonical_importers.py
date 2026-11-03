@@ -121,6 +121,7 @@ class CanonicalParserTests(unittest.TestCase):
         self.assertEqual(first["logo_url"], "https://assets.example.test/station.png")
         self.assertEqual(first["reference_recovery"]["logo_status"], "unverified")
         self.assertEqual(first["streams"][0]["url"], "https://audio.example.test/live")
+        self.assertEqual(first["streams"][0]["source_id"], "catalog-existing")
         self.assertTrue(all(item.get("resolution", {}).get("status") == "recovered_from_pinned_reference"
                             for item in quarantine))
 

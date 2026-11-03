@@ -501,9 +501,10 @@ def apply_radio_reference_recovery(records: list, quarantine: list, document: di
                 "provenance": [provenance], "raw": reference, "validation_reason": reason,
             })
             continue
+        variant_source_id = str(record.get("source_id") or "catalog-existing")
         variant = _stream_variant(
-            {"url": recovered_url, "source_id": source_id, "source_type": "reference-recovery"},
-            record_id, source_id, provenance, quarantine, domain="radio",
+            {"url": recovered_url}, record_id, variant_source_id,
+            provenance, quarantine, domain="radio",
         )
         existing_urls = {str(item.get("url") or "") for item in record.get("streams", [])}
         stream_added = bool(variant and variant.get("url") not in existing_urls)
