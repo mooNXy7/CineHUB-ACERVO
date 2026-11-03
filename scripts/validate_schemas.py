@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate all versioned JSON Schemas and optionally a generated candidate directory."""
+"""Validate versioned JSON Schemas and candidate documents with bounded memory."""
 from __future__ import annotations
 
 import argparse
@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 
+import ijson
 from jsonschema import Draft202012Validator, FormatChecker
 from referencing import Registry, Resource
 
@@ -26,23 +27,83 @@ CANDIDATE_SCHEMAS = {
 }
 
 
-def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
-    """Check cross-document identity and relationship invariants after schema validation."""
-    documents = {}
+def iter_records(path: Path):
+    with path.open("rb") as stream:
+        yield from ijson.items(stream, "records.item")
+
+
+def iter_quarantine(path: Path):
+    with path.open("rb") as stream:
+        yield from ijson.items(stream, "quarantine.item")
+
+
+def read_candidate_header(path: Path) -> dict:
+    header = {"keys": set(), "schema_version": None, "domain": None,
+              "records_array": False, "quarantine_array": False}
+    with path.open("rb") as stream:
+        for prefix, event, value in ijson.parse(stream):
+            if prefix == "" and event == "map_key":
+                header["keys"].add(value)
+            elif prefix == "schema_version" and event in {"number", "integer"}:
+                header["schema_version"] = value
+            elif prefix == "domain" and event == "string":
+                header["domain"] = value
+            elif prefix == "records" and event == "start_array":
+                header["records_array"] = True
+            elif prefix == "quarantine" and event == "start_array":
+                header["quarantine_array"] = True
+    return header
+
+
+def validate_candidate_document(path: Path, schema: dict, registry: Registry) -> list[str]:
     errors = []
-    for filename in CANDIDATE_SCHEMAS:
-        path = candidate_dir / filename
-        if not path.exists():
-            continue
-        documents[filename] = json.loads(path.read_text(encoding="utf-8"))
+    header = read_candidate_header(path)
+    required = set(schema.get("required", []))
+    missing = sorted(required - header["keys"])
+    if missing:
+        errors.append("missing top-level fields: " + ", ".join(missing))
+        return errors
+    if not header["records_array"]:
+        errors.append("records must be an array")
+    if not header["quarantine_array"]:
+        errors.append("quarantine must be an array")
+    header_document = {
+        "schema_version": header["schema_version"], "domain": header["domain"],
+        "records": [], "quarantine": [],
+    }
+    header_validator = Draft202012Validator(schema, format_checker=FormatChecker(), registry=registry)
+    for error in header_validator.iter_errors(header_document):
+        if error.absolute_path and error.absolute_path[0] not in {"records", "quarantine"}:
+            errors.append("header: " + error.message)
 
-    def records(filename):
-        return documents.get(filename, {}).get("records", [])
+    record_schema = schema["properties"]["records"]["items"]
+    record_validator = Draft202012Validator(record_schema, format_checker=FormatChecker(), registry=registry)
+    for index, record in enumerate(iter_records(path)):
+        for error in record_validator.iter_errors(record):
+            location = "/".join(str(part) for part in error.absolute_path)
+            errors.append(f"records[{index}]/{location}: {error.message}")
 
+    quarantine_schema = schema["properties"]["quarantine"]["items"]
+    quarantine_validator = Draft202012Validator(quarantine_schema, format_checker=FormatChecker(), registry=registry)
+    for index, record in enumerate(iter_quarantine(path)):
+        for error in quarantine_validator.iter_errors(record):
+            errors.append(f"quarantine[{index}]: {error.message}")
+    return errors
+
+
+def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
+    """Check cross-document identity and relationship invariants without loading VOD in memory."""
+    errors = []
     ids_by_file = {}
-    for filename, document in documents.items():
+    entity_count = {"channels": 0, "radios": 0, "vod": 0}
+    stream_count = 0
+    quarantine_count = 0
+
+    for filename, label in (("channels.json", "channels"), ("radios.json", "radios"), ("vod.json", "vod")):
+        path = candidate_dir / filename
         seen = set()
-        for index, record in enumerate(document.get("records", [])):
+        for index, record in enumerate(iter_records(path)):
+            entity_count[label] += 1
             ident = str(record.get("id") or "")
             if not ident:
                 errors.append(f"{filename}[{index}]: missing canonical id")
@@ -56,17 +117,6 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
                 digest = str(item.get("input_sha256") or "")
                 if not item.get("source_id") or not re.fullmatch(r"[0-9a-f]{64}", digest):
                     errors.append(f"{filename}[{index}].provenance[{pindex}]: invalid source/hash")
-        ids_by_file[filename] = seen
-
-    channel_ids = ids_by_file.get("channels.json", set())
-    radio_ids = ids_by_file.get("radios.json", set())
-    vod_ids = ids_by_file.get("vod.json", set())
-    entity_count = {"channels": 0, "radios": 0, "vod": 0}
-    stream_count = 0
-    for filename, label in (("channels.json", "channels"), ("radios.json", "radios"), ("vod.json", "vod")):
-        for record in records(filename):
-            entity_count[label] += 1
-            owner_id = str(record.get("id") or "")
             variants = list(record.get("streams", [])) + list(record.get("sources", []))
             for season in record.get("seasons", []) if isinstance(record.get("seasons"), list) else []:
                 for episode in season.get("episodes", []) if isinstance(season, dict) and isinstance(season.get("episodes"), list) else []:
@@ -74,14 +124,19 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
             seen_streams = set()
             for variant in variants:
                 stream_count += 1
-                if str(variant.get("entity_id") or "") != owner_id:
-                    errors.append(f"{filename}:{owner_id}: stream entity_id does not match owner")
+                if str(variant.get("entity_id") or "") != ident:
+                    errors.append(f"{filename}:{ident}: stream entity_id does not match owner")
                 stream_id = str(variant.get("id") or "")
                 if stream_id and stream_id in seen_streams:
-                    errors.append(f"{filename}:{owner_id}: duplicate stream variant id {stream_id}")
+                    errors.append(f"{filename}:{ident}: duplicate stream variant id {stream_id}")
                 seen_streams.add(stream_id)
+        ids_by_file[filename] = seen
 
-    logo_records = records("logos.json")
+    channel_ids = ids_by_file.get("channels.json", set())
+    radio_ids = ids_by_file.get("radios.json", set())
+    vod_ids = ids_by_file.get("vod.json", set())
+
+    logo_records = list(iter_records(candidate_dir / "logos.json"))
     for asset in logo_records:
         entity_id = str(asset.get("entity_id") or "")
         kind = str(asset.get("kind") or "")
@@ -89,14 +144,13 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
             errors.append(f"logos.json: orphan channel logo {entity_id}")
         elif kind == "radio_logo" and entity_id not in radio_ids:
             errors.append(f"logos.json: orphan radio logo {entity_id}")
-        elif kind not in {"channel_logo", "radio_logo"}:
+        elif kind in {"poster", "backdrop"} and entity_id not in vod_ids:
+            errors.append(f"logos.json: orphan VOD asset {entity_id}")
+        elif kind not in {"channel_logo", "radio_logo", "poster", "backdrop"}:
             errors.append(f"logos.json: unsupported logo kind {kind}")
 
-    mapping_records = records("epg-mappings.json")
-    matched_mappings = 0
-    unmatched_mappings = 0
-    ambiguous_mappings = 0
-    for mapping in mapping_records:
+    matched_mappings = unmatched_mappings = ambiguous_mappings = 0
+    for mapping in iter_records(candidate_dir / "epg-mappings.json"):
         status = mapping.get("match_status", "unresolved")
         if status == "matched":
             matched_mappings += 1
@@ -109,23 +163,27 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
         else:
             unmatched_mappings += 1
 
-    epg_channels = records("epg-channels.json")
     epg_channel_keys = {
         (str(item.get("source_id") or ""), str(item.get("provider_channel_id") or item.get("id") or ""))
-        for item in epg_channels
+        for item in iter_records(candidate_dir / "epg-channels.json")
     }
-    for programme in records("epg-programmes.json"):
+    epg_channel_count = len(epg_channel_keys)
+    epg_programme_count = 0
+    for programme in iter_records(candidate_dir / "epg-programmes.json"):
+        epg_programme_count += 1
         key = (str(programme.get("source_id") or ""), str(programme.get("epg_channel_id") or ""))
         if epg_channel_keys and key not in epg_channel_keys:
             errors.append(f"epg-programmes.json: programme references missing EPG channel {key}")
 
-    quarantine_count = sum(len(doc.get("quarantine", [])) for doc in documents.values())
+    for filename in CANDIDATE_SCHEMAS:
+        quarantine_count += sum(1 for _ in iter_quarantine(candidate_dir / filename))
+
     metrics = {
         "entities": entity_count,
         "streams_and_episode_variants": stream_count,
         "logos_associated": len(logo_records),
-        "epg_channels": len(epg_channels),
-        "epg_programmes": len(records("epg-programmes.json")),
+        "epg_channels": epg_channel_count,
+        "epg_programmes": epg_programme_count,
         "epg_mappings": {"matched": matched_mappings, "unmatched": unmatched_mappings,
                          "ambiguous": ambiguous_mappings},
         "quarantine_records": quarantine_count,
@@ -146,7 +204,9 @@ def main() -> int:
             schemas[path.relative_to(ROOT / "schemas").as_posix()] = schema
         except Exception as exc:
             errors.append(str(path.relative_to(ROOT)) + ": " + str(exc))
-    registry = Registry().with_resources((schema["$id"], Resource.from_contents(schema)) for schema in schemas.values())
+    registry = Registry().with_resources(
+        (schema["$id"], Resource.from_contents(schema)) for schema in schemas.values()
+    )
     if args.candidate_dir:
         for filename, schema_name in CANDIDATE_SCHEMAS.items():
             path = args.candidate_dir / filename
@@ -154,10 +214,8 @@ def main() -> int:
                 errors.append("candidate missing: " + filename)
                 continue
             try:
-                document = json.loads(path.read_text(encoding="utf-8"))
-                validator = Draft202012Validator(schemas[schema_name], format_checker=FormatChecker(), registry=registry)
-                for error in validator.iter_errors(document):
-                    errors.append(filename + ": " + "/".join(str(x) for x in error.absolute_path) + ": " + error.message)
+                errors.extend(filename + ": " + error for error in
+                              validate_candidate_document(path, schemas[schema_name], registry))
             except Exception as exc:
                 errors.append(filename + ": " + str(exc))
         try:
@@ -168,7 +226,7 @@ def main() -> int:
         except Exception as exc:
             errors.append("candidate integrity: " + str(exc))
     if errors:
-        print("\n".join("ERROR: " + error for error in errors))
+        print("\\n".join("ERROR: " + error for error in errors))
         raise SystemExit(1)
     print("OK: " + str(len(SCHEMA_FILES)) + " JSON Schemas validated" +
           ("; candidate documents valid" if args.candidate_dir else ""))
