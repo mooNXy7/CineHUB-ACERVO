@@ -401,7 +401,7 @@ class CanonicalParserTests(unittest.TestCase):
                               "year": "2021", "tmdb_id": "2317",
                               "catalog_sections": ["series", "doramas"],
                               "legacy_ids": ["series-meu-nome-e", "series-my-name"]},
-                    "canonical": {"tmdb_id": "110356", "title": "My Name", "year": "2021"},
+                    "canonical": {"id": "series-my-name", "tmdb_id": "110356", "title": "My Name", "year": "2021"},
                     "reason": "Pinned reference confirms TMDB 110356 for My Name 2021.",
                     "evidence": [{"path": "catalogo-series.txt", "line": 1, "text": "110356\\tMy Name\\t2021\\t8"}],
                 }],
@@ -413,6 +413,7 @@ class CanonicalParserTests(unittest.TestCase):
             self.assertEqual(quarantine, [])
             self.assertEqual(len(records), 1)
             record = records[0]
+            self.assertEqual(record["id"], "series-my-name")
             self.assertEqual(record["external_ids"]["tmdb"], "110356")
             self.assertEqual(set(record["legacy_ids"]), {"series-meu-nome-e", "series-my-name"})
             self.assertEqual(set(record["catalog_sections"]), {"series", "doramas"})

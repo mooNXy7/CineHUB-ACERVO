@@ -43,7 +43,8 @@
         "tmdb_id": "110356",
         "title": "My Name",
         "year": "2021",
-        "episode_count": 8
+        "episode_count": 8,
+        "id": "series-my-name"
       },
       "candidate_evidence": {
         "affected_index_references": 2,

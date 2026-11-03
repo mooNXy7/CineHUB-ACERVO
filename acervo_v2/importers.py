@@ -797,6 +797,7 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
             return {
                 "id": str(rule.get("id") or ""), "source_tmdb_id": source_tmdb,
                 "canonical_tmdb_id": canonical_tmdb,
+                "canonical_id": str(canonical.get("id") or ""),
                 "canonical_title": str(canonical.get("title") or ""),
                 "source_ref": external_ref, "source_commit": override_source.get("commit"),
                 "reason": rule.get("reason"), "evidence": rule.get("evidence", []),
@@ -851,6 +852,23 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                 + ", got " + str(actual_matches)
             )
     final_ids = _allocate_vod_identity_ids(identity_groups, all_legacy_ids)
+    for identity_key, references in identity_groups.items():
+        requested_ids = {
+            str((entry.get("_identity_override") or {}).get("canonical_id") or "").strip()
+            for _, _, _, entry in references
+        }
+        requested_ids.discard("")
+        if len(requested_ids) > 1:
+            raise ValueError("conflicting canonical IDs requested for one VOD identity group")
+        if requested_ids:
+            requested_id = next(iter(requested_ids))
+            owners = [
+                other_key for other_key, other_refs in identity_groups.items()
+                if any(str(entry.get("id") or "") == requested_id for _, _, _, entry in other_refs)
+            ]
+            if requested_id not in {str(entry.get("id") or "") for _, _, _, entry in references} or owners != [identity_key]:
+                raise ValueError("explicit canonical VOD ID is not unique to its identity group: " + requested_id)
+            final_ids[identity_key] = requested_id
     keys_by_legacy_id = {}
     for identity_key, references in identity_groups.items():
         for _, _, _, entry in references:
