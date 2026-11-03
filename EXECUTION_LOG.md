@@ -52,3 +52,37 @@ Criar uma linha de desenvolvimento isolada e documentos permanentes de continuid
 
 ### Limites
 Nenhuma alteração funcional em catálogo/workflows, consumidores ou OTA. A branch V2 é isolada de `main`.
+
+
+## 2026-11-03 — Fase A: baseline executável (em validação)
+
+### Ambiente e proteção
+- Repositório confirmado: mooNXy7/CineHUB-ACERVO.
+- Branch: develop/acervo-v2; HEAD observado antes da execução: 2e430447866d9d3e3f042fda4cc0338efa1cfe68.
+- main permaneceu em c2176962dccc218cd17622f0acd786ff76b18a6d. Comparação: V2 15 commits à frente, 0 atrás; diferença líquida limitada aos oito documentos V2.
+- Nenhum catálogo foi alterado durante o inventário.
+
+### Problema de rádios reproduzido
+- Fonte autorizada fki1976/SaimoPlayer/vod/radios.txt usa nome|stream.
+- Importador antigo exigia 3 colunas e interpretava campos 1/2 como nome/stream; formato atual era ignorado.
+- Medição do catálogo: 1.026 rádios; 1.026 sem gênero; 754 sem logo; 2 sem stream; 253 URLs com extensão de imagem em stream; 0 IDs duplicados; 10 logos não HTTPS.
+- Correção de código: parser aceita formato de 2 colunas e mantém compatibilidade com o layout legado. URL com extensão de imagem não entra como stream; fica em revisão. Nenhum registro existente foi removido.
+
+### Implementação
+- Adicionado tests/fixtures/radios_reference.txt com amostra curta da origem real.
+- Adicionado tests/test_baseline.py com testes de formato atual, legado, imagem em stream, linhas malformadas e integridade básica da contagem/IDs.
+- Adicionado scripts/audit_baseline.py, auditor somente de leitura para catálogo, workflows, scripts ausentes, dependências externas, logos e referências TMDB.
+- Atualizado .github/workflows/validate.yml para executar também em develop/acervo-v2, rodar auditor e anexar relatório como artefato.
+
+### Outros achados confirmados
+- Manifesto VOD declara 40.938 filmes, 11.665 séries, 2.749 animes e 896 doramas (56.248). A contagem real será confirmada pelo auditor em CI.
+- EPG registry tem seis fontes; health versionado de 2026-10-26 não foi tratado como verificação atual.
+- Registry de fontes independentes declara uma fonte de canais.
+- Workflows VOD referenciam quatro scripts ausentes e branch fixa antiga audit/acervo-hardening-2026-10.
+- Atualizador principal ainda clona a referência externa para importar.
+- Workflows TMDB usam função Supabase e SUPABASE_ANON_KEY; nenhum valor de segredo foi consultado ou copiado.
+
+### Validação pendente
+- Testes e auditor precisam executar no GitHub Actions após o commit.
+- Snapshot/hash completo dos catálogos e inventário final de canais/logos/VOD dependem do relatório executado.
+- A Fase A permanece aberta até essas evidências serem verificadas.
