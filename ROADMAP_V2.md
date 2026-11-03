@@ -1024,3 +1024,24 @@ Ao concluir uma tarefa:
 ---
 
 **Declaração de integridade do plano:** este documento consolida os requisitos e a arquitetura descritos no cérebro arquitetural fornecido pelo responsável, junto às decisões e evidências já registradas na branch. Ele não afirma que as fases futuras foram implementadas, que a auditoria de todos os repositórios de referência foi concluída, nem que recursos Cloudflare/Supabase estejam configurados. O plano será refinado por evidências, sem reduzir o objetivo de independência do ACERVO.
+
+
+---
+
+## 19. Retomada operacional — 2026-11-03 (adendo vigente)
+
+Este adendo atualiza a fotografia de continuidade da seção 18; não apaga o histórico nem altera o plano técnico das fases.
+
+- Branch: `develop/acervo-v2`.
+- HEAD confirmado no GitHub nesta retomada: `3d8d143ae387f3340c1efb285fb3199393c25a99`.
+- `main`: `c2176962dccc218cd17622f0acd786ff76b18a6d`.
+- Comparação atual: 45 commits à frente, 0 atrás; 15 arquivos no diff reportado, sem alterações em `catalog/` ou `sources/` nesta comparação.
+- PR #1 (“Hardening, normalização e enriquecimento seguro do CineHUB ACERVO”): aberto, draft, não mesclado.
+- PR #2 (“[DRAFT] ACERVO V2 — Fase A: baseline executável”): aberto, draft, não mesclado.
+- Fase A: CONCLUÍDA. Fase B: NÃO INICIADA, mas agora AUTORIZADA pelo responsável para início pelo executor.
+- Esta atualização é documental; não conta como implementação ou aceite da Fase B.
+- O executor deve conferir os PRs, workflows, diffs e SHAs reais antes de agir; PRs não são substitutos da branch `develop/acervo-v2`.
+- A próxima tarefa é exclusivamente a Fase B. O roteiro executável e critérios mínimos estão em `NEXT_TASK.md`.
+- Permanecem proibidos: merge em `main`, alterações nos consumidores TV/Mobile/Web/Player, alterações em repositórios de referência, mudanças em segredos/produção Supabase/Cloudflare, OTA e publicação oficial.
+- Não alterar catálogo ativo nem promover candidato. Não iniciar Fase C automaticamente.
+- SHAs e comparações acima são uma fotografia desta retomada; revalidar no começo da execução.
