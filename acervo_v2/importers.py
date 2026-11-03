@@ -544,11 +544,19 @@ def _vod_identity_key(entry: dict, section: str) -> str:
     external = entry.get("external_ids") if isinstance(entry.get("external_ids"), dict) else {}
     tmdb = str(entry.get("tmdb_id") or external.get("tmdb") or "").strip()
     imdb = str(entry.get("imdb_id") or external.get("imdb") or "").strip()
+    year = str(entry.get("year") or "").strip()
+    language = normalize_name(entry.get("language") or entry.get("original_language"))
+    # External IDs corroborate identity only when media type and year agree.
+    # If year is absent, matching stays scoped to the existing internal ID.
+    if tmdb and year:
+        return f"{kind}|tmdb:{tmdb}|year:{year}|language:{language or '*'}"
+    if imdb and year:
+        return f"{kind}|imdb:{imdb}|year:{year}|language:{language or '*'}"
     if tmdb:
-        return f"{kind}|tmdb:{tmdb}"
+        return f"{kind}|legacy:{entry.get('id')}|tmdb:{tmdb}|year:*|language:{language or '*'}"
     if imdb:
-        return f"{kind}|imdb:{imdb}"
-    return f"{kind}|legacy:{entry.get('id')}|{normalize_name(entry.get('title'))}|{str(entry.get('year') or '').strip()}"
+        return f"{kind}|legacy:{entry.get('id')}|imdb:{imdb}|year:*|language:{language or '*'}"
+    return f"{kind}|legacy:{entry.get('id')}|title:{normalize_name(entry.get('title'))}|year:{year}|language:{language or '*'}"
 
 
 def _allocate_vod_identity_ids(identity_groups: dict, all_legacy_ids: set) -> dict:
@@ -581,7 +589,8 @@ def _allocate_vod_identity_ids(identity_groups: dict, all_legacy_ids: set) -> di
 
 
 def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
-                    quarantine: list | None = None):
+                    quarantine: list | None = None,
+                    identity_report: dict | None = None):
     """Yield canonical VOD entities, merging repeated index references by provider identity."""
     quarantine = quarantine if quarantine is not None else []
     manifest = _load_json(root / "catalog/vod/index.json")
@@ -621,7 +630,32 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
         key for key, references in identity_groups.items()
         if len(references) > 1 or any(len(keys_by_legacy_id[str(ref[3]["id"])]) > 1 for ref in references)
     }
+    reused_legacy_ids = {ident for ident, keys in keys_by_legacy_id.items() if len(keys) > 1}
+    merged_groups = [references for references in identity_groups.values() if len(references) > 1]
+    identity_report = identity_report if identity_report is not None else {}
+    identity_report.update({
+        "input_index_entries": sum(len(references) for references in identity_groups.values()),
+        "canonical_identity_groups": len(identity_groups),
+        "identity_groups_merged": len(merged_groups),
+        "index_entries_consolidated": sum(len(references) - 1 for references in merged_groups),
+        "same_legacy_id_duplicate_groups": sum(
+            1 for references in merged_groups
+            if any(count > 1 for count in __import__("collections").Counter(
+                str(ref[3]["id"]) for ref in references
+            ).values())
+        ),
+        "provider_identity_groups_merged_across_legacy_ids": sum(
+            1 for references in merged_groups
+            if len({str(ref[3]["id"]) for ref in references}) > 1
+        ),
+        "legacy_ids_reused_across_distinct_identities": len(reused_legacy_ids),
+        "identity_groups_affected_by_legacy_id_conflict": sum(
+            1 for references in identity_groups.values()
+            if any(str(ref[3]["id"]) in reused_legacy_ids for ref in references)
+        ),
+    })
     aggregated = {}
+    output_records = 0
 
     for section, index_rel, entries_by_detail in section_entries:
         for detail_rel in sorted(entries_by_detail):
@@ -644,7 +678,8 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                 kind = str(detail.get("subtype") or entry.get("subtype") or "").strip().lower()
                 if kind not in {"movie", "series", "anime", "dorama"}:
                     kind = {"movies": "movie", "series": "series", "anime": "anime", "doramas": "dorama"}.get(section, "series")
-                canonical_id = final_ids[_vod_identity_key(entry, section)]
+                identity_key = _vod_identity_key(entry, section)
+                canonical_id = final_ids[identity_key]
                 tmdb_id = str(detail.get("tmdb_id") or entry.get("tmdb_id") or "").strip()
                 imdb_id = str(detail.get("imdb_id") or entry.get("imdb_id") or "").strip()
                 raw_sources = detail.get("sources") if isinstance(detail.get("sources"), list) else []
@@ -700,8 +735,22 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                         if isinstance(detail.get("provider_refs"), list) else [],
                     "seasons": normalized_seasons, "provenance": [prov],
                     "legacy_ids": [str(entry["id"])], "catalog_sections": [section], "raw": raw,
+                    "identity_resolution": {
+                        "strategy": (
+                            "tmdb_type_year_language" if "|tmdb:" in identity_key and "|legacy:" not in identity_key else
+                            "imdb_type_year_language" if "|imdb:" in identity_key and "|legacy:" not in identity_key else
+                            "legacy_id_provider_id_without_year" if ("|tmdb:" in identity_key or "|imdb:" in identity_key) else
+                            "legacy_id_title_year_language"
+                        ),
+                        "provider": "tmdb" if "|tmdb:" in identity_key else "imdb" if "|imdb:" in identity_key else None,
+                        "external_id": tmdb_id if "|tmdb:" in identity_key else imdb_id if "|imdb:" in identity_key else None,
+                        "media_type": kind,
+                        "year": str(detail.get("year") or entry.get("year") or "").strip() or None,
+                        "confidence": "high" if ("|tmdb:" in identity_key or "|imdb:" in identity_key)
+                                      and "|legacy:" not in identity_key else "conservative",
+                        "legacy_id_conflict": len(keys_by_legacy_id[str(entry["id"])]) > 1,
+                    },
                 }
-                identity_key = _vod_identity_key(entry, section)
                 if identity_key in aggregate_keys:
                     current = aggregated.get(identity_key)
                     if current is None:
@@ -709,10 +758,13 @@ def iter_vod_catalog(root: Path, source_id: str = "catalog-existing",
                     else:
                         _merge_vod_records(current, record)
                 else:
+                    output_records += 1
                     yield record
 
     for identity_key in sorted(aggregated, key=lambda key: final_ids[key]):
+        output_records += 1
         yield aggregated[identity_key]
+    identity_report["output_records"] = output_records
 
 
 def parse_vod_catalog(root: Path, source_id: str = "catalog-existing") -> tuple[list, list]:

@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from acervo_v2.importers import (
     parse_channels_json, parse_epg_channel_index, parse_m3u, parse_radios_json, parse_radios_text,
-    parse_vod_catalog, parse_vod_reference_movies, parse_vod_reference_series,
+    parse_vod_catalog, iter_vod_catalog, parse_vod_reference_movies, parse_vod_reference_series,
 )
 from acervo_v2.xmltv import parse_xmltv
 import build_candidate_catalog
@@ -221,11 +221,22 @@ class CanonicalParserTests(unittest.TestCase):
                        "https://vod.example.test/my-name-2317.m3u8")
             ]), encoding="utf-8")
 
-            first, quarantine = parse_vod_catalog(root)
+            identity_report = {}
+            quarantine = []
+            first = list(iter_vod_catalog(root, quarantine=quarantine, identity_report=identity_report))
             second, _ = parse_vod_catalog(root)
             self.assertEqual(quarantine, [])
             self.assertEqual([item["id"] for item in first], [item["id"] for item in second])
             self.assertEqual(len(first), 3)
+            self.assertEqual(identity_report["input_index_entries"], 5)
+            self.assertEqual(identity_report["canonical_identity_groups"], 3)
+            self.assertEqual(identity_report["identity_groups_merged"], 1)
+            self.assertEqual(identity_report["index_entries_consolidated"], 2)
+            self.assertEqual(identity_report["same_legacy_id_duplicate_groups"], 1)
+            self.assertEqual(identity_report["provider_identity_groups_merged_across_legacy_ids"], 1)
+            self.assertEqual(identity_report["legacy_ids_reused_across_distinct_identities"], 1)
+            self.assertEqual(identity_report["identity_groups_affected_by_legacy_id_conflict"], 2)
+            self.assertEqual(identity_report["output_records"], 3)
             shared = next(item for item in first if item["external_ids"]["tmdb"] == "100")
             self.assertEqual(shared["id"], "series-shared")
             self.assertEqual(shared["legacy_ids"], ["series-shared", "series-translated"])
@@ -251,6 +262,46 @@ class CanonicalParserTests(unittest.TestCase):
             self.assertEqual(len({item["id"] for item in my_names}), 2)
             self.assertIn("series-my-name", {item["id"] for item in my_names})
             self.assertTrue(any(item["id"].startswith("series-my-name~") for item in my_names))
+            self.assertTrue(all(item["identity_resolution"]["legacy_id_conflict"] for item in my_names))
+
+    def test_vod_identity_requires_matching_year_and_scopes_variants_to_owner(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "catalog/vod/index").mkdir(parents=True)
+            (root / "catalog/vod/details/movies").mkdir(parents=True)
+            (root / "catalog/vod/index.json").write_text(json.dumps({
+                "categories": {"movies": {"index_path": "catalog/vod/index/movies.json"}}
+            }), encoding="utf-8")
+            rows = [
+                {"id": "movie-same-title-2020", "title": "Same Title", "year": "2020",
+                 "tmdb_id": "900", "detail_path": "catalog/vod/details/movies/A.json"},
+                {"id": "movie-same-title-2022", "title": "Same Title", "year": "2022",
+                 "tmdb_id": "900", "detail_path": "catalog/vod/details/movies/A.json"},
+                {"id": "movie-same-title-no-id", "title": "Same Title", "year": "2020",
+                 "detail_path": "catalog/vod/details/movies/A.json"},
+            ]
+            (root / "catalog/vod/index/movies.json").write_text(json.dumps(rows), encoding="utf-8")
+            shared_url = "https://vod.example.test/shared-across-entities.m3u8"
+            details = [
+                {"id": "movie-same-title-2020", "title": "Same Title", "type": "movie",
+                 "year": "2020", "tmdb_id": "900",
+                 "sources": [{"url": shared_url, "source_id": "provider-a"}]},
+                {"id": "movie-same-title-2022", "title": "Same Title", "type": "movie",
+                 "year": "2022", "tmdb_id": "900",
+                 "sources": [{"url": shared_url, "source_id": "provider-a"}]},
+                {"id": "movie-same-title-no-id", "title": "Same Title", "type": "movie",
+                 "year": "2020", "sources": [{"url": shared_url, "source_id": "provider-a"}]},
+            ]
+            (root / "catalog/vod/details/movies/A.json").write_text(json.dumps(details), encoding="utf-8")
+            records, quarantine = parse_vod_catalog(root)
+            self.assertEqual(quarantine, [])
+            self.assertEqual(len(records), 3)
+            self.assertEqual({item["year"] for item in records}, {"2020", "2022"})
+            self.assertEqual(len({item["id"] for item in records}), 3)
+            variants = [item["sources"][0] for item in records]
+            self.assertEqual(len({item["id"] for item in variants}), 3)
+            self.assertEqual({item["entity_id"] for item in variants}, {item["id"] for item in records})
+            self.assertEqual({item["scope"] for item in variants}, {"entity"})
 
     def test_import_canonical_cli_resolves_package_from_external_working_directory(self):
         with tempfile.TemporaryDirectory() as tmp:
