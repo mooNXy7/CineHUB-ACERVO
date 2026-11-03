@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -135,6 +136,22 @@ class CanonicalParserTests(unittest.TestCase):
                 parse_vod_catalog(root)
 
 
+    def test_import_canonical_cli_resolves_package_from_external_working_directory(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "candidate.json"
+            fixture = FIXTURES / "channels.m3u"
+            subprocess.run(
+                [sys.executable, str(ROOT / "scripts/import_canonical.py"),
+                 "--format", "m3u", "--input", str(fixture),
+                 "--source-id", "external-cwd-fixture", "--root", tmp,
+                 "--output", str(output)],
+                cwd=tmp, check=True, capture_output=True, text=True,
+            )
+            document = json.loads(output.read_text(encoding="utf-8"))
+            self.assertEqual(document["domain"], "channels")
+            self.assertEqual(len(document["records"]), 2)
+            self.assertGreaterEqual(len(document["quarantine"]), 1)
+
 class CandidateBuildTests(unittest.TestCase):
     def test_candidate_build_is_offline_and_never_mutates_active_catalog(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -180,8 +197,13 @@ class CandidateBuildTests(unittest.TestCase):
                 "catalog/epg/channel-map.json", "sources/sources.json"
             ]}
             output = root / "candidate"
-            with patch("sys.argv", ["build_candidate_catalog.py", "--root", str(root), "--output", str(output)]):
-                build_candidate_catalog.main()
+            # Exercise the documented CLI from outside the repository. This catches
+            # sys.path regressions hidden when importing the script from the test runner.
+            subprocess.run(
+                [sys.executable, str(ROOT / "scripts/build_candidate_catalog.py"),
+                 "--root", str(root), "--output", str(output)],
+                cwd=tmp, check=True, capture_output=True, text=True,
+            )
             for path, content in protected.items():
                 self.assertEqual((root / path).read_bytes(), content)
             self.assertTrue((output / "manifest.json").exists())
