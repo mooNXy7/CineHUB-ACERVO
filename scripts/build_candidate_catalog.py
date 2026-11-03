@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 
 from acervo_v2.importers import (
     parse_channels_json, parse_epg_channel_index, parse_epg_mapping, parse_epg_sources, parse_logo_references, parse_source_registry,
-    parse_m3u, parse_radios_json, parse_vod_catalog,
+    parse_m3u, parse_radios_json, parse_vod_catalog, normalize_name,
 )
 
 
@@ -91,11 +91,11 @@ def main() -> int:
     channel_names = {}
     for channel in channels:
         for name in [channel.get("name"), *(channel.get("aliases") or [])]:
-            key = __import__("acervo_v2.importers", fromlist=["normalize_name"]).normalize_name(name)
+            key = normalize_name(name)
             if key:
                 channel_names.setdefault(key, set()).add(channel["id"])
     for mapping in epg_mappings:
-        key = __import__("acervo_v2.importers", fromlist=["normalize_name"]).normalize_name(mapping.get("channel_name"))
+        key = normalize_name(mapping.get("channel_name"))
         matches = sorted(channel_names.get(key, set()))
         mapping["match_status"] = "matched" if len(matches) == 1 else ("ambiguous" if matches else "unmatched")
         if len(matches) == 1:
