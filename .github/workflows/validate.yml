@@ -2,7 +2,7 @@ name: Validate catalog
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, develop/acervo-v2]
   pull_request:
   workflow_dispatch:
 
@@ -18,5 +18,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/validate_catalog.py
+      - run: python scripts/audit_baseline.py --output reports/baseline
       - run: python -m unittest discover -s tests -v
       - run: python -m py_compile scripts/*.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acervo-v2-baseline-${{ github.sha }}
+          path: reports/baseline/
+          if-no-files-found: warn
