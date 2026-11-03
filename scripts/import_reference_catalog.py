@@ -714,12 +714,12 @@ def is_probable_image_url(value: str) -> bool:
         path = urlsplit(str(value or "").strip()).path.lower()
     except ValueError:
         return False
-    return bool(re.search(r"\\.(?:png|jpe?g|webp|gif|svg|ico|avif)$", path))
+    return bool(re.search(r"\.(?:png|jpe?g|webp|gif|svg|ico|avif)$", path))
 
 
 def parse_radio_line(line: str) -> dict | None:
     """Parse current name|stream and retain legacy id|name|stream|logo layout."""
-    fields = str(line or "").rstrip("\\r\\n").split("|")
+    fields = str(line or "").rstrip("\r\n").split("|")
     if len(fields) == 2:
         radio_name, stream = fields
         logo = None
@@ -740,6 +740,8 @@ def parse_radio_line(line: str) -> dict | None:
         "logo_url": logo.strip() if logo and safe_candidate(logo.strip()) else None,
         "stream_status": "imported" if safe_stream else "pending_review",
     }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE)
