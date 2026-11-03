@@ -1,53 +1,54 @@
 # CineHUB-ACERVO — Registro de Execução
 
-Este registro é cronológico. Cada entrada deve separar claramente alterações realizadas, evidências, testes e pendências.
+Cada entrada separa alterações, evidências, validação e pendências. Não registrar como concluído o que não foi executado.
+
+## 2026-11-03 — Cérebro ACERVO V2 registrado no Git
+
+### Autorização
+O responsável aprovou a construção do ACERVO V2 e autorizou registrar a especificação e o blueprint na branch de desenvolvimento. Não houve autorização para alterar consumidores, `main` ou OTA.
+
+### Alterações confirmadas
+- Criado `ACERVO_V2_SPEC.md` — SHA do commit: `71d88198070344d53b5e0c119c9b7d1691682cd4`.
+- Criado `ACERVO_V2_BLUEPRINT.md` — SHA do commit: `cc40a4ba4aea9ca89b1115a5fe8770641e11b7c3`.
+- Atualizado `DECISIONS.md` para registrar a aprovação explícita e os limites de escopo.
+- Atualizado `NEXT_TASK.md` para iniciar pela Fase A: baseline executável.
+- Atualizado `HANDOFF.md` com ordem de leitura, protocolo de retomada e fatos técnicos que devem ser revalidados.
+- Este log atualizado para registrar as alterações.
+
+### Conteúdo técnico definido
+- Arquitetura independente com registry de fontes, collectors, arquivo bruto, adaptadores, engines de processamento/enriquecimento/qualidade, builder, publisher e entrega.
+- Domínios: VOD, canais, rádios, logos e EPG.
+- IDs internos estáveis, aliases, variantes de streams, procedência e contratos versionados.
+- TMDB com checkpoint, cache, rate limit, correspondência por confiança e revisão de ambiguidades.
+- Publicação de snapshots imutáveis com manifesto promovido por último e rollback.
+- Testes de regressão, falhas simuladas e teste de independência dos adaptadores de referência.
+
+### Limites preservados
+- Nenhuma alteração em `main`.
+- Nenhuma alteração em TV, Mobile ou Web.
+- Nenhuma OTA.
+- Nenhum segredo foi copiado para o Git.
+- Nenhum conteúdo de mídia audiovisual foi copiado/hospedado.
+
+### Validação
+- GitHub confirmou a criação dos dois documentos e retornou os SHAs acima.
+- A validação de conteúdo, links internos e integridade do conjunto de documentos ainda será executada após atualizar o status e handoff.
+- A implementação funcional ainda não começou; a próxima tarefa é a Fase A.
 
 ## 2026-11-02 — Preparação da continuidade e branch V2
 
 ### Objetivo
-Criar uma linha de desenvolvimento isolada e documentos permanentes para evitar perda de contexto quando uma conversa do ChatGPT for interrompida.
+Criar uma linha de desenvolvimento isolada e documentos permanentes de continuidade.
 
 ### Verificações realizadas
 - Repositório confirmado: `mooNXy7/CineHUB-ACERVO`.
 - Branch padrão confirmada: `main`.
-- Permissão de escrita confirmada pela integração GitHub.
 - HEAD de `main` consultado: `c2176962dccc218cd17622f0acd786ff76b18a6d`.
 - Mensagem do commit-base: `revert: restore catalog after automatic sync`.
-- Os seis arquivos de continuidade não existiam na raiz de `main` no momento da verificação.
 
 ### Alterações realizadas
-- Criada a branch `develop/acervo-v2` a partir de `main`.
-- Criados nesta branch:
-  - `PROJECT_STATUS.md`
-  - `EXECUTION_LOG.md`
-  - `NEXT_TASK.md`
-  - `ARCHITECTURE.md`
-  - `DECISIONS.md`
-  - `HANDOFF.md`
+- Criada a branch `develop/acervo-v2`.
+- Criados os seis documentos de continuidade: status, log, próxima tarefa, arquitetura, decisões e handoff.
 
-### Validação
-A criação da branch foi confirmada pelo GitHub. A criação e os SHAs dos seis commits individuais serão registrados após cada operação ser confirmada.
-
-### Não realizado nesta sessão
-- Nenhuma alteração funcional no catálogo.
-- Nenhuma alteração nos workflows de ingestão/publicação.
-- Nenhuma alteração nos repositórios TV, Mobile ou Web.
-- Nenhuma publicação ou OTA.
-- Nenhuma implementação do ACERVO V2.
-
-### Próxima ação
-Conversar com o responsável pelo projeto para definir e aprovar a especificação do ACERVO V2 antes de iniciar mudanças funcionais.
-
-
-### Verificação final da preparação
-- Branch `develop/acervo-v2` consultada novamente no GitHub.
-- HEAD verificado após a criação dos documentos: `ccdbe570e082f633b2b7207fe1fa208e83ae3bfe`.
-- Os seis documentos foram buscados novamente na branch e retornaram conteúdo legível.
-- SHAs dos commits de criação:
-  - `PROJECT_STATUS.md`: `5cec64918dc54b2b06a07c75a27496ed50d40d88`
-  - `EXECUTION_LOG.md`: `b726fa6d4ce203636c4dc06516a0c998bc48551c`
-  - `NEXT_TASK.md`: `20c04797144daec4913d4344d5c98fe8edea7c8c`
-  - `ARCHITECTURE.md`: `d45631bc2f9a21b933e0706aec71763962a4fcea`
-  - `DECISIONS.md`: `b729b8d9a2831e1add01a2edd4ad38f76106f362`
-  - `HANDOFF.md`: `ccdbe570e082f633b2b7207fe1fa208e83ae3bfe`
-- Resultado: preparação e leitura de verificação concluídas. Nenhuma implementação funcional foi iniciada.
+### Limites
+Nenhuma alteração funcional em catálogo/workflows, consumidores ou OTA. A branch V2 é isolada de `main`.
