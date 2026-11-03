@@ -1,46 +1,41 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
-Este arquivo permite retomar o trabalho em nova conversa sem recomeçar auditorias nem inverter a ordem.
-
 ## Repositório e branch
 - Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
-- Desenvolvimento: `develop/acervo-v2`
-- Linha estável: `main` (não alterar nesta fase).
-- Consumidores: CineHUB-TV, CineHUB Mobile e CineHUB-WEB (não alterar nesta fase).
+- Desenvolvimento: develop/acervo-v2
+- Linha estável: main (não alterar).
+- Consumidores: CineHUB-TV, CineHUB Mobile e CineHUB-WEB (não alterar).
 
-## Leia nesta ordem
-1. `PROJECT_STATUS.md`
-2. `DECISIONS.md`
-3. `ACERVO_V2_SPEC.md`
-4. `ACERVO_V2_BLUEPRINT.md`
-5. `ARCHITECTURE.md`
-6. `EXECUTION_LOG.md`
-7. `NEXT_TASK.md`
-8. Este arquivo.
+## Documentos normativos
+Leia PROJECT_STATUS.md, DECISIONS.md, ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, ARCHITECTURE.md, NEXT_TASK.md, EXECUTION_LOG.md e este arquivo. Não reiniciar o planejamento.
 
-## Protocolo obrigatório de retomada
-1. Confirmar repositório e consultar HEAD real de `develop/acervo-v2`.
-2. Ler os documentos na ordem acima.
-3. Ler a última entrada de `EXECUTION_LOG.md` e comparar com commits/workflows atuais.
-4. Executar apenas a próxima tarefa em `NEXT_TASK.md`; não repetir etapas comprovadas.
-5. Antes de modificar qualquer dado, inspecionar o estado real, criar backup/diff e preparar rollback.
-6. Registrar arquivos alterados, testes executados, resultados e SHA do commit.
+## Estado técnico confirmado em 2026-11-03
+- HEAD inicial da branch: 2e430447866d9d3e3f042fda4cc0338efa1cfe68.
+- main: c2176962dccc218cd17622f0acd786ff76b18a6d; branch V2 15 commits à frente e 0 atrás.
+- Comparação líquida com main: oito documentos V2; catálogos não divergiam na comparação.
+- Referência autorizada consultada: fki1976/SaimoPlayer, arquivo vod/radios.txt. Formato observado: nome|stream.
+- O importador antigo exigia 3 campos e lia nome/stream em posições incompatíveis. Parser foi corrigido na branch V2 para duas colunas e formato legado.
+- Rádios na branch: 1.026; 1.026 sem gênero; 754 sem logo; 2 sem stream; 253 URLs com extensão de imagem no campo stream; zero IDs duplicados; 10 logos não HTTPS.
+- Manifesto VOD declara 56.248 itens distribuídos em filmes/séries/animes/doramas. Conferir contagens reais com auditor.
+- EPG registry tem seis fontes; health report versionado em 2026-10-26 não é health atual.
+- sources/sources.json declara uma fonte independente de canais.
+- Workflows VOD têm quatro referências a scripts ausentes e branch fixa audit/acervo-hardening-2026-10.
+- Workflow de atualização ainda clona a referência externa antes de importar. Isso é dependência operacional do job, embora exista uma fonte M3U independente cadastrada.
+- Workflows TMDB apontam para função Supabase e usam SUPABASE_ANON_KEY; não copiar nem criar token TMDB. O segredo não foi lido.
 
-## Contexto técnico já levantado (revalidar no código, não presumir)
-- Há um pipeline de catálogo existente e importador de referência que precisa ser desacoplado.
-- O formato de rádios da referência não é compatível diretamente com o importador atual.
-- A amostra auditada de rádios apresentou registros sem gênero/logo e URLs de imagem em campo de stream; validar novamente na branch.
-- Workflows VOD apontaram para scripts ausentes na branch auditada; confirmar antes de corrigir.
-- Um cliente TV ainda foi identificado consultando índice do repositório de referência para resolver referências de VOD. Não tocar no consumidor agora; eliminar essa necessidade no contrato próprio antes da futura integração.
-- TMDB já possui token integrado ao Supabase conforme informação do responsável; não duplicar segredo.
-- Recursos Cloudflare/Supabase devem ser inventariados antes de assumir que Pages, Workers, R2, tabelas ou funções específicas estão ativos.
+## Arquivos adicionados/alterados na baseline
+- scripts/import_reference_catalog.py: parser de rádios compatível com o formato real e proteção contra extensão de imagem em stream.
+- tests/fixtures/radios_reference.txt: amostra curta real.
+- tests/test_baseline.py: testes de contrato do importador.
+- scripts/audit_baseline.py: auditor somente leitura.
+- .github/workflows/validate.yml: CI também em develop, relatório como artefato.
 
-## Decisões permanentes
-- Fontes independentes são primárias; repositórios de referência são adaptadores opcionais.
-- ACERVO mantém seus próprios IDs, metadados, fontes, índices, versões e histórico.
-- Não usar branding Saimo em produto/documentação pública.
-- Nenhuma alteração em TV/Mobile/Web, nenhuma integração em produção e nenhuma OTA sem autorização expressa.
-- Falha temporária não é motivo para remover conteúdo; publicação exige quality gate e rollback.
+## Protocolo de continuidade
+1. Consultar HEAD real antes de qualquer gravação.
+2. Conferir Actions e recuperar o artefato de baseline.
+3. Corrigir falhas de testes sem mexer nos dados ativos.
+4. Gerar e registrar snapshot/hash de proteção antes de qualquer migração.
+5. Atualizar log/status/próxima tarefa com evidência e SHA.
 
-## Regra de continuidade
-Não voltar ao planejamento do zero. Usar a especificação aprovada como contrato, atualizar somente quando evidência técnica demonstrar necessidade, registrar a razão e preservar decisões já aprovadas.
+## Limites permanentes
+Não alterar main, TV, Mobile, Web ou repositórios de referência; não publicar OTA; não inserir branding externo; não excluir grandes volumes; não promover catálogo candidato sem quality gate e rollback.
