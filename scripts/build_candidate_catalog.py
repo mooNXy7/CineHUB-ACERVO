@@ -283,8 +283,23 @@ def main() -> int:
                 "base_ref": __import__("os").environ.get("GITHUB_SHA"),
                 "files": file_entries, "report_sha256": report_hash}
     write_json(output / "manifest.json", manifest)
+    identity_log_summary = {
+        key: value for key, value in vod_identity_report.items()
+        if key not in {"consolidations", "legacy_id_conflicts"}
+    }
+    identity_log_summary["consolidation_details"] = len(vod_identity_report.get("consolidations", []))
+    identity_log_summary["legacy_id_conflict_details"] = len(vod_identity_report.get("legacy_id_conflicts", []))
+    quality_log_summary = {
+        "radio_quarantine_count": quality_audit["radios"]["quarantine_count"],
+        "radio_records_without_valid_streams": quality_audit["radios"]["records_without_valid_streams"],
+        "epg_channel_records": quality_audit["epg"]["channel_records"],
+        "epg_mapping_status_counts": quality_audit["epg"]["mappings"]["status_counts"],
+        "logo_associations": quality_audit["logos"]["logical_associations"],
+        "local_logo_files": quality_audit["logos"]["local_image_files"],
+    }
     print(json.dumps({"output": str(output), "domains": file_entries,
-                      "vod_identity": vod_identity_report,
+                      "vod_identity": identity_log_summary,
+                      "quality_audit": quality_log_summary,
                       "active_catalogs_modified": False, "reference_network_used": False}, ensure_ascii=False))
     return 0
 
