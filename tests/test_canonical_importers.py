@@ -230,6 +230,12 @@ class CandidateBuildTests(unittest.TestCase):
             self.assertEqual(epg_channels[0]["provider_channel_id"], "CT")
             self.assertEqual(epg_mappings[0]["channel_id"], "ch.test")
             self.assertEqual(epg_mappings[0]["match_status"], "matched")
+            from validate_schemas import validate_candidate_integrity
+            integrity_errors, metrics = validate_candidate_integrity(output)
+            self.assertEqual(integrity_errors, [])
+            self.assertEqual(metrics["logos_associated"], 2)
+            self.assertEqual(metrics["epg_channels"], 1)
+            self.assertEqual(metrics["epg_mappings"]["matched"], 1)
             with patch("sys.argv", ["validate_schemas.py", "--candidate-dir", str(output)]):
                 from validate_schemas import main as validate_schemas_main
                 validate_schemas_main()
