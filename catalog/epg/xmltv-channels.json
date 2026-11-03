@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T00:24:54Z",
+  "generated_at": "2026-10-26T15:17:21Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-03T00:24:54Z",
+      "fetched_at": "2026-10-26T15:17:21Z",
       "channel_count": 179,
       "channels": [
         {
@@ -716,7 +716,7 @@
         {
           "id": "6888ee858f4a4aa11feb9430",
           "display_names": [
-            "Barça 24H"
+            "Top Barça"
           ]
         },
         {
@@ -1089,7 +1089,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-03T00:24:54Z",
+      "fetched_at": "2026-10-26T15:17:21Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2050,7 +2050,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-03T00:24:54Z",
+      "fetched_at": "2026-10-26T15:17:21Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3149,8 +3149,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-03T00:24:54Z",
-      "channel_count": 492,
+      "fetched_at": "2026-10-26T15:17:21Z",
+      "channel_count": 494,
       "channels": [
         {
           "id": "A&E",
@@ -3171,6 +3171,12 @@
           ]
         },
         {
+          "id": "Agro+",
+          "display_names": [
+            "Agro+"
+          ]
+        },
+        {
           "id": "Animal Planet",
           "display_names": [
             "Animal Planet"
@@ -3183,15 +3189,9 @@
           ]
         },
         {
-          "id": "BBC World News",
+          "id": "BBC World",
           "display_names": [
-            "BBC World News"
-          ]
-        },
-        {
-          "id": "Baby TV",
-          "display_names": [
-            "Baby TV"
+            "BBC World"
           ]
         },
         {
@@ -3201,15 +3201,21 @@
           ]
         },
         {
-          "id": "Band News",
+          "id": "Band RJ",
           "display_names": [
-            "Band News"
+            "Band RJ"
           ]
         },
         {
-          "id": "Band Sports",
+          "id": "Bandnews",
           "display_names": [
-            "Band Sports"
+            "Bandnews"
+          ]
+        },
+        {
+          "id": "Bandsports",
+          "display_names": [
+            "Bandsports"
           ]
         },
         {
@@ -3225,21 +3231,21 @@
           ]
         },
         {
-          "id": "CNN International",
+          "id": "Box Kids",
           "display_names": [
-            "CNN International"
+            "Box Kids"
           ]
         },
         {
-          "id": "Canal 21",
+          "id": "CNN Brasil",
           "display_names": [
-            "Canal 21"
+            "CNN Brasil"
           ]
         },
         {
-          "id": "Canal Brasil",
+          "id": "Canal Educação",
           "display_names": [
-            "Canal Brasil"
+            "Canal Educação"
           ]
         },
         {
@@ -3249,15 +3255,27 @@
           ]
         },
         {
-          "id": "Canal do Boi",
+          "id": "Canal Uol",
           "display_names": [
-            "Canal do Boi"
+            "Canal Uol"
+          ]
+        },
+        {
+          "id": "Canção Nova",
+          "display_names": [
+            "Canção Nova"
           ]
         },
         {
           "id": "Cartoon Network",
           "display_names": [
             "Cartoon Network"
+          ]
+        },
+        {
+          "id": "Cartoonito",
+          "display_names": [
+            "Cartoonito"
           ]
         },
         {
@@ -3273,21 +3291,15 @@
           ]
         },
         {
-          "id": "Deutsche Welle",
+          "id": "Curta!",
           "display_names": [
-            "Deutsche Welle"
+            "Curta!"
           ]
         },
         {
           "id": "Discovery Channel",
           "display_names": [
             "Discovery Channel"
-          ]
-        },
-        {
-          "id": "Discovery Theater",
-          "display_names": [
-            "Discovery Theater"
           ]
         },
         {
@@ -3306,6 +3318,12 @@
           "id": "Discovery Science",
           "display_names": [
             "Discovery Science"
+          ]
+        },
+        {
+          "id": "Discovery Theater",
+          "display_names": [
+            "Discovery Theater"
           ]
         },
         {
@@ -3357,9 +3375,9 @@
           ]
         },
         {
-          "id": "Eurochannel",
+          "id": "ESPN 6",
           "display_names": [
-            "Eurochannel"
+            "ESPN 6"
           ]
         },
         {
@@ -3369,9 +3387,27 @@
           ]
         },
         {
+          "id": "Food Network",
+          "display_names": [
+            "Food Network"
+          ]
+        },
+        {
+          "id": "Fox News",
+          "display_names": [
+            "Fox News"
+          ]
+        },
+        {
           "id": "Futura",
           "display_names": [
             "Futura"
+          ]
+        },
+        {
+          "id": "GE TV",
+          "display_names": [
+            "GE TV"
           ]
         },
         {
@@ -3381,21 +3417,33 @@
           ]
         },
         {
-          "id": "Globo",
-          "display_names": [
-            "Globo"
-          ]
-        },
-        {
           "id": "Globo News",
           "display_names": [
             "Globo News"
           ]
         },
         {
+          "id": "Globo Rio de Janeiro",
+          "display_names": [
+            "Globo Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "Globo SP",
+          "display_names": [
+            "Globo SP"
+          ]
+        },
+        {
           "id": "Gloob",
           "display_names": [
             "Gloob"
+          ]
+        },
+        {
+          "id": "Gloobinho",
+          "display_names": [
+            "Gloobinho"
           ]
         },
         {
@@ -3417,9 +3465,21 @@
           ]
         },
         {
+          "id": "HBO Mundi",
+          "display_names": [
+            "HBO Mundi"
+          ]
+        },
+        {
           "id": "HBO Plus",
           "display_names": [
             "HBO Plus"
+          ]
+        },
+        {
+          "id": "HBO Pop",
+          "display_names": [
+            "HBO Pop"
           ]
         },
         {
@@ -3429,9 +3489,39 @@
           ]
         },
         {
+          "id": "HBO Xtreme",
+          "display_names": [
+            "HBO Xtreme"
+          ]
+        },
+        {
+          "id": "HGTV",
+          "display_names": [
+            "HGTV"
+          ]
+        },
+        {
           "id": "History",
           "display_names": [
             "History"
+          ]
+        },
+        {
+          "id": "History 2",
+          "display_names": [
+            "History 2"
+          ]
+        },
+        {
+          "id": "Discovery Investigação",
+          "display_names": [
+            "Discovery Investigação"
+          ]
+        },
+        {
+          "id": "Jovem Pan News",
+          "display_names": [
+            "Jovem Pan News"
           ]
         },
         {
@@ -3453,9 +3543,57 @@
           ]
         },
         {
-          "id": "OFF HD",
+          "id": "Music Box Brasil",
           "display_names": [
-            "OFF HD"
+            "Music Box Brasil"
+          ]
+        },
+        {
+          "id": "Nsports",
+          "display_names": [
+            "Nsports"
+          ]
+        },
+        {
+          "id": "Off",
+          "display_names": [
+            "Off"
+          ]
+        },
+        {
+          "id": "Premiere 2",
+          "display_names": [
+            "Premiere 2"
+          ]
+        },
+        {
+          "id": "Premiere 3",
+          "display_names": [
+            "Premiere 3"
+          ]
+        },
+        {
+          "id": "Premiere 4",
+          "display_names": [
+            "Premiere 4"
+          ]
+        },
+        {
+          "id": "Premiere 5",
+          "display_names": [
+            "Premiere 5"
+          ]
+        },
+        {
+          "id": "Premiere 6",
+          "display_names": [
+            "Premiere 6"
+          ]
+        },
+        {
+          "id": "Premiere 7",
+          "display_names": [
+            "Premiere 7"
           ]
         },
         {
@@ -3465,9 +3603,9 @@
           ]
         },
         {
-          "id": "RAI International",
+          "id": "Prime Box Brazil",
           "display_names": [
-            "RAI International"
+            "Prime Box Brazil"
           ]
         },
         {
@@ -3483,9 +3621,15 @@
           ]
         },
         {
-          "id": "Rede Boa Vontade",
+          "id": "Rede Brasil",
           "display_names": [
-            "Rede Boa Vontade"
+            "Rede Brasil"
+          ]
+        },
+        {
+          "id": "Rede Gospel",
+          "display_names": [
+            "Rede Gospel"
           ]
         },
         {
@@ -3507,21 +3651,33 @@
           ]
         },
         {
-          "id": "SIC International",
+          "id": "SBT News",
           "display_names": [
-            "SIC International"
+            "SBT News"
           ]
         },
         {
-          "id": "SPACE",
+          "id": "SBT Rio de Janeiro",
           "display_names": [
-            "SPACE"
+            "SBT Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "SONY Movies",
+          "display_names": [
+            "SONY Movies"
           ]
         },
         {
           "id": "Sony Channel",
           "display_names": [
             "Sony Channel"
+          ]
+        },
+        {
+          "id": "Space",
+          "display_names": [
+            "Space"
           ]
         },
         {
@@ -3543,15 +3699,21 @@
           ]
         },
         {
+          "id": "SportyNet",
+          "display_names": [
+            "SportyNet"
+          ]
+        },
+        {
           "id": "Studio Universal",
           "display_names": [
             "Studio Universal"
           ]
         },
         {
-          "id": "TBS",
+          "id": "USA",
           "display_names": [
-            "TBS"
+            "USA"
           ]
         },
         {
@@ -3573,15 +3735,21 @@
           ]
         },
         {
+          "id": "TNT Novelas",
+          "display_names": [
+            "TNT Novelas"
+          ]
+        },
+        {
           "id": "TNT Séries",
           "display_names": [
             "TNT Séries"
           ]
         },
         {
-          "id": "TV Aparecida (aberta)",
+          "id": "TV Aparecida",
           "display_names": [
-            "TV Aparecida (aberta)"
+            "TV Aparecida"
           ]
         },
         {
@@ -3597,39 +3765,21 @@
           ]
         },
         {
-          "id": "TV Escola",
+          "id": "TV Câmara",
           "display_names": [
-            "TV Escola"
+            "TV Câmara"
           ]
         },
         {
-          "id": "TV Espanha",
+          "id": "TV Rá Tim Bum",
           "display_names": [
-            "TV Espanha"
-          ]
-        },
-        {
-          "id": "TV Gazeta",
-          "display_names": [
-            "TV Gazeta"
-          ]
-        },
-        {
-          "id": "TV Justiça",
-          "display_names": [
-            "TV Justiça"
+            "TV Rá Tim Bum"
           ]
         },
         {
           "id": "TV Senado",
           "display_names": [
             "TV Senado"
-          ]
-        },
-        {
-          "id": "TV5 Monde",
-          "display_names": [
-            "TV5 Monde"
           ]
         },
         {
@@ -3666,6 +3816,126 @@
           "id": "Telecine Touch",
           "display_names": [
             "Telecine Touch"
+          ]
+        },
+        {
+          "id": "Terra Viva",
+          "display_names": [
+            "Terra Viva"
+          ]
+        },
+        {
+          "id": "BBC World News",
+          "display_names": [
+            "BBC World News"
+          ]
+        },
+        {
+          "id": "Baby TV",
+          "display_names": [
+            "Baby TV"
+          ]
+        },
+        {
+          "id": "CNN International",
+          "display_names": [
+            "CNN International"
+          ]
+        },
+        {
+          "id": "Canal 21",
+          "display_names": [
+            "Canal 21"
+          ]
+        },
+        {
+          "id": "Canal Brasil",
+          "display_names": [
+            "Canal Brasil"
+          ]
+        },
+        {
+          "id": "Canal do Boi",
+          "display_names": [
+            "Canal do Boi"
+          ]
+        },
+        {
+          "id": "Deutsche Welle",
+          "display_names": [
+            "Deutsche Welle"
+          ]
+        },
+        {
+          "id": "Eurochannel",
+          "display_names": [
+            "Eurochannel"
+          ]
+        },
+        {
+          "id": "Globo",
+          "display_names": [
+            "Globo"
+          ]
+        },
+        {
+          "id": "RAI International",
+          "display_names": [
+            "RAI International"
+          ]
+        },
+        {
+          "id": "Rede Boa Vontade",
+          "display_names": [
+            "Rede Boa Vontade"
+          ]
+        },
+        {
+          "id": "SIC International",
+          "display_names": [
+            "SIC International"
+          ]
+        },
+        {
+          "id": "TBS",
+          "display_names": [
+            "TBS"
+          ]
+        },
+        {
+          "id": "TV Aparecida (aberta)",
+          "display_names": [
+            "TV Aparecida (aberta)"
+          ]
+        },
+        {
+          "id": "TV Escola",
+          "display_names": [
+            "TV Escola"
+          ]
+        },
+        {
+          "id": "TV Espanha",
+          "display_names": [
+            "TV Espanha"
+          ]
+        },
+        {
+          "id": "TV Gazeta",
+          "display_names": [
+            "TV Gazeta"
+          ]
+        },
+        {
+          "id": "TV Justiça",
+          "display_names": [
+            "TV Justiça"
+          ]
+        },
+        {
+          "id": "TV5 Monde",
+          "display_names": [
+            "TV5 Monde"
           ]
         },
         {
@@ -3711,21 +3981,9 @@
           ]
         },
         {
-          "id": "Agro+",
-          "display_names": [
-            "Agro+"
-          ]
-        },
-        {
           "id": "BM&C News",
           "display_names": [
             "BM&C News"
-          ]
-        },
-        {
-          "id": "Box kids",
-          "display_names": [
-            "Box kids"
           ]
         },
         {
@@ -3735,33 +3993,9 @@
           ]
         },
         {
-          "id": "CNN Brasil",
-          "display_names": [
-            "CNN Brasil"
-          ]
-        },
-        {
           "id": "CNN Brasil Money",
           "display_names": [
             "CNN Brasil Money"
-          ]
-        },
-        {
-          "id": "Canal UOL",
-          "display_names": [
-            "Canal UOL"
-          ]
-        },
-        {
-          "id": "Cartoonito",
-          "display_names": [
-            "Cartoonito"
-          ]
-        },
-        {
-          "id": "Curta!",
-          "display_names": [
-            "Curta!"
           ]
         },
         {
@@ -3774,12 +4008,6 @@
           "id": "ZooMoo",
           "display_names": [
             "ZooMoo"
-          ]
-        },
-        {
-          "id": "ESPN 6",
-          "display_names": [
-            "ESPN 6"
           ]
         },
         {
@@ -3801,66 +4029,6 @@
           ]
         },
         {
-          "id": "Food Network",
-          "display_names": [
-            "Food Network"
-          ]
-        },
-        {
-          "id": "GETV",
-          "display_names": [
-            "GETV"
-          ]
-        },
-        {
-          "id": "Gloobinho",
-          "display_names": [
-            "Gloobinho"
-          ]
-        },
-        {
-          "id": "HBO Mundi",
-          "display_names": [
-            "HBO Mundi"
-          ]
-        },
-        {
-          "id": "HBO Pop",
-          "display_names": [
-            "HBO Pop"
-          ]
-        },
-        {
-          "id": "HBO Xtreme",
-          "display_names": [
-            "HBO Xtreme"
-          ]
-        },
-        {
-          "id": "HGTV",
-          "display_names": [
-            "HGTV"
-          ]
-        },
-        {
-          "id": "History 2",
-          "display_names": [
-            "History 2"
-          ]
-        },
-        {
-          "id": "Discovery Investigação",
-          "display_names": [
-            "Discovery Investigação"
-          ]
-        },
-        {
-          "id": "Jovem Pan News",
-          "display_names": [
-            "Jovem Pan News"
-          ]
-        },
-        {
           "id": "LMC+",
           "display_names": [
             "LMC+"
@@ -3876,18 +4044,6 @@
           "id": "Modo Viagem",
           "display_names": [
             "Modo Viagem"
-          ]
-        },
-        {
-          "id": "Music Box Brasil",
-          "display_names": [
-            "Music Box Brasil"
-          ]
-        },
-        {
-          "id": "NSports",
-          "display_names": [
-            "NSports"
           ]
         },
         {
@@ -3915,75 +4071,15 @@
           ]
         },
         {
-          "id": "Premiere 2",
-          "display_names": [
-            "Premiere 2"
-          ]
-        },
-        {
           "id": "Premiere 24hs",
           "display_names": [
             "Premiere 24hs"
           ]
         },
         {
-          "id": "Premiere 3",
-          "display_names": [
-            "Premiere 3"
-          ]
-        },
-        {
-          "id": "Premiere 4",
-          "display_names": [
-            "Premiere 4"
-          ]
-        },
-        {
-          "id": "Premiere 5",
-          "display_names": [
-            "Premiere 5"
-          ]
-        },
-        {
-          "id": "Premiere 6",
-          "display_names": [
-            "Premiere 6"
-          ]
-        },
-        {
-          "id": "Premiere 7",
-          "display_names": [
-            "Premiere 7"
-          ]
-        },
-        {
-          "id": "Prime Box Brazil",
-          "display_names": [
-            "Prime Box Brazil"
-          ]
-        },
-        {
-          "id": "Record",
-          "display_names": [
-            "Record"
-          ]
-        },
-        {
           "id": "Sabor & Arte",
           "display_names": [
             "Sabor & Arte"
-          ]
-        },
-        {
-          "id": "Sony Movies",
-          "display_names": [
-            "Sony Movies"
-          ]
-        },
-        {
-          "id": "SportyNet",
-          "display_names": [
-            "SportyNet"
           ]
         },
         {
@@ -4005,18 +4101,6 @@
           ]
         },
         {
-          "id": "TNT Novelas",
-          "display_names": [
-            "TNT Novelas"
-          ]
-        },
-        {
-          "id": "TV Rá Tim Bum",
-          "display_names": [
-            "TV Rá Tim Bum"
-          ]
-        },
-        {
           "id": "Times Brasil | Licenciado Exclusivo CNBC",
           "display_names": [
             "Times Brasil | Licenciado Exclusivo CNBC"
@@ -4032,12 +4116,6 @@
           "id": "Trip Brasil Channel",
           "display_names": [
             "Trip Brasil Channel"
-          ]
-        },
-        {
-          "id": "USA",
-          "display_names": [
-            "USA"
           ]
         },
         {
@@ -4167,12 +4245,6 @@
           ]
         },
         {
-          "id": "Band RJ HD",
-          "display_names": [
-            "Band RJ HD"
-          ]
-        },
-        {
           "id": "Band Rio",
           "display_names": [
             "Band Rio"
@@ -4269,12 +4341,6 @@
           ]
         },
         {
-          "id": "Canção Nova",
-          "display_names": [
-            "Canção Nova"
-          ]
-        },
-        {
           "id": "Chef TV",
           "display_names": [
             "Chef TV"
@@ -4347,12 +4413,6 @@
           ]
         },
         {
-          "id": "Fox News",
-          "display_names": [
-            "Fox News"
-          ]
-        },
-        {
           "id": "Gazeta HD",
           "display_names": [
             "Gazeta HD"
@@ -4422,12 +4482,6 @@
           "id": "Globo Rio HD",
           "display_names": [
             "Globo Rio HD"
-          ]
-        },
-        {
-          "id": "Globo SP",
-          "display_names": [
-            "Globo SP"
           ]
         },
         {
@@ -4875,12 +4929,6 @@
           ]
         },
         {
-          "id": "Rede Brasil",
-          "display_names": [
-            "Rede Brasil"
-          ]
-        },
-        {
           "id": "Rede Difusora HD",
           "display_names": [
             "Rede Difusora HD"
@@ -4896,12 +4944,6 @@
           "id": "Rede Gazeta",
           "display_names": [
             "Rede Gazeta"
-          ]
-        },
-        {
-          "id": "Rede Gospel",
-          "display_names": [
-            "Rede Gospel"
           ]
         },
         {
@@ -5307,12 +5349,6 @@
           ]
         },
         {
-          "id": "TV Aparecida",
-          "display_names": [
-            "TV Aparecida"
-          ]
-        },
-        {
           "id": "TV Aperipê",
           "display_names": [
             "TV Aperipê"
@@ -5460,12 +5496,6 @@
           "id": "TV Correio",
           "display_names": [
             "TV Correio"
-          ]
-        },
-        {
-          "id": "TV Câmara",
-          "display_names": [
-            "TV Câmara"
           ]
         },
         {
@@ -5793,12 +5823,6 @@
           ]
         },
         {
-          "id": "Terra Viva",
-          "display_names": [
-            "Terra Viva"
-          ]
-        },
-        {
           "id": "TruTV",
           "display_names": [
             "TruTV"
@@ -5850,12 +5874,6 @@
           "id": "C3-TV",
           "display_names": [
             "C3-TV"
-          ]
-        },
-        {
-          "id": "Canal Educação",
-          "display_names": [
-            "Canal Educação"
           ]
         },
         {
@@ -5952,12 +5970,6 @@
           "id": "Runtime",
           "display_names": [
             "Runtime"
-          ]
-        },
-        {
-          "id": "SBT News",
-          "display_names": [
-            "SBT News"
           ]
         },
         {
