@@ -33,7 +33,7 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 
 ## Fonte mestre de verdade e retomada
 **Antes de executar qualquer tarefa, leia integralmente [ROADMAP_V2.md](ROADMAP_V2.md).** Ele contém o plano integral, arquitetura, todos os domínios, decisões, fases futuras, critérios de aceite e regras de continuidade.
-- HEAD após consolidação do roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
+- Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`. Sempre consultar o HEAD vivo da branch antes de executar.
 - Fase A: CONCLUÍDA.
 - Fase B: próxima; NÃO INICIADA.
 - A Fase B deve seguir o escopo descrito em ROADMAP_V2.md, especialmente auditoria complementar, schemas canônicos, parsers/importadores, fixtures e testes.
