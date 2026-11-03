@@ -1,34 +1,30 @@
 # Próxima Tarefa — CineHUB-ACERVO
 
-## Tarefa atual
-**Concluir a Fase A — baseline executável e protegida.**
+## Estado
+**Fase A concluída.** A baseline foi inventariada, testada, executada e protegida por snapshot.
 
-## Trabalho já iniciado
-- Parser de rádios agora aceita nome|stream e mantém compatibilidade com o formato legado.
-- Fixture real representativa e testes de regressão adicionados.
-- Auditoria executável somente de leitura criada para inventariar catálogos, workflows, scripts ausentes, dependências externas e referências TMDB.
-- Workflow de validação preparado para executar na branch develop/acervo-v2 e publicar artefato do baseline.
+## Próxima tarefa executável — Fase B
+Implementar contratos e adaptadores canônicos, guiados pelos formatos reais e pelo blueprint aprovado.
 
-## Próximos passos executáveis
-1. Verificar resultado real do GitHub Actions após o commit desta etapa.
-2. Corrigir falhas dos testes sem reescrever catálogos.
-3. Registrar o relatório completo gerado pelo auditor, incluindo contagens reais de canais/VOD/logos e referências de scripts por workflow.
-4. Revisar proteção/backup: snapshot lógico e hash dos catálogos antes de qualquer migração de dados.
-5. Fechar a lista de bloqueios e atualizar o handoff.
+### Ordem técnica
+1. Definir schemas versionados para VOD, canais, rádios, logos e EPG, com procedência e IDs estáveis.
+2. Implementar os quatro entrypoints VOD ausentes somente depois de definir seu contrato real:
+   - scripts/enrich_vod_metadata.py
+   - scripts/apply_vod_metadata_patch.py
+   - scripts/suggest_vod_tmdb_matches.py
+   - scripts/apply_vod_tmdb_id_candidates.py
+3. Corrigir os workflows VOD para não depender de branch fixa antiga e validar que cada script chamado existe.
+4. Desacoplar o clone fki1976/SaimoPlayer do caminho operacional obrigatório; a referência permanece auxiliar.
+5. Criar pipeline de logos com validação de MIME/arquivo, origem e associação; atualmente existem zero imagens locais.
+6. Planejar enriquecimento de rádios sem apagar variantes, preencher gêneros por inferência não confirmada ou atribuir logos ambíguos.
+7. Preservar snapshot e catálogo ativo até que cada candidato passe pelo quality gate.
 
-## Bloqueios já confirmados
-- Quatro entrypoints VOD referenciados por workflows não existem na branch.
-- Workflows VOD ainda usam branch fixa antiga.
-- Atualizador principal ainda depende do clone da referência para concluir a etapa de importação.
-- Catálogo de rádios contém URLs com extensão de imagem no campo de stream e metadados incompletos; nenhuma correção em massa deve ser aplicada sem proveniência/backup.
+## Evidências de referência da Fase A
+- GitHub Actions run 921 / ID 41573214240: success.
+- 25 testes passaram; validador, auditor e compilação Python aprovados.
+- Relatório: reports/baseline/2026-11-03.md e .json.
+- Snapshot: 731 arquivos, 314.216.337 bytes, SHA-256 agregado bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
+- Branch: develop/acervo-v2. main permanece em c2176962dccc218cd17622f0acd786ff76b18a6d.
 
 ## Regras
-- Não alterar main, TV, Mobile ou Web.
-- Não publicar OTA.
-- Não remover streams/fontes por falha pontual.
-- Não aplicar TMDB ambíguo.
-- Não sobrescrever catálogo ativo.
-- Registrar cada execução, resultado e SHA.
-
-## Depois da Fase A
-Avançar para **Fase B — schemas e importadores compatíveis com os formatos reais**, usando a baseline como referência e mantendo o catálogo atual como fonte protegida.
+Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar TMDB token; não excluir streams por falha pontual; não aplicar TMDB ambíguo; não substituir catálogo ativo sem backup e validação.
