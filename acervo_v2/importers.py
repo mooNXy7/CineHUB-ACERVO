@@ -208,6 +208,11 @@ def _merge_vod_records(primary: dict, incoming: dict) -> dict:
     primary["provenance"] = _merge_values(primary.get("provenance", []), incoming.get("provenance", []))
     primary["legacy_ids"] = _merge_values(primary.get("legacy_ids", []), incoming.get("legacy_ids", []))
     primary["catalog_sections"] = _merge_values(primary.get("catalog_sections", []), incoming.get("catalog_sections", []))
+    primary_identity = primary.setdefault("identity_resolution", {})
+    incoming_identity = incoming.get("identity_resolution", {})
+    primary_identity["legacy_id_conflict"] = bool(
+        primary_identity.get("legacy_id_conflict") or incoming_identity.get("legacy_id_conflict")
+    )
     primary_external = primary.setdefault("external_ids", {})
     incoming_external = incoming.get("external_ids", {})
     for provider in ("tmdb", "imdb"):

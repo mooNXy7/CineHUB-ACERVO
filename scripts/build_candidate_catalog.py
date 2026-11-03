@@ -109,7 +109,8 @@ def main() -> int:
             q_channels.extend(rejected)
 
     q_vod = []
-    vod_records = iter_vod_catalog(root, "catalog-existing", q_vod)
+    vod_identity_report = {}
+    vod_records = iter_vod_catalog(root, "catalog-existing", q_vod, vod_identity_report)
     epg_sources_doc = read_json(root / "catalog/epg/sources.json")
     epg_map_doc = read_json(root / "catalog/epg/channel-map.json")
     epg_sources, q_epg_sources = parse_epg_sources(epg_sources_doc)
@@ -167,6 +168,7 @@ def main() -> int:
         "generated_at": generated_at, "catalog_mutated": False,
         "reference_network_used": False, "active_catalogs_modified": False,
         "domains": file_entries,
+        "vod_identity": vod_identity_report,
         "notes": [
             "Candidates are isolated from catalog/ and sources/; no active record was written.",
             "EPG channels are normalized from the repository-owned xmltv-channels.json index; no local XMLTV programme payload is present, so programme records remain empty until an authorized local feed payload is ingested.",
@@ -180,6 +182,7 @@ def main() -> int:
                 "files": file_entries, "report_sha256": report_hash}
     write_json(output / "manifest.json", manifest)
     print(json.dumps({"output": str(output), "domains": file_entries,
+                      "vod_identity": vod_identity_report,
                       "active_catalogs_modified": False, "reference_network_used": False}, ensure_ascii=False))
     return 0
 

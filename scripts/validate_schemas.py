@@ -99,6 +99,7 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
     ids_by_file = {}
     entity_count = {"channels": 0, "radios": 0, "vod": 0}
     stream_count = 0
+    global_stream_ids = {}
     quarantine_count = 0
 
     for filename, label in (("channels.json", "channels"), ("radios.json", "radios"), ("vod.json", "vod")):
@@ -129,9 +130,22 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
                 if str(variant.get("entity_id") or "") != ident:
                     errors.append(f"{filename}:{ident}: stream entity_id does not match owner")
                 stream_id = str(variant.get("id") or "")
+                scope = str(variant.get("scope") or "")
+                if not scope:
+                    errors.append(f"{filename}:{ident}: stream variant is missing scope")
                 if stream_id and stream_id in seen_streams:
                     errors.append(f"{filename}:{ident}: duplicate stream variant id {stream_id}")
                 seen_streams.add(stream_id)
+                if stream_id:
+                    previous_owner = global_stream_ids.get(stream_id)
+                    current_owner = (filename, ident, scope)
+                    if previous_owner is not None:
+                        errors.append(
+                            f"{filename}:{ident}: global duplicate stream variant id {stream_id}; "
+                            f"previous owner={previous_owner}, current owner={current_owner}"
+                        )
+                    else:
+                        global_stream_ids[stream_id] = current_owner
         ids_by_file[filename] = seen
 
     channel_ids = ids_by_file.get("channels.json", set())
@@ -183,6 +197,7 @@ def validate_candidate_integrity(candidate_dir: Path) -> tuple[list[str], dict]:
     metrics = {
         "entities": entity_count,
         "streams_and_episode_variants": stream_count,
+        "unique_stream_variant_ids": len(global_stream_ids),
         "logos_associated": len(logo_records),
         "epg_channels": epg_channel_count,
         "epg_programmes": epg_programme_count,
