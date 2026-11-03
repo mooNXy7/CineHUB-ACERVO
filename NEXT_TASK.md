@@ -9,21 +9,21 @@
 Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
 Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
 Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B é a próxima tarefa planejada e permanece não iniciada nesta correção.
+Fase A encerrada. Fase B está em implementação real; este documento lista as pendências para seu aceite.
 
 ## Próxima tarefa planejada — Fase B
-A Fase B é a próxima etapa do projeto. **Não foi iniciada nesta correção**. Ao iniciar, seguir ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md e ARCHITECTURE.md; não improvisar contratos nem substituir o fluxo de referência aprovado.
+A Fase B já possui implementação publicada na branch develop/acervo-v2. Continuar a execução a partir do HEAD atual; não reiniciar a auditoria nem descartar os contratos, parsers, testes e workflows existentes.
 
 ### Ordem técnica registrada
-1. Definir schemas versionados para VOD, canais, rádios, logos e EPG, com procedência e IDs estáveis.
-2. Implementar os quatro entrypoints VOD ausentes somente após definir contratos reais:
+1. Confirmar validação dos 13 schemas e integridade referencial de todos os documentos candidatos.
+2. Auditar e validar os quatro entrypoints VOD já implementados:
    - scripts/enrich_vod_metadata.py
    - scripts/apply_vod_metadata_patch.py
    - scripts/suggest_vod_tmdb_matches.py
    - scripts/apply_vod_tmdb_id_candidates.py
-3. Corrigir workflows VOD para não depender de branch fixa antiga e validar todos os scripts chamados.
-4. Desacoplar o clone fki1976/SaimoPlayer do caminho operacional obrigatório; manter a referência como adaptador auxiliar, conforme arquitetura aprovada.
-5. Criar pipeline de logos com validação de MIME/arquivo, origem e associação.
+3. Rodar smoke tests offline dos quatro entrypoints VOD e confirmar os workflows que os executam.
+4. Confirmar que os workflows de validação/build operam somente com dados locais, sem clone ou dependência runtime de repositório de referência.
+5. Fechar a matriz de assets/logos: associação, proveniência, status não verificado e pendência de MIME/licença quando não houver arquivo local.
 6. Enriquecer rádios sem apagar variantes, inventar gêneros ou atribuir logos ambíguos.
 7. Preservar snapshot e catálogo ativo até cada candidato passar pelo quality gate.
 
@@ -35,10 +35,10 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 **Antes de executar qualquer tarefa, leia integralmente [ROADMAP_V2.md](ROADMAP_V2.md).** Ele contém o plano integral, arquitetura, todos os domínios, decisões, fases futuras, critérios de aceite e regras de continuidade.
 - Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`. Sempre consultar o HEAD vivo da branch antes de executar.
 - Fase A: CONCLUÍDA.
-- Fase B: próxima; NÃO INICIADA.
+- Fase B: EM ANDAMENTO.
 - A Fase B deve seguir o escopo descrito em ROADMAP_V2.md, especialmente auditoria complementar, schemas canônicos, parsers/importadores, fixtures e testes.
 - Não iniciar Fase C nem qualquer etapa posterior automaticamente.
-- Não tratar esta consolidação documental como implementação da Fase B.
+- Não tratar testes unitários isolados como aceite integral da Fase B.
 > **RETOMADA VIGENTE — 2026-11-03 (autoridade sobre registros históricos abaixo)**  
 > Branch: `develop/acervo-v2`  
 > HEAD confirmado no GitHub: `3d8d143ae387f3340c1efb285fb3199393c25a99`  
@@ -76,3 +76,13 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 - Workflows não chamam entrypoints inexistentes; nenhum stub vazio.
 - Nenhuma modificação de catálogo ativo, main, consumidores, infraestrutura de produção ou publicação.
 - Relatório reproduzível com inventário, diffs, testes, evidências e pendências.
+
+
+## Estado de execução e pendências vigentes — 2026-11-03
+- HEAD registrado: `cf2148d6dbfa229e5e7fcda25def8aec779c567a`.
+- 13 schemas validados; 39 testes aprovados na última execução observada.
+- Construção integral do candidato aprovada na etapa do workflow; validação integral em processamento no run 980 (41590601634).
+- Correção recente do validador preserva o resolver de referências relativas em sub-schemas.
+- Próximas ações: confirmar run 980 ou execução sucessora; comprovar idempotência do build; testar `--help` dos quatro entrypoints VOD fora do diretório do repositório; garantir artefato de CI com todos os documentos candidatos; registrar contagens reais e quarentena.
+- Limites ainda não comprovados: MIME/licença de imagens (não há imagens locais); programação EPG completa (não há payload XMLTV local); workflows TMDB online (não foram disparados e não se alteraram segredos).
+- Nenhuma alteração em main, catálogos/fontes ativos, consumidores, repositórios de referência ou produção. Não publicar e não iniciar Fase C.

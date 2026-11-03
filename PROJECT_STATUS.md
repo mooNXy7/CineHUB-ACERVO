@@ -9,7 +9,7 @@
 Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
 Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
 Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B é a próxima tarefa planejada e permanece não iniciada nesta correção.
+Fase A encerrada. Fase B está em implementação na branch develop/acervo-v2; consulte o adendo vigente abaixo.
 
 ## Missão e decisões aprovadas
 ACERVO V2 é o núcleo independente de ingestão, normalização, identidade, enriquecimento, validação, publicação e recuperação de dados CineHUB. Fontes independentes são primárias; referências externas são adaptadores auxiliares. Falha de fonte não apaga a última versão válida. Reutilizar a integração TMDB existente no Supabase; não duplicar tokens.
@@ -34,7 +34,7 @@ ACERVO V2 é o núcleo independente de ingestão, normalização, identidade, en
 A comparação registrada no HEAD-base do run 935 contém 15 arquivos alterados e zero arquivos em catalog/ ou sources/. Após o commit documental, comparação esperada: 38 commits à frente, zero atrás; mesmos 15 arquivos e zero arquivos de catálogo/fontes.
 
 ## Próxima etapa
-A Fase B é a próxima tarefa planejada, conforme NEXT_TASK.md. Continua não iniciada por esta correção documental.
+A Fase B está em implementação real, com contratos, importadores, testes e construção de candidato já publicados; a validação integral continua em andamento.
 
 
 ## Plano mestre integral — continuidade obrigatória
@@ -42,7 +42,7 @@ O plano completo do início ao aceite final está em [ROADMAP_V2.md](ROADMAP_V2.
 - Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`.
 - Commit que criou o roadmap: `42ab0bd8e275adfc413b7049b83882204fb502fb`. Para o HEAD atual, consultar a branch diretamente; não reutilizar SHA histórico como se fosse atual.
 - Fase A: CONCLUÍDA conforme evidências históricas acima.
-- Fase B: PRÓXIMA, NÃO INICIADA.
+- Fase B: EM ANDAMENTO; ver adendo técnico vigente.
 - O roadmap preserva os achados, motores, armazenamento próprio, ingestão de arquivos, independência de repositórios externos, domínios e fases até o aceite final.
 - Esta consolidação foi documental: não alterou catálogos, fontes, consumidores, infraestrutura nem publicação.
 > **RETOMADA VIGENTE — 2026-11-03 (autoridade sobre registros históricos abaixo)**  
@@ -51,7 +51,7 @@ O plano completo do início ao aceite final está em [ROADMAP_V2.md](ROADMAP_V2.
 > `main`: `c2176962dccc218cd17622f0acd786ff76b18a6d`  
 > Comparação atual: **45 commits à frente, 0 atrás**, 15 arquivos no diff reportado; a comparação não mostra alterações em `catalog/` ou `sources/`.  
 > PR #1 e PR #2 estão abertos em estado draft; nenhum está mesclado. Não alterar nem mesclar nenhum deles nesta etapa.  
-> Fase A: CONCLUÍDA. Fase B: **NÃO INICIADA; AUTORIZADA PELO RESPONSÁVEL PARA INÍCIO PELO EXECUTOR**. Esta atualização é apenas documental e não conta como implementação da Fase B.  
+> Fase A: CONCLUÍDA. Fase B: **EM ANDAMENTO**, com commits reais publicados e validação integral pendente. Esta atualização é apenas documental e não conta como implementação da Fase B.  
 > Próxima execução autorizada: somente Fase B — auditoria complementar, contratos canônicos, parsers/importadores, fixtures e testes. Não iniciar Fase C.  
 > Sempre revalidar HEAD, main, comparação, PRs e workflows no início da execução; estes SHAs são fotografia desta retomada, não valores permanentes.  
 > Escopo protegido: não alterar `main`, consumidores TV/Mobile/Web/Player, repositórios de referência, segredos, produção Supabase/Cloudflare, OTA ou publicação oficial. Não promover/substituir catálogo ativo.  
@@ -60,4 +60,17 @@ O plano completo do início ao aceite final está em [ROADMAP_V2.md](ROADMAP_V2.
 > PR #2: https://github.com/mooNXy7/CineHUB-ACERVO/pull/2 — “[DRAFT] ACERVO V2 — Fase A: baseline executável”, draft, aberto, não mesclado. Verificar seus SHAs/diffs ao executar; não assumir que qualquer PR representa a branch de trabalho.  
 > 
 ## Situação técnica a confirmar na Fase B
-Os valores abaixo são pendências históricas e precisam ser verificados contra o código atual antes de qualquer implementação: quatro entrypoints VOD anteriormente ausentes (`scripts/enrich_vod_metadata.py`, `scripts/apply_vod_metadata_patch.py`, `scripts/suggest_vod_tmdb_matches.py`, `scripts/apply_vod_tmdb_id_candidates.py`); dependência histórica do updater em clone de `fki1976/SaimoPlayer`; formatos e parsers dos cinco domínios. Não afirmar que continuam ausentes sem inspecionar o HEAD vigente.
+Os quatro entrypoints VOD foram implementados e estão em auditoria/testes; os workflows VOD foram reconciliados para staging. A validação de execução online permanece separada e não foi disparada, pois exigiria a integração/segredo já existente no Supabase.
+
+
+## Estado técnico vigente — Fase B (2026-11-03)
+- Branch: `develop/acervo-v2`; último commit registrado nesta atualização: `cf2148d6dbfa229e5e7fcda25def8aec779c567a`.
+- Schemas: 13/13 validados.
+- Testes: 39 aprovados na última execução observada.
+- Construção integral: etapa aprovada em runs 976/977; validação foi interrompida por atualização subsequente. Run 980 repetiu os testes e build com sucesso; validação integral ainda estava em andamento.
+- Candidato: VOD processado por shard e escrito incrementalmente; validador usa ijson para documentos grandes.
+- EPG: 1.014 canais do índice local normalizados; programação completa não está presente localmente.
+- Logos: associações por entidade/canal/rádio são geradas; arquivos locais de imagem ausentes, portanto MIME/licença/availability continuam não verificados.
+- Segurança: sem alterações em main, catálogos/fontes ativos, consumidores, segredos ou produção; nenhuma publicação.
+- Estado da Fase B: EM ANDAMENTO (~65%); não declarar 100%.
+- Próxima tarefa: fechar validação integral, comprovar idempotência e smoke tests dos quatro entrypoints, atualizar evidências/artefatos e encerrar somente a Fase B.

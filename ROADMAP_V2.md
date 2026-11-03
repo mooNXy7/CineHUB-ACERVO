@@ -479,7 +479,7 @@ Referências históricas:
 Aceite: encerrada conforme documentação histórica. Não reabrir sem evidência concreta de regressão.
 
 ### Fase B — Auditoria complementar, contratos canônicos e importadores
-**Estado: NÃO INICIADA — próxima fase liberada após aprovação deste plano**
+**Estado: EM ANDAMENTO — implementação e validação técnica em execução na branch develop/acervo-v2**
 
 Objetivo: transformar formatos reais em contratos canônicos executáveis e fechar a matriz de entradas/saídas.
 
@@ -972,7 +972,7 @@ Nenhuma decisão importante deve ficar escondida em conversa ou em memória pess
 | Fase | Escopo | Estado |
 |---|---|---|
 | A | Baseline executável e snapshot | **CONCLUÍDA** |
-| B | Auditoria complementar, schemas e importadores | **PRÓXIMA — NÃO INICIADA** |
+| B | Auditoria complementar, schemas e importadores | **EM ANDAMENTO** |
 | C | Source Hub, coletores e independência de ingestão | NÃO INICIADA |
 | D | Identidade, normalização e deduplicação | NÃO INICIADA |
 | E | VOD, TMDB, fichas, gêneros, índices e partições | NÃO INICIADA |
@@ -997,7 +997,7 @@ A sequência e os limites entre fases podem ser ajustados após descobertas reai
 - HEAD conhecido antes da gravação deste documento: `8967eb303de13b3c69c69bc453d425eb11dede92`.
 - Fase A: CONCLUÍDA, conforme evidências históricas acima.
 - Próxima fase: B — auditoria complementar, contratos e importadores.
-- Fase B: ainda NÃO INICIADA.
+- Fase B: EM ANDAMENTO; esta fotografia histórica foi superada pelo adendo operacional da seção 20.
 - Não iniciar Fase B automaticamente como parte da criação deste documento.
 - PR #2 foi registrado no histórico como draft e não mesclado; verificar estado atual antes de qualquer ação.
 - Quatro scripts VOD ausentes continuam pendências até implementação/teste.
@@ -1008,7 +1008,7 @@ A sequência e os limites entre fases podem ser ajustados após descobertas reai
 
 ### Próxima ação liberada
 
-Após validar este documento e alinhar `PROJECT_STATUS.md`, `NEXT_TASK.md` e `HANDOFF.md`, iniciar **somente a Fase B**, com leitura dos documentos normativos, inventário dos formatos reais e implementação dos contratos/importadores mínimos funcionais. Preservar catálogos ativos e gerar candidatos isolados. Não avançar automaticamente para a Fase C.
+Após validar este documento e alinhar `PROJECT_STATUS.md`, `NEXT_TASK.md` e `HANDOFF.md`, continuar **somente a Fase B**, com leitura dos documentos normativos, inventário dos formatos reais e implementação dos contratos/importadores mínimos funcionais. Preservar catálogos ativos e gerar candidatos isolados. Não avançar automaticamente para a Fase C.
 
 ### Atualização obrigatória a cada etapa
 
@@ -1038,10 +1038,56 @@ Este adendo atualiza a fotografia de continuidade da seção 18; não apaga o hi
 - Comparação atual: 45 commits à frente, 0 atrás; 15 arquivos no diff reportado, sem alterações em `catalog/` ou `sources/` nesta comparação.
 - PR #1 (“Hardening, normalização e enriquecimento seguro do CineHUB ACERVO”): aberto, draft, não mesclado.
 - PR #2 (“[DRAFT] ACERVO V2 — Fase A: baseline executável”): aberto, draft, não mesclado.
-- Fase A: CONCLUÍDA. Fase B: NÃO INICIADA, mas agora AUTORIZADA pelo responsável para início pelo executor.
+- Fase A: CONCLUÍDA. Fase B: EM ANDAMENTO, com implementação publicada e validação integral ainda pendente.
 - Esta atualização é documental; não conta como implementação ou aceite da Fase B.
 - O executor deve conferir os PRs, workflows, diffs e SHAs reais antes de agir; PRs não são substitutos da branch `develop/acervo-v2`.
 - A próxima tarefa é exclusivamente a Fase B. O roteiro executável e critérios mínimos estão em `NEXT_TASK.md`.
 - Permanecem proibidos: merge em `main`, alterações nos consumidores TV/Mobile/Web/Player, alterações em repositórios de referência, mudanças em segredos/produção Supabase/Cloudflare, OTA e publicação oficial.
 - Não alterar catálogo ativo nem promover candidato. Não iniciar Fase C automaticamente.
 - SHAs e comparações acima são uma fotografia desta retomada; revalidar no começo da execução.
+
+
+## 20. Execução técnica da Fase B — atualização 2026-11-03
+
+Este adendo é a fotografia operacional vigente e prevalece sobre estados históricos das seções 18–19. A Fase B está efetivamente em implementação; não está concluída.
+
+### Commits publicados em develop/acervo-v2
+- `b7ff0b15b8713d944b8d857a7b822028ff18c9af` — contratos versionados, parsers/importadores, staging e entrypoints VOD.
+- `6da90d372ce1c332317a7b429cfd1ff2745ef2d7` — correção da expectativa de teste para variantes de áudio em episódios.
+- `bb2dc858dedcec368e6311244c16888fd38a279c` — bootstrap da raiz do checkout para imports diretos de scripts.
+- `0b37cd73f8a0f52b3f4240ebdb31e92128bc03b8` — correção da contagem da fixture M3U (três registros).
+- `af4ee37ca4f538022b819b834226514a18028e4b` — importação do índice local de canais XMLTV.
+- `667a4529692de3807f3f544658de9f6c8e43dec8` — uso explícito do normalizador no mapeamento EPG.
+- `093921241ef57d8ae9f25dacf56a6fa88afb619a` — integridade referencial do candidato.
+- `638722caf78ffa5709bdf61d7fc2ebad661552c1` — import de regex no validador de integridade.
+- `98d77f89f6468c688fcd104473ecb9f78726677c` — construção incremental de VOD por shard, com escrita atômica.
+- `02b695f035de64ab68119915b88b22cbd7c8740a` — validação incremental de documentos grandes com ijson.
+- `cf2148d6dbfa229e5e7fcda25def8aec779c567a` — preservação do resolver/base URI de schemas em validação incremental.
+
+### Evidências de CI
+- Runs 960–965 registraram falhas reais de teste/importação; as causas foram identificadas e corrigidas nos commits acima.
+- Runs 976 e 977 executaram a construção integral do candidato com sucesso; a validação seguinte foi cancelada por atualização posterior da branch.
+- Runs 978 e 979 identificaram uma falha no resolver de referências relativas ao validar sub-schemas; correção publicada em `cf2148d`.
+- Run 980 (ID `41590601634`, SHA `cf2148d`) confirmou 39 testes offline aprovados, compilação Python aprovada e construção integral do candidato aprovada; a validação integral do candidato estava em andamento na última consulta. Não registrar como CI verde até conclusão do job.
+- Run 976 produziu artefato `13209354445`, SHA-256 `19d59e0b5a5ec3404b4d7182d156b9c50ded0525640d6ca5a34ec9772b26cdf9`; esse artefato continha baseline, manifesto e relatório, não o conjunto completo dos documentos candidatos. O workflow foi ajustado para incluir o diretório candidato completo em execuções subsequentes.
+
+### Cobertura confirmada e limites atuais
+- 13 schemas JSON Schema versionados e validados.
+- 39 testes aprovados na última execução observada antes desta atualização; cobrem canais, rádios, VOD, EPG/XMLTV, variantes, proveniência, quarentena, staging e segurança TMDB simulada.
+- O construtor lê catálogos locais, produz saída isolada e processa VOD por shard para limitar memória.
+- O índice local `catalog/epg/xmltv-channels.json` contém 1.014 canais em quatro feeds; esses canais agora são normalizados com ID de provedor, ID interno e proveniência.
+- O catálogo atual não contém payload XMLTV local completo de programação; `epg-programmes.json` permanece vazio. O parser XMLTV possui fixture/teste, mas a programação integral não foi importada.
+- Os diretórios locais de logos não contêm imagens; referências externas são marcadas como não verificadas. MIME/conteúdo, licença e disponibilidade dos assets não foram validados por download, deliberadamente, para manter o build offline.
+- Os quatro entrypoints VOD existem e os workflows foram reconciliados; execução online TMDB não foi disparada nem exigiu alteração de segredos. Os scripts de aplicação escrevem somente overlays/candidatos.
+- Candidato não é publicação: nenhum catálogo ativo foi substituído.
+
+### Pendências para aceite da Fase B
+1. Concluir CI com construção integral, validação incremental de todos os documentos e artefato completo.
+2. Confirmar idempotência do build integral e execução local documentada.
+3. Executar smoke tests offline dos quatro entrypoints VOD e confirmar todos os workflows que os chamam.
+4. Revisar associações de assets e EPG, incluindo limites de MIME/licença e ausência de payload de programas.
+5. Atualizar relatórios/artefatos com contagens reais do candidato e quarentena.
+6. Corrigir qualquer erro encontrado e registrar novo run/commit.
+7. Parar na Fase B e aguardar autorização antes da Fase C.
+
+**Estado:** EM ANDAMENTO. Estimativa de progresso técnico: aproximadamente 65%; não é declaração de aceite nem de 100%.

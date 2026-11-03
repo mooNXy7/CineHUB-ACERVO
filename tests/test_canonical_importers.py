@@ -1,4 +1,5 @@
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -215,11 +216,26 @@ class CandidateBuildTests(unittest.TestCase):
             output = root / "candidate"
             # Exercise the documented CLI from outside the repository. This catches
             # sys.path regressions hidden when importing the script from the test runner.
+            env = os.environ.copy()
+            env["SOURCE_DATE_EPOCH"] = "1760000000"
             subprocess.run(
                 [sys.executable, str(ROOT / "scripts/build_candidate_catalog.py"),
                  "--root", str(root), "--output", str(output)],
-                cwd=tmp, check=True, capture_output=True, text=True,
+                cwd=tmp, env=env, check=True, capture_output=True, text=True,
             )
+            second_output = root / "candidate-second"
+            subprocess.run(
+                [sys.executable, str(ROOT / "scripts/build_candidate_catalog.py"),
+                 "--root", str(root), "--output", str(second_output)],
+                cwd=tmp, env=env, check=True, capture_output=True, text=True,
+            )
+            self.assertEqual(
+                sorted(p.name for p in output.iterdir()),
+                sorted(p.name for p in second_output.iterdir()),
+            )
+            for candidate_file in output.iterdir():
+                self.assertEqual(candidate_file.read_bytes(),
+                                 (second_output / candidate_file.name).read_bytes())
             for path, content in protected.items():
                 self.assertEqual((root / path).read_bytes(), content)
             self.assertTrue((output / "manifest.json").exists())
@@ -242,6 +258,21 @@ class CandidateBuildTests(unittest.TestCase):
 
 
 class VODCandidateSafetyTests(unittest.TestCase):
+    def test_all_four_vod_entrypoints_support_offline_cli_help(self):
+        scripts = [
+            "enrich_vod_metadata.py",
+            "apply_vod_metadata_patch.py",
+            "suggest_vod_tmdb_matches.py",
+            "apply_vod_tmdb_id_candidates.py",
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            for script in scripts:
+                with self.subTest(script=script):
+                    subprocess.run(
+                        [sys.executable, str(ROOT / "scripts" / script), "--help"],
+                        cwd=tmp, check=True, capture_output=True, text=True,
+                    )
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)
