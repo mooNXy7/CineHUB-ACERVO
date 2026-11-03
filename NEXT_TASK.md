@@ -39,3 +39,40 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 - A Fase B deve seguir o escopo descrito em ROADMAP_V2.md, especialmente auditoria complementar, schemas canônicos, parsers/importadores, fixtures e testes.
 - Não iniciar Fase C nem qualquer etapa posterior automaticamente.
 - Não tratar esta consolidação documental como implementação da Fase B.
+> **RETOMADA VIGENTE — 2026-11-03 (autoridade sobre registros históricos abaixo)**  
+> Branch: `develop/acervo-v2`  
+> HEAD confirmado no GitHub: `3d8d143ae387f3340c1efb285fb3199393c25a99`  
+> `main`: `c2176962dccc218cd17622f0acd786ff76b18a6d`  
+> Comparação atual: **45 commits à frente, 0 atrás**, 15 arquivos no diff reportado; a comparação não mostra alterações em `catalog/` ou `sources/`.  
+> PR #1 e PR #2 estão abertos em estado draft; nenhum está mesclado. Não alterar nem mesclar nenhum deles nesta etapa.  
+> Fase A: CONCLUÍDA. Fase B: **NÃO INICIADA; AUTORIZADA PELO RESPONSÁVEL PARA INÍCIO PELO EXECUTOR**. Esta atualização é apenas documental e não conta como implementação da Fase B.  
+> Próxima execução autorizada: somente Fase B — auditoria complementar, contratos canônicos, parsers/importadores, fixtures e testes. Não iniciar Fase C.  
+> Sempre revalidar HEAD, main, comparação, PRs e workflows no início da execução; estes SHAs são fotografia desta retomada, não valores permanentes.  
+> Escopo protegido: não alterar `main`, consumidores TV/Mobile/Web/Player, repositórios de referência, segredos, produção Supabase/Cloudflare, OTA ou publicação oficial. Não promover/substituir catálogo ativo.  
+> Fontes de verdade: ler integralmente `ROADMAP_V2.md`, `ACERVO_V2_SPEC.md`, `ACERVO_V2_BLUEPRINT.md`, `DECISIONS.md`, `ARCHITECTURE.md` (se existir), `PROJECT_STATUS.md`, `NEXT_TASK.md`, `EXECUTION_LOG.md` e `HANDOFF.md`.  
+> PR #1: https://github.com/mooNXy7/CineHUB-ACERVO/pull/1 — “Hardening, normalização e enriquecimento seguro do CineHUB ACERVO”, draft, aberto, não mesclado.  
+> PR #2: https://github.com/mooNXy7/CineHUB-ACERVO/pull/2 — “[DRAFT] ACERVO V2 — Fase A: baseline executável”, draft, aberto, não mesclado. Verificar seus SHAs/diffs ao executar; não assumir que qualquer PR representa a branch de trabalho.  
+> 
+## Ordem executável da Fase B
+1. Fazer checkout/sincronização da branch `develop/acervo-v2`; confirmar que o HEAD corresponde ao remoto e registrar SHA real. Não usar o SHA deste documento como checkout obrigatório.
+2. Ler integralmente todos os documentos normativos e o roadmap.
+3. Inventariar no código atual os arquivos, formatos, schemas, scripts, workflows, fontes e consumidores internos por domínio: VOD, canais, rádios, logos e EPG. Registrar evidências de caminhos/linhas e separar “existe”, “funciona”, “parcial”, “ausente” e “não verificado”.
+4. Auditar complementarmente os repositórios de referência autorizados, somente leitura, apenas nos pontos necessários para compreender formatos/contratos. Confirmar namespace/repositório; não presumir equivalência entre perfis. Não copiar aplicativos ou branding.
+5. Definir schemas versionados e contratos canônicos compartilhados, incluindo provenance, source, entity IDs, variantes de stream, assets/logos, relações EPG, confiança/estado e relatórios. Contratos devem derivar dos dados reais e preservar campos desconhecidos em extensão/raw quando apropriado.
+6. Implementar parsers/importadores pequenos e isoláveis para formatos reais identificados. Garantir normalização determinística, IDs estáveis, idempotência, deduplicação sem perder variantes e preservação da proveniência.
+7. Criar fixtures sanitizadas representativas e testes para entradas válidas, inválidas, legadas, duplicadas, incompletas, falhas de fonte, provenance, IDs e idempotência. Testes não podem depender de rede nem de segredos.
+8. Reconciliar os quatro entrypoints VOD históricos e workflows que os chamam: implementar somente com contrato definido e teste; se já existirem, auditar e corrigir. Não criar stubs vazios para deixar workflow verde.
+9. Isolar saídas em staging/candidato. Preservar integralmente catálogos ativos, snapshots, fontes e registros válidos. Não publicar nem promover.
+10. Rodar testes, validação, auditoria read-only e comparar métricas/arquivos antes e depois. Registrar limitações, incompatibilidades e decisões que exigem aprovação.
+11. Atualizar roadmap e documentos operacionais com commits, testes, workflows/runs, artefatos, métricas e pendências reais. Marcar subitens individualmente; a Fase B só termina após todos os critérios de aceite do roadmap.
+12. Parar ao final da Fase B e aguardar aprovação explícita antes de iniciar Fase C.
+
+## Critérios mínimos de aceite
+- Schemas versionados para os cinco domínios e tipos compartilhados, validados em CI.
+- Fixtures cobrindo formatos reais observados e casos de falha.
+- Parsers/importadores determinísticos, idempotentes e testados sem rede.
+- IDs e provenance preservados; variantes não são descartadas por dedup.
+- Dados inválidos isolados com motivo, sem exclusão silenciosa.
+- Workflows não chamam entrypoints inexistentes; nenhum stub vazio.
+- Nenhuma modificação de catálogo ativo, main, consumidores, infraestrutura de produção ou publicação.
+- Relatório reproduzível com inventário, diffs, testes, evidências e pendências.
