@@ -86,3 +86,48 @@ Nenhuma alteração funcional em catálogo/workflows, consumidores ou OTA. A bra
 - Testes e auditor precisam executar no GitHub Actions após o commit.
 - Snapshot/hash completo dos catálogos e inventário final de canais/logos/VOD dependem do relatório executado.
 - A Fase A permanece aberta até essas evidências serem verificadas.
+
+
+## 2026-11-03 — Fase A concluída
+
+### Execução
+- GitHub Actions: Validate catalog, run 921, run ID 41573214240.
+- Resultado final: success.
+- validate_catalog.py: success.
+- audit_baseline.py: success.
+- unittest: 25 testes, 0 falhas.
+- py_compile scripts/*.py: success.
+- Artefato ID 13202222754, com baseline.json, baseline.md e catalog-snapshot.sha256.
+
+### Inventário executado
+- catalog/: 728 arquivos, 314.213.984 bytes.
+- sources/: 3 arquivos, 2.353 bytes.
+- normalizer/: 1 arquivo, 311 bytes.
+- scripts/: 6 arquivos, 79.560 bytes.
+- tests/: 3 arquivos, 12.713 bytes.
+- reports/: 1 arquivo antes dos relatórios desta baseline.
+- .github/workflows/: 4 arquivos, 16.460 bytes.
+- Nenhum manifesto padrão de dependências/configuração encontrado na raiz entre os nomes verificados.
+- Canais: 2.431.
+- VOD: filmes 40.938, séries 11.665, animes 2.749, doramas 896; arquivos presentes e contagens reais conferem.
+- EPG: seis fontes; channel-map presente.
+- Sources registry: uma fonte.
+- Logos locais: zero imagens; apenas README e dois .gitkeep.
+
+### Qualidade e problemas confirmados
+- Rádios: 1.026; dois sem stream; 754 sem logo; 1.026 sem gênero; 252 URLs com extensão de imagem no campo stream_url; dez logos não HTTPS; zero IDs duplicados.
+- Importador incompatível com referência nome|stream foi corrigido, mantendo o layout legado e rejeitando imagens como streams novos.
+- Dois workflows VOD apontam para quatro scripts ausentes.
+- update-catalog ainda clona a referência externa.
+- Dois workflows referenciam funções Supabase; nenhum segredo TMDB declarado diretamente.
+- Health EPG versionado em 2026-10-26 não foi tratado como sondagem ao vivo.
+
+### Snapshot de proteção
+- 731 arquivos em catalog/ e sources/.
+- Total: 314.216.337 bytes.
+- SHA-256 agregado: bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e.
+- Manifesto individual disponível no artefato do run 921.
+- Nenhum catálogo ativo foi modificado durante a Fase A.
+
+### Encerramento
+Critérios da Fase A atendidos: inventário real; workflows/scripts verificados; testes implementados e executados; problemas confirmados separados de hipóteses; proteção documentada; histórico e próxima tarefa atualizados. Próxima etapa: Fase B, conforme NEXT_TASK.md.
