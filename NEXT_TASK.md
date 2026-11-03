@@ -1,22 +1,30 @@
 # Próxima Tarefa — CineHUB-ACERVO
 
 ## Tarefa atual
-**Definir e aprovar a especificação do ACERVO V2 com o responsável pelo projeto.**
+**Fase A — estabelecer baseline executável do ACERVO V2.**
 
-## Antes de implementar
-1. Conversar sobre o comportamento esperado do V2: fontes, descoberta, importação, catálogo canônico, normalização, enriquecimento, validação, resolução de fontes, armazenamento e distribuição.
-2. Registrar as decisões aprovadas em `DECISIONS.md`.
-3. Criar um documento específico e detalhado para a especificação V2 (nome sugerido: `ACERVO_V2_SPEC.md`) somente depois da conversa e aprovação.
-4. Auditar novamente a branch `develop/acervo-v2` e reconciliar os trabalhos recentes de Logos e Rádios com o estado atual do código.
-5. Transformar a especificação aprovada em etapas pequenas, verificáveis e com critérios de aceite.
+A autorização para construir o cérebro foi concedida. A especificação e o blueprint estão registrados em:
+- `ACERVO_V2_SPEC.md`
+- `ACERVO_V2_BLUEPRINT.md`
+
+## Execução imediata
+1. Confirmar HEAD e estado da branch `develop/acervo-v2`.
+2. Inventariar catálogo, scripts, workflows, formatos e dependências existentes.
+3. Executar validações disponíveis e registrar falhas reais, sem mascarar scripts ausentes.
+4. Criar fixtures representativas dos formatos existentes (começando por rádios e VOD) e testes de regressão.
+5. Definir baseline reproduzível e lista fechada de bloqueios antes de refatorar o pipeline.
+
+## Ordem de construção
+Baseline → contratos/importadores → núcleo canônico → enriquecimento/qualidade → build/publicação/rollback → automação autônoma → integração dos consumidores autorizada separadamente.
 
 ## Regras de segurança
 - Não alterar `main`.
 - Não alterar TV, Mobile ou Web nesta fase.
 - Não publicar OTA.
-- Não remover ou substituir dados/fontes sem backup, evidência e validação.
-- Não assumir que uma etapa anterior foi concluída só porque foi discutida.
-- Não iniciar a implementação funcional do V2 antes da aprovação da especificação.
+- Não apagar ou substituir dados em massa sem backup, diff e validação.
+- Não aplicar automaticamente correspondências TMDB ambíguas.
+- Não declarar tarefa concluída sem alteração, teste e evidência.
+- A falha de uma fonte não pode apagar a última versão válida do catálogo.
 
 ## Definição de concluído
-A tarefa só termina quando a especificação estiver escrita no repositório, revisada e explicitamente aprovada pelo responsável pelo projeto.
+Cada fase precisa produzir uma saída executável e verificável. A fase A termina com baseline reproduzível, testes iniciais e inventário fechado de falhas. Não criar apenas documentação ou diretórios vazios.
