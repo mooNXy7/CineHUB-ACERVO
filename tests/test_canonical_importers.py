@@ -86,6 +86,16 @@ class CanonicalParserTests(unittest.TestCase):
         missing = next(item for item in quarantine if item["reason"] == "missing_stream_url")
         self.assertEqual(missing["raw"]["name"], "https://audio.example.test/live")
 
+    def test_radio_parser_detects_image_url_extension_inside_query_value(self):
+        records, quarantine = parse_radios_json({"radios": [{
+            "id": "radio.query-logo",
+            "name": "Tua Rádio Fátima",
+            "stream_url": "https://www.tuaradio.com.br/image/resize?w=90&h=71&q=90&src=intranet/userfiles/logo.png",
+        }]})
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["streams"], [])
+        self.assertTrue(any(item.get("reason") == "image_url_in_audio_stream" for item in quarantine))
+
     def test_radio_reference_recovery_uses_exact_match_and_preserves_original_fields(self):
         document = {"radios": [
             {"id": "radio.image", "name": "https://audio.example.test/live",

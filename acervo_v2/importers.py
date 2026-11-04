@@ -68,10 +68,21 @@ def safe_stream_url(value: object, allow_http: bool = True) -> tuple[bool, str]:
 
 def is_image_url(value: object) -> bool:
     try:
-        path = urlsplit(str(value or "").strip()).path.lower()
+        parsed = urlsplit(str(value or "").strip())
     except ValueError:
         return False
-    return bool(re.search(r"\.(?:png|jpe?g|webp|gif|svg|ico|avif)(?:$|/)", path))
+    candidate_paths = [parsed.path]
+    for _, query_value in parse_qsl(parsed.query, keep_blank_values=True):
+        if not query_value:
+            continue
+        try:
+            candidate_paths.append(urlsplit(query_value).path or query_value)
+        except ValueError:
+            candidate_paths.append(query_value.split("?", 1)[0])
+    return any(
+        re.search(r"\.(?:png|jpe?g|webp|gif|svg|ico|avif)(?:$|/)", path.lower())
+        for path in candidate_paths
+    )
 
 
 def _variant_internal_id(entity_id: str, source_id: str, url: str, audio: object = None,
