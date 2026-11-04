@@ -1170,3 +1170,18 @@ O Run 991 permanece a evidência de validação integral de referência: 42 test
 - Entry points/workflows: quatro scripts e quatro workflows revisados; testes offline de CLI/help passaram. Os fluxos TMDB online não foram executados e continuam dependendo do segredo já existente no Supabase; não houve alteração de segredo.
 - O Run 1002 foi offline: `active_catalogs_modified=false`, `reference_network_used=false`. Nenhuma publicação, OTA, promoção de catálogo, alteração de consumidor ou merge de PR.
 - Fase B: **EM ANDAMENTO**. As limitações remanescentes estão formalmente classificadas no relatório Run 1002. Aguardar aceite explícito antes de encerrar a fase ou iniciar a Fase C.
+
+
+## 22. Auditoria final de proteção e aceite — 2026-11-04
+
+## Atualização vigente — 2026-11-04 (auditoria de proteção)
+
+- HEAD de entrada: `94ad349d455b336d63d4aab345c0d3409a26650c`; `main` observada: `106dbb8aafa87cc14162c147732a7e185e185edb`.
+- Runs 1004 e 1005 concluídos com sucesso (47 testes, 13 schemas, 11 arquivos idempotentes). Eles validaram snapshots diferentes: branch e merge virtual do PR #2 com main.
+- O workflow legado da main faz commit/push automático direto na main. Foi criado antes da Fase B, mas conflita com D-002; nenhuma alteração foi feita nele.
+- A atualização Run211 reduziu o índice de filmes em 8.301 entradas e removeu 87 shards antigos; deduplicação é provável pelo código, mas preservação registro a registro ainda precisa ser demonstrada.
+- O merge PR identificou 148 IDs XMLTV duplicados de `open-epg-br`. My Name (2021) está canônico (TMDB110356), com 8 episódios, 16 URLs e 55 provider refs no snapshot de merge.
+- Rádios: 255 recuperados mas `unverified`; 2 pendentes. EPG: 60 ambiguidades e 0 programas locais. Logos: 2.271 associações, sem assets locais/licenças verificadas.
+- **Fase B não encerrada e não apresentada para aceite.** Detalhes: [relatório de proteção](reports/phase-b-protection-audit-2026-11-04.md).
+
+O relatório vinculado é a fonte autoritativa para os detalhes dos Runs 1004/1005, origem do workflow legado, diferenças dos snapshots, auditoria de rádio, My Name, EPG, logos e bloqueios. Nenhuma alteração foi feita na main nem nos consumidores.

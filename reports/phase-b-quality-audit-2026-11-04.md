@@ -1,3 +1,5 @@
+> **Nota de atualização:** este documento registra a reconciliação do Run 1002. Para o estado mais recente, incluindo Runs 1004/1005, auditoria da automação na main e novos bloqueios de proteção, consulte [reports/phase-b-protection-audit-2026-11-04.md](phase-b-protection-audit-2026-11-04.md). O Run1002 permanece evidência histórica e não substitui a validação do merge PR.
+
 # CINEHUB-ACERVO V2 — Reconciliação da Fase B (Run 1002)
 
 - Data: 2026-11-04
@@ -213,3 +215,8 @@ O job `validate` concluiu com sucesso:
 - Nenhum catálogo ativo foi publicado/promovido; nenhum OTA; nenhum segredo alterado; Fase C não iniciada.
 
 **Conclusão:** Run 1002 remove a antiga pendência de conflito VOD, e a base técnica do candidato passa na validação integral. As limitações remanescentes estão individualizadas e justificadas acima. A Fase B permanece aberta até apresentação e aprovação explícita do responsável; não declarar 100% nem iniciar a Fase C.
+
+
+## Atualização posterior — Runs 1004/1005
+
+Ambos os runs terminaram em sucesso, mas validam árvores diferentes. Run1004 valida a branch; Run1005 valida merge virtual com main e detecta 148 IDs XMLTV duplicados de `open-epg-br`. A automação legada da main faz push direto e conflita com D-002. O relatório de proteção vinculado passa a ser a referência vigente; a Fase B continua em andamento.

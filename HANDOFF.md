@@ -1,6 +1,6 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
-## Repositório e estado — 2026-11-04 (autoridade: Run 1002)
+## Estado histórico — Run 1002
 
 - Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
 - Branch: `develop/acervo-v2`
@@ -144,3 +144,14 @@ O Run 991 permanece a evidência de validação integral de referência: 42 test
 ## Handoff vigente — reconciliação Run 1002
 
 Leia o relatório `reports/phase-b-quality-audit-2026-11-04.md` e o artefato 13283645574 antes de qualquer retomada. O candidato não modificou catálogos ativos e o build não acessou a rede de referência. A correção VOD foi confirmada; rádios, EPG e logos têm limitações explicitamente classificadas. A próxima execução autorizada é concluir a consolidação documental e a validação final da Fase B, apresentar o relatório ao responsável e aguardar sua aprovação. Não iniciar a Fase C.
+
+
+## Atualização vigente — 2026-11-04 (auditoria de proteção)
+
+- HEAD de entrada: `94ad349d455b336d63d4aab345c0d3409a26650c`; `main` observada: `106dbb8aafa87cc14162c147732a7e185e185edb`.
+- Runs 1004 e 1005 concluídos com sucesso (47 testes, 13 schemas, 11 arquivos idempotentes). Eles validaram snapshots diferentes: branch e merge virtual do PR #2 com main.
+- O workflow legado da main faz commit/push automático direto na main. Foi criado antes da Fase B, mas conflita com D-002; nenhuma alteração foi feita nele.
+- A atualização Run211 reduziu o índice de filmes em 8.301 entradas e removeu 87 shards antigos; deduplicação é provável pelo código, mas preservação registro a registro ainda precisa ser demonstrada.
+- O merge PR identificou 148 IDs XMLTV duplicados de `open-epg-br`. My Name (2021) está canônico (TMDB110356), com 8 episódios, 16 URLs e 55 provider refs no snapshot de merge.
+- Rádios: 255 recuperados mas `unverified`; 2 pendentes. EPG: 60 ambiguidades e 0 programas locais. Logos: 2.271 associações, sem assets locais/licenças verificadas.
+- **Fase B não encerrada e não apresentada para aceite.** Detalhes: [relatório de proteção](reports/phase-b-protection-audit-2026-11-04.md).
