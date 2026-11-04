@@ -1,22 +1,80 @@
-name: Validate catalog
+name: Validate ACERVO V2
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, develop/acervo-v2]
   pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: acervo-v2-validation-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/validate_catalog.py
-      - run: python -m unittest discover -s tests -v
-      - run: python -m py_compile scripts/*.py
+      - name: Install schema validator
+        run: python -m pip install -r requirements-dev.txt
+      - name: Validate active catalog without mutation
+        run: python scripts/validate_catalog.py
+      - name: Validate versioned JSON Schemas
+        run: python scripts/validate_schemas.py
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Compile project scripts and importers
+        run: python -m py_compile scripts/*.py acervo_v2/*.py
+      - name: Build full canonical candidate from local catalog
+        env:
+          SOURCE_DATE_EPOCH: "1760000000"
+        run: python scripts/build_candidate_catalog.py --root . --output "${{ runner.temp }}/acervo-v2-candidate"
+      - name: Verify full candidate build idempotence byte for byte
+        env:
+          SOURCE_DATE_EPOCH: "1760000000"
+          CANDIDATE_FIRST: ${{ runner.temp }}/acervo-v2-candidate
+          CANDIDATE_SECOND: ${{ runner.temp }}/acervo-v2-candidate-repeat
+          IDEMPOTENCE_REPORT: ${{ runner.temp }}/candidate-idempotence.json
+        run: |
+          python scripts/build_candidate_catalog.py --root . --output "$CANDIDATE_SECOND"
+          diff -qr "$CANDIDATE_FIRST" "$CANDIDATE_SECOND"
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          first, second = Path(os.environ["CANDIDATE_FIRST"]), Path(os.environ["CANDIDATE_SECOND"])
+          def hashes(root):
+              return {
+                  path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+                  for path in sorted(root.rglob("*")) if path.is_file()
+              }
+          left, right = hashes(first), hashes(second)
+          if left != right:
+              raise SystemExit("full candidate build is not byte-for-byte reproducible")
+          Path(os.environ["IDEMPOTENCE_REPORT"]).write_text(
+              json.dumps({"identical": True, "file_count": len(left), "sha256": left},
+                         ensure_ascii=False, sort_keys=True, indent=2) + "\n",
+              encoding="utf-8")
+          print(json.dumps({"idempotent": True, "files_compared": len(left)}, sort_keys=True))
+          PY
+      - name: Validate canonical candidate against schemas
+        run: python scripts/validate_schemas.py --candidate-dir "${{ runner.temp }}/acervo-v2-candidate"
+      - name: Capture baseline audit
+        if: always()
+        run: python scripts/audit_baseline.py --output "${{ runner.temp }}/baseline"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acervo-v2-validation-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/baseline/
+            ${{ runner.temp }}/acervo-v2-candidate/
+            ${{ runner.temp }}/candidate-idempotence.json
+          if-no-files-found: warn
+          retention-days: 14

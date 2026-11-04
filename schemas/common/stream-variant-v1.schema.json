@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/common/stream-variant-v1.schema.json",
+  "title": "CineHUB stream variant v1",
+  "type": "object",
+  "required": [
+    "id",
+    "entity_id",
+    "source_id",
+    "url",
+    "protocol",
+    "status",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "protocol": {
+      "enum": [
+        "http",
+        "https",
+        "rtsp",
+        "rtmp",
+        "other"
+      ]
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "audio": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "unverified",
+        "imported",
+        "validated",
+        "reachable",
+        "unavailable",
+        "quarantined",
+        "unknown"
+      ]
+    },
+    "last_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "failure_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "last_error": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "$ref": "provenance-v1.schema.json"
+      }
+    },
+    "raw": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

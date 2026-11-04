@@ -1,79 +1,35 @@
-name: Update catalog
+name: Build ACERVO V2 candidate snapshot
 
 on:
-  push:
-    branches: [main, master]
-    paths:
-      - "sources/sources.json"
-      - "sources/m3u/**"
-      - "scripts/update_catalog.py"
-      - "scripts/import_reference_catalog.py"
-      - "scripts/normalize_catalog.py"
-      - "scripts/validate_catalog.py"
-      - "scripts/update_epg.py"
-  schedule:
-    - cron: "23 8 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: acervo-catalog-update
+  group: acervo-v2-candidate-snapshot
   cancel-in-progress: false
 
 jobs:
-  update:
+  build-candidate:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch only the reference catalog files
-        run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/fki1976/SaimoPlayer.git /tmp/cinehub-reference
-          git -C /tmp/cinehub-reference sparse-checkout set --no-cone \
-            '/vod/filmes-*.txt' \
-            '/vod/series-*-*.txt' \
-            '/vod/fichas.txt' \
-            '/vod/busca.txt' \
-            '/vod/destaques.txt' \
-            '/vod/radios.txt' \
-            '/vod/mgeb/links-*.txt' \
-            '/vod/redeflix/links-*.txt' \
-            '/1.m3u' \
-            '/3.m3u'
-      - name: Import new reference data only when needed
-        run: |
-          REF_SHA="$(git -C /tmp/cinehub-reference rev-parse HEAD)"
-          LAST_SHA="$(cat .github/reference-sync.sha 2>/dev/null || true)"
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" || "$REF_SHA" != "$LAST_SHA" ]]; then
-            python scripts/import_reference_catalog.py --reference-dir /tmp/cinehub-reference
-            printf '%s\n' "$REF_SHA" > .github/reference-sync.sha
-            echo "Catálogo de referência atualizado: $REF_SHA"
-          else
-            echo "Nenhum novo commit na referência; importação pesada ignorada."
-          fi
-      - name: Refresh other registered M3U sources
-        run: python scripts/update_catalog.py
-      - name: Refresh EPG health and channel mappings
-        run: python scripts/update_epg.py
-      - name: Normalize and validate
-        run: |
-          python scripts/normalize_catalog.py
-          python scripts/validate_catalog.py
-          python -m unittest discover -s tests -v
-          python -m py_compile scripts/*.py
-      - name: Commit changes when needed
-        run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add catalog reports .github/reference-sync.sha
-            git commit -m "chore(acervo): discover and merge catalog updates"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          else
-            echo "Sem alterações no acervo."
-          fi
+      - name: Install schema validator
+        run: python -m pip install -r requirements-dev.txt
+      - name: Build isolated candidate from repository-owned data
+        run: python scripts/build_candidate_catalog.py --root . --output "${{ runner.temp }}/acervo-v2-candidate"
+      - name: Validate candidate contracts
+        run: python scripts/validate_schemas.py --candidate-dir "${{ runner.temp }}/acervo-v2-candidate"
+      - name: Validate active catalog without mutation
+        run: python scripts/validate_catalog.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: acervo-v2-candidate-${{ github.sha }}
+          path: ${{ runner.temp }}/acervo-v2-candidate/
+          if-no-files-found: error
+          retention-days: 14
