@@ -1,5 +1,7 @@
 # CINEHUB-ACERVO V2 — PLANO MESTRE INTEGRAL
 
+> **ESTADO VIGENTE — 2026-11-04:** a branch `develop/acervo-v2` está no HEAD `5e2150f3c0f48075edacb56b70111304f797d25d`. Run 1002 (`41744148492`) passou 47 testes offline, 13 schemas, compilação, build integral, integridade e idempotência. A Fase B continua **EM ANDAMENTO**, não 100% nem concluída. A reconciliação autoritativa e as limitações atuais estão na seção 21 e em [reports/phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md). Todos os SHAs/métricas anteriores são históricos quando não coincidem com esse adendo.
+
 > **Documento mestre de continuidade, arquitetura, execução e aceite final.**  
 > Branch de trabalho: `develop/acervo-v2`  
 > Estado deste plano: consolidado a partir da especificação, do blueprint, do histórico disponível e do diagnóstico arquitetural fornecido pelo responsável do projeto.  
@@ -1028,7 +1030,7 @@ Ao concluir uma tarefa:
 
 ---
 
-## 19. Retomada operacional — 2026-11-03 (adendo vigente)
+## 19. Retomada operacional — 2026-11-03 (histórico, superado pela seção 21)
 
 Este adendo atualiza a fotografia de continuidade da seção 18; não apaga o histórico nem altera o plano técnico das fases.
 
@@ -1047,7 +1049,7 @@ Este adendo atualiza a fotografia de continuidade da seção 18; não apaga o hi
 - SHAs e comparações acima são uma fotografia desta retomada; revalidar no começo da execução.
 
 
-## 20. Execução técnica da Fase B — atualização 2026-11-03
+## 20. Execução técnica da Fase B — atualização 2026-11-03 (histórico, superado pela seção 21)
 
 Este adendo é a fotografia operacional vigente e prevalece sobre estados históricos das seções 18–19. A Fase B está efetivamente em implementação; não está concluída.
 
@@ -1100,7 +1102,7 @@ Este adendo é a fotografia operacional vigente e prevalece sobre estados histó
 - Run 983 (`41591165169`) já confirmou testes, compilação e build integral; a validação de todos os documentos candidatos e o upload estavam em execução na última consulta.
 
 
-## Atualização autoritativa — validação integral de identidade e reprodutibilidade (2026-11-03)
+## Histórico — validação integral Run 991 (2026-11-03; superada pelo Run 1002)
 
 Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53f1882d962ff2384b`.
 
@@ -1143,7 +1145,7 @@ Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53
 **Estado da Fase B: EM ANDAMENTO.** A integridade técnica e reprodutibilidade do candidato integral passaram no CI, mas as pendências de rádio, EPG, assets e revisão dos entrypoints impedem declarar 100% ou concluir a fase. Nenhum catálogo foi publicado/promovido; Fase C não iniciada.
 
 
-## Auditoria complementar da Fase B — 2026-11-03
+## Auditoria complementar da Fase B — 2026-11-03 (Run 991; superada pelo relatório Run 1002)
 
 Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`, baseado no artefato integral do Run 991 (`13213490340`, SHA-256 `ad985335333c8bf0ef860c6b24283316d8de3fef4501c69aedbfe0f291d7d860`).
 
@@ -1154,3 +1156,17 @@ Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`
 - Workflows: os quatro entrypoints e quatro workflows foram revisados. Os fluxos online de enriquecimento TMDB não foram executados. Nenhum workflow publica ou promove automaticamente.
 
 O Run 991 permanece a evidência de validação integral de referência: 42 testes, 13 schemas, build integral, idempotência de 11 arquivos e integridade referencial aprovados. A Fase B continua aberta; não publicar, não mesclar e não iniciar a Fase C.
+
+
+## 21. Reconciliação autoritativa Run 1002 — 2026-11-04
+
+- Branch: `develop/acervo-v2`; HEAD analisado: `5e2150f3c0f48075edacb56b70111304f797d25d`.
+- Run 1002 / ID `41744148492`: job `validate` concluído com sucesso; 47 testes, 13 schemas, compilação, build integral, integridade e idempotência de 11 arquivos aprovados.
+- Artefato `13283645574`, ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`, 73.111.225 bytes, 15 arquivos.
+- VOD: 56.248 entradas -> 52.602 identidades; 3.645 grupos consolidados; 3.646 entradas de índice consolidadas; zero IDs legados reutilizados entre identidades distintas. A regra My Name (2021) corrige duas referências para TMDB 110356. As três referências de detalhe observadas preservam oito episódios, 16 linhas episódio/áudio cada, 16 URLs únicas no conjunto e 33 provider refs distintos; as URLs e provider refs foram agregados pelo merge, sem perda silenciosa. A antiga pendência de conflito VOD está resolvida no candidato.
+- Rádios: 1.026 registros; 257 itens históricos na quarentena, todos com procedência; 255 resolvidos por correspondência exata no snapshot fixado (253 itens `image_url_in_audio_stream` e dois `missing_stream_url`), dois `image_url_in_audio_stream` ainda sem resolução e sem stream válido. Foram adicionados 255 streams e promovidos 253 candidatos de logo. O artefato contém a trilha por item; quarentena total não equivale a falhas abertas.
+- EPG: seis fontes (quatro XMLTV e duas HTML), 1.014 registros de canais, 78 mapeamentos (18 correspondências únicas e 60 ambíguos: 46 códigos Meu Guia, 12 aliases XMLTV e dois slugs Guia de TV). Zero programas XMLTV locais. A saúde local dos feeds data de 2026-10-26; feeds públicos foram identificados, mas permissão de redistribuição não foi comprovada para todos. A Pluto TV exige consentimento escrito para redistribuição de conteúdo. Não forçar mapeamentos nem internalizar payload sem autorização.
+- Logos: 2.271 associações (1.748 canais e 523 rádios), 1.429 URLs HTTP e 842 HTTPS; zero imagens locais, MIME, hash de conteúdo ou licenças documentadas. Associação lógica não é asset completo. O backend de armazenamento permanece condicionado ao inventário real de Cloudflare/Supabase.
+- Entry points/workflows: quatro scripts e quatro workflows revisados; testes offline de CLI/help passaram. Os fluxos TMDB online não foram executados e continuam dependendo do segredo já existente no Supabase; não houve alteração de segredo.
+- O Run 1002 foi offline: `active_catalogs_modified=false`, `reference_network_used=false`. Nenhuma publicação, OTA, promoção de catálogo, alteração de consumidor ou merge de PR.
+- Fase B: **EM ANDAMENTO**. As limitações remanescentes estão formalmente classificadas no relatório Run 1002. Aguardar aceite explícito antes de encerrar a fase ou iniciar a Fase C.

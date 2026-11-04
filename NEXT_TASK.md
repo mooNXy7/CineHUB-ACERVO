@@ -1,31 +1,27 @@
 # Próxima Tarefa — CineHUB-ACERVO
 
-## Estado e passagem
-**HEAD-base validado:** 1908b9adf242129fe85b20731f60ff203e8e7cf4  
-**main:** c2176962dccc218cd17622f0acd786ff76b18a6d  
-**Comparação no HEAD-base:** 37 commits à frente, 0 atrás; 15 arquivos alterados; 0 em catalog/ ou sources/.  
-**Validação desse HEAD-base:** Validate catalog, run 935, ID 41576192907, push, success; 25 testes aprovados, 0 falhas; validador, auditor, py_compile e upload success.  
-**Artefato:** 13203323544; acervo-v2-baseline-1908b9adf242129fe85b20731f60ff203e8e7cf4; ZIP SHA-256 1abf5cb68741f5985f0a92a8748ee22fe6d249aa7b8d0e4ce7a0063b81ff53eb.  
-Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
-Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
-Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B está em implementação real; este documento lista as pendências para seu aceite.
+## Estado e passagem — 2026-11-04 (autoridade: Run 1002)
 
-## Próxima tarefa planejada — Fase B
-A Fase B já possui implementação publicada na branch develop/acervo-v2. Continuar a execução a partir do HEAD atual; não reiniciar a auditoria nem descartar os contratos, parsers, testes e workflows existentes.
+- Branch: `develop/acervo-v2`; HEAD confirmado: `5e2150f3c0f48075edacb56b70111304f797d25d`.
+- Run 1002 / `41744148492`: sucesso; 47 testes, 13 schemas, compilação, build integral, integridade e idempotência aprovados.
+- Artefato `13283645574`; ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`.
+- VOD: conflito de ID legado corrigido; zero IDs reutilizados entre identidades distintas. My Name (2021) canônico TMDB 110356; 8 episódios, 16 variantes únicas e provider refs agregados.
+- Rádios: 257 itens históricos na quarentena; 255 resolvidos por referência exata e dois sem stream válido. Não confundir contagem histórica com falhas abertas.
+- EPG: 60 mapeamentos ambíguos preservados, 18 correspondências únicas e zero programas locais. Não internalizar feed sem permissão de redistribuição.
+- Logos: 2.271 associações externas; zero imagens locais/MIME/hash/licenças verificados.
+- Fase B permanece EM ANDAMENTO. Não iniciar Fase C, não publicar, não alterar consumidores, não mesclar PRs ou alterar main.
+- Relatório atual: [reports/phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md). Os blocos Run 991 e anteriores abaixo são históricos.
 
-### Ordem técnica registrada
-1. Confirmar validação dos 13 schemas e integridade referencial de todos os documentos candidatos.
-2. Auditar e validar os quatro entrypoints VOD já implementados:
-   - scripts/enrich_vod_metadata.py
-   - scripts/apply_vod_metadata_patch.py
-   - scripts/suggest_vod_tmdb_matches.py
-   - scripts/apply_vod_tmdb_id_candidates.py
-3. Rodar smoke tests offline dos quatro entrypoints VOD e confirmar os workflows que os executam.
-4. Confirmar que os workflows de validação/build operam somente com dados locais, sem clone ou dependência runtime de repositório de referência.
-5. Fechar a matriz de assets/logos: associação, proveniência, status não verificado e pendência de MIME/licença quando não houver arquivo local.
-6. Enriquecer rádios sem apagar variantes, inventar gêneros ou atribuir logos ambíguos.
-7. Preservar snapshot e catálogo ativo até cada candidato passar pelo quality gate.
+
+## Pendências remanescentes para aceite da Fase B
+
+1. Manter formalmente classificados os dois rádios sem correspondência na referência fixada; só recuperar após evidência de fonte/stream válida.
+2. Manter os 60 mapeamentos EPG ambíguos sem associação forçada; avaliar IDs de provedor e aliases, sem escolher variante de qualidade por aproximação.
+3. Resolver a política de internalização EPG com fonte/licença que permita uso; até lá, não copiar payload XMLTV de terceiros. O parser XMLTV e os canais compactos já existem, mas a programação local permanece vazia.
+4. Definir storage de assets somente após inventário real de Cloudflare/Supabase e comprovação de licenças; validar bytes, MIME, hash e dimensões antes de promover logos.
+5. Manter evidência de revisão dos quatro entrypoints/workflows VOD; CLI/help offline passou, mas os dois fluxos online TMDB não foram disparados.
+6. Executar nova validação após esta consolidação documental e registrar o run resultante. Parar para aceite explícito; não iniciar Fase C.
+
 
 ## Regras permanentes
 Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMDB; não excluir streams por falha pontual; não aplicar correspondência TMDB ambígua; não substituir catálogo ativo sem backup e validação.
@@ -78,7 +74,7 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 - Relatório reproduzível com inventário, diffs, testes, evidências e pendências.
 
 
-## Estado de execução e pendências vigentes — 2026-11-03
+## Estado de execução e pendências — histórico Run 991 (superado pelo Run 1002)
 - HEAD registrado: `9b869cd1705cd70550b87e7db95a8024496327af`.
 - 13 schemas validados; 40 testes aprovados na última execução observada.
 - Construção integral do candidato aprovada na etapa do workflow; validação integral em processamento no run 983 (41591165169).
@@ -92,7 +88,7 @@ Não alterar main, TV, Mobile ou Web; não publicar OTA; não duplicar token TMD
 40 testes offline aprovados, compilação Python aprovada e construção integral do candidato aprovada. A validação integral de schemas/relações e o upload do artefato completo ainda precisam concluir. Não fechar Fase B antes disso.
 
 
-## Atualização autoritativa — validação integral de identidade e reprodutibilidade (2026-11-03)
+## Histórico — validação integral Run 991 (superado pelo Run 1002)
 
 Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53f1882d962ff2384b`.
 
@@ -135,7 +131,7 @@ Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53
 **Estado da Fase B: EM ANDAMENTO.** A integridade técnica e reprodutibilidade do candidato integral passaram no CI, mas as pendências de rádio, EPG, assets e revisão dos entrypoints impedem declarar 100% ou concluir a fase. Nenhum catálogo foi publicado/promovido; Fase C não iniciada.
 
 
-## Auditoria complementar da Fase B — 2026-11-03
+## Auditoria complementar Run 991 — histórico superado pelo relatório Run 1002
 
 Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`, baseado no artefato integral do Run 991 (`13213490340`, SHA-256 `ad985335333c8bf0ef860c6b24283316d8de3fef4501c69aedbfe0f291d7d860`).
 

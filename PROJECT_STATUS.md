@@ -1,15 +1,21 @@
 # CineHUB-ACERVO — Estado do Projeto
 
-## Estado atual
-**HEAD-base validado:** 1908b9adf242129fe85b20731f60ff203e8e7cf4  
-**main:** c2176962dccc218cd17622f0acd786ff76b18a6d  
-**Comparação no HEAD-base:** 37 commits à frente, 0 atrás; 15 arquivos alterados; 0 em catalog/ ou sources/.  
-**Validação desse HEAD-base:** Validate catalog, run 935, ID 41576192907, push, success; 25 testes aprovados, 0 falhas; validador, auditor, py_compile e upload success.  
-**Artefato:** 13203323544; acervo-v2-baseline-1908b9adf242129fe85b20731f60ff203e8e7cf4; ZIP SHA-256 1abf5cb68741f5985f0a92a8748ee22fe6d249aa7b8d0e4ce7a0063b81ff53eb.  
-Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
-Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
-Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B está em implementação na branch develop/acervo-v2; consulte o adendo vigente abaixo.
+## Estado atual — 2026-11-04 (autoridade: Run 1002)
+
+- Repositório: `mooNXy7/CineHUB-ACERVO`.
+- Branch: `develop/acervo-v2`.
+- HEAD: `5e2150f3c0f48075edacb56b70111304f797d25d`.
+- `main` observado: `106dbb8aafa87cc14162c147732a7e185e185edb`.
+- Run 1002 / `41744148492`: sucesso; 47 testes offline, 13 schemas, compilação, build integral, integridade e idempotência (11 arquivos) aprovados.
+- Artefato `13283645574`: 73.111.225 bytes; ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`.
+- VOD: 52.602 identidades; zero conflitos de IDs legados entre identidades distintas. A correção de My Name (2021) para TMDB 110356 está aplicada às duas referências afetadas; 8 episódios e 16 variantes únicas preservadas com provider refs agregados.
+- Rádios: 1.026; 257 itens históricos de quarentena = 255 resolvidos + 2 sem stream válido. Os 255 recuperados permanecem como trilha de auditoria com resolução anexada.
+- EPG: 1.014 canais, 78 mapeamentos (18 únicos, 60 ambíguos), 0 programas XMLTV locais.
+- Logos: 2.271 associações externas (1.748 canais, 523 rádios), 0 imagens locais verificadas.
+- Fase A: CONCLUÍDA. Fase B: **EM ANDAMENTO**, ainda não apresentada como 100% nem encerrada.
+- PR #1 e PR #2 permanecem abertos, draft e não mesclados. Nenhum consumidor foi alterado; nenhuma publicação/OTA; Fase C não iniciada.
+- Relatório atual: [reports/phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md). Artefato e evidências no Run 1002.
+
 
 ## Missão e decisões aprovadas
 ACERVO V2 é o núcleo independente de ingestão, normalização, identidade, enriquecimento, validação, publicação e recuperação de dados CineHUB. Fontes independentes são primárias; referências externas são adaptadores auxiliares. Falha de fonte não apaga a última versão válida. Reutilizar a integração TMDB existente no Supabase; não duplicar tokens.
@@ -63,7 +69,7 @@ O plano completo do início ao aceite final está em [ROADMAP_V2.md](ROADMAP_V2.
 Os quatro entrypoints VOD foram implementados e estão em auditoria/testes; os workflows VOD foram reconciliados para staging. A validação de execução online permanece separada e não foi disparada, pois exigiria a integração/segredo já existente no Supabase.
 
 
-## Estado técnico vigente — Fase B (2026-11-03)
+## Estado técnico histórico — Fase B (2026-11-03; superado pelo Run 1002)
 - Branch: `develop/acervo-v2`; último commit registrado nesta atualização: `9b869cd1705cd70550b87e7db95a8024496327af`.
 - Schemas: 13/13 validados.
 - Testes: 39 aprovados na última execução observada.
@@ -82,7 +88,7 @@ Os quatro entrypoints VOD foram implementados e estão em auditoria/testes; os w
 - Run 983 / 41591165169: testes, compilação e build integral aprovados; validação integral pendente.
 
 
-## Atualização autoritativa — validação integral de identidade e reprodutibilidade (2026-11-03)
+## Histórico de validação — Run 991 (2026-11-03; superado pelo Run 1002)
 
 Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53f1882d962ff2384b`.
 
@@ -136,3 +142,8 @@ Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`
 - Workflows: os quatro entrypoints e quatro workflows foram revisados. Os fluxos online de enriquecimento TMDB não foram executados. Nenhum workflow publica ou promove automaticamente.
 
 O Run 991 permanece a evidência de validação integral de referência: 42 testes, 13 schemas, build integral, idempotência de 11 arquivos e integridade referencial aprovados. A Fase B continua aberta; não publicar, não mesclar e não iniciar a Fase C.
+
+
+## Reconciliação vigente — Run 1002 (2026-11-04)
+
+Consultar o relatório [phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md). As métricas de Run 991 e anteriores são históricas, não atuais. A correção VOD de My Name está resolvida; a quarentena de rádio é 255 resolvidos e dois não resolvidos; EPG permanece sem programação local e com 60 mapeamentos ambíguos; logos permanecem referências externas sem bytes locais verificados. A Fase B continua aberta até apresentação e aprovação explícita.

@@ -1,4 +1,6 @@
-# CINEHUB-ACERVO V2 — Auditoria complementar da Fase B
+# CINEHUB-ACERVO V2 — Auditoria histórica da Fase B (Run 991)
+
+> **HISTÓRICO SUPERADO:** este relatório descreve o candidato do Run 991, não o estado atual. A correção VOD, a classificação de rádio e as métricas foram reconciliadas no relatório vigente [phase-b-quality-audit-2026-11-04.md](phase-b-quality-audit-2026-11-04.md), baseado no Run 1002. Não usar os números abaixo como métricas atuais.
 
 - Data da auditoria: 2026-11-03
 - Branch: `develop/acervo-v2`

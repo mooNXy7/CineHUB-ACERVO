@@ -1,15 +1,19 @@
 # EXECUTION LOG — CineHUB-ACERVO
 
-## Estado atual e validação mais recente
-**HEAD-base validado:** 1908b9adf242129fe85b20731f60ff203e8e7cf4  
-**main:** c2176962dccc218cd17622f0acd786ff76b18a6d  
-**Comparação no HEAD-base:** 37 commits à frente, 0 atrás; 15 arquivos alterados; 0 em catalog/ ou sources/.  
-**Validação desse HEAD-base:** Validate catalog, run 935, ID 41576192907, push, success; 25 testes aprovados, 0 falhas; validador, auditor, py_compile e upload success.  
-**Artefato:** 13203323544; acervo-v2-baseline-1908b9adf242129fe85b20731f60ff203e8e7cf4; ZIP SHA-256 1abf5cb68741f5985f0a92a8748ee22fe6d249aa7b8d0e4ce7a0063b81ff53eb.  
-Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
-Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
-Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B está em implementação; os registros abaixo documentam a execução real.
+## Estado atual e validação mais recente — 2026-11-04
+
+- Branch: `develop/acervo-v2`; HEAD analisado: `5e2150f3c0f48075edacb56b70111304f797d25d`.
+- `main` observado: `106dbb8aafa87cc14162c147732a7e185e185edb`.
+- Run 1002 / `41744148492`, job `126292819734`: success.
+- 47 testes offline; 13 schemas; compilação; build integral; integridade referencial; idempotência byte a byte de 11 arquivos — todos aprovados.
+- Artefato `13283645574`, 73.111.225 bytes, 15 arquivos; ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`.
+- VOD: 56.248 entradas -> 52.602 identidades; zero conflito de ID legado. Correção My Name (2021) aplicada a duas referências; oito episódios, 16 URLs de variantes únicas e 33 provider refs distintos no conjunto das três referências.
+- Rádios: 257 itens de quarentena histórica, 255 resolvidos e dois não resolvidos; todos com procedência. 255 streams adicionados, 253 candidatos de logo promovidos.
+- EPG: 1.014 canais, 78 mappings (18 matched, 60 ambiguous), 0 programmes locais.
+- Logos: 2.271 associações, 0 arquivos de imagem locais e 0 MIME/hash/licenças verificados.
+- `active_catalogs_modified=false`; `reference_network_used=false`. Nenhum consumidor, segredo, catálogo ativo ou main alterado.
+- PR #1/#2 abertos, draft e não mesclados. Fase B continua EM ANDAMENTO.
+
 
 ## Registro consolidado das validações
 - **Run 930 / 41573383428:** baseline original, inventário e snapshot; artifact 13202372616; success.
@@ -87,7 +91,7 @@ Concluir validação integral, comprovar idempotência, executar smoke tests CLI
 - Run 983 / 41591165169: offline tests success; py_compile success; full candidate build success; candidate schema/integrity validation em andamento na última consulta.
 
 
-## Atualização autoritativa — validação integral de identidade e reprodutibilidade (2026-11-03)
+## Histórico — validação integral Run 991 (2026-11-03; superado pelo Run 1002)
 
 Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53f1882d962ff2384b`.
 
@@ -130,7 +134,7 @@ Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53
 **Estado da Fase B: EM ANDAMENTO.** A integridade técnica e reprodutibilidade do candidato integral passaram no CI, mas as pendências de rádio, EPG, assets e revisão dos entrypoints impedem declarar 100% ou concluir a fase. Nenhum catálogo foi publicado/promovido; Fase C não iniciada.
 
 
-## Auditoria complementar da Fase B — 2026-11-03
+## Auditoria complementar Run 991 — histórico superado pelo Run 1002
 
 Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`, baseado no artefato integral do Run 991 (`13213490340`, SHA-256 `ad985335333c8bf0ef860c6b24283316d8de3fef4501c69aedbfe0f291d7d860`).
 
@@ -141,3 +145,23 @@ Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`
 - Workflows: os quatro entrypoints e quatro workflows foram revisados. Os fluxos online de enriquecimento TMDB não foram executados. Nenhum workflow publica ou promove automaticamente.
 
 O Run 991 permanece a evidência de validação integral de referência: 42 testes, 13 schemas, build integral, idempotência de 11 arquivos e integridade referencial aprovados. A Fase B continua aberta; não publicar, não mesclar e não iniciar a Fase C.
+
+
+## Reconciliação e evidência — Run 1002 (2026-11-04)
+
+Relatório consolidado: [reports/phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md).
+
+### VOD
+O Run 1002 reporta `legacy_ids_reused_across_distinct_identities=0` e `identity_groups_affected_by_legacy_id_conflict=0`. A regra `my-name-2021-tmdb-correction` atualiza duas referências para TMDB 110356. As referências series/M-007, doramas/M-000 e series/M-013 contêm oito episódios e 16 linhas episódio/áudio cada; as 48 linhas representam 16 URLs únicas repetidas entre três referências. O merge une provider refs sem perda e preserva os originais. A antiga pendência VOD do Run 991 está resolvida.
+
+### Rádios
+257 itens de quarentena históricos, todos com proveniência: 255 `image_url_in_audio_stream` (253 resolvidos, 2 não resolvidos) e dois `missing_stream_url` (ambos resolvidos). Total recuperado: 255; streams adicionados: 255; logo candidates promovidos: 253; registros sem stream válido: 2. Os 255 continuam na contagem porque a resolução é anexada à ocorrência histórica, sem apagá-la. IDs não resolvidos: `radio-https-hts02-brascast-com-9758-live` e `radio-https-radiomec-stream-ebc-com-br-ebc-radiomec-playlist-m3u8`.
+
+### EPG e logos
+EPG: quatro feeds XMLTV (179/494/182/159 canais no índice local), duas fontes HTML, 78 mapeamentos (18 únicos, 60 ambíguos; 46 códigos Meu Guia, 12 aliases XMLTV, dois slugs Guia de TV), zero programas locais. A saúde local dos feeds é de 2026-10-26 e não foi atualizada no build offline. Permissões de redistribuição não comprovadas; não internalizar payload sem autorização.
+Logos: 2.271 associações (1.748 canais, 523 rádios), 1.429 HTTP e 842 HTTPS, zero arquivos locais, MIME, hash de conteúdo ou licenças documentadas.
+
+### CI e artefato
+47 testes; 13 schemas; py_compile; build; integridade; idempotência de 11 arquivos; 787.175 streams/variantes com 787.175 IDs únicos. Artefato `13283645574`; ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`.
+
+Nenhuma publicação, promoção de catálogo, OTA, alteração de consumidor/segredo ou merge. Fase C não iniciada. Aguardar aceite explícito.

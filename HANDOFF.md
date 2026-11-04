@@ -1,17 +1,21 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
-## Repositório e estado
+## Repositório e estado — 2026-11-04 (autoridade: Run 1002)
+
 - Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
-- Branch: develop/acervo-v2
-**HEAD-base validado:** 1908b9adf242129fe85b20731f60ff203e8e7cf4  
-**main:** c2176962dccc218cd17622f0acd786ff76b18a6d  
-**Comparação no HEAD-base:** 37 commits à frente, 0 atrás; 15 arquivos alterados; 0 em catalog/ ou sources/.  
-**Validação desse HEAD-base:** Validate catalog, run 935, ID 41576192907, push, success; 25 testes aprovados, 0 falhas; validador, auditor, py_compile e upload success.  
-**Artefato:** 13203323544; acervo-v2-baseline-1908b9adf242129fe85b20731f60ff203e8e7cf4; ZIP SHA-256 1abf5cb68741f5985f0a92a8748ee22fe6d249aa7b8d0e4ce7a0063b81ff53eb.  
-Este alinhamento gera um único commit documental filho do HEAD-base acima; após ele, a comparação da branch passa a 38 commits à frente e 0 atrás, mantendo 15 arquivos alterados e zero em catalog/ ou sources/.  
-Snapshot original do run 930: 731 arquivos, 314.216.337 bytes, SHA-256 bf761a87164ba3a36f003f27a784d9f68cc3d60d48b113529db95d9e45eee67e; manifesto catalog-snapshot.sha256 no artefato 13202372616. O run 935 não recalculou o snapshot.  
-Histórico: run 930 = baseline e origem do snapshot; run 931 = validação intermediária; run 933 = validação do HEAD anterior 9c938ed08cc771fb33d4ff49aba8e5fd2503074d; run 935 = validação do HEAD-base documental atual.  
-Fase A encerrada. Fase B está em implementação real na branch develop/acervo-v2.
+- Branch: `develop/acervo-v2`
+- HEAD: `5e2150f3c0f48075edacb56b70111304f797d25d`
+- `main` observado: `106dbb8aafa87cc14162c147732a7e185e185edb` (não alterar).
+- Run 1002: [41744148492](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/41744148492), sucesso; 47 testes, 13 schemas, compilação, build integral, integridade e idempotência aprovados.
+- Artefato: [13283645574](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/41744148492/artifacts/13283645574); ZIP SHA-256 `3d7b347cdb5bb5f309f263f0fca1f0fa1c8c353e700c7f6808ba032da4632fca`.
+- VOD: correção My Name (2021) para TMDB 110356 aplicada; zero conflitos de ID legado remanescentes no candidato.
+- Rádios: 257 ocorrências históricas de quarentena; 255 resolvidas com proveniência, duas ainda sem stream válido.
+- EPG: 60 mapeamentos ambíguos protegidos; 0 programas locais.
+- Logos: 2.271 associações externas; 0 imagens locais verificadas.
+- Fase A concluída; Fase B EM ANDAMENTO, não declarar 100% antes do aceite.
+- PR #1/#2 permanecem abertos, draft e não mesclados. Não alterar consumidores, não publicar, não OTA, não iniciar Fase C.
+- Relatório atual: [reports/phase-b-quality-audit-2026-11-04.md](reports/phase-b-quality-audit-2026-11-04.md). Registros Run 991 e anteriores são históricos.
+
 
 ## Documentos normativos
 Ler ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md e ARCHITECTURE.md antes de mudar contratos. NEXT_TASK.md define a próxima tarefa; EXECUTION_LOG.md mantém evidências.
@@ -66,7 +70,7 @@ Depois leia ACERVO_V2_SPEC.md, ACERVO_V2_BLUEPRINT.md, DECISIONS.md, ARCHITECTUR
 O responsável autorizou o início da Fase B. Execute a Fase B integralmente conforme o escopo e os critérios de `ROADMAP_V2.md` e `NEXT_TASK.md`, sem solicitar que o responsável repita o plano. A autorização não abrange Fase C, merge, consumidores ou publicação. Revalidar o estado remoto antes de editar.
 
 
-## HANDOFF VIGENTE — Fase B (2026-11-03)
+## HANDOFF HISTÓRICO — Fase B (2026-11-03; superado pelo Run 1002)
 - HEAD registrado: `9b869cd1705cd70550b87e7db95a8024496327af`.
 - 13 schemas validados; 40 testes aprovados na última execução observada.
 - Construção integral do candidato passou; validação integral estava em andamento no run 983 / 41590601634.
@@ -81,7 +85,7 @@ O responsável autorizou o início da Fase B. Execute a Fase B integralmente con
 ### Evidência mais recente
 Commit `9b869cd1705cd70550b87e7db95a8024496327af`: 40 testes (incluindo idempotência e CLI offline VOD), artefato configurado para incluir todos os documentos candidatos. Run 983 / 41591165169 passou testes, compilação e build integral; validação integral ainda pendente.
 
-## Atualização autoritativa — validação integral de identidade e reprodutibilidade (2026-11-03)
+## Histórico — validação integral Run 991 (superado pelo Run 1002)
 
 Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53f1882d962ff2384b`.
 
@@ -124,7 +128,7 @@ Branch: `develop/acervo-v2`. HEAD de código validado: `0ff93e98ca3a1f167e9d3e53
 **Estado da Fase B: EM ANDAMENTO.** A integridade técnica e reprodutibilidade do candidato integral passaram no CI, mas as pendências de rádio, EPG, assets e revisão dos entrypoints impedem declarar 100% ou concluir a fase. Nenhum catálogo foi publicado/promovido; Fase C não iniciada.
 
 
-## Auditoria complementar da Fase B — 2026-11-03
+## Auditoria complementar Run 991 — histórico superado pelo Run 1002
 
 Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`, baseado no artefato integral do Run 991 (`13213490340`, SHA-256 `ad985335333c8bf0ef860c6b24283316d8de3fef4501c69aedbfe0f291d7d860`).
 
@@ -135,3 +139,8 @@ Relatório detalhado persistido em `reports/phase-b-quality-audit-2026-11-03.md`
 - Workflows: os quatro entrypoints e quatro workflows foram revisados. Os fluxos online de enriquecimento TMDB não foram executados. Nenhum workflow publica ou promove automaticamente.
 
 O Run 991 permanece a evidência de validação integral de referência: 42 testes, 13 schemas, build integral, idempotência de 11 arquivos e integridade referencial aprovados. A Fase B continua aberta; não publicar, não mesclar e não iniciar a Fase C.
+
+
+## Handoff vigente — reconciliação Run 1002
+
+Leia o relatório `reports/phase-b-quality-audit-2026-11-04.md` e o artefato 13283645574 antes de qualquer retomada. O candidato não modificou catálogos ativos e o build não acessou a rede de referência. A correção VOD foi confirmada; rádios, EPG e logos têm limitações explicitamente classificadas. A próxima execução autorizada é concluir a consolidação documental e a validação final da Fase B, apresentar o relatório ao responsável e aguardar sua aprovação. Não iniciar a Fase C.
