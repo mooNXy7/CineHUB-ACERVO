@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T16:25:10Z",
+  "generated_at": "2026-11-05T16:32:50Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-04T16:25:10Z",
+      "fetched_at": "2026-11-05T16:32:50Z",
       "channel_count": 185,
       "channels": [
         {
@@ -890,7 +890,7 @@
         {
           "id": "5fd1419a3b4f4b000773ba85",
           "display_names": [
-            "Tastemade"
+            "Tastemade Food"
           ]
         },
         {
@@ -1125,8 +1125,8 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-04T16:25:10Z",
-      "channel_count": 307,
+      "fetched_at": "2026-11-05T16:32:50Z",
+      "channel_count": 159,
       "channels": [
         {
           "id": "A_E.br",
@@ -1135,27 +1135,9 @@
           ]
         },
         {
-          "id": "A_E.br",
-          "display_names": [
-            "A_E.br"
-          ]
-        },
-        {
           "id": "Adult Swim HD.br",
           "display_names": [
             "Adult Swim HD.br"
-          ]
-        },
-        {
-          "id": "Adult Swim HD.br",
-          "display_names": [
-            "Adult Swim HD.br"
-          ]
-        },
-        {
-          "id": "AGROMAIS.br",
-          "display_names": [
-            "AGROMAIS.br"
           ]
         },
         {
@@ -1171,18 +1153,6 @@
           ]
         },
         {
-          "id": "AMC HD.br",
-          "display_names": [
-            "AMC HD.br"
-          ]
-        },
-        {
-          "id": "ANIMAL PLANET HD.br",
-          "display_names": [
-            "ANIMAL PLANET HD.br"
-          ]
-        },
-        {
           "id": "ANIMAL PLANET HD.br",
           "display_names": [
             "ANIMAL PLANET HD.br"
@@ -1195,27 +1165,9 @@
           ]
         },
         {
-          "id": "ARTE 1 HD.br",
-          "display_names": [
-            "ARTE 1 HD.br"
-          ]
-        },
-        {
           "id": "AXN.br",
           "display_names": [
             "AXN.br"
-          ]
-        },
-        {
-          "id": "AXN.br",
-          "display_names": [
-            "AXN.br"
-          ]
-        },
-        {
-          "id": "BABYTV.br",
-          "display_names": [
-            "BABYTV.br"
           ]
         },
         {
@@ -1237,27 +1189,9 @@
           ]
         },
         {
-          "id": "BAND NEWS.br",
-          "display_names": [
-            "BAND NEWS.br"
-          ]
-        },
-        {
           "id": "BAND SPORTS HD.br",
           "display_names": [
             "BAND SPORTS HD.br"
-          ]
-        },
-        {
-          "id": "BAND SPORTS HD.br",
-          "display_names": [
-            "BAND SPORTS HD.br"
-          ]
-        },
-        {
-          "id": "BBC WORLD NEWS.br",
-          "display_names": [
-            "BBC WORLD NEWS.br"
           ]
         },
         {
@@ -1273,27 +1207,9 @@
           ]
         },
         {
-          "id": "BIS HD.br",
-          "display_names": [
-            "BIS HD.br"
-          ]
-        },
-        {
           "id": "BLOOMBERG TV.br",
           "display_names": [
             "BLOOMBERG TV.br"
-          ]
-        },
-        {
-          "id": "BLOOMBERG TV.br",
-          "display_names": [
-            "BLOOMBERG TV.br"
-          ]
-        },
-        {
-          "id": "BM&C HD.br",
-          "display_names": [
-            "BM&C HD.br"
           ]
         },
         {
@@ -1309,27 +1225,9 @@
           ]
         },
         {
-          "id": "C3-TV.br",
-          "display_names": [
-            "C3-TV.br"
-          ]
-        },
-        {
           "id": "CANAL BRASIL HD.br",
           "display_names": [
             "CANAL BRASIL HD.br"
-          ]
-        },
-        {
-          "id": "CANAL BRASIL HD.br",
-          "display_names": [
-            "CANAL BRASIL HD.br"
-          ]
-        },
-        {
-          "id": "CANAL DO BOI.br",
-          "display_names": [
-            "CANAL DO BOI.br"
           ]
         },
         {
@@ -1345,18 +1243,6 @@
           ]
         },
         {
-          "id": "CANAL RURAL.br",
-          "display_names": [
-            "CANAL RURAL.br"
-          ]
-        },
-        {
-          "id": "CANAL UOL.br",
-          "display_names": [
-            "CANAL UOL.br"
-          ]
-        },
-        {
           "id": "CANAL UOL.br",
           "display_names": [
             "CANAL UOL.br"
@@ -1366,18 +1252,6 @@
           "id": "CANÇÍO NOVA HD.br",
           "display_names": [
             "CANÇÍO NOVA HD.br"
-          ]
-        },
-        {
-          "id": "CANÇÍO NOVA HD.br",
-          "display_names": [
-            "CANÇÍO NOVA HD.br"
-          ]
-        },
-        {
-          "id": "CARTOON HD.br",
-          "display_names": [
-            "CARTOON HD.br"
           ]
         },
         {
@@ -1399,27 +1273,9 @@
           ]
         },
         {
-          "id": "CBI.br",
-          "display_names": [
-            "CBI.br"
-          ]
-        },
-        {
           "id": "CGTN.br",
           "display_names": [
             "CGTN.br"
-          ]
-        },
-        {
-          "id": "CGTN.br",
-          "display_names": [
-            "CGTN.br"
-          ]
-        },
-        {
-          "id": "Cinecanal.br",
-          "display_names": [
-            "Cinecanal.br"
           ]
         },
         {
@@ -1435,27 +1291,9 @@
           ]
         },
         {
-          "id": "CINEMAX HD.br",
-          "display_names": [
-            "CINEMAX HD.br"
-          ]
-        },
-        {
           "id": "CNN Brasil Money HD.br",
           "display_names": [
             "CNN Brasil Money HD.br"
-          ]
-        },
-        {
-          "id": "CNN Brasil Money HD.br",
-          "display_names": [
-            "CNN Brasil Money HD.br"
-          ]
-        },
-        {
-          "id": "CNN BRASIL.br",
-          "display_names": [
-            "CNN BRASIL.br"
           ]
         },
         {
@@ -1468,12 +1306,6 @@
           "id": "CNN INTERNATIONAL.br",
           "display_names": [
             "CNN INTERNATIONAL.br"
-          ]
-        },
-        {
-          "id": "COMBATE HD.br",
-          "display_names": [
-            "COMBATE HD.br"
           ]
         },
         {
@@ -1501,27 +1333,9 @@
           ]
         },
         {
-          "id": "CURTA.br",
-          "display_names": [
-            "CURTA.br"
-          ]
-        },
-        {
           "id": "DISCOVERY HD.br",
           "display_names": [
             "DISCOVERY HD.br"
-          ]
-        },
-        {
-          "id": "DISCOVERY HD.br",
-          "display_names": [
-            "DISCOVERY HD.br"
-          ]
-        },
-        {
-          "id": "DISCOVERY HOME&HEALTH HD.br",
-          "display_names": [
-            "DISCOVERY HOME&HEALTH HD.br"
           ]
         },
         {
@@ -1537,27 +1351,9 @@
           ]
         },
         {
-          "id": "DISCOVERY KIDS HD.br",
-          "display_names": [
-            "DISCOVERY KIDS HD.br"
-          ]
-        },
-        {
           "id": "DISCOVERY SCIENCE HD.br",
           "display_names": [
             "DISCOVERY SCIENCE HD.br"
-          ]
-        },
-        {
-          "id": "DISCOVERY SCIENCE HD.br",
-          "display_names": [
-            "DISCOVERY SCIENCE HD.br"
-          ]
-        },
-        {
-          "id": "DISCOVERY THEATER HD.br",
-          "display_names": [
-            "DISCOVERY THEATER HD.br"
           ]
         },
         {
@@ -1573,27 +1369,9 @@
           ]
         },
         {
-          "id": "DISCOVERY TURBO HD.br",
-          "display_names": [
-            "DISCOVERY TURBO HD.br"
-          ]
-        },
-        {
           "id": "DISCOVERY WORLD HD.br",
           "display_names": [
             "DISCOVERY WORLD HD.br"
-          ]
-        },
-        {
-          "id": "DISCOVERY WORLD HD.br",
-          "display_names": [
-            "DISCOVERY WORLD HD.br"
-          ]
-        },
-        {
-          "id": "DISNEY CHANNEL HD.br",
-          "display_names": [
-            "DISNEY CHANNEL HD.br"
           ]
         },
         {
@@ -1609,27 +1387,9 @@
           ]
         },
         {
-          "id": "DOG TV HD.br",
-          "display_names": [
-            "DOG TV HD.br"
-          ]
-        },
-        {
           "id": "DW-TV.br",
           "display_names": [
             "DW-TV.br"
-          ]
-        },
-        {
-          "id": "DW-TV.br",
-          "display_names": [
-            "DW-TV.br"
-          ]
-        },
-        {
-          "id": "E.br",
-          "display_names": [
-            "E.br"
           ]
         },
         {
@@ -1645,27 +1405,9 @@
           ]
         },
         {
-          "id": "ESPN 2.br",
-          "display_names": [
-            "ESPN 2.br"
-          ]
-        },
-        {
           "id": "ESPN 3.br",
           "display_names": [
             "ESPN 3.br"
-          ]
-        },
-        {
-          "id": "ESPN 3.br",
-          "display_names": [
-            "ESPN 3.br"
-          ]
-        },
-        {
-          "id": "ESPN 4.br",
-          "display_names": [
-            "ESPN 4.br"
           ]
         },
         {
@@ -1681,27 +1423,9 @@
           ]
         },
         {
-          "id": "ESPN 5.br",
-          "display_names": [
-            "ESPN 5.br"
-          ]
-        },
-        {
           "id": "ESPN 6.br",
           "display_names": [
             "ESPN 6.br"
-          ]
-        },
-        {
-          "id": "ESPN 6.br",
-          "display_names": [
-            "ESPN 6.br"
-          ]
-        },
-        {
-          "id": "ESPN.br",
-          "display_names": [
-            "ESPN.br"
           ]
         },
         {
@@ -1717,27 +1441,9 @@
           ]
         },
         {
-          "id": "EUROCHANNEL HD.br",
-          "display_names": [
-            "EUROCHANNEL HD.br"
-          ]
-        },
-        {
           "id": "FASHION TV.br",
           "display_names": [
             "FASHION TV.br"
-          ]
-        },
-        {
-          "id": "FASHION TV.br",
-          "display_names": [
-            "FASHION TV.br"
-          ]
-        },
-        {
-          "id": "FILM & ARTS.br",
-          "display_names": [
-            "FILM & ARTS.br"
           ]
         },
         {
@@ -1753,27 +1459,9 @@
           ]
         },
         {
-          "id": "FISH TV.br",
-          "display_names": [
-            "FISH TV.br"
-          ]
-        },
-        {
           "id": "FOOD NETWORK HD.br",
           "display_names": [
             "FOOD NETWORK HD.br"
-          ]
-        },
-        {
-          "id": "FOOD NETWORK HD.br",
-          "display_names": [
-            "FOOD NETWORK HD.br"
-          ]
-        },
-        {
-          "id": "FRANCE 24 HD.br",
-          "display_names": [
-            "FRANCE 24 HD.br"
           ]
         },
         {
@@ -1789,18 +1477,6 @@
           ]
         },
         {
-          "id": "FUTURA HD.br",
-          "display_names": [
-            "FUTURA HD.br"
-          ]
-        },
-        {
-          "id": "FX HD.br",
-          "display_names": [
-            "FX HD.br"
-          ]
-        },
-        {
           "id": "FX HD.br",
           "display_names": [
             "FX HD.br"
@@ -1810,18 +1486,6 @@
           "id": "GAZETA.br",
           "display_names": [
             "GAZETA.br"
-          ]
-        },
-        {
-          "id": "GAZETA.br",
-          "display_names": [
-            "GAZETA.br"
-          ]
-        },
-        {
-          "id": "GLOBO NEWS.br",
-          "display_names": [
-            "GLOBO NEWS.br"
           ]
         },
         {
@@ -1843,18 +1507,6 @@
           ]
         },
         {
-          "id": "GLOOB HD.br",
-          "display_names": [
-            "GLOOB HD.br"
-          ]
-        },
-        {
-          "id": "GLOOBINHO HD.br",
-          "display_names": [
-            "GLOOBINHO HD.br"
-          ]
-        },
-        {
           "id": "GLOOBINHO HD.br",
           "display_names": [
             "GLOOBINHO HD.br"
@@ -1867,27 +1519,9 @@
           ]
         },
         {
-          "id": "GNT HD.br",
-          "display_names": [
-            "GNT HD.br"
-          ]
-        },
-        {
           "id": "HBO Family.br",
           "display_names": [
             "HBO Family.br"
-          ]
-        },
-        {
-          "id": "HBO Family.br",
-          "display_names": [
-            "HBO Family.br"
-          ]
-        },
-        {
-          "id": "HBO Mundi.br",
-          "display_names": [
-            "HBO Mundi.br"
           ]
         },
         {
@@ -1909,27 +1543,9 @@
           ]
         },
         {
-          "id": "HBO Signature.br",
-          "display_names": [
-            "HBO Signature.br"
-          ]
-        },
-        {
           "id": "HBO Xtreme.br",
           "display_names": [
             "HBO Xtreme.br"
-          ]
-        },
-        {
-          "id": "HBO Xtreme.br",
-          "display_names": [
-            "HBO Xtreme.br"
-          ]
-        },
-        {
-          "id": "HBO.br",
-          "display_names": [
-            "HBO.br"
           ]
         },
         {
@@ -1945,27 +1561,9 @@
           ]
         },
         {
-          "id": "HBO+.br",
-          "display_names": [
-            "HBO+.br"
-          ]
-        },
-        {
           "id": "HBO2.br",
           "display_names": [
             "HBO2.br"
-          ]
-        },
-        {
-          "id": "HBO2.br",
-          "display_names": [
-            "HBO2.br"
-          ]
-        },
-        {
-          "id": "HGTV HD.br",
-          "display_names": [
-            "HGTV HD.br"
           ]
         },
         {
@@ -1981,27 +1579,9 @@
           ]
         },
         {
-          "id": "HISTORY.br",
-          "display_names": [
-            "HISTORY.br"
-          ]
-        },
-        {
           "id": "HISTORY2.br",
           "display_names": [
             "HISTORY2.br"
-          ]
-        },
-        {
-          "id": "HISTORY2.br",
-          "display_names": [
-            "HISTORY2.br"
-          ]
-        },
-        {
-          "id": "ID HD.br",
-          "display_names": [
-            "ID HD.br"
           ]
         },
         {
@@ -2017,27 +1597,9 @@
           ]
         },
         {
-          "id": "JOVEM PAN NEWS.br",
-          "display_names": [
-            "JOVEM PAN NEWS.br"
-          ]
-        },
-        {
           "id": "LBV.br",
           "display_names": [
             "LBV.br"
-          ]
-        },
-        {
-          "id": "LBV.br",
-          "display_names": [
-            "LBV.br"
-          ]
-        },
-        {
-          "id": "LIFETIME.br",
-          "display_names": [
-            "LIFETIME.br"
           ]
         },
         {
@@ -2053,27 +1615,9 @@
           ]
         },
         {
-          "id": "Like + | Claro tv+.br",
-          "display_names": [
-            "Like + | Claro tv+.br"
-          ]
-        },
-        {
           "id": "LIKE.br",
           "display_names": [
             "LIKE.br"
-          ]
-        },
-        {
-          "id": "LIKE.br",
-          "display_names": [
-            "LIKE.br"
-          ]
-        },
-        {
-          "id": "LMC+HD.br",
-          "display_names": [
-            "LMC+HD.br"
           ]
         },
         {
@@ -2089,27 +1633,9 @@
           ]
         },
         {
-          "id": "MEGAPIX HD.br",
-          "display_names": [
-            "MEGAPIX HD.br"
-          ]
-        },
-        {
           "id": "MEZZO HD.br",
           "display_names": [
             "MEZZO HD.br"
-          ]
-        },
-        {
-          "id": "MEZZO HD.br",
-          "display_names": [
-            "MEZZO HD.br"
-          ]
-        },
-        {
-          "id": "Modo Viagem.br",
-          "display_names": [
-            "Modo Viagem.br"
           ]
         },
         {
@@ -2125,27 +1651,9 @@
           ]
         },
         {
-          "id": "MTV HD.br",
-          "display_names": [
-            "MTV HD.br"
-          ]
-        },
-        {
           "id": "MTV LIVE.br",
           "display_names": [
             "MTV LIVE.br"
-          ]
-        },
-        {
-          "id": "MTV LIVE.br",
-          "display_names": [
-            "MTV LIVE.br"
-          ]
-        },
-        {
-          "id": "MTVs_00.br",
-          "display_names": [
-            "MTVs_00.br"
           ]
         },
         {
@@ -2161,27 +1669,9 @@
           ]
         },
         {
-          "id": "MULTISHOW HD.br",
-          "display_names": [
-            "MULTISHOW HD.br"
-          ]
-        },
-        {
           "id": "MUSIC BOX BRAZIL.br",
           "display_names": [
             "MUSIC BOX BRAZIL.br"
-          ]
-        },
-        {
-          "id": "MUSIC BOX BRAZIL.br",
-          "display_names": [
-            "MUSIC BOX BRAZIL.br"
-          ]
-        },
-        {
-          "id": "NATIONAL GEOGRAPHIC HD.br",
-          "display_names": [
-            "NATIONAL GEOGRAPHIC HD.br"
           ]
         },
         {
@@ -2197,27 +1687,9 @@
           ]
         },
         {
-          "id": "NICK JR.br",
-          "display_names": [
-            "NICK JR.br"
-          ]
-        },
-        {
           "id": "NICKELODEON HD.br",
           "display_names": [
             "NICKELODEON HD.br"
-          ]
-        },
-        {
-          "id": "NICKELODEON HD.br",
-          "display_names": [
-            "NICKELODEON HD.br"
-          ]
-        },
-        {
-          "id": "NOSSO FUTEBOL + 1.br",
-          "display_names": [
-            "NOSSO FUTEBOL + 1.br"
           ]
         },
         {
@@ -2233,27 +1705,9 @@
           ]
         },
         {
-          "id": "NOSSO FUTEBOL + 2.br",
-          "display_names": [
-            "NOSSO FUTEBOL + 2.br"
-          ]
-        },
-        {
           "id": "NOSSO FUTEBOL + 3.br",
           "display_names": [
             "NOSSO FUTEBOL + 3.br"
-          ]
-        },
-        {
-          "id": "NOSSO FUTEBOL + 3.br",
-          "display_names": [
-            "NOSSO FUTEBOL + 3.br"
-          ]
-        },
-        {
-          "id": "NOSSO FUTEBOL HD.br",
-          "display_names": [
-            "NOSSO FUTEBOL HD.br"
           ]
         },
         {
@@ -2269,27 +1723,9 @@
           ]
         },
         {
-          "id": "Nsports HD.br",
-          "display_names": [
-            "Nsports HD.br"
-          ]
-        },
-        {
           "id": "OFF HD.br",
           "display_names": [
             "OFF HD.br"
-          ]
-        },
-        {
-          "id": "OFF HD.br",
-          "display_names": [
-            "OFF HD.br"
-          ]
-        },
-        {
-          "id": "PARAMOUNT NETWORK.br",
-          "display_names": [
-            "PARAMOUNT NETWORK.br"
           ]
         },
         {
@@ -2305,27 +1741,9 @@
           ]
         },
         {
-          "id": "Paramount+ 1.br",
-          "display_names": [
-            "Paramount+ 1.br"
-          ]
-        },
-        {
           "id": "Paramount+ 2.br",
           "display_names": [
             "Paramount+ 2.br"
-          ]
-        },
-        {
-          "id": "Paramount+ 2.br",
-          "display_names": [
-            "Paramount+ 2.br"
-          ]
-        },
-        {
-          "id": "Paramount+ 3.br",
-          "display_names": [
-            "Paramount+ 3.br"
           ]
         },
         {
@@ -2341,27 +1759,9 @@
           ]
         },
         {
-          "id": "Paramount+ 4.br",
-          "display_names": [
-            "Paramount+ 4.br"
-          ]
-        },
-        {
           "id": "PLAY TV.br",
           "display_names": [
             "PLAY TV.br"
-          ]
-        },
-        {
-          "id": "PLAY TV.br",
-          "display_names": [
-            "PLAY TV.br"
-          ]
-        },
-        {
-          "id": "PREMIERE CLUBES HD.br",
-          "display_names": [
-            "PREMIERE CLUBES HD.br"
           ]
         },
         {
@@ -2377,27 +1777,9 @@
           ]
         },
         {
-          "id": "PREMIERE2 HD.br",
-          "display_names": [
-            "PREMIERE2 HD.br"
-          ]
-        },
-        {
           "id": "PREMIERE3 HD.br",
           "display_names": [
             "PREMIERE3 HD.br"
-          ]
-        },
-        {
-          "id": "PREMIERE3 HD.br",
-          "display_names": [
-            "PREMIERE3 HD.br"
-          ]
-        },
-        {
-          "id": "PREMIERE4 HD.br",
-          "display_names": [
-            "PREMIERE4 HD.br"
           ]
         },
         {
@@ -2413,27 +1795,9 @@
           ]
         },
         {
-          "id": "PREMIERE5 HD.br",
-          "display_names": [
-            "PREMIERE5 HD.br"
-          ]
-        },
-        {
           "id": "PREMIERE6 HD.br",
           "display_names": [
             "PREMIERE6 HD.br"
-          ]
-        },
-        {
-          "id": "PREMIERE6 HD.br",
-          "display_names": [
-            "PREMIERE6 HD.br"
-          ]
-        },
-        {
-          "id": "PREMIERE7 HD.br",
-          "display_names": [
-            "PREMIERE7 HD.br"
           ]
         },
         {
@@ -2449,27 +1813,9 @@
           ]
         },
         {
-          "id": "PREMIERE8 HD.br",
-          "display_names": [
-            "PREMIERE8 HD.br"
-          ]
-        },
-        {
           "id": "PRIME BOX BRAZIL.br",
           "display_names": [
             "PRIME BOX BRAZIL.br"
-          ]
-        },
-        {
-          "id": "PRIME BOX BRAZIL.br",
-          "display_names": [
-            "PRIME BOX BRAZIL.br"
-          ]
-        },
-        {
-          "id": "RAI INTERNATIONAL.br",
-          "display_names": [
-            "RAI INTERNATIONAL.br"
           ]
         },
         {
@@ -2491,18 +1837,6 @@
           ]
         },
         {
-          "id": "RECORD NEWS.br",
-          "display_names": [
-            "RECORD NEWS.br"
-          ]
-        },
-        {
-          "id": "REDE GOSPEL.br",
-          "display_names": [
-            "REDE GOSPEL.br"
-          ]
-        },
-        {
           "id": "REDE GOSPEL.br",
           "display_names": [
             "REDE GOSPEL.br"
@@ -2518,18 +1852,6 @@
           "id": "REDE VIDA.br",
           "display_names": [
             "REDE VIDA.br"
-          ]
-        },
-        {
-          "id": "REDE VIDA.br",
-          "display_names": [
-            "REDE VIDA.br"
-          ]
-        },
-        {
-          "id": "Sabor & Arte.br",
-          "display_names": [
-            "Sabor & Arte.br"
           ]
         },
         {
@@ -2551,27 +1873,9 @@
           ]
         },
         {
-          "id": "SIC INTERNACIONAL.br",
-          "display_names": [
-            "SIC INTERNACIONAL.br"
-          ]
-        },
-        {
           "id": "SONY CHANNEL.br",
           "display_names": [
             "SONY CHANNEL.br"
-          ]
-        },
-        {
-          "id": "SONY CHANNEL.br",
-          "display_names": [
-            "SONY CHANNEL.br"
-          ]
-        },
-        {
-          "id": "SPACE HD.br",
-          "display_names": [
-            "SPACE HD.br"
           ]
         },
         {
@@ -2587,27 +1891,9 @@
           ]
         },
         {
-          "id": "SPORTV 2.br",
-          "display_names": [
-            "SPORTV 2.br"
-          ]
-        },
-        {
           "id": "SPORTV 3.br",
           "display_names": [
             "SPORTV 3.br"
-          ]
-        },
-        {
-          "id": "SPORTV 3.br",
-          "display_names": [
-            "SPORTV 3.br"
-          ]
-        },
-        {
-          "id": "SPORTV.br",
-          "display_names": [
-            "SPORTV.br"
           ]
         },
         {
@@ -2623,27 +1909,9 @@
           ]
         },
         {
-          "id": "STAR CHANNEL HD.br",
-          "display_names": [
-            "STAR CHANNEL HD.br"
-          ]
-        },
-        {
           "id": "STUDIO UNIVERSAL HD.br",
           "display_names": [
             "STUDIO UNIVERSAL HD.br"
-          ]
-        },
-        {
-          "id": "STUDIO UNIVERSAL HD.br",
-          "display_names": [
-            "STUDIO UNIVERSAL HD.br"
-          ]
-        },
-        {
-          "id": "TCM BR.br",
-          "display_names": [
-            "TCM BR.br"
           ]
         },
         {
@@ -2659,27 +1927,9 @@
           ]
         },
         {
-          "id": "TELECINE ACTION.br",
-          "display_names": [
-            "TELECINE ACTION.br"
-          ]
-        },
-        {
           "id": "TELECINE CULT.br",
           "display_names": [
             "TELECINE CULT.br"
-          ]
-        },
-        {
-          "id": "TELECINE CULT.br",
-          "display_names": [
-            "TELECINE CULT.br"
-          ]
-        },
-        {
-          "id": "TELECINE FUN.br",
-          "display_names": [
-            "TELECINE FUN.br"
           ]
         },
         {
@@ -2695,27 +1945,9 @@
           ]
         },
         {
-          "id": "TELECINE PIPOCA.br",
-          "display_names": [
-            "TELECINE PIPOCA.br"
-          ]
-        },
-        {
           "id": "TELECINE PREMIUM.br",
           "display_names": [
             "TELECINE PREMIUM.br"
-          ]
-        },
-        {
-          "id": "TELECINE PREMIUM.br",
-          "display_names": [
-            "TELECINE PREMIUM.br"
-          ]
-        },
-        {
-          "id": "TELECINE TOUCH.br",
-          "display_names": [
-            "TELECINE TOUCH.br"
           ]
         },
         {
@@ -2731,27 +1963,9 @@
           ]
         },
         {
-          "id": "TIMES | Exclusivo CNBC.br",
-          "display_names": [
-            "TIMES | Exclusivo CNBC.br"
-          ]
-        },
-        {
           "id": "TLC HD.br",
           "display_names": [
             "TLC HD.br"
-          ]
-        },
-        {
-          "id": "TLC HD.br",
-          "display_names": [
-            "TLC HD.br"
-          ]
-        },
-        {
-          "id": "TNT HD.br",
-          "display_names": [
-            "TNT HD.br"
           ]
         },
         {
@@ -2773,27 +1987,9 @@
           ]
         },
         {
-          "id": "TNT SERIES HD.br",
-          "display_names": [
-            "TNT SERIES HD.br"
-          ]
-        },
-        {
           "id": "TRACE BRASIL HD.br",
           "display_names": [
             "TRACE BRASIL HD.br"
-          ]
-        },
-        {
-          "id": "TRACE BRASIL HD.br",
-          "display_names": [
-            "TRACE BRASIL HD.br"
-          ]
-        },
-        {
-          "id": "TRAVEL BOX.br",
-          "display_names": [
-            "TRAVEL BOX.br"
           ]
         },
         {
@@ -2809,27 +2005,9 @@
           ]
         },
         {
-          "id": "TRIP BRASIL CHANNEL.br",
-          "display_names": [
-            "TRIP BRASIL CHANNEL.br"
-          ]
-        },
-        {
           "id": "TV APARECIDA HD.br",
           "display_names": [
             "TV APARECIDA HD.br"
-          ]
-        },
-        {
-          "id": "TV APARECIDA HD.br",
-          "display_names": [
-            "TV APARECIDA HD.br"
-          ]
-        },
-        {
-          "id": "TV BRASIL.br",
-          "display_names": [
-            "TV BRASIL.br"
           ]
         },
         {
@@ -2845,27 +2023,9 @@
           ]
         },
         {
-          "id": "TV RA TIM BUM.br",
-          "display_names": [
-            "TV RA TIM BUM.br"
-          ]
-        },
-        {
           "id": "TV5 MONDE.br",
           "display_names": [
             "TV5 MONDE.br"
-          ]
-        },
-        {
-          "id": "TV5 MONDE.br",
-          "display_names": [
-            "TV5 MONDE.br"
-          ]
-        },
-        {
-          "id": "TVE INTERNATIONAL.br",
-          "display_names": [
-            "TVE INTERNATIONAL.br"
           ]
         },
         {
@@ -2881,27 +2041,9 @@
           ]
         },
         {
-          "id": "UNIVERSAL PREMIERE HD.br",
-          "display_names": [
-            "UNIVERSAL PREMIERE HD.br"
-          ]
-        },
-        {
           "id": "UNIVERSAL REALITY.br",
           "display_names": [
             "UNIVERSAL REALITY.br"
-          ]
-        },
-        {
-          "id": "UNIVERSAL REALITY.br",
-          "display_names": [
-            "UNIVERSAL REALITY.br"
-          ]
-        },
-        {
-          "id": "UNIVERSAL TV HD.br",
-          "display_names": [
-            "UNIVERSAL TV HD.br"
           ]
         },
         {
@@ -2917,18 +2059,6 @@
           ]
         },
         {
-          "id": "USA HD.br",
-          "display_names": [
-            "USA HD.br"
-          ]
-        },
-        {
-          "id": "VIVA HD.br",
-          "display_names": [
-            "VIVA HD.br"
-          ]
-        },
-        {
           "id": "VIVA HD.br",
           "display_names": [
             "VIVA HD.br"
@@ -2941,27 +2071,9 @@
           ]
         },
         {
-          "id": "WARNER CHANNEL.br",
-          "display_names": [
-            "WARNER CHANNEL.br"
-          ]
-        },
-        {
           "id": "WOOHOO HD.br",
           "display_names": [
             "WOOHOO HD.br"
-          ]
-        },
-        {
-          "id": "WOOHOO HD.br",
-          "display_names": [
-            "WOOHOO HD.br"
-          ]
-        },
-        {
-          "id": "ZOOMOO HD.br",
-          "display_names": [
-            "ZOOMOO HD.br"
           ]
         },
         {
@@ -2974,7 +2086,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-04T16:25:10Z",
+      "fetched_at": "2026-11-05T16:32:50Z",
       "channel_count": 182,
       "channels": [
         {
@@ -4073,8 +3185,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-04T16:25:10Z",
-      "channel_count": 491,
+      "fetched_at": "2026-11-05T16:32:50Z",
+      "channel_count": 492,
       "channels": [
         {
           "id": "A&E",
@@ -6906,6 +6018,12 @@
           "id": "TV Evangelizar",
           "display_names": [
             "TV Evangelizar"
+          ]
+        },
+        {
+          "id": "TV Oeste",
+          "display_names": [
+            "TV Oeste"
           ]
         },
         {
