@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T15:59:59Z",
+  "generated_at": "2026-11-07T14:57:05Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-06T15:59:59Z",
+      "fetched_at": "2026-11-07T14:57:05Z",
       "channel_count": 185,
       "channels": [
         {
@@ -1125,7 +1125,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-06T15:59:59Z",
+      "fetched_at": "2026-11-07T14:57:05Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2086,7 +2086,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-06T15:59:59Z",
+      "fetched_at": "2026-11-07T14:57:05Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3185,8 +3185,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-06T15:59:59Z",
-      "channel_count": 492,
+      "fetched_at": "2026-11-07T14:57:05Z",
+      "channel_count": 491,
       "channels": [
         {
           "id": "A&E",
@@ -3888,18 +3888,6 @@
           "id": "Discovery Investigação",
           "display_names": [
             "Discovery Investigação"
-          ]
-        },
-        {
-          "id": "Jovem Pan News",
-          "display_names": [
-            "Jovem Pan News"
-          ]
-        },
-        {
-          "id": "LMC+",
-          "display_names": [
-            "LMC+"
           ]
         },
         {
@@ -5955,6 +5943,18 @@
           ]
         },
         {
+          "id": "Jovem Pan News",
+          "display_names": [
+            "Jovem Pan News"
+          ]
+        },
+        {
+          "id": "LMC+",
+          "display_names": [
+            "LMC+"
+          ]
+        },
+        {
           "id": "Markket",
           "display_names": [
             "Markket"
@@ -6060,12 +6060,6 @@
           "id": "UFC Fight Pass",
           "display_names": [
             "UFC Fight Pass"
-          ]
-        },
-        {
-          "id": "Otaku",
-          "display_names": [
-            "Otaku"
           ]
         },
         {
