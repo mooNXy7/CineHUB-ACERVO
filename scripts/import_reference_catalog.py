@@ -708,6 +708,40 @@ def import_channels(reference: Path, current: dict, counters: dict) -> dict:
     return current
 
 
+def is_probable_image_url(value: str) -> bool:
+    """Return True for image-like URLs so they cannot become audio streams."""
+    try:
+        path = urlsplit(str(value or "").strip()).path.lower()
+    except ValueError:
+        return False
+    return bool(re.search(r"\.(?:png|jpe?g|webp|gif|svg|ico|avif)$", path))
+
+
+def parse_radio_line(line: str) -> dict | None:
+    """Parse current name|stream and retain legacy id|name|stream|logo layout."""
+    fields = str(line or "").rstrip("\r\n").split("|")
+    if len(fields) == 2:
+        radio_name, stream = fields
+        logo = None
+    elif len(fields) >= 3:
+        radio_name = fields[1]
+        stream = fields[2]
+        logo = fields[3] if len(fields) > 3 and fields[3].strip() else None
+    else:
+        return None
+    radio_name = radio_name.strip()
+    stream = stream.strip()
+    if not radio_name:
+        return None
+    safe_stream = safe_candidate(stream) and not is_probable_image_url(stream)
+    return {
+        "name": radio_name,
+        "stream_url": stream if safe_stream else None,
+        "logo_url": logo.strip() if logo and safe_candidate(logo.strip()) else None,
+        "stream_status": "imported" if safe_stream else "pending_review",
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--reference-dir", type=Path, default=DEFAULT_REFERENCE)
@@ -832,23 +866,19 @@ def main() -> None:
     imported_radio_count = 0
     radio_file = reference / "vod" / "radios.txt"
     for line in read_lines(radio_file) or ():
-        fields = line.rstrip("\n").split("|")
-        if len(fields) < 3:
+        parsed_radio = parse_radio_line(line)
+        if not parsed_radio:
             continue
-        radio_name = fields[1].strip()
-        if not radio_name:
-            continue
+        radio_name = parsed_radio["name"]
         key = norm(radio_name)
         if key in known_radio:
             continue
-        stream = fields[2].strip()
-        logo = fields[3].strip() if len(fields) > 3 and fields[3].strip() else None
         radio = {
             "id": "radio-" + slug(radio_name), "name": radio_name,
-            "stream_url": stream if safe_candidate(stream) else None,
-            "logo_url": logo if safe_candidate(logo or "") else None,
+            "stream_url": parsed_radio["stream_url"],
+            "logo_url": parsed_radio["logo_url"],
             "genre": None, "source_id": SOURCE_ID,
-            "stream_status": "imported" if safe_candidate(stream) else "pending_review",
+            "stream_status": parsed_radio["stream_status"],
         }
         radios.setdefault("radios", []).append(radio)
         known_radio[key] = radio
