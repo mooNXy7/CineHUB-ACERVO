@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T18:55:14Z",
+  "generated_at": "2026-11-10T16:28:44Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-09T18:55:14Z",
+      "fetched_at": "2026-11-10T16:28:44Z",
       "channel_count": 185,
       "channels": [
         {
@@ -1125,7 +1125,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-09T18:55:14Z",
+      "fetched_at": "2026-11-10T16:28:44Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2086,7 +2086,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-09T18:55:14Z",
+      "fetched_at": "2026-11-10T16:28:44Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3185,7 +3185,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-09T18:55:14Z",
+      "fetched_at": "2026-11-10T16:28:44Z",
       "channel_count": 491,
       "channels": [
         {
@@ -3408,6 +3408,12 @@
           "id": "Futura",
           "display_names": [
             "Futura"
+          ]
+        },
+        {
+          "id": "GNT",
+          "display_names": [
+            "GNT"
           ]
         },
         {
@@ -3840,12 +3846,6 @@
           "id": "GETV",
           "display_names": [
             "GETV"
-          ]
-        },
-        {
-          "id": "GNT",
-          "display_names": [
-            "GNT"
           ]
         },
         {
