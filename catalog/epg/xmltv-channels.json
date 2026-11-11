@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T16:28:44Z",
+  "generated_at": "2026-11-11T16:18:38Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,7 +8,7 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-10T16:28:44Z",
+      "fetched_at": "2026-11-11T16:18:38Z",
       "channel_count": 185,
       "channels": [
         {
@@ -1125,7 +1125,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-10T16:28:44Z",
+      "fetched_at": "2026-11-11T16:18:38Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2086,7 +2086,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-10T16:28:44Z",
+      "fetched_at": "2026-11-11T16:18:38Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3185,8 +3185,8 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-10T16:28:44Z",
-      "channel_count": 491,
+      "fetched_at": "2026-11-11T16:18:38Z",
+      "channel_count": 494,
       "channels": [
         {
           "id": "A&E",
@@ -5823,6 +5823,12 @@
           ]
         },
         {
+          "id": "TVT HD",
+          "display_names": [
+            "TVT HD"
+          ]
+        },
+        {
           "id": "Telefe",
           "display_names": [
             "Telefe"
@@ -5973,6 +5979,12 @@
           ]
         },
         {
+          "id": "RBI TV",
+          "display_names": [
+            "RBI TV"
+          ]
+        },
+        {
           "id": "RIT TV",
           "display_names": [
             "RIT TV"
@@ -6021,6 +6033,12 @@
           ]
         },
         {
+          "id": "TV Globo",
+          "display_names": [
+            "TV Globo"
+          ]
+        },
+        {
           "id": "TV Oeste",
           "display_names": [
             "TV Oeste"
@@ -6030,6 +6048,12 @@
           "id": "TV Pai Eterno",
           "display_names": [
             "TV Pai Eterno"
+          ]
+        },
+        {
+          "id": "TV Universal",
+          "display_names": [
+            "TV Universal"
           ]
         },
         {
@@ -6048,12 +6072,6 @@
           "id": "Travel & Food and Drinks",
           "display_names": [
             "Travel & Food and Drinks"
-          ]
-        },
-        {
-          "id": "Travel Box",
-          "display_names": [
-            "Travel Box"
           ]
         },
         {
