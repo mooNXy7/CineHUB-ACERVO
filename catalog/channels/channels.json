@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T16:18:38Z",
+  "generated_at": "2026-11-12T16:53:00Z",
   "channels": [
     {
       "id": "br.a-e",
@@ -865,10 +865,18 @@
       "name": "Canal OFF",
       "group": "Esportes",
       "logo_url": "https://img.faz-o-eli.online/off.png",
-      "epg_id": null,
+      "epg_id": "Canal Off",
       "sources": [],
       "stream_status": "pending_validation",
-      "source_candidates_pending_review": 17
+      "source_candidates_pending_review": 17,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal Off",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "br.telecine-action",
@@ -40754,7 +40762,7 @@
       "name": "Canal OFF FHD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Canal Off",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501473",
@@ -40763,14 +40771,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal Off",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-canal-off-hd",
       "name": "Canal OFF HD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Canal Off",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501474",
@@ -40779,14 +40795,22 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal Off",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-canal-off-sd",
       "name": "Canal OFF SD",
       "group": "Outros",
       "logo_url": null,
-      "epg_id": null,
+      "epg_id": "Canal Off",
       "sources": [
         {
           "url": "http://proxy.nr3.xyz:80/daniellytvc/danielly2396/1501475",
@@ -40795,7 +40819,15 @@
         }
       ],
       "stream_status": "imported",
-      "source_candidates_pending_review": 0
+      "source_candidates_pending_review": 0,
+      "epg_sources": [
+        {
+          "source_id": "brazil-tv-epg",
+          "channel_id": "Canal Off",
+          "priority": 25,
+          "match": "exact_or_alias"
+        }
+      ]
     },
     {
       "id": "ch-canal-sony-fhd",
