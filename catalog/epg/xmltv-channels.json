@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T17:40:45Z",
+  "generated_at": "2026-11-18T17:21:00Z",
   "window_hours": {
     "past": 6,
     "future": 72
@@ -8,8 +8,8 @@
   "sources": {
     "pluto-br-xmltv": {
       "source_id": "pluto-br-xmltv",
-      "fetched_at": "2026-11-17T17:40:45Z",
-      "channel_count": 185,
+      "fetched_at": "2026-11-18T17:21:00Z",
+      "channel_count": 186,
       "channels": [
         {
           "id": "5f120e94a5714d00074576a1",
@@ -1098,6 +1098,12 @@
           ]
         },
         {
+          "id": "6495c7ad115d060008bf6df0",
+          "display_names": [
+            "PAW Patrol Patrulha Canina"
+          ]
+        },
+        {
           "id": "656e28dd57fe4a0008819c3d",
           "display_names": [
             "Dora, A Aventureira"
@@ -1125,7 +1131,7 @@
     },
     "open-epg-br": {
       "source_id": "open-epg-br",
-      "fetched_at": "2026-11-17T17:40:45Z",
+      "fetched_at": "2026-11-18T17:21:00Z",
       "channel_count": 159,
       "channels": [
         {
@@ -2086,7 +2092,7 @@
     },
     "iptv-epg-br": {
       "source_id": "iptv-epg-br",
-      "fetched_at": "2026-11-17T17:40:45Z",
+      "fetched_at": "2026-11-18T17:21:00Z",
       "channel_count": 182,
       "channels": [
         {
@@ -3185,7 +3191,7 @@
     },
     "brazil-tv-epg": {
       "source_id": "brazil-tv-epg",
-      "fetched_at": "2026-11-17T17:40:45Z",
+      "fetched_at": "2026-11-18T17:21:00Z",
       "channel_count": 496,
       "channels": [
         {
