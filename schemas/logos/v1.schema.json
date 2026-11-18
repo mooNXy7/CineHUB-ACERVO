@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/logos/v1.schema.json",
+  "title": "CineHUB logos candidate v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "domain",
+    "records",
+    "quarantine"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "domain": {
+      "const": "logos"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "../common/asset-v1.schema.json"
+      }
+    },
+    "quarantine": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

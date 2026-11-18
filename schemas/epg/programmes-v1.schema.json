@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/epg-programmes/v1.schema.json",
+  "title": "CineHUB epg-programmes candidate v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "domain",
+    "records",
+    "quarantine"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "domain": {
+      "const": "epg-programmes"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "epg_channel_id",
+          "title",
+          "start",
+          "stop",
+          "source_id",
+          "provenance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "channel_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "epg_channel_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "start": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "stop": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "array",
+            "items": {
+              "$ref": "../common/provenance-v1.schema.json"
+            }
+          },
+          "raw": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "quarantine": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

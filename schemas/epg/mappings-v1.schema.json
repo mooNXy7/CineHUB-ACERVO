@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/epg-mappings/v1.schema.json",
+  "title": "CineHUB epg-mappings candidate v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "domain",
+    "records",
+    "quarantine"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "domain": {
+      "const": "epg-mappings"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "channel_name",
+          "mapping_type",
+          "value",
+          "provenance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "channel_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "channel_name": {
+            "type": "string"
+          },
+          "epg_channel_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mapping_type": {
+            "type": "string"
+          },
+          "value": {},
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "provenance": {
+            "type": "array",
+            "items": {
+              "$ref": "../common/provenance-v1.schema.json"
+            }
+          },
+          "raw": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "quarantine": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinehub.example/schemas/common/source-v1.schema.json",
+  "title": "CineHUB source v1",
+  "type": "object",
+  "required": [
+    "id",
+    "domain",
+    "format",
+    "priority",
+    "enabled"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain": {
+      "enum": [
+        "vod",
+        "channels",
+        "radios",
+        "logos",
+        "epg"
+      ]
+    },
+    "format": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "url_template": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "match_strategy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "$ref": "provenance-v1.schema.json"
+      }
+    },
+    "raw": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

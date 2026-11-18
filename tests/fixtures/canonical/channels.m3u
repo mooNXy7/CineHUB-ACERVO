@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="canal.exemplo.br" tvg-name="Canal Exemplo" group-title="Públicos" tvg-logo="https://logos.example.test/canal.png",Canal Exemplo
+https://stream.example.test/live-a.m3u8
+#EXTINF:-1 tvg-id="canal.exemplo.br" tvg-name="Canal Exemplo" group-title="Públicos",Canal Exemplo
+https://backup.example.test/live-b.m3u8
+#EXTINF:-1 tvg-name="Canal Sem Stream" group-title="Teste",Canal Sem Stream
+javascript:alert(1)
