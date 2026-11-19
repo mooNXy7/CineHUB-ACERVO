@@ -160,15 +160,15 @@ def main() -> int:
     reference_source_records = [
         {
             "id": "reference-radio-catalog", "domain": "radios",
-            "name": "Radio reference recovery snapshot", "format": "json-reference",
-            "url": None, "priority": 0, "enabled": False, "license": None,
+            "name": "Radio reference recovery snapshot", "provider": "CineHUB ACERVO — referência de recuperação de rádios",
+            "format": "json-reference", "url": None, "priority": 0, "enabled": False, "license": None,
             "match_strategy": "exact_stream_url_reference",
             "raw": radio_recovery_doc.get("source", {}),
         },
         {
             "id": "reference-vod-identity", "domain": "vod",
-            "name": "VOD identity override snapshot", "format": "json-reference",
-            "url": None, "priority": 0, "enabled": False, "license": None,
+            "name": "VOD identity override snapshot", "provider": "CineHUB ACERVO — referência de identidade VOD",
+            "format": "json-reference", "url": None, "priority": 0, "enabled": False, "license": None,
             "match_strategy": "explicit_tmdb_identity_override",
             "raw": vod_identity_override_doc.get("source", {}),
         },
