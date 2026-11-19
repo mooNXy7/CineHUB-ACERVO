@@ -1,18 +1,6 @@
 name: Update catalog
 
 on:
-  push:
-    branches: [main, master]
-    paths:
-      - "sources/sources.json"
-      - "sources/m3u/**"
-      - "scripts/update_catalog.py"
-      - "scripts/import_reference_catalog.py"
-      - "scripts/normalize_catalog.py"
-      - "scripts/validate_catalog.py"
-      - "scripts/update_epg.py"
-  schedule:
-    - cron: "23 8 * * *"
   workflow_dispatch:
 
 permissions:
