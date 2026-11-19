@@ -14,7 +14,7 @@ from urllib.parse import parse_qsl, urlsplit
 
 PARSER_VERSION = "1.0.0"
 SENSITIVE_QUERY_KEYS = {"token", "access_token", "auth", "authorization", "password", "passwd",
-                        "username", "user", "key", "api_key", "apikey", "client_secret",
+                        "username", "user", "key", "api_key", "apikey", "client_secret", "x-api-key",
                         "signature", "sig", "session", "expires", "cookie"}
 
 
@@ -56,6 +56,7 @@ def safe_stream_url(value: object, allow_http: bool = True) -> tuple[bool, str]:
         allowed = {"https", "http"} if allow_http else {"https"}
         if parsed.scheme.lower() not in allowed or not parsed.hostname:
             return False, "unsupported_or_missing_scheme"
+        _ = parsed.port
         if parsed.username is not None or parsed.password is not None:
             return False, "embedded_credentials"
         if any(key.lower() in SENSITIVE_QUERY_KEYS for key, _ in parse_qsl(parsed.query, keep_blank_values=True)):
