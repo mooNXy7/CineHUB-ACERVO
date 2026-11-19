@@ -1293,35 +1293,54 @@ def parse_logo_references(channels: list, radios: list, source_id: str = "catalo
     return assets, quarantine
 
 def parse_source_registry(document: dict, source_id: str = "source-registry") -> tuple[list, list]:
+    """Normalize the central V3 registry while retaining legacy fields and raw provenance."""
     raw = json.dumps(document, ensure_ascii=False, sort_keys=True)
     prov = input_provenance(source_id, "source-registry-json", raw, "sources/sources.json")
     records, quarantine = [], []
     domain_map = {"channel": "channels", "channels": "channels", "radio": "radios",
                   "radios": "radios", "vod": "vod", "epg": "epg", "logos": "logos"}
-    for item in document.get("sources", []) if isinstance(document, dict) else []:
+    seen = set()
+    for index, item in enumerate(document.get("sources", []) if isinstance(document, dict) else []):
         if not isinstance(item, dict) or not item.get("id"):
-            quarantine.append({"domain": "sources", "reason": "missing_source_id", "raw": item})
+            quarantine.append({"domain": "sources", "reason": "missing_source_id", "index": index, "raw": item})
             continue
-        domain = domain_map.get(str(item.get("category") or "").casefold())
+        ident = str(item["id"]).strip()
+        if ident in seen:
+            quarantine.append({"domain": "sources", "reason": "duplicate_source_id", "index": index, "raw": item})
+            continue
+        seen.add(ident)
+        domain = domain_map.get(str(item.get("domain") or item.get("category") or "").casefold())
         if not domain:
-            quarantine.append({"domain": "sources", "reason": "unsupported_source_domain", "raw": item})
+            quarantine.append({"domain": "sources", "reason": "unsupported_source_domain", "index": index, "raw": item})
             continue
         try:
             priority = int(item.get("priority", 100))
         except (TypeError, ValueError):
-            priority = 100
+            quarantine.append({"domain": "sources", "reason": "invalid_priority", "index": index, "raw": item})
+            continue
+        origin = item.get("origin")
+        if not isinstance(origin, dict) and item.get("url"):
+            origin = {"kind": "url", "value": item["url"]}
         url = item.get("url")
+        if origin and origin.get("kind") == "url":
+            url = origin.get("value")
         if url and not safe_stream_url(url)[0]:
-            quarantine.append({"domain": "sources", "reason": "invalid_source_url", "raw": item})
+            quarantine.append({"domain": "sources", "reason": "invalid_source_url", "index": index, "raw": item})
             url = None
-        records.append({"id": str(item["id"]), "domain": domain,
-                        "name": item.get("name"), "format": str(item.get("format") or "unknown"),
-                        "url": url or None, "url_template": item.get("url_template"),
-                        "priority": priority, "enabled": bool(item.get("enabled", False)),
-                        "license": item.get("license"), "match_strategy": item.get("match_strategy"),
-                        "provenance": [prov], "raw": item})
+        records.append({
+            "id": ident, "domain": domain, "name": item.get("name"),
+            "format": str(item.get("format") or "unknown"), "url": url or None,
+            "url_template": item.get("url_template"), "priority": priority,
+            "enabled": bool(item.get("enabled", False)), "license": item.get("license"),
+            "match_strategy": item.get("match_strategy"), "provenance": [prov],
+            "origin": origin, "language": item.get("language"), "region": item.get("region"),
+            "authorization": item.get("authorization"), "status": item.get("status"),
+            "update_frequency": item.get("update_frequency"),
+            "last_processed_at": item.get("last_processed_at"), "last_error": item.get("last_error"),
+            "error_history": item.get("error_history", []), "credentials_ref": item.get("credentials_ref"),
+            "adapter": item.get("adapter"), "options": item.get("options", {}), "raw": item,
+        })
     return records, quarantine
-
 
 def parse_xmltv(payload: bytes | str, source_id: str, source_ref: str = "input.xml",
                 default_timezone=timezone.utc):
