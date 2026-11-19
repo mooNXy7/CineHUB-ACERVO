@@ -1,5 +1,19 @@
 # Transferência de Contexto — CineHUB-ACERVO
 
+## Estado vigente — ACERVO V3
+
+- Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
+- Branch exclusiva: `develop/acervo-v3`.
+- Etapa 1: concluída e validada pelo [Run 1016](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44441395274).
+- Etapa 2: implementação de registro central e adaptadores concluída; aceite final depende do CI do HEAD atual.
+- Consultar [relatório Etapa 1](reports/v3/ETAPA_1_FUNDACAO.md) e [relatório Etapa 2](reports/v3/ETAPA_2_FONTES_PROVEDORES.md).
+- Não alterar `main`, V2, aplicativos consumidores, segredos ou produção. Não ativar fetch remoto, publicação ou atualização automática.
+- Próxima ação: confirmar CI verde; se aprovado, iniciar Etapa 3 do Plano Mestre. Se falhar, corrigir antes de avançar.
+- A execução do workflow é automática em push; se não iniciar, executar manualmente `Validate ACERVO V3` na branch V3.
+
+---
+
+
 ## Estado histórico — Run 1002
 
 - Repositório: https://github.com/mooNXy7/CineHUB-ACERVO
