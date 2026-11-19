@@ -1,5 +1,22 @@
 # EXECUTION LOG — CineHUB-ACERVO
 
+## ACERVO V3 — retomada e execução
+
+### Etapa 1 — Fundação
+- Run 1016 / [44441395274](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44441395274): sucesso no commit `d9fa0cf500dc6f1d2f40ab7e7af742367e277df6`.
+- Catálogo read-only, schemas, testes offline, compilação, build completo, idempotência, validação da candidata, auditoria e upload do artefato: todos aprovados.
+- Etapa 1 encerrada.
+
+### Etapa 2 — Fontes e provedores
+- Implementado registro central, provedores, adaptadores M3U/JSON/TXT/XMLTV/VOD, validação de URLs, resolução segura de arquivos locais, deduplicação de origens, quarentena e redação de dados sensíveis.
+- Fontes XMLTV externas sem autorização confirmada permanecem `pending_review` e desabilitadas.
+- Run 1030 / [44443201286](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44443201286): sucesso no commit `4cd782800fef545e959029fac1bc178ef49b391c`, antes do último conjunto de hardening.
+- Runs intermediários com falha/cancelamento foram investigados; o Run 1041 falhou no teste de build porque o schema passou a exigir `provider` e o parser legado EPG ainda não o emitia. Corrigido em `acervo_v2/importers.py`; teste de regressão adicionado.
+- Aceite da Etapa 2 permanece pendente até o CI integral no HEAD mais recente.
+
+---
+
+
 ## Registro histórico da validação Run 1002 — 2026-11-04
 
 - Branch: `develop/acervo-v2`; HEAD analisado: `5e2150f3c0f48075edacb56b70111304f797d25d`.
