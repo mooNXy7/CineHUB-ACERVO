@@ -262,5 +262,17 @@ class SourceRegistryTests(unittest.TestCase):
                 "origin": {"kind": "repository_path", "value": "catalog/channels/channels.json"},
             })
 
+
+    def test_source_rejects_credential_values_and_conflicting_origin_urls(self):
+        base = {"id": "source-credential", "domain": "channels", "format": "m3u",
+                "origin": {"kind": "url", "value": "https://feed.example.test/list.m3u"},
+                "enabled": True}
+        record, error = normalize_source({**base, "credentials_ref": "actual/secret=value"})
+        self.assertIsNone(record)
+        self.assertEqual(error, "invalid_credentials_ref")
+        record, error = normalize_source({**base, "url": "https://other.example.test/feed.m3u"})
+        self.assertIsNone(record)
+        self.assertEqual(error, "origin_url_mismatch")
+
 if __name__ == "__main__":
     unittest.main()
