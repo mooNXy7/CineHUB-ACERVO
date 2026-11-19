@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import ipaddress
 import io
 import json
 import os
@@ -13,7 +14,8 @@ from urllib.parse import parse_qsl, urlsplit
 
 PARSER_VERSION = "1.0.0"
 SENSITIVE_QUERY_KEYS = {"token", "access_token", "auth", "authorization", "password", "passwd",
-                        "username", "user", "key", "signature", "sig", "session", "expires"}
+                        "username", "user", "key", "api_key", "apikey", "client_secret",
+                        "signature", "sig", "session", "expires", "cookie"}
 
 
 def normalize_name(value: object) -> str:
@@ -56,11 +58,19 @@ def safe_stream_url(value: object, allow_http: bool = True) -> tuple[bool, str]:
             return False, "unsupported_or_missing_scheme"
         if parsed.username is not None or parsed.password is not None:
             return False, "embedded_credentials"
-        if any(key.lower() in SENSITIVE_QUERY_KEYS for key, _ in parse_qsl(parsed.query)):
+        if any(key.lower() in SENSITIVE_QUERY_KEYS for key, _ in parse_qsl(parsed.query, keep_blank_values=True)):
             return False, "sensitive_query_parameter"
         host = parsed.hostname.rstrip(".").lower()
-        if host in {"localhost", "localhost.localdomain"} or host.endswith(".local"):
+        if host in {"localhost", "localhost.localdomain"} or host.endswith((".local", ".localhost")):
             return False, "local_host"
+        if "%" in host or parsed.fragment:
+            return False, "unsafe_host_or_fragment"
+        try:
+            address = ipaddress.ip_address(host)
+        except ValueError:
+            address = None
+        if address is not None and (not address.is_global or address.is_multicast):
+            return False, "non_public_ip"
         return True, "ok"
     except (TypeError, ValueError):
         return False, "invalid_url"
@@ -1299,7 +1309,7 @@ def parse_source_registry(document: dict, source_id: str = "source-registry") ->
     records, quarantine = [], []
     domain_map = {"channel": "channels", "channels": "channels", "radio": "radios",
                   "radios": "radios", "vod": "vod", "epg": "epg", "logos": "logos"}
-    seen = set()
+    seen, seen_origins = set(), set()
     for index, item in enumerate(document.get("sources", []) if isinstance(document, dict) else []):
         if not isinstance(item, dict) or not item.get("id"):
             quarantine.append({"domain": "sources", "reason": "missing_source_id", "index": index, "raw": item})
@@ -1324,20 +1334,41 @@ def parse_source_registry(document: dict, source_id: str = "source-registry") ->
         url = item.get("url")
         if origin and origin.get("kind") == "url":
             url = origin.get("value")
-        if url and not safe_stream_url(url)[0]:
-            quarantine.append({"domain": "sources", "reason": "invalid_source_url", "index": index, "raw": item})
-            url = None
+        if url:
+            valid_url, url_reason = safe_stream_url(url)
+            if not valid_url:
+                quarantine.append({"domain": "sources", "reason": url_reason, "index": index, "raw": item})
+                continue
+        if origin and origin.get("kind") == "repository_path":
+            path_value = str(origin.get("value") or "")
+            local_path = Path(path_value)
+            if local_path.is_absolute() or ".." in local_path.parts or "\\" in path_value or chr(0) in path_value:
+                quarantine.append({"domain": "sources", "reason": "unsafe_repository_path", "index": index, "raw": item})
+                continue
+        origin_kind = origin.get("kind") if isinstance(origin, dict) else None
+        origin_value = origin.get("value") if isinstance(origin, dict) else url
+        fingerprint = (domain, str(item.get("format") or "unknown"), origin_kind, str(origin_value or "").strip().casefold())
+        if fingerprint in seen_origins:
+            quarantine.append({"domain": "sources", "reason": "duplicate_source_origin", "index": index, "raw": item})
+            continue
+        seen_origins.add(fingerprint)
+        status = str(item.get("status") or ("active" if item.get("enabled", False) else "disabled")).casefold()
+        if status not in {"active", "disabled", "quarantined", "degraded", "pending_review"}:
+            quarantine.append({"domain": "sources", "reason": "invalid_source_status", "index": index, "raw": item})
+            continue
         record = {
             "id": ident, "domain": domain, "name": item.get("name"),
+            "provider": str(item.get("provider") or item.get("name") or ident),
             "format": str(item.get("format") or "unknown"), "url": url or None,
             "url_template": item.get("url_template"), "priority": priority,
-            "enabled": bool(item.get("enabled", False)), "license": item.get("license"),
+            "enabled": bool(item.get("enabled", False)) and status == "active", "license": item.get("license"),
             "match_strategy": item.get("match_strategy"), "provenance": [prov],
             "last_processed_at": item.get("last_processed_at"), "last_error": item.get("last_error"),
             "error_history": item.get("error_history", []), "credentials_ref": item.get("credentials_ref"),
             "options": item.get("options", {}), "raw": item,
         }
-        optional_fields = ("origin", "language", "region", "authorization", "status",
+        record["status"] = status
+        optional_fields = ("origin", "language", "region", "authorization",
                            "update_frequency", "adapter")
         for field in optional_fields:
             if item.get(field) is not None:
