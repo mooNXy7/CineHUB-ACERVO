@@ -98,7 +98,7 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
             return None, reason
     else:
         path = Path(origin_value)
-        if path.is_absolute() or ".." in path.parts or "\\" in origin_value:
+        if path.is_absolute() or ".." in path.parts or "\\" in origin_value or chr(0) in origin_value:
             return None, "unsafe_repository_path"
     authorization = item.get("authorization")
     if not isinstance(authorization, dict):
@@ -119,6 +119,7 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
     return {
         "id": source_id,
         "name": str(item.get("name") or source_id),
+        "provider": str(item.get("provider") or item.get("name") or source_id),
         "domain": domain,
         "format": source_format,
         "origin": {"kind": origin["kind"], "value": origin_value.strip()},
@@ -143,7 +144,8 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
     }, None
 
 
-def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
+""")
+
     try:
         document = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
@@ -153,16 +155,36 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     raw_sources = document.get("sources")
     if not isinstance(raw_sources, list):
         return [], [{"reason": "sources_must_be_array"}]
-    accepted, quarantine, seen = [], [], set()
+    accepted, quarantine, seen_ids, seen_origins = [], [], set(), set()
     for index, item in enumerate(raw_sources):
         record, error = normalize_source(item)
         if error:
             quarantine.append({"index": index, "reason": error, "raw": item})
             continue
-        if record["id"] in seen:
+        if record["id"] in seen_ids:
             quarantine.append({"index": index, "reason": "duplicate_source_id", "raw": item})
             continue
-        seen.add(record["id"])
+        origin = record["origin"]
+        value = origin["value"]
+        if origin["kind"] == "url":
+            parsed = urlsplit(value)
+            host = (parsed.hostname or "").casefold()
+            port = parsed.port
+            default_port = (parsed.scheme.casefold() == "https" and port == 443) or (
+                parsed.scheme.casefold() == "http" and port == 80
+            )
+            authority = host if port is None or default_port else f"{host}:{port}"
+            value = f"{parsed.scheme.casefold()}://{authority}{parsed.path or '/'}"
+            if parsed.query:
+                value += f"?{parsed.query}"
+        else:
+            value = Path(value).as_posix()
+        fingerprint = (record["domain"], record["format"], value)
+        if fingerprint in seen_origins:
+            quarantine.append({"index": index, "reason": "duplicate_source_origin", "raw": item})
+            continue
+        seen_ids.add(record["id"])
+        seen_origins.add(fingerprint)
         accepted.append(record)
     accepted.sort(key=lambda source: (source["priority"], source["id"]))
     return accepted, quarantine
@@ -216,8 +238,6 @@ def parse_source_payload(source: dict, payload: bytes | str | Path, *, source_re
         if not isinstance(records, list):
             raise ValueError("JSON source must contain a records or items array")
         return records, []
-    if fmt == "vod_catalog":
-        raise ValueError("VOD catalog adapter requires a checked-out repository root; use parse_vod_catalog")
     raise ValueError("No adapter registered for format")
 
 
