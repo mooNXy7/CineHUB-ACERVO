@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from acervo_v2.importers import parse_source_registry
+from acervo_v2.importers import parse_epg_sources, parse_source_registry
 from source_registry import (
     load_registry, normalize_source, parse_source_payload,
     validate_resolved_addresses, validate_source_url,
@@ -273,6 +273,15 @@ class SourceRegistryTests(unittest.TestCase):
         record, error = normalize_source({**base, "url": "https://other.example.test/feed.m3u"})
         self.assertIsNone(record)
         self.assertEqual(error, "origin_url_mismatch")
+
+
+    def test_legacy_epg_source_parser_emits_required_provider_field(self):
+        records, quarantine = parse_epg_sources({"sources": [{
+            "id": "epg-example", "name": "EPG Example", "format": "xmltv",
+            "url": "https://epg.example.test/feed.xml", "enabled": False,
+        }]})
+        self.assertEqual(quarantine, [])
+        self.assertEqual(records[0]["provider"], "EPG Example")
 
 if __name__ == "__main__":
     unittest.main()
