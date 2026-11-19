@@ -7,7 +7,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from acervo_v2.importers import parse_source_registry\nfrom source_registry import (
+from acervo_v2.importers import parse_source_registry
+from source_registry import (
     load_registry, normalize_source, parse_source_payload,
     validate_resolved_addresses, validate_source_url,
 )
@@ -89,6 +90,31 @@ class SourceRegistryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "explicit adapter"):
             parse_source_payload(source, "Filme|2020|https://vod.example.test/movie.m3u8")
 
+
+
+    def test_central_registry_loads_and_keeps_pending_sources_disabled(self):
+        accepted, quarantine = load_registry(ROOT / "sources/sources.json")
+        self.assertGreaterEqual(len(accepted), 5)
+        self.assertEqual(quarantine, [])
+        pluto = next(item for item in accepted if item["id"] == "pluto-br-xmltv")
+        self.assertEqual(pluto["status"], "pending_review")
+        self.assertFalse(pluto["enabled"])
+
+    def test_canonical_source_parser_preserves_registry_lifecycle_metadata(self):
+        document = {"schema_version": 1, "sources": [{
+            "id": "source-example", "domain": "channels", "category": "channels",
+            "format": "m3u", "url": "https://feed.example.test/list.m3u",
+            "origin": {"kind": "url", "value": "https://feed.example.test/list.m3u"},
+            "enabled": True, "status": "active", "priority": 4,
+            "language": "pt-BR", "region": "BR",
+            "authorization": {"status": "approved"},
+            "update_frequency": "daily", "error_history": [],
+        }]}
+        records, quarantine = parse_source_registry(document)
+        self.assertEqual(quarantine, [])
+        self.assertEqual(records[0]["status"], "active")
+        self.assertEqual(records[0]["authorization"]["status"], "approved")
+        self.assertEqual(records[0]["language"], "pt-BR")
 
 if __name__ == "__main__":
     unittest.main()
