@@ -177,5 +177,29 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertNotIn("do-not-log", serialized)
         self.assertIn("[REDACTED]", serialized)
 
+
+    def test_local_m3u_source_is_loaded_from_inside_repository(self):
+        source = {
+            "id": "public-brazil-broadcasters", "domain": "channels", "format": "m3u",
+            "origin": {"kind": "repository_path", "value": "sources/m3u/public-brazil.m3u"},
+            "enabled": True, "status": "active",
+        }
+        records, quarantine = parse_source_payload(source)
+        self.assertGreaterEqual(len(records), 5)
+        self.assertEqual(quarantine, [])
+
+    def test_missing_local_source_file_is_quarantined(self):
+        doc = {"schema_version": 1, "sources": [{
+            "id": "missing-local", "domain": "channels", "format": "m3u",
+            "origin": {"kind": "repository_path", "value": "sources/m3u/does-not-exist.m3u"},
+            "enabled": True,
+        }]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "sources.json"
+            path.write_text(json.dumps(doc), encoding="utf-8")
+            accepted, quarantine = load_registry(path)
+        self.assertEqual(accepted, [])
+        self.assertEqual(quarantine[0]["reason"], "repository_source_missing_or_unsafe")
+
 if __name__ == "__main__":
     unittest.main()
