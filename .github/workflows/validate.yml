@@ -1,8 +1,8 @@
-name: Validate ACERVO V2
+name: Validate ACERVO V3
 
 on:
   push:
-    branches: [main, master, develop/acervo-v2]
+    branches: [main, master, develop/acervo-v2, develop/acervo-v3]
   pull_request:
   workflow_dispatch:
 
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: acervo-v2-validation-${{ github.ref }}
+  group: acervo-v3-validation-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -35,12 +35,12 @@ jobs:
       - name: Build full canonical candidate from local catalog
         env:
           SOURCE_DATE_EPOCH: "1760000000"
-        run: python scripts/build_candidate_catalog.py --root . --output "${{ runner.temp }}/acervo-v2-candidate"
+        run: python scripts/build_candidate_catalog.py --root . --output "${{ runner.temp }}/acervo-v3-candidate"
       - name: Verify full candidate build idempotence byte for byte
         env:
           SOURCE_DATE_EPOCH: "1760000000"
-          CANDIDATE_FIRST: ${{ runner.temp }}/acervo-v2-candidate
-          CANDIDATE_SECOND: ${{ runner.temp }}/acervo-v2-candidate-repeat
+          CANDIDATE_FIRST: ${{ runner.temp }}/acervo-v3-candidate
+          CANDIDATE_SECOND: ${{ runner.temp }}/acervo-v3-candidate-repeat
           IDEMPOTENCE_REPORT: ${{ runner.temp }}/candidate-idempotence.json
         run: |
           python scripts/build_candidate_catalog.py --root . --output "$CANDIDATE_SECOND"
@@ -64,17 +64,17 @@ jobs:
           print(json.dumps({"idempotent": True, "files_compared": len(left)}, sort_keys=True))
           PY
       - name: Validate canonical candidate against schemas
-        run: python scripts/validate_schemas.py --candidate-dir "${{ runner.temp }}/acervo-v2-candidate"
+        run: python scripts/validate_schemas.py --candidate-dir "${{ runner.temp }}/acervo-v3-candidate"
       - name: Capture baseline audit
         if: always()
         run: python scripts/audit_baseline.py --output "${{ runner.temp }}/baseline"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: acervo-v2-validation-${{ github.sha }}
+          name: acervo-v3-validation-${{ github.sha }}
           path: |
             ${{ runner.temp }}/baseline/
-            ${{ runner.temp }}/acervo-v2-candidate/
+            ${{ runner.temp }}/acervo-v3-candidate/
             ${{ runner.temp }}/candidate-idempotence.json
           if-no-files-found: warn
           retention-days: 14
