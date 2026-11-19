@@ -30,7 +30,8 @@
       "credentials_ref": null,
       "options": {},
       "license": "Links de transmissão publicados nos domínios oficiais das emissoras; direitos audiovisuais pertencem aos respectivos titulares.",
-      "notes": "Lista curada pelo CineHUB com TV Brasil, Canal Gov, Canal Educação, Canal Libras e TV Câmara. URLs HTTPS oficiais; disponibilidade de reprodução deve continuar sendo monitorada. A mídia não é hospedada pelo CineHUB."
+      "notes": "Lista curada pelo CineHUB com TV Brasil, Canal Gov, Canal Educação, Canal Libras e TV Câmara. URLs HTTPS oficiais; disponibilidade de reprodução deve continuar sendo monitorada. A mídia não é hospedada pelo CineHUB.",
+      "provider": "CineHUB ACERVO — curadoria de emissoras públicas"
     },
     {
       "id": "catalog-channels-json",
@@ -60,7 +61,8 @@
       "options": {
         "role": "baseline_snapshot"
       },
-      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente."
+      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente.",
+      "provider": "CineHUB ACERVO"
     },
     {
       "id": "catalog-radios-json",
@@ -90,7 +92,8 @@
       "options": {
         "role": "baseline_snapshot"
       },
-      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente."
+      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente.",
+      "provider": "CineHUB ACERVO"
     },
     {
       "id": "catalog-vod-index",
@@ -120,7 +123,8 @@
       "options": {
         "role": "baseline_snapshot"
       },
-      "notes": "Manifesto local de filmes, séries, animes e doramas; o parser deve resolver apenas caminhos internos contidos no repositório."
+      "notes": "Manifesto local de filmes, séries, animes e doramas; o parser deve resolver apenas caminhos internos contidos no repositório.",
+      "provider": "CineHUB ACERVO"
     },
     {
       "id": "fixture-radio-txt-two-column",
@@ -150,7 +154,8 @@
       "options": {
         "test_only": true
       },
-      "notes": "Fixture de parser; não é uma fonte operacional nem conteúdo de produção."
+      "notes": "Fixture de parser; não é uma fonte operacional nem conteúdo de produção.",
+      "provider": "CineHUB ACERVO — fixture de teste"
     },
     {
       "id": "pluto-br-xmltv",
@@ -181,7 +186,8 @@
       "credentials_ref": null,
       "match_strategy": "pluto_id",
       "options": {},
-      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos.",
+      "provider": "Pluto TV Brasil"
     },
     {
       "id": "brazil-tv-epg",
@@ -212,7 +218,8 @@
       "credentials_ref": null,
       "match_strategy": "normalized_name_with_aliases",
       "options": {},
-      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos.",
+      "provider": "EPG Brasil — catálogo combinado"
     },
     {
       "id": "iptv-epg-br",
@@ -243,7 +250,8 @@
       "credentials_ref": null,
       "match_strategy": "normalized_name_with_aliases",
       "options": {},
-      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos.",
+      "provider": "IPTV EPG Brasil"
     },
     {
       "id": "open-epg-br",
@@ -274,7 +282,8 @@
       "credentials_ref": null,
       "match_strategy": "normalized_name_with_aliases",
       "options": {},
-      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos.",
+      "provider": "Open EPG Brasil"
     }
   ],
   "_instructions": "Registro central V3. Formatos suportados: m3u, json, txt, xmltv e vod_catalog. Registrar apenas fontes com origem rastreável; itens pending_review/disabled não devem ser importados. credentials_ref contém somente o nome de um secret/proxy, nunca o valor."
