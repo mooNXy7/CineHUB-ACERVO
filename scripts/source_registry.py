@@ -180,6 +180,19 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
 
 
 
+def resolve_local_source_path(value: str, repository_root: Path = ROOT) -> Path:
+    """Resolve a repository source path and reject missing files or symlink escapes."""
+    root = repository_root.resolve()
+    candidate = (root / value).resolve(strict=True)
+    try:
+        candidate.relative_to(root)
+    except ValueError as exc:
+        raise ValueError("repository_path_outside_root") from exc
+    if not candidate.is_file():
+        raise ValueError("repository_source_not_file")
+    return candidate
+
+
 def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     try:
         document = json.loads(path.read_text(encoding="utf-8"))
@@ -201,6 +214,13 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
             continue
         origin = record["origin"]
         value = origin["value"]
+        if origin["kind"] == "repository_path":
+            try:
+                resolve_local_source_path(value)
+            except (OSError, ValueError):
+                quarantine.append({"index": index, "reason": "repository_source_missing_or_unsafe",
+                                   "raw": redact_sensitive(item)})
+                continue
         if origin["kind"] == "url":
             parsed = urlsplit(value)
             host = (parsed.hostname or "").casefold()
@@ -226,7 +246,7 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     return accepted, quarantine
 
 
-def parse_source_payload(source: dict, payload: bytes | str | Path, *, source_ref: str | None = None,
+def parse_source_payload(source: dict, payload: bytes | str | Path | None = None, *, source_ref: str | None = None,
                          repository_root: Path | None = None):
     """Dispatch to a format adapter; parsing remains offline and never follows source URLs."""
     from acervo_v2.importers import (
@@ -238,10 +258,19 @@ def parse_source_payload(source: dict, payload: bytes | str | Path, *, source_re
     source_id = source["id"]
     ref = source_ref or source.get("origin", {}).get("value", source_id)
     fmt, domain = source["format"], source["domain"]
+    root = repository_root or ROOT
+    origin = source.get("origin") or {}
     if fmt == "vod_catalog":
-        root = repository_root or ROOT
+        if origin.get("kind") != "repository_path" or origin.get("value") != "catalog/vod/index.json":
+            raise ValueError("VOD catalog source must reference catalog/vod/index.json")
+        resolve_local_source_path(origin["value"], Path(root))
         return parse_vod_catalog(Path(root), source_id)
-    text = payload.decode("utf-8-sig") if isinstance(payload, bytes) and fmt != "xmltv" else payload
+    if payload is None:
+        if origin.get("kind") != "repository_path":
+            raise ValueError("remote source payload must be supplied by a controlled fetcher")
+        payload = resolve_local_source_path(origin["value"], Path(root)).read_bytes()
+    text = payload.read_bytes() if isinstance(payload, Path) else payload
+    text = text.decode("utf-8-sig") if isinstance(text, bytes) and fmt != "xmltv" else text
     if fmt == "m3u":
         if not isinstance(text, str):
             raise TypeError("M3U payload must be text")
