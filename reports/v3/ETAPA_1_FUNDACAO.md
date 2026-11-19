@@ -33,7 +33,15 @@ Não foram recriados diretórios ou catálogos apenas para imitar a árvore ilus
 
 ## Validação
 
-Inspeção remota dos arquivos e comparação de refs concluídas. A execução integral dos comandos locais/CI ainda precisa de evidência de execução na V3; não declarar os testes como aprovados apenas pela leitura dos workflows.
+<badge>Execução integral aprovada</badge>
+
+- Run 1016: [execução completa](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44441395274), concluída com sucesso na branch `develop/acervo-v3`.
+- Commit validado: `d9fa0cf500dc6f1d2f40ab7e7af742367e277df6`.
+- Todos os passos do workflow passaram: validação do catálogo sem mutação, schemas, testes offline, compilação, build integral, idempotência byte a byte, validação da candidata, auditoria e upload do artefato.
+- Artefato: [acervo-v3-validation-d9fa0cf...](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44441395274).
+- O responsável solicitou manualmente a execução porque o fluxo manual não estava claro; o workflow também está configurado para disparar em push na V3.
+
+A Etapa 1 está **CONCLUÍDA**: a branch foi preparada, os comandos reproduzíveis foram executados em CI e a validação integral confirmou o build idempotente. O Run 1030, posterior, também voltou a validar o estado completo com sucesso.
 
 Comandos cobertos pelo guia:
 - `python scripts/validate_catalog.py`
