@@ -168,18 +168,18 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     return accepted, quarantine
 
 
-def parse_source_payload(source: dict, payload: bytes | str, *, source_ref: str | None = None):
+def parse_source_payload(source: dict, payload: bytes | str | Path, *, source_ref: str | None = None,\n                         repository_root: Path | None = None):
     """Dispatch to a format adapter; parsing remains offline and never follows source URLs."""
     from acervo_v2.importers import (
         parse_channels_json, parse_m3u, parse_radios_json, parse_radios_text,
-        parse_vod_reference_movies, parse_vod_reference_series,
+        parse_vod_reference_movies, parse_vod_reference_series, parse_vod_catalog,
     )
     from acervo_v2.xmltv import parse_xmltv
 
     source_id = source["id"]
     ref = source_ref or source.get("origin", {}).get("value", source_id)
     fmt, domain = source["format"], source["domain"]
-    text = payload.decode("utf-8-sig") if isinstance(payload, bytes) and fmt != "xmltv" else payload
+    if fmt == "vod_catalog":\n        root = repository_root or ROOT\n        return parse_vod_catalog(Path(root), source_id)\n    text = payload.decode("utf-8-sig") if isinstance(payload, bytes) and fmt != "xmltv" else payload
     if fmt == "m3u":
         if not isinstance(text, str):
             raise TypeError("M3U payload must be text")
