@@ -15,7 +15,8 @@ DOMAINS = {"vod", "channels", "radios", "epg", "logos"}
 FORMATS = {"m3u", "json", "txt", "xmltv", "vod_catalog"}
 SENSITIVE_QUERY_KEYS = {
     "access_token", "api_key", "apikey", "auth", "authorization", "cookie",
-    "key", "password", "passwd", "secret", "signature", "token",
+    "key", "password", "passwd", "secret", "signature", "token", "client_secret",
+    "client_id_secret", "session", "sig", "x-api-key",
 }
 
 
@@ -34,6 +35,7 @@ def validate_source_url(value: object, *, allow_http: bool = True) -> tuple[bool
             return False, "unsupported_scheme"
         if not parsed.hostname:
             return False, "missing_host"
+        _ = parsed.port  # Force validation of malformed/out-of-range ports.
         if parsed.username is not None or parsed.password is not None:
             return False, "embedded_credentials"
         host = parsed.hostname.rstrip(".").casefold()
@@ -69,6 +71,39 @@ def validate_resolved_addresses(addresses: list[str]) -> tuple[bool, str]:
         if not address.is_global or address.is_multicast:
             return False, "resolved_non_public_address"
     return True, "ok"
+
+
+
+def redact_sensitive(value: object) -> object:
+    """Return a JSON-safe copy with credential-like fields and URL query values redacted."""
+    sensitive = {"access_token", "api_key", "apikey", "auth", "authorization",
+                 "client_secret", "cookie", "key", "password", "passwd",
+                 "secret", "session", "signature", "sig", "token"}
+    if isinstance(value, dict):
+        return {
+            key: "[REDACTED]" if str(key).casefold().replace("-", "_") in sensitive
+            else redact_sensitive(item)
+            for key, item in value.items()
+        }
+    if isinstance(value, list):
+        return [redact_sensitive(item) for item in value]
+    if isinstance(value, str) and value.strip().lower().startswith(("http://", "https://")):
+        try:
+            parsed = urlsplit(value)
+            host = parsed.hostname or ""
+            if parsed.username is not None or parsed.password is not None:
+                host = "[REDACTED]@" + host
+            query = []
+            for key, item in parse_qsl(parsed.query, keep_blank_values=True):
+                query.append((key, "[REDACTED]" if key.casefold().replace("-", "_") in sensitive else item))
+            from urllib.parse import urlencode, urlunsplit
+            netloc = host
+            if parsed.port:
+                netloc += f":{parsed.port}"
+            return urlunsplit((parsed.scheme, netloc, parsed.path, urlencode(query), parsed.fragment))
+        except ValueError:
+            return "[REDACTED_URL]"
+    return value
 
 
 def normalize_source(item: object) -> tuple[dict | None, str | None]:
@@ -159,10 +194,10 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     for index, item in enumerate(raw_sources):
         record, error = normalize_source(item)
         if error:
-            quarantine.append({"index": index, "reason": error, "raw": item})
+            quarantine.append({"index": index, "reason": error, "raw": redact_sensitive(item)})
             continue
         if record["id"] in seen_ids:
-            quarantine.append({"index": index, "reason": "duplicate_source_id", "raw": item})
+            quarantine.append({"index": index, "reason": "duplicate_source_id", "raw": redact_sensitive(item)})
             continue
         origin = record["origin"]
         value = origin["value"]
@@ -181,10 +216,11 @@ def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
             value = Path(value).as_posix()
         fingerprint = (record["domain"], record["format"], value)
         if fingerprint in seen_origins:
-            quarantine.append({"index": index, "reason": "duplicate_source_origin", "raw": item})
+            quarantine.append({"index": index, "reason": "duplicate_source_origin", "raw": redact_sensitive(item)})
             continue
         seen_ids.add(record["id"])
         seen_origins.add(fingerprint)
+        record["raw"] = redact_sensitive(record["raw"])
         accepted.append(record)
     accepted.sort(key=lambda source: (source["priority"], source["id"]))
     return accepted, quarantine
