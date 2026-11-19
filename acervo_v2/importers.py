@@ -14,7 +14,7 @@ from urllib.parse import parse_qsl, urlsplit
 
 PARSER_VERSION = "1.0.0"
 SENSITIVE_QUERY_KEYS = {"token", "access_token", "auth", "authorization", "password", "passwd",
-                        "username", "user", "key", "api_key", "apikey", "client_secret", "x-api-key",
+                        "username", "user", "key", "api_key", "apikey", "client_secret", "auth_token", "x-api-key",
                         "signature", "sig", "session", "expires", "cookie"}
 
 
