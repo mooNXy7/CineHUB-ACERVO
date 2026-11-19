@@ -8,9 +8,7 @@ Data: 18/11/2026
 - Branch de trabalho: `develop/acervo-v3` (existe no GitHub).
 - Commit-base da V3: `29cd1c635f4fb5ea3cd29a31e6e20d94d09a1d86`.
 - Esse commit é idêntico ao HEAD de `develop/acervo-v2` no momento da criação.
-- HEAD atual da V3: `a470661e2f702bcc8e2f20e10a8c6ca53839176b`.
-- Comparação viva: V3 está 5 commits à frente e 0 atrás de `develop/acervo-v2`.
-- `main` permanece separada e intocada; HEAD observado durante a inspeção: `430dc8908f209eb26611a67bcc888adf198635a5`. A comparação main → V3 mostra 83 commits à frente e 19 atrás; não houve integração ou alteração da main nesta etapa.
+- `main` permanece separada e intocada; HEAD observado durante a inspeção: `430dc8908f209eb26611a67bcc888adf198635a5`. Não houve integração ou alteração da main nesta etapa.
 
 ## Inventário técnico inicial
 
