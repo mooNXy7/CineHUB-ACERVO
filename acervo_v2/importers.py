@@ -1327,19 +1327,22 @@ def parse_source_registry(document: dict, source_id: str = "source-registry") ->
         if url and not safe_stream_url(url)[0]:
             quarantine.append({"domain": "sources", "reason": "invalid_source_url", "index": index, "raw": item})
             url = None
-        records.append({
+        record = {
             "id": ident, "domain": domain, "name": item.get("name"),
             "format": str(item.get("format") or "unknown"), "url": url or None,
             "url_template": item.get("url_template"), "priority": priority,
             "enabled": bool(item.get("enabled", False)), "license": item.get("license"),
             "match_strategy": item.get("match_strategy"), "provenance": [prov],
-            "origin": origin, "language": item.get("language"), "region": item.get("region"),
-            "authorization": item.get("authorization"), "status": item.get("status"),
-            "update_frequency": item.get("update_frequency"),
             "last_processed_at": item.get("last_processed_at"), "last_error": item.get("last_error"),
             "error_history": item.get("error_history", []), "credentials_ref": item.get("credentials_ref"),
-            "adapter": item.get("adapter"), "options": item.get("options", {}), "raw": item,
-        })
+            "options": item.get("options", {}), "raw": item,
+        }
+        optional_fields = ("origin", "language", "region", "authorization", "status",
+                           "update_frequency", "adapter")
+        for field in optional_fields:
+            if item.get(field) is not None:
+                record[field] = item[field]
+        records.append(record)
     return records, quarantine
 
 def parse_xmltv(payload: bytes | str, source_id: str, source_ref: str = "input.xml",
