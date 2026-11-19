@@ -18,18 +18,6 @@ on:
         required: true
         default: "1"
         type: string
-  push:
-    branches:
-      - audit/acervo-hardening-2026-10
-    paths-ignore:
-      - '.github/enrichment-checkpoint-*.txt'
-      - '.github/tmdb-id-review-trigger-*.txt'
-      - 'catalog/**'
-      - 'reports/**'
-      - 'scripts/**'
-      - 'tests/**'
-      - 'docs/**'
-      - '.github/workflows/**'
 
 permissions:
   contents: write
