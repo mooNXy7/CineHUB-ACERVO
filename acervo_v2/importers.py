@@ -1147,8 +1147,10 @@ def parse_epg_sources(document: dict, source_id: str = "catalog-existing") -> tu
         if not isinstance(item, dict) or not item.get("id"):
             quarantine.append({"domain": "epg", "reason": "missing_source_id", "raw": item})
             continue
-        records.append({"id": str(item["id"]), "domain": "epg", "name": item.get("name"), "type": item.get("type"),
-                        "format": item.get("format"), "url": item.get("url") if item.get("url") and safe_stream_url(item.get("url"))[0] else None,
+        records.append({"id": str(item["id"]), "domain": "epg", "name": item.get("name"),
+                        "provider": str(item.get("provider") or item.get("name") or item["id"]),
+                        "type": item.get("type"), "format": item.get("format"),
+                        "url": item.get("url") if item.get("url") and safe_stream_url(item.get("url"))[0] else None,
                         "url_template": item.get("url_template"), "priority": item.get("priority", 100),
                         "enabled": bool(item.get("enabled", False)), "match_strategy": item.get("match_strategy"),
                         "provenance": [prov], "raw": item})
