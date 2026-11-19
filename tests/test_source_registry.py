@@ -201,5 +201,52 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertEqual(accepted, [])
         self.assertEqual(quarantine[0]["reason"], "repository_source_missing_or_unsafe")
 
+
+    def test_json_channel_and_radio_adapters_load_local_catalogs(self):
+        channels, channel_quarantine = parse_source_payload({
+            "id": "local-channels", "domain": "channels", "format": "json",
+            "origin": {"kind": "repository_path", "value": "catalog/channels/channels.json"},
+        })
+        radios, radio_quarantine = parse_source_payload({
+            "id": "local-radios", "domain": "radios", "format": "json",
+            "origin": {"kind": "repository_path", "value": "catalog/radios/radios.json"},
+        })
+        self.assertGreater(len(channels), 0)
+        self.assertGreater(len(radios), 0)
+        self.assertEqual(channel_quarantine, [])
+        self.assertEqual(radio_quarantine, [])
+
+    def test_txt_radio_and_vod_adapters_load_their_declared_variants(self):
+        radios, radio_quarantine = parse_source_payload({
+            "id": "fixture-radio", "domain": "radios", "format": "txt",
+            "adapter": "radio_text",
+            "origin": {"kind": "repository_path", "value": "tests/fixtures/canonical/radios-two-column.txt"},
+        })
+        movies, movie_quarantine = parse_source_payload({
+            "id": "fixture-movies", "domain": "vod", "format": "txt",
+            "adapter": "vod_movies",
+            "origin": {"kind": "repository_path", "value": "tests/fixtures/canonical/vod-movies.txt"},
+        })
+        series, series_quarantine = parse_source_payload({
+            "id": "fixture-series", "domain": "vod", "format": "txt",
+            "adapter": "vod_series",
+            "origin": {"kind": "repository_path", "value": "tests/fixtures/canonical/vod-series.txt"},
+        })
+        self.assertGreater(len(radios), 0)
+        self.assertGreater(len(movies), 0)
+        self.assertGreater(len(series), 0)
+        self.assertEqual(radio_quarantine, [])
+        self.assertEqual(movie_quarantine, [])
+        self.assertEqual(series_quarantine, [])
+
+    def test_xmltv_adapter_parses_valid_records_and_quarantines_invalid_programme(self):
+        channels, programmes, quarantine = parse_source_payload({
+            "id": "fixture-xmltv", "domain": "epg", "format": "xmltv",
+            "origin": {"kind": "repository_path", "value": "tests/fixtures/canonical/sample.xml"},
+        })
+        self.assertEqual(len(channels), 1)
+        self.assertEqual(len(programmes), 1)
+        self.assertEqual([item["reason"] for item in quarantine], ["invalid_programme"])
+
 if __name__ == "__main__":
     unittest.main()
