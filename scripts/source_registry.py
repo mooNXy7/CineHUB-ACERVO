@@ -16,7 +16,7 @@ FORMATS = {"m3u", "json", "txt", "xmltv", "vod_catalog"}
 SENSITIVE_QUERY_KEYS = {
     "access_token", "api_key", "apikey", "auth", "authorization", "cookie",
     "key", "password", "passwd", "secret", "signature", "token", "client_secret",
-    "client_id_secret", "session", "sig", "x_api_key",
+    "auth_token", "client_id_secret", "session", "sig", "x_api_key", "x-api-key",
 }
 
 
@@ -77,7 +77,7 @@ def validate_resolved_addresses(addresses: list[str]) -> tuple[bool, str]:
 def redact_sensitive(value: object) -> object:
     """Return a JSON-safe copy with credential-like fields and URL query values redacted."""
     sensitive = {"access_token", "api_key", "apikey", "auth", "authorization",
-                 "client_secret", "cookie", "key", "password", "passwd",
+                 "auth_token", "client_secret", "cookie", "key", "password", "passwd",
                  "secret", "session", "signature", "sig", "token"}
     if isinstance(value, dict):
         return {
