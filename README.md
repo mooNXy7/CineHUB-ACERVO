@@ -35,7 +35,7 @@ Preservar estruturas úteis existentes. Dados brutos, staging, registros canôni
 
 ## Desenvolvimento V3
 
-Trabalhe somente na branch `develop/acervo-v3`. Não faça push, merge, rebase ou reset em `main), nem altere consumidores TV/Mobile/Web durante a construção.
+Trabalhe somente na branch `develop/acervo-v3`. Não faça push, merge, rebase ou reset em `main`, nem altere consumidores TV/Mobile/Web durante a construção.
 
 Consulte [docs/DEVELOPMENT_V3.md](docs/DEVELOPMENT_V3.md) para checkout, dependências, validação offline, build de candidato e limites de publicação.
 
