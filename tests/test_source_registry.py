@@ -46,6 +46,7 @@ class SourceRegistryTests(unittest.TestCase):
         record, error = normalize_source(legacy)
         self.assertIsNone(error)
         self.assertEqual(record["domain"], "channels")
+        self.assertEqual(record["provider"], "Emissoras públicas")
         self.assertEqual(record["origin"]["kind"], "url")
         self.assertEqual(record["authorization"]["terms"], "Termos públicos")
         self.assertTrue(record["enabled"])
@@ -115,6 +116,28 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertEqual(records[0]["status"], "active")
         self.assertEqual(records[0]["authorization"]["status"], "approved")
         self.assertEqual(records[0]["language"], "pt-BR")
+
+
+    def test_registry_quarantines_duplicate_origins_even_with_different_ids(self):
+        doc = {"schema_version": 1, "sources": [
+            {"id": "source-alpha", "domain": "channels", "format": "m3u",
+             "origin": {"kind": "url", "value": "https://FEED.example.test:443/list.m3u"},
+             "enabled": True},
+            {"id": "source-beta", "domain": "channels", "format": "m3u",
+             "origin": {"kind": "url", "value": "https://feed.example.test/list.m3u"},
+             "enabled": True},
+        ]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "sources.json"
+            path.write_text(json.dumps(doc), encoding="utf-8")
+            accepted, quarantine = load_registry(path)
+        self.assertEqual([item["id"] for item in accepted], ["source-alpha"])
+        self.assertEqual(quarantine[0]["reason"], "duplicate_source_origin")
+
+    def test_central_registry_records_provider_for_every_source(self):
+        accepted, quarantine = load_registry(ROOT / "sources/sources.json")
+        self.assertEqual(quarantine, [])
+        self.assertTrue(all(item["provider"].strip() for item in accepted))
 
 if __name__ == "__main__":
     unittest.main()
