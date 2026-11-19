@@ -250,18 +250,32 @@ class SourceRegistryTests(unittest.TestCase):
 
 
     def test_vod_catalog_adapter_uses_only_the_declared_local_manifest(self):
-        records, quarantine = parse_source_payload({
-            "id": "catalog-vod", "domain": "vod", "format": "vod_catalog",
-            "origin": {"kind": "repository_path", "value": "catalog/vod/index.json"},
-        })
-        self.assertGreater(len(records), 0)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "catalog/vod/index").mkdir(parents=True)
+            (root / "catalog/vod/details/movies").mkdir(parents=True)
+            (root / "catalog/vod/index.json").write_text(json.dumps({
+                "categories": {"movies": {"index_path": "catalog/vod/index/movies.json"}}
+            }), encoding="utf-8")
+            (root / "catalog/vod/index/movies.json").write_text(json.dumps([{
+                "id": "movie-local", "title": "Filme Local",
+                "detail_path": "catalog/vod/details/movies/movie.json"
+            }]), encoding="utf-8")
+            (root / "catalog/vod/details/movies/movie.json").write_text(json.dumps([{
+                "id": "movie-local", "title": "Filme Local", "type": "movie",
+                "year": "2020", "sources": [{"url": "https://vod.example.test/a.m3u8"}]
+            }]), encoding="utf-8")
+            records, quarantine = parse_source_payload({
+                "id": "catalog-vod", "domain": "vod", "format": "vod_catalog",
+                "origin": {"kind": "repository_path", "value": "catalog/vod/index.json"},
+            }, repository_root=root)
+        self.assertEqual(records[0]["id"], "movie-local")
         self.assertEqual(quarantine, [])
         with self.assertRaisesRegex(ValueError, "catalog/vod/index.json"):
             parse_source_payload({
                 "id": "wrong-vod", "domain": "vod", "format": "vod_catalog",
                 "origin": {"kind": "repository_path", "value": "catalog/channels/channels.json"},
             })
-
 
     def test_source_rejects_credential_values_and_conflicting_origin_urls(self):
         base = {"id": "source-credential", "domain": "channels", "format": "m3u",
