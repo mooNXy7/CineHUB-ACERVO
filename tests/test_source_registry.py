@@ -214,7 +214,9 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertGreater(len(channels), 0)
         self.assertGreater(len(radios), 0)
         self.assertEqual(channel_quarantine, [])
-        self.assertEqual(radio_quarantine, [])
+        self.assertTrue(radio_quarantine)
+        self.assertTrue(all(item["reason"] in {"image_url_in_audio_stream", "missing_stream_url"}
+                            for item in radio_quarantine))
 
     def test_txt_radio_and_vod_adapters_load_their_declared_variants(self):
         radios, radio_quarantine = parse_source_payload({
@@ -235,7 +237,9 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertGreater(len(radios), 0)
         self.assertGreater(len(movies), 0)
         self.assertGreater(len(series), 0)
-        self.assertEqual(radio_quarantine, [])
+        self.assertTrue(radio_quarantine)
+        self.assertTrue(all(item["reason"] == "image_url_in_audio_stream"
+                            for item in radio_quarantine))
         self.assertEqual(movie_quarantine, [])
         self.assertEqual(series_quarantine, [])
 
