@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from source_registry import (
+from acervo_v2.importers import parse_source_registry\nfrom source_registry import (
     load_registry, normalize_source, parse_source_payload,
     validate_resolved_addresses, validate_source_url,
 )
