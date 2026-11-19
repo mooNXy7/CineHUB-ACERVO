@@ -33,7 +33,7 @@ Não foram recriados diretórios ou catálogos apenas para imitar a árvore ilus
 
 ## Validação
 
-<badge>Execução integral aprovada</badge>
+**Execução integral aprovada.**
 
 - Run 1016: [execução completa](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44441395274), concluída com sucesso na branch `develop/acervo-v3`.
 - Commit validado: `d9fa0cf500dc6f1d2f40ab7e7af742367e277df6`.
