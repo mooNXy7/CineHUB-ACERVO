@@ -248,5 +248,19 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertEqual(len(programmes), 1)
         self.assertEqual([item["reason"] for item in quarantine], ["invalid_programme"])
 
+
+    def test_vod_catalog_adapter_uses_only_the_declared_local_manifest(self):
+        records, quarantine = parse_source_payload({
+            "id": "catalog-vod", "domain": "vod", "format": "vod_catalog",
+            "origin": {"kind": "repository_path", "value": "catalog/vod/index.json"},
+        })
+        self.assertGreater(len(records), 0)
+        self.assertEqual(quarantine, [])
+        with self.assertRaisesRegex(ValueError, "catalog/vod/index.json"):
+            parse_source_payload({
+                "id": "wrong-vod", "domain": "vod", "format": "vod_catalog",
+                "origin": {"kind": "repository_path", "value": "catalog/channels/channels.json"},
+            })
+
 if __name__ == "__main__":
     unittest.main()
