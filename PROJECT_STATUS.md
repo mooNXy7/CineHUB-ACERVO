@@ -1,5 +1,19 @@
 # CineHUB-ACERVO — Estado do Projeto
 
+## Estado vigente — ACERVO V3
+
+- Branch ativa: `develop/acervo-v3`. Não usar os registros históricos V2 abaixo como instruções de execução da V3.
+- Etapa 1 — Fundação: **CONCLUÍDA**, validada no Run 1016 (sucesso; build integral, idempotência e artefato).
+- Etapa 2 — Sistema Central de Fontes e Provedores: implementação consolidada; aceite final aguardando CI verde do HEAD mais recente.
+- Relatório Etapa 1: [reports/v3/ETAPA_1_FUNDACAO.md](reports/v3/ETAPA_1_FUNDACAO.md).
+- Relatório Etapa 2: [reports/v3/ETAPA_2_FONTES_PROVEDORES.md](reports/v3/ETAPA_2_FONTES_PROVEDORES.md).
+- Última evidência integral anterior: [Run 1030](https://github.com/mooNXy7/CineHUB-ACERVO/actions/runs/44443201286), sucesso.
+- Segurança: nenhuma alteração em `main`, V2 ou consumidores; sem fetch remoto, publicação ou ativação automática.
+- Próximo passo: confirmar CI integral no HEAD mais recente; somente então encerrar Etapa 2 e avançar para Etapa 3.
+
+---
+
+
 ## Histórico de validação base — Run 1002
 
 - Repositório: `mooNXy7/CineHUB-ACERVO`.
