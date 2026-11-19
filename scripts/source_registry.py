@@ -16,7 +16,7 @@ FORMATS = {"m3u", "json", "txt", "xmltv", "vod_catalog"}
 SENSITIVE_QUERY_KEYS = {
     "access_token", "api_key", "apikey", "auth", "authorization", "cookie",
     "key", "password", "passwd", "secret", "signature", "token", "client_secret",
-    "client_id_secret", "session", "sig", "x-api-key",
+    "client_id_secret", "session", "sig", "x_api_key",
 }
 
 
@@ -135,6 +135,20 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
         path = Path(origin_value)
         if path.is_absolute() or ".." in path.parts or "\\" in origin_value or chr(0) in origin_value:
             return None, "unsafe_repository_path"
+    if origin["kind"] == "url" and item.get("url") and item["url"] != origin_value:
+        return None, "origin_url_mismatch"
+    enabled_value = item.get("enabled", False)
+    if not isinstance(enabled_value, bool):
+        return None, "enabled_must_be_boolean"
+    credentials_ref = item.get("credentials_ref")
+    if credentials_ref is not None and (
+        not isinstance(credentials_ref, str)
+        or not re.fullmatch(r"[A-Za-z0-9_.-]{1,128}", credentials_ref)
+    ):
+        return None, "invalid_credentials_ref"
+    error_history = item.get("error_history", [])
+    if not isinstance(error_history, list):
+        return None, "invalid_error_history"
     authorization = item.get("authorization")
     if not isinstance(authorization, dict):
         authorization = {
@@ -163,13 +177,13 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
         "language": item.get("language"),
         "region": item.get("region"),
         "authorization": authorization,
-        "enabled": bool(item.get("enabled", status == "active")) and status == "active",
+        "enabled": enabled_value and status == "active",
         "status": status,
         "update_frequency": item.get("update_frequency", "manual"),
         "last_processed_at": item.get("last_processed_at"),
         "last_error": item.get("last_error"),
-        "error_history": item.get("error_history", []),
-        "credentials_ref": item.get("credentials_ref"),
+        "error_history": error_history,
+        "credentials_ref": credentials_ref,
         "adapter": item.get("adapter"),
         "options": item.get("options", {}),
         "license": item.get("license"),
