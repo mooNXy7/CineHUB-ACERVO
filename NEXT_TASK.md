@@ -1,5 +1,20 @@
 # Próxima Tarefa — CineHUB-ACERVO
 
+## Retomada ativa — ACERVO V3
+
+**Trabalhar exclusivamente em `develop/acervo-v3`.** Não aplicar instruções V2 do histórico abaixo à branch V3.
+
+1. Confirmar o resultado do workflow disparado pelo push do HEAD mais recente.
+2. Se verde, registrar SHA, testes, artefato e encerrar Etapa 2 conforme [relatório V3](reports/v3/ETAPA_2_FONTES_PROVEDORES.md).
+3. Em seguida, iniciar somente Etapa 3 do Plano Mestre — Motor de Importação e Normalização.
+4. Se falhar, inspecionar logs, corrigir a causa na V3 e aguardar nova validação.
+5. Não alterar `main`, V2, TV/Mobile/Web/Player, segredos, infraestrutura de produção ou publicação.
+
+Nenhuma ação manual do usuário é necessária enquanto o workflow disparado por push estiver executando. Se não houver execução automática, solicitar manualmente `Validate ACERVO V3` em Actions, branch `develop/acervo-v3`.
+
+---
+
+
 ## Histórico de passagem — Run 1002
 
 - Branch: `develop/acervo-v2`; HEAD confirmado: `5e2150f3c0f48075edacb56b70111304f797d25d`.
