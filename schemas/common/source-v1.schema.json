@@ -8,7 +8,8 @@
     "domain",
     "format",
     "priority",
-    "enabled"
+    "enabled",
+    "provider"
   ],
   "properties": {
     "id": {
@@ -158,6 +159,10 @@
     "options": {
       "type": "object",
       "additionalProperties": true
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
     }
   },
   "additionalProperties": true
