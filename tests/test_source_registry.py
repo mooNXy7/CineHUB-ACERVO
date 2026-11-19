@@ -114,6 +114,8 @@ class SourceRegistryTests(unittest.TestCase):
         records, quarantine = parse_source_registry(document)
         self.assertEqual(quarantine, [])
         self.assertEqual(records[0]["status"], "active")
+        self.assertTrue(records[0]["enabled"])
+        self.assertEqual(records[0]["provider"], "source-example")
         self.assertEqual(records[0]["authorization"]["status"], "approved")
         self.assertEqual(records[0]["language"], "pt-BR")
 
@@ -138,6 +140,42 @@ class SourceRegistryTests(unittest.TestCase):
         accepted, quarantine = load_registry(ROOT / "sources/sources.json")
         self.assertEqual(quarantine, [])
         self.assertTrue(all(item["provider"].strip() for item in accepted))
+
+
+    def test_legacy_importer_never_enables_pending_review_sources(self):
+        document = {"schema_version": 1, "sources": [{
+            "id": "pending-source", "domain": "epg", "format": "xmltv",
+            "url": "https://epg.example.test/feed.xml", "enabled": True,
+            "status": "pending_review", "provider": "Example EPG",
+        }]}
+        records, quarantine = parse_source_registry(document)
+        self.assertEqual(quarantine, [])
+        self.assertFalse(records[0]["enabled"])
+        self.assertEqual(records[0]["provider"], "Example EPG")
+
+    def test_legacy_importer_quarantines_private_urls_instead_of_importing_them(self):
+        document = {"schema_version": 1, "sources": [{
+            "id": "private-source", "domain": "channels", "format": "m3u",
+            "url": "http://192.168.1.10/feed.m3u", "enabled": True,
+        }]}
+        records, quarantine = parse_source_registry(document)
+        self.assertEqual(records, [])
+        self.assertEqual(quarantine[0]["reason"], "non_public_ip")
+
+    def test_quarantine_redacts_secret_values(self):
+        doc = {"schema_version": 1, "sources": [{
+            "id": "secret-source", "domain": "channels", "format": "m3u",
+            "url": "https://feed.example.test/list.m3u?token=do-not-log",
+            "password": "do-not-log-either", "enabled": True,
+        }]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "sources.json"
+            path.write_text(json.dumps(doc), encoding="utf-8")
+            accepted, quarantine = load_registry(path)
+        self.assertEqual(accepted, [])
+        serialized = json.dumps(quarantine)
+        self.assertNotIn("do-not-log", serialized)
+        self.assertIn("[REDACTED]", serialized)
 
 if __name__ == "__main__":
     unittest.main()
