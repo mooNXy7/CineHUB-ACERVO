@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from acervo_v2.importers import parse_epg_sources, parse_source_registry
+from acervo_v2.importers import parse_epg_sources, parse_source_registry, safe_stream_url
 from source_registry import (
     load_registry, normalize_source, parse_source_payload,
     validate_resolved_addresses, validate_source_url,
@@ -282,6 +282,17 @@ class SourceRegistryTests(unittest.TestCase):
         }]})
         self.assertEqual(quarantine, [])
         self.assertEqual(records[0]["provider"], "EPG Example")
+
+
+    def test_sensitive_query_variants_and_malformed_ports_are_rejected(self):
+        for url in (
+            "https://feed.example.test/list.m3u?x-api-key=secret",
+            "https://feed.example.test/list.m3u?auth_token=secret",
+            "https://feed.example.test:99999/list.m3u",
+        ):
+            with self.subTest(url=url):
+                self.assertFalse(validate_source_url(url)[0])
+                self.assertFalse(safe_stream_url(url)[0])
 
 if __name__ == "__main__":
     unittest.main()
