@@ -5,13 +5,277 @@
       "id": "public-brazil-broadcasters",
       "name": "Emissoras públicas oficiais do Brasil",
       "category": "channels",
+      "domain": "channels",
       "url": "https://raw.githubusercontent.com/mooNXy7/CineHUB-ACERVO/main/sources/m3u/public-brazil.m3u",
+      "origin": {
+        "kind": "url",
+        "value": "https://raw.githubusercontent.com/mooNXy7/CineHUB-ACERVO/main/sources/m3u/public-brazil.m3u"
+      },
       "format": "m3u",
+      "adapter": "m3u",
       "enabled": true,
+      "status": "active",
       "priority": 10,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "curated_public_source",
+        "terms": "Links públicos oficiais; direitos audiovisuais pertencem aos respectivos titulares.",
+        "reviewed_at": null
+      },
+      "update_frequency": "manual",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "options": {},
       "license": "Links de transmissão publicados nos domínios oficiais das emissoras; direitos audiovisuais pertencem aos respectivos titulares.",
       "notes": "Lista curada pelo CineHUB com TV Brasil, Canal Gov, Canal Educação, Canal Libras e TV Câmara. URLs HTTPS oficiais; disponibilidade de reprodução deve continuar sendo monitorada. A mídia não é hospedada pelo CineHUB."
+    },
+    {
+      "id": "catalog-channels-json",
+      "name": "Catálogo local de canais (snapshot atual)",
+      "category": "channels",
+      "domain": "channels",
+      "origin": {
+        "kind": "repository_path",
+        "value": "catalog/channels/channels.json"
+      },
+      "format": "json",
+      "adapter": "channels_json",
+      "enabled": true,
+      "status": "active",
+      "priority": 20,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "internal_catalog",
+        "terms": "Dados mantidos no próprio repositório CineHUB."
+      },
+      "update_frequency": "on_catalog_build",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "options": {
+        "role": "baseline_snapshot"
+      },
+      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente."
+    },
+    {
+      "id": "catalog-radios-json",
+      "name": "Catálogo local de rádios (snapshot atual)",
+      "category": "radios",
+      "domain": "radios",
+      "origin": {
+        "kind": "repository_path",
+        "value": "catalog/radios/radios.json"
+      },
+      "format": "json",
+      "adapter": "radios_json",
+      "enabled": true,
+      "status": "active",
+      "priority": 20,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "internal_catalog",
+        "terms": "Dados mantidos no próprio repositório CineHUB."
+      },
+      "update_frequency": "on_catalog_build",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "options": {
+        "role": "baseline_snapshot"
+      },
+      "notes": "Entrada local de referência; não deve sobrescrever o catálogo publicado automaticamente."
+    },
+    {
+      "id": "catalog-vod-index",
+      "name": "Manifesto do catálogo VOD local",
+      "category": "vod",
+      "domain": "vod",
+      "origin": {
+        "kind": "repository_path",
+        "value": "catalog/vod/index.json"
+      },
+      "format": "vod_catalog",
+      "adapter": "vod_catalog",
+      "enabled": true,
+      "status": "active",
+      "priority": 20,
+      "language": null,
+      "region": null,
+      "authorization": {
+        "status": "internal_catalog",
+        "terms": "Dados mantidos no próprio repositório CineHUB."
+      },
+      "update_frequency": "on_catalog_build",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "options": {
+        "role": "baseline_snapshot"
+      },
+      "notes": "Manifesto local de filmes, séries, animes e doramas; o parser deve resolver apenas caminhos internos contidos no repositório."
+    },
+    {
+      "id": "fixture-radio-txt-two-column",
+      "name": "Fixture de teste TXT — rádios (duas colunas)",
+      "category": "radios",
+      "domain": "radios",
+      "origin": {
+        "kind": "repository_path",
+        "value": "tests/fixtures/canonical/radios-two-column.txt"
+      },
+      "format": "txt",
+      "adapter": "radio_text",
+      "enabled": false,
+      "status": "disabled",
+      "priority": 900,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "test_fixture",
+        "terms": "Dados sintéticos/fixture, exclusivamente para testes."
+      },
+      "update_frequency": "never",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "options": {
+        "test_only": true
+      },
+      "notes": "Fixture de parser; não é uma fonte operacional nem conteúdo de produção."
+    },
+    {
+      "id": "pluto-br-xmltv",
+      "name": "Pluto TV Brasil",
+      "category": "epg",
+      "domain": "epg",
+      "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml",
+      "origin": {
+        "kind": "url",
+        "value": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml"
+      },
+      "format": "xmltv",
+      "adapter": "xmltv",
+      "enabled": false,
+      "status": "pending_review",
+      "priority": 5,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "pending_review",
+        "terms": null,
+        "reviewed_at": null
+      },
+      "update_frequency": "manual",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "match_strategy": "pluto_id",
+      "options": {},
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+    },
+    {
+      "id": "brazil-tv-epg",
+      "name": "EPG Brasil — catálogo combinado",
+      "category": "epg",
+      "domain": "epg",
+      "url": "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml",
+      "origin": {
+        "kind": "url",
+        "value": "https://raw.githubusercontent.com/marcoshimselfxd/EPG-Scrapper-BR/main/epg.xml"
+      },
+      "format": "xmltv",
+      "adapter": "xmltv",
+      "enabled": false,
+      "status": "pending_review",
+      "priority": 25,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "pending_review",
+        "terms": null,
+        "reviewed_at": null
+      },
+      "update_frequency": "manual",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "match_strategy": "normalized_name_with_aliases",
+      "options": {},
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+    },
+    {
+      "id": "iptv-epg-br",
+      "name": "IPTV EPG Brasil",
+      "category": "epg",
+      "domain": "epg",
+      "url": "https://iptv-epg.org/files/epg-br.xml",
+      "origin": {
+        "kind": "url",
+        "value": "https://iptv-epg.org/files/epg-br.xml"
+      },
+      "format": "xmltv",
+      "adapter": "xmltv",
+      "enabled": false,
+      "status": "pending_review",
+      "priority": 30,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "pending_review",
+        "terms": null,
+        "reviewed_at": null
+      },
+      "update_frequency": "manual",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "match_strategy": "normalized_name_with_aliases",
+      "options": {},
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
+    },
+    {
+      "id": "open-epg-br",
+      "name": "Open EPG Brasil",
+      "category": "epg",
+      "domain": "epg",
+      "url": "https://www.open-epg.com/files/brazil3.xml",
+      "origin": {
+        "kind": "url",
+        "value": "https://www.open-epg.com/files/brazil3.xml"
+      },
+      "format": "xmltv",
+      "adapter": "xmltv",
+      "enabled": false,
+      "status": "pending_review",
+      "priority": 40,
+      "language": "pt-BR",
+      "region": "BR",
+      "authorization": {
+        "status": "pending_review",
+        "terms": null,
+        "reviewed_at": null
+      },
+      "update_frequency": "manual",
+      "last_processed_at": null,
+      "last_error": null,
+      "error_history": [],
+      "credentials_ref": null,
+      "match_strategy": "normalized_name_with_aliases",
+      "options": {},
+      "notes": "Fonte já referenciada na configuração EPG legada. Centralizada para governança V3; manter desabilitada até revisão de autorização/termos."
     }
   ],
-  "_instructions": "Add only public sources that permit use/redistribution. Fields: id, name, category (channels|vod|radio|epg|logos), url, format (m3u|m3u8|xmltv|json), enabled, priority, license, notes."
+  "_instructions": "Registro central V3. Formatos suportados: m3u, json, txt, xmltv e vod_catalog. Registrar apenas fontes com origem rastreável; itens pending_review/disabled não devem ser importados. credentials_ref contém somente o nome de um secret/proxy, nunca o valor."
 }
