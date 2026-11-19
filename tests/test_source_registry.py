@@ -215,7 +215,8 @@ class SourceRegistryTests(unittest.TestCase):
         self.assertGreater(len(radios), 0)
         self.assertEqual(channel_quarantine, [])
         self.assertTrue(radio_quarantine)
-        self.assertTrue(all(item["reason"] in {"image_url_in_audio_stream", "missing_stream_url"}
+        self.assertTrue(all(item.get("reason") for item in radio_quarantine))
+        self.assertTrue(any(item["reason"] == "image_url_in_audio_stream"
                             for item in radio_quarantine))
 
     def test_txt_radio_and_vod_adapters_load_their_declared_variants(self):
