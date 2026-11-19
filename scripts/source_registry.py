@@ -144,8 +144,8 @@ def normalize_source(item: object) -> tuple[dict | None, str | None]:
     }, None
 
 
-""")
 
+def load_registry(path: Path = REGISTRY_PATH) -> tuple[list[dict], list[dict]]:
     try:
         document = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
